@@ -1,0 +1,51 @@
+documentType: Tutorial
+title: "Első lépések"
+metadata:
+  title: "Első lépések | Microsoft Power BI"
+  description: "Ismerje meg a Power BI szolgáltatást, a benne lévő elemek együttműködését, és azt, hogy a segítségükkel miképpen elemezheti az adatait."
+  audience: Business User
+  level: Beginner
+  nextTutorialHref: gettingdata
+  nextTutorialTitle: "Adatok beolvasása"
+  displayType: one-column
+  author: davidiseminger
+  manager: kfile
+  ms.service: powerbi
+  ms.topic: get-started-article
+  ms.date: 10/27/2017
+  ms.author: davidi
+items:
+- durationInMinutes: 1
+  content: "Ismerje meg a Power BI szolgáltatást, a benne lévő elemek együttműködését, és azt, hogy a segítségükkel miképpen elemezheti az adatait.\n"
+  ms.openlocfilehash: 398c10dfbcd935276b98f3d50df172d6b0d2af48
+  ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+  ms.translationtype: HT
+  ms.contentlocale: hu-HU
+  ms.lasthandoff: 11/15/2017
+- title: "A Power BI bemutatása"
+  durationInMinutes: 5
+  content: >
+    [!INCLUDE [](includes/0-0-what-is-power-bi.md)]
+- title: "A Power BI használata"
+  durationInMinutes: 4
+  content: >
+    > [!Video https://www.youtube.com/embed/1c01r_pAZdk?rel=0]
+
+
+    [!INCLUDE [](includes/0-1-intro-using-power-bi.md)]
+- title: A Power BI elemei
+  durationInMinutes: 6
+  content: >
+    [!INCLUDE [](includes/0-0b-building-blocks-power-bi.md)]
+- title: "A Power BI szolgáltatás gyors áttekintése"
+  durationInMinutes: 9
+  content: >
+    > [!Video https://www.youtube.com/embed/5srP3h3RJf8?rel=0]
+
+
+    [!INCLUDE [](includes/0-3-dashboards-cloud-services.md)]
+- title: "Áttekintés és következő lépések"
+  durationInMinutes: 5
+  content: >
+    [!INCLUDE [](includes/0-4-summary-of-intro-to-power-bi.md)]
+- content: "Ön teljesítette a Microsoft Power BI-oktatócsomag **Első lépések** című fejezetét.\0"

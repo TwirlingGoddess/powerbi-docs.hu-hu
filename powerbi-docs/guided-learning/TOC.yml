@@ -1,0 +1,16 @@
+- name: Első lépések
+  href: 'gettingstarted.yml#step-0'
+- name: Adatok beolvasása
+  href: 'gettingdata.yml#step-0'
+- name: Modellezés
+  href: 'modeling.yml#step-0'
+- name: Vizualizációs elemek
+  href: 'visualizations.yml#step-0'
+- name: Adatok feltárása
+  href: 'exploringdata.yml#step-0'
+- name: A Power BI és az Excel
+  href: 'powerbiandexcel.yml#step-0'
+- name: Közzététel és megosztás
+  href: 'publishingandsharing.yml#step-0'
+- name: Bevezetés a DAX használatába
+  href: 'introductiontodax.yml#step-0'
