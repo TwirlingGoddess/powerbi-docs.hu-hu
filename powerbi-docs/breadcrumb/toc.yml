@@ -1,0 +1,17 @@
+- name: Docs
+  href: /
+  topicHref: /
+  items:
+    - name: Power BI
+      tocHref: /power-bi/
+      topicHref: /power-bi/
+      items:
+        - name: Fejlesztő
+          tocHref: /power-bi/developer/
+          topicHref: /power-bi/developer/
+        - name: Interaktív tanulás
+          tocHref: /power-bi/guided-learning/
+          topicHref: /power-bi/guided-learning/
+        - name: Jelentéskészítő kiszolgáló
+          tocHref: /power-bi/report-server/
+          topicHref: /power-bi/report-server/
