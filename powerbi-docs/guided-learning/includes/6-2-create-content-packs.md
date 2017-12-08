@@ -1,4 +1,4 @@
-Ebben e leckében egy *tartalomcsomagot* fogunk létrehozni a Power BI-ban már meglévő összetevőkkel, majd pedig megosztjuk a munkatársakkal.
+Ebben e leckében egy *tartalomcsomagot* fogunk létrehozni a Power BI-ban már meglévő összetevőkkel, majd pedig megosztjuk a munkatársakkal. 
 
 A **Saját munkaterület** részen található egy irányítópult, az alatta lévő jelentés, és az adatkészlet. Ezeket szeretném a munkatársaimmal egy csomagként megosztani, hogy újra felhasználhassák.
 
