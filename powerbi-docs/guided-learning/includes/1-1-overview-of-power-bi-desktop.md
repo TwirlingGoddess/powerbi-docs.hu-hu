@@ -7,7 +7,7 @@ Ahogyan ebben a tanfolyamban már megszokhatta, a tanulási folyamat a Power BI 
 ## <a name="an-overview-of-power-bi-desktop"></a>A Power BI Desktop áttekintése
 A Power BI Desktop egy olyan eszköz, amely lehetővé teszi az adatokhoz való kapcsolódást, az adattisztítást, valamint az adatok megjelenítését. A Power BI Desktop alkalmazásban adatokhoz kapcsolódhat, majd különböző módon modellezheti és jelenítheti meg azokat. Az üzletiintelligencia-projekteken dolgozó felhasználók többsége az ideje nagy részét a Power BI Desktop használatával tölti.
 
-A Power BI Desktop alkalmazást a [webről](http://go.microsoft.com/fwlink/?LinkID=521662) vagy a Power BI szolgáltatásból töltheti le. Egyszerűen válassza ki a Power BI szolgáltatás jobb felső sarkában lévő lefelé mutató nyilat, majd válassza a Power BI Desktop elemet.
+A **Power BI Desktop** alkalmazást letöltheti a [webről](http://go.microsoft.com/fwlink/?LinkID=521662), alkalmazásként telepítheti a [**Windows Áruházból**](http://aka.ms/pbidesktopstore), vagy letöltheti a Power BI szolgáltatásból is. Ha a **Power BI Desktopot** a szolgáltatásból szeretné letölteni, egyszerűen válassza ki a Power BI szolgáltatás jobb felső sarkában lévő lefelé mutató nyilat, majd válassza a Power BI Desktop elemet.
 
 ![](media/1-1-overview-of-power-bi-desktop/1-1_1.png)
 
