@@ -92,6 +92,8 @@
           href: service-admin-premium-purchase.md
         - name: A Power BI Premium kezelése
           href: service-admin-premium-manage.md
+        - name: Nagy adatkészletek támogatása
+          href: service-premium-large-datasets.md
         - name: Power BI Premium – gyakori kérdések
           href: service-premium-faq.md
         - name: A Power BI Premium kiadási megjegyzései
