@@ -18,10 +18,10 @@ ms.workload: powerbi
 ms.date: 08/10/2017
 ms.author: asaxton
 ms.openlocfilehash: 83613f0ed915a03b65b90d4bf61e37568b922182
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.sourcegitcommit: c2deaff54434da67698a14cc00172a2119ed1a56
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 12/09/2017
 ---
 # <a name="azure-sql-database-with-directquery"></a>Az Azure SQL Database DirectQueryvel
 Ismerje meg, hogyan lehet az Azure SQL Database-hez közvetlenül kapcsolódni, és élő adatok használatával jelentéseket létrehozni. Nem szükséges az adatok a saját forrásukból a Power BI-ba juttatni.
@@ -58,5 +58,5 @@ A teljes szervernevet és adatbázisnevet az Azure Portalon találhatja meg.
 [A DirectQuery használata a Power BI Desktopban](desktop-use-directquery.md)  
 [Első lépések a Power BI használatával](service-get-started.md)  
 [Adatbeolvasás a Power BI-ban](service-get-data.md)  
-További kérdései vannak? [Felteheti őket a Power BI-közösségnek](http://community.powerbi.com/)
+További kérdései vannak? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)
 

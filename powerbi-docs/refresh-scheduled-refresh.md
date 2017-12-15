@@ -14,13 +14,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: powerbi
-ms.date: 09/06/2017
+ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: c8e97f43089f5fd803b8c15ddf60927da7353797
-ms.sourcegitcommit: b3ee37e1587f1269ee7dd9daf1685a06dea3b50c
+ms.openlocfilehash: 2e0b13b950aed0fbecbc183140f6ec4fc9c44978
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/23/2017
+ms.lasthandoff: 12/06/2017
 ---
 # <a name="configuring-scheduled-refresh"></a>Ütemezett frissítés beállítása
 
@@ -120,9 +120,9 @@ Bizonyos adatkészletek ütemezett frissítése eltérő átjárók esetében t�
 [!INCLUDE [refresh-datasources](./includes/refresh-datasources.md)]
 
 ## <a name="troubleshooting"></a>Hibaelhárítás
-Néha előfordulhat, hogy az adatok frissítése nem a várt módon történik. Ez általában az átjáróval kapcsolatos probléma. Vessen egy pillantást az átjáró hibaelhárításával foglalkozó cikkekre, amelyekben eszközöket talál és ismert problémákkal találkozhat.
+Néha az adatok frissítése nem a várt módon történik. Ezt általában egy átjáróval kapcsolatos hiba okozza. Az átjáró-hibaelhárítással kapcsolatos cikkekben találja az eszközöket és az ismert hibákat.
 
-[A helyszíni adatátjáró hibaelhárítása](service-gateway-onprem-tshoot.md)
+[A helyszíni adatátjáróval kapcsolatos hibák elhárítása](service-gateway-onprem-tshoot.md)
 
 [A Power BI Gateway – Personal hibáinak elhárítása](service-admin-troubleshooting-power-bi-personal-gateway.md)
 
@@ -131,7 +131,7 @@ Néha előfordulhat, hogy az adatok frissítése nem a várt módon történik. 
 [Power BI Gateway – Personal](personal-gateway.md)  
 [Helyszíni adatátjáró](service-gateway-onprem.md)  
 [A helyszíni adatátjáró hibaelhárítása](service-gateway-onprem-tshoot.md)  
-[A Power BI Gateway – Personal hibáinak elhárítása](service-admin-troubleshooting-power-bi-personal-gateway.md)  
+[A személyes Power BI Gateway hibáinak elhárítása](service-admin-troubleshooting-power-bi-personal-gateway.md)  
 
-További kérdései vannak? [Kérdezze a Power BI-közösséget!](http://community.powerbi.com/)
+További kérdései vannak? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)
 

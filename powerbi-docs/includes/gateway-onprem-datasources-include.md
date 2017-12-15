@@ -1,8 +1,7 @@
 ## <a name="list-of-available-data-source-types"></a>Elérhető adatforrástípusok listája
 | **Adatforrás** | **Élő lekérdezés/DirectQuery** | **Felhasználó által konfigurált kézi vagy ütemezett frissítés** |
 | --- | --- | --- | --- |
-| Amazon Redshift |Igen |Igen |
-| Táblázatos Analysis Services |Igen |Igen |
+| Analysis Services – táblázatos |Igen |Igen |
 | Többdimenziós Analysis Services |Igen |Igen |
 | Fájl |Nem |Igen |
 | Mappa |Nem |Igen |

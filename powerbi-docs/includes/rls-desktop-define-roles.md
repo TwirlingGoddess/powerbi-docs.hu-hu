@@ -1,10 +1,6 @@
 ## <a name="define-roles-and-rules-within-power-bi-desktop"></a>Szerepkörök és szabályok definiálása a Power BI Desktopban
 A Power BI Desktopban meghatározhat szerepköröket és szabályokat. Amikor közzéteszi a tartalmakat a Power BI-ban, a szerepkör-definíciók is közzé lesznek téve.
 
-Amennyiben szeretné kiaknázni a dinamikus biztonság nyújtotta előnyöket, a kétirányú keresztszűrés engedélyezését be kell kapcsolnia a DirectQueryben. Így a keresztszűrés használata során a biztonsági szűrőt mindkét irányban alkalmazhatja.
-
-![](./media/rls-desktop-define-roles/powerbi-desktop-preview-bi-directional-directquery.png)
-
 Biztonsági szerepkörök definiálásához a következőket teheti.
 
 1. Importálhatja az adatokat a Power BI Desktop-jelentésbe, vagy konfigurálhat egy DirectQuery-kapcsolatot.

@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/06/2017
+ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: fc061d2f8c85a53028e6de82e4a1e21057be6c75
-ms.sourcegitcommit: b3ee37e1587f1269ee7dd9daf1685a06dea3b50c
+ms.openlocfilehash: 0adca4316cbb43a2097133a1346948b79b87bdfd
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/23/2017
+ms.lasthandoff: 12/06/2017
 ---
 # <a name="refresh-a-dataset-created-from-an-excel-workbook-on-a-local-drive"></a>Excel-munkafüzetből létrehozott adatkészlet frissítése helyi meghajtón
 ## <a name="whats-supported"></a>Mi támogatott?
@@ -66,12 +66,12 @@ Ekkor ne felejtse el bejelölni a **Betöltés a megadott helyre** párbeszédpa
 Ezt is megteheti. Ha bármikor a Power Pivotot használja helyszíni vagy online adatforráshoz való kapcsolódásra és az adatok lekérdezésére, az adatok automatikusan betöltődnek az adatmodellbe.
 
 ## <a name="how-do-i-schedule-refresh"></a>Hogyan ütemezhetek frissítést?
-Ha frissítési ütemezést állít be, a Power BI közvetlenül az adatforrásokhoz csatlakozik az adatkészletben található kapcsolati adatokkal és hitelesítő adatokkal a frissített adatok lekérdezéséhez, majd betölti a frissített adatokat az adatkészletbe. A Power BI szolgáltatásban az ezen az adatkészleten alapuló vizualizációk a jelentésekben és irányítópultokon szintén frissülnek.
+Frissítés ütemezésének beállításakor a Power BI közvetlenül az adatforrásokhoz csatlakozik az adatkészletben lévő csatlakozási információkkal és hitelesítő adatokkal a frissített adatok lekérdezése érdekében, majd a frissített adatokat az adatkészletbe tölti. A jelentésekben és irányítópultokon a Power BI szolgáltatás ezen adatkészletére alapuló összes vizualizáció is frissül.
 
-Az ütemezett frissítés beállításáról részletesen lásd: [Ütemezett frissítés beállítása](refresh-scheduled-refresh.md).
+Az ütemezett frissítés beállításáról további részleteket az [ütemezett frissítés konfigurálásáról szóló részben](refresh-scheduled-refresh.md) olvashat.
 
-## <a name="when-things-go-wrong"></a>Ha rosszul mennek a dolgok
-Ha rosszul mennek a dolgok, az általában azért van, mert a Power BI nem tud bejelentkezni az adatforrásokba, vagy ha az adatkészlet helyszíni adatforráshoz csatlakozik, akkor nem érhető el az átjáró. Győződjön meg róla, hogy a Power BI be tud jelentkezni az adatforrásokba. Ha megváltozik az adatforrásba való bejelentkezésre használt jelszó, vagy a Power BI-t kijelentkezteti egy adatforrás, próbáljon újra bejelentkezni az adatforrásokba az Adatforrás azonosító adatai használatával.
+## <a name="when-things-go-wrong"></a>Hiba esetén
+Általában azért történnek hibák, mert a Power BI nem tud bejelentkezni az adatforrásokba, vagy ha az adatkészlet helyszíni adatforráshoz csatlakozik, mert az átjáró offline állapotban van. Győződjön meg arról, hogy a Power BI be tud jelentkezni az adatforrásokba. Ha megváltozik az adatforrásba való bejelentkezésre használt jelszó, vagy a Power BI-t kijelentkezteti egy adatforrás, próbáljon újra bejelentkezni az adatforrásokba az Adatforrás azonosító adatai használatával.
 
 Hagyja bejelölve az **Értesítést kérek e-mailben, ha sikertelen a frissítés** jelelölőnégyzetet. Hasznos, ha azonnal tudomást szerez róla, ha egy ütemezett frissítés nem sikerül.
 
@@ -79,12 +79,12 @@ Hagyja bejelölve az **Értesítést kérek e-mailben, ha sikertelen a frissít�
 >A Power Pivothoz csatlakozó és onnan lekérdezett OData-csatornák frissítése nem támogatott. Ha OData-csatornát használ adatforrásként, használja a Power Queryt.
 
 ## <a name="troubleshooting"></a>Hibaelhárítás
-Néha előfordulhat, hogy az adatok frissítése nem a várt módon történik. Ez általában az átjáróval kapcsolatos probléma. Vessen egy pillantást az átjáró hibaelhárításával foglalkozó cikkekre, amelyekben eszközöket talál és ismert problémákkal találkozhat.
+Néha az adatok frissítése nem a várt módon történik. Ezt általában egy átjáróval kapcsolatos hiba okozza. Az átjáró-hibaelhárítással kapcsolatos cikkekben találja az eszközöket és az ismert hibákat.
 
-[A helyszíni adatátjáró hibaelhárítása](service-gateway-onprem-tshoot.md)
+[A helyszíni adatátjáróval kapcsolatos hibák elhárítása](service-gateway-onprem-tshoot.md)
 
 [A Power BI Gateway – Personal hibáinak elhárítása](service-admin-troubleshooting-power-bi-personal-gateway.md)
 
 ## <a name="next-steps"></a>Következő lépések
-További kérdései vannak? [Felteheti őket a Power BI-közösségnek](http://community.powerbi.com/)
+További kérdései vannak? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)
 
