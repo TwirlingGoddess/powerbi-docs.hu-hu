@@ -32,5 +32,5 @@ A módosítások a tartalomcsomagról készített másolaton végezhetők el, am
 
 A tartalomcsomagokkal tehát egyszerűen megoldható a cég más alkalmazottai által létrehozott tartalom újrafelhasználása.
 
-A következő lecke: [Tartalomcsomag létrehozása a Power BI-ban](6-4-update-content-pack.md).
+Most pedig lássuk a következő leckét!
 

@@ -1,5 +1,4 @@
-### YamlMime:YamlDocument
-documentType: Tutorial
+### YamlMime:Tutorial
 title: "Modellezés"
 metadata:
   title: "Modellezés | Microsoft Power BI"
@@ -7,7 +6,7 @@ metadata:
   audience: Business User
   level: Beginner
   nextTutorialHref: visualizations
-  nextTutorialTitle: "Vizualizációs elemek"
+  nextTutorialTitle: Visualizations
   displayType: one-column
   author: davidiseminger
   manager: kfile
@@ -15,14 +14,15 @@ metadata:
   ms.topic: get-started-article
   ms.date: 12/05/2017
   ms.author: davidi
-  ms.openlocfilehash: 760a683fd4267f2dc1fc3e59783770ad4904dcfb
-  ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+  ms.openlocfilehash: 5b09b8365e59d8d89b30e4a01237f7d53559896f
+  ms.sourcegitcommit: 1791b8f10332c680a1552d5361a6e01b75091385
   ms.translationtype: HT
   ms.contentlocale: hu-HU
-  ms.lasthandoff: 12/06/2017
+  ms.lasthandoff: 12/12/2017
 items:
 - durationInMinutes: 1
-  content: "A **Power BI** **modellező** képességeinek köszönhetően több adatforráshoz is kapcsolódhat, majd olyan módokon ötvözheti őket, amellyel az igényeinek megfelelő egyedi adatmodellt hozhat létre.\n"
+  content: >
+    With the **modeling** capabilities in **Power BI**, you can connect to multiple data sources, then combine them in ways that create a unique model of data that suits your needs.
 - title: "Bevezetés az adatmodellezésbe"
   durationInMinutes: 3
   content: >
@@ -72,4 +72,4 @@ items:
 
 
     [!INCLUDE [](includes/2-6a-explore-time-based-data.md)]
-- content: "Kiváló teljesítmény. A Power BI-ról még további tudnivalókat sajátíthat el – sok sikert kívánunk hozzá! Ön teljesítette a Microsoft Power BI-oktatócsomag **Modellezés** című fejezetét. A következő rész a vizualizációkról szól.\0"
+- content: "You are on a roll. Keep up the good work in learning about Power BI! You've completed the **Modeling** section of Microsoft Power BI Guided learning. Next up is visualizations.\0"

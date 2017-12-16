@@ -1,5 +1,4 @@
-### YamlMime:YamlDocument
-documentType: Tutorial
+### YamlMime:Tutorial
 title: "Vizualizációs elemek"
 metadata:
   title: "Vizualizációk | Microsoft Power BI"
@@ -7,7 +6,7 @@ metadata:
   audience: Business User
   level: Beginner
   nextTutorialHref: exploringdata
-  nextTutorialTitle: "Adatok feltárása"
+  nextTutorialTitle: Exploring data
   displayType: one-column
   author: davidiseminger
   manager: kfile
@@ -15,15 +14,16 @@ metadata:
   ms.topic: get-started-article
   ms.date: 12/05/2017
   ms.author: davidi
-  ms.openlocfilehash: 9104611f4ab91a2d212715820a0f5119f8f1503b
-  ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+  ms.openlocfilehash: e1492e55e47ea0871f4a07a0cc599570f36cae40
+  ms.sourcegitcommit: 1791b8f10332c680a1552d5361a6e01b75091385
   ms.translationtype: HT
   ms.contentlocale: hu-HU
-  ms.lasthandoff: 12/06/2017
+  ms.lasthandoff: 12/12/2017
 items:
 - durationInMinutes: 1
-  content: "Vizualizációkkal életet lehelhet adataiba, és lenyűgöző vizuális reprezentációk használatával emelheti ki az összefüggéseket. A **Power BI** oktatócsomagjának ez a szakasza azt mutatja be, hogyan lehet használatba venni őket.\n"
-- title: "Bevezetés a Power BI vizualizációiba"
+  content: >
+    Visualizations bring your data to life, and reveal insights that only compelling and amazing visual representations can. This section of **Power BI** Guided Learning shows you how to get started using them.
+- title: "Bevezetés a Power BI vizuális elemeibe"
   durationInMinutes: 2
   content: >
     > [!Video https://www.youtube.com/embed/SYk_gWrtKvM?rel=0]
@@ -156,4 +156,4 @@ items:
 
 
     [!INCLUDE [](includes/3-11h-r-visual-integration.md)]
-- content: "Gratulálunk! Ön teljesítette az **oktatócsomag** **Vizualizációk** című fejezetét, és ezzel készen áll az **Adatok feltárása** című következő oktatóanyagra.\0"
+- content: "Nice work. You've completed the **Visualizations** section of **Guided Learning**, and you're ready for the next tutorial - **Exploring data**.\0"
