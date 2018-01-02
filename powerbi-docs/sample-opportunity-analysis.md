@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/29/2017
+ms.date: 12/04/2017
 ms.author: mihart
-ms.openlocfilehash: c51984aed112b62143ab132672b331cd0f97c7a1
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 878738eb3f588c461b687451062a1641479e77ed
+ms.sourcegitcommit: 54da95f184dd0f7bb59bb0bc8775a1d93129b195
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/08/2017
 ---
 # <a name="opportunity-analysis-sample-for-power-bi-take-a-tour"></a>Lehetőségelemzési minta a Power BI-hoz: bemutató
 A **Lehetőségkövetési minta** egy olyan szoftvercég irányítópultját (és ahhoz kapcsolódó jelentését) tartalmazza, amely 2 értékesítési csatornával rendelkezik: egy *közvetlen-* és egy *partnercsatornával*. Ezt az irányítópultot az értékesítési vezető azért hozta létre, hogy követni lehessen vele az üzleti lehetőségeket és a bevételeket a régiók, az ügylet mérete és a csatorna szerinti eloszlásban.
@@ -38,7 +38,8 @@ Az értékesítési vezető a bevétel tekintetében két adatra támaszkodik:
 
 Ez a minta egy olyan sorozat részét képezi, amely bemutatja, hogyan használhatja a Power BI-t üzleti adatokkal, jelentésekkel és irányítópultokkal. Az adatok az obviEnce-től ([www.obvience.com](http://www.obvience.com/)) származó valós, de anonimizált adatok.
 
-[Letöltheti kizárólag a minta adatkészletét (Excel-munkafüzet)](http://go.microsoft.com/fwlink/?LinkId=529782) is.  
+>[!Note] 
+Letöltheti [kizárólag a minta adatkészletét (Excel-munkafüzetét) is](http://go.microsoft.com/fwlink/?LinkId=529782). A munkafüzet megtekinthető és módosítható Power View-lapokat tartalmaz.  A nyers adatokat a **Power Pivot > Kezelés** lehetőségre kattintva nézheti meg. 
 
 ![](media/sample-opportunity-analysis/opportunity1.png)
 
@@ -94,10 +95,10 @@ A pénzügyi vezető ezt az oldalt használja a munkaterhelés időbeli elosztá
 * A hónapok szerinti szűrés (a jobb oldali sávban látható hónapnevek kiválasztásával) azt mutatja, hogy Januárban nagy arányban várhatók véglegesítési (Finalize) szakaszba kerülő üzleti lehetőségek, 75 millió dollárnyi faktorált bevétellel. Februárban ugyanakkor többnyire közepes méretű ügyletek kerülnek majd megoldásválasztási (Solution) és ajánlattételi (Proposal) szakaszba.
 * A faktorált bevétellel kapcsolatos számok az értékesítési szakasztól, a lehetőségek számától és az ügylet méretétől függően váltakoznak. Ha szeretne további összefüggéseket felfedezni, vegyen fel további szűrőket a jobboldali Szűrők ablaktáblát használva.
 
-Ebben a környezetben nyugodtan kísérletezhet. Bármikor dönthet úgy, hogy nem menti a változtatásokat. Ha pedig menti, az **Adatok lekéréséhez** lépve bármikor letöltheti a minta egy új példányát.
+Ebben a környezetben nyugodtan kísérletezhet. Bármikor dönthet úgy, hogy nem menti a változtatásokat. De ha mégis mentené őket, bármikor lekérheti a minta egy új másolatát az **Adatok lekérése** lehetőséggel.
 
 ## <a name="next-steps-connect-to-your-data"></a>Következő lépések: Kapcsolódás saját adatokhoz
-Reméljük, hogy ez a bemutató segített megérteni, hogyan tárhat fel összefüggéseket a lehetőségkövetési adatokból a Power BI irányítópultokat, Q&A-t és jelentéseket használva. Most Önön a sor – kapcsolódjon a saját adataihoz. A Power BI-jal számos adatforráshoz kapcsolódhat. Tudjon meg többet a [Power BI használatának első lépéseiről](service-get-started.md).
+Reméljük, hogy ez a bemutató segített megérteni, hogyan tárhat fel összefüggéseket a lehetőségkövetési adatokból a Power BI irányítópultokat, Q&A-t és jelentéseket használva. Most Önön a sor – kapcsolódjon a saját adataihoz. A Power BI használatával számos különböző adatforráshoz kapcsolódhat. Tudjon meg többet a [Power BI használatának első lépéseiről](service-get-started.md).
 
 [Minták letöltése](sample-datasets.md)  
 

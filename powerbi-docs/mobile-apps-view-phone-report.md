@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/13/2017
+ms.date: 12/06/2017
 ms.author: maggies
-ms.openlocfilehash: 54a1b81cc4281db7a622668ba205c1c57d5e396d
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: f3e02da2c0e793f3eb334c39852f5cd23534ad3f
+ms.sourcegitcommit: 54da95f184dd0f7bb59bb0bc8775a1d93129b195
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/08/2017
 ---
 # <a name="view-power-bi-reports-optimized-for-your-phone"></a>Telefonra optimalizált Power BI-jelentések megtekintése
 Mikor létrehoz egy Power BI-jelentést a Power BI Desktopban, létrehozhatja [annak a Power BI telefonos alkalmazásokban való megtekintésre optimalizált verzióját](desktop-create-phone-report.md).
@@ -39,8 +39,8 @@ A Power BI jelentések többi funkciója továbbra is működik a telefonra opti
 * [Jelentések iPhone készülékeken](mobile-reports-in-the-mobile-apps.md). 
 * [Jelentések Android telefonokon](mobile-reports-in-the-mobile-apps.md).
 
-## <a name="filter-the-report-page-on-an-iphone"></a>Jelentésoldalak szűrése iPhone készüléken
-Ha egy telefonra optimalizált jelentéshez vannak szűrők definiálva, a jelentés iPhone-on való megtekintésekor alkalmazhatja ezeket a szűrőket. 
+## <a name="filter-the-report-page-on-a-phone"></a>Jelentésoldalak szűrése telefonon
+Ha egy telefonra optimalizált jelentéshez szűrők vannak definiálva, a jelentés telefonon való megtekintésekor alkalmazhatja ezeket a szűrőket. 
 
 1. Koppintson a Szűrő ikonra ![Szűrő ikon a telefonon](media/mobile-apps-view-phone-report/power-bi-phone-filter-icon.png) a lap alján. 
 2. Az alapszintű és a speciális szűrők használatával az Ön számára érdekes eredményeket jelenítheti meg.

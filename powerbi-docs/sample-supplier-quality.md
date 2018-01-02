@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/28/2017
+ms.date: 12/06/2017
 ms.author: mihart
-ms.openlocfilehash: 190d3d256a28deaac2555847d49d61af2263d5a7
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 5be71c2cbe4acf36b0b315b30ddf5d65108882be
+ms.sourcegitcommit: 54da95f184dd0f7bb59bb0bc8775a1d93129b195
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/08/2017
 ---
 # <a name="supplier-quality-analysis-sample-for-power-bi-take-a-tour"></a>Szállítói minőségelemzési minta a Power BI-hoz: bemutató
 Ez az iparági minta-irányítópult és az alapjául szolgáló jelentés az ellátási láncok egyik tipikus problémájára, a szállítók minőségelemzésére helyezi a hangsúlyt.
@@ -33,8 +33,9 @@ Az elemzésben két fő mérőszám játszik szerepet: a hibák összesített sz
 Ez a minta egy olyan sorozat részét képezi, amely bemutatja, hogyan használhatja a Power BI-t üzleti adatokkal, jelentésekkel és irányítópultokkal.
 Az adatok az obviEnce-től ([www.obvience.com](http://www.obvience.com/)) származó valós, de anonimizált adatok.
 
-[Letöltheti kizárólag a minta adatkészletét (Excel-munkafüzetét) is](http://go.microsoft.com/fwlink/?LinkId=529779). 
-
+> [!NOTE] 
+Letöltheti [kizárólag a minta adatkészletét (Excel-munkafüzetét) is](http://go.microsoft.com/fwlink/?LinkId=529779). A munkafüzet megtekinthető és módosítható Power View-lapokat tartalmaz. A nyers adatokat a **Power Pivot > Kezelés** lehetőségre kattintva nézheti meg.
+ 
 ![](media/sample-supplier-quality/supplier1.png)
 
 ## <a name="downtime-caused-by-defective-materials"></a>Hibás anyagok által okozott állásidő
@@ -140,8 +141,8 @@ Nézzünk meg egy másik, szintén a hibák összesített számához kapcsolód�
 4. A kiugró hónapok vizsgálatához tegyen fel különböző kérdéseket, például a „total downtime minutes in October by plant”(állásidő összesített percei októberben üzemek szerint) kérdést, hogy megnézze az októberi állásidő perceit anyagtípusok szerint, az üzemek helyszíne szerint, kategória szerint stb.    
 5. Válassza a bal felső sarokban a kérdés mező felett található visszafelé mutató nyilat ![](media/sample-supplier-quality/backarrow.png), hogy visszajusson az irányítópultjára.
 
-Ebben a környezetben nyugodtan kipróbálhat bármit. Nem kötelező menteni a módosításokat. De ha mégis mentené őket, bármikor lekérheti a minta egy új másolatát az **Adatok lekérése** lehetőséggel.
+Ebben a környezetben nyugodtan kipróbálhat bármit. Bármikor dönthet úgy, hogy nem menti a változtatásokat. De ha mégis mentené őket, bármikor lekérheti a minta egy új másolatát az **Adatok lekérése** lehetőséggel.
 
 ## <a name="next-steps-connect-to-your-data"></a>Következő lépések: Kapcsolódás saját adatokhoz
-Reméljük, ebből a bemutatóból megtudta, hogyan elemezheti a szállítók minőségét Power BI-irányítópultok, a Q&A és Power BI-jelentések használatával. Most Önön a sor – kapcsolódjon a saját adataihoz. A Power BI-jal számos adatforráshoz kapcsolódhat. Tudjon meg többet a [Power BI használatának első lépéseiről](service-get-started.md).
+Reméljük, ebből a bemutatóból megtudta, hogyan elemezheti a szállítók minőségét Power BI-irányítópultok, a Q&A és Power BI-jelentések használatával. Most Önön a sor – kapcsolódjon a saját adataihoz. A Power BI használatával számos különböző adatforráshoz kapcsolódhat. További információ a [Power BI használatának első lépéseiről](service-get-started.md).
 

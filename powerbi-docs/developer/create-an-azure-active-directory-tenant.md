@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/09/2017
-ms.author: asaxton
-ms.openlocfilehash: 3e48f08237767a4c0cc5e1a8ddfc70a9087fbc1c
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.date: 11/30/2017
+ms.author: mihart
+ms.openlocfilehash: 22d939dbd0a582611f2f4e90e2306456376e211b
+ms.sourcegitcommit: 910258a5ad8b6861e81ae02c57286db221c37375
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/02/2017
 ---
 # <a name="create-an-azure-active-directory-tenant-to-use-with-power-bi"></a>Azure Active Directory-bérlő létrehozása a Power BI szolgáltatással való használathoz
 Ismerje meg, hogyan hozhat létre új Azure Active Directory-bérlőt (Azure AD-bérlőt) az egyéni alkalmazásokkal való használathoz a Power BI REST API-k segítségével.
@@ -33,7 +33,7 @@ Ha már rendelkezik Azure AD-bérlővel, megadhat egy alkalmazást, és hozzáre
 Lehet, hogy a szervezete már rendelkezik egy Azure AD-bérlővel, amelyet az alkalmazásához használhat. Használhatja azt a bérlőt, amelyre az alkalmazásnak szüksége van, vagy létrehozhat egy új bérlőt csak ehhez az alkalmazáshoz. Ez a cikk bemutatja egy új bérlő létrehozásának módját.
 
 ## <a name="create-an-azure-active-directory-tenant"></a>Azure Active Directory-bérlő létrehozása
-A Power BI egyéni alkalmazásokba integrálásához meg kell adnia egy alkalmazást az Azure AD-ban. Ehhez egy címtárra van szüksége az Azure AD-ban. Ez az Ön bérlője. Ha a szervezete még nem rendelkezik bérlővel, mert nem használ Power BI-t vagy Office 365-öt, létre kell hoznia egyet. Akkor is létre kell hoznia egyet, ha nem szeretné az alkalmazást keverni a szervezet bérlőjével. Így elkülönítve tarthatja a dolgokat.
+A Power BI egyéni alkalmazásokba integrálásához meg kell adnia egy alkalmazást az Azure AD-ban. Ehhez egy címtárra van szüksége az Azure AD-ban. Ez az Ön bérlője. Ha a cége még nem rendelkezik bérlővel, mert nem használ Power BI-t vagy Office 365-öt, [létre kell hoznia egyet](https://docs.microsoft.com/azure/active-directory/develop/active-directory-howto-tenant). Akkor is létre kell hoznia egyet, ha nem szeretné az alkalmazást keverni a szervezet bérlőjével. Így elkülönítve tarthatja a dolgokat.
 
 Vagy csak létrehozhat egy bérlőt tesztelési célra is.
 

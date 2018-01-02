@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/14/2017
+ms.date: 12/05/2017
 ms.author: maggies
-ms.openlocfilehash: 1ee8cc60d5c18cb09915029088824ade89d2b39f
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: a77c9a9816ef47ae4b342b2cd3a08b18c90f70de
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 12/06/2017
 ---
 # <a name="how-should-i-collaborate-and-share-dashboards-and-reports-in-power-bi"></a>Irányítópultok és jelentések közös használata és megosztása a Power BI-ban
 Ön az irányítópultokat és jelentéseket létrehozó személy. Előfordulhat, hogy a munkatársaival együtt dolgozik rajtuk. Ezután szeretné, hogy mások is elérhessék, amit létrehozott. Mi a terjesztésük legjobb módja?
@@ -54,7 +54,7 @@ Tegyük fel, hogy szeretné széles közönséggel megosztani az irányítópult
 
 ![Alkalmazás közzététele ikon](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-app-publish-600.png)
 
-Az alkalmazások a Power BI szolgáltatásban ([https://powerbi.com](https://powerbi.com)) könnyen megtalálhatók és telepíthetők. Elküldheti az üzleti felhasználóknak az alkalmazására mutató közvetlen hivatkozást, vagy rákereshetnek az alkalmazására az AppSource-ban. Ha a Power BI-rendszergazdája engedélyezi ezt Önnek, akkor az alkalmazást akár közvetlenül is telepítheti a munkatársai Power BI-fiókjába. Többet is megtudhat [az appok közzétételéről](service-create-distribute-apps.md#publish-your-app). 
+Az alkalmazások a Power BI szolgáltatásban ([https://powerbi.com](https://powerbi.com)) könnyen megtalálhatók és telepíthetők. Elküldheti az üzleti felhasználóknak az alkalmazására mutató közvetlen hivatkozást, vagy rákereshetnek az alkalmazására az AppSource-ban. Többet is megtudhat [az alkalmazások közzétételéről](service-create-distribute-apps.md#publish-your-app). 
 
 Miután a munkatársai telepítik az alkalmazást, megtekinthetik azt a böngészőjükben vagy egy mobileszközön.
 
@@ -94,5 +94,5 @@ A Power BI szolgáltatásban nyomtathat vagy menthet PDF-fájlként (illetve má
 * Visszajelzés küldene? Mondja el javaslatait a [Power BI-közösség webhelyén](https://community.powerbi.com/).
 * [Irányítópultok megosztása munkatársakkal és másokkal](service-share-dashboards.md)
 * [Alkalmazás létrehozása és közzététele a Power BI-ban](service-create-distribute-apps.md)
-* További kérdései vannak? [Felteheti őket a Power BI-közösségnek](http://community.powerbi.com/).
+* További kérdései vannak? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/).
 

@@ -1,0 +1,121 @@
+---
+title: "Mérőműszer-diagramok a Power BI szolgáltatásban (Oktatóanyag)"
+description: "Oktatóanyag: A Power BI kör alakú mérőműszer-diagramjai"
+services: powerbi
+documentationcenter: 
+author: mihart
+manager: kfile
+backup: 
+editor: 
+tags: 
+featuredvideoid: xmja6Epqa
+qualityfocus: no
+qualitydate: 
+ms.service: powerbi
+ms.devlang: NA
+ms.topic: article
+ms.tgt_pltfrm: NA
+ms.workload: powerbi
+ms.date: 10/27/2017
+ms.author: mihart
+ms.openlocfilehash: 7299b95cb3dd1fab4edce1764c69e1b2657ef547
+ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.translationtype: HT
+ms.contentlocale: hu-HU
+ms.lasthandoff: 11/15/2017
+---
+# <a name="radial-gauge-charts-in-power-bi-tutorial"></a>Mérőműszer-diagramok a Power BI szolgáltatásban (Oktatóanyag)
+A mérőműszer-diagram köríves alakú és egyetlen értéket jelenít meg, amely egy cél/KPI elérésében tett előrehaladást méri.  A célt vagy a célértéket a vonal (tű) jelzi. A cél elérésében tett előrehaladást az árnyékolás mutatja.  Az előrehaladást ábrázoló érték pedig félkövér betűvel van feltüntetve az ív belsejében. Minden lehetséges érték egyenlően oszlik el az íven, minimálistól (bal szélső érték) a maximálisig (jobb szélső érték).
+
+Az alábbi példában autókereskedők vagyunk, akik értékesítési csapatuk havi átlagos értékesítését követik nyomon. A célunk 140, amit a fekete tű jelöl.  A lehetséges minimális átlagos értékesítés 0, és a maximális értéket 200-ban határoztuk meg.  A kék árnyékolás azt mutatja, hogy a jelenlegi átlag körülbelül 120 értékesítés ebben a hónapban. Szerencsére még van egy hetünk, hogy elérjük a célunkat.
+
+![](media/power-bi-visualization-radial-gauge-charts/gauge_m.png)
+
+## <a name="when-to-use-a-radial-gauge"></a>Mikor érdemes mérőműszer-diagramot használni?
+A mérőműszer-diagram remek választás:
+
+* a cél elérésében megtett előrehaladás mutatására.
+* percentilis mérőszám, például KPI jelölésére.
+* egyetlen mérték állapotának a mutatására.
+* gyorsan áttekinthető és megérthető információk megjelenítésére.
+
+## <a name="create-a-basic-radial-gauge"></a>Alapszintű mérőműszer-diagram létrehozása
+Ezek az utasítások a Pénzügyi minta használatát feltételezik. A lépések követéséhez [töltse le a mintát](http://go.microsoft.com/fwlink/?LinkID=521962) a számítógépére, jelentkezzen be a Power BI-ba, és válassza az **Adatok lekérése \> Fájlok \> Helyi fájl > Megnyitás** lehetőséget. 
+
+Másik lehetőségként tekintse meg a videót, amelyben bemutatjuk, hogyan hozhat létre egyetlen mutatószámos vizualizációkat: mérőműszereket, kártyákat és KPI-ket.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/xmja6EpqaO0?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>
+
+### <a name="step-1-open-the-financial-sample-excel-file"></a>1. lépés: A Pénzügyi minta Excel-fájl megnyitása
+1. [A minta pénzügyi Excel-fájl letöltése](sample-financial-download.md).
+2. Nyissa meg a fájlt a Power BI-ban az **Adatok lekérése\> Fájlok** lehetőség kiválasztásával, majd a hely megkeresésével, ahová a fájlt mentette. Kattintson az **Importálás** gombra. A Pénzügyi mintát a rendszer adatkészletként adja hozzá a munkaterületéhez.
+3. Válassza ki a **Pénzügyi mintát** a megnyitásához Vizsgálat módban.
+
+### <a name="step-2-create-a-gauge-to-track-gross-sales"></a>2. lépés: Mérőműszer-diagram létrehozása a bruttó értékesítés nyomon követéséhez
+1. A **Mezők** panelen válassza a **Gross Sales** (Bruttó értékesítés) mezőt.
+   
+   ![](media/power-bi-visualization-radial-gauge-charts/grosssalesvalue_new.png)
+2. Módosítsa az összesítést **Átlag** értékre.
+   
+   ![](media/power-bi-visualization-radial-gauge-charts/changetoaverage_new.png)
+3. Kattintson a mérőeszköz ikonra ![](media/power-bi-visualization-radial-gauge-charts/gaugeicon_new.png) az oszlopdiagram mérőműszer-diagrammá alakításához.
+   
+   Alapértelmezés szerint a Power BI olyan mérőműszer-diagramot hoz létre, amelyben a jelenlegi érték (jelen esetben a bruttó értékesítés átlaga) a mérőóra felezőpontján van. Mivel az átlagos bruttó értékesítés 182,76 ezer dollár, a kezdőérték (Minimális) 0-ban van megadva és a záróérték (Maximális) a jelenlegi érték duplája.
+   
+   ![](media/power-bi-visualization-radial-gauge-charts/gauge_no_target.png)
+
+### <a name="step-3-set-a-target-value"></a>3. lépés: A célérték megadása
+1. Húzza a **COGS** értéket a **Célérték** területre.
+2. Módosítsa az összesítést **Átlag** értékre.
+   A Power BI hozzáad egy tűt, amely a **145,48 ezer dolláros** célértéket mutatja. Feltűnhet, hogy meghaladtuk a célt.
+   
+   ![](media/power-bi-visualization-radial-gauge-charts/gaugeinprogress_new.png)
+   
+   > [!NOTE]
+   > Manuálisan is megadhat célértéket.  Lásd az alábbi „A Minimális, a Maximális és a Célértékek manuális beállítása a formázási beállítások segítségével” szakaszt.
+   > 
+   > 
+
+### <a name="step-4-set-a-maximum-value"></a>4. lépés: A maximális érték megadása
+A 2. lépésben a Power BI az Érték mezővel automatikusan beállította a minimális (kezdő) és a maximális (záró) értéket.  De mi a teendő, ha saját maximális értéket szeretne megadni?  Tegyük fel például, hogy a jelenlegi érték duplája helyett lehetséges maximális értéknek az adatkészlet legmagasabb bruttó értékesítési értékét szeretné megadni. 
+
+1. Húzza a **Gross Sales** értéket a **Mezők** listából a **Maximális érték** területre.
+2. Módosítsa az összesítést **Maximális** értékre.
+   
+   ![](media/power-bi-visualization-radial-gauge-charts/setmaximum_new.png)
+   
+   A rendszer újrarajzolja a mérőműszert új záróértékkel, amely 1,21 millió bruttó értékesítés.
+   
+   ![](media/power-bi-visualization-radial-gauge-charts/power-bi-final-gauge.png)
+
+### <a name="step-5-save-your-report"></a>5. lépés: Jelentés mentése
+1. [Mentse a jelentést](service-report-save.md).
+2. [Adja hozzá a mérőműszer-diagramot irányítópult-csempeként](service-dashboard-tiles.md). 
+
+## <a name="use-formatting-options-to-manually-set-minimum-maximum-and-target-values"></a>A Minimális, a Maximális és a Célértékek manuális beállítása a formázási beállítások segítségével
+1. Távolítsa el a **Gross Sales maximuma** értéket a **Maximális érték** területről.
+2. Nyissa meg a Formátum panelt a festőhenger ikon kiválasztásával.
+   
+   ![](media/power-bi-visualization-radial-gauge-charts/power-bi-roller.png)
+3. Bontsa ki a **Mérőtengelyt** és adjon meg **Min** és **Max** értékeket.
+   
+    ![](media/power-bi-visualization-radial-gauge-charts/power-bi-gauge-axis.png)
+4. Távolítsa el a jelenlegi értéket a **COGS** melletti jelölőnégyzet jelölésének törlésével.
+   
+    ![](media/power-bi-visualization-radial-gauge-charts/pbi_remove_target.png)
+5. Amikor megjelenik a **Cél** mező a **Mérőtengely** alatt, adjon meg egy értéket.
+   
+    ![](media/power-bi-visualization-radial-gauge-charts/power-bi-gauge-target.png)
+6. Ha szeretné, folytathatja a mérőműszer-diagram formázását.
+
+## <a name="next-steps"></a>Következő lépések
+[Vizualizációtípusok a Power BI-ban](power-bi-visualization-types-for-reports-and-q-and-a.md)
+
+[Vizualizáció hozzáadása jelentésekhez](power-bi-report-add-visualizations-i.md)
+
+[Vizualizáció rögzítése az irányítópulton](service-dashboard-pin-tile-from-report.md)
+
+[ Power BI – Alapfogalmak](service-basic-concepts.md)
+
+További kérdései vannak? [Forduljon a Power BI közösségéhez](http://community.powerbi.com/)
+

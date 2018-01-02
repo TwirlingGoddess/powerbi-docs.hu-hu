@@ -3,7 +3,7 @@ title: "A Power BI jelentéskészítő kiszolgálóhoz optimalizált Power BI De
 description: "Tudnivalók a Power BI jelentéskészítő kiszolgálóhoz optimalizált Power BI Desktop telepítéséről"
 services: powerbi
 documentationcenter: 
-author: guyinacube
+author: maggiesMSFT
 manager: kfile
 backup: 
 editor: 
@@ -15,35 +15,51 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 06/20/2017
-ms.author: asaxton
-ms.openlocfilehash: 5fd5f41523ffcba03eb4749a9560922bcff42a7c
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.date: 12/06/2017
+ms.author: maggies
+ms.openlocfilehash: 589a77624169e9fb59999109668439c5f729c5f5
+ms.sourcegitcommit: 7248b5e449b2495d6baef385470d18edfacec457
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/08/2017
 ---
 # <a name="install-power-bi-desktop-optimized-for-power-bi-report-server"></a>A Power BI jelentéskészítő kiszolgálóhoz optimalizált Power BI Desktop telepítése
 Tudnivalók a Power BI jelentéskészítő kiszolgálóhoz optimalizált Power BI Desktop telepítéséről.
 
-Le kell töltenie és telepítenie kell a Power BI jelentéskészítő kiszolgálóhoz optimalizált Power BI Desktopot. Ez különbözik a Power BI szolgáltatáshoz használt Power BI Desktop-kiadástól. Erre azért van szükség, hogy a jelentéskészítő kiszolgáló a jelentések és a modell ismert verzióját használhassa. 
+Ha a Power BI jelentéskészítő kiszolgálóhoz szeretne Power BI-jelentéseket létrehozni, akkor le kell tölteni és telepíteni a Power BI jelentéskészítő kiszolgálóhoz optimalizált Power BI Desktopot. Ez különbözik a Power BI szolgáltatáshoz használt Power BI Desktop-kiadástól. A Power BI szolgáltatáshoz készült Power BI Desktopban például olyan előzetes funkciók érhetők el, amelyek a kiadásuk után a Power BI jelentéskészítő kiszolgáló részét fogják képezni. Ha ezt a verziót használja, akkor a jelentéskészítő kiszolgáló a jelentések és a modell ismert verzióját használhatja. 
 
 > [!NOTE]
 > A Power BI Desktop és a Power BI jelentéskészítő kiszolgálóhoz optimalizált Power BI Desktop egymás mellett telepíthető.
-> 
-> 
 
-## <a name="download-and-install"></a>Letöltés és telepítés
-A Power BI jelentéskészítő kiszolgálóhoz optimalizált Power BI Desktopot a [Microsoft letöltőközpontból](https://go.microsoft.com/fwlink/?linkid=837581) vagy a jelentéskészítő kiszolgáló webes portáljáról töltheti le.
+## <a name="download-and-install-power-bi-desktop"></a>A Power BI Desktop letöltése és telepítése
 
-A telepítő letöltése után telepítheti a Power BI Desktopot.
+Ha ellenőrizné, hogy a Power BI jelentéskészítő kiszolgálóhoz optimalizált Power BI Desktop legújabb verzióját használja-e, akkor a jelentéskészítő kiszolgáló webportáljáról induljon.
+
+1. A jelentéskészítő kiszolgáló webportálján kattintson a **Letöltés** nyíl > **Power BI Desktop** lehetőségre.
+
+    ![A Power BI Desktop letöltése a webportálról](media/install-powerbi-desktop/report-server-download-web-portal.png)
+
+    De azt is megteheti, hogy a Microsoft letöltőközpontjában közvetlenül a [Microsoft Power BI Desktop](https://go.microsoft.com/fwlink/?linkid=861076) [A Power BI jelentéskészítő kiszolgálóra (2017. október) optimalizált Microsoft Power BI Desktop] hivatkozást választja.
+
+2. A letöltőközpontlapon kattintson a **Letöltés** gombra.
+
+3. A számítógépétől függően válassza az alábbiak egyikét: 
+
+    - **PBIDesktopRS.msi** (32 bites verzió) vagy
+
+    - **PBIDesktopRS_x64.msi** (64 bites verzió).
+
+1. A telepítő letöltése után indítsa el a Power BI Desktop (2017. október) telepítési varázslóját.
+2. A telepítés végén kattintson a **Power BI Desktop azonnali indítása** lehetőségre.
+   
+    A folyamat automatikusan elindul, és máris hozzákezdhet.
 
 ## <a name="verify-you-are-using-the-correct-version"></a>Annak ellenőrzése, hogy a megfelelő verziót használja-e
 Ellenőrizheti, hogy a Power BI Desktop megfelelő verzióját használja-e a Power BI Desktop indítóképernyőjének vagy címsorának megtekintésével. A címsor a kiadás hónapját és évét jelzi.
 
-![](media/install-powerbi-desktop/powerbi-desktop-rs-title-bar.png "A Power BI Desktop címsora")
+![A Power BI jelentéskészítő kiszolgálóhoz optimalizált Power BI Desktop címsora](media/quickstart-create-powerbi-report/report-server-desktop-october-2017-version.png)
 
-A Power BI szolgáltatás Power BI Desktop-verziójának nem szerepel a címsorában a hónap és az év.
+A Power BI szolgáltatás Power BI Desktop verziójának címsorában nem szerepel a hónap és az év.
 
 ## <a name="file-extension-association"></a>Fájlkiterjesztés társítása
 Ha a Power BI Desktopot és a Power BI jelentéskészítő kiszolgálóhoz optimalizált Power BI Desktopot ugyanarra a gépre telepítette, a Power BI Desktop legutóbbi telepítése rendelkezik a .pbix fájltársítással. Ez azt jelenti, hogy amikor duplán kattint egy pbix-fájlra, az a legutóbb telepített Power BI Desktopot indítja el.

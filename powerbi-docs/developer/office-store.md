@@ -1,6 +1,6 @@
 ---
-title: "Egyéni vizualizációk közzététele az Office Áruházban"
-description: "Megtudhatja, hogyan teheti közzé egyéni vizualizációit az Office Áruházban, amelyeket aztán mások is felfedezhetnek és használhatnak."
+title: "Egyéni vizualizációk közzététele az AppSource-ban"
+description: "Megtudhatja, hogyan teheti közzé egyéni vizualizációit az AppSource-ban, amelyeket aztán mások is felfedezhetnek és használhatnak."
 services: powerbi
 documentationcenter: 
 author: guyinacube
@@ -15,22 +15,22 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/20/2017
+ms.date: 12/5/2017
 ms.author: asaxton
-ms.openlocfilehash: 13456711e6c3bdce4554df7b7fbc0e4e9943987a
-ms.sourcegitcommit: 12236d08c27c7ee3fabb7ef9d767e9dee693f8aa
+ms.openlocfilehash: 0d3608d30fdf689c2121e65c5c4cafb861c88c2e
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/21/2017
+ms.lasthandoff: 12/06/2017
 ---
-# <a name="publish-custom-visuals-to-the-office-store"></a>Egyéni vizualizációk közzététele az Office Áruházban
-Megtudhatja, hogyan teheti közzé egyéni vizualizációit az Office Áruházban, amelyeket aztán mások is felfedezhetnek és használhatnak.
+# <a name="publish-custom-visuals-to-appsource"></a>Egyéni vizualizációk közzététele az AppSource-ban
+Megtudhatja, hogyan teheti közzé egyéni vizualizációit az AppSource-ban, amelyeket aztán mások is felfedezhetnek és használhatnak. office
 
-Miután létrehozta egyéni vizualizációját, közzéteheti az Office Áruházban, hogy mások felfedezhessék és használhassák. Ehhez először el kell végezni néhány előkészítő lépést. Az egyéni vizualizációk létrehozására vonatkozó további információkért lásd az [egyéni vizualizációk fejlesztői eszközökkel történő létrehozásával](../service-custom-visuals-getting-started-with-developer-tools.md) foglalkozó témakört.
+Miután létrehozta egyéni vizualizációját, közzéteheti az AppSource-ban, hogy mások felfedezhessék és használhassák. Ehhez először el kell végezni néhány előkészítő lépést. Az egyéni vizualizációk létrehozására vonatkozó további információkért lásd az [egyéni vizualizációk fejlesztői eszközökkel történő létrehozásával](../service-custom-visuals-getting-started-with-developer-tools.md) foglalkozó témakört.
 
-![](media/office-store/powerbi-custom-visual-store.png)
+![](media/office-store/AppSource_01.jpg)
 
-Mi az Office Áruház? Egy olyan hely, ahol az Office 365 szoftverhez használható alkalmazások (bővítmények) találhatók. Az [Office Áruház](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals) az Office 365 több millió felhasználójának tesz elérhetővé olyan megoldásokat, amelyekkel minden eddiginél hatékonyabban, részletgazdagabban vagy látványosabban dolgozhatnak.
+Mi az az AppSource? Röviden: az a hely, ahol SaaS-alkalmazásokat és -bővítményeket találhat Microsoft-termékeihez és -szolgáltatásaihoz. Az [AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals) az Office 365, a Dynamics 365, a Cortana Intelligence és egyéb szolgáltatások több millió felhasználójának tesz elérhetővé olyan megoldásokat, amelyekkel minden eddiginél hatékonyabban, részletgazdagabban vagy látványosabban dolgozhatnak.
 
 ## <a name="preparing-to-submit-your-custom-visual"></a>Az egyéni vizualizáció elküldésének előkészítése
 Miután végzett az egyéni vizualizáció kódolásával és tesztelésével, és becsomagolta egy pbiviz fájlba, a következőkkel is rendelkeznie kell az elküldéshez.
@@ -57,14 +57,14 @@ Mellékelje a .pbiviz fájlt és a mintajelentés .pbix fájlját az e-mailhez. 
 > 
 > 
 
-## <a name="submitting-to-the-office-store"></a>Elküldés az Office Áruházba
-Miután megkapta az alkalmazáscsomag XML-fájlát a Power BI-csapattól, lépjen az [Office fejlesztői központjára](https://sellerdashboard.microsoft.com/Application/Summary), hogy beküldhesse a vizualizációt az Office Áruházba.
+## <a name="submitting-to-appsource"></a>Beküldés az AppSource-ba
+Miután megkapta az alkalmazáscsomag XML-fájlját a Power BI-csapattól, lépjen a [fejlesztői központba](https://sellerdashboard.microsoft.com/Application/Summary), hogy beküldhesse a vizualizációt az AppSource-ba.
 
 > [!NOTE]
 > Érvényes Office fejlesztői fiókkal kell rendelkeznie, hogy bejelentkezhessen az [Office fejlesztői központjába](https://dev.office.com/). Az Office fejlesztői fiókoknak (Live ID azonosítóval rendelkező) Microsoft-fiókoknak kell lenniük (például hotmail.com vagy outlook.com).
 > 
 > [!IMPORTANT]
-> El kell küldenie egy e-mailt a .pbiviz és a .pbix fájllal a Power BI csapatának, mielőtt beküldené a vizualizációt az Office Áruháznak. Ez azért van, mert a Power BI csapata feltölti a fájlokat a nyilvános megosztási kiszolgálóra. Ha ezt nem teszi meg, az Office Áruház nem tudja lekérni a fájlokat. Minden új vizualizáció beküldésekor, a meglévő vizualizációk frissítésekor és az Office Áruház által elutasított beküldések javításakor is el kell küldenie a fájlokat.
+> El kell küldenie egy e-mailt a .pbiviz- és a .pbix-fájllal a Power BI csapatának, mielőtt beküldené a vizualizációt az AppSource-ba. A Power BI csapata így feltöltheti a fájlokat a nyilvános megosztási kiszolgálóra. Ha ezt nem teszi meg, az AppSource nem tudja lekérni a fájlokat. Minden új vizualizáció beküldésekor, a meglévő vizualizációk frissítésekor és az elutasított beküldések javításakor is el kell küldenie a fájlokat.
 > 
 > 
 

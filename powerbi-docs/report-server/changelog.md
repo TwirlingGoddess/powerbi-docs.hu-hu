@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/17/2017
-ms.author: jaimeta
-ms.openlocfilehash: e56976943e58aba8c9ef36c576a16ab5eba4c796
-ms.sourcegitcommit: 7d4ad2ba92a932d7cc6637348e0774be6623559e
+ms.date: 12/11/2017
+ms.author: tankas
+ms.openlocfilehash: ced415662c2dc39b6491cb79d121f3cd77719fe4
+ms.sourcegitcommit: be55922d7f43f458aea0160ec8fdfb1a0b5a0c00
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/18/2017
+ms.lasthandoff: 12/12/2017
 ---
 # <a name="changelog-for-power-bi-report-server"></a>A Power BI jelentéskészítő kiszolgáló változásnaplója
 
@@ -32,6 +32,10 @@ Az új funkciókról az [A Power BI jelentéskészítő kiszolgáló újdonsága
 ## <a name="october-2017"></a>2017. október
 
 - **Power BI jelentéskészítő kiszolgáló**
+    - *Verzió: 1.1.6551.5155 (Build 14.0.600.438), Kiadás dátuma: 2017. december 11.*
+        - Hibajavítások
+            - A frissítés után egyes Power BI Desktop-jelentések adatai nem menthetők.
+
     - *Verzió: 1.1.6530.30789 (Build 14.0.600.437), Kiadás dátuma: 2017. november 17.*
         - Hibajavítások
             - Hibajavítás az alapszintű hitelesítéshez 
@@ -88,8 +92,8 @@ Az új funkciókról az [A Power BI jelentéskészítő kiszolgáló újdonsága
 
 [Felhasználói kézikönyv](user-handbook-overview.md)  
 [Rendszergazdai kézikönyv](admin-handbook-overview.md)  
-[Gyors üzembe helyezés: Power BI jelentéskészítő kiszolgáló telepítése](quickstart-install-report-server.md)  
-[A jelentéskészítő telepítése](https://docs.microsoft.com/sql/reporting-services/install-windows/install-report-builder)  
+[Rövid útmutató: A Power BI jelentéskészítő kiszolgáló telepítése](quickstart-install-report-server.md)  
+[A Jelentéskészítő telepítése](https://docs.microsoft.com/sql/reporting-services/install-windows/install-report-builder)  
 [Az SQL Server Data Tools (SSDT) letöltése](http://go.microsoft.com/fwlink/?LinkID=616714)
 
-További kérdései vannak? [Kérdezze a Power BI-közösséget!](https://community.powerbi.com/)
+További kérdései vannak? [Kérdezze meg a Power BI közösségét](https://community.powerbi.com/)

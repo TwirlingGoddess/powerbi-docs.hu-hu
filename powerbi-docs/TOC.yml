@@ -380,6 +380,8 @@
           href: service-export-to-pbix.md
         - name: Jelentés szűrése lekérdezésisztring-paraméterek URL-ben való használatával
           href: service-url-filters.md
+        - name: Ajánlott eljárások gyors és megbízható Power BI-jelentések készítéséhez
+          href: power-bi-reports-performance.md
     - name: Vizualizációs elemek
       items:
         - name: Vizuális elemek a Power BI-ban
@@ -746,6 +748,8 @@
       items:
         - name: Jelentés nézet a Power BI Desktopban
           href: desktop-report-view.md
+        - name: Q&A a Power BI Desktopban
+          href: desktop-qna-in-reports.md
         - name: Az Elemzés panel a Power BI Desktopban
           href: desktop-analytics-pane.md
         - name: Elemzések használata a Power BI Desktopban

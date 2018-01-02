@@ -15,32 +15,47 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/28/2017
+ms.date: 12/05/2017
 ms.author: maggies
-ms.openlocfilehash: e492d31a8e1ed57a769c9a36f515d99369f6d6dc
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: fa844004911f41a179542dcfff702f371cc951f8
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/06/2017
 ---
 # <a name="quickstart-create-a-power-bi-report-for-power-bi-report-server"></a>Rövid útmutató: Power BI-jelentés létrehozása a Power BI jelentéskészítő kiszolgálóra
 A Power BI-jelentéseket helyszínen is tárolhatja és kezelheti a Power BI jelentéskészítő kiszolgáló webportálján, ahogy a felhőben tárolhatja a Power BI szolgáltatásban (https://powerbi.com). A jelentéseket a Power BI Desktopban hozhatja létre, majd közzéteheti a webportálon. Ekkor a jelentések megtekinthetővé válnak a cégen belüli olvasók számára egy böngésző vagy egy Power BI-mobilalkalmazás használatával.
 
 ![Power BI-jelentés a webportálon](media/quickstart-create-powerbi-report/report-server-powerbi-report.png)
 
-Ha már létrehozott jelentéseket a Power BI Desktopban, a Power BI jelentéskészítő kiszolgálóra is létrehozhat Power BI-jelentéseket. Ha még nem, akkor négy gyors lépésben felkészülhet rá.
+Íme négy gyors lépés a kezdéshez.
 
-## <a name="step-1-install-power-bi-desktop-report-server"></a>1. lépés: A jelentéskészítő kiszolgálóra optimalizált Power BI Desktop telepítése
-Lehet, hogy a Power BI Desktop már telepítve van a Power BI szolgáltatás számára létrehozandó jelentésekhez. Javasoljuk, hogy a kiszolgáló és az alkalmazás folyamatos szinkronizálása érdekében telepítse a Power BI Desktop Power BI jelentéskészítő kiszolgálóra optimalizált verzióját. Ugyanazon a számítógépen a Power BI Desktop mindkét változata telepítve lehet.
+## <a name="step-1-install-power-bi-desktop-optimized-for-power-bi-report-server"></a>1. lépés: A Power BI jelentéskészítő kiszolgálóhoz optimalizált Power BI Desktop telepítése
 
-1. A Power BI jelentéskészítő kiszolgáló webportálján kattintson az **Új** > **Power BI-jelentés** elemre.
+Ha már létrehozott jelentéseket a Power BI Desktopban, akkor gyakorlatilag a Power BI jelentéskészítő kiszolgálóra is létrehozhat Power BI-jelentéseket. Javasoljuk, hogy a kiszolgáló és az alkalmazás folyamatos szinkronizálása érdekében telepítse a Power BI Desktop Power BI jelentéskészítő kiszolgálóra optimalizált verzióját. Ugyanazon a számítógépen a Power BI Desktop mindkét változata telepítve lehet.
+
+1. A jelentéskészítő kiszolgáló webportálján kattintson a **Letöltés** nyíl > **Power BI Desktop** lehetőségre.
+
+    ![A Power BI Desktop letöltése a webportálról](media/quickstart-create-powerbi-report/report-server-download-web-portal.png)
+
+    De azt is megteheti, hogy a Microsoft letöltőközpontjában közvetlenül a [Microsoft Power BI Desktop](https://go.microsoft.com/fwlink/?linkid=861076) [A Power BI jelentéskészítő kiszolgálóra (2017. október) optimalizált Microsoft Power BI Desktop] hivatkozást választja.
+
+2. A letöltőközpontlapon kattintson a **Letöltés** gombra.
+
+3. A számítógépétől függően válassza az alábbiak egyikét:
+
+    - **PBIDesktopRS.msi** (32 bites verzió) vagy
+
+    - **PBIDesktopRS_x64.msi** (64 bites verzió).
+
+4. A telepítő letöltése után indítsa el a Power BI Desktop (2017. október) telepítési varázslóját.
+
+2. A telepítés végén kattintson a **Power BI Desktop azonnali indítása** lehetőségre.
    
-    ![Új Power BI-jelentés](media/quickstart-create-powerbi-report/report-server-web-portal-new-powerbi-report.png)
-   
-    Ha nincs hozzáférése a Power BI jelentéskészítő kiszolgáló webportáljához, nyissa meg a Microsoft Download Centert, és töltse le a [Microsoft Power BI Desktop](https://go.microsoft.com/fwlink/?linkid=837581) Power BI jelentéskészítő kiszolgálóra optimalizált verzióját – (2017. június GA).
-2. A telepítési folyamat végén kattintson a **Power BI Desktop azonnali indítása** lehetőségre.
-   
-    A folyamat automatikusan elindul, és máris hozzákezdhet. A címsorban látható „Power BI Desktop (Report Server)" feliratból láthatja, hogy a megfelelő verziót töltötte le.
+    A folyamat automatikusan elindul, és máris hozzákezdhet. A címsorban látható „Power BI Desktop (2017. október)” feliratból láthatja, hogy a megfelelő verziót töltötte le.
+
+    ![A Power BI Desktop 2017. októberi verziója](media/quickstart-create-powerbi-report/report-server-desktop-october-2017-version.png)
+
 3. Ha még nem ismeri a Power BI Desktopot, érdemes megtekintenie az üdvözlőképernyőn látható videókat.
    
     ![A Power BI Destop üdvözlőképernyője](media/quickstart-create-powerbi-report/report-server-powerbi-desktop-start.png)
@@ -113,15 +128,15 @@ A Power BI jelentéskészítő kiszolgálón tárolt jelentések nem támogatjá
 * Útkövetési eszközök
 * Geofiltering vagy vonalkódok
 
-## <a name="next-steps"></a>További lépések
+## <a name="next-steps"></a>Következő lépések
 ### <a name="power-bi-desktop"></a>Power BI Desktop
 A Power BI Desktop számos nagyszerű erőforrással segíti a jelentéskészítést. Az alábbi hivatkozások jó kiindulási pontot jelentenek.
 
 * [Első lépések a Power BI Desktoppal](../desktop-getting-started.md)
-* Interaktív tanulás: [Első lépések a Power BI Desktoppal](../guided-learning/gettingdata.yml#step-2)
+* Irányított útmutató: [Első lépések a Power BI Desktopban](../guided-learning/gettingdata.yml#step-2)
 
 ### <a name="power-bi-report-server"></a>Power BI jelentéskészítő kiszolgáló
-* [A Power BI jelentéskészítő kiszolgálóra optimalizált Power BI Desktop telepítése](install-powerbi-desktop.md)  
+* [A Power BI jelentéskészítő kiszolgálóhoz optimalizált Power BI Desktop telepítése](install-powerbi-desktop.md)  
 * [Felhasználói kézikönyv a Power BI jelentéskészítő kiszolgálóhoz](user-handbook-overview.md)  
 
-További kérdései vannak? [Kérdezze a Power BI-közösséget!](https://community.powerbi.com/)
+További kérdései vannak? [Kérdezze meg a Power BI közösségét](https://community.powerbi.com/)

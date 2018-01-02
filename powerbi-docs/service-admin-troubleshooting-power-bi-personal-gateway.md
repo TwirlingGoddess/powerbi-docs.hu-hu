@@ -15,19 +15,19 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/06/2017
+ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: 7774153ff73fb67a434ac79016507a2e94cf40f1
-ms.sourcegitcommit: 8f72ce6b35aa25979090a05e3827d4937dce6a0d
+ms.openlocfilehash: 6fbd9f56099e4053524a04680c0d4c0c366ce068
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/27/2017
+ms.lasthandoff: 12/06/2017
 ---
 # <a name="troubleshooting-power-bi-gateway---personal"></a>A Power BI személyes átjáró hibáinak elhárítása
 Ebben a cikkben áttekintjük a Power BI személyes átjáró használata kapcsán gyakorta felmerülő kérdéseket.
 
 > [!NOTE]
-> Ha olyan problémával találkozik, mely itt nincs felsorolva, a [közösségi webhelyen](http://community.powerbi.com/) kérhet további segítséget, vagy létrehozhat egy [támogatási jegyet](https://powerbi.microsoft.com/support/).
+> Az átjáró aktuális, személyes használatú verziója a **Helyszíni adatátjáró (személyes)**. A telepített példányt frissítve térjen át erre a verzióra.
 > 
 > 
 
@@ -155,5 +155,5 @@ Másik lehetőségként megnyithatja a **Temp mappát** (%temp%), és megtekinth
 [A Power BI személyes átjáró](personal-gateway.md)  
 [Csempékkel kapcsolatos hibák elhárítása](refresh-troubleshooting-tile-errors.md)  
 [A helyszíni átjáró hibaelhárítása](service-gateway-onprem-tshoot.md)  
-További kérdései vannak? [Felteheti őket a Power BI-közösségnek](http://community.powerbi.com/)
+További kérdései vannak? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)
 

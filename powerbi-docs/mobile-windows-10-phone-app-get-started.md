@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/13/2017
+ms.date: 12/05/2017
 ms.author: maggies
-ms.openlocfilehash: cff6a984f4c3d47bbf7dcd3df43253c318b2bf50
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 97fb3625848210f6222317cf3fc48eea305ef04d
+ms.sourcegitcommit: 7248b5e449b2495d6baef385470d18edfacec457
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/08/2017
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-for-windows-10"></a>Windows 10-hez készült Power BI mobilalkalmazás – első lépések
 A Windows 10-hez készült Power BI alkalmazással táblagépen és mobilon is használhatja a Power BI-t: naprakész, érintéses használatra optimalizált mobil hozzáférést kap a vállalati információkhoz. Bárhol megtekintheti és használhatja a vállalati irányítópultjait – közvetlenül a [Windows kezdőképernyőjéről](mobile-pin-dashboard-start-screen-windows-10-phone-app.md).
@@ -35,10 +35,8 @@ Ezután felhasználhatja az irányítópultokat és a jelentéseket, kutathat az
 ## <a name="first-things-first"></a>Először a lényeg
 * [**Töltse le a Windows 10-hez készült Power BI mobilalkalmazást**](http://go.microsoft.com/fwlink/?LinkID=526478) a Windows Áruházból.
   
-  > [!NOTE]
-  > Az eszközön a Windows 10 operációs rendszernek kell futnia. Az alkalmazás optimális működéséhez 2 GB RAM és 8 GB belső tárhely szükséges. A futtatásához legalább 1 GB RAM szükséges.
-  > 
-  > 
+  Az eszközön a Windows 10 operációs rendszernek kell futnia. Az alkalmazás működéséhez 3 GB RAM és 8 GB belső tárterület szükséges.
+   
 * Ismerje meg [a Power BI mobilalkalmazások újdonságait](mobile-whats-new-in-the-mobile-apps.md).
 
 ## <a name="sign-up-for-the-power-bi-service-on-the-web"></a>Regisztráció a Power BI szolgáltatásra a weben

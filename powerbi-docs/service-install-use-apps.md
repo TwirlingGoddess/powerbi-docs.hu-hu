@@ -14,13 +14,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/13/2017
+ms.date: 12/05/2017
 ms.author: maggies
-ms.openlocfilehash: 72cfae29d00d5612abed6e5de7475dd1c62ab1b6
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 87fd7f9b881c6af482cc3a644e77b0a95ea1743c
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 12/06/2017
 ---
 # <a name="install-and-use-apps-with-dashboards-and-reports-in-power-bi"></a>Alkalmazások telepítése és használata irányítópultokkal és jelentésekkel a Power BI-ban
 A Power BI-ban az *alkalmazások* egy helyen hozzák össze az összefüggő irányítópultokat és jelentéseket. Cégének tagjai fontos üzleti információkkal dolgozó alkalmazásokat hozhatnak létre és terjeszthetnek. Az esetleg már eddig is használt [külső szolgáltatások](service-connect-to-services.md), mint a Google Analytics és a Microsoft Dynamics CRM, szintén kínálnak Power BI-alkalmazásokat. 
@@ -34,7 +34,7 @@ Valahányszor az alkalmazás szerzője frissítést bocsát ki, Ön automatikusa
 Azt tervezi, hogy saját alkalmazást készít? További információt az [Alkalmazások létrehozása és közzététele a Power BI-ban](service-create-distribute-apps.md) című cikkben talál.
 
 ## <a name="get-a-new-app"></a>Új alkalmazás letöltése
-Alkalmazásokat sokféleképpen be lehet szerezni. Az alkalmazást a szerzője automatikusan telepítheti az Ön Power BI-fiókjában, elküldheti Önnek az alkalmazásra mutató közvetlen hivatkozást, vagy Ön is megkeresheti azt az AppSource-ban, ahol minden hozzáférhető alkalmazást megtalál. A mobileszközén a Power BI-ban csak közvetlen hivatkozásról telepíthet, az AppSource-ból nem. Ha a szerző automatikusan telepíti az alkalmazást, akkor az megjelenik az Ön alkalmazásainak listájában.
+Alkalmazásokat kétféleképpen lehet beszerezni. Az alkalmazás szerzője elküldheti Önnek az alkalmazásra mutató közvetlen hivatkozást, vagy Ön is megkeresheti azt az AppSource-ban, ahol minden elérhető alkalmazást megtalál. A mobileszközén a Power BI-ban csak közvetlen hivatkozásról telepíthet, az AppSource-ból nem. 
 
 ### <a name="install-an-app-from-a-direct-link"></a>Alkalmazás telepítése közvetlen hivatkozásról
 Új alkalmazás saját telepítésének legegyszerűbb módja az, ha közvetlen hivatkozást szerez az alkalmazás szerzőjétől. A Power BI létrehoz egy telepítési hivatkozást, amelyet a szerző elküldhet Önnek.
@@ -72,5 +72,5 @@ A módosításait nem mentheti ki, de egy táblából vagy a jelentés más vizu
 ## <a name="next-steps"></a>További lépések
 * [Alkalmazások létrehozása és közzététele a Power BI-ban](service-create-distribute-apps.md)
 * [Power BI-alkalmazások külső szolgáltatásokhoz](service-connect-to-services.md)
-* Kérdései vannak? [Kérdezze a Power BI-közösséget!](http://community.powerbi.com/)
+* Kérdései vannak? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)
 

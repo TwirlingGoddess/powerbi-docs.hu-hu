@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/28/2017
+ms.date: 12/05/2017
 ms.author: mihart
-ms.openlocfilehash: ecd984ab23c4480b2e615635a8d2f337e2a9a50f
-ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
+ms.openlocfilehash: 7ff8ba4557c829551b97e51f411269e3ba8fbdea
+ms.sourcegitcommit: 54da95f184dd0f7bb59bb0bc8775a1d93129b195
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/17/2017
+ms.lasthandoff: 12/08/2017
 ---
 # <a name="sales-and-marketing-sample-for-power-bi-take-a-tour"></a>Értékesítési és marketing minta a Power BI-hoz: bemutató
 Az **Értékesítési és marketing minta** egy VanArsdel Ltd nevű kitalált gyártó céghez tartozó irányítópultot és jelentést tartalmaz. Az irányítópultot a VanArsdel marketingigazgatója hozta létre, hogy nyomon tudja követi az iparág eseményeit és cége piaci részesedését, a termékmennyiséget, az eladásokat, valamint a róluk szóló véleményeket.
@@ -30,7 +30,7 @@ A VanArsdel számos versenytárssal rendelkezik, de piacvezető az iparágában.
 
 Ez a minta egy olyan sorozat részét képezi, amely bemutatja, hogyan használhatja a Power BI-t üzleti adatokkal, jelentésekkel és irányítópultokkal. Az adatok az obviEnce-től (www.obvience.com) származó valós, de anonimizált adatok.
 
-Letöltheti [kizárólag a minta adatkészletét (Excel-munkafüzetét) is](http://go.microsoft.com/fwlink/?LinkId=529785).
+[!Note] Letöltheti [kizárólag a minta adatkészletét (Excel-munkafüzetét) is](http://go.microsoft.com/fwlink/?LinkId=529785). A munkafüzet megtekinthető és módosítható Power View-lapokat tartalmaz. A nyers adatokat a **Power Pivot > Kezelés** lehetőségre kattintva nézheti meg.
 
 ![](media/sample-sales-and-marketing/sales1.png)
 
@@ -108,7 +108,7 @@ A vélemények közötti eltérés egy másik olyan terület, melyet érdemes fe
 
 A vizualizációk a VanArsdel, szegmens, hónap és régió szerinti szűrésével felderíthetjük a VanArsdel növekedési lehetőségeit.
 
-Ebben a környezetben nyugodtan kísérletezhet. Bármikor dönthet úgy, hogy nem menti a változtatásokat. Ha viszont mégis menti őket, az **Adatok lekérése** lehetőséggel bármikor letöltheti a minta egy új példányát.
+Ebben a környezetben nyugodtan kísérletezhet. Bármikor dönthet úgy, hogy nem menti a változtatásokat. De ha mégis mentené őket, bármikor lekérheti a minta egy új másolatát az **Adatok lekérése** lehetőséggel.
 
 ## <a name="next-steps-connect-to-your-data"></a>Következő lépések: Kapcsolódás a saját adatokhoz
 Reméljük, hogy ez a bemutató segített megérteni, hogyan tárhat fel összefüggéseket az értékesítési és marketingadatokban Power BI-irányítópultok, a Q&A és jelentések használatával. Most Önön a sor – kapcsolódjon a saját adataihoz. A Power BI használatával számos különböző adatforráshoz kapcsolódhat. További információ a [Power BI használatának első lépéseiről](service-get-started.md).  

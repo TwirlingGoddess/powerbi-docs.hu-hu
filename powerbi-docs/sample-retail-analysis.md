@@ -15,19 +15,19 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/27/2017
+ms.date: 12/04/2017
 ms.author: mihart
-ms.openlocfilehash: cfd085913ea1ef2cf08942ca4570f98eba34a3d4
-ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
+ms.openlocfilehash: 09e245e625c9e0859f93837e56b564218e327926
+ms.sourcegitcommit: 54da95f184dd0f7bb59bb0bc8775a1d93129b195
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/17/2017
+ms.lasthandoff: 12/08/2017
 ---
 # <a name="retail-analysis-sample-for-power-bi-take-a-tour"></a>Kiskereskedelmi elemzési minta a Power BI-hoz: bemutató
 
 Ez az iparági minta-irányítópult és a mögöttes jelentés a több üzletben és körzetben értékesített cikkek kiskereskedelmi értékesítési adatait elemzi. A mérőszámok a folyó év teljesítményét vetik össze a tavalyival a következő területeken: értékesítés, egységek, bruttó nyereség, eltérés, új üzletek elemzett adatai. Az adatok az obviEnce-ről ([www.obvience.com](http://www.obvience.com)) származó valós, de anonimizált adatok.
 
-Letöltheti [kizárólag a minta adatkészletét is (Excel-munkafüzet)](http://go.microsoft.com/fwlink/?LinkId=529778).
+[!Note] Letöltheti [kizárólag a minta adatkészletét (Excel-munkafüzetét) is](http://go.microsoft.com/fwlink/?LinkId=529778). A munkafüzet megtekinthető és módosítható Power View-lapokat tartalmaz.  A nyers adatokat a **Power Pivot > Kezelés** lehetőségre kattintva nézheti meg. 
 
 ![](media/sample-retail-analysis/retail1.png)
 
@@ -135,12 +135,12 @@ Végezetül vessen egy pillantást a vállalkozás növekedésére – az idén 
 Ebben a környezetben bármit nyugodtan kipróbálhat. Mindig hozhat olyan döntést, hogy nem menti a módosításokat. De ha mégis mentené őket, bármikor lekérheti a minta új másolatát az Adatok lekérése lehetőséggel.
 
 ## <a name="connect-to-your-data"></a>Csatlakozás az adatokhoz
-Reméljük, hogy ez a bemutató segített megérteni a Power BI irányítópultok, Q&A és jelentések segítségével történő kiskereskedelmi adatelemzést. Most Önön a sor – csatlakozzon a saját adataihoz. A Power BI használatával számos különböző adatforráshoz csatlakozhat. További információkért lásd: [Első lépések a Power BI használatával](service-get-started.md).
+Reméljük, hogy ez a bemutató segített megérteni a Power BI irányítópultok, Q&A és jelentések segítségével történő kiskereskedelmi adatelemzést. Most Önön a sor – csatlakozzon a saját adataihoz. A Power BI használatával számos különböző adatforráshoz kapcsolódhat. További információkért lásd: [Első lépések a Power BI használatával](service-get-started.md).
 
 ## <a name="next-steps"></a>További lépések
 * [A Kiskereskedelmi elemzési minta tartalomcsomag letöltése](sample-tutorial-connect-to-the-samples.md)    
 * [A fenti Power BI-mintához tartozó Excel-munkafüzet letöltése](http://go.microsoft.com/fwlink/?LinkId=529778)    
 * [Adatbeolvasás (a Power BI-ban)](service-get-data.md)    
 * [Power BI – Alapfogalmak](service-basic-concepts.md)    
-* További kérdései vannak? [Kérdezze a Power BI-közösséget!](http://community.powerbi.com/)
+* További kérdései vannak? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)
 

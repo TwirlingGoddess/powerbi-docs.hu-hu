@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/28/2017
+ms.date: 12/04/2017
 ms.author: mihart
-ms.openlocfilehash: 576ddfbbf52a2738dd32597479ffd03d554a5256
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 957e7c05907f1fc75eddeb271c664f898203e591
+ms.sourcegitcommit: 7248b5e449b2495d6baef385470d18edfacec457
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/08/2017
 ---
 # <a name="procurement-analysis-sample-for-power-bi-take-a-tour"></a>Beszerzéselemzési minta a Power BI-hoz: bemutató
 Ez az iparági mintaként szolgáló irányítópult és a mögöttes jelentés egy gyártással foglalkozó cég beszállítói költségeit elemzi kategória és hely szerint. A mintában az alábbi területek ismerhetők meg:
@@ -36,7 +36,7 @@ Ez a minta egy olyan sorozat részét képezi, amely bemutatja, hogyan használh
 
 Szeretné követni a leírást? A [Power BI szolgáltatásban](https://powerbi.com) keresse meg az **Adatok beolvasása > Minták > Beszerzéselemzési minta > Kapcsolódás** elemet a minta saját példányának beszerzéséhez.
 
-[Letöltheti kizárólag a minta adatkészletét (Excel-munkafüzetét) is](http://go.microsoft.com/fwlink/?LinkId=529784).
+[!Note] [Letöltheti kizárólag a minta adatkészletét (Excel-munkafüzetét) is](http://go.microsoft.com/fwlink/?LinkId=529784). A munkafüzet megtekinthető és módosítható Power View-lapokat tartalmaz. A nyers adatokat a **Power Pivot > Kezelés** lehetőségre kattintva nézheti meg.
 
 ## <a name="spending-trends"></a>Költési trendek
 Először nézzük meg a költési trendeket kategória és hely szerint.  
@@ -119,5 +119,5 @@ Válassza ki a **Jelentés szerkesztése** elemet a bal felső sarokban, és nyi
 Ebben a környezetben nyugodtan kísérletezhet. Nem kötelező menteni a módosításokat. De ha mégis mentené őket, bármikor lekérheti a minta új másolatát az **Adatok lekérése** lehetőséggel.
 
 ## <a name="next-steps-connect-to-your-data"></a>Következő lépések: Kapcsolódás saját adatokhoz
-Reméljük, ez a bemutató segített megérteni a Power BI-beli irányítópultok és jelentések segítségével történő beszerzési adatelemzést. Most Önön a sor &#151; kapcsolódjon a saját adataihoz. A Power BI-jal számos adatforráshoz kapcsolódhat. Tudjon meg többet a [Power BI használatának első lépéseiről](service-get-started.md).
+Reméljük, ez a bemutató segített megérteni a Power BI-beli irányítópultok és jelentések segítségével történő beszerzési adatelemzést. Most Önön a sor &#151; kapcsolódjon a saját adataihoz. A Power BI-jal számos adatforráshoz kapcsolódhat. További információ a [Power BI használatának első lépéseiről](service-get-started.md).
 

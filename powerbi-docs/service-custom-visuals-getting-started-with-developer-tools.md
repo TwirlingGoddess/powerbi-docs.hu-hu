@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/05/2017
+ms.date: 11/30/2017
 ms.author: asaxton
-ms.openlocfilehash: e84c5045906cb91f028f0c33b5af8164871d8882
-ms.sourcegitcommit: 12236d08c27c7ee3fabb7ef9d767e9dee693f8aa
+ms.openlocfilehash: bdba3cb9a7dc64dbf71a48a7ae2223e74c302b70
+ms.sourcegitcommit: 0f6db65997db604e8e9afc9334cb65bb7344d0dc
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/21/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="use-developer-tools-to-create-custom-visuals"></a>Egyéni vizualizációk létrehozása fejlesztőeszközökkel
 Egyéni vizualizációk segítségével megfelelhet a felhasználók igényeinek, és igazodhat saját alkalmazásának felületéhez. Cikkünk bemutatja, hogy miképpen hozhat létre egyéni Power BI-vizualizációt a fejlesztőeszközökkel.
@@ -347,8 +347,8 @@ További információ: [Less](http://lesscss.org/).
 ## <a name="debugging"></a>Hibakeresés
 Az egyéni vizualizációban végzett hibakereséssel kapcsolatban a [hibakeresési útmutató](https://github.com/Microsoft/PowerBI-visuals/blob/master/tools/debugging.md) szolgál hasznos tanácsokkal.
 
-## <a name="submit-your-visual-to-the-office-store"></a>A vizualizáció beküldése az Office Áruházba
-Beküldheti a vizualizációt, hogy szerepeljen az Office Áruház kínálatában. Erről az eljárásról az [Egyéni vizualizáció közzététele az Office Áruházban](developer/office-store.md) című cikk nyújt részletesebb tájékoztatást.
+## <a name="submit-your-visual-to-appsource"></a>Vizualizáció beküldése az AppSource-ba
+Vizualizációit elérhetővé teheti mások számára, ha beküldi őket az AppSource-ba. Erről az eljárásról az [Egyéni vizualizáció közzététele az AppSource-ban](developer/office-store.md) című cikk nyújt részletesebb tájékoztatást.
 
 ## <a name="troubleshooting"></a>Hibaelhárítás
 **A pbiviz parancs nem található (vagy ehhez hasonló hibaüzenetek)**
@@ -385,5 +385,5 @@ További tájékoztatást [A vizualizáció futtatása](#running-your-visual) é
 [TypeScript](http://www.typescriptlang.org/)  
 [Less CSS](http://lesscss.org/)  
 
-További kérdései vannak? [Kérdezze a Power BI-közösséget!](http://community.powerbi.com/)
+További kérdései vannak? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)
 

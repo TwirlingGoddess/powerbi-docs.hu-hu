@@ -5,7 +5,7 @@ A **DAX** a **Data Analysis Expressions** rövidítése, és egy, a Power BI-n b
 ## <a name="dax-and-this-guided-learning-video-series"></a>A DAX és a jelen interaktív tanulási videósorozat
 A jelen **interaktív tanulási** szakasz célja az, hogy megtanítsa a DAX alapjait és alapelveit – egy neves DAX-szakértő ([Alberto Ferrari](http://www.sqlbi.com/learning-dax/?utm_source=powerbi&utm_medium=marketing&utm_campaign=after-summit)) tolmácsolásában, aki elmagyarázza, hogyan gondolkodjunk a DAX-ról, hogyan működik, és mik a leghasznosabb funkciói tapasztalatai szerint.
 
-![](media/7-1-intro-to-dax/intro_dax_6_alberto_ferrari.png)
+![Alberto Ferrari portréja](media/7-1-intro-to-dax/intro_dax_6_alberto_ferrari.png)
 
 Az ezen **interaktív tanulási** lap **DAX** szakaszában található videók alapvető útmutatást nyújtanak a DAX képletnyelvének működését illetően. Ez a teljesen új DAX-képletek létrehozásakor is hasznos, de annak a megértéséhez is, hogyan miként hozza létre a Power BI ezeket a DAX-képleteket, amikor lekérdezéseket hoz létre a **Lekérdezésszerkesztőben**.
 
