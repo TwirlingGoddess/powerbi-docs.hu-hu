@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/28/2017
+ms.date: 12/20/2017
 ms.author: mihart
-ms.openlocfilehash: dfc7552b1a6035a2e75ded010ddb7c57931c79ad
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 34574cf73d12d91df7a497cf297a9ecda9f5cc57
+ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 12/21/2017
 ---
 # <a name="pin-a-tile-to-a-power-bi-dashboard-from-a-report"></a>Csempe rögzítése Power BI-irányítópultra jelentésből
 ## <a name="pinning-tiles-from-a-report"></a>Csempék rögzítése jelentésből
@@ -59,7 +59,7 @@ Most készítse el saját irányítópultját a Power BI-jelentésminták egyik�
 5. Jelölje ki az új csempét tartalmazó irányítópultot a navigációs panelen. A csempére kattintva térhet vissza a jelentésre. Vagy [módosítsa a csempe megjelenését és viselkedését](service-dashboard-edit-tile.md).
 
 ## <a name="pin-an-entire-report-page"></a>Teljes jelentésoldal rögzítése
-Egy másik lehetőség, hogy egy teljes jelentésoldalt rögzít egy irányítópulton. Így egyszerűen rögzíthet egyszerre több vizualizációt.  Ezen felül teljes oldal rögzítésekor a csempék *élők* lesznek, közvetlenül az irányítópulton kezelhetők. A vizualizációk jelentésszerkesztőben végrehajtott módosítása, például egy szűrő hozzáadása vagy a diagramon használt mezők megváltoztatása is megjelenik az irányítópulton lévő csempén.  
+Egy másik lehetőség, hogy egy teljes jelentésoldalt rögzít egy irányítópulton. Így egyszerűen rögzíthet egyszerre több vizualizációt.  Ezen felül teljes oldal rögzítésekor a csempék *élők* lesznek, és közvetlenül az irányítópulton kezelhetők. A vizualizációk jelentésszerkesztőben végrehajtott módosítása, például egy szűrő hozzáadása vagy a diagramon használt mezők megváltoztatása is megjelenik az irányítópulton lévő csempén.  
 
 További információk: [Teljes jelentésoldal rögzítése](service-dashboard-pin-live-tile-from-report.md)
 

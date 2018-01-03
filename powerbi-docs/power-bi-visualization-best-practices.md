@@ -15,20 +15,20 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/14/2017
+ms.date: 12/21/2017
 ms.author: mihart
-ms.openlocfilehash: e3c3f59bc5d27e19bbd6256b6692782fc115ff28
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 202f92b9c7089a4bd9bb5dd976051bba47da632e
+ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/21/2017
 ---
 # <a name="best-design-practices-for-reports-and-visuals"></a>Ajánlott eljárások jelentések és vizualizációk megalkotásához
 <!-- Shared newnav Include -->
 [!INCLUDE [newnavbydefault](./includes/newnavbydefault.md)]
 
 ## <a name="introduction"></a>Bevezetés
-Ez a tanulmány ajánlott eljárásokat ismertet Power BI-jelentések megalkotásához. A tervezés lépéseitől kezdve végighalad az alkotás alapelvein, amelyeket alkalmazhat a jelentéseire és az oldalakra, valamint a jelentés részeiként szolgáló vizualizációkra.  Az ajánlott eljárások közül sokat alkalmazhat az irányítópultok kialakítására is.
+Ez a tanulmány ajánlott eljárásokat ismertet Power BI-jelentések megalkotásához. Az előkészületektől kezdve tárgyalja a jelentésekre és a jelentéseket felépítő oldalakra és egyéni vizualizációkra vonatkozó tervezési alapelveket.  Az ajánlott eljárások közül sokat alkalmazhat az irányítópultok kialakítására is.
 
 Reméljük, hogy a tanulmány hasznos kiindulópontként szolgál Önnek, és alkalmazni fogja a belőle tanultakat a saját jelentéseire és vizualizációira, valamint csatlakozik a közösséghez a community.powerbi.com oldalon. A BI jelentéstervezése és vizualizációinak használata gyakori téma, és számos vezető véleményformáló, blogger és webhely foglalkozik mélyrehatóan a témával (a tanulmány végén megtekinthet ezek közül néhányat).   
 
@@ -739,7 +739,7 @@ További információ:
 ### <a name="scatter-chart"></a>Pontdiagram
 ![](media/power-bi-visualization-best-practices/power-bi-scatter.png)
 
-Néha sok változót szeretnénk egyszerre megjeleníteni, egy pontdiagrammal pedig tökéletes áttekintést nyerhetünk.  A pontdiagramok kettő (pont) vagy három (buborék) mennyiségi mérték kapcsolatát mutatják be.  A pontdiagramok mindig két értéktengellyel rendelkeznek: az egyik egy vízszintes tengelyen jelenít meg egy numerikus adathalmazt, a másik egy függőleges tengelyen. A diagram az X és Y numerikus értékeinek metszéspontját helyezi a középpontba, és ezeket az értékeket kombinálva hoz létre adatpontokat. Ezek az adatpontok egyenlően vagy egyenlőtlenül is eloszolhatnak a vízszintes tengelyen, az adatoktól függően.
+Néha sok változót szeretnénk egyszerre megjeleníteni, egy pontdiagrammal pedig tökéletes áttekintést nyerhetünk.  A pontdiagramok kettő (pont) vagy három (buborék) mennyiségi mérték kapcsolatát mutatják be.  A pontdiagramok mindig két értéktengellyel rendelkeznek: az egyik egy vízszintes tengelyen jelenít meg egy numerikus adathalmazt, a másik egy függőleges tengelyen. A diagram pontokat jelenít meg az x és y numerikus értékek metszéspontjában, így egyetlen adatponttá kombinálja ezeket az értékeket. Ezek az adatpontok egyenlően vagy egyenlőtlenül is eloszolhatnak a vízszintes tengelyen, az adatoktól függően.
 
 A buborékdiagramok buborékokkal helyettesítik az adatpontokat, a buborékok mérete pedig egy új dimenziót ad az adatoknak.
 
@@ -818,5 +818,5 @@ Ideje élesben is kipróbálni az ajánlott eljárásokat.  Maradjunk kapcsolatb
 ### <a name="book-recommendations"></a>Könyvajánló
 A vizualizációtervezési technikákról számos jó könyv érhető el manapság. Stephen Few *Information Dashboard Design* (Információs irányítópultok tervezése) című könyve kötelező a témakörben. Két másik könyvben, a *Show Me the Numbers* (Lássuk a számokat!) és a *Now You See It* (Így már látja?) című kiadásban még részletesebben ír a vizualizációkról. Few-t és más szerzőket Edward R. Tufte ihlette, akinek *The Visual Display of Quantitative Information* (A mennyiségi adatok vizuális megjelenítése) című könyve klasszikusnak számít ezen a területen. Tufte írta emellett a *Visual Explanations* (Vizuális magyarázatok), az *Envisioning Information* (Az információk megjelenítése) és a *Beautiful Evidence* (Gyönyörű bizonyíték) című könyveket is. Adam Kirk új könyve, a *Data Visualization: A Handbook for Data Driven Design* (Adatvizualizáció: adattervezési kézikönyv) is egy nagyszerű olvasmány. További ajánlott szerzők: Lachlan James, William McKnight, és Boris Evelson (Forrester), Darkhorse Analytics.
 
-További kérdései vannak? [Felteheti őket a Power BI-közösségnek](http://community.powerbi.com/)
+További kérdései vannak? [Felteheti azokat a Power BI-közösségnek](http://community.powerbi.com/)
 

@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/26/2017
+ms.date: 12/23/2017
 ms.author: mihart
-ms.openlocfilehash: f61ca9c4808cbcf180b60113eeade235b8d28f6d
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 430ff5ad86636d96ca693ff7fc1ac1bb0d16b5cc
+ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/03/2018
 ---
 # <a name="power-bi-notifications"></a>Power BI-értesítések
 Az értesítési központ a Power BI használatával kapcsolatos információkból álló szekvenciális hírcsatorna. A megnyitásakor az Önnel megosztott új irányítópultokkal, a csoport munkaterületének változásaival, a Power BI-eseményekre és -értekezletekre vonatkozó értesítésekkel és egyebekkel kapcsolatos üzenetek láthatók. [Riasztásokat beállíthat a Power BI szolgáltatásban](service-set-data-alerts.md) és a Power BI-mobilalkalmazásokban is.
@@ -48,5 +48,5 @@ Figyelje meg, hogyan tekinti át és kezeli Amanda a kapott értesítéseket, é
 * [Power BI-adatriasztás által aktivált Microsoft Flow-folyamat létrehozása](service-flow-integration.md)
 * [Adatriasztások beállítása az iPhone-alkalmazásban (a Power BI for iOS-ben)](mobile-set-data-alerts-in-the-mobile-apps.md)
 * [Adatriasztások beállítása a Windows 10-hez készült Power BI-mobilalkalmazásban](mobile-set-data-alerts-in-the-mobile-apps.md)
-* További kérdései vannak? [Felteheti őket a Power BI-közösségnek](http://community.powerbi.com/)
+* További kérdései vannak? [Felteheti azokat a Power BI-közösségnek](http://community.powerbi.com/)
 
