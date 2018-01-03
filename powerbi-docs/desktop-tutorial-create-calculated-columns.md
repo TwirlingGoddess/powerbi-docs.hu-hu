@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/06/2017
+ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: 7e959054300dafcab5f38bfce121fe0ac91dca06
-ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
+ms.openlocfilehash: 9ea93980a095ca4e626b6f8071d044448af59635
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/17/2017
+ms.lasthandoff: 12/06/2017
 ---
 # <a name="tutorial-create-calculated-columns-in-power-bi-desktop"></a>Oktatóanyag: Számított oszlopok létrehozása a Power BI Desktopban
 Időnként az elemzett adatok nem tartalmazzák a kívánt eredményhez szükséges mezőt. Ekkor nyernek jelentőséget a számított oszlopok. A számított oszlopok Data Analysis Expressions- (DAX-) képleteket használnak az oszlopok értékeinek meghatározásához. Ezek az értékek bármik lehetnek, akár a modell más részében lévő különböző oszlopokból származó szöveges értékek összeállításáról, akár numerikus érték más értékekből való kiszámításáról van szó. Tegyük fel például, hogy az adatokban van egy Város és egy Állam oszlop (amelyek mezők a Mezők listában), de egyetlen olyan Hely mezőt szeretne, amelyben mindkettő szerepel egyetlen értékként (például Miami, FL). Pontosan erre szolgálnak a számított oszlopok.

@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 08/05/2017
+ms.date: 12/24/2017
 ms.author: mihart
-ms.openlocfilehash: f189ab5b195a945b6a21ea868cf29257e30c0d20
-ms.sourcegitcommit: b3ee37e1587f1269ee7dd9daf1685a06dea3b50c
+ms.openlocfilehash: 5ab075ede78ad5c08858878d6652e9b102a87fca
+ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/23/2017
+ms.lasthandoff: 01/03/2018
 ---
 # <a name="tips-and-tricks-for-power-bi-map-visualizations"></a>Tippek és trükkök Power BI-térképvizualizációkhoz
 A Power BI integrálva van a Bing Térképekkel alapértelmezett térképkoordináták biztosításához (ez a geokódolás nevű folyamat), így térképeket hozhat létre. Együtt algoritmusokat használnak a megfelelő hely azonosításához, de ez néha csak feltételezésen alapul. Ha a Power BI nem tudja egyedül létrehozni a térkép-vizualizációt, igénybe veszi a Bing Térképek segítségét.  
