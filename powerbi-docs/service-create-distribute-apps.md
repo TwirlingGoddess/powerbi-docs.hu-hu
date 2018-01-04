@@ -14,13 +14,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/13/2017
+ms.date: 12/11/2017
 ms.author: maggies
-ms.openlocfilehash: 58af226f6c3d93fffc805e23fcf1bda0d055058d
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 27ead0a3104693aff4a6fc3c2641c207ad44dc09
+ms.sourcegitcommit: bb577045145b2e6e5807622a53cefa2d46574618
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 12/12/2017
 ---
 # <a name="create-and-publish-apps-with-dashboards-and-reports-in-power-bi"></a>Irányítópultokból és jelentésekből álló alkalmazások létrehozása és közzététele a Power BI-ban
 
@@ -32,7 +32,7 @@ A Power BI-ban létrehozhat az irányítópultokat és jelentéseket egy helyen 
 
 A jelenleg előzetes verzióban elérhető Power BI alkalmazásokkal irányítópult- és jelentésgyűjteményeket hozhat létre, majd közzéteheti az alkalmazásokat a teljes vállalat, vagy egy adott személy vagy csoport számára. A jelentés készítője vagy a rendszergazda számára az alkalmazásoknak köszönhetően egyszerűbbé válik az irányítópult-gyűjteményekre vonatkozó engedélyek kezelése.
 
-Az üzleti felhasználók különböző módokon férhetnek hozzá az alkalmazásokhoz. Ha a Power BI rendszergazda engedélyezi, telepítheti őket egyenesen a munkatársai Power BI-fiókjába. Ha nem, telepíthetik az alkalmazást a Microsoft AppSource-ból, vagy küldhet nekik egy közvetlen hivatkozást. Könnyen megtalálhatják újra a tartalmat, mert egy helyen érhető el minden. A rendszer automatikusan frissíti az alkalmazásokat, és szabályozható, milyen gyakran frissüljenek az adatok. További információk az [üzleti felhasználóknak elérhető alkalmazásélményről](service-install-use-apps.md).
+Üzleti felhasználók telepíthetik ezeket az alkalmazásokat a Microsoft AppSource-ból, vagy küldhet nekik egy közvetlen hivatkozást is. Könnyen megtalálhatják újra a tartalmat, mert egy helyen érhető el minden. A rendszer automatikusan frissíti az alkalmazásokat, és szabályozható, milyen gyakran frissüljenek az adatok. További információk az [üzleti felhasználóknak elérhető alkalmazásélményről](service-install-use-apps.md).
 
 ### <a name="apps-and-organizational-content-packs"></a>Alkalmazások és vállalati tartalomcsomagok
 Az alkalmazások a vállalati tartalomcsomagokból fejlődtek ki. Ha már vannak vállalati tartalomcsomagjai, azok továbbra is működnek az alkalmazásokkal párhuzamosan.
@@ -119,15 +119,13 @@ Ha az alkalmazás munkaterületén lévő irányítópultok és jelentések elk�
    
      ![Alkalmazás tartalma](media/service-create-distribute-apps/power-bi-apps-content.png)
 
-4. Végül a **Hozzáférés** területen meghatározhatja, hogy ki férhet hozzá az alkalmazáshoz: a vállalat összes tagja, vagy adott személyek vagy egy e-mailes terjesztési listán szereplők. Ha rendelkezik a megfelelő engedélyekkel, dönthet úgy, hogy automatikusan telepíti az alkalmazást a címzetteknél.
-   
-     ![Alkalmazás-hozzáférés](media/service-create-distribute-apps/power-bi-apps-access.png)
+4. Végül a **Hozzáférés** területen meghatározhatja, hogy ki férhet hozzá az alkalmazáshoz: a vállalat összes tagja, vagy adott személyek vagy Active Directory-csoportok. 
 
 5. Amikor a **Befejezés** lehetőséget választja, a rendszer egy üzenetben kéri, hogy erősítse meg, hogy tényleg készen áll-e a közzétételre. A sikerességet jelölő párbeszédpanelről kimásolhatja az alkalmazásra mutató közvetlen hivatkozást, és elküldheti azoknak, akikkel megosztja az alkalmazást.
    
      ![Alkalmazás befejezése](media/service-create-distribute-apps/power-bi-apps-success.png)
 
-Az üzleti felhasználók, akik számára közzétette az alkalmazást, több módon is megtalálhatják azt. Először is, ha tudta automatikusan telepíteni, megjelenik a Power BI-fiókjukban az Alkalmazások alatt.  Küldhet nekik egy közvetlenül az alkalmazásra mutató hivatkozást, vagy megkereshetik a Microsoft AppSource-ban, ahol minden alkalmazás megjelenik, amelyet jogosultak használni. Innentől kezdve az Alkalmazások területen mindig szerepelni fog ez az alkalmazás a listájukban.
+Az üzleti felhasználók, akik számára közzétette az alkalmazást, két módon is megtalálhatják azt. Küldhet nekik egy közvetlenül az alkalmazásra mutató hivatkozást, vagy megkereshetik a Microsoft AppSource-ban, ahol minden alkalmazás megjelenik, amelyet jogosultak használni. Innentől kezdve az Alkalmazások területen mindig szerepelni fog ez az alkalmazás a listájukban.
 
 További információk az [üzleti felhasználóknak elérhető alkalmazásélményről](service-install-use-apps.md).
 

@@ -15,21 +15,21 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/08/2017
+ms.date: 12/12/2017
 ms.author: davidi
-ms.openlocfilehash: a4a348d88bc9613c2d18766ff1ea398538088c9b
-ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
+ms.openlocfilehash: 1eff7cbb6fd54993440d309cb14622295daa3d19
+ms.sourcegitcommit: be55922d7f43f458aea0160ec8fdfb1a0b5a0c00
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/17/2017
+ms.lasthandoff: 12/12/2017
 ---
 # <a name="whats-new-in-the-latest-power-bi-desktop-update"></a>Újdonságok a Power BI Desktop legújabb frissítésében
 
-## <a name="november-2017-update-2524921202"></a>2017. novemberi frissítés (2.52.4921.202)
+## <a name="december-2017-update-2534954481-"></a>2017. decemberi frissítés (2.53.4954.481 )
 
 [A Power BI Desktop legújabb verziója](https://powerbi.microsoft.com/desktop) már letölthető. Ha Windows 10 operációs rendszert használ, a **Power BI Desktopot** a Windows Áruházból is letöltheti. A havi verziók a **Power BI Desktop** telepítésének módjától függetlenül megegyeznek. További információkért tekintse meg [ezt a cikket](desktop-get-the-desktop.md). 
 
-A **Power BI Desktop** legújabb havi frissítése rengeteg újdonságot tartalmaz. 
+Itt a december, és a **Power BI Desktop** frissítése egy teli zsák funkcióval érkezett, az üzleti intelligenciát kedvelő sok-sok gyerek (no meg persze felnőtt) örömére. Virgácsot azonban senki nem kap.
 
 Az egyes frissítések mellett szereplő hivatkozások a következőket jelentik:
 
@@ -44,40 +44,39 @@ Ebben a hónapban az alábbi frissítések kerültek be a **Power BI Desktopba**
 
 ### <a name="reporting"></a>Jelentéskészítés
 
--   Szabályalapú feltételes formázás tábla- és mátrixvizualizációkhoz [[videó]](https://youtu.be/sI3yRjdnJ7w?t=55s) [[blogbejegyzés]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#conditionalFormatting) 
--   Cellaigazítás tábla- és mátrixvizualizációkhoz [[videó]](https://youtu.be/sI3yRjdnJ7w?t=4m16s)  [[blogbejegyzés]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#alignment) 
--   A vizualizációk rendezésének vezérlése a kijelöléspanelen keresztül  [[videó]](https://youtu.be/sI3yRjdnJ7w?t=6m21s)  [[blogbejegyzés]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#selectionPane) 
--   Objektumok zárolása a jelentésben [[videó]](https://youtu.be/sI3yRjdnJ7w?t=9m2s)  [[blogbejegyzés]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#lock) 
--   Az Esri Plusz-előfizetés elérhető az ArcGIS Maps for Power BI-hoz  [[videó]](https://youtu.be/sI3yRjdnJ7w?t=10m31s)  [[blogbejegyzés]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#esriPlus) 
--   Jelentési lehetőségek lassú adatforrásokhoz  [[videó]](https://youtu.be/sI3yRjdnJ7w?t=16m11s)  [[blogbejegyzés]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#slowDataSource) 
--   Szűrési teljesítménnyel kapcsolatos fejlesztések  [[videó]](https://youtu.be/sI3yRjdnJ7w?t=20m9s)  [[blogbejegyzés]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#filtering) 
--   Nemrég megjelent egyéni vizualizációk  [[video]](https://youtu.be/sI3yRjdnJ7w?t=20m50s)  [[blogbejegyzés]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#customVisuals) 
+-   Q&A jelentéskészítéshez [[videó]](https://youtu.be/ZPU8B-1BxjI?t=8s) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#QandA) 
+-   Keresztkiemelés könyvjelzőkhöz [[videó]](https://youtu.be/ZPU8B-1BxjI?t=4m18s)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#bookmarkCrossHighlighting) 
+-   További lehetőségek könyvjelzőkkel [[videó]](https://youtu.be/ZPU8B-1BxjI?t=4m18s)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#bookmarkFlexibility) 
+-   Mezőtulajdonságok panelje és mezőleírások [[videó]](https://youtu.be/ZPU8B-1BxjI?t=13m19s)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#fieldPropertiesPane) 
+-   Pontvizualizáció az X és az Y tengely szerinti csoportosítással [[videó]](https://youtu.be/ZPU8B-1BxjI?t=15m12s)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#scatterChart) 
+-   Nagy sűrűségű mintavétel szélességen és hosszúságon alapuló térképekhez [[videó]](https://youtu.be/ZPU8B-1BxjI?t=17m3s)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#highDensityMaps) 
+-   Rugalmas szeletelők [[videó]](https://youtu.be/sI3yRjdnJ7w?t=20m9s)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#responsive) 
+-   Nemrég megjelent egyéni vizualizációk  [[video]](https://youtu.be/ZPU8B-1BxjI?t=18m25s)  [[blogbejegyzés]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#customVisuals) 
 
 
 ### <a name="analytics"></a>Elemzés
 
--   Cellaszintű formázás többsoros kártyákhoz készült többdimenziós AS-modellekhez  [[videó]](https://youtu.be/sI3yRjdnJ7w?t=27m25s)  [[blogbejegyzés]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#cellLevelFormatting) 
+-   Más vizualizációk részletező szűrése [[videó]](https://youtu.be/ZPU8B-1BxjI?t=28m53s)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#drillFiltersOtherVisuals) 
 
 
 ### <a name="data-connectivity"></a>Adatkapcsolatok
 
--   Impala-összekötő – Windows-hitelesítés támogatása  [[videó]](https://youtu.be/sI3yRjdnJ7w?t=28m9s)  [[blogbejegyzés]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#impala) 
-
-
-### <a name="other"></a>Egyéb
-
--   Lekérdezésszerkesztés – Az Oszlop hozzáadása példából funkció fejlesztései  [[videó]](https://youtu.be/sI3yRjdnJ7w?t=28m34s)  [[blogbejegyzés]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#addColumnFromExamples) 
+-   Adobe Analytics-összekötő [[videó]](https://youtu.be/ZPU8B-1BxjI?t=30m35s)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#AdobeAnalytics) 
+-   HDInsight interaktív lekérdezés összekötője [[videó]](https://youtu.be/ZPU8B-1BxjI?t=31m13s)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#HDInsightInteractiveQuery) 
+-   Data.World-összekötő [[videó]](https://youtu.be/sI3yRjdnJ7w?t=28m9s)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#Data.World) 
+-   SAP BW-összekötővel kapcsolatos fejlesztések [[videó]](https://youtu.be/sI3yRjdnJ7w?t=28m9s)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#SAPBW) 
+-   IBM Netezza-összekötő általánosan elérhető [[videó]](https://youtu.be/sI3yRjdnJ7w?t=28m9s)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#IBMNetezza) 
 
 
 
 > [!NOTE]
 > Megtekintheti továbbá [a Power BI Desktophoz elérhető adatforrások teljes listáját](desktop-data-sources.md). A lista folyamatosan bővül, ezért érdemes gyakran visszatérnie.
 
-További információkra kíváncsi ezekről a frissítésekről? Olvassa el [blogbejegyzésünket](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2017-feature-summary), amely részletes információkkal szolgál az új funkciókról (ez ugyanaz a blogbejegyzés, amelyre a fenti lista hivatkozik).
+További információkra kíváncsi ezekről a frissítésekről? Olvassa el [blogbejegyzésünket](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/), amely részletes információkkal szolgál az új funkciókról (ez ugyanaz a blogbejegyzés, amelyre a fenti lista hivatkozik).
 
 Ezeket a frissítéseket az alábbi videó mutatja be. A videó a blogbejegyzésben is megtekinthető.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/sI3yRjdnJ7w" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ZPU8B-1BxjI" frameborder="0" allowfullscreen></iframe>
 
 > [!NOTE]
 > Érdekelhetik továbbá [a Power BI szolgáltatás újdonságai](service-whats-new.md), valamint [a Power BI mobilalkalmazásainak újdonságai](mobile-whats-new-in-the-mobile-apps.md).

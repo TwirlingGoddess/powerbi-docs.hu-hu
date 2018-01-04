@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/25/2017
+ms.date: 12/4/2017
 ms.author: mihart
-ms.openlocfilehash: 6858f85cb08c493f7a73dc888a4bb21f66c5f217
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 80a5a668056d1a3f3f2b53600e80f399be4a5e08
+ms.sourcegitcommit: 54da95f184dd0f7bb59bb0bc8775a1d93129b195
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 12/08/2017
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>Jelentés szűrése lekérdezésisztring-paraméterek URL-címben való használatával
 A Power BI szolgáltatásban megnyitott jelentések minden egyes oldalának saját egyedi URL-címe van. Az adott jelentésoldal a jelentésvászon Szűrők paneljének használatával szűrhető.  A jelentés úgy is szűrhető, hogy lekérdezésisztring-paramétereket ad hozzá a jelentés URL-címéhez. Tegyük fel, hogy egy jelentést meg szeretne mutatni a munkatársainak, és előre szűrni szeretné azt a számukra. Ennek egyik módja, hogy a jelentés alapértelmezett URL-címéből kiindulva hozzáfűzi ahhoz a szűrési paramétereket, majd elküldi nekik a teljes URL-címet.
@@ -107,7 +107,7 @@ Bizonyos esetekben ez hasznos is lehet, ha különböző eredményeket szeretne 
 ## <a name="limitations-and-troubleshooting"></a>Korlátozások és hibaelhárítás
 Lekérdezésisztring-paraméterek használatakor néhány szemponttal érdemes tisztában lenni.
 
-* A lekérdezési sztringgel végzett szűrés [webes közzétételű](service-publish-to-web.md) URL-címekkel nem működik.
+* A lekérdezési sztringgel végzett szűrés [webes közzététellel](service-publish-to-web.md) és Power BI Embedded használatával nem működik.   
 * A mezőnek sztring típusúnak kell lennie.
 * A tábla és a mező neve nem tartalmazhat szóközöket.
 

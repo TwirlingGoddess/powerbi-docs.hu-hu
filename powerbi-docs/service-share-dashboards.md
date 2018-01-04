@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/14/2017
+ms.date: 12/11/2017
 ms.author: maggies
-ms.openlocfilehash: 0b50568e49df8e2594519028b90d5d833d17c6b7
-ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
+ms.openlocfilehash: 276f663b8454ef0938222576cec13fcfb073e2cf
+ms.sourcegitcommit: bb577045145b2e6e5807622a53cefa2d46574618
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/17/2017
+ms.lasthandoff: 12/12/2017
 ---
 # <a name="share-your-power-bi-dashboards-with-coworkers-and-others"></a>Irányítópult megosztása munkatársakkal és másokkal
 A *Megosztással* egyszerűen biztosíthatja néhány személy hozzáférését az irányítópultjaihoz és jelentéseihez. A Power BI-ban [többféle módon valósítható meg az irányítópultok közös használata és terjesztése](service-how-to-collaborate-distribute-dashboards-reports.md), amelyek közül a megosztás csak az egyik lehetőség.
@@ -91,6 +91,8 @@ Az újraosztást csak az irányítópult tulajdonosa kapcsolhatja be és ki.
    * **Olvasás**, hogy a címzett ne oszthassa meg az irányítópultot másokkal.
    * **Hozzáférés letiltása**, hogy az adott személy ne is tekinthesse meg az irányítópultot.
 
+4. A **Hozzáférés letiltása** párbeszédablakban arra is lehetősége van, hogy a kapcsolódó tartalmakhoz (például jelentésekhez vagy adatkészletekhez) való hozzáférést is letiltsa. Ha ilyen figyelmeztető ikonnal ![Power BI figyelmeztető ikon](media/service-share-dashboards/power-bi-warning-icon.png) rendelkező elemet távolít el, a problémamentes megjelenítés érdekében ajánlatos a kapcsolódó tartalmat is eltávolítani.
+
 ## <a name="share-a-dashboard-with-people-outside-your-organization"></a>Irányítópult megosztása cégen kívüli személyekkel
 A megosztás cégen kívüli címzettjei e-mailt kapnak a megosztott irányítópultra mutató hivatkozással, és az irányítópult megtekintéséhez be kell jelentkezniük a Power BI-ba. Ha nem rendelkeznek Power BI Pro-licenccel, akkor igényelhetnek egyet, miután a hivatkozásra kattintottak.
 
@@ -116,7 +118,34 @@ Irányítópultok megosztásakor vegye figyelembe a következőket:
 * Ha munkatársai már hozzáférnek egy adott irányítópulthoz, akkor nekik közvetlenül az irányítópultra mutató, az irányítópultról kimásolt hivatkozást is küldhet. Példa: `https://powerbi.com/dashboards/g12466b5-a452-4e55-8634-xxxxxxxxxxxx`
 * Hasonló módon [a mögöttes jelentésre mutató közvetlen hivatkozást is küldhet](service-share-reports.md) az adott irányítópulthoz hozzáféréssel rendelkező munkatársaknak. 
 
-## <a name="next-steps"></a>További lépések
+## <a name="troubleshoot-sharing"></a>A megosztás hibaelhárítása
+
+### <a name="my-dashboard-recipients-see-a-lock-icon-in-a-tile-or-a-permission-required-message"></a>Az irányítópult címzettjeinek lakat ikon vagy „Engedély szükséges” szöveg jelenik meg a címben
+
+Ha a megosztás címzettjeinek lakat ikon vagy „Engedély szükséges” szöveg jelenik meg a címben, amikor meg akarják nézni a jelentést, akkor engedélyeznie kell számukra az alapul szolgáló adatkészlethez való hozzáférést. Ezt a következőképp végezheti el.
+
+1. A tartalomlistában nyissa meg az **Adatkészlet** lapot.
+
+1. Az adatkészlet > **Engedélyek kezelése** terület mellett válassza három pontot (**...**).
+
+    ![Engedélyek kezelése](media/service-share-dashboards/power-bi-sharing-manage-permissions.png)
+
+3. Válassza a **Felhasználó hozzáadása** elemet.
+
+    ![Felhasználó hozzáadása kiválasztása](media/service-share-dashboards/power-bi-share-dataset-add-user.png)
+
+1. Írja be a személyek, terjesztési csoportok vagy biztonsági csoportok teljes e-mail-címét. Dinamikus terjesztési listákkal nem oszthat meg irányítópultot.
+
+    ![E-mail címek hozzáadása](media/service-share-dashboards/power-bi-add-user-dataset.png)
+
+5. Válassza a **Hozzáadás** elemet.
+
+### <a name="i-cant-share-a-dashboard"></a>Nem tudok irányítópultot megosztani
+
+Az irányítópult megosztásához rendelkeznie kell a mögöttes tartalmak (minden kapcsolódó jelentés és adatkészlet) újraosztásához szükséges jogosultságokkal. Ha olyan üzenetet kap, amely szerint nincs jogosultsága a megosztáshoz, forduljon a jelentés tulajdonosához, aki engedélyt adhat Önnek az adott jelentések és adatkészletek újraosztásához.
+
+
+## <a name="next-steps"></a>Következő lépések
 * Visszajelzés küldene? Mondja el javaslatait a [Power BI-közösség webhelyén](https://community.powerbi.com/).
 * [Irányítópultok és jelentések közös használata és megosztása](service-how-to-collaborate-distribute-dashboards-reports.md)
 * [Power BI-jelentés külön megosztása](service-share-reports.md)

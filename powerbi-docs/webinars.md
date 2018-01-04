@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/27/2017
+ms.date: 12/07/2017
 ms.author: maikelson
-ms.openlocfilehash: 57b1f5dd0e62ce6119201059b01d81294c8d826c
-ms.sourcegitcommit: 8f72ce6b35aa25979090a05e3827d4937dce6a0d
+ms.openlocfilehash: 7b4f69bc65836d59448ef034f5d655f87d89248e
+ms.sourcegitcommit: 85302d577895e779466df55aa02e5785ab2e3138
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/27/2017
+ms.lasthandoff: 12/18/2017
 ---
 # <a name="power-bi-webinars"></a>Power BI-webináriumok
 
@@ -41,14 +41,11 @@ Igény szerint elérhető népszerű előadások az első lépésekhez
 
 - [A Power BI jelentéskészítő kiszolgáló izgalmas újdonságai – 2017. november](https://info.microsoft.com/whats-new-powerbi-report-server.html?Is=Website)
 
-
 ## <a name="upcoming-webinars"></a>Közelgő webináriumok
 
 Regisztráció a Power BI-szakértők előadásaira, ahol lehetősége van élőben feltenni kérdéseit
 
 >[Részvétel a Power BI-közösség közelgő webináriumain](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/bd-p/VideoTipsTricks?filter=webinars&featured=yes&Is=Website)
-
-- [Gyártók: Az iparága digitális átalakuláson megy keresztül – Hogyan őrizheti meg vezető pozícióját, és maximalizálhatja a jövedelmezőséget az analitikai lehetőségek kiaknázásával – 2017. december 5.](https://info.microsoft.com/digital-transformation-in-manufacturing.html?Is=Website)
 
 - [A jövedelmezőség növelése az egészségügyben – 2017. december 12.](https://info.microsoft.com/improving-profitability-in-healthcare.html?Is=Website)
 
@@ -60,6 +57,8 @@ Előadások megtekintése felvételről, tetszés szerinti időpontban
 
 - [Útmutató: Sikeres adatirányítási stratégia bevezetése cége biztonságosabbá tételéhez](https://info.microsoft.com/powerbi-data-governance-strategy-ondemand.html?Is=Website)
 
+- [Jó minőségű jelentésből kiváló jelentés!](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/Power-BI-Transforming-A-Report-From-Good-to-GREAT/m-p/315119?Is=Website)
+
 - [Kérdezze a partnert: Egyéni vizuális elemek létrehozása a Power BI-ban](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/Ask-a-Partner-Developing-Custom-Visuals-for-Power-BI/m-p/150368?Is=Website)
 
 - [Hogyan működteti a Microsoft a Power BI-t?](https://info.microsoft.com/US-PowerBI-WBNR-FY17-11Nov-29-BIATMIcrosoft274828_01Registration-ForminBody.html?Is=Website)
@@ -68,7 +67,9 @@ Előadások megtekintése felvételről, tetszés szerinti időpontban
 
 - [Biztonság a Power BI-ban – részletes bemutató](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/5-23-2017-Power-BI-security-deep-dive-by-Kasper-de-Jonge/m-p/161476?Is=Website)
 
-## <a name="see-also"></a>További ismertetők
+- [Gyártók: Az iparága digitális átalakuláson megy keresztül – hogyan őrizheti meg vezető pozícióját, és hogyan maximalizálhatja a jövedelmezőséget az analitikai lehetőségek kiaknázásával](https://info.microsoft.com/digital-transformation-in-manufacturing.html?Is=Website)
+
+## <a name="see-also"></a>Lásd még:
 
 - [Power BI-tanulmányok](whitepapers.md)
 
@@ -80,4 +81,4 @@ Előadások megtekintése felvételről, tetszés szerinti időpontban
 
 - Iratkozzon fel a [YouTube-csatornánkra](https://www.youtube.com/mspowerbi)
 
-További kérdései vannak? [Kérdezze a Power BI-közösséget!](https://community.powerbi.com/)
+További kérdései vannak? [Kérdezze meg a Power BI közösségét](https://community.powerbi.com/)

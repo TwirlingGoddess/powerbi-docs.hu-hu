@@ -16,21 +16,21 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 08/17/2017
+ms.date: 12/06/2017
 ms.author: mihart
-ms.openlocfilehash: 54c6ba317dbe4fa71c9001f190d724c3afd74313
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 554084b26beff469276709b9e7c7f2c9fa84e65c
+ms.sourcegitcommit: 54da95f184dd0f7bb59bb0bc8775a1d93129b195
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/08/2017
 ---
 # <a name="recent-content-in-power-bi-service"></a>A **Legutóbbi** tartalom megtekintése a Power BI szolgáltatásban
-![](media/service-recent/power-bi-recent-screen.png)
+
 
 ## <a name="what-is-recent-content"></a>A legutóbbi tartalom
-A legutóbbi tartalom a legutóbb megtekintett 20 tételt jelenti.  Ezek között szerepelhetnek irányítópultok, jelentések, alkalmazások, munkafüzetek.
+A legutóbbi tartalom a legutóbb megtekintett legfeljebb 20 tételt jelenti.  Ezek között szerepelhetnek irányítópultok, jelentések, alkalmazások és munkafüzetek az összes munkaterületről.
 
-![](media/service-recent/power-bi-recent.png)
+![](media/service-recent/power-bi-recent-screen.png)
 
 Tekintse meg Amanda bemutatójában, hogyan alakul ki a **Legutóbbi** lista, majd a videó alatti utasításokat követve próbálja ki Ön is.
 

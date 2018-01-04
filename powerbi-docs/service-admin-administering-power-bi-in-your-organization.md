@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/05/2017
+ms.date: 11/28/2017
 ms.author: asaxton
-ms.openlocfilehash: 3ee74e9a7f2f174b37e582089e0d9a1d6c433831
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 180e80ee327342b26849aa63a3910337737ac9ad
+ms.sourcegitcommit: 7742f952c20695dfb475f74965c0065b02c01521
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/29/2017
 ---
 # <a name="administering-power-bi-in-your-organization"></a>A Power BI céges felügyelete
 A Microsoft Power BI lehetővé teszi, hogy a felhasználók megjelenítsék az adatokat, megosszák egymással a feltárt részleteket, és új és intuitív módokon működjenek együtt. További információkért lásd a [Power BI használatának első lépéseit](service-get-started.md) ismertető cikket.
@@ -60,6 +60,7 @@ A Power BI szolgáltatás rendszergazdai szerepkörére vonatkozó további info
 * [Van még bármi egyéb, amire fel kell készülnöm?](#are-there-any-additional-things-i-should-be-prepared-for)
 * [A használat ingyenes? Fizetnem kell ezekért a licencekért?](#is-this-free-will-i-be-charged-for-these-licenses)
 * [Hol található a Power BI-bérlőm?](#where-is-my-power-bi-tenant-located)
+* [A Power BI SLA (szolgáltatásiszint-szerződés)](#what-is-the-power-bi-sla)
 
 **Biztonság a Power BI-ban**
 
@@ -255,6 +256,9 @@ A **Power BI (ingyenes)** licencek a Power BI ingyenes verziójához tartoznak. 
 
 ### <a name="where-is-my-power-bi-tenant-located"></a>Hol található a Power BI-bérlőm?
 A Power BI-bérlő (másnéven az adatrégió) helyének megismeréséhez tekintse meg a [Hol található a Power BI-bérlőm?](service-admin-where-is-my-tenant-located.md) témakört.
+
+### <a name="what-is-the-power-bi-sla"></a>Mi az a Power BI SLA?
+A Power BI SLA-ról (szolgáltatásiszint-szerződésről) további információt a Microsoft licencelést bemutató webhelyének **Licencelés** szakaszában található [Licencelési feltételek és dokumentáció](http://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=37) című témakörben talál.
 
 ## <a name="security-in-power-bi"></a>Biztonság a Power BI-ban
 ### <a name="does-power-bi-meet-national-regional-and-industry-specific-compliance-requirements"></a>Eleget tesz a Power BI az országos, regionális, illetve iparágra jellemző megfelelőségi követelményeknek?

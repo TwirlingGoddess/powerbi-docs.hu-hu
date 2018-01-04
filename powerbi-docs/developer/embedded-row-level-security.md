@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/09/2017
+ms.date: 11/30/2017
 ms.author: asaxton
-ms.openlocfilehash: 1ab1590146f8b9714a27735cd556dd0203ecc6bf
-ms.sourcegitcommit: b3ee37e1587f1269ee7dd9daf1685a06dea3b50c
+ms.openlocfilehash: c10ca76ac96090ff1facbdd28210b680392aae8d
+ms.sourcegitcommit: 0f6db65997db604e8e9afc9334cb65bb7344d0dc
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/23/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="use-row-level-security-with-power-bi-embedded-content"></a>Sorszintű biztonság használata beágyazott Power BI tartalommal
 Sorszintű biztonsággal (RLS-szel) korlátozhatja a jelentésekben vagy adatkészletekben lévő adatok felhasználói hozzáférését, hogy több különböző felhasználó használhassa ugyanazt a jelentést, de különböző adatokat láthasson. Az RLS a Power BI-ból való jelentésbeágyazáskor használható ki.
@@ -145,10 +145,10 @@ A szerepkörök az identitással adhatók meg a beágyazási tokenekben. Ha ninc
 * Bár a Power BI szolgáltatás nem alkalmazza az RLS beállítást a rendszergazdákra vagy a szerkesztési engedélyekkel rendelkező tagokra, amikor beágyazási tokennel ad meg egy identitást, azt az adatokra alkalmazza.
 * A GenerateToken behívásakor az identitás információinak átadása csak a jelentés írásához/olvasásához támogatott. A többi erőforrás később lesz támogatott.
 * Az élő Analysis Services-kapcsolatok a helyszíni kiszolgálókhoz támogatottak.
-* Az élő kapcsolatok nem támogatottak az Azure Analysis Services esetében.
+* Az Azure Analysis Services élő kapcsolatai támogatják a szerepkör szerinti szűrést, de nem támogatják a felhasználónév szerinti dinamikus szűrést.
 * Ha a mögöttes adatkészlethez nincs szükség RLS-re, a GenerateToken kérés **nem** tartalmazhat hatályos identitást.
 * Ha a mögöttes adatkészlet felhőalapú modell (gyorsítótárazott modell vagy DirectQuery), a hatályos identitásnak tartalmaznia kell legalább egy szerepkört. Ellenkező esetben nem történik szerepkör-hozzárendelés.
 * Csak egy identitás adható meg az identitások listájában. Azért használunk listát, hogy a jövőben lehetővé tegyük az irányítópultok beágyazásának több identitásból álló tokenjeit.
 
-További kérdései vannak? [Forduljon a Power BI közösségéhez](https://community.powerbi.com/)
+További kérdései vannak? [Kérdezze meg a Power BI közösségét](https://community.powerbi.com/)
 

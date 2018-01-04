@@ -15,24 +15,26 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/05/2017
-ms.author: asaxton
-ms.openlocfilehash: 36eb4231b6b3d3278d571722bde731051ffdf05e
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.date: 11/30/17
+ms.author: mihart
+ms.openlocfilehash: 38860e6535f44e8831c62c045e7c5d0e130c35aa
+ms.sourcegitcommit: 910258a5ad8b6861e81ae02c57286db221c37375
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/02/2017
 ---
 # <a name="embedding-with-power-bi"></a>Beágyazás a Power BI-jal
 A Power BI az irányítópultok és jelentések alkalmazásokba való beágyazását lehetővé tevő API-kat kínál. A Power BI API-k a tartalmak beágyazása során egységes funkciókat, valamint a legújabb Power BI-funkciókhoz (például irányítópultokhoz, átjárókhoz és alkalmazás-munkaterületekhez) történő hozzáférést teszik elérhetővé.
 
 ## <a name="a-single-api"></a>Egyetlen API
-A Power BI-tartalmak beágyazása során két fő forgatókönyv képzelhető el. A beágyazás történhet a cég vagy az ügyfelek számára. A Power BI REST API mindkét forgatókönyvet támogatja. Beágyazhat irányítópultokat és jelentéseket egyéni alkalmazásaiba, ugyanazt az API-t használva – akár a cége, akár az ügyfele számára készíti azt. A beágyazáshoz teljes körűen igénybe veheti a JavaScript és a REST API-k lehetőségeit.
+A Power BI-tartalmak beágyazása során két fő forgatókönyv képzelhető el.  Egyrészt a cégen belüli felhasználók számára történő beágyazás (a felhasználóknak rendelkezniük kell Power BI-licenccel), másrészt Power BI-licencet nem kívánó beágyazás más felhasználók és ügyfelek számára. A Power BI REST API mindkét forgatókönyvet támogatja. 
+
+Power BI-licenccel nem rendelkezők számára ugyanazt az API-t használva ágyazhat be irányítópultokat és jelentéseket egyéni alkalmazásokba függetlenül attól, hogy azt a cége vagy az ügyfele számára készíti. Az ügyfelek így megtekinthetik az alkalmazás által kezelt adatokat. A cégen belüli Power BI-felhasználók ezen kívül *saját adataikat* is megtekinthetik közvetlenül a Power BI-ban vagy a beágyazott alkalmazásban. A beágyazáshoz teljes körűen igénybe veheti a JavaScript és a REST API-k lehetőségeit.
 
 Ha látni kívánja, hogyan működik a beágyazás tekintse meg a [JavaScript beágyazását szemléltető példát](https://microsoft.github.io/PowerBI-JavaScript/demo/).
 
 ## <a name="embedding-for-your-organization"></a>Beágyazás a cég számára
-Amennyiben cége számára végzi a beágyazást, kibővítheti a Power BI szolgáltatást. A tartalom megtekintéséhez az alkalmazás végfelhasználójának be kell jelentkeznie a Power BI szolgáltatásba. Amikor a cég egyik felhasználója bejelentkezik, csak azokhoz az irányítópultokhoz és jelentésekhez lesz hozzáférése, amelyeket a Power BI szolgáltatásban megosztottak vele. 
+Amennyiben cége számára végzi a beágyazást, kibővítheti a Power BI szolgáltatást. A tartalom megtekintéséhez az alkalmazás felhasználójának be kell jelentkeznie a Power BI szolgáltatásba. Amikor a cég egyik felhasználója bejelentkezik, csak azokhoz az irányítópultokhoz és jelentésekhez lesz hozzáférése, amelyeknek ők a tulajdonosai, vagy amelyeket a Power BI szolgáltatásban megosztottak vele. 
 
 *Példák a cégen belüli beágyazásra: belső webalkalmazások, SharePoint Online-kijelzők és Microsoft Teams-integráció.*
 
@@ -45,7 +47,7 @@ Amennyiben a cége számára végez beágyazást, tekintse át a következőket:
 Amikor Power BI-felhasználók számára végez beágyazást, az önkiszolgáló lehetőségek (pl. a szerkesztés, mentés stb.) a [JavaScript API-n](https://github.com/Microsoft/PowerBI-JavaScript) keresztül érhetők el.
 
 ## <a name="embedding-for-your-customers"></a>Beágyazás ügyfelek számára
-Amikor az ügyfelei számára végez beágyazást, irányítópultokat és jelentéseket ágyazhat be olyan felhasználók számára, akik nem rendelkeznek Power BI-fiókkal. Az ügyfélnek nem szükséges ismernie a Power BI működését. Legalább egy Power BI Pro-fiók megléte szükséges. Ez a Power BI Pro-fiók szolgál fő fiókként az alkalmazás számára. Ebben az esetben proxyfiókként működik. A Power BI Pro-fiók lehetővé teszi beágyazási tokenek létrehozását, amelyek hozzáférést biztosítanak a Power BI szolgáltatás irányítópultjaihoz és jelentéseihez. 
+Amikor az ügyfelei számára végez beágyazást, irányítópultokat és jelentéseket ágyazhat be olyan felhasználók számára, akik nem rendelkeznek Power BI-fiókkal. Az ügyfélnek nem szükséges ismernie a Power BI működését. Beágyazott alkalmazás létrehozásához legalább egy Power BI Pro-fiók megléte szükséges. Ez a Power BI Pro-fiók szolgál fő fiókként az alkalmazás számára. Ebben az esetben proxyfiókként működik. A Power BI Pro-fiók lehetővé teszi beágyazási tokenek létrehozását, amelyek hozzáférést biztosítanak a Power BI szolgáltatás olyan irányítópultjaihoz és jelentéseihez, amelyeket az alkalmazás kezel, vagy amelyek az alkalmazáshoz tartoznak. 
 
 *Az ügyfél számára végzett beágyazásra egy példa, ha más vállalatoknak értékesít egy ISV-alkalmazást.*
 
@@ -74,5 +76,5 @@ Ha a Power BI-munkaterületcsoportok szolgáltatást használja az Azure-ban, te
 [Embedded elemzési kapacitásának tervezésével kapcsolatos tanulmány](https://aka.ms/pbiewhitepaper)  
 [Power BI Premium-tanulmány](https://aka.ms/pbipremiumwhitepaper)  
 
-További kérdései vannak? [Forduljon a Power BI közösségéhez](http://community.powerbi.com/)
+További kérdései vannak? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)
 

@@ -1,5 +1,5 @@
 ---
-title: "A Power BI Pro-tartalom – mi ez?"
+title: Mit jelent a Power BI Premium?
 description: "A Power BI Premium dedikált kapacitást biztosít cége vagy csapata számára, így felhasználónkénti licencek vásárlása nélkül is megbízható teljesítményre számíthat nagyobb mennyiségű adat estén is."
 services: powerbi
 documentationcenter: 
@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/10/2017
+ms.date: 12/05/2017
 ms.author: asaxton
-ms.openlocfilehash: 816f1151b6f49ace8151f1c26aee18a8c746ff08
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 7c1536693490252029d51ddc619eaa7266095403
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/06/2017
 ---
 # <a name="power-bi-premium---what-is-it"></a>Mit jelent a Power BI Premium?
 A Power BI Premium dedikált erőforrásokat biztosít cége vagy csapata számára a Power BI szolgáltatás futtatásához, megbízhatóbb teljesítményt biztosítva nagyobb mennyiségű adat kezeléséhez is. A Prémium szint lehetővé teszi a tartalom széles körű megosztását anélkül, hogy a megtekintők számára felhasználónkénti licenceket kellene vásárolnia.
@@ -69,9 +69,13 @@ A Power BI Premium csomópont-konfigurációkban különböző virtuálismag-kap
 
 * A P csomópontok beágyazott, illetve szolgáltatási környezetben is használhatók
 * Az EM csomópontok csak beágyazott környezetekben használhatók
+* EM1 és EM2 
+* A táblázatban szereplő hivatkozások csak az Office 365 globális rendszergazdái számára működnek megfelelően; mindenki más 404-es hibaüzenetet kap. 
 
 | Kapacitáscsomópont | Magok száma összesen<br/>*(Háttérrendszer + előtérrendszer)* | Háttérrendszerbeli magok | Előtérrendszerbeli magok | DirectQuery-/élő kapcsolat korlátai | Maximális oldalmegjelenítések óránként csúcsidőszakban | Elérhetőség |
 | --- | --- | --- | --- | --- | --- | --- |
+| [EM1 (havonta megújuló)](https://portal.office.com/SubscriptionDetails?OfferId=4004702D-749C-4F74-BF47-3048F1833780&adminportal=1) |1 virtuális mag |0,5 mag, 2,5 GB RAM |0,5 mag |Másodpercenként 3,75 |150-300 |Elérhető |
+| [EM2 (havonta megújuló)](https://portal.office.com/SubscriptionDetails?OfferId=4004702D-749C-4F74-BF47-3048F1833780&adminportal=1) |2 virtuális mag |1 mag, 5 GB RAM |1 mag |Másodpercenként 7.5 |301-600 |Elérhető |
 | [EM3 (havonta megújuló)](https://portal.office.com/SubscriptionDetails?OfferId=4004702D-749C-4F74-BF47-3048F1833780&adminportal=1) |4 virtuális mag |2 mag, 10 GB RAM |2 mag | |601-1200 |Elérhető |
 | [P1](https://portal.office.com/SubscriptionDetails?OfferId=b3ec5615-cc11-48de-967d-8d79f7cb0af1&adminportal=1) |8 virtuális mag |4 mag, 25 GB RAM |4 mag |Másodpercenként 30 |1201-2400 |Elérhető ([havonta megújulóként](https://portal.office.com/SubscriptionDetails?OfferId=E4C8EDD3-74A1-4D42-A738-C647972FBE81&adminportal=1) is elérhető) |
 | [P2](https://portal.office.com/SubscriptionDetails?OfferId=062F2AA7-B4BC-4B0E-980F-2072102D8605&adminportal=1) |16 virtuális mag |8 mag, 50 GB RAM |8 mag |Másodpercenként 60 |2401-4800 |Elérhető |
@@ -92,5 +96,5 @@ A Power BI Premium szintű előfizetés keretében lehetőség van a Power BI je
 [A Power BI vállalati bevezetésének megtervezése ‒ tanulmány](https://aka.ms/pbienterprisedeploy)  
 [A Power BI felügyelete a cégnél](service-admin-administering-power-bi-in-your-organization.md)  
 
-További kérdései vannak? [Tegye fel kérdésit a Power BI közösségnek](https://community.powerbi.com/)
+További kérdései vannak? [Kérdezze meg a Power BI közösségét](https://community.powerbi.com/)
 

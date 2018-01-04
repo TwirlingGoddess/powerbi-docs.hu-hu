@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/06/2017
+ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: 8f009e382321d296191d861245e005c1ffb7ee33
-ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
+ms.openlocfilehash: c0689b969c1956d0344afb2bc8aef7bda32c159e
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/17/2017
+ms.lasthandoff: 12/06/2017
 ---
 # <a name="getting-started-with-power-bi-desktop"></a>Első lépések a Power BI Desktopban
 Üdvözöljük a **Power BI Desktop Első lépések útmutatójában**. Ebben a rövid bemutatóban megismerkedhet a Power BI Desktop használatával, képességeivel, és megtudhatja, hogyan állíthat össze gyorsan nagy teljesítményű adatmodelleket és lenyűgöző jelentéseket, amelyek megalapozottabb üzleti döntéseket eredményeznek. 
@@ -43,6 +43,10 @@ Ha kevés ideje van, mindössze néhány perc alatt átlapozhatja az útmutatót
 
 Ha alaposabban el szeretne mélyedni a témában, elolvashat minden szakaszt, végrehajthatja a lépéseket, és elkészítheti saját Power BI Desktop-fájlját, amelyet közzétehet a **Power BI** szolgáltatásban, és megoszthatja másokkal.
 
+>[!NOTE]
+>A [**Power BI jelentéskészítő kiszolgáló**](report-server/get-started.md) a **Power BI** egy speciális, különálló verziója, amely azok számára hasznos, akik a helyszínen szeretnék kezelni adataikat és jelentéseiket. Ezzel a speciális verzióval együtt használható a **Power BI Desktop** egy ugyancsak speciális és különálló verziója, a **Power BI Desktop a Power BI jelentéskészítő kiszolgálóhoz**, amely kizárólag a Power BI jelentéskészítő kiszolgálóval együtt használható. Ebben a cikkben a **Power BI Desktop** standard verzióját ismertetjük.
+
+
 ## <a name="how-power-bi-desktop-works"></a>A Power BI Desktop működése
 A Power BI Desktop segítségével *adatokhoz csatlakozhat* (általában több adatforráshoz), *formázhatja az adatokat* (részletes, lenyűgöző adatmodelleket összeállító lekérdezésekkel), és a modellek segítségével *jelentéseket készíthet* (amelyeket mások felhasználhatnak, továbbfejleszthetnek és megoszthatnak).
 
@@ -51,6 +55,8 @@ Ha az igényei szerint elvégezte a lépéseket (a csatlakozást, a formázást 
 A Power BI Desktop egyetlen helyre vonja össze, leegyszerűsíti és megkönnyíti az üzletiintelligencia-tárak és -jelentések tervezésének és létrehozásának széttagolt, elkülönülő és fáradságos folyamatát.
 
 Készen áll rá, hogy kipróbálja? Kezdjünk hozzá.
+
+
 
 ## <a name="install-and-run-power-bi-desktop"></a>A Power BI Desktop telepítése és futtatása
 A Power BI Desktop letölthető a **Power BI** szolgáltatásból. Ehhez válassza a **fogaskerék** ikont, majd a **Power BI Desktop** lehetőséget.

@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/12/2017
 ms.author: davidi
-ms.openlocfilehash: a5542e7a4c0b1d5014a6fce0042c07fec7398ab4
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: e60ff6d06e4ac0cddf398ccfc1d30e4d97e0773c
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 12/06/2017
 ---
 # <a name="use-bookmarks-to-share-insights-and-build-stories-in-power-bi-preview"></a>Elemzések megosztása és történetek felépítése a Power BI könyvjelzőivel (előzetes verzió)
 A Power BI-ban a **könyvjelzők** használatával rögzítheti az egyes jelentésoldalak aktuális nézetkonfigurációját, beleértve a szűréseket és a vizualizációk állapotát, hogy később egyszerűen a könyvjelzőre kattintva visszaállíthassa az adott állapotot. 
@@ -153,6 +153,7 @@ A **könyvjelzők** jelenlegi előzetes verziójú kiadásának a használatára
 * Ha egy vizualizációt a könyvjelző létrehozását követően ad hozzá a jelentésoldalhoz, a vizualizáció az alapértelmezett állapotában jelenik meg. Ez azt is jelenti, hogy ha egy olyan oldalra vesz fel szeletelőt, ahol már hozott létre könyvjelzőket, a szeletelő az alapértelmezett állapotának megfelelően viselkedik majd.
 * Ha a vizualizációkat a könyvjelzők létrehozását követően áthelyezi, a változást a könyvjelzők lekövetik. 
 * Ahhoz, hogy a könyvjelző funkció elérhető legyen a **Power BI szolgáltatásban**, a jelentésben már a közzététel idején lennie *kell* legalább egy könyvjelzőnek. Ez minden közzétett jelentésre külön-külön igaz.
+* Könyvjelzők a [**Jelentéskészítő kiszolgálóhoz készült Power BI Desktopban**](report-server/quickstart-create-powerbi-report.md) egyelőre nem használhatók, mivel ez a funkció jelenleg előzetes verzióban érhető el.
 
 ## <a name="next-steps"></a>Következő lépések
 A könyvjelzőkhöz hasonló vagy azokkal együtt használható funkciókkal kapcsolatos részletesebb információkat az alábbi cikkekben talál:

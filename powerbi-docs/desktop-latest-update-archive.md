@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/08/2017
+ms.date: 12/12/2017
 ms.author: davidi
-ms.openlocfilehash: 1ad6621683d6f28b63af373372c1d5100a0abd16
-ms.sourcegitcommit: b3ee37e1587f1269ee7dd9daf1685a06dea3b50c
+ms.openlocfilehash: 48ba3e679214283875abe27d06032fee20598347
+ms.sourcegitcommit: be55922d7f43f458aea0160ec8fdfb1a0b5a0c00
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/23/2017
+ms.lasthandoff: 12/12/2017
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>A Power BI Desktop korábbi havi frissítései
 
@@ -30,6 +30,66 @@ Ez a cikk a **Power BI Desktop** korábbi frissítéseit ismerteti. Az aktuális
 Az alábbi szakaszok a **Power BI Desktop** korábbi havi frissítéseit ismertetik.
 
 Bármikor [letöltheti a Power BI Desktop legújabb verzióját](https://powerbi.microsoft.com/desktop). Ha Windows 10 operációs rendszert használ, a **Power BI Desktopot** a Windows Áruházból is letöltheti. A havi verziók a **Power BI Desktop** telepítésének módjától függetlenül megegyeznek. További információkért tekintse meg [ezt a cikket](desktop-get-the-desktop.md). 
+
+
+
+## <a name="november-2017-update-2524921202"></a>2017. novemberi frissítés (2.52.4921.202)
+
+A **Power BI Desktop** novemberi frissítése rengeteg újdonságot tartalmaz. 
+
+Az egyes frissítések mellett szereplő hivatkozások a következőket jelentik:
+
+-   A **[videókivonatok]** új böngészőablakban nyílnak meg, és a funkció ismertetését tartalmazzák.
+-   Egyes funkciókról további **[cikkekben]** olvashat részletesen.
+-   A legtöbb funkciót a havi frissítésről szóló **[blogbejegyzésben]** mutatjuk be.
+-   Az említetteken kívül pedig vannak olyan funkciók, amelyek működése magától értetődő, ezért az ilyen esetekben nincs szükség magyarázó cikkre vagy videóra.
+
+A **legújabb frissítésekről** szóló videót az elejétől is végignézheti ezen a cikken belül. Ehhez kattintson a frissítések listája alatti videóképen található **lejátszás** ikonra.
+
+Ebben a hónapban az alábbi frissítések kerültek be a **Power BI Desktopba**:
+
+### <a name="reporting"></a>Jelentéskészítés
+
+-   Szabályalapú feltételes formázás tábla- és mátrixvizualizációkhoz [[videó]](https://youtu.be/sI3yRjdnJ7w?t=55s) [[blogbejegyzés]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#conditionalFormatting) 
+-   Cellaigazítás tábla- és mátrixvizualizációkhoz [[videó]](https://youtu.be/sI3yRjdnJ7w?t=4m16s)  [[blogbejegyzés]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#alignment) 
+-   A vizualizációk rendezésének vezérlése a kijelöléspanelen keresztül  [[videó]](https://youtu.be/sI3yRjdnJ7w?t=6m21s)  [[blogbejegyzés]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#selectionPane) 
+-   Objektumok zárolása a jelentésben [[videó]](https://youtu.be/sI3yRjdnJ7w?t=9m2s)  [[blogbejegyzés]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#lock) 
+-   Az Esri Plusz-előfizetés elérhető az ArcGIS Maps for Power BI-hoz  [[videó]](https://youtu.be/sI3yRjdnJ7w?t=10m31s)  [[blogbejegyzés]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#esriPlus) 
+-   Jelentési lehetőségek lassú adatforrásokhoz  [[videó]](https://youtu.be/sI3yRjdnJ7w?t=16m11s)  [[blogbejegyzés]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#slowDataSource) 
+-   Szűrési teljesítménnyel kapcsolatos fejlesztések  [[videó]](https://youtu.be/sI3yRjdnJ7w?t=20m9s)  [[blogbejegyzés]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#filtering) 
+-   Nemrég megjelent egyéni vizualizációk  [[video]](https://youtu.be/sI3yRjdnJ7w?t=20m50s)  [[blogbejegyzés]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#customVisuals) 
+
+
+### <a name="analytics"></a>Elemzés
+
+-   Cellaszintű formázás többsoros kártyákhoz készült többdimenziós AS-modellekhez  [[videó]](https://youtu.be/sI3yRjdnJ7w?t=27m25s)  [[blogbejegyzés]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#cellLevelFormatting) 
+
+
+### <a name="data-connectivity"></a>Adatkapcsolatok
+
+-   Impala-összekötő – Windows-hitelesítés támogatása  [[videó]](https://youtu.be/sI3yRjdnJ7w?t=28m9s)  [[blogbejegyzés]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#impala) 
+
+
+### <a name="other"></a>Egyéb
+
+-   Lekérdezésszerkesztés – Az Oszlop hozzáadása példából funkció fejlesztései  [[videó]](https://youtu.be/sI3yRjdnJ7w?t=28m34s)  [[blogbejegyzés]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#addColumnFromExamples) 
+
+
+
+> [!NOTE]
+> Megtekintheti továbbá [a Power BI Desktophoz elérhető adatforrások teljes listáját](desktop-data-sources.md). A lista folyamatosan bővül, ezért érdemes gyakran visszatérnie.
+
+További információkra kíváncsi ezekről a frissítésekről? Olvassa el [blogbejegyzésünket](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary), amely részletes információkkal szolgál az új funkciókról (ez ugyanaz a blogbejegyzés, amelyre a fenti lista hivatkozik).
+
+Ezeket a frissítéseket az alábbi videó mutatja be. A videó a blogbejegyzésben is megtekinthető.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/sI3yRjdnJ7w" frameborder="0" allowfullscreen></iframe>
+
+> [!NOTE]
+> Érdekelhetik továbbá [a Power BI szolgáltatás újdonságai](service-whats-new.md), valamint [a Power BI mobilalkalmazásainak újdonságai](mobile-whats-new-in-the-mobile-apps.md).
+
+
+
 
 
 ## <a name="october-2017-update-2514885543"></a>2017. októberi frissítés (2.51.4885.543)
@@ -77,7 +137,7 @@ Ebben a hónapban az alábbi frissítések kerültek be a **Power BI Desktopba**
 > [!NOTE]
 > Megtekintheti továbbá [a Power BI Desktophoz elérhető adatforrások teljes listáját](desktop-data-sources.md). A lista folyamatosan bővül, ezért érdemes gyakran visszatérnie.
 
-További információkra kíváncsi ezekről a frissítésekről? Olvassa el [blogbejegyzésünket](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2017-feature-summary), amely részletes információkkal szolgál az új funkciókról (ez ugyanaz a blogbejegyzés, amelyre a fenti lista hivatkozik).
+További információkra kíváncsi ezekről a frissítésekről? Olvassa el [blogbejegyzésünket](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2017-feature-summary), amely részletes információkkal szolgál az új funkciókról (ez ugyanaz a blogbejegyzés, amelyre a fenti lista hivatkozik).
 
 Ezeket a frissítéseket az alábbi videó mutatja be. A videó a blogbejegyzésben is megtekinthető.
 

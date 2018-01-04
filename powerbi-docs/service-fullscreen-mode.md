@@ -1,6 +1,6 @@
 ---
-title: "Irányítópultok, irányítópult-csempék és jelentésoldalak megjelenítése teljes képernyős módban"
-description: "Irányítópultok, irányítópult-csempék és jelentésoldalak megjelenítése teljes képernyős módban vagy más néven TV-módban."
+title: "Irányítópultok, irányítópult-csempék, jelentésoldalak és jelentések vizualizációinak megjelenítése teljes képernyős módban"
+description: "Irányítópultok, irányítópult-csempék, jelentésvizualizációk és jelentésoldalak megjelenítése teljes képernyős módban vagy más néven *TV-módban*."
 services: powerbi
 documentationcenter: 
 author: mihart
@@ -16,19 +16,19 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 08/09/2017
+ms.date: 12/06/2017
 ms.author: mihart
-ms.openlocfilehash: 87fbe780991969f5fe3e9a31af58e54015d13678
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: a8d1a49a341b98778a6ad08c823397f420b2475e
+ms.sourcegitcommit: 54da95f184dd0f7bb59bb0bc8775a1d93129b195
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/08/2017
 ---
 # <a name="full-screen-mode-in-power-bi"></a>Teljes képernyős mód a Power BI-ban
 ## <a name="what-is-full-screen-mode"></a>Mi az a teljes képernyős mód?
 ![irányítópult teljes képernyős módja előtte és utána](media/service-fullscreen-mode/power-bi-full-screen-comparison.png)
 
-Jelenítse meg menük és navigációs sávok nélkül a tartalmakat (irányítópultokat, jelentésoldalakat, csempéket és vizualizációkat), hogy semmi se terelje el róluk a figyelmet.  Így adatait bármikor megtekintheti egy letisztult, teljes képernyős nézetben, és ehhez elég csak odapillantania. Ezt a megjelenítési módot TV-módnak is nevezik. A teljes képernyős módban elérhető funkciók a megjelenített tartalomtól függenek.  
+Jelenítse meg menük és navigációs sávok nélkül a tartalmakat (irányítópultokat, jelentésoldalakat, csempéket és vizualizációkat), hogy semmi se terelje el róluk a figyelmet.  Így adatait bármikor megtekintheti egy letisztult, teljes képernyős nézetben, és ehhez elég csak odapillantania. Ezt a megjelenítési módot időnként TV módnak is nevezik. A teljes képernyős módban elérhető funkciók a megjelenített tartalomtól függenek.  
 
 A teljes képernyős mód néhány felhasználása:
 
@@ -41,7 +41,7 @@ A teljes képernyős mód néhány felhasználása:
 > 
 > 
 
-Figyelje meg, hogyan nyitja meg Amanda az irányítópultját, és hogyan jeleníti meg teljes képernyős módban, majd hogy hogyan vezérli az alapértelmezett megjelenítést néhány URL-paraméter alkalmazásával. Ezután kövesse a videó alatt található részletes útmutatást, és próbálja ki Ön is.
+Figyelje meg, hogyan nyitja meg Amanda az irányítópultját, és hogyan jeleníti meg teljes képernyős módban, majd hogy hogyan vezérli az alapértelmezett megjelenítést néhány URL-paraméter alkalmazásával. Ezután a videó alatt látható részletes utasításokat követve próbálkozzon meg a feladat elvégzésével.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/c31gZkyvC54" frameborder="0" allowfullscreen></iframe>
 
@@ -88,8 +88,8 @@ Figyelje meg, hogyan nyitja meg Amanda az irányítópultját, és hogyan jelen�
     ![](media/service-fullscreen-mode/power-bi-fullscreen.png)
 
 ## <a name="next-steps"></a>Következő lépések
-[Irányítópultok a Power BI-ban](service-dashboards.md)  
-[Irányítópultok és irányítópult-csempék fókusz módban](service-focus-mode.md)    
+[A Power BI-irányítópultok](service-dashboards.md)  
+[Fókusz mód](service-focus-mode.md)    
 
-További kérdései vannak? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)
+További kérdései vannak? [Felteheti azokat a Power BI-közösségnek](http://community.powerbi.com/)
 
