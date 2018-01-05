@@ -15,18 +15,18 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/30/2017
+ms.date: 12/21/2017
 ms.author: asaxton
-ms.openlocfilehash: c10ca76ac96090ff1facbdd28210b680392aae8d
-ms.sourcegitcommit: 0f6db65997db604e8e9afc9334cb65bb7344d0dc
+ms.openlocfilehash: 491be8983967b1a5dce6579411f194117602b00c
+ms.sourcegitcommit: 70e9239e375ae03744fb9bc122d5fc029fb83469
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 12/22/2017
 ---
 # <a name="use-row-level-security-with-power-bi-embedded-content"></a>Sorszintű biztonság használata beágyazott Power BI tartalommal
-Sorszintű biztonsággal (RLS-szel) korlátozhatja a jelentésekben vagy adatkészletekben lévő adatok felhasználói hozzáférését, hogy több különböző felhasználó használhassa ugyanazt a jelentést, de különböző adatokat láthasson. Az RLS a Power BI-ból való jelentésbeágyazáskor használható ki.
+A sorszintű biztonság (RLS) a felhasználók adatokhoz való hozzáférésének korlátozására használható irányítópultoknál, csempéknél, jelentéseknél és adatkészleteknél. Ugyanazokkal az összetevőkkel több felhasználó is dolgozhat egyszerre úgy, hogy más-másféle adatokat látnak. A beágyazás támogatja a RLS-t.
 
-Ha nem Power BI-felhasználóknak végez beágyazást (alkalmazás tulajdonában lévő adatok, ez általában a szoftverszolgáltatóknál fordul elő), akkor ez a cikk Önnek szól! Konfigurálnia kell a beágyazási tokent a felhasználó és a szerepkör figyelembe vételéhez. Olvasson tovább ennek megismeréséhez.
+Ha nem Power BI-felhasználóknak végez beágyazást (alkalmazás tulajdonában lévő adatok, ez általában a szoftverszolgáltatóknál fordul elő), akkor ez a cikk Önnek szól. Konfigurálnia kell a beágyazási tokent a felhasználó és a szerepkör figyelembe vételéhez. Olvasson tovább ennek megismeréséhez.
 
 Ha Power BI-felhasználóknak végez beágyazást (a felhasználó az adatok tulajdonosa) a cégen belül, az RLS ugyanúgy működik, mintha közvetlenül a Power BI szolgáltatásban lenne. Nem kell semmi mást csinálnia az alkalmazásban. További információkat a [Power BI sorszintű biztonság (RLS) használatával kapcsolatos](../service-admin-rls.md) részben találhat.
 
@@ -34,7 +34,7 @@ Ha Power BI-felhasználóknak végez beágyazást (a felhasználó az adatok tul
 
 Az RLS kihasználása érdekében fontos megérteni a három fő alapelvet: a felhasználókat, a szerepköröket és a szabályokat. Lássuk mindegyiket közelebbről:
 
-**Felhasználók** – Ezek a jelentéseket megtekintő tényleges végfelhasználók. A Power BI Embedded esetében a felhasználókat beágyazási jogkivonatban lévő felhasználónév tulajdonság azonosítja.
+**Felhasználók** – Az összetevőket (irányítópultokat, csempéket, jelentéseket vagy adatkészleteket) megtekintő tényleges végfelhasználók. A Power BI Embedded esetében a felhasználókat beágyazási jogkivonatban lévő felhasználónév tulajdonság azonosítja.
 
 **Szerepkörök** – A felhasználók szerepkörökhöz tartoznak. A szerepkörök szabályok tárolói és olyan nevük lehet, mint *Értékesítési igazgató* vagy *Értékesítési képviselő*. A Power BI Desktopban hozhat létre szerepköröket. További információkat a [sorszintű biztonság (RLS) Power BI Desktoppal való használatával kapcsolatos](../desktop-rls.md) részben találhat.
 
@@ -85,11 +85,11 @@ Most, hogy konfigurálva vannak a Power BI Desktop-szerepkörök, el kell végez
 
 Az alkalmazás hitelesíti és engedélyezi a felhasználókat és beágyazási tokenekkel ad hozzáférést ezeknek a felhasználóknak egy adott Power BI Embedded-jelentéshez. A Power BI Embedded nem rendelkezik konkrét információkkal arról, hogy ki a felhasználó. Az RLS működéséhez további kontextust kell megadnia a beágyazási token részeként identitások formájában. Ez [GenerateToken](https://msdn.microsoft.com/library/mt784614.aspx) API-n keresztül végezhető el.
 
-A [GenerateToken](https://msdn.microsoft.com/library/mt784614.aspx) API elfogadja az identitások listáját a kapcsolódó adatkészletek jelzésével. Jelenleg csak egy identitás adható meg. A jövőben hozzáadjuk több adatkészlet támogatását az irányítópult beágyazásához. Az RLS működéséhez a következőt kell megadnia az identitás részeként.
+A [GenerateToken](https://msdn.microsoft.com/library/mt784614.aspx) API elfogadja az identitások listáját a kapcsolódó adatkészletek jelzésével. Az RLS működéséhez a következőt kell megadnia az identitás részeként.
 
 * **username (kötelező)** – Ez olyan karakterlánc, amellyel azonosítható a felhasználó az RLS-szabályok alkalmazásakor. Csak egyetlen felhasználó sorolható fel.
 * **roles (kötelező)** – Sorszintű biztonsági szabályok alkalmazásakor kiválasztható szerepköröket tartalmazó karakterlánc. Több szerepkör átadásakor karakterlánctömbként kell azokat átadni.
-* **dataset (kötelező)** – Az épp beágyazott jelentésre érvényes adatkészlet. Csak egy adatkészlet adható meg az adatkészletek listájában. A jövőben több adatkészlet is támogatott lesz az irányítópult beágyazásához.
+* **dataset (kötelező)** – Az épp beágyazott összetevőre érvényes adatkészlet. 
 
 A beágyazási token létrehozásához használja a **PowerBIClient.Reports** **GenerateTokenInGroup** metódusát. Jelenleg csak a jelentések támogatottak.
 
@@ -125,7 +125,7 @@ Ha a REST API-t hívja meg, a frissített API már elfogad egy további, **ident
 }
 ```
 
-Most, hogy minden darab együtt van, amikor valaki bejelentkezik az alkalmazásba a jelentés megtekintéséhez, csak a számukra engedélyezett adatokat láthatja, ahogyan azt a sorszintű biztonság meghatározza.
+Most, hogy minden együtt van, amikor valaki bejelentkezik az alkalmazásba az összetevő megtekintéséhez, csak a számukra engedélyezett adatokat láthatja, ahogyan azt a sorszintű biztonság meghatározza.
 
 ## <a name="working-with-analysis-services-live-connections"></a>Élő Analysis Services-kapcsolatok használata
 A sorszintű biztonság használható az élő Analysis Services-kapcsolatokkal a helyszíni kiszolgálókhoz. Néhány speciális alapelvet meg kell értenie, amikor ilyen típusú kapcsolatot használ.
@@ -143,12 +143,11 @@ A szerepkörök az identitással adhatók meg a beágyazási tokenekben. Ha ninc
 ## <a name="considerations-and-limitations"></a>Megfontolandó szempontok és korlátozások
 * A Power BI szolgáltatásban a felhasználók szerepkörökhöz rendelése nincs hatással az RLS-re beágyazási token használatakor.
 * Bár a Power BI szolgáltatás nem alkalmazza az RLS beállítást a rendszergazdákra vagy a szerkesztési engedélyekkel rendelkező tagokra, amikor beágyazási tokennel ad meg egy identitást, azt az adatokra alkalmazza.
-* A GenerateToken behívásakor az identitás információinak átadása csak a jelentés írásához/olvasásához támogatott. A többi erőforrás később lesz támogatott.
 * Az élő Analysis Services-kapcsolatok a helyszíni kiszolgálókhoz támogatottak.
 * Az Azure Analysis Services élő kapcsolatai támogatják a szerepkör szerinti szűrést, de nem támogatják a felhasználónév szerinti dinamikus szűrést.
 * Ha a mögöttes adatkészlethez nincs szükség RLS-re, a GenerateToken kérés **nem** tartalmazhat hatályos identitást.
-* Ha a mögöttes adatkészlet felhőalapú modell (gyorsítótárazott modell vagy DirectQuery), a hatályos identitásnak tartalmaznia kell legalább egy szerepkört. Ellenkező esetben nem történik szerepkör-hozzárendelés.
-* Csak egy identitás adható meg az identitások listájában. Azért használunk listát, hogy a jövőben lehetővé tegyük az irányítópultok beágyazásának több identitásból álló tokenjeit.
+* Ha a mögöttes adatkészlet felhőalapú modell (gyorsítótárazott modell vagy DirectQuery), a hatályos identitásnak tartalmaznia kell legalább egy szerepkört, mert ellenkező esetben a szerepkör-hozzárendelés sikertelen lesz.
+* Az identitáslista lehetővé teszi, hogy az irányítópultok beágyazásánál több identitásból álló tokent is lehessen használni. A lista minden más összetevő esetében csak egyetlen identitást tartalmaz.
 
 További kérdései vannak? [Kérdezze meg a Power BI közösségét](https://community.powerbi.com/)
 
