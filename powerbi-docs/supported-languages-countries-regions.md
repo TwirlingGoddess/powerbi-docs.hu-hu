@@ -15,15 +15,18 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/12/2017
+ms.date: 12/18/2017
 ms.author: maggies
-ms.openlocfilehash: e12b14a73ba63d64d39f296db602e57ceedc5523
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 3d6c3f59611a515ea6a2188457cc80c31a7693ce
+ms.sourcegitcommit: ea247cb3cfc1cac076d4b076c1ad8e2fc37e15a1
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/19/2017
 ---
 # <a name="supported-languages-and-countriesregions-for-power-bi"></a>A Power BI által támogatott nyelvek és országok/régiók
+
+A cikkben a Power BI szolgáltatás, a Power BI Desktop és a Power BI dokumentációja által támogatott nyelvek és országok/régiók listája érhető el.
+
 ## <a name="countries-and-regions-where-power-bi-is-available"></a>Országok és régiók, ahol a Power BI elérhető
 Azon országok és régiók listáját, ahol a Power BI elérhető, a [Nemzetközi elérhetőség](https://products.office.com/business/international-availability) oldalon találja meg. 
 
@@ -75,7 +78,7 @@ A Power BI szolgáltatás (a böngészőben) a következő 42 nyelven érhető e
 * Ukrán – українська
 * Vietnami – Tiếng Việt
 
-## <a name="whats-translated"></a>Lefordított elemek
+### <a name="whats-translated"></a>Lefordított elemek
 A menük, gombok és a kezelőfelület más elemei le vannak fordítva az Ön nyelvére, megkönnyítve a Power BI kezelését és használatát.
 
 Néhány funkció jelenleg csak angol nyelven érhető el:
@@ -85,22 +88,22 @@ Néhány funkció jelenleg csak angol nyelven érhető el:
 
 Figyelje az értesítéseket, mert dolgozunk további funkciók más nyelvekre való átültetésén. 
 
-## <a name="choose-your-language-in-the-power-bi-service"></a>Nyelv megadása a Power BI szolgáltatásban
+### <a name="choose-your-language-in-the-power-bi-service"></a>Nyelv megadása a Power BI szolgáltatásban
 1. A Power BI szolgáltatásban válassza a **Beállítások** ikont ![Beállítások ikon](media/supported-languages-countries-regions/pbi_settings_icon.png) > **Beállítások**.
 2. Az **Általános** lapon > **Nyelv**.
 3. Válassza ki a saját nyelvét > **Alkalmaz**.
 
-## <a name="choose-your-language-in-the-browser"></a>Nyelv megadása a böngészőben
+### <a name="choose-your-language-in-the-browser"></a>Nyelv megadása a böngészőben
 A Power BI a számítógépén érvényben lévő nyelvi beállítások alapján észleli az Ön nyelvét. Ezek a beállítások az operációs rendszertől és a böngészőtől függően különböző módokon adhatók meg. Itt azt mutatjuk be, hogy hogyan érhetők el ezek a beállítások az Internet Explorerben és a Google Chrome-ban.
 
-### <a name="internet-explorer-version-11"></a>Internet Explorer (11-es verzió)
+#### <a name="internet-explorer-version-11"></a>Internet Explorer (11-es verzió)
 1. Kattintson a böngészőablak jobb felső sarkában lévő **Eszközök** gombra:
    
    ![Internet Explorer Eszközök gomb](media/supported-languages-countries-regions/languages1.png)
 2. Kattintson a **Internetbeállítások** lehetőségre.
 3. Az Internetbeállítások párbeszédablak Általános lapján a Megjelenés alatt kattintson a **Nyelvek** gombra.
 
-### <a name="google-chrome-version-42"></a>Google Chrome (42-es verzió)
+#### <a name="google-chrome-version-42"></a>Google Chrome (42-es verzió)
 1. Kattintson a böngészőablak jobb felső sarkában lévő menü gombra:
    
    ![Chrome menü gomb](media/supported-languages-countries-regions/languages2.png)
@@ -144,7 +147,7 @@ A Power BI Desktophoz megadott nyelv befolyásolja a számok és dátumok megjel
 
 A Power BI Desktop nyelvének megváltoztatásához térjen vissza a letöltési oldalra és töltse le másik nyelven.
 
-### <a name="choose-the-locale-to-be-used-when-importing-data-into-power-bi-desktop"></a>A használni kívánt területi beállítások megadása adatoknak a Power BI Desktopba történő importálásakor
+### <a name="choose-the-locale-for-importing-data-into-power-bi-desktop"></a>Az adatok a Power BI Desktopba való importálásához használni kívánt területi beállítás megadása
 Akár letölti, akár a Windows Áruházból telepíti a Power BI Desktopot, egy adott jelentéshez a saját Power BI Desktop-verziójáétól eltérő területi beállításokat is megadhat. Ez határozza meg az adatforrásból importált adatok értelmezését, például hogy a "3/4/2017" dátum április 3-a vagy március 4-e. 
 
 1. A Power BI Desktopban lépjen a **Fájl** > **Lehetőségek és beállítások** > **Beállítások** területre.
@@ -153,6 +156,22 @@ Akár letölti, akár a Windows Áruházból telepíti a Power BI Desktopot, egy
    
    ![A Power BI Desktop beállítások párbeszédpanel](media/supported-languages-countries-regions/pbi_supptdlangs_locale.png)
 4. Kattintson az **OK** gombra.
+
+### <a name="choose-the-language-for-the-model-in-power-bi-desktop"></a>A Power BI Desktopban használt modell nyelvének kiválasztása
+
+A Power BI Desktop alkalmazás nyelvének beállítása mellett a modell nyelvét is beállíthatja. A modell nyelve elsősorban a következő két dologra van hatással:
+
+- A karakterláncok összehasonlítására és rendezésére. Mivel például a török nyelvben két i betű található, az adatbázis rendezésétől függően ezen két betű sorrendjei eltérőek lehetnek rendezéskor. 
+- A nyelvre, amelyet a Power BI Desktop rejtett dátumtáblázatok dátummezőkből való létrehozásakor használ. A mezők neve lehet például Month, Monat, Hónap, stb.
+
+A következőképpen állíthatja be a modell nyelvét.
+
+1. A Power BI Desktopban lépjen a **Fájl** > **Lehetőségek és beállítások** > **Beállítások** területre.
+2. A **Globális** szakaszban válassza a **Területi beállítások** lehetőséget.
+3. A **Modell nyelve** mezőben adjon meg egy másik nyelvet. 
+
+    ![A Power BI Desktopban használt modell nyelvének beállítása](media/supported-languages-countries-regions/power-bi-supported-model-languages.png)
+
 
 ## <a name="languages-for-the-help-documentation"></a>A súgódokumentáció nyelvei
 A súgó a következő 10 nyelven van honosítva: 

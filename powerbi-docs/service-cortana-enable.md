@@ -11,13 +11,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 08/30/2017
+ms.date: 12/20/2017
 ms.author: mihart
-ms.openlocfilehash: 6c096cfb76a1d8697cef3d157efcda41e57a1510
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: b18157f28dcaf2e9b130bdc3bd5547312e45a4f9
+ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/21/2017
 ---
 # <a name="enable-cortana-to-access-power-bi-reports-and-their-underlying-datasets"></a>Power BI-jelentések (és az alapjukul szolgáló adatkészletek) elérésének engedélyezése a Cortana számára
 Már olvasta az [A Cortana és a Power BI ismertetése](service-cortana-intro.md) című cikket (ha nem, akkor ajánlott előbb elolvasni, és azután visszatérni ide). Most saját maga is kipróbálja.  Mielőtt természetes nyelvű kérdéseket tenne fel a Cortanában és válaszokat kapna rájuk a Power BI-***jelentésekben*** tárolt adatok alapján, ismerjen meg néhány előfeltételt. Egészen pontosan a következőket kell megtennie.
@@ -47,11 +47,10 @@ A Power BI szolgáltatásba (nem a Power BI Desktopba) bejelentkezve meg kell is
 2. Ehhez a jelentéshez a **Contoso Sales** című jelentés van társítva.
    
     ![Contoso Sales adatkészlet](media/service-cortana-enable/power-bi-identify-dataset.png)
-3. Válassza a fogaskerék ikont a Power BI szolgáltatás jobb felső sarkában, majd a **Beállítások** lehetőséget.
+3. Az adathalmaz neve mellett jobbra válassza a **három pont (...) > Beállítások** lehetőséget.  
    
-    ![Beállítások kiválasztása](media/service-cortana-enable/power-bi-cortana-settings.png)
-4. Válassza az **Adatkészletek** fület, majd jelölje ki a Cortana számára elérhetővé tenni kívánt adatkészletet a bal oldali listából.
-5. Válassza a **Q&A és Cortana** > **Adatkészlet elérésének engedélyezése a Cortana számára** > **Alkalmaz** lehetőséget.
+    ![Beállítások kiválasztása](media/service-cortana-enable/power-bi-settings-cortana.png)
+4. Válassza a **Q&A és Cortana** > **Adatkészlet elérésének engedélyezése a Cortana számára** > **Alkalmaz** lehetőséget.
    
    ![Cortana hozzáférése az adatkészlethez](media/service-cortana-enable/power-bi-cortana-enable-new.png)
    
@@ -67,16 +66,19 @@ A Power BI szolgáltatásba (nem a Power BI Desktopba) bejelentkezve meg kell is
 ## <a name="add-your-power-bi-credentials-to-windows"></a>Power BI-hitelesítő adatok hozzáadása a Windowshoz
 Ehhez a Windows 10 1511-es vagy újabb verzióját kell használnia.
 
-1. Állapítsa meg, hogy a Windows 10 melyik verzióját használja. Nyissa meg a **Beállítások** > **Rendszer** > **Névjegy** elemet.
-   
+1. Állapítsa meg, hogy a Windows 10 melyik verzióját használja. Nyissa meg a **Beállításokat**.
+    ![Nyissa meg a Windows beállításait](media/service-cortana-enable/power-bi-cortana-windows.png)
+
+    Ezután válassza a **Rendszer > Névjegy** lehetőséget. A képernyő alsó részén lesz látható a **Windows-specifikációk > Verzió** elem
+
    * Ha a Windows 10 legalább 1511-es (2015. november 10-ei Windows 10-frissítés) de a 1607-esnél korábbi verziójával rendelkezik, akkor adja hozzá munkahelyi vagy iskolai fiókját és Microsoft-fiókját (hajtsa végre az alábbi 2. és 3. lépést).
    * Ha a Windows 10 1607-es (2016. július 10-ei Windows 10-frissítés) vagy újabb verziójával rendelkezik, akkor adja hozzá munkahelyi vagy iskolai fiókját (csak az alábbi 2. lépést hajtsa végre).
-2. Adja hozzá munkahelyi vagy iskolai fiókját a Cortanához.
+1. Adja hozzá munkahelyi vagy iskolai fiókját a Cortanához.
    
    * Nyissa meg a **Beállítások** > **Fiókok** elemet.
      
        ![Beállítások - Fiókok](media/service-cortana-enable/power-bi-windows-accounts.png)
-   * Görgessen a panel aljára, és válassza a **Munkahelyi vagy iskolai fiók hozzáadása** lehetőséget.
+   * Görgessen a panel aljára, és válassza a **Munkahelyi vagy iskolai fiók hozzáadása** lehetőséget. Másik lehetőségként a **Fiókok** lapon válassza a **Hozzáférés munkahelyi vagy iskolai rendszerhez > Csatlakozás** lehetőséget.
      
      ![Munkahelyi fiók hozzáadása](media/service-cortana-enable/power-bi-add-work-account2.png)
 
@@ -87,5 +89,5 @@ A Cortana az Ön munkahelyi vagy iskolai fiókjának használatával keres vála
 
 [A Cortana és a Power BI közötti integráció hibáinak elhárítása](service-cortana-troubleshoot.md)
 
-További kérdései vannak? [Felteheti őket a Power BI-közösségnek](http://community.powerbi.com/)
+További kérdései vannak? [Felteheti azokat a Power BI-közösségnek](http://community.powerbi.com/)
 

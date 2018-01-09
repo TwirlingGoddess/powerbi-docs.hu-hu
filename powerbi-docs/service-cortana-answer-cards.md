@@ -15,20 +15,20 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 08/29/2017
+ms.date: 12/20/2017
 ms.author: mihart
-ms.openlocfilehash: 2abaa2ae00b353af46c267083f879cbf9536b397
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 79e10c7d47eb5105e0c3e79bd3451315eae6d27e
+ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 12/21/2017
 ---
 # <a name="use-power-bi-service-or-power-bi-desktop-to-create-a-custom-answer-page-for-cortana"></a>A Power BI szolgáltatás vagy a Power BI Desktop használata egyéni válaszoldal létrehozására Cortanához
 A Power BI teljes funkcionalitásának használata *Cortana-válaszoldalaknak* (vagy néha „Cortana-válaszkártyáknak”) nevezett, kifejezetten a Cortana-kérdések megválaszolására tervezett, különleges jelentésoldalak létrehozására.
 
 ![](media/service-cortana-answer-cards/power-bi-cortana.png)
 
-> [!NOTE]
+> [!IMPORTANT]
 > Ha a Cortana és a Power BI-**irányítópult** előzetes verzióját próbálja ki, akkor ennek a cikknek a további részeit kihagyhatja. Az, hogy a Cortana keresni tudjon a Power BI-irányítópultokon, nem igényel előzetes beállításokat.
 > 
 > 
@@ -63,7 +63,7 @@ A jelentésekben a *Cortana-válaszoldal* Cortanára van méretezve, hogy megjel
    > A pontosabb eredmények érdekében kerülje az olyan szavak használatát, amelyek egyben oszlopnevek is.
    > 
    > 
-6. Ha a jelentés rendelkezik oldalszintű szűrőkkel, megadhatja a **Require single selection** (Egyetlen kijelölésre van szükség) beállítást is. Cortana ezt a jelentést csak akkor jeleníti meg válaszként, ha a szűrőelemek közül egy (és csak egy) meg van határozva a kérdésben.
+6. Ha a jelentés rendelkezik oldalszintű szűrőkkel, nem kötelező, de érdemes megadnia az **Egyetlen kijelölésre van szükség** beállítást. Cortana ezt a jelentést csak akkor jeleníti meg válaszként, ha a szűrőelemek közül egy (és csak egy) meg van határozva a kérdésben. Az **Egyetlen kijelölésre van szükség** beállítás a **Szűrők** ablaktábla alján található.
    
    > [!NOTE]
    > Nem kell megadnia a **Require single selection** (Egyetlen kijelölésre van szükség) beállítást ahhoz, hogy Cortana oldalszintű szűrőkkel jelenítse meg a jelentést.  Például a „show sales for Charlotte Lindseys” (értékesítés megjelenítése a Charlotte Lindseyshez) megjeleníti a válaszoldalt az Egyetlen kijelölésre van szükség beállításától függetlenül.
@@ -98,5 +98,5 @@ Cortana oldalán a magas pontszámú válaszok (például egy meghatározott old
 
 Továbbra sem tudja a Power BI-jal használni Cortanát?  Próbálkozzon [Cortana hibaelhárító eszközével](service-cortana-troubleshoot.md).
 
-További kérdései vannak? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)
+További kérdései vannak? [Felteheti azokat a Power BI-közösségnek](http://community.powerbi.com/)
 

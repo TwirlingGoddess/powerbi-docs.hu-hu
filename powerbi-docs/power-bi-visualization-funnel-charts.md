@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/27/2017
+ms.date: 12/23/2017
 ms.author: mihart
-ms.openlocfilehash: 231bf7febb19583414d976cc612d06c2caa1e246
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 91c185a082cebc6a9196e0e86898fe366363f8c2
+ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/03/2018
 ---
 # <a name="funnel-charts-tutorial"></a>Tölcsérdiagramok (oktatóanyag)
 A tölcsérdiagramok segítségével vizualizálhatja az egymást követő összekapcsolt fázisokból álló lineáris folyamatokat. Ilyen például egy értékesítési tölcsér, amelyen keresztül az ügyfelek nyomon követhetőek az egyes fázisokban: Érdeklődő \> Minősített érdeklődő \> Lehetséges ügyfél \> Szerződés \> Zárás.  A tölcsér alakja egyetlen pillantásra megmutatja a lekövetett folyamat állapotát.
@@ -59,15 +59,15 @@ A videóban Will egy tölcsérdiagramot hoz létre az Értékesítési és marke
 
 Most hozzon létre egy saját tölcsérdiagramot az egyes értékesítési fázisokban lévő lehetőségek megjelenítéséhez.
 
-Ezek az utasítások a Lehetőségelemzési minta használatát feltételezik. A lépések követéséhez [töltse le a mintát](sample-datasets.md), jelentkezzen be a Power BI-ba, és válassza az **Adatok lekérése \> Minták \> Lehetőségelemzési minta \> Kapcsolódás** lehetőséget.
+Ezek az utasítások a Lehetőségelemzési minta használatát feltételezik. Annak érdekében, hogy követni tudja a lépéseket, [töltse le a mintát](sample-datasets.md), mely a Power BI szolgáltatásban (az app.powerbi.com webhelyen) vagy a Power BI Desktopban használható.   
 
-1. Kezdje a folyamatot [Szerkesztési nézetben](service-interact-with-a-report-in-editing-view.md) egy [üres jelentésoldalon](power-bi-report-add-page.md), és válassza a **SalesStage** \> **Sales Stage** mezőt.  
+1. Kezdjen egy [üres jelentésoldalon](power-bi-report-add-page.md), és válassza a **SalesStage** \> **Sales Stage** (Értékesítési fázis) mezőt. Ha a Power BI szolgáltatást használja, mindenképpen a [Szerkesztési nézetében](service-interact-with-a-report-in-editing-view.md) nyissa meg a jelentést.
    
     ![](media/power-bi-visualization-funnel-charts/funnelselectfield_new.png)
 2. [Konvertálja a diagramot](power-bi-report-change-visualization-type.md) egy tölcsérré. Láthatja, hogy a **Sales Stage** mező a **Csoport** területen található. 
 3. A **Mezők** ablaktáblán válassza a **Fact** \> **Opportunity Count** lehetőséget.
    
-    ![](media/power-bi-visualization-funnel-charts/funnelfinal_new.png)
+    ![](media/power-bi-visualization-funnel-charts/power-bi-funnel.png)
 4. A mutatót az egyes sávok fölé húzva a rendszer rengeteg információt jelenít meg.
    
    * A fázis neve
@@ -90,14 +90,13 @@ A tölcsér egyes sávjainak kiemelésével a rendszer keresztszűri a jelentés
 2. A vizualizációk keresztkiemelési és keresztszűrési beállításaival kapcsolatban lásd: [A Power BI vizualizációk interakciója](service-reports-visual-interactions.md)
 
 ## <a name="create-a-funnel-chart-in-qa"></a>Tölcsérdiagram létrehozása a Kérdések és válaszok felületen
-Emeljen ki egy irányítópultot, amely legalább egy, a „Opportunity Tracking” (Lehetőségek nyomon követése) adatkészletből rögzített vizualizációt tartalmaz.  Amikor beír egy kérdést a Kérdések és válaszok felületen, a Power BI a kijelölt irányítópulttal társított (az iránytópulton rögzített csempékkel rendelkező) összes adatkészletben keresi a válaszokat. További információkért lásd: [Power BI – Alapfogalmak](service-basic-concepts.md).
+Nyissa meg a Lehetőségelemzési minta irányítópultját vagy bármely más olyan irányítópultot, amelyen legalább egy vizualizáció rögzítve van a Lehetőségelemzési minta adathalmazából.  Amikor beír egy kérdést a Kérdések és válaszok felületen, a Power BI a kijelölt irányítópulttal társított (az iránytópulton rögzített csempékkel rendelkező) összes adatkészletben keresi a válaszokat. További információkért lásd: [Power BI – Alapfogalmak](service-basic-concepts.md).
 
-1. Emeljen ki egy irányítópultot, amely legalább egy, a „Opportunity Tracking” (Lehetőségek nyomon követése) adatkészletből rögzített csempét tartalmaz.
-2. Kezdje begépelni a kérdését angolul a Kérdések és válaszok mezőbe.
+1. A Lehetőségelemzési minta irányítópultján kezdje el beírni a kérdését a Q&A-kérdésmezőbe.
    
    ![](media/power-bi-visualization-funnel-charts/funnelfromqna_new.png)
    
-   Mindenképp írja be az „as funnel” kifejezést is, hogy a Power BI tudja, milyen típusú vizualizációt szeretne.
+2. Mindenképp írja be az „as funnel” kifejezést is, hogy a Power BI tudja, milyen típusú vizualizációt szeretne.
 
 ## <a name="next-steps"></a>További lépések
 [Vizualizációtípusok a Power BI-ban](power-bi-visualization-types-for-reports-and-q-and-a.md)
@@ -106,5 +105,5 @@ Emeljen ki egy irányítópultot, amely legalább egy, a „Opportunity Tracking
 
 [Power BI – Alapfogalmak](service-basic-concepts.md)
 
-További kérdései vannak? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)
+További kérdései vannak? [Felteheti azokat a Power BI-közösségnek](http://community.powerbi.com/)
 

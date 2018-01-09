@@ -1,6 +1,6 @@
 ---
 title: "Adatriasztások beállítása a Power BI mobilalkalmazásokban"
-description: "Elsajátíthatja, hogyan állíthat be a Power BI-mobilalkalmazásokban és a Power BI szolgáltatásban adatriasztásokat, amelyek figyelmeztetik, ha az irányítópultokban lévő adatok meghaladják a beállított korlátokat."
+description: "Megtudhatja, hogyan állíthat be olyan adatriasztásokat a Power BI-mobilalkalmazásokban, amelyek figyelmeztetik, ha az irányítópultokon lévő adatok meghaladják a beállított korlátokat."
 services: powerbi
 documentationcenter: 
 author: maggiesMSFT
@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/13/2017
+ms.date: 12/18/2017
 ms.author: maggies
-ms.openlocfilehash: 822285a38e08f173ff8cae69c8e7e8ad94957692
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: c6406a6d1ad4269352ce8421b91f4304fd35c78f
+ms.sourcegitcommit: ea247cb3cfc1cac076d4b076c1ad8e2fc37e15a1
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/19/2017
 ---
 # <a name="set-data-alerts-in-the-power-bi-mobile-apps"></a>Adatriasztások beállítása a Power BI mobilalkalmazásokban
 A következőkre vonatkozik:
@@ -30,7 +30,9 @@ A következőkre vonatkozik:
 |:--- |:--- |:--- |:--- |:--- |
 | iPhone-ok |iPadek |Android rendszerű telefonok |Android rendszerű táblagépek |Windows 10-eszközök |
 
-A Power BI-mobilalkalmazásokban és a Power BI szolgáltatásban beállíthat adatriasztásokat, amelyek figyelmeztetik, ha az irányítópultokban lévő adatok meghaladják a beállított korlátokat. A riasztások az egyetlen értéket tartalmazó csempékkel, például kártyákkal és mérőműszerekkel működnek, a streamelési adatokkal azonban nem. A mobileszközön beállított adatriasztásokat megtekintheti a Power BI szolgáltatásban és viszont. Mindenki csak a saját maga által beállított adatriasztásokat látja, még az irányítópultnak vagy a csempe pillanatképének a megosztása esetén is.
+Beállíthat riasztásokat az irányítópulton a Power BI-mobilalkalmazásokban és a Power BI szolgáltatásban is. A riasztások figyelmeztetik, ha egy csempe adatainak változásai meghaladják a beállított korlátokat. A riasztások az egyetlen értéket tartalmazó csempékkel, például kártyákkal és mérőműszerekkel működnek, a streamelési adatokkal azonban nem. A mobileszközön beállított adatriasztásokat megtekintheti a Power BI szolgáltatásban és viszont. Mindenki csak a saját maga által beállított adatriasztásokat látja, még az irányítópultnak vagy a csempe pillanatképének a megosztása esetén is.
+
+Ha Power BI Pro-licenccel rendelkezik, vagy ha ingyenes Power BI-licenccel rendelkezik és a megosztott irányítópult prémium szintű kapacitást használ, beállíthat riasztásokat csempékhez. 
 
 > [!WARNING]
 > Az adatalapú riasztások értesítései az adatokkal kapcsolatos információkat tartalmaznak. Ha a mobileszközét ellopják, javasoljuk, hogy a Power BI szolgáltatásban tiltsa le az összes adatalapú riasztási szabályt. 
@@ -173,5 +175,5 @@ Az adatforrások általában napi frissítésre vannak állítva, némelyik azon
 ## <a name="next-steps"></a>További lépések
 * [Riasztások kezelése a Power BI szolgáltatásban](service-set-data-alerts.md)
 * [Power BI mobil értesítési központ](mobile-apps-notification-center.md)
-* Kérdése van? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)
+* Kérdése van? [Forduljon a Power BI közösségéhez](http://community.powerbi.com/)
 

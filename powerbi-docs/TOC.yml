@@ -378,7 +378,7 @@
           href: power-bi-report-copy-paste-page.md
         - name: Power BI-jelentés exportálása az Asztalra (előzetes verzió)
           href: service-export-to-pbix.md
-        - name: Jelentés szűrése lekérdezésisztring-paraméterek URL-ben való használatával
+        - name: Jelentés szűrése lekérdezésisztring-paraméterek URL-címben való használatával
           href: service-url-filters.md
         - name: Ajánlott eljárások gyors és megbízható Power BI-jelentések készítéséhez
           href: power-bi-reports-performance.md
@@ -452,13 +452,11 @@
           href: power-bi-visualization-tables.md
         - name: 'Oktatóanyag: fatérképek a Power BI-ban'
           href: power-bi-visualization-treemaps.md
-        - name: 'Oktatóanyag: vízesésdiagramok a Power BI-ban'
+        - name: 'Oktatóanyag: Vízesésdiagramok a Power BI-ban'
           href: power-bi-visualization-waterfall-charts.md
-        - name: Nagy méretű számot tartalmazó csempe létrehozása a Power BI-ban kérdésfeltevéssel
-          href: power-bi-visualization-big-number.md
-        - name: Nagy méretű számot tartalmazó csempe létrehozása Power BI-jelentésből
-          href: power-bi-visualization-big-number-report.md
-        - name: Fejlett analitika és vizuális elemek létrehozása R-parancsfájlokkal a Power BI-ban
+        - name: 'Oktatóanyag: Kártyák (nagy méretű numerikus csempék) a Power BI-ban'
+          href: power-bi-visualization-card.md
+        - name: Fejlett elemzések és vizualizációk létrehozása R-parancsfájlokkal a Power BI-ban
           href: service-r-visuals.md
     - name: Fájlokból származó adatok
       items:
@@ -938,6 +936,8 @@
           href: developer/integrate-report.md
         - name: Tartalom integrálása alkalmazásba (az alkalmazás az adattulajdonos)
           href: developer/embed-sample-for-customers.md
+        - name: Egyéni elrendezések beágyazása alkalmazásokba
+          href: developer/embedded-custom-layout.md
         - name: Azure Active Directory-bérlő létrehozása
           href: developer/create-an-azure-active-directory-tenant.md
         - name: Alkalmazás regisztrálása

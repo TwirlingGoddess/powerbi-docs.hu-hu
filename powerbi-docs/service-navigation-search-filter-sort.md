@@ -15,36 +15,27 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/09/2017
+ms.date: 12/20/2017
 ms.author: mihart
-ms.openlocfilehash: 40528aa3401f690daed17fa9bf73cd6c90edcf62
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 2dcf3b50b9019880a9a7a11c863bed88783214c7
+ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/21/2017
 ---
-# <a name="searching-and-sorting-content-in-power-bi"></a>Tartalom keresése és rendezése a Power BI szolgáltatásban
-A Power BI szolgáltatásban bármit gyorsan megtalálhat a Power BI automatizált rendszerezése, a felhasználói címkézés, a keresés, és a válogatás kombinációja révén.
+# <a name="navigation-searching-finding-and-sorting-content-in-power-bi-service"></a>Navigáció: tartalom keresése és rendezése a Power BI szolgáltatásban
+A Power BI szolgáltatásban számos módon navigálhat a tartalmak között. A tartalmak típus szerint vannak rendezve a munkaterületeken: irányítópultok, jelentések, munkafüzetek és adathalmazok.  A tartalom emellett használat szerint is rendezve van: kedvencek, legutóbbi, alkalmazások, velem megosztott és kiemelt. Ezek a különböző tartalmakhoz vezető utak lehetővé teszik, hogy gyorsan megtalálja, amire szüksége van a Power BI szolgáltatásban.  
 
-## <a name="how-power-bi-helps-you-navigate-your-content"></a>Hogyan segíti a Power BI a tartalmon belüli navigációt
-A Power BI szolgáltatás többféleképpen rendezi a tartalmat.  Először is irányítópultokba, jelentésekbe, munkafüzetekbe és adatkészletekbe csoportosítja. Ezzel az elrendezéssel számos Power BI-képernyőn találkozhat. A Power BI szolgáltatás ezen kívül a tartalom osztályozásával is segíti a keresett elemek gyors megtalálását. Vessen egy pillantást a bal oldali navigációs ablaktáblára.
+>[!NOTE] 
+>A cikk csak a Power BI szolgáltatásra (az app.powerbi.com webhelyre) vonatkozik, a Power BI Desktopra nem.
 
-![](media/service-navigation-search-filter-sort/power-bi-newnav.png)
+## <a name="navigation-within-workspaces"></a>Navigálás a munkaterületeken
 
-A saját használatra létrehozott tartalom a **Saját munkaterületen** érhető el, a csoporttal létrehozott és megosztott tartalom az **alkalmazás-munkaterületen**, a gyorsan elérni kívánt tartalom a **Kedvencek** alatt, az Önnel megosztott tartalom a **Velem megosztott** részben, az utoljára megtekintett tartalmakat pedig a **Legutóbbiak** részből is megnyithatja.
+A Power BI szolgáltatás típus szerint választja szét a munkaterület tartalmait: az irányítópultokat, a jelentéseket, a munkafüzeteket és az adathalmazokat. Ez az elrendezés fog megjelenni, amikor kiválaszt egy munkaterületet. Ebben a példában az alkalmazás-munkaterület neve „Sales and marketing app sample” („Értékesítési és marketing-alkalmazásminta”), és 2 irányítópultot, 6 jelentést, 1 munkafüzetet és 5 adathalmazt tartalmaz.
 
-További információkért lásd: [Tartalom rendszerezése a Power BI szolgáltatásban](service-basic-concepts.md)
+![](media/service-navigation-search-filter-sort/workspaces.gif)
 
-> **FIGYELEM**: A rendszerezésben az is segít, ha a leggyakrabban megtekinteni kívánt irányítópultot *kiemelt* irányítópultként állítja be. A Power BI szolgáltatás megnyitásakor mindig ez az irányítópult jelenik meg először. További információkért lásd: [Kiemelt irányítópult](service-dashboard-featured.md).
-> 
-> 
-
-## <a name="favorite-dashboards-and-apps"></a>Kedvenc irányítópultok és alkalmazások
-Vannak gyakran használt irányítópultjai és alkalmazásai? Ha [úgy állítja be őket, mint *kedvenceket*](service-dashboard-favorite.md), mindig elérhetőek lesznek a bal oldali navigációs ablaktáblán.
-
-![](media/service-navigation-search-filter-sort/power-bi-favorite-flyout.png).
-
-A kedvencek használatának részletes leírását lásd a [Kedvencek a Power BI szolgáltatásban](service-dashboard-favorite.md) című cikkben.
+________________________________________
 
 ## <a name="searching-and-sorting-in-workspaces"></a>Keresés és rendezés a munkaterületeken
 A munkaterületeken négyféle tartalomlap található: Irányítópultok, Jelentések, Munkafüzetek, Adatkészletek.  Minden laphoz tartozik egy keresőmező és egy rendezési gomb.  A Power BI szolgáltatás használatának kezdetén talán nem találja szükségesnek őket, hiszen akkor még csak egy-két elem lesz egy lapon.  De idővel hosszú tartalomlisták is kialakulhatnak.  A keresés és a rendezés használatával könnyedén megtalálhatja, amit keres.
@@ -58,11 +49,24 @@ A munkaterületeken négyféle tartalomlap található: Irányítópultok, Jelen
   
    ![](media/service-navigation-search-filter-sort/power-bi-sort-alpha.png)
 
-## <a name="considerations-and-troubleshooting"></a>Megfontolások és hibaelhárítás
+## <a name="navigation-using-the-left-navbar"></a>Navigálás a bal oldali navigációs sávval
+A bal oldali navigációs sávon úgy vannak osztályozva a tartalmak, hogy azokat még egyszerűbben és gyorsan meg lehessen találni.  
+
+![](media/service-navigation-search-filter-sort/power-bi-newnav.png)
+
+
+
+A saját használatra létrehozott tartalmak a **Saját munkaterületen**, a csoportokkal létrehozott és megosztott tartalmak az **alkalmazás-munkaterületeken**, az Önnel megosztott tartalmak a **Velem megosztott** területen, az utoljára megtekintett tartalmak pedig a **Legutóbbiak** területen érhetők el.
+
+Emellett [kedvencként](service-dashboard-favorite.md) és [kiemeltként](service-dashboard-featured.md) is megjelölhet tartalmakat. Válassza ki a várhatóan leggyakrabban megtekintett irányítópultot, és állítsa be *kiemelt* irányítópultként. A Power BI szolgáltatás megnyitásakor mindig ez az irányítópult jelenik meg először. Vannak gyakran használt irányítópultjai és alkalmazásai? Ha kedvencként állítja be őket, mindig elérhetőek lesznek a bal oldali navigációs sávban.
+
+![](media/service-navigation-search-filter-sort/power-bi-favorite-flyout.png).
+
+
+## <a name="considerations-and-troubleshooting"></a>Megfontolandó szempontok és hibaelhárítás
 * Az adatkészletek esetében a tulajdonos szerinti **Rendezés** nem érhető el.
 
 ## <a name="next-steps"></a>Következő lépések
 [Power BI – Alapfogalmak](service-basic-concepts.md)
 
-Több kérdése van? [Kérdezze a Power BI-közösséget](http://community.powerbi.com/)
-
+További kérdései vannak? [Felteheti azokat a Power BI-közösségnek](http://community.powerbi.com/)

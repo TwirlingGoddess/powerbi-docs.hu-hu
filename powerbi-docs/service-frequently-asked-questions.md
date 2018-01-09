@@ -15,18 +15,17 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/12/2017
+ms.date: 12/05/2017
 ms.author: maggies
-ms.openlocfilehash: 61d74fb9c25abb0cbc5135795d5567016f88b0c0
-ms.sourcegitcommit: b3ee37e1587f1269ee7dd9daf1685a06dea3b50c
+ms.openlocfilehash: c82b5c302511d5c82ae0048b8dce4f227f6fc5b1
+ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/23/2017
+ms.lasthandoff: 01/03/2018
 ---
 # <a name="frequently-asked-questions-about-power-bi"></a>Gyakori kérdések – Power BI
 * Ha bármilyen egyéb kérdése van, [kérdezze a Power BI-közösséget](http://community.powerbi.com/).
-* Továbbra is problémába ütközik? Látogasson el a [Power BI támogatási oldalára](https://powerbi.microsoft.com/support/).
-* Vagy kattintson a **Kapcsolatfelvétel** ikonra ![](media/service-frequently-asked-questions/power-bi-contact-me-icon.png) a böngészőablak jobb alsó sarkában.
+* Továbbra sem találja a megoldást? Keresse fel a [Power BI támogatási oldalát](https://powerbi.microsoft.com/support/).
 
 ## <a name="what-is-microsoft-power-bi"></a>Mi az a Microsoft Power BI?
 A [Power BI](https://powerbi.microsoft.com/) egy olyan felhőalapú üzleti analitikai szolgáltatás, amely gyorsabban, hatékonyabban és áttekinthetőbben teszi lehetővé az adatok vizualizálását és elemzését bárkinek. A felhasználók különböző adatok széles köréhez kapcsolódhatnak az egyszerűen használható irányítópultoknak, az interaktív jelentéseknek és az olyan lenyűgöző vizualizációknak köszönhetően, amelyekkel az adatok életre kelnek.
@@ -126,7 +125,7 @@ Az alábbi erőforrások állnak rendelkezésre az első lépések megtételéhe
 * Az első lépések megtételét segítő videók a [YouTube-csatornán](https://www.youtube.com/user/mspowerbi)
 * [A Power BI Desktop használatának első lépései](service-get-started.md) című cikk
 * [Csatlakozzon közösségünkhöz](https://community.powerbi.com/), és tegyen fel kérdéseket
-* További javaslatokért lásd: [10 tanács segítségkéréshez](service-tips-for-finding-help.md).
+* További javaslatokért lásd: [10 tanács segítségkéréshez](service-tips-for-finding-help.md)
 
 ## <a name="what-browsers-does-power-bi-support"></a>Milyen böngészőket támogat a Power BI?
 Íme a [Power BI által támogatott böngészők](service-browser-support.md) teljes listája.
@@ -138,6 +137,11 @@ Az alábbi erőforrások állnak rendelkezésre az első lépések megtételéhe
 A Power BI Pro licenceit közvetlenül vásárolhatja meg, vagy cseveghet egy képviselővel a [www.powerbi.com](http://www.powerbi.com) webhelyen.
 
 Megkereshet egy [Microsoft-partnert](https://partner.microsoft.com/) is a Power BI implementációjának támogatásával kapcsolatban.
+
+## <a name="what-happens-if-my-power-bi-pro-license-expires"></a>Mi történik, ha a Power BI Pro-licenc lejár?
+A Power BI Pro-licenc lejárata után 30 napos türelmi időszak biztosított.
+
+A Power BI Pro előfizetési életciklusa megegyezik az Office 365-ével. További információkért lásd: [Mi történik az adatokkal és a hozzáféréssel, amikor az Office 365 vállalati verzióra szóló előfizetés befejeződik?](https://support.office.com/en-us/article/What-happens-to-my-data-and-access-when-my-Office-365-for-business-subscription-ends-4436582f-211a-45ec-b72e-33647f97d8a3)
 
 ## <a name="does-power-bi-meet-national-regional-and-industry-specific-compliance-requirements"></a>Teljesíti a Power BI az országos, a regionális és az iparág-specifikus megfelelőségi követelményeket?
 További információ a Power BI megfelelőségéről a [Microsoft Adatvédelmi központban](http://go.microsoft.com/fwlink/?LinkId=785324) található.
@@ -156,5 +160,4 @@ Sok más Microsoft-szolgáltatáshoz és -szoftverhez hasonlóan a Power BI is e
 ## <a name="next-steps"></a>További lépések
 * További kérdései vannak? [Kérdezze a Power BI-közösséget](http://community.powerbi.com/)
 * Továbbra is problémába ütközik? Látogasson el a [Power BI támogatási oldalára](https://powerbi.microsoft.com/support/)
-* Vagy kattintson a **Kapcsolatfelvétel** ikonra ![](media/service-frequently-asked-questions/power-bi-contact-me-icon.png) a böngészőablak jobb alsó sarkában.
 

@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/05/2017
+ms.date: 12/19/2017
 ms.author: asaxton
-ms.openlocfilehash: 8527ffb7d9e16bcf55216bc6e0bcd60feec12e16
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 0b2e0208814fdd68ef7c6f0bcc1cf6ffa1fe42da
+ms.sourcegitcommit: a658b1c936e382f46a19eeb9cc26016cd7b1d756
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/20/2017
 ---
 # <a name="integrate-a-tile-into-an-app-user-owns-data"></a>Csempe integrálása egy alkalmazásba (a felhasználó az adatok tulajdonosa)
 Ismerje meg, hogyan integrálhat vagy ágyazhat be egy csempét egy webalkalmazásba REST API-hívásokkal és a Power BI JavaScript API-val, ha a szervezete számára ágyaz be.
@@ -40,7 +40,7 @@ Egy csempe beágyazásához a webalkalmazásba használja a **Power BI** REST AP
 ## <a name="download-the-sample"></a>A minta letöltése
 Ez a cikk a GitHubon, az [integrate-tile-web-app](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/User%20Owns%20Data/integrate-tile-web-app) mintában használt kódot mutatja be. A bemutató követéséhez letöltheti a mintát.
 
-## <a name="step-1---register-an-app-in-azure-ad"></a>1. lépés – alkalmazás regisztrálása az Azure AD-ban
+## <a name="step-1---register-an-app-in-azure-ad"></a>1. lépés – alkalmazás regisztrálása az Azure AD-ben
 A REST API-hívások indításához az alkalmazásokat regisztrálni kell az Azure AD-ben. További információkért lásd: [Azure AD alkalmazás regisztrálása Power BI-tartalmak beágyazásához](register-app.md).
 
 Ha letöltötte az [integrate-tile-web-app](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/User%20Owns%20Data/integrate-tile-web-app) mintát, használja a regisztráció után kapott **Ügyfél-azonosítót** és a **Titkos ügyfélkulcsot**, így a minta hitelesítheti magát az Azure AD-ben. A minta konfigurálásához módosítsa az **Ügyfél-azonosítót** és a **Titkos ügyfélkulcsot** a *cloud.config* fájlban.
@@ -235,10 +235,12 @@ A fenti API az elérhető csempék listáját adja vissza. Mindegyik csempe rend
 https://app.powerbi.com/embed?dashboardId={dashboard_id}&tileId={tile_id}&groupId={group_id}
 ```
 
-## <a name="next-steps"></a>További lépések
-Egy mintaalkalmazás elérhető a GitHubon, hogy áttekinthesse. További információkért lásd: [integrate-tile-web-app](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/User%20Owns%20Data/integrate-tile-web-app).
+## <a name="next-steps"></a>Következő lépések
+[Csempe beágyazása](https://github.com/Microsoft/PowerBI-JavaScript/wiki/Tile-Embed) a PowerBI-JavaScript wikijén
 
-További információk érhetők el a JavaScript API-ról a [Power BI JavaScript API](https://github.com/Microsoft/PowerBI-JavaScript) cikkben.
+[Power BI JavaScript API](https://github.com/Microsoft/PowerBI-JavaScript).
+
+A [integrate-tile-web-app](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/User%20Owns%20Data/integrate-tile-web-app) minta a GitHubon.
 
 További kérdései vannak? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)
 

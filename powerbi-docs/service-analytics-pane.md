@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 05/02/2017
+ms.date: 12/21/2017
 ms.author: mihart
-ms.openlocfilehash: 30fc0731f819f063aa04e856e8acc75a69f64a59
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 3750d733967301f952fd092d2d1d0a2b9d1b2238
+ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/21/2017
 ---
 # <a name="analytics-pane-in-power-bi-service"></a>Az Elemzés panel a Power BI szolgáltatásban
 A **Power BI szolgáltatás** **Elemzés** paneljével dinamikus *referenciavonalak* adhatók a vizualizációkhoz, kiemelve a fontos trendeket vagy elemzési eredményeket.
@@ -34,54 +34,55 @@ A **Power BI szolgáltatás** **Elemzés** paneljével dinamikus *referenciavona
 > 
 
 ## <a name="using-the-analytics-pane"></a>Az Elemzés panel használata
-Az **Elemzés** panelen a dinamikus referenciavonalak következő típusai hozhatók létre (nem minden vonal érhető el minden vizualizációtípushoz):
+Az **Elemzés** panelen a következő típusú dinamikus referenciavonalak hozhatók létre (nem mindegyik vonal érhető el az összes vizualizációtípushoz):
 
-* Vízszintes konstans vonal
-* Függőleges konstans vonal
-* Minimum-vonal
-* Maximum-vonal
-* Átlag-vonal
+* Állandó-vonal az X tengelyen
+* Állandó-vonal az Y tengelyen
+* Min. vonal
+* Max. vonal
+* Átlagos vonal
 * Középérték-vonal
-* Százalékos érték-vonal
+* Percentilis-vonal
 
-A következő szakaszok bemutatják az **Elemzés** panel és a dinamikus referenciavonalak vizualizációkon való használatát.
 
-A vizualizációkhoz elérhető dinamikus referenciavonalak a következő lépések végrehajtásával jeleníthetők meg:
+Az adott vizualizáció esetében rendelkezésre álló dinamikus referenciavonalak megtekintéséhez hajtsa végre a következő lépéseket:
 
 1. Jelöljön ki vagy hozzon létre egy vizualizációt, majd kattintson a **Megjelenítések** panel **Elemzés** ikonjára ![](media/service-analytics-pane/power-bi-analytics-icon.png).
-2. Válassza a kívánt vonaltípus melletti lefelé mutató nyilat a lehetőségek kibontásához. Ebben a példában az **Átlag vonal** van kiválasztva.
+
+2. Válassza a kívánt vonaltípus melletti lefelé mutató nyilat a lehetőségek kibontásához. Ebben az esetben most az **Átlagos vonal** típust választjuk.
    
-   ![](media/service-analytics-pane/power-bi-add.png)
-3. Új vonal létrehozásához válassza a **+ Hozzáadás** sort. A vonalnak nevet is adhat, ha kétszer a szövegmezőre kattint és begépeli a nevet.
+   ![átlagos vonal hozzáadása](media/service-analytics-pane/power-bi-add.png)
+
+3. Egy új sor hozzáadásához válassza a **+ Hozzáadás** lehetőséget, majd válassza ki a vonal létrehozásához használandó mértéket.  A rendszer automatikusan feltölti a **Mérték** legördülő listát a kiválasztott vizualizáció elérhető adataival. Válassza az **Open store count** (Nyitva lévő üzletek száma) lehetőséget.
+
+5. Számos olyan beállítási lehetőség áll rendelkezésére a vonalhoz kapcsolódóan, mint például a szín, az átlátszóság, a stílus és a pozíció (a vizualizáció adatelemeihez képest). Ha szeretné feliratokkal ellátni a vonalat, adjon neki címet, majd állítsa az **Adatfelirat** csúszkát a **Be** állásba.  Ebben a példában az *Avg # Open Stores* (Nyitva lévő üzletek átlagos száma) címet adjuk a vonalnak, és néhány további beállítást is testre szabunk az alábbiak szerint.
    
-   A vonalhoz sok beállítás megadható, például kiválasztható a *színe*, az *átlátszósága*, a *stílusa* és a *helyzete* (a vizualizáció adatelemeihez viszonyítva), és hogy tartozzon-e hozzá címke. Lényeges, hogy kiválaszthatja, melyik **Mérték** legyen a vonal alapja. Ehhez válassza a **Mérték** legördülő listát, amely automatikusan feltöltődik a vizualizáció adatelemeivel. Ebben a példában a *Nyitott üzletek száma* lesz kiválasztva mértéknek, *Átl # Nyitott üzletek* címkével, és néhány egyéni beállítással az alábbiak szerint.
-   
-   ![](media/service-analytics-pane/power-bi-average-line.png)
-4. Ha szeretné, hogy megjelenjen egy adatcímke, húzza az **Adatcímke** kapcsolót a Be állásba. Ilyenkor az adatcímke számos további beállítása is megadható.
-5. Figyelje meg az **Elemzés** panel **Átlag vonal** eleme mellett megjelenő számot. Ez adja meg a vizualizáción lévő dinamikus vonalak aktuális számát és típusát. Ha felvesz egy **Konstans vonalat** az üzletek számára kijelölt 9 célértékkel, akkor az **Elemzés** panelen látható, hogy már egy **Konstans vonal** referenciavonal is tartozik a vizualizációhoz.
+   ![az Átlagos vonal elemzésének testreszabása](media/service-analytics-pane/power-bi-average-line2.png)
+
+1. Az **Elemzés** panel **Átlagos vonal** eleme mellett egy szám jelenik meg. Ez adja meg a vizualizáción lévő dinamikus vonalak aktuális számát és típusát. Ha felvesz egy **Konstans vonalat** az üzletek számára kijelölt 9 célértékkel, akkor az **Elemzés** panelen látható, hogy már egy **Konstans vonal** referenciavonal is tartozik a vizualizációhoz.
    
    ![](media/service-analytics-pane/power-bi-reference-lines.png)
    
-   Ha a kijelölt vizualizációra nem alkalmazhatók dinamikus referenciavonalak (ebben az esetben egy **Térkép** vizualizáció), akkor a következőt fogja látni az **Elemzés** panelen.
+
+Sokféle érdekes elemzést emelhet ki dinamikus referenciavonalak létrehozásával az **Elemzés** panelen.
+
+## <a name="considerations-and-troubleshooting"></a>Megfontolandó szempontok és hibaelhárítás
+
+Ha a kiválasztott vizualizációra nem lehet dinamikus referenciavonalat alkalmazni (ebben az esetben a **Térkép** vizualizációról van szó), akkor az **Elemzés** panelre kattintva az alábbiakat fogja látni.
    
-   ![](media/service-analytics-pane/power-bi-no-lines.png)
+![az elemzések nem érhetők el](media/service-analytics-pane/power-bi-no-lines.png)
 
-Sokféle érdekes elemzési eredmény kiemelhető az **Elemzés** panel használatával létrehozott dinamikus referenciavonalakkal.
+A dinamikus referenciavonalak használatának lehetősége az éppen használt vizualizáció típusán alapul. Az alábbi listában az egyes vizualizációkhoz jelenleg rendelkezésre álló dinamikus vonalak vannak felsorolva:
 
-Tervezünk további funkciókat és lehetőségeket, többek között a dinamikus referenciavonalakkal ellátható vizualizációk körének bővítését, ezért látogasson vissza gyakran az újdonságokért.
-
-## <a name="limitations"></a>Korlátozások
-A dinamikus referenciavonalak használatának lehetősége a használt vizualizáció típusától függ. Az alábbi lista bemutatja, hogy jelenleg mely dinamikus referenciavonalak mely vizualizációhoz használhatók:
-
-A dinamikus vonalak teljes körűen használhatók az alábbi vizualizációkon:
+A dinamikus vonalak teljes körű alkalmazása a következő vizualizációk esetében lehetséges:
 
 * Területdiagram
 * Vonaldiagram
 * Pontdiagram
-* Csoportosított oszlopdiagram
-* Csoportosított sávdiagram
+* Fürtözött oszlopdiagram
+* Fürtözött sávdiagram
 
-Az alábbi vizualizációkhoz csak *konstans vonal* vehető fel az **Elemzés** panelen:
+A következő vizualizációk esetében csak az *Állandó-vonal* típus érhető el az **Elemzés** panelen:
 
 * Halmozott terület
 * Halmozott sáv
@@ -89,20 +90,20 @@ Az alábbi vizualizációkhoz csak *konstans vonal* vehető fel az **Elemzés** 
 * 100%-ig halmozott sáv
 * 100%-ig halmozott oszlop
 
-Az alábbi vizualizációkhoz jelenleg csak *trendvonal* érhető el:
+A következő vizualizációk esetében csak a *Trendvonal* típus érhető el:
 
 * Nem halmozott vonal
-* Csoportosított oszlopdiagram
+* Fürtözött oszlopdiagram
 
-Végül olyan, nem derékszögű koordináta-rendszerben ábrázolt vizualizációk következnek, amelyekhez nem vehető fel dinamikus vonal az **Elemzés** panelen:
+Végül pedig a nem Descartes-féle vizualizációk esetében jelenleg nem alkalmazhatók dinamikus vonalak az **Elemzés** panelen. Ilyen vizualizációk például:
 
 * Mátrix
 * Tortadiagram
 * Gyűrű
-* Táblázat
+* Tábla
 
 ## <a name="next-steps"></a>További lépések
 [Az Elemzés panel a Power BI Desktopban](desktop-analytics-pane.md)
 
-További kérdései vannak? [Felteheti őket a Power BI-közösségnek](http://community.powerbi.com/)
+További kérdései vannak? [Felteheti azokat a Power BI-közösségnek](http://community.powerbi.com/)
 

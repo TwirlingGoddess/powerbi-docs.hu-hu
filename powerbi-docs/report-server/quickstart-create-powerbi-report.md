@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/05/2017
+ms.date: 12/15/2017
 ms.author: maggies
-ms.openlocfilehash: fa844004911f41a179542dcfff702f371cc951f8
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+ms.openlocfilehash: c8b07e8c2370f7a1694b18a87b2704a7f164f79f
+ms.sourcegitcommit: ea247cb3cfc1cac076d4b076c1ad8e2fc37e15a1
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 12/19/2017
 ---
 # <a name="quickstart-create-a-power-bi-report-for-power-bi-report-server"></a>Rövid útmutató: Power BI-jelentés létrehozása a Power BI jelentéskészítő kiszolgálóra
 A Power BI-jelentéseket helyszínen is tárolhatja és kezelheti a Power BI jelentéskészítő kiszolgáló webportálján, ahogy a felhőben tárolhatja a Power BI szolgáltatásban (https://powerbi.com). A jelentéseket a Power BI Desktopban hozhatja létre, majd közzéteheti a webportálon. Ekkor a jelentések megtekinthetővé válnak a cégen belüli olvasók számára egy böngésző vagy egy Power BI-mobilalkalmazás használatával.
@@ -112,6 +112,7 @@ A Power BI jelentéskészítő kiszolgálón tárolt jelentések nem támogatjá
 * R vizualizációk
 * ArcGIS-térképek
 * Útkövetési eszközök
+* A Power BI Desktop előzetes verziójú funkciói
 
 ### <a name="in-the-power-bi-mobile-apps"></a>A Power BI-mobilalkalmazásokban
 A Power BI jelentéskészítő kiszolgálón tárolt jelentések a [Power BI-mobilalkalmazások](../mobile-apps-for-mobile-devices.md) minden alapvető funkcióját támogatják, köztük:

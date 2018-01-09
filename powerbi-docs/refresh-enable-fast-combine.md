@@ -17,11 +17,11 @@ ms.tgt_pltfrm: na
 ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: a622c3f0402e0f8216f64a93cf687eaa63fd8067
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+ms.openlocfilehash: 1e68f7df5214e038df8bcd1584acb815c0af98bf
+ms.sourcegitcommit: 70e9239e375ae03744fb9bc122d5fc029fb83469
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 12/22/2017
 ---
 # <a name="disable-privacy-setting-in-power-bi-gateway---personal"></a>Adatvédelem letiltása a személyes Power BI Gatewayen
 > [!NOTE]
@@ -59,6 +59,7 @@ A következő lépésekkel engedélyezheti a Gyors összevonást a saját szemé
     Ha Ön nem rendszergazda, akkor a hely a következő.
    
     <pre><code>C:\Users\[username]\AppData\Local\Power BI Personal Gateway\1.0\Configurator\Connector</code></pre>
+    
 2. Adja hozzá a konfigurációs fájlhoz az **&lt;EnableFastCombine&gt;** (Gyors összevonás engedélyezése) elemet true (igaz) értékkel. Az elem hozzáadásával kapcsolja be a **Gyors összevonást**.
    
    <pre><code>&lt;EnableFastCombine&gt;true&lt;/EnableFastCombine&gt;</code></pre>
@@ -77,6 +78,7 @@ A következő lépésekkel engedélyezheti a Gyors összevonást a saját szemé
     Ha Ön nem rendszergazda, akkor a hely a következő.
    
     <pre><code>C:\Users\[username]\AppData\Local\Power BI Personal Gateway\1.0\Configurator\Connector</code></pre>
+
 2. Távolítsa el a konfigurációs fájlból az **&lt;EnableFastCombine&gt;** elemet. Az elem eltávolításával kapcsolja ki a **Gyors összevonást**.
 3. Lépjen ki, majd indítsa újra az átjáró konfigurációs képernyőjét.
 4. Nem lesz többé látható az állapot, amely arról értesíti, hogy a **Gyors összevonás** engedélyezve van.

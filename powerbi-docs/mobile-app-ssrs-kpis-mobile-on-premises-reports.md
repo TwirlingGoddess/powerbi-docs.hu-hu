@@ -15,20 +15,20 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/13/2017
+ms.date: 12/18/2017
 ms.author: maggies
-ms.openlocfilehash: 99fceab5904deaa510edd213c349dcfb2e38ac28
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 5bbd2f09187e9fac16f6cc4b9ac3ff59a888ed7f
+ms.sourcegitcommit: ea247cb3cfc1cac076d4b076c1ad8e2fc37e15a1
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/19/2017
 ---
 # <a name="view-on-premises-report-server-reports-and-kpis-in-the-power-bi-mobile-apps"></a>Helyszíni jelentéskészítő kiszolgálói jelentések és KPI-k megtekintése a Power BI-mobilalkalmazásokban
 A következőkre vonatkozik:
 
-| ![iPhone](media/mobile-app-ssrs-kpis-mobile-on-premises-reports/iphone-logo-50-px.png) | ![iPad](media/mobile-app-ssrs-kpis-mobile-on-premises-reports/ipad-logo-50-px.png) | ![Android-telefon](media/mobile-app-ssrs-kpis-mobile-on-premises-reports/android-phone-logo-50-px.png) | ![Android-táblagép](media/mobile-app-ssrs-kpis-mobile-on-premises-reports/android-tablet-logo-50-px.png) |
+| ![iPhone](media/mobile-app-ssrs-kpis-mobile-on-premises-reports/iphone-logo-50-px.png) | ![iPad](media/mobile-app-ssrs-kpis-mobile-on-premises-reports/ipad-logo-50-px.png) | ![Android rendszerű telefon](media/mobile-app-ssrs-kpis-mobile-on-premises-reports/android-phone-logo-50-px.png) | ![Android rendszerű táblagép](media/mobile-app-ssrs-kpis-mobile-on-premises-reports/android-tablet-logo-50-px.png) |
 |:--- |:--- |:--- |:--- |
-| iPhone-ok |iPadek |Android-telefonok |Android-táblagépek |
+| iPhone-ok |iPadek |Android rendszerű telefonok |Android-táblagépek |
 
 A Power BI Mobile-alkalmazások élő, érintésvezérelt mobilhozzáférést biztosítanak helyszíni üzleti adataihoz a Power BI jelentéskészítő kiszolgáló és az SQL Server 2016 Reporting Services (SSRS) használatával. 
 
@@ -63,7 +63,14 @@ A helyszíni Power BI-jelentéseket, a Reporting Services mobiljelentéseit és 
 3. Koppintson a **Csatlakozás kiszolgálóhoz** elemre.
    
     ![Csatlakozás kiszolgálóhoz](media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-android-server-sign-in.png)
-4. Írja be a kiszolgáló címét, valamint a felhasználónevét és jelszavát. A kiszolgáló címét ebben a formátumban adja meg:
+
+     A mobilalkalmazásnak valamilyen módon el kell érnie a kiszolgálót. Ez többféleképpen is megoldható:
+
+    - A legegyszerűbb, ha ugyanabban a hálózatban van vagy VPN-t használ.
+    - A szervezeten kívülről való csatlakozáshoz használható Webalkalmazás-proxy. További részleteket a [Csatlakozás a Reporting Services szolgáltatáshoz OAuth használatával](mobile-oauth-ssrs.md) című témakörben találhat. 
+    - Nyisson meg egy kapcsolatot (portot) a tűzfalon.
+
+1. Töltse ki a kiszolgáló címét, és adja meg felhasználónevét és jelszavát. A kiszolgáló címét ebben a formátumban adja meg:
    
      `http://<servername>/reports`
    
@@ -71,10 +78,7 @@ A helyszíni Power BI-jelentéseket, a Reporting Services mobiljelentéseit és 
    
      `https://<servername>/reports`
    
-   > [!NOTE]
-   > A kapcsolati sztring előtt a **http** vagy **https** előtagot alkalmazza.
-   > 
-   > 
+   A kapcsolati sztring előtt a **http** vagy **https** előtagot alkalmazza.
    
     ![Csatlakozás kiszolgálóhoz párbeszédpanel](media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-ios-connect-to-server-dialog.png)
 5. (Nem kötelező) A **Speciális beállítások** alatt megadhatja a kiszolgáló valódi nevét, ha szeretné.
@@ -100,7 +104,7 @@ KPI-ket és jelentéseket jelölhet meg kedvencekként a webes portálon, majd a
 
 * Koppintson a **Kedvencek** elemre.
   
-   ![Kedvencek a bal oldali navigációs panelen](media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-ipad-faves-pbi-report-server.png)
+   ![Kedvencek a bal oldali navigációs panelen](media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-ipad-faves-pbi-report-server-update.png)
   
    A webes portálról a kedvenc KPI-je és jelentései ezen a lapon mind megtalálhatók a Power BI szolgáltatás Power BI-irányítópultjaival együtt:
   
@@ -113,5 +117,5 @@ KPI-ket és jelentéseket jelölhet meg kedvencekként a webes portálon, majd a
 
 ## <a name="next-steps"></a>Következő lépések
 * [Első lépések a Power BI-ban](service-get-started.md)  
-* Kérdése van? [Kérdezze a Power BI-közösséget!](http://community.powerbi.com/)
+* Kérdése van? [Forduljon a Power BI közösségéhez](http://community.powerbi.com/)
 

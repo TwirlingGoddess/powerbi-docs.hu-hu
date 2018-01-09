@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/19/2017
+ms.date: 12/19/2017
 ms.author: asaxton
-ms.openlocfilehash: 14d4954cd747e7c578c693212401f57806001228
-ms.sourcegitcommit: 6e8fbbbcbe3e1a38207b29a9ca66ea94fb2a51fb
+ms.openlocfilehash: 76435200df843acc4ba60ebab09633aa8f5c258d
+ms.sourcegitcommit: a658b1c936e382f46a19eeb9cc26016cd7b1d756
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/19/2017
+ms.lasthandoff: 12/20/2017
 ---
 # <a name="embed-your-power-bi-dashboards-reports-and-tiles"></a>Power BI-irányítópultok, -jelentések és -csempék beágyazása
 
@@ -102,7 +102,7 @@ A hitelesítés után az alkalmazáson belül a Power BI REST API-kkal és a Jav
 Ha a **szervezete számára végez beágyazást**, tekintse át a következő útmutatókat:
 
 * [Irányítópult integrálása alkalmazásba](integrate-dashboard.md)
-* [Csempe integrálása alkalmazásba](integrate-tile.md)
+* [Csempe integrálása egy alkalmazásba](integrate-tile.md)
 * [Jelentés integrálása alkalmazásba](integrate-report.md)
 
 Ha az **ügyfelei számára végez beágyazást**, ami gyakran előfordul ISV-k esetén, tekintse át a következőket:
@@ -140,9 +140,9 @@ Ha az ügyfelek számára végez beágyazást, a következőket érdemes elvége
 
 | Kapacitási csomópont | Magok száma összesen<br/>*(Háttérrendszer + előtérrendszer)* | Háttérrendszerbeli magok | Előtérrendszerbeli magok | DirectQuery-/élő kapcsolat korlátai | Maximális oldalmegjelenítések óránként csúcsidőszakban |
 | --- | --- | --- | --- | --- | --- |
-| A1 |1 virtuális mag |0,5 mag, 3 GB RAM |0,5 mag | |1-300 |
-| A2 |2 virtuális mag |1 mag, 5 GB RAM |1 mag | |301-600 |
-| A3 |4 virtuális mag |2 mag, 10 GB RAM |2 mag | |601-1,200 |
+| A1 |1 virtuális mag |0,5 mag, 3 GB RAM |0,5 mag | Másodpercenként 5 |1-300 |
+| A2 |2 virtuális mag |1 mag, 5 GB RAM |1 mag | Másodpercenként 10 |301-600 |
+| A3 |4 virtuális mag |2 mag, 10 GB RAM |2 mag | Másodpercenként 15 |601-1200 |
 | A4 |8 virtuális mag |4 mag, 25 GB RAM |4 mag |Másodpercenként 30 |1,201-2,400 |
 | A5 |16 virtuális mag |8 mag, 50 GB RAM |8 mag |Másodpercenként 60 |2,401-4,800 |
 | A6 |32 virtuális mag |16 mag, 100 GB RAM |16 mag |Másodpercenként 120 |4,801-9600 |
@@ -159,8 +159,8 @@ A globális rendszergazdák vagy a Power BI szolgáltatás-rendszergazdái be- �
 
 ## <a name="next-steps"></a>További lépések
 
-[Beágyazás a Power BI-jal](embedding.md)  
-[Power BI Embedded munkaterület-csoport tartalmainak migrálása a Power BI-ba](migrate-from-powerbi-embedded.md)  
+[Beágyazás a Power BI szolgáltatással](embedding.md)  
+[Power BI Embedded-munkaterületcsoport tartalmainak migrálása a Power BI-ba](migrate-from-powerbi-embedded.md)  
 [Power BI Premium – pontosan mi is ez?](../service-premium.md)  
 [A Power BI Premium megvásárlása](../service-admin-premium-purchase.md)  
 [JavaScript API Git-adattár](https://github.com/Microsoft/PowerBI-JavaScript)  

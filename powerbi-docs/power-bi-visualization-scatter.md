@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/27/2017
+ms.date: 12/23/2017
 ms.author: mihart
-ms.openlocfilehash: c1801db4135d6d97a940e593de37ca2886194b53
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 17073390cf19b742730712a8d39a353c7d541cd6
+ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/03/2018
 ---
 # <a name="scatter-charts-and-bubble-charts-in-power-bi-tutorial"></a>Pontdiagramok és buborékdiagramok a Power BI szolgáltatásban (oktatóanyag)
 A pontdiagramok mindig két értéktengellyel rendelkeznek. A vízszintes tengely mentén numerikus adatok egy készletét ábrázolják, a függőleges tengely mentén pedig numerikus adatok egy másik készletét. A diagram pontokat jelenít meg az x és y numerikus értékek metszéspontjában, így egyetlen adatponttá kombinálja ezeket az értékeket. Ezek az adatpontok egyenletesen vagy egyenetlenül oszthatók el a vízszintes tengely mentén az adatoktól függően.
@@ -47,25 +47,30 @@ A buborékdiagramokban az adatpontok helyett buborékok szerepelnek, és a bubor
 * Kvadránsokkal való használathoz.
 
 ## <a name="create-a-scatter-chart"></a>Pontdiagram létrehozása
+Ebben a videóban megtekintheti, ahogy Will létrehoz egy pontdiagramot, majd az alábbi lépéseket követve maga is létrehozhat egyet.
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/PVcfPoVE3Ys?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>
 
-1. Nyissa meg a Kiskereskedelmi elemzési mintát [Szerkesztési nézetben](service-interact-with-a-report-in-editing-view.md), és [adjon hozzá egy új jelentésoldalt](power-bi-report-add-page.md).
-2. A Mezők panelen válassza az **Értékesítések** > **Értékesítések négyzetlábanként** és az **Értékesítések** > **Teljes értékesítési eltérés (%)** lehetőséget.
-3. A Mezők panelen válassza a **Kerület > Kerület** lehetőséget.
+
+Ez az útmutatás a Kiskereskedelmi elemzési mintát használja. Annak érdekében, hogy követni tudja a lépéseket, [töltse le a mintát](sample-datasets.md), mely a Power BI szolgáltatásban (az app.powerbi.com webhelyen) vagy a Power BI Desktopban használható.   
+
+1. Kezdjen egy [üres jelentésoldalon](power-bi-report-add-page.md), majd válassza a **Sales** \> **Sales Per Sq Ft** (Értékesítés > Értékesítés négyzetlábanként) és az **Sales** > **Total Sales Variance %** (Értékesítés > Teljes értékesítési különbözet %-ban) mezőt. Ha a Power BI szolgáltatást használja, mindenképpen a [Szerkesztési nézetében](service-interact-with-a-report-in-editing-view.md) nyissa meg a jelentést.
+ 
+2. A Mezők panelen válassza a **Kerület > Kerület** lehetőséget.
    
-    ![](media/power-bi-visualization-scatter/pbi_scatter_chart_pre_convert.png)
+    ![](media/power-bi-visualization-scatter/power-bi-bar-chart.png)
 4. Alakítsa át pontdiagrammá. A Vizualizáció panelen válassza a Pontdiagram ikont.
    ![](media/power-bi-visualization-scatter/pbi_scatter_chart_icon.png).
 5. Húzza a **Kerület** elemet a **Részletek** területről a **Jelmagyarázat** területre.
    
-    ![](media/power-bi-visualization-scatter/pbi_scatter_chart_new.png)
+    ![](media/power-bi-visualization-scatter/power-bi-scatter.png)
 
 Most a pontdiagramunk a Teljes értékesítési eltérés (%) értéket jeleníti meg az Y tengely mentén, és az Értékesítések négyzetlábanként értéket az X tengely mentén.  Az adatpontok színe a kerületeket jelzi.  Most adjunk hozzá egy harmadik dimenziót.
 
 ## <a name="create-a-bubble-chart"></a>Buborékdiagram létrehozása
 1. A Mezők panelen húzza az **Értékesítések** > **Idei értékesítések** > **Érték** elemet a **Méret** területre. 
    
-   ![](media/power-bi-visualization-scatter/pbi_scatter_chart_size.png)
+   ![](media/power-bi-visualization-scatter/power-bi-bubble.png)
 2. Vigye az egérmutatót egy buborék fölé.  A buborék mérete az **Idei értékesítések** értékét tükrözi.
    
     ![](media/power-bi-visualization-scatter/pbi_scatter_chart_hover.png)
@@ -93,5 +98,5 @@ Vagy ha nem szerepel ilyen az adatokban, hozzon létre egy mezőt, amely pontonk
 
 [Próbálja ki – ingyenes!](https://powerbi.com/)  
 
-További kérdései vannak? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)
+További kérdései vannak? [Felteheti azokat a Power BI-közösségnek](http://community.powerbi.com/)
 

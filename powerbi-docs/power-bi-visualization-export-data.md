@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/02/2017
+ms.date: 11/19/2017
 ms.author: mihart
-ms.openlocfilehash: fb40b2576176b772c841cea3347909aaf34af375
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 2e5f72b0eb2507f8d2c7df7fc8a57817bb6ce79f
+ms.sourcegitcommit: a658b1c936e382f46a19eeb9cc26016cd7b1d756
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 12/20/2017
 ---
 # <a name="export-data-from-visualizations"></a>Adatok exportálása vizualizációkból
 Ha szeretné megtekinteni a vizualizáció létrehozásához használt adatokat, [megjelenítheti az adatokat a Power BI-ban](service-reports-show-data.md) vagy exportálhatja őket az Excelbe .xlsx- vagy .csv-fájlként.   
@@ -84,7 +84,7 @@ Annak érdekében, hogy követni tudja a lépéseket, nyissa meg a [Beszerzésel
    ![](media/power-bi-visualization-export-data/power-bi-export-data8.png)
 
 ## <a name="limitations-and-considerations"></a>Korlátozások és szempontok
-* A **Power BI Desktopból** legfeljebb 30 000 sor exportálható egy .csv-fájlba.
+* A **Power BI Desktopból** és a **Power BI szolgáltatásból** legfeljebb 30 000 sor exportálható egy .csv-fájlba.
 * A **Power BI szolgáltatásból** a Pro verziós felhasználók legfeljebb 150 000 sort, az ingyenes felhasználók legfeljebb 30 000 sort exportálhatnak egy .xlsx-fájlba.
 * DirectQuery használatával az adatok maximálisan exportálható mennyisége 16 MB. Ez a sorok maximális számánál kisebb exportálást eredményezhet, különösen ha sok oszlop van, az adatokat nehéz tömöríteni, vagy egyéb, a fájl méretét és az exportált sorok számát csökkentő tényezők állnak fenn.
 * A Power BI csak az alapszintű összesítést használó vizualizációkban támogatja az exportálást. A modell- vagy jelentésmértékeket használó vizualizációkban az exportálás nem érhető el.

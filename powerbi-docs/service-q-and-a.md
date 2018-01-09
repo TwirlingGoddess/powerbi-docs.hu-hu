@@ -15,19 +15,19 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 08/05/2017
+ms.date: 12/24/2017
 ms.author: mihart
-ms.openlocfilehash: 3f78d19a5a28f096279a4fe25881ae26ffbae3cc
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 44a825e548ae55fa0ce13ba6eed57b860be6fe8f
+ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/03/2018
 ---
 # <a name="qa-in-power-bi"></a>Q&A a Power BI-ban
 Ha válaszokat keres az adatokban, néha az a leggyorsabb megoldás, ha természetes nyelven kérdez. Például: „what were total sales last year (mennyi volt az összes értékesítés tavaly).”  A Q&A szolgáltatás könnyen használható, természetes nyelvi funkciókat kínál az adatok elemzéséhez, és kérdéseire grafikonok vagy diagramok formájában ad választ. A Q&A nem keresőmotor – csak a Power BI-ban lévő adatokról szolgáltat eredményeket.
 
 > [!NOTE]
-> A Q&A szolgáltatás a [Microsoft Power BI iOS-hez készült alkalmazásában iPadeken, iPhone-okon, és iPod Touch eszközökön](mobile-apps-ios-qna.md) is rendelkezésre áll.
+> A Q&A szolgáltatás az [iOS-hez készült Microsoft Power BI-alkalmazásban iPadeken, iPhone-okon, és iPod Touch eszközökön](mobile-apps-ios-qna.md), illetve a [Power BI Desktopban](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#QandA) is elérhető.
 > 
 > 
 
@@ -52,10 +52,5 @@ Valóban interaktív élmény... és gyors! A memóriabeli tárolás segítség�
 
 [Az adatok és a Q&A összeegyeztetése](service-prepare-data-for-q-and-a.md): Adatkészleteket és adatmodelleket állít elő?  Akkor ez a témakör Önnek szól.
 
-## <a name="next-steps"></a>Következő lépések
-[Power BI – Alapfogalmak](service-basic-concepts.md)
-
-[Első lépések a Power BI-ban](service-get-started.md)
-
-További kérdései vannak? [Kérdezze a Power BI-közösséget](http://community.powerbi.com/)
+További kérdései vannak? [Felteheti azokat a Power BI-közösségnek](http://community.powerbi.com/)
 

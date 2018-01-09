@@ -1,6 +1,6 @@
 ---
-title: "A Power BI által támogatott gyors elemzések típusai"
-description: "Gyors elemzések a Power BI-jal."
+title: "A Power BI által támogatott elemzések típusai"
+description: "Gyors elemzések és elemzések megtekintése a Power BI-jal."
 services: powerbi
 documentationcenter: 
 author: mihart
@@ -15,21 +15,21 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/03/2017
+ms.date: 12/20/2017
 ms.author: mihart
-ms.openlocfilehash: 13f5614cf121b17d8ae4dff9653f5789372f7f49
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 53e5e67da9bacd9fc9dcbb770747823647aa3a3c
+ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/21/2017
 ---
-# <a name="types-of-quick-insights-supported-by-power-bi"></a>A Power BI által támogatott gyors elemzések típusai
-## <a name="how-does-quick-insights-work"></a>A Gyors elemzések működése
+# <a name="types-of-insights-supported-by-power-bi"></a>A Power BI által támogatott elemzések típusai
+## <a name="how-does-insights-work"></a>Az elemzések működése
 A Power BI kifinomult algoritmusok alkalmazásával részhalmazokat keres az adatkészletben potenciálisan érdekes összefüggések feltárásához. A Power BI adott idő alatt annyi adatot vizsgál meg az adatkészletből, amennyit csak tud.
 
-Gyors elemzést adatkészletre vagy csempére vonatkozóan is futtathat. A csempére vonatkozó elemzések az úgynevezett Kapcsolódó elemzések.   
+Az elemzések egy adathalmazon vagy egy irányítópult-csempén futtathatók.   
 
-## <a name="what-types-of-quick-insights-can-we-find"></a>Milyen összefüggések tárhatók fel a Gyors elemzésekkel?
+## <a name="what-types-of-insights-can-we-find"></a>Milyen összefüggések tárhatók fel az elemzésekkel?
 A rendszer többek között az alábbi algoritmusokat használja:
 
 ## <a name="category-outliers-topbottom"></a>Kiugró (alsó vagy felső) értékek a kategóriában
@@ -77,10 +77,10 @@ Időrendben elérhető adatok esetén észleli, hogy vannak-e olyan dátumok vag
 
 ![](media/service-insight-types/pbi_auto_insight_types_time_series_outliers.png)
 
-## <a name="next-steps"></a>További lépések
-[Power BI – gyors elemzések](service-insights.md)
+## <a name="next-steps"></a>Következő lépések
+[Power BI-elemzések](service-insights.md)
 
-Ha Ön az adatkészlet tulajdonosa, [optimalizálhatja azt gyors elemzések készítéséhez](service-insights-optimize.md)
+Ha Ön az adathalmaz tulajdonosa, [optimalizálhatja azt elemzések elvégzéséhez](service-insights-optimize.md)
 
-További kérdései vannak? [Felteheti őket a Power BI-közösségnek](http://community.powerbi.com/)
+További kérdései vannak? [Felteheti azokat a Power BI-közösségnek](http://community.powerbi.com/)
 

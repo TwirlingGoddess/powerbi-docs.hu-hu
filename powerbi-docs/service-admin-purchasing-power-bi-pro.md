@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 06/30/2017
 ms.author: asaxton
-ms.openlocfilehash: 83f143427ce74f593ea6e8d99f8a6b127ee4488d
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: cf0eeaa16e7dc3576cb774cb7bb7dfef9c4486d0
+ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/03/2018
 ---
 # <a name="purchasing-power-bi-pro"></a>A Power BI Pro megvásárlása
 A Power BI Pro azoknak a felhasználóknak készült, akik jelentéseket tesznek közzé, irányítópultokat osztanak meg, munkaterületeken dolgoznak együtt kollégáikkal, és egyéb kapcsolódó tevékenységeket végeznek – mint például:
@@ -34,7 +34,7 @@ A Power BI Pro azoknak a felhasználóknak készült, akik jelentéseket tesznek
 
 A cég informatikai rendszergazdáinak több lehetőségük van a Power BI Pro használatára. A Power BI Pro-t az Office 365 Felügyeleti központban, illetve Microsoft-képviselőjétől vagy -partnerétől vásárolhatja meg. Ez a cikk bemutatja a Power BI Pro két elérhető próbaverzióját, majd ismerteti a céges beszerzés lehetőségeit.
 
-További tudnivalók a Power BI Premiumról, és arról hogy a Power BI Pro miképpen illik a prémium szintű ajánlatba: [Mit jelent a Power BI Premium?](service-premium.md)
+További tudnivalók a Power BI Premiumról, illetve arról, hogyan illeszkedik a Power BI Pro a prémium szintű ajánlatba: [Mit jelent a Power BI Premium?](service-premium.md)
 
 ## <a name="pricing"></a>Díjszabás
 A Power BI Pro legújabb díjszabási információit és a benne foglalt funkciók listáját lásd a [Power BI díjszabásának oldalán](https://powerbi.microsoft.com/pricing/).
@@ -119,6 +119,11 @@ A szolgáltatáson belül úgy ellenőrizheti, hogy Pro-fiókja van-e, hogy a **
 
 ![](media/service-admin-purchasing-power-bi-pro/powerbi-pro3.png)
 
+## <a name="grace-period"></a>Türelmi időszak
+A Power BI Pro-licenc lejárata után 30 napos türelmi időszak biztosított. 
+
+A Power BI Pro előfizetési életciklusa megegyezik az Office 365-ével. További információkért lásd: [Mi történik az adatokkal és a hozzáféréssel, amikor az Office 365 vállalati verzióra szóló előfizetés befejeződik?](https://support.office.com/en-us/article/What-happens-to-my-data-and-access-when-my-Office-365-for-business-subscription-ends-4436582f-211a-45ec-b72e-33647f97d8a3)
+
 ## <a name="next-steps"></a>Következő lépések
 [Önkiszolgáló regisztráció a Power BI-ra](service-self-service-signup-for-power-bi.md)  
 [Power BI (ingyenes) a cégnél](service-admin-service-free-in-your-organization.md)  
@@ -127,5 +132,5 @@ A szolgáltatáson belül úgy ellenőrizheti, hogy Pro-fiókja van-e, hogy a **
 [A Power BI Premium megvásárlása](service-admin-premium-purchase.md)  
 [Power BI Premium-tanulmány](https://aka.ms/pbipremiumwhitepaper)  
 
-Több kérdése van? [Kérdezze a Power BI-közösséget!](http://community.powerbi.com/)
+További kérdései vannak? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)
 

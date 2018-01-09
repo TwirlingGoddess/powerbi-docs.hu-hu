@@ -15,23 +15,26 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/08/2017
+ms.date: 12/20/2017
 ms.author: mihart
-ms.openlocfilehash: 7eea8b8299561b65a6af704489d4c69c33ca27b4
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 8b1efc64dc471bafa410f41c94f7e06d638fe9e0
+ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 12/21/2017
 ---
-# <a name="copy-and-paste-a-visualization-in-power-bi"></a>Vizualizáció másolása és beillesztése Power BI-jelentésbe
-1. Nyisson meg a Power BI-ban egy jelentést [Szerkesztés nézetben](service-reading-view-and-editing-view.md), és [hozzon létre egy vizualizációt](power-bi-report-add-visualizations-i.md), ha még nincs a jelentésben. 
+# <a name="copy-and-paste-a-visualization-in-power-bi-service-and-power-bi-desktop"></a>Vizualizációk másolása és beillesztése a Power BI szolgáltatásban és a Power BI Desktopban
+A vizualizációk másolásához és beillesztéséhez a jelentésre vonatkozó szerkesztési jogosultságok szükségesek. A Power BI szolgáltatásban ehhez a [Szerkesztési nézetben](service-reading-view-and-editing-view.md) kell tudni megnyitni a jelentést.
+
+1. Nyisson meg egy jelentést, amelyben legalább egy vizualizáció található.  
+
 2. Jelölje ki a vizualizációt, és használja a **Ctrl+C** billentyűkombinációt a másoláshoz és a **Ctrl+V** billentyűkombinációt a beillesztéshez.  
    ![](media/power-bi-visualization-copy-paste/copypasteviznew.gif)
 
 ### <a name="next-steps"></a>Következő lépések
-További információk [a Power BI-jelentések vizualizációjáról](power-bi-report-visualizations.md)
+További információk [a Power BI-jelentésekben lévő vizualizációkról](power-bi-report-visualizations.md)
 
 [Power BI – Alapfogalmak](service-basic-concepts.md)  
 
-További kérdései vannak? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)
+További kérdései vannak? [Felteheti azokat a Power BI-közösségnek](http://community.powerbi.com/)
 

@@ -11,13 +11,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/25/2017
+ms.date: 12/13/2017
 ms.author: mihart
-ms.openlocfilehash: 458c6663697f8c968915c54dba1c80be422c0f80
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: d64ab6b9a94171c99eb0956efce89f59b5174d41
+ms.sourcegitcommit: 2bd3c16fd300e41c6e3de29a24543491c1d53354
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/14/2017
 ---
 # <a name="quickly-find-and-view-your-power-bi-data-using-cortana-for-power-bi"></a>Power BI-adatok gyors keresése a Power BI-hoz használt Cortana segítségével
 Használja a Cortanát Windows 10-eszközein, ha azonnali választ szeretne kapni fontos üzleti kérdéseire. A Power BI-jal való integráció által a Cortana képes közvetlenül a Power BI-irányítópultokból és -jelentésekből kinyerni a lényeges információkat. Nem kell hozzá más, csak a Windows 10 2015. november 10-einél nem korábbi verziója, a Cortana, a Power BI és hozzáférés legalább egy adatkészlethez.
@@ -85,13 +85,19 @@ Amikor Ön feltesz egy kérdést a Cortanában, a Power BI ad választ a kimondo
      ![](media/service-cortana-intro/power-bi-cortana-searchbox.png)
 2. Ha a Cortana készen áll, gépelje vagy diktálja be kérdését a Cortana keresőmezőbe. A Cortana megjeleníti a rendelkezésre álló válaszokat. Ha van a kérdésnek megfelelő Power BI-irányítópult, akkor az a **Legjobb egyezés** vagy a **Power BI** alatt jelenik meg.
    
-     ![A Cortana-keresés Power BI-irányítópultot talál](media/service-cortana-intro/power-bi-cortana-searching2.png "A Cortana Power BI-irányítópultot talál")
+     ![A Cortana-keresés Power BI-irányítópultot talál](media/service-cortana-intro/power-bi-cortana-search-hr.png "A Cortana Power BI-irányítópultot talál")
    
    > [!NOTE]
    > Jelenleg csak az angol nyelv támogatott.
    > 
    > 
-3. Nyissa meg az irányítópultot a Power BI-ban az irányítópult nevének kiválasztásával. 
+3. Válassza ki az irányítópultot a Cortanával való megnyitásához.
+
+    ![A Power BI-irányítópult kiválasztása](media/service-cortana-intro/power-bi-cortana-dashboard.png "A Power BI-irányítópult kiválasztása")
+
+    Az [irányítópult *telefonos nézetének* szerkesztésével](service-create-dashboard-mobile-phone-view.md) módosíthatja az elrendezést. 
+
+1. Cortanával is megvan a lehetősége arra, hogy a Power BI szolgáltatásban vagy a Power Bi Mobile-ban nyissa meg az irányítópultot. A **Megnyitás a weben** lehetőséget választva nyissa meg az irányítópultot a Power BI szolgáltatásban. 
    
    ![Irányítópult megnyitása a Cortanából](media/service-cortana-intro/power-bi-dashboard-opens.png "Irányítópult megnyitása a Cortanából")   
 4. Most használja a Cortanát egy jelentések közötti kereséshez. Tudnia kell egy olyan [jelentésről, amelynek van egy Cortana-válaszkártyát tartalmazó oldala](service-cortana-answer-cards.md). Ebben a példában egy "Cortana-New-Stores" nevű jelentésnek van egy "cortana stores" nevű Cortana-válaszkártya oldala.  

@@ -1,6 +1,6 @@
 ---
-title: "Vizualizáció-típus módosítása Power BI-jelentésekben"
-description: "Vizualizáció-típus módosítása Power BI-jelentésekben"
+title: "Vizualizáció-típus módosítása jelentésekben"
+description: "Jelentésbeli vizualizációk típusának módosítása a Power BI szolgáltatásban és a Power BI Desktopban"
 services: powerbi
 documentationcenter: 
 author: mihart
@@ -15,18 +15,18 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/08/2017
+ms.date: 12/20/2017
 ms.author: mihart
-ms.openlocfilehash: 629163044a48e15cbd5b2412f4da886cd373c56d
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 40ca8c24ec79f61bf0c8b3db71fdd84cdbb6a109
+ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 12/21/2017
 ---
 # <a name="change-the-type-of-visualization-in-a-power-bi-report"></a>Vizualizáció-típus módosítása Power BI-jelentésekben
-Próbáljon ki többféle típusú vizualizációt a Power BI-ben, hogy megtalálja az adatai szemléltetésére legalkalmasabbat. 
+Többféle típusú vizualizációt is kipróbálhat a Power BI szolgáltatásban és a Power BI Desktopban, hogy megtalálja az adatai szemléltetésére legalkalmasabbat. 
 
-1. Nyisson meg egy [jelentést Szerkesztési nézetben](service-reading-view-and-editing-view.md) és [hozzon létre vizualizációt](power-bi-report-add-visualizations-i.md), ha a jelentés még nem rendelkezik ilyennel.
+1. Nyisson meg egy jelentést, amelyben már található legalább egy vizualizáció.   
 2. A Megjelenítések panelen válassza ki az új vizualizáció típusát.  
    
    ![](media/power-bi-report-change-visualization-type/changeviz.gif)
@@ -43,5 +43,5 @@ További információk [a Power BI-jelentésekben lévő vizualizációkról](po
 
 [Power BI – Alapfogalmak](service-basic-concepts.md)
 
-További kérdései vannak? [Forduljon a Power BI közösségéhez](http://community.powerbi.com/)
+További kérdései vannak? [Felteheti azokat a Power BI-közösségnek](http://community.powerbi.com/)
 

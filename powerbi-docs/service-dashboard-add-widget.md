@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 08/31/2017
+ms.date: 12/20/2017
 ms.author: mihart
-ms.openlocfilehash: 20760bec773c6f1d2a3cbbfaefd0651b97cbe601
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 3aa70a6382164cb8284e1a5f61ae73f66e54d2f3
+ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/21/2017
 ---
 # <a name="add-image-text-video-and-more-to-your-dashboard"></a>Kép, szöveg, videó és egyéb elemek hozzáadása az irányítópulthoz
 <iframe width="560" height="315" src="https://www.youtube.com/embed/e2PD8m1Q0vU" frameborder="0" allowfullscreen></iframe>
@@ -42,7 +42,7 @@ A **Csempe hozzáadása** vezérlő használatával közvetlenül az irányító
 Tegyük fel, hogy az irányítópulton el kívánja helyezni a cége emblémáját vagy más képet. Ehhez a képfájlt online állapotban mentenie kell, és létre kell hoznia egy rámutató hivatkozást. Bizonyosodjon meg róla, hogy a képfájl eléréséhez nincs szükség speciális hitelesítő adatokra. A OneDrive és a SharePoint például hitelesítő adatokat kér, ezért az ott tárolt képeket nem lehet ezen a módon hozzáadni az irányítópulthoz.  
 
 1. Kattintson a **Kép** > **Tovább** lehetőségre.
-2. Adja meg a kép adatait a **Csempe részletei** ablaktáblán.
+2. Adja meg a kép adatait a **Képcsempe felvétele** ablakban.
    
     ![](media/service-dashboard-add-widget/pbi-widget-add-image-new.png)
    
@@ -56,16 +56,16 @@ Tegyük fel, hogy az irányítópulton el kívánja helyezni a cége emblémáj�
 ## <a name="add-a-text-box-or-dashboard-heading"></a>Szövegdoboz vagy irányítópult-címsor hozzáadása
 1. Kattintson a **Szövegdoboz > Tovább** elemre.
    
-    ![](media/service-dashboard-add-widget/power-bi-add-text-box-new.png)
-   
    > **FIGYELEM**: Ha az irányítópult címsorát kívánja megadni, írja be a címsort a szövegdobozba, és válasszon nagyobb betűméretet.
-   > 
    > 
 2. A szövegdoboz formázása:
    
    * Ha azt szeretné, hogy cím jelenjen meg a szövegdoboz fölött, válassza a **Cím és alcím megjelenítése** lehetőséget, majd írjon be egy címet és/vagy alcímet.
    * Írja be és formázza a szövegdoboz tartalmát.  
-   * Igény szerint egyéni hivatkozást is beállíthat a címhez.  Mivel ebben a példában a szövegdobozon belül adtuk meg a hivatkozásokat, hagyja üresen a**Egyéni hivatkozás beállítása** jelölőnégyzetet.
+   * Igény szerint egyéni hivatkozást is beállíthat a címhez. Az egyéni hivatkozások lehetnek külső helyek, vagy a munkaterületen található irányítópultok vagy jelentések. Ugyanakkor mivel ebben a példában magában a szövegdobozban adtuk meg a hivatkozásokat, üresen kell hagyni az **Egyéni hivatkozás beállítása** jelölőnégyzetet.
+
+     ![](media/service-dashboard-add-widget/power-bi-add-textbox.png)
+   
 3. Kattintson az **Alkalmaz** elemre.  Az irányítópulton igény szerint áthelyezheti a szövegdobozt, és módosíthatja a méretét.
    
    ![](media/service-dashboard-add-widget/pbi-widget-text-added-new.png)
@@ -74,7 +74,7 @@ Tegyük fel, hogy az irányítópulton el kívánja helyezni a cége emblémáj�
 Ha YouTube- vagy Vimeo-videócsempét ad hozzá az irányítópulthoz, a lejátszó közvetlenül az irányítópulton fog elindulni.
 
 1. Válassza a **Videó > Tovább** elemet.
-2. Adja meg a videó adatait a **Csempe részletei** ablaktáblán.
+2. Adja meg a videó adatait a **Videócsempe felvétele** ablaktáblán.
    
     ![](media/service-dashboard-add-widget/power-bi-add-video-new.png)
    
@@ -100,7 +100,7 @@ Illesszen vagy írjon be egy tetszőleges HTML-tartalmat.  A Power BI ezt a tart
    
    * Ha azt szeretné, hogy cím jelenjen meg a csempe fölött, válassza a *Cím és alcím megjelenítése* lehetőséget, majd írjon be egy címet és/vagy alcímet.
    * Adja meg a beágyazási kódot. Ebben a példában egy Twitter-hírcsatornát másolunk és illesztünk be.
-   * Kattintson az **Alkalmaz** elemre.  Az irányítópulton igény szerint áthelyezheti a webes tartalom csempéjét, és módosíthatja a méretét.
+3. Kattintson az **Alkalmaz** elemre.  Az irányítópulton igény szerint áthelyezheti a webes tartalom csempéjét, és módosíthatja a méretét.
      
       ![](media/service-dashboard-add-widget/pbi-widget-code-added-new.png)
 
@@ -157,5 +157,5 @@ A csempe módosításához...
 ## <a name="next-steps"></a>Következő lépések
 [Az irányítópult csempéi](service-dashboard-tiles.md)
 
-Több kérdése van? [Kérdezze a Power BI-közösséget!](http://community.powerbi.com/).
+Több kérdése van? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/).
 
