@@ -348,17 +348,13 @@
           href: power-bi-how-to-report-filter.md
         - name: Elemzés az Excelben
           href: service-analyze-in-excel.md
-        - name: Vizuális elemek jelentésen belüli működésének módosítása
+        - name: Vizualizációk jelentésen belüli működésének módosítása
           href: service-reports-visual-interactions.md
-        - name: Power BI-jelentés megnyitása Olvasás nézetben
-          href: service-report-open-in-reading-view.md
-        - name: Olvasás nézet váltása Szerkesztési nézetre a Power BI-ban
+        - name: Power BI-jelentés megnyitása Olvasó vagy Szerkesztő nézetben
           href: service-reading-view-and-editing-view.md
         - name: Jelentés használata Szerkesztő nézetben a Power BI-ban
           href: service-interact-with-a-report-in-editing-view.md
-        - name: Jelentés használata Olvasás nézetben a Power BI-ban
-          href: service-interact-with-a-report-in-reading-view.md
-        - name: Tippek és trükkök jelentések készítéséhez a Power BI szolgáltatásban
+        - name: Tippek és trükkök jelentések létrehozásához a Power BI szolgáltatásban
           href: power-bi-reports-tips-and-tricks-for-creating.md
         - name: Az Elemzési panel
           href: service-analytics-pane.md
@@ -1004,10 +1000,8 @@
           href: 'https://go.microsoft.com/fwlink/?linkid=848276'
         - name: Egyéni vizuális elemek Git-tárház
           href: 'https://go.microsoft.com/fwlink/?linkid=848277'
-    - name: Források
+    - name: Erőforrások
       items:
-        - name: API-tár
-          href: 'https://go.microsoft.com/fwlink/?linkid=848278'
         - name: JavaScript-beágyazási bemutató
           href: 'https://go.microsoft.com/fwlink/?linkid=848279'
         - name: Minták
@@ -1050,8 +1044,10 @@
           href: 'https://go.microsoft.com/fwlink/?linkid=849021'
         - name: Támogatott adatforrások
           href: report-server/data-sources.md
-        - name: Kapcsolódás adatforráshoz
+        - name: Kapcsolódás adatforrásokhoz
           href: report-server/connect-data-sources.md
+        - name: 'Megosztott adathalmazok elérése OData-csatornákként '
+          href: report-server/access-dataset-odata.md
         - name: Ütemezett frissítés beállítása
           href: report-server/configure-scheduled-refresh.md
         - name: Megjegyzés hozzáadása jelentéshez
