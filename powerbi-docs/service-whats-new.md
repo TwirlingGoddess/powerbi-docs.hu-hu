@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 09/01/2017
 ms.author: sirsu
-ms.openlocfilehash: 7f01ed805358b5b74a32ae26fb757f592c617088
-ms.sourcegitcommit: 8f72ce6b35aa25979090a05e3827d4937dce6a0d
+ms.openlocfilehash: 8b03eb9659d4f2c984200db16daa6de017e73de7
+ms.sourcegitcommit: 7517c068db806f12bb0b953e9a1bd4249ca12da5
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/27/2017
+ms.lasthandoff: 01/05/2018
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>A Power BI szolgáltatás újdonságai
 Ezen az oldalon a **Power BI szolgáltatás** ismert problémáit és új funkcióit ismertetjük. Kapcsolódó "Újdonságok" az alábbi helyeken találhatók:
@@ -167,7 +167,7 @@ A részletekről a [Power BI-csapat blogján](https://powerbi.microsoft.com/blog
 
 **2016. április 28.**
 
-* [Gyors elemzések az irányítópult-csempéken](service-insights.md#run-quick-insights-on-a-dashboard-tile): Amikor Fókusz módban tekint meg egy csempét, az Elemzések lekérése lehetőségre kattintva keresést végezhet a csempén és a kapcsolódó adatokon, amelyekkel másodpercek alatt, automatikusan azonosíthat korrelációkat, kiugró adatokat, trendeket, szezonalitást, a trendek változópontjait és fontos szempontokat.
+* [Gyors elemzések az irányítópult-csempéken](service-insights.md): Amikor Fókusz módban tekint meg egy csempét, az Elemzések lekérése lehetőségre kattintva keresést végezhet a csempén és a kapcsolódó adatokon, amelyekkel másodpercek alatt, automatikusan azonosíthat korrelációkat, kiugró adatokat, trendeket, szezonalitást, a trendek változópontjait és fontos szempontokat.
 
 A részletekről a [Power BI-csapat blogján](https://powerbi.microsoft.com/blog/find-more-insights-in-your-dashboards-with-quick-insights/) olvashat.
 
@@ -589,10 +589,6 @@ További információt a [blogunkban](http://blogs.msdn.com/b/powerbi/archive/20
 
 * Ezzel a [tartalomcsomaggal](http://blogs.msdn.com/b/powerbi/archive/2015/05/28/get-quick-insights-into-your-quickbooks-online-account-data.aspx) gyors elemzéseket kaphat a QuickBooks Online fiókadatairól. További részleteket a csatlakozásról és az első lépésekről a Power BI QuickBooks Online tartalomcsomag [dokumentációjában](service-connect-to-quickbooks-online.md) találhat.
 
-**2015. május 19.**
-
-* Ezzel a frissítéssel mostantól csatlakozhat a [Twilióhoz a tartalomcsomagon keresztül](service-connect-to-twilio.md).
-* A Power BI API új elemekkel bővült! Mostantól [listázhatja az összes táblát](http://docs.powerbi.apiary.io/#reference/datasets/tables-collection/list-all-tables), és [frissítheti a meglévő táblasémákat](http://docs.powerbi.apiary.io/#reference/datasets/table/update-an-existing-tables-schema).
 
 **2015. május 13.**
 

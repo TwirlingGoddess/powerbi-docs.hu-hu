@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 08/10/2017
 ms.author: asaxton
-ms.openlocfilehash: b45a6f76a710bc158d0d1763ca10f2125164952a
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 92409e447bf9bc32b83c22650d5b41aef6bb4414
+ms.sourcegitcommit: 7517c068db806f12bb0b953e9a1bd4249ca12da5
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/05/2018
 ---
 # <a name="step-3-create-a-dataset-in-power-bi"></a>3. lépés: Adatkészlet létrehozása a Power BI-ban
 Ez a cikk az [adatok az adatkészletekbe való küldését](walkthrough-push-data.md) ismertető részletes útmutató része.
@@ -32,7 +32,7 @@ REST-erőforrás meghívásához használja az erőforrás helyét megadó URL-c
 
 Egy Power BI REST-művelet hitelesítéséhez adja hozzá a [hitelesítéshez szükséges hozzáférési jogkivonat beszerzését](walkthrough-push-data-get-token.md) ismertető szakaszban kapott jogkivonatot egy kérés fejlécéhez:
 
-Ha az [Adatkészlet létrehozása](https://msdn.microsoft.com/library/mt203562.aspx) műveletet hívja meg, létrejön egy új adatkészlet. A Power BI REST API használatáról szóló példák a [Power BI REST API az Apiaryn](http://docs.powerbi.apiary.io/) című cikkben találhatók.
+Ha az [Adatkészlet létrehozása](https://msdn.microsoft.com/library/mt203562.aspx) műveletet hívja meg, létrejön egy új adatkészlet. 
 
 ![](media/walkthrough-push-data-create-dataset/powerbi-developer-create-dataset.png)
 
@@ -239,7 +239,6 @@ Az alábbiakban megtalálja a [teljes kódlistát](#code).
 [Adatok elküldése egy Power BI-irányítópultba](walkthrough-push-data.md)  
 [A Power BI REST API áttekintése](overview-of-power-bi-rest-api.md)  
 [A Power BI REST API-jainak leírása](https://msdn.microsoft.com/library/mt147898.aspx)  
-[Power BI REST API az APIARY-n](http://docs.powerbi.apiary.io/)  
 
 További kérdései vannak? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)
 

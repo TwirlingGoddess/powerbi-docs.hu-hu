@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 11/01/2017
-ms.author: asaxton
-ms.openlocfilehash: 86b0c188d2fada9b42e05bf037dc0630a8c75428
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.author: maghan
+ms.openlocfilehash: a1dc05e722d4b50321b1fc825eeab9284d2d88b5
+ms.sourcegitcommit: eec6b47970bf69ed30638d1a20051f961ba792f2
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/06/2018
 ---
 # <a name="get-started-with-power-bi-report-server"></a>Ismerkedés a Power BI jelentéskészítő kiszolgálóval
 A Power BI mobil és többoldalas jelentések létrehozása, telepítése és felügyelete a helyszínen a Power BI jelentéskészítő kiszolgáló által biztosított, használatra kész eszközökkel.
@@ -62,7 +62,7 @@ További részletek a [webportálról](https://docs.microsoft.com/sql/reporting-
 ## <a name="power-bi-reports"></a>Power BI-jelentések
 ![](media/get-started/powerbi-reports.png)
 
-A Power BI-jelentés többféle nézőpontból jeleníti meg az adathalmazokat, különböző, az adott adathalmazból származó eredményeket és meglátásokat bemutató vizualizációkkal.  Egy jelentés lehet egyetlen képi vizualizáció vagy vizualizációkkal megtöltött oldalak. Feladatkörétől függően Ön lehet jelentéskészítő és/vagy egy azokat feldolgozó vagy felhasználó személy.
+A Power BI-jelentések az adatkészletek többszempontú nézetei, amelyek az adatkészletből származó különféle eredményeket és elemzéseket bemutató vizualizációkat tartalmaznak.  Egy jelentés lehet egyetlen képi vizualizáció vagy vizualizációkkal megtöltött oldalak. Feladatkörétől függően Ön lehet jelentéskészítő és/vagy egy azokat feldolgozó vagy felhasználó személy.
 
 A jelentések egyetlen adathalmazon alapulnak. A jelentésben lévő vizualizációk egy-egy információmorzsát képviselnek. A vizualizációk nem statikusak: hozzáadhat és eltávolíthat adatokat, módosíthatja a vizualizációtípusokat, és az elemzésekhez és a válaszok kereséséhez az adatok mélyebb szintjére lehatolva szűrőket és szeletelőket alkalmazhat. A jelentések rendkívül interaktívak és nagymértékben testre szabhatók – akárcsak az irányítópultok, de még jobban – és a vizualizációk az alapjukul szolgáló adatok változásával frissülnek.
 
@@ -81,9 +81,9 @@ További [fejlesztői dokumentáció a Jelentéskészítő kiszolgálóhoz](http
 ## <a name="next-steps"></a>Következő lépések
 [Felhasználói kézikönyv](user-handbook-overview.md)  
 [Rendszergazdai kézikönyv](admin-handbook-overview.md)  
-[Gyors üzembe helyezés: Power BI jelentéskészítő kiszolgáló telepítése](quickstart-install-report-server.md)  
-[A jelentéskészítő telepítése](https://docs.microsoft.com/sql/reporting-services/install-windows/install-report-builder)  
+[Rövid útmutató: A Power BI jelentéskészítő kiszolgáló telepítése](quickstart-install-report-server.md)  
+[A Jelentéskészítő telepítése](https://docs.microsoft.com/sql/reporting-services/install-windows/install-report-builder)  
 [Az SQL Server Data Tools (SSDT) letöltése](http://go.microsoft.com/fwlink/?LinkID=616714)
 
-További kérdései vannak? [Kérdezze a Power BI-közösséget!](https://community.powerbi.com/)
+További kérdései vannak? [Kérdezze meg a Power BI közösségét](https://community.powerbi.com/)
 

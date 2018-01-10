@@ -16,11 +16,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/05/2017
 ms.author: maggies
-ms.openlocfilehash: 87fd7f9b881c6af482cc3a644e77b0a95ea1743c
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+ms.openlocfilehash: 604aed25b4702525cfbecde9c6fe18ded8c41994
+ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 01/09/2018
 ---
 # <a name="install-and-use-apps-with-dashboards-and-reports-in-power-bi"></a>Alkalmazások telepítése és használata irányítópultokkal és jelentésekkel a Power BI-ban
 A Power BI-ban az *alkalmazások* egy helyen hozzák össze az összefüggő irányítópultokat és jelentéseket. Cégének tagjai fontos üzleti információkkal dolgozó alkalmazásokat hozhatnak létre és terjeszthetnek. Az esetleg már eddig is használt [külső szolgáltatások](service-connect-to-services.md), mint a Google Analytics és a Microsoft Dynamics CRM, szintén kínálnak Power BI-alkalmazásokat. 
@@ -63,7 +63,7 @@ A Microsoft AppSource-szal bármilyen alkalmazást megtalálhat és telepíthet,
 3. A **Letöltés most** lehetőséget választva adhatja hozzá az Alkalmazások oldalához. 
 
 ## <a name="interact-with-the-dashboards-and-reports-in-the-app"></a>Irányítópultok és jelentések használata az alkalmazásban
-Most már dolgozhat az adatokkal az alkalmazás irányítópultjainak és jelentéseinek használatával. Minden szokásos Power BI-műveletet elér, mint amilyen a szűrés, a kijelölés, a rendezés és a részletezés. Tudnivalók [a jelentések használatáról a Power BI-ban](service-interact-with-a-report-in-reading-view.md). 
+Most már dolgozhat az adatokkal az alkalmazás irányítópultjainak és jelentéseinek használatával. Minden szokásos Power BI-műveletet elér, mint amilyen a szűrés, a kijelölés, a rendezés és a részletezés. Tudnivalók [a jelentések használatáról a Power BI-ban](service-reading-view-and-editing-view.md). 
 
 A módosításait nem mentheti ki, de egy táblából vagy a jelentés más vizualizációjából mindig [exportálhatja az adatokat az Excelbe](power-bi-visualization-export-data.md).
 
@@ -72,5 +72,5 @@ A módosításait nem mentheti ki, de egy táblából vagy a jelentés más vizu
 ## <a name="next-steps"></a>További lépések
 * [Alkalmazások létrehozása és közzététele a Power BI-ban](service-create-distribute-apps.md)
 * [Power BI-alkalmazások külső szolgáltatásokhoz](service-connect-to-services.md)
-* Kérdései vannak? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)
+* Kérdése van? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)
 

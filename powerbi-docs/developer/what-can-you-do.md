@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 07/20/2017
 ms.author: asaxton
-ms.openlocfilehash: a10cd93a06d14e3e66fd9cce480dc0ec99e67aeb
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: c5dfbbf5150dbf8ddb4388ac64f6c313eedd578e
+ms.sourcegitcommit: 7517c068db806f12bb0b953e9a1bd4249ca12da5
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/05/2018
 ---
 # <a name="what-can-developers-do-with-power-bi"></a>Mire használhatják a fejlesztők a Power BI-t?
 A Power BI lehetőségek széles tárházát kínálja a fejlesztők számára. Ezek a beágyazási lehetőségektől az egyéni vizualizációkig és az adatkészletek streameléséig terjednek.
@@ -44,14 +44,13 @@ A Power BI API lehetővé teszi az adatok leküldését az adatkészletekbe. Enn
 További információkért lásd: [Adatok leküldése az irányítópultokra](walkthrough-push-data.md)
 
 ## <a name="next-steps"></a>További lépések
-[Beágyazás a Power BI-jal](embedding.md)  
+[Beágyazás a Power BI szolgáltatással](embedding.md)  
 [Power BI Embedded munkaterület-csoport tartalmainak migrálása a Power BI-ba](migrate-from-powerbi-embedded.md)  
 [JavaScript API Git-adattár](https://github.com/Microsoft/PowerBI-JavaScript)  
 [Power BI C# Git-adattár](https://github.com/Microsoft/PowerBI-CSharp)  
 [Egyéni vizualizációk közzététele az Office áruházban](office-store.md)  
 [Power BI-vizualizációk Git-adattára](https://github.com/Microsoft/PowerBI-visuals)  
 [JavaScript beágyazási minta](https://microsoft.github.io/PowerBI-JavaScript/demo/)  
-[Power BI API az Apiaryn](http://docs.powerbi.apiary.io/#)  
 [Power BI Premium-tanulmány](https://aka.ms/pbipremiumwhitepaper)  
 További kérdései vannak? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)
 

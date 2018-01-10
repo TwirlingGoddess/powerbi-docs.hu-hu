@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/19/2017
 ms.author: asaxton
-ms.openlocfilehash: 0b2e0208814fdd68ef7c6f0bcc1cf6ffa1fe42da
-ms.sourcegitcommit: a658b1c936e382f46a19eeb9cc26016cd7b1d756
+ms.openlocfilehash: 70ffefa9845f8440205460ee0083f8dc334b7c81
+ms.sourcegitcommit: 7517c068db806f12bb0b953e9a1bd4249ca12da5
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 12/20/2017
+ms.lasthandoff: 01/05/2018
 ---
 # <a name="integrate-a-tile-into-an-app-user-owns-data"></a>Csempe integrálása egy alkalmazásba (a felhasználó az adatok tulajdonosa)
 Ismerje meg, hogyan integrálhat vagy ágyazhat be egy csempét egy webalkalmazásba REST API-hívásokkal és a Power BI JavaScript API-val, ha a szervezete számára ágyaz be.
@@ -56,9 +56,9 @@ A **Power BI**-csempe lekéréséhez használja a [Csempék lekérése](https://
 Először az irányítópult azonosítóját kell lekérni, mielőtt lekérné a csempét. Az irányítópult lehívásáról szóló további információért lásd: [Irányítópult integrálása alkalmazásba (a felhasználó az adatok tulajdonosa)](integrate-dashboard.md).
 
 ### <a name="get-tiles-using-an-access-token"></a>Csempék lekérése hozzáférési token használatával
-A [2. lépésben](#step-2-get-an-access-token-from-azure-ad) lekért **hozzáférési token** segítségével meghívhatja a [Csempék lekérése](https://msdn.microsoft.com/library/mt465741.aspx) műveletet. A [Csempék lekérése](https://msdn.microsoft.com/library/mt465741.aspx) művelet csempék listáját adja vissza. A csempék listájából lekérhet egyetlen csempét. Alább látható egy teljes C# metódus a csempe lekéréséhez. A Power BI REST API használatáról szóló példák az [APIARY Power BI REST API](http://docs.powerbi.apiary.io/) cikkében találhatók.
+A [2. lépésben](#step-2-get-an-access-token-from-azure-ad) lekért **hozzáférési token** segítségével meghívhatja a [Csempék lekérése](https://msdn.microsoft.com/library/mt465741.aspx) műveletet. A [Csempék lekérése](https://msdn.microsoft.com/library/mt465741.aspx) művelet csempék listáját adja vissza. A csempék listájából lekérhet egyetlen csempét. Alább látható egy teljes C# metódus a csempe lekéréséhez. 
 
-A REST API hívásához meg kell adnia egy *Authorization* fejlécet *Bearer {hozzáférési token}* formátumban.
+A REST API-hívásához egy *Engedélyezési* fejlécet is meg kell adnia a *Tulajdonos {hozzáférési token}* formátumában.
 
 #### <a name="get-tiles-with-the-rest-api"></a>Csempék lekérése a REST API-val
 **Default.aspx.cs**

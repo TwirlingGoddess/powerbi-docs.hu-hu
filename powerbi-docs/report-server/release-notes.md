@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 11/01/2017
-ms.author: asaxton
-ms.openlocfilehash: ffd0d1ce38a989121225a666ca4aa924df130216
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.author: maghan
+ms.openlocfilehash: aa0f8870396980edfdb85739e0459c365d1e2163
+ms.sourcegitcommit: eec6b47970bf69ed30638d1a20051f961ba792f2
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/06/2018
 ---
 # <a name="power-bi-report-server-release-notes"></a>Kibocsátási megjegyzések a Power BI jelentéskészítő kiszolgálóhoz
 Ez a témakör a Power BI jelentéskészítő kiszolgáló korlátait és problémáit írja le.
@@ -70,9 +70,9 @@ A Power BI jelentéskészítő kiszolgáló és a Power BI jelentéskészítő k
 [A Power BI jelentéskészítő kiszolgáló újdonságai](whats-new.md)  
 [Felhasználói kézikönyv](user-handbook-overview.md)  
 [Rendszergazdai kézikönyv](admin-handbook-overview.md)  
-[Gyors üzembe helyezés: A Power BI jelentéskészítő kiszolgáló telepítése](quickstart-install-report-server.md)  
-[A jelentéskészítő telepítése](https://docs.microsoft.com/sql/reporting-services/install-windows/install-report-builder)  
+[Rövid útmutató: A Power BI jelentéskészítő kiszolgáló telepítése](quickstart-install-report-server.md)  
+[A Jelentéskészítő telepítése](https://docs.microsoft.com/sql/reporting-services/install-windows/install-report-builder)  
 [Az SQL Server Data Tools (SSDT) letöltése](http://go.microsoft.com/fwlink/?LinkID=616714)
 
-További kérdései vannak? [Kérdezze a Power BI-közösséget!](https://community.powerbi.com/)
+További kérdései vannak? [Kérdezze meg a Power BI közösségét](https://community.powerbi.com/)
 

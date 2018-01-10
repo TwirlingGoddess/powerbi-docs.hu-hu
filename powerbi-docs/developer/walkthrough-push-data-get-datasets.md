@@ -17,16 +17,16 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 08/10/2017
 ms.author: asaxton
-ms.openlocfilehash: f0ca594b6f87ab2e186909f10a8ba4b7e1bce062
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: a9dd782931904ada208b68ccbceeb7e1c0d95ec6
+ms.sourcegitcommit: 7517c068db806f12bb0b953e9a1bd4249ca12da5
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/05/2018
 ---
 # <a name="step-4-get-a-dataset-to-add-rows-into-a-power-bi-table"></a>4. lépés: Adatkészlet lekérése, és sorok hozzáadása egy Power BI-táblához
 Ez a cikk az [adatok adatkészletbe történő leküldését](walkthrough-push-data.md) ismertető részletes útmutató része.
 
-Az Adatok adatkészletbe való leküldésének **3. lépésében**, amelynek címe [Adatkészlet létrehozása a Power BI-ban](walkthrough-push-data-create-dataset.md), az [Adatkészlet létrehozása](https://msdn.microsoft.com/library/mt203562.aspx) művelet meghívásával létrehozott egy adatkészletet a Power BI-ban. Ebben a lépésben az [Adatkészletek lekérése](https://msdn.microsoft.com/library/mt203567.aspx) műveletet és a Newtonsoft.Jsont fogja használni az adatkészlet azonosítójának lekéréséhez. Az adatkészlet azonosítóját a 4. lépésben fogja használni, hogy sorokat adjon hozzá egy adatkészlethez. A Power BI REST API használatáról szóló példák a [Power BI REST API az Apiaryn](http://docs.powerbi.apiary.io/) című cikkben találhatók.
+Az Adatok adatkészletbe való leküldésének **3. lépésében**, amelynek címe [Adatkészlet létrehozása a Power BI-ban](walkthrough-push-data-create-dataset.md), az [Adatkészlet létrehozása](https://msdn.microsoft.com/library/mt203562.aspx) művelet meghívásával létrehozott egy adatkészletet a Power BI-ban. Ebben a lépésben az [Adatkészletek lekérése](https://msdn.microsoft.com/library/mt203567.aspx) műveletet és a Newtonsoft.Jsont fogja használni az adatkészlet azonosítójának lekéréséhez. Az adatkészlet azonosítóját a 4. lépésben fogja használni, hogy sorokat adjon hozzá egy adatkészlethez. 
 
 Ha adatokat szeretne elküldeni Power BI-adatkészletbe, akkor az adatkészletben hivatkoznia kell a táblára. Ha egy táblára kíván hivatkozni egy adatkészletben, először le kell kérnie az **Adatkészlet azonosítóját**. Az **adatkészlet azonosítójának** lekéréséhez használja az [Adatkészletek lekérése](https://msdn.microsoft.com/library/mt203567.aspx) műveletet. Az **Adatkészlet lekérése** művelet egy JSON-karakterláncot ad vissza, amely tartalmazza a Power BI-ban tárolt összes adatkészlet listáját. A JSON-karakterlánc deszerializálásának ajánlott módja a [Newtonsoft.JSON](http://www.newtonsoft.com/json) használata.
 
@@ -39,7 +39,7 @@ Az adatkészlet lekérésének menete:
 
 1. Az adatok elküldéséről szóló útmutató 2. lépésében ([Hitelesítéshez szükséges hozzáférési jogkivonat beszerzése](walkthrough-push-data-get-token.md)) létrehozott konzolalkalmazás-projektben telepítse a Newtonsoft.Json NuGet-csomagot. A csomagot az alábbiakban leírt módon telepítheti:
    
-     a. A Visual Studio 2015-ben kattintson a **Tools** (Eszközök)  >  **NuGet Package Manager** (NuGet-csomagkezelő) > **Package Manager Console** (Csomagkezelő konzol) elemre.
+     a. A Visual Studio 2015-ben válassza a **Tools** (Eszközök) > **NuGet Package Manager** (NuGet-csomagkezelő) > **Package Manager Console** (Csomagkezelő konzol) elemet.
    
      b. A **csomagkezelő konzolban** lépjen be az Install-Package Newtonsoft.Json elembe.
 2. A csomag telepítése után adja hozzá a **using NewtonsoftJson;** karakterláncot a Program.cs fájlhoz.
@@ -278,7 +278,6 @@ Az alábbiakban megtalálja a [teljes kódlistát](#code).
 [Adatok leküldése a Power BI-ba](walkthrough-push-data.md)  
 [A Power BI REST API áttekintése](overview-of-power-bi-rest-api.md)  
 [A Power BI REST API-jainak leírása](https://msdn.microsoft.com/library/mt147898.aspx)  
-[Power BI REST API az APIARY-n](http://docs.powerbi.apiary.io/)  
 
-További kérdései vannak? [Forduljon a Power BI közösségéhez](http://community.powerbi.com/)
+További kérdései vannak? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)
 

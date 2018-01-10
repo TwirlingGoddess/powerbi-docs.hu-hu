@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 08/10/2017
+ms.date: 01/05/2017
 ms.author: asaxton
-ms.openlocfilehash: e62b08614a38502fb79f48f369013d32fd538659
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: aba135a0a790025f732379ecb07157f1150d999c
+ms.sourcegitcommit: 7517c068db806f12bb0b953e9a1bd4249ca12da5
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/05/2018
 ---
 # <a name="push-data-into-a-power-bi-dataset"></a>Adatok elküldése Power BI-adatkészletbe
 A Power BI API-val adatokat küldhet egy Power BI-adatkészletbe. Tegyük fel például, hogy ki szeretne bővíteni egy már meglévő üzleti munkafolyamatot kulcsfontosságú adatoknak az adatkészletbe történő elküldésével. Ebben az esetben egy Termék táblát tartalmazó Értékesítési marketing adatkészletet kíván elküldeni egy adatkészletbe.
@@ -38,7 +38,7 @@ Mielőtt elkezdené az adatok adatkészletbe való elküldését, szüksége les
 A következő szakasz egy általános ismertetés az adatok küldésére használható Power BI API-műveletekről.
 
 ## <a name="power-bi-api-operations-to-push-data"></a>Adatok küldésére használt Power BI API-műveletek
-A Power BI REST API-val adatforrásokat küldhet a Power BI-ba. Amikor egy alkalmazás sorokat ad hozzá egy adatkészlethez, az irányítópulton lévő csempék automatikusan frissülnek az új adatokkal. Adatokat az [Adatkészlet létrehozása](https://msdn.microsoft.com/library/mt203562.aspx), illetve a [Sorok hozzáadása](https://msdn.microsoft.com/library/mt203561.aspx) művelettel küldhet. Egy adatkészlet kereséséhez használja az [Adatkészletek lekérése](https://msdn.microsoft.com/library/mt203567.aspx) műveletet. A fenti műveletek bármelyike esetében átadhat egy csoportazonosítót a csoporttal való munkavégzéshez. A [Csoportok lekérése](https://msdn.microsoft.com/library/mt243842.aspx) művelettel lekérheti a csoportazonosítók listáját. A Power BI REST API használatáról szóló példák a [Power BI REST API az Apiaryn](http://docs.powerbi.apiary.io/) című cikkben találhatók.
+A Power BI REST API-val adatforrásokat küldhet a Power BI-ba. Amikor egy alkalmazás sorokat ad hozzá egy adatkészlethez, az irányítópulton lévő csempék automatikusan frissülnek az új adatokkal. Adatokat az [Adatkészlet létrehozása](https://msdn.microsoft.com/library/mt203562.aspx), illetve a [Sorok hozzáadása](https://msdn.microsoft.com/library/mt203561.aspx) művelettel küldhet. Egy adatkészlet kereséséhez használja az [Adatkészletek lekérése](https://msdn.microsoft.com/library/mt203567.aspx) műveletet. A fenti műveletek bármelyike esetében átadhat egy csoportazonosítót a csoporttal való munkavégzéshez. A [Csoportok lekérése](https://msdn.microsoft.com/library/mt243842.aspx) művelettel lekérheti a csoportazonosítók listáját.
 
 Az adatok adatkészletbe történő elküldéséhez használható műveletek az alábbiak:
 
@@ -126,6 +126,5 @@ Az adatok adatkészletekbe történő küldésének első lépéseihez tekintse 
 [Csoportok lekérése](https://msdn.microsoft.com/library/mt243842.aspx)  
 [A JSON ismertetése](http://json.org/)  
 [A Power BI REST API áttekintése](overview-of-power-bi-rest-api.md)  
-[Power BI REST API az APIARY-n](http://docs.powerbi.apiary.io/)  
-További kérdései vannak? [Forduljon a Power BI közösségéhez](http://community.powerbi.com/)
+További kérdései vannak? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)
 

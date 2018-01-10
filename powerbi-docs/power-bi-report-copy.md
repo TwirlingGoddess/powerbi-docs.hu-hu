@@ -15,18 +15,18 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/23/2017
+ms.date: 01/08/2018
 ms.author: mihart
-ms.openlocfilehash: 8425b631bb64911081861dc4a21de04b698f0f67
-ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
+ms.openlocfilehash: 8c108d1564a6de89d2a53134e0bbca3617ebfc92
+ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 01/03/2018
+ms.lasthandoff: 01/09/2018
 ---
 # <a name="create-a-new-report-from-an-existing-report"></a>Új jelentés létrehozása meglévő jelentésből
 Lehet, hogy rendelkezik egy jelentéssel, amely már az adatkészletéhez kapcsolódik, és van néhány vizualizációja, amelyeket szeretne újrahasznosítani vagy módosítani.  Miért nem másolja le ezt a jelentést egy új jelentés alapjául?  Ehhez:
 
-1. [Nyisson meg egy jelentést](service-report-open-in-reading-view.md).
+1. [Nyisson meg egy jelentést](service-report-open.md).
 2. A **Fájl** menüben válassza a **Mentés másként** pontot.
    
    ![](media/power-bi-report-copy/powerbi-save-as.png)

@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 11/01/2017
-ms.author: asaxton
-ms.openlocfilehash: 2c26a16bf8d8e54159dcd72b31fe9b9ed24e6d75
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.author: maghan
+ms.openlocfilehash: 389eea63ca03c982f89bc8d44611ec5b01f3a1ce
+ms.sourcegitcommit: eec6b47970bf69ed30638d1a20051f961ba792f2
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/06/2018
 ---
 # <a name="connecting-to-data-sources"></a>Kapcsolódás adatforráshoz
 Tudnivalók azokról az adatforrásokról, amelyekhez a Power BI jelentéskészítő kiszolgálón belülről lehet kapcsolódni.
@@ -39,5 +39,5 @@ Más jelentéstípusok az SQL Server Reporting Servicesben meglévő adatforrás
 [Rövid útmutató: Többoldalas jelentések](quickstart-create-paginated-report.md)  
 [Rövid útmutató: Power BI-jelentések](quickstart-create-powerbi-report.md)
 
-További kérdései vannak? [Kérdezze a Power BI-közösséget!](https://community.powerbi.com/)
+További kérdései vannak? [Kérdezze meg a Power BI közösségét](https://community.powerbi.com/)
 

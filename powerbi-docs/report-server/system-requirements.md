@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 11/01/2017
-ms.author: asaxton
-ms.openlocfilehash: b9aff56a964a2a8c91d614a427ad77810680176f
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.author: maghan
+ms.openlocfilehash: d6daa5625037729df6aa7908a43c0e068efbfb8b
+ms.sourcegitcommit: eec6b47970bf69ed30638d1a20051f961ba792f2
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/06/2018
 ---
 # <a name="hardware-and-software-requirements-for-installing-power-bi-report-server"></a>A Power BI jelentéskészítő kiszolgáló telepítésének hardver- és szoftverkövetelményei
 Itt láthatók a Power BI jelentéskészítő kiszolgáló telepítésének és futtatásának minimális hardver- és szoftverkövetelményei.
@@ -67,18 +67,18 @@ A Power BI jelentéskészítő kiszolgáló az alapvető beállításokat a műk
 ## <a name="power-bi-reports-and-analysis-services-live-connections"></a>Power BI-jelentések és az Analysis Services élő kapcsolatai
 Élő kapcsolatokat táblázatos vagy többdimenziós példányokhoz használhat. A megfelelő működéshez megfelelő verziójú és kiadású Analysis Services-kiszolgáló szükséges.
 
-| **Kiszolgáló verziója** | **Szükséges termékváltozat** |
+| **Kiszolgáló verziója** | **Kötelező termékváltozat** |
 | --- | --- |
-| 2012 SP1 CU4 vagy újabb |Business Intelligence és Enterprise termékváltozatok |
+| 2012 SP1 CU4 vagy újabb |Business Intelligence és Enterprise termékváltozat |
 | 2014 |Business Intelligence és Enterprise termékváltozatok |
 | 2016 vagy újabb |Standard vagy magasabb szintű termékváltozat |
 
 ## <a name="next-steps"></a>Következő lépések
 [Felhasználói kézikönyv](user-handbook-overview.md)  
 [Rendszergazdai kézikönyv](admin-handbook-overview.md)  
-[Gyors üzembe helyezés: A Power BI jelentéskészítő kiszolgáló telepítése](quickstart-install-report-server.md)  
-[A jelentéskészítő telepítése](https://docs.microsoft.com/sql/reporting-services/install-windows/install-report-builder)  
+[Rövid útmutató: A Power BI jelentéskészítő kiszolgáló telepítése](quickstart-install-report-server.md)  
+[A Jelentéskészítő telepítése](https://docs.microsoft.com/sql/reporting-services/install-windows/install-report-builder)  
 [Az SQL Server Data Tools (SSDT) letöltése](http://go.microsoft.com/fwlink/?LinkID=616714)
 
-További kérdései vannak? [Kérdezze a Power BI-közösséget!](https://community.powerbi.com/)
+További kérdései vannak? [Kérdezze meg a Power BI közösségét](https://community.powerbi.com/)
 

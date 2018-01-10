@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/05/2017
 ms.author: asaxton
-ms.openlocfilehash: 4dd18fba5b5e3da0f8973a77166551086cc3f3cf
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 8285cbbc2d8dee653863cad50036da58362c32d1
+ms.sourcegitcommit: 7517c068db806f12bb0b953e9a1bd4249ca12da5
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/05/2018
 ---
 # <a name="integrate-a-report-into-an-app-for-your-organization"></a>Jelentés integrálása a szervezet egy alkalmazásába
 Ismerje meg, hogyan integrálhat vagy ágyazhat be egy jelentést a webalkalmazásba REST API-hívásokkal és a Power BI JavaScript API-val együtt, ha a szervezete számára ágyaz be.
@@ -40,7 +40,7 @@ Egy jelentés beágyazásához a webalkalmazásba használja a **Power BI** REST
 ## <a name="download-the-sample"></a>A minta letöltése
 Ez a cikk a GitHubon, az [integrate-report-web-app](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/User%20Owns%20Data/integrate-report-web-app) mintában használt kódot mutatja be. A bemutató követéséhez letöltheti a mintát.
 
-## <a name="step-1---register-an-app-in-azure-ad"></a>1. lépés – alkalmazás regisztrálása az Azure AD-ban
+## <a name="step-1---register-an-app-in-azure-ad"></a>1. lépés – alkalmazás regisztrálása az Azure AD-ben
 A REST API-hívások indításához az alkalmazásokat regisztrálni kell az Azure AD-ben. További információkért lásd: [Azure AD alkalmazás regisztrálása Power BI-tartalmak beágyazásához](register-app.md).
 
 Ha letöltötte az [integrate-report-web-app](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/User%20Owns%20Data/integrate-report-web-app) mintát, használja a regisztráció után kapott **Ügyfél-azonosítót** és a **Titkos ügyfélkulcsot**, így a minta hitelesítést végezhet az Azure AD-ben. A minta konfigurálásához módosítsa az **Ügyfél-azonosítót** és a **Titkos ügyfélkulcsot** a *cloud.config* fájlban.
@@ -54,9 +54,9 @@ Az alkalmazásban először egy **hozzáférési tokent** kell beszereznie az Az
 **Power BI**-jelentés lekéréséhez használja a [Jelentések lekérése](https://msdn.microsoft.com/library/mt634543.aspx) műveletet, amely a **Power BI**-jelentések listáját kéri le. A jelentések listájából lekérheti a jelentésazonosítót.
 
 ### <a name="get-reports-using-an-access-token"></a>Jelentések lekérése hozzáférési token használatával
-A [2. lépésben](#step-2-get-an-access-token-from-azure-ad) lekért **hozzáférési token** segítségével meghívhatja a [Jelentések lekérése](https://msdn.microsoft.com/library/mt634543.aspx) műveletet. A [Jelentések lekérése](https://msdn.microsoft.com/library/mt634543.aspx) művelet jelentések listáját adja vissza. A jelentések listájából lekérhet egyetlen jelentést. Alul látható egy teljes C# metódus jelentés lekéréséhez. A Power BI REST API használatáról szóló példák az [APIARY Power BI REST API](http://docs.powerbi.apiary.io/) cikkében találhatók.
+A [2. lépésben](#step-2-get-an-access-token-from-azure-ad) lekért **hozzáférési token** segítségével meghívhatja a [Jelentések lekérése](https://msdn.microsoft.com/library/mt634543.aspx) műveletet. A [Jelentések lekérése](https://msdn.microsoft.com/library/mt634543.aspx) művelet jelentések listáját adja vissza. A jelentések listájából lekérhet egyetlen jelentést. Alul látható egy teljes C# metódus jelentés lekéréséhez. 
 
-A REST API hívásához meg kell adnia egy *Authorization* fejlécet *Bearer {hozzáférési token}* formátumban.
+A REST API-hívásához egy *Engedélyezési* fejlécet is meg kell adnia a *Tulajdonos {hozzáférési token}* formátumában.
 
 #### <a name="get-reports-with-the-rest-api"></a>Jelentések lekérése a REST API-val
 **Default.aspx.cs**

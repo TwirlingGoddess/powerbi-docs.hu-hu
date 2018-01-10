@@ -18,11 +18,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 05/09/2017
 ms.author: mihart
-ms.openlocfilehash: dac5628756898a20fe139447bc2d165ba804320c
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 67cc9508d71fa29303d09e8901294a2d6b7f8a56
+ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/09/2018
 ---
 # <a name="create-a-power-bi-dashboard-from-a-report"></a>Power BI-irányítópult létrehozása jelentésből
 Áttekintette [A Power BI-irányítópultok](service-dashboards.md) részben leírtakat, és most saját irányítópultot kíván létrehozni. Az irányítópultok létrehozásának számos különböző módja van: többek között jelentésből, az alapoktól, adatkészletből, illetve egy meglévő irányítópult megkettőzésével is létrehozhatók stb.  Ez a témakör és videó egy új irányítópult létrehozását mutatja egy meglévő jelentésből származó vizualizációk rögzítésével.
@@ -64,7 +64,7 @@ A Power BI egyik mintaként szolgáló adatkészletét fogjuk importálni, majd 
 1. Ugyanazon a munkaterületen maradva kattintson a **Jelentések** lapra. Megjelenik az újonnan importált jelentés egy sárga csillaggal. A megnyitásához kattintson a jelentés nevére.
    
     ![](media/service-dashboard-create/power-bi-reports.png)
-2. A jelentés [Olvasás nézetben](service-interact-with-a-report-in-reading-view.md) nyílik meg. Figyelje meg, hogy két lap található alul: a Discount Analysis (Kedvezményelemzés) és a Spend Overview (Költségvetés áttekintése) lapok. Minden egyes lap a jelentés egy-egy oldalát jelképezi.
+2. A jelentés [Olvasás nézetben](service-reading-view-and-editing-view.md) nyílik meg. Figyelje meg, hogy két lap található alul: a Discount Analysis (Kedvezményelemzés) és a Spend Overview (Költségvetés áttekintése) lapok. Minden egyes lap a jelentés egy-egy oldalát jelképezi.
    
     ![](media/service-dashboard-create/power-bi-reading-view.png)
 3. A rendelkezésre álló beállítások megjelenítéséhez húzza a mutatót a vizualizáció fölé. A vizualizációnak az irányítópulthoz történő hozzáadásához kattintson a rögzítés ![](media/service-dashboard-create/power-bi-pin-icon.png) ikonra.
@@ -93,5 +93,5 @@ Gratulálunk, létrehozta az első irányítópultját! Most, hogy már rendelke
 * [A Power BI-irányítópultok](service-dashboards.md)
 * [Tippek a tökéletes irányítópult megtervezéséhez](service-dashboards-design-tips.md)
 
-További kérdései vannak? [Forduljon a Power BI közösségéhez](http://community.powerbi.com/)
+További kérdései vannak? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)
 

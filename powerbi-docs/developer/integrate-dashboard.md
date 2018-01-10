@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/05/2017
 ms.author: asaxton
-ms.openlocfilehash: f3968fd9fb89e868754bb6025a23fdbd028a3965
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: fdcefb11187e92063f239967cf4d245347f54683
+ms.sourcegitcommit: 7517c068db806f12bb0b953e9a1bd4249ca12da5
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/05/2018
 ---
 # <a name="integrate-a-dashboard-into-an-app-for-your-organization"></a>Irányítópult integrálása a cég egy alkalmazásába
 Ismerje meg, hogyan integrálhat vagy ágyazhat be egy irányítópultot egy webalkalmazásba a REST API-hívásokkal és a Power BI JavaScript API-val együtt, ha a cége számára ágyaz be.
@@ -56,7 +56,7 @@ A **Power BI** irányítópult beszerzéséhez használja a [Get Dashboards](htt
 ![](media/integrate-dashboard/powerbi-embed-dashboard-get-dashboards.png)
 
 ### <a name="get-dashboards-using-an-access-token"></a>Irányítópultok beszerzése hozzáférési token használatával
-A [2. lépésben](#step-2-get-an-access-token-from-azure-ad) lekért **hozzáférési token** segítségével meghívhatja a [Get Dashboards](https://msdn.microsoft.com/library/mt465739.aspx) műveletet. A [Get Dashboards](https://msdn.microsoft.com/library/mt465739.aspx) művelet az irányítópultok listáját adja vissza. Az irányítópultok listájából lekérhet egyetlen irányítópultot is. Alul látható egy teljes C# metódus az irányítópult beszerzéséhez. A Power BI REST API használatáról szóló példák a [Power BI REST API az Apiaryn](http://docs.powerbi.apiary.io/) című cikkben találhatók.
+A [2. lépésben](#step-2-get-an-access-token-from-azure-ad) lekért **hozzáférési token** segítségével meghívhatja a [Get Dashboards](https://msdn.microsoft.com/library/mt465739.aspx) műveletet. A [Get Dashboards](https://msdn.microsoft.com/library/mt465739.aspx) művelet az irányítópultok listáját adja vissza. Az irányítópultok listájából lekérhet egyetlen irányítópultot is. Alul látható egy teljes C# metódus az irányítópult beszerzéséhez. 
 
 A REST API-hívásához egy *Engedélyezési* fejlécet is meg kell adnia a *Tulajdonos {hozzáférési token}* formátumában.
 
@@ -287,5 +287,5 @@ Egy mintaalkalmazás elérhető a GitHubon, hogy áttekinthesse. A fenti példá
 
 További információk érhetők el a JavaScript API-ról a [Power BI JavaScript API](https://github.com/Microsoft/PowerBI-JavaScript) cikkben.
 
-További kérdései vannak? [Forduljon a Power BI közösségéhez](http://community.powerbi.com/)
+További kérdései vannak? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)
 

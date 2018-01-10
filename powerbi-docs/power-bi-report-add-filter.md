@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/28/2017
+ms.date: 01/08/2018
 ms.author: mihart
-ms.openlocfilehash: d409633129c6c203e897d76c0acf043bf09ea29d
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: bd358b8e986313ba665326de0ff2722e0113554d
+ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/09/2018
 ---
 # <a name="add-a-filter-to-a-power-bi-report-in-editing-view"></a>Szűrő hozzáadása Power BI-jelentéshez (Szerkesztési nézetben)
 > [!TIP]
@@ -30,13 +30,13 @@ ms.lasthandoff: 11/13/2017
 > 
 
 ## <a name="what-is-the-difference-between-report-filters-in-editing-view-versus-reading-view"></a>Mi a különbség a Szerkesztési nézet és az Olvasás nézet jelentésszűrői között?
-A jelentések két módban használhatók: [Olvasás nézetben](service-interact-with-a-report-in-reading-view.md) és [Szerkesztési nézetben](service-interact-with-a-report-in-editing-view.md).  A szűrési képességek attól függnek, hogy milyen módban van éppen.
+A jelentések két módban használhatók: [Olvasás nézetben](service-reading-view-and-editing-view.md) és [Szerkesztési nézetben](service-interact-with-a-report-in-editing-view.md).  A szűrési képességek attól függnek, hogy milyen módban van éppen.
 
 * Szerkesztési nézetben hozzáadhat jelentés-, oldal- és vizualizációszűrőket. Ha menti a jelentést, a rendszer a szűrőket is menti. Azok, akik Olvasás nézetben tekintik meg a jelentést, használhatják a hozzáadott szűrőket, de nem menthetik a módosításokat.
 * Olvasás nézetben használhatja a jelentésben már meglévő jelentés-, oldal- és vizualizációszűrőket, de nem mentheti a szűrők módosításait.
 
 > [!NOTE]
-> Ez a cikk azt ismerteti, hogyan hozhatók létre szűrők egy jelentés **Szerkesztési nézetében**.  Az Olvasás nézet szűrőire vonatkozó további információkért tekintse át [a jelentés szűrőinek Olvasás nézetben történő használatával](service-interact-with-a-report-in-reading-view.md) foglalkozó témakört.
+> Ez a cikk azt ismerteti, hogyan hozhatók létre szűrők egy jelentés **Szerkesztési nézetében**.  Az Olvasás nézet szűrőire vonatkozó további információkért tekintse át [a jelentés szűrőinek Olvasás nézetben történő használatával](service-reading-view-and-editing-view.md) foglalkozó témakört.
 > 
 > 
 
@@ -146,9 +146,9 @@ Ha nem látja a Mezők panelt, győződjön meg arról, hogy a jelentés [Szerke
 
   [Szűrők és kiemelések a jelentésekben](power-bi-reports-filters-and-highlighting.md)
 
-[Szűrők és kiemelések használata a jelentések Olvasás nézetében](service-interact-with-a-report-in-reading-view.md)
+[Szűrők és kiemelések használata a jelentések Olvasás nézetében](service-reading-view-and-editing-view.md)
 
 [A jelentésvizualizációk keresztszűrési és keresztkiemelési viselkedésének módosítása](service-reports-visual-interactions.md)
 
-További kérdései vannak? [Forduljon a Power BI közösségéhez](http://community.powerbi.com/)
+További kérdései vannak? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)
 

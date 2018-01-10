@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/01/2017
-ms.author: asaxton
-ms.openlocfilehash: bec336dbc4b028f23acb9ba34f920a10b7869c23
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.date: 12/04/2017
+ms.author: maghan
+ms.openlocfilehash: af1776e2f14f678569ae55d8bc05c7197475497f
+ms.sourcegitcommit: eec6b47970bf69ed30638d1a20051f961ba792f2
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/06/2018
 ---
 # <a name="support-timeline-for-power-bi-report-server"></a>A Power BI jelentéskészítő kiszolgáló támogatási ütemterve
 A Power BI jelentéskészítő kiszolgáló évente néhány alkalommal jelenik meg. A biztonsági és kritikus frissítések addig érhetők el, amíg az új kiadás általánosan elérhető nem lesz. A következő kiadás megjelenése után az előző kiadás a 12 hónapos kiadási ciklusa hátralévő idejében továbbra is letölti a biztonsági frissítéseket.
@@ -31,7 +31,7 @@ Ezzel a támogatási házirenddel az újítások gyorsan eljutnak az ügyfelekhe
 * Biztonsági és kritikus frissítések szolgáltatási fázisa – A legfrissebb Power BI jelentéskészítő kiszolgáló használata esetén a biztonsági és a kritikus frissítésekben Ön egyaránt részesül.
 * Biztonsági frissítések (kizárólag) szolgáltatási fázisa – Egy új verzió megjelenését követően a korábbi verziók támogatása a 12 hónapos támogatási ciklus hátralévő idejére a biztonsági frissítésekre korlátozódik (lásd: 1-es ábra).
 
-    ![Támogatási ütemtervet ábrázoló gráf](media/support-timeline/reportserver-support-lifecycle.png)
+    ![Támogatási ütemtervet ábrázoló gráf](media/support-timeline/report-server-support-timeline.png)
 
 ## <a name="version-history"></a>Korábbi verziók
 | **Verzió** | **Elérhetőség dátuma** | **Támogatás végének dátuma** |

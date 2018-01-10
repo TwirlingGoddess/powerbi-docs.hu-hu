@@ -17,16 +17,16 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 08/10/2017
 ms.author: asaxton
-ms.openlocfilehash: d9fa2984eecfac026cf01a47d73ec6c5950e02d3
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 02c0ac505f542d9c4a346ae7aee72533789d5599
+ms.sourcegitcommit: 7517c068db806f12bb0b953e9a1bd4249ca12da5
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/05/2018
 ---
 # <a name="step-5-add-rows-to-a-power-bi-table"></a>5. lépés: Sorok hozzáadása egy Power BI-táblához
 Ez a cikk az [adatok adatkészletbe történő leküldését](walkthrough-push-data.md) ismertető részletes útmutató része.
 
-Az adatok adatkészletbe történő leküldési folyamatának **4. lépése** ([Adatkészlet lekérése és sorok hozzáadása egy Power BI-táblához](walkthrough-push-data-get-datasets.md)) esetében az [Adatkészletek lekérése](https://msdn.microsoft.com/library/mt203567.aspx) művelet és a Newtonsoft.Json fájl használatával történik az adatkészlet azonosítójának lekérése. Ebben a lépésben az adatkészlet azonosítóját és a [Sorok hozzáadása](https://msdn.microsoft.com/library/mt203561.aspx) műveletet fogja használni sorok hozzáadásához egy **Power BI**-adatkészlethez. A Power BI REST API használatáról szóló példák a [Power BI REST API az Apiaryn](http://docs.powerbi.apiary.io/) című cikkben találhatók.
+Az adatok adatkészletbe történő leküldési folyamatának **4. lépése** ([Adatkészlet lekérése és sorok hozzáadása egy Power BI-táblához](walkthrough-push-data-get-datasets.md)) esetében az [Adatkészletek lekérése](https://msdn.microsoft.com/library/mt203567.aspx) művelet és a Newtonsoft.Json fájl használatával történik az adatkészlet azonosítójának lekérése. Ebben a lépésben az adatkészlet azonosítóját és a [Sorok hozzáadása](https://msdn.microsoft.com/library/mt203561.aspx) műveletet fogja használni sorok hozzáadásához egy **Power BI**-adatkészlethez. 
 
 A [Sorok hozzáadása](https://msdn.microsoft.com/library/mt203561.aspx) művelet meghívásakor sorokat vesz fel egy adatkészletbe.
 
@@ -319,6 +319,5 @@ Az alábbiakban megtalálja a [teljes kódlistát](#code).
 [Adatok leküldése egy Power BI-irányítópultba](walkthrough-push-data.md)  
 [A Power BI REST API áttekintése](overview-of-power-bi-rest-api.md)  
 [A Power BI REST API-jainak leírása](https://msdn.microsoft.com/library/mt147898.aspx)  
-[Power BI REST API az APIARY-n](http://docs.powerbi.apiary.io/)  
-További kérdései vannak? [Forduljon a Power BI közösségéhez](http://community.powerbi.com/)
+További kérdései vannak? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)
 

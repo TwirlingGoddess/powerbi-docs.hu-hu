@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 11/09/2017
-ms.author: asaxton
-ms.openlocfilehash: df22a7ed0772979d164a9afae18f4931310ec4a1
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.author: maghan
+ms.openlocfilehash: 0019b0a8d3fa628a1b3932a4c19eba0bf0d66ee3
+ms.sourcegitcommit: eec6b47970bf69ed30638d1a20051f961ba792f2
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/06/2018
 ---
 # <a name="quickstart-embed-a-power-bi-report-using-an-iframe-and-url-parameters"></a>Rövid útmutató: Power BI-jelentés beágyazása egy iFrame és URL-paraméterek használatával
 
@@ -105,4 +105,4 @@ https://report-server/reports/power-bi/Retail-Analysis-Sample?filter=Store/Terri
 [Rövid útmutató: Power BI-jelentés létrehozása a Power BI jelentéskészítő kiszolgálóra](quickstart-create-powerbi-report.md)  
 [Rövid útmutató: Többoldalas jelentés létrehozása a Power BI jelentéskészítő kiszolgálóra](quickstart-create-paginated-report.md)  
 
-További kérdései vannak? [Kérdezze a Power BI-közösséget!](https://community.powerbi.com/)
+További kérdései vannak? [Kérdezze meg a Power BI közösségét](https://community.powerbi.com/)

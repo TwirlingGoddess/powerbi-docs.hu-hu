@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/18/2017
+ms.date: 01/08/2018
 ms.author: maggies
-ms.openlocfilehash: 4cc7f12eb4964c67ae9f91cfcb51eac77d690555
-ms.sourcegitcommit: ea247cb3cfc1cac076d4b076c1ad8e2fc37e15a1
+ms.openlocfilehash: d0fbe2ca891096cf8b1ae2145260c3341c451658
+ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 12/19/2017
+ms.lasthandoff: 01/09/2018
 ---
 # <a name="share-your-power-bi-dashboards-with-coworkers-and-others"></a>Irányítópult megosztása munkatársakkal és másokkal
 A *Megosztással* egyszerűen biztosíthatja néhány személy hozzáférését az irányítópultjaihoz és jelentéseihez. A Power BI-ban [többféle módon valósítható meg az irányítópultok közös használata és terjesztése](service-how-to-collaborate-distribute-dashboards-reports.md), amelyek közül a megosztás csak az egyik lehetőség.
@@ -110,7 +110,7 @@ Ha Power BI-mobilalkalmazásból küld hivatkozást cégen kívüli címzettnek,
 Irányítópultok megosztásakor vegye figyelembe a következőket:
 
 * Ön és a munkatársai általában ugyanazokat az adatokat látják az irányítópulton. Ha tehát Ön több adathoz jogosult hozzáférni mint ők, akkor az irányítópultján ők is látni fogják az összes adatát. Ha azonban [sorszintű biztonság (RLS)](service-admin-rls.md) van érvényben egy irányítópult alapjául szolgáló adatkészletben, akkor a hozzáférhető adatok köre az egyes személyek hitelesítő adatai alapján lesz meghatározva.
-* Mindenki, akivel Ön megosztotta az irányítópultot, megtekintheti és használhatja a jelentéseket az [Olvasási nézetben](service-report-open-in-reading-view.md). Nem hozhatnak létre jelentéseket és nem menthetik a meglévő jelentések módosításait.
+* Mindenki, akivel Ön megosztotta az irányítópultot, megtekintheti és használhatja a jelentéseket az [Olvasási nézetben](service-reading-view-and-editing-view.md). Nem hozhatnak létre jelentéseket és nem menthetik a meglévő jelentések módosításait.
 * Az adatkészletet senki sem tekintheti meg vagy töltheti le.
 * Manuálisan mindenki [frissítheti az irányítópult adatait](refresh-data.md).
 * Ha a levelezéshez az Office 365-öt használja, akkor a megosztás címzettjeként egy terjesztési csoportot is megadhat a csoporthoz tartozó e-mail-cím beírásával.

@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 11/08/2017
-ms.author: asaxton
-ms.openlocfilehash: 46f1ac3c98cc8a5760f7b2e78d8f86631ea0b782
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.author: maghan
+ms.openlocfilehash: 93a91ae70a43281f9a30292adb8bcdffb3033223
+ms.sourcegitcommit: eec6b47970bf69ed30638d1a20051f961ba792f2
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/06/2018
 ---
 # <a name="install-power-bi-report-server"></a>A Power BI jelentéskészítő kiszolgáló telepítése
 
@@ -29,16 +29,16 @@ Ismerje meg, hogyan telepítheti a Power BI jelentéskészítő kiszolgálót.
 
  **Letöltés** ![letöltés](media/install-report-server/download.png "letöltés")
 
-A Power BI jelentéskészítő kiszolgáló letöltéséhez keresse fel a [Helyszíni jelentéskészítés a Power BI jelentéskészítő kiszolgáló használatával](https://powerbi.microsoft.com/report-server/) oldalt. A Power BI jelentéskészítő kiszolgálóra optimalizált Power BI Desktop letöltéséhez keresse fel a [Microsoft Download Centert](https://go.microsoft.com/fwlink/?linkid=837581).
+A Power BI jelentéskészítő kiszolgáló letöltéséhez látogasson el a [Power BI jelentéskészítő kiszolgálóval végzett helyszíni jelentéskészítéssel](https://powerbi.microsoft.com/report-server/) foglalkozó oldalra. A Power BI jelentéskészítő kiszolgálóhoz optimalizált Power BI Desktop eszköz letöltéséhez látogasson el a [Microsoft letöltőközpontba](https://go.microsoft.com/fwlink/?linkid=837581).
 
-![tipp](media/install-report-server/fyi-tip.png "tipp") Az aktuális kibocsátási megjegyzésekhez tekintse meg a [Power BI jelentéskészítő kiszolgáló – Kibocsátási megjegyzések](release-notes.md) oldalt.
+![tipp](media/install-report-server/fyi-tip.png "tipp") A legfrissebb információkért tekintse meg a [Power BI jelentéskészítő kiszolgáló kibocsátási megjegyzéseit](release-notes.md).
 
 <iframe width="640" height="360" src="https://www.youtube.com/embed/zacaEb9A4F0?showinfo=0" frameborder="0" allowfullscreen></iframe>
 
 ## <a name="before-you-begin"></a>Előkészületek
 A Power BI jelentéskészítő kiszolgáló telepítése előtt javasoljuk, hogy tekintse át a [Power BI jelentéskészítő kiszolgáló telepítésének hardver- és szoftverkövetelményeit](system-requirements.md).
 
-### <a name="power-bi-report-server-product-key"></a>A Power BI jelentéskészítő kiszolgáló termékkulcsa
+### <a name="power-bi-report-server-product-key"></a>Power BI jelentéskészítő kiszolgáló termékkulcsa
 #### <a name="power-bi-premium"></a>Power BI Premium
 Ha a Power BI Premiumot vásárolta meg, a Power BI Felügyeleti portál **Premium beállítások** lapján érheti el a Power BI jelentéskészítő kiszolgáló termékkulcsát. Ez csak a globális rendszergazdák és a Power BI szolgáltatás azon felhasználói számára érhető el, akikhez rendszergazdai szerepkört rendeltek.
 
@@ -153,5 +153,5 @@ Nyissa meg a webszolgáltatás és a webes portál URL-címére konfigurált TCP
 [Windows-szolgáltatásfiókok és -engedélyek konfigurálása](https://docs.microsoft.com/sql/database-engine/configure-windows/configure-windows-service-accounts-and-permissions)  
 [A Power BI jelentéskészítő kiszolgáló böngészőtámogatása](browser-support.md)
 
-További kérdései vannak? [Kérdezze a Power BI-közösséget!](https://community.powerbi.com/)
+További kérdései vannak? [Kérdezze meg a Power BI közösségét](https://community.powerbi.com/)
 
