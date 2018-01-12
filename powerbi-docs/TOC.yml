@@ -12,7 +12,7 @@
           href: service-free-vs-pro.md
         - name: Adatforrások a Power BI-ban
           href: service-get-data.md
-        - name: A Power BI új navigációs felülete
+        - name: A Power BI navigációs felületének kezelése
           href: service-the-new-power-bi-experience.md
         - name: 10 tanács segítségkéréshez
           href: service-tips-for-finding-help.md
@@ -68,7 +68,7 @@
           href: sample-retail-analysis.md
     - name: Gyakori feladatok
       items:
-        - name: Népszerű irányítópultok a Power BI-ban
+        - name: 'Kedvenc irányítópultok, jelentések és alkalmazások a Power BI-ban'
           href: service-dashboard-favorite.md
         - name: 'Irányítópult nyomtatása, irányítópult-csempe nyomtatása, jelentési oldal nyomtatása'
           href: service-print.md
@@ -780,7 +780,7 @@
           href: desktop-add-custom-column.md
         - name: Környezethez alkalmazkodó vizuális elemek létrehozása
           href: desktop-create-responsive-visuals.md
-        - name: Belső hierarchikus címkék használata a Power BI Desktopban (előzetes verzió)
+        - name: Beágyazott hierarchiák feliratainak használata a Power BI Desktopban (előzetes verzió)
           href: desktop-inline-hierarchy-labels.md
         - name: Numerikustartomány-szeletelő használata
           href: desktop-slicer-numeric-range.md
