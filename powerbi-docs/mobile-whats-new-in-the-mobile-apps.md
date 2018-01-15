@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/12/2017
+ms.date: 01/04/2018
 ms.author: maggies
-ms.openlocfilehash: b96ea3b0de070bee292b1d59a5abd9b0739a656a
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: b2df6825232f51a53bada3676faf598d6bc5d70b
+ms.sourcegitcommit: 25489cf87c31fc107a5337fa1dd36506897c4bbb
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/05/2018
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>A Power BI mobilalkalmazásainak újdonságai
 Az újdonságokra vonatkozó kapcsolódó információk:
@@ -30,24 +30,50 @@ Az újdonságokra vonatkozó kapcsolódó információk:
 * [A Power BI Desktop újdonságai](desktop-latest-update.md)  
 * [A Power BI szolgáltatás újdonságai](service-whats-new.md)  
 
-## <a name="september-2017"></a>2017. szeptember
-### <a name="filters-for-phone-reports-in-iphones"></a>Szűrők telefonos jelentésekhez iPhone-okon
+## <a name="december-2017"></a>2017. december
+### <a name="improved-permission-management"></a>Továbbfejlesztett engedélykezelés
+
+Végrehajtottunk bizonyos módosításokat az adathalmazokra, irányítópultokra és jelentésekre vonatkozó felhasználói engedélyek pontosabb kezelése érdekében.
+
+### <a name="auto-installed-apps"></a>Automatikusan telepített alkalmazások
+
+A Power BI-ban bizonyos alkalmazásokat nem szükséges telepíteni. A Power BI-alkalmazások létrehozói a cégnél létrehozhatnak olyan *alkalmazásokat*, amelyek számos irányítópultot és jelentést tartalmaznak. Az alkalmazást ezt követően közzétehetik, és beállíthatják úgy, hogy az automatikusan települjön a Power BI szolgáltatásban és a Power BI-mobilalkalmazásokban. Ha egy alkalmazás automatikus telepítésre van beállítva, automatikusan megjelenik az **Alkalmazások** menüben:
+
+![Alkalmazások a Power BI-mobilalkalmazásokban](media/mobile-apps-find-content-mobile-devices/power-bi-apps-mobile-apps.png)
+
+## <a name="november-2017"></a>2017. november
+### <a name="iphone-x-optimization"></a>Optimalizálás iPhone X-hez
+
+Optimalizáltuk az iPhone X-hez az alkalmazás elrendezését, így minden eszközön tetszetős elrendezésben jelennek meg az adatok.
+
+## <a name="october-2017"></a>2017. október
+### <a name="filters-for-phone-reports-in-android"></a>Szűrők telefonos jelentésekhez Androidon
+
+Ha telefonra optimalizált oldalakkal rendelkező jelentést hoz létre a Power BI Desktopban, és a jelentés szűrőket tartalmaz, ezeket a szűrőket mostantól alkalmazhatja a telefonos jelentésekben Android-eszközén. Tudjon meg többet az Androidon használható Power BI-jelentésekhez készült szűrőkről.
+
+### <a name="show-data-in-reports"></a>Adatok megjelenítése a jelentésekben
+
+A jelentésekben a táblázatos nézetre állíthatja a vizualizációkat, így megtekintheti az adatok alapját képező számokat. A funkció eléréséhez koppintson az Adatok megjelenítése pontra a vizualizáció ... menüjében a jelentésben, vagy pedig az új ikonra a kibontott vizualizáció műveleti menüjében.
+
+## <a name="previous-months"></a>Előző hónapok
+
+### <a name="september-2017"></a>2017. szeptember
+#### <a name="filters-for-phone-reports-in-iphones"></a>Szűrők telefonos jelentésekhez iPhone-okon
 Ha telefonra optimalizált oldalakkal rendelkező jelentést hoz létre a Power BI Desktopban, és a jelentés szűrőket tartalmaz, ezeket a szűrőket mostantól alkalmazhatja a telefonos jelentésekben iPhone-ján. Tudjon meg többet [az iPhone-okon használható Power BI-jelentésekhez készült szűrőkről](https://powerbi.microsoft.com/blog/filters-coming-for-phone-reports-on-ios/).
 
-## <a name="august-2017"></a>2017. augusztus
-### <a name="ios-proxy-settings-support"></a>iOS-proxybeállítások támogatása
+### <a name="august-2017"></a>2017. augusztus
+#### <a name="ios-proxy-settings-support"></a>iOS-proxybeállítások támogatása
 Mostantól megadhat proxybeállításokat a Power BI iOS-mobilalkalmazásában. Ennek köszönhetően a Power BI VPN-kapcsolatokkal is működik mobileszközén, így még több felhasználó és vállalat használhatja biztonságosan a Power BI funkcióit útközben.
 
-## <a name="july-2017"></a>2017. július
+### <a name="july-2017"></a>2017. július
 Olvassa el a [mobilalkalmazások funkcióinak 2017. júliusi összefoglalását](https://powerbi.microsoft.com/blog/power-bi-service-and-mobile-july-feature-summary/#ios-preview)
 
-### <a name="ios-devices"></a>iOS-eszközök
+#### <a name="ios-devices"></a>iOS-eszközök
 **Új Q&A élmény iOS-eszközökön (előzetes verzió)** A kérdésére érkező válaszok helyett mostantól természetes nyelv használatával is célzott elemzéshez juthat. A Q&A rendszer proaktívan jelenít meg az adataihoz kapcsolódó elemzéseket akkor is, ha nem teljesen biztos abban, mit keres. A Microsoft kutatási csapatával együttműködésben kifejlesztett, mobileszközökre szánt Q&A élmény hatékony technológiákat alkalmaz a termékünkben. Próbálja ki az útmutatót, amely [az adatokra vonatkozó kérdések feltevését ismerteti iOS-mobilalkalmazásokban](mobile-apps-ios-qna.md).
 
 ### <a name="responsive-visuals"></a>Rugalmas vizualizációk
 **Rugalmas vizualizációk telefonos jelentésekhez és irányítópultokhoz** Beállíthatja, hogy az irányítópulton vagy a jelentésben lévő vizualizációk *rugalmas* elrendezésűek legyenek, és a képernyő méretétől függően dinamikusan a lehető legtöbb adatot és elemzést jelenítsék meg egyszerre. Olvassa el [a rugalmas vizualizációkról szóló blogot](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary-2/#responsiveVisuals).
 
-## <a name="previous-months"></a>Előző hónapok
 ### <a name="june-2107"></a>2017. június
 #### <a name="all-devices"></a>Minden eszköz
 **Alkalmazások megjelölése kedvencként** Már eddig is lehetőség volt megjelölni egy irányítópultot kedvencként. A közelmúltban a [Power BI elérhetővé tett alkalmazásokat](service-install-use-apps.md), és mostantól ezeket is meg lehet jelölni kedvencként. 

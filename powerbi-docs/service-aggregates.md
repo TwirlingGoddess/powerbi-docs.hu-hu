@@ -1,5 +1,5 @@
 ---
-title: "Összesítések (összeg, átlag, maximum stb.) a Power BI-ban"
+title: "Összesítések (összeg, átlag, maximum stb.) a vizualizációkban"
 description: "Diagramok összesítésének módosítása a Power BI-ban (összeg, átlag, maximum, stb.)"
 services: powerbi
 documentationcenter: 
@@ -15,43 +15,63 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/23/2017
+ms.date: 01/04/2018
 ms.author: mihart
-ms.openlocfilehash: c1b926e129e8d82edd9c329a51623908c4e7c9e0
-ms.sourcegitcommit: 8f72ce6b35aa25979090a05e3827d4937dce6a0d
+ms.openlocfilehash: 40ed3ce1dbb228d8418c8cd5ca7de4bcb0731c2b
+ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/27/2017
+ms.lasthandoff: 01/09/2018
 ---
-# <a name="aggregates-in-power-bi"></a>Összesítések a Power BI-ban
+# <a name="aggregates-in-power-bi-visualizations"></a>Összesítések a Power BI-vizualizációkban
 ## <a name="what-is-an-aggregate"></a>Mi az az összesítés?
-Néha szükség van egy adott oszlop sorértékeinek matematikai összevonására. Ez a matematikai művelet lehet összeadás, átlagolás, maximumérték meghatározása, darabszám meghatározása, stb. Egy adott oszlop soradatértékeinek összevonását nevezzük összesítésnek. Az ilyen matematikai műveletek eredménye az *összesítési érték*. 
+Néha szükség van az adatok értékeinek matematikai összevonására. Ez a matematikai művelet lehet összeadás, átlagolás, maximumérték meghatározása, darabszám meghatározása, stb. Az adatok értékeinek összevonását *összesítésnek* nevezzük. Az ilyen matematikai műveletek eredménye az *összesítési érték*. 
 
-A számmező az az érték, amellyel az összesítést végezzük (összeadás vagy átlagolás) egy adott kategóriamezőhöz kapcsolódóan.  Például „értékesítési összeg termék szerint” vagy „régiónkénti hibák száma”. A számmezőket gyakran **mértékeknek** nevezzük. A Mezők listában a mértékek ∑ szimbólummal vannak jelölve. További információ: [Jelentésszerkesztő – Bevezetés](service-the-report-editor-take-a-tour.md).
+Amikor a Power BI szolgáltatás és a Power BI Desktop vizualizációkat hoz létre, előfordulhat, hogy összesítés is történik. Az így létrehozott összesítés gyakran éppen megfelelő a célnak, de előfordulhat, hogy az értékeket másféle módon szükséges összesíteni.  Ilyen lehet például, ha összeg helyett átlagot szeretnénk. A vizualizációkban használt összesítések többféle módszerrel is kezelhetők és módosíthatók.
 
-Néha egy adott *mérték* valójában *számított mértéknek* minősül. A számított mértékek importálása a Power BI-ban az adatokkal együtt történik (a jelentés alapjául szolgáló adatmodellben vannak meghatározva). Minden számított mértékhez saját nem változtatható képlet tartozik. A használandó összesítés módja nem módosítható, egy összeg például csak összeg lehet. A Mezők listában a *számított mértékek* számológép szimbólummal vannak ellátva. A számított mértékek létrehozásával kapcsolatos további információk: [Mértékek a Power BI Desktopban](desktop-measures.md).
+Először vizsgáljuk meg az *adattípusokat*, hiszen az adat típusa határozza meg, hogy az illető adatot lehet-e egyáltalán összesíteni, és ha igen, milyen módon.
 
-A kategóriamezők ugyan nem számalapúak, de összesíthetőek.  Ha kategóriamezőket helyezünk egy *csak számalapú* gyűjtőbe (például **Értékek** vagy **Elemleírások**), a Power BI képes megszámlálni az egyes kategóriák normál vagy eltérő előfordulásait.  A sztringekkel és a dátumokkal kapcsolatban a Power BI további összevonási lehetőségeket kínál: legkorábbi, legújabb, első és utolsó.  
+## <a name="types-of-data"></a>Adattípusok
+A legtöbb adathalmazban többféle adattípus található. Az adatok alapvetően lehetnek numerikusak vagy nem numerikusak. Numerikus adatot összeg, átlag, szám, minimum, variancia és sok más módszerrel is összesíthetünk. Még a szöveges adat is (ezt néha *kategóriaadatnak* is nevezzük) összesíthető. Ha kategóriamezőket próbálunk összegezni úgy, hogy egy csak számalapú gyűjtőbe (például **Értékek** vagy **Elemleírások**) helyezzük őket, a Power BI képes megszámlálni az egyes kategóriák normál vagy eltérő előfordulásait. Bizonyos speciális adattípusok, például a dátumok néhány saját összegzési típussal is rendelkeznek, ilyenek lehetnek a legkorábbi, a legújabb, az első vagy az utolsó. 
+
+Az alábbi példában:
+- A **Units Sold** és a **Manufacturing Price** oszlopok numerikus adatokat tartalmaznak
+-  A **Segment**, **Country**, **Product**, **Month**, és **Month Name** nevű oszlopok kategóriaadatokat tartalmaznak
+
+   ![](media/service-aggregates/power-bi-aggregate-chart.png)
+
+Amikor a Power BI-ban vizualizációkat hoz létre, a numerikus adatok néhány kategóriaadat alapján lesznek összesítve (alapértelmezetten az *összeg* használatával).  Például a „Units Sold ***by Product***” (értékesített egységek termékek szerint), a „Units Sold ***by Month***” (értékesített egységek hónapok szerint) és a „Manufacturing Price ***by Segment***” (gyártási költség szegmens alapján). Néhány számmezőt gyakran **mértéknek** is nevezzük. A Power BI jelentésszerkesztőjében egyszerűen megtalálhatók a mértékek, mert mindig a ∑ jellel jelennek meg a mezőlistában. További információ: [Jelentésszerkesztő – Bevezetés](service-the-report-editor-take-a-tour.md).
+
+![](media/service-aggregates/power-bi-aggregate-fields.png)
+
+
 
 ## <a name="why-dont-aggregates-work-the-way-i-want-them-to"></a>Miért nem az elvártnak megfelelően működnek az összesítések?
 Az összesítések használata a Power BI-ban bonyolult lehet – például számmezőről van szó, és a Power BI nem engedélyezi az összesítés módosítását. Vagy esetleg olyan mezőről van szó (például évszám), amelynek nem kellene szerepelnie az összesítésben, csak az ahhoz tartozó előfordulások számát szeretnénk megszámlálni.
 
-Leggyakrabban a problémát az adott mező Power BI-adatkészletben történő kategorizálása okozza. Elképzelhető, hogy a mező kategóriája szöveg, és emiatt nem lehet azt összeadáshoz vagy átlagoláshoz használni. Sajnos [csak az adatkészlet tulajdonosa tudja módosítani a mezők kategóriáját](desktop-measures.md).  
+Leggyakrabban a problémát az adott mező adatkészletben történő definiálása okozza. Elképzelhető, hogy a mező szövegként van definiálva, és emiatt nem lehet azt összeadáshoz vagy átlagoláshoz használni. Sajnos [csak az adatkészlet tulajdonosa tudja módosítani a mezők kategóriáját](desktop-measures.md). Ha tehát tulajdonosi hozzáféréssel rendelkezik az adatkészlethez akár a Desktopban, akár abban a programban, amellyel létrehozták az adathalmazt (ilyen lehet például az Excel), akkor ezt a problémát el tudja hárítani. Ellenkező esetben azonban az adathalmaz tulajdonosától kell segítséget kérnie.  
 
-A félreértések elkerülése céljából a cikk végén szerepel egy **Tippek és hibaelhárítás** című szakasz.  Ha ebben nem találja meg a választ, tegye fel kérdését a [Power BI közösségi fórumában](http://community.powerbi.com), ahol gyors választ kaphat közvetlenül a Power BI csapatától.
+A cikk végén szerepel egy **Megfontolandó szempontok és hibaelhárítás** című szakasz, amely segíthet eligazodni mindebben.  Ha ebben nem találja meg a választ, tegye fel kérdését a [Power BI közösségi fórumában](http://community.powerbi.com), ahol gyors választ kaphat közvetlenül a Power BI csapatától.
 
 ## <a name="change-how-a-numeric-field-is-aggregated"></a>Számmezők összevonásának módosítása
-Tegyük fel, hogy egy diagramban különböző régiókhoz tartozó értékesítési adatok összesítése szerepel, de Ön inkább átlagot számolna. 
+Tegyük fel, hogy egy diagramban különböző termékekhez tartozó értékesítési adatok összesítése szerepel, de Ön inkább átlagot szeretne számolni. 
 
-1. A jelentés Szerkesztés nézetében adja hozzá a mértéket a vizualizációhoz.
-2. Keresse meg az adott mezőt a Megjelenítések ablaktáblán, kattintson a jobb gombbal, majd válassza ki a kívánt összesítési típust. Ha nem látja a kívánt összesítést, forduljon az adatkészlet tulajdonosához. Elképzelhető, hogy a probléma a mező tulajdonos általi kategorizálásából származik.  
+1. Hozzon létre egy olyan diagramot, amely egy kategóriát és egy mértéket használ. Ebben a példában a „Units Sold by Product” (értékesített egységek termék szerint) összesítést használjuk.  A Power BI alapbeállítás szerint létrehoz egy diagramot, amely összegzi az értékesített egységeket (az Érték mezőben szereplő mérték) minden egyes termék esetében (a Tengely mezőben lévő kategória).
+
+   ![](media/service-aggregates/power-bi-aggregate-sum.png)
+
+2. A Megjelenítések ablaktáblán, kattintson a jobb gombbal a mértékre, majd válassza ki a kívánt összesítési típust. Ebben az esetben most az Átlagot választjuk. Ha nem jelenik meg a kívánt összesítési típus, olvassa el a „Megfontolandó szempontok és hibaelhárítás” részt alább.  
    
-   ![](media/service-aggregates/aggregate_new.png)
+   ![](media/service-aggregates/power-bi-aggregate-average.png)
    
    > [!NOTE]
    > A legördülő menüben elérhető lehetőségek a következőktől függenek: 1) a kijelölt mező, illetve 2) a mező adatkészlet-tulajdonos általi kategorizálása.
    > 
-   > 
+3. A vizualizáció most már az átlag szerinti összesítést használja.
+
+   ![](media/service-aggregates/power-bi-aggregate-average2.png)
+
+##    <a name="ways-to-aggregate-your-data"></a>Az adatok összesítésének módjai
 
 A mezők összesítésekor esetlegesen rendelkezésre álló lehetőségek:
 
@@ -91,35 +111,40 @@ Ezek az alábbi eredményeket adnák vissza:
 * **Variancia:** 416,666...
 * **Medián:** 125
 
-## <a name="use-a-non-aggregated-field-as-a-numeric-field"></a>Nem összesíthető mező használata számmezőként
-Nem összesíthető mezőt is lehet használni számmezőként. Ha például egy Terméknév nevű mezőről van szó, felveheti értékként, majd beállíthatja azt a **Darabszám** vagy a **Darabszám (eltérők)** használatára. 
+## <a name="create-an-aggregate-using-a-category-text-field"></a>Összesítés létrehozása a kategória- (szöveg-) mező használatával
+Nem numerikus mezőt is lehet összesíteni. Ha például egy Terméknév nevű mezőről van szó, felveheti értékként, majd beállíthatja azt a **Darabszám** vagy a **Darabszám (eltérők)**, az **Első** vagy **Utolsó** használatára. 
 
-1. Például választhatja az **Áruház > Lánc** lehetőséget.
+1. Ebben a példában a **Product** (Termék) mezőt is az Értékek közé húztuk. Az Értékek mező általában numerikus értékekhez használatos. A Power BI felismeri, hogy ez egy szöveges mező, ezért az összesítést úgy állítja be, hogy az **Összegzés mellőzése** legyen érvényes, és egy egyoszlopos táblázatot hoz létre.
    
-   ![](media/service-aggregates/count-of-chain-do_not_summarize.png)
-2. Ha ilyenkor az összesítést az alapértelmezett **Összesítés mellőzése** lehetőségről a **Darabszám (eltérők)** lehetőségre módosítja, a Power BI megszámlálja a különböző láncokhoz tartozó darabszámot. Ebben az esetben 2 ilyen van: Fashions Direct és Lindseys.
+   ![](media/service-aggregates/power-bi-aggregate-value.png)
+2. Ha ilyenkor az összesítést az alapértelmezett **Összegzés mellőzése** lehetőségről a **Darabszám (eltérők)** lehetőségre módosítjuk, a Power BI megszámlálja a különböző termékekhez tartozó darabszámot. Ebben az esetben az eredmény 4.
    
-   ![](media/service-aggregates/aggregates_count.png)
-3. Ha az összesítést a **Darabszám** lehetőségre módosítja, a Power BI a teljes darabszámot adja vissza. Ebben az esetben a **Lánc** 104 tételt tartalmaz. A **Lánc** szűrőként való hozzáadásával láthatja, hogy a Fashions Direct tételhez 37, a Lindseys tételhez pedig 67 sor tartozik.  
+   ![](media/service-aggregates/power-bi-aggregates-count.png)
+3. Ha az összesítést a **Darabszám** lehetőségre módosítjuk, a Power BI a teljes darabszámot adja vissza. Ebben az esetben a **Product** (Termék) 7 tételt tartalmaz. 
    
-   ![](media/service-aggregates/count_of_chain_104.png)
+   ![](media/service-aggregates/power-bi-aggregate-count2.png)
 
-## <a name="tips-and-troubleshooting"></a>Tippek és hibaelhárítás
+4. Ha ugyanazt a mezőt (ebben az esetben a **Product**, azaz Termékek mezőt) az Értékek közé húzzuk, és változtatás nélkül hagyjuk az **Összegzés mellőzése** beállítást, akkor a Power BI az összeget termékek szerint adja vissza.
+
+   ![](media/service-aggregates/power-bi-aggregate-final.png)
+
+## <a name="considerations-and-troubleshooting"></a>Megfontolandó szempontok és hibaelhárítás
 K: Miért nem látható az **Összeg mellőzése** lehetőség?
 
-V: A kijelölt mező valószínűleg számított mérték. Ne feledje, minden számított mértékhez saját nem változtatható képlet tartozik. Nem lehet módosítani a számítást.
+V: A kijelölt mező valószínűleg számított mérték, vagy olyan speciális mérték, amelyet a Excelben vagy a [Power BI Desktopban](desktop-measures.md) hoztak létre. Minden számított mértékhez saját nem változtatható képlet tartozik. A használt összesítés nem módosítható.  Ha az például összeg, akkor csak összeg maradhat. A Mezők listában a *számított mértékek* számológép szimbólummal vannak ellátva.
 
 K: A mező **számalapú**. Miért csak a **Darabszám** és a **Darabszám (eltérők)** lehetőséget lehet kiválasztani?
 
-V: A valószínű magyarázat az, hogy az adatkészlet tulajdonosa véletlenül vagy szándékosan *nem* számként kategorizálta az adott mezőt. Ha például egy adatkészletben szerepel az **Év** mező, az adatkészlet tulajdonosa szövegként kategorizálhatja azt, mivel valószínű, hogy az **Év** mező csak számlálásra (például az 1974-ben született személyek száma), nem pedig összeadásra vagy átlagolásra szolgál. Ha Ön a tulajdonos, az adatkészletet a Power BI Desktop alkalmazásban nyithatja meg, és a **Modellezés** lapon módosíthatja az adattípust.  
+V1: A valószínű magyarázat az, hogy az adatkészlet tulajdonosa véletlenül vagy szándékosan *nem* számként kategorizálta az adott mezőt. Ha például egy adatkészletben szerepel az **Év** mező, az adatkészlet tulajdonosa szövegként kategorizálhatja azt, mivel valószínű, hogy az **Év** mező csak számlálásra (például az 1974-ben született személyek száma), nem pedig összeadásra vagy átlagolásra szolgál. Ha Ön a tulajdonos, az adatkészletet a Power BI Desktop alkalmazásban nyithatja meg, és a **Modellezés** lapon módosíthatja az adattípust.  
 
-V: Egy másik lehetőség az, hogy az adott mezőt egy olyan *gyűjtőbe* helyezte, amely csak kategóriaértékeket engedélyez.  Ebben az esetben csak a Darabszám és a Darabszám (eltérők) típus érhető el.
+V2: A számológép ikonnal rendelkező mezők *számított mértéknek* minősülnek, és mindegyik számított mérték saját nem módosítható képlettel rendelkezik, amelyet csak az adathalmaz tulajdonosa módosíthat. A használt számítás lehet egyszerű összesítés, mint például átlagolás vagy összeadás, de lehet bonyolultabb művelet is, mint például „szülőkategóriához való hozzájárulás százaléka” vagy „göngyölített összeg az év kezdete óta”. A Power BI nem összegzi vagy átlagolja az eredményeket, csak újraszámítást végez az egyes adatpontokhoz kapcsolódóan (a nem változtatható képlet használatával).
 
-V: A harmadik lehetőség pedig az, hogy tengelyen használja az adott mezőt. Például a sávdiagramok tengelyén a Power BI egy sávot jelenít meg mindegyik eltérő értékhez kapcsolódóan – és egyáltalán nem összesíti a mezőértékeket. 
+V3: Egy másik lehetőség az, hogy az adott mezőt egy olyan *gyűjtőbe* helyezte, amely csak kategóriaértékeket engedélyez.  Ebben az esetben csak a Darabszám és a Darabszám (eltérők) típus érhető el.
+
+V4: A harmadik lehetőség pedig az, hogy tengelyen használja az adott mezőt. Például a sávdiagramok tengelyén a Power BI egy sávot jelenít meg mindegyik eltérő értékhez kapcsolódóan – és egyáltalán nem összesíti a mezőértékeket. 
 
 >[!NOTE]
 >Az egyetlen kivételt e szabály alól a pontdiagram képviseli, amely *megköveteli* az összesített értékek használatát az X és az Y tengelyeken.
-
 
 K: Pontdiagramot használok, és szeretném, ha az adott mező *nem* szerepelne az összesítésben.  Hogyan lehet ezt elérni?
 
@@ -129,10 +154,6 @@ K: Számmezők vizualizációhoz való hozzáadásakor azok többsége alapérte
 
 V: Az adatkészlet tulajdonosa állíthatja be az egyes mezőkhöz tartozó, alapértelmezett összesítést. Ha Ön az adatkészlet tulajdonosa, az alapértelmezett összesítést a Power BI Desktop **Modellezés** lapján módosíthatja.
 
-K: **Numerikus** mezőt használok. Miért nincsenek összesítési lehetőségek a legördülő menüben?
-
-V: A számológép ikonnal rendelkező mezők *számított mértéknek* minősülnek, és mindegyik számított mérték saját nem módosítható képlettel rendelkezik, amelyet nem lehet módosítani a Power BI szolgáltatásban. A használt számítás lehet egyszerű összesítés, mint például átlagolás vagy összeadás, de lehet bonyolultabb művelet is, mint például „szülőkategóriához való hozzájárulás százaléka” vagy „göngyölített összeg az év kezdete óta”. A Power BI nem összegzi vagy átlagolja az eredményeket, csak újraszámítást végez az egyes adatpontokhoz kapcsolódóan (a nem változtatható képlet használatával).
-
 K: Adatkészlet-tulajdonos vagyok, és azt szeretném, hogy a rendszer egy adott mezőt soha ne használjon összesítéshez.
 
 V: A Power BI Desktop **Modellezés** lapján állítsa be az **Adattípus** lehetőséget **Szöveg** típusra.
@@ -141,5 +162,5 @@ K: Nem látom az **Összegzés mellőzése** lehetőséget a legördülő menüb
 
 V: Próbálja eltávolítani a mezőt, majd vegye fel újra.
 
-További kérdései vannak? [Felteheti őket a Power BI-közösségnek](http://community.powerbi.com/)
+További kérdései vannak? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)
 

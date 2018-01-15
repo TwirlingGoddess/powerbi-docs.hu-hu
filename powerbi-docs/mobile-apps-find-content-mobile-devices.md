@@ -1,6 +1,6 @@
 ---
 title: "Irányítópultok, jelentések, alkalmazások megkeresése a Power BI mobilalkalmazásokban"
-description: "Megtudhatja, hol találja az irányítópultokat és jelentéseket a Power BI mobilalkalmazásokban, attól függően, hogy honnan származnak."
+description: "Megtudhatja, hol találja az irányítópultokat, jelentéseket és alkalmazásokat a Power BI mobilalkalmazásokban, attól függően, hogy honnan származnak."
 services: powerbi
 documentationcenter: 
 author: maggiesMSFT
@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/13/2017
+ms.date: 01/04/2018
 ms.author: maggies
-ms.openlocfilehash: 6dca860e4711d85b4b53c31c91ba4cba20bbe6e7
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: d63ef5ad9ee59901917fb9bf9c28358c9aa542e8
+ms.sourcegitcommit: 25489cf87c31fc107a5337fa1dd36506897c4bbb
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/05/2018
 ---
 # <a name="find-your-dashboards-reports-and-apps-in-the-power-bi-mobile-apps"></a>Az irányítópultok, jelentések és alkalmazások megkeresése a Power BI mobilalkalmazásokban
 A következőkre vonatkozik:
@@ -49,7 +49,7 @@ Csatlakozhat egy vagy több helyszíni Power BI jelentéskészítő kiszolgáló
 ## <a name="3-apps"></a>3 Alkalmazások
 Az alkalmazások olyan irányítópultok és jelentések gyűjteményei, amelyeket a szervezet kimondottan a főmutatók megjelenítése érdekében állított össze a gyorsabb és egyszerűbb, adatokra épülő döntéshozatal érdekében. A Power BI szolgáltatásban ([https://powerbi.com](https://powerbi.com)) az alkalmazások könnyedén felderíthetők és telepíthetők. A telepítésük után bármely eszközről megtekinthetők. 
 
-![Power BI – új navigáció](media/mobile-apps-find-content-mobile-devices/power-bi-mobile-apps.png)
+![Power BI – új navigáció](media/mobile-apps-find-content-mobile-devices/power-bi-apps-mobile-apps.png)
 
 Az alkalmazásokkal automatikusan megkapja a szerző által végzett összes frissítést, és a szerző az adatok ütemezett frissítéseinek gyakoriságát is meghatározza. Nem kell aggódnia amiatt, hogy naprakész maradjon a szerző módosításaival.
 

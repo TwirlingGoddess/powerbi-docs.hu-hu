@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/18/2017
+ms.date: 01/08/2018
 ms.author: mihart
-ms.openlocfilehash: 83c63ee2bed5ae7674223cf2fc3f9241308926e9
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 22dc1c9b703b500625a5aed23b6187fd3f616dde
+ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/09/2018
 ---
 # <a name="drill-down-in-a-visualization-in-power-bi"></a>Lehatolás a vizualizációk mélyebb szintjeire a Power BI-ban
 ## <a name="drill-down-requires-a-hierarchy"></a>A lehatoláshoz hierarchiára van szükség
@@ -54,7 +54,7 @@ A vizualizációkban kétféle módon lehet le- illetve felhatolni.  Ez a cikk m
 ## <a name="method-1-for-drill-down"></a>1. lehatolási módszer
 Ez a módszer a vizualizációk felső sarkaiban megjelenő lehatolási ikonokat használja.
 
-1. A Power BI-ban nyisson meg egy jelentést [Olvasás nézetben](service-report-open-in-reading-view.md) vagy [Szerkesztés nézetben](service-reading-view-and-editing-view.md). A lehatoláshoz hierarchiával rendelkező vizualizációra van szükség. 
+1. A Power BI-ban nyisson meg egy jelentést [Olvasó nézetben vagy Szerkesztő nézetben](service-reading-view-and-editing-view.md). A lehatoláshoz hierarchiával rendelkező vizualizációra van szükség. 
    
    Az alábbi animáción egy hierarchia látható.  A vizualizáció területből (Territory), városból (City), irányítószámból (Postal Code) és városnévből (Name) felépülő hierarchiával rendelkezik. Minden területhez egy vagy több város, minden városhoz egy vagy több irányítószám tartozik, és így tovább. Alapértelmezés szerint a vizualizáció csak a területi adatokat jeleníti meg, mert a lista első eleme a *Territory* (Terület).
    
@@ -75,7 +75,7 @@ Ez a módszer a vizualizációk felső sarkaiban megjelenő lehatolási ikonokat
 ## <a name="method-2-for-drill-down"></a>2. lehatolási módszer
 Ehhez a módszerhez a Power BI felső menüsorában található **Tallózás** legördülő menüt kell használni.
 
-1. A Power BI-ban nyisson meg egy jelentést [Olvasás nézetben](service-report-open-in-reading-view.md) vagy [Szerkesztés nézetben](service-reading-view-and-editing-view.md). A lehatoláshoz hierarchiával rendelkező vizualizációra van szükség. 
+1. A Power BI-ban nyisson meg egy jelentést [Olvasó nézetben vagy Szerkesztő nézetben](service-reading-view-and-editing-view.md). A lehatoláshoz hierarchiával rendelkező vizualizációra van szükség. 
    
    Az alábbi ábrán egy hierarchia látható.  A vizualizáció területből (Territory), városból (City), irányítószámból (Postal Code) és városnévből (Name) felépülő hierarchiával rendelkezik. Minden területhez egy vagy több város, minden városhoz egy vagy több irányítószám tartozik, és így tovább. Alapértelmezés szerint a vizualizáció csak a területi adatokat jeleníti meg, mert a lista első eleme a *Territory* (Terület).
    
@@ -106,5 +106,5 @@ Ehhez a módszerhez a Power BI felső menüsorában található **Tallózás** l
 
 [Power BI – Alapfogalmak](service-basic-concepts.md)
 
-További kérdései vannak? [Felteheti azokat a Power BI-közösségnek](http://community.powerbi.com/)
+További kérdései vannak? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)
 

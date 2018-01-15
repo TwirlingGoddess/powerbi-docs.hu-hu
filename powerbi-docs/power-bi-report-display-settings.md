@@ -18,11 +18,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/24/2017
 ms.author: mihart
-ms.openlocfilehash: 650e02ea7d6f31fce9e5a0a458c41d6daa3fa9e1
-ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
+ms.openlocfilehash: 57c441c489bf71db4b45bdfb96821b3cc2dcdec3
+ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 01/03/2018
+ms.lasthandoff: 01/09/2018
 ---
 # <a name="page-display-settings-in-a-power-bi-report"></a>Oldal megjelenítési beállításai Power BI-jelentésben
 Tudjuk, milyen fontos, hogy a jelentéseinek elrendezése az utolsó pixelig tökéletes legyen. Néha azonban ez kihívást jelenthet, ugyanis Ön és a munkatársai a jelentéseket különböző méretű és méretarányú képernyőkön nézik. 
@@ -45,7 +45,7 @@ A Power BI szolgáltatásban nyisson meg egy jelentést, majd válassza a **Néz
 
 ![](media/power-bi-report-display-settings/power-bi-change-page-view.png)
 
-Az oldal nézetének beállításai az [Olvasó nézetből](service-interact-with-a-report-in-reading-view.md) és a [Szerkesztő nézetből](service-interact-with-a-report-in-editing-view.md) is elérhetők. A jelentés tulajdonosa a Szerkesztési nézetben az egyes jelentésoldalakhoz különböző oldalnézetek-beállításokat rendelhet, melyeket a jelentéssel együtt ment a rendszer. Ha a munkatársak Olvasó nézetben nyitnak meg egy jelentést, akkor a jelentésoldalakat a tulajdonos beállításainak megfelelően fogják látni.  Olvasási nézetben a munkatársak *néhányat* módosíthatnak az oldalnézet beállításai közül, de a rendszer nem menti a módosításokat, amikor kilépnek a jelentésből.
+Az oldal nézetének beállításai az [Olvasó nézetből és a Szerkesztő nézetből](service-reading-view-and-editing-view.md) is elérhetők. A jelentés tulajdonosa a Szerkesztési nézetben az egyes jelentésoldalakhoz különböző oldalnézetek-beállításokat rendelhet, melyeket a jelentéssel együtt ment a rendszer. Ha a munkatársak Olvasó nézetben nyitnak meg egy jelentést, akkor a jelentésoldalakat a tulajdonos beállításainak megfelelően fogják látni.  Olvasási nézetben a munkatársak *néhányat* módosíthatnak az oldalnézet beállításai közül, de a rendszer nem menti a módosításokat, amikor kilépnek a jelentésből.
 
 ##    <a name="page-view-settings"></a>Oldalnézet beállításai
 Az *Oldalnézet* beállításainak első készlete a jelentésoldal megjelenítését a böngésző ablakához viszonyítva szabályozza.  Az alábbiak közül választhat:
@@ -83,5 +83,5 @@ További tudnivaló a [Power BI-jelentésekről](service-reports.md)
 
 [Power BI – Alapfogalmak](service-basic-concepts.md)
 
-További kérdései vannak? [Felteheti azokat a Power BI-közösségnek](http://community.powerbi.com/)
+További kérdései vannak? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)
 

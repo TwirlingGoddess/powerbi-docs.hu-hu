@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/29/2017
 ms.author: mihart
-ms.openlocfilehash: 3710b8136a5f8f00d78047d9468dce0d6e68377f
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: da3d4359fab37d1c5ee5f9d214cc5dba0fa9b680
+ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/09/2018
 ---
 # <a name="take-a-tour-of-the-report-filters-pane"></a>Ismerkedés a jelentések Szűrők panelével
 A cikk a jelentések Szűrők panelét mutatja be részletesen. A panel a Power BI jelentések szerkesztési és olvasó nézetében jelenik meg.
@@ -29,7 +29,7 @@ A cikk a jelentések Szűrők panelét mutatja be részletesen. A panel a Power 
 Az adatok szűrésének számos módja áll rendelkezésre a Power BI-ban, ezért javasoljuk, hogy először olvassa el a [szűrőkkel és a kiemeléssel](power-bi-reports-filters-and-highlighting.md) foglalkozó szakaszt.
 
 ## <a name="working-with-filters"></a>A szűrők használata
-A jelentések [szerkesztési](service-interact-with-a-report-in-editing-view.md) és [olvasási nézetben](service-interact-with-a-report-in-reading-view.md) nyithatóak meg. Szerkesztési nézetben a tulajdonosai [szűrőket adhatnak a jelentéshez](power-bi-report-add-filter.md), és a szűrők a jelentéssel együtt lesznek mentve. Azok, akik Olvasás nézetben tekintik meg a jelentést, kezelhetik a szűrőket, de nem menthetik a jelentést a módosított szűrőkkel.
+A jelentések [Szerkesztő vagy Olvasó nézetben](service-reading-view-and-editing-view.md) nyithatóak meg. Szerkesztési nézetben a tulajdonosai [szűrőket adhatnak a jelentéshez](power-bi-report-add-filter.md), és a szűrők a jelentéssel együtt lesznek mentve. Azok, akik Olvasó nézetben tekintik meg a jelentést, kezelhetik a szűrőket, de nem menthetik a jelentést a módosított szűrőkkel.
 
 ## <a name="filters-in-reading-view"></a>Az Olvasás nézet szűrői
 Amikor megnyit egy jelentést Olvasás nézetben, a Szűrők panel megjelenik a jelentésvászon jobb oldalán. Ha a panel nem látható, a jobb felső sarokban található nyíllal nyitható meg.
@@ -122,12 +122,12 @@ Ha egy mező dátum- vagy időértékeket tartalmaz, a Dátum/idő szűrőknél 
 
 ## <a name="next-steps"></a>Következő lépések
 [Szűrők és kiemelések a jelentésekben](power-bi-reports-filters-and-highlighting.md)  
-[Szűrők és kiemelések használata a jelentések Olvasás nézetében](service-interact-with-a-report-in-reading-view.md)  
+[Szűrők és kiemelések használata a jelentések Olvasás nézetében](service-reading-view-and-editing-view.md)  
 [Szűrők létrehozása a jelentések Szerkesztési nézetében](power-bi-report-add-filter.md)  
 [A jelentésvizualizációk keresztszűrési és keresztkiemelési viselkedésének módosítása](service-reports-visual-interactions.md)
 
 A [Power BI jelentéseiről itt talál](service-reports.md) további információkat  
 [Power BI – Alapfogalmak](service-basic-concepts.md)
 
-További kérdései vannak? [Forduljon a Power BI közösségéhez](http://community.powerbi.com/)
+További kérdései vannak? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)
 

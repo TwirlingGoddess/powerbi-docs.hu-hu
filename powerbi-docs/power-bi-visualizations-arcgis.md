@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/23/2017
+ms.date: 01/08/2018
 ms.author: mihart
-ms.openlocfilehash: 511f01494410215451d9f77ff637c7cfce8e89b3
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 6d2c14de83fcea1e9067fd3868b7559c3becce14
+ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/09/2018
 ---
 # <a name="interacting-with-arcgis-maps-in-power-bi"></a>ArcGIS-térképek használata a Power BI-ban
 Ez a témakör az ArcGIS-térképet a Power BI szolgáltatás, a Desktop alkalmazás vagy a mobilalkalmazás felületén *használó* felhasználó szemszögéből van megírva. Ha egy ArcGIS-térképet a létrehozója megoszt Önnel, számos különféle módon használhatja azt.  Az ArcGIS-térképek létrehozásával kapcsolatos információkért lásd: [Az esri ArcGIS-térképeinek oktatóanyaga](power-bi-visualization-arcgis.md).
@@ -39,7 +39,7 @@ A jelen példában ugyanazt az ArcGIS-térképet használjuk, amely [Az esri Arc
 ![](media/power-bi-visualizations-arcgis/power-bi-arcgis-esri-new.png)
 
 > [!TIP]
-> Példákat és beszámolókat az [esri Power BI-oldalán](https://www.esri.com/powerbi) talál. Ezt követően pedig tekintse meg az esri [ArcGIS Maps for Power BI termékének Első lépések oldalát](https://doc.arcgis.com/en/maps-for-powerbi/get-started/about-maps-for-power-bi.htm).
+> Példákat és beszámolókat az [esri Power BI-oldalán](https://www.esri.com/powerbi) talál. Ezután tekintse meg az esri [ArcGIS Maps for Power BI termékének Első lépések oldalát](https://doc.arcgis.com/en/maps-for-powerbi/get-started/about-maps-for-power-bi.htm) is.
 > 
 > 
 
@@ -62,7 +62,7 @@ Az ArcGIS Maps for Power BI három kijelölési módot tesz lehetővé. Egyszerr
 <br/>
 
 ## <a name="interacting-with-an-arcgis-map"></a>Az ArcGIS-térképek használata
-Az elérhető funkciók attól függően változnak, hogy Ön a térkép *létrehozója* (aki a térképet készítette) vagy *felhasználója* (valaki megosztotta Önnel az ArcGIS-térképet). Ha felhasználóként használja valamely ArcGIS-térképet (lásd [Olvasás nézet](service-interact-with-a-report-in-reading-view.md)), az alábbi műveleteket hajthatja végre.
+Az elérhető funkciók attól függően változnak, hogy Ön a térkép *létrehozója* (aki a térképet készítette) vagy *felhasználója* (valaki megosztotta Önnel az ArcGIS-térképet). Ha felhasználóként használja valamely ArcGIS-térképet (lásd [Olvasás nézet](service-reading-view-and-editing-view.md)), az alábbi műveleteket hajthatja végre.
 
 * Ahogy a képi megjelenítések egyéb típusait, a térképeket is [rögzítheti az irányítópultokra](service-dashboard-pin-tile-from-report.md), [megtekintheti](service-reports-show-data.md) és/vagy [exportálhatja a mögöttes adatokat](power-bi-visualization-export-data.md), továbbá megtekintheti [Fókusz módban](service-focus-mode.md) és [Teljes képernyős nézetben](service-fullscreen-mode.md).    
 * A **Szűrők** panel kibontásával szűrők használatával derítheti fel a térképet. A jelentés bezárásakor az alkalmazott szűrők nem lesznek mentve.    
@@ -93,7 +93,7 @@ Az elérhető funkciók attól függően változnak, hogy Ön a térkép *létre
 Az ArcGIS Maps for Power BI az alábbi szolgáltatásokban és alkalmazásokban érhető el:
 
 <table>
-<tr><th>Szolgáltatás/alkalmazás</th><th>Rendelkezésre állás</th></tr>
+<tr><th>Szolgáltatás/alkalmazás</th><th>Elérhetőség</th></tr>
 <tr>
 <td>Power BI Desktop</td>
 <td>Igen</td>

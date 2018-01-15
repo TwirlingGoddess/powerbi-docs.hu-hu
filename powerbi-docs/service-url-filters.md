@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/4/2017
+ms.date: 01/08/2018
 ms.author: mihart
-ms.openlocfilehash: 80a5a668056d1a3f3f2b53600e80f399be4a5e08
-ms.sourcegitcommit: 54da95f184dd0f7bb59bb0bc8775a1d93129b195
+ms.openlocfilehash: 8a818c26a6f9afd134133464b972091faaad093d
+ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 12/08/2017
+ms.lasthandoff: 01/09/2018
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>Jelentés szűrése lekérdezésisztring-paraméterek URL-címben való használatával
 A Power BI szolgáltatásban megnyitott jelentések minden egyes oldalának saját egyedi URL-címe van. Az adott jelentésoldal a jelentésvászon Szűrők paneljének használatával szűrhető.  A jelentés úgy is szűrhető, hogy lekérdezésisztring-paramétereket ad hozzá a jelentés URL-címéhez. Tegyük fel, hogy egy jelentést meg szeretne mutatni a munkatársainak, és előre szűrni szeretné azt a számukra. Ennek egyik módja, hogy a jelentés alapértelmezett URL-címéből kiindulva hozzáfűzi ahhoz a szűrési paramétereket, majd elküldi nekik a teljes URL-címet.
@@ -41,7 +41,7 @@ URL-cím?filter=***Tábla***/***Mező*** eq '***érték***'
 * A **Tábla** és a **Mező** név megkülönbözteti a kis- és nagybetűket, az **érték** viszont nem.
 * A jelentésnézetben rejtett mezők is szűrhetők.
 * Az **értéket** aposztrófok között kell megadni.
-* A mezőnek sztring típusúnak kell lennie.
+* A fájltípusnak szám vagy sztring típusúnak kell lennie
 * A tábla és a mező neve nem tartalmazhat szóközöket.
 
 Ha egyelőre nem minden világos, akkor olvasson tovább, és bővebb kifejtést is találhat.  
@@ -108,7 +108,7 @@ Bizonyos esetekben ez hasznos is lehet, ha különböző eredményeket szeretne 
 Lekérdezésisztring-paraméterek használatakor néhány szemponttal érdemes tisztában lenni.
 
 * A lekérdezési sztringgel végzett szűrés [webes közzététellel](service-publish-to-web.md) és Power BI Embedded használatával nem működik.   
-* A mezőnek sztring típusúnak kell lennie.
+* A fájltípusnak szám vagy sztring típusúnak kell lennie.
 * A tábla és a mező neve nem tartalmazhat szóközöket.
 
 ## <a name="next-steps"></a>Következő lépések

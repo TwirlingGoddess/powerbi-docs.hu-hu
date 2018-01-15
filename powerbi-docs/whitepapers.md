@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/14/2017
+ms.date: 01/05/2018
 ms.author: asaxton
-ms.openlocfilehash: a4ceeda4d56853df42da8e5c644b3946878a89f0
-ms.sourcegitcommit: 2bd3c16fd300e41c6e3de29a24543491c1d53354
+ms.openlocfilehash: 893f9a9b539b2facd62f74f8ecaebe42a4e7fcaa
+ms.sourcegitcommit: 7517c068db806f12bb0b953e9a1bd4249ca12da5
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/05/2018
 ---
 # <a name="whitepapers-for-power-bi"></a>Power BI-tanulmányok
 
@@ -41,5 +41,6 @@ A tanulmányokkal behatóbban ismerheti meg a Power BI témaköreit. Itt találj
 | [Biztonság](service-admin-power-bi-security.md) |Részletes leírást nyújt a Power BI-on belüli biztonságról. |
 | [A táblázatos BI szemantikai modell biztonságossá tétele](http://download.microsoft.com/download/D/2/0/D20E1C5F-72EA-4505-9F26-FEF9550EFD44/Securing%20the%20Tabular%20BI%20Semantic%20Model.docx) |Ez a tanulmány bemutatja a táblázatos BI-szemantika és a Power BI biztonsági modelljét. Megtudhatja, hogyan hozhat létre szerepköröket, valósíthat meg dinamikus biztonságot, konfigurálhat megszemélyesítési beállításokat, kezelhet szerepköröket és választhatja ki a módszert a hálózati biztonsági környezetében működő modellekhez való csatlakozáshoz. |
 | [Kapacitástervezési útmutató a Power BI jelentéskészítő kiszolgálóhoz](report-server/capacity-planning.md) |Ez a tanulmány útmutatást nyújt a Power BI jelentéskészítő kiszolgáló kapacitástervezéséhez. Ehhez számos olyan terhelésteszt eredményét osztja meg, amelyek során különböző számítási feladatokat futtattak egy jelentéskiszolgálón. |
-|[A Power BI Premium tervezése és üzembe helyezése](https://aka.ms/Premium-Capacity-Planning-Deployment) | A Power BI Premium tervezésével, telepítésével és üzembe helyezésével kapcsolatos ajánlott eljárásokat és útmutatást tartalmazó műszaki tanulmány. 
+| [A Power BI Premium tervezése és üzembe helyezése](https://aka.ms/Premium-Capacity-Planning-Deployment)| Ez a tanulmány útmutatást nyújt és ajánlott eljárásokat mutat be a prémium szintű kapacitás meghatározott számítási feladatokhoz történő tervezéséhez és üzembe helyezéséhez.|
+
 További kérdései vannak? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)

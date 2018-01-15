@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/27/2017
+ms.date: 01/08/2018
 ms.author: mihart
-ms.openlocfilehash: 4610523d7c18246394974083c948b7bc018b4da1
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 692bcad734c2c011fc81fedf9fb8870d518cab06
+ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/09/2018
 ---
 # <a name="view-related-content-in-power-bi-service"></a>Kapcsolódó tartalom megtekintése a Power BI szolgáltatásban
 A **Kapcsolódó tartalom** ablaktáblában megtekintheti, hogyan vannak összekapcsolva a különböző Power BI-tartalmak – irányítópultok, jelentések és adatkészletek.  És ami még jobb, erről az ablaktábláról elvégezheti az olyan gyakori feladatokat is, mint a frissítés, az átnevezés, az értékelések készítése és még sok minden más. Ha kiválaszt egy kapcsolódó jelentést vagy irányítópultot, az megnyílik a Power BI munkaterületén.   
@@ -74,7 +74,7 @@ A munkaterületen válassza a **Jelentések** lapot, majd a **Kapcsolódó megte
 <br>
 **2. módszer**
 
-Nyissa meg az adott jelentést [Olvasó nézetben](service-interact-with-a-report-in-reading-view.md), és válassza ki a ![](media/service-related-content/power-bi-view-related-new.png) gombot a felső menüsorból.
+Nyissa meg az adott jelentést [Olvasó nézetben](service-reading-view-and-editing-view.md), és válassza ki a ![](media/service-related-content/power-bi-view-related-new.png) gombot a felső menüsorból.
 
 Megnyílik a **Kapcsolódó tartalom** ablaktábla. Itt megtekintheti a kapcsolódó adatkészleteket, és az összes olyan irányítópultot, amelyekre legalább egy csempe ki van tűzve a jelentésből. Ebben az esetben a jelentésből két különböző irányítópultra vannak kitűzve vizualizációk.
 
@@ -97,11 +97,11 @@ Innen közvetlen műveleteket is végezhet a kapcsolódó tartalmakon.  Példáu
 
 ## <a name="limitations-and-troubleshooting"></a>Korlátozások és hibaelhárítás
 * Ha a böngésző ablakában nincs elég hely, akkor lehet, hogy nem látszik a **Kapcsolódó megtekintése** lehetőség, csak a Kapcsolódó megtekintése ikon ![](media/service-related-content/power-bi-view-related-icon-new.png). Válassza ki az ikont a **Kapcsolódó tartalom** ablaktábla megnyitásához.
-* Egy jelentés kapcsolódó tartalmainak megnyitásához [Olvasó nézetben](service-interact-with-a-report-in-reading-view.md) kell lennie.
+* Egy jelentés kapcsolódó tartalmainak megnyitásához [Olvasó nézetben](service-reading-view-and-editing-view.md) kell lennie.
 * A Kapcsolódó tartalom funkció a Power BI Desktop alkalmazásban nem érhető el.
 * A Kapcsolódó tartalom funkció nem működik streamelt adatkészletek esetében.
 
 ## <a name="next-steps"></a>További lépések
 * [A Power BI szolgáltatás használatának első lépései](service-get-started.md)
-* További kérdései vannak? [Kérdezze meg a Power BI közösséget!](http://community.powerbi.com/)
+* További kérdései vannak? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)
 

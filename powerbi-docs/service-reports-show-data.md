@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/25/2017
+ms.date: 01/08/2018
 ms.author: mihart
-ms.openlocfilehash: 5fcfd09e74f661a1cc5ab8fcda6cf4cd0525437a
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: b9e72c57ccd165ed02424e303c5ec54f179868e0
+ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/09/2018
 ---
 # <a name="show-the-data-that-was-used-to-create-the-visualization"></a>A vizualizáció létrehozásához használt adatok megjelenítése
 ## <a name="show-data"></a>Adatok megjelenítése
@@ -35,7 +35,7 @@ A vizualizáció létrehozásához használt adatokat exportálhatja is .xlsx va
 > 
 
 ## <a name="using-show-data-in-power-bi-service"></a>Az *Adatok megjelenítésének* használata a Power BI szolgáltatásban
-1. A Power BI szolgáltatásban nyisson meg egy jelentést az [Olvasás nézetben](service-report-open-in-reading-view.md) vagy a [Szerkesztési nézetben](service-reading-view-and-editing-view.md), és válasszon egy vizualizációt.  A Power BI Desktopban nyissa meg a Jelentés nézetet.
+1. A Power BI szolgáltatásban nyisson meg egy jelentést az [Olvasó vagy a Szerkesztő nézetben](service-reading-view-and-editing-view.md), és válasszon egy vizualizációt.  A Power BI Desktopban nyissa meg a Jelentés nézetet.
 2. A vizualizáció mögötti adatok megjelenítéséhez válassza a **Tallózás** > **Adatok megjelenítése** elemet.
    
    ![](media/service-reports-show-data/power-bi-show-data.png)

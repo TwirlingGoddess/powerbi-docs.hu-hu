@@ -18,11 +18,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: mihart
-ms.openlocfilehash: fb498f2b3320b96958467a9db851f119dba20ce7
-ms.sourcegitcommit: 54da95f184dd0f7bb59bb0bc8775a1d93129b195
+ms.openlocfilehash: 01e4f19cc1a3a57179be37cf0f36adf15ac47fdc
+ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 12/08/2017
+ms.lasthandoff: 01/09/2018
 ---
 # <a name="automatically-generate-data-insights-with-power-bi"></a>Adatelemzések automatikus generálása a Power BI-jal
 Van egy új adatkészlete, de nem tudja, hogy kezdje el feldolgozni?  Gyorsan létre kell hoznia egy irányítópultot?  Szeretne felfedezni eddig hiányzó összefüggéseket?
@@ -71,7 +71,7 @@ Most Ön következik. Fedezze fel az elemzések szolgáltatást a [Supplier Qual
     ![](media/service-insights/power-bi-insight-focus.png)
 3. Fókusz módban a következő műveleteket végrehajtására van lehetőség:
    
-   * Vizualizációk [szűrése](service-interact-with-a-report-in-reading-view.md).  A szűrők megjelenítéshez a jobb felső sarokban látható nyilat választva tudja kinyitni a Szűrők ablaktábláját.
+   * Vizualizációk szűrése.  A szűrők megjelenítéshez a jobb felső sarokban látható nyilat választva tudja kinyitni a Szűrők ablaktábláját.
      
         ![](media/service-insights/power-bi-insights-filter-new.png)
    * Az elemzéskártyát a kitűzés ![](media/service-insights/power-bi-pin-icon.png) ikont vagy a **Vizualizáció rögzítése** lehetőséget választva tűzheti ki egy irányítópultra.
@@ -99,5 +99,5 @@ Ha Ön az adatkészlet tulajdonosa, akkor [optimalizálhatja azt gyors elemzése
 
 További tudnivalók a [Gyors elemzések típusaival kapcsolatban](service-insight-types.md)
 
-További kérdései vannak? [Felteheti azokat a Power BI-közösségnek](http://community.powerbi.com/)
+További kérdései vannak? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)
 

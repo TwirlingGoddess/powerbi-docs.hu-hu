@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/09/2017
-ms.author: asaxton
-ms.openlocfilehash: 4a8ea2acfcfe41192b82addfe52dbe67a0df8088
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.date: 01/04/2018
+ms.author: maghan
+ms.openlocfilehash: 1eaa549bf42c17cd2bd857efd4d50b991e862ea0
+ms.sourcegitcommit: 25489cf87c31fc107a5337fa1dd36506897c4bbb
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/05/2018
 ---
 # <a name="overview-of-the-power-bi-service-content-pack-program"></a>A Power BI szolgáltatás tartalomcsomag-programjának áttekintése
 A tartalomcsomagok olyan nem beépített tartalmakból álló csomagok, amelyekkel a felhasználók azonnali elemzésekhez juthatnak adatforrásaikból. A tartalomcsomagok általában egy adott üzleti forgatókönyvre fókuszálva elemzéseket készítenek egy szerepkörről, tartományról vagy munkafolyamatról.
@@ -49,6 +49,7 @@ Ahhoz, hogy létrehozzon egy tartalomcsomagot, majd beküldje a Power BI szolgá
 * Rendelkeznie kell üzleti felhasználók által használt Saas-alkalmazással.
 * Az SaaS-alkalmazásnak olyan felhasználói adatokat kell tartalmaznia, amelyek megjeleníthetők a Power BI-ban.
 * Az SaaS-alkalmazásnak az interneten keresztül nyilvánosan elérhető API-val kell rendelkeznie. Ideális esetben az API egy REST-alapú API vagy OData-csatorna. A Power BI tartalomcsomagok több hitelesítéstípust is támogatnak, mint az alapszintű hitelesítés, az OAuth 2.0 és az API-kulcs. 
+* SaaS-alkalmazása számára engedélyezve van tartalomcsomag közzététele. Kérelem beküldése: pbiservicesapps@microsoft.com. Minden kérelmet a relevancia és a várható használat alapján értékelünk. 
 * Aláírt partnerszerződéssel kell rendelkeznie. Ezt a [beküldés lépésben](template-content-pack-testing.md#submission) fogja megtenni.
 
 Kérjük, tekintse át a [tartalomkészítés](template-content-pack-authoring.md) szakaszt, amelyben részletesebben olvashat a technikai követelményekről.
