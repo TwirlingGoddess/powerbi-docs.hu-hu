@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/20/2017
+ms.date: 01/10/2018
 ms.author: mihart
-ms.openlocfilehash: e2f1ca5abf05c92e76497d7b50600e6ef12e03fc
-ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
+ms.openlocfilehash: 2994e61407bd858792e73019472cd6752abb401d
+ms.sourcegitcommit: afd6e9e6f8b192b26486cd04d2cbc9de046911b3
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 12/21/2017
+ms.lasthandoff: 01/11/2018
 ---
 # <a name="delete-almost-anything-in-power-bi-service"></a>A Power BI szinte bármelyik elemének törlése
 Ebből a cikkből megtudhatja, hogyan törölhet egy irányítópultot, jelentést, munkafüzetet, adatkészletet, alkalmazást, vizualizációt vagy munkaterületet a Power BI szolgáltatásból.
@@ -141,9 +141,9 @@ Ha töröl egy alkalmazást az alkalmazásokat listázó oldalról, azzal más t
 Ez a cikk bemutatta, hogyan törölheti a Power BI szolgáltatás főbb alkotóelemeit. Vannak azonban egyéb dolgok is, amelyeket törölhet a Power BI szolgáltatásban.  
 
 * [A Kiemelt irányítópult eltávolítása](service-dashboard-featured.md#change-the-featured-dashboard)
-* [Egy irányítópult eltávolítása (kedvencnek jelölés visszavonása)](service-dashboard-favorite.md#unfavorite-a-dashboard)
+* [Egy irányítópult eltávolítása (kedvencnek jelölés visszavonása)](service-dashboard-favorite.md)
 * [Jelentésoldal törlése](service-delete.md)
 * [Irányítópult csempe törlése](service-dashboard-edit-tile.md)
 * [Jelentés-vizualizáció törlése](service-delete.md)
 
-További kérdései vannak? [Felteheti azokat a Power BI-közösségnek](http://community.powerbi.com/)
+További kérdései vannak? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)

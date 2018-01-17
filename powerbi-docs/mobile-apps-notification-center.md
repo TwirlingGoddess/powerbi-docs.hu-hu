@@ -15,20 +15,20 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 07/17/2017
+ms.date: 01/16/2018
 ms.author: maggies
-ms.openlocfilehash: 855d72b46e37938727e5a60bbae5652c0f557708
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 218e7054a195db15f3b8b7c890723be7f0638d0c
+ms.sourcegitcommit: 259d7689bcb1683d4d63a245a9b02becea072139
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/17/2018
 ---
 # <a name="get-notifications-in-the-power-bi-mobile-apps"></a>Értesítések fogadása a Power BI-mobilalkalmazásokban
 A következőkre vonatkozik:
 
-| ![iPhone](media/mobile-apps-notification-center/iphone-logo-50-px.png) | ![iPad](media/mobile-apps-notification-center/ipad-logo-50-px.png) | ![Android-telefon](media/mobile-apps-notification-center/android-phone-logo-50-px.png) | ![Android-táblagép](media/mobile-apps-notification-center/android-tablet-logo-50-px.png) | ![Windows 10](media/mobile-apps-notification-center/win-10-logo-50-px.png) |
+| ![iPhone](media/mobile-apps-notification-center/iphone-logo-50-px.png) | ![iPad](media/mobile-apps-notification-center/ipad-logo-50-px.png) | ![Android rendszerű telefon](media/mobile-apps-notification-center/android-phone-logo-50-px.png) | ![Android rendszerű táblagép](media/mobile-apps-notification-center/android-tablet-logo-50-px.png) | ![Windows 10](media/mobile-apps-notification-center/win-10-logo-50-px.png) |
 |:--- |:--- |:--- |:--- |:--- |
-| iPhone-ok |iPadek |Android-telefonok |Android-táblagépek |Windows 10 rendszerű eszközök |
+| iPhone-ok |iPadek |Android rendszerű telefonok |Android rendszerű táblagépek |Windows 10 rendszerű eszközök |
 
 Az Értesítések szolgáltatás a Power BI használatával kapcsolatos információt közvetlenül Önnek küldi a Power BI szolgáltatásban vagy a mobileszközén. Az Értesítések megnyitásakor megjelennek a [beállított értesítések](mobile-set-data-alerts-in-the-mobile-apps.md) alapján az egymást követő üzenetek a hírcsatornában, az Önnel megosztott új irányítópultok, a csoport munkaterületének változásai, a Power BI-eseményekre és -értekezletekre vonatkozó információk és egyebek.
 

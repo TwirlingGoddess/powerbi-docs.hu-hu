@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: powerbi
-ms.date: 11/27/2017
+ms.date: 01/10/2018
 ms.author: davidi
-ms.openlocfilehash: 4693349715e7a38ae936318e9a8750e0b2f3fab0
-ms.sourcegitcommit: 7742f952c20695dfb475f74965c0065b02c01521
+ms.openlocfilehash: 0e0ad501ed809fc1f7cd8cc66d7f5d13badf7d15
+ms.sourcegitcommit: afd6e9e6f8b192b26486cd04d2cbc9de046911b3
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/29/2017
+ms.lasthandoff: 01/11/2018
 ---
 # <a name="on-premises-data-gateway"></a>Helyszíni adatátjáró
 A helyszíni adatátjárók hídként működnek, és gyors és biztonságos adatátvitelt biztosítanak a helyszíni (nem a felhőben található) adatok és a Power BI, a Microsoft Flow, a Logic Apps és a PowerApps szolgáltatások között.
@@ -37,15 +37,15 @@ Egy átjárót egyszerre több szolgáltatással is használhat. Ha Power BI-t �
 [!INCLUDE [gateway-onprem-requirements-include](./includes/gateway-onprem-requirements-include.md)]
 
 ### <a name="limitations-of-analysis-services-live-connections"></a>Az Analysis Services élő kapcsolatainak korlátozásai
-Élő kapcsolatokat táblázatos vagy többdimenziós példányokhoz használhat.
+Az élő kapcsolatokat táblázatos vagy többdimenziós példányokhoz használhatja.
 
-| **Kiszolgáló verziója** | **Szükséges termékváltozat** |
+| **Kiszolgáló verziója** | **Kötelező termékváltozat** |
 | --- | --- |
-| 2012 SP1 CU4 vagy újabb |Business Intelligence és Enterprise termékváltozatok |
-| 2014 |Business Intelligence és Enterprise termékváltozatok |
-| 2016 |Standard vagy magasabb szintű termékváltozat |
+| 2012 SP1 CU4 vagy újabb |Business Intelligence és Enterprise termékváltozat |
+| 2014 |Business Intelligence és Enterprise termékváltozat |
+| 2016 |Minimum Standard termékváltozat |
 
-* Cellaszintű formázási és fordítási funkciók nem támogatottak.
+* A cellaszintű formázás és a fordítási funkciók nem támogatottak.
 * Műveletek és elnevezett készletek nem érhetők el a Power BI számára, de kapcsolódhat műveleteket és elnevezett készleteket is tartalmazó többdimenziós kockákhoz, és létrehozhat vizualizációkat és jelentéseket.
 
 <!-- Shared Install steps Include -->
@@ -97,7 +97,7 @@ Ha úgy gondolja, hogy proxyval kapcsolatos problémákba ütközött, tekintse 
 
 ## <a name="next-steps"></a>Következő lépések
 [Adatforrások kezelése – Analysis Services](service-gateway-enterprise-manage-ssas.md)  
-[Adatforrások kezelése – SAP HANA](service-gateway-enterprise-manage-sap.md)  
+[Az adatforrás kezelése – SAP HANA](service-gateway-enterprise-manage-sap.md)  
 [Adatforrások kezelése – SQL Server](service-gateway-enterprise-manage-sql.md)  
 [Adatforrások kezelése – Oracle](service-gateway-onprem-manage-oracle.md)  
 [Adatforrások kezelése – Importálás és ütemezett frissítés](service-gateway-enterprise-manage-scheduled-refresh.md)  
