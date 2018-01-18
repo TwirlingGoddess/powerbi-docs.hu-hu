@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/04/2018
+ms.date: 01/16/2018
 ms.author: maggies
-ms.openlocfilehash: b2df6825232f51a53bada3676faf598d6bc5d70b
-ms.sourcegitcommit: 25489cf87c31fc107a5337fa1dd36506897c4bbb
+ms.openlocfilehash: 9ed87e17d617e7492287f3f0d0c54da1c21b3a53
+ms.sourcegitcommit: 259d7689bcb1683d4d63a245a9b02becea072139
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 01/05/2018
+ms.lasthandoff: 01/17/2018
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>A Power BI mobilalkalmazásainak újdonságai
 Az újdonságokra vonatkozó kapcsolódó információk:
@@ -31,6 +31,11 @@ Az újdonságokra vonatkozó kapcsolódó információk:
 * [A Power BI szolgáltatás újdonságai](service-whats-new.md)  
 
 ## <a name="december-2017"></a>2017. december
+
+### <a name="improved-security-management"></a>Továbbfejlesztett biztonságkezelés 
+
+A rendszert kibővítettük a feltételes hozzáférés (CA) és a Microsoft Intune mobileszköz-kezelés (MDM) támogatásával Android-eszközökön, hogy cége vagy szervezete adatai nagyobb védelemben részesüljenek. Már elérhető iOS rendszeren.
+
 ### <a name="improved-permission-management"></a>Továbbfejlesztett engedélykezelés
 
 Végrehajtottunk bizonyos módosításokat az adathalmazokra, irányítópultokra és jelentésekre vonatkozó felhasználói engedélyek pontosabb kezelése érdekében.

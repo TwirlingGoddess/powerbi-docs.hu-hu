@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/20/2017
+ms.date: 01/10/2018
 ms.author: mihart
-ms.openlocfilehash: bebd31bbdbd2a571d565c6939199eedd7ecdb049
-ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
+ms.openlocfilehash: be245be7c8f83cb363e93a5d2bc452418f436e37
+ms.sourcegitcommit: afd6e9e6f8b192b26486cd04d2cbc9de046911b3
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 01/09/2018
+ms.lasthandoff: 01/11/2018
 ---
 # <a name="power-bi---basic-concepts-for-power-bi-service"></a>Power BI – a Power BI szolgáltatás alapfogalmai
 
@@ -238,7 +238,8 @@ A képernyő ezen területén további lehetőségek találhatók a tartalom (eb
 
 ## <a name="next-steps"></a>Következő lépések
 [Első lépések a Power BI-ban](service-get-started.md)  
-[Power BI-videók.](videos.md)  
+[Navigáció: Eligazodás a Power BI szolgáltatásban](service-the-new-power-bi-experience.md)
+[Power BI-videók](videos.md)  
 [A jelentésszerkesztő – bemutató](service-the-report-editor-take-a-tour.md)
 
 További kérdései vannak? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)

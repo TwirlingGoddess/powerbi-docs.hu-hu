@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/19/2017
+ms.date: 01/11/2018
 ms.author: asaxton
-ms.openlocfilehash: 76435200df843acc4ba60ebab09633aa8f5c258d
-ms.sourcegitcommit: a658b1c936e382f46a19eeb9cc26016cd7b1d756
+ms.openlocfilehash: e614273c21dd5c222816700f0d42888e661ba1e0
+ms.sourcegitcommit: e623f8e5f715bd40a049b6448ca57b80de998cb4
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 12/20/2017
+ms.lasthandoff: 01/13/2018
 ---
 # <a name="embed-your-power-bi-dashboards-reports-and-tiles"></a>Power BI-irányítópultok, -jelentések és -csempék beágyazása
 
@@ -138,7 +138,10 @@ Ha az ügyfelek számára végez beágyazást, a következőket érdemes elvége
 * Ha külön bérlőt használ a fejlesztéshez, győződjön meg arról, hogy az alkalmazás-munkaterületek az irányítópultokkal és a jelentésekkel együtt elérhetők az éles környezetben. Győződjön meg arról, hogy az Azure AD-ban az éles környezetbeli bérlőhöz létrehozta az alkalmazást és hozzárendelte az 1. lépésben jelzett megfelelő alkalmazásengedélyeket.
 * Vásároljon az igényeinek megfelelő kapacitást. Az alábbi táblázatból megtudhatja, milyen kapacitású Power BI Embedded-termékváltozatra van szüksége. További részletekért tekintse meg az [Embedded elemzési kapacitásának tervezésével kapcsolatos tanulmányt](https://aka.ms/pbiewhitepaper). Amikor készen áll a vásárlásra, azt a [Microsoft Azure Portalon](https://portal.azure.com) teheti meg. A Power BI Embedded-kapacitások létrehozásával kapcsolatos részletekért lásd a [Power BI Embedded-kapacitás az Azure Portalon való létrehozásával](https://docs.microsoft.com/azure/power-bi-embedded/create-capacity) kapcsolatos cikket.
 
-| Kapacitási csomópont | Magok száma összesen<br/>*(Háttérrendszer + előtérrendszer)* | Háttérrendszerbeli magok | Előtérrendszerbeli magok | DirectQuery-/élő kapcsolat korlátai | Maximális oldalmegjelenítések óránként csúcsidőszakban |
+> [!IMPORTANT]
+> Mivel a beágyazási tokenek elsődlegesen fejlesztési és tesztelési célokra használhatók, a Power BI fő fiókja csak korlátozott mennyiségű tokent tud előállítani. Éles üzemi beágyazási helyzetekhez [kapacitást szükséges vásárolni](https://docs.microsoft.com/power-bi/developer/embedded-faq#technical). Kapacitásvásárlás esetén nincs korlátja a beágyazási tokenek előállításának.
+
+| Kapacitáscsomópont | Magok száma összesen<br/>*(Háttérrendszer + előtérrendszer)* | Háttérrendszerbeli magok | Előtérrendszerbeli magok | DirectQuery-/élő kapcsolat korlátai | Maximális oldalmegjelenítések óránként csúcsidőszakban |
 | --- | --- | --- | --- | --- | --- |
 | A1 |1 virtuális mag |0,5 mag, 3 GB RAM |0,5 mag | Másodpercenként 5 |1-300 |
 | A2 |2 virtuális mag |1 mag, 5 GB RAM |1 mag | Másodpercenként 10 |301-600 |
@@ -152,6 +155,8 @@ Ha az ügyfelek számára végez beágyazást, a következőket érdemes elvége
     ![Alkalmazás-munkaterület hozzárendelése kapacitáshoz](media/embedding-content/powerbi-embedded-premium-capacity.png)
 
 * Helyezze üzembe a frissített alkalmazást az éles környezetben, és kezdje meg a Power BI-irányítópultok és -jelentések beágyazását.
+
+
 
 ## <a name="admin-settings"></a>Rendszergazdai beállítások
 

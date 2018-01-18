@@ -1,7 +1,7 @@
 ## <a name="requirements"></a>Követelmények
 **Rendszerkövetelmények:**
 
-* A .NET-keretrendszer 4.5-ös verziója
+* .NET 4.6 keretrendszer
 * 64 bites Windows 7 vagy Windows Server 2008 R2 (vagy újabb)
 
 **Ajánlott:**

@@ -18,11 +18,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/23/2017
 ms.author: mihart
-ms.openlocfilehash: 17073390cf19b742730712a8d39a353c7d541cd6
-ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
+ms.openlocfilehash: 44c248d1a99a10c69b3fb7c78e68320fdc5cd2b2
+ms.sourcegitcommit: 259d7689bcb1683d4d63a245a9b02becea072139
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 01/03/2018
+ms.lasthandoff: 01/17/2018
 ---
 # <a name="scatter-charts-and-bubble-charts-in-power-bi-tutorial"></a>Pontdiagramok és buborékdiagramok a Power BI szolgáltatásban (oktatóanyag)
 A pontdiagramok mindig két értéktengellyel rendelkeznek. A vízszintes tengely mentén numerikus adatok egy készletét ábrázolják, a függőleges tengely mentén pedig numerikus adatok egy másik készletét. A diagram pontokat jelenít meg az x és y numerikus értékek metszéspontjában, így egyetlen adatponttá kombinálja ezeket az értékeket. Ezek az adatpontok egyenletesen vagy egyenetlenül oszthatók el a vízszintes tengely mentén az adatoktól függően.
@@ -76,6 +76,14 @@ Most a pontdiagramunk a Teljes értékesítési eltérés (%) értéket jelenít
     ![](media/power-bi-visualization-scatter/pbi_scatter_chart_hover.png)
 3. [Formázhatja a vizualizáció színeit, a címkéket, a címeket, a hátteret és egyebeket](service-getting-started-with-color-formatting-and-axis-properties.md).
 
+## <a name="accessibility"></a>Kisegítő lehetőségek
+
+A *Jelölőalakzatok* használatával a pontdiagramok vagy buborékdiagramok elérhetővé tehetők a fogyatékkal élők számára is. 
+
+Jelölőalakzat kiválasztásához válassza a **Vizualizációk** panel **Formázás** szakaszát, bontsa ki az **Alakzatok** szakaszt, és válassza ki a kívánt jelölőalakzatot.
+
+![Jelölőalakzat](media/power-bi-visualization-scatter/pbi_scatter_marker.png)
+
 ## <a name="considerations-and-troubleshooting"></a>Megfontolandó szempontok és hibaelhárítás
 ### <a name="your-scatter-chart-has-only-one-data-point"></a>**A pontdiagramon csak egy adatpont szerepel**
 A pontdiagramon csak egyetlen adatpont szerepel, amely összesíti az X és az Y tengely összes értékét?  Vagy esetleg az összes értéket egyetlen vízszintes vagy függőleges vonal mentén összesíti?
@@ -98,5 +106,5 @@ Vagy ha nem szerepel ilyen az adatokban, hozzon létre egy mezőt, amely pontonk
 
 [Próbálja ki – ingyenes!](https://powerbi.com/)  
 
-További kérdései vannak? [Felteheti azokat a Power BI-közösségnek](http://community.powerbi.com/)
+További kérdései vannak? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)
 

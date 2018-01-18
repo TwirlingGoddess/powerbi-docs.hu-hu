@@ -66,7 +66,7 @@ A későbbiekben újraindíthatja az *átjáró Windows-szolgáltatást* a felha
 ![](./media/gateway-onprem-accounts-ports-more/gw-onprem_02.png)
 
 ## <a name="support-for-tls-1112"></a>A TLS 1.1/1.2 támogatása
-A 2017. augusztusi frissítés után a helyszíni adatátjáró alapértelmezés szerint a Transport Layer Security (TLS) 1.1-es vagy 1.2-es verzióját használja a **Power BI szolgáltatással** való kommunikációra. A helyszíni adatátjáró korábbi verziói a TLS 1.0-t használják alapértelmezés szerint. 2018. január 15-étől a TLS 1.0 támogatása megszűnik, így az átjáró nem fog tudni kommunikálni a **Power BI szolgáltatással** a TLS 1.0 használatával. Eddig a határidőig frissítse helyszíni adatátjáróit a 2017. augusztusi vagy újabb kiadásra, hogy az átjárók ezután is megfelelően működjenek.
+A 2017. augusztusi frissítés után a helyszíni adatátjáró alapértelmezés szerint a Transport Layer Security (TLS) 1.1-es vagy 1.2-es verzióját használja a **Power BI szolgáltatással** való kommunikációra. A helyszíni adatátjáró korábbi verziói a TLS 1.0-t használják alapértelmezés szerint. 2018. március 15-étől a TLS 1.0 támogatása megszűnik, így az átjáró nem fog tudni kommunikálni a **Power BI szolgáltatással** a TLS 1.0 használatával. Eddig a határidőig frissítse helyszíni adatátjáróit a 2017. augusztusi vagy újabb kiadásra, hogy az átjárók ezután is megfelelően működjenek.
 
 Fontos megjegyezni, hogy a november 1-je előtt a helyszíni adatátjáró továbbra is támogatja a TLS 1.0-t – az átjáró tartalékként használja. Ahhoz, hogy biztosítsa, hogy az átjárók teljes adatforgalma a TLS 1.1-es vagy 1.2-es verzióját használja (és hogy megakadályozza a TLS 1.0 használatát az átjárón), a következő beállításkulcsokat kell megadnia vagy módosítania az átjárószolgáltatáson futó gépen:
 

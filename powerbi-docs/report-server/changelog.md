@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/11/2017
 ms.author: tankas
-ms.openlocfilehash: ced415662c2dc39b6491cb79d121f3cd77719fe4
-ms.sourcegitcommit: be55922d7f43f458aea0160ec8fdfb1a0b5a0c00
+ms.openlocfilehash: deff79bba0f7f191a8343629300c725f3150e509
+ms.sourcegitcommit: a44c29bbc220ecb1ed80810cb1e7df0db8ea611a
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 12/12/2017
+ms.lasthandoff: 01/12/2018
 ---
 # <a name="changelog-for-power-bi-report-server"></a>A Power BI jelentéskészítő kiszolgáló változásnaplója
 
@@ -32,6 +32,13 @@ Az új funkciókról az [A Power BI jelentéskészítő kiszolgáló újdonsága
 ## <a name="october-2017"></a>2017. október
 
 - **Power BI jelentéskészítő kiszolgáló**
+    - *Verzió: 1.1.6582.41691 (Build 14.0.600.442), Kiadás dátuma: 2018. január 10.*
+        - Biztonsági frissítések
+        - Hibajavítások
+            - Hibajavítás a Model.GetParameters 400-es hibakódjára
+            - Hibajavítás megosztott adathalmazok meglévő többoldalas jelentésekhez való beállításához (RDL)
+            - Hibajavítás a ExecutionNotFoundException hibához jelentés PDF-be exportálásánál különböző paraméterértékekkel
+
     - *Verzió: 1.1.6551.5155 (Build 14.0.600.438), Kiadás dátuma: 2017. december 11.*
         - Hibajavítások
             - A frissítés után egyes Power BI Desktop-jelentések adatai nem menthetők.
@@ -61,6 +68,9 @@ Az új funkciókról az [A Power BI jelentéskészítő kiszolgáló újdonsága
             - Javított kisegítő lehetőségek
 
 - **Power BI Desktop (a Power BI jelentéskészítő kiszolgálóra optimalizálva)**
+    - *Verzió: 2.51.4885.2501 (2017. október), Kiadás dátuma: 2018. január 10.*
+        - Biztonsági frissítések
+
     - *Verzió: 2.51.4885.1423 (2017. október), Kiadás dátuma: 2017. november 17.*
         - Hibajavítások
             - Hibajavítás: A 32 bites Power BI Desktop nem futott x86-os operációs rendszeren
@@ -74,6 +84,9 @@ Az új funkciókról az [A Power BI jelentéskészítő kiszolgáló újdonsága
 ## <a name="june-2017"></a>2017. június
 
 - **Power BI jelentéskészítő kiszolgáló**
+    - *Build 14.0.600.309, Kiadás dátuma: 2018. január 10.*
+        - Biztonsági frissítések
+
     - *Build 14.0.600.305, Kiadás dátuma: 2017. szeptember 19.*  
         - Hibajavítások
             - A [Bing Térképek webes vezérlőinek](https://msdn.microsoft.com/library/mt712542.aspx) frissítése a legújabb verzióra
@@ -88,7 +101,11 @@ Az új funkciókról az [A Power BI jelentéskészítő kiszolgáló újdonsága
     - *Build 14.0.600.271, Kiadás dátuma: 2017. június 12.*
         - Power BI jelentéskészítő kiszolgáló megjelenése
 
-## <a name="next-steps"></a>További lépések
+- **Power BI Desktop (a Power BI jelentéskészítő kiszolgálóra optimalizálva)**
+    - *Verzió: 2.47.4766.4901 (2017. június), Kiadás dátuma: 2018. január 10.*
+        - Biztonsági frissítések
+
+## <a name="next-steps"></a>Következő lépések
 
 [Felhasználói kézikönyv](user-handbook-overview.md)  
 [Rendszergazdai kézikönyv](admin-handbook-overview.md)  

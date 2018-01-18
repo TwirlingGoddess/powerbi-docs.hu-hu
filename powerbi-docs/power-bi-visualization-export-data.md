@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/19/2017
+ms.date: 01/10/2018
 ms.author: mihart
-ms.openlocfilehash: 2e5f72b0eb2507f8d2c7df7fc8a57817bb6ce79f
-ms.sourcegitcommit: a658b1c936e382f46a19eeb9cc26016cd7b1d756
+ms.openlocfilehash: 1df7eb485ac9b9de1007cc2fccbf8141ee4fdcc1
+ms.sourcegitcommit: afd6e9e6f8b192b26486cd04d2cbc9de046911b3
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 12/20/2017
+ms.lasthandoff: 01/11/2018
 ---
 # <a name="export-data-from-visualizations"></a>Adatok exportálása vizualizációkból
 Ha szeretné megtekinteni a vizualizáció létrehozásához használt adatokat, [megjelenítheti az adatokat a Power BI-ban](service-reports-show-data.md) vagy exportálhatja őket az Excelbe .xlsx- vagy .csv-fájlként.   
@@ -46,7 +46,7 @@ Tekintse meg, ahogy Will exportálja az adatokat az egyik jelentésében találh
 ## <a name="from-a-visualization-in-a-report"></a>Jelentésben található vizualizációból
 Annak érdekében, hogy követni tudja a lépéseket, nyissa meg a [Beszerzéselemzési mintajelentést](sample-procurement.md) [Szerkesztési nézetben](service-reading-view-and-editing-view.md). [Adjon hozzá egy új üres jelentésoldalt](power-bi-report-add-page.md). Ezután kövesse az alábbi lépéseket, és adjon hozzá egy összesítést és egy vizualizáció-szintű szűrőt.
 
-1. Hozzon létre egy új oszlopdiagramot.  A Mezők ablaktáblán válassza a **Hely > Város** és a **Számla > Kedvezmény százaléka** lehetőséget.   
+1. Hozzon létre egy új oszlopdiagramot.  A Mezők ablaktáblán válassza a **Hely > Város** és a **Számla > Kedvezmény százaléka** lehetőséget.  Előfordulhat, hogy a **Kedvezmény százalékát** át kell helyeznie az Érték mezőbe. 
    
     ![](media/power-bi-visualization-export-data/power-bi-export-data3.png)
 2. Módosítsa a **Kedvezmény százaléka** összesítését **Darabszám** értékről **Átlag** értékre. Az Érték mezőben kattintson a **Kedvezmény százalékától** (előfordulhat, hogy **Kedvezmény mennyisége százalékban** néven találja) jobbra található nyílra, és válassza az **Átlag** lehetőséget.

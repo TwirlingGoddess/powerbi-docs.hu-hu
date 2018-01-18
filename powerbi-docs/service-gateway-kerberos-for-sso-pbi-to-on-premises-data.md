@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/21/2017
+ms.date: 01/10/2018
 ms.author: davidi
-ms.openlocfilehash: c00281d6b9e8a75df3b08cf1f99d0c9357129816
-ms.sourcegitcommit: 8f72ce6b35aa25979090a05e3827d4937dce6a0d
+ms.openlocfilehash: a90926d14289ff0a904f29b7b43f70aa2cbc3130
+ms.sourcegitcommit: afd6e9e6f8b192b26486cd04d2cbc9de046911b3
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/27/2017
+ms.lasthandoff: 01/11/2018
 ---
 # <a name="use-kerberos-for-sso-single-sign-on-from-power-bi-to-on-premises-data-sources"></a>Kerberos használata egyszeri bejelentkezésre (SSO) a Power BI-ból a helyszíni adatforrásokba
 Ha a helyszíni adatátjárót konfigurálja a Kerberosszal, zökkenőmentes egyszeri bejelentkezési kapcsolatot érhet el, amely lehetővé teszi a Power BI-jelentések és -irányítópultok frissítését a helyszíni adatokból. A helyszíni adatátjáró segíti az egyszeri bejelentkezést (SSO) a DirectQuery használatakor, amellyel a helyszíni adatforrásokhoz kapcsolódik.
@@ -63,11 +63,15 @@ További információk a lépésekről:
 
 
 > [!NOTE]
-> Ha engedélyezni szeretni az egyszeri bejelentkezést az SAP HANA szolgáltatáshoz, a következő kettő HANA-specifikus konfigurációs javítást kell alkalmaznia az SAP-n:
->    1. Frissítse az SAP HANA-kiszolgálót az SAP HANA 122.13-as javításával, amelyet az SAP 2017. október végén adott ki. 
+> Ha engedélyezni szeretné az egyszeri bejelentkezést az SAP HANA szolgáltatáshoz, a következő HANA-specifikus konfigurációkat kell alkalmaznia az SAP-n:
+>    1. Az SAP HANA kiszolgálónak 2.00.022* vagy újabb verziót kell futtatnia. 
 >    2. Az átjárót tartalmazó számítógépen telepítse az SAP legfrissebb HANA ODBC-illesztőjét.  A minimális verzió a HANA ODBC 2017. augusztusi, 2.00.020.00-s verziója.
+>
+> Az alábbi SAP-javítások és -frissítések hivatkozásai hasznosak lehetnek. Vegye figyelembe, hogy az alábbi erőforrásokba az SAP-támogatási fiókjával kell bejelentkeznie, és hogy az SAP megváltoztathatja vagy frissítheti ezeket a hivatkozásokat.
 > 
-
+> * [HANA 2 SPS 01 Rev 012.03](https://launchpad.support.sap.com/#/notes/2557386) 
+> * [HANA 2 SPS 02 Rev 22](https://launchpad.support.sap.com/#/notes/2547324) 
+> * [HANA 1 SP 12 Rev 122.13](https://launchpad.support.sap.com/#/notes/2528439)
 
 
 ## <a name="errors-from-an-insufficient-kerberos-configuration"></a>A Kerberos elégtelen konfigurálásából származó hibák

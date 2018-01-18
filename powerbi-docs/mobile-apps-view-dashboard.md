@@ -1,6 +1,6 @@
 ---
-title: "Irányítópultok megtekintése a Power BI-mobilalkalmazásokban"
-description: "A Power BI szolgáltatásban irányítópultokat hozhat létre, illetve csatlakozhat hozzájuk, majd megtekintheti őket a Power BI-mobilalkalmazásokban."
+title: "Irányítópultok és jelentések megtekintése a Power BI-mobilalkalmazásokban"
+description: "A Power BI szolgáltatásban irányítópultokat és jelentéseket hozhat létre, illetve csatlakozhat hozzájuk, majd megtekintheti őket a Power BI-mobilalkalmazásokban."
 services: powerbi
 documentationcenter: 
 author: maggiesMSFT
@@ -15,15 +15,15 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 07/18/2017
+ms.date: 01/16/2018
 ms.author: maggies
-ms.openlocfilehash: 07a514f5d5c5046f8046bb231aef941f201a829b
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: e91b9745663ad88d388b410feb83ac8dfdc791b6
+ms.sourcegitcommit: 259d7689bcb1683d4d63a245a9b02becea072139
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/17/2018
 ---
-# <a name="view-your-dashboards-in-the-power-bi-mobile-apps"></a>Az irányítópultok megtekintése a Power BI-mobilalkalmazásokban
+# <a name="view-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>Irányítópultok és jelentések megtekintése a Power BI-mobilalkalmazásokban
 A következőkre vonatkozik:
 
 | ![iPhone](media/mobile-apps-view-dashboard/iphone-logo-50-px.png) | ![iPad](media/mobile-apps-view-dashboard/ipad-logo-50-px.png) | ![Android rendszerű telefon](media/mobile-apps-view-dashboard/android-phone-logo-50-px.png) | ![Android rendszerű táblagép](media/mobile-apps-view-dashboard/android-tablet-logo-50-px.png) | ![Windows 10-eszközök](media/mobile-apps-view-dashboard/win-10-logo-50-px.png) |
@@ -35,10 +35,10 @@ Az irányítópultok betekintést nyújtanak és hozzáférést biztosítanak a 
 ## <a name="create-dashboards-in-the-power-bi-service-httpspowerbicom"></a>Irányítópultok létrehozása a Power BI szolgáltatásban (https://powerbi.com)
 **Irányítópultokat nem a mobilalkalmazásokban hoz létre.** 
 
-Az irányítópultok mobileszközön való megtekintéséhez létre kell hoznia őket, vagy csatlakozna kell hozzájuk egy webböngészőből. 
+Az irányítópultok és jelentések mobileszközön való megtekintéséhez létre kell hoznia őket, vagy csatlakozna kell hozzájuk egy webböngészőből. 
 
 1. Nyissa meg a Power BI szolgáltatást ([https://www.powerbi.com](https://www.powerbi.com)), és [hozzon létre egy fiókot](service-self-service-signup-for-power-bi.md).
-2. [Hozzon létre saját Power BI-irányítópultokat](service-dashboard-create.md) vagy csatlakozzon meglévő [tartalomcsomagokhoz különböző szolgáltatások eléréséhez](service-connect-to-services.md).
+2. [Létrehozhatja saját Power BI-irányítópultjait és -jelentéseit](service-get-started.md), vagy csatlakozhat meglévő [Power BI alkalmazásokhoz](service-connect-to-services.md), és számos szolgáltatást érhet el, például a [Microsoft Dynamics CRM](service-connect-to-microsoft-dynamics-crm.md) vagy az [Adobe Analytics](service-connect-to-adobe-analytics.md) szolgáltatást.
 
 Így néz ki egy Power BI-irányítópult a Power BI szolgáltatásban:
 
@@ -213,5 +213,5 @@ További információkat is olvashat [az irányítópultok telefonos nézetének
 * [Töltse le az Android-alkalmazást](http://go.microsoft.com/fwlink/?LinkID=544867) a Google Play áruházból  
 * [Első lépések a Power BI-hoz készült Android-alkalmazásban](mobile-android-app-get-started.md)  
 * [Első lépések a Power BI-ban](service-get-started.md)
-* Kérdése van? [Forduljon a Power BI közösségéhez](http://community.powerbi.com/)
+* Kérdése van? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)
 

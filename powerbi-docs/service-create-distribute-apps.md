@@ -14,13 +14,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/11/2017
+ms.date: 01/16/2018
 ms.author: maggies
-ms.openlocfilehash: 27ead0a3104693aff4a6fc3c2641c207ad44dc09
-ms.sourcegitcommit: bb577045145b2e6e5807622a53cefa2d46574618
+ms.openlocfilehash: 89c376451199aec0a6f464f3298df44d468f37d2
+ms.sourcegitcommit: 259d7689bcb1683d4d63a245a9b02becea072139
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 12/12/2017
+ms.lasthandoff: 01/17/2018
 ---
 # <a name="create-and-publish-apps-with-dashboards-and-reports-in-power-bi"></a>Irányítópultokból és jelentésekből álló alkalmazások létrehozása és közzététele a Power BI-ban
 
@@ -51,14 +51,9 @@ Alkalmazás létrehozójaként Power BI Pro licencre lesz szüksége. Az alkalma
 ## <a name="app-workspaces"></a>Alkalmazás munkaterületei
 Az *alkalmazás-munkaterületek* azok a területek, ahol létrehozhatja az alkalmazásokat, így egy alkalmazás létrehozása előtt létre kell hozni az alkalmazás-munkaterületet. Ha használt már csoportos munkaterületet a Power BI-ban, az alkalmazás-munkaterületek is ismerősek lesznek. Ezek a csoportos munkaterületekből fejlődtek ki – az alkalmazás tartalmához használt átmeneti területekből és tárolókból állnak. 
 
-A kollégákat hozzáadhatja tagként vagy rendszergazdaként ezekhez a munkaterületekhez. Az alkalmazás-munkaterület összes tagjának és rendszergazdájának Power BI Pro licenccel kell rendelkeznie. A munkaterületen együttműködhetnek az irányítópultokon, jelentéseken és más cikkeken, amelyeket a szélesebb közönség vagy akár a teljes vállalat elé szeretne tárni. 
+A kollégákat hozzáadhatja tagként vagy rendszergazdaként ezekhez a munkaterületekhez. Az alkalmazás-munkaterület összes tagjának és rendszergazdájának Power BI Pro licenccel kell rendelkeznie. A munkaterületen együttműködhetnek az irányítópultokon, jelentéseken és más tartalmakon, amelyeket a szélesebb közönség vagy akár a teljes vállalat elé szeretne tárni. 
 
-Ha a tartalom kész, közzéteheti az alkalmazást. Küldhet közvetlen hivatkozást a szélesebb közönségnek, vagy a **További alkalmazások AppSource-ból való letöltése és felderítése** területre lépve megkereshetik az alkalmazást az Alkalmazások lapon. Ezek a személyek nem módosíthatják az alkalmazás tartalmát, de használhatják a Power BI szolgáltatásban vagy valamelyik mobilalkalmazásban is – maguk is szűrhetik, kiemelhetik és rendezhetik az adatokat. 
-
-### <a name="how-are-app-workspaces-different-from-group-workspaces"></a>Miben különböznek az alkalmazás-munkaterületek a csoportos munkaterületektől?
-Minden meglévő csoportos munkaterület lehet alkalmazás-munkaterület, és bármelyik ilyen munkaterületről közzétehet alkalmazásokat. Íme egy különbség az alkalmazás-munkaterületek és a csoportos munkaterületek között: az alkalmazás-munkaterületet azért hozza létre, hogy helyet adjon egy adott alkalmazásnak. Az alkalmazás és az alkalmazás-munkaterület között egy-az-egyhez kapcsolat áll fenn. Minden, ami szerepel az alkalmazás-munkaterületen, szerepelni fog az alkalmazásban is. 
-
-Most, hogy már tudja, mik az alkalmazások és alkalmazás-munkaterületek, hozzunk létre és tegyünk közzé egy alkalmazást. 
+Ha a tartalom elkészült, kiválaszthatja a közzétenni kívánt irányítópultokat, majd az alkalmazást is közzéteheti. Küldhet közvetlen hivatkozást a szélesebb közönségnek, vagy a **További alkalmazások AppSource-ból való letöltése és felderítése** területre lépve megkereshetik az alkalmazást az Alkalmazások lapon. Ezek a személyek nem módosíthatják az alkalmazás tartalmát, de használhatják a Power BI szolgáltatásban vagy valamelyik mobilalkalmazásban is – maguk is szűrhetik, kiemelhetik és rendezhetik az adatokat. 
 
 ## <a name="create-an-app-workspace"></a>Alkalmazás munkaterületének létrehozása
 [!INCLUDE [powerbi-service-create-app-workspace](./includes/powerbi-service-create-app-workspace.md)]
@@ -177,5 +172,5 @@ A csoportokban hozzáadhat csak olvasási jogosultságokkal rendelkező tagokat,
 ## <a name="next-steps"></a>Következő lépések
 * [Alkalmazások telepítése és használata a Power BI-ban](service-install-use-apps.md)
 * [Power BI alkalmazások külső szolgáltatásokhoz](service-connect-to-services.md)
-* Kérdése van? [Forduljon a Power BI közösségéhez](http://community.powerbi.com/)
+* Kérdése van? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)
 

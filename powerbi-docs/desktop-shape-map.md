@@ -15,18 +15,18 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/06/2017
+ms.date: 01/16/2018
 ms.author: davidi
-ms.openlocfilehash: 772b1959433b3ba8a4d76ac04103f5a479546d0d
-ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
+ms.openlocfilehash: 258962cbc9ea60b31676a1bcfb10f7906c6e0f74
+ms.sourcegitcommit: 259d7689bcb1683d4d63a245a9b02becea072139
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/17/2017
+ms.lasthandoff: 01/17/2018
 ---
 # <a name="shape-maps-in-power-bi-desktop-preview"></a>Az Alakzatleképezések funkció a Power BI Desktopban (előzetes verzió)
 A Power BI Desktopban azért hozható létre **Alakzatleképezés** vizualizáció, hogy így a régiók relatív összehasonlítását jeleníthesse meg a különböző színek különböző régiókra történő alkalmazásával. A **Leképezés** vizualizációval szemben az **Alakzatleképezés** vizualizáció nem képes az adatpontok pontos földrajzi helyének megjelenítésére a térképen; alkalmazásának fő célja a régiók relatív összehasonlításának megjelenítése egy térképen eltérő színezéssel.
 
-Az **Alakzatleképezés** vizualizációk olyan ESRI/TopoJSON-leképezéseken alapulnak, amelyek lenyűgöző képességei révén saját maga készítette egyedi térképeket használhat, többek között például földrajzi térképeket, ülésrendeket vagy alaprajzokat. Az **Alakzatleképezés** funkció előzetes verziójában az egyéni térképek használata nem érhető el, az éles verzióban azonban már ez a szolgáltatás is elérhető lesz (várhatóan a Power BI Desktop következő havi frissítésében).
+Az **Alakzatleképezés** vizualizációk olyan ESRI/TopoJSON-leképezéseken alapulnak, amelyek lenyűgöző képességei révén saját maga készítette egyedi térképeket használhat, többek között például földrajzi térképeket, ülésrendeket vagy alaprajzokat. Az **Alakzatleképezés** előzetes verziójában egyéni térképek használata nincs támogatva.
 
 ## <a name="creating-shape-maps"></a>Alakzatleképezések létrehozása
 Az **Alakzatleképezés**-vezérlőt az előzetes verzióhoz mellékelt térképekkel tesztelheti, vagy használhatja saját egyéni térképeit is, ha azok megfelelnek az alábbi, **Egyéni térképek használata** című szakaszban megadott követelményeknek.
@@ -95,8 +95,9 @@ Megadhat egy új oszlopot úgy, hogy egyszerűen begépeli az új oszlop nevét 
 Néhány megfontolandó szempont és követelmény az **Alakzat leképezése** funkció jelen előzetes kiadásához:
 
 * Az **Alakzatleképezés** vizualizáció előzetes verziójú funkció, és azt a Power BI Desktopban engedélyezni kell. Az **Alakzat leképezése** funkció engedélyezéséhez válassza a **Fájl > Lehetőségek és beállítások > Lehetőségek > Előzetes verziójú funkciók** lehetőséget, majd jelölje be az **Alakzat leképezése** jelölőnégyzetet.
-* Jelenleg rendelkeznie kell egy **Értékek** gyűjtővel is, amely a **Jelmagyarázat** besorolás megfelelő működéséhez lett beállítva. Az **Alakzat leképezése** funkció végső kiadásában várhatóan tovább fogjuk fejleszteni ezt a viselkedést.
-* Az **Alakzat leképezése** funkció végleges verziója olyan Felhasználói felülettel fog rendelkezni, amely megjeleníti az aktuálisan kiválasztott térkép kulcsait; ebben az előzetes verzióban a jelen cikk alábbi, **Régiókulcsok** szakaszában szereplő táblákban találhatja meg a térképes régiók kulcsait.
+* Jelenleg rendelkeznie kell egy **Értékek** gyűjtővel is, amely a **Jelmagyarázat** besorolás megfelelő működéséhez lett beállítva
+* Az **Alakzat leképezése** funkció végleges verziója olyan Felhasználói felülettel fog rendelkezni, amely megjeleníti az aktuálisan kiválasztott térkép kulcsait (a végleges verzió megjelenésének dátuma még nem ismert, és az **Alakzat leképezése** még előzetes verzióban érhető el); ebben az előzetes verzióban a jelen cikk alábbi, **Régiókulcsok** szakaszában szereplő táblákban találhatja meg a térképes régiók kulcsait.
+* Az **Alakzat leképezése** vizualizáció legfeljebb 1000 adatpontot tud majd ábrázolni.
 
 ## <a name="region-keys"></a>Régiókulcsok
 Az **Alakzat leképezése** funkció a jelen előzetes kiadás alábbi **régiókulcsaival** tesztelhető.
