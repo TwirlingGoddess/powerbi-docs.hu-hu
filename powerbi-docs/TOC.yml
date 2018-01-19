@@ -266,26 +266,36 @@
           href: service-data-classification.md
     - name: Kérdések az adatokról
       items:
-        - name: Q&A a Power BI-ban
-          href: service-q-and-a.md
-        - name: A Power BI Q&A használata
-          href: service-how-to-q-and-a.md
-        - name: 'Oktatóanyag: első lépések a Power BI Q&A használatában'
-          href: power-bi-visualization-introduction-to-q-and-a.md
-        - name: Q&A használata a Power BI Gatewayjel – nagyvállalati adatok (előzetes verzió)
-          href: service-q-and-a-direct-query.md
-        - name: Megfelelő adatműködés biztosítása a Q&A és a Power BI használatánál
-          href: service-prepare-data-for-q-and-a.md
-        - name: A Power BI-hoz használt Cortana bemutatása
-          href: service-cortana-intro.md
-        - name: A Power BI-hoz használt Cortana engedélyezése
-          href: service-cortana-enable.md
-        - name: Kiemelt kérdések létrehozása a Power BI Q&A-hez
-          href: service-q-and-a-create-featured-questions.md
-        - name: Tippek és trükkök Q&A-kérdések feltevéséhez a Power BI-ban
-          href: service-q-and-a-tips.md
-        - name: Cortana hibaelhárítása
-          href: service-cortana-troubleshoot.md
+        - name: Áttekintés
+          items:
+            - name: Q&A a Power BI-ban
+              href: power-bi-q-and-a.md
+            - name: A Power BI-hoz használt Cortana bemutatása
+              href: service-cortana-intro.md
+        - name: Rövid útmutató
+          items:
+            - name: Első lépések a Power BI Q&A-ben
+              href: power-bi-visualization-introduction-to-q-and-a.md
+        - name: Oktatóanyagok
+          items:
+            - name: A Q&A használata vizualizációk és jelentések létrehozásához
+              href: power-bi-tutorial-q-and-a.md
+        - name: Útmutató
+          items:
+            - name: Q&A használata a Power BI Gatewayjel – nagyvállalati adatok (előzetes verzió)
+              href: service-q-and-a-direct-query.md
+            - name: Megfelelő adatműködés biztosítása a Q&A és a Power BI használatánál
+              href: service-prepare-data-for-q-and-a.md
+            - name: A Power BI-hoz használt Cortana engedélyezése
+              href: service-cortana-enable.md
+            - name: Kiemelt kérdések létrehozása a Power BI Q&A-hez
+              href: service-q-and-a-create-featured-questions.md
+        - name: Erőforrások
+          items:
+            - name: Tippek és trükkök Q&A-kérdések feltevéséhez a Power BI-ban
+              href: service-q-and-a-tips.md
+            - name: Cortana hibaelhárítása
+              href: service-cortana-troubleshoot.md
     - name: Megosztás és együttműködés
       items:
         - name: Irányítópultok és jelentések közös használata és megosztása
