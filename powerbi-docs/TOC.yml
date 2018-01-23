@@ -524,6 +524,8 @@
           href: service-gateway-onprem.md
         - name: Helyszíni adatátjáró – részletes
           href: service-gateway-onprem-indepth.md
+        - name: Magas rendelkezésre állású fürtök helyszíni adatátjáróhoz
+          href: service-gateway-high-availability-clusters.md
         - name: Helyszíni adatátjáró – GYIK
           href: service-gateway-onprem-faq.md
         - name: Helyszíni adatátjáró (személyes mód)
@@ -766,6 +768,10 @@
           href: desktop-quick-measures.md
         - name: Feltételes eset paraméterek használata
           href: desktop-what-if.md
+        - name: Részletezés használata
+          href: desktop-drillthrough.md
+        - name: Relatív dátumszeletelő és -szűrő használata
+          href: desktop-slicer-filter-date-range.md
         - name: Kisegítő lehetőségek a Power BI-jelentésekben
           href: desktop-accessibility.md
         - name: Csoportosítás és tárolás használata
