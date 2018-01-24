@@ -192,7 +192,7 @@ Amikor kiválaszt egy elemet a listából, választhat, hogy a **sávnyíl ikonj
 
 ![](media/service-gateway-enterprise-manage-ssas/gateway-enterprise-map-user-names-entry-selected.png)
 
-### <a name="using-wildcard-"></a>Helyettesítő karakter (*) használata
+### <a name="using-wildcard-"></a>Helyettesítő karakter (\*) használata
 Helyettesítő karaktert is használhat a **Csere (eredeti név)** karakterlánchoz. Ez csak önállóan használható, más karakterláncrészlettel nem. Lehetővé teszi, hogy a művelet az összes felhasználóra vonatkozzon, és egyetlen értéket adjon tovább az adatforrásba. Ez akkor hasznos, ha azt szeretné, hogy a cégen vagy vállalaton belül mindenki ugyanazt a felhasználót használja a helyi környezetben.
 
 ### <a name="test-a-mapping-rule"></a>Leképezési szabály tesztelése
