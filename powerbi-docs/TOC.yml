@@ -296,7 +296,7 @@
               href: service-q-and-a-tips.md
             - name: Cortana hibaelhárítása
               href: service-cortana-troubleshoot.md
-    - name: Megosztás és együttműködés
+    - name: Hogyan oszthatja meg munkáját
       items:
         - name: Irányítópultok és jelentések közös használata és megosztása
           href: service-how-to-collaborate-distribute-dashboards-reports.md
@@ -308,9 +308,9 @@
           href: service-organizational-content-pack-introduction.md
         - name: Céges tartalomcsomag létrehozása és közzététele (oktatóanyag)
           href: service-organizational-content-pack-create-and-publish.md
-        - name: Irányítópult megosztása munkatársakkal és másokkal
+        - name: Irányítópultok és jelentések megosztása
           href: service-share-dashboards.md
-        - name: Jelentés megosztása munkatársakkal
+        - name: Szűrt jelentés megosztása
           href: service-share-reports.md
         - name: Közzététel Power BI-ból a webre
           href: service-publish-to-web.md
