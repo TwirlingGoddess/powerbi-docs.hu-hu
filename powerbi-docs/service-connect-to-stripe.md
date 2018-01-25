@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
 ms.author: yshoukry
-ms.openlocfilehash: 8fb0b4a10d4cd1caefb9f3731be1c264e270b943
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 5ed68a3ee64803fa895ad9837fe37351163d09af
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/19/2018
 ---
 # <a name="connect-to-stripe-with-power-bi"></a>Csatlakozás a Stripe-hoz a Power BI segítségével
 A Power BI-tartalomcsomag segítségével megtekintheti és elemezheti Stripe-adatait. A Power BI Stripe-tartalomcsomag adatokat nyer ki ügyfelekről, díjakról, eseményekről és számlákról. Az adatok a legutóbbi tízezer eseményre és ötezer díjtételre vonatkoznak az utolsó 30 napra kiterjedően. A tartalom naponta egyszer automatikusan frissül az Ön által beállított ütemezés szerint. 
@@ -45,15 +45,15 @@ Kapcsolódás a [Power BI Stripe-tartalomcsomaghoz](https://app.powerbi.com/getd
    
     ![](media/service-connect-to-stripe/dashboard.png)
 
-**Hogyan tovább?**
+**Mi a következő lépés?**
 
-* [Tegyen fel egy kérdést a Q&A mezőben](service-q-and-a.md), amely az irányítópult tetején található.
-* [Módosítsa a csempéket](service-dashboard-edit-tile.md) az irányítópulton.
-* [Válasszon ki egy csempét](service-dashboard-tiles.md) az alapjául szolgáló jelentés megnyitásához.
-* Az adatkészlet naponta frissül, de módosíthatja is a frissítési ütemezést, vagy igény szerint frissíthet bármikor, a **Frissítés** lehetőségre kattintva.
+* [Kérdéseket tehet fel a Q&A mezőben](power-bi-q-and-a.md) az irányítópult tetején.
+* [Módosíthatja az irányítópult csempéit](service-dashboard-edit-tile.md).
+* [Kiválaszthatja valamelyik csempét](service-dashboard-tiles.md) a mögöttes jelentés megnyitásához.
+* Az adatkészlet az ütemezés szerint naponta frissül, de módosíthatja a frissítési ütemezést, vagy igény szerint bármikor frissíthet az **Azonnali frissítés** elemre kattintva
 
 ## <a name="next-steps"></a>További lépések
-[Első lépések a Power BI használatával](service-get-started.md)
+[Első lépések a Power BI-ban](service-get-started.md)
 
-[Adatbeolvasás a Power BI-ban](service-get-data.md)
+[Power BI – Adatok lekérése](service-get-data.md)
 

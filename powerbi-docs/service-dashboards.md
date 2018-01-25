@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 05/31/2017
+ms.date: 01/18/2018
 ms.author: mihart
-ms.openlocfilehash: 81f7b4a68b66a2bfbdf285007ff4ff636c326a6c
-ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
+ms.openlocfilehash: 800808a8c09166b8a5b1389b9a54fb57cfa13b12
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/17/2017
+ms.lasthandoff: 01/19/2018
 ---
 # <a name="dashboards-in-power-bi-service"></a>Irányítópult a Power BI szolgáltatásban
 
@@ -82,7 +82,7 @@ A Power BI Pro az irányítópultok megosztásához és a megosztott irányító
 * Ismerkedjen meg az [irányítópult-csempékkel](service-dashboard-tiles.md), és fedezze fel mi történik, ha kiválaszt egy csempét.
 * Nem teszik egy adott irányítópult megjelenése?  [Átméretezheti, áthelyezheti és átnevezheti a csempéket](service-dashboard-edit-tile.md).
 * Szeretne nyomon követni egy adott irányítópult-csempét, és e-mailes értesítést kapni, ha elér egy bizonyos küszöbértéket? [Riasztások létrehozása a csempéken](service-set-data-alerts.md).
-* Tegye fel bátran az irányítópultokkal kapcsolatos kérdéseit. Fedezze fel, hogyan teheti fel az adatokkal kapcsolatos kérdéseit és szerezheti meg a válaszokat vizualizáció formájában a [Power BI Q&A](service-how-to-q-and-a.md) segítségével.
+* Tegye fel bátran az irányítópultokkal kapcsolatos kérdéseit. Fedezze fel, hogyan teheti fel az adatokkal kapcsolatos kérdéseit és szerezheti meg a válaszokat vizualizáció formájában a [Power BI Q&A](power-bi-tutorial-q-and-a.md) segítségével.
 
 > [!TIP]
 > Ha nem találta meg, amit keres, használja a bal oldalon található tartalomjegyzéket.
@@ -94,5 +94,5 @@ A Power BI Pro az irányítópultok megosztásához és a megosztott irányító
 [Power BI – Alapfogalmak](service-basic-concepts.md)  
 [Power BI Premium – pontosan mi is ez?](service-premium.md)  
 
-További kérdései vannak? [Forduljon a Power BI közösségéhez](http://community.powerbi.com/)
+További kérdései vannak? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)
 

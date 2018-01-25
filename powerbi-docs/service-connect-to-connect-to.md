@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
 ms.author: yshoukry
-ms.openlocfilehash: c53c7f5e0748e186c68bcc2642b381cf17c423eb
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: b97dd32a3b6b075509c15dd1c1df5009c99e5f0b
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/19/2018
 ---
 # <a name="connect-to-comscore-digital-analytix-with-power-bi"></a>Csatlakozás a comScore Digital Analytix eszközhöz a Power BI használatával
 A Power BI-tartalomcsomag segítségével a Power BI-ban jelenítheti meg és elemezheti a comScore Digital Analytix adatait. Az adatok naponta egyszer automatikusan frissülnek.
@@ -32,7 +32,7 @@ Csatlakozzon a [Power BI-hoz készült comScore-tartalomcsomaghoz.](https://app.
 >A tartalomcsomaghoz történő csatlakozáshoz szüksége van egy comScore DAx felhasználói fiókra, valamint hozzáféréssel kell rendelkeznie a comScore API-hoz. A [részleteket](#Requirements) alább találja.
 
 ## <a name="how-to-connect"></a>A csatlakozás menete
-1. Kattintson az Adatok lekérése elemre a bal oldalon lévő navigációs ablaktábla alján.
+1. Válassza az Adatok lekérése elemet a bal oldalon lévő navigációs ablaktábla alján.
    
    ![](media/service-connect-to-connect-to/getdata.png)
 2. A **Szolgáltatások** mezőben válasza a **Beolvasás** elemet.
@@ -47,14 +47,14 @@ Csatlakozzon a [Power BI-hoz készült comScore-tartalomcsomaghoz.](https://app.
 5. A csatlakozáshoz adja meg comScore-felhasználónevét és -jelszavát. Az adat megtalálásáról lejjebb tájékozódhat.
    
    ![](media/service-connect-to-connect-to/creds.png)
-6. Az importálási folyamat automatikusan elindul. Amikor befejeződik, a navigációs ablaktáblán megjelenik egy új irányítópult, jelentés és modell. Az importált adatok megtekintéséhez kattintson az ablaktáblára.
+6. Az importálási folyamat automatikusan elindul. Ha befejeződött, a navigációs panelen megjelenik egy új irányítópult, jelentés és modell. Válassza ki az irányítópultot az importált adatok megtekintéséhez.
 
-**Hogyan tovább?**
+**Mi a következő lépés?**
 
-* [Tegyen fel egy kérdést a Q&A mezőben](service-q-and-a.md), amely az irányítópult tetején található
-* [Módosítsa a csempéket](service-dashboard-edit-tile.md) az irányítópulton.
-* [Kattintson egy csempére](service-dashboard-tiles.md) a mögöttes jelentés megnyitásához.
-* Az adatkészlet az ütemezés szerint naponta frissül, de módosíthatja is a frissítési ütemezést, vagy igény szerint frissíthet bármikor, az **Azonnali frissítés** lehetőségre kattintva.
+* [Kérdéseket tehet fel a Q&A mezőben](power-bi-q-and-a.md) az irányítópult tetején.
+* [Módosíthatja az irányítópult csempéit](service-dashboard-edit-tile.md).
+* [Kiválaszthatja valamelyik csempét](service-dashboard-tiles.md) a mögöttes jelentés megnyitásához.
+* Noha az adatkészlet napi frissítésre van ütemezve, módosíthatja a frissítési ütemezést, vagy igény szerint frissíthet az **Azonnali frissítés** gombbal.
 
 <a name="Requirements"></a>
 
@@ -89,5 +89,5 @@ A comScore-webhely azt határozza meg, hogy melyik webhelyről érkező adatokat
 ## <a name="next-steps"></a>További lépések
 [Első lépések a Power BI-ban](service-get-started.md)
 
-[Adatok beolvasása a Power BI-ban](service-get-data.md)
+[Adatok lekérése a Power BI-ban](service-get-data.md)
 

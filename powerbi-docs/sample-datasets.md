@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/29/2017
+ms.date: 01/18/2018
 ms.author: mihart
-ms.openlocfilehash: 2b5568020d3d99788d4fe2288fbc468d82d4e2bf
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 5087e69190372fe7303fb46254885f7a7a456f70
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/19/2018
 ---
 # <a name="what-sample-data-is-available-to-use-with-power-bi"></a>Milyen mintaadatok használhatók a Power BI-ban?
 Tegyük fel, hogy kezdő felhasználó a Power BI-ban, és egyelőre adatok nélkül szeretné kipróbálni.  Vagy már van egy adatkészlete, de mivel (még) nem ismeri a Power BI működését, aggódik, hogy valahogy kárt tesz az adatkészletben.
@@ -136,7 +136,7 @@ A minta-tartalomcsomagok Excel-munkafüzetként is elérhetők. Az Excel-munkaf�
    
    * ![](media/sample-datasets/power-bi-local-file2.png)  **Helyi meghajtó** – Ha a fájlt a saját számítógépére vagy a cég valamilyen más helyére mentette, a Power BI-ból importálhatja a fájlt Power BI-ba. Mivel a fájl ténylegesen a helyi meghajtón marad, a teljes fájl valójában nem kerül a Power BI-ba. Valójában az történik, hogy létrejön egy új adatkészlet az Ön Power BI-webhelyén, a rendszer pedig betölti abba az adatokat és – olykor – az adatmodellt. Ha a fájlban jelentések is találhatók, azok a Power BI-webhelyen, a Jelentések között fognak megjelenni.
    * ![](media/sample-datasets/power-bi-onedrive-file.png) **OneDrive – Vállalati verzió** – Ha OneDrive Vállalati verzióval rendelkezik, és a Power BI-hoz is használt fiókkal jelentkezik be oda, akkor a leghatékonyabb megoldást választja ahhoz, hogy a Power BI Desktop- vagy a .CSV-fájl, az adatbázis, a jelentések és az irányítópultok szinkronban maradjanak a Power BI-ban. Mivel a Power BI és a OneDrive egyaránt a felhőben található, a Power BI nagyjából óránként kapcsolódik a OneDrive-on található fájlhoz. Ha bármilyen változást érzékel, az adatkészlet, a jelentések és az irányítópultok automatikusan frissülnek a Power BI-ban.
-   * ![](media/sample-datasets/power-bi-onedrive-file.png) **OneDrive – Személyes verzió** – A OneDrive Vállalati verzió számos előnyét akkor is élvezheti, ha fájljait a saját OneDrive-fiókjába menti. A legnagyobb különbség az, hogy amikor a fájlt először csatlakoztatja (az Adatok lekérése > Fájlok > OneDrive személyes verzió paranccsal), akkor a Microsoft-fiókjával kell a OneDrive-ba jelentkeznie, és ez általában eltér attól a fióktól, amelyet a Power BI-ba való belépéshez használ. Amikor a Microsoft-fiókjával jelentkezik be a OneDrive-ba, mindenképpen válassza a Maradjak bejelentkezve lehetőséget. Így a Power BI képes lesz nagyjából óránként kapcsolódni a fájlhoz, és gondoskodni róla, hogy a Power BI-ban lévő adatkészlet szinkronban legyen.
+   * ![](media/sample-datasets/power-bi-onedrive-file.png) **OneDrive – Személyes verzió** – A OneDrive Vállalati verzió számos előnyét akkor is élvezheti, ha fájljait a saját OneDrive-fiókjába menti. A legnagyobb különbség az, hogy amikor a fájlt először csatlakoztatja (az Adatok lekérése > Fájlok > OneDrive személyes verzió paranccsal), akkor a Microsoft-fiókjával kell a OneDrive-ba jelentkeznie, és ez általában eltér attól a fióktól, amelyet a Power BI-ba való belépéshez használ. Amikor a Microsoft-fiókjával jelentkezik be a OneDrive-ba, mindenképp jelölje be a Bejelentkezve szeretnék maradni lehetőséget. Így a Power BI képes lesz nagyjából óránként kapcsolódni a fájlhoz, és gondoskodni róla, hogy a Power BI-ban lévő adatkészlet szinkronban legyen.
    * ![](media/sample-datasets/power-bi-sharepoint2.png) **SharePoint-csoportwebhelyek** – A Power BI-ban lévő fájloknak a SharePoint-csoportwebhelyekre történő mentése nagyjából ugyanúgy zajlik, mint a OneDrive Vállalati verzió esetében. A legnagyobb különbség a Power BI és a fájl csatlakoztatásának módja. Ehhez megadhat egy URL-címet, vagy csatlakozhat a gyökérmappához.
 3. Nyissa meg a Power BI-t (app.powerbi.com), és jelentkezzen be.
    

@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
 ms.author: yshoukry
-ms.openlocfilehash: 44871137e63572d801525c1f070dac5d07a32308
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: fd9426a8fce0ed1d707184b421a93f989852a33d
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/19/2018
 ---
 # <a name="connect-to-prevedere-with-power-bi"></a>Kapcsolódás a Prevedere eszközhöz a Power BI-ban
 Exkluzív és kritikus fontosságú pénzügyi információkhoz juthat, amelyekkel magabiztosan és kezdeményezően fejlesztheti üzletét.
@@ -32,7 +32,7 @@ Csatlakozzon a Power BI-hoz készült [Prevedere tartalomcsomaghoz](https://app.
 >Ha Ön nem Prevedere-felhasználó, a kipróbáláshoz használja a [mintakulcsot](https://prevederepowerbiconnector.azurewebsites.net/static/learnmore.html).
 
 ## <a name="how-to-connect"></a>A csatlakozás menete
-1. Kattintson az **Adatok lekérése** elemre a bal oldalon lévő navigációs ablaktáblán.
+1. A bal oldali navigációs ablaktábla alján kattintson az **Adatok lekérése** elemre.
    
    ![](media/service-connect-to-prevedere/getdata.png)
 2. A **Szolgáltatások** mezőben kattintson a **Beolvasás** elemre.
@@ -44,16 +44,16 @@ Csatlakozzon a Power BI-hoz készült [Prevedere tartalomcsomaghoz](https://app.
 4. A **Hitelesítési módszer** beállításban kattintson a **Kulcs** lehetőségre, majd adja meg a Prevedere API-kulcsát.
    
     ![](media/service-connect-to-prevedere/creds.png)
-5. A **Bejelentkezés** elemre kattintva kezdje el az importálási folyamatot. Amikor a folyamat befejeződik, a navigációs ablaktáblán új irányítópult, jelentés és modell jelenik meg. Az importált adatok megtekintéséhez kattintson az irányítópultra.
+5. A **Bejelentkezés** elemre kattintva kezdje el az importálási folyamatot. Amikor a folyamat befejeződik, a navigációs ablaktáblán új irányítópult, jelentés és modell jelenik meg. Válassza ki az irányítópultot az importált adatok megtekintéséhez.
    
      ![](media/service-connect-to-prevedere/dashboard.png)
 
-**Hogyan tovább?**
+**Mi a következő lépés?**
 
-* [Tegyen fel egy kérdést a Q&A mezőben](service-q-and-a.md), amely az irányítópult tetején található
-* [Módosítsa a csempéket](service-dashboard-edit-tile.md) az irányítópulton.
-* [Kattintson az egyik csempére](service-dashboard-tiles.md) az alapjául szolgáló jelentés megnyitásához.
-* Az adatkészlet az ütemezés szerint naponta frissül, de módosíthatja is a frissítési ütemezést, vagy igény szerint frissíthet bármikor az **Azonnali frissítés** lehetőségre kattintva.
+* [Kérdéseket tehet fel a Q&A mezőben](power-bi-q-and-a.md) az irányítópult tetején.
+* [Módosíthatja az irányítópult csempéit](service-dashboard-edit-tile.md).
+* [Kiválaszthatja valamelyik csempét](service-dashboard-tiles.md) a mögöttes jelentés megnyitásához.
+* Noha az adatkészlet napi frissítésre van ütemezve, módosíthatja a frissítési ütemezést, vagy igény szerint frissíthet az **Azonnali frissítés** gombbal.
 
 ## <a name="whats-included"></a>Tartalom
 A tartalomcsomag elemzési adatokat nyújt többek között a kiskereskedelmi előrejelzésekről, az előrejelzési modellekről, és a fő mutatókról.
@@ -70,7 +70,7 @@ A meglévő ügyfelek a saját API-kulcs segítségével férhetnek hozzá az ad
 Az adatok betöltése a példány méretétől függően időbe telhet.
 
 ## <a name="next-steps"></a>Következő lépések
-[Power BI – első lépések](service-get-started.md)
+[Első lépések a Power BI-ban](service-get-started.md)
 
-[Adatok beolvasása a Power BI-ban](service-get-data.md)
+[Adatok lekérése a Power BI-ban](service-get-data.md)
 

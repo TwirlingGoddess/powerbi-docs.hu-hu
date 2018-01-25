@@ -17,43 +17,43 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
 ms.author: yshoukry
-ms.openlocfilehash: 22d490a58fd522b805d9709a1e697d1d2e89df6c
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 408f41e1a50b895166308fcba129d86f5c05d0e7
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/19/2018
 ---
 # <a name="connect-to-zuora-with-power-bi"></a>Csatlakozás a Zuorához a Power BI-ból
-A Power BI-hoz készült Zuora segítségével ábrázolhatja a bevételekkel, a számlázással és az előfizetésekkel kapcsolatos fontos adatait. Az alapértelmezett irányítópulttal és jelentésekkel elemezheti a használati trendeket, követheti a számlázási és fizetési adatokat, illetve figyelheti az ismétlődő bevételeket. Az irányítópultot és a jelentéseket testre is szabhatja az egyéni igényei kielégítéséhez. 
+A Power BI-hoz készült Zuora segítségével ábrázolhatja a bevételekkel, a számlázással és az előfizetésekkel kapcsolatos fontos adatait. Az alapértelmezett irányítópulttal és jelentésekkel elemezheti a használati trendeket, követheti a számlázási és fizetési adatokat, illetve figyelheti az ismétlődő bevételeket. Az irányítópultot és a jelentéseket testre is szabhatja az egyéni igényei kielégítéséhez.
 
 Csatlakozzon a Power BI-hoz készült [Zuora](https://app.powerbi.com/getdata/services/Zuora) szolgáltatáshoz.
 
 ## <a name="how-to-connect"></a>A csatlakozás menete
-1. Válassza az **Adatok lekérése** elemet a bal oldalon lévő navigációs ablaktábla alján.
-   
+1. A bal oldali navigációs ablaktábla alján kattintson az **Adatok lekérése** elemre.
+
    ![](media/service-connect-to-zuora/getdata.png)
 2. A **Szolgáltatások** mezőben válasza a **Beolvasás** elemet.
-   
+
    ![](media/service-connect-to-zuora/services.png)
 3. Válassza a **Zuora** \> **Beolvasás** lehetőséget.
-   
+
    ![](media/service-connect-to-zuora/zuora.png)
 4. Adja meg a Zuora URL-címét. Ez jellemzően „https://www.zuora.com”, de alább találhat további információt a [paraméterek megkereséséről](#FindingParams).
-   
+
    ![](media/service-connect-to-zuora/params.png)
 5. **Hitelesítési módszerként** válassza az **Alapszintű** lehetőséget, adja meg a felhasználónevét és a jelszavát (figyeljen a kis- és nagybetűkre), majd kattintson a **Bejelentkezés** elemre.
-   
+
     ![](media/service-connect-to-zuora/creds.png)
-6. A jóváhagyás után automatikusan megkezdődik az importálás. Amikor ez befejeződik, a navigációs ablaktáblán megjelenik egy új irányítópult, egy új jelentés és egy új modell. Az importált adatok megtekintéséhez válassza az irányítópultot.
-   
+6. A jóváhagyás után automatikusan megkezdődik az importálás. Ha befejeződött, a navigációs panelen megjelenik egy új irányítópult, jelentés és modell. Válassza ki az irányítópultot az importált adatok megtekintéséhez.
+
      ![](media/service-connect-to-zuora/dashboard.png)
 
-**Hogyan tovább?**
+**Mi a következő lépés?**
 
-* [Tegyen fel egy kérdést a Q&A mezőben](service-q-and-a.md), amely az irányítópult tetején található.
-* [Módosítsa a csempéket](service-dashboard-edit-tile.md) az irányítópulton.
-* [Válasszon egy csempét](service-dashboard-tiles.md) az alapjául szolgáló jelentés megnyitásához.
-* Az adatkészlet naponta frissül, de módosíthatja a frissítési ütemezést, és bármikor frissíthet igény szerint is a **Frissítés** lehetőségre kattintva.
+* [Kérdéseket tehet fel a Q&A mezőben](power-bi-q-and-a.md) az irányítópult tetején.
+* [Módosíthatja az irányítópult csempéit](service-dashboard-edit-tile.md).
+* [Kiválaszthatja valamelyik csempét](service-dashboard-tiles.md) a mögöttes jelentés megnyitásához.
+* Noha az adatkészlet napi frissítésre van ütemezve, módosíthatja a frissítési ütemezést, vagy igény szerint frissíthet az **Azonnali frissítés** gombbal.
 
 ## <a name="whats-included"></a>A csomag tartalma
 Ez a tartalomcsomag a Zuora AQUA API segítségével olvas be adatokat az alábbi táblákból:
@@ -108,7 +108,6 @@ Adja meg azt az URL-címet, amellyel be szokott jelentkezni a Zuora-adatai elér
 A Zuora-tartalomcsomag a Zuora-fiókjához tartozó adatok széles körét beolvassa. Ha nem használ bizonyos funkciókat, akkor előfordulhat, hogy a vonatkozó csempék vagy jelentések üresek lesznek. Ha problémát tapasztal a betöltés során, lépjen kapcsolatba a Power BI támogatási szolgálatával.
 
 ## <a name="next-steps"></a>Következő lépések
-[Power BI – első lépések](service-get-started.md)
+[Első lépések a Power BI-ban](service-get-started.md)
 
-[Adatok beolvasása a Power BI-ban](service-get-data.md)
-
+[Adatok lekérése a Power BI-ban](service-get-data.md)

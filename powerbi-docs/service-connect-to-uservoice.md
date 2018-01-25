@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
 ms.author: yshoukry
-ms.openlocfilehash: dac3392ff7b86a2dcda0415a7d271c9140dcd534
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 5dfd8c154b402f305e7de0c255040347b7fd4193
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/19/2018
 ---
 # <a name="connect-to-uservoice-with-power-bi"></a>Csatlakozás a UserVoice-hoz a Power BI-ban
 A UserVoice-adatok egyszerűen nyomon követhetők és megvizsgálhatók aPower BI és a UserVoice-tartalomcsomag használatával. A Power BI beolvassa az adatokat, köztük a jegyeket, javaslatokat és elégedettségi mutatókat, majd az adatok alapján használatra kész irányítópultot és jelentéseket hoz létre.
@@ -32,7 +32,7 @@ Kapcsolódás a [UsreVoice-tartalomcsomaghoz](https://app.powerbi.com/getdata/se
 >A Power BI-tartalomcsomaghoz való kapcsolódáshoz rendszergazdai fiók szükséges. A tartalomcsomag a UserVoice API-t is felhasználja és a UserVoice használati keretéhez adódik. A részleteket alább találja.
 
 ## <a name="how-to-connect"></a>A kapcsolódás menete
-1. Kattintson az **Adatok lekérése** elemre a bal oldalon lévő navigációs panel alján.
+1. A bal oldali navigációs ablaktábla alján kattintson az **Adatok lekérése** elemre.
    
    ![](media/service-connect-to-uservoice/pbi_getdata.png)
 2. A **Szolgáltatások** keretben kattintson a **Beolvasás** elemre.
@@ -59,10 +59,10 @@ Kapcsolódás a [UsreVoice-tartalomcsomaghoz](https://app.powerbi.com/getdata/se
 
 **Hogyan tovább?**
 
-* [Tegyen fel egy kérdést a Q&A-mezőben](service-q-and-a.md), amely az irányítópult tetején található.
-* [Módosítsa a csempéket](service-dashboard-edit-tile.md) az irányítópulton.
-* [Kattintson egy csempére](service-dashboard-tiles.md) az alapjául szolgáló jelentés megnyitásához.
-* Az adathalmaz naponta frissül, de módosíthatja is a frissítési ütemezést, vagy igény szerint frissíthet bármikor, a **Frissítés** lehetőségre kattintva.
+* [Kérdéseket tehet fel a Q&A mezőben](power-bi-q-and-a.md) az irányítópult tetején.
+* [Módosíthatja az irányítópult csempéit](service-dashboard-edit-tile.md).
+* [Kiválaszthatja valamelyik csempét](service-dashboard-tiles.md) a mögöttes jelentés megnyitásához.
+* Az adatkészlet az ütemezés szerint naponta frissül, de módosíthatja is a frissítési ütemezést, vagy igény szerint frissíthet bármikor, az **Azonnali frissítés** lehetőségre kattintva.
 
 ## <a name="troubleshooting"></a>Hibaelhárítás
 **"Parameter validation failed, please make sure all parameters are valid"** (A paraméterek érvényesítése sikertelen, ellenőrizze az összes paraméter érvényességét)
@@ -89,5 +89,5 @@ A Power BI UserVoice-tartalomcsomag a UserVoice API-jait használja az adatok be
 ## <a name="next-steps"></a>További lépések
 [Első lépések a Power BI-ban](service-get-started.md)
 
-[Adatok beolvasása a Power BI-ban](service-get-data.md)
+[Adatok lekérése a Power BI-ban](service-get-data.md)
 

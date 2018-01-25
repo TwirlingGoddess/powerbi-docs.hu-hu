@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
 ms.author: yshoukry
-ms.openlocfilehash: 502135583f4d62144a2a2bdb908724c4f8e6b579
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 950c69282e74b42fca4034aaabb9487bad370219
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/19/2018
 ---
 # <a name="connect-to-appfigures-with-power-bi"></a>Csatlakozás az appFigures-hoz a Power BI használatával
 A Power BI és az appFigures-tartalomcsomag segítségével egyszerűen nyomon követheti az alkalmazásait leíró fontos statisztikákat. A Power BI adatokat kér le többek között az alkalmazás értékesítéséről, letöltéseiről és hirdetési statisztikáiról, majd felépít egy alapértelmezett irányítópultot, és létrehozza a kapcsolódó jelentéseket.
@@ -29,7 +29,7 @@ A Power BI és az appFigures-tartalomcsomag segítségével egyszerűen nyomon k
 Csatlakozzon az [appFigures-tartalomcsomaghoz](https://app.powerbi.com/getdata/services/appfigures), vagy tájékozódjon bővebben [az appFigures és a Power BI integrációjáról.](https://powerbi.microsoft.com/integrations/appfigures)
 
 ## <a name="how-to-connect"></a>A csatlakozás menete
-1. Kattintson az **Adatok lekérése** elemre a bal oldalon lévő navigációs ablaktábla alján.
+1. A bal oldali navigációs ablaktábla alján kattintson az **Adatok lekérése** elemre.
    
    ![](media/service-connect-to-appfigures/pbi_getdata.png)
 2. A **Szolgáltatások** mezőben válassza a **Beolvasás** elemet.
@@ -46,16 +46,16 @@ Csatlakozzon az [appFigures-tartalomcsomaghoz](https://app.powerbi.com/getdata/s
 5. Miután a Power BI importálta az adatokat, a bal oldali navigációs ablaktáblán egy új irányítópult, jelentés és adatkészlet jelenik meg. Az új elemeket sárga csillag jelöli \*:
    
     ![](media/service-connect-to-appfigures/pbi_appfigures3.png)
-6. Válassza ki az appFigures irányítópultját. A Power BI ezt az alapértelmezett irányítópultot hozta létre az adatok megjelenítésére. Az irányítópultot módosíthatja, hogy az igényei szerint jelenítse meg az adatokat.
+6. Válassza ki az appFigures irányítópultját. A Power BI ezt az alapértelmezett irányítópultot hozta létre az adatok megjelenítésére. Az irányítópultot igény szerint módosíthatja, hogy az adatok a kívánt módon jelenjenek meg.
    
     ![](media/service-connect-to-appfigures/appfiguresdoc_01.png)
 
-**Hogyan tovább?**
+**Mi a következő lépés?**
 
-* [Tegyen fel egy kérdést a Q&A mezőben](service-q-and-a.md), amely az irányítópult tetején található
-* [Módosítsa a csempéket](service-dashboard-edit-tile.md) az irányítópulton.
-* [Kattintson egy csempére](service-dashboard-tiles.md) a mögöttes jelentés megnyitásához.
-* Az adatkészlet naponta frissül, de módosíthatja is a frissítési ütemezést, vagy igény szerint frissíthet bármikor, az **Azonnali frissítés** lehetőségre kattintva.
+* [Kérdéseket tehet fel a Q&A mezőben](power-bi-q-and-a.md) az irányítópult tetején.
+* [Módosíthatja az irányítópult csempéit](service-dashboard-edit-tile.md).
+* [Kiválaszthatja valamelyik csempét](service-dashboard-tiles.md) a mögöttes jelentés megnyitásához.
+* Noha az adatkészlet napi frissítésre van ütemezve, módosíthatja a frissítési ütemezést, vagy igény szerint frissíthet az **Azonnali frissítés** gombbal.
 
 ## <a name="whats-included"></a>A csomag tartalma
 A Power BI-ban a következő, appFigures-ból származó adatok érhetők el.
@@ -75,5 +75,5 @@ Ha egy alkalmazás adatai nem jelennek meg a Power BI-ban, ellenőrizze, hogy az
 
 ## <a name="next-steps"></a>Következő lépések
 * [Első lépések a Power BI-ban](service-get-started.md)
-* [Adatok beolvasása a Power BI-ban](service-get-data.md)
+* [Adatok lekérése a Power BI-ban](service-get-data.md)
 

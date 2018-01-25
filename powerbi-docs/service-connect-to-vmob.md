@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
 ms.author: yshoukry
-ms.openlocfilehash: fc0c8bc1ea177e20c25a614ed1de274f70056578
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 09bd84fc320b550ccdaa0771f747a19bc1003150
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/19/2018
 ---
 # <a name="connect-to-vmob-with-power-bi"></a>Kapcsolódás a Power BI-ból a VMobhoz
 A Power BI-hoz készült VMob-tartalomcsomaggal könnyedén nyomon követheti és feltárhatja VMob-adatait. A Power BI a következő adatokat adja vissza: felhasználói statisztika a teljes időszakban és az elmúlt 30 napban, kiskereskedelmi KPI az elmúlt 30 napban és kampányteljesítmény az elmúlt 30 napban.
@@ -29,7 +29,7 @@ A Power BI-hoz készült VMob-tartalomcsomaggal könnyedén nyomon követheti é
 Kapcsolódjon a Power BI-hoz készült [VMob-tartalomcsomaghoz](https://app.powerbi.com/getdata/services/vmob).
 
 ## <a name="how-to-connect"></a>A kapcsolódás menete
-1. Válassza az **Adatok lekérése** elemet a bal oldalon lévő navigációs ablaktábla alján.
+1. A bal oldali navigációs ablaktábla alján kattintson az **Adatok lekérése** elemre.
    
     ![](media/service-connect-to-vmob/getdata.png)
 2. A **Szolgáltatások** mezőben válasza a **Beolvasás** elemet.
@@ -50,13 +50,13 @@ Kapcsolódjon a Power BI-hoz készült [VMob-tartalomcsomaghoz](https://app.powe
 
 **Hogyan tovább?**
 
-* [Tegyen fel egy kérdést a Q&A mezőben](service-q-and-a.md), amely az irányítópult tetején található.
-* [Módosítsa a csempéket](service-dashboard-edit-tile.md) az irányítópulton.
-* [Válasszon ki egy csempét](service-dashboard-tiles.md) az alapjául szolgáló jelentés megnyitásához.
-* Az adatkészlet naponta frissül, de módosíthatja a frissítési ütemezést, és bármikor frissíthet igény szerint is az **Azonnali frissítés** lehetőséggel.
+* [Kérdéseket tehet fel a Q&A mezőben](power-bi-q-and-a.md) az irányítópult tetején.
+* [Módosíthatja az irányítópult csempéit](service-dashboard-edit-tile.md).
+* [Kiválaszthatja valamelyik csempét](service-dashboard-tiles.md) a mögöttes jelentés megnyitásához.
+* Az adatkészlet az ütemezés szerint naponta frissül, de módosíthatja a frissítési ütemezést, vagy igény szerint bármikor frissíthet az **Azonnali frissítés** elemre kattintva
 
-## <a name="next-steps"></a>Következő lépések
+## <a name="next-steps"></a>További lépések
 [Első lépések a Power BI-ban](service-get-started.md)
 
-[Adatok beolvasása a Power BI-ban](service-get-data.md)
+[Adatok lekérése a Power BI-ban](service-get-data.md)
 

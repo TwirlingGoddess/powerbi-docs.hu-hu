@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
 ms.author: yshoukry
-ms.openlocfilehash: f73a97b84613b12ef5d275de8bb234db08d20d06
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 113d635469130a85486db4bccb555d4aa599f961
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/19/2018
 ---
 # <a name="connect-to-tygraph--with-power-bi"></a>Csatlakozás a tyGraph-hoz a Power BI-t használva
 A Power BI-tartalomcsomag segítségével a Power BI-ban is megtekintheti és elemezheti tyGraph-adatait. Első lépésként csatlakozzon tyGraph-fiókjához, és töltse be az azokhoz tartozó irányítópultot, jelentéseket és adatkészletet. A kész tartalom olyan összefüggéseket tartalmaz, mint a Measure of Active Engagement (MAE pontszám, az aktív elköteleződés mértéke) és a Top Contributors (Legtöbbet hozzájárulók). A legfontosabb információk kiemelése érdekében testre szabhatja a betöltött vizualizációs elemeket.  A beállított ütemezésnek megfelelően a rendszer automatikusan frissíteni fogja az adatokat.
@@ -29,7 +29,7 @@ A Power BI-tartalomcsomag segítségével a Power BI-ban is megtekintheti és el
 Csatlakozás a [Power BI-hoz készített tyGraph-hoz](https://app.powerbi.com/getdata/services/tygraph).
 
 ## <a name="how-to-connect"></a>A csatlakozás menete
-1. Kattintson az **Adatok lekérése** elemre a bal oldalon lévő navigációs ablaktábla alján.
+1. A bal oldali navigációs ablaktábla alján kattintson az **Adatok lekérése** elemre.
    
    ![](media/service-connect-to-tygraph/getdata.png)
 2. A **Szolgáltatások** mezőben kattintson a **Beolvasás** lehetőségre.
@@ -51,16 +51,16 @@ Csatlakozás a [Power BI-hoz készített tyGraph-hoz](https://app.powerbi.com/ge
     A tyGraph-tartalomcsomag használatához olyan tyGraph-fiókra van szükség, melyet egy Yammer által igazolt rendszergazda hozott létre. Létrehozása után kiegészítő kulcsok hozhatók létre az ugyanazon szervezeten belüli felhasználók részére. Ha az igazolt rendszergazda még nem hozott létre tyGraph-fiókot, kérje meg, hogy hozzon létre egyet. Ha már létrehozott egyet, e-mailben tud kulcsot kérni a <mailto:support@unlimitedviz.com> címre írva.
    
     ![](media/service-connect-to-tygraph/creds.png)
-6. A sikeres hitelesítés után az importálási folyamat automatikusan elindul. Ha a csatlakozás létrejött, a Navigációs ablaktáblán megjelenik egy új irányítópult, jelentés és modell. Az importált adatok megtekintéséhez válassza ki az irányítópultot.
+6. A sikeres hitelesítés után az importálási folyamat automatikusan elindul. Ha a csatlakozás létrejött, a Navigációs ablaktáblán megjelenik egy új irányítópult, jelentés és modell. Válassza ki az irányítópultot az importált adatok megtekintéséhez.
    
     ![](media/service-connect-to-tygraph/dashboard.png)
 
-**Hogyan tovább?**
+**Mi a következő lépés?**
 
-* [Tegyen fel egy kérdést a Q&A mezőben](service-q-and-a.md), amely az irányítópult tetején található
-* [Módosítsa a csempéket](service-dashboard-edit-tile.md) az irányítópulton.
-* [Kattintson az egyik csempére](service-dashboard-tiles.md) az alapjául szolgáló jelentés megnyitásához.
-* Az adathalmaz naponta frissül, de módosíthatja is a frissítési ütemezést, vagy igény szerint frissíthet bármikor, a **Frissítés** lehetőségre kattintva
+* [Kérdéseket tehet fel a Q&A mezőben](power-bi-q-and-a.md) az irányítópult tetején.
+* [Módosíthatja az irányítópult csempéit](service-dashboard-edit-tile.md).
+* [Kiválaszthatja valamelyik csempét](service-dashboard-tiles.md) a mögöttes jelentés megnyitásához.
+* Az adatkészlet az ütemezés szerint naponta frissül, de módosíthatja is a frissítési ütemezést, vagy igény szerint frissíthet bármikor, az **Azonnali frissítés** lehetőségre kattintva.
 
 <a name="FindingParams"></a>
 
@@ -95,7 +95,7 @@ A fenti példában szereplő érték szerint minden 2013. október 29-i vagy ké
 A fenti példában szereplő érték alapján minden 2014. október 20-i és azt megelőzően létrejött adatot betölt a tartalomcsomagba a rendszer. 
 
 ## <a name="next-steps"></a>Következő lépések
-[Power BI - első lépések](service-get-started.md)
+[Első lépések a Power BI-ban](service-get-started.md)
 
-[Adatok beolvasása a Power BI-ban](service-get-data.md)
+[Adatok lekérése a Power BI-ban](service-get-data.md)
 

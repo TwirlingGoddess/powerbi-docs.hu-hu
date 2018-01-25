@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/08/2018
+ms.date: 01/21/2018
 ms.author: mihart
-ms.openlocfilehash: 6d2c14de83fcea1e9067fd3868b7559c3becce14
-ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
+ms.openlocfilehash: 797b22ed6f07e64d7e4970f8f0dfe5e93a7c0ec4
+ms.sourcegitcommit: 2ae323fbed440c75847dc55fb3e21e9c744cfba0
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 01/09/2018
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="interacting-with-arcgis-maps-in-power-bi"></a>ArcGIS-térképek használata a Power BI-ban
 Ez a témakör az ArcGIS-térképet a Power BI szolgáltatás, a Desktop alkalmazás vagy a mobilalkalmazás felületén *használó* felhasználó szemszögéből van megírva. Ha egy ArcGIS-térképet a létrehozója megoszt Önnel, számos különféle módon használhatja azt.  Az ArcGIS-térképek létrehozásával kapcsolatos információkért lásd: [Az esri ArcGIS-térképeinek oktatóanyaga](power-bi-visualization-arcgis.md).
@@ -31,7 +31,6 @@ Az ArcGIS-térképek és a Power BI együttes használata új lehetőségeket k�
 
 > [!TIP]
 > A GIS az angol Geographic Information Science (térinformatika) kifejezés rövidítése.
-> 
 > 
 
 A jelen példában ugyanazt az ArcGIS-térképet használjuk, amely [Az esri ArcGIS-térképeinek oktatóanyaga](power-bi-visualization-arcgis.md) részben szerepel. A térkép a tavalyi értékesítési adatokat jeleníti meg városok szerint, és egy utcaszintű alaptérképet, a méretet jelölő buborékszimbólumokat és a háztartásonkénti átlagjövedelmet megjelenítő referenciaréteget tartalmaz. A térképen 3 jelölőt és egy, az utazási időt jelző körívet (lila) tartalmaz.
@@ -99,7 +98,7 @@ Az ArcGIS Maps for Power BI az alábbi szolgáltatásokban és alkalmazásokban 
 <td>Igen</td>
 </tr>
 <tr>
-<td>Power BI szolgáltatás (PowerBI.com)</td>
+<td>Power BI service (app.powerbi.com)</td>
 <td>Igen</td>
 </tr>
 <tr>

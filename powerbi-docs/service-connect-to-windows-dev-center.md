@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
 ms.author: yshoukry
-ms.openlocfilehash: d88e10b4ee2e76444fccec0edabddd2a123d6b62
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 95673e25b373f6878ba87098fa8e37625f6c4996
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/19/2018
 ---
 # <a name="connect-to-windows-dev-center-with-power-bi"></a>Kapcsolódás a Windows fejlesztői központhoz a Power BI-jal
 A Power BI-tartalomcsomag használatával a Power BI-ban vizsgálhatja és figyelheti a Windows fejlesztői központ alkalmazáselemzési adatait. Az adatok naponta egyszer automatikusan frissülnek.
@@ -29,7 +29,7 @@ A Power BI-tartalomcsomag használatával a Power BI-ban vizsgálhatja és figye
 Kapcsolódjon a [Windows fejlesztői központ Power BI-tartalomcsomagjához](https://app.powerbi.com/getdata/services/devcenter).
 
 ## <a name="how-to-connect"></a>A kapcsolódás menete
-1. Kattintson az **Adatok lekérése** elemre a bal oldalon lévő navigációs panel alján.
+1. A bal oldali navigációs ablaktábla alján kattintson az **Adatok lekérése** elemre.
    
    ![](media/service-connect-to-windows-dev-center/getdata.png)
 2. A **Szolgáltatások** mezőben válassza a **Beolvasás** elemet.
@@ -54,10 +54,10 @@ Kapcsolódjon a [Windows fejlesztői központ Power BI-tartalomcsomagjához](htt
 
 **Hogyan tovább?**
 
-* [Tegyen fel egy kérdést a Q&A-mezőben](service-q-and-a.md), amely az irányítópult tetején található.
-* [Módosítsa a csempéket](service-dashboard-edit-tile.md) az irányítópulton.
-* [Kattintson egy csempére](service-dashboard-tiles.md) az alapjául szolgáló jelentés megnyitásához.
-* Az adatkészlet naponta frissül, de módosíthatja is a frissítési ütemezést, vagy igény szerint frissíthet bármikor, a **Frissítés** lehetőségre kattintva.
+* [Kérdéseket tehet fel a Q&A mezőben](power-bi-q-and-a.md) az irányítópult tetején.
+* [Módosíthatja az irányítópult csempéit](service-dashboard-edit-tile.md).
+* [Kiválaszthatja valamelyik csempét](service-dashboard-tiles.md) a mögöttes jelentés megnyitásához.
+* Noha az adatkészlet napi frissítésre van ütemezve, módosíthatja a frissítési ütemezést, vagy igény szerint frissíthet az **Azonnali frissítés** gombbal.
 
 ## <a name="whats-included"></a>A csomag tartalma
 A fejlesztői központ Power BI-tartalomcsomag az alkalmazása elemzési adatait és IAP-beszerzéseit, minősítéseit, értékeléseit, és az alkalmazás állapotát tartalmazza. Az adatok csak az utolsó 3 hónapra terjednek ki. Az időintervallum változik, a dátumok az adatkészlet frissítésekor módosulnak.
@@ -77,5 +77,5 @@ Az alkalmazás azonosítója a Windows 10 Áruház-beli URL-cím végén találh
 ## <a name="next-steps"></a>További lépések
 [Első lépések a Power BI-ban](service-get-started.md)
 
-[Adatok beolvasása a Power BI-ban](service-get-data.md)
+[Adatok lekérése a Power BI-ban](service-get-data.md)
 

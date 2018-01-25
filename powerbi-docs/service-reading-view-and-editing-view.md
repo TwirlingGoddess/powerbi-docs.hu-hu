@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/08/2018
 ms.author: mihart
-ms.openlocfilehash: e9fda17bd9560ac564cb6b3ae6c34b986a6bc2aa
-ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
+ms.openlocfilehash: 6948f0e333ba1136f6fda8fa0f62b146cefdd710
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 01/09/2018
+ms.lasthandoff: 01/19/2018
 ---
 # <a name="reading-view-and-editing-view-in-power-bi-service-reports"></a>A Power BI szolgáltatás jelentéseinek Olvasó és Szerkesztési nézete
 A Power BI szolgáltatásban a jelentések két módban tekinthetők meg és kezelhetők: az Olvasó és a Szerkesztési nézetben (a Power BI Desktopban nem). Az Olvasó nézet minden felhasználó számára elérhető, és speciálisan az adatok *felhasználói* számára lett kialakítva, míg a Szerkesztő nézet csak a jelentések *létrehozói* és tulajdonosai számára érhető el. 
@@ -56,7 +56,7 @@ A táblázat nem tartalmazza a Power BI szolgáltatás minden jelentéssel kapcs
 | [A jelentés **Nézet** beállításai](power-bi-report-display-settings.md) | Igen, meghatározott kivételekkel. | Igen, mindegyik, többek között a rácsvonalak, a rácshoz illesztés és a zárolás is. |
 | [Frissítési ütemezés létrehozása](refresh-data.md) | Nem  | Igen |
 | [Feliratkozás jelentésre](service-report-subscribe.md) | Igen | Nem |
-| [Q&A – kérdések feltevése jelentésekben](service-q-and-a.md) | Nem  | Igen |
+| [Q&A – kérdések feltevése jelentésekben](power-bi-q-and-a.md) | Nem  | Igen |
 | [Használati metrikák megtekintése](service-usage-metrics.md) | Igen, a jelentésvásznon. | Igen, a jelentéslistában (tartalom nézet) |
 | [Kapcsolódó megtekintése](service-related-content.md) | Igen, a jelentésvásznon. | Igen, a jelentéslistában (tartalom nézet) |
 | [Jelentés mentése](service-report-save.md) | Igen, de csak a **Mentés másként** használatával. | Igen |

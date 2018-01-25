@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
 ms.author: yshoukry
-ms.openlocfilehash: ecbcccfbbece8255494c78220a81de62b3ddcc40
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 295d8dbd24c9ae6bce84cb76f6a5e23e7474b893
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/19/2018
 ---
 # <a name="connect-to-circuit-id-with-power-bi"></a>Kapcsolódás a Circuit ID-hoz a Power BI segítségével
 A Power BI megkönnyíti a Circuit ID-ról származó kommunikációs adatok elemzését. A Power BI a lekért adatok alapján összeállít egy alapértelmezett irányítópultot, és jelentéseket hoz létre az adatokból. A kapcsolat létrehozása után elemezheti az adatokat, és testre szabhatja az irányítópultot a saját igényei szerint. Az adatok naponta automatikusan frissülnek.
@@ -29,7 +29,7 @@ A Power BI megkönnyíti a Circuit ID-ról származó kommunikációs adatok ele
 Kapcsolódjon a Power BI-hoz készült [Circuit ID-tartalomcsomaghoz](https://app.powerbi.com/getdata/services/circuitid).
 
 ## <a name="how-to-connect"></a>A kapcsolódás menete
-1. Kattintson az **Adatok lekérése** elemre a bal oldalon lévő navigációs panel alján.
+1. A bal oldali navigációs ablaktábla alján kattintson az **Adatok lekérése** elemre.
    
     ![](media/service-connect-to-circuit-id/getdata.png)
 2. A **Szolgáltatások** mezőben válasza a **Beolvasás** elemet.
@@ -47,13 +47,13 @@ Kapcsolódjon a Power BI-hoz készült [Circuit ID-tartalomcsomaghoz](https://ap
 
 **Hogyan tovább?**
 
-* [Tegyen fel egy kérdést a Q&A mezőben](service-q-and-a.md), amely az irányítópult tetején található.
-* [Módosítsa a csempéket](service-dashboard-edit-tile.md) az irányítópulton.
-* [Kattintson egy csempére](service-dashboard-tiles.md) az alapjául szolgáló jelentés megnyitásához.
-* Az adathalmaz naponta frissül, de módosíthatja is a frissítési ütemezést, vagy igény szerint frissíthet bármikor, a **Frissítés** lehetőségre kattintva.
+* [Kérdéseket tehet fel a Q&A mezőben](power-bi-q-and-a.md) az irányítópult tetején.
+* [Módosíthatja az irányítópult csempéit](service-dashboard-edit-tile.md).
+* [Kiválaszthatja valamelyik csempét](service-dashboard-tiles.md) a mögöttes jelentés megnyitásához.
+* Az adatkészlet az ütemezés szerint naponta frissül, de módosíthatja a frissítési ütemezést, vagy igény szerint bármikor frissíthet az **Azonnali frissítés** elemre kattintva
 
-## <a name="next-steps"></a>Következő lépések
+## <a name="next-steps"></a>További lépések
 [Első lépések a Power BI-ban](service-get-started.md)
 
-[Adatbeolvasás a Power BI szolgáltatásban](service-get-data.md)
+[Power BI – Adatok lekérése](service-get-data.md)
 

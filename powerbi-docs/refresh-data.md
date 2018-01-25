@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/12/2017
+ms.date: 01/19/2018
 ms.author: davidi
-ms.openlocfilehash: 053afc2c085a045c3fe0c8ce70a541d132966640
-ms.sourcegitcommit: b3ee37e1587f1269ee7dd9daf1685a06dea3b50c
+ms.openlocfilehash: 647b042d10768f4ecbb3083384efa9000202a11f
+ms.sourcegitcommit: a973bc6adc88507932e7e1535a74208e3842f5c4
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/23/2017
+ms.lasthandoff: 01/20/2018
 ---
 # <a name="data-refresh-in-power-bi"></a>Adatfrissítés a Power BI-ban
 A jó döntések meghozatalában gyakran kritikus fontosságú a legfrissebb adatok lekérése. Már valószínűleg ismeri a Power BI Adatok lekérése funkcióját, amellyel adatokhoz csatlakozhat, illetve adatokat tölthet fel, és biztosan létrehozott már jelentéseket és egy irányítópultot is. Ezután célszerű meggyőződni arról, hogy az adatok valóban frissek és hibátlanok.
@@ -112,7 +112,7 @@ A fájlok a OneDrive-ban vagy a SharePoint Online-ban való tárolása, valamint
 | A menüszalagon található Adatok lekérése funkcióval csatlakozhat az adatokhoz, valamint lekérheti azokat bármelyik listázott online adatforrásból. |Nem |Igen |Nem (lásd alább) |
 | Az Adatok lekérése funkcióval csatlakozhat egy Analysis Services-adatforráshoz, és részletesen megtekintheti az adatait. |Igen |Nem |Igen |
 | Az Adatok lekérése funkcióval csatlakozhat egy támogatott helyszíni DirectQuery-adatforráshoz, és részletesen megtekintheti az adatait. |Igen |Nem |Igen |
-| Az Adatok lekérése funkcióval csatlakozhat az Azure SQL Database, az Azure SQL Data Warehouse és az Azure HDInsight Spark szolgáltatásokhoz, és lekérhet innen adatokat. |Igen (óránként) |Nem |Nem |
+| Az Adatok lekérése funkcióval csatlakozhat az Azure SQL Database, az Azure SQL Data Warehouse és az Azure HDInsight Spark szolgáltatásokhoz, és lekérhet innen adatokat. |Igen |Igen |Nem |
 | Az Adatok lekérése funkcióval csatlakozhat bármelyik listázott helyszíni adatforráshoz, és lekérhet innen adatokat. Ez alól kivételek a Hadoop-fájlok (HDFS) és a Microsoft Exchange. |Nem |Igen |Igen |
 
 > [!NOTE]

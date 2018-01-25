@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
 ms.author: yshoukry
-ms.openlocfilehash: 4a87beb774521d935340f2b52ecd1860a5c25246
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 23bfef9442aa334dd7b141fd470ab9176a17f91e
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/19/2018
 ---
 # <a name="connect-to-webtrends-with-power-bi"></a>Csatlakozás a Webtrends eszközhöz a Power BI használatával
 A Power BI Webtrends-tartalomcsomagja számos azonnal használatba vehető metrikát tartalmaz, így például az összes oldalmegtekintést és az adatforgalmi forrás szerinti látogatásokat. A Webtrends-adatok Power BI-ben történő vizualizációja a Webtrends-fiókhoz való csatlakozással kezdődik. Használhatja a mellékelt irányítópultot és jelentéseket, vagy testre szabhatja őket úgy, hogy az Ön számára legfontosabb adatokat emeljék ki.  Az adatok naponta egyszer automatikusan frissülnek.
@@ -50,7 +50,7 @@ Kapcsolódjon a [Power BI Webtrends-tartalomcsomagjához](https://app.powerbi.co
 
 **Mi a következő lépés?**
 
-* [Kérdéseket tehet fel a Q&A mezőben](service-q-and-a.md) az irányítópult tetején.
+* [Kérdéseket tehet fel a Q&A mezőben](power-bi-q-and-a.md) az irányítópult tetején.
 * [Módosíthatja az irányítópult csempéit](service-dashboard-edit-tile.md).
 * [Kiválaszthatja valamelyik csempét](service-dashboard-tiles.md) a mögöttes jelentés megnyitásához.
 * Noha az adatkészlet napi frissítésre van ütemezve, módosíthatja a frissítési ütemezést, vagy igény szerint frissíthet az **Azonnali frissítés** gombbal.

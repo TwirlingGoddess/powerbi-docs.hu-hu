@@ -11,13 +11,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/13/2017
+ms.date: 01/13/2018
 ms.author: mihart
-ms.openlocfilehash: d64ab6b9a94171c99eb0956efce89f59b5174d41
-ms.sourcegitcommit: 2bd3c16fd300e41c6e3de29a24543491c1d53354
+ms.openlocfilehash: 648880925f343032c24cda612da58ef2fdadcf80
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/19/2018
 ---
 # <a name="quickly-find-and-view-your-power-bi-data-using-cortana-for-power-bi"></a>Power BI-adatok gyors keresése a Power BI-hoz használt Cortana segítségével
 Használja a Cortanát Windows 10-eszközein, ha azonnali választ szeretne kapni fontos üzleti kérdéseire. A Power BI-jal való integráció által a Cortana képes közvetlenül a Power BI-irányítópultokból és -jelentésekből kinyerni a lényeges információkat. Nem kell hozzá más, csak a Windows 10 2015. november 10-einél nem korábbi verziója, a Cortana, a Power BI és hozzáférés legalább egy adatkészlethez.
@@ -70,7 +70,7 @@ Ha az irányítópult címe egynél több szóból áll, a Cortana csak akkor ta
 ### <a name="cortana-and-reports"></a>A Cortana és a jelentések
  A Cortana olyan jelentésekben talál válaszokat, amelyeknek [kimondottan a Cortanával való megjelenítéshez tervezett oldalai vannak](service-cortana-answer-cards.md). Elég olyan kérdéseket feltennie, amelyekben ennek a különleges jelentésoldalnak a címe vagy egyik kulcsszava szerepel.  
 
-A jelentések keresésének hátterében a [Microsoft Power BI Q&A-t](service-q-and-a.md) használó technológia áll.
+A jelentések keresésének hátterében a [Microsoft Power BI Q&A-t](power-bi-q-and-a.md) használó technológia áll.
 
 Amikor Ön feltesz egy kérdést a Cortanában, a Power BI ad választ a kimondottan a Cortanához tervezett jelentésoldalak alapján. A válaszlehetőségeket a Cortana menet közben határozza meg közvetlenül a Power BI-ban már létrehozott Cortana-*válaszkártyákból*.  Egy válasz további vizsgálatához egyszerűen nyissa meg az eredményt a Power BI-ban.
 

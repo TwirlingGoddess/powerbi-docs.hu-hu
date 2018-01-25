@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
 ms.author: yshoukry
-ms.openlocfilehash: 39c3fd776e3aed821c7c10c1e905d7400ca64efd
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 9e19246d6caa8111ab4e61b5dc8fd6207ea1099e
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/19/2018
 ---
 # <a name="connect-to-microsoft-azure-enterprise-with-power-bi"></a>Csatlakozás a Microsoft Azure Enterprise-hoz a Power BI használatával
 A Power BI-tartalomcsomag segítségével a Power BI-ban vizsgálhatja és figyelheti Microsoft Azure Enterprise-beli adatait. Az adatok naponta egyszer automatikusan frissülnek.
@@ -29,7 +29,7 @@ A Power BI-tartalomcsomag segítségével a Power BI-ban vizsgálhatja és figye
 Csatlakozás a [Microsoft Azure Enterprise-tartalomcsomaghoz](https://app.powerbi.com/getdata/services/azure-enterprise) a Power BI használatával.
 
 ## <a name="how-to-connect"></a>A csatlakozás menete
-1. Kattintson az **Adatok lekérése** elemre a bal oldalon lévő navigációs ablaktábla alján.
+1. A bal oldali navigációs ablaktábla alján kattintson az **Adatok lekérése** elemre.
    
     ![](media/service-connect-to-azure-enterprise/getdata.png)
 2. A **Szolgáltatások** mezőben válasza a **Beolvasás** elemet.
@@ -41,30 +41,30 @@ Csatlakozás a [Microsoft Azure Enterprise-tartalomcsomaghoz](https://app.powerb
 4. Adja meg az Azure-környezet URL-címét, az Azure Enterprise regisztrációs számát, és azt, hogy hány havi adatot kíván importálni. Az Azure-környezet URL-címe `https://ea.azure.com` vagy `https://ea.windowsazure.cn`. A [paraméterek megkereséséről](#FindingParams) alább olvashat részletesebben.
    
     ![](media/service-connect-to-azure-enterprise/params.png)
-5. A csatlakozáshoz adja meg a hozzáférési kulcsot. A regisztrációjához tartozó kulcsot az Azure EA-portálon találja meg.
+5. A csatlakozáshoz adja meg a hozzáférési kulcsát. A beléptetési kulcs az Azure EA Portalon található.
    
     ![](media/service-connect-to-azure-enterprise/creds.png)
-6. Az importálás automatikusan megkezdődik. Amikor befejeződik, a navigációs ablaktáblán megjelenik egy új irányítópult, jelentés és modell. Kattintson az irányítópultra az importált adatok megtekintéséhez.
+6. Az importálási folyamat automatikusan megkezdődik. Ha befejeződött, a navigációs panelen megjelenik egy új irányítópult, jelentés és modell. Válassza ki az irányítópultot az importált adatok megtekintéséhez.
    
    ![](media/service-connect-to-azure-enterprise/dashboard.png)
 
-**Hogyan tovább?**
+**Mi a következő lépés?**
 
-* [Tegyen fel egy kérdést a Q&A mezőben](service-q-and-a.md), amely az irányítópult tetején található
-* [Módosítsa a csempéket](service-dashboard-edit-tile.md) az irányítópulton.
-* [Kattintson egy csempére](service-dashboard-tiles.md) a mögöttes jelentés megnyitásához.
-* Az adatkészlet az ütemezés szerint naponta frissül, de módosíthatja is a frissítési ütemezést, vagy igény szerint frissíthet bármikor, az **Azonnali frissítés** lehetőségre kattintva.
+* [Kérdéseket tehet fel a Q&A mezőben](power-bi-q-and-a.md) az irányítópult tetején.
+* [Módosíthatja az irányítópult csempéit](service-dashboard-edit-tile.md).
+* [Kiválaszthatja valamelyik csempét](service-dashboard-tiles.md) a mögöttes jelentés megnyitásához.
+* Noha az adatkészlet napi frissítésre van ütemezve, módosíthatja a frissítési ütemezést, vagy igény szerint frissíthet az **Azonnali frissítés** gombbal.
 
 ## <a name="whats-included"></a>A csomag tartalma
 Az Azure Enterprise-tartalomcsomag havi adatjelentéseket nyújt a kapcsolódási folyamat során megadott hónapok időtartamára. A tartomány változó időintervalluma miatt az adatkészlet frissülésével a benne foglalt adatok is frissülnek.
 
 ## <a name="system-requirements"></a>Rendszerkövetelmények
-A tartalomcsomag használatához hozzáférésre van szükség az Azure Portal-beli Enterprise-funkciókhoz.
+A tartalomcsomag használatához hozzáférés szükséges a Vállalati szolgáltatásokhoz az Azure Portalon.
 
 <a name="FindingParams"></a>
 
-## <a name="finding-parameters"></a>Paraméterek keresése
-A Power BI jelentései elérhetőek az EA mindazon közvetlen, partner- és közvetett ügyfelei számára, akik láthatják a számlázási adatokat. A kapcsolódási folyamathoz szükséges értékek megkereséséről alább tájékozódhat.
+## <a name="finding-parameters"></a>Paraméterek helye
+A Power BI-jelentések készítése olyan közvetlen, partneri és közvetett vállalati szerződéssel rendelkező ügyfelek számára elérhető, akik meg tudják tekinteni a számlázási adatokat. A kapcsolódási folyamathoz szükséges értékek megkereséséről alább tájékozódhat.
 
 **Az Azure-környezet URL-címe**
 
@@ -74,26 +74,26 @@ A Power BI jelentései elérhetőek az EA mindazon közvetlen, partner- és köz
 
 **Hónapok száma**
 
-* 1 és 36 közötti érték, amely a jelentésben elemzett (mai naptól számított) hónapok számát adja meg.
+* Egy 1 és 36 közötti szám, amely az importálni kívánt hónapok száma (a mai naptól számítva).
 
-**Regisztrációs szám**
+**Beléptetési szám**
 
-* Az Ön Azure Enterprise regisztrációs száma, amely az [Azure Enterprise Portal](https://ea.azure.com/) kezdőképernyőjén jelenik meg az „Enrollment Detail” (Regisztrációs adatok) felirat alatt.
+* Ez az Azure Enterprise beléptetési száma, amely az [Azure Enterprise Portal](https://ea.azure.com/) kezdőképernyőjén, a „Regisztráció részletei” felületen található.
   
     ![](media/service-connect-to-azure-enterprise/params2.png)
 
 **Hozzáférési kulcs**
 
-* A kulcs az Azure Enterprise portálon található meg, a „Download Usage" > „API Access Key" résznél.
+* A hozzáférési kulcs az Azure Enterprise portálon a „Használati adatok letöltése” > „API hozzáférési kulcsa” alatt található.
   
     ![](media/service-connect-to-azure-enterprise/creds2.png)
 
 **További segítség**
 
-* A Power BI-hoz készült Azure Enterprise-tartalomcsomaghoz további segítséget kaphat az Azure Enterprise portálon, az API súgófájl „Súgó” részében, valamint a Reports -> Download Usage -> API Access Key további instrukcióiban.
+* Az Azure Enterprise Power BI csomag telepítésével kapcsolatos további segítségért jelentkezzen be az Azure Enterprise Portalra, és tekintse meg az API súgófájlját a „Súgó” felületen, valamint a további utasításokat a Jelentések -> Használati adatok letöltése -> API hozzáférési kulcsa alatt.
 
-## <a name="next-steps"></a>További lépések
+## <a name="next-steps"></a>Következő lépések
 [Első lépések a Power BI-ban](service-get-started.md)
 
-[Adatok beolvasása a Power BI-ban](service-get-data.md)
+[Adatok lekérése a Power BI-ban](service-get-data.md)
 

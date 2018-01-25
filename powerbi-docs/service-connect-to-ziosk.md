@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
 ms.author: yshoukry
-ms.openlocfilehash: 0f4cd7166334338e4b19586c189fd363c5b7c934
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: b508019eaebe6851909594a8a6174ad5f8c969a1
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/19/2018
 ---
 # <a name="connect-to-ziosk-survey-analytics-with-power-bi"></a>Kapcsolódás a Ziosk Survey Analytics szolgáltatáshoz a Power BI-t használva
 A Power BI-hoz készített Ziosk Survey Analytics tartalomcsomag Ziosk táblagépekkel használva egyedülálló módon tárja az éttermek elé a Ziosk felmérések adataiból felismerhető összefüggéseket, többek között nap, hely és alkalmazott szerint is szegmentálva.
@@ -29,7 +29,7 @@ A Power BI-hoz készített Ziosk Survey Analytics tartalomcsomag Ziosk táblagé
 Kapcsolódjon a Power BI-hoz készített [Ziosk Survey Analytics tartalomcsomaghoz](https://app.powerbi.com/getdata/services/ziosk-survey-analytics).
 
 ## <a name="how-to-connect"></a>A kapcsolódás menete
-1. Kattintson az **Adatok lekérése** elemre a bal oldalon lévő navigációs panel alján.  
+1. A bal oldali navigációs ablaktábla alján kattintson az **Adatok lekérése** elemre.  
    
     ![](media/service-connect-to-ziosk/getdata.png)
 2. A **Szolgáltatások** mezőben kattintson a **Beolvasás** gombra.  
@@ -49,10 +49,10 @@ Kapcsolódjon a Power BI-hoz készített [Ziosk Survey Analytics tartalomcsomagh
 
 **Hogyan tovább?**
 
-* [Tegyen fel egy kérdést a Q&A-mezőben](service-q-and-a.md), amely az irányítópult tetején található
-* [Módosítsa a csempéket](service-dashboard-edit-tile.md) az irányítópulton.
-* [Kattintson az egyik csempére](service-dashboard-tiles.md) az alapjául szolgáló jelentés megnyitásához.
-* Az adathalmaz naponta frissül, de módosíthatja is a frissítési ütemezést, vagy igény szerint frissíthet bármikor, a **Frissítés** lehetőségre kattintva
+* [Kérdéseket tehet fel a Q&A mezőben](power-bi-q-and-a.md) az irányítópult tetején.
+* [Módosíthatja az irányítópult csempéit](service-dashboard-edit-tile.md).
+* [Kiválaszthatja valamelyik csempét](service-dashboard-tiles.md) a mögöttes jelentés megnyitásához.
+* Noha az adatkészlet napi frissítésre van ütemezve, módosíthatja a frissítési ütemezést, vagy igény szerint frissíthet az **Azonnali frissítés** gombbal.
 
 ## <a name="whats-included"></a>A csomag tartalma
 A tartalomcsomag a következő táblák adatait tartalmazza:  
@@ -77,7 +77,7 @@ A tartalomcsomag a következő táblák adatait tartalmazza:
 A tartalomcsomag példányának létrehozásához egy olyan Ziosk-fiók szükséges, amely rendelkezik engedélyekkel a fenti táblázatokhoz.
 
 ## <a name="next-steps"></a>További lépések
-[Power BI ‒ első lépések](service-get-started.md)
+[Első lépések a Power BI-ban](service-get-started.md)
 
-[Power BI – alapfogalmak](service-basic-concepts.md)
+[Power BI – Alapfogalmak](service-basic-concepts.md)
 

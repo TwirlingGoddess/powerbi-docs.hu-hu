@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
 ms.author: yshoukry
-ms.openlocfilehash: 85b43579785983da2ddc3ac2e302396d1a282792
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: ff7ff30874d4038547a0db94ae8c285081acc8eb
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/19/2018
 ---
 # <a name="connect-to-azure-mobile-engagement-with-power-bi"></a>Kapcsolódás az Azure Mobile Engagement szolgáltatáshoz a Power BI használatával
 A Power BI Azure Mobile Engagement tartalomcsomaggal gyors betekintést nyerhet az alkalmazása adataiba.
@@ -29,7 +29,7 @@ A Power BI Azure Mobile Engagement tartalomcsomaggal gyors betekintést nyerhet 
 Kapcsolódjon a Power BI-hoz készült [Azure Mobile Engagement-tartalomcsomaghoz](https://app.powerbi.com/groups/me/getdata/services/azme).
 
 ## <a name="how-to-connect"></a>A kapcsolódás menete
-1. Kattintson az **Adatok lekérése** elemre a bal oldalon lévő navigációs ablaktábla alján.
+1. A bal oldali navigációs ablaktábla alján kattintson az **Adatok lekérése** elemre.
    
     ![](media/service-connect-to-azure-mobile/getdata.png)
 2. A **Szolgáltatások** mezőben válasza a **Beolvasás** elemet.
@@ -50,13 +50,13 @@ Kapcsolódjon a Power BI-hoz készült [Azure Mobile Engagement-tartalomcsomagho
 
  **Hogyan tovább?**
 
-* [Tegyen fel egy kérdést a Q&A mezőben](service-q-and-a.md), amely az irányítópult tetején található
-* [Módosítsa a csempéket](service-dashboard-edit-tile.md) az irányítópulton.
-* [Válasszon ki egy csempét](service-dashboard-tiles.md) az alapjául szolgáló jelentés megnyitásához.
+* [Kérdéseket tehet fel a Q&A mezőben](power-bi-q-and-a.md) az irányítópult tetején.
+* [Módosíthatja az irányítópult csempéit](service-dashboard-edit-tile.md).
+* [Kiválaszthatja valamelyik csempét](service-dashboard-tiles.md) a mögöttes jelentés megnyitásához.
 * Az adatkészlet az ütemezés szerint naponta frissül, de módosíthatja a frissítési ütemezést, vagy igény szerint bármikor frissíthet az **Azonnali frissítés** elemre kattintva
 
 ## <a name="next-steps"></a>További lépések
-[Power BI – első lépések](service-get-started.md)
+[Első lépések a Power BI-ban](service-get-started.md)
 
-[Adatok beolvasása a Power BI-ban](service-get-data.md)
+[Adatok lekérése a Power BI-ban](service-get-data.md)
 

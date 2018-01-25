@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 09/01/2017
 ms.author: sirsu
-ms.openlocfilehash: 8b03eb9659d4f2c984200db16daa6de017e73de7
-ms.sourcegitcommit: 7517c068db806f12bb0b953e9a1bd4249ca12da5
+ms.openlocfilehash: 87233cfe4290546478899d81d7a39714c75963eb
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 01/05/2018
+ms.lasthandoff: 01/19/2018
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>A Power BI szolgáltatás újdonságai
 Ezen az oldalon a **Power BI szolgáltatás** ismert problémáit és új funkcióit ismertetjük. Kapcsolódó "Újdonságok" az alábbi helyeken találhatók:
@@ -470,7 +470,7 @@ További információt a [blogunkban](http://blogs.msdn.com/b/powerbi/archive/20
 
 **2015. október 6.**
 
-* A Power BI Q&A szolgáltatással egyszerű és intuitív kérdésekkel elemezheti az adatait, válaszokat pedig interaktív diagramok és grafikonok formájában kaphat. Ebben a kiadásban egy olyan funkcióval bővítettük a Power BI Q&A-t, amely segít a használatbavételben akkor is, ha semmit nem tud az adatokról. Ehhez [nyisson meg egy tetszőleges irányítópultot, és kattintson a „Hogyan érdemes kérdezni?” hivatkozásra a Q&A mező mellett](service-how-to-q-and-a.md). A Power BI az adatok alapján több javaslatot jelenít meg.
+* A Power BI Q&A szolgáltatással egyszerű és intuitív kérdésekkel elemezheti az adatait, válaszokat pedig interaktív diagramok és grafikonok formájában kaphat. Ebben a kiadásban egy olyan funkcióval bővítettük a Power BI Q&A-t, amely segít a használatbavételben akkor is, ha semmit nem tud az adatokról. Ehhez [nyisson meg egy tetszőleges irányítópultot, és kattintson a „Hogyan érdemes kérdezni?” hivatkozásra a Q&A mező mellett](power-bi-tutorial-q-and-a.md). A Power BI az adatok alapján több javaslatot jelenít meg.
 * Két héttel ezelőtt bevezettük az alakzatok a jelentésvászonba való beillesztésének támogatását a Power BI Desktopban. Ezen a héten örömmel jelenthetjük, hogy mostantól akkor is hozzáadhat alakzatokat a jelentésvászonhoz, amikor a Power BI Web Appben készít vagy szerkeszt jelentéseket.
 * Kikapcsolhatja az e-mailes értesítést az irányítópultok megosztásakor. Csak törölje a jelölést az „E-mail-értesítés küldése a címzetteknek” jelölőnégyzetből a Power BI megosztási párbeszédpanelén. Ekkor megjelenik egy URL-cím – ezt másolja a vágólapra, és ossza meg a munkatársaival, így ők is hozzáférhetnek az irányítópulthoz.
 * A Microsoft Dynamics NAV egy üzleti felügyeleti megoldás kis és közepes méretű cégek számára. Segítségével az ügyfelek nagyobb fokú irányítást kaphatnak a pénzügyeik és az üzleti folyamataik felett. A Power BI-tartalomcsomag használatra kész jelentéseket tartalmaz a Dynamics NAV felhasználói számára, például értékesítéssel és profittal, a lehetőségek értékesítési prognózisával, a jövedelmezőséggel és egyéb adatokkal szolgáló jelentéseket. A tartalomcsomag ezeket a metrikákat egy teljes mértékben testreszabható irányítópulton rendezi, így könnyen csatlakozhat az adatokhoz, és azonnal elemezheti azokat.
