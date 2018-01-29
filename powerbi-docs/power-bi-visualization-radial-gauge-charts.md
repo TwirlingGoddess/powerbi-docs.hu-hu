@@ -1,5 +1,5 @@
 ---
-title: "Mérőműszer-diagramok a Power BI szolgáltatásban (Oktatóanyag)"
+title: "Oktatóanyag: A Power BI kör alakú mérőműszer-diagramjai"
 description: "Oktatóanyag: A Power BI kör alakú mérőműszer-diagramjai"
 services: powerbi
 documentationcenter: 
@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/27/2017
+ms.date: 01/21/2018
 ms.author: mihart
-ms.openlocfilehash: 7299b95cb3dd1fab4edce1764c69e1b2657ef547
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 354bfc01231f0f11aabd533bf29f987dec7c9771
+ms.sourcegitcommit: 2ae323fbed440c75847dc55fb3e21e9c744cfba0
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="radial-gauge-charts-in-power-bi-tutorial"></a>Mérőműszer-diagramok a Power BI szolgáltatásban (Oktatóanyag)
 A mérőműszer-diagram köríves alakú és egyetlen értéket jelenít meg, amely egy cél/KPI elérésében tett előrehaladást méri.  A célt vagy a célértéket a vonal (tű) jelzi. A cél elérésében tett előrehaladást az árnyékolás mutatja.  Az előrehaladást ábrázoló érték pedig félkövér betűvel van feltüntetve az ív belsejében. Minden lehetséges érték egyenlően oszlik el az íven, minimálistól (bal szélső érték) a maximálisig (jobb szélső érték).
@@ -39,17 +39,25 @@ A mérőműszer-diagram remek választás:
 * egyetlen mérték állapotának a mutatására.
 * gyorsan áttekinthető és megérthető információk megjelenítésére.
 
+### <a name="prerequisites"></a>Előfeltételek
+ - Power BI szolgáltatás vagy Power BI Desktop
+ - Pénzügyi adatokat tartalmazó minta Excel-munkafüzet: [a minta közvetlen letöltése](http://go.microsoft.com/fwlink/?LinkID=521962).
+
 ## <a name="create-a-basic-radial-gauge"></a>Alapszintű mérőműszer-diagram létrehozása
-Ezek az utasítások a Pénzügyi minta használatát feltételezik. A lépések követéséhez [töltse le a mintát](http://go.microsoft.com/fwlink/?LinkID=521962) a számítógépére, jelentkezzen be a Power BI-ba, és válassza az **Adatok lekérése \> Fájlok \> Helyi fájl > Megnyitás** lehetőséget. 
+Ebben az útmutatóban a Power BI szolgáltatást használjuk. A lépések követéséhez jelentkezzen be a Power BI-ba, és nyissa meg a Pénzügyi minta Excel-fájlt.  
 
 Másik lehetőségként tekintse meg a videót, amelyben bemutatjuk, hogyan hozhat létre egyetlen mutatószámos vizualizációkat: mérőműszereket, kártyákat és KPI-ket.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/xmja6EpqaO0?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>
 
 ### <a name="step-1-open-the-financial-sample-excel-file"></a>1. lépés: A Pénzügyi minta Excel-fájl megnyitása
-1. [A minta pénzügyi Excel-fájl letöltése](sample-financial-download.md).
-2. Nyissa meg a fájlt a Power BI-ban az **Adatok lekérése\> Fájlok** lehetőség kiválasztásával, majd a hely megkeresésével, ahová a fájlt mentette. Kattintson az **Importálás** gombra. A Pénzügyi mintát a rendszer adatkészletként adja hozzá a munkaterületéhez.
-3. Válassza ki a **Pénzügyi mintát** a megnyitásához Vizsgálat módban.
+1. Ha még nem rendelkezik vele, töltse le a [Pénzügyi minta Excel-fájlt](sample-financial-download.md). Jegyezze fel, hogy hová mentette.
+
+2. Nyissa meg a fájlt a ***Power BI szolgáltatásban*** az **Adatok lekérése \> Fájlok** lehetőség kiválasztásával, majd a hely megkeresésével, ahová a fájlt mentette. Kattintson az **Importálás** gombra. A Pénzügyi mintát a rendszer adatkészletként adja hozzá a munkaterületéhez.
+
+3. Az **Adatkészlet** tartalomlistában válassza ki a **Pénzügyi mintát** a megnyitásához Vizsgálat módban.
+
+    ![](media/power-bi-visualization-radial-gauge-charts/power-bi-dataset.png)
 
 ### <a name="step-2-create-a-gauge-to-track-gross-sales"></a>2. lépés: Mérőműszer-diagram létrehozása a bruttó értékesítés nyomon követéséhez
 1. A **Mezők** panelen válassza a **Gross Sales** (Bruttó értékesítés) mezőt.
@@ -117,5 +125,5 @@ A 2. lépésben a Power BI az Érték mezővel automatikusan beállította a min
 
 [ Power BI – Alapfogalmak](service-basic-concepts.md)
 
-További kérdései vannak? [Forduljon a Power BI közösségéhez](http://community.powerbi.com/)
+További kérdései vannak? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)
 

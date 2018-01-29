@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/27/2017
+ms.date: 01/20/2018
 ms.author: mihart
-ms.openlocfilehash: 30975e9192633043aed7e4196820ef34044b8fcb
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 259007c76b7b53ba0ea55a28fbdd189469383364
+ms.sourcegitcommit: 2ae323fbed440c75847dc55fb3e21e9c744cfba0
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="export-a-report-from-power-bi-service-to-desktop-preview"></a>Jelentés exportálása a Power BI szolgáltatásból a Desktopba (előzetes verzió)
 A Power BI Desktopban exportálhat (más kifejezéssel *letölthet*) jelentést a Power BI szolgáltatásba, ha menti a jelentést, és a **Közzététel** lehetőséget választja. Exportálhat a másik irányba is, és letöltheti a jelentést a Power BI szolgáltatásból a Desktopba. Az exportált fájlok kiterjesztése mindkét irány esetében *.pbix*.
@@ -45,16 +45,17 @@ A .pbix-fájl letöltéséhez kövesse az alábbi lépéseket:
     ![](media/service-export-to-pbix/power-bi-save-pbix.png)
    
     Most már lehetősége van megnyitni a .pbix-fájlt a Power BI szolgáltatásban (app.powerbi.com) vagy a Power BI Desktopban.     
-4. A fájl azonnali megnyitásához a Desktopban válassza a **Megnyitás** lehetőséget.  Ha még nem tette, [telepítse a Power BI Desktopot](desktop-get-the-desktop.md).
+4. A fájl azonnali megnyitásához a Desktopban válassza a **Megnyitás** lehetőséget. Ha egy Ön által meghatározott helyre szeretné menteni a fájlt, válassza a **Mentés > Mentés másként** lehetőséget. Ha még nem tette, [telepítse a Power BI Desktopot](desktop-get-the-desktop.md).
    
     Előfordulhat, hogy amikor megnyitja a jelentést a Desktopban, figyelmeztető üzenetet kap arról, hogy a Power BI szolgáltatásbeli jelentés egyes funkciói esetleg nem elérhetők a Desktopban.
    
     ![](media/service-export-to-pbix/power-bi-export-to-pbix_2.png)
-5. A jelentés megnyitásához a Power BI szolgáltatásban válassza a **Mentés**, majd az **Adatok beolvasása** lehetőséget, és keresse meg a helyet, ahová a .pbix-fájlt mentette.
-   
-    ![](media/service-export-to-pbix/power-bi-get-data.png)
 
-## <a name="considerations-and-troubleshooting"></a>Szempontok és hibaelhárítás
+5. A Power BI szolgáltatásban és a Power BI Desktopban használt jelentésszerkesztő nagyon hasonló.  
+   
+    ![](media/service-export-to-pbix/power-bi-desktop.png)
+
+## <a name="considerations-and-troubleshooting"></a>Megfontolandó szempontok és hibaelhárítás
 A *.pbix*-fájlnak a Power BI szolgáltatásból történő letöltésekor (exportálásakor) figyelembe kell venni néhány lényeges szempontot és korlátozást.
 
 * A fájl letöltéséhez szerkesztési jogosultsággal kell hozzáférnie a jelentéshez.
@@ -78,5 +79,5 @@ A **Power BI Desktop** telepítése után a következő tartalmak segíthetnek a
 
 * [Első lépések a Power BI Desktop alkalmazással](desktop-getting-started.md)
 
-További kérdései vannak? [Felteheti őket a Power BI-közösségnek](http://community.powerbi.com/)   
+További kérdései vannak? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)   
 

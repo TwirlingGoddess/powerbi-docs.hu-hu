@@ -15,24 +15,54 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/05/2017
+ms.date: 01/21/2018
 ms.author: mihart
-ms.openlocfilehash: 7ff8ba4557c829551b97e51f411269e3ba8fbdea
-ms.sourcegitcommit: 54da95f184dd0f7bb59bb0bc8775a1d93129b195
+ms.openlocfilehash: 473236553513c41e30cb4d48f03f8fc27fd4d647
+ms.sourcegitcommit: 1a5446c3136dc0787f2a1d5b8cad1113704301ba
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 12/08/2017
+ms.lasthandoff: 01/24/2018
 ---
 # <a name="sales-and-marketing-sample-for-power-bi-take-a-tour"></a>Értékesítési és marketing minta a Power BI-hoz: bemutató
+
+## <a name="overview-of-the-sales-and-marketing-sample"></a>Értékesítési és marketing minta: áttekintés
 Az **Értékesítési és marketing minta** egy VanArsdel Ltd nevű kitalált gyártó céghez tartozó irányítópultot és jelentést tartalmaz. Az irányítópultot a VanArsdel marketingigazgatója hozta létre, hogy nyomon tudja követi az iparág eseményeit és cége piaci részesedését, a termékmennyiséget, az eladásokat, valamint a róluk szóló véleményeket.
 
 A VanArsdel számos versenytárssal rendelkezik, de piacvezető az iparágában. A marketingigazgató növelni szeretné a piaci részesedést, és fel szeretné deríteni a növekedési lehetőségeket. Valamilyen okból azonban a VanArsdel piaci részesedése csökkenni kezdett, júniusban jelentős mértékű zuhanással.
 
 Ez a minta egy olyan sorozat részét képezi, amely bemutatja, hogyan használhatja a Power BI-t üzleti adatokkal, jelentésekkel és irányítópultokkal. Az adatok az obviEnce-től (www.obvience.com) származó valós, de anonimizált adatok.
 
-[!Note] Letöltheti [kizárólag a minta adatkészletét (Excel-munkafüzetét) is](http://go.microsoft.com/fwlink/?LinkId=529785). A munkafüzet megtekinthető és módosítható Power View-lapokat tartalmaz. A nyers adatokat a **Power Pivot > Kezelés** lehetőségre kattintva nézheti meg.
-
 ![](media/sample-sales-and-marketing/sales1.png)
+
+## <a name="prerequisites"></a>Előfeltételek
+
+ Használat előtt a mintát tartalomcsomagként, .pbix-fájlként vagy Excel-munkafüzetként le kell töltenie.
+
+### <a name="get-the-content-pack-for-this-sample"></a>Tartalomcsomag letöltése ehhez a mintához
+
+1. Nyissa meg a Power BI szolgáltatást (app.powerbi.com), és jelentkezzen be.
+2. A bal alsó sarokban válassza az **Adatok lekérése** lehetőséget.
+   
+    ![](media/sample-datasets/power-bi-get-data.png)
+3. Ekkor megjelenik az Adatok lekérése lap. Itt kattintson a **Minták** ikonra.
+   
+   ![](media/sample-datasets/power-bi-samples-icon.png)
+4. Válassza ki az **Értékesítési és marketing mintát**, majd válassza a **Kapcsolódás** lehetőséget.  
+  
+   ![Értékesítési és marketing minta](media/sample-sales-and-marketing/sales9.png)
+   
+5. A Power BI importálja a tartalomcsomagot, és egy új irányítópultot, jelentést és adatkészletet ad hozzá az aktuális munkaterülethez. Az új tartalmakat sárga csillag jelöli. 
+   
+   ![Csillag](media/sample-sales-and-marketing/sales10.png)
+  
+### <a name="get-the-pbix-file-for-this-sample"></a>.pbix-fájl letöltése ehhez a mintához
+
+Lehetőség van a mintát .pbix-fájlként is letölteni, amelyet a Power BI Desktoppal való használatra terveztek. 
+
+ * [Értékesítési és marketing minta](http://download.microsoft.com/download/9/7/6/9767913A-29DB-40CF-8944-9AC2BC940C53/Sales%20and%20Marketing%20Sample%20PBIX.pbix)
+
+### <a name="get-the-excel-workbook-for-this-sample"></a>Excel-munkafüzet letöltése ehhez a mintához
+Letöltheti [kizárólag a minta adatkészletét (Excel-munkafüzetét) is](http://go.microsoft.com/fwlink/?LinkId=529785). A munkafüzet megtekinthető és módosítható Power View-lapokat tartalmaz. A nyers adatokat a **Power Pivot > Kezelés** lehetőségre kattintva nézheti meg.
 
 ## <a name="what-is-our-dashboard-telling-us"></a>Mi olvasható le az irányítópultról?
 Kezdjük a bemutatót az irányítópulton, és tekintsük meg a csempéket, melyek rögzítése mellett döntött a marketingigazgató. A piaci részesedéssel, az eladásokkal és a cégről szóló véleményekkel kapcsolatos információk jelennek meg. Emellett láthatók az adatok régió, időpont és versenytársak szerinti bontásban is.
@@ -48,21 +78,21 @@ Kezdjük a bemutatót az irányítópulton, és tekintsük meg a csempéket, mel
 #### <a name="which-segments-drive-our-sales-does-it-match-the-industry-trend"></a>Mely szegmensek meghatározók az értékesítésünk szempontjából? Ez megfelel az iparági trendeknek?
 1. Válassza a „Total Units Overall by Segment” („Egységek összesítése szegmens szerint”) csempét. Ekkor megnyílik a Q&A.
 2. Írja be a **for VanArsdel** (a VanArsdel esetében) kifejezést a meglévő lekérdezés végére. A Q&A értelmezi a kérdést, és megjeleníti a frissített diagramot, amely megadja a választ. A termékmennyiség legnagyobb részét a Kényelem és a Moderálás kategória adja.
-   
+
    ![](media/sample-sales-and-marketing/sales2.png)
 3. A **Moderálás** és a **Kényelem** kategóriában nagyon magas a részesedésünk; ezekben a szegmensekben vagyunk versenyképesek.
 4. A felső navigációs sávban (webhely-navigációs eszközön) az irányítópult nevét választva lépjen vissza az irányítópultra.
 
 #### <a name="what-does-total-unit-market-share-look-like-for-category-versus-region"></a>Milyen az összes egység piaci részesedése kategória (és régió) szerint?
-1. Figyelje meg a „Total Units YTD by Manufacturer, Region” („Egységek összesen az év elejétől számítva, gyártó és régió szerint”) csempét. Vajon milyen az összes egység piaci részesedése kategória szerint? 
-   
+1. Figyelje meg a „Total Units YTD by Manufacturer, Region” („Egységek összesen az év elejétől számítva, gyártó és régió szerint”) csempét. Vajon milyen az összes egység piaci részesedése kategória szerint?
+
    ![](media/sample-sales-and-marketing/sales3.png)
 2. Az irányítópult tetején található kérdésmezőbe írja be a **total units by manufacturer and category for 2014 as a treemap** (összes egység gyártó és kategória szerint 2014-ben, fatérkép diagramként) kérdést. Figyelje meg, ahogy a vizualizáció frissül, miközben beírja a kérdést.
    ![](media/sample-sales-and-marketing/totalunitsbymanufacturerandcategoryfor2014asatreemap-new.png)
 3. Az eredmények összehasonlításához rögzítse a diagramot az irányítópulton. Nagyon érdekes, hogy 2014-ben a VanArsdel csak olyan termékeket értékesített, melyek az **Urbánus** kategóriába tartoznak.
 4. Lépjen vissza az irányítópultra.
 
-Az irányítópultokon emellett jelentések is hozzáférhetők.  Ha egy csempe egy mögöttes jelentés alapján készült, a csempére kattintva megnyílik az adott jelentés. 
+Az irányítópultokon emellett jelentések is hozzáférhetők.  Ha egy csempe egy mögöttes jelentés alapján készült, a csempére kattintva megnyílik az adott jelentés.
 
 Ezen az irányítópulton, a 12 hónapos gördülő (R12M) sorban az látható, hogy a piaci részesedés már nem növekszik az idő múlásával, sőt, egy kicsit még csökken is. És vajon miért zuhan jelentősen a piaci részesedés júniusban? A további vizsgálathoz a vizualizációra kattintva nyissa meg az alapjául szolgáló jelentést.
 
@@ -72,7 +102,7 @@ Ezen az irányítópulton, a 12 hónapos gördülő (R12M) sorban az látható, 
 
 1. Tekintse meg az alul található „Total Units by Month and isVanArsdel” („Összes egység hónap és aszerint, hogy a VanArsdelé-e”) oszlopdiagramot. A fekete oszlop jelöli a VanArsdelt (a mi termékeinket), a zöld pedig a versenytársainkat. A 2014. júniusában a VanArsdel által tapasztalt visszaesés a versenytársaknál nem jelentkezett.
 2. A középen, jobb oldalon található „Total Category Volume by Segment” („Kategóriák összesített mennyisége szegmens szerint”) sávdiagram a VanArsdel 2 legjobb szegmensére van szűrve. Tekintse meg, hogyan készült a szűrő:  
-   
+
    a.  Bontsa ki a Szűrők ablaktáblát a jobb oldalon.  
    b.  Kattintson a vizualizációra annak kijelöléséhez.  
    c.  Figyelje meg, hogy a Látványelemszint szűrői szakaszban a **Szegmens** úgy van szűrve, hogy csak a **Kényelem** és a **Moderálás** kategóriát tartalmazza.  
@@ -111,5 +141,4 @@ A vizualizációk a VanArsdel, szegmens, hónap és régió szerinti szűrésév
 Ebben a környezetben nyugodtan kísérletezhet. Bármikor dönthet úgy, hogy nem menti a változtatásokat. De ha mégis mentené őket, bármikor lekérheti a minta egy új másolatát az **Adatok lekérése** lehetőséggel.
 
 ## <a name="next-steps-connect-to-your-data"></a>Következő lépések: Kapcsolódás a saját adatokhoz
-Reméljük, hogy ez a bemutató segített megérteni, hogyan tárhat fel összefüggéseket az értékesítési és marketingadatokban Power BI-irányítópultok, a Q&A és jelentések használatával. Most Önön a sor – kapcsolódjon a saját adataihoz. A Power BI használatával számos különböző adatforráshoz kapcsolódhat. További információ a [Power BI használatának első lépéseiről](service-get-started.md).  
-
+Reméljük, hogy ez a bemutató segített megérteni, hogyan tárhat fel összefüggéseket az értékesítési és marketingadatokban Power BI-irányítópultok, a Q&A és jelentések használatával. Most Önön a sor – kapcsolódjon a saját adataihoz. A Power BI használatával számos különböző adatforráshoz kapcsolódhat. További tudnivalók a [Power BI használatának első lépéseiről](service-get-started.md).  

@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/10/2018
+ms.date: 01/20/2018
 ms.author: mihart
-ms.openlocfilehash: 1df7eb485ac9b9de1007cc2fccbf8141ee4fdcc1
-ms.sourcegitcommit: afd6e9e6f8b192b26486cd04d2cbc9de046911b3
+ms.openlocfilehash: 8567326cb685a03fd1af618aad5310234677ab6d
+ms.sourcegitcommit: 2ae323fbed440c75847dc55fb3e21e9c744cfba0
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 01/11/2018
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="export-data-from-visualizations"></a>Adatok exportálása vizualizációkból
 Ha szeretné megtekinteni a vizualizáció létrehozásához használt adatokat, [megjelenítheti az adatokat a Power BI-ban](service-reports-show-data.md) vagy exportálhatja őket az Excelbe .xlsx- vagy .csv-fájlként.   
@@ -74,8 +74,7 @@ Annak érdekében, hogy követni tudja a lépéseket, nyissa meg a [Beszerzésel
    
    >[!WARNING]
    >A mögöttes adatok exportálása lehetővé teszi a felhasználók számára, hogy az összes részletes adatot (az adatokban szereplő minden sort) megtekintsék. A Power BI szolgáltatás rendszergazdái ezt kikapcsolhatják a cégük számára. Ha Ön egy adatkészlet tulajdonosa, a jogvédett oszlopokat „rejtett” állapotúra állíthatja, így azok nem jelennek meg a Mezők listájában a Desktopban vagy a Power BI szolgáltatásban.
-   > 
-   > 
+   
    
    **Mögöttes adatok:** akkor válassza ezt a lehetőséget, ha a vizualizáció összesítéssel rendelkezik, és szeretné látni az összes mögöttes részletet. Alapvetően a *Mögöttes adatok* kiválasztása eltávolítja az összesítést. Ha az **Exportálás** lehetőséget választja, az adatokat egy .xlsx-fájlba exportálja a rendszer, és a böngésző megkéri, hogy mentse a fájlt. A mentés után nyissa meg a fájlt az Excelben.
    
@@ -85,7 +84,9 @@ Annak érdekében, hogy követni tudja a lépéseket, nyissa meg a [Beszerzésel
 
 ## <a name="limitations-and-considerations"></a>Korlátozások és szempontok
 * A **Power BI Desktopból** és a **Power BI szolgáltatásból** legfeljebb 30 000 sor exportálható egy .csv-fájlba.
-* A **Power BI szolgáltatásból** a Pro verziós felhasználók legfeljebb 150 000 sort, az ingyenes felhasználók legfeljebb 30 000 sort exportálhatnak egy .xlsx-fájlba.
+* Az .xlsx-fájlba legfeljebb 150 000 sor exportálható.
+* Az *Alapul szolgáló adatok* használatával történő exportálás sikertelen lesz, ha az adatok forrása élő Analysis Services-kapcsolat, a verzió 2016-nál korábbi, és a modellben található táblák nem rendelkeznek egyedi kulccsal.  
+* Az *Alapul szolgáló adatok* használatával történő exportálás sikertelen lesz, ha az *Adatot nem tartalmazó elemek megjelenítése* beállítás be van kapcsolva az exportálandó vizualizációra vonatkozóan.
 * DirectQuery használatával az adatok maximálisan exportálható mennyisége 16 MB. Ez a sorok maximális számánál kisebb exportálást eredményezhet, különösen ha sok oszlop van, az adatokat nehéz tömöríteni, vagy egyéb, a fájl méretét és az exportált sorok számát csökkentő tényezők állnak fenn.
 * A Power BI csak az alapszintű összesítést használó vizualizációkban támogatja az exportálást. A modell- vagy jelentésmértékeket használó vizualizációkban az exportálás nem érhető el.
 * Az egyéni vizualizációk és az R-vizualizációk jelenleg nem támogatottak.

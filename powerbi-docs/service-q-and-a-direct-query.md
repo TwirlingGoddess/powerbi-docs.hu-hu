@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/28/2017
+ms.date: 01/18/2018
 ms.author: mihart
-ms.openlocfilehash: 453a2a9dd4ea5e41d404d3e81cebbff7c35f1b6c
-ms.sourcegitcommit: b3ee37e1587f1269ee7dd9daf1685a06dea3b50c
+ms.openlocfilehash: 49e0b976fcee8c18edc14f80df2786e5ebf3fedc
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/23/2017
+ms.lasthandoff: 01/19/2018
 ---
 # <a name="enable-qa-for-live-connections"></a>Q&A engedélyezése élő kapcsolatokhoz
 ## <a name="what-is-on-premises-data-gateway--what-is-a-live-connection"></a>Mi az a helyszíni adatátjáró?  Mi az az élő kapcsolat?
@@ -39,7 +39,7 @@ Mivel a Power BI Q&A az adatforrásból származó szöveg- és sémaértékeket
 További információ:
 
 * Mi az a [helyszíni adatátjáró](service-gateway-onprem.md)?
-* [Bevezetés a Power BI Q&A használatába](service-q-and-a.md)
+* [Bevezetés a Power BI Q&A használatába](power-bi-q-and-a.md)
 
 ## <a name="enable-qa"></a>A Q&A engedélyezése
 Miután beállította az adatátjárót, kapcsolódjon az adatokhoz a Power BI-ból.  Hozzon létre egy irányítópultot a helyszíni adatokkal, vagy töltsön fel egy .pbix-fájlt, amely helyszíni adatokat használ.  Rendelkezhet már helyszíni adatokkal olyan irányítópultokban, jelentésekben és adatkészletekben is, amelyeket megosztottak Önnel.
@@ -55,22 +55,20 @@ Miután beállította az adatátjárót, kapcsolódjon az adatokhoz a Power BI-b
     ![](media/service-q-and-a-direct-query/power-bi-q-and-a-directquery.png)
 
 ## <a name="what-data-is-cached-and-how-is-privacy-protected"></a>Milyen adatok gyorsítótárazása történik, és hogyan valósul meg az adatvédelem?
-Amikor engedélyezi a Q&A-t a helyszíni adataihoz, az adatok egy részét a szolgáltatás gyorsítótárazza. Ezt azért teszi, hogy a Q&A elfogadható teljesítményt nyújtson. A 24 karakternél hosszabb értékeket kizárjuk a gyorsítótárazásból. Az adatkészlet néhány órán belül törlődik, miután letiltotta a Q&A-t a **Q&A bekapcsolása ehhez az adatkészlethez** jelölőnégyzet törésével, vagy miután törli az adatkészletet.
+Amikor engedélyezi a Q&A-t a helyszíni adataihoz, az adatok egy részét a szolgáltatás gyorsítótárazza. Ezt azért teszi, hogy a Q&A elfogadható teljesítményt nyújtson. A 24 karakternél hosszabb értékeket a Power BI kizárja a gyorsítótárazásból. Az adatkészlet néhány órán belül törlődik, miután letiltotta a Q&A-t a **Q&A bekapcsolása ehhez az adatkészlethez** jelölőnégyzet törésével, vagy miután törli az adatkészletet.
 
 ## <a name="considerations-and-troubleshooting"></a>Megfontolandó szempontok és hibaelhárítás
 A funkció előzetes kiadási fázisában van néhány korlátozás:
 
-* Eredetileg a funkció csak az SQL Server 2016 Analysis Services táblázatos adatforrásaihoz áll rendelkezésre. A funkció táblázatos adatokkal való munkavégzésre van optimalizálva. Néhány funkció rendelkezésre áll több dimenziós adatforrásokhoz, de a teljes Q&A-élmény több dimenziós adatok esetén még nem támogatott. A helyszíni adatátjáró által támogatott további adatforrások bevezetése a nyilvános előzetes során fog történni.
+* Eredetileg a funkció csak az SQL Server 2016 Analysis Services táblázatos adatforrásaihoz áll rendelkezésre. A funkció táblázatos adatokkal való munkavégzésre van optimalizálva. Néhány funkció rendelkezésre áll több dimenziós adatforrásokhoz, de a teljes Q&A-élmény több dimenziós adatok esetén még nem támogatott. A helyszíni adatátjáró által támogatott további adatforrások bevezetése a későbbiekben fog történni.
 * Az SQL Server Analysis Servicesben meghatározott sorszintű biztonság teljes támogatása kezdetben a nyilvános előzetes verzióban nem áll rendelkezésre. Miközben kérdéseket tesz fel a Q&A-ben, a kérdések beírása közben megjelenő automatikus kitöltési javaslatok között lehetnek olyan sztringértékek, amelyekhez a felhasználó nem rendelkezik hozzáféréssel. A modellben meghatározott RLS-t azonban tiszteletben tartja a rendszer a jelentés- és a diagramvizualizációknál, ezért nem fed fel alapul szolgáló számadatokat. Az ezt a viselkedést vezérlő beállítások az elkövetkező frissítésekben fognak szerepelni.
 * Az élő kapcsolatok csak a helyszíni adatátjárónál támogatottak. Ezért személyes adatátjáróval nem használhatók.
 
 ## <a name="next-steps"></a>Következő lépések
 [Helyszíni adatátjáró](service-gateway-onprem.md)  
-[Adatforrások kezelése – Analysis Services](service-gateway-enterprise-manage-ssas.md)  
-[Power BI – gyors elemzések](service-insights.md)  
-[Adatok optimalizálása a Power BI gyors elemzéseihez](service-insights-optimize.md)  
+[Az adatforrás kezelése – Analysis Services](service-gateway-enterprise-manage-ssas.md)  
 [Power BI – Alapfogalmak](service-basic-concepts.md)  
-[Irányítópultok a Power BI-ban](service-dashboards.md)  
+[A Power BI Q&A áttekintése](power-bi-q-and-a.md)  
 
 További kérdései vannak? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)
 

@@ -15,19 +15,19 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/24/2017
+ms.date: 01/19/2018
 ms.author: mihart
-ms.openlocfilehash: 5e4788e57bd1836d3d5db10dfb86e2c71c00c34f
-ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
+ms.openlocfilehash: 7d9869c16b88cb410073644bdae94173b9cea023
+ms.sourcegitcommit: 2ae323fbed440c75847dc55fb3e21e9c744cfba0
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 01/03/2018
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="visualization-types-in-power-bi"></a>Vizualizációtípusok a Power BI-ban
 ## <a name="power-bi-visualizations"></a>Power BI-vizualizációk
 Hamarosan új vizualizációkkal bővítjük a kínálatot. Kövessen bennünket!
 
-Tekintse meg továbbá az [Office Áruház](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals) folyamatosan bővülő kínálatát, ahol egyéni vizualizációkat tölthet le saját irányítópultjához és jelentéseihez. Kreatív kedvében van? [Megtudhatja, hogyan hozhat létre saját vizualizációkat, és hogyan adhatja hozzá őket a közösségi oldalhoz](developer/office-store.md).  
+Tekintse meg továbbá a [Microsoft AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals) folyamatosan bővülő kínálatát, ahol [egyéni vizualizációkat](power-bi-custom-visuals.md) tölthet le saját irányítópultjához és jelentéseihez. Kreatív kedvében van? [Megtudhatja, hogyan hozhat létre saját vizualizációkat, és hogyan adhatja hozzá őket a közösségi oldalhoz](developer/office-store.md).  
 
 ## <a name="list-of-visualizations-available-in-power-bi"></a>A Power BI-ban elérhető vizualizációk listája
 Ezek a vizualizációk mind hozzáadhatók a Power BI-jelentésekhez, megadhatók a Q&A-ben, illetve rögzíthetők az irányítópultokon.

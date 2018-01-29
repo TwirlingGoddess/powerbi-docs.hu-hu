@@ -18,11 +18,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/23/2017
 ms.author: mihart
-ms.openlocfilehash: 44c248d1a99a10c69b3fb7c78e68320fdc5cd2b2
-ms.sourcegitcommit: 259d7689bcb1683d4d63a245a9b02becea072139
+ms.openlocfilehash: 2d8ed3c30d289646504071daca098df1f41f6aab
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 01/19/2018
 ---
 # <a name="scatter-charts-and-bubble-charts-in-power-bi-tutorial"></a>Pontdiagramok és buborékdiagramok a Power BI szolgáltatásban (oktatóanyag)
 A pontdiagramok mindig két értéktengellyel rendelkeznek. A vízszintes tengely mentén numerikus adatok egy készletét ábrázolják, a függőleges tengely mentén pedig numerikus adatok egy másik készletét. A diagram pontokat jelenít meg az x és y numerikus értékek metszéspontjában, így egyetlen adatponttá kombinálja ezeket az értékeket. Ezek az adatpontok egyenletesen vagy egyenetlenül oszthatók el a vízszintes tengely mentén az adatoktól függően.
@@ -30,6 +30,8 @@ A pontdiagramok mindig két értéktengellyel rendelkeznek. A vízszintes tengel
 A buborékdiagramokban az adatpontok helyett buborékok szerepelnek, és a buborékok *mérete* az adatok egy további dimenzióját jelöli.
 
 ![](media/power-bi-visualization-scatter/power-bi-bubble-chart.png)
+
+Beállíthatja az adatpontok számát  
 
 ## <a name="when-to-use-a-scatter-chart-or-bubble-chart"></a>Mikor érdemes pontdiagramot vagy buborékdiagramot használni?
 ### <a name="scatter-charts-are-a-great-choice"></a>A pontdiagram remek választás a következő esetekben:
@@ -39,7 +41,7 @@ A buborékdiagramokban az adatpontok helyett buborékok szerepelnek, és a bubor
 * A vízszintes tengely logaritmikus skálává alakításakor.
 * Olyan munkalapadatok megjelenítéséhez, amelyekben értékpárok vagy az értékek csoportosított készletei szerepelnek. A pontdiagramokban módosíthatja a tengelyek független skáláit több információ megjelenítéséhez a csoportosított értékekről.
 * Nagyméretű adatkészletek mintáinak megjelenítéséhez, például lineáris vagy nem lineáris trendek, fürtök és kiugró adatok megjelenítésével.
-* Nagy számú adatpont összehasonlításához időtől függetlenül. Minél több adat szerepel a pontdiagramban, annál jobb összehasonlításokat végezhet.
+* Nagy számú adatpont összehasonlítására az időre való tekintet nélkül.  Minél több adatot tartalmaz a pontdiagram, annál jobb összehasonlítás végezhető.
 
 ### <a name="bubble-charts-are-a-great-choice"></a>A buborékdiagram remek választás a következőkhöz:
 * Ha az adatok 3 adatsorozattal rendelkeznek, amelyek mindegyike egy értékkészletet tartalmaz.
@@ -76,13 +78,20 @@ Most a pontdiagramunk a Teljes értékesítési eltérés (%) értéket jelenít
     ![](media/power-bi-visualization-scatter/pbi_scatter_chart_hover.png)
 3. [Formázhatja a vizualizáció színeit, a címkéket, a címeket, a hátteret és egyebeket](service-getting-started-with-color-formatting-and-axis-properties.md).
 
-## <a name="accessibility"></a>Kisegítő lehetőségek
+   A jelölő alakzat alakja megváltoztatható rombuszra, háromszögre vagy négyszögre:
 
-A *Jelölőalakzatok* használatával a pontdiagramok vagy buborékdiagramok elérhetővé tehetők a fogyatékkal élők számára is. 
+   ![Négyszög jelölőalakzat](media/power-bi-visualization-scatter/pbi_scatter_chart_hover_square.png)
 
-Jelölőalakzat kiválasztásához válassza a **Vizualizációk** panel **Formázás** szakaszát, bontsa ki az **Alakzatok** szakaszt, és válassza ki a kívánt jelölőalakzatot.
+4. Ha a buborékdiagramon belüli adatpontok számát szeretné megváltoztatni, a **Vizualizációk** panel **Formázás** szakaszában bontsa ki az **Általános** kártyát, és állítsa az **Adatmennyiséget** a kívánt értékre. Az alapértelmezett érték 3500. 
+ 
+    ![Adatmennyiség](media/power-bi-visualization-scatter/pbi_scatter_data_volume.png) 
 
-![Jelölőalakzat](media/power-bi-visualization-scatter/pbi_scatter_marker.png)
+   > [!NOTE]
+   > A nagy számú adatpont hosszabb betöltési idővel jár, ezért ha nagyon sok adatpontot használva szeretné közzétenni a jelentést, először mindenképp ajánlatos ellenőrizni weben és mobileszközökön is, hogy a teljesítmény megfelel-e a felhasználói elvárásoknak.
+
+5.   Ha a jelölőalakzatot szeretné kiválasztani, bontsa ki az **Alakzatok** kártyát, majd válasszon ki egy jelölőalakzatot.
+
+      ![Jelölőalakzat](media/power-bi-visualization-scatter/pbi_scatter_marker.png)
 
 ## <a name="considerations-and-troubleshooting"></a>Megfontolandó szempontok és hibaelhárítás
 ### <a name="your-scatter-chart-has-only-one-data-point"></a>**A pontdiagramon csak egy adatpont szerepel**

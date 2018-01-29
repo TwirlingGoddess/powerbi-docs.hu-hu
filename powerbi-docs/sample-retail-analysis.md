@@ -15,59 +15,87 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/04/2017
+ms.date: 01/17/2018
 ms.author: mihart
-ms.openlocfilehash: 09e245e625c9e0859f93837e56b564218e327926
-ms.sourcegitcommit: 54da95f184dd0f7bb59bb0bc8775a1d93129b195
+ms.openlocfilehash: 97c8f3f74bea0629107b68b9e42a4a449863b066
+ms.sourcegitcommit: 1a5446c3136dc0787f2a1d5b8cad1113704301ba
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 12/08/2017
+ms.lasthandoff: 01/24/2018
 ---
 # <a name="retail-analysis-sample-for-power-bi-take-a-tour"></a>Kiskereskedelmi elemzési minta a Power BI-hoz: bemutató
 
-Ez az iparági minta-irányítópult és a mögöttes jelentés a több üzletben és körzetben értékesített cikkek kiskereskedelmi értékesítési adatait elemzi. A mérőszámok a folyó év teljesítményét vetik össze a tavalyival a következő területeken: értékesítés, egységek, bruttó nyereség, eltérés, új üzletek elemzett adatai. Az adatok az obviEnce-ről ([www.obvience.com](http://www.obvience.com)) származó valós, de anonimizált adatok.
-
-[!Note] Letöltheti [kizárólag a minta adatkészletét (Excel-munkafüzetét) is](http://go.microsoft.com/fwlink/?LinkId=529778). A munkafüzet megtekinthető és módosítható Power View-lapokat tartalmaz.  A nyers adatokat a **Power Pivot > Kezelés** lehetőségre kattintva nézheti meg. 
+Ez az iparági minta-irányítópult és a mögöttes jelentés a több üzletben és körzetben értékesített cikkek kiskereskedelmi értékesítési adatait elemzi. A mérőszámok a folyó év teljesítményét vetik össze a tavalyival a következő területeken: értékesítés, egységek, bruttó nyereség, eltérés, új üzletek elemzett adatai. Az adatok az obviEnce-től ([www.obvience.com](http://www.obvience.com)) származó valós, de anonimizált adatok.
 
 ![](media/sample-retail-analysis/retail1.png)
 
+## <a name="prerequisites"></a>Előfeltételek
+
+ Használat előtt a mintát tartalomcsomagként, .pbix-fájlként vagy Excel-munkafüzetként le kell töltenie.
+
+### <a name="get-the-content-pack-for-this-sample"></a>Tartalomcsomag letöltése ehhez a mintához
+
+1. Nyissa meg a Power BI szolgáltatást (app.powerbi.com), és jelentkezzen be.
+2. A bal alsó sarokban válassza az **Adatok lekérése** lehetőséget.
+   
+    ![](media/sample-datasets/power-bi-get-data.png)
+3. Ekkor megjelenik az Adatok lekérése lap. Itt kattintson a **Minták** ikonra.
+   
+   ![](media/sample-datasets/power-bi-samples-icon.png)
+4. Válassza a **Kiskereskedelmi elemzési minta** elemet, majd a **Kapcsolódás** lehetőséget.  
+  
+   ![Kiskereskedelmi elemzési minta](media/sample-retail-analysis/retail16.png)
+   
+5. A Power BI importálja a tartalomcsomagot, és egy új irányítópultot, jelentést és adatkészletet ad hozzá az aktuális munkaterülethez. Az új tartalmakat sárga csillag jelöli. 
+   
+   ![Kiskereskedelmi elemzési minta](media/sample-retail-analysis/retail17.png)
+  
+### <a name="get-the-pbix-file-for-this-sample"></a>.pbix-fájl letöltése ehhez a mintához
+
+Lehetőség van a mintát .pbix-fájlként is letölteni, amelyet a Power BI Desktoppal való használatra terveztek. 
+
+ * [Kiskereskedelmi elemzési minta](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)
+
+### <a name="get-the-excel-workbook-for-this-sample"></a>Excel-munkafüzet letöltése ehhez a mintához
+Letöltheti [kizárólag a minta adatkészletét (Excel-munkafüzetét) is](http://go.microsoft.com/fwlink/?LinkId=529778). A munkafüzet megtekinthető és módosítható Power View-lapokat tartalmaz. A nyers adatokat a **Power Pivot > Kezelés** lehetőségre kattintva nézheti meg.
+
 ## <a name="start-on-the-dashboard-and-open-the-report"></a>Az irányítópult elindítása és a jelentés megnyitása
 1. Az irányítópulton kattintson az „Összes üzlet” csempére:
-   
+
    ![](media/sample-retail-analysis/retail-analysis-7.png)  
-   
+
    Ekkor megnyílik a jelentés „Üzleti értékesítések áttekintése” oldala. Amint látható, összesen 104 üzlet van, amiből 10 új. Két üzletlánc működik, a Fashions Direct és a Lindseys. A Fashions Direct üzleteinek nagyobb az átlagos mérete.
 2. A kördiagramon kattintson a **Fashions Direct** elemre.
-   
+
    ![](media/sample-retail-analysis/retail3.png)  
-   
+
    Tekintse meg az eredményt a buborékdiagramon:
-   
+
    ![](media/sample-retail-analysis/pbi_sample_retanlbubbles.png)  
-   
+
    Az egy négyzetlábra eső átlagos értékesítési arány az FD-01-es körzetben a legnagyobb, az értékesítések eltérése a tavalyihoz képest az FD-02-es körzetben a legalacsonyabb, az FD-03-as és az FD-04-es körzetek teljesítménye általában a legrosszabb.
 3. Kattintson az egyes buborékokra vagy diagramokra annak megtekintéséhez, hogy ennek hatására milyen keresztkijelölések jönnek létre.
-4. Az irányítópulthoz úgy térhet vissza, hogy a felső navigációs sávon (webhely-navigációs eszközön) az irányítópult nevére kattint. 
-   
+4. Az irányítópulthoz úgy térhet vissza, hogy a felső navigációs sávon (webhely-navigációs eszközön) az irányítópult nevére kattint.
+
    ![](media/sample-retail-analysis/power-bi-breadcrumbs.png)
 5. Az irányítópulton kattintson a „Folyó évi értékesítések” csempére.
-   
+
    ![](media/sample-retail-analysis/pbi_sample_retanlthisyrsales.png)
-   
+
    Ez egyenértékű azzal, mintha a kérdés mezőbe beírná a „This year sales” (Folyó évi értékesítések) szöveget.
-   
+
    Ekkor az alábbi képernyő jelenik meg:
-   
+
    ![](media/sample-retail-analysis/retail7.png)
 
 ## <a name="review-a-tile-created-with-power-bi-qa"></a>A Power BI Q&A funkcióban létrehozott csempe áttekintése
 Tárja fel a részleteket.
 
 1. Egészítse ki a kérdést a „this year sales **by district**” (folyó évi értékesítés körzetek szerint) szövegre. Tekintse meg az eredményt: A rendszer automatikusan sávdiagramba rendezte a választ, és más kifejezéseket is felkínál:
-   
+
    ![](media/sample-retail-analysis/retail8.png)
 2. Most egészítse ki a kérdést a „this year sales **by zip and chain**” (folyó évi értékesítés irányítószám és üzletlánc szerint) szövegre.
-   
+
    Figyelje meg, hogy a rendszer miképpen válaszol a megfelelő diagramokkal az éppen beírt kérdésre.
 3. Játsszon egy kicsit: tegyen fel többféle kérdést, és tekintse meg a válaszul kapott eredményeket.
 4. Amikor elkészült, térjen vissza az irányítópulthoz.
@@ -76,23 +104,23 @@ Tárja fel a részleteket.
 Most tárjon fel egy részletesebb szintet, ahol megvizsgálhatja az egyes körzetek teljesítményét.
 
 1. Az irányítópulton kattintson a folyó és a tavalyi év értékesítési adatait összevető csempére.
-   
+
    ![](media/sample-retail-analysis/pbi_sample_retanlareacht.png)
-   
+
    Figyelje meg, milyen nagymértékben ingadozott az Eltérés % értéke a tavalyi évhez képest, és hogy a január, az április és a július hónapok különösen rosszul teljesítettek.
-   
+
    ![](media/sample-retail-analysis/pbi_sample_retanlsalesvarcol.png)
-   
+
    Próbálja meg szűkítéssel kideríteni a probléma okát.
 2. Kattintson a buborékdiagramra, majd jelölje ki a **020-Mens** (Férfiak) elemet.
-   
+
    ![](media/sample-retail-analysis/retail11.png)  
-   
+
    Figyelje meg, hogy a Férfiak kategóriát áprilisban nem érintette olyan rosszul a változás, mint a vállalkozás egészét, de a január és a július itt is problémát jelent.
 3. Most kattintson a **010-Womens’ buborékra** (Nők).
-   
+
    ![](media/sample-retail-analysis/retail12.png)
-   
+
    Figyelje meg, hogy a Nők kategória minden hónapban rosszabbul teljesített, mint a vállalkozás egésze, és szinte minden hónapban sokkal rosszabbul teljesített a tavalyinál.
 4. Kattintson ismét a buborékra a szűrő törléséhez.
 
@@ -100,14 +128,14 @@ Most tárjon fel egy részletesebb szintet, ahol megvizsgálhatja az egyes körz
 Tekintse meg az egyes körzetek eredményeit.
 
 1. Válassza ki Allan Guinot nevét a bal oldalon, felül található szeletelőben.
-   
+
    ![](media/sample-retail-analysis/retail13.png)
-   
+
    Figyelje meg, hogy Allan körzete márciusban és júniusban jobban teljesített, mint tavaly.
 2. Hagyja kijelölve Allant, és kattintson a Nők buborékra.
-   
+
    ![](media/sample-retail-analysis/power-bi-allan.png)
-   
+
    Figyelje meg, hogy a Nők kategóriában Allan körzete egyszer sem érte el a tavalyi eredményt.
 3. Vizsgálja meg a többi körzeti vezetőt és a kategóriákat – Milyen egyéb következtetések vonhatók le?
 4. Amikor elkészült, térjen vissza az irányítópulthoz.
@@ -116,17 +144,17 @@ Tekintse meg az egyes körzetek eredményeit.
 Végezetül vessen egy pillantást a vállalkozás növekedésére – az idén új üzletek nyíltak.
 
 1. Kattintson az „Folyóévben megnyílt üzletek” csempére.
-   
+
    ![](media/sample-retail-analysis/retail15.png)
-   
+
    A csempe világosan mutatja, hogy idén több Fashions Direct üzlet nyílt, mint Lindseys.
 2. Vizsgálja meg az „Egy négyzetlábra eső értékesítés üzletnév szerint” diagramot:
-   
+
    ![](media/sample-retail-analysis/retail14.png)
-   
+
     Az új üzletek egy négyzetlábra eső átlagos értékesítési adataiban jelentős eltérések mutatkoznak.
 3. Kattintson a Fashions Direct feliratra a jobb felső diagramon. Figyelje meg, hogy még ugyanazon a láncon belül is jelentősen meghaladja a legjobban teljesítő üzlet (a Winchester Fashions Direct) 21,22 dolláros eredménye a leggyengébb üzlet (Cincinnati 2 Fashions Direct) 12,86 dolláros eredményét.
-   
+
    ![](media/sample-retail-analysis/power-bi-lindseys.png)
 4. Kattintson a szeletelőben a Winchester Fashions Direct elemre, és vizsgálja meg a vonaldiagramot. Az első értékesítési eredményeket februárban jelentették.
 5. Kattintson a szeletelőben a Cincinnati 2 Fashions Direct elemre: a megjelenő vonaldiagramból kiderül, hogy az üzlet júniusban nyílt meg, és valószínűleg ez a legrosszabbul teljesítő üzlet.
@@ -143,4 +171,3 @@ Reméljük, hogy ez a bemutató segített megérteni a Power BI irányítópulto
 * [Adatbeolvasás (a Power BI-ban)](service-get-data.md)    
 * [Power BI – Alapfogalmak](service-basic-concepts.md)    
 * További kérdései vannak? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)
-

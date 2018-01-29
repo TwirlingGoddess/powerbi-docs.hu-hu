@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/13/2017
+ms.date: 01/23/2018
 ms.author: maggies
-ms.openlocfilehash: 3515a57f88db1c8a7b12706680c0aade8b2cdbfa
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 610234a221c5ab1de976f9d554292395760efa0f
+ms.sourcegitcommit: 1a5446c3136dc0787f2a1d5b8cad1113704301ba
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/24/2018
 ---
 # <a name="explore-reports-in-the-power-bi-mobile-apps"></a>Jelentések vizsgálata a Power BI mobilalkalmazásokban
 A következőkre vonatkozik:
@@ -50,7 +50,7 @@ A Power BI jelentéseket a rendszer a beszerzési helyük függvényében külö
   ![Jelentés telefonon fekvő tájolásban](media/mobile-reports-in-the-mobile-apps/power-bi-iphone-report-landscape.png)
 
 ## <a name="view-reports-optimized-for-phones"></a>Telefonra optimalizált jelentések megtekintése
-A Power BI-jelentések szerzői létrehozhatnak kifejezetten a telefonokra optimalizált jelentéselrendezést. A jelentések listáján az optimalizált jelentésnek speciális ikonja van ![Telefonos jelentés ikon](media/mobile-reports-in-the-mobile-apps/power-bi-phone-report-icon.png):
+A Power BI-jelentések szerzői létrehozhatnak kifejezetten a telefonokra optimalizált jelentéselrendezést. A telefonokra optimalizált jelentésoldalak további funkciókkal is rendelkeznek: többek között részletes elemzés végezhető, a vizualizációk rendezhetőek fókusz módban, és elérhetőek [azok a szűrők is, amelyeket a szerző adott hozzá a jelentésoldalhoz](mobile-apps-view-phone-report.md#filter-the-report-page-on-a-phone). A jelentések listáján az optimalizált jelentésnek speciális ikonja van ![Telefonos jelentés ikonja](media/mobile-reports-in-the-mobile-apps/power-bi-phone-report-icon.png):
 
 ![Telefonos jelentés megnyitása](media/mobile-reports-in-the-mobile-apps/power-bi-android-phone-report.png)
 
@@ -58,7 +58,7 @@ Az ilyen jelentések álló tájolásban nyílnak meg telefonon.
 
 ![Jelentés álló tájolásban](media/mobile-reports-in-the-mobile-apps/07-power-bi-phone-report-portrait.png)
 
-Egy jelentés állhat a telefonokra optimalizált és a telefonokra nem optimalizált oldalakból. Ha ez a helyzet, a jelentés végiglapozása során a nézet az egyes oldalaknál váltani fog a fekvő és az álló tájolás között.
+ Egy jelentés állhat a telefonokra optimalizált és a telefonokra nem optimalizált oldalakból. Ha ez a helyzet, a jelentés végiglapozása során a nézet az egyes oldalaknál váltani fog a fekvő és az álló tájolás között.
 
 További információ a [telefonos megtekintésre optimalizált jelentésekről](mobile-apps-view-phone-report.md).
 
@@ -109,5 +109,5 @@ Ha egy jelentésszerző hozzáadta ezt a képességet a vizualizációhoz, iPade
 ## <a name="next-steps"></a>Következő lépések
 * [Telefonra optimalizált Power BI-jelentések megtekintése és használata](mobile-apps-view-phone-report.md)
 * [Telefonra optimalizált verzió létrehozása egy jelentéshez](desktop-create-phone-report.md)
-* Kérdése van? [Forduljon a Power BI közösségéhez](http://community.powerbi.com/)
+* Kérdése van? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)
 

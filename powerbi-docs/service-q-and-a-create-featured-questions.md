@@ -16,16 +16,16 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/24/2017
+ms.date: 01/18/2018
 ms.author: mihart
-ms.openlocfilehash: 4b8a606cd110c13a615be88d49f04e68b3f2cbe6
-ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
+ms.openlocfilehash: e6a83796afe6afab02ec463d3dd2074d1fdc529a
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 01/03/2018
+ms.lasthandoff: 01/19/2018
 ---
 # <a name="create-featured-questions-for-power-bi-qa"></a>Kiemelt kérdések létrehozása a Power BI Q&A-hez
-Ha rendelkezik saját adatkészlettel, ehhez az adatkészlethez hozzáadhatja a kiemelt kérdéseit.  A Power BI Q&A pedig megjeleníti ezeket a kérdéseket az adatkészletet használó munkatársaknak.  A kiemelt kérdések ötleteket adnak a munkatársaknak, hogy milyen típusú kérdéseket lehet feltenni az adatkészletről. Ön dönti el, milyen kérdéseket vesz fel. Vegyen fel népszerű kérdéseket, érdekes eredményeket megjelenítő kérdéseket vagy esetleg nehezen megfogalmazható kérdéseket.
+Ha rendelkezik saját adatkészlettel, ehhez az adatkészlethez hozzáadhatja a kiemelt kérdéseit.  A Power BI Q&A pedig megjeleníti ezeket a kérdéseket az adatkészletet használó (más néven *fogyasztó*) munkatársaknak.  A kiemelt kérdések ötleteket adnak a munkatársaknak, hogy milyen típusú kérdéseket lehet feltenni az adatkészletről. Ön dönti el, milyen kérdéseket vesz fel. Vegyen fel népszerű kérdéseket, érdekes eredményeket megjelenítő kérdéseket vagy esetleg nehezen megfogalmazható kérdéseket.
 
 Nézze meg, hogyan ad hozzá Will kiemelt kérdéseket a Power BI Q&A-hez, majd hogyan használja ezeket az adatkészlet feltárására. Ezután a videó alatt látható részletes utasításokat követve próbálkozzon meg a feladat elvégzésével.
 
@@ -33,7 +33,6 @@ Nézze meg, hogyan ad hozzá Will kiemelt kérdéseket a Power BI Q&A-hez, majd 
 
 > [!NOTE]
 > A Q&A kiemelt kérdések funkciója az [iOS-hez készült Microsoft Power BI-alkalmazásban iPadeken, iPhone-okon, és iPod Touch eszközökön](mobile-apps-ios-qna.md), illetve a Q&A a Power BI Desktophoz készült előzetes verziójában is elérhető. A kérdések létrehozása viszont kizárólag a Power BI szolgáltatásban (az app.powerbi.com webhelyen) érhető el.
-> 
 > 
 
 Ebben a cikkben a [Kiskereskedelmi értékesítési elemzési mintát](sample-datasets.md) használjuk.
@@ -54,8 +53,8 @@ Ebben a cikkben a [Kiskereskedelmi értékesítési elemzési mintát](sample-da
    ![](media/service-q-and-a-create-featured-questions/power-bi-filled-map.png)
 
 ### <a name="next-steps"></a>Következő lépések
-[Q&A a Power BI-ban](service-q-and-a.md)  
+[Q&A a Power BI-ban](power-bi-q-and-a.md)  
 [Oktatóanyag: Bevezetés a Power BI Q&A használatába](power-bi-visualization-introduction-to-q-and-a.md)  
 [Power BI – Alapfogalmak](service-basic-concepts.md)  
-További kérdései vannak? [Felteheti azokat a Power BI-közösségnek](http://community.powerbi.com/)
+További kérdései vannak? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)
 

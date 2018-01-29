@@ -15,19 +15,19 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 07/21/2017
+ms.date: 01/22/2018
 ms.author: davidi
-ms.openlocfilehash: 879d142cba4af026cc23188173a380340b4c245b
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 6b2002348ae7e8ef2bb2e112eb8be967d0c68545
+ms.sourcegitcommit: 2ae323fbed440c75847dc55fb3e21e9c744cfba0
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="export-reports-from-power-bi-to-powerpoint-preview"></a>Jelentések exportálása a Power BI-ból a PowerPointba (előzetes verzió)
 A Power BI segítségével mostantól közzéteheti jelentését a **Microsoft PowerPointban**, és könnyedén létrehozhat bemutatót a Power BI-jelentés alapján. A **PowerPointba történő exportáláskor** a következő történik:
 
 * A PowerPointban a Power BI-jelentés minden lapjából külön dia lesz
-* A rendszer a Power BI minden vizuális elemét magas felbontású képként exportálja a PowerPointba
+* A rendszer a Power BI-jelentés minden oldalát egyetlen, magas felbontású képként exportálja a PowerPointba
 * A Power BI-jelentés szövegdobozai a PowerPointban szerkeszthető szövegdobozok lesznek
 * A PowerPointban létrejön egy hivatkozás, amely a Power BI-jelentésre mutat
 
@@ -65,7 +65,11 @@ Amikor megnyitja a Power BI-ból exportált PowerPoint-fájlt, számos remek és
 2. Továbbá olyan hasznos információkat kap a jelentésről, mint például az exportált jelentés alapjául szolgáló *legutóbbi adatfrissítés* és a *letöltés ideje*, amely a Power BI-jelentés PowerPoint-fájlba történt exportálásának dátumát adja meg.
 3. A jelentés minden oldala külön dián jelenik meg, ahogy a bal oldali navigációs ablaktábla mutatja.
 
-Bármelyik önálló diára kattintva megfigyelheti, hogy minden egyes vizuális elem külön kép (az előbb említettek szerint). Így lemásolhatja a képet, és tetszés szerint beillesztheti egy másik diába vagy bárhova.
+Bármelyik önálló diára kattintva megfigyelheti, hogy minden egyes jelentésoldal külön kép.
+
+>[!NOTE]
+> Az, hogy minden egyes jelentésoldalhoz egy vizualizáció tartozik, új funkció. Ez előző viselkedés, amelynél minden vizualizációhoz egy-egy különálló kép tatozott, már nem funkcionál. 
+ 
 
 ![](media/service-publish-to-powerpoint/powerbi_to_powerpoint_6.png)
 
@@ -85,6 +89,7 @@ Az **Exportálás a PowerPointba** funkció használatakor figyelembe kell venni
 * A PowerPoint lapjai, függetlenül a Power BI-jelentés eredeti oldalméreteitől és dimenzióitól, mindig a szabványos 9:16 méretben jönnek létre.
 * A Power BI bérlői tartományán kívüli felhasználók jelentéseit (például olyan felhasználókét, akik nem a cég munkatársai, de megosztották Önnel a jelentést), nem lehet közzétenni a PowerPointban.
 * Ha egy irányítópultot cégen kívüli felhasználóval oszt meg (tehát olyasvalakivel, aki nincs jelen a Power BI-bérlőn), akkor az a felhasználó nem tudja a PowerPointba exportálni a megosztott irányítópulthoz kapcsolódó jelentéseket. Például ha Ön aaron@contoso.com, megoszthatja a munkáját a következővel: david@cohowinery.com. De david@cohowinery.com nem exportálhatja a kapcsolódó jelentéseket a PowerPointba.
+* Ahogy korábban említettük, a rendszer minden jelentésoldalt külön képként exportál a PowerPoint-fájlba. 
 
 ## <a name="next-steps"></a>Következő lépések
 [Elemzés az Excelben](service-analyze-in-excel.md)

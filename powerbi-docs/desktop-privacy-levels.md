@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/12/2017
+ms.date: 01/19/2018
 ms.author: davidi
-ms.openlocfilehash: 733e24f44c63b8887c3c8b00999f7cea22581a86
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 743f9dc0a96c2816693695f4ca2878aba09873df
+ms.sourcegitcommit: a973bc6adc88507932e7e1535a74208e3842f5c4
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/20/2018
 ---
 # <a name="power-bi-desktop-privacy-levels"></a>A Power BI Desktop adatvédelmi szintjei
 A **Power BI Desktop** adatvédelmi szintjei egy elkülönítési szintet adnak meg, amely meghatározza, hogy az adott adatforrás milyen mértékben lesz elkülönítve a többi adatforrástól. A korlátozó elkülönítési szint azonban gátolja az adatforrások közötti információcserét, csökkentheti a funkcionalitást és hatással lehet a teljesítményre.
@@ -69,6 +69,10 @@ Az **Adatvédelmi szintek** egy olyan beállítás, amely alapértelmezés szeri
 
 > **Biztonsági megjegyzés:** Ha engedélyezi az **Adatvédelmi szinteket** **A teljesítmény lehetséges javítása az adatvédelmi szintek figyelmen kívül hagyásával** az **Adatvédelmi szintek** párbeszédpanelen történő kiválasztásával együtt, arra jogosulatlan személyek számára is hozzáférhetővé teheti a bizalmas adatokat. Ne engedélyezze az **Adatvédelmi szinteket**, csak ha biztos abban, hogy az adatforrások nem tartalmaznak bizalmas vagy titkos adatokat.
 > 
+> 
+
+> [!CAUTION]
+> **A teljesítmény lehetséges javítása az adatvédelmi szintek figyelmen kívül hagyásával** funkció nem működik a Power BI szolgáltatásban. Ezért azoknál a Power BI Desktop-jelentéseknél, amelyeket ezzel a beállítással tettek közzé a Power BI szolgáltatásban, *nem* jelenik meg ez a viselkedés, amikor a jelentést a szolgáltatásban használják.
 > 
 
 **Adatvédelmi szintek konfigurálása**
