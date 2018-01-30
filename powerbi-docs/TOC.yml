@@ -922,8 +922,6 @@
           href: mobile-pin-dashboard-start-screen-windows-10-phone-app.md
         - name: A Power BI megjelenítése bemutató módban a Surface Hubon
           href: mobile-windows-10-app-presentation-mode.md
-        - name: Csempe megosztása a Windows 10-es Power BI-mobilalkalmazásból
-          href: mobile-share-tile-windows-10-phone-app.md
 - name: Power BI fejlesztőknek
   items:
     - name: Áttekintés
