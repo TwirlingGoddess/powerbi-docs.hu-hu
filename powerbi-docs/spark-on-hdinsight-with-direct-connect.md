@@ -3,7 +3,7 @@ title: "A Spark on HDInsight és a DirectQuery"
 description: "A Spark on HDInsight és a DirectQuery"
 services: powerbi
 documentationcenter: 
-author: guyinacube
+author: markingmyname
 manager: kfile
 backup: 
 editor: 
@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 06/28/2017
-ms.author: asaxton
-ms.openlocfilehash: 41e29c343480930878ccce888b0c613f0c960cd8
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.author: maghan
+ms.openlocfilehash: c2b0f2fab2b9ccd2540ad45d6156ce9547513deb
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="spark-on-hdinsight-with-directquery"></a>A Spark on HDInsight és a DirectQuery
 A Spark on Azure HDInsight és a DirectQuery együttes használatával dinamikus jelentéseket hozhat létre a Spark-fürtben már meglévő adatok és metrikák alapján. A DirectQuery a jelentésnézet adatainak vizsgálatakor az Azure HDInsight Spark-fürtre küldi vissza a lekérdezéseket. Ez azoknak a felhasználóknak ajánlott, akik jól ismerik az entitásokat, amelyekhez csatlakoznak.
@@ -79,5 +79,5 @@ Az Azure Portalon további erőforrásokat is hozzárendelhet a **Konfiguráció
 [Első lépések: Apache Spark-fürt létrehozása HDInsight Linux rendszeren és interaktív lekérdezések futtatása Spark SQL használatával](https://azure.microsoft.com/documentation/articles/hdinsight-apache-spark-jupyter-spark-sql)  
 [Első lépések a Power BI-ban](service-get-started.md)  
 [Power BI – Adatok lekérése](service-get-data.md)  
-További kérdései vannak? [Forduljon a Power BI közösségéhez](http://community.powerbi.com/)
+További kérdései vannak? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)
 

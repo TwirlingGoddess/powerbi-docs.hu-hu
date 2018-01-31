@@ -3,7 +3,7 @@ title: "A Power BI rendszergazdai szerepkörének ismertetése"
 description: "Útmutató az importált adatkészletek és a DirectQuery sorszintű biztonságának konfigurálásához a Power BI szolgáltatásban."
 services: powerbi
 documentationcenter: 
-author: guyinacube
+author: markingmyname
 manager: kfile
 backup: 
 editor: 
@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: powerbi
 ms.date: 09/05/2017
-ms.author: asaxton
-ms.openlocfilehash: be5b63ad969ed7c1a341489973832a9f10a8dd46
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.author: maghan
+ms.openlocfilehash: 6c0d6a0e0965f2fa4fedce4c2b32ee34a7b1b009
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="understanding-the-power-bi-admin-role"></a>A Power BI rendszergazdai szerepkörének ismertetése
 Megismerheti a Power BI rendszergazdai szerepkörének használatát a munkahelyen.
@@ -125,5 +125,5 @@ A Power BI-szolgáltatásadminisztrátori szerepkör nem teszi lehetővé az al�
 [A Power BI-naplózás használata a munkahelyen](service-admin-auditing.md)  
 [A Power BI felügyelete a munkahelyen](service-admin-administering-power-bi-in-your-organization.md)  
 
-További kérdései vannak? [Kérdezze a Power BI-közösséget!](http://community.powerbi.com/)
+További kérdései vannak? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)
 

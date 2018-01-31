@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
 ms.author: yshoukry
-ms.openlocfilehash: fe4b35a6132a1d36f48e54e1c779454009402340
-ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
+ms.openlocfilehash: 0ec1ca9bccabd923b67fc1f49da4b7321ba11141
+ms.sourcegitcommit: c3be4de522874fd73fe6854333b379b85619b907
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 01/24/2018
 ---
 # <a name="connect-to-application-insights-with-power-bi"></a>Csatlakozás az Application Insightshoz Power BI-jal
 A Power BI használatával nagyszerű egyéni irányítópultokat hozhat létre az [Application Insights](https://azure.microsoft.com/documentation/articles/app-insights-overview/) telemetriai adataiból. Alkalmazásai telemetriai adatait újszerű módokon jelenítheti meg. Több alkalmazás vagy szolgáltatás mutatóit egyetlen irányítópulton egyesítheti. Az Application Insights-hoz készült Power BI tartalomcsomagnak ez az első kiadása. Olyan általánosan elterjedt, használati metrikákkal kapcsolatos widgeteket tartalmaz, mint például az aktív felhasználók száma, oldalmegtekintések, munkamenetek, böngésző- és operációsrendszer-verziók, valamint a felhasználók földrajzi eloszlása egy térképen.
@@ -61,10 +61,11 @@ Csatlakozzon a [Power BI-hoz készített Application Insights tartalomcsomaghoz]
 ## <a name="whats-included"></a>A csomag tartalma
 Az Application Insights tartalomcsomag a következő táblákat és metrikákat tartalmazza:  
 
+     ´´´
     - ApplicationDetails  
     - UniqueUsersLast7Days   
     - UniqueUsersLast30Days   
-    - UniqueUsersLast30Days  
+    - UniqueUsersDailyLast30Days  
     - UniqueUsersByCountryLast7Days  
     - UniqueUsersByCountryLast30Days   
     - PageViewsDailyLast30Days   
@@ -76,11 +77,12 @@ Az Application Insights tartalomcsomag a következő táblákat és metrikákat 
     - SessionsDailyLast30Days   
     - SessionsByCountryLast7Days   
     - SessionsByCountryLast30Days   
-    - PageViewsByCountryDailyLast30Days   
+    - PageViewsByCountryDailyLast30Days  
+   ´´´ 
 
 <a name="FindingAppInsightsParams"></a>
 
-## <a name="finding-parameters"></a>Keresési paraméterek
+## <a name="finding-parameters"></a>Paraméterek helye
 Mind a Resource Name (Erőforrás neve), mind a Resource Group (Erőforráscsoport) és a Subscription ID (Előfizetés azonosítója) megtalálhatók az Azure Portalon. Ha a névre (Name) kattint, a rendszer megjelenít egy részteles nézetet, és az „Essentials” (Alapvető erőforrások) legördülő listából kikeresheti azokat az értékeket, amelyekre szüksége van.
 
 ![Application Insights paraméterek](media/service-connect-to-application-insights/pbi_contpkappinsitparams.png)

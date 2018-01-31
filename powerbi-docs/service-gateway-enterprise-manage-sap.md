@@ -15,19 +15,19 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: powerbi
-ms.date: 10/05/2017
+ms.date: 01/24/2018
 ms.author: davidi
-ms.openlocfilehash: d65bdf17997809cd4bcaa2718da42ba41398bcf4
-ms.sourcegitcommit: b3ee37e1587f1269ee7dd9daf1685a06dea3b50c
+ms.openlocfilehash: d9702f49b7d1c7589bea06ddb44384e97d6055fc
+ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/23/2017
+ms.lasthandoff: 01/25/2018
 ---
 # <a name="manage-your-sap-hana-data-source"></a>SAP HANA-adatforrások kezelése
 Miután telepítette a helyszíni adatátjárót, fel kell vennie az adatátjáróval használható adatforrásokat. Ez a cikk az adatátjárók és az adatforrások használatával foglalkozik. Az SAP HANA-adatforrás ütemezett frissítéshez vagy DirectQueryhez is használható.
 
 ## <a name="download-and-install-the-gateway"></a>Az átjáró letöltése és telepítése
-Az átjáró letölthető a Power BI szolgáltatásból. Válassza a **Letöltések** > **Adatátjáró** lehetőséget, vagy nyissa meg az [átjáró letöltési oldalát](https://go.microsoft.com/fwlink/?LinkId=698861).
+Az átjárót a Power BI szolgáltatásból töltheti le. Válassza a **Letöltések** > **Data Gateway** lehetőséget, vagy lépje az [átjáró letöltési oldalára](https://go.microsoft.com/fwlink/?LinkId=698861).
 
 ![](media/service-gateway-enterprise-manage-sap/powerbi-download-data-gateway.png)
 
@@ -35,20 +35,20 @@ Az átjáró letölthető a Power BI szolgáltatásból. Válassza a **Letölté
 Átjáró hozzáadásához egyszerűen [töltse le](https://go.microsoft.com/fwlink/?LinkId=698861) és telepítse az átjárót a saját környezete egyik kiszolgálóján. Az átjáró a telepítése után megjelenik az **Átjárók kezelése** alatti listában.
 
 > [!NOTE]
-> Az **Átjárók kezelése** lehetőség csak akkor jelenik meg, ha Ön legalább egy átjárónak rendszergazdája. Ez akkor lehetséges, ha Önt rendszergazdaként adták hozzá, vagy ha Ön telepít és konfigurál egy átjárót.
+> Az **Átjárók kezelése** nem jelenik meg, amíg nem rendszergazdája legalább egy átjárónak. Ez elérhető úgy, ha hozzáadják rendszergazdaként, vagy ha saját maga telepít és konfigurál egy átjárót.
 > 
 > 
 
 ## <a name="remove-a-gateway"></a>Átjáró eltávolítása
-Egy átjáró eltávolítása az átjáró alá tartozó valamennyi adatforrás törlésével jár.  Ez hibát okoz az adatforrásokra támaszkodó irányítópultokban és jelentésekben is.
+Egy átjáró eltávolítása az átjáró alatti adatforrásokat is törli.  Az adott adatforrásokra támaszkodó irányítópultok és jelentések sem fognak működni.
 
-1. Kattintson a fogaskerék ikonra ![](media/service-gateway-enterprise-manage-sap/pbi_gearicon.png) a jobb felső sarokban > **Átjárók kezelése**.
+1. Válassza ki a fogaskerék ikont ![](media/service-gateway-enterprise-manage-sap/pbi_gearicon.png) a jobb felső sarokban, majd az **Átjárók kezelése** lehetőséget.
 2. Átjáró > **Eltávolítás**
    
    ![](media/service-gateway-enterprise-manage-sap/datasourcesettings7.png)
 
-## <a name="add-a-data-source"></a>Adatforrás hozzáadása
-Adatforrást hozzáadhat úgy, hogy az átjárót kijelölve az **Adatforrás hozzáadása** lehetőségre kattint, vagy az Átjáró > **Adatforrás hozzáadása** lehetőséget választja.
+## <a name="add-a-data-source"></a>Adatforrások felvétele
+Az adatforrások felvételének egyik módja az, ha kiválaszt egy átjárót, és az **Adatforrás hozzáadása** lehetőségre kattint, a másik pedig az, ha az Átjáró > **Adatforrás hozzáadása** elemhez lép.
 
 ![](media/service-gateway-enterprise-manage-sap/datasourcesettings1.png)
 
@@ -59,7 +59,7 @@ Ezután kiválaszthatja a listából az **Adatforrástípus** elemet.
 Ezt követően megadhatja az adatforrásra vonatkozó információkat, köztük a **Kiszolgálót**, a **Felhasználónevet** és a **Jelszót**.
 
 > [!NOTE]
-> Az adatforrás felé irányuló összes lekérdezés ezeket a hitelesítő adatokat fogja használni. További információkért tekintse meg a helyszíni adatátjárókról szóló általános cikk leírását a [hitelesítő adatok](service-gateway-onprem.md#credentials) tárolásáról.
+> Az adatforrás felé irányuló összes lekérdezés ezeket a hitelesítő adatokat fogja használni. További információkért tekintse meg a helyszíni adatátjárókat ismertető fő cikket, amelyből többet tudhat meg a [hitelesítő adatok](service-gateway-onprem.md#credentials) tárolásáról.
 > 
 > 
 
@@ -70,57 +70,57 @@ Miután mindent kitöltött, rákattinthat a **Hozzáadás** elemre.  Az adatfor
 ![](media/service-gateway-enterprise-manage-sap/datasourcesettings4.png)
 
 ### <a name="advanced-settings"></a>Speciális beállítások
-Konfigurálhatja az adatforrás adatvédelmi szintjét. Ezzel szabályozható az adatgyűjtés módja. Ez a lehetőség csak az ütemezett frissítéseknél működik, a DirectQueryre nem vonatkozik. [További információk](https://support.office.com/article/Privacy-levels-Power-Query-CC3EDE4D-359E-4B28-BC72-9BEE7900B540)
+Konfigurálhatja az adatforrás adatvédelmi szintjét. Ez vezérli, hogy hogyan fűzhetők össze adatok. Ez csak ütemezett frissítéshez használható. Mindez nem érvényes a DirectQueryre. [További információ](https://support.office.com/article/Privacy-levels-Power-Query-CC3EDE4D-359E-4B28-BC72-9BEE7900B540)
 
 ![](media/service-gateway-enterprise-manage-sap/datasourcesettings9.png)
 
 ## <a name="remove-a-data-source"></a>Adatforrás eltávolítása
-Az adatforrás eltávolítása hibát okoz az adott adatforrást használó irányítópultokon és jelentésekben.  
+Ha eltávolít egy adatforrást, akkor leáll minden olyan irányítópult vagy jelentés is, amely az adott adatforrásra támaszkodik.  
 
-Adatforrás eltávolításához válassza az Adatforrás > **Eltávolítás** lehetőséget.
+Egy adatforrás eltávolításához lépjen az Adatforrás > **Eltávolítás** elemhez.
 
 ![](media/service-gateway-enterprise-manage-sap/datasourcesettings6.png)
 
 ## <a name="manage-administrators"></a>Rendszergazdák kezelése
-Az átjáró Rendszergazdák lapján az átjárót rendszergazdai jogosultsággal kezelő felhasználókat (vagy biztonsági csoportokat) vehet fel és távolíthat el.
+Az átjárókhoz tartozó Rendszergazdák lapon felvehet és eltávolíthat az átjáró kezelésére jogosult felhasználókat (vagy biztonsági csoportokat).
 
 ![](media/service-gateway-enterprise-manage-sap/datasourcesettings8.png)
 
 ## <a name="manage-users"></a>Felhasználók kezelése
-A Felhasználók lapon az adatforrás használatára jogosult felhasználókat vagy biztonsági csoportokat vehet fel és távolíthat el.
+Az adatforráshoz tartozó Felhasználók lapon felveheti és eltávolíthatja az adatforrás használatára jogosult felhasználókat vagy biztonsági csoportokat.
 
 > [!NOTE]
-> A felhasználók listája csak azt szabja meg, hogy ki tehet közzé jelentéseket. A jelentések tulajdonosai irányítópultokat vagy tartalomcsomagokat hozhatnak létre, és oszthatnak meg más felhasználókkal.
+> A felhasználók listája csak azt szabályozza, ki tehet közzé jelentéseket. A jelentéstulajdonosok létrehozhatnak irányítópultokat vagy tartalomcsomagokat, és megoszthatják azokat más felhasználókkal.
 > 
 > 
 
 ![](media/service-gateway-enterprise-manage-sap/datasourcesettings5.png)
 
 ## <a name="using-the-data-source"></a>Az adatforrás használata
-A létrehozott adatforrás elérhető lesz DirectQuery-kapcsolatokkal, vagy ütemezett frissítésen keresztül.
+Miután létrehozta az adatforrást, használhatja DirectQuery-kapcsolatokkal vagy ütemezett frissítéssel is.
 
 > [!NOTE]
-> A kiszolgáló- és adatbázisnévnek meg kell egyeznie a Power BI Desktopban és a helyszíni adatátjáróban megadott adatforrásban!
+> A kiszolgáló és az adatbázis nevének egyeznie kell a Power BI Desktopban és az adatforrásban a helyszíni adatátjárón belül.
 > 
 > 
 
-Az adatkészlet és az átjárón belüli adatforrás kapcsolata a kiszolgáló és az adatbázis nevén alapul. Ezeknek egyezniük kell. Ha például IP-címet ad meg a kiszolgáló neveként a Power BI Desktopban, akkor az átjáró konfigurációjában is az IP-címet kell megadnia az adatforráshoz. Ha a Power BI Desktopban a *KISZOLGÁLÓ\PÉLDÁNY* formát használta, az átjáró konfigurációjában is ezt kell megadnia az adatforráshoz.
+Az adatkészlet és az adatforrás közötti kapcsolat az átjárón belül a kiszolgáló nevén és az adatbázis nevén alapul. Ezeknek egyezniük kell. Ha például egy IP-címet ad meg a kiszolgáló nevének, a Power BI Desktopban azt az IP-címet kell használnia az adatforráshoz az átjáró konfigurációján belül. Ha a Power BI Desktopban a *KISZOLGÁLÓ\PÉLDÁNY* formát használta, az átjáró konfigurációjában is ezt kell megadnia az adatforráshoz.
 
 Ez a DirectQuery és az ütemezett frissítés esetén egyaránt érvényes.
 
 ### <a name="using-the-data-source-with-directquery-connections"></a>Az adatforrás használata DirectQuery-kapcsolatokkal
-Gondoskodjon róla, hogy a kiszolgáló és az adatbázis neve megegyezzen a Power BI Desktopban és a helyszíni adatátjáróban konfigurált adatforrásban. DirectQuery-adatkészletek közzétételéhez arról is gondoskodnia kell, hogy a felhasználója szerepeljen az adatforrás **Felhasználók** lapján. A DirectQuery-hez történő kijelölésre a Power BI Desktopban az első adatimportáláskor kerül sor. [További információk](desktop-use-directquery.md)
+Meg kell győződnie arról, hogy a kiszolgáló és az adatbázis neve egyezik a Power BI Desktop és az átjáró számára konfigurált adatforrás között. DirectQuery-adatkészletek közzétételéhez arról is gondoskodnia kell, hogy a felhasználója szerepeljen az adatforrás **Felhasználók** lapján. A DirectQuery-hez történő kijelölésre a Power BI Desktopban az első adatimportáláskor kerül sor. [További információk](desktop-use-directquery.md)
 
-A Power BI Desktop vagy az **Adatok beolvasása** lehetőség használatával történő közzététel után a jelentéseknek működniük kell. Az adatforrásnak az átjáróban történő létrehozása után eltelhet néhány perc, mire a kapcsolat használható lesz.
+Miután elvégezte a közzétételt a Power BI Desktopból vagy az **Adatok lekérése** területről, el kell kezdeni működniük a jelentéseknek. Az átjárón belüli adatforrás létrehozása után több percbe telhet, amíg a kapcsolat használhatóvá válik.
 
-### <a name="using-the-data-source-with-scheduled-refresh"></a>Adatforrás használata ütemezett frissítéssel
-Ha Ön szerepel az átjáróban konfigurált adatforrás **Felhasználók**  lapján, és a kiszolgáló- és adatbázisnevek egyeznek, akkor az átjáró megjelenik az ütemezett frissítéshez választható lehetőségek között.
+### <a name="using-the-data-source-with-scheduled-refresh"></a>Az adatforrás használata ütemezett frissítéssel
+Ha szerepel az átjárón belül konfigurált adatforrás **Felhasználók** lapján, és a kiszolgáló és az adatbázis neve egyezik, az átjáró megjelenik lehetőségként az ütemezett frissítésnél.
 
 ![](media/service-gateway-enterprise-manage-sap/powerbi-gateway-enterprise-schedule-refresh.png)
 
 ## <a name="next-steps"></a>Következő lépések
 [Helyszíni adatátjáró](service-gateway-onprem.md)  
-[Helyszíni adatátjáró – részletesen](service-gateway-onprem-indepth.md)  
+[Helyszíni adatátjáró – részletek](service-gateway-onprem-indepth.md)  
 [A helyszíni adatátjáró hibaelhárítása](service-gateway-onprem-tshoot.md)  
-További kérdései vannak? [Kérdezze a Power BI-közösséget](http://community.powerbi.com/)
+További kérdései vannak? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)
 

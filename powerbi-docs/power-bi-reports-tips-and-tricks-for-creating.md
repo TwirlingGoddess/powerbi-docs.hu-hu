@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/29/2017
+ms.date: 01/22/2018
 ms.author: mihart
-ms.openlocfilehash: ea4666c9a1af0a7d3f21c8088cdce0a1935d1bf4
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 2d82cee4a825be9c38b3545210e182924147c0f3
+ms.sourcegitcommit: c3be4de522874fd73fe6854333b379b85619b907
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/24/2018
 ---
 # <a name="tips-for-creating-stunning-reports"></a>Látványos jelentések létrehozásával kapcsolatos tippek
 A jelentések létrehozása és használata igen hasonló a Power BI szolgáltatásban és a Power BI Desktopban, ezért az itt található hivatkozások nagy része mind a két rendszerre érvényes.
@@ -49,5 +49,5 @@ Miguel Myers adatelemző és grafikus tervező, és a Power BI-közösség tagja
 
 [Power BI-jelentések](service-reports.md)
 
-További kérdései vannak? [Forduljon a Power BI közösségéhez](http://community.powerbi.com/)
+További kérdései vannak? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)
 

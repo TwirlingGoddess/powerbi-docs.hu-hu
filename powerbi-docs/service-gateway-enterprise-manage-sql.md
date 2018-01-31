@@ -15,24 +15,24 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: powerbi
-ms.date: 11/02/2017
+ms.date: 01/24/2018
 ms.author: davidi
-ms.openlocfilehash: 95fccd70b536a26baf93bf4735750e5599e3021f
-ms.sourcegitcommit: 8f72ce6b35aa25979090a05e3827d4937dce6a0d
+ms.openlocfilehash: 8f8a090714a7dabcc189304428f03161f3d47abc
+ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/27/2017
+ms.lasthandoff: 01/25/2018
 ---
 # <a name="manage-your-data-source---sql-server"></a>Adatforrások kezelése – SQL Server
 A helyszíni adatátjáró telepítése után az átjáróval használható adatforrásokat adhat hozzá. Ez a cikk az átjárókkal és adatforrásokkal végzett munkához nyújt útmutatást. Az SQL Server-adatforrás ütemezett frissítéshez vagy DirectQueryhez is használható.
 
 ## <a name="download-and-install-the-gateway"></a>Az átjáró letöltése és telepítése
-Az átjáró letölthető a Power BI szolgáltatásból. Válassza a **Letöltések** > **Adatátjáró** lehetőséget, vagy nyissa meg az [átjáró letöltési oldalát](https://go.microsoft.com/fwlink/?LinkId=698861).
+Az átjárót a Power BI szolgáltatásból töltheti le. Válassza a **Letöltések** > **Data Gateway** lehetőséget, vagy lépje az [átjáró letöltési oldalára](https://go.microsoft.com/fwlink/?LinkId=698861).
 
 ![](media/service-gateway-enterprise-manage-sql/powerbi-download-data-gateway.png)
 
 ## <a name="add-a-gateway"></a>Átjáró hozzáadása
-Átjáró hozzáadásához egyszerűen [töltse le](https://go.microsoft.com/fwlink/?LinkId=698861) és telepítse az átjárót a saját környezetének egyik kiszolgálójára. Az átjáró a telepítése után megjelenik az **Átjárók kezelése** alatti listában.
+Egy átjáró hozzáadásához egyszerűen [töltse le](https://go.microsoft.com/fwlink/?LinkId=698861) és telepítse az átjárót egy kiszolgálóra a környezetében. Miután telepítette az átjárót, az megjelenik az átjárók listáiban az **Átjárók kezelése** területen.
 
 > [!NOTE]
 > Az **Átjárók kezelése** csak akkor jelenik meg, ha Ön legalább egy átjárónak rendszergazdája. Ez úgy lehetséges, hogy rendszergazdaként hozzáadják egy átjáróhoz, vagy saját maga telepít és konfigurál egy átjárót.
@@ -40,15 +40,15 @@ Az átjáró letölthető a Power BI szolgáltatásból. Válassza a **Letölté
 > 
 
 ## <a name="remove-a-gateway"></a>Átjáró eltávolítása
-Egy átjáró eltávolítása az átjáró alá tartozó valamennyi adatforrás törlésével jár.  Ez az ezekre az adatforrásokra épülő irányítópultokon és jelentésekben is hibát okoz.
+Egy átjáró eltávolítása az átjáró alatti adatforrásokat is törli.  Az adott adatforrásokra támaszkodó irányítópultok és jelentések sem fognak működni.
 
-1. Válassza a fogaskerék ![](media/service-gateway-enterprise-manage-sql/pbi_gearicon.png) ikont a jobb felső sarokban > **Átjárók kezelése**.
+1. Válassza ki a fogaskerék ikont ![](media/service-gateway-enterprise-manage-sql/pbi_gearicon.png) a jobb felső sarokban, majd az **Átjárók kezelése** lehetőséget.
 2. Átjáró > **Eltávolítás**
    
    ![](media/service-gateway-enterprise-manage-sql/datasourcesettings7.png)
 
-## <a name="add-a-data-source"></a>Adatforrás hozzáadása
-Adatforrást hozzáadhat úgy, hogy az átjárót kijelölve az **Adatforrás hozzáadása** lehetőségre kattint, vagy az Átjáró > **Adatforrás hozzáadása** lehetőség használatával.
+## <a name="add-a-data-source"></a>Adatforrások felvétele
+Az adatforrások felvételének egyik módja az, ha kiválaszt egy átjárót, és az **Adatforrás hozzáadása** lehetőségre kattint, a másik pedig az, ha az Átjáró > **Adatforrás hozzáadása** elemhez lép.
 
 ![](media/service-gateway-enterprise-manage-sql/datasourcesettings1.png)
 
@@ -63,7 +63,7 @@ Ez után kiválaszthatja az **Adatforrástípust** a listából.
 
 Ez után az adatforrás információit, köztük a **Kiszolgálót** és az **Adatbázist** is kell megadnia.  
 
-Ki kell választania a **Hitelesítési módszert** is.  Ez lehet **Windows** vagy **Egyszerű**.  Az **Egyszerű** lehetőséget akkor kell választani, ha Windows-hitelesítés helyett SQL-hitelesítést fog használni. Végül adja meg az ehhez az adatforráshoz használandó hitelesítő adatokat.
+**Hitelesítési módszert** is választania kell.  Ez lehet **Windows** vagy **Egyszerű**.  Az **Egyszerű** lehetőséget akkor kell választani, ha Windows-hitelesítés helyett SQL-hitelesítést fog használni. Végül adja meg az ehhez az adatforráshoz használandó hitelesítő adatokat.
 
 > [!NOTE]
 > Az adatforráson minden lekérdezés ezekkel a hitelesítő adatokkal fog futni, hacsak nincs hozzá konfigurálva és engedélyezve a Kerberos használata egyszeri bejelentkezéshez (SSO). Egyszeri bejelentkezés (SSO) használata esetén az importált adatkészletek a tárolt hitelesítő adatokat használják, a DirectQuery-adatkészletek viszont az aktuális Power BI-felhasználó nevében, SSO használatával futtatják a lekérdezéseket. A helyszíni adatátjáróról szóló fő cikkben bővebben tájékozódhat a [hitelesítő adatok](service-gateway-onprem.md#credentials) tárolásáról. További információ: [a Kerberos használata egyszeri bejelentkezéshez (SSO) a Power BI-ból helyszíni adatforrásokba](service-gateway-kerberos-for-sso-pbi-to-on-premises-data.md).
@@ -77,58 +77,58 @@ Miután mindent kitöltött, rákattinthat a **Hozzáadás** gombra.  Az adatfor
 ![](media/service-gateway-enterprise-manage-sql/datasourcesettings4.png)
 
 ### <a name="advanced-settings"></a>Speciális beállítások
-Konfigurálhatja az adatforrás adatvédelmi szintjét. Ezzel szabja meg, hogy hogyan érhetők el az adatok. Ezt csak az ütemezett frissítések használják. A DirectQueryre nem vonatkozik. [További információ](https://support.office.com/article/Privacy-levels-Power-Query-CC3EDE4D-359E-4B28-BC72-9BEE7900B540)
+Konfigurálhatja az adatforrás adatvédelmi szintjét. Ez vezérli, hogy hogyan fűzhetők össze adatok. Ez csak ütemezett frissítéshez használható. Mindez nem érvényes a DirectQueryre. [További információ](https://support.office.com/article/Privacy-levels-Power-Query-CC3EDE4D-359E-4B28-BC72-9BEE7900B540)
 
 ![](media/service-gateway-enterprise-manage-sql/datasourcesettings9.png)
 
 ## <a name="remove-a-data-source"></a>Adatforrás eltávolítása
-Egy adatforrás eltávolítása hibát okoz az adott adatforrást használó irányítópultokon és jelentésekben.  
+Ha eltávolít egy adatforrást, akkor leáll minden olyan irányítópult vagy jelentés is, amely az adott adatforrásra támaszkodik.  
 
-Adatforrás eltávolításához válassza az Adatforrás > **Eltávolítás** lehetőséget.
+Egy adatforrás eltávolításához lépjen az Adatforrás > **Eltávolítás** elemhez.
 
 ![](media/service-gateway-enterprise-manage-sql/datasourcesettings6.png)
 
 ## <a name="manage-administrators"></a>Rendszergazdák kezelése
-Az átjáró Rendszergazdák lapján az átjárót rendszergazdai jogosultsággal kezelő felhasználókat (vagy biztonsági csoportokat) vehet fel és távolíthat el.
+Az átjárókhoz tartozó Rendszergazdák lapon felvehet és eltávolíthat az átjáró kezelésére jogosult felhasználókat (vagy biztonsági csoportokat).
 
 ![](media/service-gateway-enterprise-manage-sql/datasourcesettings8.png)
 
 ## <a name="manage-users"></a>Felhasználók kezelése
-A Felhasználók lapon az adatforrás használatára jogosult felhasználókat vagy biztonsági csoportokat vehet fel és távolíthat el.
+Az adatforráshoz tartozó Felhasználók lapon felveheti és eltávolíthatja az adatforrás használatára jogosult felhasználókat vagy biztonsági csoportokat.
 
 > [!NOTE]
-> A felhasználók listája csak azt szabja meg, hogy ki tehet közzé jelentéseket. Irányítópultokat vagy tartalomcsomagokat a jelentések tulajdonosai hozhatnak létre és oszthatnak meg más felhasználókkal.
+> A felhasználók listája csak azt szabályozza, ki tehet közzé jelentéseket. A jelentéstulajdonosok létrehozhatnak irányítópultokat vagy tartalomcsomagokat, és megoszthatják azokat más felhasználókkal.
 > 
 > 
 
 ![](media/service-gateway-enterprise-manage-sql/datasourcesettings5.png)
 
 ## <a name="using-the-data-source"></a>Az adatforrás használata
-A létrehozott adatforrás elérhető lesz DirectQuery-kapcsolattal vagy ütemezett frissítésen keresztül.
+Miután létrehozta az adatforrást, használhatja DirectQuery-kapcsolatokkal vagy ütemezett frissítéssel is.
 
 > [!NOTE]
-> A kiszolgáló- és adatbázisnévnek meg kell egyeznie a Power BI Desktopban és a helyszíni adatátjáróban megadott adatforrásban!
+> A kiszolgáló és az adatbázis nevének egyeznie kell a Power BI Desktopban és az adatforrásban a helyszíni adatátjárón belül.
 > 
 > 
 
-Az adatkészlet és az átjárón belüli adatforrás kapcsolata a kiszolgáló és az adatbázis nevén alapul. Ezeknek egyezniük kell. Ha például IP-címet ad meg a kiszolgáló neveként a **Power BI Desktopban**, akkor az átjáró konfigurációjában is az IP-címet kell megadnia az adatforráshoz. Ha a Power BI Desktopban a *KISZOLGÁLÓ\PÉLDÁNY* formát használta, az átjáró konfigurációjában is ezt kell megadnia az adatforráshoz.
+Az adatkészlet és az adatforrás közötti kapcsolat az átjárón belül a kiszolgáló nevén és az adatbázis nevén alapul. Ezeknek egyezniük kell. Ha például IP-címet ad meg a kiszolgáló neveként a **Power BI Desktopban**, akkor az átjáró konfigurációjában is az IP-címet kell megadnia az adatforráshoz. Ha a Power BI Desktopban a *KISZOLGÁLÓ\PÉLDÁNY* formát használta, az átjáró konfigurációjában is ezt kell megadnia az adatforráshoz.
 
-Ez a DirectQuery használata és az ütemezett frissítés esetén is érvényes.
+Ez a DirectQuery és az ütemezett frissítés esetén egyaránt érvényes.
 
 ### <a name="using-the-data-source-with-directquery-connections"></a>Az adatforrás használata DirectQuery-kapcsolatokkal
-Gondoskodjon róla, hogy a kiszolgáló- és adatbázis-név megegyezzen a **Power BI Desktopban** és a helyszíni adatátjáróban konfigurált adatforrásban. DirectQuery-adatkészletek közzétételéhez arról is gondoskodnia kell, hogy a felhasználója szerepeljen az adatforrás **Felhasználók** lapján. A DirectQuery estén a kijelölésre a Power BI Desktopban az első adatimportáláskor kerül sor. [További információ](desktop-use-directquery.md)
+Gondoskodjon róla, hogy a kiszolgáló- és adatbázis-név megegyezzen a **Power BI Desktopban** és a helyszíni adatátjáróban konfigurált adatforrásban. DirectQuery-adatkészletek közzétételéhez arról is gondoskodnia kell, hogy a felhasználója szerepeljen az adatforrás **Felhasználók** lapján. A DirectQuery esetén a kiválasztásra az első adatimportáláskor kerül sor a Power BI Desktopon belül. [További információ](desktop-use-directquery.md)
 
-A Power BI Desktop vagy az **Adatok beolvasása** lehetőség használatával történő közzététel után a jelentéseknek működniük kell. Az adatforrásnak az átjáróban történő létrehozása után eltelhet néhány perc, mire a kapcsolat használható lesz.
+Miután elvégezte a közzétételt a Power BI Desktopból vagy az **Adatok lekérése** területről, el kell kezdeni működniük a jelentéseknek. Az átjárón belüli adatforrás létrehozása után több percbe telhet, amíg a kapcsolat használhatóvá válik.
 
-### <a name="using-the-data-source-with-scheduled-refresh"></a>Adatforrás használata ütemezett frissítéssel
-Ha Ön szerepel az átjáróban konfigurált adatforrás **Felhasználók** lapján, és a kiszolgáló- és adatbázisnevek egyeznek, akkor az átjáró megjelenik az ütemezett frissítéshez választható lehetőségek között.
+### <a name="using-the-data-source-with-scheduled-refresh"></a>Az adatforrás használata ütemezett frissítéssel
+Ha szerepel az átjárón belül konfigurált adatforrás **Felhasználók** lapján, és a kiszolgáló és az adatbázis neve egyezik, az átjáró megjelenik lehetőségként az ütemezett frissítésnél.
 
 ![](media/service-gateway-enterprise-manage-sql/powerbi-gateway-enterprise-schedule-refresh.png)
 
-## <a name="next-steps"></a>További lépések
+## <a name="next-steps"></a>Következő lépések
 * [Helyszíni adatátjáró](service-gateway-onprem.md)  
-* [Helyszíni adatátjáró – részletesen](service-gateway-onprem-indepth.md)  
+* [Helyszíni adatátjáró – részletek](service-gateway-onprem-indepth.md)  
 * [A helyszíni adatátjáró hibaelhárítása](service-gateway-onprem-tshoot.md)
 * [Kerberos használata egyszeri bejelentkezéshez (SSO) a Power BI-ból a helyszíni adatforrásokhoz](service-gateway-kerberos-for-sso-pbi-to-on-premises-data.md). 
-* További kérdései vannak? [Felteheti őket a Power BI-közösségnek](http://community.powerbi.com/)
+* További kérdései vannak? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)
 

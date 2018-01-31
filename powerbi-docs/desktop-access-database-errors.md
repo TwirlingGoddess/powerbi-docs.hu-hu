@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/12/2017
+ms.date: 01/24/2018
 ms.author: davidi
-ms.openlocfilehash: 719bc102efe27261d69da80917655c6043058d92
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 47abc345d773fe9274a1dc814b7799a956e909fc
+ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/25/2018
 ---
 # <a name="resolve-issues-importing-access-and-xls-files-in-power-bi-desktop"></a>Az Access- és .XLS-fájlok importálási hibáinak elhárítása a Power BI Desktopban
 A **Power BI Desktopban** az **Access-adatbázisok** és az **Excel-munkafüzetek** korai verziói (Excel 2007-2003 típusú .XLS-fájlok) az *Access adatbázismotort* használják. Három gyakori helyzet van, amely meggátolhatja az Access adatbázismotor megfelelő működését:

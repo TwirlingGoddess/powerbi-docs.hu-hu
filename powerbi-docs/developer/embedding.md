@@ -3,7 +3,7 @@ title: "Beágyazás a Power BI-jal"
 description: "A Power BI az irányítópultok és jelentések alkalmazásokba való beágyazását lehetővé tevő API-kat kínál."
 services: powerbi
 documentationcenter: 
-author: guyinacube
+author: markingmyname
 manager: kfile
 backup: 
 editor: 
@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 11/30/17
 ms.author: mihart
-ms.openlocfilehash: 38860e6535f44e8831c62c045e7c5d0e130c35aa
-ms.sourcegitcommit: 910258a5ad8b6861e81ae02c57286db221c37375
+ms.openlocfilehash: 4d112ae4c25f080a3eb90de596c056366da3fe1d
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 12/02/2017
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="embedding-with-power-bi"></a>Beágyazás a Power BI-jal
 A Power BI az irányítópultok és jelentések alkalmazásokba való beágyazását lehetővé tevő API-kat kínál. A Power BI API-k a tartalmak beágyazása során egységes funkciókat, valamint a legújabb Power BI-funkciókhoz (például irányítópultokhoz, átjárókhoz és alkalmazás-munkaterületekhez) történő hozzáférést teszik elérhetővé.

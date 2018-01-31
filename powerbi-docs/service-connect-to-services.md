@@ -5,7 +5,7 @@ services: powerbi
 documentationcenter: 
 author: maggiesMSFT
 manager: kfile
-backup: ajayan
+backup: 
 editor: 
 tags: 
 qualityfocus: no
@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/12/2017
+ms.date: 01/29/2018
 ms.author: maggies
-ms.openlocfilehash: 484545b0c240f54e2efe73ff16ba24ebe77d247c
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: caf18362c0793d0a501ced2cd3160acc8f891516
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="connect-to-the-services-you-use-with-power-bi"></a>Kapcsolódás a Power BI segítségével a használt szolgáltatásokhoz
 Könnyedén kapcsolódhat a vállalkozása működtetéséhez használt olyan szolgáltatásokhoz, mint például a Salesforce, a Microsoft Dynamics és a Google Analytics. A Power BI először a hitelesítő adatok segítségével kapcsolódik a szolgáltatáshoz, majd létrehoz egy irányítópulttal rendelkező Power BI alkalmazást és néhány jelentést, amelyek automatikusan megjelenítik adatait, és vizuális elemzést biztosítanak az üzletmenetről. 
@@ -75,5 +75,5 @@ Van olyan szolgáltatása, amelyhez szeretne egy alkalmazást létrehozni? [Kül
 ## <a name="next-steps"></a>Következő lépések
 * [Mik a Power BI szolgáltatáson belüli alkalmazások?](service-install-use-apps.md)
 * [Adatok lekérése a Power BI-ban](service-get-data.md)
-* További kérdései vannak? [Forduljon a Power BI közösségéhez](http://community.powerbi.com/)
+* További kérdései vannak? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)
 

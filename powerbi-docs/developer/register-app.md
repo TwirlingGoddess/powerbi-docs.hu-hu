@@ -3,7 +3,7 @@ title: "Alkalmazás regisztrálása Power BI-tartalmak beágyazásához"
 description: "Megismerheti, hogyan kell regisztrálni egy alkalmazást az Azure Active Directoryban Power BI-tartalmak beágyazásához."
 services: powerbi
 documentationcenter: 
-author: guyinacube
+author: markingmyname
 manager: kfile
 backup: 
 editor: 
@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/05/2017
-ms.author: asaxton
-ms.openlocfilehash: 55bd0ed1be7b5853c6de786df34812fddafc1db8
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.author: maghan
+ms.openlocfilehash: cc9a4c7a29ddb84e6230d42f31a9c6a0427008f1
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="register-an-azure-ad-app-to-embed-power-bi-content"></a>Azure AD-alkalmazás regisztrálása Power BI-tartalmak beágyazásához
 Megismerheti, hogyan kell regisztrálni egy alkalmazást az Azure Active Directoryban (Azure AD) Power BI-tartalmak beágyazásához.
@@ -189,5 +189,5 @@ Vagy a *fő* fiókkal (beágyazás), vagy a globális rendszergazdafiókkal kell
 ## <a name="next-steps"></a>Következő lépések
 Most, hogy regisztrálta alkalmazását az Azure AD-ben, hitelesítenie kell a felhasználókat az alkalmazásban. Erről részletesebben a [felhasználók hitelesítését és a Power BI-alkalmazáshoz való Azure AD-hozzáférési token beszerzését](get-azuread-access-token.md) ismertető témakörben olvashat.
 
-További kérdései vannak? [Forduljon a Power BI közösségéhez](http://community.powerbi.com/)
+További kérdései vannak? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)
 

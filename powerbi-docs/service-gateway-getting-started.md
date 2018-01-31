@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: powerbi
-ms.date: 12/065/2017
+ms.date: 01/24/2018
 ms.author: davidi
-ms.openlocfilehash: d6dae11aae2e44e1a8d6fe103cf0e20183c0d9d8
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+ms.openlocfilehash: 14c96dbc88784cd76099c25508409bcc24064e35
+ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 01/25/2018
 ---
 # <a name="getting-started-with-power-bi-gateways"></a>Első lépések Power BI-átjárókkal
 Üdvözli az **Első lépések Power BI-átjárókkal** útmutató. Ez a rövid útmutató megismerteti Önnel az átjáró szerepét és működését, valamint egy saját átjáró telepítését, konfigurálását és üzemeltetését.  
@@ -164,5 +164,5 @@ Az átjáró telepítésével tehát végzett, és készen áll az adatforrások
 [Helyszíni adatátjáró (személyes mód)](service-gateway-personal-mode.md)
 [Helyszíni adatátjáró hibaelhárítása](service-gateway-onprem-tshoot.md)  
 
-További kérdései vannak? [Felteheti azokat a Power BI-közösségnek](http://community.powerbi.com/)
+További kérdései vannak? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)
 

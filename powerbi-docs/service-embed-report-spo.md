@@ -3,7 +3,7 @@ title: "Beágyazás jelentéskijelzővel a SharePoint Online-ban"
 description: "A Power BI új beágyazás jelentéskijelzővel a SharePoint Online-ban funkciójának használatával interaktív Power BI-jelentéseit könnyedén SharePoint Online-oldalakba illesztheti."
 services: powerbi
 documentationcenter: 
-author: guyinacube
+author: markingmyname
 manager: kfile
 backup: 
 editor: 
@@ -17,12 +17,12 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 11/19/2017
-ms.author: asaxton
-ms.openlocfilehash: a60682f9da2befe5f87b11749c089f72949a8f6f
-ms.sourcegitcommit: 6e8fbbbcbe3e1a38207b29a9ca66ea94fb2a51fb
+ms.author: maghan
+ms.openlocfilehash: 99b6391dc48772e21dd64038699a3365225167eb
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/19/2017
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="embed-with-report-web-part-in-sharepoint-online"></a>Beágyazás jelentéskijelzővel a SharePoint Online-ban
 
@@ -160,5 +160,5 @@ A probléma elhárításához lépjen kapcsolatba a SharePoint Online-oldal tula
 [Irányítópult megosztása munkatársakkal és másokkal](service-share-dashboards.md)  
 [Mi a Power BI Premium?](service-premium.md)  
 
-További kérdései vannak? [Kérdezze meg a Power BI-közösséget!](http://community.powerbi.com/)
+További kérdései vannak? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)
 

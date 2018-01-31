@@ -3,7 +3,7 @@ title: "Power BI (ingyenes) a cégen belül"
 description: "Ez a cikk céges szempontból tekinti át a Power BI (ingyenes) lehetőségeit. Ha Ön a bérlő rendszergazdája, itt olvashat az ingyenes regisztrációk kezeléséről."
 services: powerbi
 documentationcenter: 
-author: guyinacube
+author: markingmyname
 manager: kfile
 backup: 
 editor: 
@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: powerbi
 ms.date: 09/05/2017
-ms.author: asaxton
-ms.openlocfilehash: 5cdb3c17b1a65fd2a8b55918feaf58dd12fc1a2f
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.author: maghan
+ms.openlocfilehash: ec039ab195e2112654ac7f3057d54ecb60c21058
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="power-bi-free-in-your-organization"></a>Power BI (ingyenes) a cégen belül
 A témakör azt írja le, hogy miképpen használható fel a Power BI (ingyenes) ajánlata a cégen belül. A cég meghatározása, hogy bérlőt használ, és a bérlőn belül lehetősége van a felhasználók és a szolgáltatások kezelésére. Rendszergazdaként Ön szabályozhatja a licencek hozzárendelését, vagy engedélyezheti az egyéni felhasználók regisztrációját. Az alábbiakban tájékozódhat a Power BI (ingyenes) licencről és az egyéni regisztrációk kezeléséről.
@@ -70,17 +70,17 @@ Most már hozzárendelheti a licenceket a felhasználókhoz. További informáci
 ## <a name="enable-or-disable-individual-user-sign-up-in-azure-active-directory"></a>Egyéni felhasználó regisztrációjának engedélyezése és letiltása az Azure Active Directoryban
 Rendszergazdaként engedélyezheti vagy letilthatja az egyéni felhasználók regisztrációját az Azure Active Directoryban (AAD). Ha ismeri az AAD PowerShell-parancsok használatát, az alkalmi előfizetéseket manuálisan engedélyezheti vagy tilthatja le. [További információk](https://technet.microsoft.com/library/jj151815.aspx)
 
-A műveletet vezérlő AAD-beállítás az **AllowAdHocSubscriptions**. A legtöbb bérlőnél a beállítás értéke igaz, tehát engedélyezve van. Ha a Power BI-t partneren keresztül szerezte be, a beállítás alapértelmezett értéke hamis is lehet, tehát le lehet tiltva.
+A jelen **AllowAdHocSubscriptions** paramétert vezérlő AAD-beállítás. A legtöbb bérlő esetén ez a beállítás igaz értékre van állítva, vagyis engedélyezett. Ha a Power BI-t partneren keresztül szerezte be, a beállítás alapértelmezett értéke hamis is lehet, tehát le lehet tiltva.
 
-1. Először jelentkezzen be az Azure Active Directoryba az Office 365 hitelesítő adataival. Az első sor kérni fogja a hitelesítő adatokat. A második sor kapcsolódik az Azure Active Directoryhoz.
+1. Először jelentkezzen be az Azure Active Directoryba az Office 365 hitelesítő adataival. Az első sor bekéri a hitelesítő adatokat. A második sor csatlakozik az Azure Active Directoryhoz.
    
      $msolcred = get-credential   connect-msolservice -credential $msolcred
    
    ![](media/service-admin-service-free-in-your-organization/aad-signin.png)
-2. Ha már bejelentkezett, kiadhatja a következő parancsot a bérlő jelenlegi konfigurációjának megtekintéséhez.
+2. Miután bejelentkezett, a következő parancs kiadásával láthatja, hogy jelenleg mihez van konfigurálva a bérlő.
    
      Get-MsolCompanyInformation | fl AllowAdHocSubscriptions
-3. Ezzel a paranccsal engedélyezheti ($true) vagy letilthatja ($false) az AllowAdHocSubscriptions (alkalmi regisztrációk engedélyezése) lehetőséget.
+3. Ezzel a paranccsal engedélyezheti ($true) vagy letilthatja ($false) az AllowAdHocSubscriptions paramétert.
    
      Set-MsolCompanySettings -AllowAdHocSubscriptions $true
 
@@ -96,5 +96,5 @@ A műveletet vezérlő AAD-beállítás az **AllowAdHocSubscriptions**. A legtö
 [Mit jelent a Power BI Premium?](service-premium.md)  
 [Power BI Premium-tanulmány](https://aka.ms/pbipremiumwhitepaper)  
 
-További kérdései vannak? [Kérdezze a Power BI-közösséget!](http://community.powerbi.com/)
+További kérdései vannak? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)
 

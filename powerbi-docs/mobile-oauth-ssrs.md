@@ -3,7 +3,7 @@ title: "Csatlakozás a Reporting Serviceshez OAuth használatával"
 description: "Tudja meg, hogy konfigurálhatja a környezetét az OAuth-hitelesítés támogatására a Power BI mobilalkalmazásban a Reporting Services 2016 (vagy újabb) szolgáltatáshoz való csatlakozáshoz."
 services: powerbi
 documentationcenter: 
-author: guyinacube
+author: markingmyname
 manager: kfile
 backup: 
 editor: 
@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 08/10/2017
-ms.author: asaxton
-ms.openlocfilehash: 1b9733e21ee3a8c2fc551d6aee9f3c0a9d509225
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.author: maghan
+ms.openlocfilehash: f32fd9585c28fc9a837bea80b57d23f9725a6b49
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="using-oauth-to-connect-to-reporting-services"></a>Csatlakozás a Reporting Serviceshez OAuth használatával
 Tudja meg, hogy konfigurálhatja a környezetét az OAuth-hitelesítés támogatására a Power BI mobilalkalmazásban a Reporting Services 2016 (vagy újabb) szolgáltatáshoz való csatlakozáshoz.
@@ -226,5 +226,5 @@ Ha a bejelentkezés sikeresen működik a Fiddler használatakor, előfordulhat,
 [Webalkalmazás-proxy a Windows Server 2016-ban](https://technet.microsoft.com/windows-server-docs/identity/web-application-proxy/web-application-proxy-windows-server)  
 [Alkalmazások közzététele AD FS előhitelesítéssel](https://technet.microsoft.com/windows-server-docs/identity/web-application-proxy/publishing-applications-using-ad-fs-preauthentication#a-namebkmk14apublish-an-application-that-uses-oauth2-such-as-a-windows-store-app)  
 [Az AD FS 2016 és az Azure MFA konfigurálása](https://technet.microsoft.com/windows-server-docs/identity/ad-fs/operations/configure-ad-fs-2016-and-azure-mfa)  
-További kérdései vannak? [Forduljon a Power BI közösségéhez](http://community.powerbi.com/)
+További kérdései vannak? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)
 

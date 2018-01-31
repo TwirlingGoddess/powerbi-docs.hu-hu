@@ -3,7 +3,7 @@ title: "Másodlagos e-mail-cím használata"
 description: "Másodlagos e-mail-cím használata"
 services: powerbi
 documentationcenter: 
-author: guyinacube
+author: markingmyname
 manager: kfile
 backup: 
 editor: 
@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 08/09/2017
-ms.author: asaxton
-ms.openlocfilehash: 4d58c0dfb07153b9061aa572416be2d8bc7858bd
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.author: maghan
+ms.openlocfilehash: dd9e146b22c95d8c915ea653ee287bb7a51e6b06
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="using-an-alternate-email-address"></a>Másodlagos e-mail-cím használata
 Alapértelmezés szerint a rendszer a Power BI-ba való regisztráláshoz használt e-mail-címre küld tájékoztatást a Power BI-ban végzett tevékenységekről.  Ha például valaki megosztási felkérést küld Önnek, az erre az e-mail-címre fog megérkezni.
@@ -54,5 +54,5 @@ Set-AzureADUser -ObjectId john@contoso.com -OtherMails "otheremail@somedomain.co
 
 További információkért lásd: [Azure Active Directory PowerShell 2-es verziója](https://docs.microsoft.com/powershell/azure/active-directory/install-adv2).
 
-További kérdései vannak? [Forduljon a Power BI közösségéhez](http://community.powerbi.com/)
+További kérdései vannak? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)
 

@@ -3,7 +3,7 @@ title: "Power BI tartalmak terjesztése Azure AD B2B külső vendégfelhasznál�
 description: "A Power BI integrálható az Azure Active Directory vállalatközi felhasználásra szánt verziójával (Azure AD B2B), ami lehetővé teszi, hogy a Power BI-tartalmakat cégen kívüli vendégfelhasználókkal is biztonságosan meg tudja osztani."
 services: powerbi
 documentationcenter: 
-author: guyinacube
+author: markingmyname
 manager: kfile
 backup: 
 editor: 
@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/07/2017
-ms.author: asaxton
-ms.openlocfilehash: 147ec28e64cf271843fcffdd14abe005345170e0
-ms.sourcegitcommit: 7248b5e449b2495d6baef385470d18edfacec457
+ms.author: maghan
+ms.openlocfilehash: 36fb0838f9c712567d3fe14e7ba0c69d2da3adf4
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 12/08/2017
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="distribute-power-bi-content-to-external-guest-users-with-azure-ad-b2b"></a>Power BI tartalmak terjesztése Azure AD B2B külső vendégfelhasználóknak
 
@@ -103,7 +103,7 @@ A vendégfelhasználó saját bérlőjén már rendelkezik Power BI Pro-licencce
 * Ez a funkció jelenleg nem érhető el Power BI-mobilalkalmazásokban. Az Azure AD B2B-vel megosztott Power BI-tartalmakat a mobileszközén böngészőben tekintheti meg.
 * A Power BI nem támogatja a vendégfelhasználókat független (kormányzati) felhőkben.
 
-## <a name="next-steps"></a>További lépések
+## <a name="next-steps"></a>Következő lépések
 
 Ha részletesebb információkra van szüksége például a sorszintű adatvédelem működésével kapcsolatban, olvassa el ezt a [tanulmányt](https://aka.ms/powerbi-b2b-whitepaper).
 

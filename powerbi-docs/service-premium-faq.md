@@ -3,7 +3,7 @@ title: "Power BI Premium – gyakori kérdések"
 description: "A Power BI Premium termékkel kapcsolatos gyakori kérdések, valamint az azokra adott válaszaink."
 services: powerbi
 documentationcenter: 
-author: guyinacube
+author: markingmyname
 manager: kfile
 backup: 
 editor: 
@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 09/20/2017
-ms.author: asaxton
-ms.openlocfilehash: 8764e4ca69d8d7ce7580147c52abe868cd49d2f5
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.author: maghan
+ms.openlocfilehash: ccec7821b206e9cd935756f45c0960d23fc28737
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="power-bi-premium-faq"></a>Power BI Premium – gyakori kérdések
 A Power BI Premium termékkel kapcsolatos gyakori kérdések, valamint az azokra adott válaszaink.
@@ -217,5 +217,5 @@ A Power BI jelentéskészítő kiszolgáló az SQL Servert EE + SA licencet hasz
 [A Power BI Enterprise üzembehelyezési előkészületeit bemutató tanulmány ](https://aka.ms/pbienterprisedeploy)  
 [A Pro meghosszabbított próbaverziójának aktiválása](service-extended-pro-trial.md)  
 
-További kérdései vannak? [Forduljon a Power BI közösségéhez](https://community.powerbi.com/)
+További kérdései vannak? [Kérdezze meg a Power BI közösségét](https://community.powerbi.com/)
 

@@ -3,7 +3,7 @@ title: "A Kiterjesztett Pro-próbaverzió aktiválása"
 description: "2017. június 1-től kezdődően minden jogosult felhasználó igénybe tudja venni a Power BI szolgáltatás Kiterjesztett Pro-próbaverzióját."
 services: powerbi
 documentationcenter: 
-author: guyinacube
+author: markingmyname
 manager: kfile
 backup: 
 editor: 
@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 07/18/2017
-ms.author: asaxton
-ms.openlocfilehash: 595f1b19ebe30980dcc22254853b9daa5dc4d3d4
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.author: maghan
+ms.openlocfilehash: 25e384b13f7161c3238e34bfc482570a1b29ec36
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="extended-pro-trial-activation"></a>A Kiterjesztett Pro-próbaverzió aktiválása
 2017. június 1-től kezdődően minden jogosult felhasználó csatlakozni tud a Power BI szolgáltatás Kiterjesztett Pro-próbaverziójához.
@@ -114,5 +114,5 @@ Nem. A rendszergazdák nem korlátozhatják a Power BI Pro Kiterjesztett Pro-pr�
 [A Power BI Premium hirdetménye](https://aka.ms/pbipremium-announcement)  
 [Bejelentkezett Power BI-felhasználók keresése](service-admin-access-usage.md)
 
-További kérdései vannak? [Tegye fel kérdésit a Power BI közösségnek](https://community.powerbi.com/)
+További kérdései vannak? [Kérdezze meg a Power BI közösségét](https://community.powerbi.com/)
 

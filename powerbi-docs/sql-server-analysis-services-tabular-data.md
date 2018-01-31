@@ -3,7 +3,7 @@ title: "Az SQL Server Analysis Services élő adatai a Power BI-ban"
 description: "Az SQL Server Analysis Services élő adatai a Power BI-ban. Ez egy vállalati átjáróhoz konfigurált adatforrásban történik."
 services: powerbi
 documentationcenter: 
-author: guyinacube
+author: markingmyname
 manager: kfile
 backup: 
 editor: 
@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 08/10/2017
-ms.author: asaxton
-ms.openlocfilehash: 6925dc9bcf3e500af18cf63c62f6cb33c297392b
-ms.sourcegitcommit: b3ee37e1587f1269ee7dd9daf1685a06dea3b50c
+ms.author: maghan
+ms.openlocfilehash: a2a0b2ae9f663f5bd2ba1c599f4f55232c0d1973
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/23/2017
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="sql-server-analysis-services-live-data-in-power-bi"></a>Az SQL Server Analysis Services élő adatai a Power BI-ban
 A Power BI szolgáltatásban kétféleképpen csatlakozhat egy SQL Server Analysis Services-kiszolgálóhoz. Az **Adatok lekérése** lehetőséggel csatlakozhat egy SQL Server Analysis Services-kiszolgálóhoz, vagy egy [Power BI Desktop-fájlhoz](service-desktop-files.md), vagy egy olyan [Excel-munkafüzethez](service-excel-workbook-files.md), amely már csatlakozik egy Analysis Services-kiszolgálóhoz.
@@ -55,5 +55,5 @@ Ha vizualizációkat rögzít egy jelentésből az irányítópultra, a rögzít
 [Helyszíni adatátjáró](service-gateway-onprem.md)  
 [Az Analysis Services adatforrásainak kezelése](service-gateway-enterprise-manage-ssas.md)  
 [A helyszíni átjáró hibaelhárítása](service-gateway-onprem-tshoot.md)  
-Több kérdése van? [Felteheti őket a Power BI-közösségnek](http://community.powerbi.com/)
+További kérdései vannak? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)
 

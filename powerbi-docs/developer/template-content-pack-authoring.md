@@ -3,7 +3,7 @@ title: "Sablonalapú tartalomcsomagok készítése a Power BI-ban"
 description: "Sablonalapú tartalomcsomagok készítése"
 services: powerbi
 documentationcenter: 
-author: guyinacube
+author: markingmyname
 manager: kfile
 backup: 
 editor: 
@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/09/2017
-ms.author: asaxton
-ms.openlocfilehash: 332b8eb7087bbf70559a1e63b0736c9cb9289349
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.author: maghan
+ms.openlocfilehash: 9b8de53534c94ad995e2d953cfc6994b93915bd8
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="author-template-content-packs-in-power-bi"></a>Sablonalapú tartalomcsomagok készítése a Power BI-ban
 Sablonalapú tartalomcsomagok a Power BI Desktop és a PowerBI.com használatával készíthetők. A tartalomcsomagnak négy összetevője van:

@@ -3,7 +3,7 @@ title: "Az Azure SQL Data Warehouse használata DirectQueryvel"
 description: "Az Azure SQL Data Warehouse használata DirectQueryvel"
 services: powerbi
 documentationcenter: 
-author: guyinacube
+author: markingmyname
 manager: kfile
 backup: 
 editor: 
@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 08/10/2017
-ms.author: asaxton
-ms.openlocfilehash: 0f712763f37df60814d93080c9d0149541b8530c
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.author: maghan
+ms.openlocfilehash: 6f15cd13c26fcd120c92288c117bd9d97dd9e68b
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="azure-sql-data-warehouse-with-directquery"></a>Az Azure SQL Data Warehouse használata DirectQueryvel
 Ha DirectQueryvel csatlakozik az Azure SQL Data Warehouse-hoz, dinamikus jelentéseket hozhat létre az Azure SQL Data Warehouse-ban tárolt adatokat és metrikákat használva. DirectQuery használata esetén a rendszer valós idejű lekérdezéseket küld az Azure SQL Data Warehouse-ba az adatok feltárásakor. Ez a módszer az SQL Data Warehouse méreteit is tekintve lehetővé teszi, hogy percek alatt hozzunk létre dinamikus jelentéseket akár több terabájtnyi adatból is. Ezenkívül a **Megnyitás Power BI-ban** gomb lehetővé teszi, hogy a felhasználók közvetlenül is csatlakoztathassák a Power BI-t az SQL Data Warehouse-hoz anélkül, hogy külön be kellene írniuk az ehhez szükséges információt.
@@ -84,8 +84,8 @@ A teljes szervernevet és adatbázisnevet az Azure betekintő portálon találha
 ![](media/service-azure-sql-data-warehouse-with-direct-connect/azureportal.png)
 
 ## <a name="next-steps"></a>További lépések
-[Power BI ‒ első lépések](service-get-started.md)  
+[Első lépések a Power BI-ban](service-get-started.md)  
 [Adatbeolvasás a Power BI-ban](service-get-data.md)  
 [Az Azure SQL Data Warehouse](https://azure.microsoft.com/en-us/documentation/services/sql-data-warehouse/)  
-További kérdései vannak? [Felteheti őket a Power BI-közösségnek](http://community.powerbi.com/)
+További kérdései vannak? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)
 

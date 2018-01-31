@@ -3,7 +3,7 @@ title: "Nem sikerült hozzáadni a Power BI-t az O365-partnerhez"
 description: "Nem sikerült hozzáadni a Power BI-t az Office 365 típusú szindikálási partnerhez. A szindikálási modell az Office 365 által használt egyik beszerzési modell."
 services: powerbi
 documentationcenter: 
-author: guyinacube
+author: markingmyname
 manager: kfile
 backup: 
 editor: 
@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: powerbi
 ms.date: 09/05/2017
-ms.author: asaxton
-ms.openlocfilehash: e5b2540461464e64acac4bc3b2be2e6ac5ee3f1d
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.author: maghan
+ms.openlocfilehash: 69d069ebb1620aebb90fa1a9325ab4b73726d909
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="unable-to-add-power-bi-to-office-365-partner-subscription"></a>Nem sikerült hozzáadni a Power BI-t az Office 365 típusú partneri előfizetéshez
 Az Office 365 lehetővé teszi a cégeknek az Office 365 saját megoldásokkal integrált, csomagalapú továbbértékesítését, és a cégek egyetlen kapcsolatfelvételi pontot biztosíthatnak a végfelhasználóknak a vásárláshoz, a számlázáshoz és a támogatáshoz.
@@ -50,7 +50,7 @@ Ha elégedett az ingyenesen elérhető Power BI-jal, regisztrálhat az ingyenes 
 
 Az alkalmi előfizetések engedélyezéséhez megkérheti a partnert, hogy kapcsolja be azt. Ha Ön a bérlő rendszergazdája, és ismeri az Azure Active Directory PowerShell-parancsok használatát, saját maga is engedélyezheti az alkalmi előfizetéseket. [További információ](https://technet.microsoft.com/library/jj151815.aspx)
 
-1. Először jelentkezzen be az Azure Active Directoryba az Office 365 hitelesítő adataival. Az első sor kérni fogja a hitelesítő adatokat. A második sor kapcsolódik az Azure Active Directoryhoz.
+1. Először jelentkezzen be az Azure Active Directoryba az Office 365 hitelesítő adataival. Az első sor bekéri a hitelesítő adatokat. A második sor kapcsolódik az Azure Active Directoryhoz.
    
         $msolcred = get-credential
         connect-msolservice -credential $msolcred
@@ -74,5 +74,5 @@ Az alábbi videó az Office 365-szindikálást és a Power BI megvásárlását 
 [Az Azure AD kezelése a Windows PowerShell használatával](https://technet.microsoft.com/library/jj151815.aspx)  
 [Mi a Power BI Premium?](service-premium.md)
 
-További kérdései vannak? [Kérdezze a Power BI-közösséget!](http://community.powerbi.com/)
+További kérdései vannak? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)
 

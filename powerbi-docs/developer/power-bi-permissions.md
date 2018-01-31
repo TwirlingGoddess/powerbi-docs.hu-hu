@@ -3,7 +3,7 @@ title: "Power BI-engedélyek"
 description: "Power BI-engedélyek"
 services: powerbi
 documentationcenter: 
-author: guyinacube
+author: markingmyname
 manager: kfile
 backup: 
 editor: 
@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 09/05/2017
-ms.author: asaxton
-ms.openlocfilehash: 27f62cf8ecce812d96c3984522e7f6c7d9e0605a
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.author: maghan
+ms.openlocfilehash: 61c910731be4ca80cc13784d623720431cd511e7
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="power-bi-permissions"></a>Power BI-engedélyek
 ## <a name="permission-scopes"></a>Engedélyek hatókörei
@@ -55,5 +55,5 @@ Bár behívhatja az API-t felhasználónévvel és jelszóval való hitelesíté
 * **Engedélyezési token** – Az API-hívások másik felhasználó nevében való hitelesítésére szolgál. Adott alkalmazásra lesz érvényes. A tokenek adott élettartammal rendelkeznek, és amikor lejárnak, frissítést igényelnek.
 * **Token frissítése** – Amikor a jogkivonatok lejárnak, frissítési folyamat használható hozzájuk.
 
-További kérdései vannak? [Forduljon a Power BI közösségéhez](http://community.powerbi.com/)
+További kérdései vannak? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)
 

@@ -3,7 +3,7 @@ title: "További diagnosztikai adatok gyűjtése"
 description: "További diagnosztikai adatok gyűjtése"
 services: powerbi
 documentationcenter: 
-author: guyinacube
+author: markingmyname
 manager: kfile
 backup: 
 editor: 
@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 06/28/2017
-ms.author: asaxton
-ms.openlocfilehash: 7910270ecafd383600ff19e6c6c2bfc1ad6e6d4a
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.author: maghan
+ms.openlocfilehash: cfd653c97371cadc069d6c8f67bf01c0ee74f2cf
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="capturing-additional-diagnostic-information"></a>További diagnosztikai adatok gyűjtése
 ## <a name="capturing-additional-diagnostic-information-for-power-bi"></a>További diagnosztikai adatok gyűjtése a Power BI számára
@@ -48,5 +48,5 @@ A következő útmutatók két lehetséges módszert kínálnak további diagnos
     A HAR-fájl minden információt tartalmaz a böngészőablak és a Power BI közötti hálózati kérelmekről.  Ez magában foglalja az egyes kérelmek tevékenységazonosítóját, pontos időbélyegét és az ügyféltől visszakapott bármely esetleges hibaüzenetet.  Tartalmazza a képernyőn megjelenő vizualizációk feltöltéséhez használt adatokat is.
 9. A HAR-fájlt átadhatja vizsgálatra a támogatási szolgálatnak.
 
-További kérdései vannak? [Kérdezze a Power BI-közösséget!](http://community.powerbi.com/)
+További kérdései vannak? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)
 

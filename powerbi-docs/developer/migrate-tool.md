@@ -3,7 +3,7 @@ title: "Power BI Embedded migrálási eszköz"
 description: "Ezzel a migrálási eszközzel jelentések másolhatók a Power BI Embedded Azure-szolgáltatásból (PaaS) a Power BI szolgáltatásba (SaaS)."
 services: powerbi
 documentationcenter: 
-author: guyinacube
+author: markingmyname
 manager: kfile
 backup: 
 editor: 
@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 08/21/2017
-ms.author: asaxton
-ms.openlocfilehash: 2efcf5b4f1a0384c50b9a39864de2af8271d1299
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.author: maghan
+ms.openlocfilehash: e1892d17b61347379965c192287d2f814640a02d
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="power-bi-embedded-migration-tool"></a>Power BI Embedded migrálási eszköz
 Ezzel a migrálási eszközzel jelentések másolhatók a Power BI Embedded Azure-szolgáltatásból (PaaS) a Power BI szolgáltatásba (SaaS).
@@ -266,5 +266,5 @@ További információkért lásd: [Power BI Embedded-munkaterületcsoport tartal
 [JavaScript beágyazási minta](https://microsoft.github.io/PowerBI-JavaScript/demo/)  
 [Power BI Premium-tanulmány](https://aka.ms/pbipremiumwhitepaper)  
 
-További kérdései vannak? [Forduljon a Power BI közösségéhez](http://community.powerbi.com/)
+További kérdései vannak? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)
 

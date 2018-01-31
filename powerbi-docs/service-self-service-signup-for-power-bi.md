@@ -3,7 +3,7 @@ title: "Egyéni Power BI-regisztráció"
 description: "Megtudhatja, hogyan regisztrálhat a Power BI szolgáltatásra, és hogyan veheti használatba személyes jelentéskészítési és vizualizációs munkáihoz."
 services: powerbi
 documentationcenter: 
-author: guyinacube
+author: markingmyname
 manager: kfile
 backup: 
 editor: 
@@ -16,12 +16,12 @@ ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 08/09/2017
-ms.author: asaxton
-ms.openlocfilehash: b09c497f04a59819f42e1841dd79912d19303041
-ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
+ms.author: maghan
+ms.openlocfilehash: 728d19b468ed4a58d598ad417a2767186cfdcb96
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/17/2017
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="signing-up-for-power-bi-as-an-individual"></a>Egyéni Power BI-regisztráció
 Megtudhatja, hogyan regisztrálhat a Power BI szolgáltatásra, és hogyan veheti használatba személyes jelentéskészítési és vizualizációs munkáihoz.
@@ -103,31 +103,31 @@ Ekkor megjelenik egy üzenet, és az **Indítás** parancs.
 ![](media/service-self-service-signup-for-power-bi/powerbi-free-signup6.png)
 
 ## <a name="in-service-power-bi-pro-60-day-trial"></a>Szolgáltatáson belüli Power BI Pro 60 napos próbaverzió
-Miután regisztrált az ingyenes fiókra, lehetősége van ingyen kipróbálni a Pro verziót 60 napig. A próbaidőszak alatt hozzáférést kap a Pro verzió összes funkciójához. A Power BI Pro a Power BI ingyenes verziójának összes funkciójával rendelkezik, emellett pedig további megosztási és együttműködési funkciókat nyújt. További információt a [Power BI díjszabásának oldalán](https://powerbi.microsoft.com/pricing) találhat. Ha ki szeretné próbálni a Power BI Pro 60 napos ingyenes próbaverzióját, jelentkezzen be a Power BI-ba, majd próbálja ki az alábbi Pro-funkciók egyikét:
+Miután regisztrált az ingyenes fiókra, lehetősége van ingyen kipróbálni a Pro verziót 60 napig. A próbaidőszak alatt a Pro verzió összes funkciójához hozzáférést kap . A Power BI Pro a Power BI ingyenes verziójának összes funkciójával rendelkezik, valamint további megosztási és együttműködési funkciókat is nyújt. További információkat a [Power BI díjszabásának oldalán](https://powerbi.microsoft.com/pricing) találhat. A Power BI 60 napos ingyenes próbaverziójának aktiválásához jelentkezzen be a Power BI-ba, és próbálja ki az alábbi Power BI-funkciók egyikét:
 
 * [Alkalmazás-munkaterület létrehozása](service-create-distribute-apps.md)
 * [Irányítópult megosztása](service-share-dashboards.md)
 
-E funkciók bármelyikének kipróbálásakor a rendszer kérni fogja az ingyenes próba megkezdését. Az ingyenes próbaverziót a fogaskerék ikonra kattintva, majd a **Személyes tárhely kezelése** lehetőséget választva is aktiválhatja. Itt válassza **A Pro kiadás ingyenes kipróbálása** lehetőséget a jobb oldalon.
+E funkciók bármelyikének kipróbálásakor a rendszer kérni fogja az ingyenes próba megkezdését. Az ingyenes próbaverziót a fogaskerék ikonra kattintva, majd a **Személyes tárhely kezelése** lehetőséget választva is aktiválhatja. Itt kattintson a **Pro kiadás ingyenes kipróbálása** lehetőségre a jobb oldalon.
 
 ![](media/service-self-service-signup-for-power-bi/powerbi-pro-trial1.png)
 
-Ezt követően kattintson a **Próbaverzió indítása** elemre.
+Ezután kattintson a **Próbaverzió indítása** elemre.
 
 ![](media/service-self-service-signup-for-power-bi/powerbi-pro-trial2.png)
 
 >[!NOTE]
->A szolgáltatáson belüli ingyenes Power BI Pro-próbaverziót használó felhasználók nem jelennek meg az Office 365 Felügyeleti portálján Power BI Pro-próbaverziós felhasználókként – ehelyett ingyenes Power BI-felhasználókként láthatók. A Power BI **Tárhely kezelése** lapján azonban Power BI Pro-próbaverziós felhasználóként jelennek meg.
+>Az Office 365 Felügyeleti portálján a szolgáltatáson belüli ingyenes Power BI Pro próbaverziót használó felhasználók nem Power BI Pro próbaverziós felhasználókként, hanem ingyenes Power BI-felhasználókként jelennek meg. A Power BI **Tárhely kezelése** lapján azonban Power BI Pro próbaverziós felhasználókként láthatja őket.
 
 >[!NOTE]
->Ha Ön rendszergazda, és anélkül szeretné beszerezni és telepíteni a Power BI próbaverziós licenceit több, a szervezetben lévő felhasználó számára, hogy az egyes felhasználóknak el kellene fogadniuk a próbaverziós feltételeket, regisztrálhat a [Power BI Pro próbaverziós előfizetésére](https://portal.office.com/Signup/MainSignup15.aspx?OfferId=d59682f3-3e3b-4686-9c00-7c7c1c736085&dl=POWER_BI_PRO). Önnek az Office 365 globális vagy számlázási rendszergazdájának kell lennie vagy új bérlőt kell létrehoznia, ha rendszergazdai próbaverzióra szeretne regisztrálni. További információ: [A Power BI Pro megvásárlása](service-admin-purchasing-power-bi-pro.md).
+>Ha informatikai rendszergazdaként anélkül szeretné beszerezni és üzembe helyezni a Power BI próbaverziójának licenceit több felhasználó számára a cégnél, hogy az egyes felhasználóknak el kellene fogadniuk a próbaverziós feltételeket, regisztrálhat a [Power BI Pro próbaverziós előfizetésére](https://portal.office.com/Signup/MainSignup15.aspx?OfferId=d59682f3-3e3b-4686-9c00-7c7c1c736085&dl=POWER_BI_PRO). Ha rendszergazdai próbaverzióra szeretne regisztrálni, az Office 365 globális vagy számlázási rendszergazdájának kell lennie, vagy új bérlőt kell létrehoznia. További információkért lásd: [A Power BI Pro megvásárlása](service-admin-purchasing-power-bi-pro.md).
 > 
 > [!NOTE]
-> A Power BI Premium elérhetővé válásával és az ingyenes Power BI 2017. június 1-jei ajánlatával Ön a Pro kiterjesztett próbaverzióját is kipróbálhatja. További információ: [A Pro próbaverzió kiterjesztett aktiválása](service-extended-pro-trial.md).
+> A Power BI Premium elérhetővé válásával és az ingyenes Power BI 2017. június 1-én módosított ajánlatával Ön a Pro kiterjesztett próbaverzióját is kipróbálhatja. További információkért lásd: [A Pro próbaverzió kiterjesztett aktiválása](service-extended-pro-trial.md).
 > 
 > 
 
-### <a name="what-this-looks-like-within-the-service"></a>A fióktípus megjelenése a szolgáltatásban
+### <a name="what-this-looks-like-within-the-service"></a>A fiók megjelenése a szolgáltatásban
 A szolgáltatásban meggyőződhet arról, hogy Pro próbaverziós fiókja van. Ehhez kattintson a **fogaskerék* ikonra, majd válassza a **Személyes tárhely kezelése** lehetőséget.
 
 ![](media/service-self-service-signup-for-power-bi/powerbi-pro-trial3.png)
@@ -151,5 +151,5 @@ Számos esetben a Power BI-regisztráció elvégezhető a fentebb ismertetett eg
 [Power BI Premium – mi ez?](service-premium.md)  
 [Power BI Premium-tanulmány](https://aka.ms/pbipremiumwhitepaper)  
 
-További kérdései vannak? [Kérdezze a Power BI-közösséget!](http://community.powerbi.com/)
+További kérdései vannak? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)
 
