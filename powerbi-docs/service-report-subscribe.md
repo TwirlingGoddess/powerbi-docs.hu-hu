@@ -18,11 +18,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/08/2018
 ms.author: mihart
-ms.openlocfilehash: 66e75d638595113b2df67650896a407ae5d13e88
-ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
+ms.openlocfilehash: fc697437ff9f5fb6b8dd49f6513c728d1b8ddfeb
+ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 01/09/2018
+ms.lasthandoff: 01/25/2018
 ---
 # <a name="subscribe-to-a-power-bi-report-or-dashboard"></a>Feliratkozás Power BI-jelentésre vagy irányítópultra
 Minden eddiginél egyszerűbb naprakésznek lenni a legfontosabb irányítópultokkal és jelentésekkel kapcsolatban. Feliratkozhat az Önnek leginkább fontos jelentésoldalakra és irányítópultokra, a Power BI pedig pillanatképeket küld e-mailben a postafiókjába. Megadhatja a Power BI-nak, hogy milyen gyakran szeretne ilyen e-mailt kapni: naponta egyszer, vagy csak hetente. Az e-mailben és a pillanatképben használt nyelv a Power BI beállításaiban adható meg. Ha nincs beállítva nyelv, a Power BI a böngésző aktuális nyelvi beállítását használja.
@@ -119,6 +119,7 @@ A feliratkozás megszűnik, ha lejár a Pro-licence, ha az irányítópultot vag
 * A különösen nagy méretű képeket tartalmazó irányítópultokra vagy jelentésekre való feliratkozás meghiúsulhat az e-mailek méretkorlátozásai miatt.    
 * A Power BI automatikusan felfüggeszti a több mint 2 hónapja nem látogatott irányítópultokhoz vagy jelentésekhez társított adathalmazok frissítését.  Ha azonban feliratkozik egy irányítópultra vagy jelentésre, az nem lesz felfüggesztve akkor sem, ha nem látogatják.    
 * Ha nem kapja meg az e-mail-értesítéseket, akkor ellenőrizze, hogy tud-e e-maileket fogadni az egyszerű felhasználónevével (UPN). [A Power BI csapata dolgozik ennek a követelménynek az enyhítésén](https://community.powerbi.com/t5/Issues/No-Mail-from-Cloud-Service/idc-p/205918#M10163); figyelje az értesítéseket. 
+* Az elküldött jelentések és irányítópultok a Power BI nyelvi beállításait alkalmazzák. Az alapértelmezett nyelv az angol. A nyelvi beállításokat megtekintheti vagy módosíthatja a fogaskerék ikon, majd a ![](media/service-report-subscribe/power-bi-settings-icon.png) **> Beállítások > Általános > Nyelv** lehetőség választásával.
 
 ## <a name="next-steps"></a>Következő lépések
 * További kérdései vannak? [Kérdezze a Power BI-közösséget](http://community.powerbi.com/)    

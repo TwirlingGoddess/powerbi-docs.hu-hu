@@ -3,7 +3,7 @@ title: "Power BI Embedded munkaterület-csoport tartalmainak migrálása a Power
 description: "Itt elsajátíthatja, hogyan migrálhatja az adatokat a Power BI Embeddedből a Power BI szolgáltatásba, és hogyan aknázhatja ki az alkalmazásokba való beágyazás nyújtotta fejlett lehetőségeket."
 services: powerbi
 documentationcenter: 
-author: guyinacube
+author: markingmyname
 manager: kfile
 backup: 
 editor: 
@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 07/21/2017
-ms.author: asaxton
-ms.openlocfilehash: 430f1d1a49e510bac66c448b2dceaad1f2537073
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.date: 08/24/2018
+ms.author: maghan
+ms.openlocfilehash: 59d395d11839903108f811ff4a6022ea04cadc8f
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="how-to-migrate-power-bi-embedded-workspace-collection-content-to-power-bi"></a>Power BI Embedded munkaterület-csoport tartalmainak migrálása a Power BI-ba
 Itt elsajátíthatja, hogyan migrálhatja az adatokat a Power BI Embeddedből a Power BI szolgáltatásba, és hogyan aknázhatja ki az alkalmazásokba való beágyazás nyújtotta fejlett lehetőségeket.
@@ -174,14 +174,11 @@ Az alkalmazásban az abban kezelt felhasználókat leképezi egy, az alkalmazás
 Amikor kész átállni éles üzemre, a következőket kell tennie.
 
 * Ha külön bérlőt használ a fejlesztéshez, gondoskodnia kell róla, hogy az alkalmazás-munkaterületek, valamint az irányítópultok és a jelentések elérhetők az éles környezetben. Arra is figyelnie kell, hogy az alkalmazást az Azure AD-ben az éles környezeti bérlőhöz hozza létre, és hozzárendelje a megfelelő alkalmazásjogosultságokat, amint azt az 1. lépés tárgyalja.
-* Vásároljon az igényeinek megfelelő kapacitást. A követelmények megértéséhez segítséget találhat a következő szakaszban: [Kapacitástervezés a beágyazott elemzésekhez – tanulmány](https://aka.ms/pbiewhitepaper). Amikor készen áll a kapacitások megvásárlására, ezt az [Office 365 Felügyeleti központban](https://portal.office.com/adminportal/home#/catalog) teheti meg.
-  
-  > [AZURE.INFORMATION] A Power BI Premium beszerzésével kapcsolatos további információkért lásd: [A Power BI Premium beszerzése](../service-admin-premium-purchase.md).
-  > 
-  > 
+* Vásároljon az igényeinek megfelelő kapacitást. Az [Embedded elemzési kapacitásának tervezésével kapcsolatos tanulmány](https://aka.ms/pbiewhitepaper) további információt tartalmaz a szükséges kapacitás mennyiségéről és típusairól. Kapacitást az Azure-ban [vásárolhat](https://portal.azure.com/#create/Microsoft.PowerBIDedicated).
 * Az alkalmazás-munkaterületet a Speciális felületen módosíthatja és rendelheti hozzá a Premium kapacitásokhoz.
-  
+ 
     ![](media/migrate-from-powerbi-embedded/powerbi-embedded-premium-capacity.png)
+    
 * Helyezze üzembe a frissített alkalmazást az éles környezetben, és kezdje beágyazni a jelentéseket a Power BI szolgáltatásból.
 
 ## <a name="after-migration"></a>A migrálás után

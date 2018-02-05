@@ -15,16 +15,21 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/28/2017
+ms.date: 01/23/2018
 ms.author: mihart
-ms.openlocfilehash: 2b3f25c772a049d10bc03941db677c67c844da8b
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 40d6ee1f1448856b444201532caffd4b8c904c85
+ms.sourcegitcommit: c3be4de522874fd73fe6854333b379b85619b907
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/24/2018
 ---
 # <a name="part-2-add-visualizations-to-a-power-bi-report-tutorial"></a>2. rész – Képi megjelenítések hozzáadása Power BI-jelentésekhez (oktatóanyag)
 Az [1. részben](power-bi-report-add-visualizations-ii.md) alapszintű képi megjelenítéseket hozott létre a mezők neve melletti jelölőnégyzetek bejelölésével.  A 2. részben megtudhatja, hogyan hozhat létre és módosíthat képi megjelenítéseket az egér húzásával, valamint a **Mezők** és a **Képi megjelenítések** panelek nyújtotta lehetőségek teljes körű kiaknázásával.
+
+### <a name="prerequisites"></a>Előfeltételek
+- [1. rész](power-bi-report-add-visualizations-ii.md)
+- Power BI szolgáltatás – a jelentésekhez a Power BI szolgáltatás vagy a Power BI Desktop használatával adhatók hozzá vizualizációk. Ebben az oktatóanyagban a Power BI szolgáltatást fogjuk használni. 
+- Kiskereskedelmi elemzési minta
 
 ## <a name="create-a-new-visualization"></a>Új képi megjelenítés létrehozása
 Ebben az oktatóanyagban a Kiskereskedelmi elemzés adatkészlet felhasználásával létrehozunk néhány fontosabb képi megjelenítést.
@@ -64,7 +69,6 @@ Ebben az oktatóanyagban a Kiskereskedelmi elemzés adatkészlet felhasználás�
 ## <a name="next-steps"></a>További lépések
 * A Mezők panellel kapcsolatos további információkért lásd: [Jelentésszerkesztő – Bevezetés](service-the-report-editor-take-a-tour.md).   
 * A vizualizációk adatainak szűrésével és kiemelésével kapcsolatos információkért lásd: [Szűrők és kiemelések a Power BI-jelentésekben](power-bi-reports-filters-and-highlighting.md).  
-* Az összesítések használatával és módosításával kapcsolatos információkért lásd: [Összesítések a jelentésekben](service-aggregates.md).  
-* További információk [a Power BI-jelentések vizualizációjáról](power-bi-report-visualizations.md).  
-* További kérdései vannak? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/).
+* További információk [a Power BI-jelentésekben lévő vizualizációkról](power-bi-report-visualizations.md).  
+* További kérdései vannak? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)
 

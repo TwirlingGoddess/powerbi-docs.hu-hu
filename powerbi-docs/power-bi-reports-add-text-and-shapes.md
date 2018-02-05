@@ -16,25 +16,26 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/28/2017
+ms.date: 01/22/2018
 ms.author: mihart
-ms.openlocfilehash: f2edc291c28b865eb956361cf0f9b4740f59c77c
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: e5435af7441a1e9b706ac4dc58b544c44a94410a
+ms.sourcegitcommit: c3be4de522874fd73fe6854333b379b85619b907
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/24/2018
 ---
 # <a name="static-content-in-power-bi-reports"></a>Statikus tartalom a Power BI-jelentésekben
-Szövegdobozok és alakzatok hozzáadása egy jelentéshez Szerkesztés nézetben a Power BI szolgáltatásban. 
+Szövegmezőket és alakzatokat a Power BI szolgáltatásban és a Power BI Desktopban is hozzá lehet adni a jelentésekhez. Mindkét esetben a jelentésre vonatkozó szerkesztési jogosultsággal kell rendelkeznie. Ha egy jelentés meg van osztva Önnel, a Szerkesztési módhoz nem férhet hozzá. 
 
-> **MEGJEGYZÉS:** A Power BI Desktopban [statikus képeket is hozzáadhat a jelentéshez](guided-learning/visualizations.yml#step-11), amint ezen a videón szerepel.
+Figyelje meg, hogyan használja Will a Power BI Desktopot, hogy [statikus képeket adjon hozzá egy jelentéshez](guided-learning/visualizations.yml#step-11), majd az alábbi lépéseket használva próbálja meg ugyanezt elvégezni a Power BI szolgáltatás használatával.
 > 
 > <iframe width="560" height="315" src="https://www.youtube.com/embed/_3q6VEBhGew" frameborder="0" allowfullscreen></iframe>
 > 
-> 
 
 ## <a name="add-a-text-box-to-a-report"></a>Szövegmező hozzáadása egy jelentéshez
-1. Vigye az egérkurzort a jelentés vásznán bárhová, és válassza a **Text Box** (Szövegmező) elemet.
+1. Nyisson meg egy jelentést Szerkesztési nézetben.
+
+2. Vigye az egérkurzort a jelentés vásznán bármely üres helyre, és válassza a **Text Box** (Szövegmező) elemet.
    
    ![](media/power-bi-reports-add-text-and-shapes/pbi_textbox.png)
 2. Írja be a szöveget a szövegmezőbe, és, nem kötelezően, adja meg a betűkészletet, színt és a szöveg igazítását. 
@@ -43,7 +44,13 @@ Szövegdobozok és alakzatok hozzáadása egy jelentéshez Szerkesztés nézetbe
 3. A szövegdoboz elhelyezéséhez jelölje ki a tetején a szürke területet, és húzza a helyére. A szövegdoboz átméretezéséhez jelölje ki és húzza a körvonalának valamelyik fogópontját. 
    
    ![](media/power-bi-reports-add-text-and-shapes/textboxsmaller.gif)
-4. A szövegdoboz bezárásához jelöljön ki egy üres helyet a jelentés vásznán.
+
+4. A szövegdobozt hagyja kiválasztva, és a VIZUALIZÁCIÓK panelen végezzen el további formázási beállításokat. Ebben a példában a hátteret és a szegélyt formáztuk. A szövegdoboznak a pontos méretét és elhelyezkedését is meghatározhatja.  
+
+   ![](media/power-bi-reports-add-text-and-shapes/power-bi-borders.png)
+
+5. A szövegdoboz bezárásához jelöljön ki egy üres helyet a jelentés vásznán. 
+
 5. A szövegdoboz irányítópultra tűzéséhez kattintson a gombostű ikonra ![](media/power-bi-reports-add-text-and-shapes/pbi_pintile.png). 
 
 ## <a name="add-a-shape-to-a-report"></a>Alakzat hozzáadása a jelentéshez
@@ -55,20 +62,15 @@ Szövegdobozok és alakzatok hozzáadása egy jelentéshez Szerkesztés nézetbe
    Szabja testre az alakzatot a **Format shape** (Alakzat formázása) ablaktáblában. Ebben a példában egy sötétvörös szegélyű, piros nyilat hoztunk létre, 90 fokkal elforgatva.
    
    ![](media/power-bi-reports-add-text-and-shapes/power-bi-arrrow.png)
-3. Az alakzat elhelyezéséhez jelölje ki a tetején a szürke területet, és húzza a helyére. Az alakzat átméretezéséhez pedig jelölje ki és húzza a körvonalának valamelyik fogópontját. 
+3. Az alakzat elhelyezéséhez jelölje ki a tetején a szürke területet, és húzza a helyére. Az alakzat átméretezéséhez pedig jelölje ki és húzza a körvonalának valamelyik fogópontját. Ahogy a szövegdoboz esetén, az alakzat pontos méretét és elhelyezkedését is meghatározhatja.
 
-> **MEGJEGYZÉS:** Az alakzatok nem rögzíthetők irányítópulthoz. 
+> **MEGJEGYZÉS**: Az alakzatokat nem lehet az irányítópulton rögzíteni, kivéve vizualizációk részeként [élő oldal rögzítésénél](service-dashboard-pin-live-tile-from-report.md). 
 > 
 > 
 
 ### <a name="next-steps"></a>Következő lépések
 [Hivatkozás hozzáadása egy szövegdobozhoz](service-add-hyperlink-to-text-box.md)
 
-[Jelentések a Power BI-ban](service-reports.md)
-
-[Vizualizációk a Power BI-jelentésekben](power-bi-report-visualizations.md)
-
 [Power BI – Alapfogalmak](service-basic-concepts.md)
 
-További kérdései vannak? [Felteheti őket a Power BI-közösségnek](http://community.powerbi.com/)
-
+További kérdései vannak? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)

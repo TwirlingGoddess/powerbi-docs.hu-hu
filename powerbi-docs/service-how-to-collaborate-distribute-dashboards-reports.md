@@ -1,11 +1,11 @@
 ---
-title: "Irányítópultok és jelentések közös használata és megosztása a Power BI-ban"
+title: "Hogyan végezhetek közös munkát és hogyan oszthatok meg tartalmat a Power BI-ban?"
 description: "A Power BI-ban az irányítópultok, a jelentések és a csempék másokkal közös használatához és megosztásához számos mód áll rendelkezésre. Mindegyiknek megvannak a maga előnyei."
 services: powerbi
 documentationcenter: 
 author: maggiesMSFT
 manager: kfile
-backup: ajayan
+backup: lukaszp
 editor: 
 tags: 
 qualityfocus: monitoring
@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/05/2017
+ms.date: 01/24/18
 ms.author: maggies
-ms.openlocfilehash: a77c9a9816ef47ae4b342b2cd3a08b18c90f70de
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+ms.openlocfilehash: 032d07616464dcda8cc4cc38b1440936e5393a98
+ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 01/25/2018
 ---
 # <a name="how-should-i-collaborate-and-share-dashboards-and-reports-in-power-bi"></a>Irányítópultok és jelentések közös használata és megosztása a Power BI-ban
 Ön az irányítópultokat és jelentéseket létrehozó személy. Előfordulhat, hogy a munkatársaival együtt dolgozik rajtuk. Ezután szeretné, hogy mások is elérhessék, amit létrehozott. Mi a terjesztésük legjobb módja?
@@ -34,7 +34,7 @@ Ebben a témakörben összehasonlítjuk a Power BI-ban való közös munka és m
 * Közzététel az interneten, ahol bárki megtekintheti és használhatja a tartalmat.
 * Nyomtatás. 
 
-Bármelyik lehetőséget is válassza, az irányítópultok megosztásához [Power BI Pro licenccel](service-free-vs-pro.md) kell rendelkeznie, vagy a tartalmat [prémium szintű kapacitásban](service-premium.md) kell elhelyeznie. Az irányítópultokat megtekintő munkatársakra vonatkozó licenckövetelményeket a választott lehetőség határozza meg. Az alábbi szakaszokban megtalálhatja a részleteket. Javaslatai vannak? A Power BI csapata mindig szívesen fogadja visszajelzését, amelyet a [Power BI-közösség webhelyén](https://community.powerbi.com/) küldhet el.
+Bármelyik lehetőséget is válassza, az irányítópultok megosztásához [Power BI Pro licenccel](service-free-vs-pro.md) kell rendelkeznie, vagy a tartalmat [prémium szintű kapacitásban](service-premium.md) kell elhelyeznie. Az irányítópultokat megtekintő munkatársakra vonatkozó licenckövetelményeket a választott lehetőség határozza meg. Az alábbi szakaszokban megtalálhatja a részleteket. 
 
 ![Alkalmazások a Power BI szolgáltatásban](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-apps-home-blog.png)
 
@@ -54,7 +54,7 @@ Tegyük fel, hogy szeretné széles közönséggel megosztani az irányítópult
 
 ![Alkalmazás közzététele ikon](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-app-publish-600.png)
 
-Az alkalmazások a Power BI szolgáltatásban ([https://powerbi.com](https://powerbi.com)) könnyen megtalálhatók és telepíthetők. Elküldheti az üzleti felhasználóknak az alkalmazására mutató közvetlen hivatkozást, vagy rákereshetnek az alkalmazására az AppSource-ban. Többet is megtudhat [az alkalmazások közzétételéről](service-create-distribute-apps.md#publish-your-app). 
+Az alkalmazások a Power BI szolgáltatásban ([https://powerbi.com](https://powerbi.com)) könnyen megtalálhatók és telepíthetők. Elküldheti az üzleti felhasználóknak az alkalmazására mutató közvetlen hivatkozást, vagy rákereshetnek az alkalmazására az AppSource-ban. Ha a Power BI-rendszergazdája engedélyezi ezt Önnek, akkor az alkalmazást akár közvetlenül is telepítheti a munkatársai Power BI-fiókjába. Többet is megtudhat [az alkalmazások közzétételéről](service-create-distribute-apps.md#publish-your-app). 
 
 Miután a munkatársai telepítik az alkalmazást, megtekinthetik azt a böngészőjükben vagy egy mobileszközön.
 
@@ -69,9 +69,7 @@ A tartalmak megosztásához Power BI Pro licenccel kell rendelkeznie mind Önnek
 
 Akár cégen kívüli személyek is lehetnek a megosztás címzettjei. Az ilyen személyek megtekinthetik az irányítópultot, műveleteket végezhetnek vele, de megosztani nem tudják. 
 
-Többet is megtudhat az [irányítópultok Power BI szolgáltatásban való megosztásáról](service-share-dashboards.md).
-
-Másik lehetőségként [közvetlenül egy jelentésre mutató hivatkozást is megoszthat](service-share-reports.md), ezzel megkerülve az irányítópultokat. Hozzáadhat egy szűrőt is a hivatkozáshoz, hogy a címzettek a jelentés szűrt nézetét lássák.
+Többet is megtudhat az [irányítópultok és jelentések Power BI szolgáltatásban való megosztásáról](service-share-dashboards.md). Szűrőt is hozzáadhat egy hivatkozáshoz, és így [a jelentés szűrt nézetét is megoszthatja](service-share-reports.md).
 
 ## <a name="annotate-and-share-from-the-power-bi-mobile-apps"></a>Jegyzetkészítés és megosztás a Power BI-mobilalkalmazásokból
 Az iOS- és Android-készülékekhez készült Power BI mobilalkalmazásban jegyzeteket adhat hozzá a csempékhez, jelentésekhez és vizualizációkhoz, majd megoszthatja azokat bárkivel e-mailben. 

@@ -1,5 +1,5 @@
 ---
-title: "A jelentésszerkesztő – bevezetés"
+title: "Rövid útmutató – Ismerkedés a jelentésszerkesztővel"
 description: "A jelentésszerkesztő – bevezetés."
 services: powerbi
 documentationcenter: 
@@ -16,20 +16,26 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/30/2017
+ms.date: 01/23/2018
 ms.author: mihart
-ms.openlocfilehash: e5ee6db22fe0fa7fd1e61ebbfb7dbee9d3458159
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 8ecee2c5de9959937b5afa56cdf5b3679c5b9a5e
+ms.sourcegitcommit: c3be4de522874fd73fe6854333b379b85619b907
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/24/2018
 ---
 # <a name="the-report-editortake-a-tour"></a>A jelentésszerkesztő – bevezetés
+## <a name="editing-reports-in-power-bi-service-and-power-bi-desktop"></a>Jelentések szerkesztése a Power BI szolgáltatásban és a Power BI Desktopban
 A Power BI szolgáltatásban és a Power BI Desktopban használt jelentésszerkesztő nagyon hasonló. A videó a Power BI Desktop, ez a cikk pedig a Power BI szolgáltatás jelentésszerkesztőjét mutatja be. 
+
+## <a name="the-difference-between-report-creators-and-report-consumers"></a>Jelentések *létrehozói* és *felhasználói* közötti különbségek
+A jelentéseket csak a jelentések tulajdonosai (avagy *létrehozói*) szerkeszthetik. Ha egy Önnel megosztott jelentést *felhasználóként* használ, azt a Power BI szolgáltatásban kizárólag [Olvasó nézetben](service-reading-view-and-editing-view.md) nyithatja meg és így használhatja, de nem áll majd rendelkezésére az a számos hasznos funkció, amelyet a jelentés készítője használhat.  
+
+A jelentésekben használt Olvasó nézetről [A Power BI szolgáltatás jelentéseinek Olvasó és Szerkesztési nézete](service-reading-view-and-editing-view.md) című cikkből tájékozódhat. 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/IkJda4O7oGs" frameborder="0" allowfullscreen></iframe>
 
-A Power BI szolgáltatásban a *jelentésszerkesztő* csak [Szerkesztési nézetben](service-reading-view-and-editing-view.md) érhető el. Ahhoz, hogy egy jelentést Szerkesztési nézetben nyithasson meg, a jelentés tulajdonosának kell lennie.
+A Power BI szolgáltatásban a *jelentésszerkesztő* csak [Szerkesztési nézetben](service-reading-view-and-editing-view.md) érhető el. Ahhoz, hogy egy jelentést Szerkesztési nézetben nyithasson meg, a jelentés tulajdonosának vagy létrehozójának kell lennie.
 
 A Power BI jelentésszerkesztőjének felülete három részből áll:  
 
@@ -87,7 +93,9 @@ A Power BI szolgáltatás Elemzés paneljével dinamikus referenciavonalak adhat
 
 - - -
 ## <a name="the-filters-pane"></a>A Szűrők panel
-Itt az oldal-, jelentés-, részletezés- és vizualizációszintű szűrők tekinthetők meg, állíthatók be és módosíthatók.
+A Szűrők panel használatával megtekintheti, beállíthatja és szerkesztheti a jelentés állandó szűrőit az oldal, a jelentés, a részletezés és a vizualizáció szintjén. Igen, végezhet ad-hoc szűrést a jelentésen és a vizualizációkon az elemek kiválasztásával vagy szeletelők és más eszközök használatával, de ha a Szűrők panelt használja, a szűrők állapota mentve is lesz a jelentésben. 
+
+A Szűrők panelnek egy másik hatékony funkciója is van: képes szűrést végezni ***olyan mező használatával, amely a jelentés egyik vizualizációjában sem szerepel***. Vizsgáljuk ezt meg közelebbről. Amikor létrehozunk egy jelentést, a Power BI automatikusan hozzáadja a vizualizációkban szereplő összes mezőt a Szűrők panel vizualizációk szintű szűrő területéhez.  Ha azonban olyan szűrőt szeretne használni a vizualizáció, oldal, részletezés vagy jelentés szintű szűrőkben, amely jelenleg nem szerepel a vizualizációkban, akkor azt át kell húznia a Szűrők területre.   
 
 ![](media/service-the-report-editor-take-a-tour/power-bi-formatting-pane.png)
 
@@ -110,9 +118,9 @@ A Mezők panel az adatai között található, vizualizációk létrehozásához
    Minden számított mezőhöz saját nem változtatható képlet tartozik. A számítás módja nem módosítható, egy összeg például csak összeg lehet. További információ: [A mértékek ismertetése](desktop-measures.md)
 * ![](media/service-the-report-editor-take-a-tour/icon.png) **Egyedi mezők**  
    Az ezzel az ikonnal jelölt mezők az Excelből importálódtak, és úgy vannak beállítva, hogy minden érték megjelenjen még akkor is, ha duplikált. Az adatok között lehet például két „Szabó János” nevű személyre vonatkozó rekord, és ezek mindegyike egyediként lesz kezelve – nem összegződnek.  
-*  **![](media/service-the-report-editor-take-a-tour/pbi_geo_icon.png)Földrajzi mezők**  
+* **![](media/service-the-report-editor-take-a-tour/pbi_geo_icon.png)Földrajzi mezők**  
    A földrajzi helyet megadó mezők térképes vizualizációkhoz használhatók. 
-*  **![](media/service-the-report-editor-take-a-tour/power-bi-hierarchy-icon.png)Hierarchia**  
+* **![](media/service-the-report-editor-take-a-tour/power-bi-hierarchy-icon.png)Hierarchia**  
    A hierarchiát alkotó mezők a nyíl választásával fedhetők fel. 
 
 - - -
@@ -125,13 +133,9 @@ A jelentésvásznon jelenik meg a munkája. A Mezők, a Szűrők és a Megjelen�
 ## <a name="next-steps"></a>További lépések:
 [Jelentés létrehozása](service-report-create-new.md)
 
-[Jelentés szerkesztése](service-interact-with-a-report-in-editing-view.md)
-
-További információ a [Power BI-jelentésekről](service-reports.md)
-
-[Első lépések a Power BI-ban](service-get-started.md)
+További információk a jelentések használatáról a [Power BI szolgáltatásban](service-reports.md), a [Power BI Desktopban](desktop-report-view.md) és a [Power BI Mobile-ban](mobile-apps-view-phone-report.md).
 
 [Power BI – Alapfogalmak](service-basic-concepts.md)
 
-További kérdései vannak? [Felteheti őket a Power BI-közösségnek](http://community.powerbi.com/)
+További kérdései vannak? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)
 

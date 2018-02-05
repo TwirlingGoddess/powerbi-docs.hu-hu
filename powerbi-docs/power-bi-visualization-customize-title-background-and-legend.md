@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/28/2017
+ms.date: 01/22/2018
 ms.author: mihart
-ms.openlocfilehash: 424e96c5315bd41fc79999555097602f629a1285
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 52ad27e0f809ed5c3cf4ae22f0d536f88cae0f0c
+ms.sourcegitcommit: c3be4de522874fd73fe6854333b379b85619b907
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/24/2018
 ---
 # <a name="customize-visualization-titles-legends-and-backgrounds-tutorial"></a>A vizualizáció címeinek, jelmagyarázatainak és háttereinek testreszabása (Oktatóanyag)
 Ezen oktatóanyag segítségével elsajátíthatja a vizualizációk testre szabására szolgáló különböző módszereket.   Számos lehetőség van a vizualizációk testreszabására. A legjobban a Formátum panel felfedezésével ismerheti meg ezeket (kattintson a festőhenger ikonra).  Az első lépésekhez megtételéhez ez a cikk bemutatja, hogyan szabhatja testre a vizualizáció címét, jelmagyarázatát és hátterét.  
@@ -33,9 +33,12 @@ Tekintse meg, ahogyan Amanda testre szabja a vizualizációkat a jelentésében 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/IkJda4O7oGs" frameborder="0" allowfullscreen></iframe>
 
+### <a name="prerequisites"></a>Előfeltételek
+- Power BI szolgáltatás vagy Power BI Desktop
+- Kiskereskedelmi elemzési minta
 
 ## <a name="customize-visualization-titles-in-reports"></a>Vizualizáció címének testreszabása jelentésekben
-Hogy követni tudja a lépéseket, jelentkezzen be az app.powerbi szolgáltatásba, és [nyissa meg a Kiskereskedelmi elemzési minta](sample-datasets.md) jelentést [Szerkesztési nézetben](service-interact-with-a-report-in-editing-view.md).
+Hogy követni tudja a lépéseket, jelentkezzen be a Power BI szolgáltatásba (app.powerbi.com), és [nyissa meg a Kiskereskedelmi elemzési minta](sample-datasets.md) jelentést [Szerkesztési nézetben](service-interact-with-a-report-in-editing-view.md).
 
 > [!NOTE]
 > Ha rögzít egy vizualizációt az irányítópulton, az irányítópult-csempévé válik.  Maguk a csempék is testre szabhatók [új címekkel és alcímekkel, hiperhivatkozásokkal, és átméretezhetők](service-dashboard-edit-tile.md).
@@ -120,9 +123,8 @@ Ugyanazt az oszlopdiagramot kiválasztva bontsa ki a Háttér beállításokat.
 | vízesés |igen |igen |igen |
 
 ## <a name="next-steps"></a>Következő lépések
-További információk [a Power BI-jelentésekben lévő vizualizációkról](power-bi-report-visualizations.md)  
 [X és Y tengely testreszabása](power-bi-visualization-customize-x-axis-and-y-axis.md)  
 [Színek és tengelytulajdonságok testreszabása](service-getting-started-with-color-formatting-and-axis-properties.md)  
 [Power BI – Alapfogalmak](service-basic-concepts.md)  
-További kérdései vannak? [Forduljon a Power BI közösségéhez](http://community.powerbi.com/)
+További kérdései vannak? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)
 

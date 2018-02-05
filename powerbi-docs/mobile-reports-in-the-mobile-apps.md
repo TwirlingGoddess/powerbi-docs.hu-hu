@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/23/2018
+ms.date: 01/25/2018
 ms.author: maggies
-ms.openlocfilehash: 610234a221c5ab1de976f9d554292395760efa0f
-ms.sourcegitcommit: 1a5446c3136dc0787f2a1d5b8cad1113704301ba
+ms.openlocfilehash: 51006f70d0be13f08de7047f0097f7530d32a470
+ms.sourcegitcommit: be5223b62e9a5d57c52f8588d4e539d814751dd6
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 01/24/2018
+ms.lasthandoff: 01/29/2018
 ---
 # <a name="explore-reports-in-the-power-bi-mobile-apps"></a>Jelentések vizsgálata a Power BI mobilalkalmazásokban
 A következőkre vonatkozik:
@@ -63,7 +63,7 @@ Az ilyen jelentések álló tájolásban nyílnak meg telefonon.
 További információ a [telefonos megtekintésre optimalizált jelentésekről](mobile-apps-view-phone-report.md).
 
 ## <a name="use-slicers-to-filter-a-report-page"></a>Szeletelők használta egy jelentésoldal szűréséhez
-Amikor egy jelentést tervez a Power BI szolgáltatásban [(https://powerbi.com)](https://powerbi.com), tartsa észben, hogy telefonon nem látja a Szűrők panelt, de [a szeletelők megjelennek a jelentésoldalon](power-bi-visualization-slicers.md). Adjon hozzá szeletelőket a jelentéshez, hogy a kollégáival együtt használhassák a szeletelőket az oldal szűrésére telefonon.
+Ha jelentéseket hoz létre a Power BI Desktopban vagy a Power BI szolgáltatásban, érdemes lehet [szeletelőket hozzáadni a jelentésoldalhoz](power-bi-visualization-slicers.md). A szeletelőkkel egyszerűen lehet szűrni az oldalt böngészőben és mobilalkalmazásban is. Ha telefonon jelenítik meg a jelentést, a szeletelőket a telefonra optimalizált fekvő és álló tájolással is lehet használni.
 
 * Amikor kiválaszt egy értéket egy szeletelőben a jelentésoldalon, az szűri az oldalon lévő többi vizualizációt.
   

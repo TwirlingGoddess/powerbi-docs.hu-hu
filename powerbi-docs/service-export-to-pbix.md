@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/20/2018
+ms.date: 01/24/2018
 ms.author: mihart
-ms.openlocfilehash: 259007c76b7b53ba0ea55a28fbdd189469383364
-ms.sourcegitcommit: 2ae323fbed440c75847dc55fb3e21e9c744cfba0
+ms.openlocfilehash: 7c0bd2f342385f71fd91bb81a284ef41deb46169
+ms.sourcegitcommit: be5223b62e9a5d57c52f8588d4e539d814751dd6
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 01/29/2018
 ---
 # <a name="export-a-report-from-power-bi-service-to-desktop-preview"></a>Jelentés exportálása a Power BI szolgáltatásból a Desktopba (előzetes verzió)
 A Power BI Desktopban exportálhat (más kifejezéssel *letölthet*) jelentést a Power BI szolgáltatásba, ha menti a jelentést, és a **Közzététel** lehetőséget választja. Exportálhat a másik irányba is, és letöltheti a jelentést a Power BI szolgáltatásból a Desktopba. Az exportált fájlok kiterjesztése mindkét irány esetében *.pbix*.
@@ -37,7 +37,7 @@ A .pbix-fájl letöltéséhez kövesse az alábbi lépéseket:
 2. A menüsávon válassza a **Fájl > Jelentés letöltése** lehetőséget.
    
    > [!NOTE]
-   > Ahhoz, hogy a jelentés letölthető legyen, a [Power BI Desktop használatával létrehozott](guided-learning/publishingandsharing.yml#step-2), 2016. november 23. utáni – vagy azóta frissített – jelentésnek kell lennie. Ha nem az, akkor a Power BI szolgáltatás *Jelentés letöltése* menüpontja halványítva jelenik meg.
+   > Ahhoz, hogy a jelentés letölthető legyen, a [Power BI Desktop használatával létrehozott](guided-learning/publishingandsharing.yml#step-2), 2016. november 23. utáni – és azóta frissített – jelentésnek kell lennie. Ha nem az, akkor a Power BI szolgáltatás *Jelentés letöltése* menüpontja halványítva jelenik meg.
    > 
    > 
 3. A .pbix-fájl létrehozása közben egy állapotsáv jelzi a folyamat előrehaladását. Amikor a fájl elkészül, a rendszer felszólítja a .pbix-fájl megnyitására vagy mentésére. A fájl neve megegyezik a jelentés címével.
@@ -59,7 +59,7 @@ A .pbix-fájl letöltéséhez kövesse az alábbi lépéseket:
 A *.pbix*-fájlnak a Power BI szolgáltatásból történő letöltésekor (exportálásakor) figyelembe kell venni néhány lényeges szempontot és korlátozást.
 
 * A fájl letöltéséhez szerkesztési jogosultsággal kell hozzáférnie a jelentéshez.
-* Fontos, hogy a jelentés a **Power BI Desktopból** származzon, és *közzé legyen téve* a **Power BI szolgáltatásban**, vagy a .pbix-fájl legyen *feltöltve* a szolgáltatásba.
+* Fontos, hogy a jelentést a **Power BI Desktoppal** legyen létrehozva, és *közzé legyen téve* a **Power BI szolgáltatásban**, vagy a .pbix-fájl legyen *feltöltve* a szolgáltatásba.
 * A jelentéseknek 2016. november 23. után közzétett – vagy azóta frissített – jelentéseknek kell lenniük. Az ennél korábban közzétett jelentések nem tölthetők le.
 * Ez a funkció nem működik az eredetileg a **Power BI szolgáltatással** létrehozott jelentésekkel, beleértve a tartalomcsomagokat is.
 * Letöltött fájlok megnyitásához javasolt mindig a **Power BI Desktop** legújabb verzióját használni. A letöltött *.pbix*-fájlok olykor nem nyílnak meg a **Power BI Desktop** régebbi verzióiban.

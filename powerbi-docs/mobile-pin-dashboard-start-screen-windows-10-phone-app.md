@@ -15,18 +15,18 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/21/2017
+ms.date: 01/25/2018
 ms.author: maggies
-ms.openlocfilehash: 278b421114363ab5fea4591e39a20089501b9724
-ms.sourcegitcommit: 47ea78f58ad37a751171d01327c3381eca3a960e
+ms.openlocfilehash: f06793bc6620e27ab5937a0043e9dc6a94119110
+ms.sourcegitcommit: be5223b62e9a5d57c52f8588d4e539d814751dd6
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/22/2017
+ms.lasthandoff: 01/29/2018
 ---
 # <a name="pin-a-dashboard-to-your-windows-10-start-screen-from-the-power-bi-mobile-app"></a>Irányítópult rögzítése a Windows 10 kezdőképernyőjén a Power BI mobilalkalmazásból
-A Power BI-irányítópultok rögzíthetők a Windows kezdőképernyőjén a Windows 10 rendszerhez készült Power BI mobilalkalmazásból. *Élő csempék* lesznek, így a kritikus metrikák azonnal láthatók rajtuk. Amikor a kezdőképernyőn a csempére koppint, az irányítópult megnyílik a Windows 10 rendszerhez készült Power BI mobilalkalmazásban.
+A Power BI-irányítópultok rögzíthetők a Windows kezdőképernyőjén a Windows 10 rendszerhez készült Power BI mobilalkalmazásból. Ezek *élő csempék lesznek*. Amikor a kezdőképernyőn a csempére koppint, az irányítópult megnyílik a Windows 10 rendszerhez készült Power BI mobilalkalmazásban.
 
-![Windows élő csempe](media/mobile-pin-dashboard-start-screen-windows-10-phone-app/pbi_win10_livetile.gif)
+![Windows élő csempe](media/mobile-pin-dashboard-start-screen-windows-10-phone-app/power-bi-windows-10-pin-start-screen.png)
 
 ## <a name="pin-a-dashboard-to-your-start-screen-as-a-live-tile"></a>Irányítópult rögzítése a kezdőképernyőn élő csempeként
 1. Nyisson meg egy irányítópultot.

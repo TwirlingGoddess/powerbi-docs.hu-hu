@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/12/2017
+ms.date: 01/24/2018
 ms.author: davidi
-ms.openlocfilehash: 03c5afae78e1688cadfdef9c0a96ca9f24247e12
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 0723b3a7155626f875044fa813a522ef6d4923df
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="tutorial-analyzing-sales-data-from-excel-and-an-odata-feed"></a>Oktatóanyag: Excelből és OData-csatornáról származó értékesítési adatok elemzése
 A **Power BI Desktop** használatával különféle adatforrásokhoz kapcsolódhat, majd az ezekből származó adatokat úgy kombinálhatja és alakíthatja, hogy érdekes és magukkal ragadó elemzéseket és vizualizációkat eredményezzenek. Ebben az oktatóanyagban megtanulhatja, hogyan kombinálja két adatforrás adatait. 
@@ -140,7 +140,7 @@ Az egyes **Order\_Details** (Megrendelés részletei) sorok végösszegének kis
 
 ### <a name="step-5-set-the-datatype-of-the-linetotal-field"></a>5. lépés: A LineTotal mező adattípusának beállítása
 1. Kattintson a jobb gombbal a **LineTotal** oszlopra.
-2. Válassza a **Típus módosítása** lehetőséget, majd a **Tizedes tört szám értéket.
+2. Válassza a **Típus módosítása** lehetőséget, majd a **Tizedes tört szám** értéket.
    
    ![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/9.png)
 
@@ -229,6 +229,5 @@ Miután végrehajtotta a fenti lépéseket, az így eredményül kapott értéke
 * [Tekintse meg a Power BI Desktop videóit](http://go.microsoft.com/fwlink/?LinkID=519322)
 * [Látogasson el a Power BI fórumára](http://go.microsoft.com/fwlink/?LinkID=519326)
 * [Látogasson el a Power BI blogra](http://go.microsoft.com/fwlink/?LinkID=519327)
-
 
 

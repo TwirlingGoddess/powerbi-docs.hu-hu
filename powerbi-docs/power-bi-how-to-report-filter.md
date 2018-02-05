@@ -1,6 +1,6 @@
 ---
-title: "Ismerkedés a Power BI Szűrők panelével"
-description: "A jelentésszűrők használata"
+title: "A Power BI szűrők paneljének áttekintése"
+description: "A Power BI szolgáltatás és a Power BI irányítópult jelentéseihez tartozó Szűrők panel áttekintése"
 services: powerbi
 documentationcenter: 
 author: mihart
@@ -15,16 +15,16 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/29/2017
+ms.date: 01/22/2018
 ms.author: mihart
-ms.openlocfilehash: da3d4359fab37d1c5ee5f9d214cc5dba0fa9b680
-ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
+ms.openlocfilehash: 14aa2a2813484c3af814332736906c2aae0e0230
+ms.sourcegitcommit: be5223b62e9a5d57c52f8588d4e539d814751dd6
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 01/09/2018
+ms.lasthandoff: 01/29/2018
 ---
 # <a name="take-a-tour-of-the-report-filters-pane"></a>Ismerkedés a jelentések Szűrők panelével
-A cikk a jelentések Szűrők panelét mutatja be részletesen. A panel a Power BI jelentések szerkesztési és olvasó nézetében jelenik meg.
+A cikk a jelentések Szűrők panelét mutatja be részletesen. A panel [a Power BI szolgáltatásban Szerkesztési és Olvasó nézetben](service-reading-view-and-editing-view.md), míg a [Power BI Desktopban Jelentés nézetben](desktop-report-view.md) jelenik meg.
 
 Az adatok szűrésének számos módja áll rendelkezésre a Power BI-ban, ezért javasoljuk, hogy először olvassa el a [szűrőkkel és a kiemeléssel](power-bi-reports-filters-and-highlighting.md) foglalkozó szakaszt.
 
@@ -77,7 +77,7 @@ Az egyes szűrők beállítási lehetőségeinek megjelenítéséhez kattintson 
 ## <a name="add-a-filter"></a>Szűrők hozzáadása
 * Ha szerkesztési nézetben a vizualizációkhoz, oldalakhoz, részletezésekhez vagy jelentésekhez szűrőt szeretne megadni, jelölje ki a mezőt a Mezők panelen, és húzza a megfelelő szűrési területre, ahol a **Húzza ide a mezőket** felirat látható. Miután hozzáadott egy szűrőt, az alapszintű és a speciális szűrés vezérlőivel (lásd alább) finomhangolhatja a működését.
 
-Ha egy új mezőt húz a Vizualizációszint szűrői területére, az nem kerül fel a vizualizációra, csak lehetővé teszi a vizualizáció szűrését ezzel az új mezővel. Az alábbi példában a **Chain** (Lánc) mezőt új szűrőként hozzáadtuk a vizualizációhoz. Fontos megjegyezni, hogy a **Chain** (Lánc) szűrőként való hozzáadása nem módosítja a vizualizációt, amíg nem veszi használatba alapszintű vagy a speciális szűrés vezérlőit.
+- **Ha egy új mezőt húz a Vizualizációszint szűrői területére, az nem kerül fel a vizualizációra**, csak lehetővé teszi a vizualizáció szűrését ezzel az új mezővel. Az alábbi példában a **Chain** (Lánc) mezőt új szűrőként hozzáadtuk a vizualizációhoz. Fontos megjegyezni, hogy a **Chain** (Lánc) szűrőként való hozzáadása nem módosítja a vizualizációt, amíg nem veszi használatba alapszintű vagy a speciális szűrés vezérlőit.
 
     ![](media/power-bi-how-to-report-filter/power-bi-visual-filter.gif)
 

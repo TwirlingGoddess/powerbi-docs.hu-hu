@@ -1,6 +1,6 @@
 ---
-title: "Táblázatos vizualizációk a Power BI-jelentésekben és -irányítópultokon (oktatóanyag)"
-description: "Tippek a táblázatos vizualizációk használatához a Power BI-jelentésekben és -irányítópultokon, beleértve az oszlopszélességek átméretezését."
+title: "Oktatóanyag: táblázatos vizualizációk a Power BI-jelentésekben és -irányítópultokon (oktatóanyag)"
+description: "Oktatóanyag: Tippek a táblázatos vizualizációk használatához a Power BI-jelentésekben és -irányítópultokon, beleértve az oszlopszélességek átméretezését."
 services: powerbi
 documentationcenter: 
 author: mihart
@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/27/2017
+ms.date: 01/22/2018
 ms.author: mihart
-ms.openlocfilehash: e4a2e162ca193af756e7182fb118bc7e72d38d28
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 4785df6bbc14bf0da4500a9cffdcd47381e412f4
+ms.sourcegitcommit: c3be4de522874fd73fe6854333b379b85619b907
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/24/2018
 ---
 # <a name="working-with-tables-in-power-bi-reports-and-dashboards-tutorial"></a>Táblák használata a Power BI-jelentésekben és -irányítópultokon (oktatóanyag)
 A táblák olyan táblázatok, amelyek sorok és oszlopok logikai sorozataként jelenítik meg a kapcsolódó adatokat. Tartalmazhatnak fejléceket és összesítősorokat is. A táblák jól használhatók mennyiségi összehasonlításokhoz, ahol több, egy kategóriába tartozó érték vizsgálható egyszerre. Ez a tábla például a **Kategória** 5 különböző mértékét jeleníti meg.
@@ -40,11 +40,16 @@ A tábla remek választás a következő esetekben:
 > Ha a tábla túl sok értéket tartalmaz, érdemes lehet mátrixszá alakítani és/vagy lefúrást alkalmazni.
 > 
 > 
+## <a name="prerequisites"></a>Előfeltételek
+ - Power BI szolgáltatás vagy Power BI Desktop
+ - Kiskereskedelmi elemzési minta
+
 
 ## <a name="create-a-table"></a>Tábla létrehozása
-A lépések követéséhez jelentkezzen be a Power BI-ba, és válassza az **Adatok lekérése > Minták > Kiskereskedelmi elemzés minta** lehetőséget. Létrehozzuk a fenti ábrát az értékesítési adatok elemkategória szerinti megjelenítéséhez.
+Létrehozzuk a fenti ábrát az értékesítési adatok elemkategória szerinti megjelenítéséhez. Hogy követni tudja a lépéseket, jelentkezzen be a Power BI szolgáltatásba, és válassza az **Adatok lekérése \> Minták \> Kiskereskedelmi elemzési minta > Kapcsolódás** lehetőséget, majd válassza az **Ugrás az irányítópultra lehetőséget. A vizualizációk létrehozásához az adatkészletre és a jelentésre vonatkozó szerkesztési jogosultságok szükségesek. A Power BI mintái mind szerkeszthetőek. Ha a jelentést megosztották Önnel, akkor nem fog tudni vizualizációkat létrehozni a jelentésben.
 
-1. A **Saját munkaterületen** válassza az Adatkészletek lapot, és görgessen le az imént hozzáadott Kiskereskedelmi elemzés minta adatkészletig.  Válassza a **Jelentés létrehozása** ikont.
+1. A bal oldali navigációs panelen válassza a **Munkaterületek > Saját munkaterület** lehetőséget.    
+2. Válassza az Adatkészletek lapot, és görgessen le az imént hozzáadott Kiskereskedelmi elemzés minta adatkészletig.  Válassza a **Jelentés létrehozása** ikont.
    
     ![](media/power-bi-visualization-tables/power-bi-create-report.png)
 2. A jelentésszerkesztőben válassza az **Elem** > **Kategória** lehetőséget.  A Power BI automatikusan létrehoz egy táblát, amely az összes kategóriát felsorolja.

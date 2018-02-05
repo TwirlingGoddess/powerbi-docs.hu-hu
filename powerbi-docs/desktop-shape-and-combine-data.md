@@ -1,27 +1,7 @@
----
-title: "Adatok formázása és összevonása a Power BI Desktopban"
-description: "Adatok formázása és összevonása a Power BI Desktopban"
-services: powerbi
-documentationcenter: 
-author: davidiseminger
-manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
-ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 12/06/2017
-ms.author: davidi
-ms.openlocfilehash: bb4f910f0ac6240ed2dab987a7076b3f996b86fe
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
-ms.translationtype: HT
-ms.contentlocale: hu-HU
-ms.lasthandoff: 12/06/2017
+-- title: Adatok formázása és összevonása a Power BI Desktopban description: Adatok formázása és összevonása a Power BI Desktopban services: powerbi documentationcenter: '' author: davidiseminger manager: kfile backup: '' editor: '' tags: '' qualityfocus: no qualitydate: ''
+
+ms.service: powerbi ms.devlang: NA ms.topic: article ms.tgt_pltfrm: NA ms.workload: powerbi ms.date: 01/30/2018 ms.author: davidi
+
 ---
 # <a name="shape-and-combine-data-in-power-bi-desktop"></a>Adatok formázása és összevonása a Power BI Desktopban
 A **Power BI Desktoppal** számos különféle típusú adatforráshoz csatlakozhat, és igény szerint formázhatja az adatokat. A *formázás* az adatok átalakítását jelenti, például oszlopok vagy táblázatok átnevezését, szöveg számokká alakítását, sorok eltávolítását, az első sorok fejléccé alakítását stb. Az adatok *összevonásakor* két vagy több adatforráshoz csatlakozik, amelyeket igény szerint formázhat, majd egyetlen, hasznos lekérdezéssé vonhat össze.

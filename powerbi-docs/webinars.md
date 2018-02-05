@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/07/2017
+ms.date: 01/24/2018
 ms.author: maikelson
-ms.openlocfilehash: 7b4f69bc65836d59448ef034f5d655f87d89248e
-ms.sourcegitcommit: 85302d577895e779466df55aa02e5785ab2e3138
+ms.openlocfilehash: 91a629699c782914ec542a2b7a668cf25e47ec27
+ms.sourcegitcommit: be5223b62e9a5d57c52f8588d4e539d814751dd6
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 12/18/2017
+ms.lasthandoff: 01/29/2018
 ---
 # <a name="power-bi-webinars"></a>Power BI-webináriumok
 
@@ -47,13 +47,15 @@ Regisztráció a Power BI-szakértők előadásaira, ahol lehetősége van élő
 
 >[Részvétel a Power BI-közösség közelgő webináriumain](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/bd-p/VideoTipsTricks?filter=webinars&featured=yes&Is=Website)
 
-- [A jövedelmezőség növelése az egészségügyben – 2017. december 12.](https://info.microsoft.com/improving-profitability-in-healthcare.html?Is=Website)
+Még nincs tervezett webinárium. Látogasson vissza később közelgő eseményekért.
 
 ## <a name="on-demand-webinars"></a>Igény szerint megtekinthető előadások
 
 Előadások megtekintése felvételről, tetszés szerinti időpontban
 
 >[Böngészés közösségi szakértőink felvételről megtekinthető előadásainak könyvtárában](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/bd-p/VideoTipsTricks?filter=webinars&featured=yes&Is=Website)
+
+- [A jövedelmezőség növelése az egészségügyben](https://info.microsoft.com/improving-profitability-in-healthcare.html?Is=Website)
 
 - [Útmutató: Sikeres adatirányítási stratégia bevezetése cége biztonságosabbá tételéhez](https://info.microsoft.com/powerbi-data-governance-strategy-ondemand.html?Is=Website)
 

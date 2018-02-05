@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/20/2018
+ms.date: 01/24/2018
 ms.author: mihart
-ms.openlocfilehash: 90449f79da8aed3d992b9ac8bf83ac2ac4c0f83c
-ms.sourcegitcommit: 2ae323fbed440c75847dc55fb3e21e9c744cfba0
+ms.openlocfilehash: f9824b29515481742c339bc76e766e5e62cf1716
+ms.sourcegitcommit: be5223b62e9a5d57c52f8588d4e539d814751dd6
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 01/29/2018
 ---
 # <a name="getting-a-custom-visual-certified"></a>Egyéni vizualizáció *minősítésének* megszerzése
 ## <a name="what-is-meant-by-certified"></a>Mit értünk az alatt, hogy *minősített*?
@@ -93,6 +93,7 @@ A Microsoft saját belátása szerint eltávolíthatja a vizualizációkat a Min
 | [Enlighten Stack Shuffle](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380849) | |
 | [Gofridiagram az Enlightentől](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380850) | |
 | [Országzászlók az Enlightentől](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380923) | |
+| [Erőgrafikon](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380764) |[Videó](https://youtu.be/YsTa7uyJ4sg) |
 | [Előrejelzési TBATS](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381326?src=office) | |
 | [Tölcsér forrással]() | || [Gantt](https://store.office.com/gantt-WA104380765.aspx) |[Videó](https://youtu.be/qJ7s_KrGiUU) |
 | [Hierarchiadiagram az Akvelontól](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381333?src=office) | |
@@ -115,6 +116,7 @@ A Microsoft saját belátása szerint eltávolíthatja a vizualizációkat a Min
 | [Görgető](https://store.office.com/scroller-WA104381018.aspx) |[Videó](https://youtu.be/uhRFQF2cGSY) |
 | [Intelligens szűrő az SQLBI-től](https://store.office.com/smart-filter-by-okviz-WA104380859.aspx) |[Videó](https://youtu.be/gcJsDDRQq28) |
 | [Értékgörbe az OKViztől](https://appsource.microsoft.com/product/power-bi-visuals/WA104380910?src=office&tab=Overview) |[Videó](https://youtu.be/0m3Vnvso9tY) |
+| [Adatfolyam-grafikon](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380772?tab=Overview) |  |
 | [Többszintű gyűrű](https://appsource.microsoft.com/product/power-bi-visuals/WA104380767?src=office&tab=Overview) | |
 | [Hőtérképtábla](https://store.office.com/table-heatmap-WA104380818.aspx) | |
 | [Fordulatszámmérő](https://store.office.com/tachometer-WA104380937.aspx?) |[Videó](https://www.youtube.com/watch?v=C3OXdETbS9o) |
