@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/25/2017
+ms.date: 12/25/2017
 ms.author: davidi
-ms.openlocfilehash: 268c06569199bc00b28918b46a142942c9e03ba6
-ms.sourcegitcommit: b3ee37e1587f1269ee7dd9daf1685a06dea3b50c
+ms.openlocfilehash: d3643ae398c037c375c8e67360794047a6f66ed7
+ms.sourcegitcommit: 7bf22bb1136fdb0f962422e16e837187f090827c
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/23/2017
+ms.lasthandoff: 02/01/2018
 ---
 # <a name="use-directquery-in-power-bi-desktop"></a>A DirectQuery használata a Power BI Desktopban
 A **Power BI Desktop** használatával az adatforrásokhoz való kapcsolódáskor mindig importálhat egy másolatot az adatokról a **Power BI Desktopba**. Egyes adatforrások esetében egy alternatív módszer is használható: ha közvetlenül kapcsolódik az adatforráshoz a **DirectQuery** használatával.
@@ -61,7 +61,7 @@ A **DirectQueryt** [a Power BI és a DirectQuery használatát bemutató](deskto
 * Alapértelmezés szerint korlátozások vonatkoznak a mértékekben engedélyezett DAX-kifejezésekre – további információkért lásd a következő bekezdést (a felsorolás után).
 * A **DirectQuery** használatával legfeljebb 1 millió sornyi adat adható vissza. Ez csak a visszaadott sorok számát érinti, a **DirectQuery** használatával visszaadott adatkészlet létrehozásához alkalmazott összesítéseket és számításokat nem. Például akár 10 millió sort is összesíthet egy, az adatforráson futó lekérdezéssel, és pontosan visszaadathatja az összesítésadatait a Power BI-ba a **DirectQuery** használatával, ha a Power BI-ba visszaadott sorok száma nem haladja meg az 1 milliót. Ha 1 milliónál több sort kellene visszaadnia a **DirectQueryből**, a Power BI hibát jelez.
 
-Annak érdekében, hogy biztosítható legyen a háttéradatforrásra küldött lekérdezések elfogadható teljesítménye, a mértékekre alapértelmezett korlátozások vonatkoznak. A tapasztalt felhasználók felülírhatják ezeket a korlátozásokat a **Fájl > Beállítások**, majd a **Beállítások > Lehetőségek és beállítások > DirectQuery** megnyitásával, majd a *Nem korlátozott mértékek engedélyezése DirectQuery módban** beállítás engedélyezésével. Ha ez a beállítás be van jelölve, a mértékekre érvényes DAX-kifejezések bármelyike használható. A felhasználóknak azonban figyelembe kell venniük, hogy az importált adatokkal jól működő némely kifejezés DirectQuery módban rendkívül lassú lekérdezéseket eredményezhet a háttérkiszolgáló felé.
+Annak érdekében, hogy biztosítható legyen a háttéradatforrásra küldött lekérdezések elfogadható teljesítménye, a mértékekre alapértelmezett korlátozások vonatkoznak. A tapasztalt felhasználók felülírhatják ezeket a korlátozásokat a **Fájl > Beállítások**, majd a **Beállítások > Lehetőségek és beállítások > DirectQuery** megnyitásával, majd a *Nem korlátozott mértékek engedélyezése DirectQuery módban* beállítás engedélyezésével. Ha ez a beállítás be van jelölve, a mértékekre érvényes DAX-kifejezések bármelyike használható. A felhasználóknak azonban figyelembe kell venniük, hogy az importált adatokkal jól működő némely kifejezés DirectQuery módban rendkívül lassú lekérdezéseket eredményezhet a háttérkiszolgáló felé.
 
 ## <a name="important-considerations-when-using-directquery"></a>Lényeges szempontok a DirectQuery használatához
 A **DirectQuery** használata érdemes számításba vennie a következő három szempontot:
