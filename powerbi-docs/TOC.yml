@@ -396,9 +396,11 @@
           href: power-bi-visualization-types-for-reports-and-q-and-a.md
         - name: Vizuális elemekkel kapcsolatos ajánlott eljárások
           href: power-bi-visualization-best-practices.md
-        - name: Egyéni vizuális elemek a Power BI-ban
+        - name: Egyéni vizualizációk a Power BI-ban
           href: power-bi-custom-visuals.md
-        - name: 'Oktatóanyag: 1. rész, vizuális elem hozzáadása Power BI-jelentéshez'
+        - name: Egyéni vizualizációk cégek számára a Power BI-ban
+          href: power-bi-custom-visuals-organization.md
+        - name: 'Oktatóanyag: I. rész, Vizualizációk hozzáadása Power BI-jelentésekhez'
           href: power-bi-report-add-visualizations-i.md
         - name: 'Oktatóanyag: 2. rész, vizuális elem hozzáadása Power BI-jelentéshez'
           href: power-bi-report-add-visualizations-ii.md
@@ -730,6 +732,8 @@
       items:
         - name: Adatnézet a Power BI Desktopban
           href: desktop-data-view.md
+        - name: Dátumtáblák a Power BI Desktopban
+          href: desktop-date-tables.md
         - name: Kapcsolatok nézet a Power BI Desktopban
           href: desktop-relationship-view.md
         - name: Kapcsolatok létrehozása és kezelése a Power BI Desktopban
@@ -758,9 +762,13 @@
           href: desktop-qna-in-reports.md
         - name: Az Elemzés panel a Power BI Desktopban
           href: desktop-analytics-pane.md
+        - name: Többszörös kijelölés a Power BI-ban
+          href: desktop-multi-select.md
         - name: Elemzések használata a Power BI Desktopban
           href: desktop-insights.md
-        - name: Könyvjelzők a Power BI-ban
+        - name: Szeletelők a Power BI Desktopban
+          href: desktop-slicers.md
+        - name: A Power BI könyvjelzői
           href: desktop-bookmarks.md
         - name: Jelentéstémák használata
           href: desktop-report-themes.md
