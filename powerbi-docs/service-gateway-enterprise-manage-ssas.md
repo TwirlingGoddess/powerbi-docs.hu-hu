@@ -17,11 +17,11 @@ ms.tgt_pltfrm: na
 ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
-ms.openlocfilehash: 02012b531ba43ec5f17e47f2b273b75ef8b2d9ec
-ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
+ms.openlocfilehash: 72445988ff4080b7c24f09f797f2038b957631ef
+ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="manage-your-data-source---analysis-services"></a>Az adatforrás kezelése – Analysis Services
 Amint telepítette a helyszíni adatátjárót, fel kell vennie az átjáróval használható adatforrásokat. Ez a cikk bemutatja, hogyan lehet használni az átjárókat és az adatforrásokat. Az Analysis Services-adatforrást ütemezett frissítéshez vagy élő kapcsolatokhoz használhatja.
@@ -89,17 +89,6 @@ Miután minden információt megadott, kattintson a **Hozzáadás** lehetőségr
 Konfigurálhatja az adatforrás adatvédelmi szintjét. Ez vezérli, hogy hogyan fűzhetők össze adatok. Ez csak ütemezett frissítéshez használható. az élő kapcsolatokra nem érvényes. [További információ](https://support.office.com/article/Privacy-levels-Power-Query-CC3EDE4D-359E-4B28-BC72-9BEE7900B540)
 
 ![](media/service-gateway-enterprise-manage-ssas/datasourcesettings9.png)
-
-## <a name="get-data-experience-for-analysis-services-in-power-bi-site"></a>Lekérdezés az Analysis Serviceshez Power BI-webhelyen
-Az Analysis Services egyedi lehetősége, hogy közvetlenül a Power BI szolgáltatásban kérhet le adatokat. Az átjárón konfigurált élő Analysis Services-adatforráshoz a Power BI Desktop nélkül is csatlakozhat. A fiókjának az adatforrás **Felhasználók** lapján kell szerepelnie, az átjáró alatt, hogy megjelenjen a listában. Az adatforráshoz a következőképpen kapcsolódhat.
-
-1. A Power BI szolgáltatásban válassza a **Lekérdezés** lehetőséget.
-2. Válassza az **Adatbázisok** elemet.
-3. Válassza az **SQL Server Analysis Services** > **Csatlakozás** lehetőséget.
-4. Válasszon ki egy adatforrást a listából. A listán az Ön által elérhető Analysis Services-adatforrás is szerepel.
-5. Válassza ki azt a modellt, amelyhez csatlakozni kíván. Ezután válassza a **Csatlakozás** lehetőséget.
-
-Megjelenik egy adatkészlet a kiszolgáló nevével. Ezután kiválaszthatja az adatkészletet, és elkezdheti a jelentések létrehozását. A jelentések létrehozása során élő adatokkal fog dolgozni.
 
 ## <a name="usernames-with-analysis-services"></a>Az Analysis Services és a felhasználónevek
 Amikor egy felhasználó az Analysis Serviceshez csatlakoztatott jelentéssel dolgozik, a rendszer az érvényes felhasználónevet átadja az átjárónak, majd a helyszíni Analysis Services-kiszolgálónak. A Power BI-ba való bejelentkezéshez használt e-mail-címet adja át az Analysis Services-nek érvényes felhasználóként. Ezt a rendszer továbbadja az [EffectiveUserName](https://msdn.microsoft.com/library/dn140245.aspx#bkmk_auth) kapcsolati tulajdonságnak. Ennek az e-mail-címnek egyeznie kell a helyi Active Directory-tartományban meghatározott UPN-nel. Az UPN az Active Directory-fiókok egy tulajdonsága. A Windows-fióknak ekkor szerepelnie kell egy Analysis Services-szerepkörben. Ha nem található egyezés az Active Directoryban, sikertelen lesz a bejelentkezés. [További információ](https://msdn.microsoft.com/library/ms677605.aspx)

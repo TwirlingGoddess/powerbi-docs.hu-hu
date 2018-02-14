@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/12/2017
 ms.author: v-mamcge
-ms.openlocfilehash: 251503064cca2c0365df74ed0c21b296fb30a7a8
-ms.sourcegitcommit: 1791b8f10332c680a1552d5361a6e01b75091385
+ms.openlocfilehash: 99267fa0ffa1910f9dab920f939082aadb55d6aa
+ms.sourcegitcommit: ad9bd4e52471b1179f46f847960d5ed79c0c0761
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 12/12/2017
+ms.lasthandoff: 02/11/2018
 ---
 # <a name="power-bi-performance-best-practices"></a>Ajánlott eljárások a Power BI teljesítményének javításához 
 A cikk azt mutatja be, hogyan hozhat létre gyors és megbízható jelentéseket a Power BI-ban.  
@@ -142,7 +142,7 @@ A hálózati késés hatással van a jelentések teljesítményére, hiszen megn
 
 Bizonyos eszközök, például az [Azure Speed Test](http://azurespeedtest.azurewebsites.net/), segíthetnek megállapítani, hogy mekkora a hálózati késés az ügyfél és az Azure-régió között. A hálózati késés hatásának minimalizálásához általánosságban igyekezzen minél közelebb tartani egymáshoz az adatforrásokat, az átjárókat és a Power BI-fürtöt. Ha a hálózati késés problémát okoz, megpróbálhatja az átjárókat és az adatforrásokat közelebb helyezni a Power BI-fürthöz, például úgy, hogy áthelyezi őket virtuális gépekre. 
 
-A hálózati késés további javításához fontolja meg az [Azure ExpressRoute](https://azure.microsoft.com/en-us/services/expressroute/) szolgáltatás használatát, mellyel gyorsabb és megbízhatóbb hálózati kapcsolatokat hozhat létre az ügyfelei és az Azure-adatközpontok között. 
+A hálózati késés további javításához fontolja meg az [Azure ExpressRoute](https://azure.microsoft.com/services/expressroute/) szolgáltatás használatát, mellyel gyorsabb és megbízhatóbb hálózati kapcsolatokat hozhat létre az ügyfelei és az Azure-adatközpontok között. 
 
 ## <a name="next-steps"></a>Következő lépések
 - [A Power BI vállalati bevezetésének megtervezése](https://aka.ms/pbienterprisedeploy) – Teljes körű útmutatás a nagyméretű Power BI-példányok üzembe helyezéséhez 

@@ -15,17 +15,17 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 02/06/2018
 ms.author: davidi
-ms.openlocfilehash: 1e68f7df5214e038df8bcd1584acb815c0af98bf
-ms.sourcegitcommit: 70e9239e375ae03744fb9bc122d5fc029fb83469
+ms.openlocfilehash: 5d754dbdd5d52e7a5b123755015e656d9fb2cea2
+ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 12/22/2017
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="disable-privacy-setting-in-power-bi-gateway---personal"></a>Adatvédelem letiltása a személyes Power BI Gatewayen
 > [!NOTE]
-> A személye Power BI Gatewaynek van egy új verziója, melynek neve **helyszíni adatátjáró (személyes mód)**. A következő cikk a személyes átjáró korábbi verzióját, a **Személyes Power BI Gatewayt** ismerteti, amely 2017. július 31-ével elavult, és nem használható tovább. A személyes átjáró új verziójával kapcsolatos információkat, beleértve az új verzió telepítésének menetét, a [**helyszíni adatátjárót (személyes mód)** ismertető cikkben](service-gateway-personal-mode.md) találhatja. A Gyors összevonás a személyes átjáró új verziójában is elérhető, és az a cikk is kitér az ismertetésére.
+> A személye Power BI Gatewaynek van egy új verziója, melynek neve **helyszíni adatátjáró (személyes mód)**. A következő cikk a privát átjáró korábbi verzióját, a **Power BI Gateway - Personalt** ismerteti, amely 2017. július 31-ével elavult, és nem használható tovább. A személyes átjáró új verziójával kapcsolatos információkat, beleértve az új verzió telepítésének menetét, a [**helyszíni adatátjárót (személyes mód)** ismertető cikkben](service-gateway-personal-mode.md) találhatja. A Gyors összevonás a személyes átjáró új verziójában is elérhető, és az a cikk is kitér az ismertetésére.
 > 
 > 
 
@@ -45,7 +45,7 @@ A problémát megkerülheti a **Gyors összevonás** bekapcsolásával. A **Gyor
 > 
 
 ## <a name="what-is-fast-combine"></a>Mi az a Gyors összevonás?
-Az adatvédelmi szintekkel és a Gyors összevonással kapcsolatos további tudnivalókért tekintse meg az [adatvédelmi szinteket](https://support.office.com/en-us/article/Privacy-levels-Power-Query-CC3EDE4D-359E-4B28-BC72-9BEE7900B540) ismertető cikket. Alapértelmezés szerint a privát adatvédelmi szint van beállítva, ami a fentebb említett hibát eredményezheti. Ez azért van, mert a privát beállítás elzárja az adatforrást a többi adatforrás elől. Ez például olyan esetekben okozhat problémát, ha egy parametrizált lekérdezés egy másik adatforrásból szerez adatokat.
+Az adatvédelmi szintekkel és a Gyors összevonással kapcsolatos további tudnivalókért tekintse meg az [adatvédelmi szinteket](https://support.office.com/article/Privacy-levels-Power-Query-CC3EDE4D-359E-4B28-BC72-9BEE7900B540) ismertető cikket. Alapértelmezés szerint a privát adatvédelmi szint van beállítva, ami a fentebb említett hibát eredményezheti. Ez azért van, mert a privát beállítás elzárja az adatforrást a többi adatforrás elől. Ez például olyan esetekben okozhat problémát, ha egy parametrizált lekérdezés egy másik adatforrásból szerez adatokat.
 
 A Gyors összevonás bekapcsolásával figyelmen kívül hagyja a privát beállítást, és lehetővé teszi, hogy a kivétel érvényesüljön.
 
@@ -85,7 +85,7 @@ A következő lépésekkel engedélyezheti a Gyors összevonást a saját szemé
 
 ## <a name="next-steps"></a>Következő lépések
 [Helyszíni adatátjáró (személyes mód) – a személyes átjáró új verziója](service-gateway-personal-mode.md)
-[Adatvédelmi szintek](https://support.office.com/en-us/article/Privacy-levels-Power-Query-CC3EDE4D-359E-4B28-BC72-9BEE7900B540)  
+[Adatvédelmi szintek](https://support.office.com/article/Privacy-levels-Power-Query-CC3EDE4D-359E-4B28-BC72-9BEE7900B540)  
 [Gyakori lekérdezési feladatok a Power BI Desktopban](desktop-common-query-tasks.md)  
-További kérdései vannak? [Felteheti azokat a Power BI-közösségnek](http://community.powerbi.com/)
+További kérdései vannak? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)
 

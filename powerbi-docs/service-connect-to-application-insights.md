@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
 ms.author: yshoukry
-ms.openlocfilehash: 0ec1ca9bccabd923b67fc1f49da4b7321ba11141
-ms.sourcegitcommit: c3be4de522874fd73fe6854333b379b85619b907
+ms.openlocfilehash: 0bbbbccefedd437204e1981cb1cc88493373330b
+ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 01/24/2018
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="connect-to-application-insights-with-power-bi"></a>Csatlakozás az Application Insightshoz Power BI-jal
 A Power BI használatával nagyszerű egyéni irányítópultokat hozhat létre az [Application Insights](https://azure.microsoft.com/documentation/articles/app-insights-overview/) telemetriai adataiból. Alkalmazásai telemetriai adatait újszerű módokon jelenítheti meg. Több alkalmazás vagy szolgáltatás mutatóit egyetlen irányítópulton egyesítheti. Az Application Insights-hoz készült Power BI tartalomcsomagnak ez az első kiadása. Olyan általánosan elterjedt, használati metrikákkal kapcsolatos widgeteket tartalmaz, mint például az aktív felhasználók száma, oldalmegtekintések, munkamenetek, böngésző- és operációsrendszer-verziók, valamint a felhasználók földrajzi eloszlása egy térképen.
@@ -61,7 +61,7 @@ Csatlakozzon a [Power BI-hoz készített Application Insights tartalomcsomaghoz]
 ## <a name="whats-included"></a>A csomag tartalma
 Az Application Insights tartalomcsomag a következő táblákat és metrikákat tartalmazza:  
 
-     ´´´
+    ´´´
     - ApplicationDetails  
     - UniqueUsersLast7Days   
     - UniqueUsersLast30Days   
@@ -78,7 +78,7 @@ Az Application Insights tartalomcsomag a következő táblákat és metrikákat 
     - SessionsByCountryLast7Days   
     - SessionsByCountryLast30Days   
     - PageViewsByCountryDailyLast30Days  
-   ´´´ 
+        ´´´ 
 
 <a name="FindingAppInsightsParams"></a>
 

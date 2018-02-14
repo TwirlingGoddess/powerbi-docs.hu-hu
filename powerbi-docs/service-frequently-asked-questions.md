@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/05/2017
+ms.date: 02/06/2018
 ms.author: maggies
-ms.openlocfilehash: c82b5c302511d5c82ae0048b8dce4f227f6fc5b1
-ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
+ms.openlocfilehash: 53d367d0dc76b338659283215855f4b55a2679fd
+ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 01/03/2018
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="frequently-asked-questions-about-power-bi"></a>Gyakori kérdések – Power BI
 * Ha bármilyen egyéb kérdése van, [kérdezze a Power BI-közösséget](http://community.powerbi.com/).
@@ -141,9 +141,9 @@ Megkereshet egy [Microsoft-partnert](https://partner.microsoft.com/) is a Power 
 ## <a name="what-happens-if-my-power-bi-pro-license-expires"></a>Mi történik, ha a Power BI Pro-licenc lejár?
 A Power BI Pro-licenc lejárata után 30 napos türelmi időszak biztosított.
 
-A Power BI Pro előfizetési életciklusa megegyezik az Office 365-ével. További információkért lásd: [Mi történik az adatokkal és a hozzáféréssel, amikor az Office 365 vállalati verzióra szóló előfizetés befejeződik?](https://support.office.com/en-us/article/What-happens-to-my-data-and-access-when-my-Office-365-for-business-subscription-ends-4436582f-211a-45ec-b72e-33647f97d8a3)
+A Power BI Pro előfizetési életciklusa megegyezik az Office 365-ével. További információkért lásd: [Mi történik az adatokkal és a hozzáféréssel, amikor az Office 365 vállalati verzióra szóló előfizetés befejeződik?](https://support.office.com/article/What-happens-to-my-data-and-access-when-my-Office-365-for-business-subscription-ends-4436582f-211a-45ec-b72e-33647f97d8a3)
 
-## <a name="does-power-bi-meet-national-regional-and-industry-specific-compliance-requirements"></a>Teljesíti a Power BI az országos, a regionális és az iparág-specifikus megfelelőségi követelményeket?
+## <a name="does-power-bi-meet-national-regional-and-industry-specific-compliance-requirements"></a>Eleget tesz a Power BI az országos, regionális, illetve iparágra jellemző megfelelőségi követelményeknek?
 További információ a Power BI megfelelőségéről a [Microsoft Adatvédelmi központban](http://go.microsoft.com/fwlink/?LinkId=785324) található.
 
 ## <a name="where-can-i-learn-more-about-security"></a>Hol tájékozódhatok a biztonságról?
@@ -159,5 +159,5 @@ Sok más Microsoft-szolgáltatáshoz és -szoftverhez hasonlóan a Power BI is e
 
 ## <a name="next-steps"></a>További lépések
 * További kérdései vannak? [Kérdezze a Power BI-közösséget](http://community.powerbi.com/)
-* Továbbra is problémába ütközik? Látogasson el a [Power BI támogatási oldalára](https://powerbi.microsoft.com/support/)
+* Továbbra is problémába ütközik? Keresse fel a [Power BI támogatási oldalát](https://powerbi.microsoft.com/support/).
 

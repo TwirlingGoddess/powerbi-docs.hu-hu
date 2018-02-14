@@ -18,11 +18,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 11/19/2017
 ms.author: maghan
-ms.openlocfilehash: 99b6391dc48772e21dd64038699a3365225167eb
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: 78be1a631a167a3b32ecb7d884a3428dc6a362b0
+ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="embed-with-report-web-part-in-sharepoint-online"></a>Beágyazás jelentéskijelzővel a SharePoint Online-ban
 
@@ -98,12 +98,6 @@ A másik mód, amellyel hozzáférést adhat a felhasználóknak a jelentéshez,
 
 2. Ossza meg az irányítópultot azokkal a felhasználókkal, akiknek szükséges hozzáférniük a jelentéshez. További információ: [Irányítópult megosztása munkatársakkal és másokkal](service-share-dashboards.md)
 
-## <a name="allowing-free-users-access-to-reports"></a>Jelentésekhez való hozzáférés engedélyezése az ingyenes verzió felhasználói számára
-
-A SharePoint Online Power BI-kijelzőjébe ágyazott jelentéseket az ingyenes verzió felhasználói is megtekinthetik. Az ingyenes verzió felhasználóinak ugyanolyan módon adhat hozzáférést, mint a Pro verzió felhasználóinak, úgy, ahogy azt fentebb, a [Hozzáférés biztosítása a jelentésekhez](#granting-access-to-reports) szakaszban bemutattuk. A jelentést tartalmazó munkaterületnek Power BI Premium-kapacitással kell rendelkeznie. 
-
-Ha például a jelentés egy alkalmazás-munkaterületen van, akkor az alkalmazás-munkaterülethez Power BI Premium-kapacitást kell hozzárendelni. Továbbá, az ingyenes verzió felhasználóit hozzá kell adni a munkaterület tagjainak listájához.
-
 ## <a name="web-part-settings"></a>A jelentéskijelző beállításai
 
 Alább megtekintheti a SharePoint Online Power BI-kijelzőjének módosítható beállításait és azok leírását.
@@ -160,5 +154,5 @@ A probléma elhárításához lépjen kapcsolatba a SharePoint Online-oldal tula
 [Irányítópult megosztása munkatársakkal és másokkal](service-share-dashboards.md)  
 [Mi a Power BI Premium?](service-premium.md)  
 
-További kérdései vannak? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)
+További kérdései vannak? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/) 
 
