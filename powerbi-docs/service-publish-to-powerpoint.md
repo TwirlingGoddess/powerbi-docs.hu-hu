@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/22/2018
 ms.author: davidi
-ms.openlocfilehash: 4ca79e960bc0370789ee735ba6b5391cbb8b110f
-ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
+ms.openlocfilehash: 5ebfa2f54c26c0b4c3321120558e1cccb8bce146
+ms.sourcegitcommit: ed49510adee96042c02d6bdadbfcf8a2e566fbf8
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/13/2018
 ---
 # <a name="export-reports-from-power-bi-to-powerpoint-preview"></a>Jelentések exportálása a Power BI-ból a PowerPointba (előzetes verzió)
 A Power BI segítségével mostantól közzéteheti jelentését a **Microsoft PowerPointban**, és könnyedén létrehozhat bemutatót a Power BI-jelentés alapján. A **PowerPointba történő exportáláskor** a következő történik:
@@ -64,6 +64,8 @@ Amikor megnyitja a Power BI-ból exportált PowerPoint-fájlt, számos remek és
 1. A bemutató első oldalán a jelentés neve és egy hivatkozás látható, amelynek segítségével a bemutató alapjául szolgáló jelentést **megtekintheti a Power BI-ban**.
 2. Továbbá olyan hasznos információkat kap a jelentésről, mint például az exportált jelentés alapjául szolgáló *legutóbbi adatfrissítés* és a *letöltés ideje*, amely a Power BI-jelentés PowerPoint-fájlba történt exportálásának dátumát adja meg.
 3. A jelentés minden oldala külön dián jelenik meg, ahogy a bal oldali navigációs ablaktábla mutatja.
+4. A közzétett jelentést a Power BI a saját nyelvi beállításainak megfelelően, vagy a böngésző nyelve szerint rendereli. A nyelvi beállításokat megtekintheti vagy módosíthatja a fogaskerék ikon, majd a ![](media/service-report-subscribe/power-bi-settings-icon.png) **> Beállítások > Általános > Nyelv** lehetőség választásával. Nyelvi információk: [A Power BI által támogatott nyelvek és országok/régiók](supported-languages-countries-regions.md).
+5. A PowerPoint-bemutató tartalmaz egy címoldalt, amelyen megjelenik az exportált idő a megfelelő időzónában.
 
 Bármelyik önálló diára kattintva megfigyelheti, hogy minden egyes jelentésoldal külön kép.
 

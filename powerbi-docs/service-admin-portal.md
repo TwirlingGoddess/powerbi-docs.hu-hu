@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/02/2018
+ms.date: 02/06/2018
 ms.author: maghan
-ms.openlocfilehash: 36f2b591f53e7d9e930048cdedde114348466147
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: 7e19e37bf024ec30db58057de54e3039ed7b80b2
+ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="power-bi-admin-portal"></a>Power BI felügyeleti portál
 
@@ -40,7 +40,7 @@ A Power BI felügyeleti portál eléréséhez az adott fiókot **globális rends
 
 ![](media/service-admin-portal/powerbi-admin-settings.png)
 
-A portálon öt lap található. Ezek leírását az alábbiakban láthatja.
+A portálon hat lap található. Ezek leírását az alábbiakban láthatja.
 
 * [Használati metrikák](#usage-metrics)
 * [Felhasználók](#users)
@@ -48,6 +48,7 @@ A portálon öt lap található. Ezek leírását az alábbiakban láthatja.
 * [Bérlői beállítások](#tenant-settings)
 * [Premium-beállítások](#premium-settings)
 * [Beágyazási kódok](#embed-codes)
+* [Szervezeti vizualizációk](#Organization-visuals)
 
 ![](media/service-admin-portal/powerbi-admin-landing-page.png)
 
@@ -269,6 +270,46 @@ További információ a Premium-beállítások kezeléséről: [A Power BI Premi
 
 A rendszergazdák megnézhetik a bérlő számára generált beágyazási kódokat. Elérhetőek a jelentés megtekintésére, valamint a visszavonáshoz a beágyazási kód törlésére vonatkozó műveletek is.
 
+## <a name="organization-visuals"></a>Szervezeti vizualizációk
+
+A szervezeti vizualizációk lapon egyéni vizualizációkat helyezhet el és kezelhet a szervezetén belül, így könnyen alkalmazhat jogvédett egyéni vizualizációkat a szervezetében, amelyeket a jelentéskészítők könnyen megtalálhatnak és importálhatnak a jelentéseikbe közvetlenül a Power BI Desktopból.
+ 
+A lapon minden olyan egyéni vizualizáció megjelenik, amely jelenleg megtalálható a szervezet adattárában.
+ 
+![](media/service-admin-portal/power-bi-custom-visuals-organizational-admin-01.png)
+
+### <a name="add-a-new-custom-visual"></a>Új egyéni vizualizáció hozzáadása
+
+Új egyéni vizualizáció a listához adásához válassza az **Egyéni vizualizáció hozzáadása** lehetőséget
+
+![](media/service-admin-portal/power-bi-custom-visuals-organizational-admin-02.png)
+
+> [!WARNING]
+> Az egyéni vizualizációk biztonsági vagy adatvédelmi kockázatot jelentő kódokat tartalmazhatnak, ezért az adattárban való üzembe helyezés előtt ellenőrizze, hogy megbízható-e a vizualizáció szerzője és forrása.
+> 
+
+Töltse ki a mezőket:
+ 
+* Válasszon egy .pbiviz-fájlt (kötelező): Válasszon ki egy feltöltendő egyéni vizualizációs fájlt. Csak a verziószámmal ellátott API-s vizualizációk támogatottak (itt elolvashatja, ez mit jelent).
+Az egyéni vizualizációk feltöltése előtt át kell tekintenie a vizualizációt biztonsági és adatvédelmi szempontból, hogy biztosan megfeleljen a szervezet igényeinek. További információk az egyéni vizualizációk biztonságáról.
+ 
+* Nevezze el az egyéni vizualizációkat (kötelező): Adjon egy rövid címet a vizualizációnak, a Power BI Desktop felhasználói így könnyen megérthetik, mi annak a célja
+ 
+* Ikon (kötelező): A Power BI Desktop felhasználói felületén megjelenő ikonfájl.
+ 
+* Leírás: A vizualizáció rövid leírása, amely több információt szolgáltat a felhasználónak
+ 
+Az „Alkalmazás“ lehetőséggel kezdje meg a feltöltést. Ha ez sikeres, az új elem megjelenik a listában. Ha nem, egy ennek megfelelő hibaüzenet jelenik meg
+ 
+### <a name="delete-a-custom-visual-from-the-list"></a>Egyéni látványelem törlése a listából
+
+A kuka ikonnal végleg törölheti a vizualizációt az adattárból.
+Fontos: a törlés nem vonható vissza. A törölt vizualizációk azonnal abbahagyják a renderelést a meglévő jelentésekben. Ha újra feltölti a vizualizációt, az nem helyettesíti a törölt verziót, a felhasználóknak pedig újra importálniuk kell az új vizualizációt, és kicserélni azt a saját jelentésükben található példánnyal.
+ 
+### <a name="how-to-update-a-visual"></a>A vizualizációk frissítése
+
+Ha az adattárban szeretné frissíteni a vizualizációt, mert annak elérhető egy új verziója (például hibajavítás, új funkciók vagy egyebek), töltse fel az új fájlt (változatlan vizualizációazonosítóval) új listabejegyzésként, és a megfelelő részleteket írja be a címbe és a leírásba (például „Saját vizualizáció v2.0“). Amikor a felhasználók legközelebb belépnek a szervezeti adattárba a Power BI Desktopból, importálhatják az új verziót, amely kérni fogja őket, hogy cseréljék le a jelentés jelenlegi verzióját.
+ 
 ## <a name="next-steps"></a>Következő lépések
 
 [A Power BI rendszergazdai szerepkörének ismertetése](service-admin-role.md)  

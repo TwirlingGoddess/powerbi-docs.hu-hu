@@ -16,18 +16,18 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/08/2018
+ms.date: 02/03/2018
 ms.author: mihart
-ms.openlocfilehash: fc697437ff9f5fb6b8dd49f6513c728d1b8ddfeb
-ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
+ms.openlocfilehash: c5776ca5e038a8cab84ab4f225f67f6144afc722
+ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="subscribe-to-a-power-bi-report-or-dashboard"></a>Feliratkozás Power BI-jelentésre vagy irányítópultra
-Minden eddiginél egyszerűbb naprakésznek lenni a legfontosabb irányítópultokkal és jelentésekkel kapcsolatban. Feliratkozhat az Önnek leginkább fontos jelentésoldalakra és irányítópultokra, a Power BI pedig pillanatképeket küld e-mailben a postafiókjába. Megadhatja a Power BI-nak, hogy milyen gyakran szeretne ilyen e-mailt kapni: naponta egyszer, vagy csak hetente. Az e-mailben és a pillanatképben használt nyelv a Power BI beállításaiban adható meg. Ha nincs beállítva nyelv, a Power BI a böngésző aktuális nyelvi beállítását használja.
+Minden eddiginél egyszerűbb naprakésznek lenni a legfontosabb irányítópultokkal és jelentésekkel kapcsolatban. Feliratkozhat az Önnek leginkább fontos jelentésoldalakra és irányítópultokra, a Power BI pedig pillanatképeket küld e-mailben a postafiókjába. Megadhatja a Power BI-nak, hogy milyen gyakran szeretne ilyen e-mailt kapni: naponta egyszer, vagy csak hetente. 
 
-A nyelvi beállításokat megtekintheti vagy módosíthatja a fogaskerék ikon, majd a ![](media/service-report-subscribe/power-bi-settings-icon.png) **> Beállítások > Általános > Nyelv** lehetőség választásával.
+Az e-mail és a pillanatkép a Power BI beállításaiban szereplő nyelvet fogja használni (lásd [A Power BI által támogatott nyelvek és országok/régiók](supported-languages-countries-regions.md) témakört). Ha nincs megadva nyelv, a Power BI a böngésző területi beállításait használja. A nyelvi beállításokat megtekintheti vagy módosíthatja a fogaskerék ikon, majd a ![](media/service-report-subscribe/power-bi-settings-icon.png) **> Beállítások > Általános > Nyelv** lehetőség választásával. 
 
 ![](media/service-report-subscribe/power-bi-language.png)
 

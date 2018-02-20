@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/05/2017
+ms.date: 02/05/2018
 ms.author: maghan
-ms.openlocfilehash: eb2072b0beadf3f6f2cf702f35f56441bc38c7ff
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: b2e41884ca799ca07223a4b5444e39b38aa2102a
+ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="power-bi-premium---what-is-it"></a>Mit jelent a Power BI Premium?
 A Power BI Premium dedikált erőforrásokat biztosít cége vagy csapata számára a Power BI szolgáltatás futtatásához, megbízhatóbb teljesítményt biztosítva nagyobb mennyiségű adat kezeléséhez is. A Prémium szint lehetővé teszi a tartalom széles körű megosztását anélkül, hogy a megtekintők számára felhasználónkénti licenceket kellene vásárolnia.
@@ -46,7 +46,7 @@ A Power BI-ban két típusú kapacitás létezik. Az egyik a Megosztott kapacit�
 | Beágyazott API-k és vezérlők |![](media/service-premium/not-available.png "Nem érhető el") |![](media/service-premium/available.png "Elérhető")<sup>2</sup> |
 | **Power BI-jelentések helyszíni közzététele** |![](media/service-premium/not-available.png "Nem érhető el") |![](media/service-premium/available.png "Elérhető") |
 
-*<sup>1</sup> A felhasználók szabadon használhatják az alkalmazásokat, így lehetőségük van többek között a tartalmak megtekintésére (weben vagy mobileszközön), a Q&A használatára, gyors elemzések végrehajtására, a Cortana használatára, valamint az adatok CSV-be, Excel-be és PowerPointba exportálására.*  
+*<sup>1</sup> A felhasználók szabadon használhatják az alkalmazásokat, így lehetőségük van többek között a tartalmak megtekintésére weben vagy mobileszközön, a Q&A használatára, gyors elemzések végrehajtására, a Cortana használatára, valamint az adatok CSV-be, Excel-be és PowerPointba exportálására. Pro-licenc szükséges az itt fel nem sorolt tevékenységekhez, például megosztott adatkészletekre épülő jelentések létrehozásához és az Excelben való elemezéshez. További információ a [Power BI ingyenes és Pro verziókban](service-free-vs-pro.md) elérhető funkciókról.*  
 *<sup>2</sup> A Power BI Premium általános elérhetőségét követően további fejlesztések várhatók.*
 
 ### <a name="premium-capacity"></a>Prémium-kapacitás

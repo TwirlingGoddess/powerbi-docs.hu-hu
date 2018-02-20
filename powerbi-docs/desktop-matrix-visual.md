@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/24/2018
+ms.date: 02/05/2018
 ms.author: davidi
-ms.openlocfilehash: ff29fa49cc3ad1a57ae0d09596b6e0d086b4d349
-ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
+ms.openlocfilehash: 0056fe1d5a2881f1415fe5889ab563a27bb8648d
+ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="use-the-matrix-visual-in-power-bi-desktop"></a>A Mátrix vizualizáció használata a Power BI Desktopban
 A **Mátrix** vizualizációval mátrixvizualizációkat (más néven *táblákat*) hozhat létre a **Power BI Desktop** jelentéseiben, és egyéb vizualizációk mellett keresztkiemelést alkalmazhat a mátrix elemei között. Továbbá kiválaszthat sorokat, oszlopokat vagy egyetlen cellát is, és keresztkiemeléssel láthatja el őket. Végül az elrendezési terület jobb kihasználásának érdekében, a mátrixvizualizáció támogatja a lépcsőzetes elrendezést.
@@ -34,6 +34,19 @@ A mátrix számos funkcióval rendelkezik, amelyeket a cikk következő szakasza
 > A **Power BI Desktop** 2017 júliusi kiadása óta a mátrix- és táblavizualizációk az alkalmazott **Jelentési téma** stílusát tükrözik (beleértve a színeket is). Előfordulhat, hogy nem ezeket a színeket szeretné használni a mátrixvizualizációban. Ezt a **Jelentési téma** konfigurációjában módosíthatja. A témákról szóló további információkért tekintse meg a [**jelentési témák a Power BI Desktopban történő használatát**](desktop-report-themes.md) ismertető szakaszt.
 > 
 > 
+
+## <a name="understanding-how-power-bi-calculates-totals"></a>Hogyan számítja ki a Power BI az összegeket?
+
+A **Mátrix** vizualizáció használatának ismertetése előtt fontos megérteni, hogy a Power BI hogyan számítja ki a táblázatok és mátrixok összegeit és részösszegeit. Az összegeket és részösszegeket tartalmazó sorok esetén a mögöttes adatok összes sorának mértéke adja az összeget, *nem* csak a látható vagy megjelenített sorok értékeinek összege. Ez azt jelenti, hogy az összeget tartalmazó sorban a várttól eltérő értékek szerepelhetnek. 
+
+Tekintse meg az alábbi **Mátrix** vizualizációkat. 
+
+![](media/desktop-matrix-visual/matrix-visual_3.png)
+
+Ebben a példában a jobb szélső **Mátrix** vizualizáció minden sora az egyes értékesítő/dátum kombinációk *összegét* mutatja. Azonban mivel egy értékesítő több dátummal együtt is szerepel, a számok többször is előfordulhatnak. A mögöttes adatok pontos formája, valamint a látható adatok egyszerű összeadása így nem felel meg egymásnak. Ez egy gyakori trend akkor, ha az összegzett érték egy egy-a-többhöz kapcsolat egyéni oldalán áll.
+
+Az összegek és a részösszegek megtekintésekor vegye figyelembe, hogy ezek az értékek a mögöttes adatokon alapulnak, és nem kizárólag a látható értékeken. 
+
 
 ## <a name="using-drill-down-with-the-matrix-visual"></a>Lehatolás használata a Mátrix vizualizációval
 A **Mátrix** vizualizációval számos érdekes, korábban nem elérhető lehatolási tevékenység hajtható végre. Például a lehatolás sorok, oszlopok vagy külön szakaszok és cellák használatával. Vessünk egy pillantást ezek működésére.
@@ -144,16 +157,12 @@ Bármelyik módszerrel ugyanaz az eredmény érhető el. A *Speciális vezérlő
 
 ![](media/desktop-matrix-visual/matrix-visual_19.png)
 
-## <a name="limitations-and-considerations"></a>Korlátozások és szempontok
-A **Mátrix** vizualizáció jelenlegi kiadásában figyelembe kell venni néhány korlátozást és szempontot.
+## <a name="next-steps"></a>Következő lépések
 
-* Az oszlopok részletezése csak a helyi menü használatával érhető el, és jelenleg semmi nem jelzi a vizualizációban, hogy részletesen megvizsgálhatná a sor- vagy oszlopcsoportokat.
-* Egy szint elemeit csak egyszerre bonthatja ki, egyszerre egy kategória kibontása helyett.
-* Előfordulhat, hogy a **Rekordok megjelenítése** megjelenik egy menün, ha a jobb gombbal az oszlopfejlécekre kattint, de nem működőképes.
-* Jelenleg nincs *Végösszeg* sor.
-* A részösszeg oszlop kikapcsolásának a lépcsőzetes elrendezésben nincs semmilyen hatása.
-* Előfordulhat, hogy az oszlopfejlécek csonkolva lesznek, ha a belső csoportok rövidebb szöveggel rendelkeznek, mint a külső csoportok.
-* A lépcsőzetes elrendezés behúzásának módosítása nem húzza be a legkülső sor csoportjának behúzását.
+Az alábbi cikkeket is érdekesnek találhatja:
 
-Készséggel meghallgatjuk javaslatait. Jelenleg **felmérést** végzünk erről a **Mátrix** vizualizációról, ha van pár perce, kérjük, [töltse ki a kérdőívet](https://www.instant.ly/s/PYXT1).
+* [Rácsvonalak és rácshoz illesztés használata Power BI Desktop-jelentésekben](desktop-gridlines-snap-to-grid.md)
+* [Adatforrások a Power BI Desktopban](desktop-data-sources.md)
+* [Adattípusok a Power BI Desktopban](desktop-data-types.md)
 
+ 

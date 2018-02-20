@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/23/2018
+ms.date: 02/05/2018
 ms.author: davidi
-ms.openlocfilehash: 2832849d887795c2af0750f01e929045f75c12fe
-ms.sourcegitcommit: 1a5446c3136dc0787f2a1d5b8cad1113704301ba
+ms.openlocfilehash: 2d82817b5dc29cf9764b5b3645c0409f1bfd80a8
+ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 01/24/2018
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="power-bi-for-us-government-customers"></a>Power BI az USA kormányzati ügyfelei számára
 A **Power BI szolgáltatás** külön verziója érhető el az USA kormányzati ügyfeleinek az **egyesült államokbeli Office 365-közösségi** előfizetések részeként. A jelen cikkben a **Power BI szolgáltatás** kifejezetten az USA kormányzati ügyfeleinek készült verzióját tárgyaljuk, amely elkülönül és különbözik a **Power BI szolgáltatás** kereskedelmi verziójától.
@@ -63,6 +63,7 @@ A **Power BI szolgáltatás** kereskedelmi verziójában elérhető egyes funkci
 * A **Power BI US Government** csak **Pro licenccel** érhető el. Felügyeleti portálon (vagy felhasználók által) Power BI (ingyenes) licencre tett bármilyen hivatkozás egy kereskedelmi Power BI szolgáltatásfelhőben fut.
 * **Naplózás** – Nem érhető el a naplózás az Office 365 Biztonsági és Megfelelőségi portálján.
 * **Power BI-tartalom Cortanával** – A Power BI-eredmények nem jelennek meg a Cortanával végzett olyan keresések eredményeiben, amelyek a Power BI-tartalmakra (irányítópultok, jelentések és alkalmazások) vonatkoznak, valamint olyan eredményekben, amelyek meghatározott kulcsszavakhoz tartozó, Cortanára optimalizált jelentésoldalakat tartalmaznak.
+* **Külső felhasználói megosztás** – A megosztás csak a Power BI-bérlőn belül lehetséges, ezen kívüli megosztás nem lehetséges.
 
 Ha fiókjához **Power BI** ingyenes licencek vannak társítva, akkor a fiók a **Power BI** szolgáltatás kereskedelmi verzióját futtatja, és nem tartozik a **Power BI US Government** ajánlat hatálya alá. Ilyen ingyenes fiók esetén a következő problémákba ütközhet:
 

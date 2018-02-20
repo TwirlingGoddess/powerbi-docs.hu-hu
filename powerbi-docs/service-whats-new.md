@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/01/2017
-ms.author: sirsu
-ms.openlocfilehash: 87233cfe4290546478899d81d7a39714c75963eb
-ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
+ms.date: 02/07/2018
+ms.author: nikhilga
+ms.openlocfilehash: b60e883d1f5c143270c52bd3ae8a7100593a7dfe
+ms.sourcegitcommit: ad9bd4e52471b1179f46f847960d5ed79c0c0761
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 02/11/2018
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>A Power BI szolgáltatás újdonságai
 Ezen az oldalon a **Power BI szolgáltatás** ismert problémáit és új funkcióit ismertetjük. Kapcsolódó "Újdonságok" az alábbi helyeken találhatók:
@@ -35,6 +35,23 @@ Az újdonságokról és a funkciókról az alábbi YouTube-csatornákon is táj�
 * [Microsoft Power BI (YouTube)](https://www.youtube.com/channel/UCy--PYvwBwAeuYaR8JLmrfg)
 * [Guy in a Cube (YouTube)](https://www.youtube.com/channel/UCFp1vaKzpfvoGai0vE5VJ0w)
 
+## <a name="january-2018"></a>2018. január
+*   Power BI-jelentések megosztása és kedvencnek jelölése.
+*   Az OAuth2 és a DirectQuery egyszeri bejelentkezésének támogatása az Azure SQL Database és a Data Warehouse számára.
+*   Régión belüli naplózás: a naplók mostantól a bérlővel megegyező Office 365-régióban vannak tárolva.
+*   Általánosan elérhető a SharePoint Online [Power BI-jelentés kijelzője](https://go.microsoft.com/fwlink/p/?LinkId=825698).
+*   Rendszergazdai vezérlés az egyéni vizualizációk a bérlő minden felhasználója számára való megtekintésének kikapcsolásához.
+*   Ütemezett frissítéstámogatás az Azure Analysis Serviceshez (AAS).
+
+## <a name="previous-months-2017"></a>Korábbi hónapok (2017)
+## <a name="october-and-november-2017"></a>2017. október és november
+*   A [Power BI-alkalmazásokat](https://docs.microsoft.com/en-us/power-bi/service-create-distribute-apps) használó tartalmak szelektív közzététele.
+*   A külső felhasználók elosztása az [Azure Active Directory B2B](https://powerbi.microsoft.com/en-us/blog/power-bi-expands-access-to-intelligence-for-external-guest-users/preview/) használatával.
+* Mesterséges intelligenciát használó alkalmazásjavaslatok.
+* Irányítópult-csempéken megjelenő felhasználói felületi frissítések.
+* E-mail-előfizetések támogatása az alkalmazásokhoz. 
+* Részletes felügyeleti vezérlés a [webes közzétételhez](https://docs.microsoft.com/en-us/power-bi/service-admin-portal#export-and-sharing-settings).
+
 ## <a name="september-2017"></a>2017. szeptember
 * Ingyenes felhasználókkal megosztható irányítópultok a Premiummal.
 * Kapacitások lefoglalása az üzleti igényeknek megfelelően a virtuális magok készletezésével.
@@ -42,7 +59,6 @@ Az újdonságokról és a funkciókról az alábbi YouTube-csatornákon is táj�
 * [PubNub-blokk](https://www.pubnub.com/docs/blocks-catalog/power-bi-realtime-dashboards) az adatok REST API-kba történő egyszerű leküldéséhez.
 * Továbbfejlesztett töltési teljesítmény a [használati metrikákhoz](service-usage-metrics.md).
 
-## <a name="previous-months-2017"></a>Korábbi hónapok (2017)
 ### <a name="august-2017"></a>2017. augusztus
 * Ismerje meg a célközönségét a [felhasználónkénti használati metrikákkal](https://powerbi.microsoft.com/blog/introducing-per-user-usage-metrics-know-your-audience-and-amplify-your-impact/).
 * A [Power BI](service-connect-to-services.md) online szolgáltatásokhoz készült alkalmazásainak használatbavétele.

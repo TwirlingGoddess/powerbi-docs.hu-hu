@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/24/2018
+ms.date: 02/05/2018
 ms.author: davidi
-ms.openlocfilehash: 0d6d66016663ed0e12d8f3da854ec1e9f7da7eae
-ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
+ms.openlocfilehash: ceccf00879d3ac17f907f5dce296bb03bb0227d2
+ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="using-directquery-in-power-bi"></a>DirectQuery használata a Power BI-ban
 Számos különböző adatforrást kapcsolhat össze a **Power BI Desktop** vagy a **Power BI szolgáltatás** használatával, és ezeket az adatkapcsolatokat többféleképpen is létrehozhatja. *Importálhat* adatokat a Power BI-ba, ez az adatok lekérésének leggyakoribb módja, vagy közvetlenül is csatlakozhat az eredeti forrásadattárukban lévő adatokhoz, ez az eljárás **DirectQuery** néven ismert. Ez a cikk a **DirectQuery** szolgáltatást és annak képességeit mutatja be, az alábbi témaköröket beleértve:
@@ -269,14 +269,21 @@ Modellek meghatározásakor fontolja meg az alábbiakat:
 ### <a name="report-design-guidance"></a>Jelentéstervezési útmutatás
 DirectQuery-kapcsolat használatával történő jelentéskészítéskor tartsa be a következő útmutatást:
 
+* **Fontolja meg a lekérdezések csökkentésének lehetőségét:** A Power BI-ban beállítható, hogy a jelentések kevesebb számú lekérdezést küldjenek, és letiltható néhány olyan interakció is, amelynek a végrehajtása hosszú időt igényel, és így negatívan befolyásolhatja a felhasználói élményt. A **Power BI Desktopban** ezeket a beállításokat a **Fájl > Lehetőségek és beállítások > Beállítások** menüpont alatt a **Lekérdezések csökkentése** lehetőségnél találja meg. 
+
+   ![](media/desktop-directquery-about/directquery-about_03b.png)
+
+    A **Lekérdezések csökkentése** területen lehetősége van letiltani a keresztkiemeléseket a teljes jelentésre vonatkozóan. Ezen kívül megjeleníthető egy *Alkalmaz* gomb is a szeletelők és/vagy a szűrők kiválasztásánál, ami lehetővé teszi, hogy még az alkalmazás előtt kiválasszon több szeletelőt vagy szűrőt, ez pedig azt eredményezi, hogy addig nem történik lekérdezés, amíg nem kattint az **Alkalmaz** gombra a szeletelőnél. Ezt követően a szeletelőkkel elvégezhető az adatszűrés.
+
+    Ezek a beállítások érvényesek a jelentésre a **Power BI Desktop** használatánál, valamint akkor is, ha a felhasználók a **Power BI szolgáltatásban** használják a jelentést.
+
 * **Először alkalmazza a szűrőket:** A vonatkozó szűrőket mindig alkalmazza a vizualizáció létrehozásának legelején. Például ahelyett, hogy behúzná a TotalSalesAmount és ProductName oszlopokat, majd rászűrne egy adott évre, alkalmazza az év szerinti szűrést rögtön a legelején. Ez azért fontos, mert a vizualizációk létrehozásának minden lépése elküld egy lekérdezést, és lehet ugyan módosításokat végezni az első lekérdezés teljesítése után is, de ez csak feleslegesen terheli az alapul szolgáló forrást. A szűrők korai alkalmazása általában csökkenti a közbeeső lekérdezések költségeit. Emellett a szűrők korai alkalmazásának elmulasztása esetén átlépheti a fentebb említett egymillió soros határértéket.
 * **Korlátozza az egy oldalon található vizualizációk számát:** Az oldalak megnyitásakor (vagy valamilyen oldalszintű szeletelő vagy szűrő módosításakor) az oldal összes vizualizációja frissül. Korlátozva van a párhuzamosan elküldhető lekérdezések száma is, így ahogy a vizualizációk száma növekszik, egyes vizualizációk csak egymás után frissülnek, ami növeli az egész oldal frissítéséhez szükséges időt. Emiatt ajánlott korlátozni az egy oldalon található vizualizációk számát, és ehelyett több, egyszerűbb oldalt készíteni.
 * **Vegye fontolóra a vizualizációk közti interakció kikapcsolását:** Alapértelmezés szerint a jelentések oldalain található vizualizációk használhatók az adott oldalon található többi vizualizáció keresztszűrésére és keresztkiemelésére. Ha például a kördiagramon kiválasztja „1999”-et, az oszlopdiagramon keresztkiemeléssel jelennek meg az „1999”-re vonatkozó értékesítések, kategóriák szerint.                                                                  
   
   ![](media/desktop-directquery-about/directquery-about_04.png)
   
-  Ezt az interakciót az [ebben a cikkben](service-reports-visual-interactions.md) leírt módon lehet irányítani. A DirectQueryben az ilyen keresztszűréshez és keresztkiemeléshez lekérdezéseket kell küldeni az alapul szolgáló forrás felé, ezért érdemes az interakciót kikapcsolni, ha túl hosszú lenne az az idő, amíg a rendszer reagál a felhasználók kiválasztásaira.
-* **Fontolja meg, hogy csak a jelentést osztja meg:** A tartalmak megosztásának több módja is van a **Power BI szolgáltatásba** való közzétételt követően. A DirectQuery esetében ajánlott csak az elkészült jelentést megosztani, ahelyett, hogy engedélyezzük más felhasználók számára új jelentések készítését (amelyek potenciális teljesítményproblémákat okozhatnak a létrehozott vizualizációk miatt).
+  A DirectQueryben az ilyen keresztszűréshez és keresztkiemeléshez lekérdezéseket kell küldeni az alapul szolgáló forrás felé, ezért érdemes az interakciót kikapcsolni, ha túl hosszú lenne az az idő, amíg a rendszer reagál a felhasználók kiválasztásaira. Ez az interakció azonban ki is kapcsolható akár a teljes jelentésre vonatkozóan (lásd fentebb a *Lekérdezések csökkentésének beállításánál*), vagy külön-külön is az [ebben a cikkben](service-reports-visual-interactions.md) leírtak alapján.
 
 A fenti javaslatok mellett vegye figyelembe, hogy a következő jelentéskészítési funkciók is okozhatnak teljesítményproblémákat:
 
@@ -294,6 +301,8 @@ A fenti javaslatok mellett vegye figyelembe, hogy a következő jelentéskészí
 * **Középérték:** Általában a rendszer minden összesítést (Összeg, Eltérők darabszáma stb.) elküld az alapul szolgáló forrásnak. Ez azonban nem igaz a Középérték esetében, mivel ezt az összesítést az alapul szolgáló források általában nem támogatják. Ezekben az esetekben a Power BI részletadatokat kérdez le az alapul szolgáló forrástól, és ezek visszaadott eredményei alapján számítja ki a középértéket. Ez megfelelő megoldás lehet, ha viszonylag kis számú eredmény mediánját kell kiszámolni, de teljesítményproblémákat okozhat, ha a számosság nagy (vagy sikertelen lekérdezéseket az 1 milliós határérték miatt).  Például egy megye lakosságának mediánját jól ki lehet számolni, de az értékesítési árak mediánját már nem biztos.
 * **Speciális szövegszűrők („tartalmaz” és hasonlók):** Egy szöveges oszlop szűrésekor a speciális szűrők között megtalálhatók a „tartalmaz”, „kezdődik” és hasonló szűrők. Ezek teljesítménycsökkenést okozhatnak bizonyos adatforrások esetében. Konkrétan a „tartalmaz” szűrőt nem szabad használni, ha valóban pontos találatokra van szükség („egyezik” vagy „nem egyezik”). Bár az eredmények ugyanazok lehetnek, a konkrét adatoktól függően a teljesítményben komoly különbségek mutatkozhatnak az indexek használata miatt.
 * **Többszörös kijelölés szeletelőkben:** Alapértelmezés szerint a szeletelők csak egyetlen kijelölést engedélyeznek. A szűrők között a többszörös kijelölés engedélyezése teljesítményproblémákat okozhat, mivel ahogy a felhasználó kiválaszt néhány elemet a szeletelőből (például tíz terméket, ami érdekli), minden egyes új kijelöléssel új lekérdezések történnek a háttérrendszeri forrás felé. Bár a felhasználó még a lekérdezés teljesítése előtt kijelölheti a következő elemet, de ez így is felesleges terhelést okoz az alapul szolgáló forráson.
+
+* **Fontolja meg az összegzések kikapcsolását a vizualizációknál:** A táblázatok és mátrixok alapbeállítás szerint összeget és részösszeget is megjelenítenek. Ezeknek az eredményeknek e lekérdezéséhez azonban sok esetben külön lekérdezést kell küldeni az alapul szolgáló adatkészlethez. Ez történik minden olyan esetben, amikor *DistinctCount* összesítést használ, illetve ha az SAP BW-re vagy az SAP HANA-ra irányuló DirectQueryt használ. Ha nincs szüksége rá, ezeket az összegzéseket ajánlatos kikapcsolni (a **Formázás** panel használatával). 
 
 ### <a name="diagnosing-performance-issues"></a>Teljesítményproblémák diagnosztizálása
 Ez a szakasz leírja, hogyan diagnosztizálhatja a teljesítményproblémákat, vagy hogyan kérhet le részletesebb információkat, amelyek lehetővé teszik a jelentések optimalizálását.

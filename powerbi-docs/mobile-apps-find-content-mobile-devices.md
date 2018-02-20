@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/04/2018
+ms.date: 02/06/2018
 ms.author: maggies
-ms.openlocfilehash: d63ef5ad9ee59901917fb9bf9c28358c9aa542e8
-ms.sourcegitcommit: 25489cf87c31fc107a5337fa1dd36506897c4bbb
+ms.openlocfilehash: 23a3fc38b1cf284f79b3515b25ec0396b79fb267
+ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 01/05/2018
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="find-your-dashboards-reports-and-apps-in-the-power-bi-mobile-apps"></a>Az irányítópultok, jelentések és alkalmazások megkeresése a Power BI mobilalkalmazásokban
 A következőkre vonatkozik:
@@ -41,7 +41,11 @@ Az irányítópultok, jelentéseket és alkalmazások különböző helyeken van
 5. [Munkaterületek](mobile-apps-find-content-mobile-devices.md#5-workspaces)
 
 ## <a name="1-favorites"></a>1 Kedvencek
-A legtöbbször megtekintett irányítópultokat és alkalmazásokat kedvencekként megjelölve egy helyre gyűjtheti. További információ a [kedvencekről a Power BI mobilalkalmazásokban](mobile-apps-favorites.md).
+A legtöbbször megtekintett irányítópultokat, jelentéseket és alkalmazásokat kedvencekként megjelölve egy helyre gyűjtheti. 
+
+![Kedvencek a Power BI-mobilalkalmazásokban](media/mobile-apps-find-content-mobile-devices/power-bi-android-favorites-reports.png)
+
+További információ a [kedvencekről a Power BI-mobilalkalmazásokban](mobile-apps-favorites.md).
 
 ## <a name="2-report-servers"></a>2 Jelentéskiszolgálók
 Csatlakozhat egy vagy több helyszíni Power BI jelentéskészítő kiszolgálóhoz vagy SQL Server Reporting Services kiszolgálóhoz. Ha így van, a kiszolgálón lévő KPI-k, Power BI-jelentések és tördelt jelentések itt jelennek meg. Ha valamelyiket kedvencként jelölte meg a kiszolgálón, az a Kedvencek listában is megjelenik. További információ a [helyszíni KPI-k és jelentések megtekintéséről a Power BI mobilalkalmazásokban](mobile-app-ssrs-kpis-mobile-on-premises-reports.md).
@@ -65,9 +69,9 @@ A Power BI mobilalkalmazásokban megtekintheti a már telepített összes alkalm
 A Power BI szolgáltatásban használhatja a Microsoft AppSource-t más alkalmazások megkereséséhez, a Power BI mobilalkalmazásokban azonban nem. 
 
 ## <a name="4-shared-with-me"></a>4 Velem megosztva
-Itt találja a munkatársai által Önnel megosztott irányítópultokat. A találatokat szűrheti az irányítópult tulajdonosa alapján, vagy rákereshet a kívánt irányítópultra. A gyakran meglátogatott megosztott tartalmakat megjelölheti kedvencekként közvetlenül a **Velem megosztva** területen, a három pontra (...) koppintva.
+Itt találja a munkatársai által Önnel megosztott irányítópultokat és jelentéseket. A találatokat szűrheti a tulajdonos alapján, vagy rákereshet a kívánt elemre. A gyakran meglátogatott megosztott tartalmakat megjelölheti kedvencekként közvetlenül a **Velem megosztva** területen, a három pontra (**...**) koppintva.
 
-![Power BI – új navigáció](media/mobile-apps-find-content-mobile-devices/power-bi-mobile-shared-with-me-fave.png)
+![Power BI Velem megosztva](media/mobile-apps-find-content-mobile-devices/power-bi-android-shared-fave.png)
 
 ## <a name="5-workspaces"></a>5 Munkaterületek
 Ezek átmeneti környezetek (más néven *alkalmazás-munkaterületek*) a Power BI szolgáltatásban ([https://powerbi.com](https://powerbi.com)), ahol együttműködhet a munkatársaival az irányítópultok és jelentések gyűjteményének létrehozása érdekében. Ezután *alkalmazásként* terjesztheti a gyűjteményt. 

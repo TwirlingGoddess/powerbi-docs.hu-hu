@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/24/2018
+ms.date: 02/05/2018
 ms.author: davidi
-ms.openlocfilehash: cee6cd859507105b7fc0c7e7075478d3a876f7bb
-ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
+ms.openlocfilehash: 6d63236254906619f7244db9f57af162a19a70d6
+ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="use-the-numeric-range-slicer-in-power-bi-desktop"></a>A numerikustartomány-szeletelő használata a Power BI Desktopban
 A **numerikustartomány-szeletelővel** számos különféle szűrőt alkalmazhat az adatmodellek bármely numerikus oszlopára. Választhat, hogy számok **között**, egy számnál **kisebb vagy egyenlő** vagy egy számnál **nagyobb vagy egyenlő** értékekre szűr. Egyszerűnek tűnik, de nagyon hatékony módja az adatok szűrésének.
@@ -56,6 +56,11 @@ Amikor a **Kisebb vagy egyenlő** lehetőséget választja, eltűnik a csúszkas
 Végül ha a **Nagyobb vagy egyenlő** lehetőséget választjuk, a csúszkasáv jobb oldali (legmagasabb értékhez tartozó) fogója tűnik el, és az alacsonyabb értéket módosíthatjuk a következő képen látható módon. Most csak a 750,56-nál nagyobb vagy azzal egyenlő *UnitPrice* értékek jelennek meg a jelentésoldal vizualizációiban.
 
 ![](media/desktop-slicer-numeric-range/slicer-numeric-range_7.png)
+
+## <a name="snap-to-whole-numbers-with-the-numeric-range-slicer-preview"></a>Egész számhoz illeszkedés a numerikus szeletelőnél (előzetes verzió)
+
+A **Power BI Desktop** 2018. februári kiadásától kezdve a numerikus szeletelő egész számokhoz illeszkedik. Ezzel lehetővé válik, hogy a szeletelőn egyszerűen válasszon ki egész számokat. Az egész számhoz illeszkedés nem vonatkozik a tizedes szűrőkre.
+
 
 ## <a name="limitations-and-considerations"></a>Korlátozások és szempontok
 Jelenleg a következő korlátozások és szempontok érvényesek a **numerikustartomány-szeletelőre**

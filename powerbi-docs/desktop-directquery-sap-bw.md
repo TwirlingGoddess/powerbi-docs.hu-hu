@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/24/2018
+ms.date: 02/05/2018
 ms.author: davidi
-ms.openlocfilehash: 10557146b0b640450779049a30dd8f394686f57a
-ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
+ms.openlocfilehash: 8abb327181af031df508f0629cbc09053a9a7927
+ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="directquery-and-sap-business-warehouse-bw"></a>DirectQuery és SAP Business Warehouse (BW)
 Az **SAP Business Warehouse- (BW-)** adatforrásokhoz közvetlenül kapcsolódhat a **DirectQuery** használatával. Az SAP BW OLAP/többdimenziós természeténél fogva számos különbség van aközött, ha a DirectQueryt az SAP BW-vel használjuk, vagy ha valamilyen relációs forrással, például az SQL Serverrel. A különbségeket a következőképpen lehet összefoglalni:
@@ -74,13 +74,9 @@ A következő táblázat felsorolja az SAP BW összes olyan funkcióját, amelye
 | Attribútumok |A Power BI-ban a jellemzők attribútumai nem érhetők el. |
 | Végfelhasználói nyelvi beállítások |Az SAP BW-ben használt területi beállítás a kapcsolat részleteitől függ, és nem tükrözi a végfelhasználó által használt területi beállításokat. |
 | Szöveges változók |Az SAP BW lehetővé teszi, hogy a változók helyőrzőket tartalmazzanak (pl.: „$ÉV$. évi adatok”), amelyeket aztán a kiválasztott érték helyettesít. Például a mező a BEX-eszközökben „2016. évi adatok” néven jelenik meg, ha a változóhoz a 2016-os év lett kiválasztva. <br/> <br/> A Power BI-ban az oszlop neve nem változik a változó értékét tükrözve, hanem „$ÉV$. évi adatok” néven jelenik meg.  Azonban az oszlopnév a Power BI-ban módosítható. |
+| Ügyfélkilépési változók | A nyilvános API nem mutatja meg az ügyfélkilépési változót, így az a Power BI-ban nincs támogatva. |
+| Jellemző struktúrák | Az alapul szolgáló SAP BW forrás minden Jellemző struktúrája a Power BI-ban megjelenített mértékek „robbanásához” vezet. Ha például a Sales (értékesítések) és a Costs (költségek) mérték van jelen, valamint egy olyan jellemző struktúra, amely a Budget (előirányzat) és az Actual (tényleges) elemeket tartalmazza, akkor négy mérték lesz közzétéve: Sales.Budget, Sales.Actual, Costs.Budget és Costs.Actual. |
 
-## <a name="limitations-and-considerations"></a>Korlátozások és szempontok
-A következő táblázat az SAP BW-összekötő bétaverziós kiadásának korlátozásait ismerteti.
-
-| Korlátozás | Leírás |
-| --- | --- |
-| Nincs frissítés |A Frissítés gomb le van tiltva, így a vizualizációs és metaadatok nem frissíthetők. |
 
 ## <a name="next-steps"></a>Következő lépések
 Ha többet szeretne megtudni a DirectQueryről, tekintse át a következő forrásanyagokat:

@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/16/2018
+ms.date: 02/09/2018
 ms.author: maggies
-ms.openlocfilehash: 9ed87e17d617e7492287f3f0d0c54da1c21b3a53
-ms.sourcegitcommit: 259d7689bcb1683d4d63a245a9b02becea072139
+ms.openlocfilehash: 3ce4aa6117f5c3267f821af765d6b70fcb7eacd9
+ms.sourcegitcommit: ad9bd4e52471b1179f46f847960d5ed79c0c0761
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 02/11/2018
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>A Power BI mobilalkalmazásainak újdonságai
 Az újdonságokra vonatkozó kapcsolódó információk:
@@ -29,6 +29,24 @@ Az újdonságokra vonatkozó kapcsolódó információk:
 * [A Power BI csapatának blogja a mobilalkalmazásokról](https://powerbi.microsoft.com/blog/tag/mobile/)
 * [A Power BI Desktop újdonságai](desktop-latest-update.md)  
 * [A Power BI szolgáltatás újdonságai](service-whats-new.md)  
+
+## <a name="january-2018"></a>2018. január
+
+### <a name="report-favorites"></a>Jelentések kedvencekként
+
+A jelentéseket megjelölheti kedvencekként, így azok megjelennek a **Kedvencek** lapon. További információ a [kedvencekről a Power BI-mobilalkalmazásokban](mobile-apps-favorites.md).
+
+### <a name="view-shared-reports"></a>Megosztott jelentések megtekintése
+
+Mostantól ha valaki megoszt Önnel egy jelentést, az megjelenik a **Velem megosztva** lapon az irányítópultokkal együtt.
+
+### <a name="improved-hyperlink-support"></a>Továbbfejlesztett hivatkozástámogatás
+
+Mostantól az egyéni vizualizációk hivatkozásaira koppintva megnyithatja őket a mobilböngészőjében.
+
+### <a name="intune-integration-android"></a>Intune-integráció (Android)
+
+A feltételes hozzáférés támogatása az Intune mobileszköz-kezelésével.
 
 ## <a name="december-2017"></a>2017. december
 

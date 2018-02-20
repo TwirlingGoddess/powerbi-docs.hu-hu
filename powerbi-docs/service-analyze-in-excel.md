@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 02/05/2018
 ms.author: davidi
-ms.openlocfilehash: 742dcb64e5cec152ee105cbcdfe023788d209a04
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+ms.openlocfilehash: 262245dab44ae904b51d6cb1449082171631dc09
+ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="analyze-in-excel"></a>Elemzés az Excelben
 Előfordulhat, hogy az Excel használatával szeretne megnézni és kezelni egy Power BI-adatkészletet. Az **Elemzés az Excelben** funkció segítségével pontosan ezt teheti meg, valamit elérheti az Excel kimutatás-, diagram- és szeletelő funkcióit a Power BI-ban létező adatkészletre vonatkozóan.
@@ -32,6 +32,7 @@ Az **Elemzés az Excelben** funkció használatának van néhány követelménye
 * Az **Elemzés az Excelben** funkciót a Microsoft Excel 2010 SP1 és újabb változatai támogatják.
 * Az Excel-kimutatások nem támogatják a numerikus mezők áthúzással való összevonását. A Power BI-adatkészletnek *rendelkeznie kell előre meghatározott mértékekkel*.
 * Egyes cégeknél olyan csoportházirendek lehetnek érvényben, amelyek megakadályozzák az **Elemzés az Excelben** funkció használatához szükséges Excel-frissítések telepítését. Ha nem tudja telepíteni ezeket a frissítéseket, forduljon a rendszergazdájához.
+* Az **Excelben való elemzéshez** Pro-licenc szükséges. Az ingyenes és a Pro-licencek közötti különbségekről további információt talál a [Power BI ingyenes és Pro verziója közötti különbségek](service-free-vs-pro.md) című témakörben. 
 
 ## <a name="how-does-it-work"></a>Hogyan működik?
 Amikor a **Power BI**-ban egy adatkészlet vagy jelentés három pont (...) menüjéből kiválasztja az **Elemzés az Excelben** lehetőséget, a Power BI létrehoz egy .ODC-fájlt, és letölti azt a böngészőből a számítógépre.

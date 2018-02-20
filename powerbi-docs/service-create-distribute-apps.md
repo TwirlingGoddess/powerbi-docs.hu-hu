@@ -14,13 +14,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/24/2018
+ms.date: 02/06/2018
 ms.author: maggies
-ms.openlocfilehash: fadeaedbcc61626b7f1265ac44480c55a60f4fe0
-ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
+ms.openlocfilehash: 23c52f7eb66e4e7b0683a2392f0fc60ad76ea243
+ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="create-and-publish-apps-with-dashboards-and-reports-in-power-bi"></a>Irányítópultokból és jelentésekből álló alkalmazások létrehozása és közzététele a Power BI-ban
 
@@ -64,6 +64,8 @@ A tartalom hozzáadása úgy zajlik, mintha a Saját munkaterülethez adna hozz�
 
 * [Csatlakozás szolgáltatásokhoz](service-connect-to-services.md), például a Microsoft Dynamics CRM-hez, a Salesforce-hoz vagy a Google Analyticshez.
 * [Adatok lekérése fájlokból](service-get-data-from-files.md), például Excel-, CSV- vagy Power BI Desktop (PBIX-) fájlokból.
+
+Ha alkalmazás munkaterületén jelenít meg tartalmat, a tulajdonos az alkalmazás-munkaterület neveként lesz feltüntetve.
 
 ## <a name="add-an-image-to-your-app-optional"></a>Kép felvétele az alkalmazáshoz (opcionális)
 A Power BI alapértelmezés szerint egy kis színes kört hoz létre az alkalmazáshoz, benne az alkalmazás kezdőbetűivel. Ha szeretné, ezt testreszabhatja egy képpel. A kép felvételéhez Exchange Online-licenc szükséges.

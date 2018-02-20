@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
 ms.author: yshoukry
-ms.openlocfilehash: bf65b900f315f74c5ca81980e6371d92923cb97d
-ms.sourcegitcommit: c3be4de522874fd73fe6854333b379b85619b907
+ms.openlocfilehash: cde5199ad65e69f3304cfe244b549f1e7ae61e97
+ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 01/24/2018
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="connect-to-project-madeira-with-power-bi"></a>Csatlakozás a „Madeira” projekthez a Power BI használatával
 A Power BI és a „Madeira” projekt tartalomcsomag segítségével egyszerűen elemezheti a „Madeira” projekt adatait. A Power BI begyűjti az adatait (beleértve a Sales, azaz értékesítési és a Financial, azaz pénzügyi adatokat), majd összeállít egy használatra kész irányítópultot, és jelentést készít az adatok alapján.
@@ -47,7 +47,7 @@ Kapcsolódjon a Power BI-hoz készült [„Madeira” projekt elemzési tartalom
     >[!NOTE]
     >A „Madeira” projektben felügyelői jogosultságokkal kell rendelkeznie.
    
-    ![](media/service-connect-to-project-madeira/creds.png)
+   ![](media/service-connect-to-project-madeira/creds.png)
 6. Amint csatlakozott, a rendszer automatikusan betölt egy irányítópultot, egy jelentést és egy adatkészletet. Miután végzett, a csempék frissülnek a fiókja adataival.  
    
     ![](media/service-connect-to-project-madeira/dashboard.png)
@@ -95,12 +95,14 @@ Az OK gombra kattintva létrejön a kulcs, és bemásolhatja a Power BI kapcsol�
 ## <a name="troubleshooting"></a>Hibaelhárítás
 A Power BI irányítópult a fent felsorolt közzétett webszolgáltatásokat használja, és a bemutató vállalat adatait jeleníti meg, illetve a saját vállalata adatait is, ha importálja őket az aktuális pénzügyi megoldásából. Ha azonban valamilyen hiba lépne fel, ebben a szakaszban talál kerülő megoldásokat a leggyakoribb problémákra.
 
-**„A paraméterek érvényesítése meghiúsult, ellenőrizze, hogy minden paraméter érvényes-e” ** Ha a „Madeira” projekt URL-címének megadása után ez a hibaüzenet jelenik meg, ellenőrizze, hogy az alábbi követelmények teljesülnek-e:  
+**„Nem sikerült érvényesíteni a paramétereket. Győződjön meg arról, hogy minden paraméter érvényes.”**
 
-    - Az URL-cím pontosan ezt a mintát követi: https://*mycronusus*.projectmadeira.com:7048/NAV/OData/Company('*CRONUS%20US*')  
-    - Törölje a vállalat neve utáni zárójeles szövegeket.  
-    - Ellenőrizze, hogy az URL-cím nem perjellel záródik-e.  
-    - Ellenőrizze, hogy az URL-cím biztonságos kapcsolatot használ-e – ezt a cím előtt a https előtag jelzi.  
+Ha a „Madeira” projekt URL-címének megadása után ez a hibaüzenet jelenik meg, ellenőrizze, hogy az alábbi követelmények teljesülnek-e:  
+
+   - Az URL-cím pontosan ezt a mintát követi: https://*mycronusus*.projectmadeira.com:7048/NAV/OData/Company('*CRONUS%20US*')  
+   - Törölje a vállalat neve utáni zárójeles szövegeket.  
+   - Ellenőrizze, hogy az URL-cím nem perjellel záródik-e.  
+   - Ellenőrizze, hogy az URL-cím biztonságos kapcsolatot használ-e – ezt a cím előtt a https előtag jelzi.  
 
 **„Sikertelen bejelentkezés”** Ha a „Madeira” projekthez tartozó hitelesítő adataival az irányítópultra való bejelentkezés során „sikertelen bejelentkezés” hibaüzenet jelenik meg, ezt a következő hibák okozhatják:  
 

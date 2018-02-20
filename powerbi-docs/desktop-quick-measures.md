@@ -1,5 +1,5 @@
 ---
-title: "A gyorsmérők segítségével könnyen végrehajthat általános és nagy igényű számításokat a Power BI (előzetes verzió) szolgáltatásban"
+title: "A gyorsmérők használata általános és nagy igényű számítások egyszerű végrehajtásához a Power BI-ban"
 description: "A gyorsmérők használatra kész, általános számításokat gyorsan elvégző DAX-képleteket biztosítanak"
 services: powerbi
 documentationcenter: 
@@ -15,23 +15,24 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/24/2018
+ms.date: 02/05/2018
 ms.author: davidi
-ms.openlocfilehash: d0fc21c19a574f096c46c26331df3114e8c46c31
-ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
+ms.openlocfilehash: ce971f980bf1796bfef8439b1ea260190fb678df
+ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/09/2018
 ---
-# <a name="use-quick-measures-to-easily-perform-common-and-powerful-calculations-preview"></a>A gyorsmérők használata általános és nagy igényű számítások egyszerű végrehajtásához (előzetes verzió)
-A **Power BI Desktop** 2017. áprilisi kiadása óta a **Gyorsmérők** segítségével gyorsan és egyszerűen végezhet el általános, nagy igényű számításokat. A **gyorsmérők** DAX-parancsokat futtatnak a színfalak mögött (a DAX-ot nem kell megírnia, készen áll) a párbeszédpanelen megadott bemeneti adatok alapján, majd az eredmények használatra készen megjelennek a jelentésben. Ami a legjobb, hogy megtekintheti a gyorsmérő által végrehajtott DAX-ot, és így megismerheti a DAX-ot, vagy bővítheti az ismereteit.
+# <a name="use-quick-measures-to-easily-perform-common-and-powerful-calculations"></a>A gyorsmérők használata általános és nagy igényű számítások egyszerű végrehajtásához
+A **Gyorsmérők** használatával könnyedén végrehajthat általános és nagy igényű számításokat. A **gyorsmérők** DAX-parancsokat futtatnak a színfalak mögött (a DAX-ot nem kell megírnia, készen áll) a párbeszédpanelen megadott bemeneti adatok alapján, majd az eredmények használatra készen megjelennek a jelentésben. Ami a legjobb, hogy megtekintheti a gyorsmérő által végrehajtott DAX-ot, és így megismerheti a DAX-ot, vagy bővítheti az ismereteit.
 
 ![](media/desktop-quick-measures/quick-measures_01.png)
 
 **Gyorsmérők** létrehozásához kattintson a jobb gombbal egy mezőre a **Mezők** szakaszban, majd válassza a **Gyorsmérők** lehetőséget a megjelenő menüben. Kattinthat a jobb gombbal egy meglévő vizualizáció **Értékek** paneljének bármelyik értékére is (például egy *Sávdiagram* vizualizáció *Értékek* mezőjére). Számos számítási kategória áll rendelkezésre, és az egyes számításokat módosíthatja is az igényei szerint.
 
-### <a name="enable-the-quick-measures-preview"></a>A Gyorsmérők előnézet engedélyezése
-Az új **Gyorsmérők** szolgáltatást a **Power BI Desktop** **2017. áprilisi** kiadásától kezdve használhatja. Az előnézet funkció engedélyezéséhez válassza a **Fájl > Lehetőségek és beállítások > Beállítások > Előzetes verziójú funkciók** lehetőséget, majd jelölje be a jelölőnégyzetet a **Gyorsmérők** mellett. Miután ezt beállította, újra kell indítania a Power BI Desktopot.
+### <a name="quick-measures-now-generally-available"></a>Mostantól általánosan elérhetők a gyorsmérők
+
+A **Power BI Desktop** 2018. februári kiadásától kezdve a gyorsmérők általánosan elérhetők (már nem előzetes verzióban érhetők el). Ha a **Power BI Desktop** egy korábbi verzióját használja, a **Power BI Desktop** **2017. áprilisi** kiadásától kezdve próbálhatja ki a **Gyorsmérők** szolgáltatást úgy, hogy a **Fájl > Lehetőségek és beállítások > Beállítások > Előzetes verziójú funkciók** lehetőséget választja, majd bejelöli a **Gyorsmérők** melletti jelölőnégyzetet.
 
 ![](media/desktop-quick-measures/quick-measures_02b.png)
 
@@ -62,11 +63,11 @@ A Gyorsmérő számítási típusoknak öt külön csoportja van, mindegyikben t
   * Kategória szerinti maximum
   * Minimum kategóriánként
   * Súlyozott átlag kategóriánként
-* **Szűrők és szűrt értékek**
+* **Szűrők**
   * Szűrt érték
   * Szűrt értéktől mért különbség
   * Szűrt értéktől mért százalékos különbség
-  * Összegek az új kategóriákból
+  * Új kategóriákból történő értékesítések
 * **Időintelligencia**
   * Év elejétől számított teljes érték
   * Negyedév elejétől számított teljes érték
@@ -85,6 +86,7 @@ A Gyorsmérő számítási típusoknak öt külön csoportja van, mindegyikben t
   * Szorzás
   * Osztás
   * Százalékos különbség
+  * Korrelációs együttható
 * **Szöveg**
   * Csillagos minősítés
   * Értékek összefűzött listája
@@ -136,7 +138,7 @@ Olyan, mintha egy villámtanár azonnal megválaszolná a mi-lenne-ha típusú k
 Ha már tökéletes a mérték, kedve szerint átnevezheti ugyanabból a helyi menüből.
 
 ## <a name="limitations-and-considerations"></a>Korlátozások és szempontok
-A **gyorsmérők** jelenlegi előzetes verziójú kiadásának a használatára vonatkozik néhány korlátozás és egyéb szempont.
+Figyelembe kell venni néhány korlátozást és szempontot.
 
 * A **gyorsmérők** csak akkor érhetők el, ha módosítani tudja a modellt, a DirectQuery és a legtöbb Élő kapcsolat (az SSAS élő kapcsolatok támogatottak, ahogy az már korábban is kiderült) esetében azonban nem ez a helyzet.
 * A **Mezők** szakaszba felvett mértékek a jelentés bármelyik vizualizációjában használhatók.
@@ -152,8 +154,6 @@ A **Power BI Desktop** 2017. októberi frissítésével kezdve a saját egyéni 
 
 ### <a name="additional-information-and-examples"></a>További információ és példák
 Úgy tervezzük, hogy példákkal és útmutatókkal bővítjük az összes **gyorsmérők** számítást, ezért érdemes hamarosan újra áttekintenie az ezzel foglalkozó cikk frissítéseit.
-
-Mivel ez egy **előzetes verziójú** funkció, különösen fontosak számunkra a visszajelzései és az ötletei.
 
 Van olyan ötlete egy **gyorsmérőre**, amely még nem valósult meg? Remek! Látogasson el [erre az oldalra](https://go.microsoft.com/fwlink/?linkid=842906), és küldje be azokat a **gyorsmérőkre** vonatkozó ötleteit (DAX-képlettel együtt), amelyeket viszont szeretne látni a **Power BI Desktopban**, mi pedig megvizsgáljuk, hogy bekerülhet-e a **gyorsmérők** egy jövőbeli kiadásába.
 

@@ -15,26 +15,24 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/12/2017
+ms.date: 02/05/2018
 ms.author: davidi
-ms.openlocfilehash: add95532f645c143aea0f58200f9e3b1467320d0
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 02498ff745a2e06a49ed6064a4f7eefebff305f8
+ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="using-the-analytics-pane-in-power-bi-desktop"></a>Az Elemzés panel használata a Power BI Desktopban
-A **Power BI Desktop** **Elemzés** paneljén dinamikus *referenciavonalak* adhatók hozzá a vizualizációkhoz, így irányítva rá a figyelmet a fontos trendekre vagy elemzésekre. Az **Elemzés** panel a Power BI Desktop **Megjelenítések** területén található meg a 2016. augusztusi kiadástól kezdve (2.37.4464.321-es verzió vagy újabb), ahogy az alábbiakban látható.
+A **Power BI Desktop** **Elemzés** paneljén dinamikus *referenciavonalak* adhatók hozzá a vizualizációkhoz, így irányítva rá a figyelmet a fontos trendekre vagy elemzésekre. Az **Elemzési** panel a Power BI Desktop **Vizualizációs elemek** területén található.
 
 ![](media/desktop-analytics-pane/analytics-pane_1.png)
 
 > [!NOTE]
 > Az **Elemzés** panel csak akkor jelenik meg, ha a Power BI Desktop vásznán kiválaszt egy vizualizációt.
-> 
-> 
 
-## <a name="enable-forecasting-preview"></a>Előrejelzés engedélyezése (előzetes verzió)
-Továbbá a **Power BI Desktop** 2016. szeptemberi kiadásától kezdve (2.39.4526.362-es verzió vagy újabb) már az **Elemzés** panelről is futtathat *előrejelzést*. Ennek az előzetes verziójú funkciónak az engedélyezéséhez a **Fájl > Lehetőségek és beállítások > Beállítások** menüpontban válassza az **Előzetes verziójú funkciók** lehetőséget a bal oldali panelen. A funkció engedélyezéséhez jelölje be az **Előrejelzés** elem melletti jelölőnégyzetet a következő képen láthatóak szerint. A módosítások alkalmazásához újra kell indítania a **Power BI Desktopot**.
+## <a name="search-within-the-analytics-pane"></a>Keresés az Elemzési panelen
+A **Power BI Desktop** 2018. februári kiadásától kezdve (2.55.5010.201-es vagy újabb verzió) a **Vizualizációs elemek** panelen alszakaszként megtalálható **Elemzési** panelen is végezhető keresés. Ahogy az alábbi képen látható, az **Elemzési** panel kiválasztásakor megjelenik egy keresőmező is.
 
 ![](media/desktop-analytics-pane/analytics-pane_1b.png)
 

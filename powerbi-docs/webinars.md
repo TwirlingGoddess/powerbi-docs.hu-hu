@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/30/2018
+ms.date: 02/07/2018
 ms.author: maikelson
-ms.openlocfilehash: 21bd243f56b077c3dfbeaeffd5db108670029937
-ms.sourcegitcommit: 7bf22bb1136fdb0f962422e16e837187f090827c
+ms.openlocfilehash: a16ed05732f5031f0a6f33522d52bb501e241c4f
+ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/01/2018
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="power-bi-webinars"></a>Power BI-webináriumok
 
@@ -49,6 +49,22 @@ Igény szerint elérhető népszerű előadások az első lépésekhez
 
 Regisztráció a Power BI-szakértők előadásaira, ahol lehetősége van élőben feltenni kérdéseit
 
+**Az Office 365 pénzügyi szakembereknek webes előadássorozat – 2. rész: Ismétlődő jelentések automatizálása és az önkiszolgáló elemzés engedélyezése**
+<br>előadó Mark Traverso és Miguel Martinez
+<br>*Február 15. 12:00 (Csendes-óceáni téli idő), 15:00 (Keleti téli idő)*
+
+Az Office 365 általános használatához kapcsolódó tippeket, trükköket és ajánlott eljárásokat ismerhet meg.
+
+[Regisztráció a február 15-i bemutató megtekintéséhez](https://aka.ms/Office365FinanceProsPBI)
+
+**BI-megoldások értékesítése a Microsofttal**
+<br>előadó Tamer Farag
+<br>*Február 15. 8:00 csendes-óceáni téli idő, 11:00 keleti téli idő*
+
+Az előadáson megtudhatja, hogyan alakíthat ki partneri kapcsolatot a Microsofttal az üzleti intelligencia piaci lehetőségeinek kiaknázása érdekében. Megismerkedhet a legújabb képzési lehetőségekkel, a marketinganyagokkal, az ösztönző elemekkel és azokkal az ajánlatokkal, amelyekkel növelheti sikereit. Ezen kívül azt is megtudhatja, hogyan jelenhet meg a PowerBI.com-on és az AppSource.com-on, amivel biztosíthatja, hogy megoldásai és ajánlatai kitűnjenek és elérhetőek legyenek a Microsoft ügyfelei és viszonteladói számára.
+
+[Regisztráció a február 15-i bemutató megtekintéséhez](https://infopedia.eventbuilder.com/event?eventid=l9d4s7)
+
 **Ismerje meg 20 percben, hogyan igazodhat el a Power BI-irányítópulton**
 <br>by Miguel Martinez
 <br>*Február 21., 10:00 (Csendes-óceáni téli idő), 13:00 (Keleti téli idő)*
@@ -56,6 +72,13 @@ Regisztráció a Power BI-szakértők előadásaira, ahol lehetősége van élő
 Megesett már Önnel, hogy megnyitotta a Power BI-irányítópultot, és nem tudta, hogyan tovább?  Nem tudja, hogyan juthat el a felületen a fontos adatokhoz? Alig használja a szűrőket és a szeletelőket, mert hátha „elront valamit”?  Nem kell aggódnia, fedezze fel velünk, hogyan igazodhat el a Power BI-irányítópulton. Megmutatjuk azokat a más vezetők által használt általános funkciókat, amelyek segítségével bármikor lehatolhat a keresett adatokig.
 
 [Regisztráció a február 21-i bemutató megtekintéséhez](https://info.microsoft.com/powerbi-dashboard-in-20-min.html?Is=Website)
+
+**Nyilvános vagy privát adatkészletek vizualizációja az új Power BI- és data.world-összekötőkkel**
+<br>*Február 22. 10:00 (Csendes-óceáni téli idő), 13:00 (Keleti téli idő)*
+
+A Microsoft data.worlddel együttműködésben egy új adatösszekötőt jelentetett meg, amellyel data.world-adatkészleteket importálhat a Power BI Desktopba. Az előadásból megtudhatja, hogyan használható ez a nagyszerű új összekötő, és hogyan hasznosíthatja a data.world-közösség előnyeit adatainak megosztásához és az együttműködéshez.
+
+[Regisztráció a február 22-i bemutató megtekintéséhez](https://info.microsoft.com/data-world-connector-powerbi.html?Is=Website)
 
 >[Részvétel a Power BI-közösség közelgő webináriumain](https://powerbi.microsoft.com/en-us/blog/tag/community-webinar?Is=Website)
 
