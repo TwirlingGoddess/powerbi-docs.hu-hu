@@ -3,7 +3,7 @@ title: "Kapcsolódás a Circuit ID-hoz a Power BI segítségével"
 description: "A Circuit ID és a Power BI"
 services: powerbi
 documentationcenter: 
-author: joeshoukry
+author: SarinaJoan
 manager: kfile
 backup: maggiesMSFT
 editor: 
@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
-ms.author: yshoukry
-ms.openlocfilehash: 295d8dbd24c9ae6bce84cb76f6a5e23e7474b893
-ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
+ms.author: sarinas
+ms.openlocfilehash: b108bfaff61842b8ec6a7139e55558b16b7c56ac
+ms.sourcegitcommit: c24e5d7bd1806e0d637e974b5143ab5125298fc6
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 02/19/2018
 ---
 # <a name="connect-to-circuit-id-with-power-bi"></a>Kapcsolódás a Circuit ID-hoz a Power BI segítségével
 A Power BI megkönnyíti a Circuit ID-ról származó kommunikációs adatok elemzését. A Power BI a lekért adatok alapján összeállít egy alapértelmezett irányítópultot, és jelentéseket hoz létre az adatokból. A kapcsolat létrehozása után elemezheti az adatokat, és testre szabhatja az irányítópultot a saját igényei szerint. Az adatok naponta automatikusan frissülnek.

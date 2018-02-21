@@ -3,7 +3,7 @@ title: "Kapcsolódás a SweetIQ-hoz a Power BI-jal"
 description: SweetIQ a Power BI-hoz
 services: powerbi
 documentationcenter: 
-author: joeshoukry
+author: SarinaJoan
 manager: kfile
 backup: maggiesMSFT
 editor: 
@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
-ms.author: yshoukry
-ms.openlocfilehash: eff79e26549ee67482a6876dc7850d2a922a4586
-ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
+ms.author: sarinas
+ms.openlocfilehash: 5cbc48fc8c5787bcc5b7507284aaa5673dd0010d
+ms.sourcegitcommit: c24e5d7bd1806e0d637e974b5143ab5125298fc6
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 02/19/2018
 ---
 # <a name="connect-to-sweetiq-with-power-bi"></a>Kapcsolódás a SweetIQ-hoz a Power BI-jal
 A Power BI-tartalomcsomag a SweetIQ-fiókban található adatait használja, és előre elkészített tartalmakat generál, hogy egyszerűen feltárhassa az adatokat. A SweetIQ-tartalomcsomagot a helyeire, listáira, minősítéseire és értékeléseire vonatkozó adatok elemzésére használhatja. Az alapértelmezett beállítások szerint az adatok naponta frissülnek, hogy Ön mindig naprakész adatokat ellenőrizhessen.
