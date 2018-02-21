@@ -3,7 +3,7 @@ title: "Kapcsolódás a Microsoft Dynamics NAV-hoz a Power BI-jal"
 description: Microsoft Dynamics NAV a Power BI-hoz
 services: powerbi
 documentationcenter: 
-author: joeshoukry
+author: SarinaJoan
 manager: kfile
 backup: maggiesMSFT
 editor: 
@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
-ms.author: yshoukry
-ms.openlocfilehash: 7d5db73a05a74de934fa8ac630f673fe4f5bb3af
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.author: sarinas
+ms.openlocfilehash: 884ef223234d8827e58a37befe2e5d18a45e480e
+ms.sourcegitcommit: c24e5d7bd1806e0d637e974b5143ab5125298fc6
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 02/19/2018
 ---
 # <a name="connect-to-microsoft-dynamics-nav-with-power-bi"></a>Kapcsolódás a Microsoft Dynamics NAV-hoz a Power BI-jal
 A Power BI használatával egyszerűen elemezheti Microsoft Dynamics NAV-adatait. A Power BI lekéri az értékesítési és a pénzügyi adatokat is, majd irányítópultot és jelentést is magában foglaló alkalmazást készít az adatok alapján. A Power BI-nak szüksége van az Ön engedélyeire az adatokat tartalmazó táblákhoz, ebben az esetben az értékesítési és pénzügyi adatokhoz. További információt a követelményekről lent talál. Az alkalmazás telepítése után az irányítópult és a jelentések a Power BI szolgáltatásban ([https://powerbi.com](https://powerbi.com)) és a Power BI-mobilalkalmazásokban is megtekinthetők. 
@@ -105,7 +105,7 @@ Ha a hitelesítő párbeszédablak után a „Hoppá!” hibaüzenet jelenik meg
     `https//instance.navserver.com:7048/DynamicsNAV90\_Instance1/OData/Company('CRONUS%20International%20Ltd.')`
 
 ## <a name="next-steps"></a>További lépések
-* [Alkalmazások a Power BI-ban](service-install-use-apps.md)
-* [Adatok beolvasása a Power BI-ban](service-get-data.md)
-* További kérdései vannak? [Kérdezze a Power BI-közösséget!](http://community.powerbi.com/)
+* [Mik a Power BI szolgáltatáson belüli alkalmazások?](service-install-use-apps.md)
+* [Adatok lekérése a Power BI-ban](service-get-data.md)
+* További kérdései vannak? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)
 

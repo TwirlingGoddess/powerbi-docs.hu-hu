@@ -3,7 +3,7 @@ title: "Kapcsolódás az Adobe Analytics eszközhöz a Power BI használatával"
 description: "Ha a Power BI használatával kapcsolódik az Adobe Analytics elemzőeszközhöz, a fiókhoz tartozó adatokat egy alkalmazás fogja megjeleníteni egy irányítópult és jelentések formájában."
 services: powerbi
 documentationcenter: 
-author: joeshoukry
+author: SarinaJoan
 manager: kfile
 backup: maggiesMSFT
 editor: 
@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
-ms.author: yshoukry
-ms.openlocfilehash: 2d4d5e71c87a90ef917ea91dd0b7d178a5c0cbfc
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.author: sarinas
+ms.openlocfilehash: d73887c4f74d501057b3c35f5d9f404d4862b2a9
+ms.sourcegitcommit: c24e5d7bd1806e0d637e974b5143ab5125298fc6
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 02/19/2018
 ---
 # <a name="connect-to-adobe-analytics-with-power-bi"></a>Kapcsolódás az Adobe Analytics eszközhöz a Power BI használatával
 Ha a Power BI-ból kíván kapcsolódni az Adobe Analytics eszközhöz, csatlakozzon az Adobe Analytics Marketing Cloud-fiókjához. Az ekkor megjelenő alkalmazás egy Power BI-irányítópult és -jelentéskészlet segítségével tünteti fel a webhelye forgalmára és felhasználóira vonatkozó elemzéseket. Az adatok naponta egyszer automatikusan frissülnek. Az irányítópultot és a jelentéseket használhatja és megtekintheti, de nem mentheti a változásokat.
@@ -100,7 +100,7 @@ Ha a hitelesítő adatok beírása után hiányzó engedélyről szóló hibaüz
 Ha a hibaüzenet azután jelenik meg, hogy sikeresen túljutott a hitelesítő adatok képernyőn, lehetséges hogy a jelentések befejezése túl sokáig tart. Gyakori hibaüzenet *„A jelentések lekérése az Adobe Analytics jelentésből sikertelen volt. Tartalom többek között a &quot;hivatkozó, oldal&quot;, az időtartam körülbelül xx másodperc volt”*. Tekintse át a „Tartalom” szakaszt, és vesse össze az Adobe-példány méretével. Erre az időkorlátra jelenleg nem lehet megoldást találni, de foglalkozunk a lehetőséggel, hogy támogatási frissítéseket nyújtsunk a nagyobb példányok számára, ezért a Power BI csapata várja a visszajelzését a https://ideas.powerbi.com oldalon.
 
 ## <a name="next-steps"></a>Következő lépések
-* [Alkalmazások a Power BI-ban](service-install-use-apps.md)
-* [Adatok beolvasása a Power BI-ban](service-get-data.md)
-* További kérdései vannak? [Kérdezze a Power BI-közösséget!](http://community.powerbi.com/)
+* [Mik a Power BI szolgáltatáson belüli alkalmazások?](service-install-use-apps.md)
+* [Adatok lekérése a Power BI-ban](service-get-data.md)
+* További kérdései vannak? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)
 

@@ -3,7 +3,7 @@ title: "Csatlakozás a Microsoft Dynamicshoz a Power BI használatával"
 description: "A Power BI-hoz készült Microsoft Dynamics CRM"
 services: powerbi
 documentationcenter: 
-author: joeshoukry
+author: SarinaJoan
 manager: kfile
 backup: maggiesMSFT
 editor: 
@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
-ms.author: yshoukry
-ms.openlocfilehash: 738270b5bf588568e0cf4c11013c7a7f66d94b84
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.author: sarinas
+ms.openlocfilehash: bd9d3e57955c643f42844275128890ecb850d438
+ms.sourcegitcommit: c24e5d7bd1806e0d637e974b5143ab5125298fc6
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 02/19/2018
 ---
 # <a name="connect-to-microsoft-dynamics-crm-with-power-bi"></a>Csatlakozás a Microsoft Dynamics CRM-hez a Power BI használatával
 A Power BI-hoz készült Microsoft Dynamics CRM Online lehetővé teszi az adatok könnyű elérését és elemzését. A Power BI az OData-adatcsatorna használatával hoz létre leíró modelleket, beleértve az összes szükséges entitást és mértéket (pl.: Fiókok, Tevékenységek, Lehetőségek, Termék, Érdeklődők, Felhasználók stb.). Az alkalmazás telepítése után az irányítópultot és a jelentéseket a Power BI szolgáltatásban ([https://powerbi.com](https://powerbi.com)) és a Power BI-mobilalkalmazásokban is megtekintheti. 
@@ -162,5 +162,5 @@ Ha „Az adatok frissítése sikertelen volt, mert a lekérdezés meghaladta a r
 ## <a name="next-steps"></a>Következő lépések
 * [Mik a Power BI szolgáltatáson belüli alkalmazások?](service-install-use-apps.md)
 * [Adatok lekérése a Power BI-ban](service-get-data.md)
-* További kérdései vannak? [Forduljon a Power BI közösségéhez](http://community.powerbi.com/)
+* További kérdései vannak? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)
 
