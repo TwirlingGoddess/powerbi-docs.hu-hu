@@ -3,7 +3,7 @@ title: "Kapcsolódás a Marketo eszközhöz a Power BI használatával"
 description: Marketo a Power BI-ban
 services: powerbi
 documentationcenter: 
-author: joeshoukry
+author: SarinaJoan
 manager: kfile
 backup: maggiesMSFT
 editor: 
@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
-ms.author: yshoukry
-ms.openlocfilehash: c642b50e1b0e24aa261e68bdca536e6e9e112dd1
-ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
+ms.author: sarinas
+ms.openlocfilehash: d747b357315e275fae2f65d7e4e961f4867807a3
+ms.sourcegitcommit: c24e5d7bd1806e0d637e974b5143ab5125298fc6
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 02/19/2018
 ---
 # <a name="connect-to-marketo-with-power-bi"></a>Kapcsolódás a Marketo eszközhöz a Power BI használatával
 A Marketo eszközhöz készült Power BI-tartalomcsomag az érdeklődőkhöz és tevékenységeikhez kapcsolódó adatokkal segíti a Marketo-fiók elemzését. A kapcsolat lekéri az adatokat, és automatikusan a rendelkezésére bocsátja a rájuk épülő irányítópultot, valamint a kapcsolódó jelentéseket.
@@ -47,7 +47,7 @@ Kapcsolódás a Power BI-hoz készült [Marketo tartalomcsomaghoz](https://app.p
    
    ![](media/service-connect-to-marketo/pbi_marketosignin.png)
    
-   Ez hozzáférést biztosít a *Power BI-hoz készült Marketo*tartalomcsomag számára a [Marketo-elemzések](https://powerbi.microsoft.com/integrations/marketo) adataihoz, és lehetővé teszi az adatok Power BI-beli elemzését. Az adatok naponta egyszer frissülnek.
+   Ez hozzáférést biztosít a *Power BI-hoz készült Marketo* tartalomcsomag számára a [Marketo-elemzések](https://powerbi.microsoft.com/integrations/marketo) adataihoz, és lehetővé teszi az adatok Power BI-beli elemzését. Az adatok naponta egyszer frissülnek.
 6. Miután csatlakozott a Marketo-fiókhoz, betöltődik egy irányítópult az összes adattal:
    
    ![](media/service-connect-to-marketo/pbi_marketodash.png)

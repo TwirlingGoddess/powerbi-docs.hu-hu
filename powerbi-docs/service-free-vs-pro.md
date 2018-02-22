@@ -15,18 +15,18 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 08/02/2017
+ms.date: 02/13/2018
 ms.author: maghan
-ms.openlocfilehash: 7d4609d682af729ef60553263c3407aa99b17b5a
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: a666099d55b70f088a101738e3ffea8fcf218659
+ms.sourcegitcommit: 2ceea44d3606c15b57142c37649c9d481ec4becc
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 02/15/2018
 ---
 # <a name="power-bi-free-vs-pro"></a>Ingyenes és Pro szintű Power BI
 A Power BI felhasználói vagy ingyenes vagy Pro szintű felhasználók. Fontos megérteni a két felhasználótípus közötti különbségeket.
 
-A szolgáltatásban *minden felhasználó* besorolható az ingyenes vagy a Pro kategóriába. Az ingyenes és a Pro szintű felhasználók közötti különbség a megosztási és együttműködési lehetőségek eltérése. Csak a Pro szintű felhasználók tehetnek közzé tartalmat alkalmazás-munkaterületeken, használhatnak fel Prémium-kapacitás nélküli alkalmazásokat, oszthatnak meg irányítópultokat, és iratkozhatnak fel irányítópultokra és jelentésekre. Az ingyenes felhasználók most az összes adatforráshoz kapcsolódhatnak minden kapcsolódási lehetőséggel, például a DirectQueryvel, az élő kapcsolatokkal és az adatátjáró használatával.
+A szolgáltatásban *minden felhasználó* besorolható az ingyenes vagy a Pro kategóriába. Az ingyenes és a Pro szintű felhasználók közötti különbség a megosztási és együttműködési lehetőségek eltérése. Csak a Pro szintű felhasználók tehetnek közzé tartalmat alkalmazás-munkaterületeken, használhatnak fel prémium szintű kapacitás nélküli alkalmazásokat, oszthatnak meg irányítópultokat, és iratkozhatnak fel irányítópultokra és jelentésekre. Az ingyenes felhasználók most az összes adatforráshoz kapcsolódhatnak minden kapcsolódási lehetőséggel, például a DirectQueryvel, az élő kapcsolatokkal és az adatátjáró használatával.
 
 Ha egy alkalmazás közzé van téve, és az alkalmazás-munkaterülete Prémium-kapacitáshoz van hozzárendelve, ezeket az alkalmazásokat használhatják az ingyenes felhasználók.
 
