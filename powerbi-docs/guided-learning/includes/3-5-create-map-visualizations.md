@@ -3,7 +3,7 @@ A Power BI két típusú térképi vizualizációval rendelkezik: egy buborékt�
 ![](media/3-5-create-map-visualizations/3-5_1.png)
 
 > [!NOTE]
-> Amikor országokkal vagy régiókkal dolgozik, használja a három betűből álló rövidítéseket, így meggyőződhet róla, hogy a térképes vizualizációk geokódolása megfelelően működik. *Ne* használjon két betűből álló rövidítéseket, mivel így előfordulhat, hogy a program nem ismer fel egyes országokat vagy régiókat.
+> Amikor országokkal vagy régiókkal dolgozik, használja a három betűből álló rövidítéseket, így meggyőződhet róla, hogy a térképes vizualizációk geokódolása megfelelően működik. *Ne* használjon kétbetűs rövidítéseket, mert ez esetben lehetséges, hogy egyes országok vagy régiók felismerése nem történik meg megfelelően.
 > Ha csak a kétbetűs rövidítéseket ismeri, tekintse meg ezt a [külső blogbejegyzést](https://blog.ailon.org/how-to-display-2-letter-country-data-on-a-power-bi-map-85fc738497d6#.yudauacxp), amely az országok és régiók kétbetűs rövidítéseinek a hárombetűs rövidítéseknek való megfeleltetését ismerteti.
 > 
 > 

@@ -13,17 +13,17 @@ Függetlenül attól, hogy melyik adatforrást választja, a Power BI ahhoz az a
 
 A Power BI Desktop **Jelentés** nézetében elkezdhet jelentéseket létrehozni.
 
-A **Jelentés** nézetnek öt fő területe van:
+A **Jelentés** nézet a következő öt fő területből áll:
 
-1. A menüszalag, ahol a jelentésekkel és vizualizációs elemekkel kapcsolatos gyakori feladatok láthatók
-2. A **Jelentés** nézet vagy vászon, ahol vizualizációs elemeket lehet létrehozni és elrendezni
-3. A **Lapok** fülterület alul, amely lehetővé teszi egy jelentéslap kiválasztását vagy hozzáadását
-4. A **Vizualizációk** ablaktábla, ahol megváltoztathatja a vizualizációs elemeket, testre szabhatja a színeket és tengelyeket, szűrőket alkalmazhat, áthúzhatja a mezőket stb.
-5. A **Mezők** ablaktábla, ahonnan a lekérdezési elemeket és szűrőket át lehet húzni a **Jelentés** nézetre vagy a **Vizualizációk** ablaktábla **Szűrők** területére
+1. A menüszalag, amely a jelentésekhez és vizualizációkhoz kapcsolódó általános feladatokat jeleníti meg.
+2. A **Jelentés** nézet, vagy más néven vászon. Itt lehet létrehozni és elrendezni a vizualizációkat.
+3. Az **Oldalak** lapterület alul, ahol kiválaszthat vagy hozzáadhat jelentésoldalakat.
+4. A **Megjelenítések** panel, ahol módosíthatja a vizualizációkat, testreszabhatja a színeket vagy a tengelyeket, szűrőket alkalmazhat, húzással elhelyezheti a mezőket stb.
+5. A **Mezők** panel, ahonnan a lekérdezéselemeket és a szűrőket a **Jelentés** nézetbe vagy a **Megjelenítések** panel **Szűrők** területére húzhatja.
 
 ![](media/0-2-get-started-power-bi-desktop/c0a2_3.png)
 
-A **Vizualizációk** és **Mezők** ablaktáblák a szélükön látható kis nyilakkal összecsukhatók, hogy a **Jelentés** nézetben nagyobb hely legyen a vizualizációs elemek létrehozásához. Ezek a nyilak felfelé vagy lefelé mutatva a vizualizációs elemek változtatása közben is láthatók, és nyíl irányának megfelelően az adott szakasz kinyitható, illetve összecsukható.
+A **Megjelenítések** és a **Mezők** panel összezárható a szélén található kis nyíl kiválasztásával, így több hely marad a **Jelentés** nézetben a vizualizációk összeállítására. A vizualizációk módosításakor ezek a nyilak felfelé vagy lefelé mutatnak, ami azt jelzi, hogy az adott szakasz kibontható vagy összezárható.
 
 ![](media/0-2-get-started-power-bi-desktop/c0a2_4.png)
 
