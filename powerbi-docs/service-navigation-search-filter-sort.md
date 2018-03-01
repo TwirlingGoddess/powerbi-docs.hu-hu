@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/20/2017
 ms.author: mihart
-ms.openlocfilehash: 2dcf3b50b9019880a9a7a11c863bed88783214c7
-ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
+LocalizationGroup: Get started
+ms.openlocfilehash: f76bc638893a06545fb5a71ec633dd470fd47dd8
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 12/21/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="navigation-searching-finding-and-sorting-content-in-power-bi-service"></a>Navigáció: tartalom keresése és rendezése a Power BI szolgáltatásban
 A Power BI szolgáltatásban számos módon navigálhat a tartalmak között. A tartalmak típus szerint vannak rendezve a munkaterületeken: irányítópultok, jelentések, munkafüzetek és adathalmazok.  A tartalom emellett használat szerint is rendezve van: kedvencek, legutóbbi, alkalmazások, velem megosztott és kiemelt. Ezek a különböző tartalmakhoz vezető utak lehetővé teszik, hogy gyorsan megtalálja, amire szüksége van a Power BI szolgáltatásban.  
@@ -69,4 +70,4 @@ Emellett [kedvencként](service-dashboard-favorite.md) és [kiemeltként](servic
 ## <a name="next-steps"></a>Következő lépések
 [Power BI – Alapfogalmak](service-basic-concepts.md)
 
-További kérdései vannak? [Felteheti azokat a Power BI-közösségnek](http://community.powerbi.com/)
+További kérdései vannak? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)

@@ -18,11 +18,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: mihart
-ms.openlocfilehash: 0ea4dd703f804ed7d519613e6f3cc98ed0409188
-ms.sourcegitcommit: 54da95f184dd0f7bb59bb0bc8775a1d93129b195
+LocalizationGroup: Common tasks
+ms.openlocfilehash: 1a4290d06d623b21b64e1ff03fb0382a55dc2a3c
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 12/08/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="display-a-dashboard-tile-or-report-visual-in-focus-mode"></a>Irányítópult-csempe vagy jelentésvizualizáció megjelenítése Fókusz módban
 <iframe width="560" height="315" src="https://www.youtube.com/embed/dtdLul6otYE" frameborder="0" allowfullscreen></iframe>
@@ -76,5 +77,5 @@ Ha már Fókusz módban van, a csempét vagy vizualizációt megtekintheti [Telj
 * Jelentésvizualizációk fókusz módban történő megtekintésekor az összes szűrőt, azaz a vizualizációs elem szintű, az alapszintű, és a jelentésszintű szűrőket is módosítani tudja.    
 * Irányítópult-vizualizációk fókusz módú megjelenítésekor csak a vizualizációs elem szintű szűrőket tudja módosítani.
 
-További kérdései vannak? [Felteheti azokat a Power BI-közösségnek](http://community.powerbi.com/)
+További kérdései vannak? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)
 

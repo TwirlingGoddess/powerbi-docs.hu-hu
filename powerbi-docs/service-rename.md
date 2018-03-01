@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/20/2017
 ms.author: mihart
-ms.openlocfilehash: 33954aab1d6e79efc985f3e0d3c4d026f529b691
-ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
+LocalizationGroup: Common tasks
+ms.openlocfilehash: 9f4d4897558f241d316ee9d7021b4c34660fe9bf
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 12/21/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="rename-almost-anything-in-power-bi-service"></a>A Power BI-szolgáltatásban szinte bármit átnevezhet
 Ebből a cikkből megtudhatja, hogy miképpen nevezhet át irányítópultot, jelentést, munkafüzetet, adatkészletet, alkalmazást, vizualizációt vagy munkaterületet a Power BI szolgáltatásban.
@@ -93,5 +94,5 @@ Nincs megelégedve a Power BI-jelentésoldal nevével?  Az új név csak egy kat
 * Ha az átnevezendő elemet mások osztották meg Önnel, vagy tartalomcsomaghoz tartozik, nem jelenik meg a fogaskerék ikon, és nem férhet hozzá a Beállításokhoz.
 * Ha nem látja a három pontot (...) az **Adatkészletek** lapon, bontsa ki a böngészőablakot.
 
-További kérdései vannak? [Felteheti azokat a Power BI-közösségnek](http://community.powerbi.com/)
+További kérdései vannak? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)
 
