@@ -15,17 +15,18 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/11/2017
-ms.author: v-mamcge
-ms.openlocfilehash: 82ac4382fe80d83b60705f135b50738718f28876
-ms.sourcegitcommit: 7eb15c813a0d14322cb1316bb7aab23cbc13aae6
+ms.date: 02/27/2018
+ms.author: jocaplan
+LocalizationGroup: Premium
+ms.openlocfilehash: def06965692644c0328dae7a1d0ade8d13cc0d6c
+ms.sourcegitcommit: 743e44fc8730fea0f7149916080b0c6d7eb6359d
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 12/11/2017
+ms.lasthandoff: 02/28/2018
 ---
 # <a name="power-bi-premium-support-for-large-datasets"></a>Nagyméretű adathalmazok Power BI Premium-támogatása
 
-A Power BI Premium támogatja a legfeljebb 10 GB méretű Power BI Desktop- (.pbix-) fájlok feltöltését. Egy nagyméretű adathalmaz használatához tegye azt közzé egy prémium szintű kapacitáshoz társított munkaterületen.
+A Power BI Premium támogatja a legfeljebb 10 GB méretű Power BI Desktop- (.pbix-) fájlok feltöltését. Feltöltés után az adatkészlet frissíthet legfeljebb 12 GB méretig. Egy nagyméretű adathalmaz használatához tegye azt közzé egy prémium szintű kapacitáshoz társított munkaterületen.
  
 ## <a name="best-practices"></a>Ajánlott eljárások
 
@@ -53,10 +54,10 @@ Ez a szakasz ismerteti a nagyméretű adathalmazok használatának ajánlott elj
 **Bár a lekérdezésenkénti memória- és időkorlátozások a prémium szintű kapacitás esetében jóval magasabbak**, erősen ajánlott a látványelemeket szűrőkkel és szeletelőkkel korlátozni kizárólag a szükséges elemek megjelenítésére.
 
 ## <a name="next-steps"></a>Következő lépések
-[Mi a Power BI Premium?](service-premium.md)  
+[Power BI Premium – pontosan mi is ez?](service-premium.md)  
 [A Power BI Premium kibocsátási megjegyzései](service-premium-release-notes.md)  
 [Microsoft Power BI Premium-tanulmány](https://aka.ms/pbipremiumwhitepaper)  
-[Egy Power BI vállalati bevezetését ismertető tanulmány megtervezése](https://aka.ms/pbienterprisedeploy)  
-[A Pro-próbaverzió kiterjesztett aktiválása](service-extended-pro-trial.md)  
+[A Power BI Enterprise üzembehelyezési előkészületeit bemutató tanulmány ](https://aka.ms/pbienterprisedeploy)  
+[A Pro meghosszabbított próbaverziójának aktiválása](service-extended-pro-trial.md)  
 
 További kérdései vannak? [Kérdezze meg a Power BI közösségét](https://community.powerbi.com/)
