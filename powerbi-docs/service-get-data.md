@@ -17,16 +17,17 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: 95c46e6efddd9f0bde6be6cbc1e484f0f72452ce
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+LocalizationGroup: Get started
+ms.openlocfilehash: f9e30b3feb5f9b85a87686e4484bba035ff839aa
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="data-sources-for-the-power-bi-service"></a>Adatforrások a Power BI szolgáltatásban
 A Power BI legfontosabb összetevői maguk az adatok. Amikor adatokat vizsgál, diagramokat és irányítópultokat hoz létre, és kérdéseket tesz fel a Q&A-jel, akkor a kapott vizualizációk és válaszok alapjául szolgáló adatok valójában egy adatkészletből származnak. De honnan származik ez az adatkészlet? Természetesen egy adatforrásból.
 
-Ez a cikk sorra veszi a különböző típusú adatforrásokat, amelyekhez a Power BI szolgáltatásból kapcsolódhat. Ne feledje, hogy adatokhoz sok más típusú adatforrásból is hozzájuthat. Azok eléréséhez azonban először szükség lehet a Power BI Desktopnak vagy az Excel speciális lekérdezési és modellezési funkcióinak a használatára. Erről a továbbiakban még bővebben is szó lesz. Egyelőre tekintsük át azokat a különféle adatforrástípusokat, amelyekhez közvetlenül a Power BI szolgáltatás webhelyéről kapcsolódhat.
+Ez a cikk sorra veszi a különböző típusú adatforrásokat, amelyekhez a Power BI szolgáltatásból kapcsolódhat. Ne feledje, hogy adatokhoz sok más típusú adatforrásból is hozzájuthat. Azok eléréséhez azonban először szükség lehet a Power BI Desktopnak vagy az Excel speciális lekérdezési és modellezési funkcióinak a használatára. Ezt később tárgyaljuk részletesebben. Egyelőre tekintsük át azokat a különféle adatforrástípusokat, amelyekhez közvetlenül a Power BI szolgáltatás webhelyéről kapcsolódhat.
 
 Ezen adatforrások bármelyikéből úgy juthat adatokhoz a Power BI-ban, hogy a **Saját munkaterület** > **Adatok beolvasása** lehetőségre kattint.
 
@@ -70,7 +71,7 @@ Bizonyos adatforrásokban az adatok eleve a Power BI szolgáltatás által kezel
 
 Más esetekben szükséges lehet a kívánt adatokat egy fájlba lekérdezni és betölteni. Tegyük fel, hogy logisztikai adatai vannak egy adattárházbeli adatbázisban a cége egyik kiszolgálóján. Nem kapcsolódhat közvetlenül az adatbázishoz a Power BI szolgáltatásban, hogy megkezdje az adatok vizsgálatát (hacsak nem táblázatos modellű adatbázis). A Power BI Desktop vagy az Excel használatával viszont egy adatmodellbe kérdezheti le és olvashatja be, majd fájlként mentheti a logisztikai adatokat. Ezt a fájlt aztán importálhatja a Power BI-ba, ahol létrejön egy adatkészlet.
 
-Nyilván arra gondol, hogy azok a logisztikai adatok naponta változnak az adatbázisban. Hogyan gondoskodhatna a Power BI-beli adatkészlete frissítéséről? A Power BI Desktop- vagy Excel-fájlból az adatokkal együtt kapcsolódási információk is importálódnak az adatkészletbe. Ha ütemezett frissítést állít be, vagy manuálisan frissíti az adatkészletet, akkor a Power BI az adatkészletben lévő kapcsolódási információ és néhány további beállítás alapján közvetlenül kapcsolódik az adatbázishoz, lekérdezi a frissítéseket, és beolvassa őket az adatkészletbe. A helyszíni kiszolgáló és a Power BI közötti biztonságos adatátvitelhez valószínűleg Power BI-átjáró szükséges. A jelentések és az irányítópultok vizualizációi automatikusan frissülnek.
+Nyilván arra gondol, hogy azok a logisztikai adatok naponta változnak az adatbázisban. Hogyan ellenőrizhetem, hogy az adatkészletem frissítve lesz a Power BI-ban? – A Power BI Desktop- vagy Excel-fájlból az adatokkal együtt kapcsolódási információk is importálódnak az adatkészletbe. Ha ütemezett frissítést állít be, vagy manuálisan frissíti az adatkészletet, akkor a Power BI az adatkészletben lévő kapcsolódási információ és néhány további beállítás alapján közvetlenül kapcsolódik az adatbázishoz, lekérdezi a frissítéseket, és beolvassa őket az adatkészletbe. A helyszíni kiszolgáló és a Power BI közötti biztonságos adatátvitelhez valószínűleg Power BI-átjáró szükséges. A jelentések és az irányítópultok vizualizációi automatikusan frissülnek.
 
 Mint láthatja, önmagában az, hogy az adatforráshoz nem lehet közvetlenül a Power BI-ból kapcsolódni, még nem jelenti azt, hogy nem olvashatja be őket a Power BI-ba. Mindez csupán néhány további lépést és talán némi informatikai segítséget igényel. További információ: [Adatforrások a Power BI Desktopban](desktop-data-sources.md).
 
