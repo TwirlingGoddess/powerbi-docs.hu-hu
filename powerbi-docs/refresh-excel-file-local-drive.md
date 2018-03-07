@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: 0adca4316cbb43a2097133a1346948b79b87bdfd
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+LocalizationGroup: Data refresh
+ms.openlocfilehash: a38ee72643f5eb95f0d637dbe7bfbc67e2ee656d
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="refresh-a-dataset-created-from-an-excel-workbook-on-a-local-drive"></a>Excel-munkafüzetből létrehozott adatkészlet frissítése helyi meghajtón
 ## <a name="whats-supported"></a>Mi támogatott?
@@ -46,7 +47,7 @@ A Power BI-ban a Frissítés most és a Frissítés ütemezése támogatott az o
 > 
 
 ## <a name="how-do-i-make-sure-data-is-loaded-to-the-excel-data-model"></a>Hogyan ellenőrizhetem, hogy betöltődtek-e az adatok az Excel-adatmodellbe?
-Ha a Power Queryt (az Excel 2016-ban Adatok beolvasása és átalakítása) használja, hogy egy adatforráshoz kapcsolódjon, több lehetőség is a rendelkezésére áll ahová az adatokat betöltheti. Ahhoz, hogy biztosan betöltse az adatokat az adatmodellbe, válassza az **Adat felvétele az adatmodellbe** lehetőséget a **Betöltés a megadott helyre** párbeszédpanelen.
+Ha a Power Queryt (az Excel 2016-ban Adatok beolvasása és átalakítása) használja az adatforráshoz való kapcsolódáshoz, több lehetőség is a rendelkezésére áll, ahová az adatokat betöltheti. Ahhoz, hogy biztosan betöltse az adatokat az adatmodellbe, válassza az **Adatok hozzáadása az adatmodellhez** lehetőséget a **Betöltés a megadott helyre** párbeszédpanelen.
 
 > [!NOTE]
 > Az itt látható képeken az Excel 2016 látható.
@@ -56,10 +57,10 @@ Ha a Power Queryt (az Excel 2016-ban Adatok beolvasása és átalakítása) hasz
 A **Navigátorban** kattintson a **Betöltés a megadott helyre...** menüpontra.  
     ![](media/refresh-excel-file-local-drive/refresh_loadtodm_1.png)
 
-Vagy, ha a **Szerkesztés** elemre kattint a Navigátorban, megnyílik a Lekérdezésszerkesztő. Itt rákattinthat a **Bezárás és betöltés adott helyre...** menüpontra.  
+Másik lehetőségként a Navigátorban a **Szerkesztés** elemre kattintva megnyílik a Lekérdezésszerkesztő. Itt kattintson a **Bezárás és betöltés adott helyre...** menüpontra.  
     ![](media/refresh-excel-file-local-drive/refresh_loadtodm_2.png)
 
-Ekkor ne felejtse el bejelölni a **Betöltés a megadott helyre** párbeszédpanelen az **Adat felvétele az adatmodellbe** jelölőnégyzetet.  
+Ekkor ne felejtse el bejelölni a **Betöltés a megadott helyre** párbeszédpanelen az **Adatok hozzáadása az adatmodellhez** jelölőnégyzetet.  
     ![](media/refresh-excel-file-local-drive/refresh_loadtodm_3.png)
 
 ### <a name="what-if-i-use-get-external-data-in-power-pivot"></a>Mi történik, ha a Power Pivotban használom a Külső adatok beolvasása lehetőséget?

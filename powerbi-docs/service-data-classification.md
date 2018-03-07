@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 08/10/2017
 ms.author: amac
-ms.openlocfilehash: d9693d89561bc0f942226934bc401a587a6ae20d
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+LocalizationGroup: Dashboards
+ms.openlocfilehash: aed13e5bc7a21caa87e4c5b25fd61d55dcfc6129
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="dashboard-data-classification"></a>Irányítópult adatainak besorolása
 Minden irányítópult különbözik, és attól függően, hogy milyen adatforráshoz kapcsolódik, Önnek, és azoknak, akikkel az információkat megosztja, más-más intézkedéseket kell tennie az érzékeny adatok védelme érdekében. Néhány irányítópultot soha sem szabad kinyomtatni vagy cégen kívül megosztani, míg másokat szabadon lehet terjeszteni. Az irányítópultok adatainak a besorolásával fel tudja hívni az irányítópultokat megtekintő felhasználók figyelmét arra, hogy milyen szintű adatvédelmet kell alkalmazniuk. Az irányítópultokat felcímkézheti az IT osztály által definiált besorolásokkal, így az adatok érzékenységéről mindenki egyformán tájékozódhat, aki a tartalmat megtekinti.

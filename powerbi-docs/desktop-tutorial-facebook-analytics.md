@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: 4e60e63791b1e839eb12c05dd089c5b24c0d63a6
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+LocalizationGroup: Learn more
+ms.openlocfilehash: e0bdec7d2774fd5c6641041af14b2170d7223151
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="tutorial-facebook-analytics-using-power-bi-desktop"></a>Oktatóanyag: Facebook-elemzések a Power BI Desktop használatával
 Ez az oktatóanyag bemutatja, hogyan importálhatja és vizualizálhatja a **Facebookról** származó adatokat. Ebben az oktatóanyagban elsajátíthatja, hogyan csatlakozhat egy adott Facebook-oldalhoz (a Power BI oldalhoz), hogyan alkalmazhatja az adatátalakítási lépéseket, és hozhat létre egyes vizualizációkat.
@@ -220,7 +221,7 @@ Amint láthatja, a jelentésekhez könnyen készíthetőek vizualizációk, így
 Az oktatóanyag végeredményét [innen](http://download.microsoft.com/download/1/4/E/14EDED28-6C58-4055-A65C-23B4DA81C4DE/FacebookAnalytics.pbix) töltheti le
 
 ### <a name="where-else-can-i-get-more-information"></a>Hol olvashatok további információkat?
-* [Olvassa el a többi Power BI Desktop oktatóanyagot](http://go.microsoft.com/fwlink/?LinkID=521937)
+* [Olvassa el a többi Power BI Desktop-oktatóanyagot](http://go.microsoft.com/fwlink/?LinkID=521937)
 * [Tekintse meg a Power BI Desktop videóit](http://go.microsoft.com/fwlink/?LinkID=519322)
 * [Látogasson el a Power BI fórumára](http://go.microsoft.com/fwlink/?LinkID=519326)
 * [Látogasson el a Power BI blogra](http://go.microsoft.com/fwlink/?LinkID=519327)

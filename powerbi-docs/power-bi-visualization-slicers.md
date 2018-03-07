@@ -18,11 +18,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 05/30/2017
 ms.author: mihart
-ms.openlocfilehash: b6ce0c396f4a189489b97fe5cd86ab5cd8dbcc35
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+LocalizationGroup: Visualizations
+ms.openlocfilehash: 619f694e6e3ed167a14262994c1c978d5b4ea2e0
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="slicers-in-power-bi-service-tutorial"></a>Szeletelő a Power BI szolgáltatásban (Útmutató)
 Az értékesítési igazgató meg szeretné ismerni a teljes részlegre és az egyes körzeti képviselőkre vonatkozó mérőszámokat. Ehhez létrehozhat egy külön jelentésoldalt minden képviselőnek, vagy használhat szeletelőt. A szeletelők az oldal más vizualizációiban szereplő részére szűkítik az adathalmazt.  A szeletelő egy alternatív módot kínál a szűrésre.
@@ -113,5 +114,5 @@ Vannak a Power BI továbbfejlesztésére vonatkozó ötletei? [Ötlet beküldés
 
 [Próbálja ki ingyenesen](https://powerbi.com/)
 
-További kérdései vannak? [Felteheti őket a Power BI-közösségnek](http://community.powerbi.com/)
+További kérdései vannak? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)
 

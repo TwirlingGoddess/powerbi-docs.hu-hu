@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 06/28/2017
 ms.author: maghan
-ms.openlocfilehash: c2b0f2fab2b9ccd2540ad45d6156ce9547513deb
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+LocalizationGroup: Data from databases
+ms.openlocfilehash: 0eade5942b65985cf704709ea88870a2352b07c0
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="spark-on-hdinsight-with-directquery"></a>A Spark on HDInsight és a DirectQuery
 A Spark on Azure HDInsight és a DirectQuery együttes használatával dinamikus jelentéseket hozhat létre a Spark-fürtben már meglévő adatok és metrikák alapján. A DirectQuery a jelentésnézet adatainak vizsgálatakor az Azure HDInsight Spark-fürtre küldi vissza a lekérdezéseket. Ez azoknak a felhasználóknak ajánlott, akik jól ismerik az entitásokat, amelyekhez csatlakoznak.

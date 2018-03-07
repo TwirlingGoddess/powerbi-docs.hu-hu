@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/20/2017
 ms.author: mihart
-ms.openlocfilehash: 40ca8c24ec79f61bf0c8b3db71fdd84cdbb6a109
-ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
+LocalizationGroup: Visualizations
+ms.openlocfilehash: c6a5759be3df141e2a93fe8c969a45cdc0b004be
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 12/21/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="change-the-type-of-visualization-in-a-power-bi-report"></a>Vizualizáció-típus módosítása Power BI-jelentésekben
 Többféle típusú vizualizációt is kipróbálhat a Power BI szolgáltatásban és a Power BI Desktopban, hogy megtalálja az adatai szemléltetésére legalkalmasabbat. 
@@ -43,5 +44,5 @@ További információk [a Power BI-jelentésekben lévő vizualizációkról](po
 
 [Power BI – Alapfogalmak](service-basic-concepts.md)
 
-További kérdései vannak? [Felteheti azokat a Power BI-közösségnek](http://community.powerbi.com/)
+További kérdései vannak? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)
 

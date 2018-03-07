@@ -17,15 +17,16 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/12/2017
 ms.author: maggies
-ms.openlocfilehash: 7ea0fbf09196af9ffecaf5ae54ea0754fdd44a0b
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+LocalizationGroup: Share your work
+ms.openlocfilehash: 00ddec3dbf4087935a7c3583138dabb2a83f0ae5
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="intro-to-organizational-content-packs-in-power-bi"></a>Bevezetés a Power BI szervezeti tartalomcsomagjainak használatába
 > [!NOTE]
-> Hallott már az új *alkalmazásokról*? Az alkalmazásokkal széles közönséghez juttathat el tartalmat a Power BI-ban. Azt javasoljuk, hogy szervezeti tartalomcsomagok és csak olvasható munkaterületek helyett alkalmazásokat használjon. [További információ az alkalmazásokról](service-install-use-apps.md).
+> Hallott már az új *alkalmazásokról*? Az alkalmazásokkal új módon oszthatja meg a nagyközönséggel a tartalmakat a Power BI-ban. Javasoljuk az alkalmazások használatát a vállalati tartalomcsomagok vagy csak olvasható munkaterületek helyett. [További információ az alkalmazásokról](service-install-use-apps.md).
 > 
 > 
 
@@ -85,5 +86,5 @@ A terjesztési csoport minden tagja ugyanolyan jogosultságokkal rendelkezik az 
 * [Szervezeti tartalomcsomag létrehozása és közzététele](service-organizational-content-pack-create-and-publish.md)
 * [Alkalmazások létrehozása és terjesztése a Power BI-ban](service-create-distribute-apps.md) 
 * [Power BI – Alapfogalmak](service-basic-concepts.md)
-* További kérdései vannak? [Felteheti őket a Power BI-közösségnek](http://community.powerbi.com/)
+* További kérdései vannak? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)
 

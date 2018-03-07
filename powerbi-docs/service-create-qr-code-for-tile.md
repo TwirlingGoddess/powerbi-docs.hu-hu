@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/12/2017
 ms.author: maggies
-ms.openlocfilehash: 73cb9769fad31ad4b12b0df6c9492079d5cecaa8
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+LocalizationGroup: Dashboards
+ms.openlocfilehash: 3a01f7c8ab679e2820261c7947a9561ff5513d60
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="create-a-qr-code-for-a-tile-in-power-bi-to-use-in-the-mobile-apps"></a>QR-kód létrehozása egy Power BI-csempéhez mobilalkalmazásokban történő használathoz
 A Power BI-ban a QR-kódok a való világból bármit képesek közvetlenül a hozzájuk kapcsolódó BI-információkhoz kapcsolni – nincs szükség keresésre vagy navigálásra.
@@ -36,18 +37,18 @@ Azok a munkatársak, akikkel megosztotta az irányítópultját, [közvetlenül 
 3. Válassza a jobb felső sarokban található három pontot (...), majd a **QR-kód előállítása** lehetőséget. 
    
     ![](media/service-create-qr-code-for-tile/power-bi-create-qr-code-tile.png)
-4. Ekkor megjelenik egy párbeszédpanel a QR-kóddal. 
+4. Megjelenik egy párbeszédpanel a QR-kóddal. 
    
     ![](media/service-create-qr-code-for-tile/pbi_qrcode_opportunity_count.png)
-5. Innen beolvashatja a QR-kódot, vagy letöltheti és mentheti, hogy: 
+5. Innen beolvashatja a QR-kódot, vagy letöltheti és mentheti, hogy a következőket tehesse: 
    
-   * hozzáadhassa egy e-mailhez vagy más dokumentumhoz, vagy 
-   * kinyomtathassa és elhelyezhesse egy adott helyen. 
+   * QR-kód hozzáadása e-mail-üzenethez vagy más dokumentumhoz, illetve 
+   * QR-kód kinyomtatása és adott helyre való elhelyezése. 
 
-## <a name="print-the-qr-code"></a>QR-kód nyomtatása
-A Power BI a QR-kódot egy nyomtatásra kész JPG-fájlként hozza létre. 
+## <a name="print-the-qr-code"></a>A QR-kód kinyomtatása
+A Power BI JPG-fájlként hozza létre a QR-kódot, nyomtatásra készen. 
 
-1. Válassza a **Letöltés** lehetőséget, majd nyissa meg a JPG-fájlt egy olyan számítógépen, amelyhez csatlakozik nyomtató.  
+1. Válassza a **Letöltés** elemet, majd nyissa meg a JPG-fájlt egy nyomtatóhoz csatlakoztatott számítógépen.  
    
    > [!TIP]
    > A JPG-fájl neve megegyezik a csempe nevével. Például „Opportunity Count - by Month, Sales Stage.jpg”.
@@ -57,8 +58,8 @@ A Power BI a QR-kódot egy nyomtatásra kész JPG-fájlként hozza létre.
 3. Vágja ki a QR-kódot, majd ragassza egy olyan helyre, amely kapcsolódik a csempéhez. 
 
 ## <a name="next-steps"></a>Következő lépések
-* [Kapcsolódás Power BI-adatokhoz a való világból](mobile-apps-data-in-real-world-context.md) mobilalkalmazásokkal
+* [Power BI-információk elérése a való világból](mobile-apps-data-in-real-world-context.md) a mobilalkalmazásokkal
 * [Power BI QR-kódjának beolvasása mobileszközről](mobile-apps-qr-code.md)
 * [QR-kód létrehozása jelentéshez](service-create-qr-code-for-report.md)
-* Kérdése van? [Kérdezze a Power BI-közösséget!](http://community.powerbi.com/)
+* Kérdése van? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)
 

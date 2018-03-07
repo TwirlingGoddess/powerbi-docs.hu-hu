@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/12/2017
 ms.author: maggies
-ms.openlocfilehash: 8d158ca4e8a99747fca28426a4c2b58d12ffbc3e
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+LocalizationGroup: Share your work
+ms.openlocfilehash: 56dec052240c60543831ef05624943e3d71f953a
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="share-a-power-bi-dashboard-that-links-to-an-excel-file-in-onedrive"></a>OneDrive-on található Excel-fájlra hivatkozó Power BI-irányítópult megosztása
 A Power BI-ból csatlakozhat a [OneDrive Vállalati verzióján tárolt Excel-munkafüzetekhez](service-excel-workbook-files.md), és a munkafüzetekből csempéket tűzhet ki az irányítópultokra. Ha megoszt egy ilyen irányítópultot, vagy létrehoz egy tartalomcsomagot, amely tartalmazza az irányítópultot:
@@ -63,5 +64,5 @@ Power BI-munkaterületről ugyanúgy oszthat meg irányítópultot, mint egy saj
 ## <a name="next-steps"></a>Következő lépések
 * [Csempe rögzítése Power BI-irányítópultra Excelből](service-dashboard-pin-tile-from-excel.md)
 * [A Power BI alapvető fogalmai](service-basic-concepts.md)
-* További kérdései vannak? [Kérdezze a Power BI-közösséget!](http://community.powerbi.com/)
+* További kérdései vannak? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)
 

@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/12/2017
 ms.author: maggies
-ms.openlocfilehash: 246d9aaf2496a99300787d496047607587e393b9
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+LocalizationGroup: Share your work
+ms.openlocfilehash: 328edd6f7bc1d7e0e2550eff2c34b97b5fd6442d
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="organizational-content-packs-copy-refresh-and-get-access"></a>Vállalati tartalomcsomagok: másolás, frissítés és hozzáférés kérése
 > [!NOTE]
@@ -58,5 +59,5 @@ Lásd: [Vállalati tartalomcsomagok kezelése, frissítése és törlése](servi
 ## <a name="next-steps"></a>Következő lépések
 * [A vállalati tartalomcsomagok bemutatása](service-organizational-content-pack-introduction.md)
 * [Csoportok létrehozása a Power BI-ban](service-create-distribute-apps.md)
-* További kérdései vannak? [Forduljon a Power BI közösségéhez](http://community.powerbi.com/)
+* További kérdései vannak? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)
 

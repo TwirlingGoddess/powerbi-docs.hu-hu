@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/08/2017
 ms.author: maggies
-ms.openlocfilehash: f95f126cc6a7c95fbe3227b712281a7d3f81e320
-ms.sourcegitcommit: b780b7108fd9b52398b8377b52836f0e0fedc96e
+LocalizationGroup: Create reports
+ms.openlocfilehash: feba171d6a81f7e9760df2d9fabecce2cc544dc2
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 12/09/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="create-a-responsive-slicer-you-can-resize-in-power-bi-preview"></a>Átméretezhető rugalmas szeletelő létrehozása a Power BI-ban (Előzetes verzió)
 
@@ -87,4 +88,4 @@ Ugyanezekkel a lépésekkel tehet rugalmassá egy csempe- vagy tartományszelete
 ## <a name="next-steps"></a>Következő lépések
 
 - [Útmutató: Szeletelők a Power BI szolgáltatásban](power-bi-visualization-slicers.md)
-- További kérdései vannak? [Kérdezze meg a Power BI-közösséget](http://community.powerbi.com/)
+- További kérdései vannak? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)

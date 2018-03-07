@@ -17,15 +17,16 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/12/2017
 ms.author: maggies
-ms.openlocfilehash: 56ee1279ff33fd8cd016443d4c615edc71dc7f55
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+LocalizationGroup: Share your work
+ms.openlocfilehash: 56766f6b2170a6bc7d22d1b9581db2d3bde441ad
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="find-and-connect-to-an-organizational-content-pack"></a>Céges tartalomcsomag megkeresése és csatlakozás hozzá
 > [!NOTE]
-> Hallott már az új *alkalmazásokról*? Az alkalmazásokkal széles közönséghez juttathat el tartalmat a Power BI-ban. Azt javasoljuk, hogy céges tartalomcsomagok és csak olvasható munkaterületek helyett használjon inkább alkalmazásokat. További információ az [alkalmazásokról](service-install-use-apps.md).
+> Hallott már az új *alkalmazásokról*? Az alkalmazásokkal új módon oszthatja meg a nagyközönséggel a tartalmakat a Power BI-ban. Javasoljuk az alkalmazások használatát a vállalati tartalomcsomagok vagy csak olvasható munkaterületek helyett. További információ az [alkalmazásokról](service-install-use-apps.md).
 > 
 > 
 
@@ -57,5 +58,5 @@ Ha a tartalomcsomag tulajdonosa módosítja a tartalomcsomagot, és:
 ## <a name="next-steps"></a>Következő lépések
 * [Bevezetés a céges tartalomcsomagok használatába](service-organizational-content-pack-introduction.md)  
 * [Alkalmazás létrehozása és terjesztése a Power BI-ban](service-create-distribute-apps.md)
-* Kérdése van? [Kérdezze a Power BI-közösséget!](http://community.powerbi.com/)
+* Kérdése van? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)
 

@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/20/2017
 ms.author: mihart
-ms.openlocfilehash: c5226c791a97c87c4c4759052149d8744f94d0ac
-ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
+LocalizationGroup: Visualizations
+ms.openlocfilehash: a46df6e225a5546f58e4f111d9cd3920a128614c
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 12/21/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="move-and-resize-a-visualization-in-a-report-in-power-bi-service-and-power-bi-desktop"></a>Vizualizációk áthelyezése és átméretezése jelentésekben a Power BI szolgáltatásban és a Power BI Desktopban
 A vizualizációkat csak a jelentések létrehozói és tulajdonosai helyezhetik át és méretezhetik át. A Power BI szolgáltatásban (az app.powerbi.com webhelyen) ehhez a [Szerkesztési nézetben](service-reading-view-and-editing-view.md) kell tudni megnyitni a jelentést.
@@ -47,4 +48,4 @@ A Power BI-ban nyisson meg egy jelentést, amelyben legalább egy vizualizáció
 
 [Power BI – Alapfogalmak](service-basic-concepts.md)  
 
-További kérdései vannak? [Felteheti azokat a Power BI-közösségnek](http://community.powerbi.com/)
+További kérdései vannak? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)

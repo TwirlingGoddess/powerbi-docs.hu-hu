@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/29/2018
 ms.author: maggies
-ms.openlocfilehash: d7c27792b9eefc97c39f9211fe246e81d0932a80
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+LocalizationGroup: Share your work
+ms.openlocfilehash: 1837bc36ac4707663b5583699b0090ac9a692eb7
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="collaborate-in-your-power-bi-app-workspace"></a>Együttműködés a Power BI alkalmazás-munkaterületén
 A Power BI alkalmazás-munkaterületek kitűnően alkalmasak arra, hogy munkatársaival irányítópultokon, jelentéseken és adatkészleteken együttműködve hozzanak létre *alkalmazásokat*. A munkaterületeknek éppen ez a rendeltetése – az együttműködés. Miután munkatársaival végzett az irányítópultokon és jelentéseken végzett közös munkával, azokat alkalmazásként csomagolhatja és terjesztheti. Szerezzen átfogó ismereteket [alkalmazások és alkalmazás-munkaterületek Power BI-ban történő létrehozásáról](service-create-distribute-apps.md). 

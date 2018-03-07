@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: ac0dc4919eb8eee2bb4ae4b7d2e3a466dba26bd9
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+LocalizationGroup: Learn more
+ms.openlocfilehash: f9aa1570fe9386e5f8e726097a1c88d448dc2da1
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="power-bi-desktop-send-a-smile-privacy-statement"></a>Power BI Desktop Mosoly küldése – Adatvédelmi nyilatkozat
 A Microsoftnál folyamatosan dolgozunk az adatai védelmén, miközben igyekszünk olyan termékeket kifejleszteni, amelyek megfelelnek az ügyfelek teljesítményre, hatékonyságra és kényelmes használatra vonatkozó igényeinek. A jelen adatvédelmi nyilatkozat a Microsoft Power BI Desktop-visszajelzés *Mosoly küldése* funkció különböző adatgyűjtési és -felhasználási gyakorlatait ismerteti. A nyilatkozat nem vonatkozik a Microsoft egyéb online vagy offline webhelyeire, termékeire és szolgáltatásaira.

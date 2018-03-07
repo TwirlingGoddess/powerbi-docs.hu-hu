@@ -15,13 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 07/20/2017
+ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: 1ffbf698f3a53aa1075cf62f2e05467dcde73cee
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+LocalizationGroup: Learn more
+ms.openlocfilehash: 9650f0be6ca795fdea3395721c0eb02e80464821
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="analyzing-web-page-data-using-power-bi-desktop-tutorial"></a>Weboldalakról származó adatok elemzése a Power BI Desktop használatával (oktatóanyag)
 Ez az oktatóanyag bemutatja, hogyan importálhat egy adatokból álló táblázatot egy weboldalról, majd hogyan hozhat létre egy jelentést az adatok vizualizációjához. A folyamat részeként a weboldalon elérhető táblázatok között kell navigálnia, és át kell alakítania az adatokat egy új formátumba.
