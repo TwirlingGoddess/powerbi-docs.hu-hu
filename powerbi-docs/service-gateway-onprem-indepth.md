@@ -15,13 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: powerbi
-ms.date: 09/06/2017
+ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: ca1761c0708681e6b413ba679980bacb3931e01d
-ms.sourcegitcommit: b3ee37e1587f1269ee7dd9daf1685a06dea3b50c
+LocalizationGroup: Gateways
+ms.openlocfilehash: 7283ee62838779590bbc01eb8b4348cfc7873dc1
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/23/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="on-premises-data-gateway-in-depth"></a>Helyszíni adatátjáró – részletesen
 Cége felhasználói hozzáférhetnek a helyszíni adatokhoz (amelyekhez már van hozzáférési jogosultságuk), de ahhoz, hogy ezek a felhasználók az Ön helyszíni adatforrásához kapcsolódjanak, helyszíni adatátjáró telepítésére és konfigurálására van szükség. Az átjáró gyors és biztonságos háttérbeli kommunikációt biztosít a felhőbeli felhasználótól az Ön helyszíni adatforrásáig és vissza a felhő felé.
@@ -37,7 +38,7 @@ Ez a cikk nem vezeti végig lépésenként az átjáró telepítésén és konfi
 [!INCLUDE [gateway-onprem-datasources-include](./includes/gateway-onprem-datasources-include.md)]
 
 ## <a name="sign-in-account"></a>Bejelentkezési fiók
-A felhasználók munkahelyi vagy iskolai fiókkal jelentkeznek be. Ez az ön munkahelyének fiókja. Ha regisztrált egy Office 365 ajánlatra, és nem tényleges munkahelyi e-mail-címét adta meg, előfordulhat, hogy az e-mail-cím a következőképpen néz ki: nancy@contoso.onmicrosoft.com. A felhőszolgáltatáson belüli fiókját az Azure Active Directory (AAD) egy bérlő alatt tárolja. Az AAD-fiókjához tartozó egyszerű felhasználónév a legtöbb esetben megegyezik ezzel az e-mail-címmel.
+A felhasználók munkahelyi vagy iskolai fiókjukkal jelentkeznek be. Ez az Ön céges fiókja. Ha feliratkozott egy Office 365-ajánlatra, és nem adta meg a tényleges munkahelyi e-mail-címét, lehetséges, hogy így fog kinézni a cím: nancy@contoso.onmicrosoft.com. A felhőszolgáltatásban lévő fiókját egy Azure Active Directory-bérlő tárolja. Az AAD-fiókjához tartozó egyszerű felhasználónév a legtöbb esetben megegyezik ezzel az e-mail-címmel.
 
 ## <a name="authentication-to-on-premises-data-sources"></a>Hitelesítés helyszíni adatforrásoknál
 Az átjáróból a helyszíni adatforrásokhoz való kapcsolódás tárolt hitelesítő adatok használatával történik, kivéve az Analysis Services esetében. Az átjáró a felhasználó személyétől függetlenül a tárolt hitelesítő adatokat használja a csatlakozáshoz.
@@ -67,7 +68,7 @@ Az Analysis Services csak akkor tudja meghatározni, hogy egy kapcsolódó felha
 Az EffectiveUserName tulajdonság nem használható nem tartományba léptetett Analysis Services-kiszolgálón. A bejelentkezési hibák elkerülése érdekében az Analysis Services-kiszolgálót be kell léptetni egy tartományba.
 
 ## <a name="how-do-i-tell-what-my-upn-is"></a>Hogyan állapíthatom meg az egyszerű felhasználónevemet?
-Lehetséges, hogy nem ismeri a saját egyszerű felhasználónevét, és nem feltétlenül tartományi rendszergazda. Munkaállomásán a következő parancs kiadásával állapíthatja meg a fiókjához tartozó egyszerű felhasználónevet.
+Előfordulhat, hogy nem tudja az UPN-jét, és az is lehet, hogy Ön nem tartományi rendszergazda. Munkaállomásán a következő parancs kiadásával állapíthatja meg a fiókjához tartozó egyszerű felhasználónevet.
 
     whoami /upn
 
@@ -109,7 +110,7 @@ Minél közelebb van az átjáró a kiszolgálóhoz, annál gyorsabb a kapcsolat
 Az átjáró telepítése után az átjáróhoz tartozó adatforrások telepítése következik. Adatforrásokat az **Átjárók kezelése** képernyőn adhat hozzá. További információkat talál az adatforrások kezelésével foglalkozó cikkekben.
 
 [Adatforrások kezelése – Analysis Services](service-gateway-enterprise-manage-ssas.md)  
-[Adatforrások kezelése – SAP HANA](service-gateway-enterprise-manage-sap.md)  
+[Az adatforrás kezelése – SAP HANA](service-gateway-enterprise-manage-sap.md)  
 [Adatforrások kezelése – SQL Server](service-gateway-enterprise-manage-sql.md)  
 [Adatforrások kezelése – Oracle](service-gateway-onprem-manage-oracle.md)  
 [Adatforrások kezelése – Importálás és ütemezett frissítés](service-gateway-enterprise-manage-scheduled-refresh.md)  

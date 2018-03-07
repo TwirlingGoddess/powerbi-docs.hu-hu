@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/14/2017
 ms.author: davidi
-ms.openlocfilehash: e3072e4a99c04e977579274c6d95f5bb1007e870
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+LocalizationGroup: Gateways
+ms.openlocfilehash: 2bd3604a3f16c6977c52c1b3484ac024445c65bb
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="on-premises-data-gateway-personal-mode"></a>Helyszíni adatátjáró (személyes mód)
 Az átjáró használatával vehetők igénybe a helyszíni adatforrások, illetve létrehozhatók Power BI-jelentések és -irányítópultok. Az **átjárók** olyan szoftverek, amelyek hozzáférést biztosítanak egy helyszíni magánhálózaton tárolt adatokhoz, majd lehetővé teszik ezen adatok felhasználását olyan online szolgáltatásokban, mint a **Power BI szolgáltatás**. A **helyszíni adatátjáró (személyes mód)** a Power BI egy nemrég kiadott frissítése, amely lehetővé teszi személyek számára, hogy telepítsenek a számítógépükön egy átjárót, és hozzáférést szerezzenek helyszíni adatokhoz.
@@ -145,5 +146,5 @@ A Spark támogatása a tervek szerint a 2017-es naptári év második felében v
 
 ## <a name="next-steps"></a>Következő lépések
 [Power BI-átjárók proxybeállításainak konfigurálása](service-gateway-proxy.md)  
-További kérdései vannak? [Felteheti azokat a Power BI-közösségnek](http://community.powerbi.com/)
+További kérdései vannak? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)
 

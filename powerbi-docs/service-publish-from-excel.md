@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: 14845d060b3fa6e1dfcd8e5a25affd33183e480b
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+LocalizationGroup: Data from files
+ms.openlocfilehash: ad398cedd92350618e0f23a33c85a33e6abd934b
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="publish-to-power-bi-from-excel-2016"></a>Közzététel Excel 2016-ból a Power BI-ba
 Az Excel 2016-tal közvetlenül [Power BI](https://powerbi.microsoft.com)-oldalára teheti közzé Excel-munkafüzeteit, ahol könnyen használható jelentéseket és irányítópultokat készíthet a munkafüzet adatai alapján. Az elemzés eredményeit aztán megoszthatja másokkal is a cégén belül.
@@ -77,7 +78,7 @@ Az Excelből Power BI-ba való közzététel Feltöltés változatának használ
 #### <a name="export-workbook-data-to-power-bi"></a>Munkafüzet adatainak exportálása a Power BI-ba
 Ezt a lehetőséget választva a táblázatokban és/vagy adatmodellekben lévő valamennyi támogatott adat új Power BI-adatkészletbe lesz exportálva. A Power View nézetet tartalmazó munkalapok újra létrejönnek a Power BI-ban, mint jelentések.
 
-A munkafüzetet továbbra is szerkesztheti. Amikor menti a változtatásokat, azok általában egy órán belül szinkronizálódnak a Power BI-beli adatkészlettel. Ha gyorsabban érvényesíteni szeretné a változtatásait, akkor használhatja újra a Közzététel lehetőséget, és azonnal exportálhatja a változásokat. A jelentésekben és irányítópultokon lévő vizualizációk is frissülnek.
+Tovább szerkesztheti a munkafüzetet. Amikor menti a változtatásokat, azok általában egy órán belül szinkronizálódnak a Power BI-beli adatkészlettel. Ha gyorsabban érvényesíteni szeretné a változtatásait, akkor használhatja újra a Közzététel lehetőséget, és azonnal exportálhatja a változásokat. A jelentésekben és irányítópultokon lévő vizualizációk is frissülnek.
 
 Akkor válassza ezt a lehetőséget, ha a Beolvasás és átalakítás lehetőséggel vagy a Power Pivot bővítménnyel töltött be adatokat egy adatmodellbe, vagy ha a munkafüzete Power View nézetet tartalmazó munkalapjain a Power BI-ben megjeleníteni kívánt vizualizációk vannak.
 

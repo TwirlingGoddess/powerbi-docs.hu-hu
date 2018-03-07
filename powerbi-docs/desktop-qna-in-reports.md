@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/12/2017
 ms.author: davidi
-ms.openlocfilehash: 2c62cda672355f070ce8b2ba18d629dfe70f7700
-ms.sourcegitcommit: be55922d7f43f458aea0160ec8fdfb1a0b5a0c00
+LocalizationGroup: Create reports
+ms.openlocfilehash: dacbb31e8e32abfcb34e565958620d579f68b4f2
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 12/12/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="use-qa-in-power-bi-desktop-for-natural-language-queries"></a>A Q&A használata a Power BI Desktopban a természetes nyelvű lekérdezések lehetővé tételéhez
 Hatékony eszköz a munkához, ha gyakori kifejezéseken és természetes nyelven alapuló kérdéseket tud feltenni az adataival kapcsolatban. Még hatékonyabb, ha az adatforrás válaszol is, és a **Power BI Desktop** alkalmazás Q&A szolgáltatása épp ezt teszi lehetővé.
@@ -194,5 +195,5 @@ Ekkor megjelenik a **Szinonimák** mező a **Power BI Desktop** alkalmazás abla
 A Power BI Desktop funkcióival kapcsolatban az alábbi cikkekben találhat további információt:
 
 * [Részletezés használata a Power BI Desktopban](desktop-drillthrough.md)
-* [Irányítópult csempéjének vagy jelentés vizualizációjának megjelenítése Fókusz módban](service-focus-mode.md)
+* [Irányítópult-csempe vagy jelentésvizualizáció megjelenítése Fókusz módban](service-focus-mode.md)
 

@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/22/2018
 ms.author: davidi
-ms.openlocfilehash: 5ebfa2f54c26c0b4c3321120558e1cccb8bce146
-ms.sourcegitcommit: ed49510adee96042c02d6bdadbfcf8a2e566fbf8
+LocalizationGroup: Share your work
+ms.openlocfilehash: fccb8575ac6ce238f0d5fb8fe64d9c16efa96c07
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/13/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="export-reports-from-power-bi-to-powerpoint-preview"></a>Jelentések exportálása a Power BI-ból a PowerPointba (előzetes verzió)
 A Power BI segítségével mostantól közzéteheti jelentését a **Microsoft PowerPointban**, és könnyedén létrehozhat bemutatót a Power BI-jelentés alapján. A **PowerPointba történő exportáláskor** a következő történik:

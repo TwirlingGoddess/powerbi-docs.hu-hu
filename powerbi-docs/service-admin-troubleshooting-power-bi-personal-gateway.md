@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: 6fbd9f56099e4053524a04680c0d4c0c366ce068
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+LocalizationGroup: Troubleshooting
+ms.openlocfilehash: b94bb40de33ced9b7b7fee811aeff5c18ee43cae
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="troubleshooting-power-bi-gateway---personal"></a>A Power BI személyes átjáró hibáinak elhárítása
 Ebben a cikkben áttekintjük a Power BI személyes átjáró használata kapcsán gyakorta felmerülő kérdéseket.
@@ -112,11 +113,11 @@ Ha az irányítópult csempéinek frissítésével kapcsolatban kap hibaüzenete
 
 ## <a name="tools-for-troubleshooting"></a>Hibaelhárítási eszközök
 ### <a name="refresh-history"></a>Frissítési előzmények
-A **Frissítési előzmények** segítenek áttekinteni az előfordult hibákat, és hasznos adatokat biztosítanak arra az esetre, ha a támogatást nyújtó ügyfélszolgálathoz kellene fordulnia. Mind az ütemezett, mind az igény szerinti frissítéseket megtekintheti. Az alábbi ábrákon végigkövetheti, hogyan érheti el a **Frissítési előzményeket**.
+A **Frissítési előzmények** segítenek áttekinteni az előfordult hibákat, és hasznos adatokat biztosítanak arra az esetre, ha a támogatást nyújtó ügyfélszolgálathoz kellene fordulnia. Mind az ütemezett, mind az igény szerinti frissítéseket megtekintheti. A **Frissítési előzmények** oldalra az alábbiak szerint juthat el.
 
-1. A Power BI navigációs ablaktábláján az **Adatkészletek** lehetőségnél válassza ki az egyik adatkészletet &gt; nyissa meg a menüt &gt; válassza a **Frissítés ütemezése** lehetőséget.
+1. A Power BI navigációs ablaktáblájának **Adatkészletek** területén jelöljön ki egy adatkészletet, majd válassza a &gt;Menü megnyitása&gt; **Frissítés ütemezése** lehetőséget.
    ![](media/service-admin-troubleshooting-power-bi-personal-gateway/scheduled-refresh.png)
-2. A **Beállítások...** panelen &gt;**Frissítés ütemezése** párbeszédablakban kattintson a **Frissítési előzmények** lehetőségre.  
+2. A **Beállítások:** &gt;**Frissítés ütemezése** párbeszédablakban kattintson a **Frissítési előzmények** lehetőségre.  
    ![](media/service-admin-troubleshooting-power-bi-personal-gateway/scheduled-refresh-2.png)
    
    ![](media/service-admin-troubleshooting-power-bi-personal-gateway/refresh-history.png)
@@ -129,7 +130,7 @@ A **Data Management Gateway** (Adatkezelési átjáró) és **PowerBIGateway** n
 ![](media/service-admin-troubleshooting-power-bi-personal-gateway/event-logs.png)
 
 ### <a name="fiddler-trace"></a>Nyomon követés a Fiddlerrel
-A [Fiddler](http://www.telerik.com/fiddler) a Telerik által kifejlesztett, HTTP-forgalmat figyelő ingyenes eszköz.  A Power BI szolgáltatás használatával megtekintheti a lekérdezések oda-vissza áramlását az ügyfélszámítógépen. Ebből kiderítheti az esetleges hibákat, illetve az egyéb kapcsolódó információkat.
+A [Fiddler](http://www.telerik.com/fiddler) a Telerik által kifejlesztett, HTTP-forgalmat figyelő ingyenes eszköz.  Nyomon követheti a Power BI szolgáltatás és az ügyfélszámítógép közötti adatforgalmat. Ebből kiderítheti az esetleges hibákat, illetve az egyéb kapcsolódó információkat.
 
 ![](media/service-admin-troubleshooting-power-bi-personal-gateway/fiddler.png)
 

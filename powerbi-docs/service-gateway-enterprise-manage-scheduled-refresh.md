@@ -15,13 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: powerbi
-ms.date: 07/20/2017
+ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: 844f887a32dcd9f0749c769ee92d92fe6c81316c
-ms.sourcegitcommit: b3ee37e1587f1269ee7dd9daf1685a06dea3b50c
+LocalizationGroup: Gateways
+ms.openlocfilehash: 8002cf2df278cd3329b62b5322a6faabc9394f57
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/23/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="manage-your-data-source---importscheduled-refresh"></a>Az adatforrás kezelése – Importálás/Ütemezett frissítés
 Amint telepítette a helyszíni adatátjárót, fel kell vennie az átjáróval használható adatforrásokat. Ez a cikk bemutatja, hogyan lehet használni az ütemezett frissítéshez használt átjárókat és az adatforrásokat a DirectQuery vagy az élő kapcsolatok helyett.
@@ -48,7 +49,7 @@ Egy átjáró eltávolítása az átjáró alatti adatforrásokat is törli.  Az
    ![](media/service-gateway-enterprise-manage-scheduled-refresh/datasourcesettings7.png)
 
 ## <a name="add-a-data-source"></a>Adatforrások felvétele
-Az adatforrások felvételének egyik módja az, ha kiválaszt egy átjárót, és az **Adatforrás hozzáadása** lehetőségre kattint, a másik az, ha az Átjáró > **Adatforrás hozzáadása** elemhez lép.
+Az adatforrások felvételének egyik módja az, ha kiválaszt egy átjárót, és az **Adatforrás hozzáadása** lehetőségre kattint, a másik pedig az, ha az Átjáró > **Adatforrás hozzáadása** elemhez lép.
 
 ![](media/service-gateway-enterprise-manage-scheduled-refresh/datasourcesettings1.png)
 
@@ -103,7 +104,7 @@ Az adatforráshoz tartozó Felhasználók lapon felveheti és eltávolíthatja a
 Miután létrehozta az adatforrást, használhatja DirectQuery-kapcsolatokkal vagy ütemezett frissítéssel is.
 
 > [!NOTE]
-> A kiszolgáló és az adatbázis nevének egyeznie kell a Power BI Desktopban és az adatforrásban a helyszíni adatátjárón belül!
+> A kiszolgáló és az adatbázis nevének egyeznie kell a Power BI Desktopban és az adatforrásban a helyszíni adatátjárón belül.
 > 
 > 
 
@@ -125,5 +126,5 @@ Ha szerepel az átjárón belül konfigurált adatforrás **Felhasználók** lap
 [Helyszíni adatátjáró](service-gateway-onprem.md)  
 [Helyszíni adatátjáró – részletek](service-gateway-onprem-indepth.md)  
 [A helyszíni adatátjáró hibaelhárítása](service-gateway-onprem-tshoot.md)  
-További kérdései vannak? [Forduljon a Power BI közösségéhez](http://community.powerbi.com/)
+További kérdései vannak? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)
 

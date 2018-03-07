@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: 5e6d981978fbf7690b797e5f07c1266e4a7c6b99
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+LocalizationGroup: Data from files
+ms.openlocfilehash: 2d736a4fbc3367d4ccddfa422f637323c8dbf404
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="get-data-from-comma-separated-value-csv-files"></a>Adatok lekérdezése vesszővel tagolt (.CSV) fájlokból
 ![](media/service-comma-separated-value-files/csv_icon.png)
@@ -38,9 +39,9 @@ Ha már rendelkezik .CSV-fájllal, itt az ideje, hogy adatkészletként csatlako
 
 **OneDrive – Vállalati verzió** – A leghatékonyabb megoldás a .CSV-fájl, az adatbázis, a jelentések és az irányítópultok szinkronban tartásához, ha rendelkezik OneDrive Vállalati verzióval, és oda a Power BI-hoz használt fiókkal jelentkezik be. Mivel a Power BI és a OneDrive egyaránt a felhőben található, a Power BI nagyjából óránként *kapcsolódik* a OneDrive-on található fájlhoz. Ha a rendszer bármilyen változást érzékel, az adatbázis, a jelentések és az irányítópultok automatikusan frissülnek a Power BI-ban.
 
-**OneDrive – Személyes verzió** – A OneDrive Vállalati verzió számos előnyét akkor is élvezheti, ha fájljait a saját OneDrive-fiókjába menti. A legnagyobb különbség az, hogy amikor a fájlt először csatlakoztatja (Get Data > Files > OneDrive – Personal) akkor a Microsoft-fiókjával kell a OneDrive-ba jelentkeznie, és ez általában nem ugyanaz, mint amit a Power BI-ba való belépéshez használ. Ha a Microsoft-fiókkal jelentkezik be a OneDrive-ba, mindenképpen válassza a Maradjak bejelentkezve lehetőséget. Így a Power BI képes lesz nagyjából óránként kapcsolódni a fájlhoz, és ellenőrizni, hogy szinkronban van-e a Power BI-ban lévő adatkészlettel.
+**OneDrive – személyes** – Ha a saját OneDrive-fiókjába menti a fájlokat, számos olyan előnyre tehet szert, mint a OneDrive Vállalati verziójának használatakor. A legnagyobb különbség az, hogy amikor a fájlt először csatlakoztatja (Get Data > Files > OneDrive – Personal) akkor a Microsoft-fiókjával kell a OneDrive-ba jelentkeznie, és ez általában nem ugyanaz, mint amit a Power BI-ba való belépéshez használ. Ha a Microsoft-fiókkal jelentkezik be a OneDrive-ba, mindenképpen válassza a Maradjak bejelentkezve lehetőséget. Így a Power BI képes lesz nagyjából óránként kapcsolódni a fájlhoz, és ellenőrizni, hogy szinkronban van-e a Power BI-ban lévő adatkészlettel.
 
-**SharePoint-csoportwebhelyek** – A Power BI Desktopban lévő fájloknak a SharePoint-csoportwebhelyekre történő mentése nagyjából ugyanúgy zajlik, mint a OneDrive Vállalati verzió esetében. A legnagyobb különbség a Power BI és a fájl csatlakoztatásának módja. Ehhez megadhat egy URL-címet, vagy csatlakozhat a gyökérmappához.
+**SharePoint – csoportwebhelyek** – A Power BI Desktop-fájlok SharePoint – csoportwebhelyekre való mentése sokban hasonlít a OneDrive Vállalati verziójába való mentéshez. A legnagyobb különbség a fájlhoz a Power BI-ból való csatlakozás módja. Ehhez megadhat egy URL-címet, vagy csatlakozhat a gyökérmappához.
 
 ## <a name="import-or-connect-to-a-csv-file"></a>.CSV-fájl importálása vagy csatlakoztatása
 >[!IMPORTANT]

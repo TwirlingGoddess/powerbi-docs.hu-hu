@@ -7,6 +7,7 @@
 | Mappa |Nem |Igen |
 | IBM DB2 |Nem |Igen |
 | IBM Informix-adatbázis |Nem |Igen |
+| IBM Netezza |Igen |Igen |
 | Impala |Igen |Igen |
 | MySQL |Nem |Igen |
 | OData |Nem |Igen |

@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
 ms.author: sarinas
-ms.openlocfilehash: b75ea1028694a9dab32073ce70180e61798d7d28
-ms.sourcegitcommit: c24e5d7bd1806e0d637e974b5143ab5125298fc6
+LocalizationGroup: Connect to services
+ms.openlocfilehash: 02b8c2e8ed9a8a4ca0c8aaf9848699f3ca3c24c8
+ms.sourcegitcommit: ab5192675729949d89de212acae48dd51294ad78
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 03/05/2018
 ---
 # <a name="connect-to-project-madeira-with-power-bi"></a>Csatlakozás a „Madeira” projekthez a Power BI használatával
 A Power BI és a „Madeira” projekt tartalomcsomag segítségével egyszerűen elemezheti a „Madeira” projekt adatait. A Power BI begyűjti az adatait (beleértve a Sales, azaz értékesítési és a Financial, azaz pénzügyi adatokat), majd összeállít egy használatra kész irányítópultot, és jelentést készít az adatok alapján.
@@ -106,8 +107,8 @@ Ha a „Madeira” projekt URL-címének megadása után ez a hibaüzenet jeleni
 
 **„Sikertelen bejelentkezés”** Ha a „Madeira” projekthez tartozó hitelesítő adataival az irányítópultra való bejelentkezés során „sikertelen bejelentkezés” hibaüzenet jelenik meg, ezt a következő hibák okozhatják:  
 
-    - A használt fiók nem rendelkezik a szükséges jogosultsággal, hogy a beolvassa a „Madeira” projekt adatait a fiókból. Ellenőrizze a felhasználói fiókját a „Madeira” projektben, és győződjön meg róla, hogy a megfelelő webszolgáltatás-hozzáférési kulcsot állította be jelszóként, majd próbálkozzon újra.  
-    - A „Madeira” projekt példánya, amelyhez csatlakozni próbál, nem rendelkezik érvényes a SSL-tanúsítvánnyal. Ebben az esetben egy részletesebb hibaüzenet jelenik meg („nem sikerült megbízható SSL-kapcsolatot kiépíteni”). Vegye figyelembe, hogy az önaláírt tanúsítványok nem támogatottak.  
+   - A használt fiók nem rendelkezik a szükséges jogosultsággal, hogy a beolvassa a „Madeira” projekt adatait a fiókból. Ellenőrizze a felhasználói fiókját a „Madeira” projektben, és győződjön meg róla, hogy a megfelelő webszolgáltatás-hozzáférési kulcsot állította be jelszóként, majd próbálkozzon újra.  
+   - A „Madeira” projekt példánya, amelyhez csatlakozni próbál, nem rendelkezik érvényes a SSL-tanúsítvánnyal. Ebben az esetben egy részletesebb hibaüzenet jelenik meg („nem sikerült megbízható SSL-kapcsolatot kiépíteni”). Vegye figyelembe, hogy az önaláírt tanúsítványok nem támogatottak.  
 
 **„Hoppá!”** Ha „Hoppá!” kezdetű hibaüzenet jelenik meg a hitelesítési párbeszédablak bezárása után, ezt leggyakrabban a tartalomcsomag adataihoz való kapcsolódással kapcsolatos hibák okozzák. Ellenőrizze, hogy az URL-cím a fent bemutatott mintát követi-e:  
     https://*mycronusus*.projectmadeira.com:7048/NAV/OData/Company('*CRONUS%20US*')

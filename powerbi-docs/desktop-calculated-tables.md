@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
-ms.openlocfilehash: d8ec3de8fc60501f44a76e090d1d35f21fa75f2b
-ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
+LocalizationGroup: Model your data
+ms.openlocfilehash: 8bf8d2629d6a0bd88a85fa468547586e93502721
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="using-calculated-tables-in-power-bi-desktop"></a>Számított táblázatok használata a Power BI Desktopban
 A számított táblázatokkal új táblázatokat adhat a modellhez. De ahelyett, hogy értékeket kellene lekérdeznie és betöltenie egy adatforrásból az új táblázat oszlopaiba, létrehozhat egy Data Analysis Expressions- (DAX-) képletet, amely meghatározza a táblázat értékeit. A számított táblázatok a Power BI Desktopban az Új táblázat funkcióval hozhatók létre Jelentés nézetben vagy Adatnézetben.

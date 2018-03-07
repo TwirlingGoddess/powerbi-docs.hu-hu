@@ -18,11 +18,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/20/2017
 ms.author: mihart
-ms.openlocfilehash: 9533985238fa9fb40bbab4e9ddd459aaaaffc135
-ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
+LocalizationGroup: Visualizations
+ms.openlocfilehash: 95352c72dfca1c1439f89d532dbcfcc5cd26758c
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 12/21/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="add-a-hyperlink-to-a-text-box-in-a-report"></a>Hivatkozás hozzáadása szövegmezőhöz egy jelentésben
 A szövegmezőket hozzá lehet adni jelentésekhez, rögzíteni lehet irányítópultokra a jelentésekből, és hozzá lehet őket közvetlenül adni az irányítópultokhoz. A hivatkozásokat hozzá lehet adni a szövegmezőkhöz, függetlenül attól, hol vannak. **A témakör a Power BI szolgáltatás (és nem a Power BI Desktop) jelentéseinek szövegmezőire vonatkozik.**
@@ -63,5 +64,5 @@ A szövegmezőket hozzá lehet adni jelentésekhez, rögzíteni lehet irányít�
 
 [Szövegmező hozzáadása irányítópulthoz](service-dashboard-add-widget.md)
 
-További kérdései vannak? [Felteheti azokat a Power BI-közösségnek](http://community.powerbi.com/)
+További kérdései vannak? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)
 

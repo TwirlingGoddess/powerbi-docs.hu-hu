@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/21/2017
 ms.author: mihart
-ms.openlocfilehash: 3750d733967301f952fd092d2d1d0a2b9d1b2238
-ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
+LocalizationGroup: Reports
+ms.openlocfilehash: ebf3021f6afdd23730e6b971077913a886961d3b
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 12/21/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="analytics-pane-in-power-bi-service"></a>Az Elemzés panel a Power BI szolgáltatásban
 A **Power BI szolgáltatás** **Elemzés** paneljével dinamikus *referenciavonalak* adhatók a vizualizációkhoz, kiemelve a fontos trendeket vagy elemzési eredményeket.
@@ -105,5 +106,5 @@ Végül pedig a nem Descartes-féle vizualizációk esetében jelenleg nem alkal
 ## <a name="next-steps"></a>További lépések
 [Az Elemzés panel a Power BI Desktopban](desktop-analytics-pane.md)
 
-További kérdései vannak? [Felteheti azokat a Power BI-közösségnek](http://community.powerbi.com/)
+További kérdései vannak? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)
 
