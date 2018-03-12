@@ -662,15 +662,17 @@
           href: desktop-connect-excel.md
         - name: Az Analysis Services többdimenziós adatai a Power BI Desktopban
           href: desktop-ssas-multidimensional.md
-        - name: Kapcsolódás CSV-fájlhoz a Power BI Desktopban
+        - name: Csatlakozás CSV-fájlokhoz a Power BI Desktopban
           href: desktop-connect-csv.md
-        - name: Kapcsolódás Impala-adatbázishoz a Power BI Desktopban (előzetes verzió)
+        - name: Csatlakozás az Adobe Analyticshez a Power BI Desktopban (előzetes verzió)
+          href: desktop-connect-csv.md
+        - name: Csatlakozás Impala-adatbázishoz a Power BI Desktopban
           href: desktop-connect-impala.md
-        - name: Kapcsolódás OData-csatornához a Power BI Desktopban
+        - name: Csatlakozás egy OData-csatornához a Power BI Desktopban
           href: desktop-connect-odata.md
-        - name: Kapcsolódás Amazon Redshift-adatbázishoz a Power BI Desktopban (előzetes verzió)
+        - name: Csatlakozás Amazon Redshift-adatbázishoz a Power BI Desktopban
           href: desktop-connect-redshift.md
-        - name: Kapcsolódás webhelyhez a Power BI Desktopból
+        - name: Csatlakozás egy weblaphoz a Power BI Desktopról
           href: desktop-connect-to-web.md
         - name: Kapcsolódás Snowflake Computing-adattárházhoz a Power BI Desktopban
           href: desktop-connect-snowflake.md
@@ -768,6 +770,8 @@
           href: desktop-slicers.md
         - name: A Power BI könyvjelzői
           href: desktop-bookmarks.md
+        - name: Elemleírások létrehozása egyéni jelentésben (előzetes verzió)
+          href: desktop-tooltips.md
         - name: Jelentéstémák használata
           href: desktop-report-themes.md
         - name: Gyors mértékek használata
