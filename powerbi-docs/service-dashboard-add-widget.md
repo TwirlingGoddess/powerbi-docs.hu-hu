@@ -16,13 +16,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/20/2017
+ms.date: 03/02/2018
 ms.author: mihart
-ms.openlocfilehash: 3aa70a6382164cb8284e1a5f61ae73f66e54d2f3
-ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
+LocalizationGroup: Dashboards
+ms.openlocfilehash: cb1db61a3e0017adf56314862a5bb71fe1288dc6
+ms.sourcegitcommit: ab5192675729949d89de212acae48dd51294ad78
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 12/21/2017
+ms.lasthandoff: 03/05/2018
 ---
 # <a name="add-image-text-video-and-more-to-your-dashboard"></a>Kép, szöveg, videó és egyéb elemek hozzáadása az irányítópulthoz
 <iframe width="560" height="315" src="https://www.youtube.com/embed/e2PD8m1Q0vU" frameborder="0" allowfullscreen></iframe>
@@ -31,12 +32,12 @@ ms.lasthandoff: 12/21/2017
 ## <a name="add-tile"></a>Csempe hozzáadása
 A **Csempe hozzáadása** vezérlő használatával közvetlenül az irányítópulthoz adhatja hozzá a képeket, a szövegdobozokat, a videókat, a streamelési adatokat és a webes kódokat.
 
-1. A felső menüsávon válassza ki a **Csempe hozzáadása** elemet. A rendelkezésre álló helytől függően előfordulhat, hogy csak a plusz ![](media/service-dashboard-add-widget/power-bi-add-tile-icon-small.png) jelet látja.
+1. A felső menüsávon válassza ki a **Csempe hozzáadása** elemet. A rendelkezésre álló helytől függően előfordulhat, hogy csak a pluszjelet  ![pluszjel](media/service-dashboard-add-widget/power-bi-add-tile-icon-small.png) látja.
    
-    ![](media/service-dashboard-add-widget/power-bi-add-tile-icon.png)
+    ![Csempe hozzáadása ikon](media/service-dashboard-add-widget/power-bi-add-tile-icon.png)
 2. Válassza ki a hozzáadni kívánt csempe típusát: **Kép**, **Szövegdoboz**, **Videó**, **Webes tartalom**, vagy **Egyéni streamelési adatok**.
    
-    ![](media/service-dashboard-add-widget/power-bi-add-tile.png)
+    ![csempe hozzáadása ablak](media/service-dashboard-add-widget/power-bi-add-tile.png)
 
 ## <a name="add-an-image"></a>Kép hozzáadása
 Tegyük fel, hogy az irányítópulton el kívánja helyezni a cége emblémáját vagy más képet. Ehhez a képfájlt online állapotban mentenie kell, és létre kell hoznia egy rámutató hivatkozást. Bizonyosodjon meg róla, hogy a képfájl eléréséhez nincs szükség speciális hitelesítő adatokra. A OneDrive és a SharePoint például hitelesítő adatokat kér, ezért az ott tárolt képeket nem lehet ezen a módon hozzáadni az irányítópulthoz.  
@@ -44,14 +45,14 @@ Tegyük fel, hogy az irányítópulton el kívánja helyezni a cége emblémáj�
 1. Kattintson a **Kép** > **Tovább** lehetőségre.
 2. Adja meg a kép adatait a **Képcsempe felvétele** ablakban.
    
-    ![](media/service-dashboard-add-widget/pbi-widget-add-image-new.png)
+    ![képcsempe hozzáadása ablak](media/service-dashboard-add-widget/pbi-widget-add-image-new.png)
    
    * Ha azt szeretné, hogy cím jelenjen meg a kép fölött, válassza a *Cím és alcím megjelenítése* lehetőséget, majd írjon be egy címet és/vagy alcímet.
    * Adja meg a kép URL-címét.
    * Ha hivatkozássá alakítaná a csempét, jelölje be az **Egyéni hivatkozás beállítása** jelölőnégyzetet, és adja meg az URL-címet.  Amikor a munkatársai a csempére vagy a címre kattintanak, a rendszer erre az URL-címre irányítja őket.
    * Kattintson az **Alkalmaz** elemre.  Az irányítópulton igény szerint áthelyezheti a képet, és módosíthatja a méretét.
      
-     ![](media/service-dashboard-add-widget/power-bi-add-image-dash.png)
+     ![kép egy irányítópulton](media/service-dashboard-add-widget/power-bi-add-image-dash.png)
 
 ## <a name="add-a-text-box-or-dashboard-heading"></a>Szövegdoboz vagy irányítópult-címsor hozzáadása
 1. Kattintson a **Szövegdoboz > Tovább** elemre.
@@ -64,11 +65,11 @@ Tegyük fel, hogy az irányítópulton el kívánja helyezni a cége emblémáj�
    * Írja be és formázza a szövegdoboz tartalmát.  
    * Igény szerint egyéni hivatkozást is beállíthat a címhez. Az egyéni hivatkozások lehetnek külső helyek, vagy a munkaterületen található irányítópultok vagy jelentések. Ugyanakkor mivel ebben a példában magában a szövegdobozban adtuk meg a hivatkozásokat, üresen kell hagyni az **Egyéni hivatkozás beállítása** jelölőnégyzetet.
 
-     ![](media/service-dashboard-add-widget/power-bi-add-textbox.png)
+     ![Szövegmezőcsempe hozzáadása ablak](media/service-dashboard-add-widget/power-bi-add-textbox.png)
    
 3. Kattintson az **Alkalmaz** elemre.  Az irányítópulton igény szerint áthelyezheti a szövegdobozt, és módosíthatja a méretét.
    
-   ![](media/service-dashboard-add-widget/pbi-widget-text-added-new.png)
+   ![irányítópult képpel és szövegmezővel](media/service-dashboard-add-widget/pbi-widget-text-added-new.png)
 
 ## <a name="add-a-video"></a>Videó hozzáadása
 Ha YouTube- vagy Vimeo-videócsempét ad hozzá az irányítópulthoz, a lejátszó közvetlenül az irányítópulton fog elindulni.
@@ -76,14 +77,14 @@ Ha YouTube- vagy Vimeo-videócsempét ad hozzá az irányítópulthoz, a lejáts
 1. Válassza a **Videó > Tovább** elemet.
 2. Adja meg a videó adatait a **Videócsempe felvétele** ablaktáblán.
    
-    ![](media/service-dashboard-add-widget/power-bi-add-video-new.png)
+    ![Videócsempe hozzáadása ablak](media/service-dashboard-add-widget/power-bi-add-video-new.png)
    
    * Ha azt szeretné, hogy cím jelenjen meg a videó csempe fölött, válassza a *Cím és alcím megjelenítése* lehetőséget, majd írjon be egy címet és/vagy alcímet. Ebben a példában egy alcímet adunk meg, majd hivatkozást készítünk belőle, amely visszamutat a YouTube teljes lejátszási listájára.
    * Adja meg a videó URL-címét
    * Adjon meg egy hivatkozást a címhez és az alcímhez.  Miután a munkatársai megtekintették a beágyazott videót, talán szívesen a figyelmükbe ajánlaná a YouTube teljes lejátszási listáját – itt megadhatja a lejátszási listára mutató hivatkozást.
    * Kattintson az **Alkalmaz** elemre.  Az irányítópulton igény szerint áthelyezheti a videó csempét, és módosíthatja a méretét.
      
-      ![](media/service-dashboard-add-widget/pbi-widget-video-added-new.png)
+      ![videócsempével ellátott irányítópult hozzáadva](media/service-dashboard-add-widget/pbi-widget-video-added-new.png)
 3. A videó lejátszásához kattintson a videó csempére.
 4. A YouTube lejátszási listájának felkereséséhez kattintson az alcímre.
 
@@ -96,13 +97,13 @@ Illesszen vagy írjon be egy tetszőleges HTML-tartalmat.  A Power BI ezt a tart
 1. Kattintson a **Webtartalom > Tovább** elemre.
 2. Adja meg az adatokat a **Webtartalom-csempe hozzáadása** ablaktáblán.
    
-    ![](media/service-dashboard-add-widget/power-bi-add-web-content.png)
+    ![Webes tartalom csempe felvétele ablak](media/service-dashboard-add-widget/power-bi-add-web-content.png)
    
    * Ha azt szeretné, hogy cím jelenjen meg a csempe fölött, válassza a *Cím és alcím megjelenítése* lehetőséget, majd írjon be egy címet és/vagy alcímet.
    * Adja meg a beágyazási kódot. Ebben a példában egy Twitter-hírcsatornát másolunk és illesztünk be.
 3. Kattintson az **Alkalmaz** elemre.  Az irányítópulton igény szerint áthelyezheti a webes tartalom csempéjét, és módosíthatja a méretét.
      
-      ![](media/service-dashboard-add-widget/pbi-widget-code-added-new.png)
+      ![irányítópult 4 csempével](media/service-dashboard-add-widget/pbi-widget-code-added-new.png)
 
 ## <a name="tips-for-embedding-web-content"></a>Tippek a webes tartalom beágyazására
 * iFrame-tartalmak esetén használjon biztonságos forrást. Ha az iFrame-alapú beágyazási kód megadásakor üres csempét kap, ellenőrizze, hogy nem a **http** előtagot használja-e az iFrame-forráshoz.  Ha igen, módosítsa **https**-re.
@@ -145,12 +146,12 @@ A csempe módosításához...
 
 1. Mutasson a csempe jobb felső sarkára, és kattintson a három pontra.
    
-    ![](media/service-dashboard-add-widget/pbi_ellipses.png)
+    ![csempe kiválasztása három pont](media/service-dashboard-add-widget/pbi_ellipses.png)
 2. A Szerkesztés ikonra kattintva nyissa meg a **Csempe részletei** ablaktáblát, és hajtsa végre a módosításokat.
    
-    ![](media/service-dashboard-add-widget/pbi-edit.png)
+    ![toll szerkesztési ikon](media/service-dashboard-add-widget/pbi-edit.png)
 
-## <a name="considerations-and-troubleshooting"></a>Megfontolások és hibaelhárítás
+## <a name="considerations-and-troubleshooting"></a>Megfontolandó szempontok és hibaelhárítás
 * Könnyebben helyezheti át a csempét az irányítópulton, ha címet és/vagy alcímet ad hozzá.
 * Ha egy webhelyről tartalmat ágyazna be, de a webhely nem kínál fel másolható és beilleszthető beágyazási kódot, keresse fel az embed.ly oldalt a beágyazási kód létrehozásához.
 

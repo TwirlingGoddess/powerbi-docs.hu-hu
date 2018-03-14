@@ -15,13 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/24/2017
+ms.date: 03/02/2018
 ms.author: mihart
-ms.openlocfilehash: 83b813ccdc9ed0ef232f5eede715ad3a795253d0
-ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
+LocalizationGroup: Dashboards
+ms.openlocfilehash: 769d669f00c87e6139d8ff2cb8640739d09edf7a
+ms.sourcegitcommit: ab5192675729949d89de212acae48dd51294ad78
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 01/03/2018
+ms.lasthandoff: 03/05/2018
 ---
 # <a name="tips-for-designing-a-great-power-bi-dashboard"></a>Tippek a tökéletes Power BI-irányítópult megtervezéséhez
 Most, hogy létrehozta az irányítópultot, és hozzáadott néhány csempét is, gondolja át, hogyan tehetné irányítópultját egyszerre ízlésessé és célratörővé. Ennek a legjobb módja, ha a legfontosabb információ a legfeltűnőbb, amelynek megjelenése letisztult és rendezett.
@@ -50,7 +51,7 @@ Irányítópultját minden felesleges információ nélkül, [Teljes képernyős
 
 ### <a name="make-the-most-important-information-biggest"></a>A legfontosabb információt jelenítse meg a legnagyobbként
 Ha az irányítópulton található szövegek és a vizualizációk azonos méretűek, az olvasóknak nehezére esik majd a legfontosabb információra összpontosítani. A kártyavizualizációk segítségével például hatásosan tudja megjeleníteni a fontos számokat:  
-![](media/service-dashboards-design-tips/pbi_card.png)
+![Kártyavizualizáció](media/service-dashboards-design-tips/pbi_card.png)
 
 De ügyeljen arra, hogy a kontextust is megadja.  
 
@@ -85,5 +86,5 @@ A tökéletes irányítópult-tervezés elsajátításához érdemes megismerked
 ## <a name="next-steps"></a>Következő lépések
 [A Power BI-irányítópultok](service-dashboards.md)  
 [Power BI – Alapfogalmak](service-basic-concepts.md)  
-További kérdései vannak? [Felteheti azokat a Power BI-közösségnek](http://community.powerbi.com/)
+További kérdései vannak? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)
 

@@ -15,13 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/24/2018
+ms.date: 03/01/2018
 ms.author: mihart
-ms.openlocfilehash: 7405f2c5663c071d58253f2103c9c7d778ea8299
-ms.sourcegitcommit: be5223b62e9a5d57c52f8588d4e539d814751dd6
+LocalizationGroup: Reports
+ms.openlocfilehash: 7da16deb3e5919d509a5cbbb7fd845914c8c4ea4
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 01/29/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="create-a-new-power-bi-report-by-importing-a-dataset"></a>Új Power BI-jelentés létrehozása adatkészlet importálásával
 Már elolvasta a [Jelentések a Power BI-ban](service-reports.md) című cikket, és szeretne létrehozni egy saját jelentést. A jelentések több különböző módon is létrehozhatók. Ebben a cikkben kezdésként egy Excel-adatkészletből egy alapszintű jelentést fogunk létrehozni. Ha már megismerte a jelentés létrehozásának alapjait, akkor a lap alján található **Következő lépések** hivatkozással továbbhaladhat a jelentésekkel kapcsolatos összetettebb témakörökre is.  
@@ -37,22 +38,22 @@ Ha ezzel a módszerrel hoz létre egy jelentést, akkor annak kiindulópontja eg
 
 1. A jelentést a Power BI szolgáltatás egy munkaterületén fogjuk létrehozni, ezért válasszon ki egy meglévő munkaterületet, vagy hozzon létre egy újat.
    
-   ![](media/service-report-create-new/power-bi-workspaces2.png)
+   ![Alkalmazás-munkaterületek listája](media/service-report-create-new/power-bi-workspaces2.png)
 2. A bal oldali navigációs panelen válassza az **Adatok lekérése** elemet.
    
-   ![](media/service-report-create-new/power-bi-get-data3.png)
+   ![Adatok lekérése](media/service-report-create-new/power-bi-get-data3.png)
 3. Válassza a **Fájlok** lehetőséget, majd navigáljon arra a helyre, ahova a Kiskereskedelmi elemzési mintát mentette.
    
-    ![](media/service-report-create-new/power-bi-select-files.png)
-4. Ehhez a feladathoz válassza az **Importálás** lehetőséget.
+    ![a Fájlok lehetőség kiválasztása](media/service-report-create-new/power-bi-select-files.png)
+4. Ehhez a gyakorlathoz válassza az **Importálás** lehetőséget.
    
-   ![](media/service-report-create-new/power-bi-import.png)
+   ![az Importálás kiválasztása](media/service-report-create-new/power-bi-import.png)
 5. Ha megtörtént az adatkészlet importálása, válassza az **Adatkészlet megtekintése** lehetőséget.
    
-   ![](media/service-report-create-new/power-bi-view-dataset.png)
+   ![az Adatkészlet megtekintése lehetőség kiválasztása](media/service-report-create-new/power-bi-view-dataset.png)
 6. Ha megtekint egy adatkészletet, azzal tulajdonképpen a jelentésszerkesztőt nyitja meg.  Egy üres vásznat fog látni, és a jelentések készítéséhez szükséges eszközöket.
    
-   ![](media/service-report-create-new/power-bi-blank-report.png)
+   ![jelentésszerkesztő](media/service-report-create-new/power-bi-blank-report.png)
 
 > **TIPP**: Ha nem ismeri a jelentésszerkesztő vásznat, vagy szeretné felfrissíteni ismereteit, [Tekintse át a jelentésszerkesztőt](service-the-report-editor-take-a-tour.md), mielőtt továbbhaladna.
 > 
@@ -63,16 +64,16 @@ Most hogy már importáltuk az adatkészletünket, kezdjük el megválaszolni a 
 
 1. A Mezők ablaktáblán válassza a **Sales** > **This Year Sales** > **Érték** elemet.
    
-    ![](media/service-report-create-new/power-bi-report-step1.png)
-2. Konvertálja a vizualizációt egy Mérőműszerré, ehhez válassza a **Megjelenítések** ablaktáblán a Mérőműszer sablont ![](media/service-report-create-new/powerbi-gauge-icon.png).
+    ![sávdiagram a jelentésszerkesztőben](media/service-report-create-new/power-bi-report-step1.png)
+2. Konvertálja a vizualizációt egy Mérőműszerré, ehhez válassza a **Megjelenítések** ablaktáblán a Mérőműszer sablont ![Mérőműszer ikon](media/service-report-create-new/powerbi-gauge-icon.png).
    
-    ![](media/service-report-create-new/power-bi-report-step2.png)
+    ![Mérőműszer vizualizáció a jelentésszerkesztőben](media/service-report-create-new/power-bi-report-step2.png)
 3. Húzza a **Sales** > **This Year Sales** > **Cél** elemet a **Célérték** gyűjtőbe. Úgy látszik, nagyon közel vagyunk a célkitűzésünk eléréséhez.
    
-    ![](media/service-report-create-new/power-bi-report-step3.png)
+    ![Mérőműszer vizualizáció a Cél elemmel mint Célérték](media/service-report-create-new/power-bi-report-step3.png)
 4. Érdemes [menteni a jelentést](service-report-save.md).
    
-   ![](media/service-report-create-new/powerbi-save.png)
+   ![Fájl menü](media/service-report-create-new/powerbi-save.png)
 
 ## <a name="add-an-area-chart-and-slicer-to-the-report"></a>Területdiagram és szeletelő felvétele a jelentésbe
 Meg kell válaszolnunk a marketingigazgató újabb kérdéseit. Szeretné tudni, hogy milyenek az idei év értékesítési mutatói a tavalyi évhez képest. És ezt az egyes körzetekre lebontva szeretné látni.
@@ -80,21 +81,21 @@ Meg kell válaszolnunk a marketingigazgató újabb kérdéseit. Szeretné tudni,
 1. Először is csináljunk egy kis helyet a vásznunkon. Válassza ki a Mérőműszert és helyezze a jobb felső sarokba. Ezután fogja meg az egyik sarkát és kicsinyítse le.
 2. Szüntesse meg a mérőműszer kijelölt állapotát. A Mezők ablaktáblán válassza a **Sales** > **This Year Sales** > **Érték**, majd a **Sales** > **Last Year Sales** elemeket.
    
-    ![](media/service-report-create-new/power-bi-report-step4.png)
-3. Konvertálja a vizualizációt egy Területdiagrammá, ehhez válassza a **Megjelenítések** ablaktáblán a Területdiagram sablont ![](media/service-report-create-new/power-bi-areachart-icon.png).
+    ![jelentésszerkesztő egy Mérőműszerrel és egy sávdiagrammal](media/service-report-create-new/power-bi-report-step4.png)
+3. Konvertálja a vizualizációt egy Területdiagrammá, ehhez válassza a **Megjelenítések** ablaktáblán a Területdiagram sablont ![diagram ikon](media/service-report-create-new/power-bi-areachart-icon.png).
 4. Adja hozzá a **Time** > **Period** elemet a **Tengely** gyűjtőhöz.
    
-    ![](media/service-report-create-new/power-bi-report-step5.png)
+    ![jelentésszerkesztő aktív Területdiagrammal](media/service-report-create-new/power-bi-report-step5.png)
 5. A vizualizáció időszakok szerinti rendezéséhez válassza a három pontot (...), majd a **Rendezés szempontja: Időszak** lehetőséget.
-6. És most vegyük fel a szeletelőt. Válassza ki a vászon egy üres területét, majd a Szeletelő ![](media/service-report-create-new/power-bi-slicer-icon.png)    sablont. Ez felvesz a vásznunkra egy üres szeletelőt.
+6. És most vegyük fel a szeletelőt. Válassza ki a vászon egy üres területét, majd a Szeletelő ![Szeletelő ikon](media/service-report-create-new/power-bi-slicer-icon.png)    sablont. Ez felvesz a vásznunkra egy üres szeletelőt.
    
-    ![](media/service-report-create-new/power-bi-report-step6.png)    
+    ![A jelentésvászon](media/service-report-create-new/power-bi-report-step6.png)    
 7. A Mezők ablaktáblán válassza a **District** > **District** elemet. Helyezze át és méretezze át a szeletelőt.
    
-    ![](media/service-report-create-new/power-bi-report-step7.png)  
+    ![Jelentésszerkesztő, Kerület hozzáadása](media/service-report-create-new/power-bi-report-step7.png)  
 8. A szeletelő használatával mintákat és összefüggéseket kereshet az egyes körzetek szerint.
    
-   ![](media/service-report-create-new/power-bi-slicer-video2.gif)  
+   ![videó a szeletelő használatáról](media/service-report-create-new/power-bi-slicer-video2.gif)  
 
 Az adatokat tovább vizsgálhatja, és vizualizációkat is adhat hozzá. Ha különösen érdekes információt talál, azt [rögzítheti egy irányítópultra](service-dashboard-pin-tile-from-report.md).
 

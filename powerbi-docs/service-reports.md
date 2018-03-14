@@ -15,19 +15,20 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/08/2018
+ms.date: 03/01/2018
 ms.author: mihart
-ms.openlocfilehash: baa94483b8174d62d0f7e27d726bb59dbb0b4c10
-ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
+LocalizationGroup: Reports
+ms.openlocfilehash: 664e07b1a772c0eb5d14372061511bc86c671b64
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 01/09/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="reports-in-power-bi"></a>Jelentések a Power BI-ban
 ## <a name="what-is-a-power-bi-report"></a>Mi a Power BI-jelentés?
 A Power BI-***jelentés*** többféle nézőpontból jeleníti meg az adathalmazokat, különböző, az adott adathalmazból származó eredményeket és meglátásokat bemutató vizualizációkkal.  Egy jelentés állhat egyetlen vizualizációból vagy vizualizációkkal megtöltött lapokból. Feladatkörétől függően Ön lehet a jelentések *létrehozója* és/vagy egy azokat *feldolgozó* vagy felhasználó személy.
 
-![](media/service-reports/reportview.png)
+![jelentés oldala](media/service-reports/reportview.png)
 
 Ez a jelentés 3 lapot tartalmaz, és jelenleg az „Üzleti értékesítések áttekintése” lapot látjuk. Ez a lap 6 különböző vizualizációt és egy lapcímet tartalmaz. A vizualizációk *rögzíthetők* az irányítópultokra, és a rögzített vizualizációk választásakor megnyílik a jelentés, amelyből a vizualizáció származik.
 

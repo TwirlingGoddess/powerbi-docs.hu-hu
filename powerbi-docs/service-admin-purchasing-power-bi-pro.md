@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 06/30/2017
 ms.author: maghan
-ms.openlocfilehash: 6019cde4864087c75b22663ff5461790d4e24961
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+LocalizationGroup: Administration
+ms.openlocfilehash: c4fa2e0e2927f8050648884e1833adf618a7d4f5
+ms.sourcegitcommit: d91b7bf18d5c504037134f375886633379f28ede
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="purchasing-power-bi-pro"></a>A Power BI Pro megvásárlása
 A Power BI Pro azoknak a felhasználóknak készült, akik jelentéseket tesznek közzé, irányítópultokat osztanak meg, munkaterületeken dolgoznak együtt kollégáikkal, és egyéb kapcsolódó tevékenységeket végeznek – mint például:
@@ -63,7 +64,7 @@ Ezután kattintson a **Próbaverzió indítása** elemre.
 > A Power BI Premium elérhetővé válásával és az ingyenes Power BI 2017. június 1-én módosított ajánlatával Ön a Pro kiterjesztett próbaverzióját is kipróbálhatja. További információkért lásd: [A Pro próbaverzió kiterjesztett aktiválása](service-extended-pro-trial.md).
 
 ### <a name="what-this-looks-like-within-the-service"></a>A fiók megjelenése a szolgáltatásban
-A szolgáltatáson belül úgy ellenőrizheti, hogy Pro-próbaverziós fiókja van-e, hogy a **fogaskerék* ikonra kattint, majd a **Személyes tárhely kezelése** lehetőséget választja.
+A szolgáltatáson belül úgy ellenőrizheti, hogy Pro-próbaverziós fiókja van-e, hogy a **fogaskerék** ikonra kattint, majd a **Személyes tárhely kezelése** lehetőséget választja.
 
 ![](media/service-admin-purchasing-power-bi-pro/powerbi-pro-trial3.png)
 

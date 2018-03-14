@@ -16,13 +16,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 02/28/2018
 ms.author: mihart
-ms.openlocfilehash: 01e4f19cc1a3a57179be37cf0f36adf15ac47fdc
-ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
+LocalizationGroup: Dashboards
+ms.openlocfilehash: 5623667cd1a39b05795d162055ad0d3351d127bc
+ms.sourcegitcommit: 0a16dc12bb2d39c19e6b0002b673a8c1d81319c9
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 01/09/2018
+ms.lasthandoff: 03/02/2018
 ---
 # <a name="automatically-generate-data-insights-with-power-bi"></a>Adatelemzések automatikus generálása a Power BI-jal
 Van egy új adatkészlete, de nem tudja, hogy kezdje el feldolgozni?  Gyorsan létre kell hoznia egy irányítópultot?  Szeretne felfedezni eddig hiányzó összefüggéseket?
@@ -45,43 +46,42 @@ Most Ön következik. Fedezze fel az elemzések szolgáltatást a [Supplier Qual
 
 1. Az **Adatkészletek** lapon kattintson a három pontra (...), majd válassza az **Elemzések lekérése** lehetőséget.
    
-    ![](media/service-insights/power-bi-ellipses.png)
+    ![Adatkészletek lap](media/service-insights/power-bi-ellipses.png)
    
-    ![](media/service-insights/power-bi-tab.png)
+    ![három pont menü](media/service-insights/power-bi-tab.png)
 2. A Power BI [különböző algoritmusokat](service-insight-types.md) használ az adatkészlet trendjeinek kimutatásához.
    
-    ![](media/service-insights/pbi_autoinsightssearching.png)
+    ![Elemzések keresése párbeszédpanel](media/service-insights/pbi_autoinsightssearching.png)
 3. Az elemzés másodpercek alatt elkészül.  A vizualizációk megjelenítéséhez kattintson az **Elemzések megtekintése** lehetőségre.
    
-    ![](media/service-insights/pbi_autoinsightsuccess.png)
+    ![sikert jelző üzenet](media/service-insights/pbi_autoinsightsuccess.png)
    
    > **MEGJEGYZÉS:**: Bizonyos adatkészletek esetén nem hozható létre elemzés, mert az adatok statisztikailag nem szignifikánsak.  Ha ezzel kapcsolatban további információra van szüksége, tekintse át az [Adatok elemzésekhez történő optimalizálását](service-insights-optimize.md) bemutató cikket.
    > 
    > 
 1. A vizualizációk a **Gyors elemzések** speciális vásznán jelennek meg, akár 32 különálló elemzéskártyán. Minden kártyán egy-egy diagram vagy ábra és egy rövid leírás látható.
    
-    ![](media/service-insights/power-bi-insights.png)
+    ![Gyors elemzések vászon](media/service-insights/power-bi-insights.png)
 
 ## <a name="interact-with-the-insight-cards"></a>Az elemzéseket megjelenítő kártyák interaktív használata
-  ![](media/service-insights/pbi_hover.png)
+  ![gombostű ikon](media/service-insights/pbi_hover.png)
 
 1. A vizualizáció irányítópultra történő felvételéhez vigye a kurzort az egyik kártya fölé, és válassza a kitűzés ikont.
 2. Mutasson egy kártyára, válassza a három pontot (...), majd az **Elemzések megtekintése** elemet. Ekkor az elemzés megnyílik teljes képernyős módban.
    
-    ![](media/service-insights/power-bi-insight-focus.png)
+    ![Elemzés teljes képernyőn](media/service-insights/power-bi-insight-focus.png)
 3. Fókusz módban a következő műveleteket végrehajtására van lehetőség:
    
    * Vizualizációk szűrése.  A szűrők megjelenítéshez a jobb felső sarokban látható nyilat választva tudja kinyitni a Szűrők ablaktábláját.
+        ![elemzés és a Szűrők menü kibontva](media/service-insights/power-bi-insights-filter-new.png)
+   * Az elemzéskártyát a gombostű ![gombostű ikon](media/service-insights/power-bi-pin-icon.png)  ikont vagy a **Vizualizáció rögzítése** lehetőséget választva tűzheti ki egy irányítópultra.
+   * Elemzést magára a kártyára vonatkozóan is futtathat. Ezt gyakran **hatókörön belüli elemzésnek** is nevezik. Válassza a jobb felső sarokban látható villanykörte ikont ![Elemzések lekérése ikon](media/service-insights/power-bi-bulb-icon.png)  vagy az **Elemzések lekérése** lehetőséget.
      
-        ![](media/service-insights/power-bi-insights-filter-new.png)
-   * Az elemzéskártyát a kitűzés ![](media/service-insights/power-bi-pin-icon.png) ikont vagy a **Vizualizáció rögzítése** lehetőséget választva tűzheti ki egy irányítópultra.
-   * Elemzést magára a kártyára vonatkozóan is futtathat. Ezt gyakran **hatókörön belüli elemzésnek** is nevezik. Válassza a jobb felső sarokban látható villanykörte ![](media/service-insights/power-bi-bulb-icon.png) ikont vagy az **Elemzések lekérése** lehetőséget.
-     
-       ![](media/service-insights/pbi-autoinsights-tile.png)
+       ![az Elemzések lekérése ikon a menüsávon](media/service-insights/pbi-autoinsights-tile.png)
      
      A bal oldalon megjelennek az elemzések, a jobb oldalon pedig új kártyák láthatók, melyeket kizárólag az adott elemzésben szereplő adatok alapján készített a rendszer.
      
-       ![](media/service-insights/power-bi-insights-on-insights-new.png)
+       ![egymáson lévő elemzések](media/service-insights/power-bi-insights-on-insights-new.png)
 4. Az eredeti elemzéseket tartalmazó vászonra a bal felső sarokban látható **Kilépés a fókusz módból** lehetőséget választva léphet vissza.
 
 ## <a name="run-insights-on-a-dashboard-tile"></a>Irányítópult csempére vonatkozó elemzések futtatása
@@ -90,7 +90,7 @@ Teljes adatkészletek összefüggéseinek feltárása helyett egyetlen irányít
 1. Nyisson meg egy irányítópultot.
 2. Vigye az egérmutatót egy csempe fölé. válassza a három pontot (...), majd az **Elemzések megtekintése** lehetőséget. A csempe [Fókusz módban](service-focus-mode.md) nyílik meg, és a jobb oldalán jelennek meg az elemzéskártyák.    
    
-    ![](media/service-insights/pbi-insights-tile.png)    
+    ![Fókusz mód](media/service-insights/pbi-insights-tile.png)    
 4. Felkeltette valamelyik elemzés az érdeklődését? Az adott elemzéskártyát kiválasztva az adatok mélyebb szintjére is leáshat. A kiválasztott elemzés a bal oldalon fog megjelenni, az új, kizárólag az adott elemzés adatain alapuló új elemzéskártyák pedig a jobb oldalon.    
 6. Az adatok mélyebb szintjeinek feltárását tovább folytatva az érdekes elemzéseket a jobb felső sarokban látható **Vizualizáció rögzítése** lehetőséget választva tűzheti ki az irányítópultra.
 

@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/04/2018
 ms.author: maggies
-ms.openlocfilehash: 6803c8aa2898c9ab27b515c04d7db813e7d44ea4
-ms.sourcegitcommit: 25489cf87c31fc107a5337fa1dd36506897c4bbb
+ms.openlocfilehash: 7285e15b6f63cc53b9221a46e0a524313c413cda
+ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 01/05/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="take-power-bi-anywhere-in-mobile-apps-for-your-mobile-device"></a>Mobilalkalmazás formájában a Power BI szolgáltatást mindenhova magával viheti mobileszközén
 A Power BI-irányítópultjait és -jelentéseit a Power BI szolgáltatásban ([https://powerbi.com](https://powerbi.com)), a helyszíni Power BI-jelentéseket pedig a [Power BI jelentéskészítő kiszolgálón](report-server/get-started.md) tekintheti meg. Mostantól azonban a Power BI mobilalkalmazásaival bárhonnan, bármikor elérheti helyszíni vagy a felhőben tárolt adatait. Próbálja ki Power BI-irányítópultjainak és -jelentéseinek megtekintését és kezelését a mobileszközén – legyen az akár iOS (iPad, iPhone, iPod touch vagy Apple Watch), androidos telefon vagy táblagép, vagy egy Windows 10-es eszköz.
@@ -51,4 +51,5 @@ További információk az [Android és iOS rendszerhez készült Power BI-mobila
 ## <a name="next-steps"></a>Következő lépések
 * [Az ingyenes Power BI és a Pro-licencek összehasonlítása](service-free-vs-pro.md)
 * Kérdése van? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)
+
 

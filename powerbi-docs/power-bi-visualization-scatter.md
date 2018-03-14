@@ -16,13 +16,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/23/2017
+ms.date: 02/28/2018
 ms.author: mihart
-ms.openlocfilehash: 2d8ed3c30d289646504071daca098df1f41f6aab
-ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
+LocalizationGroup: Visualizations
+ms.openlocfilehash: 6b5467456321b171116cf984ec276c3694b4030b
+ms.sourcegitcommit: 0a16dc12bb2d39c19e6b0002b673a8c1d81319c9
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 03/02/2018
 ---
 # <a name="scatter-charts-and-bubble-charts-in-power-bi-tutorial"></a>Pontdiagramok és buborékdiagramok a Power BI szolgáltatásban (oktatóanyag)
 A pontdiagramok mindig két értéktengellyel rendelkeznek. A vízszintes tengely mentén numerikus adatok egy készletét ábrázolják, a függőleges tengely mentén pedig numerikus adatok egy másik készletét. A diagram pontokat jelenít meg az x és y numerikus értékek metszéspontjában, így egyetlen adatponttá kombinálja ezeket az értékeket. Ezek az adatpontok egyenletesen vagy egyenetlenül oszthatók el a vízszintes tengely mentén az adatoktól függően.
@@ -56,44 +57,55 @@ Ebben a videóban megtekintheti, ahogy Will létrehoz egy pontdiagramot, majd az
 
 Ez az útmutatás a Kiskereskedelmi elemzési mintát használja. Annak érdekében, hogy követni tudja a lépéseket, [töltse le a mintát](sample-datasets.md), mely a Power BI szolgáltatásban (az app.powerbi.com webhelyen) vagy a Power BI Desktopban használható.   
 
-1. Kezdjen egy [üres jelentésoldalon](power-bi-report-add-page.md), majd válassza a **Sales** \> **Sales Per Sq Ft** (Értékesítés > Értékesítés négyzetlábanként) és az **Sales** > **Total Sales Variance %** (Értékesítés > Teljes értékesítési különbözet %-ban) mezőt. Ha a Power BI szolgáltatást használja, mindenképpen a [Szerkesztési nézetében](service-interact-with-a-report-in-editing-view.md) nyissa meg a jelentést.
+1. [Üres jelentésoldal](power-bi-report-add-page.md) létrehozásához válassza a sárga plusz ikont.
  
-2. A Mezők panelen válassza a **Kerület > Kerület** lehetőséget.
-   
+2. A Mezők panelen válassza az alábbi mezőket:
+   - **Értékesítés** > **Értékesítés Négyzetláb szerint**
+   - **Értékesítés** > **Teljes értékesítés %-os szórása**
+   - **Kerület** > **Kerület**
+
     ![](media/power-bi-visualization-scatter/power-bi-bar-chart.png)
-4. Alakítsa át pontdiagrammá. A Vizualizáció panelen válassza a Pontdiagram ikont.
+
+    Ha a Power BI szolgáltatást használja, mindenképpen a [Szerkesztési nézetében](service-interact-with-a-report-in-editing-view.md) nyissa meg a jelentést.
+
+3. Alakítsa át pontdiagrammá. A Vizualizáció panelen válassza a Pontdiagram ikont.
+
    ![](media/power-bi-visualization-scatter/pbi_scatter_chart_icon.png).
-5. Húzza a **Kerület** elemet a **Részletek** területről a **Jelmagyarázat** területre.
-   
+
+4. Húzza a **Kerület** elemet a **Részletek** területről a **Jelmagyarázat** területre. A megjelenő pontdiagram a **Teljes értékesítési eltérés (%)** értéket jeleníti meg az Y tengely mentén, és az **Értékesítések négyzetlábanként** értéket az X tengely mentén. Az adatpontok színe a kerületeket jelzi:
+
     ![](media/power-bi-visualization-scatter/power-bi-scatter.png)
 
-Most a pontdiagramunk a Teljes értékesítési eltérés (%) értéket jeleníti meg az Y tengely mentén, és az Értékesítések négyzetlábanként értéket az X tengely mentén.  Az adatpontok színe a kerületeket jelzi.  Most adjunk hozzá egy harmadik dimenziót.
+Most adjunk hozzá egy harmadik dimenziót.
 
 ## <a name="create-a-bubble-chart"></a>Buborékdiagram létrehozása
-1. A Mezők panelen húzza az **Értékesítések** > **Idei értékesítések** > **Érték** elemet a **Méret** területre. 
+
+1. A **Mezők** panelen húzza az **Értékesítések** > **Idei értékesítések** > **Érték** elemet a **Méret** területre. Az adatpontok az értékesítési értékkel arányos mértékben jelennek meg.
    
    ![](media/power-bi-visualization-scatter/power-bi-bubble.png)
-2. Vigye az egérmutatót egy buborék fölé.  A buborék mérete az **Idei értékesítések** értékét tükrözi.
+
+2. Vigye az egérmutatót egy buborék fölé. A buborék mérete az **Idei értékesítések** értékét tükrözi.
    
     ![](media/power-bi-visualization-scatter/pbi_scatter_chart_hover.png)
-3. [Formázhatja a vizualizáció színeit, a címkéket, a címeket, a hátteret és egyebeket](service-getting-started-with-color-formatting-and-axis-properties.md).
+
+3. Ha a buborékdiagramon belüli adatpontok számát szeretné megváltoztatni, a **Vizualizációk** panel **Formázás** szakaszában bontsa ki az **Általános** kártyát, és állítsa az **Adatmennyiséget** a kívánt értékre. A maximális adatmennyiség értékeként bármilyen számot megadhat 10.000-ig (az alapértelmezett érték 3500).
+
+    ![Adatmennyiség](media/power-bi-visualization-scatter/pbi_scatter_data_volume.png) 
+
+   > [!NOTE]
+   > A nagy számú adatpont hosszabb betöltési idővel jár, ezért ha nagyon sok adatpontot használva szeretné közzétenni a jelentést, először mindenképp ajánlatos ellenőrizni weben és mobileszközökön is, hogy a teljesítmény megfelel-e a felhasználói elvárásoknak. Magasabb adatpontértékek esetén ajánlatos az eredményeket különféle méretekkel ellenőrizni, hogy biztosítható legyen a megfelelő teljesítmény.
+
+4. [Formázhatja a vizualizáció színeit, a címkéket, a címeket, a hátteret és egyebeket](service-getting-started-with-color-formatting-and-axis-properties.md). A [kisegítő lehetőségek javítása](desktop-accessibility.md) érdekében érdemes lehet minden vonalhoz jelölőalakzatokat hozzáadni. A különböző jelölőalakzatok használata az egyes vonalakhoz megkönnyíti a jelentés használóinak a vonalak (vagy területek) elkülönítését egymástól. Ha a jelölőalakzatot szeretné kiválasztani, bontsa ki az **Alakzatok** kártyát, majd válasszon ki egy jelölőalakzatot.
+
+      ![Jelölőalakzat](media/power-bi-visualization-scatter/pbi_scatter_marker.png)
 
    A jelölő alakzat alakja megváltoztatható rombuszra, háromszögre vagy négyszögre:
 
    ![Négyszög jelölőalakzat](media/power-bi-visualization-scatter/pbi_scatter_chart_hover_square.png)
 
-4. Ha a buborékdiagramon belüli adatpontok számát szeretné megváltoztatni, a **Vizualizációk** panel **Formázás** szakaszában bontsa ki az **Általános** kártyát, és állítsa az **Adatmennyiséget** a kívánt értékre. Az alapértelmezett érték 3500. 
- 
-    ![Adatmennyiség](media/power-bi-visualization-scatter/pbi_scatter_data_volume.png) 
-
-   > [!NOTE]
-   > A nagy számú adatpont hosszabb betöltési idővel jár, ezért ha nagyon sok adatpontot használva szeretné közzétenni a jelentést, először mindenképp ajánlatos ellenőrizni weben és mobileszközökön is, hogy a teljesítmény megfelel-e a felhasználói elvárásoknak.
-
-5.   Ha a jelölőalakzatot szeretné kiválasztani, bontsa ki az **Alakzatok** kártyát, majd válasszon ki egy jelölőalakzatot.
-
-      ![Jelölőalakzat](media/power-bi-visualization-scatter/pbi_scatter_marker.png)
 
 ## <a name="considerations-and-troubleshooting"></a>Megfontolandó szempontok és hibaelhárítás
+
 ### <a name="your-scatter-chart-has-only-one-data-point"></a>**A pontdiagramon csak egy adatpont szerepel**
 A pontdiagramon csak egyetlen adatpont szerepel, amely összesíti az X és az Y tengely összes értékét?  Vagy esetleg az összes értéket egyetlen vízszintes vagy függőleges vonal mentén összesíti?
 

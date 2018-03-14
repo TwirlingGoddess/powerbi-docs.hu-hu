@@ -16,23 +16,23 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/23/2017
+ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: aacc31c3ebb31bf6f8077a2bf802e8127048a431
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: cbb7697e3d3dbc92c2917b0a80deadfc0b9fd5a0
+ms.sourcegitcommit: 85d18d9f11a4ce4d4ed65e4544d13da6c2d9b1d4
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="get-started-with-power-bi-service-apppowerbicom"></a>A Power BI szolgáltatás (az app.powerbi.com webhely) használatának első lépései
 Ez az oktatóanyag segít az első lépések megtételében a ***Power BI szolgáltatásban***. Ha szeretné megérteni, hogyan illeszkedik a Power BI szolgáltatás a többi Power BI-ajánlathoz, javasoljuk, először olvassa el a [Mi az a Power BI](guided-learning/gettingstarted.yml#step-1) című szakaszt.
 
-![](media/service-get-started/power-bi-components.png)
+![a Desktop, a szolgáltatás és a mobilalkalmazás közti kapcsolatot mutató ábra](media/service-get-started/power-bi-components.png)
 
 A Power BI szolgáltatásnak van ingyenes és Pro változata. Függetlenül attól, hogy melyik verziót használja, *ha már rendelkezik fiókkal*, nyissa meg a böngészőt, és írja be az app.powerbi.com címet a Power BI szolgáltatás megnyitásához. Ha Ön új felhasználó, ajánlott, hogy először a www.powerbi.com webhelyet nyissa meg. Itt további információt találhat a Power BI szolgáltatással kapcsolatban, mielőtt bejelentkezne abba.  Ha készen áll arra, hogy kipróbálja a szolgáltatást, válassza a jobb felső sarokban található **Ingyenes regisztráció** hivatkozást. Ha a rendszergazda már engedélyezte a Power BI használatát az Ön számára, ne nyomja meg az Ingyenes regisztráció gombot, hanem ehelyett nyissa meg közvetlenül az app.powerbi.com webhelyet. 
 
-![](media/service-get-started/power-bi-sign-up.png)
+![Jelentkezzen be vagy regisztráljon ingyenesen](media/service-get-started/power-bi-sign-up.png)
 
 Ha a Power BI Desktoppal kapcsolatos segítséget keres, olvassa el az [Első lépések a Desktopban](desktop-getting-started.md) című szakaszt. Ha a Power BI Mobile-lal kapcsolatos segítségre van szükséges, lásd: [Power BI-alkalmazások mobileszközökre](mobile-apps-for-mobile-devices.md).
 
@@ -58,27 +58,27 @@ Olvassa el, milyen más módokon [kérhet még le adatokat a Power BI-ban](servi
 1. [Jelentkezzen be a Power BI-ba](http://www.powerbi.com/). Még nincs fiókja? Ne aggódjon, ingyenesen regisztrálhat.
 2. A Power BI a böngészőjében nyílik meg. Válassza az **Adatok beolvasása** elemet a bal oldali navigációs sáv alján.
    
-   ![](media/service-get-started/getdata3.png)
+   ![adatok lekérése](media/service-get-started/getdata3.png)
 3. Válassza a **Fájlok** lehetőséget. 
    
-   ![](media/service-get-started/gs1.png)
+   ![fájlok lekérése](media/service-get-started/gs1.png)
 4. Tallózással keresse meg a fájlt a számítógépen, majd válassza a **Megnyitás** gombot. Ha a OneDrive Vállalati verzióban mentette azt, akkor válassza ezt a lehetőséget. Ha helyileg mentette, válassza a **Helyi fájl** lehetőséget. 
    
-   ![](media/service-get-started/gs2.png)
+   ![Adatok lekérése > Fájlok képernyő](media/service-get-started/gs2.png)
 5. Ebben az oktatóanyagban az **Importálás** lehetőséget választva fogjuk az Excel-fájlt adatkészletként felvenni, amelyből aztán jelentéseket és irányítópultokat hozhatunk létre. Ha a **Feltöltés** lehetőséget választja, az egész Excel-munkafüzet fel lesz töltve a Power BI-ba, ahol megnyithatja és szerkesztheti az Excel Online-ban.
    
-   ![](media/service-get-started/power-bi-import.png)
+   ![Importálás kiválasztása](media/service-get-started/power-bi-import.png)
 6. Amikor készen áll az adatkészlet, válassza az **Adatkészlet megtekintése** gombot a jelentésszerkesztőben való megnyitásához. 
 
-    ![](media/service-get-started/power-bi-gs.png)
+    ![Az adatkészlet készen áll párbeszédablak](media/service-get-started/power-bi-gs.png)
 
     Mivel még nem hoztunk létre vizualizációkat, a jelentésvászon üres lesz.
 
-    ![](media/service-get-started/power-bi-report-editor.png)
+    ![üres jelentésvászon](media/service-get-started/power-bi-report-editor.png)
 
 6. Vessen egy pillantást a felső menüsorra, és figyelje meg, hogy elérhető az **Olvasó nézet** lehetősége. Mivel elérhető az Olvasó nézet lehetősége, ez azt jelenti, hogy jelenleg **Szerkesztési nézetben** van. 
 
-    ![](media/service-get-started/power-bi-editing-view.png)
+    ![Olvasó nézet lehetőség](media/service-get-started/power-bi-editing-view.png)
 
     Azért hozhat létre és módosíthat jelentéseket a Szerkesztési nézetében, mert Ön a jelentés *tulajdonosa*; egy *létrehozó*. Ha a jelentést megosztja a munkatársakkal, csak Olvasó nézetben fogják tudni használni azt; ők *felhasználók*. További információ az [Olvasó nézetről és a Szerkesztési nézetről](service-reading-view-and-editing-view.md).
     
@@ -91,49 +91,49 @@ Most, hogy adatokhoz csatlakozott, megismerkedhet a felülettel.  Ha valami érd
     
 1. A jelentésszerkesztőben a lap jobb oldalán található **Mezők** ablaktábla használatával fogunk létrehozni egy vizualizációt.  Jelölje be a **Gross Sales** (Bruttó értékesítés) és a **Date** (Dátum) melletti jelölőnégyzetet.
    
-   ![](media/service-get-started/fields.png)
+   ![Mezőlista](media/service-get-started/fields.png)
 
 2. A Power BI elemzi az adatokat, és létrehoz egy vizualizációt.  Ha először a **Date** melletti négyzetet jelölte be, egy táblázat fog megjelenni.  Ha először a **Gross Sales** négyzetét jelölte be, egy diagram fog megjelenni. Váltson át egy másik adatmegjelenítési módra. Tekintsük meg ezeket az adatokat egy vonaldiagramon. Válassza a vonaldiagram ikonját (más néven sablonját) a **Megjelenítések ablaktáblán**.
    
-   ![](media/service-get-started/gettingstart5new.png)
+   ![jelentésszerkesztő kiválasztott ikonnal](media/service-get-started/gettingstart5new.png)
 
 3. Ez érdekesnek tűnik, szóval *rögzítsük* egy irányítópulton. Vigye az egeret a vizualizáció fölé, és válassza a **Rögzítés** ikont.  Ha rögzíti a vizualizációt, a rendszer az irányítópulton tárolja és naprakészen tartja, hogy egyetlen pillantással nyomon tudja követheti a legújabb értékeket.
    
-   ![](media/service-get-started/pinnew.png)
+   ![gombostű ikon](media/service-get-started/pinnew.png)
 
 5. Mivel ez egy új jelentés, a rendszer először kéri, hogy mentse, mielőtt vizualizációkat rögzíthetne irányítópultokon. Adjon nevet a jelentésnek (példa: *Értékesítés az idő függvényében*), majd válassza a **Mentés és folytatás** lehetőséget. 
    
-   ![](media/service-get-started/pbi_getstartsaveb4pinnew.png)
+   ![Jelentés mentése párbeszédablak](media/service-get-started/pbi_getstartsaveb4pinnew.png)
    
 6. Rögzítse a vonaldiagramot az új irányítópulton, és adja neki a „Financial sample for tutorial” („Oktatóanyag pénzügyi mintája”) nevet. 
    
-   ![](media/service-get-started/power-bi-pin.png)
+   ![jelentés elnevezése](media/service-get-started/power-bi-pin.png)
    
  1. Válassza a **Rögzítés** lehetőséget.
    
     A rendszer egy sikert jelző üzenettel (a jobb felső sarokban) tájékoztatja, hogy a vizualizáció csempeként hozzá lett adva az irányítópulthoz.
    
-    ![](media/service-get-started/power-bi-pin-success.png)
+    ![Rögzítve az irányítópulton párbeszédablak](media/service-get-started/power-bi-pin-success.png)
 
 8. A csempeként a vadonatúj irányítópulthoz rögzített vonaldiagram megtekintéséhez válassza az **Ugrás az irányítópultra** lehetőséget. Az irányítópultot még jobbá teheti további vizualizációs csempék hozzáadásával, és a [csempék átnevezésével, átméretezésével, összekapcsolásával és áthelyezésével](service-dashboard-edit-tile.md).
    
-   ![](media/service-get-started/power-bi-new-dashboard.png)
+   ![irányítópult rögzített vizualizációval](media/service-get-started/power-bi-new-dashboard.png)
    
    A jelentéshez bármikor visszatérhet, ha az új csempét választja az irányítópulton. A Power BI a jelentéshez lépteti vissza Olvasó nézetben. A felső menüsorban a **Jelentés szerkesztése** lehetőséget választva váltson vissza a Szerkesztési nézetre. Miután a Szerkesztési nézetre váltott, folytassa a felülettel való ismerkedést és a csempék rögzítését. 
 
 ## <a name="step-3--continue-the-exploration-with-qa-natural-language-querying"></a>3. lépés: A felülettel való ismerkedés folytatása a Q&A-val (a természetes nyelvű lekérdezésekkel)
 1. Az adatok gyors feltárásához próbáljon kérdést feltenni a Q&A mezőben. A Q&A-kérdésmező az irányítópult tetején (**Tegyen fel kérdést az adataival kapcsolatban**), illetve a jelentés felső menüsorában (**Kérdés feltevése**) található. Próbálja meg beírni például a „what segment had the most revenue” („melyik szegmensben volt a legnagyobb árbevétel”) kérdést.
    
-   ![](media/service-get-started/powerbi-qna.png)
+   ![Q&A-vászon](media/service-get-started/powerbi-qna.png)
 
-2. A Q&A megkeresi a választ, és egy vizualizáció formájában jeleníti azt meg. Kattintson a gombostű ikonra ![](media/service-get-started/pbi_pinicon.png), hogy ezt a vizualizációt is megjelenítse az irányítópulton.
+2. A Q&A megkeresi a választ, és egy vizualizáció formájában jeleníti azt meg. Válassza a gombostű ikont, ![gombostű ikon](media/service-get-started/pbi_pinicon.png) hogy ezt a vizualizációt is megjelenítse az irányítópulton.
 3. Rögzítse a vizualizációt a „Financial sample for tutorial” („Oktatóanyag pénzügyi mintája”) irányítópulton.
    
-    ![](media/service-get-started/power-bi-pin2.png)
+    ![Rögzítés az irányítópulton párbeszédablak](media/service-get-started/power-bi-pin2.png)
 
 4. Térjen vissza az irányítópultra, melyen meg fog jelenni az új csempe.
 
-   ![](media/service-get-started/power-bi-final-dashboard.png)
+   ![irányítópult rögzített diagrammal](media/service-get-started/power-bi-final-dashboard.png)
 
 ## <a name="next-steps"></a>Következő lépések
 Készen áll, hogy több mindent kipróbáljon?  Íme néhány nagyszerű módszer a Power BI megismeréséhez.

@@ -16,13 +16,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/20/2017
+ms.date: 03/02/2018
 ms.author: mihart
-ms.openlocfilehash: 34574cf73d12d91df7a497cf297a9ecda9f5cc57
-ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
+LocalizationGroup: Dashboards
+ms.openlocfilehash: 8fbc2ecafb34339a68b4ca5ecd0fa063082644a2
+ms.sourcegitcommit: ab5192675729949d89de212acae48dd51294ad78
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 12/21/2017
+ms.lasthandoff: 03/05/2018
 ---
 # <a name="pin-a-tile-to-a-power-bi-dashboard-from-a-report"></a>Csempe rögzítése Power BI-irányítópultra jelentésből
 ## <a name="pinning-tiles-from-a-report"></a>Csempék rögzítése jelentésből
@@ -45,7 +46,7 @@ Most készítse el saját irányítópultját a Power BI-jelentésminták egyik�
 
 1. Vigye a kurzort a rögzíteni kívánt vizualizáció fölé, és kattintson a rajzszög ![](media/service-dashboard-pin-tile-from-report/pbi_pintile_small.png) ikonra. A Power BI megnyitja a **Rögzítés az irányítópulton** képernyőt.
    
-     ![](media/service-dashboard-pin-tile-from-report/pbi_themes2.png)
+     ![Rögzítés az irányítópulton ablak](media/service-dashboard-pin-tile-from-report/pbi_themes2.png)
 2. Döntse el, hogy meglévő vagy új irányítópulton kíván rögzíteni.
    
    * Meglévő irányítópult: válassza ki az irányítópult nevét a legördülő listából. Az Önnel megosztott irányítópultok nem jelennek meg a legördülő listában.
@@ -53,9 +54,9 @@ Most készítse el saját irányítópultját a Power BI-jelentésminták egyik�
 3. Bizonyos esetekben megtörténhet, hogy az éppen rögzített elemen már alkalmazva van egy *téma*.  Ilyen lehet például egy Excel-munkafüzetből rögzített vizualizáció. Ilyen esetben válassza ki a csempére alkalmazandó témát.
 4. Válassza a **Rögzítés** lehetőséget.
    
-   Megjelenik egy üzenet (a jobb felső sarok közelében), amely értesíti, hogy sikeresen hozzáadta a vizualizációt az irányítópultjához csempeként.
+   A rendszer egy sikert jelző üzenettel (a jobb felső sarokban) tájékoztatja, hogy a vizualizáció csempeként hozzá lett adva az irányítópulthoz.
    
-   ![](media/service-dashboard-pin-tile-from-report/pinsuccess.png)
+   ![sikert jelző üzenet](media/service-dashboard-pin-tile-from-report/pinsuccess.png)
 5. Jelölje ki az új csempét tartalmazó irányítópultot a navigációs panelen. A csempére kattintva térhet vissza a jelentésre. Vagy [módosítsa a csempe megjelenését és viselkedését](service-dashboard-edit-tile.md).
 
 ## <a name="pin-an-entire-report-page"></a>Teljes jelentésoldal rögzítése
@@ -74,5 +75,5 @@ További információk: [Teljes jelentésoldal rögzítése](service-dashboard-p
 
 [A Power BI alapvető fogalmai](service-basic-concepts.md)
 
-További kérdései vannak? [Felteheti azokat a Power BI-közösségnek](http://community.powerbi.com/)
+További kérdései vannak? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)
 

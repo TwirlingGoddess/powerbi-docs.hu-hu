@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/5/2017
 ms.author: maghan
-ms.openlocfilehash: 03be98e9aa2bd4d91357cc00208d82bd0116f69c
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: 761f6a85d0f975f4178adfce830a6c73578aec73
+ms.sourcegitcommit: 20dd809a2ef8c0d6c6f677baadb5f57f41438cbe
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 02/23/2018
 ---
 # <a name="publish-custom-visuals-to-appsource"></a>Egyéni vizualizációk közzététele az AppSource-ban
 Megtudhatja, hogyan teheti közzé egyéni vizualizációit az AppSource-ban, amelyeket aztán mások is felfedezhetnek és használhatnak. office
@@ -86,7 +86,7 @@ A beküldéshez kövesse az alábbi lépéseket.
    * *Beküldés címe:* A beküldés neve a fejlesztői központban
    * *Verzió:* A verziószámot a rendszer automatikusan kitölti a bővítmény alkalmazáscsomagja alapján.
    * *Kiadás dátuma (UTC):* Válassza ki, hogy mikor szeretné közzétenni az alkalmazást az áruházban. Ha egy jövőbeli dátumot választ, az alkalmazás az előtt nem lesz elérhető.
-   * *Kategória:* Az első kategória automatikusan „Adatmegjelenítés + BI” lesz. Minden egyéni Power BI-vizualizáció ezzel a címkével rendelkezik. Legfeljebb 2 további kategóriát adhat meg, hogy a felhasználók könnyen kikereshessék a vizualizációt.
+   * *Kategória:* Az első kategória automatikusan „Adatmegjelenítés + BI” lesz. Minden egyéni Power BI-vizualizáció ezzel a címkével rendelkezik. Legfeljebb 2 további kategóriát adhat meg, hogy a felhasználók könnyen kikereshessék a vizualizációt
    * *Tesztelést segítő jegyzetek és megjegyzések:* Megadhatja, ha utasításokkal szeretné ellátni a Microsoft tesztelőit.
    * *Alkalmazásom kriptográfiát vagy titkosítást használ, tartalmaz, támogat vagy hív meg:* Ne jelölje be.
    * *A bővítmény elérhetővé tétele az Office bővítmények katalógusában az iPaden:* Ne jelölje be.
@@ -121,7 +121,7 @@ A beküldéshez kövesse az alábbi lépéseket.
     > Ha nem az ingyenes lehetőséget választja, vagy ha alkalmazáson belül megvásárolható tartalom van a beküldött vizualizációban, a rendszer elutasítja a beküldést.
     > 
     > 
-17. Bejelölheti a „Mentés vázlatként” lehetőséget és elküldheti a vizualizációt később, vagy bejelölheti a **Küldés jóváhagyásra** jelölőnégyzetet, hogy elküldje az egyéni vizualizációt az Office Áruházba.
+17. Bejelölheti a **Mentés vázlatként** lehetőséget és elküldheti a vizualizációt később, vagy bejelölheti a **Küldés jóváhagyásra** jelölőnégyzetet, hogy elküldje az egyéni vizualizációt az Office Áruházba.
 
 ## <a name="tracking-submission-status-and-usage"></a>A beküldési állapot és a használat nyomon követése
 Áttekintheti az [érvényesítési szabályzatokat](https://dev.office.com/officestore/docs/validation-policies#13-power-bi-custom-visuals).

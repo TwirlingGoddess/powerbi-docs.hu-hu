@@ -16,16 +16,17 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/17/2018
+ms.date: 03/02/2018
 ms.author: mihart
-ms.openlocfilehash: 6527006095e6d716687477e7408a980ee765fb5a
-ms.sourcegitcommit: 2ae323fbed440c75847dc55fb3e21e9c744cfba0
+LocalizationGroup: Dashboards
+ms.openlocfilehash: dda89f4cffd99ae8f7b435133e9be550d7da0339
+ms.sourcegitcommit: ab5192675729949d89de212acae48dd51294ad78
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 03/05/2018
 ---
 # <a name="create-a-copy-of-a-dashboard-in-power-bi-service"></a>Irányítópult másolatának létrehozása a Power BI szolgáltatásban
-![](media/service-dashboard-copy/power-bi-dashboard.png)
+![irányítópult](media/service-dashboard-copy/power-bi-dashboard.png)
 
  Számos különféle oka lehet, hogy másolatot készítsen egy irányítópultról. Lehet, hogy módosításokat szeretne végrehajtani, és tesztelni a teljesítményt az eredetivel összevetve, vagy kismértékben eltérő változatokat készíteni az egyes munkatársak, régiók vagy csoportok számára. Lehet, hogy egy munkatársa kedveli az Ön irányítópult-kialakítását, és használni szeretné saját feletteseinek készítendő jelentéseihez. Egy másik ok lehet, ha új adatbázissal rendelkezik, ugyanazzal az adatszerkezettel és adattípusokkal, és újra szeretné használni a már létrehozott irányítópultot – ez is megtehető, de a Power BI Desktopban némi munkát igényelne. 
 
@@ -36,13 +37,13 @@ Az irányítópultról csak az irányítópult *létrehozója* készíthet máso
 1. Nyissa meg az irányítópultot.
 2. A jobb felső sarokban kattintson a folytatást jelző pontokra (...), és válassza az **Irányítópult megkettőzése** parancsot.
    
-   ![](media/service-dashboard-copy/power-bi-dulicate.png)
+   ![három pont menü](media/service-dashboard-copy/power-bi-dulicate.png)
 3. Adjon egy nevet az irányítópultnak, és válassza a **Másolat készítése** parancsot. 
    
-   ![](media/service-dashboard-copy/power-bi-name.png)
+   ![Irányítópult megkettőzése párbeszédpanel](media/service-dashboard-copy/power-bi-name.png)
 4. Az új irányítópult ugyanazon a munkaterületen található, mint az eredeti kerül. 
    
-   ![](media/service-dashboard-copy/power-bi-copied.png)
+   ![Irányítópultok lap](media/service-dashboard-copy/power-bi-copied.png)
 
 5.    Nyissa meg az új irányítópultot, és végezze el a szükséges módosításokat. A következő lépésekben az alábbi műveleteket végezheti el:    
     a. [Áthelyezhet, átnevezhet, méretezhet vagy törölhet is csempéket](service-dashboard-edit-tile.md).  

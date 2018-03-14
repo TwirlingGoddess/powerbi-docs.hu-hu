@@ -16,13 +16,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/10/2018
+ms.date: 02/28/2018
 ms.author: mihart
-ms.openlocfilehash: a7c4db0044772c28a3cb7a62649de3001945246c
-ms.sourcegitcommit: afd6e9e6f8b192b26486cd04d2cbc9de046911b3
+LocalizationGroup: Reports
+ms.openlocfilehash: 7e2ef4a1ec49335a49e7f934a7606b2fe64f755c
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 01/11/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="visualization-interactions-in-a-power-bi-report"></a>Vizualizációk interakciói a Power BI-jelentésekben
 Ha rendelkezik szerkesztési engedéllyel a jelentéshez, akkor a **Vizualizáció-interakciókkal** határozhatja meg, hogy a jelentésoldal vizualizációi milyen hatással legyenek egymásra. 
@@ -44,24 +45,24 @@ Ez a cikk azt mutatja be, hogyan használhatók a **vizualizáció-interakciók*
 2. Jelenítse meg a **Vizualizáció-interakciók** beállításait.
     - A Power BI szolgáltatásban válassza a jelentés menüsorából a legördülő listát.
 
-       ![](media/service-reports-visual-interactions/power-bi-visual-interaction.png)
+       ![Vizualizáció-interakciók legördülő lista](media/service-reports-visual-interactions/power-bi-visual-interaction.png)
 
     - A Desktopban válassza a **Formázás > Interakciók** lehetőséget.
 
-        ![](media/service-reports-visual-interactions/pbi-visual-interaction-desktop.png)
+        ![Formátum, majd interakciók kiválasztása](media/service-reports-visual-interactions/pbi-visual-interaction-desktop.png)
 
 3. Ha be szeretné kapcsolni a vizualizáció-interakciók vezérlőit, válassza az **Interakciók szerkesztése** lehetőséget. A Power BI a jelentésoldal összes többi vizualizációjához keresztszűrési és keresztkiemelési ikonokat ad hozzá.
    
-    ![](media/service-reports-visual-interactions/power-bi-icons-on.png)
+    ![jelentés a bekapcsolt Vizualizációk interakcióival](media/service-reports-visual-interactions/power-bi-icons-on.png)
 3. Adja meg, hogy a kijelölt vizualizáció milyen hatással legyen a többire.  Ha szeretné, ezt megismételheti a jelentés oldalának minden vizualizációjával.
    
-   * Ha keresztszűrést szeretne megadni, kattintson a **szűrő** ikonra ![](media/service-reports-visual-interactions/pbi-filter-icon-outlined.png).
-   * Ha keresztkiemelést szeretne megadni, kattintson a **kiemelés** ikonra ![](media/service-reports-visual-interactions/pbi-highlight-icon-outlined.png).
-   * Ha nem szeretne hatást megadni, kattintson a **nincs hatás** ikonra ![](media/service-reports-visual-interactions/pbi-noimpact-icon-outlined.png).
+   * Ha keresztszűrést szeretne megadni, kattintson a **szűrő** ikonra ![szűrő ikon](media/service-reports-visual-interactions/pbi-filter-icon-outlined.png).
+   * Ha keresztkiemelést szeretne megadni, kattintson a **kiemelés** ikonra ![kiemelés ikon](media/service-reports-visual-interactions/pbi-highlight-icon-outlined.png).
+   * Ha nem szeretne hatást megadni, kattintson a **nincs hatás** ikonra ![nincs hatás ikon](media/service-reports-visual-interactions/pbi-noimpact-icon-outlined.png).
 
 4. A részletező elemzés vezérlőinek bekapcsolásához válassza a **Más vizualizációk részletező szűrése** lehetőséget.  Ha most egy vizualizációt részletesen elemez, akkor a jelentésoldal többi vizualizációja is változik majd, és tükrözi az aktuális elemzési kiválasztást. 
 
-   ![](media/service-reports-visual-interactions/drill2.gif)
+   ![vizsgálat vezérlők bekapcsolását bemutató videó](media/service-reports-visual-interactions/drill2.gif)
 
 ### <a name="next-steps"></a>Következő lépések
 [A jelentésszűrők használata](power-bi-how-to-report-filter.md)

@@ -16,19 +16,20 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/20/2017
+ms.date: 03/02/2018
 ms.author: mihart
-ms.openlocfilehash: 81ea6b32c6f61299c410325a432c521d8b402549
-ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
+LocalizationGroup: Dashboards
+ms.openlocfilehash: efa6d0266ae6fc8418ff4a6f2f78e47f5481d166
+ms.sourcegitcommit: ab5192675729949d89de212acae48dd51294ad78
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 12/21/2017
+ms.lasthandoff: 03/05/2018
 ---
 # <a name="featured-dashboards-in-power-bi-service"></a>Kiemelt irányítópultok a Power BI szolgáltatásban
 ## <a name="create-a-featured-dashboard"></a>Kiemelt irányítópult létrehozása
 A legtöbb felhasználó rendelkezik egy olyan irányítópulttal, amelyet gyakrabban használ a többinél.  Lehet, hogy ezen az irányítópulton végzi el céges teendőit, vagy egy olyan irányítópult is lehet, mely számos irányítópult és jelentés csempéit gyűjti egy helyre.
 
-![](media/service-dashboard-featured/power-bi-feature-nav.png)
+![beállítás kiemeltként ikon](media/service-dashboard-featured/power-bi-feature-nav.png)
 
 Amikor *kiemeltté* tesz egy irányítópultot, a Power BI szolgáltatás megnyitásakor mindig ez az irányítópult jelenik meg.  
 
@@ -47,22 +48,22 @@ Nézze meg, ahogy Amanda létrehoz egy kiemelt irányítópultot, majd a videó 
 
 
 1. Nyissa meg azt az irányítópultot, amelyiket *kiemeltté* kíván tenni. 
-2. A felső navigációs sávon találja a **Beállítás kiemeltként** parancsot vagy a Kiemelt ![](media/service-dashboard-featured/power-bi-featured-icon.png) ikont. Kattintson valamelyikre.
+2. A felső navigációs sávon találja a **Beállítás kiemeltként** parancsot vagy a Kiemelt  ![kiemelt ikon](media/service-dashboard-featured/power-bi-featured-icon.png)  ikont. Kattintson valamelyikre.
    
-    ![](media/service-dashboard-featured/power-bi-set-as-featured.png)
+    ![Beállítás kiemeltként ikon](media/service-dashboard-featured/power-bi-set-as-featured.png)
 3. Erősítse meg a választását.
    
-    ![](media/service-dashboard-featured/power-bi-create-featured.png)
+    ![kiemelt irányítópult beállítása](media/service-dashboard-featured/power-bi-create-featured.png)
 
 ## <a name="change-the-featured-dashboard"></a>A kiemelt irányítópult módosítása
 Természetesen a későbbiekben kiválaszthat egy másik irányítópultot is kiemelt irányítópultként.
 
 1. Végezze el ismét a fenti 1. és 2. lépést.
    
-    ![](media/service-dashboard-featured/power-bi-change-feature.png)
+    ![Kiemelt irányítópult módosítása ablak](media/service-dashboard-featured/power-bi-change-feature.png)
 2. Kattintson a **Beállítás kiemeltként** parancsra. Az irányítópult kiemelt állapotának eltávolításával nem távolítja el azt a munkaterületről.  
    
-    ![](media/service-dashboard-featured/power-bi-success.png)
+    ![sikert jelző üzenet](media/service-dashboard-featured/power-bi-success.png)
 
 ## <a name="remove-the-featured-dashboard"></a>A kiemelt irányítópult eltávolítása
 Ha úgy dönt, hogy egyáltalán nincs szüksége kiemelt irányítópultra, az alábbiak szerint szüntetheti meg az irányítópult kiemelt állapotát.
@@ -70,12 +71,12 @@ Ha úgy dönt, hogy egyáltalán nincs szüksége kiemelt irányítópultra, az 
 1. Nyissa meg az aktuálisan kiemelt irányítópultot.
 2. A felső menüsoron kattintson a **Kiemelt letiltása** parancsra.
    
-    ![](media/service-dashboard-featured/power-bi-unfeature.png)
+    ![kiemelt törlése](media/service-dashboard-featured/power-bi-unfeature.png)
 
 Ekkor a Power BI megnyitja a legutóbb használt irányítópultot.  
 
 ## <a name="next-steps"></a>Következő lépések
 [Irányítópult megjelölése kedvencként](service-dashboard-favorite.md)
 
-További kérdései vannak? [Felteheti azokat a Power BI-közösségnek](http://community.powerbi.com/)
+További kérdései vannak? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)
 

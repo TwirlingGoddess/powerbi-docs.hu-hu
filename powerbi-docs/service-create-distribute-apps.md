@@ -14,13 +14,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 02/06/2018
+ms.date: 02/22/2018
 ms.author: maggies
-ms.openlocfilehash: 23c52f7eb66e4e7b0683a2392f0fc60ad76ea243
-ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
+LocalizationGroup: Share your work
+ms.openlocfilehash: d711e2276f2ac170ed54152d54c023261ca9c0bc
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/09/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="create-and-publish-apps-with-dashboards-and-reports-in-power-bi"></a>Irányítópultokból és jelentésekből álló alkalmazások létrehozása és közzététele a Power BI-ban
 
@@ -94,7 +95,7 @@ A Power BI alapértelmezés szerint egy kis színes kört hoz létre az alkalmaz
      ![Testreszabott kép](media/service-create-distribute-apps/power-bi-apps-image.png)
 
 ## <a name="publish-your-app"></a>Az alkalmazás közzététele
-Ha az alkalmazás munkaterületén lévő irányítópultok és jelentések elkészültek, közzéteheti őket alkalmazásként. Ne feledje, hogy nem kell a munkaterületen szereplő minden jelentést és irányítópultot közzétennie. Megteheti, hogy csak azokat teszi közzé, amelyek elkészültek. 
+Ha az alkalmazás munkaterületén lévő irányítópultok és jelentések elkészültek, közzéteheti őket alkalmazásként. Ne feledje, hogy nem kell a munkaterületen szereplő minden jelentést és irányítópultot közzétennie. Megteheti, hogy csak azokat teszi közzé, amelyek elkészültek.
 
 1. A munkaterület listanézetében határozhatja meg, mely irányítópultokat és jelentéseket szeretné felvenni az alkalmazásba.
 
@@ -104,23 +105,23 @@ Ha az alkalmazás munkaterületén lévő irányítópultok és jelentések elk�
 
      ![Figyelmeztetés kapcsolódó irányítópultról](media/service-create-distribute-apps/power-bi-apps-report-warning.png)
 
-1. Az adott munkaterületen található összes tartalom megosztási folyamatának indításához válassza a jobb felső részen található **Alkalmazás közzététele** gombot.
+2. Az adott munkaterületen található összes tartalom megosztási folyamatának indításához válassza a jobb felső részen található **Alkalmazás közzététele** gombot.
    
      ![Alkalmazás közzététele](media/service-create-distribute-apps/power-bi-apps-publish-button.png)
 
-2. A **Részletek** területen töltse ki a leírást, hogy mások megtalálják az alkalmazást. Beállíthat egy háttérszínt a személyre szabásához.
+3. A **Részletek** területen töltse ki a leírást, hogy mások megtalálják az alkalmazást. Beállíthat egy háttérszínt a személyre szabásához.
    
      ![Alkalmazás részletei](media/service-create-distribute-apps/power-bi-apps-details.png)
 
-3. A **Tartalom** lapon láthatja a tartalmat, amelyet az alkalmazás részeként közzé fog tenni – azaz mindent, amit azon a munkaterületen választ ki. Beállíthatja az alkalmazás kezdőlapját is, vagyis azt az irányítópultot vagy jelentést, amelyet az alkalmazást használók elsőként meglátnak. Választhatja az **Egyik sem** lehetőséget. Ekkor az alkalmazásban szereplő összes tartalom listája fog megjelenni számukra. 
+4. A **Tartalom** lapon láthatja a tartalmat, amelyet az alkalmazás részeként közzé fog tenni – azaz mindent, amit azon a munkaterületen választ ki. Beállíthatja az alkalmazás kezdőlapját is, vagyis azt az irányítópultot vagy jelentést, amelyet az alkalmazást használók elsőként meglátnak. Választhatja az **Egyik sem** lehetőséget. Ekkor az alkalmazásban szereplő összes tartalom listája fog megjelenni számukra. 
    
      ![Alkalmazás tartalma](media/service-create-distribute-apps/power-bi-apps-content.png)
 
-4. A **Hozzáférés** területen meghatározhatja, hogy ki férhet hozzá az alkalmazáshoz: a vállalat összes tagja, vagy adott személyek vagy Active Directory-csoportok. Ha rendelkezik a megfelelő engedélyekkel, dönthet úgy, hogy automatikusan telepíti az alkalmazást a címzetteknél.
+5. A **Hozzáférés** területen meghatározhatja, hogy ki férhet hozzá az alkalmazáshoz: a vállalat összes tagja, vagy adott személyek vagy Active Directory-csoportok. Ha rendelkezik a megfelelő engedélyekkel, dönthet úgy, hogy automatikusan telepíti az alkalmazást a címzetteknél. Ezt a beállítást a [Power BI felügyeleti portálon](#how-to-enable-pushing-apps) engedélyezheti. Ismerje meg az [alkalmazások leküldésének](#how-to-enable-pushing-apps) további megfontolásait.
 
     ![Alkalmazás-hozzáférés](media/service-create-distribute-apps/power-bi-apps-access.png)
 
-5. Amikor a **Befejezés** lehetőséget választja, a rendszer egy üzenetben kéri, hogy erősítse meg, hogy tényleg készen áll-e a közzétételre. A sikerességet jelölő párbeszédpanelről kimásolhatja az alkalmazásra mutató közvetlen hivatkozást, és elküldheti azoknak, akikkel megosztja az alkalmazást.
+6. Amikor a **Befejezés** lehetőséget választja, a rendszer egy üzenetben kéri, hogy erősítse meg, hogy tényleg készen áll-e a közzétételre. A sikerességet jelölő párbeszédpanelről kimásolhatja az alkalmazásra mutató közvetlen hivatkozást, és elküldheti azoknak, akikkel megosztja az alkalmazást.
    
      ![Alkalmazás befejezése](media/service-create-distribute-apps/power-bi-apps-success.png)
 
@@ -138,7 +139,7 @@ Előfordulhat, hogy módosítani vagy frissíteni szeretné az alkalmazást a k�
    
      Az alkalmazás-munkaterület a tervezési terület, tehát a módosításokat a rendszer nem küldi le élőben az alkalmazásba, amíg közzé nem teszi azokat. Ez lehetővé anélkül teszi lehetővé a módosításokat, hogy azok a közzétett alkalmazásokat érintenék.  
  
-1. Térjen vissza az alkalmazás-munkaterület tartalomjegyzékéhez, és válassza az **App frissítése** lehetőséget.
+3. Térjen vissza az alkalmazás-munkaterület tartalomjegyzékéhez, és válassza az **App frissítése** lehetőséget.
    
      ![App frissítése gomb](media/service-create-distribute-apps/power-bi-app-update-button.png)
 
@@ -147,6 +148,32 @@ Előfordulhat, hogy módosítani vagy frissíteni szeretné az alkalmazást a k�
      ![App frissítése gomb](media/service-create-distribute-apps/power-bi-app-update-complete.png)
 
 Azok, akikkel megosztotta az alkalmazást, automatikusan az alkalmazás frissített verzióját látják. 
+
+# <a name="automatically-install-apps-for-end-users"></a>Alkalmazások automatikus telepítése a végfelhasználók számára
+A végfelhasználók számára automatikusan telepíthet alkalmazásokat, így könnyebben eljuttathatja a megfelelő alkalmazásokat a megfelelő embereknek vagy csoportoknak.
+
+Az alkalmazásokkal eljuttathatja a végfelhasználók munkájához szükséges adatokat. Az alkalmazástartalmak listájából mostantól automatikusan telepítheti ezeket az alkalmazásokat, így nem kell megkeresnie őket a Microsoft AppSource-ban vagy egy telepítési hivatkozást követve. Ennek köszönhetően könnyebben vezethet be szabványos Power BI-tartalmakat a felhasználók számára.
+
+## <a name="how-to-install-an-app-automatically-for-end-users"></a>Alkalmazás automatikus telepítése a végfelhasználók számára
+Ha a rendszergazda engedélyezte a funkciót, az alkalmazások közzétevői **automatikusan telepíthetik az alkalmazást**. Ha a négyzet ***be van jelölve*** és az alkalmazás közzétevője a **Befejezés** (vagy meglévő alkalmazások esetén az **Alkalmazás frissítése**) lehetőséget választja, az alkalmazás el lesz küldve a **Hozzáférés** lap **Engedélyek** szakaszában meghatározott csoportoknak.
+
+![Alkalmazásleküldés engedélyezése](media/service-create-distribute-apps/power-bi-apps-access.png)
+
+## <a name="how-users-get-the-apps-that-were-pushed-to-them"></a>A küldött alkalmazások felhasználói használatba vétele
+Egy alkalmazás leküldéses továbbítása után az automatikusan megjelenik az alkalmazások listájában. Az alkalmazásokat úgy válogathatja, hogy csak az egy felhasználó vagy szervezeti szerepkör számára szükségesek jelenjenek meg.
+
+![Alkalmazásleküldés engedélyezése](media/service-create-distribute-apps/power-bi-apps-left-nav.png)
+
+### <a name="considerations-for-automatically-installing-apps"></a>Alkalmazások automatikus telepítése – megfontolandó szempontok
+Az alkalmazások leküldéses továbbítása során az alábbiakra érdemes ügyelni:
+
+* Az alkalmazások automatikus telepítése a felhasználók számára időbe telik. A legtöbb alkalmazás azonnal települ, a leküldött alkalmazások azonban több időt vehetnek igénybe.  Ez az alkalmazás elemeinek és a hozzáféréssel rendelkező személyek számától függ. Azt javasoljuk, hogy az alkalmazásleküldést munkaidőn kívül, jóval azelőtt végezze el, hogy a felhasználóknak szükségük lenne az alkalmazásokra. Egyeztessen több felhasználóval, mielőtt mindenkinek bejelentené az alkalmazás elérhetőségét.
+
+* Frissítse a böngészőjét. Előfordulhat, hogy a felhasználóknak frissíteniük kell vagy újból meg kell nyitniuk a böngészőjüket.
+
+* Ha az alkalmazás nem jelenik meg azonnal az alkalmazáslistában, a felhasználók frissítsék vagy nyissák meg újra a böngészőt.
+
+* Lehetőleg ne terhelje túl a felhasználókat. Ne küldjön egyszerre túl sok alkalmazást, hogy a felhasználók az előtelepített alkalmazásokat is hasznosnak érezhessék. Célszerű megszabni, hogy ki küldhet alkalmazásokat a végfelhasználóknak, és együttműködni ennek időzítésében. A szervezeti alkalmazások a végfelhasználóknak való leküldéséhez létrehozhat egy kapcsolatfelvételi pontot.
 
 ## <a name="unpublish-an-app"></a>Alkalmazás közzétételének visszavonása
 Egy alkalmazás-munkaterület bármely tagja visszavonhatja az alkalmazás közzétételét.
@@ -167,7 +194,7 @@ Ebben a kiadásban az összes csoportos munkaterületet átneveztük alkalmazás
 ### <a name="how-are-apps-different-from-organizational-content-packs"></a>Miben különböznek az alkalmazások a vállalati tartalomcsomagoktól?
 Az alkalmazások a tartalomcsomagokból fejlődtek ki, egyszerűsödtek le, de van köztük néhány komoly különbség. 
 
-* Miután az üzleti felhasználók telepítenek egy tartalomcsomagot, az elveszíti a csoportosított identitását: csupán más irányítópultokkal és jelentésekkel összekeveredett irányítópultok és jelentések listája. Az alkalmazások ezzel szemben telepítés után is megtartják a csoportosításukat és az identitásukat. Így az üzleti felhasználók egyszerűbben navigálhatnak közöttük az idők során.  
+* Miután az üzleti felhasználók telepítenek egy tartalomcsomagot, az elveszíti a csoportosított identitását: csupán más irányítópultokkal és jelentésekkel összekeveredett irányítópultok és jelentések listája. Az alkalmazások ezzel szemben telepítés után is megtartják a csoportosításukat és az identitásukat. Így az üzleti felhasználók egyszerűbben navigálhatnak közöttük az idők során.
 * Létrehozhat több tartalomcsomagot is egy munkaterületről, az alkalmazás azonban egy-az-egyhez kapcsolatban áll a munkaterületével. Hiszünk abban, hogy ezt hosszú távon egyszerűbb átlátni és fenntartani. Arról, hogy hogyan tervezzük fejleszteni ezt a területet, a Power BI blogon találhat további információkat. 
 * Terveink szerint a vállalati tartalomcsomagok idővel elavulttá válnak, ezért javasoljuk, hogy mostantól alkalmazásokat hozzon létre.  
 
@@ -179,5 +206,5 @@ Az alkalmazások esetében az alkalmazás-munkaterület egy csak olvasható verz
 ## <a name="next-steps"></a>Következő lépések
 * [Alkalmazások telepítése és használata a Power BI-ban](service-install-use-apps.md)
 * [Power BI alkalmazások külső szolgáltatásokhoz](service-connect-to-services.md)
+* [Power BI Felügyeleti portál](https://docs.microsoft.com/en-us/power-bi/service-admin-portal)
 * Kérdése van? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)
-

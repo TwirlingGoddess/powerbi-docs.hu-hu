@@ -18,10 +18,10 @@ ms.workload: powerbi
 ms.date: 11/30/2017
 ms.author: maghan
 ms.openlocfilehash: c7ed6a9b8acc74c9d4e39ff21a10624a208847f4
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="use-developer-tools-to-create-custom-visuals"></a>Egyéni vizualizációk létrehozása fejlesztőeszközökkel
 Egyéni vizualizációk segítségével megfelelhet a felhasználók igényeinek, és igazodhat saját alkalmazásának felületéhez. Cikkünk bemutatja, hogy miképpen hozhat létre egyéni Power BI-vizualizációt a fejlesztőeszközökkel.

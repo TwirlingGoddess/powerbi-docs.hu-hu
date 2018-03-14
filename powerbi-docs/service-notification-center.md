@@ -16,13 +16,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/23/2017
+ms.date: 03/02/2018
 ms.author: mihart
-ms.openlocfilehash: 430ff5ad86636d96ca693ff7fc1ac1bb0d16b5cc
-ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
+LocalizationGroup: Dashboards
+ms.openlocfilehash: afa3753d04cfb74c2673d222a0b1e6b07a1f5118
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 01/03/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="power-bi-notifications"></a>Power BI-értesítések
 Az értesítési központ a Power BI használatával kapcsolatos információkból álló szekvenciális hírcsatorna. A megnyitásakor az Önnel megosztott új irányítópultokkal, a csoport munkaterületének változásaival, a Power BI-eseményekre és -értekezletekre vonatkozó értesítésekkel és egyebekkel kapcsolatos üzenetek láthatók. [Riasztásokat beállíthat a Power BI szolgáltatásban](service-set-data-alerts.md) és a Power BI-mobilalkalmazásokban is.
@@ -34,13 +35,13 @@ Figyelje meg, hogyan tekinti át és kezeli Amanda a kapott értesítéseket, é
 
 1. Amikor bejelentkezik a Power BI-ba, a távolléte alatt érkezett értesítések hozzáadódnak a hírcsatornájához. Ha új értesítései vannak, akkor a Power BI egy sárga körben jeleníti meg az új elemek számát.
    
-   ![](media/service-notification-center/power-bi-new-notification.png)
+   ![új értesítés ikon](media/service-notification-center/power-bi-new-notification.png)
 2. A Power BI menüsávján válassza az Értesítések ikont.
    
-   ![](media/service-notification-center/power-bi-notifications-icon.png)
+   ![a felső menüsáv a kijelölt Értesítések ikonnal](media/service-notification-center/power-bi-notifications-icon.png)
 3. A legújabb értesítés látható legfelül, az olvasatlan üzenetek pedig kiemelten jelennek meg. A rendszer 90 napig őrzi meg az értesítéseket, ha nem törli őket korábban, vagy a számuk el nem éri a 100-as felső korlátot.
    
-   ![](media/service-notification-center/power-bi-notifications.png)
+   ![Értesítési központ](media/service-notification-center/power-bi-notifications.png)
 4. Egy értesítés elvetéséhez válassza az × ikont.
 
 ### <a name="next-steps"></a>Következő lépések
@@ -48,5 +49,5 @@ Figyelje meg, hogyan tekinti át és kezeli Amanda a kapott értesítéseket, é
 * [Power BI-adatriasztás által aktivált Microsoft Flow-folyamat létrehozása](service-flow-integration.md)
 * [Adatriasztások beállítása az iPhone-alkalmazásban (a Power BI for iOS-ben)](mobile-set-data-alerts-in-the-mobile-apps.md)
 * [Adatriasztások beállítása a Windows 10-hez készült Power BI-mobilalkalmazásban](mobile-set-data-alerts-in-the-mobile-apps.md)
-* További kérdései vannak? [Felteheti azokat a Power BI-közösségnek](http://community.powerbi.com/)
+* További kérdései vannak? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)
 

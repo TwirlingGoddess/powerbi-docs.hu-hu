@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
 ms.author: sarinas
-ms.openlocfilehash: d747b357315e275fae2f65d7e4e961f4867807a3
-ms.sourcegitcommit: c24e5d7bd1806e0d637e974b5143ab5125298fc6
+LocalizationGroup: Connect to services
+ms.openlocfilehash: 78f128e870bbf775c805438464342612d5ba8382
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="connect-to-marketo-with-power-bi"></a>Kapcsolódás a Marketo eszközhöz a Power BI használatával
 A Marketo eszközhöz készült Power BI-tartalomcsomag az érdeklődőkhöz és tevékenységeikhez kapcsolódó adatokkal segíti a Marketo-fiók elemzését. A kapcsolat lekéri az adatokat, és automatikusan a rendelkezésére bocsátja a rájuk épülő irányítópultot, valamint a kapcsolódó jelentéseket.
@@ -78,7 +79,7 @@ Minden időpont UTC-ben van megadva. Az időpontok a fiók időzónájától fü
 
 **Részletes információ az API-korlátokról**
 
-A Marketo-ból történő adatimportálás folyamata Marketo-API-kat használ. A Marketo minden ügyfele számára naponta maximum 10 000 API-hívást engedélyez, amelyek megoszlanak a Marketo API-t használó összes alkalmazás között. Az API-kat egyaránt használhatja a Power BI-jal történő és az egyéb integrációkhoz. További információk az API-król: <http://developers.marketo.com/documentation/rest/>.
+A Marketo-ból történő adatimportálás folyamata Marketo-API-kat használ. A Marketo minden ügyfele számára naponta maximum 10 000 API-hívást engedélyez, amelyek megoszlanak a Marketo API-t használó összes alkalmazás között. Az API-kat egyaránt használhatja a Power BI-jal történő és az egyéb integrációkhoz. Az API-król további információt itt talál: <http://developers.marketo.com/documentation/rest/>.
 
 A Power BI-ból a Marketo eszközhöz indított API-hívások száma a Marketo-fiókban lévő adatok mennyiségétől függ. A Power BI az elmúlt év összes érdeklődőjét és tevékenységét importálja. Az alábbiakban megtekinthet néhány Marketo-adatot és a Power BI által az adatok importálásához használt API-hívások számát:  
 

@@ -16,14 +16,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 103edc93dafb9615e08692965258ffc61905baf1
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 972e816dcd833b6ae0e7bd26b760952066aa5ac8
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="recent-content-in-power-bi-service"></a>A **Legutóbbi** tartalom megtekintése a Power BI szolgáltatásban
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 02/24/2018
 ## <a name="what-is-recent-content"></a>A legutóbbi tartalom
 A legutóbbi tartalom a legutóbb megtekintett legfeljebb 20 tételt jelenti.  Ezek között szerepelhetnek irányítópultok, jelentések, alkalmazások és munkafüzetek az összes munkaterületről.
 
-![](media/service-recent/power-bi-recent-screen.png)
+![Legutóbbi tartalom ablak](media/service-recent/power-bi-recent-screen.png)
 
 Tekintse meg Amanda bemutatójában, hogyan alakul ki a **Legutóbbi** lista, majd a videó alatti utasításokat követve próbálja ki Ön is.
 
@@ -40,11 +40,11 @@ Tekintse meg Amanda bemutatójában, hogyan alakul ki a **Legutóbbi** lista, ma
 ## <a name="display-recent-content"></a>A legutóbbi tartalom megjelenítése
 Az öt legutóbb megtekintett elem listájának megjelenítéséhez kattintson a **Legutóbbi** lehetőség melletti jobbra mutató nyílra a bal oldali navigációs panelen.  Innen kiválaszthatja azt a legutóbbi tartalmat, amelyet meg szeretne nyitni. Csak az öt legutóbbi elem jelenik meg a listán.
 
-![](media/service-recent/power-bi-recent-flyout-new.png)
+![Legutóbbi tartalom úszó menü](media/service-recent/power-bi-recent-flyout-new.png)
 
-Ha ötnél több elemet tekintett meg, kattintson az **Összes megjelenítése** lehetőségre a Legutóbbi képernyő (lásd alább) megjelenítéséhez. A képernyőt a navigációs panel **Legutóbbi** lehetőségére, illetve a ![](media/service-recent/power-bi-recent-icon.png)  Legutóbbi ikonjára kattintva is megjelenítheti.
+Ha ötnél több elemet tekintett meg, kattintson az **Összes megjelenítése** lehetőségre a Legutóbbi képernyő (lásd alább) megjelenítéséhez. A képernyőt a navigációs panel **Legutóbbi** lehetőségére, illetve a Legutóbbi ![Legutóbbi ikon](media/service-recent/power-bi-recent-icon.png) ikonjára kattintva is megjelenítheti.
 
-![](media/service-recent/power-bi-recent-list.png)
+![az összes legutóbbi tartalom megjelenítése](media/service-recent/power-bi-recent-list.png)
 
 Innen ugyanúgy használhatja a tartalmakat, ahogyan az [**Irányítópultok**](service-dashboards.md), [**Jelentések**](service-reports.md), **Munkafüzetek** egyes lapjairól, illetve az [**Alkalmazások**](service-install-use-apps.md) képernyőről.
 

@@ -16,17 +16,18 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/08/2018
+ms.date: 02/28/2018
 ms.author: mihart
-ms.openlocfilehash: 63497e7d517bed8aeba8abefcc4e48c628e06252
-ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
+LocalizationGroup: Dashboards
+ms.openlocfilehash: 6c29f0915009fced89c80e05f40b91c467e505ce
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 01/09/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="display-the-power-bi-dashboards-that-have-been-shared-with-me"></a>Velem megosztott Power BI-irányítópultok megjelenítése
 ## <a name="shared-with-me"></a>Velem megosztva
-![](media/service-shared-with-me/power-bi-share-dash.png)
+![Megosztás ikon](media/service-shared-with-me/power-bi-share-dash.png)
 
 Amikor a munkatársai megosztanak Önnel egy irányítópultot, akkor annak címe megjelenik a **Velem megosztva** listában. Ez az irányítópult csak a **Velem megosztva** képernyőről érhető el, és nem érhető el egy munkaterületről vagy az **Alkalmazások** képernyőről.
 
@@ -38,8 +39,8 @@ Attól függően, hogy milyen engedélyeket kapott a tulajdonosától, több leh
 
 ## <a name="actions-available-from-the-shared-with-me-screen"></a>A **Velem megosztva** képernyőről elérhető műveletek
 * Válassza a csillag ikont, hogy [Kedvencnek jelöljön egy irányítópultot](service-dashboard-favorite.md).
-* [Irányítópult eltávolítása](service-delete.md)  ![](media/service-shared-with-me/power-bi-delete-icon.png)
-* Bizonyos irányítópultok újból megoszthatók  ![](media/service-shared-with-me/power-bi-share-icon-new.png)
+* [Irányítópult eltávolítása](service-delete.md)  ![kuka ikon](media/service-shared-with-me/power-bi-delete-icon.png)
+* Bizonyos irányítópultok újból megoszthatók  ![megosztás ikon](media/service-shared-with-me/power-bi-share-icon-new.png)
 * Továbbá ha az irányítópultjainak listája túl hosszúra nyúlna, [használhatja a keresés mezőt és a rendezést, hogy megtalálja, amit keres](service-navigation-search-filter-sort.md).
   
   > [!NOTE]
@@ -51,7 +52,7 @@ Attól függően, hogy milyen engedélyeket kapott a tulajdonosától, több leh
 ## <a name="filter-shared-dashboards-by-owner"></a>Megosztott irányítópultok szűrése tulajdonos szerint
 A **Velem megosztva** képernyőn található tartalmak tovább szűrhetők a tartalom tulajdonosa szerint. Ha például kiválasztom **Amandát**, akkor csak azokat az irányítópultokat fogom látni, amelyeket Amanda osztott meg velem.
 
-![](media/service-shared-with-me/power-bi-owner.png)
+![irányítópult tulajdonos szerint szűrve](media/service-shared-with-me/power-bi-owner.png)
 
 ## <a name="next-steps"></a>Következő lépések
 [Power BI – Alapfogalmak](service-basic-concepts.md)  

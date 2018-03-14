@@ -16,13 +16,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/18/2018
+ms.date: 03/01/2018
 ms.author: mihart
-ms.openlocfilehash: e6a83796afe6afab02ec463d3dd2074d1fdc529a
-ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
+LocalizationGroup: Ask questions of your data
+ms.openlocfilehash: 38cb04269937aa0b56589e4831eb7a3b027986d0
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="create-featured-questions-for-power-bi-qa"></a>Kiemelt kérdések létrehozása a Power BI Q&A-hez
 Ha rendelkezik saját adatkészlettel, ehhez az adatkészlethez hozzáadhatja a kiemelt kérdéseit.  A Power BI Q&A pedig megjeleníti ezeket a kérdéseket az adatkészletet használó (más néven *fogyasztó*) munkatársaknak.  A kiemelt kérdések ötleteket adnak a munkatársaknak, hogy milyen típusú kérdéseket lehet feltenni az adatkészletről. Ön dönti el, milyen kérdéseket vesz fel. Vegyen fel népszerű kérdéseket, érdekes eredményeket megjelenítő kérdéseket vagy esetleg nehezen megfogalmazható kérdéseket.
@@ -39,18 +40,18 @@ Ebben a cikkben a [Kiskereskedelmi értékesítési elemzési mintát](sample-da
 
 1. Az irányítópulton válassza a Q&A kérdésmezőjét.   Figyelje meg, hogy a Q&A már most is segítséget nyújt az adatkészletben előforduló kifejezések listájának megjelenítésével.
 2. A lista bővítéséhez kattintson a fogaskerék ikonra a Power BI jobb felső sarkában.  
-   ![](media/service-q-and-a-create-featured-questions/pbi_gearicon2.jpg)
+   ![fogaskerék ikon](media/service-q-and-a-create-featured-questions/pbi_gearicon2.jpg)
 3. Válassza a **Beállítások** &gt; **Adatkészletek** &gt; **Kiskereskedelmi elemzési minta** &gt; **Kiemelt Q&A-kérdések lehetőséget**.  
 4. Kattintson a **Kérdés hozzáadása** hivatkozásra.
    
-   ![](media/service-q-and-a-create-featured-questions/power-bi-settings.png)
+   ![Beállítások menü](media/service-q-and-a-create-featured-questions/power-bi-settings.png)
 5. Írja be a kérdést a szövegmezőbe, és kattintson az **Alkalmaz** gombra.   Másik kérdést is hozzáadhat, ha a **Kérdés hozzáadása** lehetőséget választja.  
-   ![](media/service-q-and-a-create-featured-questions/power-bi-type-featured-question.png)
+   ![Kiemelt Q&A-kérdések panel](media/service-q-and-a-create-featured-questions/power-bi-type-featured-question.png)
 6. Térjen vissza a Kiskereskedelmi elemzési minta Power BI-irányítópultjára, és vigye a kurzort a Q&A kérdésmezőbe.   
-   ![](media/service-q-and-a-create-featured-questions/power-bi-featured-q.png)
+   ![Q&A kérdésmező](media/service-q-and-a-create-featured-questions/power-bi-featured-q.png)
 7. A listában az első az új kiemelt kérdés, **Sales by territory as a map** (Értékesítések területenként, térképen). Jelölje ki.  
 8. A válasz kitöltött térkép-vizualizációként jelenik meg.  
-   ![](media/service-q-and-a-create-featured-questions/power-bi-filled-map.png)
+   ![térkép vizualizáció](media/service-q-and-a-create-featured-questions/power-bi-filled-map.png)
 
 ### <a name="next-steps"></a>Következő lépések
 [Q&A a Power BI-ban](power-bi-q-and-a.md)  

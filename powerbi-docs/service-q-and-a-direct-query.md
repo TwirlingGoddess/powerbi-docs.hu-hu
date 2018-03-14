@@ -15,13 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/18/2018
+ms.date: 03/01/2018
 ms.author: mihart
-ms.openlocfilehash: 49e0b976fcee8c18edc14f80df2786e5ebf3fedc
-ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
+LocalizationGroup: Ask questions of your data
+ms.openlocfilehash: 7c33e1d3719b30569996425ed247c1eac87b78f1
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="enable-qa-for-live-connections"></a>Q&A engedélyezése élő kapcsolatokhoz
 ## <a name="what-is-on-premises-data-gateway--what-is-a-live-connection"></a>Mi az a helyszíni adatátjáró?  Mi az az élő kapcsolat?
@@ -44,15 +45,15 @@ További információ:
 ## <a name="enable-qa"></a>A Q&A engedélyezése
 Miután beállította az adatátjárót, kapcsolódjon az adatokhoz a Power BI-ból.  Hozzon létre egy irányítópultot a helyszíni adatokkal, vagy töltsön fel egy .pbix-fájlt, amely helyszíni adatokat használ.  Rendelkezhet már helyszíni adatokkal olyan irányítópultokban, jelentésekben és adatkészletekben is, amelyeket megosztottak Önnel.
 
-1. Kattintson a fogaskerék ikonra ![](media/service-q-and-a-direct-query/power-bi-cog.png) a Power BI jobb felső sarkában, majd a **Beállítások** gombra.
+1. Kattintson a fogaskerék ikonra ![fogaskerék ikon](media/service-q-and-a-direct-query/power-bi-cog.png) a Power BI jobb felső sarkában, majd a **Beállítások** gombra.
    
-   ![](media/service-q-and-a-direct-query/powerbi-settings.png)
+   ![Beállítások menü](media/service-q-and-a-direct-query/powerbi-settings.png)
 2. Válassza az **adatkészletek** lapfület, majd válassza ki azokat az adatkészleteket, amelyeket engedélyezni szeretne a Q&A-hez.
    
-   ![](media/service-q-and-a-direct-query/power-bi-q-and-a-settings.png)
+   ![A Beállítások menü Adatkészletek képernyője](media/service-q-and-a-direct-query/power-bi-q-and-a-settings.png)
 3. Bontsa ki a **Q&A és Cortana** területet, és jelölje be a **Q&A bekapcsolása ehhez az adatkészlethez** négyzetet, majd kattintson az **Alkalmaz** gombra.
    
-    ![](media/service-q-and-a-direct-query/power-bi-q-and-a-directquery.png)
+    ![A Q&A kibontva](media/service-q-and-a-direct-query/power-bi-q-and-a-directquery.png)
 
 ## <a name="what-data-is-cached-and-how-is-privacy-protected"></a>Milyen adatok gyorsítótárazása történik, és hogyan valósul meg az adatvédelem?
 Amikor engedélyezi a Q&A-t a helyszíni adataihoz, az adatok egy részét a szolgáltatás gyorsítótárazza. Ezt azért teszi, hogy a Q&A elfogadható teljesítményt nyújtson. A 24 karakternél hosszabb értékeket a Power BI kizárja a gyorsítótárazásból. Az adatkészlet néhány órán belül törlődik, miután letiltotta a Q&A-t a **Q&A bekapcsolása ehhez az adatkészlethez** jelölőnégyzet törésével, vagy miután törli az adatkészletet.

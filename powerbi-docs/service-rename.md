@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/20/2017
+ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 9f4d4897558f241d316ee9d7021b4c34660fe9bf
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: cdea6474901dad27a4155b80fb605502102201a5
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="rename-almost-anything-in-power-bi-service"></a>A Power BI-szolgáltatásban szinte bármit átnevezhet
 Ebből a cikkből megtudhatja, hogy miképpen nevezhet át irányítópultot, jelentést, munkafüzetet, adatkészletet, alkalmazást, vizualizációt vagy munkaterületet a Power BI szolgáltatásban.
@@ -41,20 +41,20 @@ Ebből a cikkből megtudhatja, hogy miképpen nevezhet át irányítópultot, je
 | **Velem megosztott** tartalom |Nem |Nem |
 
 ## <a name="rename-a-dashboard-report-or-workbook"></a>Irányítópult, jelentés vagy munkafüzet átnevezése
-1. Indítson el egy munkaterületet, és kattintson az **Irányítópultok**, a **Jelentések**, vagy a **Munkafüzetek** lapra. Mutasson az átnevezni kívánt elemre, és kattintson a fogaskerék ikonra ![](media/service-rename/powerbi-cog-icon.png). Ha nincs fogaskerék ikon, akkor nincs engedélye az átnevezésre.
+1. Indítson el egy munkaterületet, és kattintson az **Irányítópultok**, a **Jelentések**, vagy a **Munkafüzetek** lapra. Mutasson az átnevezni kívánt elemre, és kattintson a fogaskerék ikonra ![fogaskerék ikon](media/service-rename/powerbi-cog-icon.png). Ha nincs fogaskerék ikon, akkor nincs engedélye az átnevezésre.
    
-   ![](media/service-rename/power-bi-workspace-dashboards.png)
+   ![A Power BI szolgáltatás munkaterülete](media/service-rename/power-bi-workspace-dashboards.png)
 2. A Beállítások lapon írja be az új nevet, és kattintson a **Mentés** elemre.
    
-   ![](media/service-rename/power-bi-rename-dashboard2.png)
+   ![Az adatkészlet Beállítások ablaka](media/service-rename/power-bi-rename-dashboard2.png)
 
 ## <a name="rename-a-dataset"></a>Adatkészlet átnevezése
 1. Indítson el egy munkaterületet, és kattintson az **Adatkészletek** lapra.
    
-   ![](media/service-rename/power-bi-ellipses.png)
+   ![A munkaterület Adatkészletek lapja](media/service-rename/power-bi-ellipses.png)
 2. Mutasson az átnevezni kívánt elemre, kattintson a három pontra (...), majd kattintson az **Átnevezés** lapra.  
    
-      ![](media/service-rename/power-bi-rename-datasets.png)
+      ![az Átnevezés kiválasztása](media/service-rename/power-bi-rename-datasets.png)
    
    > [!NOTE]
    > A legördülő menüben lévő lehetőségek eltérőek lehetnek.
@@ -62,7 +62,7 @@ Ebből a cikkből megtudhatja, hogy miképpen nevezhet át irányítópultot, je
    > 
 3. A Beállítások oldalon írjon be egy új nevet, és kattintson a **Mentés** elemre.
    
-     ![](media/service-rename/power-bi-rename.png)
+     ![Panel átnevezése](media/service-rename/power-bi-rename.png)
 
 ## <a name="rename-an-app-workspace"></a>Alkalmazás-munkaterület átnevezése
 Aki rendszergazdai jogosultságokkal rendelkezik, átnevezheti az alkalmazás-munkaterületeket.
@@ -70,10 +70,10 @@ Aki rendszergazdai jogosultságokkal rendelkezik, átnevezheti az alkalmazás-mu
 1. Az átnevezéshez indítsa el a munkaterületet.
 2. A jobb felső sarokban kattintson a három pontra (...), és válassza a **Munkaterület szerkesztése** lehetőséget. Ha nem látja ezt a lehetőséget, akkor nincs engedélye a munkaterület átnevezésére. 
    
-    ![](media/service-rename/power-bi-edit-workspace.png)
+    ![a Munkaterület szerkesztése elem kiválasztása](media/service-rename/power-bi-edit-workspace.png)
 3. Írja be a munkaterület új nevét, és kattintson a **Mentés** elemre.
    
-   ![](media/service-rename/power-bi-workspace-rename.png)
+   ![A Munkaterület szerkesztése panel](media/service-rename/power-bi-workspace-rename.png)
 
 ## <a name="rename-a-page-in-a-report"></a>Jelentéslap átnevezése
 Nincs megelégedve a Power BI-jelentésoldal nevével?  Az új név csak egy kattintásnyira van. Az oldalakat [a jelentés Szerkesztési nézetében](service-interact-with-a-report-in-editing-view.md) nevezheti át.
@@ -81,14 +81,14 @@ Nincs megelégedve a Power BI-jelentésoldal nevével?  Az új név csak egy kat
 1. Nyissa meg a jelentést [Szerkesztési nézetben](service-reading-view-and-editing-view.md).
 2. Keresse meg az oldalak lapfüleit a Power BI-ablak alján.
    
-    ![](media/service-rename/report-page-tabs-new.png)
+    ![jelentés kiemelt lapokkal](media/service-rename/report-page-tabs-new.png)
 3. A lapfülre kattintva nyissa meg az átnevezni kívánt jelentésoldalt.
 4. Dupla kattintással emelje ki a lapon látható nevet.  
    
-    ![](media/service-rename/hilite-tab.png)
+    ![egy lap neve közelről](media/service-rename/hilite-tab.png)
 5. Írja be a jelentésoldal új nevét, és nyomja le az ENTER billentyűt.
    
-    ![](media/service-rename/new-name.png)
+    ![új oldal nevének beírása](media/service-rename/new-name.png)
 
 ## <a name="considerations-and-troubleshooting"></a>Megfontolandó szempontok és hibaelhárítás
 * Ha az átnevezendő elemet mások osztották meg Önnel, vagy tartalomcsomaghoz tartozik, nem jelenik meg a fogaskerék ikon, és nem férhet hozzá a Beállításokhoz.

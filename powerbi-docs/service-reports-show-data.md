@@ -15,13 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/08/2018
+ms.date: 02/28/2018
 ms.author: mihart
-ms.openlocfilehash: b9e72c57ccd165ed02424e303c5ec54f179868e0
-ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
+LocalizationGroup: Visualizations
+ms.openlocfilehash: b85fe5cf70c915a3355c80a61f01a32216450f03
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 01/09/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="show-the-data-that-was-used-to-create-the-visualization"></a>A vizualizáció létrehozásához használt adatok megjelenítése
 ## <a name="show-data"></a>Adatok megjelenítése
@@ -38,16 +39,16 @@ A vizualizáció létrehozásához használt adatokat exportálhatja is .xlsx va
 1. A Power BI szolgáltatásban nyisson meg egy jelentést az [Olvasó vagy a Szerkesztő nézetben](service-reading-view-and-editing-view.md), és válasszon egy vizualizációt.  A Power BI Desktopban nyissa meg a Jelentés nézetet.
 2. A vizualizáció mögötti adatok megjelenítéséhez válassza a **Tallózás** > **Adatok megjelenítése** elemet.
    
-   ![](media/service-reports-show-data/power-bi-show-data.png)
+   ![Adatok megjelenítése kiválasztása](media/service-reports-show-data/power-bi-show-data.png)
 3. Alapértelmezés szerint az adatok a vizualizáció alatt jelennek meg.
    
-   ![](media/service-reports-show-data/power-bi-explore-show-data.png)
+   ![vizualizációk és adatok függőleges megjelenítése](media/service-reports-show-data/power-bi-explore-show-data.png)
 4. A tájolás módosításához válassza a függőleges elrendezést ![](media/service-reports-show-data/power-bi-vertical-icon-new.png) a vizualizáció jobb felső sarkában.
    
-   ![](media/service-reports-show-data/power-bi-explore-show-data2.png)
+   ![vizualizációk és adatok vízszintes megjelenítése](media/service-reports-show-data/power-bi-explore-show-data2.png)
 5. Ha az adatokat .csv fájlba szeretné exportálni, válassza a három pontot, majd az **Adatok exportálása** elemet.
    
-    ![](media/service-reports-show-data/power-bi-export-data-new.png)
+    ![az Adatok exportálása lehetőség kiválasztása](media/service-reports-show-data/power-bi-export-data-new.png)
    
     Az adatok Excelbe való exportálásáról további információt az [Adatok exportálása Power BI-vizualizációkból](power-bi-visualization-export-data.md) című szakaszban talál.
 6. Az adatok elrejtéséhez kapcsolja ki a **Tallózás** > **Adatok megjelenítése** beállítást.

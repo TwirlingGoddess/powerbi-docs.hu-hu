@@ -16,14 +16,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/10/2018
+ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 779ef2c532d0b580f4a3d19c50815193d03c2f07
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 82f8575c019790820aa46c75e095f8ef64bb6fde
+ms.sourcegitcommit: ab5192675729949d89de212acae48dd51294ad78
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/05/2018
 ---
 # <a name="favorite-dashboards-reports-and-apps-in-power-bi-service"></a>Kedvenc irányítópultok, jelentések és alkalmazások a Power BI szolgáltatásban
 Ha egy tartalmat hozzáad a *Kedvencekhez*, akkor azt minden munkaterületéről elérheti.  A kedvencek azok a helyek, amelyeket általában a leggyakrabban látogat.
@@ -42,31 +42,31 @@ Tekintse meg, hogy Amanda miképpen adja hozzá a kedvenceket egy munkaterületh
 
 
 1. Nyisson meg egy gyakran használt irányítópultot vagy jelentést. Olyan tartalmak is lehetnek *kedvencek*, amelyeket mások osztottak meg Önnel.
-2. A Power BI szolgáltatás jobb felső sarkában kattintson a **Kedvenc** elemre, vagy a csillag ![](media/service-dashboard-favorite/power-bi-favorite-icon.png) ikonra.
+2. A Power BI szolgáltatás jobb felső sarkában kattintson a **Kedvenc** elemre, vagy a csillag ![csillag ikon](media/service-dashboard-favorite/power-bi-favorite-icon.png)  ikonra.
    
-   ![](media/service-dashboard-favorite/powerbi-dashboard-favorite.png)
+   ![Kedvenc ikon](media/service-dashboard-favorite/powerbi-dashboard-favorite.png)
    
    Az irányítópultot vagy jelentést a munkaterület **Irányítópultok** vagy **Jelentések** lapján is hozzáadhatja a kedvencekhez.
    
-   ![](media/service-dashboard-favorite/power-bi-dashboard-favorite.png)
+   ![Irányítópult lap sárga csillaggal](media/service-dashboard-favorite/power-bi-dashboard-favorite.png)
 
 ## <a name="add-an-app-as-a-favorite"></a>Alkalmazás felvétele a *kedvencek* közé
 
 1. A bal oldali navigációs panelen válassza az **Alkalmazások** lehetőséget.
 
-  ![](media/service-dashboard-favorite/power-bi-favorite-apps.png)
+   ![irányítópult](media/service-dashboard-favorite/power-bi-favorite-apps.png)
 
-2. További információk megjelenítéséhez vigye a kurzort az alkalmazás fölé.  A kedvencnek jelöléshez válassza a csillag ![](media/service-dashboard-favorite/power-bi-favorite-icon.png) ikont.
+2. További információk megjelenítéséhez vigye a kurzort az alkalmazás fölé.  Válassza ki a csillag ![csillag ikon](media/service-dashboard-favorite/power-bi-favorite-icon.png)  ikont kedvencként.
    
-   ![](media/service-dashboard-favorite/power-bi-favorite-app.png)
+   ![vigye az egérmutatót az alkalmazás fölé](media/service-dashboard-favorite/power-bi-favorite-app.png)
 
 ## <a name="working-with-favorites"></a>A *kedvencek* kezelése
 1. A bármely munkaterülethez tartozó kedvencek eléréséhez kattintson az úszó panel nyilára a **Kedvencek** elem mellett jobbra.  Innen kiválaszthatja a megnyitni kívánt kedvenc tartalmat. A listán csak öt kedvenc szerepel (betűrendben). Ha ötnél több kedvence van, az **Összes megtekintése** lehetőséget választva megnyithatja a kedvencek képernyőjét (lásd alább a 2. ábrát). 
    
-   ![](media/service-dashboard-favorite/power-bi-favorite-flyout-new.png)
-2. A kedvencként hozzáadott **összes** tartalom megtekintéséhez kattintson a **Kedvencek** elemre vagy a Kedvencek ![](media/service-dashboard-favorite/power-bi-favorites-icon.png) ikonra a bal oldali navigációs ablaktáblán.  
+   ![Kedvencek úszó menü](media/service-dashboard-favorite/power-bi-favorite-flyout-new.png)
+2. A kedvencként hozzáadott **összes** tartalom megtekintéséhez kattintson a **Kedvencek** elemre vagy a Kedvencek ![csillag ikon](media/service-dashboard-favorite/power-bi-favorites-icon.png)  ikonra a bal oldali navigációs ablaktáblán.  
    
-    ![](media/service-dashboard-favorite/power-bi-favorites-screen.png)
+    ![kedvenc ablak](media/service-dashboard-favorite/power-bi-favorites-screen.png)
    
    Innen a következő műveleteket végezheti el: megnyitás, tulajdonos azonosítása, de akár munkatársakkal való megosztás is.
 
@@ -75,7 +75,7 @@ Már nem használja olyan gyakran a tartalmat?  Eltávolíthatja a kedvencek kö
 
 1. A **Kedvencek** képernyő megnyitásához kattintson a **Kedvencek** elemre a bal oldali navigációs ablaktáblán.
    
-   ![](media/service-dashboard-favorite/power-bi-unfavorites-screen.png)
+   ![Kedvencek képernyő](media/service-dashboard-favorite/power-bi-unfavorites-screen.png)
 2. A kedvencnek jelölés visszavonásához kattintson a tartalom melletti sárga csillagra.
 
 > **FIGYELEM**: Irányítópult, jelentés vagy alkalmazás kedvencnek jelölése is visszavonható. Ehhez egyszerűen nyissa meg a tartalmat, és szüntesse meg a sárga ikon bejelölését.   
