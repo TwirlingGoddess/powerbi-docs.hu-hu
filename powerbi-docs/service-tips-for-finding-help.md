@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/12/2017
 ms.author: maggies
-ms.openlocfilehash: 67b9dd605f5de2de1e824948143011797ad1f937
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+LocalizationGroup: Get started
+ms.openlocfilehash: 0984e00dbe6b82a2b5b9cfc07f318ded03961f64
+ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 03/12/2018
 ---
 # <a name="10-tips-for-getting-help-with-your-power-bi-questions"></a>10 tanács a Power BI szolgáltatással kapcsolatos segítségkéréshez
 Előfordult már, hogy bosszankodott a Power BI használata közben, vagy nehezen boldogult, mert nem kapott választ a Power BI-jal kapcsolatos kérdéseire, amikor szüksége volt rájuk – éppen a kellő időben? 
@@ -56,7 +57,7 @@ A rendelkezésére álló képzési lehetőségek szinte végtelenek, a laborbel
 
 További online lehetőségeket is találhat, például:
 
-* Az **edX.org** ingyenes tanfolyamot kínál [Adatok elemzése és megjelenítése a Power BI használatával](https://www.edx.org/course/analyzing-visualizing-data-power-bi-microsoft-dat207x-4) címmel. 
+* Az **edX.org** ingyenes tanfolyamot kínál [Adatok elemzése és megjelenítése a Power BI használatával](https://www.edx.org/course/analyzing-visualizing-data-power-bi-microsoft-dat207x-4) címmel.
 * A **Lynda.com** olyan képzéseket nyújt, mint például a [Power BI Pro Alapképzés](https://www.lynda.com/Power-BI-tutorials/Power-BI-Pro-Essential-Training/485820-2.html).
 * Keresse az "**Irányítópult egy nap alatt**" tanfolyamokat.
 
@@ -67,15 +68,14 @@ Tegye fel kérdéseit a [Power BI-közösségben](http://community.powerbi.com).
 Csatlakozzon egy [Power BI-felhasználói csoporthoz](https://community.powerbi.com/t5/Power-BI-User-Groups/ct-p/Groups) és kérjen segítséget csoportjától a kérdései megválaszolásához. Saját felhasználói csoportot is alapíthat, és létrehozhat egy egymást segítő tagokból álló közösséget a saját igényeinek megfelelően, a saját területén, a saját adataival, a saját időzónájában.
 
 ## <a name="9-check-the-service-status"></a>9 A szolgáltatás állapotának ellenőrzése
-Ha problémái vannak a szolgáltatással, akkor lehetséges, hogy magával a szolgáltatással vannak problémák. [Nézze meg a Támogatási oldalon](https://powerbi.microsoft.com/support/) az esetleges hibajelentéseket. 
+Ha problémái vannak a szolgáltatással, akkor lehetséges, hogy magával a szolgáltatással vannak problémák. [Nézze meg a Támogatási oldalon](https://powerbi.microsoft.com/support/) az esetleges hibajelentéseket.
 
 ## <a name="10-just-try-it"></a>10 Próbálkozás
-Ha semmi más nem segít, akkor a végső tanács, hogy figyelje meg a rendszert. Sokszor felteszik azt a kérdést, hogy milyen képességekkel rendelkezik a Power BI. Az ilyen kérdésre gyakran saját maga is választ találhat, ha átnézi a Power BI szolgáltatás vagy a Power BI Desktop felhasználói felületének lehetőségeit, és kipróbálja a használatukat. 
+Ha semmi más nem segít, akkor a végső tanács, hogy figyelje meg a rendszert. Sokszor felteszik azt a kérdést, hogy milyen képességekkel rendelkezik a Power BI. Az ilyen kérdésre gyakran saját maga is választ találhat, ha átnézi a Power BI szolgáltatás vagy a Power BI Desktop felhasználói felületének lehetőségeit, és kipróbálja a használatukat.
 
 Tegyük fel például, hogy arra kíváncsi, meg tud-e osztani egy irányítópultot egy biztonsági csoporttal. A kérdés megválaszolásához nyissa meg a megosztási párbeszédablakot, és próbáljon hozzáadni egy biztonsági csoportot. Bármi is az eredmény, ez után a próba után választ kap a kérdésére.
 
 ## <a name="next-steps"></a>További lépések
-* [Első lépések a Power BI használatával](service-get-started.md) 
-* Kérdezze a [Power BI-közösséget!](http://community.powerbi.com/)
-* Továbbra is problémába ütközik? Látogasson el a [Power BI támogatási oldalára](https://powerbi.microsoft.com/support/)
-
+* [Első lépések a Power BI-ban](service-get-started.md)
+* Kérdezze meg a [Power BI közösségét](http://community.powerbi.com/)
+* Továbbra sem találja a megoldást? Keresse fel a [Power BI támogatási oldalát](https://powerbi.microsoft.com/support/).

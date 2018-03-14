@@ -18,10 +18,10 @@ ms.workload: powerbi
 ms.date: 03/01/2018
 ms.author: mihart
 ms.openlocfilehash: c5177f4ccce8e8e274944cdcb539ca65a8f87ca8
-ms.sourcegitcommit: 0a16dc12bb2d39c19e6b0002b673a8c1d81319c9
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 03/02/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="open-a-report-in-power-bi-service-apppowerbicom"></a>Jelentés megnyitása a Power BI szolgáltatásban (az app.powerbi.com webhelyen)
 A jelentések elérhetőek a Power BI szolgáltatásban, a Power BI Desktopban, a Power BI-mobilalkalmazásban, sőt a Power BI Embeddedben is. Ebben a cikkben azt feltételezzük, hogy a jelentést a ***Power BI szolgáltatásban*** nyitotta meg.
