@@ -16,18 +16,19 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/08/2018
+ms.date: 02/28/2018
 ms.author: mihart
-ms.openlocfilehash: 8a818c26a6f9afd134133464b972091faaad093d
-ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
+LocalizationGroup: Reports
+ms.openlocfilehash: 5015886d0314c767bc16fe223c7db91adb0fd2bb
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 01/09/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>Jelentés szűrése lekérdezésisztring-paraméterek URL-címben való használatával
 A Power BI szolgáltatásban megnyitott jelentések minden egyes oldalának saját egyedi URL-címe van. Az adott jelentésoldal a jelentésvászon Szűrők paneljének használatával szűrhető.  A jelentés úgy is szűrhető, hogy lekérdezésisztring-paramétereket ad hozzá a jelentés URL-címéhez. Tegyük fel, hogy egy jelentést meg szeretne mutatni a munkatársainak, és előre szűrni szeretné azt a számukra. Ennek egyik módja, hogy a jelentés alapértelmezett URL-címéből kiindulva hozzáfűzi ahhoz a szűrési paramétereket, majd elküldi nekik a teljes URL-címet.
 
-![](media/service-url-filters/power-bi-report2.png)
+![Power BI-jelentés a szolgáltatásban](media/service-url-filters/power-bi-report2.png)
 
 <iframe width="640" height="360" src="https://www.youtube.com/embed/WQFtN8nvM4A?list=PLv2BtOtLblH3YE_Ycas5B1GtcoFfJXavO&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 
@@ -36,7 +37,7 @@ A szintaxis nagyon egyszerű – kezdje a jelentés URL-címével, adjon hozzá 
 
 URL-cím?filter=***Tábla***/***Mező*** eq '***érték***'
 
-![](media/service-url-filters/power-bi-filter-urls7b.png)
+![URL-cím szűrővel](media/service-url-filters/power-bi-filter-urls7b.png)
 
 * A **Tábla** és a **Mező** név megkülönbözteti a kis- és nagybetűket, az **érték** viszont nem.
 * A jelentésnézetben rejtett mezők is szűrhetők.
@@ -49,7 +50,7 @@ Ha egyelőre nem minden világos, akkor olvasson tovább, és bővebb kifejtést
 ## <a name="filter-on-a-field"></a>Szűrés egy mező alapján
 Tegyük fel például, hogy a jelentés URL-címe a következő.
 
-![](media/service-url-filters/power-bi-filter-urls6.png)
+![URL indítása](media/service-url-filters/power-bi-filter-urls6.png)
 
 A térkép-vizualizáción (fent) látható, hogy üzleteink vannak Észak-Karolinában.
 
@@ -61,7 +62,7 @@ Ha úgy szeretné szűrni a jelentést, hogy csak az Észak-Karolinában („NC�
 
 ?filter=Store/Territory eq 'NC'
 
-![](media/service-url-filters/power-bi-filter-urls7.png)
+![URL-cím szűrővel](media/service-url-filters/power-bi-filter-urls7.png)
 
 >[!NOTE]
 >Az *NC* (North Carolina, Észak-Karolina) érték a **Store** (Üzlet) tábla **Territory** (Terület) mezőjében található meg.

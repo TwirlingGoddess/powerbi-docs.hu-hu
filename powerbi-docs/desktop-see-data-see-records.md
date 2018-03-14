@@ -15,13 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/24/2018
+ms.date: 02/22/2018
 ms.author: davidi
-ms.openlocfilehash: a61a5d46c2f663ff7e8388a862f5649487504092
-ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
+LocalizationGroup: Learn more
+ms.openlocfilehash: c44a5140fe40217aac170abb0b351197803b6299
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="use-see-data-and-see-records-in-power-bi-desktop"></a>A Power BI Desktop Adatok megjelenítése és Rekordok megjelenítése funkciójának használata
 A **Power BI Desktopban** bármelyik vizualizációt részletesen feltárhatja, és megtekintheti az adatok szöveges alakját vagy a kijelölt vizualizáció egyes adatelemeit. Ezeket a szolgáltatásokat időnként *átkattintásnak*, *áthatolásnak* vagy *részletezésnek* is nevezik.
@@ -69,6 +70,9 @@ Azt is megteheti, hogy egy vizualizáció egyik adatelemére koncentrál, és r�
 Ha kiválasztotta a **Rekordok megjelenítése** lehetőséget, a **Power BI Desktop** arra az egy adatelemre koncentrál, és a vászon területét az elemhez tartozó adatok megjelenítésének szenteli, amint az alábbi ábrán is látható.
 
 ![](media/desktop-see-data-see-records/see-data-see-records_8.png)
+
+> [!NOTE]
+> A módosítások nem menthetők olyan adatok esetén, amelyeket egy jelentés **Rekordok megtekintése** funkciójával néznek (vagy felhasználók módosítanak).
 
 A jelentéshez való visszatéréshez válassza a **Vissza a jelentéshez** gombot a vászon bal felső sarkában.
 

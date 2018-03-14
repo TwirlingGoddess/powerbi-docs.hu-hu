@@ -18,11 +18,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 02/13/2018
 ms.author: mihart
-ms.openlocfilehash: 94a01f1d302d455dbcfe52ce39f5cb0b1ac4aa29
-ms.sourcegitcommit: 05018ef2fe8439a9e8f599c696b8c3cee67e3958
+ms.openlocfilehash: cc50e4e8830aca3951da6004b8ada3913aff28ed
+ms.sourcegitcommit: 743e44fc8730fea0f7149916080b0c6d7eb6359d
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/21/2018
+ms.lasthandoff: 02/28/2018
 ---
 # <a name="getting-a-custom-visual-certified"></a>Egyéni vizualizáció *minősítésének* megszerzése
 ## <a name="what-is-meant-by-certified"></a>Mit értünk az alatt, hogy *minősített*?
@@ -50,7 +50,9 @@ Egyéni vizualizáció beküldése minősítésre:
    * Cím: Vizualizáció minősítésére vonatkozó kérelem    
    * A vizualizáció forráskódját tartalmazó GitHub-adattárra mutató hivatkozás    
    * Feleljen meg a követelményeknek (lásd fent)    
-   * Sikeres kód- és biztonsági felülvizsgálat    2. A Microsoft egyéni vizualizációkért felelős csapata értesíti, amint az egyéni vizualizáció megkapja a minősítést, és elérhetővé válik a Minősített listában (alább), illetve a vizualizáció elutasítása esetén megküldi az orvosolandó problémák listáját. A fejlesztő felelőssége, hogy biztosítsa a megfelelő kommunikációt a Microsoft csapatával, és szükség esetén frissítse Minősített vizualizációit.
+   * Sikeres kód- és biztonsági felülvizsgálat    
+
+2. A Microsoft egyéni vizualizációkért felelős csapata értesíti, amint az egyéni vizualizáció megkapja a minősítést, és elérhetővé válik a Minősített listában (alább), illetve a vizualizáció elutasítása esetén megküldi az orvosolandó problémák listáját. A fejlesztő felelőssége, hogy biztosítsa a megfelelő kommunikációt a Microsoft csapatával, és szükség esetén frissítse Minősített vizualizációit.
 
 ## <a name="removal-of-power-bi-certified-custom-visuals"></a>Minősített egyéni Power BI vizualizációk eltávolítása
 A Microsoft saját belátása szerint eltávolíthatja a vizualizációkat a Minősített listáról.  
@@ -117,6 +119,7 @@ A Microsoft saját belátása szerint eltávolíthatja a vizualizációkat a Min
 | [Lejátszási tengely (dinamikus szeletelő)](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380981) | |
 | [Nagy teljesítményű KPI](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381083) | [Videó](https://youtu.be/IvfIP3E6-1Q) |
 | [Power KPI Matrix](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381299) | [Videó](https://youtu.be/1enze8pcGzY) |
+| [Quadrant-diagram a MAQ Software-től](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381011) | [Videó](https://youtu.be/ppBnyhqWNC0) |
 | [Sugárdiagram](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380771) | |
 | [Gyűrűdiagram a MAQ Software-től](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380824) | [Videó](https://youtu.be/pDToHDFHnq8) |
 | [Forgó diagram a MAQ Software-től](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381007) | [Videó](https://youtu.be/d5xBCMmb3hU) |
@@ -129,6 +132,7 @@ A Microsoft saját belátása szerint eltávolíthatja a vizualizációkat a Min
 | [Többszintű gyűrű](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380767) | |
 | [Hőtérképtábla](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380818) | |
 | [Fordulatszámmérő](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380937) | [Videó](https://youtu.be/C3OXdETbS9o) |
+| [Szövegszűrő](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381309) | |
 | [Szövegburkoló a MAQ Software-től](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380826) | |
 | [Hőmérő](https://appsource.microsoft.com/en-us/product/office/WA104379807) | |
 | [Idősorfelbontási diagram](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380897) | |

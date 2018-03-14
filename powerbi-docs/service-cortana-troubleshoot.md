@@ -18,11 +18,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/20/2017
 ms.author: mihart
-ms.openlocfilehash: 352efd894eb58823c9f506089ee28b7d11b30687
-ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
+LocalizationGroup: Ask questions of your data
+ms.openlocfilehash: 80fb45e8f0d181779c699c081006b6610248dc50
+ms.sourcegitcommit: d91b7bf18d5c504037134f375886633379f28ede
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 12/21/2017
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="troubleshoot-cortana-for-power-bi"></a>A Power BI-hoz használt Cortana hibaelhárítása
 Ez a cikk egy sorozat része. Ha még nem tette meg, javasoljuk, hogy olvassa el az alábbi cikkeket.
@@ -95,7 +96,7 @@ Továbbra is hibákat tapasztal?  Ideje futtatnia Cortana hibaelhárító eszkö
    Mivel kaptunk egy eredményt, most már tudjuk, hogy Cortana használata **engedélyezve van** a Power BI-ban. Ez úgy szűkíti le a problémát, hogy az a Windows oldalán merülhet fel, vagy pedig a Cortana nyelvi beállítása, vagy az okozhatja, hogy Cortana számára 100-nál több adathalmaz használata van engedélyezve.
 
 ### <a name="having-trouble-retrieving-answers-from-a-dashboard"></a>Problémákat tapasztal a válaszok egy irányítópultról való beolvasásakor?
-Egy Önnel megosztott irányítópultot keres?  Nyissa meg a Power BI > **Velem megosztva** lapot, majd keresse meg az irányítópult nevét.  Ezután adja meg a nevet az *Utterances** (Kifejezések*) mezőben.
+Egy Önnel megosztott irányítópultot keres?  Nyissa meg a Power BI > **Velem megosztva** lapot, majd keresse meg az irányítópult nevét.  Ezután adja meg a nevet az **Utterances** (Kifejezések) mezőben.
 
 ![A Velem megosztva szakasz megnyitása a Power BI-ban](media/service-cortana-troubleshoot/power-bi-cortana-shared-with-me.png)
 
@@ -105,4 +106,4 @@ Egy Önnel megosztott irányítópultot keres?  Nyissa meg a Power BI > **Velem 
 * A lekérdezésnek a rendszer kialakításából fakadóan 2 vagy több szóból kell állnia.  Ha a lekérdezés túl rövid, egészítse ki a „show” („mutasd meg”) kifejezéssel.
 * Előfordulhat, hogy néhány elöljárószavakat tartalmazó lekérdezési sztring nem működik (példa: sales by item (értékesítés árucikk szerint)). Próbáljon meg más lekérdezési kifejezéseket használni, melyekben nem szerepelnek elöljárószavak, és értelmesek/egyediek.
 
-További kérdései vannak? [Felteheti azokat a Power BI-közösségnek](http://community.powerbi.com/)
+További kérdései vannak? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)

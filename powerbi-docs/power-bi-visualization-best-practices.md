@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/21/2017
 ms.author: mihart
-ms.openlocfilehash: 202f92b9c7089a4bd9bb5dd976051bba47da632e
-ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
+LocalizationGroup: Visualizations
+ms.openlocfilehash: 634dc4efe6553a9de91716552a21563f5405fa69
+ms.sourcegitcommit: d91b7bf18d5c504037134f375886633379f28ede
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 12/21/2017
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="best-design-practices-for-reports-and-visuals"></a>Ajánlott eljárások jelentések és vizualizációk megalkotásához
 <!-- Shared newnav Include -->
@@ -215,7 +216,7 @@ A jelentésoldalak háttereinek beállításakor olyan színeket válaszon, amel
 
 Nem műalkotást készítünk, hanem egy használatra szánt jelentést. Olyan színt válasszon, amely könnyebben olvashatóvá teszi az oldalakat és kiemeli a jelentés elemeit.  
 
-Egy, a weblapok szín- és vizualizációhasználatát vizsgáló kutatás szerint a nagyobb kontraszt egyes színek között gyorsabb megértést eredményez (*Weblapok szövegeinek és háttérszínének hatása a vizuális keresésre** és **Weblapok vizuális összetettségének és esztétikai karaktereinek a felhasználók általi megítélése*.)
+Egy, a weblapok szín- és vizualizációhasználatát vizsgáló kutatás szerint a nagyobb kontraszt egyes színek között gyorsabb megértést eredményez (Weblapok szövegeinek és háttérszínének hatása a vizuális keresésre és **Weblapok vizuális összetettségének és esztétikai karaktereinek a felhasználók általi megítélése**.)
 
 A mintajelentésünkre alkalmaztunk néhány színekkel kapcsolatos ajánlott eljárást (20. és 21. ábra). A legszembetűnőbb a háttérkép feketére módosítása.  A sárga túl világos volt, és megerőltette a szemet.  Emellett a „Count of athlete name by year and class” (Sportolók neveinek száma évek és érmek szerint) diagramon a sávok sárga része észrevehetetlen volt a sárga háttér előtt.  Fekete (vagy fehér) háttérrel a lehető legtöbb kontrasztot kihozhatjuk a jelentésből, és a vizualizációkra terelhetjük a figyelmet.
 
@@ -818,5 +819,5 @@ Ideje élesben is kipróbálni az ajánlott eljárásokat.  Maradjunk kapcsolatb
 ### <a name="book-recommendations"></a>Könyvajánló
 A vizualizációtervezési technikákról számos jó könyv érhető el manapság. Stephen Few *Information Dashboard Design* (Információs irányítópultok tervezése) című könyve kötelező a témakörben. Két másik könyvben, a *Show Me the Numbers* (Lássuk a számokat!) és a *Now You See It* (Így már látja?) című kiadásban még részletesebben ír a vizualizációkról. Few-t és más szerzőket Edward R. Tufte ihlette, akinek *The Visual Display of Quantitative Information* (A mennyiségi adatok vizuális megjelenítése) című könyve klasszikusnak számít ezen a területen. Tufte írta emellett a *Visual Explanations* (Vizuális magyarázatok), az *Envisioning Information* (Az információk megjelenítése) és a *Beautiful Evidence* (Gyönyörű bizonyíték) című könyveket is. Adam Kirk új könyve, a *Data Visualization: A Handbook for Data Driven Design* (Adatvizualizáció: adattervezési kézikönyv) is egy nagyszerű olvasmány. További ajánlott szerzők: Lachlan James, William McKnight, és Boris Evelson (Forrester), Darkhorse Analytics.
 
-További kérdései vannak? [Felteheti azokat a Power BI-közösségnek](http://community.powerbi.com/)
+További kérdései vannak? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)
 

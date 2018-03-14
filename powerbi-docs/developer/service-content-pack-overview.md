@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/04/2018
+ms.date: 02/20/2018
 ms.author: maghan
-ms.openlocfilehash: f0a50c0aba1a05c55236192a730c3187cb37c055
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: 2cc78b3d2a877e465d5f4bdc67f501b7de87f88e
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="overview-of-the-power-bi-service-content-pack-program"></a>A Power BI szolgáltatás tartalomcsomag-programjának áttekintése
 A tartalomcsomagok olyan nem beépített tartalmakból álló csomagok, amelyekkel a felhasználók azonnali elemzésekhez juthatnak adatforrásaikból. A tartalomcsomagok általában egy adott üzleti forgatókönyvre fókuszálva elemzéseket készítenek egy szerepkörről, tartományról vagy munkafolyamatról.
@@ -64,9 +64,9 @@ A tartalomcsomagok egy adott üzleti forgatókönyvre fókuszáló elemzéseket 
 * Fontolja meg több tartalomcsomag felajánlását különféle egyéni forgatókönyvekhez.  
 
 ## <a name="frequently-asked-questions"></a>Gyakori kérdések
-**Létrehozhatok Power BI szolgáltatás-tartalomcsomagot olyan harmadik féltől származó SaaS-alkalmazáshoz, amely nem az én tulajdonom?**
+**Létrehozhatok harmadik félként Power BI szolgáltatás-tartalomcsomagot olyan SaaS-alkalmazáshoz, amely nem az én tulajdonom?**
 
-Nem, jelenleg partnerszerződést kell aláírnia a SaaS-alkalmazás tulajdonosával, mielőtt közzétehetné a tartalomcsomagot a szolgáltatásban.
+Jelenleg partnerszerződést kell aláírnia a SaaS-alkalmazás tulajdonosával, mielőtt közzétehetné a tartalomcsomagot a szolgáltatásban. Harmadik félként partnerszerződést kell kötnie a SaaS-alkalmazás tulajdonosával.
 
 **Nem rendelkezem nyilvános fejlesztői API-val a szolgáltatásomhoz. Így is létrehozhatok olyan Power BI szolgáltatás-tartalomcsomagot, amely közvetlenül az adattárolóból kéri le az adatokat?**
 
@@ -76,9 +76,13 @@ Nem, a Power BI szolgáltatáshoz készült tartalomcsomagokhoz az interneten ke
 
 A Power BI szolgáltatás-tartalomcsomagok minden REST API-t és OData-csatornát támogatnak. A Power BI több hitelesítéstípussal is működik, mint például az alapszintű hitelesítés, az Oauth 2.0 és a Webes API-kulcs. A technikai követelményekről részletesebben a [tartalomkészítésről](template-content-pack-authoring.md#dashboard) szóló cikkben olvashat.
 
+**Közzétettem egy tartalomcsomagot a Power BI-ban. Hogyan frissíthetem?**
+
+A közzétett tartalomcsomagok havonta frissíthetők. A [pbiservicesapps@microsoft.com](mailto:pbiservicesapps@microsoft.com) címre az aktuális hónap utolsó napja előtt beküldött frissítési kérelmek a következő hónap első hetében lesznek közzétéve.
+
 **További kérdéseim vannak a szolgáltatás-tartalomcsomagokkal kapcsolatban. Hogyan léphetek kapcsolatba Önökkel?**
 
-Kérdéseit elküldheti a következő e-mail-címre: pbiservicesapps@microsoft.com.
+Kérdéseit elküldheti a következő e-mail-címre: [pbiservicesapps@microsoft.com](mailto:pbiservicesapps@microsoft.com)
 
 ## <a name="support"></a>Támogatás
 Ha a fejlesztési szakaszban van szüksége támogatásra, használja a következő webhelyet: [https://powerbi.microsoft.com/support](https://powerbi.microsoft.com/support). A támogatási webhelyet aktívan figyeljük és kezeljük. Az ügyfélincidensek gyorsan eljutnak a megfelelő csapathoz.

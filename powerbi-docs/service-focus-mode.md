@@ -16,14 +16,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 1a4290d06d623b21b64e1ff03fb0382a55dc2a3c
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 40ef141046db4b8dac9cf47f7f043ca306d2fadb
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="display-a-dashboard-tile-or-report-visual-in-focus-mode"></a>Irányítópult-csempe vagy jelentésvizualizáció megjelenítése Fókusz módban
 <iframe width="560" height="315" src="https://www.youtube.com/embed/dtdLul6otYE" frameborder="0" allowfullscreen></iframe>
@@ -36,39 +36,41 @@ A ***Fókusz*** mód lehetővé teszi, hogy a csempéket további részletek meg
 > A Fókusz mód más, mint a [teljes képernyős mód](service-fullscreen-mode.md).
 > 
 ## <a name="focus-mode-for-dashboard-tiles"></a>Irányítópult-csempék fókusz módban
-1. Helyezze a kurzort a csempevizualizáció fölé, válassza a három pont (...) lehetőséget, majd a **Megnyitás fókusz módban** ![](media/service-focus-mode/power-bi-dashboard-focus-mode.png) lehetőséget.  
+1. Helyezze a kurzort a csempevizualizáció fölé, válassza a három pont (...) lehetőséget, majd a **Megnyitás fókusz módban** lehetőséget 
+
+    ![a csempe három pont menüje](media/service-focus-mode/power-bi-dashboard-focus-mode.png).
    
 2. A rendszer megnyitja a csempét, és kitölti vele a jelentésvásznat. 
 
-   ![](media/service-focus-mode/power-bi-tile-focus.png)
+   ![a csempe kitölti a jelentésvásznat](media/service-focus-mode/power-bi-tile-focus.png)
 
 3. A vizualizáció létrehozásához használt szűrők megjelenítéséhez bontsa ki a Szűrők ablaktáblát.
    
-   ![](media/service-focus-mode/power-bi-focus-filters.png)
+   ![fókusz mód a Szűrők panellel](media/service-focus-mode/power-bi-focus-filters.png)
 
 4. Elemezze tovább adatait a szűrők módosításával, és ha talál valami érdekeset, tűzze ki a vizualizációt az irányítópultra.
 
 5. Hagyja el a Fókusz módot, és térjen vissza az irányítópulthoz a vizualizáció bal felső sarkában látható **< Kilépés a fókusz módból** lehetőséget választva.
    
-    ![](media/service-focus-mode/power-bi-tile-exit-focus.png)    
+    ![kilépés a Fókusz módból](media/service-focus-mode/power-bi-tile-exit-focus.png)    
 
 
 ## <a name="focus-mode-for-report-visualizations"></a>Fókusz mód jelentésvizualizációkhoz
 
-1. Vigye az egeret a jelentésvizualizáció fölé, és válassza a **fókusz mód** ikont ![](media/service-focus-mode/pbi_popout.jpg).  
+1. Vigye az egeret a jelentésvizualizáció fölé, és válassza a **fókusz mód** ikont ![fókusz mód ikon](media/service-focus-mode/pbi_popout.jpg).  
    
-   ![](media/service-focus-mode/power-bi-hover-focus.png)
+   ![fókusz ikon megjelenik a csempén](media/service-focus-mode/power-bi-hover-focus.png)
 2. A rendszer megnyitja a vizualizációt, és kitölti vele a teljes vásznat. 
 
    
-   ![](media/service-focus-mode/power-bi-display-focus-newer2.png)
+   ![vizualizáció fókusz módban](media/service-focus-mode/power-bi-display-focus-newer2.png)
 3. A vizualizáció létrehozásához használt szűrők megjelenítéséhez bontsa ki a Szűrők ablaktáblát.
    
-   ![](media/service-focus-mode/power-bi-display-focus-filters.png)
+   ![fókusz mód a Szűrők képernyővel](media/service-focus-mode/power-bi-display-focus-filters.png)
 4. Elemezze tovább adatait a szűrők módosításával, és ha talál valami érdekeset, tűzze ki a vizualizációt az irányítópultra.   
 5. Hagyja el a Fókusz módot, és térjen vissza a jelentéshez vizualizáció bal felső sarkában látható **Vissza a jelentéshez** lehetőségre kattintva. 
    
-    ![](media/service-focus-mode/power-bi-exit-focus-report.png)  
+    ![kilépés a Fókusz módból](media/service-focus-mode/power-bi-exit-focus-report.png)  
 
 ## <a name="go-from-focus-mode-to-full-screen-mode"></a>Váltás Fókusz módról Teljes képernyős módra
 Ha már Fókusz módban van, a csempét vagy vizualizációt megtekintheti [Teljes képernyős (TV)](service-fullscreen-mode.md) módban. Teljes képernyős módban a figyelmet elterelő menük és navigációs gombok nem láthatók.

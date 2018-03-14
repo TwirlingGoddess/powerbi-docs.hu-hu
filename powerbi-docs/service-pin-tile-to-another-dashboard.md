@@ -15,13 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/20/2017
+ms.date: 03/01/2018
 ms.author: mihart
-ms.openlocfilehash: bf0146bf8cd57c515b0572b6a485e8da1a50f159
-ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
+LocalizationGroup: Dashboards
+ms.openlocfilehash: 4784a5d07cab1f637afa6cf6622ea00fd264d501
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 12/21/2017
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="pin-a-tile-from-one-dashboard-to-another-dashboard"></a>Csempe kitűzése egy irányítópultról egy másikra
 Ha egy új [irányítópult-csempét](service-dashboard-tiles.md) szeretne felvenni, egyik módszerként ezt megteheti egy másik irányítópult csempéjének másolásával. Ezek a csempék kattintható hivatkozások, amelyek arra a helyre mutatnak, ahol létrejöttek: vagy a Q&A-ra vagy egy jelentésre. 
@@ -34,21 +35,21 @@ Ha egy új [irányítópult-csempét](service-dashboard-tiles.md) szeretne felve
 2. Nyisson meg egy [irányítópultot](service-dashboards.md).
 3. Vigye a kurzort a rögzíteni kívánt csempe fölé, és válassza a három pont (...), majd a **Csempe rögzítése** lehetőséget.  
    
-   ![](media/service-pin-tile-to-another-dashboard/power-bi-pin-another-dash.png)
+   ![három pont menü](media/service-pin-tile-to-another-dashboard/power-bi-pin-another-dash.png)
 4. A csempét egy meglévő vagy egy új irányítópultra is rögzítheti. 
    
    * **Meglévő irányítópult**: válassza ki az irányítópult nevét a legördülő listából.
    * **Új irányítópult**: írja be az új irányítópult nevét.
    
-   ![](media/service-pin-tile-to-another-dashboard/pbi_pintoanotherdash.png)
+   ![Rögzítés az irányítópulton párbeszédablak](media/service-pin-tile-to-another-dashboard/pbi_pintoanotherdash.png)
 5. Válassza a **Rögzítés** lehetőséget.
    A jobb felső sarokban ekkor megjelenik egy üzenet, amely arról tájékoztat, hogy sikeresen hozzáadta a vizualizációt a kiválasztott irányítópult egy csempéjeként.
    
-   ![](media/service-pin-tile-to-another-dashboard/power-bi-pin-success.png)
+   ![Rögzítve az irányítópulton](media/service-pin-tile-to-another-dashboard/power-bi-pin-success.png)
 6. Válassza az **Ugrás az irányítópultra** lehetőséget a rögzített csempe megtekintéséhez. A rögzített vizualizációt itt [átnevezheti, átméretezheti, és áthelyezheti, vagy hivatkozást hozhat létre hozzá](service-dashboard-edit-tile.md).
 
 ## <a name="next-steps"></a>Következő lépések
 [Csempék a Power BI-ban](service-dashboard-tiles.md)  
 [Irányítópultok a Power BI-ban](service-dashboards.md)  
-További kérdései vannak? [Felteheti azokat a Power BI-közösségnek](http://community.powerbi.com/)
+További kérdései vannak? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)
 

@@ -16,14 +16,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 62796d9eb376ab4c92cc5596176ac501a69c0e62
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: d8b4175f83415821e1ff9b63e3c53cd8f869b54f
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="printing-from-power-bi-service"></a>Nyomtatás a Power BI-ból
 Útmutató teljes irányítópultok, irányítópult-csempék, jelentésoldalak, jelentés-vizualizációk Power BI-ból történő nyomtatásához. A jelentésekből alkalmanként csak egy oldal nyomatható ki, a teljes jelentést nem lehet egyszerre kinyomtatni.
@@ -41,25 +41,24 @@ Tekintse meg, hogyan nyomtat Amanda irányítópultjáról, illetve jelentéséb
 1. Nyissa meg azt az irányítópultot, amelyet ki szeretne nyomtatni.
 2. A jobb felső sarokban kattintson a három pontra (...), és válassza az **Irányítópult nyomtatása** lehetőséget.
    
-    ![](media/service-print/pbi_print_dash_ellipses.png)
+    ![Irányítópult nyomtatása lehetőség](media/service-print/pbi_print_dash_ellipses.png)
 3. Ekkor megjelenik a böngésző Nyomtatás ablaka. Adja meg a beállításokat és a nyomtatási célt, majd válassza a **Nyomtatás** elemet.
    
    > [!NOTE]
    > Az, hogy milyen nyomtatási párbeszédablak jelenik meg attól függ, hogy milyen böngészőt használ.
    > 
-   > 
    
-    ![](media/service-print/pbi_print_dash_new2.png)
+    ![nyomtatási párbeszédpanel](media/service-print/pbi_print_dash_new2.png)
 
 ## <a name="print-a-dashboard-tile"></a>Irányítópult-csempe nyomtatása
-1. A három pontra, majd a [ Fókusz ikonra kattintva ](service-focus-mode.md)nyissa meg a csempét fókusz módban![](media/service-print/power-bi-focus-icon.png).
+1. A három pontra, majd a Fókusz ikonra ![Fókusz ikon](media/service-print/power-bi-focus-icon.png) kattintva [nyissa meg a csempét fókusz módban](service-focus-mode.md).
    
-    ![](media/service-print/menu-options.png)
-2. A felső navigációs sáv teljes képernyő ikonjára ![](media/service-print/power-bi-full-screen-icon.png) kattintva nyissa meg a csempét [teljes képernyős módban](service-fullscreen-mode.md).
+    ![három pont menü](media/service-print/menu-options.png)
+2. A felső navigációs sáv teljes képernyő ikonjára ![teljes képernyő ikon](media/service-print/power-bi-full-screen-icon.png) kattintva nyissa meg a csempét [teljes képernyős módban](service-fullscreen-mode.md).
 3. A kurzort a csempe fölé húzva jelenítheti meg a válaszható lehetőségek menüjét.
    
-    ![](media/service-print/menu-options-new.png)
-4. Kattintson a ![](media/service-print/print-icon.png) Nyomtatás ikonra.     
+    ![teljes képernyős beállítások menü](media/service-print/menu-options-new.png)
+4. Kattintson a Nyomtatás ikonra  ![nyomtatás ikon](media/service-print/print-icon.png) .     
    
    > [!NOTE]
    > Az, hogy milyen nyomtatási párbeszédablak jelenik meg attól függ, hogy milyen böngészőt használ.
@@ -72,7 +71,7 @@ A jelentésekből egyszerre egy oldal nyomtatható ki.
 1. Nyissa meg a jelentést Olvasás nézetben vagy Szerkesztés nézetben.
 2. Az aktuális jelentésoldal nyomtatásához kattintson a **Fájl** > **Nyomtatás** lehetőségre.
    
-    ![](media/service-print/power-bi-print.png)
+    ![Power BI Fájl menü](media/service-print/power-bi-print.png)
 3. Ekkor megjelenik a böngésző Nyomtatás ablaka.
    
    > [!NOTE]
@@ -81,7 +80,7 @@ A jelentésekből egyszerre egy oldal nyomtatható ki.
    > 
 
 ## <a name="print-a-report-visual"></a>Jelentés-vizualizáció nyomtatása
-1. A kurzort a csempe fölé húzva, majd jobb felső sarokban látható ![](media/service-print/power-bi-focus-icon.png) Fókusz ikonra kattintva [nyissa meg a vizualizációt fókusz módban](service-focus-mode.md).
+1. A kurzort a csempe fölé húzva, majd jobb felső sarokban látható Fókusz ikonra ![Fókusz ikon](media/service-print/power-bi-focus-icon.png) kattintva [nyissa meg a vizualizációt fókusz módban](service-focus-mode.md).
 2. Hajtsa végre a *Jelentésoldal nyomtatása* részben fentebb leírt 2. és 3. lépést.
 
 ## <a name="considerations-and-troubleshooting"></a>Megfontolandó szempontok és hibaelhárítás

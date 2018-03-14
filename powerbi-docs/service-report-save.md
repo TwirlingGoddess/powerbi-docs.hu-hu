@@ -15,13 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/08/2018
+ms.date: 03/01/2018
 ms.author: mihart
-ms.openlocfilehash: 50fd10596ea7ebba1284f78b4056f7afbd0e3400
-ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
+LocalizationGroup: Reports
+ms.openlocfilehash: b31ad6f31404b563f6a5fe3805e77027671a5870
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 01/09/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="save-a-report-in-power-bi-service-and-power-bi-desktop"></a>Jelentések mentése a Power BI szolgáltatásban és a Power BI Desktopban
 Miután módosít egy jelentést a Power BI-ban, mentheti, új néven mentheti, vagy bezárhatja a módosítások mentése nélkül. Tegyük fel, hogy megnyitja a jelentést, létrehoz egy vizualizációt, és az irányítópultra tűzi azt. Ha most a módosítások mentése nélkül bezárja a jelentést, a cím az irányítópulton marad, de nem menti a vizualizációt a jelentésbe. Amikor az irányítópulton lévő csempére kattint, megnyílik a jelentés, de a vizualizáció nem létezik a jelentésben.
@@ -34,13 +35,13 @@ Miután módosít egy jelentést a Power BI-ban, mentheti, új néven mentheti, 
 ### <a name="to-save-a-report"></a>Jelentés mentése:
 1. Ha megkísérli elhagyni a jelentést, és a jelentésben változások vannak, a Power BI megjelenít egy kérdést.
    
-   ![](media/service-report-save/power-bi-unsaved.png)
+   ![Módosítások mentése](media/service-report-save/power-bi-unsaved.png)
 2. A jelentés mentésének egy másik módja, ha a **Fájl** \> **Mentés** vagy **Mentés másként** lehetőséget választja. Ha [Olvasó nézetben](service-reading-view-and-editing-view.md) van, csak a Mentés másként lehetőséget látja. 
    
-   ![](media/service-report-save/power-bi-save-new.png)
+   ![Jelentés mentése](media/service-report-save/power-bi-save-new.png)
 3. Ha ez új jelentés (Mentés), vagy meglévő jelentés új verziója (Mentés másként), adjon meg egy leíró nevet.  **A jelentést az aktív munkaterülethez adja hozzá a rendszer**.
    
-    ![](media/service-report-save/power-bi-save-dialog.png)
+    ![jelentés elnevezése](media/service-report-save/power-bi-save-dialog.png)
 
 ### <a name="next-steps"></a>Következő lépések
 A [Power BI jelentéseiről itt talál](service-reports.md) további információkat

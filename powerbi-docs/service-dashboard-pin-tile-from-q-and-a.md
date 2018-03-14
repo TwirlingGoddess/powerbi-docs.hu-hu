@@ -15,13 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/17/2018
+ms.date: 03/02/2018
 ms.author: mihart
-ms.openlocfilehash: a3df29b478675eeeec876863299c0a33073fb381
-ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
+LocalizationGroup: Dashboards
+ms.openlocfilehash: bd9f49c338afc413107ee811bf9ee33c3e9737a4
+ms.sourcegitcommit: ab5192675729949d89de212acae48dd51294ad78
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 03/05/2018
 ---
 # <a name="pin-a-tile-to-a-dashboard-from-qa"></a>Csempe rögzítése az irányítópultra a Q&A kérdésmezőből
 ## <a name="how-to-pin-a-tile-from-qa"></a>Hogyan rögzíthet csempét a Q&A kérdésmezőből
@@ -34,16 +35,16 @@ Annak érdekében, hogy követni tudja a lépéseket, nyissa meg a [Kiskereskede
 
 1. Nyisson meg egy [irányítópultot](service-dashboards.md), amelyen már rögzítve van legalább egy csempe valamelyik jelentésből. A kérdés begépelésekor a Power BI minden olyan adatkészletben választ keres, amelyhez az irányítópulton csempe tartozik.  További tudnivalókért lásd: [Adatok beolvasása](service-get-data.md).
 2. Az irányítópult tetején látható kérdésmezőbe kezdje beleírni (angolul), hogy mire kíváncsi az adatokkal kapcsolatban.  
-   ![](media/service-dashboard-pin-tile-from-q-and-a/power-bi-question-box.png)
+   ![Q&A kérdésmező](media/service-dashboard-pin-tile-from-q-and-a/power-bi-question-box.png)
 3. Például ha ezt írja: „last year sales by month and territory" (tavalyi eladások hónapok és területek szerint)...  
-   ![](media/service-dashboard-pin-tile-from-q-and-a/power-bi-type-q-and-a.png)
+   ![kérdés beírása](media/service-dashboard-pin-tile-from-q-and-a/power-bi-type-q-and-a.png)
 
    akkor a kérdésmező javaslatokat kínál fel.
 4. Ha csempe formájában kívánja rögzíteni a grafikont az irányítópultra, kattintson a gombostű ![](media/service-dashboard-pin-tile-from-q-and-a/pbi_pintile.png) ikonra a vászon jobb felső sarkában. Ha az irányítópultot megosztották Önnel, akkor nem fog tudni vizualizációkat rögzíteni.
 
 5. A csempét egy meglévő vagy egy új irányítópultra is rögzítheti.
 
-   ![](media/service-dashboard-pin-tile-from-q-and-a/power-bi-pin-to-dashboard.png)
+   ![Rögzítés az irányítópulton párbeszédablak](media/service-dashboard-pin-tile-from-q-and-a/power-bi-pin-to-dashboard.png)
 
    * Meglévő irányítópult: válassza ki az irányítópult nevét a legördülő listából. Csak az aktuális munkaterületeken lévő irányítópultok közül választhat.
    * Új irányítópult: írja be az új irányítópult nevét, és az létrejön a munkaterületen.
@@ -52,15 +53,15 @@ Annak érdekében, hogy követni tudja a lépéseket, nyissa meg a [Kiskereskede
 
    A jobb felső sarokban megjelenik a sikert jelző üzenet, amely tájékoztatja, hogy a vizualizáció csempeként hozzá lett adva az irányítópulthoz.  
 
-   ![](media/service-dashboard-pin-tile-from-q-and-a/power-bi-pin.png)
+   ![Rögzítve az irányítópulton](media/service-dashboard-pin-tile-from-q-and-a/power-bi-pin.png)
 7. Az új csempe megtekintéséhez kattintson az **Ugrás az irányítópultra** lehetőségre. Itt [többek között átnevezheti, átméretezheti és áthelyezheti a csempét az irányítópulton, és hivatkozást adhat hozzá](service-dashboard-edit-tile.md).
 
-   ![](media/service-dashboard-pin-tile-from-q-and-a/power-bi-pinned.png)
+   ![Csempéket tartalmazó irányítópult](media/service-dashboard-pin-tile-from-q-and-a/power-bi-pinned.png)
 
 ## <a name="considerations-and-troubleshooting"></a>Megfontolandó szempontok és hibaelhárítás
 * Amikor elkezdi beírni a kérdést, a Q&A-rendszer máris keresni kezdi a legjobb választ az aktuális irányítópulttal társított adatkészletekben.  Az „aktuális irányítópult” neve a felső navigációs sávon látható. Ezt a kérdést például a **mihart** alkalmazás-munkaterülethez tartozó **Kiskereskedelmi elemzési minta** irányítópulton tették fel.
 
-  ![](media/service-dashboard-pin-tile-from-q-and-a/power-bi-navbar.png)
+  ![útkövetési eszközök](media/service-dashboard-pin-tile-from-q-and-a/power-bi-navbar.png)
 * **Honnan tudja a Q&A-rendszer, hogy mely adatkészleteket kell felhasználnia**?  A Q&A minden adatkészlethez hozzáfér, amelynek legalább egy rögzített vizualizációja van az irányítópulton.
 
 * **Nem jelenik meg a kérdés mező**? Lépjen kapcsolatba a Power BI rendszergazdájával. A rendszergazdának lehetősége van a Q&A-t letiltani.

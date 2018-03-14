@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/10/2018
+ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: ea4dfaf8678e19894c1947282197d7e14cfaa944
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 3d20b27b24851872b05a9c7dccb383032e1d65b8
+ms.sourcegitcommit: ab5192675729949d89de212acae48dd51294ad78
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/05/2018
 ---
 # <a name="delete-almost-anything-in-power-bi-service"></a>A Power BI szinte bármelyik elemének törlése
 Ebből a cikkből megtudhatja, hogyan törölhet egy irányítópultot, jelentést, munkafüzetet, adatkészletet, alkalmazást, vizualizációt vagy munkaterületet a Power BI szolgáltatásból.
@@ -36,21 +36,21 @@ Az irányítópultok eltávolíthatók. Az irányítópult eltávolítása nem t
 
 ### <a name="to-delete-a-dashboard"></a>Az irányítópult törlése
 1. Kattintson az **Irányítópultok** fülre a munkaterületén.
-2. Keresse meg a törölni kívánt irányítópultot, és kattintson a Törlés ikonra ![](media/service-delete/power-bi-delete-icon.png).
+2. Keresse meg a törölni kívánt irányítópultot, és kattintson a Törlés ikonra ![törlés ikon](media/service-delete/power-bi-delete-icon.png).
 
-    ![](media/service-delete/power-bi-delete-dash.gif)
+    ![videó](media/service-delete/power-bi-delete-dash.gif)
 
 ## <a name="delete-a-report"></a>Jelentés törlése
 Aggodalomra semmi ok, egy jelentés törlésével nem törlődik az adatkészlet, amelyen a jelentés alapul.  A jelentésből rögzített vizualizációk szintén megmaradnak – maradnak az irányítópulton, hacsak nem törli őket külön.
 
 ### <a name="to-delete-a-report"></a>Jelentések törlése
 1. Kattintson a **Jelentések** fülre a munkaterületén.
-2. Keresse meg a törölni kívánt jelentést, és kattintson a Törlés ikonra ![](media/service-delete/power-bi-delete-icon.png).   
+2. Keresse meg a törölni kívánt jelentést, és kattintson a Törlés ikonra   ![törlés ikon](media/service-delete/power-bi-delete-icon.png).   
 
-    ![](media/service-delete/power-bi-delete-reportnew.png)
+    ![a munkaterület jelentések lapja](media/service-delete/power-bi-delete-reportnew.png)
 3. Erősítse meg a törlési szándékát.
 
-   ![](media/service-delete/power-bi-delete-report.png)
+   ![Jelentés törlése párbeszédpanel](media/service-delete/power-bi-delete-report.png)
 
    > [!NOTE]
    > Ha a jelentés egy [tartalomcsomag](service-organizational-content-pack-introduction.md) része, ezzel a módszerrel nem törölhető.  Lásd: [Szervezeti tartalomcsomaggal való kapcsolat eltávolítása](service-organizational-content-pack-disconnect.md).
@@ -64,12 +64,12 @@ Ha a munkafüzetet a rendszer a OneDrive Vállalati verziójában tárolja, a PO
 
 ### <a name="to-delete-a-workbook"></a>Munkafüzetek törlése
 1. Kattintson a **Munkafüzetek** fülre a munkaterületén.
-2. Keresse meg a törölni kívánt munkafüzet, és kattintson a Törlés ![](media/service-delete/power-bi-delete-report2.png) ikonra.
+2. Keresse meg a törölni kívánt munkafüzet, és kattintson a Törlés ![törlés ikon](media/service-delete/power-bi-delete-report2.png) ikonra.
 
-    ![](media/service-delete/power-bi-delete-workbooknew.png)
+    ![Munkafüzetek lap](media/service-delete/power-bi-delete-workbooknew.png)
 3. Erősítse meg a törlési szándékát.
 
-   ![](media/service-delete/power-bi-delete-confirm.png)
+   ![Munkafüzet eltávolítása párbeszédpanel](media/service-delete/power-bi-delete-confirm.png)
 
 ## <a name="delete-a-dataset"></a>Adatkészlet törlése
 Az adatkészletek törölhetők. Egy adatkészlet törlésével azonban törli az összes olyan jelentést és irányítópult-csempét is, amely az adott adatkészlet adatait tartalmazza.
@@ -80,13 +80,13 @@ Ha az adatkészlet egy vagy több [szervezeti tartalomcsomag](service-organizati
 1. Kattintson az **Adatkészletek** fülre a munkaterületén.
 2. Keresse meg a törölni kívánt adatkészletet, és kattintson a három pontra (...).  
 
-    ![](media/service-delete/power-bi-delete-datasetnew.png)
+    ![Adatkészletek lap](media/service-delete/power-bi-delete-datasetnew.png)
 3. A legördülő listából válassza a **Törlés** lehetőséget.
 
-   ![](media/service-delete/power-bi-delete-datasetnew2.png)
+   ![három pont menü](media/service-delete/power-bi-delete-datasetnew2.png)
 4. Erősítse meg a törlési szándékát.
 
-   ![](media/service-delete/power-bi-delete-dataset-confirm.png)
+   ![Irányítópult törlése párbeszédpanel](media/service-delete/power-bi-delete-dataset-confirm.png)
 
 ## <a name="delete-an-app-workspace"></a>Alkalmazás munkaterületének törlése
 > [!WARNING]
@@ -99,13 +99,13 @@ Ha Ön az alkalmazás munkaterületének létrehozója, törölheti azt. Törlé
 ### <a name="to-delete-an-app-workspace---if-you-are-an-admin"></a>Az alkalmazás-munkaterület törlésének módja – rendszergazdaként
 1. A bal oldali navigációs panelen válassza a **Munkaterületek** elemet
 
-    ![](media/service-delete/power-bi-delete-workspace.png)
+    ![Alkalmazás munkaterületei](media/service-delete/power-bi-delete-workspace.png)
 2. Kattintson a törölni kívánt munkaterülettől jobbra található három pontra (...), és válassza a **Munkaterület szerkesztése** lehetőséget.
 
-   ![](media/service-delete/power-bi-edit-workspace.png)
+   ![három pont menü > Munkaterület szerkesztése](media/service-delete/power-bi-edit-workspace.png)
 3. A **Munkaterület szerkesztése** ablakban válassza a **Munkaterület törlése** > **Törlés** lehetőséget.
 
-    ![](media/service-delete/power-bi-delete-workspace2.png)
+    ![munkaterület törlése](media/service-delete/power-bi-delete-workspace2.png)
 
 ### <a name="to-remove-an-app-workspace-from-your-list"></a>Alkalmazás-munkaterület eltávolítása a listából
 Ha már nem szeretne tag lenni egy alkalmazás munkaterületén, ***elhagyhatja***, és ezzel a rendszer eltávolítja azt a listájáról. Ha elhagy egy munkaterületet, a munkaterület többi tagja számára nem változik semmi.  
@@ -118,7 +118,7 @@ Ha már nem szeretne tag lenni egy alkalmazás munkaterületén, ***elhagyhatja*
 1. Lépjen az eltávolítani kívánt alkalmazás-munkaterületre.
 2. A jobb felső sarokban kattintson a három pontra (...), és válassza a **Kilépés a munkaterületről** > **Kilépés** lehetőséget.
 
-      ![](media/service-delete/power-bi-leave-workspace.png)
+      ![kilépés a munkaterületből](media/service-delete/power-bi-leave-workspace.png)
 
    > [!NOTE]
    > A legördülő listában megjelenő lehetőségek attól függnek, hogy az adott alkalmazás-munkaterületen tag-e, vagy pedig rendszergazda.
@@ -134,7 +134,7 @@ Ha töröl egy alkalmazást az alkalmazásokat listázó oldalról, azzal más t
 1. Nyissa meg az alkalmazásokat listázó oldalt a bal oldali navigációs panelen az **Alkalmazások** elemre kattintva.
 2. Vigye a mutatót a törölni kívánt alkalmazás fölé, majd kattintson a Törlés ![](media/service-delete/power-bi-delete-report2.png) ikonra.
 
-   ![](media/service-delete/power-bi-delete-app.png)
+   ![alkalmazások kiválasztása](media/service-delete/power-bi-delete-app.png)
 
    Ha véletlenül távolít el egy alkalmazást, számos módon visszaszerezheti.  Megkérheti az alkalmazás létrehozóját, hogy küldje el újra, megkeresheti a hivatkozást tartalmazó eredeti e-mailt, ellenőrizheti az [Értesítési központban](service-notification-center.md), hogy listázva van-e még az alkalmazás, vagy ellenőrizheti a szervezet [AppSource](service-install-use-apps.md)-át.
 

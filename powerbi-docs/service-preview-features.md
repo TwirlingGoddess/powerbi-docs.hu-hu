@@ -16,14 +16,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/20/2017
+ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 4ffa00f92a6ee1275c1f8a691369cfd54363aa98
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 45f10ab7fef7669adbbc836e67a4daaed267905e
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="opt-in-for-power-bi-preview-features"></a>Feliratkozás a Power BI előzetes verziójú funkcióira
 ## <a name="what-are-preview-features"></a>Mik azok az *előzetes verziójú funkciók*?
@@ -37,10 +37,10 @@ Ahogy folyamatosan fejlesztjük a Power BI-t, egyes új funkciókat *előzetes v
 ## <a name="find-previews-and-turn-them-on-and-off"></a>Az előzetes verziójú funkciók megkeresése és be- (vagy ki-) kapcsolása
 1. Kattintson a Power BI-képernyő jobb felső sarkában lévő fogaskerék ikonra, majd válassza a **Beállítások** elemet a Beállítások menü megnyitásához.
    
-   ![](media/service-preview-features/power-bi-settings.png).
+   ![Beállítások menü](media/service-preview-features/power-bi-settings.png).
 2. Válassza az **Általános** lapot. Ha vannak előzetes verziójú funkciók, akkor vagy megjelenik az **Előzetes verziójú funkciók** lehetőség, vagy pedig szerepelni fog egy előzetes verziójú funkció a bal oldalon.  Ebben a példában az ArcGIS Maps előzetes verziója jelenik meg. 
    
-   ![](media/service-preview-features/power-bi-preview-arcgis.png)
+   ![Általános lap](media/service-preview-features/power-bi-preview-arcgis.png)
 3. Az új funkció teszteléséhez válassza a **Be** választógombot, vagy jelölje be a jelölőnégyzetet. Ezután válassza az **Alkalmaz** lehetőséget.
 4. Az előzetes verziójú funkciók kikapcsolásához, kövesse a fenti 1., 2. és 3. lépést, és a 3. lépésben válassza a **Ki** lehetőséget vagy törölje a jelet, majd válassza az **Alkalmaz** lehetőséget.
 

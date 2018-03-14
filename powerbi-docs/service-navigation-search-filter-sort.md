@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/20/2017
+ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: f76bc638893a06545fb5a71ec633dd470fd47dd8
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 26308afc86ce83a24a40b078770db35213f600e0
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="navigation-searching-finding-and-sorting-content-in-power-bi-service"></a>Navigáció: tartalom keresése és rendezése a Power BI szolgáltatásban
 A Power BI szolgáltatásban számos módon navigálhat a tartalmak között. A tartalmak típus szerint vannak rendezve a munkaterületeken: irányítópultok, jelentések, munkafüzetek és adathalmazok.  A tartalom emellett használat szerint is rendezve van: kedvencek, legutóbbi, alkalmazások, velem megosztott és kiemelt. Ezek a különböző tartalmakhoz vezető utak lehetővé teszik, hogy gyorsan megtalálja, amire szüksége van a Power BI szolgáltatásban.  
@@ -34,26 +34,26 @@ A Power BI szolgáltatásban számos módon navigálhat a tartalmak között. A 
 
 A Power BI szolgáltatás típus szerint választja szét a munkaterület tartalmait: az irányítópultokat, a jelentéseket, a munkafüzeteket és az adathalmazokat. Ez az elrendezés fog megjelenni, amikor kiválaszt egy munkaterületet. Ebben a példában az alkalmazás-munkaterület neve „Sales and marketing app sample” („Értékesítési és marketing-alkalmazásminta”), és 2 irányítópultot, 6 jelentést, 1 munkafüzetet és 5 adathalmazt tartalmaz.
 
-![](media/service-navigation-search-filter-sort/workspaces.gif)
+![videó](media/service-navigation-search-filter-sort/workspaces.gif)
 
 ________________________________________
 
 ## <a name="searching-and-sorting-in-workspaces"></a>Keresés és rendezés a munkaterületeken
 A munkaterületeken négyféle tartalomlap található: Irányítópultok, Jelentések, Munkafüzetek, Adatkészletek.  Minden laphoz tartozik egy keresőmező és egy rendezési gomb.  A Power BI szolgáltatás használatának kezdetén talán nem találja szükségesnek őket, hiszen akkor még csak egy-két elem lesz egy lapon.  De idővel hosszú tartalomlisták is kialakulhatnak.  A keresés és a rendezés használatával könnyedén megtalálhatja, amit keres.
 
-![](media/service-navigation-search-filter-sort/power-bi-search-sort2.png)
+![Irányítópultok lap](media/service-navigation-search-filter-sort/power-bi-search-sort2.png)
 
 * Adjon meg egy keresőkifejezést az aktuális képernyőn való kereséshez
   
-   ![](media/service-navigation-search-filter-sort/power-bi-search2.png)
+   ![keresett kifejezés megadása](media/service-navigation-search-filter-sort/power-bi-search2.png)
 * A rendezés gombra kattintva megtekintheti az aktuális lap tartalmát. Az elemek név vagy tulajdonos szerint rendezhetők sorba.
   
-   ![](media/service-navigation-search-filter-sort/power-bi-sort-alpha.png)
+   ![rendezés menü](media/service-navigation-search-filter-sort/power-bi-sort-alpha.png)
 
 ## <a name="navigation-using-the-left-navbar"></a>Navigálás a bal oldali navigációs sávval
-A bal oldali navigációs sávon úgy vannak osztályozva a tartalmak, hogy azokat még egyszerűbben és gyorsan meg lehessen találni.  
+A bal oldali navigációs ablakban úgy vannak osztályozva a tartalmak, hogy azokat még egyszerűbben és gyorsan meg lehessen találni.  
 
-![](media/service-navigation-search-filter-sort/power-bi-newnav.png)
+![bal oldali navigációs ablak](media/service-navigation-search-filter-sort/power-bi-newnav.png)
 
 
 
@@ -61,7 +61,7 @@ A saját használatra létrehozott tartalmak a **Saját munkaterületen**, a cso
 
 Emellett [kedvencként](service-dashboard-favorite.md) és [kiemeltként](service-dashboard-featured.md) is megjelölhet tartalmakat. Válassza ki a várhatóan leggyakrabban megtekintett irányítópultot, és állítsa be *kiemelt* irányítópultként. A Power BI szolgáltatás megnyitásakor mindig ez az irányítópult jelenik meg először. Vannak gyakran használt irányítópultjai és alkalmazásai? Ha kedvencként állítja be őket, mindig elérhetőek lesznek a bal oldali navigációs sávban.
 
-![](media/service-navigation-search-filter-sort/power-bi-favorite-flyout.png).
+![Kedvencek úszó menü](media/service-navigation-search-filter-sort/power-bi-favorite-flyout.png).
 
 
 ## <a name="considerations-and-troubleshooting"></a>Megfontolandó szempontok és hibaelhárítás

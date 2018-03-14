@@ -15,19 +15,20 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/23/2017
+ms.date: 03/02/2018
 ms.author: mihart
-ms.openlocfilehash: f6ddae485f15a1ebeed2ef1dfa7a1d373f9bb04b
-ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
+LocalizationGroup: Dashboards
+ms.openlocfilehash: 3b6d8c31c9ba03b0119635af5f9270a584081139
+ms.sourcegitcommit: ab5192675729949d89de212acae48dd51294ad78
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 01/03/2018
+ms.lasthandoff: 03/05/2018
 ---
 # <a name="dashboard-tiles-in-power-bi"></a>Irányítópult-csempék a Power BI-ban
 Az irányítópultok és az irányítópulton található csempék nem a Power BI Desktophoz, hanem a Power BI szolgáltatáshoz tartozó funkciók. A Power BI mobilalkalmazásban nem hozhatók létre és nem tűzhetők ki irányítópult-csempék, de [megtekinthetők és megoszthatók](mobile-tiles-in-the-mobile-apps.md) abból. Ezenkívül a Power BI mobilalkalmazásban [képeket vehet fel az irányítópulthoz az iPhone-alkalmazással](mobile-iphone-app-get-started.md).
 
 ## <a name="dashboard-tiles"></a>Irányítópult-csempék
-![](media/service-dashboard-tiles/power-bi-dashboard.png)
+![Power BI-irányítópult](media/service-dashboard-tiles/power-bi-dashboard.png)
 
 A csempék az adatokról készített és az irányítópultra kitűzött pillanatfelvételek. Csempe létrehozható jelentésből, Q&A mezőből, Excelből, SQL Server Reporting Services-ből (SSRS-ből), és sok minden másból.  Ezen a képernyőfelvételen több irányítópultra tűzött csempe látható.
 
@@ -53,34 +54,34 @@ Az irányítópultokra többféleképpen lehet felvenni (kitűzni) csempét. Cse
 
 A képek, szövegdobozok, videók, streamelési adatok és webtartalmak különálló csempéi közvetlenül az irányítópulton is létrehozhatók a [Csempe hozzáadása](service-dashboard-add-widget.md) lehetőséget használva.
 
-  ![](media/service-dashboard-tiles/add_widgetnew.png)
+  ![Csempe hozzáadása ikon](media/service-dashboard-tiles/add_widgetnew.png)
 
 ## <a name="interacting-with-tiles-on-a-dashboard"></a>Az irányítópulton levő csempék használata
 ### <a name="move-and-resize-a-tile"></a>Csempék mozgatása és átméretezése
-Fogja meg az egyik csempét, és [mozgassa körbe az irányítópulton](service-dashboard-edit-tile.md). A csempe átméretezéséhez álljon a csempe fogópontjához ![](media/service-dashboard-tiles/resize-handle.jpg).
+Fogja meg az egyik csempét, és [mozgassa körbe az irányítópulton](service-dashboard-edit-tile.md). A csempe átméretezéséhez kattintson a csempe fogópontjára ![fogópont](media/service-dashboard-tiles/resize-handle.jpg).
 
 ### <a name="hover-over-a-tile-to-change-the-appearance-and-behavior"></a>Csempék megjelenésének és működésének módosítása a csempére pozicionálva
 1. A három pont megjelenítéséhez álljon a csempe fölé.
    
-    ![](media/service-dashboard-tiles/ellipses_new.png)
+    ![csempe három pont](media/service-dashboard-tiles/ellipses_new.png)
 2. A három pontra kattintva nyissa meg a csempeműveletek menüjét.
    
-    ![](media/service-dashboard-tiles/power-bi-tile-menu.png)
+    ![három pont ikon](media/service-dashboard-tiles/power-bi-tile-menu.png)
    
     Ebből a menüből:
    
-   * [Megnyithatja a csempe létrehozásához használt jelentést](service-reports.md)![](media/service-dashboard-tiles/chart-icon.jpg)  
+   * [Megnyithatja a csempe létrehozásához használt jelentést](service-reports.md) ![jelentés ikon](media/service-dashboard-tiles/chart-icon.jpg)  
    
-   * [Megnyithatja a csempe létrehozásához használt munkafüzetet](service-reports.md)![](media/service-dashboard-tiles/power-bi-open-worksheet.png)  
+   * [Megnyithatja a csempe létrehozásához használt munkafüzetet](service-reports.md) ![munkafüzet ikon](media/service-dashboard-tiles/power-bi-open-worksheet.png)  
      
-     * [Megnyithatja a csempét fókusz módban](service-focus-mode.md)![](media/service-dashboard-tiles/fullscreen-icon.jpg)  
-     * [Exportálhatja a csempéhez használt adatokat](power-bi-visualization-export-data.md)![](media/service-dashboard-tiles/export-icon.png)
-     * [Szerkesztheti a címet és az alcímet, felvehet egy hivatkozást, és megjelenítheti az utolsó frissítés idejét](service-dashboard-edit-tile.md)![](media/service-dashboard-tiles/pencil-icon.jpg)
-     * [Elemzéseket futtathat](service-insights.md)![](media/service-dashboard-tiles/power-bi-insights.png)
+     * [Megnyithatja a csempét fókusz módban](service-focus-mode.md) ![fókusz ikon](media/service-dashboard-tiles/fullscreen-icon.jpg)  
+     * [Exportálhatja a csempéhez használt adatokat](power-bi-visualization-export-data.md) ![Adatok exportálása ikon](media/service-dashboard-tiles/export-icon.png)
+     * [Szerkesztheti a címet és az alcímet, felvehet egy hivatkozást, és megjelenítheti az utolsó frissítés idejét](service-dashboard-edit-tile.md) ![Szerkesztés ikon](media/service-dashboard-tiles/pencil-icon.jpg)
+     * [Elemzéseket futtathat ](service-insights.md) ![elemzések ikon](media/service-dashboard-tiles/power-bi-insights.png)
      * [Kitűzheti a csempét egy másik irányítópultra](service-pin-tile-to-another-dashboard.md)
-       ![](media/service-dashboard-tiles/pin-icon.jpg)
-   * [Eltávolíthatja a csempét](service-dashboard-edit-tile.md)
-     ![](media/service-dashboard-tiles/trash-icon.png)
+       ![gombostű ikon](media/service-dashboard-tiles/pin-icon.jpg)
+     * [Eltávolíthatja a csempét](service-dashboard-edit-tile.md)
+     ![törlés ikon](media/service-dashboard-tiles/trash-icon.png)
 3. A művelet menü bezárásához kattintson egy üres területre a vásznon.
 
 ### <a name="select-click-a-tile"></a>Csempék kiválasztása
@@ -112,5 +113,5 @@ Az, hogy mi történik, amikor rákattint valamelyik csempére, attól függ, ho
 
 [Reporting Services-elemek kitűzése Power BI-irányítópultokra](https://msdn.microsoft.com/library/mt604784.aspx)
 
-További kérdései vannak? [Felteheti azokat a Power BI-közösségnek](http://community.powerbi.com/)
+További kérdései vannak? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)
 

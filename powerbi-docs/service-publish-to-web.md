@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 11/27/2017
 ms.author: maghan
-ms.openlocfilehash: 890c748c7e7502394fd2e6e024521e99082a1c77
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+LocalizationGroup: Share your work
+ms.openlocfilehash: ee1b403eaa8456266b452ff34814dc4f4059d9a6
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="publish-to-web-from-power-bi"></a>Webes közzététel a Power BI-ból
 
@@ -135,7 +136,7 @@ A **Webes közzététel** az egyéni vizualizációkat is támogatja. A Webes k�
 A Power BI szolgáltatás adatforrásainak és jelentéseinek túlnyomó többsége esetén támogatott a **Webes közzététel**, a következők azonban nem támogatottak és nem elérhetők Webes közzététellel:
 
 1. Sorszintű biztonságot használó jelentések.
-2. Helyszínen üzemeltetett, Analysis Services táblázatos modellt használó jelentések.
+2. Az élő kapcsolatos adatforrásokat (például a helyszíni Analysis Services táblázatost, az Analysis Service Multidimensionalt, az Azure Analysis Servicest és a Power BI-t) használó jelentések.
 3. Közvetlenül Önnel vagy céges tartalomcsomagon keresztül megosztott jelentések.
 4. Olyan csoporthoz tartozó jelentések, amelynek ön nem szerkesztési joggal bíró tagja.
 5. Az "R" vizualizációk Webes közzétételű jelentésekben jelenleg nem támogatottak.

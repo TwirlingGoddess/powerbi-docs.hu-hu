@@ -16,13 +16,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/22/2018
+ms.date: 03/02/2018
 ms.author: mihart
-ms.openlocfilehash: 06edf8aae58dbcf2e22cf5d1ea13bf6350465853
-ms.sourcegitcommit: c3be4de522874fd73fe6854333b379b85619b907
+LocalizationGroup: Dashboards
+ms.openlocfilehash: fdd014e513a794a72196a3173703b9536f06768a
+ms.sourcegitcommit: ab5192675729949d89de212acae48dd51294ad78
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 01/24/2018
+ms.lasthandoff: 03/05/2018
 ---
 # <a name="pin-a-tile-to-a-power-bi-dashboard-from-excel"></a>Csempe rögzítése Power BI-irányítópultra Excelből
 Mielőtt egy Excel-munkafüzet csempéjét rögzítené, csatlakoztatnia kell a munkafüzetet a Power BI szolgáltatáshoz (app.powerbi.com). A munkafüzet csatlakoztatásával lényegében a munkafüzet egy csak olvasható példányát nyitja meg a Power BI szolgáltatásban, így tartományokat rögzíthet az irányítópultokon. Akár egy teljes munkalapot is rögzíthet az irányítópulton.  
@@ -42,35 +43,35 @@ A munkafüzetet nem szerkesztheti a Power BI-ban. Azonban ha néhány módosít�
 1. Töltse fel a munkafüzetet a OneDrive Vállalati verzióba.
 2. [Kapcsolódjon ehhez a munkafüzethez](service-excel-workbook-files.md) a Power BI-ban az **Adatok lekérése > Fájlok > OneDrive – Vállalati** lehetőség választásával és a mentett Excel-fájl megkeresésével. Válassza ki a fájlt, majd válassza a **Kapcsolódás > Kapcsolódás** lehetőséget.
 
-   ![](media/service-dashboard-pin-tile-from-excel/power-bi-connect.png)
+   ![OneDrive Vállalati verzió párbeszédpanel](media/service-dashboard-pin-tile-from-excel/power-bi-connect.png)
 
-3. A Power BI felületén a munkafüzet a munkaterület **Munkafüzetek** lapján jelenik meg.  Az ![](media/service-dashboard-pin-tile-from-excel/pbi_workbookicon.png) ikon azt jelzi, hogy ez egy Excel-munkafüzet, a sárga csillag pedig arra utal, hogy új.
+3. A Power BI felületén a munkafüzet a munkaterület **Munkafüzetek** lapján jelenik meg.  Az ![munkafüzet ikon](media/service-dashboard-pin-tile-from-excel/pbi_workbookicon.png) ikon azt jelzi, hogy ez egy Excel-munkafüzet, a sárga csillag pedig arra utal, hogy új.
    
     
-   ![](media/service-dashboard-pin-tile-from-excel/power-bi-workbooks.png)
+   ![munkafüzetek lap](media/service-dashboard-pin-tile-from-excel/power-bi-workbooks.png)
 4. Nyissa meg a munkafüzetet a Power BI-ban. Ehhez kattintson a munkafüzet nevére.
 
     A munkafüzeten a Power BI-ban végzett módosításokat nem menti a rendszer, és nem jelennek meg OneDrive Vállalati verziós eredeti munkafüzetben. Ha rendszerezi, szűri vagy módosítja az adatokat a Power BI felületén, a módosításokat nem mentheti és nem rögzítheti. Ha mentendő változtatásokat szeretne végezni, válassza a jobb felső sarokban található **Szerkesztés** elemet, majd nyissa meg és szerkessze az Excel Online-ban vagy az Excelben. Az így végzett módosítások néhány percen belül megjelennek az irányítópult csempéin.
    
    
-   ![](media/service-dashboard-pin-tile-from-excel/power-bi-opened.png)
+   ![Az Excel Online a Power BI-ban](media/service-dashboard-pin-tile-from-excel/power-bi-opened.png)
 
 ## <a name="pin-a-range-of-cells-to-a-dashboard"></a>Cellatartomány rögzítése egy irányítópulton
 Ha egy új [irányítópult-csempét](service-dashboard-tiles.md) szeretne hozzáadni, egyik módszerként ezt megteheti egy Power BI-ban megnyitott Excel-munkafüzetből. Tartományokat olyan Excel-munkafüzetekből rögzíthet, amelyeket a OneDrive Vállalati verzióban vagy más, csoportmegosztású dokumentumtárban mentett. A tartományok tartalmazhatnak adatokat, diagramokat, táblázatokat, kimutatásokat, kimutatásdiagramokat és egyéb Excel-elemeket.
 
 1. Jelölje ki a rögzíteni kívánt cellákat.
    
-    ![](media/service-dashboard-pin-tile-from-excel/pbi_selectrange.png)
-2. Kattintson a rajzszög ![](media/service-dashboard-pin-tile-from-excel/pbi_pintile_small.png) ikonra. 
-3. Rögzítse a csempét egy meglévő vagy egy új irányítópulton. 
+    ![cellák kijelölése az Excel-munkafüzetben](media/service-dashboard-pin-tile-from-excel/pbi_selectrange.png)
+2. Válassza a gombostű ![gombostű ikon](media/service-dashboard-pin-tile-from-excel/pbi_pintile_small.png) ikont. 
+3. A csempét egy meglévő vagy egy új irányítópultra is rögzítheti. 
    
    * Meglévő irányítópult: válassza ki az irányítópult nevét a legördülő listából.
    * Új irányítópult: írja be az új irányítópult nevét.
    
-    ![](media/service-dashboard-pin-tile-from-excel/pbi_dashdialog1.png)
+    ![Rögzítés az irányítópulton párbeszédablak](media/service-dashboard-pin-tile-from-excel/pbi_dashdialog1.png)
 4. Válassza a **Rögzítés** lehetőséget. Miután sikeresen hozzáadta a tartományt csempeként az irányítópulthoz, a jobb felső sarokban megjelenik egy üzenet, amely tudatja Önt erről. 
    
-    ![](media/service-dashboard-pin-tile-from-excel/power-bi-go-to-dashboard.png)
+    ![Rögzítve az irányítópulton párbeszédablak](media/service-dashboard-pin-tile-from-excel/power-bi-go-to-dashboard.png)
 5. Válassza az **Ugrás az irányítópultra** lehetőséget. Itt [átnevezheti, átméretezheti, csatlakoztathatja és áthelyezheti](service-dashboard-edit-tile.md) a rögzített vizualizációt. Alapértelmezés szerint a rögzített csempe a Power BI-ban nyitja meg a munkafüzetet.
 
 ## <a name="pin-an-entire-table-or-pivot-chart-to-a-dashboard"></a>Teljes táblázat vagy kimutatásdiagram rögzítése egy irányítópulton
@@ -78,16 +79,16 @@ Kövesse a fenti lépéseket, azonban a cellatartomány helyett jelölje ki a te
 
 Egy táblázat rögzítéséhez jelölje ki annak teljes tartományát, és ügyeljen rá, hogy a fejlécek sem maradjanak ki.  Kimutatás rögzítésénél annak minden látható elemét jelölje ki, beleértve az esetleges szűrőket is.
 
- ![](media/service-dashboard-pin-tile-from-excel/pbi_selecttable.png)
+ ![cellák kiválasztása](media/service-dashboard-pin-tile-from-excel/pbi_selecttable.png)
 
 A táblázatokból vagy kimutatásokból létrehozott csempék a teljes táblázatot megjelenítik.  Ha az eredeti munkafüzetben hozzáad, eltávolít vagy szűr egyes sorokat vagy oszlopokat, azokat a csempéhez is hozzáadja, illetve onnan is eltávolítja vagy szűri.
 
 ## <a name="view-the-workbook-linked-to-the-tile"></a>A csempéhez csatolt munkafüzet megtekintése
 Ha egy munkafüzet csempéjére kattint, a csatolt munkafüzet a Power BI-ban nyílik meg. Mivel a munkafüzet a tulajdonos OneDrive Vállalati verziójában található, annak megtekintéséhez olvasási engedéllyel kell rendelkeznie. Ha nincs engedélye, hibaüzenet jelenik meg.  
 
- ![](media/service-dashboard-pin-tile-from-excel/pin-from-excel.gif)
+ ![videó](media/service-dashboard-pin-tile-from-excel/pin-from-excel.gif)
 
-## <a name="considerations-and-troubleshooting"></a>Szempontok és hibaelhárítás
+## <a name="considerations-and-troubleshooting"></a>Megfontolandó szempontok és hibaelhárítás
 Nem támogatott funkciók: a Power BI az Excel Services szolgáltatással kéri le a munkafüzet csempéit. Ennek következtében, mivel az Excel néhány funkciója nem támogatott az Excel Services REST API-ban, ezek a funkciók nem jelennek meg a Power BI-csempéken. Ilyen funkciók például az értékgörbék, az ikonkészletek feltételes formázása és az időszeletelők. A nem támogatott funkciók teljes listája: [Az Excel Services REST API nem támogatott funkciói](http://msdn.microsoft.com/library/office/ff394477.aspx)
 
 ## <a name="next-steps"></a>Következő lépések

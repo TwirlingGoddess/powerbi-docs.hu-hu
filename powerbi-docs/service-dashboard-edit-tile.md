@@ -16,13 +16,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/20/2018
+ms.date: 03/02/2018
 ms.author: mihart
-ms.openlocfilehash: 5c208ab13398987350d2acd72e29dbc4d6a6c4a1
-ms.sourcegitcommit: 2ae323fbed440c75847dc55fb3e21e9c744cfba0
+LocalizationGroup: Dashboards
+ms.openlocfilehash: 98856d551e0f124d7ea3e038623e2340ceeb18b8
+ms.sourcegitcommit: ab5192675729949d89de212acae48dd51294ad78
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 03/05/2018
 ---
 # <a name="edit-or-remove-a-dashboard-tile"></a>Irányítópult-csempék szerkesztése és eltávolítása
 
@@ -54,23 +55,23 @@ Ez a cikk az alábbiakat ismerteti.
 ## <a name="create-a-new-visualization-and-pin-it-to-the-dashboard"></a>Új vizualizáció létrehozása és rögzítése az irányítópulton
 1. Az Informatikaköltség-elemzési minta irányítópultján válassza az „Amount” (Mennyiség) csempét, ezzel megnyitja a jelentést.
 
-    ![](media/service-dashboard-edit-tile/power-bi-amount-tile.png)
+    ![Mennyiség csempe](media/service-dashboard-edit-tile/power-bi-amount-tile.png)
 
 2. Nyissa meg a jelentést szerkesztési nézetben a felső menüsávon a **Jelentés szerkesztése** lehetőséget választva.
 
 3. A jelentés aljánál lévő plusz (+) jelet választva adhat hozzá egy új jelentésoldalt.
 
-    ![](media/service-dashboard-edit-tile/power-bi-add-page.png)
+    ![plusz ikon](media/service-dashboard-edit-tile/power-bi-add-page.png)
 
 4. A MEZŐK panelen válassza a **Fact > Amount** és a **Business Area > Business Area** lehetőséget.
  
 5. Ahhoz, hogy a vizualizációt fánkdiagrammá alakítsa át, a VIZUALIZÁCIÓK panelen válassza ki a fánkdiagram ikont.
 
-    ![](media/service-dashboard-edit-tile/power-bi-donut-chart.png)
+    ![Vizualizációk panel](media/service-dashboard-edit-tile/power-bi-donut-chart.png)
 
 5. Válassza a rögzítés ikont, és rögzítse a fánkdiagramot az Informatikaköltség-elemzési minta irányítópultjára.
 
-   ![](media/service-dashboard-edit-tile/power-bi-pin.png)
+   ![vigye az egérmutatót egy csempe fölé](media/service-dashboard-edit-tile/power-bi-pin.png)
 
 6. Amikor megkapja az értesítést a sikeres műveletről, válassza az **Ugrás az irányítópultra** lehetőséget. A rendszer felszólítja, hogy mentse a változásokat. Kattintson a **Mentés** gombra.
 
@@ -86,24 +87,23 @@ Keresse meg az új csempét az irányítópulton. A csempe kiválasztásával é
 ## <a name="resize-the-tile"></a>A csempe átméretezése
 Különböző méretekre állíthatja a csempéket – az 1x1-es elrendezéstől akár az 5x5-ös elrendezésig. A fogópont (a jobb alsó sarokban) kiválasztásával és húzásával méretezheti át a csempét.
 
-![](media/service-dashboard-edit-tile/pbigif_resizetile4.gif)
+![videó](media/service-dashboard-edit-tile/pbigif_resizetile4.gif)
 
 - - -
 ## <a name="the-ellipses--menu"></a>A három pont (...) menü
 
 1. Válassza a csempe jobb felső sarkában található három pontot (...). 
    
-   ![](media/service-dashboard-edit-tile/power-bi-tile.png)
+   ![csempe három pont](media/service-dashboard-edit-tile/power-bi-tile.png)
 
 2. Mozgassa az egérmutatót az „Account” csempe fölé, és a három pontot kiválasztva jelenítse meg a beállításokat. Az elérhető lehetőségek a csempe típusától függően változhatnak.  Egy élő csempe esetén például másféle lehetőségek jelennek meg, mint egy hagyományos vizualizációs csempe esetén. Ezen kívül ha az irányítópultot megosztották Önnel (azaz nem Ön a tulajdonosa), akkor kevesebb lehetőség áll rendelkezésére.
 
-   ![](media/service-dashboard-edit-tile/power-bi-tile-menu-new.png)
+   ![három pont beállítások menü](media/service-dashboard-edit-tile/power-bi-tile-menu-new.png)
 
 3. A „Csempe részletei” ablak megnyitásához válassza a **Részletek szerkesztése** lehetőséget. 
 
     Változtassa meg a csempe címét és alapértelmezett viselkedését.  Például dönthet úgy, hogy amikor a *felhasználó* kiválasztja a csempét, akkor a csempe létrehozásához használt jelentés megnyitása helyett inkább egy új irányítópult jelenjen meg.  
    
-   ![](media/service-dashboard-edit-tile/power-bi-tile-menu-new.png)
 
 
 <a name="rename"></a>
@@ -111,7 +111,7 @@ Különböző méretekre állíthatja a csempéket – az 1x1-es elrendezéstől
 ### <a name="rename-the-tile"></a>A csempe átnevezése
 A „Csempe részletei” ablak felső részén változtassa meg a **Cím** (Title) mező értékét **Elköltött összeg** szövegre.
 
-![](media/service-dashboard-edit-tile/power-bi-tile-title.png)
+![Csempe részletei ablak](media/service-dashboard-edit-tile/power-bi-tile-title.png)
 
 
 <a name="hyperlink"></a>
@@ -123,27 +123,27 @@ Alapértelmezés szerint egy csempe kiválasztásával megnyílik az jelentés, 
 
 2. Válassza **Az aktuális munkaterületen található irányítópultra vagy jelentésre mutató hivatkozás** lehetőséget, majd válasszon a legördülő listából.  Ebben a példában az Emberi erőforrások minta irányítópultot választottuk ki. Ha ez a minta még nem található meg az Ön munkaterületén, először adja hozzá, majd térjen vissza ehhez a lépéshez, vagy pedig választhat egy másik irányítópultot is. 
 
-    ![](media/service-dashboard-edit-tile/power-bi-custom-link.png)
+    ![Funkció párbeszédpanel](media/service-dashboard-edit-tile/power-bi-custom-link.png)
 
 3. Kattintson az **Alkalmaz** elemre.
 
 4. Az új cím megjelenik a csempén.  Amikor pedig kiválasztja a csempét, a Power BI megnyitja az Emberi erőforrások irányítópultot. 
 
-    ![](media/service-dashboard-edit-tile/power-bi-title.png)
+    ![csempecím](media/service-dashboard-edit-tile/power-bi-title.png)
 
 <a name="different"></a>
 
 ### <a name="pin-the-tile-to-a-different-dashboard"></a>Csempe rögzítése egy másik irányítópulton
-1. A legördülő lista menüjében válassza a **Csempe rögzítése** elemet![](media/service-dashboard-edit-tile/pinnooutline.png).
+1. A legördülő lista menüjében válassza a **Csempe rögzítése** ![gombostű ikon](media/service-dashboard-edit-tile/pinnooutline.png) elemet.
 2. Döntse el, hogy egy meglévő vagy egy új irányítópulton rögzíti-e a csempe másolatát. 
    
-   ![](media/service-dashboard-edit-tile/pbi_pintoanotherdash.png)
+   ![Rögzítés az irányítópulton párbeszédablak](media/service-dashboard-edit-tile/pbi_pintoanotherdash.png)
 3. Válassza a **Rögzítés** lehetőséget.
 
 <a name="delete"></a>
 
 ### <a name="delete-the-tile"></a>A csempe törlése
-1. Ha az irányítópultról véglegesen el szeretné távolítani a csempét, a legördülő menüben válassza a **Csempe törlése** ![](media/service-dashboard-edit-tile/power-bi-delete-tile-icon.png) lehetőséget. 
+1. Ha az irányítópultról véglegesen el szeretné távolítani a csempét, a legördülő menüben válassza a **Csempe törlése** ![törlés ikon](media/service-dashboard-edit-tile/power-bi-delete-tile-icon.png) lehetőséget. 
 
 2. A csempe törlésével nem törli az alapul szolgáló vizualizációt. Nyissa meg az alapul szolgáló jelentést az „Amount” csempe kiválasztásával. Nyissa meg a jelentés utolsó oldalát, és látni fogja, hogy az eredeti vizualizáció nem lett törölve a jelentésből. 
 

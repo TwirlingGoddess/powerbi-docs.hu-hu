@@ -15,18 +15,19 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/08/2018
+ms.date: 03/01/2018
 ms.author: mihart
-ms.openlocfilehash: 6948f0e333ba1136f6fda8fa0f62b146cefdd710
-ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
+LocalizationGroup: Reports
+ms.openlocfilehash: 6eca438c9e12d99f925aef864ed9b74e16ef30b7
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="reading-view-and-editing-view-in-power-bi-service-reports"></a>A Power BI szolgáltatás jelentéseinek Olvasó és Szerkesztési nézete
 A Power BI szolgáltatásban a jelentések két módban tekinthetők meg és kezelhetők: az Olvasó és a Szerkesztési nézetben (a Power BI Desktopban nem). Az Olvasó nézet minden felhasználó számára elérhető, és speciálisan az adatok *felhasználói* számára lett kialakítva, míg a Szerkesztő nézet csak a jelentések *létrehozói* és tulajdonosai számára érhető el. 
 
-![](media/service-reading-view-and-editing-view/power-bi-creators-consumers.png)
+![jelentések létrehozóinak és felhasználóinak alkotása](media/service-reading-view-and-editing-view/power-bi-creators-consumers.png)
 
 ## <a name="report-reading-view"></a>Jelentés Olvasó nézete
 
@@ -83,17 +84,17 @@ Ne feledje, hogy a jelentéseket csak azok létrehozói és tulajdonosai tudják
 
 1. A jelentések alapértelmezés szerint általában Olvasó nézetben nyílnak meg. Az mutatja, hogy Olvasó nézetben van, hogy megjelenik a **Jelentés szerkesztése** lehetőség. Ha a **Jelentés szerkesztése** lehetőség szürke színnel jelenik meg, nem rendelkezik a jelentés Szerkesztési nézetében való megnyitásához szükséges engedélyekkel.
 
-   ![](media/service-reading-view-and-editing-view/power-bi-edit-report-grey.png)
+   ![Jelentés szerkesztése lehetőség kiszürkítve](media/service-reading-view-and-editing-view/power-bi-edit-report-grey.png)
 
 2. Ha a **Jelentés szerkesztése** lehetőség nem szürke színnel jelenik meg, ezt választva nyithatja meg a jelentést Szerkesztési nézetben. 
    
-   ![](media/service-reading-view-and-editing-view/power-bi-edit-report.png)
+   ![Jelentés szerkesztése lehetőség](media/service-reading-view-and-editing-view/power-bi-edit-report.png)
    
    A jelentés most már Szerkesztési nézetben látható, ugyanazokkal a [megjelenítési beállításokkal](power-bi-report-display-settings.md), melyeket legutóbb használt az Olvasó nézetben.
 
 2. Az Olvasó nézetbe való visszalépéshez válassza az **Olvasó nézet** lehetőséget a felső menüsávban.
    
-    ![](media/service-reading-view-and-editing-view/power-bi-reading-view.png)
+    ![Olvasó nézet lehetőség](media/service-reading-view-and-editing-view/power-bi-reading-view.png)
 
 
 

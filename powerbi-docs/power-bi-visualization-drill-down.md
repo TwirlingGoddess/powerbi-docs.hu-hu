@@ -16,17 +16,18 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/08/2018
+ms.date: 02/26/2018
 ms.author: mihart
-ms.openlocfilehash: 22dc1c9b703b500625a5aed23b6187fd3f616dde
-ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
+LocalizationGroup: Visualizations
+ms.openlocfilehash: fb834c92953c2cafcbca77bc1b3828b385755bca
+ms.sourcegitcommit: 743e44fc8730fea0f7149916080b0c6d7eb6359d
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 01/09/2018
+ms.lasthandoff: 02/28/2018
 ---
 # <a name="drill-down-in-a-visualization-in-power-bi"></a>Lehatolás a vizualizációk mélyebb szintjeire a Power BI-ban
 ## <a name="drill-down-requires-a-hierarchy"></a>A lehatoláshoz hierarchiára van szükség
-Ha a vizualizáció mögött hierarchikus adatstruktúra található, a részletesebb adatszintek kibonthatók. Tegyük fel például, hogy egy vizualizáció az olimpiai érmek számát jeleníti meg, sportonkénti, szakágankénti és versenyszámonkénti adathierarchia alapján. Alapértelmezés szerint a vizualizáció az érmek számát sportok (pl. gimnasztika, síelés, vízi sportok stb.) szerinti bontásban jeleníti meg. Ugyanakkor mivel rendelkezik hierarchiával, egy-egy vizuális elem (például egy oszlop, egy sáv vagy egy kör) kiválasztásakor egyre részletesebb ábra jeleníthető meg. Ha a **vízi sportok** elemre kattint, megjeleníthetők az úszásra, műugrásra és vízilabdára vonatkozó adatok.  Ezután ha a **műugrásra** kattint, megtekintheti a műugró, toronyugró és szinkronugró versenyszámokra vonatkozó információkat.
+Ha a vizualizáció mögött hierarchikus adatstruktúra található, a részletesebb adatszintek kibonthatók. Tegyük fel például, hogy egy vizualizáció az olimpiai érmek számát jeleníti meg, sportonkénti, szakágankénti és versenyszámonkénti adathierarchia alapján. Alapértelmezés szerint a vizualizáció az érmek számát sportok szerinti bontásban (pl. gimnasztika, síelés, vízi sportok.) jeleníti meg. Ugyanakkor mivel rendelkezik hierarchiával, egy-egy vizuális elem (például egy oszlop, egy sáv vagy egy kör) kiválasztásakor egyre részletesebb ábra jeleníthető meg. Ha a **vízi sportok** elemre kattint, megjeleníthetők az úszásra, műugrásra és vízilabdára vonatkozó adatok.  Ezután ha a **műugrásra** kattint, megtekintheti a műugró, toronyugró és szinkronugró versenyszámokra vonatkozó információkat.
 
 Hierarchiát csak saját jelentéseihez adhat, mások által Önnel megosztottakhoz nem.
 Nem tudja, mely Power BI-vizualizációk tartalmaznak hierarchiát?  Húzza a kurzort az egyik vizualizáció fölé. Ha az alábbi részletezésvezérlők megjelennek a felső sarkokban, a vizualizáció rendelkezik hierarchiával.
@@ -35,6 +36,7 @@ Nem tudja, mely Power BI-vizualizációk tartalmaznak hierarchiát?  Húzza a ku
 ![](media/power-bi-visualization-drill-down/power-bi-drill-icon5.png) ![](media/power-bi-visualization-drill-down/power-bi-drill-icon6.png)  
 
 Sajátos hierarchiatípust képviselnek a dátumok. Amikor dátummezőt ad egy vizualizációhoz, a Power BI automatikusan felvesz egy évekből, negyedévekből, hónapokból és napokból álló időhierarchiát. Ha ezzel kapcsolatban további információra van szüksége, tekintse át a [vizualizációs hierarchiákat és a lehatolás működését](guided-learning/visualizations.yml#step-18) áttekintő cikket.
+
 
   <iframe width="560" height="315" src="https://www.youtube.com/embed/MNAaHw4PxzE?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>
 
@@ -51,7 +53,7 @@ A vizualizációkban kétféle módon lehet le- illetve felhatolni.  Ez a cikk m
 > 
 > 
 
-## <a name="method-1-for-drill-down"></a>1. lehatolási módszer
+## <a name="method-one-for-drill-down"></a>A lehatolás első módszere
 Ez a módszer a vizualizációk felső sarkaiban megjelenő lehatolási ikonokat használja.
 
 1. A Power BI-ban nyisson meg egy jelentést [Olvasó nézetben vagy Szerkesztő nézetben](service-reading-view-and-editing-view.md). A lehatoláshoz hierarchiával rendelkező vizualizációra van szükség. 
@@ -62,17 +64,17 @@ Ez a módszer a vizualizációk felső sarkaiban megjelenő lehatolási ikonokat
 2. A lehatolás engedélyezéséhez kattintson a vizualizáció jobb felső sarkában látható, nyilat ábrázoló ikonra. Ha az ikon sötét színű, az adatszintek közötti mozgás engedélyezve van (a lehatolási mód be van kapcsolva). Ha nem kapcsolja be a lehatolási üzemmódot, akkor a rendszer a jelentés oldalon szereplő többi diagram tekintetében keresztszűrést alkalmaz, amikor rákattint valamelyik vizualizációs elemre (pl. az egyik oszlopra vagy egy körre).    
    
    ![](media/power-bi-visualization-drill-down/power-bi-drill-icon.png)
-3. Ha ***egyszerre egy mezőben*** szeretne lehatolni, kattintson rá a vizualizáció valamelyik elemére. Oszlopdiagram esetén ez az egyik oszlopot, fatérkép esetén pedig az egyik *levelet* jelenti. Nézze meg, hogyan változik a csempe, ahogy le- és felhatol a hierarchiában. Az alábbi animációban először az egységek területenkénti éves számát, majd a területenkénti és városonkénti, majd területenkénti, városonkénti és irányítószámonkénti, és végül a területenkénti, városonkénti, irányítószámonkénti és nevenkénti teljes éves számát mutatja. Ha ismét feljebb szeretne lépni, kattintson a vizualizáció bal felső sarkában látható **Felhatolás** ![](media/power-bi-visualization-drill-down/power-bi-drill-icon5.png) ikonra, ahogy az alább látható.
+3. Ha **egyszerre csak egy mezőnyit** szeretne lehatolni, jelölje ki a vizualizáció egyik elemét. Egy sávdiagramban ez az egyik sáv kijelölését jelenti. Egy fatérképen ez az egyik **levél** kijelölését jelenti. Nézze meg, hogyan változik a csempe, ahogy le- és felhatol a hierarchiában. Az alábbi animációban először az egységek területenkénti éves számát, majd a területenkénti és városonkénti, majd területenkénti, városonkénti és irányítószámonkénti, és végül a területenkénti, városonkénti, irányítószámonkénti és nevenkénti teljes éves számát mutatja. Ha ismét feljebb szeretne lépni, kattintson a vizualizáció bal felső sarkában látható **Felhatolás** ![](media/power-bi-visualization-drill-down/power-bi-drill-icon5.png) ikonra, ahogy az alább látható.
    
    ![](media/power-bi-visualization-drill-down/drill.gif)
 4. Ha az ***összes szintet egyszerre*** szeretné kibontani, kattintson a vizualizáció bal felső sarkában látható, lefelé mutató dupla nyílra.
    
    ![](media/power-bi-visualization-drill-down/pbi_drillall.png)
-5. Ha vissza szeretne lépni, kattintson a vizualizáció bal felső sarkában látható felfelé mutató nyílra.
+5. Ha vissza szeretne lépni, kattintson a vizualizáció bal felső sarkában látható felfelé mutató nyílra. Ha vissza szeretne lépni, kattintson a vizualizáció bal felső sarkában látható felfelé mutató nyílra.
    
    ![](media/power-bi-visualization-drill-down/pbi_drillup2.png)
 
-## <a name="method-2-for-drill-down"></a>2. lehatolási módszer
+## <a name="method-two-for-drill-down"></a>A lehatolás második módszere
 Ehhez a módszerhez a Power BI felső menüsorában található **Tallózás** legördülő menüt kell használni.
 
 1. A Power BI-ban nyisson meg egy jelentést [Olvasó nézetben vagy Szerkesztő nézetben](service-reading-view-and-editing-view.md). A lehatoláshoz hierarchiával rendelkező vizualizációra van szükség. 
@@ -92,7 +94,64 @@ Ehhez a módszerhez a Power BI felső menüsorában található **Tallózás** l
 5. Az előző szintre történő visszalépéshez kattintson a **Tallózás** > **Felhatolás** lehetőségre.
    
    ![](media/power-bi-visualization-drill-down/power-bi-drill-up2.png)
-6. A vizualizáció létrehozásához használt adatok megjelenítéshez kattintson az **Adatok megjelenítése** lehetőségre. Az adatokat a vizualizáció alatt megjelenő ablaktáblában fogja megjeleníteni a rendszer. Az ablaktábla a vizualizációs szintek közötti mozgás során is megmarad. Ha további információra van szüksége, olvassa át a [vizualizáció létrehozásához használt adatok megjelenítéséről](service-reports-show-data.md) szóló cikket.
+
+6. A vizualizáció létrehozásához használt adatok megjelenítéshez kattintson az **Adatok megjelenítése** lehetőségre. Az adatok a vizualizáció alatt, egy panelen jelennek meg. Az ablaktábla a vizualizációs szintek közötti mozgás során is megmarad. Ha további információra van szüksége, olvassa át a [vizualizáció létrehozásához használt adatok megjelenítéséről](service-reports-show-data.md) szóló cikket.
+
+## <a name="understanding-the-hierarchy-axis-and-hierarchy-group"></a>A hierarchiatengely és hierarchiacsoport ismertetése
+A hierarchiatengely és a hierarchiacsoport tulajdonképpen a megtekinteni kívánt adatok részletességét szabályozó eszközöket jelenti. A kategóriákba és alkategóriákba csoportosítható minden adat rendelkezik hierarchiával. Ez természetesen magában foglalja a dátumokat és az időt.
+
+Ha egy Power BI-vizualizációt hierarchiával együtt szeretne létrehozni, jelöljön ki egy vagy több adatmezőt, amelyet a **Tengely**vagy a **Csoport** gyűjtőhöz ad, valamint az adatmezőkként vizsgálni kívánt adatokat, amelyeket az**Értékek** gyűjtőhöz ad. Ha a Részletezés mód ikonjai a vizualizáció jobb és bal felső sarkában jelennek meg, akkor biztos lehet benne, hogy az adatok hierarchikusak. 
+
+Alapvetően kétféle hierarchikus adatokkal dolgozunk:
+- Dátum- és időadatok – Ha egy Dátum/idő adattípussal rendelkező adatmezője van, akkor hierarchikus adatokkal dolgozik. A Power BI automatikusan létrehozza a hierarchiát azon adatmezőkhöz, amelyek értékei [Dátum/idő](https://msdn.microsoft.com/library/system.datetime.aspx) struktúra szerint elemezhetők. A **Tengely** vagy a **Csoport** gyűjtőhöz csak egy Dátum/Idő mezőt kell adnia.
+- Kategorikus adatok – Ha az adatok algyűjteményeket tartalmazó gyűjteményekből származnak, vagy olyan adatsorokkal rendelkeznek, amelyeknek közös értékeik vannak, akkor hierarchikus adatokkal dolgozik.
+
+A Power BI segítségével egyesével vagy részhalmazonként kibonthatja ezeket. Lehatolhat a szintenkénti részhalmazokig, vagy minden részhalmazt egyszerre megtekinthet egy szinten. Például lehatolhat egy adott évig, vagy megtekintheti az egyes évek eredményeit a hierarchiában lefelé haladva. Hasonlóképpen hatolhat felfelé is.
+
+A következő szakaszok a legmagasabb, a középső és a legalsó nézetből való lehatolást ismertetik.
+
+### <a name="hierarchical-data-and-time-data"></a>Hierarchikus és időadatok
+Ehhez a példához használja fel a [kiskereskedelmi elemzési mintát](sample-datasets.md), és hozzon létre egy halmozott oszlopdiagram típusú vizualizációt, amelynek tengelye a **Hónap**, az értékei pedig az **Összes eladás**.  
+
+Bár a Tengely adatmezője a **Hónap**, a **Tengely** gyűjtőben továbbra is létrehoz egy **Év** kategóriát is. Ennek az az oka, hogy a Power BI a teljes Dátum/Idő-struktúrát megadja az összes beolvasott értékhez. A hierarchia tetején az év adatai jelennek meg.
+
+![](media\power-bi-visualization-drill-down/power-bi-hierarchical-axis-datetime-1.png)
+
+A Részletezés módban kattintson a diagram sávjára, ha egy szinttel lejjebb szeretne lépni a hierarchiában. Itt három sávot láthat, amelyek az elérhető negyedéveknek felelnek meg. A bal felső sarokban található ikonok közül válassza az **Expand all down one level of the hierarchy** (Az összes kibontása a hierarchia egy szintjével lejjebb) lehetőséget. Ezt ismételje meg a hierarchia legalsó szintjével is, amely az egyes hónapok eredményeit jeleníti meg.
+
+![](media\power-bi-visualization-drill-down/power-bi-hierarchical-axis-datetime-2.png)
+
+A vizualizáción kívül az egyes jelentések adataiban is láthatjuk a hierarchiát. Az alábbi táblázat egy jelentés egyetlen hónapjában vagy minden hónapjában végzett lehatolásának az **Adatok megjelenítése** műveletével kapott eredményeit jeleníti meg. 
+
+Megfigyelheti, hogy az adatok megegyeznek a negyedéves és az éves jelentésekben, azonban ha lehatol az **Értékek** részletességi szintjéig, az egyetlen hónapra vonatkozó jelentés konkrétabb adatokat jelenít meg, az összes hónapra vonatkozó jelentés pedig több adatot tartalmaz.
+
+
+|Kibontás módja|Év|Negyedév|Hónap|Nap|
+| ---|:---:|:---:|:---:|---|
+|Egyirányú|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-year.png)|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-quarter.png)|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-one-month.png)|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-one-day.png)|
+|Összes|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-year.png)|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-quarter.png)|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-all-month.png)|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-all-day.png)|
+
+
+### <a name="hierarchical-category-data"></a>Hierarchikus kategóriaadatok
+A gyűjteményekből és algyűjteményekből modellezett adatok hierarchikusak. Jó példák erre a helyadatok. Vegyünk például egy táblázatot egy olyan adatforrásban, amely az Ország, Állam, Város és Irányítószám oszlopokkal rendelkezik. Azok az adatok, amelyek megegyező Ország, Állam és Város értékekkel bírnak, hierarchikusak.
+
+Ehhez a példához használja a [kiskereskedelmi elemzési mintát](sample-datasets.md). Hozzon létre egy halmozott oszlopdiagram típusú vizualizációt, amely az **Egységek éves számát** (Értékek) jeleníti meg a **Terület**, a **Város**, az **Irányítószám** és a **Név** szerint (Csoport).  
+
+![](media\power-bi-visualization-drill-down/power-bi-hierarchical-axis-category-1.png)
+
+A Részletezés módban a bal felső sarokban található ikonok közül válassza az **Expand all down one level of the hierarchy** (Az összes kibontása a hierarchia egy szintjével lejjebb) lehetőséget háromszor.
+Ekkor a hierarchia legalsó szintjén kell lennie, amely a Terület, a Város és az Irányítószám szerint jeleníti meg az eredményeket.
+
+![](media\power-bi-visualization-drill-down/power-bi-hierarchical-axis-category-2.png)
+
+A vizualizáción kívül az egyes jelentések adataiban is láthatjuk a hierarchiát. Az alábbi táblázat egy jelentés egyetlen területén vagy minden területén végzett lehatolásának az **Adatok megjelenítése** műveletével kapott eredményeit jeleníti meg. A lehatolás során láthatja, hogy az egyetlen területre vonatkozó jelentés konkrétabb adatokat jelenít meg, az összes területre vonatkozó jelentés pedig több adatot tartalmaz.
+
+
+| Kibontás módja|Terület|Település|Irányítószám|Név|
+| ---|:---:|:---:|:---:|---|
+|Egyirányú|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-territory.png)|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-one-territory-city.png)|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-one-territory-city-postal.png)|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-one-territory-city-postal-name.png)|
+|Összes|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-territory.png)|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-all-territory-city.png)|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-all-territory-city-postal.png)|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-all-territory-city-postal-name.png)|
+
 
 ## <a name="considerations-and-limitations"></a>Megfontolandó szempontok és korlátozások
 * Ha dátum mező felvételekor a rendszer nem hoz létre automatikusan időhierarchiát, elképzelhető, hogy a „dátum” mező nem dátum mezőként lett elmentve. Ha Ön az adatkészlet tulajdonosa, nyissa meg *Adatok* nézetben a Power BI Desktopban, válassza ki a dátumot tartalmazó oszlopot, és a Modellezés lapfülön módosítsa az **Adattípust** **Dátumra** vagy **Dátum és időre**. Ha a jelentés meg lett osztva Önnel, kérje meg a tulajdonost a módosítások végrehajtására.  

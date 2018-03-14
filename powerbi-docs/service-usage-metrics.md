@@ -16,13 +16,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/21/2018
+ms.date: 02/28/2018
 ms.author: mihart
-ms.openlocfilehash: 36a79b6ec984ee663868c5f20efaa8cd5b596d2a
-ms.sourcegitcommit: 2ae323fbed440c75847dc55fb3e21e9c744cfba0
+LocalizationGroup: Dashboards
+ms.openlocfilehash: 1ad8425917153f2f9662041dc594817857f8f499
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="usage-metrics-for-dashboards-and-reports"></a>Használati metrikák irányítópultokhoz és jelentésekhez
 Ha irányítópultokat és jelentéseket készít, akkor a használati metrikák segítenek megérteni azok hatásosságát. Az irányítópultra vagy jelentésre vonatkozó használati metrikák futtatásával feltárhatja, hogyan használják a szervezetén belül az irányítópultokat és jelentéseket, ki mit használ fel, és milyen célra.  
@@ -32,7 +33,7 @@ Ha irányítópultokat és jelentéseket készít, akkor a használati metrikák
 
 Ezek a használati metrikai jelentések csak olvashatók. Egy használati metrikai jelentés mégis testre szabható a "Mentés másként" lehetőség használatával. Ezzel teljesen új adatkészlet jön létre, a csak olvasható jelentés pedig teljes értékű, szerkeszthető Power BI-jelentéssé alakul át. A testre szabott jelentés nem csupán az adott irányítópult vagy jelentés metrikáit tartalmazza, de az alapértelmezett szűrő törlésével a kiválasztott munkaterület minden irányítópultjának vagy minden jelentésének használati metrikáihoz hozzáférést biztosít.
 
-![](media/service-usage-metrics/power-bi-dashboard-usage-metrics-update-3.png)
+![Használati metrikák jelentése](media/service-usage-metrics/power-bi-dashboard-usage-metrics-update-3.png)
 
 ## <a name="why-are-usage-metrics-important-to-me"></a>Miért fontosak számomra a használati metrikák?
 A tartalom felhasználási módjának ismerete segít az eredményesség szemléltetésében és a feladatok fontossági sorrendjének felállításában. Egy használati metrika megmutathatja, hogy az egyik jelentést naponta használja a szervezet egy jelentős része, vagy éppen azt, hogy egy létrehozott irányítópultot senki sem tekint meg. Az ilyen visszajelzés felbecsülhetetlen értékű útmutatást nyújt a munkaszervezésben.
@@ -48,7 +49,7 @@ Használati metrikai jelentések futtatására csak a Power BI szolgáltatásban
 ## <a name="about-the-usage-metrics-report"></a>Tudnivalók a használati metrikai jelentésről
 
 
-Ha a **Használati metrikák** lehetőséget vagy a ![](media/service-usage-metrics/power-bi-usage-metrics-report-icon.png) ikont választja, a Power BI egy előre elkészített, az utolsó 90 napra vonatkozó jelentést készít az adott tartalomról.  A jelentés hasonlít a már ismert Power BI-jelentésekhez, de csak tájékoztatásra szolgál – nem interaktív. Szűkíthető az alapján, hogy a felhasználók hogyan kaptak hozzáférést, és hogy weben, mobilalkalmazáson vagy más lehetőségen keresztül érték el. Az irányítópultok és jelentések változásait az új adatokkal naponta frissülő használati metrikai jelentések is tükrözik.  
+Ha a **Használati metrikák** lehetőséget vagy a ![használati metrikák ikon](media/service-usage-metrics/power-bi-usage-metrics-report-icon.png) ikont választja, a Power BI egy előre elkészített, az utolsó 90 napra vonatkozó jelentést készít az adott tartalomról.  A jelentés hasonlít a már ismert Power BI-jelentésekhez, de csak tájékoztatásra szolgál – nem interaktív. Szűkíthető az alapján, hogy a felhasználók hogyan kaptak hozzáférést, és hogy weben, mobilalkalmazáson vagy más lehetőségen keresztül érték el. Az irányítópultok és jelentések változásait az új adatokkal naponta frissülő használati metrikai jelentések is tükrözik.  
 
 A használati metrikai jelentések nem jelennek meg a **Legutóbbi**, a **Munkaterületek**, a **Kedvencek** vagy más tartalomlistákon. Nem lehet őket hozzáadni egy alkalmazáshoz. Ha egy használati metrikai jelentésből származó csempét hozzáad egy irányítópulthoz, akkor az az irányítópult már nem adható hozzá alkalmazáshoz vagy tartalomcsomaghoz.
 
@@ -56,14 +57,14 @@ Ha mélyen kívánja elemezni a jelentés adatait, vagy saját jelentéseket kí
 
 ## <a name="open-a-usage-metrics-report-for-a-dashboard-or-report"></a>Használati metrikai jelentés megnyitása irányítópulthoz vagy jelentéshez
 1. Kezdje a munkát az irányítópultot vagy jelentést tartalmazó munkaterületen.
-2. Akár munkaterület tartalomlistájából, akár magából az irányítópultból vagy jelentésből válassza a **Használati metrikák** ![](media/service-usage-metrics/power-bi-usage-metrics-report-icon.png) ikonját.
+2. Akár munkaterület tartalomlistájából, akár magából az irányítópultból vagy jelentésből válassza a **Használati metrikák** ![használati metrikák ikon](media/service-usage-metrics/power-bi-usage-metrics-report-icon.png) ikonját.
    
-    ![](media/service-usage-metrics/power-bi-run-usage-metrics-report.png)
+    ![Irányítópultok lap](media/service-usage-metrics/power-bi-run-usage-metrics-report.png)
    
-    ![](media/service-usage-metrics/power-bi-run-usage-metrics-report2.png)
+    ![használati metrikák kiválasztása](media/service-usage-metrics/power-bi-run-usage-metrics-report2.png)
 3. Amikor először teszi ezt, a Power BI létrehozza a használati metrikai jelentést, és értesíti önt, amikor elkészült.
    
-    ![](media/service-usage-metrics/power-bi-usage-metrics-ready.png)    
+    ![a metrikák készen állnak](media/service-usage-metrics/power-bi-usage-metrics-ready.png)    
 4. Az eredmény megnyitásához válassza a **Használati metrikák megtekintése** lehetőséget.
    
     A használati metrikák hasznos segítséget nyújtanak a Power BI-irányítópultok és -jelentések létrehozásához és fenntartásához. Szeretné tudni, hogy a jelentése mely oldalai a leghasznosabbak, és melyeket kellene kihagynia? Megtudhatja, ha szűkíti a listát **Jelentésoldalak** szerint. Fontolgatja, hogy kialakítson-e mobil elrendezést az irányítópulthoz? A **Platformok** szerinti szűkítés révén megtudhatja, hogy hány felhasználó éri el a tartalmat mobilalkalmazáson, és hány a weben keresztül.
@@ -94,14 +95,14 @@ Ha mélyen kívánja elemezni a jelentés adatait, vagy saját jelentéseket kí
 | Rang: Megosztások összesen |igen |nem |Hányadik ez az irányítópult a szervezeten belüli irányítópultok rangsorában az utolsó 90 napban történt megosztások száma szerint. |
 
 ### <a name="dashboard-usage-metrics-report"></a>Használati metrikai jelentés irányítópulthoz
-![](media/service-usage-metrics/power-bi-dashboard-usage-metrics-update-3.png)
+![Használati metrikai jelentés irányítópulthoz](media/service-usage-metrics/power-bi-dashboard-usage-metrics-update-3.png)
 
 ### <a name="report-usage-metrics-report"></a>Használati metrikai jelentés jelentéshez
-![](media/service-usage-metrics/power-bi-report-usage-metrics-update.png)
+![Használati metrikai jelentés jelentéshez](media/service-usage-metrics/power-bi-report-usage-metrics-update.png)
 
 ## <a name="save-the-usage-metrics-report-as-a-full-featured-power-bi-report-personalize"></a>Használati metrikai jelentés mentése teljes értékű Power BI-jelentésként (testre szabás)
 
-![](media/service-usage-metrics/power-bi-save-as.png)
+![Mentés másként](media/service-usage-metrics/power-bi-save-as.png)
 
 Használati metrikai jelentés teljes értékű, testre szabható és megosztható Power BI-jelentéssé alakításához használja a **Mentés másként** lehetőséget. A testre szabott másolat elkészítése után teljes hozzáférése lesz a jelentés alapjául szolgáló adatkészlethez, így az aktuális igények szerint szabadon testre szabhatja a használati metrikai jelentést. Akár a Power BI Desktop használatával is készíthet egyéni használati metrikai jelentéseket a [Power BI szolgáltatással való élő kapcsolaton](https://powerbi.microsoft.com/blog/connecting-to-datasets-in-the-power-bi-service-from-desktop) keresztül.
 
@@ -116,16 +117,16 @@ Amikor a "Mentés másként" (testre szabás) lehetőséggel másolatot hoz lét
 
 1. Az előre elkészített használati metrikai jelentésben válassza a **Fájl > Mentés másként** lehetőséget. A Power BI teljes értékű Power BI-jelentéssé alakítja a használati metrikai jelentést. Ez egy úgynevezett *testre szabott* használati metrikai jelentés. A személyre szabott használati jelentést és az adatkészletet a rendszer az aktuális munkaterületen menti, amelynek neve **mihart*.
    
-    ![](media/service-usage-metrics/power-bi-save-as.png)
+    ![Mentés másként](media/service-usage-metrics/power-bi-save-as.png)
 2. Nyissa meg a jelentést Szerkesztő nézetben és [dolgozzon vele ugyanúgy, mint bármely más Power BI-jelentéssel](service-interact-with-a-report-in-editing-view.md). Hozzáadhat például új oldalakat, készíthet új vizualizációkat, felvehet szűrőket, formázhatja a betűtípusokat és színeket, stb.
    
-    ![](media/service-usage-metrics/power-vi-editing-view.png)
+    ![jelentés megnyitása Szerkesztési nézetben](media/service-usage-metrics/power-vi-editing-view.png)
 3. Azt is megteheti, hogy az új adatkészletet használva teljesen új jelentést készít.
    
-    ![](media/service-usage-metrics/power-bi-new-dataset.png)
+    ![Adatkészletek lap](media/service-usage-metrics/power-bi-new-dataset.png)
 4. Az új jelentés az aktuális munkaterületre (mihart) lesz mentve, és hozzá lesz adva a **Legutóbbi** tartalomlistához is.
    
-    ![](media/service-usage-metrics/power-bi-new-report.png)
+    ![Jelentések fül](media/service-usage-metrics/power-bi-new-report.png)
 
 ### <a name="remove-the-filter-to-see-all-the-usage-metrics-data-in-the-workspace"></a>Szűrő eltávolítása a munkaterület ***összes*** használati metrikai adatának megjelenítéséhez
 Ahhoz, hogy a munkaterület valamennyi irányítópultjának vagy valamennyi jelentésének metrikái megjelenjenek, törölnie kell egy szűrőt. A testre szabott jelentés alapértelmezés szerint úgy van szűrve, hogy csak a létrehozásához használt irányítópult vagy jelentés metrikáit jelenítse meg.
@@ -134,10 +135,10 @@ Ha az új, testre szabott jelentés létrehozásához például az "Európai ela
 
 1. Nyissa meg a testre szabott jelentést Szerkesztő nézetben.
    
-    ![](media/service-usage-metrics/power-bi-editing-view.png)
+    ![jelentés szerkesztése kiválasztva](media/service-usage-metrics/power-bi-editing-view.png)
 2. A keresse meg a **Jelentésszintű szűrők** gyűjtőt a Szűrők panelen, és távolítsa el a szűrést az "x" választásával.
    
-    ![](media/service-usage-metrics/power-bi-report-level-filter2.png)
+    ![szűrő törlése](media/service-usage-metrics/power-bi-report-level-filter2.png)
    
     A testre szabott jelentés ettől kezdve a teljes munkaterület metrikáit mutatja.
 
@@ -146,13 +147,13 @@ A használati metrikai jelentés olyan funkció, amelyet a Power BI vagy Office 
 
 1. Nyissa meg a Felügyeleti portált a Power BI szolgáltatás jobb felső sarkában lévő fogaskerék ikont, majd a **Felügyeleti portál** lehetőséget választva.
    
-    ![](media/service-usage-metrics/power-bi-admin-portal-new.png)
+    ![Fogaskerék ikon kiválasztása](media/service-usage-metrics/power-bi-admin-portal-new.png)
 2. A Felügyeleti portálon válassza a **Bérlői beállítások**, majd a **Tartalomkészítőknek szánt használati metrikák** lehetőséget.
    
-    ![](media/service-usage-metrics/power-bi-usage-settings.png)
+    ![Felügyeleti portál](media/service-usage-metrics/power-bi-usage-settings.png)
 3. Engedélyezze (vagy tiltsa le) a használati metrikákat, majd válassza az **Alkalmaz** lehetőséget.
    
-    ![](media/service-usage-metrics/power-bi-tenant-settings-updated.png)
+    ![Használati metrikák engedélyezve](media/service-usage-metrics/power-bi-tenant-settings-updated.png)
 
 Amikor a teljes szervezet számára letiltja a használati metrikákat, a rendszergazda a **teljes meglévő használati metrikai tartalom törlése** lehetőséggel törölni tud minden meglévő jelentést és irányítópult-csempét, amely a használati metrikai jelentések és adatkészletek használatával készült. Ezen a módon minden használati metrikai adat hozzáférhetetlenné válik a szervezet valamennyi felhasználója számára, akik esetleg már használják is azokat. Fontolja meg ezt a lépést, mert a meglévő használati metrikai tartalom törlése nem vonható vissza.
 
