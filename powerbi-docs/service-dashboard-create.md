@@ -19,10 +19,10 @@ ms.workload: powerbi
 ms.date: 03/02/2018
 ms.author: mihart
 ms.openlocfilehash: 33e003c4e45cf851dbdf2bc602807a57d1ba49af
-ms.sourcegitcommit: ab5192675729949d89de212acae48dd51294ad78
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 03/05/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="create-a-power-bi-dashboard-from-a-report"></a>Power BI-irányítópult létrehozása jelentésből
 Áttekintette [A Power BI-irányítópultok](service-dashboards.md) részben leírtakat, és most saját irányítópultot kíván létrehozni. Az irányítópultok létrehozásának számos különböző módja van: többek között jelentésből, az alapoktól, adatkészletből, illetve egy meglévő irányítópult megkettőzésével is létrehozhatók stb.  

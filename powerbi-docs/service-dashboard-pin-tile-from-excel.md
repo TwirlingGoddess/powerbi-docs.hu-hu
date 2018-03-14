@@ -20,10 +20,10 @@ ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
 ms.openlocfilehash: fdd014e513a794a72196a3173703b9536f06768a
-ms.sourcegitcommit: ab5192675729949d89de212acae48dd51294ad78
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 03/05/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="pin-a-tile-to-a-power-bi-dashboard-from-excel"></a>Csempe rögzítése Power BI-irányítópultra Excelből
 Mielőtt egy Excel-munkafüzet csempéjét rögzítené, csatlakoztatnia kell a munkafüzetet a Power BI szolgáltatáshoz (app.powerbi.com). A munkafüzet csatlakoztatásával lényegében a munkafüzet egy csak olvasható példányát nyitja meg a Power BI szolgáltatásban, így tartományokat rögzíthet az irányítópultokon. Akár egy teljes munkalapot is rögzíthet az irányítópulton.  
@@ -62,7 +62,7 @@ Ha egy új [irányítópult-csempét](service-dashboard-tiles.md) szeretne hozz�
 1. Jelölje ki a rögzíteni kívánt cellákat.
    
     ![cellák kijelölése az Excel-munkafüzetben](media/service-dashboard-pin-tile-from-excel/pbi_selectrange.png)
-2. Válassza a gombostű ![gombostű ikon](media/service-dashboard-pin-tile-from-excel/pbi_pintile_small.png) ikont. 
+2. Válassza a gombostű ![gombostű ikon](media/service-dashboard-pin-tile-from-excel/pbi_pintile_small.png) ikonra. 
 3. A csempét egy meglévő vagy egy új irányítópultra is rögzítheti. 
    
    * Meglévő irányítópult: válassza ki az irányítópult nevét a legördülő listából.
