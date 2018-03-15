@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/18/2018
+ms.date: 03/13/2018
 ms.author: mihart
 LocalizationGroup: Samples
-ms.openlocfilehash: 8ff3470f45ec84798c9fe7302b31a8fe364f18c9
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 8a2b330ee134bf8aeb94315b90e71824ec1eb8ef
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="what-sample-data-is-available-to-use-with-power-bi"></a>Milyen mintaadatok használhatók a Power BI-ban?
 Tegyük fel, hogy kezdő felhasználó a Power BI-ban, és egyelőre adatok nélkül szeretné kipróbálni.  Vagy már van egy adatkészlete, de mivel (még) nem ismeri a Power BI működését, aggódik, hogy valahogy kárt tesz az adatkészletben.
@@ -106,16 +106,16 @@ A tartalomcsomag az egyetlen olyan mintaformátum, amely a Power BI szolgáltat�
 ### <a name="get-and-open-a-sample-content-pack-in-power-bi-service"></a>Minta-tartalomcsomag beszerzése és megnyitása a Power BI szolgáltatásban
 1. Nyissa meg a Power BI-t (app.powerbi.com), és jelentkezzen be.
 2. A bal alsó sarokban válassza az **Adatok lekérése** lehetőséget.
-   
+
     ![](media/sample-datasets/power-bi-get-data.png)
 3. Ekkor megjelenik az Adatok lekérése lap. Itt kattintson a **Minták** ikonra.
-   
+
    ![](media/sample-datasets/power-bi-samples-icon.png)
 4. Válasszon egy mintát. Ekkor megjelenik a minta leírása. Kattintson a **Csatlakozás** lehetőségre.  
-   
+
    ![](media/sample-datasets/power-bi-connect.png)
 5. A Power BI importálja a tartalomcsomagot, és egy új irányítópultot, jelentést és adatkészletet ad hozzá az aktuális munkaterülethez. Az új tartalmakat sárga csillag jelöli. A mintákkal kipróbálhatja a Power BI funkcióit.  
-   
+
    ![](media/sample-datasets/power-bi-asterisk.png)
 
 Az új adatokkal már nyugodtan dolgozhat.  Próbálja ki az oktatóanyagaink lépéseit a minta-tartalomcsomagokkal, vagy csak nyissa meg a Power BI-t, és fedezze fel a funkciókat.
@@ -124,7 +124,7 @@ Az új adatokkal már nyugodtan dolgozhat.  Próbálja ki az oktatóanyagaink l�
 A minta-tartalomcsomagok Excel-munkafüzetként is elérhetők. Az Excel-munkafüzeteket a Power BI-hoz alakítottuk ki.  
 
 1. A fájlokat egyenként letöltheti az alábbi hivatkozásokról, vagy [egyszerre, egy ZIP-fájlban](http://go.microsoft.com/fwlink/?LinkId=535020). Ha már tapasztalt felhasználó, célszerű letöltenie az Excel-munkafüzeteket és felfedezni vagy szerkeszteni az adatmodelleket.
-   
+
    * [Kiskereskedelmi elemzési minta](http://go.microsoft.com/fwlink/?LinkId=529778)
    * [Szállítói minőségelemzési minta](http://go.microsoft.com/fwlink/?LinkId=529779)
    * [Emberi erőforrások minta](http://go.microsoft.com/fwlink/?LinkId=529780)
@@ -134,35 +134,35 @@ A minta-tartalomcsomagok Excel-munkafüzetként is elérhetők. Az Excel-munkaf�
    * [Beszerzéselemzési minta](http://go.microsoft.com/fwlink/?LinkId=529784)
    * [Értékesítési és marketing minta](http://go.microsoft.com/fwlink/?LinkId=529785)
 2. Mentse a letöltött fájlt. Fontos, hogy hova menti a fájlt.
-   
+
    * ![](media/sample-datasets/power-bi-local-file2.png)  **Helyi meghajtó** – Ha a fájlt a saját számítógépére vagy a cég valamilyen más helyére mentette, a Power BI-ból importálhatja a fájlt Power BI-ba. Mivel a fájl ténylegesen a helyi meghajtón marad, a teljes fájl valójában nem kerül a Power BI-ba. Valójában az történik, hogy létrejön egy új adatkészlet az Ön Power BI-webhelyén, a rendszer pedig betölti abba az adatokat és – olykor – az adatmodellt. Ha a fájlban jelentések is találhatók, azok a Power BI-webhelyen, a Jelentések között fognak megjelenni.
    * ![](media/sample-datasets/power-bi-onedrive-file.png) **OneDrive – Vállalati verzió** – Ha OneDrive Vállalati verzióval rendelkezik, és a Power BI-hoz is használt fiókkal jelentkezik be oda, akkor a leghatékonyabb megoldást választja ahhoz, hogy a Power BI Desktop- vagy a .CSV-fájl, az adatbázis, a jelentések és az irányítópultok szinkronban maradjanak a Power BI-ban. Mivel a Power BI és a OneDrive egyaránt a felhőben található, a Power BI nagyjából óránként kapcsolódik a OneDrive-on található fájlhoz. Ha bármilyen változást érzékel, az adatkészlet, a jelentések és az irányítópultok automatikusan frissülnek a Power BI-ban.
    * ![](media/sample-datasets/power-bi-onedrive-file.png) **OneDrive – Személyes verzió** – A OneDrive Vállalati verzió számos előnyét akkor is élvezheti, ha fájljait a saját OneDrive-fiókjába menti. A legnagyobb különbség az, hogy amikor a fájlt először csatlakoztatja (az Adatok lekérése > Fájlok > OneDrive személyes verzió paranccsal), akkor a Microsoft-fiókjával kell a OneDrive-ba jelentkeznie, és ez általában eltér attól a fióktól, amelyet a Power BI-ba való belépéshez használ. Amikor a Microsoft-fiókjával jelentkezik be a OneDrive-ba, mindenképp jelölje be a Bejelentkezve szeretnék maradni lehetőséget. Így a Power BI képes lesz nagyjából óránként kapcsolódni a fájlhoz, és gondoskodni róla, hogy a Power BI-ban lévő adatkészlet szinkronban legyen.
    * ![](media/sample-datasets/power-bi-sharepoint2.png) **SharePoint-csoportwebhelyek** – A Power BI-ban lévő fájloknak a SharePoint-csoportwebhelyekre történő mentése nagyjából ugyanúgy zajlik, mint a OneDrive Vállalati verzió esetében. A legnagyobb különbség a Power BI és a fájl csatlakoztatásának módja. Ehhez megadhat egy URL-címet, vagy csatlakozhat a gyökérmappához.
 3. Nyissa meg a Power BI-t (app.powerbi.com), és jelentkezzen be.
-   
+
    > [!TIP]
    > Ezen a ponton célszerű létrehozni egy új irányítópultot, és az importálni kívánt fájl után elnevezni.  Ellenkező esetben amikor importálja az Excel-adatkészletet, a Power BI nem hoz létre egy új, a minta után elnevezett irányítópultot, hanem egy csempét ad az aktuálisan megnyitott irányítópulthoz. A csempére kattintva megnyithatja az adatkészlet jelentését. Ez nem nagy probléma, mivel később bármikor létrehozhat egy új irányítópultot, de ha egy új irányítópulttal kezdi a munkát, azzal átugorhat néhány lépést.
-   > 
-   > 
+   >
+   >
 4. A bal alsó sarokban válassza az **Adatok lekérése** lehetőséget.
-   
+
     ![](media/sample-datasets/power-bi-get-data.png)
 5. Ekkor megjelenik az Adatok lekérése lap. Itt válassza a **Fájlok > Lekérés** lehetőséget.
-   
+
      ![](media/sample-datasets/power-bi-files.png)
 6. Nyissa meg a letöltött minta helyét.
-   
+
    ![](media/sample-datasets/power-bi-files3.png)
 7. Jelölje ki a OneDrive Vállalati verzióra mentett fájlt (ebben az esetben a **Beszerzéselemzés.xlsx-t**), majd válassza a **Csatlakozás** lehetőséget.
-   
+
    ![](media/sample-datasets/power-bi-connect2.png)
 8. Döntse el, hogy importálni szeretné az adatokat, vagy inkább megnyitná a munkafüzetet a Power BI-ban, és megtekintené úgy, ahogy az az Excel Online-ban szerepel.
-   
+
     ![](media/sample-datasets/power-bi-import.png)
 9. Ha az **Importálás** lehetőséget választja, a Power BI importálja a minta-munkafüzetet, és egy új adatkészletként adja hozzá, amelyet **Beszerzéselemzési mintának** nevez el.  Ha a munkafüzet tartalmaz Power View-lapokat, -táblákat, -tartományokat vagy egy adatmodellt, a Power BI egy azonos nevű jelentést is létrehoz. Ha pedig még nincs megnyitva irányítópult, a Power BI létrehoz egy újat. (Ha már megnyitott egy irányítópultot, mielőtt az **Adatok lekérése** lehetőséget választotta, egy üres csempe jelenik meg rajta.  A csempére kattintva az imént hozzáadott adatkészlet jelentésére léphet). Az új tartalom neve megegyezik a minta nevével, a program pedig egy sárga csillaggal jelöli.
 10. Amikor megjelenik **Az adatkészlet készen áll.** képernyő, válassza az **Adatkészlet megtekintése** vagy a **Gyors elemzések lekérése** lehetőséget, vagy a Power BI bal oldali navigációs sávján keresse és nyissa meg a társított jelentést vagy irányítópultot.  
-    
+
      ![](media/sample-datasets/power-bi-ready.png)
 
 ### <a name="optional-take-a-look-at-the-excel-samples-from-inside-excel-itself"></a>(Nem kötelező) Az Excel-minták megtekintése magában az Excelben
@@ -170,18 +170,18 @@ Szeretné tudni, hogyan alakulnak át az Excel-munkafüzet adatai Power BI-adatk
 
 * Amikor először nyit meg egy minta-munkafüzetet az Excelben, két figyelmeztetés jelenhet meg. Az első tudatja Önnel, hogy a munkafüzet védett nézetben van. Kattintson a **Szerkesztés engedélyezése** lehetőségre. A második tudatja Önnel, hogy a munkafüzet külső adatkapcsolatokkal rendelkezik. Válassza a **Tartalom engedélyezése** lehetőséget.
 * Minden munkafüzet több munkalapot tartalmaz. Mivel ezek az Excel-minták mind legalább egy, vizualizációkkal ellátott Power View-lapot tartalmaznak, az Excel-fájlok a Power BI-ba való importálásakor egy adatkészlet **és** egy jelentés is létrejön.
-  
+
    Előfordulhat, hogy [engedélyeznie kell a Power View bővítményt](https://support.office.com/article/Create-a-Power-View-sheet-in-Excel-2013-B23D768D-7586-47FE-97BD-89B80967A405#__toc328591957).
 * Hol vannak a tényleges adatok? A Power Pivot-adatmodellben. Az adatok megtekintéséhez a **PowerPivot** lapon válassza az **Adatmodell kezelése** lehetőséget.
-  
-    Nem látja a PowerPivot lapot? [Engedélyezze a Power Pivot bővítményt](https://support.office.com/article/Start-Power-Pivot-in-Microsoft-Excel-2013-add-in-A891A66D-36E3-43FC-81E8-FC4798F39EA8). 
+
+    Nem látja a PowerPivot lapot? [Engedélyezze a Power Pivot bővítményt](https://support.office.com/article/Start-Power-Pivot-in-Microsoft-Excel-2013-add-in-A891A66D-36E3-43FC-81E8-FC4798F39EA8).
 * Az Info lapon a minta készítőjéről, az obviEnce-ről találhat információkat.
 
 ## <a name="the-power-bi-samples-as-pbix-files"></a>Power BI-minták .pbix-fájlként
 A minta-tartalomcsomagok .pbix-fájlként is elérhetők. A .pbix-fájlok a Power BI Desktop szolgáltatáshoz lettek kialakítva.  
 
 1. A fájlokat letöltheti az alábbi hivatkozásokkal.
-   
+
    * [Kiskereskedelmi elemzési minta](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail Analysis Sample PBIX.pbix)
    * [Szállítói minőségelemzési minta](http://download.microsoft.com/download/8/C/6/8C661638-C102-4C04-992E-9EA56A5D319B/Supplier-Quality-Analysis-Sample-PBIX.pbix)
    * [Emberi erőforrások minta](http://download.microsoft.com/download/6/9/5/69503155-05A5-483E-829A-F7B5F3DD5D27/Human Resources Sample PBIX.pbix)
@@ -192,7 +192,7 @@ A minta-tartalomcsomagok .pbix-fájlként is elérhetők. A .pbix-fájlok a Powe
    * [Értékesítési és marketing minta](http://download.microsoft.com/download/9/7/6/9767913A-29DB-40CF-8944-9AC2BC940C53/Sales and Marketing Sample PBIX.pbix)
 2. Mentse a letöltött fájlt.
 3. A Desktopban válassza a **Fájl > Megnyitás** lehetőséget, majd navigáljon arra a helyre, ahova a .pbix-mintafájlt mentette.
-   
+
    ![](media/sample-datasets/power-bi-desktop-open.png)
 4. A megnyitáshoz kattintson a .pbix-fájlra.
 
@@ -204,4 +204,3 @@ A minta-tartalomcsomagok .pbix-fájlként is elérhetők. A .pbix-fájlok a Powe
 [Adatforrások a Power BI-ban](service-get-data.md)
 
 További kérdései vannak? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)
-
