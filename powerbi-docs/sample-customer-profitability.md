@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 02/28/2018
+ms.date: 03/13/2018
 ms.author: mihart
 LocalizationGroup: Samples
-ms.openlocfilehash: c0aaa29a0d933da9fa61d08628766963144e0f76
-ms.sourcegitcommit: c45498071d582dcca264216863906ffaae382523
+ms.openlocfilehash: b7931cb97ff1c409cc2524e31d079dd770160ec4
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 03/01/2018
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="customer-profitability-sample-for-power-bi-take-a-tour"></a>Ügyfél-jövedelmezőségi minta a Power BI-hoz: bemutató
 
@@ -40,21 +40,22 @@ Ha érdekli a megoldás, tartson velünk. Ebben az oktatóanyagban a Power BI sz
 
 1. Nyissa meg a Power BI szolgáltatást (app.powerbi.com), és jelentkezzen be.
 2. A bal alsó sarokban válassza az **Adatok lekérése** lehetőséget.
-   
+
     ![](media/sample-datasets/power-bi-get-data.png)
 3. Ekkor megjelenik az Adatok lekérése lap. Itt kattintson a **Minták** ikonra.
-   
+
    ![](media/sample-datasets/power-bi-samples-icon.png)
 4. Válassza ki az **Ügyfél-jövedelmezőségi mintát**, majd válassza a **Kapcsolódás** lehetőséget.  
-   
+
    ![Adatok lekérése](media/sample-customer-profitability/get-supplier-sample.png)
 5. A Power BI importálja a tartalomcsomagot, és egy új irányítópultot, jelentést és adatkészletet ad hozzá az aktuális munkaterülethez. Az új tartalmakat sárga csillag jelöli. A mintákkal kipróbálhatja a Power BI funkcióit.  
-   
+
    ![Csillag](media/sample-customer-profitability/supplier-sample-asterisk.png)
-  
+
 ### <a name="get-the-pbix-file-for-this-sample"></a>.pbix-fájl letöltése ehhez a mintához
 
-Lehetőség van a mintát .pbix-fájlként is letölteni, amelyet a Power BI Desktoppal való használatra terveztek. [Ügyfél-jövedelmezőségi minta](<http://download.microsoft.com/download/6/A/9/6A93FD6E-CBA5-40BD-B42E-4DCAE8CDD059/Customer>> Profitability Sample PBIX.pbix)
+Lehetőség van a mintát .pbix-fájlként is letölteni, amelyet a Power BI Desktoppal való használatra terveztek.
+[Ügyfél-jövedelmezőségi minta](http://download.microsoft.com/download/6/A/9/6A93FD6E-CBA5-40BD-B42E-4DCAE8CDD059/Customer Profitability Sample PBIX.pbix)
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>Excel-munkafüzet letöltése ehhez a mintához
 
@@ -87,13 +88,13 @@ Az irányítópult jobb oldalán található csempék a csapat mutatószámait t
 
 ![](media/sample-customer-profitability/power-bi-manager2.png)
 
-- Carlos kivételével minden vezető meghaladta az értékesítési célkitűzést. Ezzel együtt azonban Carlos tényleges értékesítési adatai a legmagasabbak. 
+- Carlos kivételével minden vezető meghaladta az értékesítési célkitűzést. Ezzel együtt azonban Carlos tényleges értékesítési adatai a legmagasabbak.
 - Annelie százalékos bruttó árrése a legalacsonyabb, de folyamatos növekedés tapasztalható március óta.
-- Valery százalékos bruttó árrése jelentősen csökken. 
-- Andrew pedig ingadozó értékeket produkált az évben. 
+- Valery százalékos bruttó árrése jelentősen csökken.
+- Andrew pedig ingadozó értékeket produkált az évben.
 
 ## <a name="explore-the-dashboards-underlying-data"></a>Az irányítópult alapjául szolgáló adatok megismerése
-Ezen az irányítópulton szerepelnek olyan csempék, amelyek jelentésre vagy Excel-munkafüzetre mutatnak. 
+Ezen az irányítópulton szerepelnek olyan csempék, amelyek jelentésre vagy Excel-munkafüzetre mutatnak.
 
 ### <a name="open-the-excel-online-data-source"></a>Az Excel Online adatforrás megnyitása
 Az irányítópulton szereplő „Target vs Actual” és „Year Over Year Revenue Growth” nevű csempék Excel-munkafüzetből lettek az irányítópultra rögzítve. Ha bármely csempét kiválasztja, a Power BI megnyitja az adatforrást, ami esetünkben az Excel Online.
@@ -112,14 +113,14 @@ Az irányítópulton szereplő „Target vs Actual” és „Year Over Year Reve
 
 4. Folytassa a böngészést, és ha talál valami érdekeset, a jobb felső sarokban található **Rögzítés** ![](media/sample-customer-profitability/power-bi-excel-pin.png) elemet választva [rögzítheti is egy irányítópultra](service-dashboard-pin-tile-from-excel.md).
 
-5. A böngésző vissza gombját használva térhet vissza az irányítópulthoz. 
+5. A böngésző vissza gombját használva térhet vissza az irányítópulthoz.
 
 ### <a name="open-the-underlying-power-bi-report"></a>Az alapul szolgáló Power BI-jelentés megnyitása
-Az Ügyfél-jövedelmezőségi minta irányítópultján található csempék többsége az alapul szolgáló Ügyfél-jövedelmezőségi minta jelentésből lett rögzítve az irányítópulton. 
+Az Ügyfél-jövedelmezőségi minta irányítópultján található csempék többsége az alapul szolgáló Ügyfél-jövedelmezőségi minta jelentésből lett rögzítve az irányítópulton.
 
-1. A jelentés Olvasó nézetben való megnyitásához válassza ki a csempék egyikét. 
+1. A jelentés Olvasó nézetben való megnyitásához válassza ki a csempék egyikét.
 
-2. A jelentés 3 oldalból áll. A jelentés alján látható fülek mindegyike egy-egy oldalt jelöl. 
+2. A jelentés 3 oldalból áll. A jelentés alján látható fülek mindegyike egy-egy oldalt jelöl.
 
     ![](media/sample-customer-profitability/power-bi-report-tabs.png)
 
@@ -155,10 +156,10 @@ Hogyan változik a jövedelmezőség az iparágban? Hogyan oszlanak meg a termé
 
 A buborékdiagramon a pénzügyi vezető a legnagyobb buborékokat keresheti meg, hiszen ezek befolyásolják a legnagyobb mértékben a bevételt. Ha a területi diagramon a vezetők nevére kattintva szűri a lapot, egyszerűen tekintheti meg az egyes vezetők teljesítményét iparági szegmens szerint.
 
-* Andrew teljesítménye több különböző iparági szegmensben érzékelhető a jelentősen eltérő százalékos bruttó árrésnek (elsősorban a pozitív oldalon) és a százalékos varianciának köszönhetően. 
-* Annelie diagramja hasonló, azzal a különbséggel, hogy ő csak pár iparági szegmensre koncentrál (a szövetségi szegmensre és a Gladius nevű termékre fókuszálva). 
-* Carlos egyértelműen a szolgáltatási szegmensre koncentrál, és szép profitot termel. Nagy mértékben növelte a százalékos varianciát a high-tech szektorban, és egy számára új szegmensben (ipar) rendkívül jó teljesítményt ért el a költségvetéshez viszonyítva. 
-* Tina több szegmensre koncentrál, és ő rendelkezik a legmagasabb százalékos bruttó árréssel, de a buborékok jellemzően kis mérete azt mutatja, hogy a cég profitjára gyakorolt hatása minimális. 
+* Andrew teljesítménye több különböző iparági szegmensben érzékelhető a jelentősen eltérő százalékos bruttó árrésnek (elsősorban a pozitív oldalon) és a százalékos varianciának köszönhetően.
+* Annelie diagramja hasonló, azzal a különbséggel, hogy ő csak pár iparági szegmensre koncentrál (a szövetségi szegmensre és a Gladius nevű termékre fókuszálva).
+* Carlos egyértelműen a szolgáltatási szegmensre koncentrál, és szép profitot termel. Nagy mértékben növelte a százalékos varianciát a high-tech szektorban, és egy számára új szegmensben (ipar) rendkívül jó teljesítményt ért el a költségvetéshez viszonyítva.
+* Tina több szegmensre koncentrál, és ő rendelkezik a legmagasabb százalékos bruttó árréssel, de a buborékok jellemzően kis mérete azt mutatja, hogy a cég profitjára gyakorolt hatása minimális.
 * Valery, aki csak egy termékért felel, mindössze 5 iparági szegmensre koncentrál. Az iparági befolyása szezonális, de mivel mindig nagy méretű buborékokat hoz létre, jelentős hatást gyakorol a cég profitjára. Magyarázható az iparággal a csökkenő teljesítmény?
 
 ### <a name="executive-scorecard"></a>Vezetők mutatószámai
@@ -174,9 +175,9 @@ Az elemzéshez hasznos lenne megállapítani, hogy mely iparág termeli a legtö
     ![](media/sample-customer-profitability/power-bi-ask-question.png)
 
 3. Írja be a következőt: **Valery teljes bevétele iparág szerint**. Figyelje meg, ahogy a vizualizáció frissül, miközben beírja a kérdést.
-   
+
     ![](media/sample-customer-profitability/power-bi-qna.png)
-   
+
    A forgalmazás képviseli Valery legnagyobb bevételi területét.
 
 ### <a name="dig-deeper-by-adding-filters"></a>Részletes feltárás szűrők hozzáadásával
@@ -184,15 +185,15 @@ Vessen egy pillantást a *Forgalmazás* iparágra.
 
 1. Nyissa meg az „Iparági árrés elemzése” jelentésoldalt.
 2. Anélkül, hogy bármilyen vizualizációt kijelölne a jelentéslapon, bontsa ki a jobb oldalon lévő Szűrő ablaktáblát (ha az még nincs kibontva). A Szűrők ablaktáblán csak lapszintű szűrők láthatók.  
-   
+
    ![](media/sample-customer-profitability/power-bi-filters.png)
 3. Keresse meg az **Iparág** szűrőt, és a nyíl kiválasztásával bontsa ki a listát. Adjon hozzá egy lapszűrőt a Forgalmazás iparághoz. Először törölje az összes kijelölést **Az összes kijelölése** jelölőnégyzet bejelölésének törlésével. Majd válassza a **Forgalmazás** elemet.  
-   
+
    ![](media/sample-customer-profitability/customer7.png)
 4. A „Bruttó árrés hónap és vezető neve szerint" területdiagramon az látható, hogy csak Valery és Tina rendelkezik ügyféllel ebben az iparágban, és csak Valery foglalkozott ezzel az iparággal júniustól novemberig.   
-5. Válassza ki **Tina** és  **Valery** nevét a „Bruttó árrés hónap és vezető neve szerint" területdiagram jelmagyarázatában. Figyelje meg, hogy Tina teljesítménye a „Teljes bevétel termék szerint” diagram adatai alapján meglehetősen kicsi Valery teljesítményéhez képest. 
+5. Válassza ki **Tina** és  **Valery** nevét a „Bruttó árrés hónap és vezető neve szerint" területdiagram jelmagyarázatában. Figyelje meg, hogy Tina teljesítménye a „Teljes bevétel termék szerint” diagram adatai alapján meglehetősen kicsi Valery teljesítményéhez képest.
 6. Ha a tényleges bevételt szeretné megtekinteni, a Q&A használatával kérdezzen rá a következőre: **teljes forgalmi bevétel környezet és vezető szerint**.  
-   
+
      ![](media/sample-customer-profitability/power-bi-qna2.png)
 
     Hasonlóan lehet megvizsgálni más iparágakat, és akár az ügyfelek vizualizációhoz való hozzáadásával is feltárhatók a Valery teljesítménye mögötti okok.
@@ -205,4 +206,3 @@ Letöltheti [kizárólag a minta adatkészletét (Excel-munkafüzetét) is](http
 Reméljük, hogy ez a bemutató segített megérteni a Power BI-irányítópultok, a Q&A és a jelentések segítségével történő ügyféladat-elemzést. Most Önön a sor – kapcsolódjon a saját adataihoz. A Power BI használatával számos különböző adatforráshoz kapcsolódhat. További információ a [Power BI használatának első lépéseiről](service-get-started.md).
 
 [Vissza a Power BI-mintákhoz](sample-datasets.md)  
-
