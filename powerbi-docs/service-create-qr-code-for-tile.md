@@ -15,21 +15,22 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/12/2017
+ms.date: 03/07/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 3a01f7c8ab679e2820261c7947a9561ff5513d60
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: e7f37a076f913d50f5a6b654aa79b50d61bc5add
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="create-a-qr-code-for-a-tile-in-power-bi-to-use-in-the-mobile-apps"></a>QR-kód létrehozása egy Power BI-csempéhez mobilalkalmazásokban történő használathoz
 A Power BI-ban a QR-kódok a való világból bármit képesek közvetlenül a hozzájuk kapcsolódó BI-információkhoz kapcsolni – nincs szükség keresésre vagy navigálásra.
 
 A Power BI szolgáltatásban bármelyik irányítópult csempéjéhez létrehozhat egy QR-kódot, még akkor is, ha magát az irányítópultot nem szerkesztheti. Ezután elhelyezheti a QR-kódot egy kulcsfontosságú helyen. Beillesztheti például egy e-mailbe, vagy kinyomtathatja és elhelyezheti egy adott helyen. 
 
-Azok a munkatársak, akikkel megosztotta az irányítópultját, [közvetlenül a mobileszközeikről beolvashatják a csempe hozzáféréséhez készült QR-kódot](mobile-apps-qr-code.md). Ezt megtehetik a Power BI alkalmazásban található QR-kód leolvasóval, vagy bármilyen más QR-kód leolvasóval, amely telepítve van az eszközeiken. .
+Azok a munkatársak, akikkel megosztotta az irányítópultját, [közvetlenül a mobileszközeikről beolvashatják a csempe hozzáféréséhez készült QR-kódot](mobile-apps-qr-code.md). A Power BI alkalmazásban található QR-kódolvasót vagy az eszközükre telepített bármely QR-olvasót használhatják erre a célra.
+
 
 ## <a name="create-a-qr-code-for-a-tile"></a>QR-kód létrehozása csempéhez
 1. Nyisson meg egy irányítópultot a Power BI szolgáltatásban.
