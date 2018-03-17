@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 10/10/2017
 ms.author: maghan
 LocalizationGroup: Premium
-ms.openlocfilehash: c94cbdbeaf6c7186b21a22c318a4195dbc509da3
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: a6040871652484ad5de70a0d73e14a13742fe56a
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="manage-capacities-within-power-bi-premium-and-power-bi-embedded"></a>Kapacitáskezelés a Power BI Premium és a Power BI Embedded szolgáltatással
 Megtudhatja, hogyan kezelheti a Power BI Premium és a Power BI Embedded kapacitásait, amelyek dedikált erőforrásokat nyújtanak az Ön tartalmai számára.
@@ -44,7 +44,7 @@ További információ: [A Power BI Premium bemutatása](service-premium.md).
 A dedikált kapacitás kihasználásához egy Power BI Premium-előfizetést kell vásárolnia az Office 365 Felügyeleti központban, vagy létre kell hoznia egy Power BI Embedded-erőforrást a Microsoft Azure Portalon. További információkat a következő cikkekben talál:
 
 * **Power BI Premium:** [A Power BI Premium megvásárlása](service-admin-premium-purchase.md)
-* **Power BI Embedded:** Hamarosan.
+* **Power BI Embedded:** [Power BI Embedded-kapacitás létrehozása az Azure Portalon](https://docs.microsoft.com/en-us/azure/power-bi-embedded/create-capacity)
 
 A Power BI Premium SKU-k vásárlásakor a bérlő a vásárlásnak megfelelő számú virtuális magot kap, amelyet a futó kapacitásokban használhat. Például a Power BI Premium P3 SKU megvásárlásakor a bérlő 32 virtuális magot kap.
 
