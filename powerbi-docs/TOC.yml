@@ -862,6 +862,8 @@
       items:
         - name: iOS-es Power BI-mobilalkalmazás
           href: mobile-ios-ipad-iphone-apps.md
+        - name: Power BI használata vegyes valósághoz
+          href: mobile-mixed-reality-app.md
         - name: Helyszíni jelentések és KPI-k megtekintése a mobilalkalmazásokban
           href: mobile-app-ssrs-kpis-mobile-on-premises-reports.md
         - name: Irányítópultok a mobilalkalmazásokban
