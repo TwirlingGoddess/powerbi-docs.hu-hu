@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/24/2018
+ms.date: 03/09/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 3630d876f3e32cbe981d7fb5bcc38d9da1a257f2
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 2f395a5030cb2e025b8b69fa9b5375f471dea452
+ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/12/2018
 ---
 # <a name="data-sources-supported-by-directquery-in-power-bi"></a>A DirectQuery által támogatott adatforrások a Power BI-ban
 A **Power BI Desktopban** és a **Power BI szolgáltatásban** számos adatforráshoz csatlakozhat, és hozzáférhet ezek adataihoz. Ez a cikk azt ismerteti, hogy a Power BI mely adatforrásai támogatják a **DirectQuery** néven ismert kapcsolódási módszert. További, a DirectQueryre vonatkozó információkért lásd [**a DirectQuery Power BI-ban történő használatát**](desktop-directquery-about.md) ismertető cikket.
@@ -37,7 +37,8 @@ A következő adatforrások támogatják a DirectQueryt a Power BI-ban:
 * IBM Netezza (bétaverzió)
 * Impala (2.x-es verzió)
 * Oracle Database (12-es és újabb verzió)
-* SAP Business Warehouse (bétaverzió)
+* SAP Business Warehouse-alkalmazáskiszolgáló
+* SAP Business Warehouse üzenetkezelési kiszolgáló (bétaverzió)
 * SAP HANA
 * Snowflake
 * Spark (bétaverzió) (0.9-es és újabb)
@@ -62,11 +63,14 @@ Az alábbi tábla meghatározza, hogy szükség van-e **helyszíni adatátjáró
 | Teradata-adatbázis |Igen |
 | Amazon Redshift |Nem |
 | Impala (2.x-es verzió) |Igen |
-| Snowflake (előzetes verzió) |Még nem támogatott a **Power BI szolgáltatásban** |
+| Snowflake |Igen |
 | Spark (bétaverzió) (0.9-es és újabb) |Még nem támogatott a **Power BI szolgáltatásban** |
-| Azure HDInsight Spark (bétaverzió) |Még nem támogatott a **Power BI szolgáltatásban** |
-| IBM Netezza (bétaverzió) |Még nem támogatott a **Power BI szolgáltatásban** |
-| SAP Buisness Warehouse (bétaverzió) |Még nem támogatott a **Power BI szolgáltatásban** |
+| Azure HDInsight Spark (bétaverzió) |Nem |
+| IBM Netezza |Igen |
+| SAP Business Warehouse-alkalmazáskiszolgáló |Igen |
+| SAP Business Warehouse üzenetkezelési kiszolgáló |Még nem támogatott a **Power BI szolgáltatásban** |
+| Google BigQuery |Nem |
+
 
 ## <a name="next-steps"></a>Következő lépések
 Ha többet szeretne megtudni a DirectQueryről, tekintse át a következő forrásanyagokat:

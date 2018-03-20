@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/24/2018
+ms.date: 03/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 85ac8564efca953d338bef9aab8b59699d992c19
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: ff28f5d43b065ae798e2e9f275c8e8b59e9ee1ce
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Adatforrások a Power BI Desktopban
 A Power BI Desktoppal különböző forrásokból származó adatokhoz csatlakozhat. Az elérhető adatforrások teljes listája az oldal alján látható.
@@ -78,13 +78,14 @@ Az **Adatbázis** kategória a következő adatkapcsolatokat biztosítja:
 * Oracle Database
 * IBM DB2-adatbázis
 * IBM Informix-adatbázis (bétaverzió)
-* IBM Netezza (bétaverzió)
+* IBM Netezza
 * MySQL-adatbázis
 * PostgreSQL-adatbázis
 * Sybase-adatbázis
 * Teradata-adatbázis
 * SAP HANA-adatbázis
-* SAP Business Warehouse-kiszolgáló
+* SAP Business Warehouse-alkalmazáskiszolgáló
+* SAP Business Warehouse üzenetkezelési kiszolgáló (bétaverzió)
 * Amazon Redshift
 * Impala
 * Google BigQuery (bétaverzió)
@@ -103,13 +104,14 @@ Az **Azure** kategória a következő adatkapcsolatokat biztosítja:
 
 * Azure SQL Database
 * Azure SQL Data Warehouse
-* Azure Analysis Services-adatbázis (bétaverzió)
+* Azure Analysis Services-adatbázis
 * Azure Blob-tároló
 * Azure Table Storage
 * Azure Cosmos DB (bétaverzió)
 * Azure Data Lake Store
 * Azure HDInsight (HDFS)
 * Azure HDInsight Spark (bétaverzió)
+* HDInsight interaktív lekérdezés (bétaverzió)
 
 A következő képen a **Lekérdezés** ablak látható, amelyen az **Azure** kategória ki van választva.
 
@@ -121,6 +123,7 @@ Az **Online szolgáltatások** kategória a következő adatkapcsolatokat biztos
 * SharePoint Online-lista
 * Microsoft Exchange Online
 * Dynamics 365 (online)
+* Dynamics NAV (bétaverzió)
 * Dynamics 365 for Financials (bétaverzió)
 * Common Data Service (bétaverzió)
 * Microsoft Azure – használati elemzés (bétaverzió)
@@ -128,23 +131,24 @@ Az **Online szolgáltatások** kategória a következő adatkapcsolatokat biztos
 * Salesforce-objektumok
 * Salesforce-jelentések
 * Google Analytics
+* Adobe Analytics
 * appFigures (bétaverzió)
 * comScore Digital Analytix (bétaverzió)
 * Dynamics 365 for Customer Insights (bétaverzió)
+* Data.World – Adathalmaz lekérése (bétaverzió)
 * Facebook
 * GitHub (bétaverzió)
-* Kusto (bétaverzió)
 * MailChimp (bétaverzió)
+* Marketo (bétaverzió)
 * Mixpanel (bétaverzió)
-* Planview Enterprise (bétaverzió)
-* Projectplace (bétaverzió)
+* Planview Enterprise One - PRM (bétaverzió)
+* Planview Projectplace (bétaverzió)
 * QuickBooks Online (bétaverzió)
 * Smartsheet
 * SparkPost (bétaverzió)
-* SQL Sentry (bétaverzió)
 * Stripe (bétaverzió)
 * SweetIQ (bétaverzió)
-* Troux (bétaverzió)
+* Planview Enterprise One - CMT (bétaverzió)
 * Twilio (bétaverzió)
 * tyGraph (bétaverzió)
 * Webtrends (bétaverzió)
@@ -157,6 +161,7 @@ A következő képen a **Lekérdezés** ablak látható, amelyen az **Online szo
 Az **Egyéb** kategória a következő adatkapcsolatokat biztosítja:
 
 * Vertica (bétaverzió)
+* Kusto (bétaverzió)
 * Web
 * SharePoint-lista
 * OData-adatcsatorna
@@ -203,4 +208,3 @@ A Power BI Desktop műveletek és lehetőségek széles tárházát tartalmazza.
 * [Adattípusok a Power BI Desktopban](desktop-data-types.md)
 * [Adatok formázása és kombinálása a Power BI Desktoppal](desktop-shape-and-combine-data.md)
 * [Gyakori lekérdezési feladatok a Power BI Desktopban](desktop-common-query-tasks.md)    
-

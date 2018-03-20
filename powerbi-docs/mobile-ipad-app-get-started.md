@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/25/2018
 ms.author: maggies
-ms.openlocfilehash: ad46bd02ffc3c745b63e716759007219421edfd8
-ms.sourcegitcommit: be5223b62e9a5d57c52f8588d4e539d814751dd6
+ms.openlocfilehash: a35197e7775fb1b0dfec5c0905706f44d6f14494
+ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 01/29/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-an-ipad"></a>Első lépések a Power BI mobilalkalmazással iPaden
 Az iPeden futó iOS-es Microsoft Power BI-alkalmazás a mobil BI-élményt kínálja a Power BI-hoz, a Power BI jelentéskészítő kiszolgálóhoz és a Reporting Services-hez. Tekintse meg és kezelje helyszíni vagy felhőbeli céges irányítópultjait bárhonnan élő, érintésre reagáló mobil hozzáféréssel. Fedezze fel az adatokat az irányítópultokon, és ossza meg eredményeit munkatársaival e-mailben vagy szöveges üzenetben. 
@@ -31,11 +31,11 @@ Az iPeden futó iOS-es Microsoft Power BI-alkalmazás a mobil BI-élményt kín�
 Power BI-jelentéseket a Power BI Desktopban hozhat létre, majd közzéteheti őket:
 
 * [Közzéteheti őket a Power BI szolgáltatásban](service-get-started.md), és irányítópultokat hozhat létre.
-* [Közzéteheti őket helyszíni Microsoft Power BI jelentéskészítő kiszolgálón](report-server/quickstart-create-powerbi-report.md).
+* [Közzéteheti őket a helyszínen a Power BI jelentéskészítő kiszolgálón](report-server/quickstart-create-powerbi-report.md).
 
-Ez után az iPades Power BI-alkalmazásban dolgozhat az irányítópultjaival és jelentéseivel, akár helyben, akár a felhőben.
+Ez után az iPades Power BI-alkalmazásban dolgozhat az irányítópultjaival és jelentéseivel, akár a helyszínen, akár a felhőben.
 
-Ismerkedjen meg [a Power BI-mobilalkalmazások újdonságaival](mobile-whats-new-in-the-mobile-apps.md).
+Ismerje meg [a Power BI mobilalkalmazások újdonságait](mobile-whats-new-in-the-mobile-apps.md).
 
 ## <a name="download-the-ios-app-for-the-ipad"></a>IPadhez készült iOS-alkalmazás letöltése
 Az [iPad-alkalmazás letöltése](http://go.microsoft.com/fwlink/?LinkId=522062) az Apple App Store-ból.
@@ -138,4 +138,5 @@ Néhány további tevékenység következik, amelyeket az iPades alkalmazásban 
 ### <a name="see-also"></a>Lásd még
 * [Első lépések a Power BI-ban](service-get-started.md)  
 * Kérdése van? Kérdezze a [Power BI-közösséget!](http://community.powerbi.com/)
+
 

@@ -15,9 +15,9 @@ Az átjáró üzemmódjainak telepítésével kapcsolatban érdemes megjegyezni 
 
 * mindkettő típusú átjáró használatához 64 bites Windows operációs rendszer szükséges,
 * az átjárók tartományvezérlőre nem telepíthetőek,
-* egyazon számítógépre kettő helyszíni adatátjáró telepíthető, üzemmódonként (helyszíni vagy személyes) egy-egy, 
+* Egyazon számítógépre két helyszíni adatátjáró telepíthető, üzemmódonként (helyszíni vagy személyes) egy-egy. 
 * egyazon számítógépen nem futtatható két ugyanolyan módban üzemelő átjáró,
-* ha több különböző számítógépre is telepít helyszíni átjárókat, azokat egy közös Power BI átjárófelügyeleti felületen keresztül felügyelheti (a személyes átjárók kivételével – lásd a következő pontot)
+* Ha több különböző számítógépre is telepít helyszíni átjárókat, azokat egy közös Power BI átjárófelügyeleti felületen keresztül felügyelheti (a személyes átjárók kivételével – lásd a következő pontot)
 * Minden egyes Power BI-felhasználó esetében csak egyetlen személyes módú átjáró futtatható. Ha egy második személyes módú átjárót telepít egy adott felhasználó számára – akár ha egy másik számítógépen is –, a legutóbbi telepítés a korábbi telepítések helyébe lép.
 
 ![On-prem-data-gateway-install-powerbi](./media/gateway-onprem-install-include/on-prem-data-gateway-install-powerbi.png)

@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 316272f77b55fa7a803bffb596b7bad6da93cced
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 998f33eb2251814839a2d456da2624981e6114ab
+ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/12/2018
 ---
 # <a name="import-excel-workbooks-into-power-bi-desktop"></a>Excel-munkafüzetek importálása a Power BI Desktopba
 A **Power BI Desktop** segítségével egyszerűen importálhatja a Power Query lekérdezéseket, Power Pivot modelleket és Power View munkalapokat tartalmazó Excel-munkafüzeteket a Power BI Desktopba. A jelentéseket és a vizualizációkat a rendszer automatikusan létrehozza az Excel-munkafüzet alapján, és ha importálta, tovább is fejlesztheti ezeket a jelentéseket a Power BI Desktoppal a meglévő szolgáltatások és a Power BI Desktop havi frissítéseivel megjelenő új szolgáltatások segítségével.
@@ -41,7 +41,7 @@ Megjelenik egy ablak, ahol kiválaszthatja az importálni kívánt munkafüzetet
 > 
 > 
 
-Ha kiválasztott egy munkafüzetet, a Power BI Desktop elemzi a munkafüzetet, és egy Power BI Desktop-fájllá (.pbix) konvertálja. Fontos, hogy ez egy egyszeri esemény. Ha ezen lépéseket követve létrejött a Power BI Desktop-fájl, a továbbiakban már független az eredeti Excel-munkafüzettől, módosíthatja (és mentheti, megoszthatja) anélkül, hogy az hatással lenne az eredeti munkafüzetre.
+Ha kiválasztott egy munkafüzetet, a Power BI Desktop elemzi a munkafüzetet, és egy Power BI Desktop-fájllá (.pbix) konvertálja. Ez egy egyszeri esemény. Ha ezen lépéseket követve létrejött a Power BI Desktop-fájl, a továbbiakban már független az eredeti Excel-munkafüzettől, módosíthatja (és mentheti, megoszthatja) anélkül, hogy az hatással lenne az eredeti munkafüzetre.
 
 ![](media/desktop-import-excel-workbooks/importexceltopbi_2.png)
 
@@ -62,18 +62,17 @@ A Power BI Desktop az alábbi, az Excelben általában *objektumnak* nevezett el
 | --- | --- |
 | Power Query lekérdezések |A rendszer az összes exceles Power Query lekérdezést Power BI Desktop lekérdezéssé konvertálja. Ha az Excel-munkafüzetben meg vannak határozva lekérdezéscsoportok, a Power BI Desktop replikálja ugyanezt a szerkezetet. A rendszer minden kapcsolatot betölt, kivéve azokat, amelyeknek „Csak kapcsolat létrehozás” beállítása van az Excelben. A betöltési viselkedés testreszabható a Power BI Desktop **Lekérdezésszerkesztőjének** **Kezdőlapján** a **Tulajdonságok** párbeszédablakban. |
 | Power Pivot külső adatkapcsolatok |A rendszer az összes Power Pivot külső adatkapcsolatot Power BI Desktop lekérdezéssé konvertálja. |
-| Hivatkozott táblák vagy a munkafüzet aktuális táblái |Ha az Excel egyik munkalaptáblája az Adatmodellhez vagy egy lekérdezéshez kapcsolódik (az M *Táblázatból* vagy *Excel.CurrentWorkbook()* függvénye használatával), az alábbi lehetőségek vannak:     1. Importálhatja a táblát a Power BI Desktop-fájlba. Ez egy egyszeri pillanatfelvétel az adatokról, ezután nem szerkesztheti a tábla adatait a Power BI Desktopban. Az ezzel a lehetőséggel létrehozott táblákra vonatkozik egy 1 millió karakteres korlátozás (a teljes karakterszámot tekintve, oszlopfejlécekkel és cellákkal együtt).    2. Megőrizheti az eredeti munkafüzettel létesített kapcsolatot. Egy másik megoldás, ha megtartja a kapcsolatot az eredeti Excel-munkafüzettel, és a Power BI Desktop minden frissítéssel lekéri ennek a táblának a legfrissebb tartalmát, mint minden más, a Power BI Desktopban egy Excel-munkafüzeten létrehozott lekérdezés esetében. |
-| Adatmodell számított oszlopok, mértékek, adatkategóriák és kapcsolatok |Ezeket az adatmodell-objektumokat a rendszer a Power BI Desktop megfelelő objektumaivá konvertálja. Észreveheti, hogy vannak olyan adatkategóriák, amelyek a Power BI Desktopban még nem érhetők el, például a **Kép**. Ezekben az esetekben az Adatkategória információ alaphelyzetbe áll vissza a kérdéses oszlopoknál. |
-| Power View-munkalapok |Az Excel minden Power View-munkalapjához létrejön egy új jelentésoldal. Ezen jelentésoldalak neve és sorrendje megfelel az eredeti Excel-munkafüzetben találhatónak. |
+| Hivatkozott táblák vagy a munkafüzet aktuális táblái |Ha az Excel egyik munkalaptáblája az Adatmodellhez vagy egy lekérdezéshez kapcsolódik (az M *Táblázatból* vagy *Excel.CurrentWorkbook()* függvénye használatával), az alábbi lehetőségek vannak:
+  1. Importálhatja a táblát a Power BI Desktop-fájlba. Ez a táblázat egy egyszeri pillanatfelvétel az adatokról, ezután nem szerkesztheti a tábla adatait a Power BI Desktopban. Az ezzel a lehetőséggel létrehozott táblákra vonatkozik egy 1 millió karakteres korlátozás (a teljes karakterszámot tekintve, oszlopfejlécekkel és cellákkal együtt).    
+  2. Megőrizheti az eredeti munkafüzettel létesített kapcsolatot. Egy másik megoldás, ha megtartja a kapcsolatot az eredeti Excel-munkafüzettel, és a Power BI Desktop minden frissítéssel lekéri ennek a táblának a legfrissebb tartalmát, mint minden más, a Power BI Desktopban egy Excel-munkafüzeten létrehozott lekérdezés esetében. | | Adatmodellhez tartozó számított oszlopok, mértékek, KPI-k, adatkategóriák és kapcsolatok | Ezeket az adatmodell-objektumokat a rendszer a Power BI Desktop megfelelő objektumaivá konvertálja. Ügyeljen rá, hogy vannak olyan adatkategóriák, amelyek a Power BI Desktopban még nem érhetők el, például a **Kép**. Ezekben az esetekben az Adatkategória információ alaphelyzetbe áll vissza a kérdéses oszlopoknál. | | Power View-munkalapok |Az Excel minden Power View-munkalapjához létrejön egy új jelentésoldal. Ezen jelentésoldalak neve és sorrendje megfelel az eredeti Excel-munkafüzetben találhatónak. |
 
 ## <a name="are-there-any-limitations-to-importing-a-workbook"></a>Vonatkozik valamilyen korlátozás egy munkafüzet importálására?
 Csak néhány korlátozás vonatkozik egy munkafüzet Power BI Desktopba való importálására, ezek a következők:
 
 1. **Külső kapcsolatok az Analysis Services táblázatos modelljeihez:** Az Excel 2013-ban kapcsolat hozható létre az SQL Server Analysis Services táblázatos modellekkel, és létrehozhatók Power View jelentések ezeken a modelleken anélkül, hogy importálni kellene az adatokat. Ez a típusú kapcsolat jelenleg nem támogatott az Excel-munkafüzetek Power BI Desktopba való importálásának részeként, de a közeljövőben egy frissítést követően elérhetővé válik. Addig is ezeket a külső kapcsolatokat újra létre kell hoznia a Power BI Desktopban.
-2. **KPI-k:** Ez a típusú adatmodell-objektum jelenleg nem támogatott a Power BI Desktopban. Ezért a rendszer kihagyja a KPI-ket az Excel-munkafüzetek Power BI Desktopba való importálása során.
-3. **Hierarchiák:** Ez a típusú adatmodell-objektum jelenleg nem támogatott a Power BI Desktopban. Ezért a rendszer kihagyja a hierarchiákat az Excel-munkafüzetek Power BI Desktopba való importálása során.
-4. **Bináris adatokat tartalmazó oszlopok:** Ez a típusú adatmodell-objektum jelenleg nem támogatott a Power BI Desktopban. A bináris adatokat tartalmazó oszlopokat a rendszer eltávolítja a Power BI Desktopban kapott táblából.
-5. **Nem támogatott Power View elemek:** A Power View néhány szolgáltatása a Power BI Desktopban még nem érhető el. Ilyenek a témák és bizonyos típusú vizualizációk (pontdiagram lejátszási tengellyel, részletes elemzési viselkedések stb.). Ezek a nem támogatott vizualizációk *Nem támogatott vizualizáció* üzeneteket eredményeznek a Power BI Desktop jelentés megfelelő helyein. Ezek törölhetők vagy igény szerint újrakonfigurálhatók.
-6. **A Power Queryben a** ***Táblázatból*** **függvényt vagy az M-ben** ***Excel.CurrentWorkbook*** **függvényt használó névvel ellátott tartományok:** Ezeknek a névvel ellátott tartományoknak a Power BI Desktopba való importálása jelenleg nem támogatott, de a Power BI Desktop egyik tervezett frissítése tartalmazni fogja. Jelenleg a rendszer ezeket a névvel ellátott tartományokat egy külső Excel-munkafüzetre mutató kapcsolatként tölti be a Power BI Desktopba.
-7. **PowerPivot – SSRS:** Az SQL Server Reporting Services (SSRS) felé mutató PowerPivot külső kapcsolatok jelenleg nem támogatottak, mert az adatforrás jelenleg nem érhető el a Power BI Desktopban.
+2. **Hierarchiák:** Ez a típusú adatmodell-objektum jelenleg nem támogatott a Power BI Desktopban. Ezért a rendszer kihagyja a hierarchiákat az Excel-munkafüzetek Power BI Desktopba való importálása során.
+3. **Bináris adatokat tartalmazó oszlopok:** Ez a típusú adatmodell-objektum jelenleg nem támogatott a Power BI Desktopban. A bináris adatokat tartalmazó oszlopokat a rendszer eltávolítja a Power BI Desktopban kapott táblából.
+4. **Nem támogatott Power View elemek:** A Power View néhány szolgáltatása a Power BI Desktopban még nem érhető el. Ilyenek a témák és bizonyos típusú vizualizációk (pontdiagram lejátszási tengellyel, részletes elemzési viselkedések stb.). Ezek a nem támogatott vizualizációk *Nem támogatott vizualizáció* üzeneteket eredményeznek a Power BI Desktop jelentés megfelelő helyein. Ezek törölhetők vagy igény szerint újrakonfigurálhatók.
+5. **A Power Queryben a** ***Táblázatból*** **függvényt vagy az M-ben** ***Excel.CurrentWorkbook*** **függvényt használó névvel ellátott tartományok:** Ezeknek a névvel ellátott tartományoknak a Power BI Desktopba való importálása jelenleg nem támogatott, de a Power BI Desktop egyik tervezett frissítése tartalmazni fogja. Jelenleg a rendszer ezeket a névvel ellátott tartományokat egy külső Excel-munkafüzetre mutató kapcsolatként tölti be a Power BI Desktopba.
+6. **PowerPivot – SSRS:** Az SQL Server Reporting Services (SSRS) felé mutató PowerPivot külső kapcsolatok jelenleg nem támogatottak, mert az adatforrás jelenleg nem érhető el a Power BI Desktopban.
 

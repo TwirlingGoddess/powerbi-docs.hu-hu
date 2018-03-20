@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 1b8b6dc3932ec4bc1eddd24c91a81a0eaafae479
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 34e756a661ec580e2c0eea8fc53378566eccf305
+ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/12/2018
 ---
 # <a name="run-r-scripts-in-power-bi-desktop"></a>R-szkriptek futtatása a Power BI Desktopban
 R-szkripteket futtathat közvetlenül a **Power BI Desktopban** is, és az így kapott adatkészleteket importálhatja Power BI Desktop-adatmodellekbe.
@@ -41,14 +41,14 @@ A szkript a Power BI Desktopban való futtatásához mindenképp ellenőrizze, h
 Az R-szkriptek előkészítésére és a Power BI Desktopban való futtatására vonatkozik néhány korlátozás:
 
 * Csak az adatkeretek lesznek importálva, ezért a Power BI-ba importálni kívánt adatokat mindenképp meg kell jeleníteni egy adatkeretben.
-* A Complex és Vector típusú oszlopok nem lesznek importálva, a helyükön a létrejött táblában hibaértékek szerepelnek.
+* A Complex és Vector típusú oszlopok nem lesznek importálva, a helyükön a létrejött táblában hibaértékek szerepelnek
 * Az N/A értékek a Power BI Desktopban NULL értékekké lesznek átalakítva.
 * A 30 percnél hosszabb ideig futó R-szkriptek időtúllépési hibát adnak vissza.
 * Ha az R-szkriptben interaktív hívás van megadva (például felhasználói válaszra vár), az megszakítja a szkript futását.
 * Az R-szkriptekben a munkakönyvtárak megadásánál teljes és nem relatív elérési utat *kell* megadni.
 
 ### <a name="run-your-r-script-and-import-data"></a>R-szkriptek futtatása és az adatok importálása
-1. A Power BI Desktopban az R-szkriptek adatösszekötője az **Adatok lekérése** menüpontban található. Az R-szkript futtatásához válassza az **Adatok lekérése &gt; Továbbiak...**, majd az **Egyéb &gt; R-szkript** lehetőséget, amint az az alábbi ábrán is látható.
+1. A Power BI Desktopban az R-szkriptek adatösszekötője az **Adatok lekérése** menüpontban található. Az R-szkript futtatásához válassza az **Adatok lekérése &gt; Továbbiak...**, majd az **Egyéb &gt; R-szkript** lehetőséget, amint az az alábbi ábrán is látható:
    
    ![](media/desktop-r-scripts/r-scripts-1.png)
 2. Ha az R telepítve van a helyi gépen, a rendszer a legfrissebb telepített verziót választja R-motorként. Egyszerűen másolja a szkriptet a szkriptablakba, és kattintson az **OK** gombra.

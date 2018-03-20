@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/13/2017
 ms.author: maggies
-ms.openlocfilehash: bd96466a8a8c19a495540b93a512cb62746a6837
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 407f4d8c2faf26b9837b24318c24c118786e21ae
+ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-android-tablets"></a>Az androidos táblagépekhez készült Power BI mobilalkalmazás használatának első lépései
 Az androidos táblagépekhez készült Power BI mobilalkalmazás mobil BI-élményt biztosít a Power BI-hoz, a Power BI jelentéskészítő kiszolgálóhoz és a Reporting Serviceshez. Az élő, érintéssel vezérelhető mobil hozzáférés révén bárhonnan megtekintheti és kezelheti vállalata helyszíni és felhőbeli irányítópultjait. Böngészheti az irányítópultokon szereplő adatokat, és megoszthatja azokat kollégáival e-mail vagy szöveges üzenet formájában. 
@@ -142,3 +142,4 @@ Az androidos táblagépekhez készült Power BI alkalmazásban többek között 
 * [Töltse le az Android-alkalmazást](http://go.microsoft.com/fwlink/?LinkID=544867) az Androidos alkalmazás-áruházból.
 * [Első lépések a Power BI-ban](service-get-started.md)
 * Kérdése van? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)
+

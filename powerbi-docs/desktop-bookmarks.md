@@ -1,5 +1,5 @@
 ---
-title: "Könyvjelzők használata a Power BI-ban (előzetes verzió)"
+title: "Könyvjelzők használata a Power BI-ban"
 description: "A Power BI Desktop könyvjelzői segítségével elmentheti a jelentések nézeteit és beállításait, valamint történetszerű bemutatókat hozhat létre"
 services: powerbi
 documentationcenter: 
@@ -15,16 +15,16 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/24/2018
+ms.date: 03/06/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 3a56983f48d80cf39b89958db4327e3632ee733e
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 706662e9fd7c6bd41015b286a7b7f1025e40a15e
+ms.sourcegitcommit: 85d18d9f11a4ce4d4ed65e4544d13da6c2d9b1d4
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/08/2018
 ---
-# <a name="use-bookmarks-to-share-insights-and-build-stories-in-power-bi-preview"></a>Elemzések megosztása és történetek felépítése a Power BI könyvjelzőivel (előzetes verzió)
+# <a name="use-bookmarks-to-share-insights-and-build-stories-in-power-bi"></a>Elemzések megosztása és történetek felépítése a Power BI könyvjelzőivel 
 A Power BI-ban a **könyvjelzők** használatával rögzítheti az egyes jelentésoldalak aktuális nézetkonfigurációját, beleértve a szűréseket és a vizualizációk állapotát, hogy később egyszerűen a könyvjelzőre kattintva visszaállíthassa az adott állapotot. 
 
 Egy tetszőleges sorrendbe rendezett teljes könyvjelzőgyűjteményt is létrehozhat, majd ezeket sorban megnyitva egy olyan bemutatót állíthat össze, amelyben lényegi összefüggések sorozatát mutathatja be, vagy előadhatja azt a történetet, amelyet a vizualizációkkal és a jelentésekkel be szeretne mutatni. 
@@ -33,12 +33,14 @@ Egy tetszőleges sorrendbe rendezett teljes könyvjelzőgyűjteményt is létreh
 
 A könyvjelzőknek rengeteg felhasználási módja létezik. A segítségükkel nyomon követheti, hogy hol tart épp a jelentések készítésében (a könyvjelzők hozzáadása, törlése és átnevezése nem bonyolult dolog), illetve létrehozhat belőlük egy PowerPoint-szerű bemutatót is, amely a könyvjelzőkön végigléptetve bemutat egy történetet a jelentésen keresztül. Természetesen más alkalmazási területek is elképzelhetőek aszerint, hogy Ön mire szeretné leginkább használni a könyvjelzőket.
 
-### <a name="enable-the-bookmarks-preview"></a>A könyvjelzők előzetes verziójának engedélyezése
-Az új **könyvjelzők** funkció a **2017. októberi** kiadással vált elérhetővé a **Power BI Desktopban**, valamint a könyvjelző-kompatibilis jelentésekben a **Power BI szolgáltatásban**. Ennek az előzetes verziójú funkciónak az engedélyezéséhez válassza a **Fájl > Lehetőségek és beállítások > Beállítások > Előzetes verziójú funkciók** lehetőséget, majd jelölje be a **Könyvjelzők** elem melletti jelölőnégyzetet. Miután ezt beállította, újra kell indítania a Power BI Desktopot.
+### <a name="enable-the-bookmarks-preview-versions-prior-to-march-2018"></a>A könyvjelzők előzetes verziójának engedélyezése (a 2018. márciusinál korábbi verziók esetében)
+A Power BI Desktop 2018. márciusi verziójától kezdve a könyvjelzőkezelési funkció általánosan elérhető. 
+
+Mindig ajánlott a legújabb kiadásra frissíteni. Ha mégis a Power BI Desktop korábbi verzióját használja, a **könyvjelzőkezelési** funkció a **2017. októberi** kiadással vált elérhetővé a **Power BI Desktopban**, valamint a könyvjelző-kompatibilis jelentésekben a **Power BI szolgáltatásban**. Az előzetes verziójú funkció engedélyezéséhez válassza a **Fájl > Lehetőségek és beállítások > Beállítások > Előzetes verziójú funkciók** lehetőséget, majd jelölje be a **Könyvjelzők** elem melletti jelölőnégyzetet. 
 
 ![A könyvjelzők engedélyezése a Beállítások ablakban](media/desktop-bookmarks/bookmarks_02.png)
 
-Miután ezt beállította, újra kell indítania a **Power BI Desktopot**.
+A könyvjelzőkezelési funkció előzetes verziójának engedélyezése után újra kell indítania a **Power BI Desktopot**.
 
 ## <a name="using-bookmarks"></a>A könyvjelzők használata
 A könyvjelzők használatához lépjen a **Nézet** menüszalagra, majd jelölje be a **Könyvjelzők panel** jelölőnégyzetét. 
@@ -147,14 +149,13 @@ A **Könyvjelzők panel** ugyanúgy működik a **Power BI szolgáltatásban**, 
 Ügyeljen arra, hogy a könyvjelzők között a könyvjelző szürke címsorán léptethet, és nem a fekete nyilakkal, ez utóbbiak ugyanis a jelentésoldalak, és nem a könyvjelzők közötti váltásra szolgálnak.
 
 ## <a name="limitations-and-considerations"></a>Korlátozások és szempontok
-A **könyvjelzők** jelenlegi előzetes verziójú kiadásának a használatára vonatkozik néhány korlátozás és egyéb szempont.
+A **könyvjelzők** aktuális kiadásának használatára vonatkozik néhány korlátozás és egyéb szempont.
 
 * A szűrők *forrásaként* szolgáló egyéni vizualizációkon a könyvjelzők nem használhatók. Ha egyéni vizualizációkkal szűri egy oldal elemeit (például egy gombsorszeletelővel), és aztán egy könyvjelzővel megint megnyitja az oldalt, az oldal ugyan szűrve lehet, de az egyéni vizualizáció nem frissül, és nem mutatja, mi szerint van az oldal szűrve. 
 * A könyvjelzők létrehozásakor a jelentéspanel keresztkiemelési állapota *nem* lesz mentve. 
 * Ha egy vizualizációt a könyvjelző létrehozását követően ad hozzá a jelentésoldalhoz, a vizualizáció az alapértelmezett állapotában jelenik meg. Ez azt is jelenti, hogy ha egy olyan oldalra vesz fel szeletelőt, ahol már hozott létre könyvjelzőket, a szeletelő az alapértelmezett állapotának megfelelően viselkedik majd.
 * Ha a vizualizációkat a könyvjelzők létrehozását követően áthelyezi, a változást a könyvjelzők lekövetik. 
 * Ahhoz, hogy a könyvjelző funkció elérhető legyen a **Power BI szolgáltatásban**, a jelentésben már a közzététel idején lennie *kell* legalább egy könyvjelzőnek. Ez minden közzétett jelentésre külön-külön igaz.
-* Könyvjelzők a [**Jelentéskészítő kiszolgálóhoz készült Power BI Desktopban**](report-server/quickstart-create-powerbi-report.md) egyelőre nem használhatók, mivel ez a funkció jelenleg előzetes verzióban érhető el.
 
 ## <a name="next-steps"></a>Következő lépések
 A könyvjelzőkhöz hasonló vagy azokkal együtt használható funkciókkal kapcsolatos részletesebb információkat az alábbi cikkekben talál:

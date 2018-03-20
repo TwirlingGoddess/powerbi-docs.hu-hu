@@ -1,6 +1,6 @@
 ---
-title: "Power BI Embedded munkaterület-csoport tartalmainak migrálása a Power BI-ba"
-description: "Itt elsajátíthatja, hogyan migrálhatja az adatokat a Power BI Embeddedből a Power BI szolgáltatásba, és hogyan aknázhatja ki az alkalmazásokba való beágyazás nyújtotta fejlett lehetőségeket."
+title: "Power BI-munkaterületcsoport tartalmainak migrálása a Power BI-ba"
+description: "A cikk azt mutatja be, hogyan migrálhatja az adatokat a Power BI-munkaterületcsoportokból a Power BI Embeddedbe, és hogyan aknázhatja ki az alkalmazásokba való beágyazás nyújtotta fejlett lehetőségeket."
 services: powerbi
 documentationcenter: 
 author: markingmyname
@@ -10,37 +10,37 @@ editor:
 tags: 
 qualityfocus: no
 qualitydate: 
-ms.service: powerbi
+ms.Embedded: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 08/24/2018
+ms.date: 03/06/2018
 ms.author: maghan
-ms.openlocfilehash: 59d395d11839903108f811ff4a6022ea04cadc8f
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: c8ad315976dd1ca47d6b4dc2fd9a191a11e044c7
+ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/08/2018
 ---
-# <a name="how-to-migrate-power-bi-embedded-workspace-collection-content-to-power-bi"></a>Power BI Embedded munkaterület-csoport tartalmainak migrálása a Power BI-ba
-Itt elsajátíthatja, hogyan migrálhatja az adatokat a Power BI Embeddedből a Power BI szolgáltatásba, és hogyan aknázhatja ki az alkalmazásokba való beágyazás nyújtotta fejlett lehetőségeket.
+# <a name="how-to-migrate-power-bi-workspace-collection-content-to-power-bi-embedded"></a>Power BI-munkaterületcsoport tartalmainak migrálása a Power BI Embeddedbe
+A cikk azt mutatja be, hogyan migrálhatja az adatokat a Power BI-munkaterületcsoportokból a Power BI Embeddedbe, és hogyan aknázhatja ki az alkalmazásokba való beágyazás nyújtotta fejlett lehetőségeket.
 
-A Microsoft nemrégiben [bejelentette az új kapacitásalapú Power BI Premium licencelési modellt](https://powerbi.microsoft.com/blog/microsoft-accelerates-modern-bi-adoption-with-power-bi-premium/), amelynek segítségével a felhasználók rugalmasabban érhetik el, oszthatják meg és terjeszthetik a tartalmakat. Az ajánlat emellett növeli a Power BI szolgáltatás méretezhetőségét és teljesítményét.
+A Microsoft nemrégiben [bejelentette az új, kapacitásalapú Power BI Embedded licencelési modellt](https://powerbi.microsoft.com/en-us/blog/power-bi-embedded-capacity-based-skus-coming-to-azure/), amelynek segítségével a felhasználók rugalmasabban érhetik el, oszthatják meg és terjeszthetik a tartalmakat. Az ajánlat emellett növeli a méretezhetőséget és a teljesítményt.
 
-A Power BI Premium bevezetésével a Power BI Embedded és a Power BI szolgáltatás egyre közelebb kerül egymáshoz, ezáltal is megkönnyítve a Power BI tartalmak beágyazását az alkalmazásokba. Ez azt jelenti, hogy a tartalmak (például irányítópultok, átjárók és alkalmazás-munkaterületek) beágyazásához egyetlen egységes API-felület, konzisztens funkciókészlet és a Power BI legújabb szolgáltatásai használhatók. A jövőben a Power BI Desktoppal létrehozott telepítések áthelyezhetőek lesznek majd a Power BI Premium üzemi környezetébe, amely 2017 második negyedévének végén lesz majd elérhető.
+A Power BI Embeddeddel a tartalmak (például irányítópultok, átjárók és alkalmazás-munkaterületek) beágyazásához egyetlen egységes API-felület, konzisztens funkciókészlet és a Power BI legújabb szolgáltatásai használhatók. A továbbiakban lehetősége van a Power BI Desktopban elkezdeni a munkát, az üzembe helyezést pedig elvégezheti a Power BI Embedded használatával.
 
-A jelenlegi Power BI Embedded szolgáltatás az egybevont szolgáltatás általános kiadását követően korlátozott ideig továbbra is elérhető lesz: a Nagyvállalati Szerződéssel rendelkező ügyfelek a fennálló szerződésük lejártáig továbbra is használhatják, a Power BI Embedded megoldást a közvetlenül vagy CSP csatornákon beszerző ügyfelek pedig a Power BI Premium általános kiadásától számított egy évig használhatják.  A cikk útmutatást ad az Azure szolgáltatásról a Power BI szolgáltatásra való átálláshoz, valamint tájékoztatást nyújt az alkalmazás várható változásairól.
+A jelenlegi Power BI-munkaterületcsoport már csak korlátozott ideig lesz elérhető. Nagyvállalati Szerződéssel rendelkező ügyfelek szerződésük lejáratáig kapnak hozzáférést hozzá, míg azok, akik a Direkt vagy CSP-csatornákon keresztül szerezték be a Power BI-munkaterületcsoportokat, a Power BI Embedded általános megjelenésétől számított egy évig férhetnek hozzá a munkaterület-csoportokhoz.  A cikk útmutatást ad a Power BI-munkaterületcsoportok migrálásához az új Power BI Embeddedbe, valamint tájékoztatást nyújt az alkalmazás várható változásairól.
 
 > [!IMPORTANT]
-> Bár a migrálás függőséget jelent a Power BI szolgáltatástól, az alkalmazást használó ügyfelekre **beágyazási token** használata esetén nem vonatkozik függőség. Nem kell bejelentkezniük a Power BI szolgáltatásba a beágyazott tartalmak megtekintéséhez az alkalmazásban. Ezzel a beágyazási megközelítéssel kiszolgálhatja a nem Power BI-felhasználókat.
+> Bár a migrálás függőséget jelent a Power BI Embeddedtől, az alkalmazást használó ügyfelekre **beágyazási token** használata esetén nem vonatkozik Power BI-függőség. Nem kell bejelentkezniük a Power BI szolgáltatásba a beágyazott tartalmak megtekintéséhez az alkalmazásban. Ezzel a beágyazási megközelítéssel kiszolgálhatja az Embedded nem Power BI-felhasználóit.
 > 
 > 
 
 ![](media/migrate-from-powerbi-embedded/powerbi-embed-flow.png)
 
 ## <a name="prepare-for-the-migration"></a>Előkészületek a migráláshoz
-A Power BI Embedded Azure szolgáltatásból a Power BI szolgáltatásba való migrálásának előkészítéséhez néhány dolgot végre kell hajtania. Szükség lesz egy elérhető bérlőre, valamint egy Power BI Pro licenccel rendelkező felhasználóra.
+A Power BI-munkaterület-csoport Power BI Embeddedbe való migrálásának előkészítéséhez néhány dolgot végre kell hajtania. Szükség lesz egy elérhető bérlőre, valamint egy Power BI Pro licenccel rendelkező felhasználóra.
 
 1. Bizonyosodjon meg róla, hogy rendelkezésre áll egy Azure Active Directory (Azure AD) bérlő.
    
@@ -67,7 +67,7 @@ A következő fiókoknak létezniük kell a bérlőn.
 2. A tartalmat létrehozó elemzők fiókjai.
    
     Ezeket a felhasználókat igény szerint hozzá kell rendelni az alkalmazás-munkaterületekhez.
-3. Az alkalmazás *fő* felhasználói vagy szolgáltatásfiókja.
+3. Az alkalmazás *fő* felhasználói vagy Embedded-fiókja.
    
     A fiók hitelesítő adatait az alkalmazások háttérrendszere tárolja majd és használja az Azure AD-token beszerzéséhez a Power BI API-k használatához. A rendszer ennek a fióknak a használatával hozza létre a beágyazási tokent az alkalmazáshoz. A fióknak a beágyazáshoz létrehozott alkalmazás-munkaterületeken is rendszergazdai jogosultsággal kell rendelkeznie.
    
@@ -100,16 +100,16 @@ A Power BI alkalmazás-munkaterületek létrehozásához szükség van egy Pro l
 > 
 
 ## <a name="content-migration"></a>Tartalommigrálás
-A tartalmak migrálása a munkaterület-csoportokból a Power BI szolgáltatásba az aktuális megoldással párhuzamosan végezhető, így nem okoz állásidőt.
+A tartalmak migrálása a munkaterület-csoportokból a Power BI Embeddedbe az aktuális megoldással párhuzamosan végezhető, így nem okoz állásidőt.
 
-A **migrálási eszköz** szabadon használható a Power BI Embedded-tartalmak a Power BI szolgáltatásba másolásához. Ez különösen akkor hasznos, ha sok tartalommal rendelkezik. További információ: [Power BI Embedded migrálási eszköz](migrate-tool.md).
+A **migrálási eszköz** szabadon használható a Power BImunkaterületcsoportok tartalmának a Power BI Embeddedbe másolásához. Ez különösen akkor hasznos, ha sok tartalommal rendelkezik. További információ: [Power BI Embedded migrálási eszköz](migrate-tool.md).
 
 A tartalommigrálás leginkább két API-n keresztül történik.
 
 1. Download PBIX: ez az API a Power BI-ba 2016 októbere után feltöltött PBIX-fájlok letöltéséhez használható.
 2. Import PBIX: ez az API bármilyen PBIX-fájl a Power BI-ba való feltöltéséhez használható.
 
-Néhány kapcsolódó kódrészletért lásd: [Tartalmak a Power BI Embeddedbe való migrálásához használható kódrészletek](migrate-code-snippets.md).
+Néhány kapcsolódó kódrészletért lásd: [Tartalmak a Power BI-munkaterületcsoportokból való migrálásához használható kódrészletek](migrate-code-snippets.md).
 
 ### <a name="report-types"></a>Jelentéstípusok
 A jelentéseknek több típusa létezik, és mindegyikhez valamelyest eltérő migrálási folyamat szükséges.
@@ -160,7 +160,7 @@ Bizonyos kerülő megoldásokkal lehetséges migrálni a Push API-val készítet
 6. Kösse újra a jelentést a Push API-val készített adatkészlethez.
 
 ## <a name="create-and-upload-new-reports"></a>Új jelentések létrehozása és feltöltése
-A Power BI Embedded Azure-szolgáltatásból migrált tartalmak mellett a Power BI Desktop használatával is létrehozhatja a jelentéseket és adatkészleteket, majd közzéteheti ezeket a jelentéseket egy alkalmazás-munkaterületen. A jelentéseket közzétevő végfelhasználónak Power BI Pro-licencre van szüksége az alkalmazás-munkaterületen történő közzétételhez.
+A Power BI-munkaterületcsoportokból migrált tartalmak mellett a Power BI Desktop használatával is létrehozhatja a jelentéseket és adatkészleteket, majd közzéteheti ezeket a jelentéseket egy alkalmazás-munkaterületen. A jelentéseket közzétevő végfelhasználónak Power BI Pro-licencre van szüksége az alkalmazás-munkaterületen történő közzétételhez.
 
 ## <a name="rebuild-your-application"></a>Az alkalmazás újrabuildelése
 1. Power BI REST API-k használatához és a powerbi.com szolgáltatáson belüli jelentéshely megadásához módosítania kell az alkalmazást.
@@ -174,30 +174,29 @@ Az alkalmazásban az abban kezelt felhasználókat leképezi egy, az alkalmazás
 Amikor kész átállni éles üzemre, a következőket kell tennie.
 
 * Ha külön bérlőt használ a fejlesztéshez, gondoskodnia kell róla, hogy az alkalmazás-munkaterületek, valamint az irányítópultok és a jelentések elérhetők az éles környezetben. Arra is figyelnie kell, hogy az alkalmazást az Azure AD-ben az éles környezeti bérlőhöz hozza létre, és hozzárendelje a megfelelő alkalmazásjogosultságokat, amint azt az 1. lépés tárgyalja.
-* Vásároljon az igényeinek megfelelő kapacitást. Az [Embedded elemzési kapacitásának tervezésével kapcsolatos tanulmány](https://aka.ms/pbiewhitepaper) további információt tartalmaz a szükséges kapacitás mennyiségéről és típusairól. Kapacitást az Azure-ban [vásárolhat](https://portal.azure.com/#create/Microsoft.PowerBIDedicated).
+* Vásároljon az igényeinek megfelelő kapacitást. A [Power BI Embedded elemzési kapacitásának tervezésével kapcsolatos tanulmány](https://aka.ms/pbiewhitepaper) további információt tartalmaz a szükséges kapacitás mennyiségéről és típusairól. Kapacitást az Azure-ban [vásárolhat](https://portal.azure.com/#create/Microsoft.PowerBIDedicated).
 * Az alkalmazás-munkaterületet a Speciális felületen módosíthatja és rendelheti hozzá a Premium kapacitásokhoz.
  
-    ![](media/migrate-from-powerbi-embedded/powerbi-embedded-premium-capacity.png)
+    ![](media/migrate-from-powerbi-embedded/powerbi-embedded-premium-capacity02.png)
     
-* Helyezze üzembe a frissített alkalmazást az éles környezetben, és kezdje beágyazni a jelentéseket a Power BI szolgáltatásból.
+* Helyezze üzembe a frissített alkalmazást az éles környezetben, és kezdje beágyazni a jelentéseket a Power BI Embeddedből.
 
 ## <a name="after-migration"></a>A migrálás után
 Takarítson az Azure-ban.
 
-* Távolítsa el a telepített megoldás összes már nem használt munkaterületét a Power BI Embedded Azure-szolgáltatásában.
+* Távolítsa el a telepített megoldás összes már nem használt munkaterületét a Power BI-munkaterületcsoport Azure-szolgáltatásában.
 * Törölje az Azure-ból az összes munkaterület-csoportot.
 
 ## <a name="next-steps"></a>További lépések
-[Beágyazás a Power BI-jal](embedding.md)  
-[Power BI Embedded migrálási eszköz](migrate-tool.md)  
-[Kódrészletek a tartalmak Power BI Embeddedből való migrálásához](migrate-code-snippets.md)  
+[Beágyazás a Power BI szolgáltatással](embedding.md)  
+[Migrálási eszköz a Power BI-munkaterületcsoporthoz](migrate-tool.md)  
+[Kódrészletek a tartalmak Power BI-munaterületcsoportból való migrálásához](migrate-code-snippets.md)  
 [Power BI-irányítópultok, -jelentések és -csempék beágyazása](embedding-content.md)  
 [Power BI Premium – pontosan mi is ez?](../service-premium.md)  
 [JavaScript API Git-adattár](https://github.com/Microsoft/PowerBI-JavaScript)  
 [Power BI C# Git-adattár](https://github.com/Microsoft/PowerBI-CSharp)  
 [JavaScript beágyazási minta](https://microsoft.github.io/PowerBI-JavaScript/demo/)  
-[Embedded elemzési kapacitásának tervezésével kapcsolatos tanulmány](https://aka.ms/pbiewhitepaper)  
+[Munkaterület-csoportok elemzési kapacitásának tervezésével kapcsolatos tanulmány](https://aka.ms/pbiewhitepaper)  
 [Power BI Premium-tanulmány](https://aka.ms/pbipremiumwhitepaper)  
 
 További kérdései vannak? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)
-

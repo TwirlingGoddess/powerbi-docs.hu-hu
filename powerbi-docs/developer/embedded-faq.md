@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/15/2018
+ms.date: 03/07/2018
 ms.author: maghan
-ms.openlocfilehash: 9d387208b1ace0b0f0fd700b471e07e3b2584883
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: 52ff1095c063be867354a23e0e8e4908a4b4e1d7
+ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Gyakori kérdések – Power BI Embedded
 
@@ -66,7 +66,7 @@ A Power BI Embedded már elérhető az Azure-ban.
 
 ## <a name="technical"></a>Műszaki
 
-### <a name="what-is-the-difference-between-the-a-skus-in-azure-and-em-skus-in-office-365"></a>Mi a különbség az Azure-beli A termékváltozatok és az Office 365-beli EM termékváltozatok között?
+### <a name="what-is-the-difference-between-the-a-skus-in-azure-and-the-em-skus-in-office-365"></a>Mi a különbség az Azure-beli „A” termékváltozatok és az Office 365-beli „EM” termékváltozatok között?
 
 A PowerBI.com egy vállalati megoldás, amely egy szolgáltatott szoftverként számos képességet kínál, többek között közösségi együttműködés lehetőségét és e-mailekre való feliratkozást.
 
@@ -128,6 +128,10 @@ A PowerBI.com használatával munkaterületeket rendelhet a Power BI Embedded-ka
 
 Délkelet-Ausztrália, Dél-Brazília, Közép-Kanada, USA 2. keleti régiója, Nyugat-India, Kelet-Japán, USA északi középső régiója, Észak-Európa, USA déli középső régiója, Délkelet-Ázsia, Egyesült Királyság déli régiója, Nyugat-Európa, az USA nyugati régiója és az USA 2. nyugati régiója.
 
+### <a name="what-type-of-content-pack-data-can-be-embedded"></a>Milyen típusú tartalomcsomagot lehet beágyazni?
+
+A tartalomcsomagok adathalmazaiból készült **irányítópultokat** és **csempéket** *nem lehet beágyazni*, a tartalomcsomagok adathalmazaiból készült **jelentések** viszont *beágyazhatók*.
+
 ## <a name="licensing"></a>Licencelés
 
 ### <a name="how-do-i-purchase-power-bi-embedded"></a>Hogyan tudom megvásárolni a Power BI Embeddedet?
@@ -170,7 +174,7 @@ Mivel a Power BI Embedded az Azure része, így használhatja ezt a szolgáltat�
 
 ### <a name="where-is-power-bi-embedded-available-us-government-germany-china-what-is-the-timing"></a>Hol érhető el a Power BI Embedded? Az Egyesül Államok kormányzati szervei számára? Németországban? Kínában? Mi az ütemezés?
 
-A Power BI Embedded az Azure kereskedelmi felhőiben lesz általánosan elérhető.  A független felhőkben való elérhetőség a későbbiekben várható.
+A Power BI Embedded az Azure kereskedelmi felhőiben és a US Government felhőkörnyezetben érhető el.  A szuverén felhőkben való elérhetőség Németországban és Kínában a későbbiekben várható.
 
 ### <a name="is-power-bi-embedded-available-for-non-profits-and-educational"></a>Létezik non-profit vagy oktatási intézményeknek szánt Power BI Embedded?
 

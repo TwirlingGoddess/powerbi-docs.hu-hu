@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 6308b2e201b669bf17ee636677232b365d62e332
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 4126a5f4fc7b8a398d39cad7c14e87e179ab3175
+ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/12/2018
 ---
 # <a name="connect-to-an-oracle-database"></a>Kapcsolódás Oracle-adatbázishoz
 Ha egy Oracle-adatbázist a **Power BI Desktophoz** szeretne csatlakoztatni, előbb telepítenie kell a megfelelő Oracle ügyfélszoftvert a Power BI Desktopot futtató számítógépre. Az Oracle ügyfélszoftver szükséges verziója attól függ, hogy a Power BI Desktop melyik verzióját telepítette – a **32 bites** verziót vagy a **64 bites** verziót.
@@ -30,7 +30,7 @@ Ha egy Oracle-adatbázist a **Power BI Desktophoz** szeretne csatlakoztatni, el�
 **Támogatott verziók**: Oracle 9 és újabb, Oracle ügyfélszoftver 8.1.7-es és újabb.
 
 ## <a name="determining-which-version-of-power-bi-desktop-is-installed"></a>A telepített Power BI Desktop-verzió meghatározása
-A telepített Power BI Desktop verziójának meghatározásához válassza a **Fájl > Névjegy** elemet, majd tekintse meg a **Verzió:** sort. A következő képen a Power BI Desktop 64 bites verziója van telepítve:
+A telepített Power BI Desktop verziójának meghatározásához válassza a **Fájl > Súgó > Névjegy** elemet, majd tekintse meg a **Verzió:** sort. A következő képen a Power BI Desktop 64 bites verziója van telepítve:
 
 ![](media/desktop-connect-oracle-database/connect-oracle-database_1.png)
 
@@ -44,7 +44,7 @@ A Power BI Desktop **64 bites** verzióihoz a következő hivatkozással töltse
 * [64 bites ODAC 12c 4-es kiadás (12.1.0.2.4) Windows x64 rendszerhez](http://www.oracle.com/technetwork/database/windows/downloads/index-090165.html)
 
 ## <a name="connect-to-an-oracle-database"></a>Kapcsolódás Oracle-adatbázishoz
-A megfelelő Oracle ügyfélillesztő telepítése után csatlakozhat az Oracle-adatbázisokhoz. A következő lépésekkel hozhatja létre a kapcsolatot.
+A megfelelő Oracle ügyfélillesztő telepítése után csatlakozhat az Oracle-adatbázisokhoz. A kapcsolat létrehozásához az alábbi lépéseket szükséges elvégezni:
 
 1. Az Adatok lekérése ablakban válassza az **Adatbázis > Oracle-adatbázis** lehetőséget
    

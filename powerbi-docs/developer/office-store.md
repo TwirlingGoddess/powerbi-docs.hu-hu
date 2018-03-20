@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/5/2017
 ms.author: maghan
-ms.openlocfilehash: 761f6a85d0f975f4178adfce830a6c73578aec73
-ms.sourcegitcommit: 20dd809a2ef8c0d6c6f677baadb5f57f41438cbe
+ms.openlocfilehash: 5dc5cda126943bbb6da25e384b789c169187b249
+ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/23/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="publish-custom-visuals-to-appsource"></a>Egyéni vizualizációk közzététele az AppSource-ban
 Megtudhatja, hogyan teheti közzé egyéni vizualizációit az AppSource-ban, amelyeket aztán mások is felfedezhetnek és használhatnak. office
@@ -38,7 +38,7 @@ Miután végzett az egyéni vizualizáció kódolásával és tesztelésével, �
 | Elem | Kötelező | Leírás |
 | --- | --- | --- |
 | Pbiviz csomag, amely az összes kötelező metaadatot tartalmazza |Igen |Vizualizáció neve<br>Megjelenített név<br>GUID<br>Verzió<br>Leírás<br>Szerző neve és e-mail-címe |
-| Minta .pbix jelentésfájl |Igen |Ahhoz, hogy kellően be tudja mutatni a vizualizációt, segítenie kell a felhasználókat a részletei megismerésében. Érdemes kihangsúlyozni, hogy milyen értéket nyújt a vizualizáció a felhasználó számára, és érdemes felhozni a használatra, formázási lehetőségekre stb. vonatkozó példákat. Egy *„tippek”* oldalt is hozzáadhat a végén, amely tippeket, trükköket, elkerülendő lépéseket és hasonló információkat tartalmaz. |
+| Minta .pbix jelentésfájl |Igen |Ahhoz, hogy kellően be tudja mutatni a vizualizációt, segítenie kell a felhasználókat a részletei megismerésében. Érdemes kihangsúlyozni, hogy milyen értéket nyújt a vizualizáció a felhasználó számára, és érdemes felhozni a használatra, formázási lehetőségekre stb. vonatkozó példákat. Egy *„tippek”* oldalt is hozzáadhat a végén, amely tippeket, trükköket, elkerülendő lépéseket és hasonló információkat tartalmaz.<br>A minta .pbix jelentésfájlnak offline állapotban kell működnie, bármilyen külső kapcsolat nélkül |
 | Ikon |Igen |Meg kell adnia az egyéni vizualizáció áruházban megjelenő emblémáját. Ennek formátuma .png, .jpg, .jpeg vagy .gif lehet, és pontosan 300 képpont (szélesség) x 300 képpont (magasság) méretűnek kell lennie. A fájl mérete nem lehet nagyobb 512 kB-nál. |
 | Képernyőképek |Igen |Meg kell adnia legalább egy képernyőképet. Ennek formátuma .png, .jpg, .jpeg vagy .gif lehet, és pontosan 1366 képpont (szélesség) x 768 képpont (magasság) méretűnek kell lennie. A fájl mérete nem lehet nagyobb 1024 kB-nál. *A hatékonyabb használat érdekében adjon hozzá szövegbuborékokat az egyes képernyőképeken látható fő jellemzők által képviselt érték kihangsúlyozásához.* |
 | Támogatás letöltési hivatkozása |Igen |Adjon meg egy URL-címet, amelyet felkereshetnek a felhasználók, akiknek gondjuk van a vizualizációval. Az URL formátumának tartalmaznia kell a https:// vagy a http:// előtagot. |

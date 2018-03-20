@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 08/09/2017
+ms.date: 03/08/2018
 ms.author: maghan
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: c97f60e39d68060c8eb3396bac4eb7725dab9c86
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: adc78cceb8a6b6edd06896e53a1a64cf0d28b2b8
+ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/12/2018
 ---
 # <a name="using-an-alternate-email-address"></a>Másodlagos e-mail-cím használata
 Alapértelmezés szerint a rendszer a Power BI-ba való regisztráláshoz használt e-mail-címre küld tájékoztatást a Power BI-ban végzett tevékenységekről.  Ha például valaki megosztási felkérést küld Önnek, az erre az e-mail-címre fog megérkezni.
@@ -45,6 +45,19 @@ Előfordulhat, hogy azt szeretné, hogy ezek az e-mailek a Power BI-ba való reg
 > A beállítás megváltoztatása nem érinti azt az e-mail-címet, amelyre a rendszer a szolgáltatási híreket, hírleveleket és egyéb promóciós leveleket küldi.  Ezek mindig a Power BI-ba való regisztráláshoz használt eredeti e-mail-címre fognak érkezni.
 > 
 > 
+
+## <a name="updating-through-azure-active-directory"></a>Frissítés az Azure Active Directoryn keresztül
+Active Azure Directory (AAD) Power BI-hoz tartozó beágyazási tokenjének rögzítésekor háromféle e-mail-típus használható. A három különböző típus a következő:
+
+* a felhasználó AAD-fiókjához tartozó fő e-mail-cím
+* az egyszerű felhasználónévhez (UPN) tartozó e-mail-cím
+* az „other” e-mail-tömbattribútum
+
+A Power BI a következő szempontok alapján választja ki a használandó e-mail-címet:
+1.  Ha az AAD-bérlő felhasználói objektumának „mail” attribútuma létezik, akkor a Power BI ezt az attribútumot használja e-mail-címként
+2.  Ha az UPN-hez tartozó e-mail-cím *nem* az **\*.onmicrosoft.com** tartománybeli cím (ez a „@” jelet követő részből derül ki), akkor a Power BI ezt az attribútumot használja e-mail-címként
+3.  Ha az AAD-s felhasználói objektum „other” e-mail-tömbattribútuma ki van töltve, akkor az ebben a listában szereplő első e-mail-cím lesz használva (mivel ez az attribútum e-mail-címek listáját is tartalmazhatja)
+4. Ha a fenti feltételek egyike sem teljesül, akkor az UPN-cím lesz használva
 
 ## <a name="updating-with-powershell"></a>Frissítés a PowerShell-lel
 Másik megoldásként a PowerShell vagy az Azure Active Directory használatával is frissítheti a másodlagos e-mail-címet. Ezt a [Set-AzureADUser](https://docs.microsoft.com/powershell/module/azuread/set-azureaduser) paranccsal teheti meg.

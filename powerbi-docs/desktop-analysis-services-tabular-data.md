@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: a66272c4fc48c00b8636c7e7f1cd58261cbf5ea6
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 02ce801db4eb6f5040c1d0e31ee0746a475c0bbb
+ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/12/2018
 ---
 # <a name="using-analysis-services-tabular-data-in-power-bi-desktop"></a>Az Analysis Services táblázatos adatainak használata a Power BI Desktopban
 A Power BI Desktopban kétféleképpen érheti el és kérheti le az adatokat az SQL Server Analysis Services táblázatos modelljeiből: élő kapcsolaton keresztüli feltárással vagy az elemek kiválasztásával és a Power BI Desktopba történő importálásával.
@@ -56,7 +56,7 @@ A Power BI Desktopban létrehozott dinamikus jelentéseket másokkal is megoszth
 
 ![](media/desktop-analysis-services-tabular-data/pbid_sqlas_getdata_as_select.png)
 
-## <a name="frequently-asked-questions"></a>Gyakori kérdések
+## <a name="frequently-asked-questions"></a>Gyakran feltett kérdések
 **Kérdés:** Van szükségem helyszíni adatátjáróra?
 
 **Válasz:** Attól függ. Ha a Power BI Desktoppall élő kapcsolaton keresztül kapcsolódik egy táblázatos modellhez, de nem szándékozik tartalmakat közzétenni a Power BI-webhelyén, nincs szüksége átjáróra. Ha azonban közzé szeretne valamit tenni a Power BI-webhelyén, szükség van az adatátjáróra, hogy biztonságos kommunikációt lehessen kialakítani a Power BI szolgáltatás és a helyszíni Analysis Services-kiszolgáló között. Mindenképpen egyeztessen az Analysis Services-kiszolgáló rendszergazdájával, mielőtt telepítené az adatátjárót.

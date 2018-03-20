@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: f9e30b3feb5f9b85a87686e4484bba035ff839aa
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: f2749976772d2bc2e3d48ca355925cafad93fe0c
+ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/12/2018
 ---
 # <a name="data-sources-for-the-power-bi-service"></a>Adatforrások a Power BI szolgáltatásban
 A Power BI legfontosabb összetevői maguk az adatok. Amikor adatokat vizsgál, diagramokat és irányítópultokat hoz létre, és kérdéseket tesz fel a Q&A-jel, akkor a kapott vizualizációk és válaszok alapjául szolgáló adatok valójában egy adatkészletből származnak. De honnan származik ez az adatkészlet? Természetesen egy adatforrásból.
@@ -62,7 +62,7 @@ Egy tartalomcsomag előkészítve tartalmaz minden szükséges adatot és jelent
 
 **Helyszíni adatbázisok** – A Power BI szolgáltatásból közvetlenül kapcsolódhat az SQL Server Analysis Services táblázatos modellű adatbázisaihoz. Power BI Enterprise Gateway szükséges. Ha nem tudja biztosan, hogyan kapcsolódhat a cége táblázatos modellű adatbázisához, akkor egyeztessen a rendszergazdával vagy az informatikai részleggel. További tájékoztatást a [Táblázatos SQL Server Analysis-adatok a Power BI-ban](sql-server-analysis-services-tabular-data.md) című cikkben talál.
 
-A szervezete más típusú adatbázisaihoz először a Power BI Desktop vagy az Excel használatával kell kapcsolódnia, hogy lekérdezze és beolvassa az adatokat egy adatmodellbe. Ezután importálhatja a fájlt a Power BI-ba, ahol létrejön egy adatkészlet. Ha beállítja az ütemezett frissítést, akkor a Power BI a fájlban lévő kapcsolódási információ és a konfigurált frissítési beállítások alapján közvetlenül az adatforráshoz kapcsolódva kérdezi le a frissítéseket. Ezeket a frissítéseket aztán betölti a Power BI-ban lévő adatkészletbe. További információt a [Kapcsolódás adatokhoz a Power BI Desktopban](desktop-connect-to-data.md) című cikkben talál.
+A cége más típusú adatbázisaihoz először a Power BI Desktop vagy az Excel használatával kell kapcsolódnia, hogy lekérdezze és beolvassa az adatokat egy adatmodellbe. Ezután importálhatja a fájlt a Power BI-ba, ahol létrejön egy adatkészlet. Ha beállítja az ütemezett frissítést, akkor a Power BI a fájlban lévő kapcsolódási információ és a konfigurált frissítési beállítások alapján közvetlenül az adatforráshoz kapcsolódva kérdezi le a frissítéseket. Ezeket a frissítéseket aztán betölti a Power BI-ban lévő adatkészletbe. További információt a [Kapcsolódás adatokhoz a Power BI Desktopban](desktop-connect-to-data.md) című cikkben talál.
 
 ## <a name="what-if-my-data-comes-from-a-different-source"></a>Mi a helyzet, ha az adataim másféle forrásból származnak?
 A Power BI-jal több százféle adatforrás használható. Az adatoknak azonban az eredetüktől függetlenül olyan formátumúnak kell lenniük, amelyből a Power BI szolgáltatás jelentéseket és irányítópultokat képes létrehozni Q&A-kérdések megválaszolásához és a többi feladat megoldásához.

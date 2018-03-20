@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/25/2018
 ms.author: maggies
-ms.openlocfilehash: e824c1e582b8ed3cf0953b59b790e90271a6d38c
-ms.sourcegitcommit: be5223b62e9a5d57c52f8588d4e539d814751dd6
+ms.openlocfilehash: 9a2f381ea97fb62d85841cbfcace8352007dd60b
+ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 01/29/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-an-iphone-or-ipod-touch"></a>Első lépések a Power BI mobilalkalmazással iPhone-on vagy iPod Touch eszközön
 Az iPhone-on vagy iPod Touchon futó iOS-es Microsoft Power BI-alkalmazás mobil BI-élményt kínál a Power BI-hoz, a Power BI jelentéskészítő kiszolgálóhoz és a Reporting Services-hez. Tekintse meg és kezelje helyszíni vagy felhőbeli céges irányítópultjait bárhonnan élő, érintésre reagáló mobil hozzáféréssel. Fedezze fel az adatokat az irányítópultokon, és ossza meg eredményeit munkatársaival e-mailben vagy SMS-ben. Kísérje figyelemmel a legidőszerűbb adatokat [Appla Watch](mobile-apple-watch.md)on.  
@@ -31,11 +31,11 @@ Az iPhone-on vagy iPod Touchon futó iOS-es Microsoft Power BI-alkalmazás mobil
 Power BI-jelentéseket a Power BI Desktopban hozhat létre, majd közzéteheti őket:
 
 * [Közzéteheti őket a Power BI szolgáltatásban](service-get-started.md), és irányítópultokat hozhat létre.
-* [Közzéteheti őket helyszíni Power BI jelentéskészítő kiszolgálón](report-server/quickstart-create-powerbi-report.md).
+* [Közzéteheti őket a helyszínen a Power BI jelentéskészítő kiszolgálón](report-server/quickstart-create-powerbi-report.md).
 
 Ez után az Iphone-os Power BI-alkalmazásban dolgozhat az irányítópultjaival és jelentéseivel, akár a helyszínen, akár a felhőben.
 
-Ismerkedjen meg [a Power BI-mobilalkalmazások újdonságaival](mobile-whats-new-in-the-mobile-apps.md).
+Ismerje meg [a Power BI mobilalkalmazások újdonságait](mobile-whats-new-in-the-mobile-apps.md).
 
 ## <a name="download-the-app"></a>Alkalmazás letöltése
 [iOS-alkalmazás letöltése](http://go.microsoft.com/fwlink/?LinkId=522062 "iPhone-alkalmazás letöltése") az Apple App Store-ból iPhone-ra vagy iPod Touchra.
@@ -140,4 +140,5 @@ Néhány további tevékenység következik, amelyeket az iPhone-os alkalmazásb
 ### <a name="see-also"></a>Lásd még
 * [Első lépések a Power BI-ban](service-get-started.md)
 * Kérdése van? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)
+
 

@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: fff56b220579a19505337f2ac9697cd3e61e83cb
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 948c87e3e594ebb0ca2f75f747f7dd6fe36e18e7
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="connect-to-datasets-in-the-power-bi-service-from-power-bi-desktop"></a>Kapcsolódás a Power BI szolgáltatásban lévő adatkészletekhez a Power BI Desktopból
 Létrehozhat élő kapcsolatot a Power BI szolgáltatás egy megosztott adatkészletével, és számos különböző jelentést hozhat létre ugyanabból az adatkészletből. Ez azt jelenti, hogy létrehozhatja a tökéletes adatmodellt a Power BI Desktopban, közzéteheti azt a Power BI szolgáltatásban, majd mások létrehozhatnak több különböző jelentést (külön .pbix fájlokban) a közös adatmodellből. Ennek a szolgáltatásnak **Élő kapcsolat Power BI-szolgáltatással** a neve.
@@ -116,8 +116,8 @@ Az **Élő kapcsolat Power BI-szolgáltatással** használatára vonatkozik néh
 * Mivel ez egy élő kapcsolat, a bal oldali navigációs sáv és a modellezés le van tiltva, hasonlóan ahhoz, amikor az **SQL Server Analysis Services** szolgáltatáshoz kapcsolódik.
 * Mivel ez egy élő kapcsolat, az RLS (sor- és szerepkörszintű biztonság), a OneDrive Vállalati verzió és más hasonló kapcsolati viselkedések kényszerítettek, épp úgy, mint amikor az **SQL Server Analysis Services** szolgáltatáshoz csatlakozik.
 * Amikor kiválasztja, hogy mely adatkészlethez csatlakozik a **Power BI szolgáltatásban**, a keresőmező csak a kibontott munkaterületekre vonatkozik.
-* Ha módosítja az eredeti .pbix fájlt, azzal felülírja a **Power BI szolgáltatásban** megosztott adatkészletet és jelentést.
-* Az eredetileg megosztott jelentést nem cserélheti ki. Ha ezzel próbálkozik, a rendszer felszólítja a fájl átnevezésére és közzétételére.
+* Ha tulajdonos módosítja az eredeti .pbix fájlt, azzal felülírja a **Power BI szolgáltatásban** megosztott adatkészletet és jelentést.
+* Munkaterület tagjai az eredetileg megosztott jelentést nem cserélhetik ki. Ha ezzel próbálkozik, a rendszer felszólítja a fájl átnevezésére és közzétételére.
 * Ha törli a **Power BI szolgáltatásban** megosztott adatkészletet, akkor más **Power BI Desktop**-fájlok (.pbix) nem működnek jól, vagy nem tudják megjeleníteni a vizualizációkat.
 * Tartalomcsomagok esetében először létre kell hoznia egy másolatot a tartalomcsomagról, mielőtt alapul használhatná egy .pbix jelentés és adatkészlet megosztására a **Power BI szolgáltatásban**.
 * A *Saját szervezet* tartalomcsomagjai esetében, ha már másolva lettek, nem lehet kicserélni a szolgáltatáson létrehozott jelentést és/vagy egy élő kapcsolattal rendelkező tartalomcsomag másolása részeként létrehozott jelentést. Ha ezzel próbálkozik, a rendszer felszólítja a fájl átnevezésére és közzétételére. Ebben a helyzetben csak a közzétett élő kapcsolattal rendelkező jelentéseket cserélheti le.
