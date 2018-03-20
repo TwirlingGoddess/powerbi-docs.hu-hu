@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 02/05/2018
+ms.date: 03/06/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: b0d7dc85b9795b432b461d48894404417850b9bc
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 4997c29941608c12a89598b6e9cb1b1ad3aa2fe8
+ms.sourcegitcommit: 85d18d9f11a4ce4d4ed65e4544d13da6c2d9b1d4
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>A Power BI Desktop korábbi havi frissítései
 
@@ -31,6 +31,69 @@ Ez a cikk a **Power BI Desktop** korábbi frissítéseit ismerteti. Az aktuális
 Az alábbi szakaszok a **Power BI Desktop** korábbi havi frissítéseit ismertetik.
 
 Bármikor [letöltheti a Power BI Desktop legújabb verzióját](https://powerbi.microsoft.com/desktop). Ha Windows 10 operációs rendszert használ, a **Power BI Desktopot** a Windows Áruházból is letöltheti. A havi verziók a **Power BI Desktop** telepítésének módjától függetlenül megegyeznek. További információkért tekintse meg [ezt a cikket](desktop-get-the-desktop.md). 
+
+
+## <a name="february-2018-update-2555010521"></a>2018. februári frissítés (2.55.5010.521)
+
+A szerelmesek hónapjában a **Power BI Desktop** frissítései is meleg érzésekkel töltöttek el minket, és reméljük, az Önök szívét is megdobogtatták.
+
+Az egyes frissítések mellett szereplő hivatkozások a következőket jelentik:
+
+* A **[videókivonatok]** új böngészőablakban nyílnak meg, és a funkció ismertetését tartalmazzák.
+* Egyes funkciókról további **[cikkekben]** olvashat részletesen.
+* A legtöbb funkciót a havi frissítésről szóló **[blogbejegyzésben]** mutatjuk be.
+* Az említetteken kívül pedig vannak olyan funkciók, amelyek működése magától értetődő, ezért az ilyen esetekben nincs szükség magyarázó cikkre vagy videóra.
+
+A **legújabb frissítésekről** szóló e havi videót az elejétől is végignézheti ezen a cikken belül. Ehhez kattintson a frissítések listája alatti videóképen található **lejátszás** ikonra.
+
+A **Power BI Desktop** 2018. februári újdonságai közé az alábbi frissítések tartoznak:
+
+### <a name="reporting"></a>Jelentéskészítés
+
+* Többszörös kiválasztású adatpontok több oldalra [[videó]](https://youtu.be/KeVB5RwMzJo?t=23s) [[cikk]](desktop-multi-select.md)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#crosshighlight) 
+* Szeletelők szinkronizálása több jelentésoldalon  [[videó]](https://youtu.be/KeVB5RwMzJo?t=3m33s) [[cikk]](desktop-slicers.md)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#syncSlicers) 
+* Továbbfejlesztett számtartomány-szeletelők – teljes számokra korlátozás (előzetes verzió)  [[videó]](https://youtu.be/KeVB5RwMzJo?t=8m44s)  [[cikk]](desktop-slicer-numeric-range.md)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#rangeSlicer) 
+* Bing-térképek gyorsabb geokódolása (webes előzetes verzió) – akár hatszoros gyorsaság  [[videó]](https://youtu.be/KeVB5RwMzJo?t=10m18s)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#geocoding) 
+* Adatcímkék túlcsordulása sáv- és oszlopdiagramot tartalmazó vizualizációknál  [[videó]](https://youtu.be/KeVB5RwMzJo?t=12m31s)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#overflow) 
+* Keresés a Formázás és Elemzés paneleken  [[videó]](https://youtu.be/KeVB5RwMzJo?t=14m46s)  [[cikk]](desktop-analytics-pane.md)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#search) 
+
+
+### <a name="custom-visuals"></a>Egyéni vizualizációk
+
+* Egyéni szervezeti vizualizációk (előzetes verzió)  [[videó]](https://youtu.be/KeVB5RwMzJo?t=19m23s)  [[cikk]](power-bi-custom-visuals-organization.md)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#organizationalVisuals) 
+
+
+### <a name="analytics"></a>Elemzés
+
+* Egyéni dátumtáblázat beállítása  [[videó]](https://youtu.be/KeVB5RwMzJo?t=16m4s)  [[cikk]](desktop-date-tables.md) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#customDateTable)
+* Általánosan elérhetők a gyorsmérők  [[videó]](https://youtu.be/KeVB5RwMzJo?t=17m52s)  [[cikkk]](desktop-quick-measures.md) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#quickMeasures) 
+
+### <a name="data-connectivity"></a>Adatkapcsolatok
+
+* Az SAP HANA-val használt DirectQuery fejlesztései (előzetes verzió)  [[videó]](https://youtu.be/KeVB5RwMzJo?t=30m1s)  [[cikk]](desktop-directquery-sap-hana.md)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#saphana) 
+
+### <a name="other"></a>Egyéb
+
+* A DirectQuery teljesítményének fejlesztései  [[videó]](https://youtu.be/KeVB5RwMzJo?t=32m24s)  [[cikk]](desktop-directquery-about.md)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#dqPerf) 
+* A megnyitás és a mentés teljesítményével kapcsolatos fejlesztések [[videó]](https://youtu.be/KeVB5RwMzJo?t=33m40s) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#savePerf) 
+* Az *adatot nem tartalmazó elemek megjelenítésének* fejlesztései  [[videó]](https://youtu.be/KeVB5RwMzJo?t=34m6s)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#showItemsWithNoData) 
+* Állandó szűrő vezérlőelem a **Power BI szolgáltatás** később megjelenő funkciójához  [[videó]](https://youtu.be/KeVB5RwMzJo?t=34m56s)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#persistentFilters) 
+
+
+
+> [!NOTE]
+> Megtekintheti továbbá [a Power BI Desktophoz elérhető adatforrások teljes listáját](desktop-data-sources.md). A lista folyamatosan bővül, ezért érdemes gyakran visszatérnie.
+
+További információkra kíváncsi ezekről a frissítésekről? Olvassa el [blogbejegyzésünket](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary), amely részletes információkkal szolgál az új funkciókról (ez ugyanaz a blogbejegyzés, amelyre a fenti lista hivatkozik).
+
+
+Ezeket a frissítéseket az alábbi videó mutatja be. A videó a blogbejegyzésben is megtekinthető.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/KeVB5RwMzJo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+
+> [!NOTE]
+> Érdekelhetik továbbá [a Power BI szolgáltatás újdonságai](service-whats-new.md), valamint [a Power BI mobilalkalmazásainak újdonságai](mobile-whats-new-in-the-mobile-apps.md).
 
 
 ## <a name="january-2018-update-2544970761"></a>2018. januári frissítés (2.54.4970.761)
@@ -44,7 +107,7 @@ Az egyes frissítések mellett szereplő hivatkozások a következőket jelentik
 * A legtöbb funkciót a havi frissítésről szóló **[blogbejegyzésben]** mutatjuk be.
 -   Az említetteken kívül pedig vannak olyan funkciók, amelyek működése magától értetődő, ezért az ilyen esetekben nincs szükség magyarázó cikkre vagy videóra.
 
-A **legújabb frissítésekről** szóló videót az elejétől is végignézheti ezen a cikken belül. Ehhez kattintson a frissítések listája alatti videóképen található **lejátszás** ikonra.
+A **legújabb frissítésekről** szóló e havi videót az elejétől is végignézheti ezen a cikken belül. Ehhez kattintson a frissítések listája alatti videóképen található **lejátszás** ikonra.
 
 A **Power BI Desktop** januári újdonságai közé az alábbi frissítések tartoznak:
 
@@ -83,7 +146,7 @@ Ezeket a frissítéseket az alábbi videó mutatja be. A videó a blogbejegyzés
 
 
 
-## <a name="december-2017-update-2534954481-"></a>2017. decemberi frissítés (2.53.4954.481 )
+## <a name="december-2017-update-2534954481"></a>2017. decemberi frissítés (2.53.4954.481)
 
 A december egy teli zsák **Power BI Desktop**-frissítéssel köszöntött be sok-sok új funkcióval, az üzleti intelligenciát kedvelő sok-sok gyerek (no meg persze felnőtt) örömére.
 
@@ -350,9 +413,9 @@ A **Power BI Desktop** júliusi újdonságai közé az alábbi frissítések tar
 -   Rugalmas vizualizációelrendezés (előzetes verzió)  [[videó]](https://youtu.be/4X96ow7FnSY?t=12m14s)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary-2/#responsiveVisuals)
 -   Új vízesésdiagram beállítás – lebontás  [[videó]](https://youtu.be/4X96ow7FnSY?t=14m29s)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary-2/#waterfall)
 -   Egyéni vizualizációk frissítései  [[videó]](https://youtu.be/4X96ow7FnSY?t=17m34s)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary-2/#customVisuals)
-    -   Drilldown Choropleth  [[videó]](https://youtu.be/4X96ow7FnSY?t=18m11s)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary-2/#drilldownChoropleth)
-    -   Drilldown Cartogram  [[videó]](https://youtu.be/4X96ow7FnSY?t=19m14s)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary-2/#drilldownCartogram)
-    -   Drilldown Player  [[videó]](https://youtu.be/4X96ow7FnSY?t=20m17s)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary-2/#drilldownPlayer)
+    -   Drill down Choropleth  [[videó]](https://youtu.be/4X96ow7FnSY?t=18m11s)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary-2/#drilldownChoropleth)
+    -   Drill down Cartogram  [[videó]](https://youtu.be/4X96ow7FnSY?t=19m14s)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary-2/#drilldownCartogram)
+    -   Drill down Player  [[videó]](https://youtu.be/4X96ow7FnSY?t=20m17s)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary-2/#drilldownPlayer)
     -   Tanúsított egyéni vizualizációk  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary-2/#certifiedCustomVisuals)
 
 

@@ -15,16 +15,16 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 07/21/2017
+ms.date: 03/06/2018
 ms.author: maghan
-ms.openlocfilehash: c868c039e8edfe218c2a578402690a40ed1f3030
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: d293f2184f0f9a314a77c362312de4ab6a4dc5df
+ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/08/2018
 ---
-# <a name="code-snippets-for-migrating-content-from-power-bi-embedded"></a>Kódrészletek a tartalmak Power BI Embeddedből való migrálásához
-Íme a tartalmak migrálásához szükséges alapvető műveletek néhány kódrészlete. Egyes jelentéstípusok kapcsolódó folyamatai: [Power BI Embedded-munkaterület-csoport tartalmainak migrálása a Power BI-ba](migrate-from-powerbi-embedded.md#content-migration).
+# <a name="code-snippets-for-migrating-content-from-power-bi-workspace-collection"></a>Kódrészletek a tartalmak Power BI-munaterületcsoportból való migrálásához
+Íme a tartalmak migrálásához szükséges alapvető műveletek néhány kódrészlete. Egyes jelentéstípusok kapcsolódó folyamatai: [Power BI-munkaterület-csoport tartalmainak migrálása a Power BI Embeddedbe](migrate-from-powerbi-embedded.md#content-migration).
 
 A Power BI Embedded (PaaS) tartalmainak a Power BI szolgáltatásba (SaaS) való másolásában egy **migrálási eszközt** használhat segítségül. Ez különösen akkor hasznos, ha sok tartalommal rendelkezik. További információ: [Power BI Embedded migrálási eszköz](migrate-tool.md).
 

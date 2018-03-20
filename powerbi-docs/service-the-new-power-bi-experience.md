@@ -16,19 +16,19 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/09/2018
+ms.date: 02/28/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 38a3923469d64cc0761ea0e1b1b39005f6904d40
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 82aedf3defc1a3154c884c18b90dc27195847e9a
+ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/12/2018
 ---
 # <a name="getting-around-in-power-bi-service"></a>Navigáció a Power BI szolgáltatásban
 ## <a name="the-left-navigation-pane"></a>A bal oldali navigációs ablaktábla
 
-![](media/service-the-new-power-bi-experience/power-bi-navbar-bigger.png)
+![bal oldali navigációs ablak](media/service-the-new-power-bi-experience/power-bi-navbar-bigger.png)
 
 **Rövid útmutató**
 
@@ -64,61 +64,61 @@ Kezdjük az alapvető tartalmak (irányítópultok, jelentések, adatkészletek,
 
 Ha a Power BI ingyenes verziójával rendelkezik, akkor csak egyetlen munkaterület jelenik itt meg – a **Saját munkaterület**.
 
-![](media/service-the-new-power-bi-experience/power-bi-new-nav.gif)
+![rövid videó a munkaterületről](media/service-the-new-power-bi-experience/power-bi-new-nav.gif)
 
 ### <a name="favorite-dashboards-reports-and-apps"></a>Irányítópultok, jelentések és alkalmazások megjelölése kedvencként
 A **Kedvencek** segítségével gyorsan elérheti azokat a tartalmakat, amelyek a leginkább fontosak az Ön számára.  
 
 1. A megnyitott irányítópultnál vagy jelentésnél válassza a **Kedvencnek jelölés** lehetőséget a jobb felső sarokban.
    
-   ![](media/service-the-new-power-bi-experience/powerbi-dashboard-favorite.png)
+   ![kedvenc hozzáadása](media/service-the-new-power-bi-experience/powerbi-dashboard-favorite.png)
    
    A **Kedvencnek jelölés** átváltozik **Eltávolítás a kedvencek közül** lehetőséggé, és a csillag ikon sárgára színeződik.
    
-   ![](media/service-the-new-power-bi-experience/power-bi-unfavorite2.png)
+   ![kedvenc eltávolítása](media/service-the-new-power-bi-experience/power-bi-unfavorite2.png)
 
 2. Alkalmazás esetén válasza a navigációs panelen található **Alkalmazások** elemet, vigye a kurzort az alkalmazás fölé, majd a csillag választásával megjelölheti az alkalmazást kedvencként.
 
 2. Az összes kedvencnek jelölt tartalom megtekintéséhez a bal oldali navigációs panelen válassza ki a **Kedvencek** felirat mellett található nyilat. Mivel a bal oldali navigációs panel mindig látható, ezért ezt a listát a Power BI szolgáltatásból bárhonnan elérheti.
    
-    ![](media/service-the-new-power-bi-experience/power-bi-favorite-flyout.png)
+    ![kedvencek úszó menü](media/service-the-new-power-bi-experience/power-bi-favorite-flyout.png)
    
     Itt kiválaszthatja a megnyitni kívánt irányítópultot, jelentést vagy alkalmazást.
 
 3. A **Kedvencek** panel megnyitásához jelölje ki a **Kedvencek** lehetőséget a bal oldali navigációs ablaktáblában, vagy válassza ki a Kedvencek ikont ![](media/service-the-new-power-bi-experience/powerbi-star-icon.png).
    
-   ![](media/service-the-new-power-bi-experience/power-bi-favorites-screen.png)
+   ![a Kedvencek képernyő megnyitása](media/service-the-new-power-bi-experience/power-bi-favorites-screen.png)
    
    Itt megnyithatja vagy megkeresheti a kívánt tartalmat, megszüntetheti a kedvencnek jelölést, vagy megoszthatja a tartalmakat munkatársaival.
 
 1. Irányítópultot vagy jelentést a munkaterület **Irányítópultok** vagy **Jelentések** paneljén is megjelölhet kedvencként.  Ehhez nyissa meg a munkaterületet tartalom nézetben, majd válassza a név melletti csillag ikont.
    
-   ![](media/service-the-new-power-bi-experience/power-bi-favorite-dashboard-new.png)
+   ![megjelölés kedvencként](media/service-the-new-power-bi-experience/power-bi-favorite-dashboard-new.png)
 
 További információ: [Kedvencek](service-dashboard-favorite.md).
 
 ### <a name="recents"></a>Legutóbbiak
 A **Legutóbbi** panel megnyitásával gyorsan hozzáférhet a legutóbb használt tartalmakhoz. Itt az összes munkaterület bármilyen tartalma megjelenhet.
 
-  ![](media/service-the-new-power-bi-experience/power-bi-recent-new.png)
+  ![Legutóbbi ablaktábla](media/service-the-new-power-bi-experience/power-bi-recent-new.png)
 
 Hasonlóan a Kedvencekhez, a legutóbbi elemeket is bárhonnan elérheti a Power BI szolgáltatásból, ha a bal oldali navigációs ablaktáblán kiválasztja a **Legutóbbi** felirat mellett található nyilat.
 
-  ![](media/service-the-new-power-bi-experience/power-bi-recent-flyout-new.png)
+  ![Legutóbbi úszó menü](media/service-the-new-power-bi-experience/power-bi-recent-flyout-new.png)
 
 További tudnivalók: [Legutóbbi elemek a Power BI-ban](service-recent.md)
 
 ### <a name="apps"></a>Alkalmazások
 Az alkalmazás az irányítópultok és jelentések olyan gyűjteménye, amellyel egyetlen helyen mutathatja be a közvetíteni kívánt fontosabb metrikákat. Alkalmazásokat létrehozhat kizárólag cégen belüli használatra, de olyan [külső szolgáltatások számára](service-connect-to-services.md) is, mint a Google Analytics és a Microsoft Dynamics CRM. 
 
-![](media/service-the-new-power-bi-experience/power-bi-apps.png)
+![Alkalmazások panel](media/service-the-new-power-bi-experience/power-bi-apps.png)
 
 További tudnivalók: **Alkalmazás-munkaterületek** (lejjebb) és [Mik azok a Power BI-alkalmazások](service-install-use-apps.md).
 
 ### <a name="shared-with-me"></a>Velem megosztva
 A **Velem megosztva** panelen találhatja meg az összes olyan tartalmat, amelyet a munkatársak megosztottak Önnel.  Szűrhet közöttük a tulajdonos neve alapján, a keresőmező segítségével megtalálhatja a lényeges adatokat, és dátum alapján időrendbe rendezheti az elemeket.  A gyakran látogatott megosztott tartalmakat közvetlenül a **Velem megosztva** nézetről kedvencnek is jelölheti.
 
-![](media/service-the-new-power-bi-experience/power-bi-shared-new.png)
+![Velem megosztva panel](media/service-the-new-power-bi-experience/power-bi-shared-new.png)
 
 További tudnivalók: [Velem megosztva](service-shared-with-me.md)
 
@@ -130,29 +130,29 @@ Ha jelenleg nem tagja vagy rendszergazdája egyetlen alkalmazás-munkaterületne
 #### <a name="my-workspace"></a>Saját munkaterület
 A **Saját munkaterület** az összes tulajdonában lévő tartalom tárolására szolgál. Tekintsen rá úgy mint a saját, személyes munkaterületére, ahol nyugodtan kísérletezhet tartalmaival. A Saját munkaterületen lévő tartalmakat megoszthatja munkatársaival is. A Saját munkaterületen belül a tartalmak 4 lapra vannak rendszerezve: Irányítópultok, Jelentések, Munkafüzetek, és Adatkészletek.
 
-![](media/service-the-new-power-bi-experience/power-bi-my-workspace2.png)
+![Saját munkaterület képernyő](media/service-the-new-power-bi-experience/power-bi-my-workspace2.png)
 
-#### <a name="app-workspaces"></a>Alkalmazás-munkaterületek
+#### <a name="app-workspaces"></a>Alkalmazás munkaterületei
 Az alkalmazások és az alkalmazás-munkaterületek a Power BI Pro szolgáltatásban érhetőek el. Amikor Ön mások számára készít irányítópultokat és jelentéseket, akkor ezeket alkalmazás-munkaterületek használatával fogja tenni. Az alkalmazásokat az alkalmazás-munkaterület hozhatja létre, ezért az alkalmazások létrehozásának első lépése az alkalmazás-munkaterület létrehozása. Ezek a csoportos munkaterületekből fejlődtek ki – az alkalmazás tartalmához használt átmeneti területekből és tárolókból állnak.  Itt munkatársaival együttesen hozhatnak létre irányítópultokat, jelentéseket és egyéb olyan tartalmakat, amelyeket később egy szélesebb közönség, vagy akár az egész cég elé fognak majd terjeszteni.
 
 További tudnivalókkal az [Alkalmazások létrehozása és terjesztése a Power BI-ban](service-create-distribute-apps.md#app-workspaces) című cikk szolgál.
 
 Ugyanúgy mint a **Saját munkaterület** esetében, a tartalom itt is 4 lapra van rendszerezve: Irányítópultok, Jelentések, Munkafüzetek és Adatkészletek.
 
-![](media/service-the-new-power-bi-experience/power-bi-app-workspace.png)
+![Alkalmazás-munkaterület](media/service-the-new-power-bi-experience/power-bi-app-workspace.png)
 
 Munkaterület váltásához válassza ki a **Munkaterületek** lehetőséget a bal oldali navigációs ablaktáblán.
 
-![](media/service-the-new-power-bi-experience/power-bi-workspacesnew2.png)
+![Válasszon munkaterületet](media/service-the-new-power-bi-experience/power-bi-workspacesnew2.png)
 
 ### <a name="search-and-sort-content"></a>Tartalom keresése és rendezése
 A tartalom nézet megkönnyíti a különböző tartalmak keresését, szűrését és rendezését. Egy adott irányítópult, jelentés vagy munkafüzet megkereséséhez használja a keresőmezőt. A Power BI csak azokat a szűrt találatokat jeleníti meg, amelyek neve tartalmazza az adott keresőszót.
 
-![](media/service-the-new-power-bi-experience/power-bi-search-sortnew.png)
+![irányítópult keresése](media/service-the-new-power-bi-experience/power-bi-search-sortnew.png)
 
 A tartalmakat a nevük vagy a tulajdonosuk alapján is rendezheti.  
 
-![](media/service-the-new-power-bi-experience/power-bi-sort.png)
+![tartalom rendezése](media/service-the-new-power-bi-experience/power-bi-sort.png)
 
 További információkat itt talál: [Navigáció a Power BI-ban: keresés, rendezés, szűrés](service-navigation-search-filter-sort.md)
 

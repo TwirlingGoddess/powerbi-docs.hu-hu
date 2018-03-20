@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/07/2017
+ms.date: 03/02/2018
 ms.author: maghan
 LocalizationGroup: Administration
-ms.openlocfilehash: 09bd3064c7a694355255cb3cca29ade02986d42e
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 55394392de78bcd1a2c38ecf92dd3218c8660132
+ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="distribute-power-bi-content-to-external-guest-users-with-azure-ad-b2b"></a>Power BI tartalmak terjesztése Azure AD B2B külső vendégfelhasználóknak
 
@@ -31,7 +31,14 @@ A Power BI integrálható az Azure Active Directory vállalatközi felhasználá
 > [!VIDEO https://www.youtube.com/embed/xxQWEQ1NnlY]
 
 > [!NOTE]
+> Vendégfelhasználók meghívásához előbb **engedélyezni** kell az [Exportálási és megosztási beállítások](service-admin-portal.md#export-and-sharing-settings) funkciót a Power BI felügyeleti portáljának bérlői beállításai között.
+
+> [!NOTE]
 > Ez a funkció jelenleg nem érhető el Power BI-mobilalkalmazásokban. Az Azure AD B2B-vel megosztott Power BI-tartalmakat a mobileszközén böngészőben tekintheti meg. 
+
+## <a name="who-can-you-invite"></a>Kit lehet meghívni?
+
+Bármilyen e-mail-címet, akár olyan személyes fiókot használó vendégfelhasználókat is meghívhat, mint a gmail.com, az outlook.com, vagy a hotmail.com. Az Azure B2B-ben ezeket „közösségi azonosítóknak” nevezzük. Bővebb tájékoztatást az [Azure B2B](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-b2b-what-is-azure-ad-b2b) oldalán talál.
 
 ## <a name="invite-guest-users"></a>Vendégfelhasználók meghívása
 
@@ -63,8 +70,9 @@ A vendégfelhasználónak az e-mailben kapott meghívóban rá kell majd kattint
 
 ### <a name="ad-hoc-invites"></a>Ad-hoc meghívások
 
-Bármikor végrehajthat egy meghívást úgy, hogy közzétételkor hozzáad egy külső felhasználót az alkalmazások hozzáférési listájához.
+A meghívás végrehajtásához bármikor hozzáadhatja a külső felhasználót az irányítópultjához vagy jelentéséhez a megosztási felületen, illetve az alkalmazásához a hozzáférési lapon.
 
+Az alábbi példán látható, hogy mi a teendő, amikor külső felhasználót hív meg egy alkalmazás használatára.
 ![Alkalmazás-hozzáférési listához hozzáadott külső felhasználó](media/service-admin-azure-ad-b2b/power-bi-app-access.png)
 
 A vendégfelhasználó fog kapni egy e-mailt, amely azt jelzi, hogy megosztották vele az alkalmazást.
@@ -98,8 +106,9 @@ A vendégfelhasználó saját bérlőjén már rendelkezik Power BI Pro-licencce
 
 ![A vendégfelhasználók hozzák saját licencüket](media/service-admin-azure-ad-b2b/license-approach3.png)
 
-## <a name="limitations"></a>Korlátozások
+## <a name="considerations-and-limitations"></a>Megfontolandó szempontok és korlátozások
 
+* Személyes, például gmail.com-os, outlook.com-os vagy hotmail.com-os e-mail-fiókot használó vendég meghívása esetén [ebben a beágyazott videóban](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-b2b-redemption-experience) tekintheti meg a felhasználók bejelentkezésének menetét.
 * A külső B2B-vendégeknek csak olvasási jogosultságuk van a tartalomhoz. A külső B2B-vendégek megtekinthetnek alkalmazásokat, irányítópultokat, jelentéseket, illetve adatokat exportálhatnak, és irányítópultokhoz és jelentésekhez kapcsolódó e-mail-értesítéseket hozhatnak létre. Nem férhetnek hozzá azonban munkaterületekhez, és nem tehetik közzé saját tartalmaikat.
 * Ez a funkció jelenleg nem érhető el Power BI-mobilalkalmazásokban. Az Azure AD B2B-vel megosztott Power BI-tartalmakat a mobileszközén böngészőben tekintheti meg.
 * A Power BI nem támogatja a vendégfelhasználókat független (kormányzati) felhőkben.

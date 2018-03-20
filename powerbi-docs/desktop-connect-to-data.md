@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: b61285c54d337ce85ab470180f8cfa2a66f0820e
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 94e52d2d56cd7ba0ec04db47bc93dd18fc880f39
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="connect-to-data-in-power-bi-desktop"></a>Csatlakozás adatokhoz a Power BI Desktopban
 A Power BI Desktop segítségével egyszerűen csatlakozhat az adatok egyre bővülő forrásaihoz. Ha nem rendelkezik a Power BI Desktoppal, itt [letöltheti](http://go.microsoft.com/fwlink/?LinkID=521662) és telepítheti.
@@ -80,7 +80,7 @@ A Power BI Desktop műveletek és lehetőségek széles tárházát tartalmazza.
 * [Adatok formázása és kombinálása a Power BI Desktoppal](desktop-shape-and-combine-data.md)
 * [Gyakori lekérdezési feladatok a Power BI Desktopban](desktop-common-query-tasks.md)   
 
-Szeretne visszajelzést küldeni? Ehhez használja a Power BI Desktop **Visszajelzés küldése** menüelemét. Kíváncsian várjuk a véleményét!
+Szeretne visszajelzést küldeni? Használja a Power BI Desktop **Ötlet beküldése** menüelemét vagy keresse fel a [Közösségi visszajelzés](http://community.powerbi.com/t5/Community-Feedback/bd-p/community-feedback) oldalt. Kíváncsian várjuk a véleményét!
 
 ![](media/desktop-connect-to-data/sendfeedback.png)
 

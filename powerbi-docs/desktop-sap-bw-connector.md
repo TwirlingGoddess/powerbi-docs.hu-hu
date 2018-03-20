@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 03/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 0863b41ecc0f7053ae0d958d25c756c8597880ae
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 0486cb7887ae068b55de94a3d842843c094c8a29
+ms.sourcegitcommit: 85d18d9f11a4ce4d4ed65e4544d13da6c2d9b1d4
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="use-the-sap-bw-connector-in-power-bi-desktop"></a>Az SAP BW Connector használata a Power BI Desktopban
 A Power BI Desktopban hozzáférhet az **SAP BusinessWarehouse (BW)** adataihoz.
@@ -33,12 +33,16 @@ Az **SAP BW Connector** használatához hajtsa végre az alábbi telepítési l�
 1. Telepítse az **SAP NetWeaver** kódtárat a helyi számítógépen. Az **SAP Netweaver** kódtárat az SAP-rendszergazdától vagy közvetlenül az [SAP Software Download Center letöltőközpontból](https://support.sap.com/swdc) szerezheti be. Mivel az **SAP Software Download Center** szerkezete gyakran változik, a helyet nem tudjuk pontosabban meghatározni. Az **SAP NetWeaver** kódtárat általában az SAP Client Tools telepítése is tartalmazza.
    
    A legfrissebb verzió letöltései helyének megtalálásához érdemes rákeresnie a *SAP Note #1025361* jegyzetre. Bizonyosodjon meg róla, hogy az **SAP NetWeaver** kódtár architektúrája (32 vagy 64 bites) megegyezik a **Power BI Desktop** telepítésével, majd telepítse az **SAP NetWeaver RFC SDK-t** az SAP-jegyzetnek megfelelően.
-2. Az **Adatok lekérése** párbeszédpanelen az **Adatbázis** kategóriában megjelenik egy bejegyzés az **SAP Business Warehouse-kiszolgálóhoz**.
+2. Az **Adatok lekérése** párbeszédpanelen az **Adatbázis** kategóriában megjelenik egy **SAP Business Warehouse-alkalmazáskiszolgáló** és egy **SAP Business Warehouse üzenetkezelési kiszolgáló** bejegyzés.
    
    ![](media/desktop-sap-bw-connector/sap_bw_2a.png)
 
 ## <a name="sap-bw-connector-features"></a>Az SAP BW Connector funkciói
-Az **SAP BW Connector** előzetes verziójának használatával a Power BI Desktopban a felhasználók importálhatják adataikat az **SAP Business Warehouse Server** kockáiból. A DirectQuery is használható az **SAP BW Connectorral**. A kapcsolat kiépítéséhez meg kell adnia a *Kiszolgálót*, a *Rendszer számát* és az *Ügyfél-azonosítót*.
+A Power BI Desktopban az **SAP BW-összekötők** használatával importálhatók adatok az **SAP Business Warehouse-kiszolgáló** típusú kockákból, de a DirectQuery is használható az **SAP BW Connectorral**. 
+
+Az **SAP BW Connectorról** és annak a DirectQueryvel való használatáról [A DirectQuery és az SAP Business Warehouse (BW)](desktop-directquery-sap-bw.md) című cikkből tájékozódhat.
+
+A kapcsolat kiépítéséhez kapcsolódáskor ki kell töltenie a *Kiszolgáló*, a *Rendszer száma* és az *Ügyfélazonosító* mezőt.
 
 ![](media/desktop-sap-bw-connector/sap_bw_3a.png)
 
@@ -105,3 +109,9 @@ Ez a szakasz hibaelhárítási forgatókönyveket (és megoldásokat) mutat be a
    
    ![](media/desktop-sap-bw-connector/sap_bw_8.png)
 
+## <a name="next-steps"></a>Következő lépések
+Az SAP HANA-val és a DirectQueryvel kapcsolatos további információkért tekintse meg az alábbi forrásanyagokat:
+
+* [DirectQuery és SAP HANA](desktop-directquery-sap-hana.md)
+* [A DirectQuery használata a Power BI-ban](desktop-directquery-about.md)
+* [A DirectQuery által támogatott adatforrások](desktop-directquery-data-sources.md)

@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 03/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: c048a83dad3ea800f50b08bd15c0cec18d6d86cf
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: da99de218594d09a8cd76aafa9fc227b648ba7af
+ms.sourcegitcommit: 85d18d9f11a4ce4d4ed65e4544d13da6c2d9b1d4
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="use-sap-hana-in-power-bi-desktop"></a>Az SAP HANA használata a Power BI Desktopban
 A Power BI Desktoppal mostantól hozzáférhet az **SAP HANA**-adatbázisokhoz. Az **SAP HANA**-adatbázisok használatához telepíteni kell az SAP HANA ODBC-illesztőprogramot a helyi ügyfélszámítógépen, hogy a Power BI Desktop **SAP HANA**-adatkapcsolat megfelelően működjön. Az SAP HANA ODBC-illesztőprogramot az [SAP Software Download Center központból](https://support.sap.com/swdc) töltheti le. Itt keresse meg a Windows rendszerű számítógépekhez készült SAP HANA-ügyfelet. Mivel az **SAP Software Download Center** szerkezete gyakran változik, a helyet nem tudjuk pontosabban meghatározni.
@@ -35,7 +35,7 @@ Amikor SAP HANA-adatbázishoz csatlakozik, adja meg a kiszolgáló nevét és a 
 
 ![](media/desktop-sap-hana/sap-hana-2.png)
 
-Ebben a kiadásban az **SAP HANA** [DirectQuery](desktop-use-directquery.md) módban támogatott a Power BI Desktopban és a Power BI szolgáltatásban, és a **SAP HANA**-adatbázist DirectQuery módban használó jelentéseket tehet közzé és tölthet fel a Power BI szolgáltatásban. A Power BI szolgáltatásban akkor is közzétehet és feltölthet jelentéseket, ha nem **SAP HANA**-adatbázist használ DirectQuery módban.
+Ebben a kiadásban az **SAP HANA** [DirectQuery](desktop-directquery-sap-hana.md) módban támogatott a Power BI Desktopban és a Power BI szolgáltatásban, és a **SAP HANA**-adatbázist DirectQuery módban használó jelentéseket tehet közzé és tölthet fel a Power BI szolgáltatásban. A Power BI szolgáltatásban akkor is közzétehet és feltölthet jelentéseket, ha nem **SAP HANA**-adatbázist használ DirectQuery módban.
 
 ### <a name="supported-features-for-sap-hana"></a>Az SAP HANA támogatott funkciói
 Ebben a kiadásban számos képesség érhető el az **SAP HANA**-hoz, például a következők:
@@ -55,4 +55,12 @@ Az **SAP HANA** használatára a következő néhány korlátozás vonatkozik:
 * A SMALLDECIMAL nem támogatott
 * A VARBINARY nem támogatott
 * Az érvényes dátumok 1899/12/30 és 9999/12/31 közöttiek
+
+
+## <a name="next-steps"></a>Következő lépések
+Ha többet szeretne megtudni a DirectQueryről, tekintse át a következő forrásanyagokat:
+
+* [DirectQuery és SAP HANA](desktop-directquery-sap-hana.md)
+* [A DirectQuery használata a Power BI-ban](desktop-directquery-about.md)
+* [A DirectQuery által támogatott adatforrások](desktop-directquery-data-sources.md)
 

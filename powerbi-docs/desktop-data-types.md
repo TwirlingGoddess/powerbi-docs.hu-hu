@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: d15aeaf90e748b9ba14a0160042d2db4f36d3150
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 71a2908357164cf93870800947ae5fa0aa04c75c
+ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/12/2018
 ---
 # <a name="data-types-in-power-bi-desktop"></a>Adattípusok a Power BI Desktopban
 A cikk a Power BI Desktop és a Data Analysis Expressions (DAX) által támogatott adattípusokat ismerteti. 
@@ -125,7 +125,7 @@ Például ha egy Dátumot bármely más adattípussal együtt használ egy kivon
 > 
 > 
 
-**Szorzás(*)**
+**Szorzás (*)**
 
 | Operátor (\*) | EGÉSZ SZÁM | PÉNZNEM | VALÓS SZÁM | Dátum/idő |
 | --- | --- | --- | --- | --- |
@@ -155,7 +155,7 @@ Ezt a viselkedést az alábbi DAX-függvények jól példázzák:
 
 Az =IF(FALSE()\>"true";"A kifejezés igaz";"A kifejezés hamis") kifejezés „A kifejezés igaz” értéket adja vissza.
 
-Az =IF("12"\>12;"A kifejezés igaz";"A kifejezés hamis") kifejezés „A kifejezés igaz” értéket adja vissza.
+Az =IF("12"\>12;"A kifejezés igaz";"A kifejezés hamis") kifejezés „A kifejezés igaz” értéket adja vissza
 
 Az =IF("12"=12;"A kifejezés igaz";"A kifejezés hamis") kifejezés „A kifejezés hamis” értéket adja vissza.
 

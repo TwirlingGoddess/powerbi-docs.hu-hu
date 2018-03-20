@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: d4358be705de4908de6a9aedb0dbd78e2ef9e17f
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: ab6d935eb955dea5e2362a1cc52cf30657f4f8df
+ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/12/2018
 ---
 # <a name="using-r-in-query-editor"></a>Az R használata a Lekérdezésszerkesztőben
 A Power BI Desktop **Lekérdezésszerkesztőjében** használhatja a statisztikusok, adatszakértők és adatelemzők által széles körben használt **R** programozási nyelvet. Az R integrációja a **Lekérdezésszerkesztőbe** lehetővé teszi adattisztítás elvégzését az R használatával, és összetett adatátalakítási és elemzési műveletek elvégzését adatkészletekben, beleértve többek között a hiányos adatok kiegészítését, az előrejelzéseket és a fürtözést. Az **R** egy sokoldalú nyelv, amely a **Lekérdezésszerkesztőben** is használható adatmodellek előkészítéséhez és jelentések létrehozásához.
@@ -33,7 +33,7 @@ Ahhoz, hogy az **R**-t a Power BI Desktop **Lekérdezésszerkesztőjében** hasz
 ## <a name="using-r-in-query-editor"></a>Az R használata a Lekérdezésszerkesztőben
 Az **R** **Lekérdezésszerkesztőben** való használatának bemutatásához a tőzsdei adatkészletből használunk egy példát, amely egy .CSV-fájlon alapul, amelyet [innen tölthet le](http://download.microsoft.com/download/F/8/A/F8AA9DC9-8545-4AAE-9305-27AD1D01DC03/EuStockMarkets_NA.csv). A példa lépései a következők:
 
-1. Első lépésként töltse be az adatokat a **Power BI Desktopba**. Ebben a példában az *EuStockMarkets_NA.csv* fájlt töltjük be. A **Power BI Desktop** **Kezdőlap** szalagján válassza az **Adatok lekérése > CSV** lehetőséget.
+1. Első lépésként töltse be az adatokat a **Power BI Desktopba**. Ebben a példában töltse be az *EuStockMarkets_NA.csv* fájlt, és a **Power BI Desktop** **Kezdőlap** menüszalagján válassza az **Adatok beolvasása > CSV** lehetőséget.
    
    ![](media/desktop-r-in-query-editor/r-in-query-editor_1.png)
 2. Válassza ki a fájlt, és kattintson a **Megnyitás** elemre, ekkor a CSV megjelenik a **CSV-fájl** párbeszédpanelen.
@@ -71,17 +71,17 @@ Az **R** **Lekérdezésszerkesztőben** való használatának bemutatásához a 
    
    ![](media/desktop-r-in-query-editor/r-in-query-editor_7.png)
    
-   Miután ezt beállítottuk, egy új *completedValues* nevű oszlop jelenik meg a **Mezők** területen. Figyelje meg, hogy van néhány hiányzó adatelem, például a 15. és 18. sorban. Azt, hogy ezeket az R hogyan kezeli, a következő szakaszban láthatjuk.
+   Ekkor egy új, *completedValues* nevű oszlop jelenik meg a **Mezők** panelen. Figyelje meg, hogy van néhány hiányzó adatelem, például a 15. és 18. sorban. Azt, hogy ezeket az R hogyan kezeli, a következő szakaszban láthatjuk.
    
 
 Mindössze öt sornyi R-szkript használatát követően a **Lekérdezésszerkesztő** egy prediktív modellel kitöltötte a hiányzó értékeket.
 
 ## <a name="creating-visuals-from-r-script-data"></a>Vizualizációk létrehozása az R-szkript adataiból
-Most létrehozhatunk egy vizualizációt, amelyből látható, hogy az R-szkriptkód hogyan használja a *mice* kódtárat a hiányzó adatok kiegészítésére. Ezt az alábbi kép illusztrálja.
+Most létrehozhatunk egy vizualizációt, amelyből látható, hogy az R-szkriptkód hogyan használja a *mice* kódtárat a hiányzó adatok kiegészítésére. Ezt az alábbi kép illusztrálja:
 
 ![](media/desktop-r-in-query-editor/r-in-query-editor_8a.png)
 
-Miután a vizualizáció elkészült, bármely egyéb vizualizációval együtt amelyet a **Power BI Desktop** használatával szeretnénk létrehozni, menthetjük a **Power BI Desktop-fájlt** (.pbix-fájlként), és utána a Power BI szolgáltatásban használhatjuk az adatmodellt, beleértve a részét képező R-szkripteket.
+Miután a vizualizáció elkészült, bármely egyéb vizualizációval együtt amelyet a **Power BI Desktop** használatával szeretnénk létrehozni, mentheti a **Power BI Desktop-fájlt** (.pbix-fájlként), és utána a Power BI szolgáltatásban használhatja az adatmodellt, beleértve a részét képező R-szkripteket.
 
 > [!NOTE]
 > Szeretne egy teljes .pbix-fájlt látni úgy, hogy ezek a lépések már be vannak fejezve? Szerencséje van – [innen](http://download.microsoft.com/download/F/8/A/F8AA9DC9-8545-4AAE-9305-27AD1D01DC03/Complete Values with R in PQ.pbix) letöltheti az ebben a példában használt, teljes **Power BI Desktop-fájlt**.

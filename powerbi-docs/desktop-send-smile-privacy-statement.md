@@ -15,16 +15,21 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 03/06/2018
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: f9aa1570fe9386e5f8e726097a1c88d448dc2da1
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: ac61259fc0f02e8f84a94502e9f8dd89d5ca4b96
+ms.sourcegitcommit: 85d18d9f11a4ce4d4ed65e4544d13da6c2d9b1d4
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="power-bi-desktop-send-a-smile-privacy-statement"></a>Power BI Desktop Mosoly küldése – Adatvédelmi nyilatkozat
+
+A **Power BI Desktop** 2018. márciusi verziójától kezdve a hibajelentések a Windows hibajelentés platformot használják a *Mosoly küldése* és a *Rosszallás küldése* funkció helyett. A Windows hibajelentés platformról a [Windows adatvédelmi blogja](https://blogs.windows.com/windowsexperience/2018/01/24/microsoft-introduces-new-privacy-tools-ahead-of-data-privacy-day/) tartalmaz bővebb információt. 
+
+## <a name="for-versions-of-power-bi-desktop-prior-to-march-2018"></a>A Power BI Desktop 2018. március előtti verziói esetében
+
 A Microsoftnál folyamatosan dolgozunk az adatai védelmén, miközben igyekszünk olyan termékeket kifejleszteni, amelyek megfelelnek az ügyfelek teljesítményre, hatékonyságra és kényelmes használatra vonatkozó igényeinek. A jelen adatvédelmi nyilatkozat a Microsoft Power BI Desktop-visszajelzés *Mosoly küldése* funkció különböző adatgyűjtési és -felhasználási gyakorlatait ismerteti. A nyilatkozat nem vonatkozik a Microsoft egyéb online vagy offline webhelyeire, termékeire és szolgáltatásaira.
 
 Ha a nyilatkozat máshogy nem határozza meg, a *Mosoly küldése* funkció nem bocsát személyes adatokat a Microsoft rendelkezésére. A Microsoftnak küldött adatok nincsenek mással megosztva a Microsofton, illetve az irányítása alá tartozó leány- és társvállalatokon kívül az Ön engedélye nélkül.

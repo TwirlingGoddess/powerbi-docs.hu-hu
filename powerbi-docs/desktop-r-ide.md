@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: ab73dde22fdb0603a900ac67b6e76e8f5aaf3872
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 3903a4d7351ab00da24750736840c6ba35cffa2b
+ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/12/2018
 ---
 # <a name="use-an-external-r-ide-with-power-bi"></a>Külső R IDE környezet használata a Power BI-jal
 A **Power BI Desktoppal** használhatja a külső R IDE környezetet (integrált fejlesztőkörnyezetet) R-szkriptek létrehozásához és pontosításához, majd ezután használhatja ezeket a szkripteket a Power BI-ban.
@@ -53,7 +53,7 @@ Alapértelmezés szerint a **Power BI Desktop** az **R Studiót** indítja el k�
 Ha nincs **.R**-fájltársítás, lehetőség van egy egyéni IDE környezetre mutató elérési út megadására a **Beállítások** párbeszédpanel *Tallózás az előnyben részesített R IDE kiválasztásához* szakaszában. Egy eltérő R IDE környezetet is elindíthat, ha az **R IDE indítása** nyílikon melletti **Beállítások** fogaskerékikonra kattint a **Power BI Desktopban**.
 
 ## <a name="launch-an-r-ide-from-power-bi-desktop"></a>R IDE indítása a Power BI Desktopból
-Az R IDE a **Power BI Desktopból** történő indításához hajtsa végre az alábbi lépéseket.
+Az R IDE a **Power BI Desktopból** történő indításához hajtsa végre az alábbi lépéseket:
 
 1. Adatok betöltése a **Power BI Desktopba**.
 2. Válasszon ki néhány mezőt a **Mezők** panelről, amelyekkel dolgozni szeretne. Ha még nem engedélyezte a szkriptvizualizációkat, a rendszer ezt kérni fogja.

@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: e4415f4315400e7ff11c356badee19eebace82b7
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 5c28a53f4421c88bfc6237813ce6fdb76cc160cd
+ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/12/2018
 ---
 # <a name="connect-to-data-using-generic-interfaces-in-power-bi-desktop"></a>Csatlakozás adatokhoz általános illesztők használatával a Power BI Desktopban
 Számos különböző adatforráshoz csatlakozhat a **Power BI Desktopban** beépített adatösszekötők használatával, kezdve az **Access-adatbázisoktól** a **Zendesk-erőforrásokig**, ahogy ez az **Adatok lekérése** ablakban is látható. Továbbá a **Power BI Desktop** beépített általános illesztőinek használatával (pl.: **ODBC** vagy **REST API-k**) számos *egyéb* adatforráshoz is csatlakozhat, amelyek tovább bővítik kapcsolati lehetőségeit.
@@ -44,7 +44,7 @@ A megfelelő paramétereknek a fent említett általános illesztők által bizt
 
 Az alábbi szakaszokban megtalálhatja az általános illesztők segítségével elérhető adatforrások listáját.
 
-Nem találja a **Power BI Desktopban** használni kívánt adatforrást? [Ossza meg velünk](https://ideas.powerbi.com/), hogy hozzáadhassuk azt az ötletek és kérések listájához.
+Nem találja a **Power BI Desktopban** használni kívánt adatforrást? Javaslatait elküldheti a Power BI-csapatnak a [Javaslatok és kérések](https://ideas.powerbi.com/) listájában.
 
 ## <a name="data-sources-accessible-through-odbc"></a>ODBC-n keresztül elérhető adatforrások
 A **Power BI Desktop** **ODBC**-összekötőjével egyszerűen egy **adatforrás nevének (DSN)** vagy egy *kapcsolati karakterlánc* megadásával importálhat adatokat bármely harmadik féltől származó ODBC-illesztőből. Igény szerint megadhat egy, az ODBC-illesztőn végrehajtandó SQL-utasítást is.
@@ -114,7 +114,7 @@ Az alábbi lista néhány példát ismertet azon adatforrások közül, amelyekh
 | R-szkript |Statisztikai R-fájlok |[CRAN-útmutatás az R-szkriptekhez](https://cran.r-project.org/doc/manuals/R-data.html) |
 
 ## <a name="next-steps"></a>Következő lépések
-A Power BI Desktop használatával számos adatforráshoz csatlakozhat. Az adatforrásokkal kapcsolatos információkért lásd az alábbi forrásanyagokat:
+A **Power BI Desktop** használatával számos adatforráshoz csatlakozhat. Az adatforrásokkal kapcsolatos információkért lásd az alábbi forrásanyagokat:
 
 * [Első lépések a Power BI Desktopban](desktop-getting-started.md)
 * [Adatforrások a Power BI Desktopban](desktop-data-sources.md)

@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 02/05/2018
+ms.date: 03/07/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 4e8c4def5defc32ef7ba6414c3d76ac778564b66
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 3697928986c5e579407e227911c5beab71c6a08d
+ms.sourcegitcommit: 85d18d9f11a4ce4d4ed65e4544d13da6c2d9b1d4
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="directquery-and-sap-business-warehouse-bw"></a>DirectQuery és SAP Business Warehouse (BW)
 Az **SAP Business Warehouse- (BW-)** adatforrásokhoz közvetlenül kapcsolódhat a **DirectQuery** használatával. Az SAP BW OLAP/többdimenziós természeténél fogva számos különbség van aközött, ha a DirectQueryt az SAP BW-vel használjuk, vagy ha valamilyen relációs forrással, például az SQL Serverrel. A különbségeket a következőképpen lehet összefoglalni:
@@ -32,6 +32,9 @@ Az **SAP Business Warehouse- (BW-)** adatforrásokhoz közvetlenül kapcsolódha
 * Az OLAP-források egyedi természeténél fogva további korlátozások is érvényesek (a modellezésre és a vizualizációra vonatkozóan egyaránt) a DirectQuery szokványos korlátozásain felül. A korlátozásokat a cikk egy későbbi része ismerteti.
 
 Mindemellett *kiemelt fontosságú* tisztában lenni azzal, hogy az SAP BW-nek számos olyan funkciója van, amelyeket a Power BI nem támogat, és hogy az SAP BW nyilvános felületének természetéből adódóan előfordulnak olyan, fontos esetek, amikor a Power BI-ban látható eredmények nem egyeznek azokkal az eredményekkel, amelyek egy SAP-eszköz használatakor láthatók. A korlátozásokat a cikk egy későbbi része ismerteti. Tekintse át alaposan a korlátozásokat és a viselkedésbeli különbségeket, hogy megfelelően tudja értelmezni a Power BI-ban látható, az SAP nyilvános felülete által visszaadott eredményeket.  
+
+> [!NOTE]
+> A DirectQuery SAP BW-vel való használatának lehetősége a Power BI Desktop 2018. márciusi frissítéséig előzetes verzióként állt rendelkezésre. Az előzetes időszakban kapott visszajelzések olyan fejlesztésekhez vezettek, amelyek az előzetes verzióval készült jelentéseket is érintik. Most, hogy a DirectQuery SAP BW-vel való használata általánosan elérhető, *feltétlenül* vesse el a meglévő (az előzetes verzióra épült), a DirectQueryt az SAP BW-vel használó jelentéseket, amelyeket a korábbi verzióval hozott létre. A DirectQuery SAP BW-vel való használatának általános elérhetősége előtt készült jelentésekben a frissítés kezdeményezésekor hibák fognak fellépni a metaadatoknak az alapjukul szolgáló SAP BW-kocka változásaival való frissítésére tett kísérlet következtében. Ezeket a jelentéseket készítse el újra egy üres jelentésből a DirectQuery SAP BW-vel való használatát biztosító funkció általánosan elérhető verziójával. 
 
 ## <a name="additional-modelling-restrictions"></a>További modellezési korlátozások
 A DirectQuery SAP BW-vel való használatakor a Power BI-ban a legfőbb további modellezési korlátozások a következők:
