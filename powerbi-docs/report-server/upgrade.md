@@ -17,20 +17,18 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 09/05/2017
 ms.author: maghan
-ms.openlocfilehash: 81036ce9a265f4541b23954584d7a9dd9b99a080
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: 337fafe395a5d80d0b82ac069579048a69cd6c4f
+ms.sourcegitcommit: 0473a155495a7a9ba4b899d0815100426718b7ac
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/20/2018
 ---
 # <a name="upgrade-power-bi-report-server"></a>A Power BI jelentéskészítő kiszolgáló frissítése
 A Power BI jelentéskészítő kiszolgáló frissítésének ismertetése
 
  **Letöltés** ![letöltés](media/upgrade/download.png "letöltés")
 
-A Power BI jelentéskészítő kiszolgáló és a hozzá optimalizált Power BI Desktop letöltéséhez keresse fel a [Helyszíni jelentéskészítés a Power BI jelentéskészítő kiszolgálóval](https://powerbi.microsoft.com/report-server/) című oldalt.
-
-![tipp](media/upgrade/fyi-tip.png "tipp") Az aktuális kibocsátási megjegyzések a [Power BI jelentéskészítő kiszolgáló – Kibocsátási megjegyzések](release-notes.md) oldalon olvashatók.
+A Power BI jelentéskészítő kiszolgáló, illetve a Power BI jelentéskészítő kiszolgálóra optimalizált Power BI Desktop letöltéséhez nyissa meg az [On-premises reporting with Power BI Report Server](https://powerbi.microsoft.com/report-server/) (Helyi jelentéskészítés Power BI jelentéskészítő kiszolgálóval) webhelyet.
 
 ## <a name="before-you-begin"></a>Előkészületek
 Azt javasoljuk, hogy mielőtt frissít egy jelentéskészítő kiszolgálót, a következő lépésekkel készítsen róla biztonsági másolatot.
