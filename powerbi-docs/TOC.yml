@@ -698,8 +698,6 @@
           href: desktop-assume-referential-integrity.md
         - name: 'Oktatóanyag: dinamikus sorszintű biztonság az Analysis Services táblázatos modelljével'
           href: desktop-tutorial-row-level-security-onprem-ssas-tabular.md
-        - name: DirectQuery az Oracle- és a Teradata-adatbázisokhoz
-          href: desktop-directquery-for-oracle-teradata.md
         - name: Az SAP BW-összekötő használata a Power BI Desktopban (előzetes verzió)
           href: desktop-sap-bw-connector.md
         - name: A OneDrive Vállalati verzió hivatkozásainak használata a Power BI Desktopban
