@@ -1,15 +1,15 @@
 ---
-title: "Jelentés nézet a Power BI Desktopban"
-description: "Jelentés nézet a Power BI Desktopban"
+title: Jelentés nézet a Power BI Desktopban
+description: Jelentés nézet a Power BI Desktopban
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 02/05/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: e68a819325e601f869b34c4ccbe3e873fe9408b3
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: af10699ea30b9d8e8dd8e3495860c43387a7e0be
+ms.sourcegitcommit: 93e7362fc47319959b6992dfd037effdf831d010
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/21/2018
 ---
 # <a name="report-view-in-power-bi-desktop"></a>Jelentés nézet a Power BI Desktopban
 Ha már dolgozott a Power BI-jal, tudja, milyen egyszerűen hozhatók létre dinamikus perspektívákat és adatelemzést biztosító jelentések. A Power BI speciális funkciókat tesz elérhetővé a Power BI Desktopban. A Power BI Desktoppal többek között létrehozhat összetett lekérdezéseket, egyesíthet különböző forrásokból származó adatokat és kapcsolatot hozhat létre táblák között.
@@ -44,7 +44,7 @@ Miután hozzáadott néhány adatot, hozzáadhat mezőket az új vizualizációh
 
 ![](media/desktop-report-view/pbid_reportview_addvis.gif)
 
-A vizualizáció típusának módosításához kiválaszthatja azt a menüszalagon található **Vizualizáció** csoportból, vagy kattinthat a jobb gombbal, és kiválaszthat egy másikat a **Vizualizáció típusának módosítása** ikonnal.
+A vizualizáció típusának módosításához kiválaszthatja azt a menüszalagon található **Vizualizáció** csoportból, vagy kattinthat a jobb gombbal, és választhat egy másikat a **Vizualizáció típusának módosítása** ikonnal.
 
 ![](media/desktop-report-view/pbid_reportview_changevis.gif)
 
@@ -53,7 +53,7 @@ A vizualizáció típusának módosításához kiválaszthatja azt a menüszalag
 > 
 > 
 
-Egy jelentés legalább egy üres oldallal kezdődik. Az oldalak a kezelőpanelen jelennek meg, a vászon bal oldalán. Egy oldalhoz sokféle vizualizációt hozzáadhat, de fontos, hogy ne vigye túlzásba őket. A túl sok vizualizáció zsúfolttá teheti az oldalt, és nehézkessé a megfelelő információ megtalálását. Új oldalakat is hozzáadhat a jelentéshez, csak kattintson az **Új oldal** elemre a menüszalagon.
+Egy jelentés legalább egy üres oldallal kezdődik. Az oldalak a kezelőpanelen jelennek meg, a vászon bal oldalán. Egy oldalhoz sokféle vizualizációt hozzáadhat, de fontos, hogy ne vigye túlzásba őket. A túl sok vizualizáció zsúfolttá teheti az oldalt, és nehézkessé a megfelelő információ megtalálását. Új oldalakat is hozzáadhat a jelentéshez. Ehhez egyszerűen kattintson az **Új oldal** elemre a menüszalagon.
 
 ![](media/desktop-report-view/pbidesignerreportviewnewpage.png)
 

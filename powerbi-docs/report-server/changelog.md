@@ -1,15 +1,15 @@
 ---
-title: "A Power BI jelentéskészítő kiszolgáló változásnaplója"
-description: "Ez a változásnapló a Power BI jelentéskészítő kiszolgálóra vonatkozik, és minden kiadott buildhez felsorolja az új elemeket és hibajavításokat."
+title: A Power BI jelentéskészítő kiszolgáló változásnaplója
+description: Ez a változásnapló a Power BI jelentéskészítő kiszolgálóra vonatkozik, és minden kiadott buildhez felsorolja az új elemeket és hibajavításokat.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: jtarquino
 manager: jonhp
 backup: maggies
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -17,17 +17,35 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/11/2017
 ms.author: tankas
-ms.openlocfilehash: deff79bba0f7f191a8343629300c725f3150e509
-ms.sourcegitcommit: a44c29bbc220ecb1ed80810cb1e7df0db8ea611a
+ms.openlocfilehash: 7c460955aba71bfb3a89d94aa6000c7bdd451ac2
+ms.sourcegitcommit: 0473a155495a7a9ba4b899d0815100426718b7ac
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 01/12/2018
+ms.lasthandoff: 03/20/2018
 ---
 # <a name="changelog-for-power-bi-report-server"></a>A Power BI jelentéskészítő kiszolgáló változásnaplója
 
 Ez a változásnapló a Power BI jelentéskészítő kiszolgálóra vonatkozik, és minden kiadott buildhez felsorolja az új elemeket és hibajavításokat.
 
-Az új funkciókról az [A Power BI jelentéskészítő kiszolgáló újdonságai](whats-new.md) című cikkből tájékozódhat.
+Az új funkciókról az [A Power BI jelentéskészítő kiszolgáló újdonságai](whats-new.md) című cikkből tájékozódhat. 
+
+## <a name="march-2018"></a>2018. március
+- **Power BI jelentéskészítő kiszolgáló**
+    - *Verzió: 1.2.6648.38132 (Build: 15.0.2.378), Kiadás dátuma: 2018. március 19.*
+        - Biztonsági frissítések
+        - Javított kisegítő lehetőségek
+        - Hibajavítások
+            - Javítás a többoldalas jelentésekhez, melyekben a csatolt jelentés paramétereinek láthatósága hibásan működött a tulajdonságok szerkesztését követő visszaállítás után
+            - Javítás az egyéni űrlapokkal hitelesítést végző webportálokhoz, melyek figyelmen kívül hagyták a csúszóablakos lejáratú cookie-kat
+            - Javítás a Wordbe exportálási funkcióhoz, mely egyenetlen sormagasságot okozott az üres soroknál
+            - Javítás a többoldalas jelentésekhez, melyekben a kifejezésalapú csatlakozási karakterlánc törlődött az adatforrás hitelesítő adatainak módosításakor
+            - Javítás a KPI-k szöveges értékekkel való használatához
+            - Javítás a többoldalas jelentésekhez, melyekben nem működött az új adatkészlet társításának funkciója
+            - Stabilitással és használattal kapcsolatos egyéb javítások
+
+- **Power BI Desktop (a Power BI jelentéskészítő kiszolgálóra optimalizálva)**
+    - Verzió: 2.56.5023.1043 (2018. március), Kiadás dátuma: 2018. március 19.
+        - A Power BI jelentéskészítő kiszolgálóval (2018. március) való kapcsolathoz szükséges módosításokat tartalmaz
 
 ## <a name="october-2017"></a>2017. október
 

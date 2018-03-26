@@ -1,15 +1,15 @@
 ---
-title: "Átméretezhető rugalmas szeletelő létrehozása a Power BI-ban"
-description: "Útmutató egy olyan szeletelő létrehozásához, mely átméretezhető a jelentésnek megfelelően"
+title: Átméretezhető rugalmas szeletelő létrehozása a Power BI-ban
+description: Útmutató egy olyan szeletelő létrehozásához, mely átméretezhető a jelentésnek megfelelően
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/08/2017
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: feba171d6a81f7e9760df2d9fabecce2cc544dc2
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 2ab907dd15e43892147967902fbb94d09ef4125b
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="create-a-responsive-slicer-you-can-resize-in-power-bi-preview"></a>Átméretezhető rugalmas szeletelő létrehozása a Power BI-ban (Előzetes verzió)
 
@@ -78,7 +78,7 @@ További információk [a Power BI-mobilalkalmazásokra optimalizált jelentése
 
 ## <a name="make-a-time-or-range-slicer-responsive"></a>Idő- vagy tartományszeletelő rugalmassá tétele
 
-Ugyanezekkel a lépésekkel tehet rugalmassá egy csempe- vagy tartományszeletelőt is. Miután a **Rugalmas** beállítást a **Bekapcsolva** értékre állította, észrevehet néhány dolgot:
+Ugyanezekkel a lépésekkel tehet rugalmassá egy idő- vagy tartományszeletelőt is. Miután a **Rugalmas** beállítást a **Bekapcsolva** értékre állította, észrevehet néhány dolgot:
 
 - A látványelemek a vásznon engedélyezett mérettől függően optimalizálják a beviteli mezők sorrendjét. 
 - A rendszer úgy optimalizálja az adatelemek megjelenítését, hogy a szeletelő a lehető legjobban használható legyen a vásznon engedélyezett mérete alapján. 

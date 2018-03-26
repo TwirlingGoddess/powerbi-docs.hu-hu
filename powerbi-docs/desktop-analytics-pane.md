@@ -1,15 +1,15 @@
 ---
-title: "Az Elemzés panel használata a Power BI Desktopban"
-description: "Dinamikus referenciavonalak létrehozása vizualizációkhoz a Power BI Desktopban"
+title: Az Elemzés panel használata a Power BI Desktopban
+description: Dinamikus referenciavonalak létrehozása vizualizációkhoz a Power BI Desktopban
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 02/05/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 24f6f9037937049d24321791046aaf7a14e9fb6f
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 369d99406cd286be7cf1afb3c02c98c1711531ae
+ms.sourcegitcommit: 93e7362fc47319959b6992dfd037effdf831d010
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/21/2018
 ---
 # <a name="using-the-analytics-pane-in-power-bi-desktop"></a>Az Elemzés panel használata a Power BI Desktopban
 A **Power BI Desktop** **Elemzés** paneljén dinamikus *referenciavonalak* adhatók hozzá a vizualizációkhoz, így irányítva rá a figyelmet a fontos trendekre vagy elemzésekre. Az **Elemzési** panel a Power BI Desktop **Vizualizációs elemek** területén található.
@@ -60,7 +60,7 @@ Az adott vizualizáció esetében rendelkezésre álló dinamikus referenciavona
    ![](media/desktop-analytics-pane/analytics-pane_3.png)
 3. Új vonal létrehozásához válassza a **+ Hozzáadás** lehetőséget. Ezt követően megadhatja a vonal nevét úgy, hogy duplán kattint a szövegmezőre, majd begépeli a nevet.
    
-   Számos beállítási lehetőség áll rendelkezésére a vonalhoz kapcsolódóan, például kiválaszthatja annak *színét*, *átlátszóságát*, *stílusát* és *pozícióját* (a vizualizáció adatelemeihez képest), valamint megadhatja, hogy kívánja-e feliratozni. Lényeges továbbá, hogy kiválaszthatja a vonal alapjául szolgáló **Mértéket** a vizualizáción a **Mérték** Legördülő lista kiválasztásával, amelyet a rendszer automatikusan feltölt a vizualizáció adatelemeivel. Ebben az esetben mértékként a *Weather* (Időjárás) elemet választjuk ki, ehhez az *Average Weather* (Átlagos időjárás) feliratot rendeljük, és az alább látható módon testreszabunk néhány egyéb beállítást is.
+   Számos beállítási lehetőség áll rendelkezésére a vonalhoz kapcsolódóan, például kiválaszthatja annak *színét*, *átlátszóságát*, *stílusát* és *pozícióját* (a vizualizáció adatelemeihez képest), valamint megadhatja, hogy kívánja-e feliratozni. Lényeges továbbá, hogy kiválaszthatja a vonal alapjául szolgáló **Mértéket** a vizualizáción a **Mérték** legördülő lista kiválasztásával, amelyet a rendszer automatikusan feltölt a vizualizáció adatelemeivel. Ebben az esetben mértékként a *Weather* (Időjárás) elemet választjuk ki, ehhez az *Average Weather* (Átlagos időjárás) feliratot rendeljük, és az alább látható módon testreszabunk néhány egyéb beállítást is.
    
    ![](media/desktop-analytics-pane/analytics-pane_4.png)
 4. Ha adatfeliratot kíván megjeleníteni, mozgassa az **Adatfelirat** csúszkát bekapcsolt állásba. Ekkor rengeteg, az adatfelirathoz kapcsolódó beállítás jelenik meg az alábbi képen látható módon.

@@ -1,15 +1,15 @@
 ---
-title: "Az Alakzatleképezések funkció használata a Power BI Desktopban (előzetes verzió)"
-description: "Relatív összehasonlítások létrehozása régiókhoz az Alakzatleképezések funkció használatával a Power BI Desktopban"
+title: Az Alakzatleképezések funkció használata a Power BI Desktopban (előzetes verzió)
+description: Relatív összehasonlítások létrehozása régiókhoz az Alakzatleképezések funkció használatával a Power BI Desktopban
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 01/16/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 335e9800be3d2a2cd30cc84835ab7b0173922c46
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 2bdd29f664d49dd4628b2f27d0eddf1f5dad1cf7
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="shape-maps-in-power-bi-desktop-preview"></a>Az Alakzatleképezések funkció a Power BI Desktopban (előzetes verzió)
 A Power BI Desktopban azért hozható létre **Alakzatleképezés** vizualizáció, hogy így a régiók relatív összehasonlítását jeleníthesse meg a különböző színek különböző régiókra történő alkalmazásával. A **Leképezés** vizualizációval szemben az **Alakzatleképezés** vizualizáció nem képes az adatpontok pontos földrajzi helyének megjelenítésére a térképen; alkalmazásának fő célja a régiók relatív összehasonlításának megjelenítése egy térképen eltérő színezéssel.
@@ -73,6 +73,23 @@ Egyéni térképek használatára is lehetőség van az **Alakzatleképezés** f
 A **TopoJSON** formátumú térképfájl használatához vegyen fel egy Alakzatleképezés vizualizációt a jelentésbe, valamint néhány adatot a *Hely* és az *Értékek* gyűjtőkbe. Ezt követően jelölje ki a **Megjelenítések**  panelen a **Formátum** szakaszt (az ecset ikon, az alábbi képen (1) számmal jelölve), majd bontsa ki az **Alakzat** szakaszt, és válassza a **+ Térkép hozzáadása** lehetőséget.
 
 ![](media/desktop-shape-map/shape-map_6.png)
+
+## <a name="sample-custom-map"></a>Egyéni mintatérkép
+Az *Amerikai Egyesült Államok ügyvédi hivatala* minden évben egy éves pénzügyi jelentést ad ki a peres ügyeikhez kapcsolódó adatokról.  Minden jelentés megtalálható a lenti hivatkozáson.
+
+https://www.justice.gov/usao/resources/annual-statistical-reports
+
+Mivel az államok több körzetre oszthatók, egy egyéni térképet kell használnunk.  Az Egyesült Államok igazságügyi körzeteit tartalmazó **TopoJSON** térkép a **Power BI Desktopba** való importálásával vizualizálhatjuk az éves pénzügyi adatokat kerületi ügyészségekre bontva.  Az alábbi kép egy példa erről a térképről.
+
+![](media/desktop-shape-map/shape-map_7a.png)
+
+Az egyes államtérképekkel is érdekes műveleteket végezhet, és még részletesebb adatokat jeleníthet meg a bennük található körzetek alapján. 
+
+![](media/desktop-shape-map/shape-map_7b.png)
+
+Ha szeretne ezzel az adatkészlettel és vizualizációval kísérletezni, a következő hivatkozással letöltheti a jelentés létrehozásához használt eredeti PBIX-fájlt.
+
+* [Egyéni térkép bemutató. PBIX-fájl](http://download.microsoft.com/download/1/2/8/128943FB-9231-42BD-8A5D-5E2362C9D589/DistrictAttorneyFiscalReport.pbix)
 
 ## <a name="getting-map-data"></a>Térképadatok lekérése
 Az adatoknak a modellbe történő gyors betöltéséhez (erre az **Alakzat leképezése** funkció teszteléséhez van szükség) kimásolhatja a cikk végén található egyik táblát, majd válassza az **Adatbevitel** lehetőséget a **Kezdőlap** menüszalagján.

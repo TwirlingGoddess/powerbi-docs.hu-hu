@@ -1,15 +1,15 @@
 ---
-title: "Csatlakozás egy weblaphoz a Power BI Desktopról"
-description: "Könnyedén csatlakozhat a weblapadatokhoz, és használhatja azokat a Power BI Desktopban"
+title: Csatlakozás egy weblaphoz a Power BI Desktopról
+description: Könnyedén csatlakozhat a weblapadatokhoz, és használhatja azokat a Power BI Desktopban
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 0ee3ff3b3ca33ea4760f9f08b4e05cbd65e2ab34
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 23984d8e64445d869062e942eb6155ff58b0d0ae
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="connect-to-a-web-page-from-power-bi-desktop"></a>Csatlakozás egy weblaphoz a Power BI Desktopról
 Csatlakozhat egy weblaphoz, és a Power BI Desktopba importálhatja annak adatait a vizualizációban és adatmodellekben való használathoz.
@@ -47,7 +47,7 @@ A **Betöltés** gombra kattintva a Power BI Desktop importálja a kiválasztott
 
 Csupán ennyiből áll a weblapokhoz való csatlakozás és az adatok átvitele a Power BI Desktopba.
 
-A Power BI Desktopból áthúzhatja a mezőket a Jelentés vászonra, és bármilyen vizualizációt létrehozhat. A weblapról származó adatokkal ugyanúgy dolgozhat, mint bármilyen más adattal. Formálhatja azokat, kapcsolatokat hozhat létre a modelljében található más adatforrásokkal, és létrehozhatja az Önnek legmegfelelőbb Power BI-jelentést.
+A Power BI Desktopból áthúzhatja a mezőket a Jelentés vászonra, és bármilyen vizualizációt létrehozhat. A weblapról származó adatokat ugyanúgy használhatja, mint bármilyen más adatot. Formálhatja azokat, kapcsolatokat hozhat létre a modelljében található más adatforrásokkal, és létrehozhatja az Önnek legmegfelelőbb Power BI-jelentést.
 
 Ha részletesebben és működés közben szeretné látni a weblapokhoz való csatlakozást, tekintse meg a [Power BI Desktop Első lépések útmutatóját](desktop-getting-started.md).
 

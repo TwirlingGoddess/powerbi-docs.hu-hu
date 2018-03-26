@@ -1,35 +1,35 @@
 ---
-title: "QR-kód létrehozása jelentéshez a Power BI mobilalkalmazásokban való használathoz"
-description: "A Power BI-ban lévő QR-kódok a való világból bármit közvetlenül összekapcsolhatnak a Power BI mobilalkalmazás kapcsolódó BI-információival, és ehhez nincs szükség keresésre."
+title: QR-kód létrehozása jelentéshez a Power BI mobilalkalmazásokban való használathoz
+description: A Power BI-ban lévő QR-kódok a való világból bármit közvetlenül összekapcsolhatnak a Power BI mobilalkalmazás kapcsolódó BI-információival, és ehhez nincs szükség keresésre.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/12/2017
+ms.date: 03/13/2018
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 4bd635fbb68f128d0c4f37631f05d0f2b8d9bf7d
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 2c3c610eb7970c911eaaf1437ac7f92f9f4f624d
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="create-a-qr-code-for-a-report-in-power-bi-to-use-in-the-mobile-apps"></a>QR-kód létrehozása jelentéshez a Power BI-ban a mobilalkalmazásokban való használathoz
 A Power BI-ban lévő QR-kódok a való világból bármit közvetlenül összekapcsolhatnak a kapcsolódó BI-információkkal, és ehhez nincs szükség navigálásra vagy keresésre.
 
 Bármilyen jelentéshez létrehozhat QR-kódot a Power BI szolgáltatásban, még a nem szerkeszthető jelentésekhez is. Ezután elhelyezheti a QR-kódot a kívánt helyen. Beillesztheti például egy e-mailbe, vagy kinyomtathatja és elhelyezheti egy tetszőleges helyre. 
 
-A munkatársak, akikkel megosztotta a jelentést, beolvashatják a QR-kódot, így a jelentést közvetlenül [a mobileszközükön](mobile-apps-qr-code.md) érhetik el. A Power BI alkalmazásban található QR-kódolvasót vagy az eszközükre telepített bármely QR-olvasót használhatják erre a célra.
+A munkatársak, akikkel megosztotta a jelentést, beolvashatják a QR-kódot, így a jelentést közvetlenül [a mobileszközükön](mobile-apps-qr-code.md) érhetik el. A Power BI alkalmazásban található QR-kódolvasót vagy az eszközükre telepített bármely QR-olvasót használhatják erre a célra. [A jelentés QR-kódját a Power BI vegyes valósághoz alkalmazással is beolvashatják](mobile-mixed-reality-app.md#scan-a-report-qr-code-in-holographic-view).
 
 ## <a name="create-a-qr-code-for-a-report"></a>QR-kód létrehozása jelentéshez
 1. Nyisson meg egy jelentést a Power BI szolgáltatásban.
@@ -49,12 +49,10 @@ A Power BI JPG-fájlként hozza létre a QR-kódot, nyomtatásra készen.
 
 1. Válassza a **Letöltés** elemet, majd nyissa meg a JPG-fájlt egy nyomtatóhoz csatlakoztatott számítógépen.  
    
-   > [!TIP]
-   > A JPG-fájl neve megegyezik a csempe nevével. Például „Értékesítési és marketing minta.jpg”.
-   > 
-   > 
-2. Nyomtassa ki a fájlt 100%-os nagyításban vagy „tényleges méretben”.  
-3. Vágja ki a QR-kódot az élei mentén, és ragassza fel a jelentés szempontjából alkalmas helyre. 
+   A JPG-fájl neve megegyezik a csempe nevével. Például „Értékesítési és marketing minta.jpg”.
+   
+1. Nyomtassa ki a fájlt 100%-os nagyításban vagy „tényleges méretben”.  
+2. Vágja ki a QR-kódot az élei mentén, és ragassza fel a jelentés szempontjából alkalmas helyre. 
 
 ## <a name="next-steps"></a>További lépések
 * [Power BI-információk elérése a való világból](mobile-apps-data-in-real-world-context.md) a mobilalkalmazásokkal

@@ -1,15 +1,15 @@
 ---
-title: "Kapcsolódás Azure Consumption Insights-adatokhoz a Power BI Desktopban (bétaverzió)"
-description: "Könnyedén kapcsolódhat az Azure-hoz és használati elemzésekhez juthat hozzá a Power BI Desktop segítségével"
+title: Kapcsolódás Azure Consumption Insights-adatokhoz a Power BI Desktopban (bétaverzió)
+description: Könnyedén kapcsolódhat az Azure-hoz és használati elemzésekhez juthat hozzá a Power BI Desktop segítségével
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 9127f7b2e19a304c514d5e6449cf1ceb7ecddb13
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 1e82ec988389790a3d96cb6f98f0db5d1a385fda
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="connect-to-azure-consumption-insights-in-power-bi-desktop-beta"></a>Kapcsolódás az Azure Consumption Insightshoz a Power BI Desktopban (bétaverzió)
 Az **Azure Consumption Insights** összekötő használatával a **Power BI Desktopból** kapcsolódhat az Azure-hoz, és részletes adatokat és információkat kérhet le cége Azure-szolgáltatáshasználatáról. Továbbá mértékeket, egyéni oszlopokat és vizualizációkat hozhat létre, amelyekkel jelentéseket készíthet és információkat oszthat meg cége Azure-használatáról. Az **Azure Consumption Insights** összekötő jelenleg bétaverzióban van, és később még változhat.
@@ -42,7 +42,7 @@ A megjelenő párbeszédablakban adja meg a *beléptetési számát*.
 
 ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_02.png)
 
-* A beléptetési számot az [Azure Enterprise Portalról](https://ea.azure.com) kérheti le, a következő képen látható helyről.
+* A beléptetési számot az [Azure Enterprise Portalról](https://ea.azure.com) kérheti le, a következő képen látható helyről:
   
   ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_08.png)
   
@@ -61,7 +61,7 @@ Miután megadta a *hozzáférési kulcsát* és rákattintott a **Csatlakozás**
 ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_04.png)
 
 > [!NOTE]
-> A *Summary és *PriceSheet* táblák csak a beléptetési szintű API-kulcsokkal elérhetők. A táblák alapértelmezés szerint az aktuális havi *használat* és *árlista* adatait tartalmazzák. A *Summary* és a *Marketplace* táblák nem korlátozódnak az aktuális hónapra.
+> A *Summary* és *PriceSheet* táblák csak a beléptetési szintű API-kulcsokkal elérhetők. A táblák alapértelmezés szerint az aktuális havi *használat* és *árlista* adatait tartalmazzák. A *Summary* és a *Marketplace* táblák nem korlátozódnak az aktuális hónapra.
 > 
 > 
 
@@ -84,16 +84,16 @@ A **képletsávban** gépelje be a következőt:
 
     = MicrosoftAzureConsumptionInsights.Contents
 
-Megjelenik néhány minta, ahogy az a következő képen látható.
+Megjelenik néhány minta, ahogy az a következő képen látható:
 
 ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_07.png)
 
 A jelentések használatakor és lekérdezések létrehozásakor használja a következőt:
 
-* A jelenlegi dátumtól számított hónapok számának meghatározásához használja a *noOfMonths* paramétert
+* A jelenlegi dátumtól számított hónapok számának meghatározásához használja a *numberOfMonth* paramétert
   * Használjon egy 1 és 36 közti értéket, amely az importálni kívánt hónapok számát jelöli, a jelenlegi dátumtól számítva. Javasoljuk, hogy ne kérjen le 12 hónapnál több adatot, hogy elkerülje az importálási korlátozások és a lekérdezésekhez a Power BI-ban engedélyezett adatmennyiségek küszöbértékeit.
 * Egy több hónapos múltbéli időszak meghatározásához használja a *startBillingDataWindow* és *endBillingDataWindow* paramétereket
-* *Ne* használja egyszerre a *noOfMonths* paramétert a *startBillingDataWindow* vagy *endBillingDataWindow* paraméterekkel
+* *Ne* használja egyszerre a *numberOfMonth* paramétert a *startBillingDataWindow* vagy *endBillingDataWindow* paraméterekkel
 
 ## <a name="migrating-from-the-azure-enterprise-connector"></a>Migrálás az Azure Enterprise Connectorból
 Egyes ügyfelek az *Azure Enterprise Connector (bétaverzió)* használatával hoztak létre vizualizációkat. Ez a szoftver idővel meg fog szűnni, és az **Azure Consumption Insights** veszi át a helyét. Az **Azure Consumption Insights** összekötő funkciói és fejlesztési közé tartoznak a következők:
@@ -108,7 +108,7 @@ Az ügyfelek átválthatnak az újabb **Azure Consumption Insights**-összeköt�
 Az első lépés a csatlakozás az **Azure Consumption Insights**-összekötővel, amit jelen cikk korábbi része ismertetett részletesen. Ebben a lépésben a **Power BI Desktop** **Kezdőlap** szalagján válassza a **Lekérdezés > Üres lekérdezés** lehetőséget.
 
 ### <a name="step-2-use-the-advanced-editor-to-create-a-query"></a>2. lépés: Lekérdezés létrehozása a Speciális szerkesztő használatával
-A **Lekérdezésszerkesztőben** válassza a **Speciális szerkesztőt** a **Kezdőlap** menüszalag **Lekérdezés** szakaszában. A megjelenő **Speciális szerkesztő** ablakban adja meg az alábbi lekérdezést.
+A **Lekérdezésszerkesztőben** válassza a **Speciális szerkesztőt** a **Kezdőlap** menüszalag **Lekérdezés** szakaszában. A megjelenő **Speciális szerkesztő** ablakban adja meg az alábbi lekérdezést:
 
     let    
         enrollmentNumber = "100",
@@ -149,7 +149,7 @@ Az Azure biztosítja az [**Azure Consumption Insights (ACI) API**](https://azure
 ### <a name="mapping-names-and-usage-details-between-the-portal-the-connector-and-the-api"></a>Nevek és használati adatok társítása a portál, az összekötő és az API között
 Az Azure Portal adatainak oszlopai és nevei hasonlóak az API-éhoz és az összekötőéhez, de nem mindig azonosak. A tisztánlátás érdekében az alábbi tábla tartalmazza az API, az összekötő és az Azure Portal oszlopainak társításait. A táblázat azt is jelzi, ha egy oszlop elavult. Ezen kifejezések definícióit és további információkat az [Azure-számlázási adatok szótárában](https://docs.microsoft.com/azure/billing/billing-enterprise-api-usage-detail) találja meg.
 
-| ACI összekötő/tartalomcsomag oszlopneve | ACI API oszlopneve | EA oszlopneve | Elavult/kompatibilitási célból érhető el |
+| ACI összekötő/tartalomcsomag oszlopneve | ACI API oszlopneve | EA oszlopneve | Elavult/visszamenőleges kompatibilitási célból érhető el |
 | --- | --- | --- | --- |
 | AccountName |accountName |Account Name |Nem |
 | AccountId |accountId | |Igen |

@@ -1,40 +1,34 @@
 ---
-title: "Rövid útmutató: A Power BI jelentéskészítő kiszolgáló telepítése"
-description: "A Power BI jelentéskészítő kiszolgáló telepítése nagyon gyorsan elvégezhető. Mindössze néhány perc szükséges a letöltéstől a telepítésig és a konfigurálásig."
+title: 'Rövid útmutató: A Power BI jelentéskészítő kiszolgáló telepítése'
+description: A Power BI jelentéskészítő kiszolgáló telepítése nagyon gyorsan elvégezhető. Mindössze néhány perc szükséges a letöltéstől a telepítésig és a konfigurálásig.
 services: powerbi
-documentationcenter: 
-author: markingmyname
+documentationcenter: ''
+author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/29/2018
-ms.author: maghan
-ms.openlocfilehash: 3ddf8870fd4fb3186ff884220fc4a7de7632c78d
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.date: 03/19/2018
+ms.author: maggies
+ms.openlocfilehash: 625864384f73260ec0f62b74ff9a95e966289da0
+ms.sourcegitcommit: 93e7362fc47319959b6992dfd037effdf831d010
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/21/2018
 ---
 # <a name="quickstart-install-power-bi-report-server"></a>Rövid útmutató: A Power BI jelentéskészítő kiszolgáló telepítése
 A Power BI jelentéskészítő kiszolgáló telepítése nagyon gyorsan elvégezhető. Mindössze néhány perc szükséges a letöltéstől a telepítésig és a konfigurálásig.
 
 Az alábbiakban egy rövid áttekintést olvashat, amely alapján gyorsan üzembe helyezhet egy új jelentéskészítő kiszolgálót. A jelentéskészítő kiszolgálók telepítéséről részletesebb információt [A Power BI jelentéskészítő kiszolgáló telepítése](install-report-server.md) című részben talál.
 
- **Letöltés** ![letöltés](media/quickstart-install-report-server/download.png "letöltés")
-
-A Power BI jelentéskészítő kiszolgáló letöltéséhez látogasson el a [Power BI jelentéskészítő kiszolgálóval végzett helyszíni jelentéskészítéssel](https://powerbi.microsoft.com/report-server/) foglalkozó oldalra. 
-
-A Microsoft letöltőközpontjában töltse le a [Microsoft Power BI Desktopot](https://go.microsoft.com/fwlink/?linkid=861076) [a Power BI jelentéskészítő kiszolgálóra (2017. október) optimalizálva].
-
-![tipp](media/quickstart-install-report-server/fyi-tip.png "tipp") A legfrissebb információkért tekintse meg a [Power BI jelentéskészítő kiszolgáló kibocsátási megjegyzéseit](release-notes.md).
+## <a name="video-install-power-bi-report-server"></a>Videó: A Power BI jelentéskészítő kiszolgáló telepítése
 
 <iframe width="640" height="360" src="https://www.youtube.com/embed/zacaEb9A4F0?showinfo=0" frameborder="0" allowfullscreen></iframe>
 
@@ -42,7 +36,10 @@ A Microsoft letöltőközpontjában töltse le a [Microsoft Power BI Desktopot](
 Javasoljuk, hogy a Power BI jelentéskészítő kiszolgáló telepítése előtt tekintse át a [Power BI jelentéskészítő kiszolgáló telepítésének hardver- és szoftverkövetelményeit](system-requirements.md).
 
 ## <a name="step-1-download"></a>1. lépés: Letöltés
-Töltse le helyben a Power BI jelentéskészítő kiszolgáló telepítési fájljait. A Power BI jelentéskészítő kiszolgáló letöltéséhez látogasson el a [Microsoft letöltőközpontba](https://go.microsoft.com/fwlink/?linkid=839351).
+
+A Power BI jelentéskészítő kiszolgáló, illetve a Power BI jelentéskészítő kiszolgálóra optimalizált Power BI Desktop letöltéséhez nyissa meg a [Helyszíni jelentéskészítés a Power BI jelentéskészítő kiszolgálóval](https://powerbi.microsoft.com/report-server/) című lapot, és válassza az **Ingyenes próbaverzió letöltése** lehetőséget.
+
+Az utasításokat követve töltse le a Power BI jelentéskészítő kiszolgáló telepítési fájljait. 
 
 ![A Power BI jelentéskészítő kiszolgáló letöltése](media/quickstart-install-report-server/download-pbireportserver.png)
 

@@ -1,15 +1,15 @@
 ---
-title: "Az Analysis Services táblázatos adatainak használata a Power BI Desktopban"
-description: "Az Analysis Services táblázatos adatai a Power BI Desktopban"
+title: Az Analysis Services táblázatos adatainak használata a Power BI Desktopban
+description: Az Analysis Services táblázatos adatai a Power BI Desktopban
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 02ce801db4eb6f5040c1d0e31ee0746a475c0bbb
-ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
+ms.openlocfilehash: ac5786c51fdf3f927605fdf20123a8ea93e74f8a
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 03/12/2018
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="using-analysis-services-tabular-data-in-power-bi-desktop"></a>Az Analysis Services táblázatos adatainak használata a Power BI Desktopban
 A Power BI Desktopban kétféleképpen érheti el és kérheti le az adatokat az SQL Server Analysis Services táblázatos modelljeiből: élő kapcsolaton keresztüli feltárással vagy az elemek kiválasztásával és a Power BI Desktopba történő importálásával.
@@ -54,7 +54,7 @@ A Power BI Desktopban létrehozott dinamikus jelentéseket másokkal is megoszth
   ![](media/desktop-analysis-services-tabular-data/pbid_sqlas_getdata_as_live.png)
 * Ha az elemek kiválasztását és az adatok lekérését választotta, a Kezelőben válasszon ki egy táblázatos modellt vagy perspektívát. Ezután már csak egyes táblákat és oszlopokat választhat ki a betöltéshez. Az adatok betöltést megelőző további formázásához a Szerkesztés gombra kattintva nyissa meg a Lekérdezésszerkesztőt. Miután végzett, a Betöltés gombra kattintva importálja az adatokat a Power BI Desktopba.
 
-![](media/desktop-analysis-services-tabular-data/pbid_sqlas_getdata_as_select.png)
+  ![](media/desktop-analysis-services-tabular-data/pbid_sqlas_getdata_as_select.png)
 
 ## <a name="frequently-asked-questions"></a>Gyakran feltett kérdések
 **Kérdés:** Van szükségem helyszíni adatátjáróra?

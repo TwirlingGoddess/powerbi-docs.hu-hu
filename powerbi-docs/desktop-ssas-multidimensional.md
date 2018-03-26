@@ -1,15 +1,15 @@
 ---
-title: "Az Analysis Services többdimenziós adatai a Power BI Desktopban"
-description: "Az Analysis Services többdimenziós adatai a Power BI Desktopban"
+title: Az Analysis Services többdimenziós adatai a Power BI Desktopban
+description: Az Analysis Services többdimenziós adatai a Power BI Desktopban
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,16 +18,16 @@ ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 6009f938d2dc8961dc63cb0ac6b08459f41f3ea3
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 18f80073bf690cd6fc64f94d25f8aad8bf5044e1
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="connect-to-ssas-multidimensional-models-in-power-bi-desktop"></a>Csatlakozás SSAS többdimenziós modellekhez a Power BI Desktopban
 A Power BI Desktopban hozzáférhet az **SSAS többdimenziós modellekhez** (gyakori nevükön **SSAS MD-khez**).
 
-Ha **SSAS MD**-adatbázishoz szeretne csatlakozni, válassza az **Adatok lekérése &gt; Adatbázis &gt; SQL Server Analysis Services-adatbázis** lehetőséget az alábbi ábrának megfelelően.
+Ha **SSAS MD**-adatbázishoz szeretne csatlakozni, válassza az **Adatok lekérése &gt; Adatbázis &gt; SQL Server Analysis Services-adatbázis** lehetőséget az alábbi ábrának megfelelően:
 
 ![](media/desktop-ssas-multidimensional/ssas-multidimensional-2.png)
 
@@ -43,7 +43,7 @@ Az alábbi táblázat a többdimenziós objektumok és a Power BI Desktopba viss
 | --- | --- |
 | Kocka |Modell |
 | Kockadimenzió |Tábla |
-| Dimenzióattribútumok (kulcsok, név) |Oszlopok |
+| Dimenzióattribútumok (kulcsok), Név |Oszlopok |
 | Mértékcsoport |Tábla |
 | Mérték |Mérték |
 | Hozzárendelt mértékcsoport nélküli mértékek |A *Mértékek* elnevezésű táblában |

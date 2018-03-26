@@ -1,39 +1,39 @@
 ---
-title: "A Power BI szolgáltatás jelentéseinek Olvasó és Szerkesztési nézete"
-description: "A Power BI szolgáltatás jelentéseinek Olvasó és Szerkesztési nézete közötti különbségek általános áttekintése"
+title: A Power BI szolgáltatás jelentéseinek Olvasó és Szerkesztési nézete
+description: A Power BI szolgáltatás jelentéseinek Olvasó és Szerkesztési nézete közötti különbségek általános áttekintése
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/01/2018
+ms.date: 03/13/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 6eca438c9e12d99f925aef864ed9b74e16ef30b7
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: a9cb6e3d3fe244a3d530efeb2624e3cc5a799e55
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="reading-view-and-editing-view-in-power-bi-service-reports"></a>A Power BI szolgáltatás jelentéseinek Olvasó és Szerkesztési nézete
-A Power BI szolgáltatásban a jelentések két módban tekinthetők meg és kezelhetők: az Olvasó és a Szerkesztési nézetben (a Power BI Desktopban nem). Az Olvasó nézet minden felhasználó számára elérhető, és speciálisan az adatok *felhasználói* számára lett kialakítva, míg a Szerkesztő nézet csak a jelentések *létrehozói* és tulajdonosai számára érhető el. 
+A Power BI szolgáltatásban a jelentések két módban tekinthetők meg és kezelhetők: az Olvasó és a Szerkesztési nézetben (a Power BI Desktopban nem). Az Olvasó nézet minden felhasználó számára elérhető, és speciálisan az adatok *felhasználói* számára lett kialakítva, míg a Szerkesztő nézet csak a jelentések *létrehozói* és tulajdonosai számára érhető el.
 
 ![jelentések létrehozóinak és felhasználóinak alkotása](media/service-reading-view-and-editing-view/power-bi-creators-consumers.png)
 
 ## <a name="report-reading-view"></a>Jelentés Olvasó nézete
 
- Az Olvasó nézetben nyugodtan kísérletezhet az adataival, és egy biztonságos környezetben tárhatja fel és ismerheti meg őket. Az Olvasó nézet a jelentések *felhasználói* számára van kialakítva, vagyis azok számára, akik az alkalmazásokban nyitnak meg jelentéseket, vagy akikkel jelentések vannak [megosztva](service-share-dashboards.md). Az Olvasó nézet biztosítja, hogy az adott jelentés minden egyes felhasználója számára ugyanaz a jelentés és ugyanazok a vizualizációk jelenjenek meg, azonos alkalmazott szűrőkkel.  A felhasználók kezelhetik a jelentéseket, azonban nem tudják menteni a módosításokat.
+ Az Olvasó nézetben nyugodtan kísérletezhet az adataival, és egy biztonságos környezetben tárhatja fel és ismerheti meg őket. Az Olvasó nézet a jelentések *felhasználói* számára van kialakítva, vagyis azok számára, akik az alkalmazásokban nyitnak meg jelentéseket, vagy akikkel jelentések vannak [megosztva](service-share-dashboards.md). Az Olvasó nézet biztosítja, hogy az adott jelentés minden egyes felhasználója számára ugyanaz a jelentés és ugyanazok a vizualizációk jelenjenek meg, opcionálisan ugyanazon alkalmazott szűrőkkel.  A felhasználók kezelhetik a jelentéseket, módosíthatják a meglévő szűrőket (ezek a módosítások pedig mentve lesznek a jelentéssel), új szűrőket azonban nem tudnak hozzáadni.
 
->**MEGJEGYZÉS**: Bizonyos esetekben előfordulhat, hogy a jelentés felhasználói számára a sorszintű biztonság és az adatokra vonatkozó engedélyek miatt eltérő adatok jelennek meg. 
+>**MEGJEGYZÉS**: Bizonyos esetekben előfordulhat, hogy a jelentés felhasználói számára a sorszintű biztonság és az adatokra vonatkozó engedélyek miatt eltérő adatok jelennek meg.
 
 ## <a name="report-editing-view"></a>Jelentés Szerkesztési nézete
 
@@ -42,7 +42,7 @@ A Szerkesztési nézet csak a jelentés létrehozói számára, vagy azok szám�
 A Szerkesztési nézetet a jelentés *létrehozói* számára van kialakítva. A létrehozók itt importálhatják az adathalmazokat és itt kapcsolódhatnak hozzájuk, itt vizsgálhatják meg az adatokat, hozhatnak létre jelentéseket és irányítópultokat. A Szerkesztési nézetében a *létrehozó* mélyebbre áshat az adatok közt mezők felvételével és eltávolításával, a vizualizáció típusának a módosításával, új vizualizációk létrehozásával, valamint vizualizációk jelentésbe történő felvételével és törlésével. A létrehozott jelentéseket meg is oszthatják a munkatársakkal.
 
 ## <a name="reading-view-versus-editing-view"></a>Az Olvasó nézet és a Szerkesztés nézet összehasonlítása
-A táblázat nem tartalmazza a Power BI szolgáltatás minden jelentéssel kapcsolatos lehetőségét. Csupán azokat a jelentésekkel összefüggő feladatokat listázza, amelyek nem érhetőek el **mind** az Olvasó, mind a Szerkesztési nézetben. 
+A táblázat nem tartalmazza a Power BI szolgáltatás minden jelentéssel kapcsolatos lehetőségét. Csupán azokat a jelentésekkel összefüggő feladatokat listázza, amelyek nem érhetőek el **mind** az Olvasó, mind a Szerkesztési nézetben.
 
 
 |Feladat  | Olvasó nézet  | Szerkesztési nézet |
@@ -52,7 +52,7 @@ A táblázat nem tartalmazza a Power BI szolgáltatás minden jelentéssel kapcs
 | [Jelentés létrehozása és szerkesztése](service-report-create-new.md) | Nem  | Igen |
 | [Jelentés megosztása](service-share-reports.md)| Igen | Igen, és ezen kívül engedélyeket is tud kezelni, többek között mások számára *tulajdonosi* engedélyek adhatók. |
 | [Állandó vizualizáció-szintű, lehatolási, oldalszintű és jelentésszintű szűrők létrehozása a Szűrők panelről](power-bi-report-add-filter.md) | Nem  | Igen |
-| [A jelentés Szűrők paneljének használata](power-bi-how-to-report-filter.md) | Igen, a meglévő szűrők használhatók, de a változtatások nem menthetők a jelentésben. | Igen |
+| [A jelentés Szűrők paneljének használata](power-bi-how-to-report-filter.md) | Igen, a meglévő szűrők használhatók, és a módosításaikat menti a rendszer a jelentéssel együtt, de új szűrőket nem lehet hozzáadni. | Igen |
 | [A jelentés Elemzés paneljének használata](service-analytics-pane.md) | Nem | Igen |
 | [A jelentés **Nézet** beállításai](power-bi-report-display-settings.md) | Igen, meghatározott kivételekkel. | Igen, mindegyik, többek között a rácsvonalak, a rácshoz illesztés és a zárolás is. |
 | [Frissítési ütemezés létrehozása](refresh-data.md) | Nem  | Igen |
@@ -86,14 +86,14 @@ Ne feledje, hogy a jelentéseket csak azok létrehozói és tulajdonosai tudják
 
    ![Jelentés szerkesztése lehetőség kiszürkítve](media/service-reading-view-and-editing-view/power-bi-edit-report-grey.png)
 
-2. Ha a **Jelentés szerkesztése** lehetőség nem szürke színnel jelenik meg, ezt választva nyithatja meg a jelentést Szerkesztési nézetben. 
-   
+2. Ha a **Jelentés szerkesztése** lehetőség nem szürke színnel jelenik meg, ezt választva nyithatja meg a jelentést Szerkesztési nézetben.
+
    ![Jelentés szerkesztése lehetőség](media/service-reading-view-and-editing-view/power-bi-edit-report.png)
-   
+
    A jelentés most már Szerkesztési nézetben látható, ugyanazokkal a [megjelenítési beállításokkal](power-bi-report-display-settings.md), melyeket legutóbb használt az Olvasó nézetben.
 
 2. Az Olvasó nézetbe való visszalépéshez válassza az **Olvasó nézet** lehetőséget a felső menüsávban.
-   
+
     ![Olvasó nézet lehetőség](media/service-reading-view-and-editing-view/power-bi-reading-view.png)
 
 
@@ -101,5 +101,4 @@ Ne feledje, hogy a jelentéseket csak azok létrehozói és tulajdonosai tudják
 ### <a name="next-steps"></a>Következő lépések
 Számtalan különböző módon kezelheti a jelentéseket az Olvasó nézetben, tovább szeletelve és darabolva az adatokat összefüggések feltárásához és kérdések megválaszolásához.  Ezek közül néhányat a [Jelentések kezelése az Olvasó nézetben](service-interact-with-a-report-in-editing-view.md) című következő téma ismerteti részletesebben.    
 Vissza a [Power BI-jelentésekhez](service-reports.md)    
-További kérdései vannak? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/) 
-
+További kérdései vannak? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)
