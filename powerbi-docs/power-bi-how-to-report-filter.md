@@ -1,39 +1,41 @@
 ---
-title: "A Power BI szűrők paneljének áttekintése"
-description: "A Power BI szolgáltatás és a Power BI irányítópult jelentéseihez tartozó Szűrők panel áttekintése"
+title: A Power BI szűrők paneljének áttekintése
+description: A Power BI szolgáltatás és a Power BI irányítópult jelentéseihez tartozó Szűrők panel áttekintése
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: monitoring
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/22/2018
+ms.date: 03/15/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 83aed39c8a652ed5b38c18b67f1cdccfc7884240
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 00b0b116aa59ebab1d963a8803f788040761d9f5
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="take-a-tour-of-the-report-filters-pane"></a>Ismerkedés a jelentések Szűrők panelével
 A cikk a jelentések Szűrők panelét mutatja be részletesen. A panel [a Power BI szolgáltatásban Szerkesztési és Olvasó nézetben](service-reading-view-and-editing-view.md), míg a [Power BI Desktopban Jelentés nézetben](desktop-report-view.md) jelenik meg.
 
 Az adatok szűrésének számos módja áll rendelkezésre a Power BI-ban, ezért javasoljuk, hogy először olvassa el a [szűrőkkel és a kiemeléssel](power-bi-reports-filters-and-highlighting.md) foglalkozó szakaszt.
 
-## <a name="working-with-filters"></a>A szűrők használata
-A jelentések [Szerkesztő vagy Olvasó nézetben](service-reading-view-and-editing-view.md) nyithatóak meg. Szerkesztési nézetben a tulajdonosai [szűrőket adhatnak a jelentéshez](power-bi-report-add-filter.md), és a szűrők a jelentéssel együtt lesznek mentve. Azok, akik Olvasó nézetben tekintik meg a jelentést, kezelhetik a szűrőket, de nem menthetik a jelentést a módosított szűrőkkel.
+## <a name="working-with-the-report-filters-pane"></a>A jelentések Szűrők panelének használata
+A Power BI Desktopban a jelentések Jelentés nézetben nyílnak meg. A Power BI szolgáltatásban a jelentések [Szerkesztő vagy Olvasó nézetben](service-reading-view-and-editing-view.md) nyithatók meg. Szerkesztő nézetben és a Desktop Jelentés nézetében a jelentéstulajdonosok [szűrőket adhatnak a jelentéshez](power-bi-report-add-filter.md), amelyek a jelentéssel együtt lesznek mentve. Azok, akik Olvasó nézetben tekintik meg a jelentést, kezelhetik a szűrőket, de nem adhatnak hozzá új szűrőket.
 
-## <a name="filters-in-reading-view"></a>Az Olvasás nézet szűrői
-Amikor megnyit egy jelentést Olvasás nézetben, a Szűrők panel megjelenik a jelentésvászon jobb oldalán. Ha a panel nem látható, a jobb felső sarokban található nyíllal nyitható meg.
+A Power BI szolgáltatásban a jelentések megtartják a Szűrők panelen végzett módosításokat, és a jelentés mobilos verziójára is alkalmazzák őket. A Szűrők panel alapértelmezettre való visszaállításához válassza a **Visszaállítás alapértelmezettre** lehetőséget a felső menüsávban.     
+
+## <a name="open-the-filters-pane"></a>A Szűrők panel megnyitása
+Amikor megnyit egy jelentést, a Szűrők panel megjelenik a jelentésvászon jobb oldalán. Ha a panel nem látható, a jobb felső sarokban található nyíllal nyitható meg. A Power BI szolgáltatás Olvasó nézetében csak a Szűrők panel érhető el a jobb oldalon.
 
 Ehhez a példához egy 6 szűrővel rendelkező vizualizációt választottunk. A jelentésoldalon szintén találhatóak szűrők – ezek a **Lapszintű szűrők** cím alatt vannak felsorolva. Egy [Részletezési szűrő](power-bi-report-add-filter.md) is rendelkezésre áll, továbbá a teljes jelentésre is vonatkozik egy szűrő: a **FiscalYear** (Pénzügyi év) lehet 2013 vagy 2014.
 
@@ -49,6 +51,10 @@ Bárki, aki megtekinti a jelentést, kezelheti ezeket a szűrőket.
 * Módosíthatja a szűrő értékeit, például a **Lindseys** értékét **Fashions Direct** értékre válthatja.
   
      ![](media/power-bi-how-to-report-filter/power-bi-filter-chain.png)
+
+* A felső menüsáv **Visszaállítás alapértelmezettre** lehetőségével visszaállíthatja az eredeti állapotra a szűrőket.    
+    ![](media/power-bi-how-to-report-filter/power-bi-reset-to-default.png)
+    
 * Törölheti a szűrőt, ha a neve melletti **x** gombra kattint.
   
   A szűrő törlése eltávolítja a szűrőt a listából, de az adatokat nem törli a jelentésből.  Például ha törli a **FiscalYear is 2013 or 2014** szűrőt, a pénzügyi évek adatai továbbra is elérhetők a jelentésben, azonban a jelentés nem lesz a 2013-as és 2014-es pénzügyi évre korlátozva, hanem az összes olyan üzleti évet mutatja majd, amelyre vonatkozóan vannak adatok.  Miután törölt egy szűrőt, többé már nem tudja módosítani, mert lekerül a listáról. Jobb megoldás, ha csak a szűrő értékét törli a radír ikonra ![](media/power-bi-how-to-report-filter/power-bi-eraser-icon.png) kattintva.
@@ -56,7 +62,7 @@ Bárki, aki megtekinti a jelentést, kezelheti ezeket a szűrőket.
   ![](media/power-bi-how-to-report-filter/power-bi-delete-filter.png)
 
 ## <a name="filters-in-editing-view"></a>Szűrők a Szerkesztési nézetben
-Amikor megnyit egy jelentést a szerkesztési nézetben, a Szűrők panel megjelenik a jelentésvászon jobb oldalán, a **Vizualizáció panel** alsó részén. Ha a panel nem látható, a jobb felső sarokban található nyíllal nyitható meg.
+Amikor megnyit egy jelentést a Power BI vagy a Power BI Desktop Szerkesztő nézetében, a Szűrők panel megjelenik a jelentésvászon jobb oldalán, a **Vizualizáció panel** alsó részén. Ha a panel nem látható, a jobb felső sarokban található nyíllal nyitható meg.
 
 ![](media/power-bi-how-to-report-filter/power-bi-all-filters.png).  
 
@@ -73,16 +79,16 @@ Az egyes szűrők beállítási lehetőségeinek megjelenítéséhez kattintson 
 ![](media/power-bi-how-to-report-filter/pbi_filterlistdropdown.jpg)
 
 ## <a name="clear-a-filter"></a>Szűrők törlése
- A szűrőket az alapszintű és a speciális szűrési módban is a radír ikonnal ![](media/power-bi-how-to-report-filter/pbi_erasericon.jpg) lehet visszaállítani. 
+ A szűrőket az alapszintű és a speciális szűrési módban is a radír ikonnal ![](media/power-bi-how-to-report-filter/pbi_erasericon.jpg) lehet törölni. 
 
 ## <a name="add-a-filter"></a>Szűrők hozzáadása
-* Ha szerkesztési nézetben a vizualizációkhoz, oldalakhoz, részletezésekhez vagy jelentésekhez szűrőt szeretne megadni, jelölje ki a mezőt a Mezők panelen, és húzza a megfelelő szűrési területre, ahol a **Húzza ide a mezőket** felirat látható. Miután hozzáadott egy szűrőt, az alapszintű és a speciális szűrés vezérlőivel (lásd alább) finomhangolhatja a működését.
+* Ha a Power BI Desktop vagy a Power BI Szerkesztő nézetében a vizualizációkhoz, oldalakhoz, részletezésekhez vagy jelentésekhez szűrőt szeretne hozzáadni, jelölje ki a mezőt a Mezők panelen, és húzza a megfelelő szűrési területre, ahol a **Húzza ide a mezőket** felirat látható. Miután hozzáadott egy szűrőt, az alapszintű és a speciális szűrés vezérlőivel (lásd alább) finomhangolhatja a működését.
 
 - **Ha egy új mezőt húz a Vizualizációszint szűrői területére, az nem kerül fel a vizualizációra**, csak lehetővé teszi a vizualizáció szűrését ezzel az új mezővel. Az alábbi példában a **Chain** (Lánc) mezőt új szűrőként hozzáadtuk a vizualizációhoz. Fontos megjegyezni, hogy a **Chain** (Lánc) szűrőként való hozzáadása nem módosítja a vizualizációt, amíg nem veszi használatba alapszintű vagy a speciális szűrés vezérlőit.
 
     ![](media/power-bi-how-to-report-filter/power-bi-visual-filter.gif)
 
-* Az egyes vizualizációk létrehozásához használt mezők is használhatók szűrőként. Először jelölje ki, és ezzel tegye aktívvá a vizualizációt. A vizualizációban használt mezők a Vizualizációk panelen vannak felsorolva (Szerkesztési nézetben), valamint a Szűrők panelen a **Vizualizációszint szűrői** cím alatt.
+* Az egyes vizualizációk létrehozásához használt mezők is használhatók szűrőként. Először jelölje ki, és ezzel tegye aktívvá a vizualizációt. A vizualizációban használt mezők a Vizualizációk panelen vannak felsorolva, valamint a Szűrők panelen a **Vizualizációszint szűrői** cím alatt.
   
    ![](media/power-bi-how-to-report-filter/power-bi-visual-filter.png)  
   

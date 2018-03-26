@@ -1,15 +1,15 @@
 ---
-title: "A Q&A használata a Power BI Desktopban"
-description: "Mostantól használhat természetes nyelvű lekérdezéseket a Power BI Desktop alkalmazásban, a Q&A segítségével"
+title: A Q&A használata a Power BI Desktopban
+description: Mostantól használhat természetes nyelvű lekérdezéseket a Power BI Desktop alkalmazásban, a Q&A segítségével
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/12/2017
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: dacbb31e8e32abfcb34e565958620d579f68b4f2
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: d6075832d77f6bea7d7d8588719c4a002cdbf298
+ms.sourcegitcommit: 93e7362fc47319959b6992dfd037effdf831d010
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/21/2018
 ---
 # <a name="use-qa-in-power-bi-desktop-for-natural-language-queries"></a>A Q&A használata a Power BI Desktopban a természetes nyelvű lekérdezések lehetővé tételéhez
 Hatékony eszköz a munkához, ha gyakori kifejezéseken és természetes nyelven alapuló kérdéseket tud feltenni az adataival kapcsolatban. Még hatékonyabb, ha az adatforrás válaszol is, és a **Power BI Desktop** alkalmazás Q&A szolgáltatása épp ezt teszi lehetővé.
@@ -93,7 +93,7 @@ A **Rendezés más oszlop alapján** tulajdonság lehetővé teszi, hogy egy osz
 
 Ne aggódjon, nem fogjuk azt javasolni, hogy alakítsa át a teljes modellt. Vannak azonban olyan struktúrák, amelyek egyszerűen annyira nehezen értelmezhetők, hogy a Q&A nem fogja tudni jól használni őket. Ha elvégez néhány alapvető normalizálási teendőt a modell szerkezetén, a Power BI-jelentések felhasználhatósága jelentősen megnő, csakúgy mint a Q&A-eredmények pontossága.
 
-Az általános követendő szabály a következő: Minden egyedi „dolognak”, amelyet a felhasználó megemlít, pontosan egyetlen modellbeli objektumnak (táblának vagy oszlopnak) kell megfelelnie. Tehát ha a felhasználók ügyfeleket említenek, akkor egyetlen *ügyfél* objektumnak kell szerepelnie a modellben. Ha pedig a felhasználók értékesítéseket említenek, akkor egyetlen *értékesítés* objektum kell lennie. Egyszerűen hangzik, igaz? Az adatok kezdeti elrendezésétől függően valóban az lehet. Ha szüksége van rá, a **Lekérdezésszerkesztőben** rengeteg adatalakítási képességet elérhet, míg az egyszerűbb átalakítások közül sok elvégezhető egyszerűen a Power BI-modellben végzett számításokkal.
+Az általános követendő szabály a következő: Minden egyedi „dolognak”, amelyet a felhasználó megemlít, pontosan egyetlen modellbeli objektumnak (táblának vagy oszlopnak) kell megfelelnie. Tehát ha a felhasználók ügyfeleket említenek, akkor egyetlen *ügyfél* objektumnak kell szerepelnie a modellben. Ha pedig a felhasználók értékesítéseket említenek, akkor egyetlen *értékesítés* objektumnak kell szerepelnie. Egyszerűen hangzik, igaz? Az adatok kezdeti elrendezésétől függően valóban az lehet. Ha szüksége van rá, a **Lekérdezésszerkesztőben** rengeteg adatalakítási képességet elérhet, míg az egyszerűbb átalakítások közül sok elvégezhető egyszerűen a Power BI-modellben végzett számításokkal.
 
 Az alábbi szakaszokban ismertetünk néhány olyan gyakori átalakítást, amelyet elképzelhető, hogy végre kell hajtania.
 
@@ -180,7 +180,7 @@ Az az egyetlen kivétel azon szabály alól, hogy „normalizálni jobb”, amik
 
 Ez a lépés kifejezetten a Q&A szolgáltatásra vonatkozik (és általánosságban nem szükséges a Power BI-jelentésekhez). A felhasználók gyakran többféleképpen utalnak ugyanarra a dologra. Ilyen például az összes értékesítés, a nettó értékesítés és a teljes nettó értékesítés. A Power BI modellje lehetővé teszi, hogy hozzáadja ezeket a szinonimákat a modellben használt táblákhoz és oszlopokhoz. 
 
-Ez a lépés rendkívül fontos lehet. Még ha egyszerű táblaneveket és oszlopneveket is használ, a Q&A szolgáltatásban kérdéseket feltevő felhasználók a számukra logikus szavakat fogják használni, és nem az oszlopok előre megadott listájából választanak. Minél több hasznos szinonimát tud hozzáadni, annál jobb lesz a felhasználók élménye a jelentés használatakor. Szinonimák hozzáadásához a **Kapcsolatok** nézetben válassza a menüszalag Szinonimák gombját az alábbi képen látható módon.
+Ez a lépés rendkívül fontos lehet. Még ha egyszerű táblaneveket és oszlopneveket is használ, a Q&A szolgáltatásban kérdéseket feltevő felhasználók a számukra logikus szavakat fogják használni, és nem az oszlopok előre megadott listájából választanak. Minél több hasznos szinonimát tud hozzáadni, annál jobb lesz a felhasználók élménye a jelentés használatakor. Szinonimák hozzáadásához a **Kapcsolatok** nézetben válassza a menüszalag Szinonimák gombját, az alábbi képen látható módon.
 
 ![Szinonimák felvétele a Q&A használatához](media/desktop-qna-in-reports/desktop-qna_21.png)
 

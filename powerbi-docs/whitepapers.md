@@ -1,27 +1,27 @@
 ---
-title: "Power BI-tanulmányok"
-description: "A tanulmányokkal behatóbban ismerheti meg a Power BI témaköreit."
+title: Power BI-tanulmányok
+description: A tanulmányokkal behatóbban ismerheti meg a Power BI témaköreit.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/05/2018
+ms.date: 03/16/2018
 ms.author: maghan
-ms.openlocfilehash: ac3f2b52374df0ea9a153a97548e40420388181d
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: 5e9e0ea009e403b89af7ff67e81062433ba56b80
+ms.sourcegitcommit: 863df35192b9aba1e7c22a64bc8df24418416730
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/17/2018
 ---
 # <a name="whitepapers-for-power-bi"></a>Power BI-tanulmányok
 
@@ -42,5 +42,6 @@ A tanulmányokkal behatóbban ismerheti meg a Power BI témaköreit. Itt találj
 | [A táblázatos BI szemantikai modell biztonságossá tétele](http://download.microsoft.com/download/D/2/0/D20E1C5F-72EA-4505-9F26-FEF9550EFD44/Securing%20the%20Tabular%20BI%20Semantic%20Model.docx) |Ez a tanulmány bemutatja a táblázatos BI-szemantika és a Power BI biztonsági modelljét. Megtudhatja, hogyan hozhat létre szerepköröket, valósíthat meg dinamikus biztonságot, konfigurálhat megszemélyesítési beállításokat, kezelhet szerepköröket és választhatja ki a módszert a hálózati biztonsági környezetében működő modellekhez való csatlakozáshoz. |
 | [Kapacitástervezési útmutató a Power BI jelentéskészítő kiszolgálóhoz](report-server/capacity-planning.md) |Ez a tanulmány útmutatást nyújt a Power BI jelentéskészítő kiszolgáló kapacitástervezéséhez. Ehhez számos olyan terhelésteszt eredményét osztja meg, amelyek során különböző számítási feladatokat futtattak egy jelentéskiszolgálón. |
 | [A Power BI Premium tervezése és üzembe helyezése](https://aka.ms/Premium-Capacity-Planning-Deployment)| Ez a tanulmány útmutatást nyújt és ajánlott eljárásokat mutat be a prémium szintű kapacitás meghatározott számítási feladatokhoz történő tervezéséhez és üzembe helyezéséhez.|
+| [Power BI és SAP BW](https://aka.ms/powerbiandsapbw)| Ez a dokumentum azt ismerteti, milyen előnyökkel jár, ha az ügyfelek a Power BI-t a meglévő SAP Business Warehouse (BW) rendszerükhöz csatlakoztatják.|
 
 További kérdései vannak? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)

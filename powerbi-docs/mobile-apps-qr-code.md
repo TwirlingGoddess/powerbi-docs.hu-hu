@@ -1,27 +1,27 @@
 ---
-title: "Power BI QR-kód beolvasása mobileszközzel"
-description: "A Power BI-ban lévő QR-kódok a való világból bármit közvetlenül összekapcsolhatnak az iPhone-okhoz vagy Android-eszközökhöz készült Power BI mobilalkalmazás kapcsolódó BI-információival."
+title: Power BI QR-kód beolvasása mobileszközzel
+description: A Power BI-ban lévő QR-kódok a való világból bármit közvetlenül összekapcsolhatnak az iPhone-okhoz vagy Android-eszközökhöz készült Power BI mobilalkalmazás kapcsolódó BI-információival.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/12/2017
+ms.date: 03/13/2018
 ms.author: maggies
-ms.openlocfilehash: 80c8de8626f2d891a7875933ee72a43dd5d7f09e
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 2716452f285d8df0aa0d3b89c2b9b36aa87cc5cc
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="scan-a-power-bi-qr-code-from-your-mobile-device"></a>Power BI QR-kód beolvasása mobileszközzel
 A következőkre vonatkozik:
@@ -36,10 +36,10 @@ Tegyük fel, hogy egy kollégája [létrehozott egy QR-kódot a Power BI szolgá
 
 A Power BI alkalmazás beolvasó funkciójával vagy a telefonra telepített bármely egyéb olvasóval beolvashatja a QR-kódot, és ezáltal azonnal, közvetlenül a telefonjáról érheti el a vonatkozó csempét vagy jelentést. 
 
+Ha kollégája nem osztotta meg Önnel az irányítópultot vagy jelentést, közvetlenül a mobilalkalmazásból kérhet hozzáférést. 
+
 > [!NOTE]
-> Ha kollégája nem osztotta meg Önnel az irányítópultot vagy jelentést, közvetlenül a mobilalkalmazásból kérhet hozzáférést.
-> 
-> 
+> [A jelentés QR-kódját a Power BI vegyes valósághoz alkalmazással is beolvashatja](mobile-mixed-reality-app.md#scan-a-report-qr-code-in-holographic-view).
 
 ## <a name="scan-a-power-bi-qr-code-on-your-iphone-with-the-power-bi-scanner"></a>Power BI QR-kód beolvasása iPhone-on a Power BI-olvasóval
 1. A Power BI mobilalkalmazásban nyissa meg a globális navigációs menüt ![](media/mobile-apps-qr-code/power-bi-iphone-global-nav-button.png) a bal felső sarokban. 
@@ -80,5 +80,6 @@ A Power BI alkalmazás beolvasó funkciójával vagy a telefonra telepített bá
 * [Power BI-információk elérése a való világból](mobile-apps-data-in-real-world-context.md) a mobilalkalmazásokkal
 * [QR-kód létrehozása a Power BI szolgáltatásban lévő csempékhez](service-create-qr-code-for-tile.md)
 * [QR-kód létrehozása a Power BI szolgáltatásban lévő jelentésekhez](service-create-qr-code-for-report.md)
+* [QR-kódot a Power BI vegyes valósághoz alkalmazással is beolvashat](mobile-mixed-reality-app.md)
 * Kérdése van? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)
 

@@ -556,6 +556,10 @@
           href: service-admin-service-free-in-your-organization.md
         - name: A Power BI Pro megvásárlása
           href: service-admin-purchasing-power-bi-pro.md
+        - name: A Power BI Pro hozzárendelése
+          href: service-admin-assigning-power-bi-pro-licenses.md
+        - name: A Power BI Pro használata a szervezetben
+          href: service-admin-power-bi-pro-in-your-organization.md
         - name: Megközelítések a Power BI irányításához és üzembe helyezéséhez
           href: service-admin-governance.md
         - name: A Power BI és a biztonság

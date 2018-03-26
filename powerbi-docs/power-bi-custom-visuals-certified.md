@@ -1,16 +1,16 @@
 ---
-title: "Minősített egyéni Power BI képi megjelenítések"
-description: "Az egyéni vizualizációk minősítésre való beküldésének követelményei és folyamata. Továbbá a már minősített egyéni vizualizációk listája."
+title: Minősített egyéni Power BI képi megjelenítések
+description: Az egyéni vizualizációk minősítésre való beküldésének követelményei és folyamata. Továbbá a már minősített egyéni vizualizációk listája.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
-featuredvideoid: 
+backup: ''
+editor: ''
+tags: ''
+featuredvideoid: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 02/13/2018
 ms.author: mihart
-ms.openlocfilehash: cc50e4e8830aca3951da6004b8ada3913aff28ed
-ms.sourcegitcommit: 743e44fc8730fea0f7149916080b0c6d7eb6359d
+ms.openlocfilehash: d768756c8c7ede792c547f03779396f11e6e4f85
+ms.sourcegitcommit: 93e7362fc47319959b6992dfd037effdf831d010
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/28/2018
+ms.lasthandoff: 03/21/2018
 ---
 # <a name="getting-a-custom-visual-certified"></a>Egyéni vizualizáció *minősítésének* megszerzése
 ## <a name="what-is-meant-by-certified"></a>Mit értünk az alatt, hogy *minősített*?
@@ -60,7 +60,6 @@ A Microsoft saját belátása szerint eltávolíthatja a vizualizációkat a Min
 ## <a name="list-of-custom-visuals-that-have-been-certified"></a>A már minősített egyéni vizualizációk listája
 | Az AppSource-ra mutató hivatkozás | A videóra mutató hivatkozás |
 | --- | --- |
-| [Társítási szabályok](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380815) | |
 | [Őszirózsa diagram](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380759) | |
 | [Beyondsoft Calendar](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381096) | |
 | [Csokornyakkendő diagram a MAQ Software-től](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380838) | [Videó](https://youtu.be/So5xKMSpVJI) |
@@ -77,11 +76,7 @@ A Microsoft saját belátása szerint eltávolíthatja a vizualizációkat a Min
 | [Húr](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380761) | [Videó](https://youtu.be/AQvd2FhRyCI) |
 | [Kör alakú mérőműszer a MAQ Software-től](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380837) | [Videó](https://youtu.be/9NHXALkBXuY) |
 | [Fürttérkép](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380806) | |
-| [Fürtözés](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380861) | |
-| [Fürtözés kiugró adatokkal](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380889) | |
-| [Korrelációs rajz](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380814) | |
 | [Hengeres mérőműszer a MAQ Software-től](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380874) | [Videó](https://youtu.be/DgdoWi7Gcxo) |
-| [Döntési fadiagram](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380817) | |
 | [Tárcsa alakú mérőműszer](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381184) | |
 | [Pöttydiagram](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380760) | |
 | [Pöttydiagram az OKViztől](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380949) | [Videó](https://youtu.be/By16pX9KT40) |
@@ -97,8 +92,6 @@ A Microsoft saját belátása szerint eltávolíthatja a vizualizációkat a Min
 | [Enlighten Stack Shuffle](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380849) | |
 | [Gofridiagram az Enlightentől](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380850) | |
 | [Erőgrafikon](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380764) | [Videó](https://youtu.be/YsTa7uyJ4sg) |
-| [Előrejelzési TBATS](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381326) | |
-| [Előrejelzés az ARIMA-tól](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380888) | |
 | [Tölcsér forrással a MAQ Software-től](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381334) | [Videó](https://youtu.be/R_EcimsLI8U) |
 | [Gantt](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380765) | [Videó](https://youtu.be/qJ7s_KrGiUU) |
 | [Gantt-diagram a MAQ Software-től](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381364) | [Videó](https://youtu.be/vJLV9JRCpI8) |
@@ -119,6 +112,7 @@ A Microsoft saját belátása szerint eltávolíthatja a vizualizációkat a Min
 | [Lejátszási tengely (dinamikus szeletelő)](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380981) | |
 | [Nagy teljesítményű KPI](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381083) | [Videó](https://youtu.be/IvfIP3E6-1Q) |
 | [Power KPI Matrix](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381299) | [Videó](https://youtu.be/1enze8pcGzY) |
+| [Pulzusdiagram](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381006) | [Videó](https://youtu.be/DQWdcQtjDVw) |
 | [Quadrant-diagram a MAQ Software-től](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381011) | [Videó](https://youtu.be/ppBnyhqWNC0) |
 | [Sugárdiagram](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380771) | |
 | [Gyűrűdiagram a MAQ Software-től](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380824) | [Videó](https://youtu.be/pDToHDFHnq8) |
@@ -127,7 +121,6 @@ A Microsoft saját belátása szerint eltávolíthatja a vizualizációkat a Min
 | [Görgető](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381018) | |
 | [Intelligens szűrő az OKViztől](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380859) | [Videó](https://youtu.be/gcJsDDRQq28) |
 | [Értékgörbe az OKViztől](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380910) | [Videó](https://youtu.be/0m3Vnvso9tY) |
-| [Görbe diagram](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380860) | |
 | [Adatfolyam-grafikon](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380772) | |
 | [Többszintű gyűrű](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380767) | |
 | [Hőtérképtábla](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380818) | |
@@ -135,8 +128,6 @@ A Microsoft saját belátása szerint eltávolíthatja a vizualizációkat a Min
 | [Szövegszűrő](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381309) | |
 | [Szövegburkoló a MAQ Software-től](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380826) | |
 | [Hőmérő](https://appsource.microsoft.com/en-us/product/office/WA104379807) | |
-| [Idősorfelbontási diagram](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380897) | |
-| [Idősor-előrejelzési diagram](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380816) | |
 | [Idővonal-szeletelő](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380786) | [Videó](https://youtu.be/ozMtZ4_NZ10) |
 | [Tornádó diagram](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380768) | [Videó](https://www.youtube.com/watch?v=AQvd2FhRyCI) |
 | [Kereskedelmi diagram a MAQ Software-től](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380823) | [Videó](https://youtu.be/xhTR6y6J9Ko) |

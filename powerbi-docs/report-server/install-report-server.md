@@ -1,27 +1,27 @@
 ---
-title: "A Power BI jelentéskészítő kiszolgáló telepítése"
-description: "Ismerje meg, hogyan telepítheti a Power BI jelentéskészítő kiszolgálót. "
+title: A Power BI jelentéskészítő kiszolgáló telepítése
+description: Ismerje meg, hogyan telepítheti a Power BI jelentéskészítő kiszolgálót.
 services: powerbi
-documentationcenter: 
-author: markingmyname
+documentationcenter: ''
+author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/29/2018
-ms.author: maghan
-ms.openlocfilehash: 340e4a79e4ab0950143ea1af4f1c9a1f9c54b64c
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.date: 03/19/2018
+ms.author: maggies
+ms.openlocfilehash: 8b8bb3867ec1630dc5163148e4aa20e10c0504b7
+ms.sourcegitcommit: 93e7362fc47319959b6992dfd037effdf831d010
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/21/2018
 ---
 # <a name="install-power-bi-report-server"></a>A Power BI jelentéskészítő kiszolgáló telepítése
 
@@ -29,18 +29,17 @@ Ismerje meg, hogyan telepítheti a Power BI jelentéskészítő kiszolgálót.
 
  **Letöltés** ![letöltés](media/install-report-server/download.png "letöltés")
 
-A Power BI jelentéskészítő kiszolgáló letöltéséhez látogasson el a [Power BI jelentéskészítő kiszolgálóval végzett helyszíni jelentéskészítéssel](https://powerbi.microsoft.com/report-server/) foglalkozó oldalra. 
+A Power BI jelentéskészítő kiszolgáló letöltéséhez látogasson el a [Helyszíni jelentéskészítés a Power BI jelentéskészítő kiszolgálóval](https://powerbi.microsoft.com/report-server/) című lapra, és válassza az **Ingyenes próbaverzió letöltése** lehetőséget. 
 
-A Microsoft letöltőközpontjában töltse le a [Microsoft Power BI Desktopot](https://go.microsoft.com/fwlink/?linkid=861076) [a Power BI jelentéskészítő kiszolgálóra (2017. október) optimalizálva].
-
-![tipp](media/install-report-server/fyi-tip.png "tipp") A legfrissebb információkért tekintse meg a [Power BI jelentéskészítő kiszolgáló kibocsátási megjegyzéseit](release-notes.md).
+## <a name="video-install-power-bi-report-server"></a>Videó: A Power BI jelentéskészítő kiszolgáló telepítése
 
 <iframe width="640" height="360" src="https://www.youtube.com/embed/zacaEb9A4F0?showinfo=0" frameborder="0" allowfullscreen></iframe>
 
 ## <a name="before-you-begin"></a>Előkészületek
-A Power BI jelentéskészítő kiszolgáló telepítése előtt javasoljuk, hogy tekintse át a [Power BI jelentéskészítő kiszolgáló telepítésének hardver- és szoftverkövetelményeit](system-requirements.md).
+Javasoljuk, hogy a Power BI jelentéskészítő kiszolgáló telepítése előtt tekintse át a [Power BI jelentéskészítő kiszolgáló telepítésének hardver- és szoftverkövetelményeit](system-requirements.md).
 
 ### <a name="power-bi-report-server-product-key"></a>Power BI jelentéskészítő kiszolgáló termékkulcsa
+
 #### <a name="power-bi-premium"></a>Power BI Premium
 Ha a Power BI Premiumot vásárolta meg, a Power BI Felügyeleti portál **Premium beállítások** lapján érheti el a Power BI jelentéskészítő kiszolgáló termékkulcsát. Ez csak a globális rendszergazdák és a Power BI szolgáltatás azon felhasználói számára érhető el, akikhez rendszergazdai szerepkört rendeltek.
 
@@ -54,12 +53,9 @@ Ha rákattint a **Power BI jelentéskészítő kiszolgáló termékkulcsa** elem
 Ha SQL Server Enterprise Frissítési Garancia szerződése van, a termékkulcsot a [Mennyiségi licencszolgáltatási központban](https://www.microsoft.com/Licensing/servicecenter/) érheti el.
 
 ## <a name="install-your-report-server"></a>A jelentéskészítő kiszolgáló telepítése
-A Power BI jelentéskészítő kiszolgáló telepítése nagyon egyszerű. Csupán néhány lépést kell megtennie a fájlok telepítéséhez.
+A Power BI jelentéskészítő kiszolgáló telepítése rendkívül egyszerű. Csupán néhány lépést kell megtennie a fájlok telepítéséhez.
 
-> [!NOTE]
-> A telepítés során nincs szükség elérhető SQL Server adatbázismotor-kiszolgálóra. Csak telepítés után, a Reporting Services konfigurálásához kell majd használnia.
-> 
-> 
+A telepítés során nincs szükség elérhető SQL Server adatbázismotor-kiszolgálóra. Csak telepítés után, a Reporting Services konfigurálásához kell majd használnia.
 
 1. Keresse meg a PowerBIReportServer.exe fájlt, és indítsa el a telepítőt.
 2. Kattintson a **Power BI jelentéskészítő kiszolgáló telepítése** elemre.
@@ -84,15 +80,14 @@ A Power BI jelentéskészítő kiszolgáló telepítése nagyon egyszerű. Csup�
    
     ![Telepítési útvonal megadása](media/install-report-server/pbireportserver-install-file-path.png)
    
-   > [!NOTE]
-   > Az alapértelmezett útvonal: C:\Program Files\Microsoft Power BI Report Server.
-   > 
-   > 
-7. Sikeres telepítés után kattintson a **Jelentéskészítő kiszolgáló konfigurálása** lehetőségre a Reporting Services konfigurációkezelő indításához.
+    Az alapértelmezett útvonal: C:\Program Files\Microsoft Power BI Report Server.
+
+1. Sikeres telepítés után kattintson a **Jelentéskészítő kiszolgáló konfigurálása** lehetőségre a Reporting Services konfigurációkezelő indításához.
    
     ![A jelentéskészítő kiszolgáló konfigurálása](media/install-report-server/pbireportserver-configure.png)
 
-## <a name="configuration-your-report-server"></a>A jelentéskészítő kiszolgáló konfigurálása
+## <a name="configuring-your-report-server"></a>A jelentéskészítő kiszolgáló beállítása
+
 Ha a telepítőben rákattint a **Jelentéskészítő kiszolgáló konfigurálása** elemre, megjelenik a Reporting Services konfigurációkezelő. További információkért tekintse meg a [Reporting Services konfigurációkezelő](https://docs.microsoft.com/sql/reporting-services/install-windows/reporting-services-configuration-manager-native-mode) oldalt.
 
 A Reporting Services kezdeti konfigurációjának befejezéséhez [hozzon létre egy adatbázist a jelentéskészítő kiszolgáló számára](https://docs.microsoft.com/sql/reporting-services/install-windows/ssrs-report-server-create-a-report-server-database). A lépés végrehajtásához SQL Server adatbázis-kiszolgáló szükséges.

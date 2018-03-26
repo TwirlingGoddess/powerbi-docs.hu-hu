@@ -1,15 +1,15 @@
 ---
-title: "Csatlakozás Amazon Redshift-adatbázishoz a Power BI Desktopban"
-description: "Könnyedén csatlakozhat Amazon Redshift-adatbázisokhoz, és használhatja a bennük tárolt adatokat a Power BI Desktopban"
+title: Csatlakozás Amazon Redshift-adatbázishoz a Power BI Desktopban
+description: Könnyedén csatlakozhat Amazon Redshift-adatbázisokhoz, és használhatja a bennük tárolt adatokat a Power BI Desktopban
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,17 +18,17 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: de0e6b61197bfe25048a2722d5aab42f1c15e999
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 9597d056067fb1af291f46a088b94a39da57eab9
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="connect-to-amazon-redshift-in-power-bi-desktop"></a>Csatlakozás Amazon Redshifthez a Power BI Desktopban
 A **Power BI Desktopban** csatlakozhat egy **Amazon Redshift**-adatbázishoz, és úgy használhatja az alapul szolgáló adatokat, mint a Power BI Desktop bármely más adatforrását.
 
 ## <a name="connect-to-an-amazon-redshift-database"></a>Csatlakozás egy Amazon Redshift-adatbázishoz
-Ha csatlakozni szeretne egy **Amazon Redshift**-adatbázishoz, válassza a Power BI Desktop **Kezdőlap** menüszalagján a **Lekérdezés** lehetőséget. Válassza a bal oldali kategóriák közül az **Adatbázis** elemet, és egyéb lehetőségek mellett az **Amazon Redshift** is megjelenik.
+Ha csatlakozni szeretne egy **Amazon Redshift**-adatbázishoz, válassza a Power BI Desktop **Kezdőlap** menüszalagján az **Adatok lekérése** lehetőséget. Válassza a bal oldali kategóriák közül az **Adatbázis** elemet, és egyéb lehetőségek mellett az **Amazon Redshift** is megjelenik.
 
 ![](media/desktop-connect-redshift/connect_redshift_3.png)
 

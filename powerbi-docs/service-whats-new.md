@@ -1,28 +1,29 @@
 ---
-title: "A Power BI szolgáltatás újdonságai"
-description: "A Power BI szolgáltatás újdonságai"
+title: A Power BI szolgáltatás újdonságai
+description: A Power BI szolgáltatás újdonságai
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
 backup: sirsu
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 02/07/2018
+ms.date: 03/22/2018
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: b3e12a9bdfa6643351cdfc82ce9051197df6ee1e
-ms.sourcegitcommit: d91b7bf18d5c504037134f375886633379f28ede
+ms.openlocfilehash: a388f090eac1896c7f47d7d16251c419fc4c33c2
+ms.sourcegitcommit: 3841bcdb5e664568defe3d6a6e6b8cab3cd7087f
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 03/23/2018
+---
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>A Power BI szolgáltatás újdonságai
 Ezen az oldalon a **Power BI szolgáltatás** ismert problémáit és új funkcióit ismertetjük. Kapcsolódó "Újdonságok" az alábbi helyeken találhatók:
@@ -36,7 +37,17 @@ Az újdonságokról és a funkciókról az alábbi YouTube-csatornákon is táj�
 * [Microsoft Power BI (YouTube)](https://www.youtube.com/channel/UCy--PYvwBwAeuYaR8JLmrfg)
 * [Guy in a Cube (YouTube)](https://www.youtube.com/channel/UCFp1vaKzpfvoGai0vE5VJ0w)
 
-## <a name="january-2018"></a>2018. január
+## <a name="march-2018"></a>2018. március
+* [Perzisztens szűrők](https://powerbi.microsoft.com/en-us/blog/announcing-persistent-filters-in-the-service/) a Power BI szolgáltatásban.
+* Tartalom megosztása a felhasználókkal a személyes e-mail-fiókjaik használatával. Az [Azure Active Directory vállalatközi együttműködés](https://powerbi.microsoft.com/en-us/blog/power-bi-expands-access-to-intelligence-for-external-guest-users/) kiterjesztése.
+
+## <a name="previous-months-2018"></a>Korábbi hónapok (2018)
+### <a name="february-2018"></a>2018. február
+* [Power BI-alkalmazások](https://docs.microsoft.com/en-us/power-bi/service-create-distribute-apps) automatikus telepítése a végfelhasználók számára.
+* P4- és P5-kapacitások a Power BI Premium szolgáltatásban
+* Az [Egyéni szervezeti vizualizációk](https://docs.microsoft.com/en-us/power-bi/power-bi-custom-visuals-organization) előzetes verziója.
+
+### <a name="january-2018"></a>2018. január
 *   Power BI-jelentések megosztása és kedvencnek jelölése.
 *   Az OAuth2 és a DirectQuery egyszeri bejelentkezésének támogatása az Azure SQL Database és a Data Warehouse számára.
 *   Régión belüli naplózás: a naplók mostantól a bérlővel megegyező Office 365-régióban vannak tárolva.

@@ -1,15 +1,15 @@
 ---
-title: "Power BI Desktop videók"
-description: "Power BI Desktop videók"
+title: Power BI Desktop videók
+description: Power BI Desktop videók
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: get-started-article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: a4c91443da0ce30fc5e35e5ffcf47e3faa68931d
-ms.sourcegitcommit: d91b7bf18d5c504037134f375886633379f28ede
+ms.openlocfilehash: e354378412a94c37394eb8b5abb2c80f3c5268df
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="power-bi-desktop-videos"></a>Power BI Desktop videók
 A [Power BI saját YouTube-csatornával](http://www.youtube.com/playlist?list=PL1N57mwBHtN2q1WbU5O29rrn_A0lkVv9p) rendelkezik!
@@ -31,10 +31,12 @@ Az alábbi lista ismerteti a Power BI Desktopról szóló összes elérhető vid
 
 - [A Power BI Desktop összefoglaló jellegű áttekintése](https://www.youtube.com/watch?v=Qgam9M8I0xA), az adatok lekérésétől és a jelentések felépítésétől a jelentések feltöltéséig a Power BI szolgáltatásba, így azok frissíthetők és megoszthatók a többi felhasználóval.  
   
-  <iframe width="500" height="281" src="https://www.youtube.com/embed/Qgam9M8I0xA" frameborder="0" allowfullscreen></iframe>  
-- Tudja meg[, hogyan hozhat létre lenyűgöző jelentéseket](https://www.youtube.com/watch?v=ByIUx-HmQbw) a Power BI Desktop használatával.
+  <iframe width="500" height="281" src="https://www.youtube.com/embed/Qgam9M8I0xA" frameborder="0" allowfullscreen></iframe> 
+  
+- Tudja meg, [hogyan hozhat létre lenyűgöző jelentéseket](https://www.youtube.com/watch?v=ByIUx-HmQbw) a Power BI Desktop használatával.
   
   <iframe width="500" height="281" src="https://www.youtube.com/embed/IMAsitQ2cAc" frameborder="0" allowfullscreen></iframe>  
+  
 - Ismerje meg, hogyan [importálhat és alakíthat át adatokat a Lekérdezésszerkesztő](https://www.youtube.com/watch?v=ByIUx-HmQbw) használatával a Power BI Desktopban.
   
   <iframe width="500" height="281" src="https://www.youtube.com/embed/ByIUx-HmQbw" frameborder="0" allowfullscreen></iframe>

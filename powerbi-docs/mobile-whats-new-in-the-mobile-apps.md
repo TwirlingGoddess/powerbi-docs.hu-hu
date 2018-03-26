@@ -1,27 +1,27 @@
 ---
-title: "A Power BI mobilalkalmazásainak újdonságai"
-description: "A Power BI mobilalkalmazásainak újdonságai"
+title: A Power BI mobilalkalmazásainak újdonságai
+description: A Power BI mobilalkalmazásainak újdonságai
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 02/15/2018
+ms.date: 03/13/2018
 ms.author: maggies
-ms.openlocfilehash: 530e4a2dc47a2d790dde3d7d1e7a2faeb7d79732
-ms.sourcegitcommit: d91b7bf18d5c504037134f375886633379f28ede
+ms.openlocfilehash: 5c2573bf4a3900b4d4216170e843263bc41a4e07
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>A Power BI mobilalkalmazásainak újdonságai
 Az újdonságokra vonatkozó kapcsolódó információk:
@@ -30,11 +30,21 @@ Az újdonságokra vonatkozó kapcsolódó információk:
 * [A Power BI Desktop újdonságai](desktop-latest-update.md)  
 * [A Power BI szolgáltatás újdonságai](service-whats-new.md)  
 
+## <a name="march-2018"></a>2018. március
+
+### <a name="power-bi-for-mixed-reality-app-preview"></a>Power BI vegyes valósághoz alkalmazás (előzetes verzió)
+
+Az adatok még felhasználóbarátabbá tételének érdekében létrehoztuk a vegyes valósághoz készült Power BI alkalmazást. Megtekintheti a virtuális világon belül az irányítópultjait és jelentéseit, vagy a környezetén belül mozgathatja és adott helyeken tekintheti meg őket. További információ az új, [vegyes valósághoz készült Power BI alkalmazásról](mobile-mixed-reality-app.md).
+
 ## <a name="february-2018"></a>2018. február
 
 ### <a name="share-reports"></a>Jelentések megosztása
 
 A jelentések mostantól közvetlenül a mobilalkalmazásokból megoszthatók. További információ az [irányítópultok és jelentések mobilalkalmazásokból való megosztásáról](mobile-share-dashboard-from-the-mobile-apps.md)
+
+### <a name="improved-tooltips"></a>Továbbfejlesztett eszközleírások
+
+Amikor egy jelentés vizualizációjára koppint, hogy megjelenítse az eszközleírásokat, mostantól az ujja a vizualizáción keresztüli húzásával megtekintheti az egyes adatpontok részletes adatait.
 
 ## <a name="january-2018"></a>2018. január
 
