@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/19/2018
+ms.date: 03/22/2018
 ms.author: maggies
-ms.openlocfilehash: 9951137ac10752a39f0e4ad555a36e2935faf327
-ms.sourcegitcommit: 93e7362fc47319959b6992dfd037effdf831d010
+ms.openlocfilehash: c22e909130767abd1dc6f0aa00d76e1fb6b99ee7
+ms.sourcegitcommit: fe859130099d923ee30da6091efcc70a264dcba6
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 03/21/2018
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="install-power-bi-desktop-optimized-for-power-bi-report-server"></a>A Power BI jelentéskészítő kiszolgálóhoz optimalizált Power BI Desktop telepítése
 Tudnivalók a Power BI jelentéskészítő kiszolgálóhoz optimalizált Power BI Desktop telepítéséről.
@@ -56,7 +56,7 @@ Ha ellenőrizné, hogy a Power BI jelentéskészítő kiszolgálóhoz optimaliz�
 ## <a name="verify-you-are-using-the-correct-version"></a>Annak ellenőrzése, hogy a megfelelő verziót használja-e
 Ellenőrizheti, hogy a Power BI Desktop megfelelő verzióját használja-e a Power BI Desktop indítóképernyőjének vagy címsorának megtekintésével. A címsor a kiadás hónapját és évét jelzi.
 
-![A Power BI jelentéskészítő kiszolgálóhoz optimalizált Power BI Desktop címsora](media/quickstart-create-powerbi-report/report-server-desktop-october-2017-version.png)
+![A Power BI jelentéskészítő kiszolgálóhoz optimalizált Power BI Desktop címsora](media/quickstart-create-powerbi-report/report-server-desktop-march-2018.png)
 
 A Power BI szolgáltatás Power BI Desktop verziójának címsorában nem szerepel a hónap és az év.
 
