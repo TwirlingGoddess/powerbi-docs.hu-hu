@@ -668,8 +668,8 @@
           href: desktop-ssas-multidimensional.md
         - name: Csatlakozás CSV-fájlokhoz a Power BI Desktopban
           href: desktop-connect-csv.md
-        - name: Csatlakozás az Adobe Analyticshez a Power BI Desktopban (előzetes verzió)
-          href: desktop-connect-csv.md
+        - name: Csatlakozás az Adobe Analyticshez a Power BI Desktopban
+          href: desktop-connect-adobe-analytics.md
         - name: Csatlakozás Impala-adatbázishoz a Power BI Desktopban
           href: desktop-connect-impala.md
         - name: Csatlakozás egy OData-csatornához a Power BI Desktopban
@@ -960,6 +960,8 @@
           href: developer/integrate-report.md
         - name: Tartalom integrálása alkalmazásba (az alkalmazás az adattulajdonos)
           href: developer/embed-sample-for-customers.md
+        - name: Power BI-tartalom beágyazása alkalmazásokba szuverén felhőket használó ügyfelei számára
+          href: developer/embed-sample-for-customers-sovereign-clouds.md
         - name: Egyéni elrendezések beágyazása alkalmazásokba
           href: developer/embedded-custom-layout.md
         - name: Azure Active Directory-bérlő létrehozása
