@@ -1,15 +1,15 @@
 ---
-title: "Másodlagos e-mail-cím használata"
-description: "Másodlagos e-mail-cím használata"
+title: Másodlagos e-mail-cím használata
+description: Másodlagos e-mail-cím használata
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -55,7 +55,7 @@ Active Azure Directory (AAD) Power BI-hoz tartozó beágyazási tokenjének rög
 
 A Power BI a következő szempontok alapján választja ki a használandó e-mail-címet:
 1.  Ha az AAD-bérlő felhasználói objektumának „mail” attribútuma létezik, akkor a Power BI ezt az attribútumot használja e-mail-címként
-2.  Ha az UPN-hez tartozó e-mail-cím *nem* az **\*.onmicrosoft.com** tartománybeli cím (ez a „@” jelet követő részből derül ki), akkor a Power BI ezt az attribútumot használja e-mail-címként
+2.  Ha az UPN-hez tartozó e-mail-cím *nem* az **\*.onmicrosoft.com** tartománybeli cím (ez a „\@” jelet követő részből derül ki), akkor a Power BI ezt az attribútumot használja e-mail-címként
 3.  Ha az AAD-s felhasználói objektum „other” e-mail-tömbattribútuma ki van töltve, akkor az ebben a listában szereplő első e-mail-cím lesz használva (mivel ez az attribútum e-mail-címek listáját is tartalmazhatja)
 4. Ha a fenti feltételek egyike sem teljesül, akkor az UPN-cím lesz használva
 

@@ -1,27 +1,27 @@
 ---
-title: "Irányítópult vagy jelentés megosztása a Power BI mobilalkalmazásokból"
-description: "A Power BI mobilalkalmazások hivatkozásainak megosztásával meghívhatja a munkatársait az irányítópultjainak vagy jelentéseinek megtekintésére. Itt megismerkedhet az erre vonatkozó részletekkel."
+title: Irányítópult vagy jelentés megosztása a Power BI mobilalkalmazásokból
+description: Hívjon meg másokat irányítópultjainak vagy jelentéseinek megtekintésére a Power BI-mobilalkalmazások hivatkozásainak megosztásával. Itt megismerkedhet az erre vonatkozó részletekkel.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 02/15/2018
+ms.date: 03/20/2018
 ms.author: maggies
-ms.openlocfilehash: 328e73b31934259fb50e412b6dc2f88a379a7469
-ms.sourcegitcommit: d91b7bf18d5c504037134f375886633379f28ede
+ms.openlocfilehash: 5bbcf02dfb0c11ca605e0c07f2670bd3a3422e96
+ms.sourcegitcommit: fe859130099d923ee30da6091efcc70a264dcba6
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="share-a-dashboard-or-report-from-the-power-bi-mobile-apps"></a>Irányítópult vagy jelentés megosztása a Power BI mobilalkalmazásokból
 A következőkre vonatkozik:
@@ -30,7 +30,7 @@ A következőkre vonatkozik:
 |:--- |:--- |:--- |:--- |:--- |
 | iPhone-ok |iPadek |Android rendszerű telefonok |Android rendszerű táblagépek |Windows 10-eszközök |
 
-[Power BI Pro-licenccel](service-free-vs-pro.md) megoszthatja a Power BI mobilalkalmazások hivatkozásait, hogy meghívja a munkatársait az irányítópultjainak vagy jelentéseinek megtekintésére. A megosztására meghívott személyeknek az Önével azonos e-mail-tartományba kell tartozniuk, és nekik is rendelkezniük kell Power BI Pro-licenccel, vagy a tartalomnak [prémium szintű kapacitáson](service-premium.md) kell lennie.
+[Power BI Pro-licenccel](service-free-vs-pro.md) megoszthatja a Power BI mobilalkalmazások hivatkozásait, hogy meghívjon másokat irányítópultjainak vagy jelentéseinek megtekintésére. A hivatkozásokat bárkivel megoszthatja vállalatán belül vagy azon kívül, akár rendelkezik az illető vállalati e-mail-fiókkal, akár nem. Ha a tartalom nem [Prémium kapacitást](service-premium.md) használ, akkor nekik is Power BI Pro-licenccel kell rendelkezniük.
 
 Az iOS vagy Android rendszerű Power BI mobilalkalmazásokban [jegyzetekkel láthatja el és megoszthatja másokkal a csempék, jelentések vagy vizualizációk pillanatképét](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md). 
 
@@ -38,14 +38,13 @@ Az iOS vagy Android rendszerű Power BI mobilalkalmazásokban [jegyzetekkel lát
 1. Az irányítópult alján lévő műveletek sávban koppintson a **megosztás** ikonra ![Megosztás ikon](media/mobile-share-dashboard-from-the-mobile-apps/power-bi-iphone-share-dashboard-icon.png).
    
    ![iPhone Megosztás ikonja](media/mobile-share-dashboard-from-the-mobile-apps/power-bi-iphone-dashboard-invite.png)
-2. Koppintson a **Munkatárs meghívása** elemre.
-3. Írjon be vesszővel elválasztott neveket, valamint egy üzenetet a megtekintésére való meghíváshoz.
-4. Az újbóli megosztás engedélyezéséhez hagyja bejelölve **Az irányítópult megosztásának engedélyezése a címzettek számára** jelölőnégyzetet.
+2. Írjon be vesszővel elválasztott neveket, valamint egy üzenetet a megtekintésére való meghíváshoz.
+3. Az újbóli megosztás engedélyezéséhez hagyja bejelölve **Az irányítópult megosztásának engedélyezése a címzettek számára** jelölőnégyzetet.
    
    Az újbóli megosztással a munkatársai továbbküldhetik az e-mailes meghívót a szervezetben másoknak a weben vagy a mobilalkalmazásokon keresztül.
 5. Koppintson a jobb felső sarokban lévő **Küldés** gombra.
    
-   A munkatársai e-mailes meghívót kapnak az irányítópult vagy jelentés közvetlen hivatkozásával. A meghívó egy hónap után lejár. Amikor megnyitják egy böngészőben vagy a Power BI mobilalkalmazásban, az irányítópult megjelenik a Power BI-fiók **Velem megosztva** szakaszában.
+   A címzettek e-mailes meghívót kapnak az irányítópult vagy jelentés közvetlen hivatkozásával. A meghívó egy hónap után lejár. Amikor megnyitják egy böngészőben vagy a Power BI mobilalkalmazásban, az irányítópult megjelenik a Power BI-fiók **Velem megosztva** szakaszában.
    
    ![Velem megosztva](media/mobile-share-dashboard-from-the-mobile-apps/power-bi-iphone-shared-with-me-left-nav.png)
    
@@ -68,14 +67,14 @@ A megosztást csak a tulajdonos törölheti.
 
 ## <a name="share-from-your-ipad"></a>Megosztás iPadről
 1. Koppintson a **Megosztás** ikonra ![megosztás ikon](media/mobile-share-dashboard-from-the-mobile-apps/pbi_ipad_shareiconblk.png) az irányítópult vagy jelentés jobb felső sarkában.
-2. Koppintson a **Munkatárs meghívása** elemre, majd írja be az e-mail-címeket és a meghívást kísérő üzenetet.
+2. Írja be az e-mail-címeket és a meghívást kísérő üzenetet.
 3. Az újbóli megosztás engedélyezéséhez hagyja bejelölve **Az irányítópult megosztásának engedélyezése a címzettek számára** jelölőnégyzetet.
    
    Az újbóli megosztással a munkatársai továbbküldhetik az e-mailes meghívót a szervezetben másoknak a weben vagy a mobilalkalmazásokon keresztül. 
 
 4. Koppintson a jobb felső sarokban lévő **Küldés** gombra.
    
-   A munkatársai e-mailes meghívót kapnak az irányítópult vagy jelentés közvetlen hivatkozásával. A meghívó egy hónap után lejár. Amikor megnyitják egy böngészőben vagy a Power BI mobilalkalmazásban, az irányítópult megjelenik a Power BI-fiók **Velem megosztva** szakaszában.
+   A címzettek e-mailes meghívót kapnak az irányítópult vagy jelentés közvetlen hivatkozásával. A meghívó egy hónap után lejár. Amikor megnyitják egy böngészőben vagy a Power BI mobilalkalmazásban, az irányítópult megjelenik a Power BI-fiók **Velem megosztva** szakaszában.
    
    ![Velem megosztva](media/mobile-share-dashboard-from-the-mobile-apps/power-bi-iphone-shared-with-me-left-nav.png)
    
@@ -97,7 +96,7 @@ A megosztást csak a tulajdonos törölheti.
 1. Az irányítópultok vagy jelentések kezdőlapján koppintson a három pontra (...), majd koppintson a **Munkatárs meghívása** elemre.
    
    ![Munkatárs meghívása](media/mobile-share-dashboard-from-the-mobile-apps/power-bi-android-tablet-share-dashboard.png)
-2. Vagy koppintson az irányítópult vagy jelentés jobb felső sarkában lévő meghívás ikonra ![Meghívás ikon](media/mobile-share-dashboard-from-the-mobile-apps/power-bi-android-invite-icon.png).
+2. Koppinthat az irányítópult vagy jelentés Meghívás ikonjára is ![Meghívás ikon](media/mobile-share-dashboard-from-the-mobile-apps/power-bi-android-invite-icon.png).
 
     Ha Ön az irányítópult tulajdonosa, láthatja a munkatársakat, akikkel megosztotta ezt az irányítópultot vagy jelentést, a következő megjegyzésekkel:
 
@@ -111,7 +110,7 @@ A megosztást csak a tulajdonos törölheti.
    
 1. A levél elküldéséhez koppintson a jobb felső sarokban a **Küldés** ikonra ![Küldés ikon](media/mobile-share-dashboard-from-the-mobile-apps/pbi_andr_sendplane.png).
    
-   A munkatársai e-mailes meghívót kapnak az irányítópult közvetlen hivatkozásával. A meghívó egy hónap után lejár. Amikor megnyitják egy böngészőben vagy a Power BI mobilalkalmazásban, az irányítópult megjelenik a Power BI-fiók **Velem megosztva** szakaszában.
+   A címzettek e-mailes meghívót kapnak az irányítópult közvetlen hivatkozásával. A meghívó egy hónap után lejár. Amikor megnyitják egy böngészőben vagy a Power BI mobilalkalmazásban, az irányítópult megjelenik a Power BI-fiók **Velem megosztva** szakaszában.
    
    ![Velem megosztva](media/mobile-share-dashboard-from-the-mobile-apps/power-bi-android-shared-with-me-left-nav.png)
    
@@ -146,7 +145,7 @@ A megosztást csak a tulajdonos törölheti.
    
 1. Koppintson a **Küldés** ikonra ![Küldés ikon](media/mobile-share-dashboard-from-the-mobile-apps/pbi_win10ph_sendicon.png).
    
-   A munkatársai e-mailes meghívót kapnak az irányítópult vagy jelentés közvetlen hivatkozásával. A meghívó egy hónap után lejár. Amikor megnyitják egy böngészőben vagy a Power BI mobilalkalmazásban, az irányítópult megjelenik a Power BI-fiók **Velem megosztva** szakaszában.
+   A címzettek e-mailes meghívót kapnak az irányítópult vagy jelentés közvetlen hivatkozásával. A meghívó egy hónap után lejár. Amikor megnyitják egy böngészőben vagy a Power BI mobilalkalmazásban, az irányítópult megjelenik a Power BI-fiók **Velem megosztva** szakaszában.
    
    ![Velem megosztva](media/mobile-share-dashboard-from-the-mobile-apps/power-bi-iphone-shared-with-me-left-nav.png)
    
