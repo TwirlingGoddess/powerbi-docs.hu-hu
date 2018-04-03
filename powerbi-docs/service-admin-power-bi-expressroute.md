@@ -1,15 +1,15 @@
 ---
-title: "A Power BI és az ExpressRoute"
-description: "A Power BI és az ExpressRoute"
+title: A Power BI és az ExpressRoute
+description: A Power BI és az ExpressRoute
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Administration
-ms.openlocfilehash: 30bc1c58d02634748acfc2dce4fbfbec51fa6cba
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: faf438e9f76a7a929f7369dc91ef4edb4fbef42d
+ms.sourcegitcommit: 1fe3ababba34c4e7aea08adb347ec5430e0b38e4
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="power-bi-and-expressroute"></a>A Power BI és az ExpressRoute
 A **Power BI** és az **ExpressRoute** közös használatával létrehozhat egy hálózati magánkapcsolatot a vállalata és a Power BI között (vagy egy internetszolgáltatótól bérelhető kiszolgálói létesítmény között), így megkerülheti az Internetet, és jobb védelmet biztosíthat érzékeny Power BI-adatai és -kapcsolatai számára.
@@ -49,7 +49,7 @@ Az ExressRoute-ot használó Power BI egészére két kivétel vonatkozik:
 * A statikus fájlok letöltése a **Content Delivery Networkről (CDN-ről)** és webhelyekről történik
 * A **Telemetrikai** adatok továbbítása a nyilvános interneten keresztül történik
 
-A Power BI több **Content Delivery Networköt (CDN-t)** vagy webhelyet használ ahhoz, hogy a szükséges statikus tartalmakat és fájlokat a felhasználók számára hatékonyan, a területi beállításaik alapján oszthassa el a nyilvános interneten keresztül. A statikus fájlok között megtalálhatók termékek letöltési fájljai (például a **Power BI Desktop**, a **helyszíni adatátjáró** vagy a különböző független szolgáltatóktól származó **Power BI-tartalomcsomagok**), böngészőkonfigurációs fájlok, amelyek a Power BI felé irányuló egymást követő kapcsolatok kezdeményezésére és kialakításához szükségesek, illetve megtalálható a Power BI kezdeti biztonságos bejelentkezési oldala is, azonban a tényleges hitelesítő adatok küldése már kizárólag az ExpressRoute-on keresztül történik.   
+A Power BI több **Content Delivery Networköt (CDN-t)** vagy webhelyet használ ahhoz, hogy a szükséges statikus tartalmakat és fájlokat a felhasználók számára hatékonyan, a területi beállításaik alapján oszthassa el a nyilvános interneten keresztül. A statikus fájlok között megtalálhatók termékek letöltési fájljai (például a **Power BI Desktop**, a **Helyszíni adatátjáró** vagy a különböző független szolgáltatóktól származó **Power BI-tartalomcsomagok**), böngészőkonfigurációs fájlok, amelyek a Power BI felé irányuló egymást követő kapcsolatok kezdeményezésére és kialakításához szükségesek, illetve megtalálható a Power BI kezdeti biztonságos bejelentkezési oldala is, azonban a tényleges hitelesítő adatok küldése már kizárólag az ExpressRoute-on keresztül történik.   
 
 Bizonyos **telemetrikai adatok** továbbítása szintén egyaránt történik a nyilvános interneten és az ExpressRoute-on keresztül. A telemetrikai adatok között használati statisztikák és hasonló adatok találhatók, amelyeket használatot és egyéb tevékenységeket monitorozó szolgáltatásoknak továbbítanak.
 
@@ -94,5 +94,5 @@ Egyes **egyéni vizualizációk** harmadik felektől származnak, mások a Micro
 Ez a dokumentum nem tér ki a Power BI Mobile-alkalmazások használatára.  
 
 ### <a name="on-premises-data-gateway-and-expressroute"></a>Helyszíni adatátjáró és az ExpressRoute
-A Power BI és egy **helyszíni adatátjáró** együttes használata esetén az átvitelek használhatók az ExpressRoute-tal, ugyanazzal a felhasználói tevékenységekre vonatkozó kivétellel, amelyet a cikk **A Power BI SaaS-alkalmazás és az ExpressRoute** szakaszában már ismertettünk.  
+A Power BI és egy **Helyszíni adatátjáró** együttes használata esetén az átvitelek használhatók az ExpressRoute-tal, ugyanazzal a felhasználói tevékenységekre vonatkozó kivétellel, amelyet a cikk **A Power BI SaaS-alkalmazás és az ExpressRoute** szakaszában már ismertettünk.  
 

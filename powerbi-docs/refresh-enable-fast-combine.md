@@ -1,15 +1,15 @@
 ---
-title: "Adatvédelmi beállítások letiltása"
-description: "Így engedélyezheti a Gyors összevonást a Személyes átjárón az adatvédelmi beállítások frissítésének letiltásához."
+title: Adatvédelmi beállítások letiltása
+description: Így engedélyezheti a Gyors összevonást a Személyes átjárón az adatvédelmi beállítások frissítésének letiltásához.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,15 +18,15 @@ ms.workload: powerbi
 ms.date: 02/06/2018
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 54d5f5ec2db890de0fbcef5ef0633548b90a6079
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: b8ec52f3c8bcb4051bd0ac9064786ddbfd15d9fe
+ms.sourcegitcommit: 1fe3ababba34c4e7aea08adb347ec5430e0b38e4
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="disable-privacy-setting-in-power-bi-gateway---personal"></a>Adatvédelem letiltása a személyes Power BI Gatewayen
 > [!NOTE]
-> A személye Power BI Gatewaynek van egy új verziója, melynek neve **helyszíni adatátjáró (személyes mód)**. A következő cikk a privát átjáró korábbi verzióját, a **Power BI Gateway - Personalt** ismerteti, amely 2017. július 31-ével elavult, és nem használható tovább. A személyes átjáró új verziójával kapcsolatos információkat, beleértve az új verzió telepítésének menetét, a [**helyszíni adatátjárót (személyes mód)** ismertető cikkben](service-gateway-personal-mode.md) találhatja. A Gyors összevonás a személyes átjáró új verziójában is elérhető, és az a cikk is kitér az ismertetésére.
+> A Power BI privát átjárójának van egy új verziója, melynek neve **helyszíni adatátjáró (privát mód)**. A következő cikk a privát átjáró korábbi verzióját, a **Power BI Gateway - Personalt** ismerteti, amely 2017. július 31-ével elavult, és nem használható tovább. A személyes átjáró új verziójával kapcsolatos információkat, beleértve az új verzió telepítésének menetét, a [**Helyszíni adatátjárót (személyes mód)** ismertető cikkben](service-gateway-personal-mode.md) találhatja. A Gyors összevonás a személyes átjáró új verziójában is elérhető, és az a cikk is kitér az ismertetésére.
 > 
 > 
 
@@ -51,7 +51,7 @@ Az adatvédelmi szintekkel és a Gyors összevonással kapcsolatos további tudn
 A Gyors összevonás bekapcsolásával figyelmen kívül hagyja a privát beállítást, és lehetővé teszi, hogy a kivétel érvényesüljön.
 
 ## <a name="turn-on-fast-combine"></a>A Gyors összevonás bekapcsolása
-A következő lépésekkel engedélyezheti a Gyors összevonást a saját személyes átjárójához. A helyszíni adatátjárón nincs ilyen beállítás.
+A következő lépésekkel engedélyezheti a Gyors összevonást a saját személyes átjárójához. A Helyszíni adatátjárón nincs ilyen beállítás.
 
 1. Nyissa meg a **ConnectorConfig.xml** fájlt.  Ez a számítógépen két helyen lehet.  Ha Ön a számítógép rendszergazdája, akkor a hely a következő.
    

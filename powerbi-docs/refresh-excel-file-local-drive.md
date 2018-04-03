@@ -1,15 +1,15 @@
 ---
-title: "Excel-munkafüzetből létrehozott adatkészlet frissítése (helyi)"
-description: "Excel-munkafüzetből létrehozott adatkészlet frissítése helyi meghajtón"
+title: Excel-munkafüzetből létrehozott adatkészlet frissítése (helyi)
+description: Excel-munkafüzetből létrehozott adatkészlet frissítése helyi meghajtón
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: a38ee72643f5eb95f0d637dbe7bfbc67e2ee656d
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 903f53378f2a9c8efce5bc8c6028f89add7df8c5
+ms.sourcegitcommit: 1fe3ababba34c4e7aea08adb347ec5430e0b38e4
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="refresh-a-dataset-created-from-an-excel-workbook-on-a-local-drive"></a>Excel-munkafüzetből létrehozott adatkészlet frissítése helyi meghajtón
 ## <a name="whats-supported"></a>Mi támogatott?
@@ -82,9 +82,9 @@ Hagyja bejelölve az **Értesítést kérek e-mailben, ha sikertelen a frissít�
 ## <a name="troubleshooting"></a>Hibaelhárítás
 Néha az adatok frissítése nem a várt módon történik. Ezt általában egy átjáróval kapcsolatos hiba okozza. Az átjáró-hibaelhárítással kapcsolatos cikkekben találja az eszközöket és az ismert hibákat.
 
-[A helyszíni adatátjáróval kapcsolatos hibák elhárítása](service-gateway-onprem-tshoot.md)
+[A Helyszíni adatátjáróval kapcsolatos hibák elhárítása](service-gateway-onprem-tshoot.md)
 
-[A Power BI Gateway – Personal hibáinak elhárítása](service-admin-troubleshooting-power-bi-personal-gateway.md)
+[A személyes Power BI Gateway hibáinak elhárítása](service-admin-troubleshooting-power-bi-personal-gateway.md)
 
 ## <a name="next-steps"></a>Következő lépések
 További kérdései vannak? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)

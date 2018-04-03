@@ -1,15 +1,15 @@
 ---
-title: "Project Online: kapcsolódás az adatokhoz a Power BI Desktopon keresztül"
-description: "Project Online: kapcsolódás az adatokhoz a Power BI Desktopon keresztül"
+title: 'Project Online: kapcsolódás az adatokhoz a Power BI Desktopon keresztül'
+description: 'Project Online: kapcsolódás az adatokhoz a Power BI Desktopon keresztül'
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 1f5fa21845167d2d9d419f163429fd1f025c1749
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 0577c6e3ce89e51c767273b634f6d3d88875eead
+ms.sourcegitcommit: 1fe3ababba34c4e7aea08adb347ec5430e0b38e4
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="project-online-connect-to-data-through-power-bi-desktop"></a>Project Online: kapcsolódás az adatokhoz a Power BI Desktopon keresztül
 A Project Online-adatokhoz kapcsolódhat a Power BI Desktopon keresztül.
@@ -38,10 +38,12 @@ A Project Online-adatokhoz kapcsolódhat a Power BI Desktopon keresztül.
    
    Ha a Project Web App-hely címe a https://\<bérlő_neve\>.sharepoint.com/sites/pwa címhez hasonló, az OData-csatorna számára a https://\<bérlő_neve\>.sharepoint.com/sites/pwa/\_api/Projectdata címet adja meg.
    
-   A példában a https://contoso.sharepoint.com/sites/pwa/default.aspx címet használjuk.
+   Ebben a példában a https://contoso.sharepoint.com/sites/pwa/default.aspx címet használjuk.
 5. A Power BI Desktop megkéri, hogy jelentkezzen be az Office 365-fiókjával. Válassza a Szervezeti fiók elemet, és adja meg a hitelesítő adatait.
    
    ![](media/desktop-project-online-connect-to-data/image.png)
+
+Ne feledje, hogy az OData-csatornához való csatlakozásra használt fióknak legalább Portfóliómegtekintő hozzáféréssel kell rendelkeznie a Project Web App-webhelyhez. 
 
 Ezután kiválaszthatja, hogy melyik táblákhoz szeretne csatlakozni, és létrehozhat egy lekérdezést.  Szeretne képet kapni az első lépésekről?  A következő blogbejegyzés leírja, hogyan készíthet egy burndown chartot a Project Online-adataiból.  A blogbejegyzésben a Power Query használatával csatlakoznak a Project Online-hoz, de ugyanez alkalmazható a Power BI Desktopra is.
 

@@ -1,15 +1,15 @@
 ---
 title: DirectQuery az SAP HANA-hoz a Power BI Desktopban
-description: "Megfontolandó szempontok a DirectQuery SAP HANA-val való használatakor"
+description: Megfontolandó szempontok a DirectQuery SAP HANA-val való használatakor
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 03/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 7b1b56ee467dfdf6dc8c63557a9a9f4ab86e965e
-ms.sourcegitcommit: 85d18d9f11a4ce4d4ed65e4544d13da6c2d9b1d4
+ms.openlocfilehash: 966399c2ad11ac6a04400e3c009927deb6d35b94
+ms.sourcegitcommit: e31fc1f6e4af427f8b480c8dbc537c3617c9b2c0
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="directquery-and-sap-hana"></a>DirectQuery és SAP HANA
 Az **SAP HANA**-adatforrásokhoz közvetlenül kapcsolódhat a **DirectQuery** használatával. Az SAP HANA-hoz való kapcsolódás kétféle módszerrel is elvégezhető:
@@ -43,7 +43,7 @@ Az alábbiakban részletesen is megvizsgáljuk a két megközelítést.
 
 ## <a name="treat-sap-hana-as-a-multi-dimensional-source-default"></a>Az SAP HANA többdimenziós forrásként való kezelése (alapértelmezett)
 
-Alapértelmezés szerint minden új SAP HANA-kapcsolat ezt az új módszert alkalmazza, azaz többdimenziós forrásként kezeli az SAP HANA-t. Ha az SAP HANA-kapcsolatot relációs forrásként szeretné kezelni, a **Fájl > Lehetőségek és beállítások** területen jelölje be a **Direct Query > Az SAP HANA relációs forrásként való kezelése** jelölőnégyzetet. Amíg ez a funkció **előzetes** verzióban van, a többdimenziós megközelítés használatával létrehozott jelentések *nem tehetők közzé* a Power BI szolgáltatásban, és közzétételük esetén hiba jelentkezik, ha a jelentést megnyitják a Power BI szolgáltatásban.  
+Alapértelmezés szerint minden új SAP HANA-kapcsolat ezt az új módszert alkalmazza, azaz többdimenziós forrásként kezeli az SAP HANA-t. Ha az SAP HANA-kapcsolatot relációs forrásként szeretné kezelni, a **Fájl > Lehetőségek és beállítások > Beállítások** területen jelölje be a **Direct Query > Az SAP HANA relációs forrásként való kezelése** jelölőnégyzetet. Amíg ez a funkció **előzetes** verzióban van, a többdimenziós megközelítés használatával létrehozott jelentések *nem tehetők közzé* a Power BI szolgáltatásban, és közzétételük esetén hiba jelentkezik, ha a jelentést megnyitják a Power BI szolgáltatásban.  
 
 Ha az SAP HANA-hoz mint többdimenziós forráshoz kapcsolódik, az alábbiak érvényesek:
 
@@ -63,11 +63,11 @@ A **mezők** listája az SAP HANA-nézethez tartozó összes mértéket, attrib�
 
 * Az SAP HANA-ban meghatározható, hogy az attribútumok címkeként egy másik attribútumot használjanak. Az 1,2,3 stb. értékeket tartalmazó **Product** például címkeként használhatja a **ProductName** attribútumot, amely a Bicikli,Ing,Kesztyű stb. értékeket tartalmazza. Ebben az esetben a mezőlistában egyetlen mezőként a **Product** jelenik meg, amelynek az értékei Bicikli, Ing, Kesztyű stb., de amelynek rendezési alapja és az egyedisége az 1,2,3 kulcsértékek alapján lesz meghatározva. Emellett létre lesz hozva a rejtett **Product.Key** oszlop is, amely lehetővé teszi, hogy szükség esetén hozzá lehessen férni az alapul szolgáló értékekhez is. 
 
-Az alapul szolgáló SAP HANA-nézetben definiált minden változó megjelenik a kapcsolódáskor, és a szükséges értékek így megadhatók. Ezek az értékek később meg is változtathatók. Ehhez a menüszalagon válassza a **Lekérdezések szerkesztése**, majd a **Változók szerkesztése** lehetőséget a legördülő listából. 
+Az alapul szolgáló SAP HANA-nézetben definiált minden változó megjelenik a kapcsolódáskor, és a szükséges értékek így megadhatók. Ezek az értékek később meg is változtathatók. Ehhez a menüszalagon válassza a **Lekérdezések szerkesztése**, majd a **Paraméterek kezelése** lehetőséget a legördülő listából. 
 
 A megengedett modellezési műveletekre szigorúbb korlátozások vonatkoznak, mint általában a DirectQuery használatánál, mivel biztosítani szükséges, hogy az SAP HANA-ból mindig a megfelelő összesített adatok legyenek lekérdezve. Ezzel együtt azonban számos kiegészítés és módosítás is engedélyezett, többek között mértékek definiálása, mezők átnevezése és elrejtése vagy a megjelenítési formátum meghatározása. Az ilyen változások mind megmaradnak frissítés után is, és az SAP HANA-n végzett nem ütköző módosítások is alkalmazva lesznek. 
 
-### <a name="additional-modelling-restrictions"></a>További modellezési korlátozások
+### <a name="additional-modeling-restrictions"></a>További modellezési korlátozások
 
 A DirectQuery SAP HANA-val való használatakor (azt többdimenziós forrásként kezelve) a legfőbb további modellezési korlátozások a következők: 
 
@@ -80,7 +80,7 @@ A DirectQuery SAP HANA-val való használatakor (azt többdimenziós forráskén
 
 ### <a name="additional-visualization-restrictions"></a>További vizualizációs korlátozások
 
-A DirectQuery SAP HANA-val való használatakor (azt többdimenziós forrásként kezelve) van néhány korlátozás a vizualizációkban: 
+A DirectQuery SAP HANA-val való használatakor (azt többdimenziós forrásként kezelve) a vizualizációkat érintik bizonyos korlátozások: 
 * **Nincs oszlopösszesítés:** Nem módosítható a vizualizációs oszlopok összesítése, a beállítás mindig *Nincs összegzés*.
 
 ## <a name="treat-sap-hana-as-a-relational-source"></a>Az SAP HANA relációs forrásként való kezelése 
@@ -138,14 +138,14 @@ Ennek az az oka, hogy a Power BI az SQL-interfészen keresztül érti el az SAP 
 * **Egyéb hierarchia-metaadatok** – A Power BI megjeleníti a hierarchiák alapvető struktúráját, de egyes hierarchia-metaadatoknak (például hézagos hierarchiák viselkedésének felügyelete) nem lesz hatásuk.
 Ez ugyancsak az SQL-interfész használata okozta korlátozások miatt van így.
 * **Kapcsolódás SSL használatával** – SSL-használatra konfigurált SAP HANA-hoz nem lehetséges kapcsolódni.
-Attribútum-nézet támogatása A Power BI kapcsolódni tud az Elemzési és a Számítási nézetekhez, de nem tud közvetlenül kapcsolódni az Attribútum nézethez.
+* **Attribútum-nézet támogatása** – A Power BI kapcsolódni tud az Elemzési és a Számítási nézetekhez, de nem tud közvetlenül kapcsolódni az Attribútum nézethez.
 * **Katalógus objektumok támogatása** – A Power BI nem tud kapcsolódni Katalógus objektumokhoz.
 * **Változók módosítása közzétételt követően** – A jelentés közzététele után a Power BI szolgáltatásban közvetlenül nem lehetséges módosítani az SAP HANA-változók értékét. 
  
 ## <a name="known-issues"></a>Ismert problémák 
 Az alábbiakban minden olyan problémát felsorolunk, amely akkor merülhet fel, ha az SAP HANA-hoz a Power BI használatával (DirectQuery) kapcsolódik. 
 
-* **Az SAP HANA-val kapcsolatos probléma számlálók vagy más mértékek lekérdezésénél** – Az SAP HANA helytelen értékeket ad vissza, ha Elemzési nézethez kapcsolódik, és ugyanabban a vizualizációban számláló vagy más, arányt tartalmazó mérték is szerepel. Ezt a viselkedést az SAP 2128928 számú megjegyzése ismerteti (Váratlan eredmények számított oszlop és számláló lekérdezésénél. Az arány mérték ilyen esetben hibás lesz. 
+* **Az SAP HANA-val kapcsolatos probléma számlálók vagy más mértékek lekérdezésénél** – Az SAP HANA helytelen értékeket ad vissza, ha Elemzési nézethez kapcsolódik, és ugyanabban a vizualizációban számláló vagy más, arányt tartalmazó mérték is szerepel. Ezt a viselkedést az SAP 2128928 számú megjegyzése ismerteti (Váratlan eredmények számított oszlop és számláló lekérdezésénél). Az arány mérték ilyen esetben hibás lesz. 
 
 * **Több Power BI-oszlop egy SAP HANA-oszlopból** – Egyes számítási nézeteknél, ahol az SAP HANA-oszlop több hierarchiában is használatos, az SAP HANA az egyetlen oszlopot két külön attribútumként jeleníti meg. Ez azt eredményezi, hogy a Power BI két oszlopot hoz létre.  Ezek az oszlopok alapbeállítás szerint rejtve vannak, és a hierarchiát vagy az oszlopokat érintő minden lekérdezés helyesen működik majd. 
  
