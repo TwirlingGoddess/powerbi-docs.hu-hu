@@ -1,15 +1,15 @@
 ---
-title: "Excel-munkafüzetből létrehozott adatkészlet frissítése (felhőbeli)"
-description: "A OneDrive-on vagy a SharePoint Online-on található Excel-munkafüzetből létrehozott adatkészlet frissítése"
+title: Excel-munkafüzetből létrehozott adatkészlet frissítése (felhőbeli)
+description: A OneDrive-on vagy a SharePoint Online-on található Excel-munkafüzetből létrehozott adatkészlet frissítése
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: c20ba2a33a88ba8c6ab27cf60b02babf3ebb4cad
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: ff5a13e842473f276b183f524b2ee5c17e173c96
+ms.sourcegitcommit: 1fe3ababba34c4e7aea08adb347ec5430e0b38e4
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="refresh-a-dataset-created-from-an-excel-workbook-on-onedrive-or-sharepoint-online"></a>A OneDrive-on vagy a SharePoint Online-on található Excel-munkafüzetből létrehozott adatkészlet frissítése
 Importálhat a helyi gépén vagy egy felhőbeli tárhelyben (például a OneDrive Vállalati verzióban vagy a SharePoint Online-on) tárolt Excel-munkafüzeteket. Ebben a cikkben a felhőbeli tárhelyek az Excel-fájlokkal való használatának előnyeit ismertetjük. További információ az Excel-fájlok a Power BI-ba való importálásáról: [Adatok lekérdezése Excel-munkafüzetből](service-excel-workbook-files.md).
@@ -106,7 +106,7 @@ Hagyja bejelölve az **Értesítést kérek e-mailben, ha sikertelen a frissít�
 ## <a name="troubleshooting"></a>Hibaelhárítás
 Néha az adatok frissítése nem a várt módon történik. Ezt általában egy átjáróval kapcsolatos hiba okozza. Az átjáró-hibaelhárítással kapcsolatos cikkekben találja az eszközöket és az ismert hibákat.
 
-[A helyszíni adatátjáróval kapcsolatos hibák elhárítása](service-gateway-onprem-tshoot.md)
+[A Helyszíni adatátjáróval kapcsolatos hibák elhárítása](service-gateway-onprem-tshoot.md)
 
 [A személyes Power BI Gateway hibáinak elhárítása](service-admin-troubleshooting-power-bi-personal-gateway.md)
 

@@ -1,15 +1,15 @@
 ---
-title: "Power BI Desktop-fájlból létrehozott adatkészlet frissítése – helyi"
-description: "Power BI Desktop-fájlból létrehozott adatkészlet frissítése helyi meghajtón"
+title: Power BI Desktop-fájlból létrehozott adatkészlet frissítése – helyi
+description: Power BI Desktop-fájlból létrehozott adatkészlet frissítése helyi meghajtón
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 69b755b1e4844f5731ecf13a8be154f1684bb8fb
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 78c3da471701a7973934e2349d9209fb55aa2026
+ms.sourcegitcommit: 1fe3ababba34c4e7aea08adb347ec5430e0b38e4
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="refresh-a-dataset-created-from-a-power-bi-desktop-file-on-a-local-drive"></a>Power BI Desktop-fájlból létrehozott adatkészlet frissítése helyi meghajtón
 ## <a name="whats-supported"></a>Mi támogatott?
@@ -66,7 +66,7 @@ Mindenképpen hagyja bejelölve az **Értesítést kérek e-mailben, ha sikertel
 ## <a name="troubleshooting"></a>Hibaelhárítás
 Néha az adatok frissítése nem a várt módon történik. Ezt általában egy átjáróval kapcsolatos hiba okozza. Az átjáró-hibaelhárítással kapcsolatos cikkekben találja az eszközöket és az ismert hibákat.
 
-[A helyszíni adatátjáróval kapcsolatos hibák elhárítása](service-gateway-onprem-tshoot.md)
+[A Helyszíni adatátjáróval kapcsolatos hibák elhárítása](service-gateway-onprem-tshoot.md)
 
 [A személyes Power BI Gateway hibáinak elhárítása](service-admin-troubleshooting-power-bi-personal-gateway.md)
 

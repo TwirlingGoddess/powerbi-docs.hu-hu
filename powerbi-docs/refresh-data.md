@@ -1,15 +1,15 @@
 ---
-title: "Adatfrissítés a Power BI-ban"
-description: "Adatfrissítés a Power BI-ban"
+title: Adatfrissítés a Power BI-ban
+description: Adatfrissítés a Power BI-ban
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 01/19/2018
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 23709342f522d029e01cf7192627e179d260fa8d
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: decd8a072ba644c9d67a7a0005b752423d32984a
+ms.sourcegitcommit: 1fe3ababba34c4e7aea08adb347ec5430e0b38e4
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="data-refresh-in-power-bi"></a>Adatfrissítés a Power BI-ban
 A jó döntések meghozatalában gyakran kritikus fontosságú a legfrissebb adatok lekérése. Már valószínűleg ismeri a Power BI Adatok lekérése funkcióját, amellyel adatokhoz csatlakozhat, illetve adatokat tölthet fel, és biztosan létrehozott már jelentéseket és egy irányítópultot is. Ezután célszerű meggyőződni arról, hogy az adatok valóban frissek és hibátlanok.
@@ -162,11 +162,11 @@ A céges tartalomcsomagok adatkészleteinek frissítési jellemzői az adatkész
 További információ: [Céges tartalomcsomagok: bevezetés](service-organizational-content-pack-introduction.md).
 
 ## <a name="live-connections-and-directquery-to-on-premises-data-sources"></a>Élő kapcsolatok és DirectQuery a helyszíni adatforrásokhoz
-A helyszíni adatátjáróval a Power BI felületéről a helyszíni adatforrások számára küldhet lekérdezéseket. Amikor egy vizualizációt használ, a lekérdezések a Power BI-ból közvetlenül az adatbázisba érkeznek. A frissített adatok ezután visszatérnek, a vizualizációk pedig frissülnek. Mivel közvetlen kapcsolat van a Power BI és az adatbázis között, nincs szükség frissítésütemezésre.
+A Helyszíni adatátjáróval a Power BI felületéről a helyszíni adatforrások számára küldhet lekérdezéseket. Amikor egy vizualizációt használ, a lekérdezések a Power BI-ból közvetlenül az adatbázisba érkeznek. A frissített adatok ezután visszatérnek, a vizualizációk pedig frissülnek. Mivel közvetlen kapcsolat van a Power BI és az adatbázis között, nincs szükség frissítésütemezésre.
 
 Amikor egy SQL Service Analysis Services (SSAS) adatforráshoz csatlakozik élő kapcsolattal, a DirectQueryvel ellentétben az élő kapcsolat a gyorsítótárazás ellenében, a jelentés betöltésekor is futhat. Ez a viselkedés javítja a jelentés betöltési teljesítményét. Az SSAS-adatforrás legfrissebb adatait lekérheti a **frissítés** gombbal. Az SSAS-adatforrások tulajdonosai konfigurálhatják az adatkészlet ütemezett gyorsítótár-frissítésének gyakoriságát, így biztosíthatják, hogy a jelentések igény szerint frissüljenek. 
 
-Amikor egy adatforrást konfigurál a helyszíni adatátjáróval, az adatforrást használhatja ütemezett frissítési lehetőségként, ahelyett, hogy a személyes átjárót használná.
+Amikor egy adatforrást konfigurál a Helyszíni adatátjáróval, az adatforrást használhatja ütemezett frissítési lehetőségként, ahelyett, hogy a személyes átjárót használná.
 
 > [!NOTE]
 > Ha az adatkészletet egy élő vagy DirectQuery-kapcsolathoz konfigurálta, az adatkészletek körülbelül óránként, vagy az adatok használatakor frissülnek. A *frissítési gyakoriságot* kézzel állíthatja be a Power BI *Ütemezett gyorsítótár-frissítés* beállításában.

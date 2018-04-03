@@ -1,15 +1,15 @@
 ---
-title: "Útmutató adatátjáró üzembe helyezéséhez a Power BI számára"
-description: "A Power BI-átjáró telepítéséhez ajánlott eljárások és a telepítés szempontjai."
+title: Útmutató adatátjáró üzembe helyezéséhez a Power BI számára
+description: A Power BI-átjáró telepítéséhez ajánlott eljárások és a telepítés szempontjai.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,20 +18,20 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Gateways
-ms.openlocfilehash: 992c3cbeb9899a784cc8df9fdca9a29f57aa7e81
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 9438b9563d17cff8ce334e48bc34a4f3fa6acf1c
+ms.sourcegitcommit: 1fe3ababba34c4e7aea08adb347ec5430e0b38e4
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="guidance-for-deploying-a-data-gateway-for-power-bi"></a>Útmutató adatátjáró üzembe helyezéséhez a Power BI számára
-A cikk útmutatást nyújt az adatátjáró hálózati környezetben történő telepítéséhez, és ismerteti a telepítés szempontjait. Az **átjáró** olyan szoftver, amely lehetővé teszi, hogy a helyszíni privát hálózaton lévő adatok elérhetőek legyenek az olyan felhőszolgáltatásokban, mint például a Power BI. A cikk végigvezeti a telepítés menetén, és útmutatást nyújt **helyszíni adatátjáró** telepítéséhez.
+A cikk útmutatást nyújt az adatátjáró hálózati környezetben történő telepítéséhez, és ismerteti a telepítés szempontjait. Az **átjáró** olyan szoftver, amely lehetővé teszi, hogy a helyszíni privát hálózaton lévő adatok elérhetőek legyenek az olyan felhőszolgáltatásokban, mint például a Power BI. A cikk végigvezeti a telepítés menetén, és útmutatást nyújt **Helyszíni adatátjáró** telepítéséhez.
 
 ![](media/service-gateway-deployment-guidance/powerbi-gateway-deployment-guidance_01.png)
 
-A **helyszíni adatátjáróval** kapcsolatos további információkért, és a telepítőre mutató hivatkozásért vessen egy pillantást erre a [blogbejegyzésre](https://powerbi.microsoft.com/blog/power-bi-gateways-march-update/).
+A **Helyszíni adatátjáróval** kapcsolatos további információkért, és a telepítőre mutató hivatkozásért vessen egy pillantást erre a [blogbejegyzésre](https://powerbi.microsoft.com/blog/power-bi-gateways-march-update/).
 
-## <a name="installation-considerations-for-the-on-premises-data-gateway"></a>A helyszíni átjáró telepítésének szempontjai
+## <a name="installation-considerations-for-the-on-premises-data-gateway"></a>A Helyszíni átjáró telepítésének szempontjai
 Mielőtt túlságosan elmerülnénk a telepítés részleteiben, nem árt, ha ismertetünk pár szempontot, amelyeket érdemes szem előtt tartani. A következő szakaszokban bemutatott dolgokat fontos észben tartani a telepítés során.
 
 ### <a name="number-of-users"></a>Felhasználók száma
@@ -53,7 +53,7 @@ A használt kapcsolat típusától függően az átjáróhasználat mértéke el
 * **Ütemezett frissítés**: A lekérdezések mérete és a napi frissítések száma alapján eldöntheti, hogy elég a javasolt minimális hardverkövetelményeknek megfelelő számítógépet használni, vagy nagyobb teljesítményű számítógépre lesz szüksége. Ha az adott lekérdezés nem kiszolgáló oldali transzformációkból áll, akkor a transzformációkat az átjáró fogja végezni, és ilyenkor hasznos lehet, ha a számítógépen, amelyen az átjáró telepítve van, több memória áll rendelkezésre.
 * **DirectQuery**: A rendszer lekérdezést küld minden esetben, amikor egy felhasználó megnyitja a jelentést, vagy adatokat tekint meg. Ezért, ha várhatóan több mint 1000 felhasználó fog egyidejűleg hozzáférni az adatokhoz, érdemes gondoskodni arról, hogy a számítógép kellőképp robusztus és hatékony hardverrel rendelkezzen. **DirectQuery**-kapcsolat esetén több processzormag nagyobb teljesítményt eredményez.
 
-A **helyszíni adatátjáró** telepítéséhez szükséges hardverkövetelmények a következők:
+A **Helyszíni adatátjáró** telepítéséhez szükséges hardverkövetelmények a következők:
 
 **Minimális:**
 
@@ -91,7 +91,7 @@ Ezek a számlálók a **Windows teljesítményfigyelőből** érhetőek el, és 
 #### <a name="logs"></a>Naplók
 A konfigurációs- és szolgáltatási naplók egy további dimenziót nyújtanak az átjáróval kapcsolatos események felmérésében. Amikor a kapcsolat nem működik megfelelően, mindig érdemes ellenőrizni az átjáró naplóit, mert a Power BI szolgáltatás felületén nem mindegyik hibaüzenet jelenik meg.
 
-Helyi gépen a naplók megtekintésének legegyszerűbb módja, ha az átjáró telepítését követően újra megnyitja az átjárót, és a **helyszíni adatátjáróban** a *Naplók exportálása* lehetőséget választja, ezután pedig kiválasztja a **Diagnosztika > Naplók exportálása** lehetőséget.
+Helyi gépen a naplók megtekintésének legegyszerűbb módja, ha az átjáró telepítését követően újra megnyitja az átjárót, és a **Helyszíni adatátjáróban** a *Naplók exportálása* lehetőséget választja, ezután pedig kiválasztja a **Diagnosztika > Naplók exportálása** lehetőséget.
 
 #### <a name="additional-logging"></a>További naplózási lehetőségek
 Az átjáró alapértelmezés szerint csak egyszerűsített naplózást végez. Ha az átjáróval kapcsolatos hibák vizsgálatához több részletre van szüksége a lekérdezéskapcsolatokról, akkor a *Részletes naplózás* ideiglenes engedélyezésével további információkat is gyűjthet. Ehhez a telepített átjáróban válassza a **Diagnosztika > További naplózás** lehetőséget.
@@ -145,7 +145,7 @@ Innen az egyik átjáró kiválasztásával megtekintheti a rendszergazdák list
 
 ## <a name="next-steps"></a>Következő lépések
 [Proxybeállítások konfigurálása](service-gateway-proxy.md)  
-[A helyszíni adatátjáró hibaelhárítása](service-gateway-onprem-tshoot.md)  
+[A Helyszíni adatátjáróval kapcsolatos hibák elhárítása](service-gateway-onprem-tshoot.md)  
 [Helyszíni adatátjáró – Gyakori kérdések](service-gateway-onprem-faq.md)  
 
 További kérdései vannak? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)

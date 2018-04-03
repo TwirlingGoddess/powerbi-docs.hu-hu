@@ -1,15 +1,15 @@
 ---
-title: "Frissítési forgatókönyvekkel kapcsolatos hibák elhárítása"
-description: "Frissítési forgatókönyvekkel kapcsolatos hibák elhárítása"
+title: Frissítési forgatókönyvekkel kapcsolatos hibák elhárítása
+description: Frissítési forgatókönyvekkel kapcsolatos hibák elhárítása
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: d6b9e5e69de7b2027c4799f15c11cbb0626e1507
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: d94e25b78edef2aefaa5e63c788e5f11dc948791
+ms.sourcegitcommit: 1fe3ababba34c4e7aea08adb347ec5430e0b38e4
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="troubleshooting-refresh-scenarios"></a>Frissítési forgatókönyvekkel kapcsolatos hibák elhárítása
 Itt a Power BI szolgáltatásban az adatok frissítése során fellépő különféle forgatókönyvekkel kapcsolatos információkat talál.
@@ -67,7 +67,7 @@ Az importált adatkészletek frissítése két óra után időtúllépési hibá
 
 ## <a name="next-steps"></a>További lépések
 [Adatfrissítés](refresh-data.md)  
-[A helyszíni adatátjáróval kapcsolatos hibák elhárítása](service-gateway-onprem-tshoot.md)  
+[A Helyszíni adatátjáróval kapcsolatos hibák elhárítása](service-gateway-onprem-tshoot.md)  
 [A személyes Power BI Gateway hibáinak elhárítása](service-admin-troubleshooting-power-bi-personal-gateway.md)  
 
 További kérdései vannak? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)

@@ -1,14 +1,14 @@
 ---
-title: "Ütemezett frissítés beállítása"
-description: "Ez a cikk az átjáró kiválasztásának és az ütemezett frissítés beállításának lépéseit tartalmazza."
+title: Ütemezett frissítés beállítása
+description: Ez a cikk az átjáró kiválasztásának és az ütemezett frissítés beállításának lépéseit tartalmazza.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
+backup: ''
+editor: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -17,11 +17,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: dec6b60b4dfddd9a4c55ee01cb7b9dc6b8c71cd3
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: af8895b90b2f3315fb0cfd71351dbe65c108071e
+ms.sourcegitcommit: 1fe3ababba34c4e7aea08adb347ec5430e0b38e4
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="configuring-scheduled-refresh"></a>Ütemezett frissítés beállítása
 
@@ -32,7 +32,7 @@ ms.lasthandoff: 02/24/2018
 
 Ha az adatkészlet támogatja a Frissítés most és a Frissítés ütemezése használatával történő ütemezett frissítést, van néhány követelmény és beállítás, amelyek fontosak a sikeres frissítéshez. Ezek az **Átjárókapcsolat**, az **Adatforrás azonosító adatai** és a **Frissítés ütemezése**. Most vizsgáljuk meg közelebbről mindegyiket.
 
-Ez a cikk ismerteti mind a [Power BI Gateway – Personal](personal-gateway.md), mind a [helyszíni adatátjáró](service-gateway-onprem.md) esetében rendelkezésre álló beállításokat.
+Ez a cikk ismerteti mind a [Power BI Gateway – Personal](personal-gateway.md), mind a [Helyszíni adatátjáró](service-gateway-onprem.md) esetében rendelkezésre álló beállításokat.
 
 Az Frissítés ütemezése képernyőre való váltáshoz tegye a következőt:
 
@@ -70,7 +70,7 @@ Az adatforrásokba csak az első alkalommal kell bejelentkeznie, amikor a friss�
 Ha nem jó mennek a dolgok, a problémát általában az okozza, hogy az átjáró offline állapotú, mert nem tud bejelentkezni a Windowsba és nem tudja elindítani a szolgáltatást, vagy a Power BI nem tud bejelentkezni az adatforrásokba a frissített adatok lekérdezéséhez. Ha nem sikerül a frissítés, ellenőrizze az adatkészlet beállításait. Ha az átjárószolgáltatás offline állapotú, a hibát az Átjáró állapota területen tekintheti meg. Ha a Power BI nem tud bejelentkezni az adatforrásokba, akkor hiba jelenik meg az Adatforrás azonosító adatai területen.
 
 ### <a name="on-premises-data-gateway"></a>Helyszíni adatátjáró
-Ha a helyszíni adatátjárót használja az adatok frissítésére, akkor nem kell hitelesítő adatokat megadnia, mert azokat az átjáró rendszergazdája határozta meg az adatforráshoz.
+Ha a Helyszíni adatátjárót használja az adatok frissítésére, akkor nem kell hitelesítő adatokat megadnia, mert azokat az átjáró rendszergazdája határozta meg az adatforráshoz.
 
 ![](media/refresh-scheduled-refresh/data-source-credentials-egw.png)
 
@@ -123,15 +123,15 @@ Bizonyos adatkészletek ütemezett frissítése eltérő átjárók esetében t�
 ## <a name="troubleshooting"></a>Hibaelhárítás
 Néha az adatok frissítése nem a várt módon történik. Ezt általában egy átjáróval kapcsolatos hiba okozza. Az átjáró-hibaelhárítással kapcsolatos cikkekben találja az eszközöket és az ismert hibákat.
 
-[A helyszíni adatátjáróval kapcsolatos hibák elhárítása](service-gateway-onprem-tshoot.md)
+[A Helyszíni adatátjáróval kapcsolatos hibák elhárítása](service-gateway-onprem-tshoot.md)
 
-[A Power BI Gateway – Personal hibáinak elhárítása](service-admin-troubleshooting-power-bi-personal-gateway.md)
+[A személyes Power BI Gateway hibáinak elhárítása](service-admin-troubleshooting-power-bi-personal-gateway.md)
 
 ## <a name="next-steps"></a>Következő lépések
 [Adatfrissítés a Power BI-ban](refresh-data.md)  
 [Power BI Gateway – Personal](personal-gateway.md)  
 [Helyszíni adatátjáró](service-gateway-onprem.md)  
-[A helyszíni adatátjáró hibaelhárítása](service-gateway-onprem-tshoot.md)  
+[A Helyszíni adatátjáróval kapcsolatos hibák elhárítása](service-gateway-onprem-tshoot.md)  
 [A személyes Power BI Gateway hibáinak elhárítása](service-admin-troubleshooting-power-bi-personal-gateway.md)  
 
 További kérdései vannak? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)

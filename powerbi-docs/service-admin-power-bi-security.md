@@ -1,15 +1,15 @@
 ---
-title: "A Power BI és a biztonság"
-description: "A Power BI és a biztonság. A Power BI kapcsolata az Azure Active Directoryval és más Azure-szolgáltatásokkal. Ez a témakör egy részletesebb tanulmányra mutató hivatkozást is tartalmaz."
+title: A Power BI és a biztonság
+description: A Power BI és a biztonság. A Power BI kapcsolata az Azure Active Directoryval és más Azure-szolgáltatásokkal. Ez a témakör egy részletesebb tanulmányra mutató hivatkozást is tartalmaz.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: erikri
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Administration
-ms.openlocfilehash: 50bb742958f5cc9152231f14d176033b328a8976
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 7db593cdac44bb3549023127a5250776cd6d57b7
+ms.sourcegitcommit: 1fe3ababba34c4e7aea08adb347ec5430e0b38e4
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="power-bi-security"></a>A Power BI és a biztonság
 A Power BI biztonsági jellemzőinek részletesebb leírását a [letölthető Power BI-biztonsági tanulmány](http://go.microsoft.com/fwlink/?LinkId=829185) tartalmazza:
@@ -64,5 +64,5 @@ Ha további tájékoztatást szeretne, keresse fel a [Microsoft Adatvédelmi kö
 
 Ebben a cikkben már volt szó arról, hogy a helyszíni Active Directory-kiszolgálók felhasználják a felhasználó Power BI-bejelentkezési információit az egyszerű felhasználónév és a hitelesítő adatok egymáshoz rendeléséhez. **Fontos** ugyanakkor, hogy a megosztott adatokért a felhasználók felelnek: ha egy felhasználó a saját hitelesítő adataival kapcsolódik adatforrásokhoz, majd megoszt egy, ezekre az adatokra épülő jelentést (vagy irányítópultot vagy adatkészletet), akkor azok, akikkel az irányítópultot megosztotta, hozzáférnek a jelentéshez, bár nincs jogosultságuk az eredeti adatforráshoz.
 
-Kivételt képez az **SQL Server Analysis Services**hez való kapcsolódás a **helyszíni adatátjáró** használatával. Az irányítópultok a Power BI gyorsítótárába kerülnek, de az alapul szolgáló jelentések vagy adatkészletek elérése a jelentést (vagy adatkészletet) elérni próbáló felhasználó hitelesítését váltja ki, és a felhasználó csak a megfelelő hitelesítési adatok birtokában férhet hozzá az adatokhoz. További információ: [Helyszíni adatátjáró részletesen](service-gateway-onprem-indepth.md).
+Kivételt képez az **SQL Server Analysis Services**hez való kapcsolódás a **Helyszíni adatátjáró** használatával. Az irányítópultok a Power BI gyorsítótárába kerülnek, de az alapul szolgáló jelentések vagy adatkészletek elérése a jelentést (vagy adatkészletet) elérni próbáló felhasználó hitelesítését váltja ki, és a felhasználó csak a megfelelő hitelesítési adatok birtokában férhet hozzá az adatokhoz. További információ: [Helyszíni adatátjáró részletesen](service-gateway-onprem-indepth.md).
 
