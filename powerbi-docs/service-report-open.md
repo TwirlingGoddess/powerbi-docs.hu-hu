@@ -1,15 +1,15 @@
 ---
-title: "A Power BI szolgáltatásban nyisson meg egy jelentést Olvasás nézetben vagy Szerkesztés nézetben"
-description: "Power BI-jelentés megnyitása Olvasó vagy Szerkesztő nézetben"
+title: A Power BI szolgáltatásban nyisson meg egy jelentést Olvasás nézetben vagy Szerkesztés nézetben
+description: Power BI-jelentés megnyitása Olvasó vagy Szerkesztő nézetben
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
