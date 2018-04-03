@@ -1,28 +1,28 @@
 ---
-title: "A Power BI által támogatott nyelvek és országok/régiók"
-description: "Itt láthatja a Power BI szolgáltatás, a Power BI Desktop és a Power BI dokumentációja által támogatott nyelvek és országok/régiók felsorolását."
+title: A Power BI által támogatott nyelvek és országok/régiók
+description: Itt láthatja a Power BI szolgáltatás, a Power BI Desktop és a Power BI dokumentációja által támogatott nyelvek és országok/régiók felsorolását.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/18/2017
+ms.date: 03/20/2018
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 9c007202bc6526872ea3469ccc5e46b71a8e6dcb
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 0ca6a21e67e7ab1d2a0c0daa8da07052041db139
+ms.sourcegitcommit: fe859130099d923ee30da6091efcc70a264dcba6
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="supported-languages-and-countriesregions-for-power-bi"></a>A Power BI által támogatott nyelvek és országok/régiók
 
@@ -32,7 +32,7 @@ A cikkben a Power BI szolgáltatás, a Power BI Desktop és a Power BI dokument�
 Azon országok és régiók listáját, ahol a Power BI elérhető, a [Nemzetközi elérhetőség](https://products.office.com/business/international-availability) oldalon találja meg. 
 
 ## <a name="languages-for-the-power-bi-service"></a>Nyelvek a Power BI szolgáltatásban
-A Power BI szolgáltatás (a böngészőben) a következő 42 nyelven érhető el:
+A Power BI szolgáltatás (a böngészőben) a következő 44 nyelven érhető el:
 
 * Arab
 * Baszk – Basque

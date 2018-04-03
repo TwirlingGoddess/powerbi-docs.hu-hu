@@ -1,27 +1,27 @@
 ---
-title: "Telefonra optimalizált Power BI-jelentések megtekintése"
-description: "Itt a Power BI telefonos alkalmazásokban való megtekintésre optimalizált jelentésoldalak használatáról olvashat."
+title: Telefonra optimalizált Power BI-jelentések megtekintése
+description: Itt a Power BI telefonos alkalmazásokban való megtekintésre optimalizált jelentésoldalak használatáról olvashat.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/04/2018
+ms.date: 03/22/2018
 ms.author: maggies
-ms.openlocfilehash: 4f3441e2f933ee8964fc77e3166aeede97bcfba9
-ms.sourcegitcommit: 25489cf87c31fc107a5337fa1dd36506897c4bbb
+ms.openlocfilehash: 275dc9fff2f87dd4811eb1a3fe3db944a2965b58
+ms.sourcegitcommit: fe859130099d923ee30da6091efcc70a264dcba6
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 01/05/2018
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="view-power-bi-reports-optimized-for-your-phone"></a>Telefonra optimalizált Power BI-jelentések megtekintése
 
@@ -47,7 +47,7 @@ A Power BI jelentések többi funkciója továbbra is működik a telefonra opti
 * [Jelentések Android telefonokon](mobile-reports-in-the-mobile-apps.md).
 
 ## <a name="filter-the-report-page-on-a-phone"></a>Jelentésoldalak szűrése telefonon
-Ha egy telefonra optimalizált jelentéshez szűrők vannak definiálva, a jelentés telefonon való megtekintésekor alkalmazhatja ezeket a szűrőket. 
+Ha egy telefonra optimalizált jelentéshez szűrők vannak definiálva, a jelentés telefonon való megtekintésekor alkalmazhatja ezeket a szűrőket. A jelentés azokra a weben beállított értékekre szűrve jelenik meg a telefonon egy üzenettel, hogy az oldalon aktív szűrő működik. A szűrők a telefonon módosíthatók.
 
 1. Koppintson a Szűrő ikonra ![Szűrő ikon a telefonon](media/mobile-apps-view-phone-report/power-bi-phone-filter-icon.png) a lap alján. 
 2. Az alapszintű és a speciális szűrők használatával az Ön számára érdekes eredményeket jelenítheti meg.
