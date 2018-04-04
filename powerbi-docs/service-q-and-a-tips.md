@@ -1,15 +1,15 @@
 ---
-title: "Tippek és trükkök Q&A-kérdések feltevéséhez a Power BI-ban"
-description: "Tippek és trükkök Q&A-kérdések feltevéséhez a Power BI-ban"
+title: Tippek és trükkök Q&A-kérdések feltevéséhez a Power BI-ban
+description: Tippek és trükkök Q&A-kérdések feltevéséhez a Power BI-ban
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 01/18/2018
 ms.author: jastru
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: bdf1f161e0a95bda5b37d9c43a3bdcc6bde1066a
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 28ebd938b1121e1d2d453a9c9e72592b1c814742
+ms.sourcegitcommit: 8132f7edc6879eda824c900ba90b29cb6b8e3b21
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="tips-for-asking-questions-in-power-bi-qa"></a>Tippek kérdések feltevéséhez a Power BI Q&A-ben
 ## <a name="words-and-terminology-that-qa-recognizes"></a>Szavak és kifejezések, amelyeket a Q&A felismer
@@ -94,9 +94,6 @@ A Q&A mindent megtesz azért, hogy az adott kérdésre pontosan válaszoljon. Ez
 * automatikusan helyettesítő kifejezéseket javasol a mögöttes adatkészlet(ek)ből, ha a felhasználó a kurzort a kérdésmezőbe helyezi.
 * újrafogalmazza a kérdést a mögöttes adatkészlet(ek) adatai alapján. Ezzel elősegíti a Q&A számára a kérdés megértését, mivel a Q&A a használt szavakat a mögöttes adatkészlet(ek)ben található szinonimákra cseréli le.
 * elhalványítja a nem érthető szavakat.
-
-## <a name="combine-results-from-more-than-one-dataset"></a>Eredmények összevonása több adatkészletből
-A Power BI egyik leghatékonyabb szolgáltatása a különböző adatkészletekből származó adatok összevonásának képessége.  Így nem kell egyetlen adatkészletre korlátozni a kérdéseket – a felhasználó olyan kérdéseket tehet fel, amelyekre a rendszer egynél több adatkészletből ad vissza adatokat. Például ha a saját irányítópulton a Kiskereskedelmi elemzési minta és az Államnépesség adatkészletből szerepelnek csempék, akkor kérhető a rendszertől az *áruházak számának megjelenítése államnépesség szerint, csökkenő sávdiagramon*.
 
 ## <a name="dont-stop-now"></a>Nincs megállás
 Miután a Q&A megjeleníti az eredményeket, folytathatja a beszélgetést! A vizualizáció és a Q&A interaktív funkcióinak használatával további betekintést kaphat az adatokba.

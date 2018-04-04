@@ -1,15 +1,15 @@
 ---
-title: "Látványos jelentések létrehozásával kapcsolatos tippek"
-description: "Tippek és trükkök jelentések létrehozásához a Power BI szolgáltatásban"
+title: Látványos jelentések létrehozásával kapcsolatos tippek
+description: Tippek és trükkök jelentések létrehozásához a Power BI szolgáltatásban
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 01/22/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 4ad78f3c776fcb5aa44332e23fdf5a14531b2bdf
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: d19cc60ea23f87e14e78db9e896a4b17c19aeb66
+ms.sourcegitcommit: afa10c016433cf72d6d366c024b862187a8692fd
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/04/2018
 ---
 # <a name="tips-for-creating-stunning-reports"></a>Látványos jelentések létrehozásával kapcsolatos tippek
 A jelentések létrehozása és használata igen hasonló a Power BI szolgáltatásban és a Power BI Desktopban, ezért az itt található hivatkozások nagy része mind a két rendszerre érvényes.
@@ -45,7 +45,7 @@ Miguel Myers adatelemző és grafikus tervező, és a Power BI-közösség tagja
 * [A blog elolvasása](https://powerbi.microsoft.com/blog/how-to-design-visually-stunning-reports/)
 * [A webes szeminárium megtekintése](https://info.microsoft.com/CO-PowerBI-WBNR-FY16-04Apr-19-Design-Reports-in-PowerBI-Registration.html)
 
-## <a name="next-steps"></a>Következő lépések
+## <a name="next-steps"></a>Következő lépések 
 [Power BI – Alapfogalmak](service-basic-concepts.md)
 
 [Power BI-jelentések](service-reports.md)
