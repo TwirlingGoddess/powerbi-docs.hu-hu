@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/21/2018
+ms.date: 04/02/2018
 ms.author: maghan
-ms.openlocfilehash: 3777c58bae36d6115b51b64e0422529fe390a13c
-ms.sourcegitcommit: 1fe3ababba34c4e7aea08adb347ec5430e0b38e4
+ms.openlocfilehash: bc490834b215af45df1063fd06b94ed9b735d852
+ms.sourcegitcommit: 8132f7edc6879eda824c900ba90b29cb6b8e3b21
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="power-bi-report-data-sources-in-power-bi-report-server"></a>A Power BI-jelentések adatforrásai a Power BI jelentéskészítő kiszolgálón
 A Power BI-jelentések különféle adatforrásokhoz csatlakozhatnak. Az adatok használatának módjától függően eltérő adatforrások érhetők el. Az adatok importálhatók, vagy közvetlenül DirectQuery- vagy élő SQL Server Analysis Services-kapcsolattal lehet lekérdezni azokat.
@@ -84,7 +84,7 @@ Más adatforrások is működhetnek annak ellenére, hogy a támogatott listán 
 | Webes |Igen |Igen |Nem |
 | XML |Igen |Igen |Nem |
 | appFigures (bétaverzió) |Igen |Nem |Nem |
-| Azure Analysis Services-adatbázis (bétaverzió) |Igen |Nem |Nem |
+| Azure Analysis Services-adatbázis |Igen |Nem |Igen |
 | Azure Cosmos DB (bétaverzió) |Igen |Nem |Nem |
 | Azure HDInsight Spark (bétaverzió) |Igen |Nem |Nem |
 | Common Data Service (bétaverzió) |Igen |Nem |Nem |
