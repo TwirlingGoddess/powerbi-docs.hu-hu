@@ -770,6 +770,8 @@
           href: desktop-insights.md
         - name: Szeletelők a Power BI Desktopban
           href: desktop-slicers.md
+        - name: Gombok használata a Power BI-ban
+          href: desktop-buttons.md
         - name: A Power BI könyvjelzői
           href: desktop-bookmarks.md
         - name: Elemleírások létrehozása egyéni jelentésben (előzetes verzió)
