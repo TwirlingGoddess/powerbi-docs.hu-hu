@@ -992,6 +992,8 @@
           href: service-custom-visuals-getting-started-with-developer-tools.md
         - name: Egyéni vizuális elem hitelesítése
           href: power-bi-custom-visuals-certified.md
+        - name: Egyéni vizualizációk közzététele az AppSource-ban
+          href: developer/office-store.md
     - name: Adatbetöltés irányítópultra
       items:
         - name: Adatbetöltés irányítópultra
