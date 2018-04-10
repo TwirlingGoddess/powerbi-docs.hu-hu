@@ -1,15 +1,15 @@
 ---
-title: "Az adatforrás kezelése – Oracle"
-description: "A helyszíni adatátjáró és az átjáróhoz tartozó adatforrások kezelésének módja."
+title: Az adatforrás kezelése – Oracle
+description: A helyszíni adatátjáró és az átjáróhoz tartozó adatforrások kezelésének módja.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
 LocalizationGroup: Gateways
-ms.openlocfilehash: 538904ea8ddb64d530daade143cc290046994464
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 2e0e786d043466e5620f0faedfb1761014144164
+ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/30/2018
 ---
 # <a name="manage-your-data-source---oracle"></a>Az adatforrás kezelése – Oracle
 Amint telepítette a helyszíni adatátjárót, fel kell vennie az átjáróval használható adatforrásokat. Ez a cikk bemutatja, hogyan lehet használni az átjárókat és az adatforrásokat. Az Oracle adatforrást az ütemezett frissítéshez vagy a DirectQueryhez használhatja.
@@ -182,7 +182,7 @@ Az átjáróval kapcsolatos további hibaelhárítási információkért lásd: 
 ## <a name="next-steps"></a>Következő lépések
 [Helyszíni adatátjáró](service-gateway-onprem.md)  
 [Helyszíni adatátjáró – részletek](service-gateway-onprem-indepth.md)  
-[A helyszíni adatátjáró hibaelhárítása](service-gateway-onprem-tshoot.md)  
+[A Helyszíni adatátjáróval kapcsolatos hibák elhárítása](service-gateway-onprem-tshoot.md)  
 [Power BI Premium](service-premium.md)
 
 További kérdései vannak? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)

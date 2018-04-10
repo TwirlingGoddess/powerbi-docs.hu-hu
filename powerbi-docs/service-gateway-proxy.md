@@ -1,15 +1,15 @@
 ---
-title: "Helyszíni adatátjáró proxybeállításainak konfigurálása"
-description: "Információk a helyszíni adatátjáró proxybeállításainak konfigurálásáról."
+title: Helyszíni adatátjáró proxybeállításainak konfigurálása
+description: Információk a helyszíni adatátjáró proxybeállításainak konfigurálásáról.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 11/21/2017
 ms.author: davidi
 LocalizationGroup: Gateways
-ms.openlocfilehash: 27b8d36ed870501170efdb81c40edb6cb4727499
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: f6bfc47e7b74d9b17479a2ac7fc3dbc3f3e76816
+ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/30/2018
 ---
 # <a name="configuring-proxy-settings-for-the-on-premises-data-gateway"></a>Helyszíni adatátjáró proxybeállításainak konfigurálása
 Munkakörnyezete megkövetelheti, hogy proxyn keresztül érje el az Internetet. Ez megakadályozhatja, hogy a helyszíni adatátjáró a szolgáltatáshoz kapcsolódjon.
@@ -75,7 +75,7 @@ Ha a proxybeállításokat a fent ismertetett módon az alapértelmezett hiteles
     Ennek a szolgáltatásnak az alapértelmezett fiókja az *NT SERVICE\PBIEgwService*. Ezt érdemes felváltani egy olyan tartományi felhasználófiókkal, amely az Ön Active Directory-tartományában található. A kötelező jelszómódosítás elkerülése érdekében esetleg érdemes lehet felügyelt szolgáltatásfiókot használni.
    
     A fiók cseréjét a Windows-szolgáltatás tulajdonságai között, a **Bejelentkezés** oldalon hajthatja végre.
-2. A **helyszíni adatátjáró-szolgáltatás** újraindítása.
+2. Indítsa újra a **helyszíni adatátjáró-szolgáltatást**.
    
     Rendszergazdai parancssorból adja ki a következő parancsokat.
    
@@ -83,7 +83,7 @@ Ha a proxybeállításokat a fent ismertetett módon az alapértelmezett hiteles
    
         net start PBIEgwService
 3. Indítsa el a **helyszíni adatátjáró konfiguráló programját**. Kattintson a Start gombra, és keressen rá a *helyszíni adatátjáró* kifejezésre.
-4. Jelentkezzen be a Power BI-ba.
+4. Jelentkezzen be a Power BI szolgáltatásba.
 5. Állítsa helyre az átjárót a helyreállítási kulcs használatával.
    
     Ezzel teszi lehetővé, hogy az új szolgáltatásfiók visszafejtse az adatforrások eléréséhez szükséges tárolt hitelesítő adatokat.

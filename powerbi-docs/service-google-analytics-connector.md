@@ -1,15 +1,15 @@
 ---
-title: "Külső szolgáltatás: Google Analytics-összekötő a Power BI Desktophoz"
-description: "Külső szolgáltatás: Google Analytics-összekötő a Power BI Desktophoz"
+title: 'Külső szolgáltatás: Google Analytics-összekötő a Power BI Desktophoz'
+description: 'Külső szolgáltatás: Google Analytics-összekötő a Power BI Desktophoz'
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: e05f64b52c34b3f038994e9cac8a9b7e6aebc7ad
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: fdd48073d80176eff1576633c2e9f15bdd430a60
+ms.sourcegitcommit: ae4d771b883b654358a6a94dd784ea9bdf3d3aa3
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="google-analytics-connector-for-power-bi-desktop"></a>Google Analytics-összekötő a Power BI Desktophoz
 > [!NOTE]
@@ -33,7 +33,7 @@ ms.lasthandoff: 02/24/2018
 A Google Analytics adataihoz a **Google Analytics** összekötőjének használatával csatlakozhat. A csatlakozáshoz kövesse az alábbi lépéseket:
 
 1. A **Power BI Desktop** **Kezdőlap** szalagján kattintson az **Adatok beolvasása** lehetőségre.
-2. Az **Adatok beolvasása** ablak bal oldali ablaktábláján a kategóriák között kattintson az **Egyéb** lehetőségre.
+2. Az **Adatok beolvasása** ablak bal oldali ablaktábláján a kategóriák között válassza az **Online szolgáltatások** lehetőséget.
 3. A jobb oldali listán kattintson a **Google Analytics** elemre.
 4. Az ablak alján kattintson a **Csatlakozás** elemre.  
    ![](media/service-google-analytics-connector/tps_googleanalytics_1.png)

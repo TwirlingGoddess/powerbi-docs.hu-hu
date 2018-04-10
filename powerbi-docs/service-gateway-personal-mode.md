@@ -1,15 +1,15 @@
 ---
-title: "Helyszíni adatátjáró (személyes mód)"
-description: "Adatátjáró a Power BI-hoz, amely használatával személyek kapcsolódhatnak a helyszíni adatokhoz"
+title: Helyszíni adatátjáró (személyes mód)
+description: Adatátjáró a Power BI-hoz, amely használatával személyek kapcsolódhatnak a helyszíni adatokhoz
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/14/2017
 ms.author: davidi
 LocalizationGroup: Gateways
-ms.openlocfilehash: 2bd3604a3f16c6977c52c1b3484ac024445c65bb
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 777e5f27954890fe842096c0f2633f6803ebf319
+ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/30/2018
 ---
 # <a name="on-premises-data-gateway-personal-mode"></a>Helyszíni adatátjáró (személyes mód)
 Az átjáró használatával vehetők igénybe a helyszíni adatforrások, illetve létrehozhatók Power BI-jelentések és -irányítópultok. Az **átjárók** olyan szoftverek, amelyek hozzáférést biztosítanak egy helyszíni magánhálózaton tárolt adatokhoz, majd lehetővé teszik ezen adatok felhasználását olyan online szolgáltatásokban, mint a **Power BI szolgáltatás**. A **helyszíni adatátjáró (személyes mód)** a Power BI egy nemrég kiadott frissítése, amely lehetővé teszi személyek számára, hogy telepítsenek a számítógépükön egy átjárót, és hozzáférést szerezzenek helyszíni adatokhoz.
@@ -89,7 +89,7 @@ Ha az előző átjáróval használta a **Gyors összevonás** funkciót, akkor 
 1. Tallózással nyissa meg a következő fájlt:
    
    ```
-   %localappdata%\Microsoft\on-premises data gateway (personal mode)\Microsoft.PowerBI.DataMovement.Pipeline.GatewayCore.dll.config
+   %localappdata%\Microsoft\On-premises data gateway (personal mode)\Microsoft.PowerBI.DataMovement.Pipeline.GatewayCore.dll.config
    ```
 2. A fájl végéhez adja hozzá a következő szöveget:
    
@@ -101,7 +101,7 @@ Ha az előző átjáróval használta a **Gyors összevonás** funkciót, akkor 
 3. Ha elkészült, a beállítás körülbelül egy perc után lép életbe. A megfelelő működés ellenőrzéséhez próbáljon meg elvégezni a **Power BI szolgáltatásban** egy igény szerinti frissítést, amivel ellenőrizheti, hogy a **Gyors összevonás** működik-e.
 
 ## <a name="limitations-and-considerations"></a>Korlátozások és szempontok
-A **helyszíni adatátjáró (személyes mód)** használatakor figyelembe kell venni néhány dolgot, amelyeket a következő lista ismertet:
+A **helyszíni adatátjáró (személyes mód)** használatakor figyelembe kell venni néhány dolgot, amelyeket a következő lista ismertet.
 
 * Ha a **Windows Hello** vagy egy PIN-kód használatával jelentkezik be a Windows rendszerbe, a következő hibaüzenet jelenhet meg: 
   * *A kiválasztott felhasználói fiók nem felel meg az alkalmazás feltételeinek. Használjon egy másik fiókot.*

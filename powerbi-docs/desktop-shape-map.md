@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 01/16/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 2bdd29f664d49dd4628b2f27d0eddf1f5dad1cf7
-ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
+ms.openlocfilehash: 0b2ff8d7b7367e29e62b373ca9cb1312f7ddd10f
+ms.sourcegitcommit: afa10c016433cf72d6d366c024b862187a8692fd
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 04/04/2018
 ---
 # <a name="shape-maps-in-power-bi-desktop-preview"></a>Az Alakzatleképezések funkció a Power BI Desktopban (előzetes verzió)
 A Power BI Desktopban azért hozható létre **Alakzatleképezés** vizualizáció, hogy így a régiók relatív összehasonlítását jeleníthesse meg a különböző színek különböző régiókra történő alkalmazásával. A **Leképezés** vizualizációval szemben az **Alakzatleképezés** vizualizáció nem képes az adatpontok pontos földrajzi helyének megjelenítésére a térképen; alkalmazásának fő célja a régiók relatív összehasonlításának megjelenítése egy térképen eltérő színezéssel.
@@ -32,7 +32,7 @@ Az **Alakzatleképezés** vizualizációk olyan ESRI/TopoJSON-leképezéseken al
 ## <a name="creating-shape-maps"></a>Alakzatleképezések létrehozása
 Az **Alakzatleképezés**-vezérlőt az előzetes verzióhoz mellékelt térképekkel tesztelheti, vagy használhatja saját egyéni térképeit is, ha azok megfelelnek az alábbi, **Egyéni térképek használata** című szakaszban megadott követelményeknek.
 
-Az **Alakzatleképezés** vizualizáció előzetes verziójú funkció, és azt a Power BI Desktopban engedélyezni kell. Az **Alakzat leképezése** funkció engedélyezéséhez válassza a **Fájl > Lehetőségek és beállítások > Lehetőségek > Előzetes verziójú funkciók** lehetőséget, majd jelölje be az **Alakzat leképezése** jelölőnégyzetet. Miután ezt beállította, újra kell indítania a Power BI Desktopot.
+Az **Alakzatleképezés** vizualizáció előzetes verziójú funkció, és azt a Power BI Desktopban engedélyezni kell. Az **Alakzat leképezése** funkció engedélyezéséhez válassza a **Fájl > Lehetőségek és beállítások > Lehetőségek > Előzetes verziójú funkciók** lehetőséget, majd jelölje be az **Alakzatleképezés vizualizációja** jelölőnégyzetet. Miután ezt beállította, újra kell indítania a Power BI Desktopot.
 
 ![](media/desktop-shape-map/shape-map_1a.png)
 
@@ -46,7 +46,7 @@ A Power BI Desktop létrehoz egy üres **Alakzat leképezése** vizualizációs 
 
 A következő lépések végrehajtásával hozhat létre **Alakzatleképezést**:
 
-1. A **Mezők** panelen húzza át a régiók neveit (vagy azok rövidítéseit) tartalmazó adatmezőt a **Hely** gyűjtőbe, valamint egy adatmérték-mezőt az **Értékek** gyűjtőbe (ekkor még nem jelenik meg a térkép).
+1. A **Mezők** panelen húzza át a régiók neveit (vagy azok rövidítéseit) tartalmazó adatmezőt a **Hely** gyűjtőbe, valamint egy adatmérték-mezőt az **Színtelítettség** gyűjtőbe (ekkor még nem jelenik meg a térkép).
    
    > [!NOTE]
 > Az **Alakzat leképezése** funkció teszteléséhez a térképadatok gyors beszerzéséről az alábbi, **Térképadatok beszerzése** című szakaszban olvashat.
@@ -70,7 +70,7 @@ A következő lépések végrehajtásával hozhat létre **Alakzatleképezést**
 ## <a name="use-custom-maps"></a>Egyéni térképek használata
 Egyéni térképek használatára is lehetőség van az **Alakzatleképezés** funkcióval, ha azok formátuma **TopoJSON**. Ha a térkép más formátumban van, különböző online eszközök (például a [**Map Shaper**](http://mapshaper.org/)) segítségével konvertálhatja *alakzatfájljait* vagy *GeoJSON* formátumú térképeit **TopoJSON** formátumba.
 
-A **TopoJSON** formátumú térképfájl használatához vegyen fel egy Alakzatleképezés vizualizációt a jelentésbe, valamint néhány adatot a *Hely* és az *Értékek* gyűjtőkbe. Ezt követően jelölje ki a **Megjelenítések**  panelen a **Formátum** szakaszt (az ecset ikon, az alábbi képen (1) számmal jelölve), majd bontsa ki az **Alakzat** szakaszt, és válassza a **+ Térkép hozzáadása** lehetőséget.
+A **TopoJSON** formátumú térképfájl használatához vegyen fel egy Alakzatleképezés vizualizációt a jelentésbe, valamint néhány adatot a *Hely* és az *Színtelítettség* gyűjtőkbe. Ezt követően jelölje ki a **Vizualizációk** panelen a **Formátum** szakaszt (az alábbi képen (1) számmal jelölve), majd bontsa ki az **Alakzat** szakaszt, és válassza a **+ Térkép hozzáadása** lehetőséget.
 
 ![](media/desktop-shape-map/shape-map_6.png)
 
@@ -96,7 +96,7 @@ Az adatoknak a modellbe történő gyors betöltéséhez (erre az **Alakzat lek�
 
 ![](media/desktop-shape-map/shape-map_4.png)
 
-Ezt követően illessze be a táblát a Power BI Desktopba. A rendszer a felső sort automatikusan fejlécként azonosítja.
+Ha többoszlopos adatokkal rendelkezik, akkor illessze be az adatokat egy szerkesztő alkalmazásba, például az Excelbe, majd másolja le egyenként az adatoszlopokat. Ezután beillesztheti az adatokat a Power BI Desktopba. A rendszer a felső sort automatikusan fejlécként azonosítja.
 
 ![](media/desktop-shape-map/shape-map_5.png)
 
@@ -112,9 +112,9 @@ Megadhat egy új oszlopot úgy, hogy egyszerűen begépeli az új oszlop nevét 
 ## <a name="preview-behavior-and-requirements"></a>Előnézeti viselkedés és követelmények
 Néhány megfontolandó szempont és követelmény az **Alakzat leképezése** funkció jelen előzetes kiadásához:
 
-* Az **Alakzatleképezés** vizualizáció előzetes verziójú funkció, és azt a Power BI Desktopban engedélyezni kell. Az **Alakzat leképezése** funkció engedélyezéséhez válassza a **Fájl > Lehetőségek és beállítások > Lehetőségek > Előzetes verziójú funkciók** lehetőséget, majd jelölje be az **Alakzat leképezése** jelölőnégyzetet.
-* Jelenleg rendelkeznie kell egy **Értékek** gyűjtővel is, amely a **Jelmagyarázat** besorolás megfelelő működéséhez lett beállítva
-* Az **Alakzat leképezése** funkció végleges verziója olyan Felhasználói felülettel fog rendelkezni, amely megjeleníti az aktuálisan kiválasztott térkép kulcsait (a végleges verzió megjelenésének dátuma még nem ismert, és az **Alakzat leképezése** még előzetes verzióban érhető el); ebben az előzetes verzióban a jelen cikk alábbi, **Régiókulcsok** szakaszában szereplő táblákban találhatja meg a térképes régiók kulcsait.
+* Az **Alakzatleképezés** vizualizáció előzetes verziójú funkció, és azt a Power BI Desktopban engedélyezni kell. Az **Alakzat leképezése** funkció engedélyezéséhez válassza a **Fájl > Lehetőségek és beállítások > Lehetőségek > Előzetes verziójú funkciók** lehetőséget, majd jelölje be az **Alakzatleképezés vizualizációja** jelölőnégyzetet.
+* Jelenleg rendelkeznie kell egy **Színtelítettség** gyűjtővel is, amely a **Jelmagyarázat** besorolás megfelelő működéséhez lett beállítva.
+* Az **Alakzat leképezése** végleges kiadott verziója rendelkezni fog egy felhasználói felülettel, amelyen megjelennek az aktuálisan kiválasztott térképhez a térképkulcsok (nincs meghatározva a végleges verzió kiadási dátuma, és az **Alakzat leképezése** még előzetes verziójú). Ebben az előzetes kiadásban a térképrégiók kulcsait megkeresheti ennek a cikknek a következő **Régiókulcsok** szakaszában található táblázatokban.
 * Az **Alakzat leképezése** vizualizáció legfeljebb 1000 adatpontot tud majd ábrázolni.
 
 ## <a name="region-keys"></a>Régiókulcsok

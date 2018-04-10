@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/11/2017
 ms.author: tankas
-ms.openlocfilehash: 7c460955aba71bfb3a89d94aa6000c7bdd451ac2
-ms.sourcegitcommit: 0473a155495a7a9ba4b899d0815100426718b7ac
+ms.openlocfilehash: 1345cfee8eb92b9b4e3cf883f19edddee859a1c3
+ms.sourcegitcommit: c9905e625ba14dc28ad23835f320e49631c51d0f
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 03/20/2018
+ms.lasthandoff: 03/29/2018
 ---
 # <a name="changelog-for-power-bi-report-server"></a>A Power BI jelentéskészítő kiszolgáló változásnaplója
 
@@ -31,6 +31,12 @@ Az új funkciókról az [A Power BI jelentéskészítő kiszolgáló újdonsága
 
 ## <a name="march-2018"></a>2018. március
 - **Power BI jelentéskészítő kiszolgáló**
+    - *Verzió: 1.2.6660.39920 (Build: 15.0.2.389), Kiadás dátuma: 2018. március 28.*
+        - Hibajavítások
+            - A Power BI-jelentéseknél (PBIX) javítás a Power BI-vizualizációkból indított nem működő adatexportáláshoz
+            - A Power BI-jelentéseknél (PBIX) javítás a nem működő URL-szűrőkhöz
+            - A többoldalas jelentéseknél (RDL) javítás az IE11-ben a Power BI jelentéskészítő kiszolgáló márciusi kiadására való frissítés után nem megfelelően megjelenő képekhez
+
     - *Verzió: 1.2.6648.38132 (Build: 15.0.2.378), Kiadás dátuma: 2018. március 19.*
         - Biztonsági frissítések
         - Javított kisegítő lehetőségek

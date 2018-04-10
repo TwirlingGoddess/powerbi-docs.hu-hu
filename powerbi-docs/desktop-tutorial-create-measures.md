@@ -1,15 +1,15 @@
 ---
-title: "Oktatóanyag: Saját mértékek létrehozása a Power BI Desktopban"
-description: "Oktatóanyag: Saját mértékek létrehozása a Power BI Desktopban"
+title: 'Oktatóanyag: Saját mértékek létrehozása a Power BI Desktopban'
+description: 'Oktatóanyag: Saját mértékek létrehozása a Power BI Desktopban'
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,242 +18,192 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: 96295ced577ddb18b8c56031278bf9a81cddf981
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: f3a58d8acc7d8eb24954e9db0c0db91eacad2f9a
+ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/30/2018
 ---
 # <a name="tutorial-create-your-own-measures-in-power-bi-desktop"></a>Oktatóanyag: Saját mértékek létrehozása a Power BI Desktopban
-A Power BI Desktop leghatékonyabb adatelemzési megoldásai mértékek segítségével alakíthatóak ki. A mértékek segítségével számítások hajthatóak végre az adatokon a jelentések használata közben. Ez az oktatóanyag bemutatja, hogyan hozhat létre saját alapszintű mértékeket a Power BI Desktopban.
+A Power BI Desktop leghatékonyabb adatelemzési megoldásait a mértékek segítségével alakíthatja ki. A mértékek segítségével számításokat hajthat végre az adatokon a jelentések használata közben. Ez az oktatóanyag ismerteti a mértékekről, és bemutatja, hogy miképpen hozhatja létre a saját alapvető mértékeit a Power BI Desktopban.
 
-A cikk olyan Power BI-felhasználóknak szól, akik már jól ismerik a speciálisabb modellek létrehozásának eljárásait. Ehhez ismernie kell, hogyan importálhat adatokat az Adatok lekérése és a Lekérdezésszerkesztő segítségével, hogyan dolgozhat több kapcsolódó táblával, és hogyan adhat mezőket a jelentésvászonhoz. Ha még csak most ismerkedik a Power BI Desktoppal, mindenképp tekintse át az [Első lépések a Power BI Desktopban](desktop-getting-started.md) című szakaszt.
+### <a name="prerequisites"></a>Előfeltételek
+- Az oktatóanyag olyan Power BI-felhasználóknak szól, akik már jól ismerik a speciálisabb modellek létrehozásának eljárásait a szolgáltatásban. Ehhez ismernie kell, hogyan importálhat adatokat az Adatok lekérése és a Lekérdezésszerkesztő segítségével, hogyan dolgozhat több kapcsolódó táblával, és hogyan adhat mezőket a jelentésvászonhoz. Ha még csak most ismerkedik a Power BI Desktoppal, mindenképp tekintse át a [Power BI Desktop használatának első lépéseit](desktop-getting-started.md) ismertető témakört.
+  
+- Töltse le a [Power BI Desktophoz készült Contoso Sales](http://download.microsoft.com/download/4/6/A/46AB5E74-50F6-4761-8EDB-5AE077FD603C/Contoso%20Sales%20Sample%20for%20Power%20BI%20Desktop.zip) mintafájlt, amely a fiktív Contoso, Inc. vállalat online értékesítési adatait tartalmazza. Az adatok egy adatbázisból lettek importálva, ezért nem tud kapcsolódni az adatforráshoz, és a Lekérdezésszerkesztőben sem tudja megtekinteni azt. Töltse le a fájlt a számítógépére, majd nyissa meg a Power BI Desktopban.
 
-Az oktatóanyag lépéseinek végrehajtásához töltse le a [Power BI Desktophoz készült Contoso értékesítési mintafájlt](http://download.microsoft.com/download/4/6/A/46AB5E74-50F6-4761-8EDB-5AE077FD603C/Contoso%20Sales%20Sample%20for%20Power%20BI%20Desktop.zip). Ez már eleve tartalmazza a fiktív Contoso, Inc. vállalat online értékesítési adatait. Mivel a fájlban lévő adatok egy adatbázisból lettek importálva, nem tud majd az adatforráshoz kapcsolódni, illetve megtekinteni azt a Lekérdezésszerkesztőben. Miután letöltötte a fájlt a számítógépére, azonnal nyissa is meg azt a Power BI Desktopban.
+## <a name="understand-measures"></a>A mértékek ismertetése
 
-## <a name="what-are-these-measures-all-about"></a>Mik is ezek a mértékek lényegében?
-A mértékeket leggyakrabban automatikusan hozza létre a rendszer, például amikor bejelöli a **Sales** **SalesAmount** mezője melletti négyzetet a mezők listájában, vagy amikor áthúzza a **SalesAmount** mezőt a jelentésvászonra.
+A mértékek általában automatikusan jönnek létre. A Contoso Sales mintafájlban kattintson a Fields (Mezők) területen lévő **Sales** (Értékesítés) tábla melletti **SalesAmount** (ÉrtékesítésÖsszeg) mezőre, vagy húzza át a **SalesAmount** mezőt a jelentés vászonra. Ekkor egy új oszlopdiagram jelenik meg, amely a Sales tábla SalesAmount oszlopában található összes érték összegét mutatja.
 
-![](media/desktop-tutorial-create-measures/measurestut_salesamountinfieldlist.png)
+![SalesAmount diagram](media/desktop-tutorial-create-measures/meastut_salesamountchart.png)
 
-Megjelenik egy új, a következőhöz hasonló diagramvizualizáció:
+A Fields (Mezők) területen megjelenő, szigma ikonnal ![szigma ikon](media/desktop-tutorial-create-measures/meastut_sigma.png) jelölt mezők numerikusak, és az értékeik összesíthetők. A Power Desktop nem tüntette fel egyetlen táblában a SalesAmount értékeinek sokaságát, ehelyett egy numerikus adattípust észlelt, és automatikusan létrehozott és kiszámolt egy mértéket az adatok összesítéséhez. A numerikus adattípusok alapértelmezett összesítése az összeg, de könnyedén alkalmazhat más összesítéseket is, mint például az átlag vagy a darabszám. A mértékek megértéséhez elengedhetetlen az összesítések megértése, mert minden mérték valamilyen típusú összesítést hajt végre. 
 
-![](media/desktop-tutorial-create-measures/meastut_salesamountchart.png)
+A diagram összesítéstípusának átlagra módosításához a Vizualizációk panel **Value** (Érték) területén kattintson a lefelé mutató nyílra a **SalesAmount** mellett, és válassza az **Average** (Átlag) lehetőséget. A vizualizáció módosul, és a SalesAmount mező értékesítési értékeinek átlagát mutatja.
 
-Egy oszlopdiagramot kapunk, amely a SalesAmount mezőben található értékesítések értékének összegét mutatja.  A SalesAmount mező lényegében nem más, mint az importált Sales tábla SalesAmount elnevezésű oszlopa.
+![SalesAmount átlagot megjelenítő diagram](media/desktop-tutorial-create-measures/meastut_salesamountaveragechart.png)
 
-A SalesAmount oszlop több mint kétmillió sornyi értékesítési összeget tartalmaz. Talán érdekli, hogy miért nem jelenik meg egy tábla mindezekkel az értéksorokkal. Nos, a Power BI Desktop tudja, hogy a SalesAmount összes értéke numerikus típusú adat, és hogy ezeket valószínűleg valahogy szeretné majd összesíteni, például összeadni, átlagolni, megszámlálni stb.
+Az összesítés típusa a kívánt eredménytől függően módosítható, de nem minden összesítéstípus alkalmazható minden numerikus adattípusra. Például a SalesAmount mező esetében az Összeg és az Átlag típusnak van értelme. A Minimum és a Maximum is alkalmazható. A Darabszám viszont nem igazán értelmezhető, mert bár a SalesAmount mező numerikus értékeket tartalmaz, azok valójában pénznemben kifejezett összegek.
 
-Ha a Mezők listájában egy mezőnél a szigma ikon ![](media/desktop-tutorial-create-measures/meastut_sigma.png) látható, ez azt jelzi, hogy a mező numerikus, és az értékei összesíthetők. Ebben az esetben a SalesAmount kiválasztásakor a Power BI Desktop létrehoz egy saját mértéket, kiszámítja és a diagramon megjeleníti az értékesítés összegét.
+A mértékekből számított értékek a jelentésben végrehajtott beállításoktól függően változnak. Ha például áthúzza a **RegionCountryName** (RégióOrszágNév) mezőt a**Geography** (Földrajzi hely) tábláról a diagramra, a jelentés országokra bontva átlagolja és jeleníti meg az értékesítési összeget.
 
-Az összegzés a numerikus típusú az alapértelmezett összesítés, de egyszerűen lehet más típusú összesítésre is váltani.
+![SalesAmount országonként](media/desktop-tutorial-create-measures/meastut_salesamountavchartbyrcn.png)
 
-Az **Érték** területen a **SalesAmount** melletti lefelé mutató nyílra kattintva kiválaszthatja az **Átlag** lehetőséget.
+Amikor egy mérték eredménye a jelentés használata közben módosul, a módosulás a mérték *környezetében* megy végbe. Valahányszor módosítja a jelentés vizualizációit, megváltoztatja azt a környezetet, amelyben a mérték kiszámítja és megjeleníti az eredményeket.
 
-![](media/desktop-tutorial-create-measures/meastut_salesamountaverage.png)
+## <a name="create-and-use-your-own-measures"></a>Saját mértékek létrehozása és használata
 
-A vizualizáció módosul, és a SalesAmount mező értékeinek átlagát mutatja.
+A legtöbb esetben a Power BI a választott mező- és összesítéstípusok alapján automatikusan kiszámítja és visszaadja az értékeket, de összetettebb egyéni számítások végrehajtásához érdemes saját mértékeket létrehoznia. A Power BI Desktopban a Data Analysis Expressions (Adatelemzési kifejezések, DAX) képletnyelv használatával hozhatja létre a saját mértékeket. 
 
-![](media/desktop-tutorial-create-measures/meastut_salesamountaveragechart.png)
+A DAX-képletek számos olyan függvényt, műveletet és szintaxist használnak, amelyek megegyeznek az Excel-képletekével. A DAX-függvények azonban relációs adatbázisokhoz lettek kialakítva, és a jelentések használata során dinamikusabb számításokat hajtanak végre. Összesen több mint 200 DAX-függvény létezik az olyan egyszerű összesítő függvényektől, mint az összeg és az átlag, az összetettebb statisztikai és szűrőfüggvényekig. A DAX használatáról számos forrásból tájékozódhat. Miután elolvasta ezt az oktatóanyagot, mindenképp tekintse meg a következő forrást: [A DAX alapszintű használata a Power BI Desktopban](desktop-quickstart-learn-dax-basics.md).
 
-Az összesítés típusa a kívánt eredménytől függően módosítható, azonban nem minden típusú összesítés alkalmazható minden numerikus adattípusra. Például a SalesAmount mező esetében az Összeg és az Átlag típusnak van értelme. A Minimum és a Maximum is alkalmazható. A Számnak azonban nem igazán lenne értelme, mert bár ugyan a SalesAmount mező numerikus értékeket tartalmaz, azok valójában pénznemben kifejezett összegeket tartalmaznak.
+A létrehozott saját mérték hozzáadódik a választott tábla Fields (Mezők) listájához, és a *modell* nevet kapja. A modell mértékek előnyei közé tartozik, hogy a könnyebb azonosítás érdekében tetszés szerint elnevezhetők, argumentumként használhatók más DAX-kifejezésekben, és igen gyorsan végezhetők velük összetett számítások.
 
-A mértékek megértéséhez elengedhetetlen az összesítések megértése, mivel minden mérték valamilyen típusú összesítést hajt végre. Az Összeg összesítésre nemsokára bemutatunk még néhány példát, amikor majd saját mértékeket fogunk létrehozni.
+>[!TIP]
+>A Power BI Desktop 2018. februári kiadásától kezdődően **gyorsmérők** néven számos gyakran használt számítás érthető el, amelyek a kívánt DAX-képleteket azon értékek alapján állítják össze, amelyeket Ön egy párbeszédablakban adott meg. Ezek a hatékony gyorsszámítások kiválóan alkalmasak a DAX használatának gyakorlására és az egyéni mértékek feltöltésére is. A gyorsmérők létrehozásához vagy vizsgálatához kattintson az **New quick measure** (Új gyorsmérő) elemre a tábla **További beállítások** listáján, vagy a **Számítások** elemre a menüszalag Kezdőlap lapján. A gyorsmérők létrehozásáról és használatáról lásd még [A gyorsmérők használata](desktop-quick-measures.md) című témakört.
 
-A mértékekből számított értékek a jelentésben végrehajtott beállításoktól függően mindig változnak. Ha például áthúzzuk a **RegionCountryName** (Régió/országnév) mezőt a **Geography** (Földrajzi hely) tábláról a diagramra, a jelentés országokra bontva átlagolja és jeleníti meg az értékesítési összeget.
+### <a name="create-a-measure"></a>Mérték létrehozása
 
-![](media/desktop-tutorial-create-measures/meastut_salesamountavchartbyrcn.png)
+A nettó értékesítések értékét szeretné kiszámítani azzal a módszerrel, hogy a teljes értékesítési összegből kivonja a kedvezményeket és a visszatérítéseket. Bármilyen környezet jelenik meg a vizualizációban, mindenképp szüksége lesz egy olyan mértékre, amely a SalesAmount (ÉrtékesítésÖsszeg) értékből kivonja a DiscountAmount (KedvezményÖsszeg) és a ReturnAmount (VisszatérítésÖsszeg) értékét. Bár a Mezők listában nincsen Net Sales (Nettó értékesítések) mező, rendelkezésre állnak azok az építőelemek, amelyekből létrehozhatja a nettó értékesítést kiszámító saját mértéket. 
 
-Amikor egy mérték eredménye a jelentés használata közben módosul, lényegében a mérték *környezetét* módosítjuk. Azaz minden alkalommal, amikor módosítja a jelentés beállításait, azt a környezetet módosítja, amelynek alapján a mérték az eredményeit kiszámítja és megjeleníti.
-
-A legtöbb esetben a Power BI teszi a dolgát, és az értékeket a hozzáadott mezőknek és a kiválasztott összesítéseknek megfelelően kiszámítja és megjeleníti. Más esetekben azonban az összetettebb, egyedi számításokhoz saját mértékeket kell létrehoznia.
-
-A Power BI Desktopban az egyéni mértékek a Data Analysis Expressions (Adatelemzési kifejezések, DAX) képletnyelv használatával hozhatóak létre. A DAX-képletek az Excel-képletekhez rendkívül hasonlók. Valójában a DAX számos függvénye, operátora és szintaxisa megegyezik az Excelben található képletekkel. A DAX-függvények azonban relációs adatbázisokhoz lettek kialakítva, és a jelentések kezelése során dinamikusabb számításokat hajtanak végre.
-
-Összesen több mint 200 DAX-függvény létezik az egyszerű összesítő függvényektől, mint az Összeg és az Átlag, az összetettebb statisztikai és szűrőfüggvényekig. Itt most nem megyünk bele részletesen a DAX nyelv ismertetésébe, azonban számos forrásanyag létezik, amelyből megismerheti azt. Miután végzett ezzel az oktatóanyaggal, mindenképp tekintse át a következő forrásanyagot: [A DAX alapszintű használata a Power BI Desktopban](desktop-quickstart-learn-dax-basics.md).
-
-Amikor saját mértékeket hoz létre, azok felkerülnek a kívánt tábla Mezők listájára. Ezeket *modellmértékeknek* nevezzük, és mezőként használhatóak a táblában. A modellmértékek egyik nagy előnye, hogy tetszés szerint elnevezhetjük azokat, így könnyebb azonosítani őket. Emellett argumentumként használhatóak más DAX-kifejezésekben, és olyan mértékek is létrehozhatóak, amelyek igen gyorsan végeznek el összetett számításokat.
-
-## <a name="lets-create-our-own-measure"></a>Hozzunk létre saját mértékeket
-Tegyük fel, hogy a nettó értékesítést szeretnénk elemezni. Ha megtekintjük a Sales táblát a Mezők listájában, láthatjuk, hogy nincs NetSales nevű mező. Rendelkezünk azonban azokkal az elemekkel, amelyekből létrehozhatunk egy saját mértéket a nettó értékesítés számításához.
-
-Egy olyan mértékre van szükségünk, amely levonja a kedvezményeket és a visszafizetéseket az értékesítés összegéből. Mivel azt szeretnénk, ha a mérték a vizualizációban lévő bármilyen környezetben számítana eredményt, lényegében le kell vonnunk a DiscountAmount (Kedvezmény összege) és a ReturnAmount (Visszatérítés összege) értékeket a SalesAmount összegéből. Ez most így talán egy kissé zagyvának hat, de nemsokára kitisztul.
-
-### <a name="net-sales"></a>Nettó értékesítés
-1.  A mezők listájában kattintson jobb gombbal a **Sales** táblára vagy bal gombbal a mellette lévő lefelé mutató nyílra, majd kattintson az **Új mérték** gombra. Ez menti az új mértéket a Sales táblába, ahol majd könnyebben megtaláljuk.
+1.  Kattintson a Mezők területen látható **Sales** táblára, vagy vigye a kurzort a tábla fölé, mutasson a **További beállítások** három pontra (...), majd kattintson az **New Measure** (Új mérték) elemre. Ez menti az új mértéket a Sales táblába, ahol később könnyebben megtalálhatja.
     
-    ![](media/desktop-tutorial-create-measures/meastut_netsales_newmeasure.png)
+    ![Új mérték](media/desktop-tutorial-create-measures/meastut_netsales_newmeasure.png)
     
-    > [!TIP]
-    > Új mértékek létrehozásához használhatja az Új mérték gombot is a Power BI Desktop menüszalagjának Kezdőlapján.
-    > 
-    > ![](media/desktop-tutorial-create-measures/meastut_netsales_newmeasureribbon.png)
-    > 
-    > Amikor a menüszalagról hoz létre mértéket, az bármelyik táblában létrehozható. Bár a mértékeknek nem kell adott táblához tartozniuk, könnyebben megtalálja őket, ha az Ön számára leginkább logikus táblában hozza létre őket. Ha egy adott táblában szeretné a mértéket létrehozni, előbb a táblára kattintva tegye azt aktívvá. Ezután kattintson az Új mérték gombra. Esetünkben az első mértéket a Sales táblában hozzuk létre.
-    > 
-    > 
+    Az új mértéket úgy is létrehozhatja, hogy a Power BI Desktop menüszalagjának Kezdőlap lapján a **New Measure** elemre kattint.
     
-    A szerkesztőléc a jelentésvászon felső részén található. Itt nevezhetjük át a mértéket, és itt adhatunk hozzá DAX-képletet.
+    ![Új mérték a menüszalagról](media/desktop-tutorial-create-measures/meastut_netsales_newmeasureribbon.png)
     
-    ![](media/desktop-tutorial-create-measures/meastut_netsales_newmeasure_formulabar.png)
+    >[!TIP]
+    >A menüszalagról bármely táblában létrehozható az új mérték, de könnyebb lesz megtalálni, ha ott hozza létre, ahol használni szeretné. Ebben az esetben először a Sales táblát válassza ki, és csak ezután kattintson a **New Measure** elemre. 
     
-    Adjunk egy nevet az új mértéknek. Alapértelmezés szerint az új mértékek neve egyszerűen Mérték lesz. Ha ezt nem nevezzük át, a következő létrehozott mérték a Mérték 2, Mérték 3 stb. nevet kapja majd. Mi most azonban szeretnénk, ha a mértékek könnyen azonosíthatóak lennének, ezért nevezzük át az új mértéket Net Sales (Nettó értékesítés) névre.
+    A jelentésvászon tetején megjelenő szerkesztőlécen átnevezheti a mértéket, és beírhatja a DAX-képletet.
     
-2. Jelölje ki a **Mérték** nevet a szerkesztőlécen, majd írja be a **Net Sales** nevet.
+    ![Szerkesztőléc](media/desktop-tutorial-create-measures/meastut_netsales_newmeasure_formulabar.png)
     
-    Most pedig lássunk hozzá a képlet megadásához.
+2.  Alapértelmezés szerint az új mérték neve egyszerűen Measure (mérték). Ha nem nevezi át, a további új mértékek a Measure 2, Measure 3, stb. nevet kapják. Mivel könnyen azonosítható mértékre van szüksége, emelje ki a **Measure** szót a szerkesztőlécen, majd írja be a helyére a **Net Sales** (Nettó értékesítések) kifejezést.
     
-3.  Az egyenlőségjel után írja be az **S** betűt. Egy lenyíló lista jelenik meg, amely felkínálja az összes S betűvel kezdődő DAX-képletet. minél több karaktert ad meg, a lista annál jobban leszűkül a kívánt függvényre. Görgessen le, és válassza a **SUM** képletet, majd nyomja le az ENTER billentyűt.
+3.  Most elkezdheti az új képlet beírását. Az egyenlőségjel után kezdje begépelni a **Sum** (Összeg) szót. A gépelés során legördülő menüben megjelenik az adott betűkkel kezdődő DAX-függvények listája. Szükség esetén görgessen le a **SUM** lehetőség kiválasztásához, majd nyomja le az Enter billentyűt.
     
-    ![](media/desktop-tutorial-create-measures/meastut_netsales_newmeasure_formula_s.png)
+    ![SUM kiválasztása](media/desktop-tutorial-create-measures/meastut_netsales_newmeasure_formula_s.png)
     
-    Az Enter billentyűt lenyomva egy nyitó zárójel jelenik meg, valamint a SUM függvénybe beadható oszlopokat tartalmazó javaslati lista.
+    Ekkor egy nyitó zárójel jelenik meg egy újabb legördülő javaslatlistával, amely a SUM függvénynek továbbadható összes elérhető oszlopot tartalmazza.
     
-    ![](media/desktop-tutorial-create-measures/meastut_netsales_newmeasure_formula_sum.png)
+    ![Oszlop kiválasztása](media/desktop-tutorial-create-measures/meastut_netsales_newmeasure_formula_sum.png)
     
-    A kifejezéseket mindig egy nyitó és egy záró zárójel fogja közre. Esetünkben a kifejezés egyetlen argumentumot tartalmaz, amelyet beadunk a SUM függvénybe: az összegezni kívánt oszlopot. Az oszlopok listáját az első betűk beírásával szűkíthetjük. Esetünkben most a SalesAmount oszlopot szeretnénk megadni, tehát ahogy elkezdjük beírni a salesam betűket, a lista egyre szűkül, és végül két elem közül választhatunk. Valójában mindkettő ugyanazt az oszlopot jelöli. Az egyik egyszerűen [SalesAmount] néven jelenik meg, mivel a mértéket ugyanabban a táblában hozzuk létre, amelyikben a SalesAmount oszlop is van. A másik elemben a tábla neve is szerepel az oszlop neve előtt.
+    A kifejezések mindig zárójelek között jelennek meg. Ebben a példában a kifejezés csak egy olyan argumentumot tartalmaz, amely továbbadható a SUM függvénynek, és ez a SalesAmount oszlop. Kezdje el a „SalesAmount” kifejezés gépelését, amíg a listán csak a Sales(SalesAmount) érték marad. A táblanévhez csatolt oszlopnév az oszlop *teljesen minősített* neve. A teljesen minősített oszlopnevek olvashatóbbá teszik a képleteket. 
     
-    ![](media/desktop-tutorial-create-measures/meastut_netsales_newmeasure_formula_salesam.png)
-    
-    Általában érdemes az oszlopok teljes nevét megadni. Így a képletek könnyebben olvashatóak.
+    ![SalesAmount oszlop kiválasztása](media/desktop-tutorial-create-measures/meastut_netsales_newmeasure_formula_salesam.png)
     
 4. Válassza a **Sales[SalesAmount]** elemet, majd írjon be egy záró zárójelet.
     
     > [!TIP]
-    > A szintaxishibákat leggyakrabban a hiányzó vagy rossz helyre beírt záró zárójelek okozzák.
-    > 
-    > 
+    > A szintaxishibákat leggyakrabban a hiányzó vagy rossz helyre beírt záró zárójelek okozzák,
     
-    Most pedig ki szeretnénk vonni a másik két oszlopot.
     
-5.  Az első kifejezés záró zárójele után írjon be egy szóközt, majd egy mínusz operátort (**-**) és végül még egy szóközt. Ezután írja be megint a SUM függvényt, argumentumként ezúttal a **Sales[DiscountAmount]** oszloppal.
     
-    ![](media/desktop-tutorial-create-measures/meastut_netsales_newmeasure_formula_discamount.png)
+5.  A másik két oszlop kivonásához:
+    1. Miután bezárta az első kifejezés zárójelét, írjon be egy szóközt, egy mínusz operátort (**-**), majd egy újabb szóközt. 
+    2. Adjon meg egy másik SUM függvényt, és kezdje el a „DiscountAmount” kifejezés beírását, amíg ki tudja választani argumentumként a **Sales[DiscountAmount]** oszlopot. Írja be a záró zárójelet. 
+    3. Írjon be egy szóközt, még egy mínusz operátort, még egy SUM függvényt a **Sales[ReturnAmount]** argumentummal, és egy záró zárójelet.
     
-    Kezd elfogyni a helye a szerkesztőlécben. Semmi gond.
+    ![A képlet befejezése](media/desktop-tutorial-create-measures/meastut_netsales_newmeasure_formula_discamount.png)
     
-6.  Kattintson a lefelé mutató nyílra a szerkesztőléc jobb oldalán.
+6.  A képlet befejezéséhez és érvényesítéséhez nyomja le az Enter billentyűt, vagy kattintson a szerkesztőlécen lévő pipa jelre. Az érvényesített mérték mostantól használható a Sales tábla mezőlistáján. 
     
-    ![](media/desktop-tutorial-create-measures/meastut_netsales_newmeasure_formula_chevron.png)
+    ![A mérték a mezőlistán](media/desktop-tutorial-create-measures/meastut_netsales_newmeasure_complete.png)
     
-    Mindjárt több lett a hely. Az Alt+Enter billentyűkombinációt lenyomva egy új sor nyílik meg, ahol újabb részekkel egészíthetjük ki a képletet. Az egyes elemeket feljebb is mozgathatjuk a Tab billentyű lenyomásával.
-    
-    ![](media/desktop-tutorial-create-measures/meastut_netsales_newmeasure_formula_expanded.png)
-    
-    Most már beírhatjuk a képlet utolsó részét is.
-    
-7.  Adjon hozzá még egy mínusz operátort, majd még egy SUM függvényt, argumentumként a **Sales[ReturnAmount]** oszloppal.
-    
-    ![](media/desktop-tutorial-create-measures/meastut_netsales_newmeasure_complete.png)
-    
-    A képlet most késznek tűnik.
+Ha a képlet beírásánál elfogy a hely, vagy szeretné több sorba rendezni a képletet, nyisson meg több helyet a szerkesztőléc jobb oldalán lévő sávnyílra kattintva.
 
-8.  A véglegesítéséhez nyomja le az Enter billentyűt vagy kattintson a pipa jelre a szerkesztőlécen. A rendszer ellenőrzi a képletet, és hozzáadja azt a mezők listájához a Sales táblában.
+![Sávnyíl a képlet mellett](media/desktop-tutorial-create-measures/meastut_netsales_newmeasure_formula_chevron.png)
 
-### <a name="lets-add-our-new-measure-to-a-report"></a>Adjuk hozzá az új mértéket egy jelentéshez
-Most a Net Sales mértéket felvehetjük a jelentésvászonra, és a rendszer a jelentéshez hozzáadott összes mezőre számolni fogja a nettó értékesítést. Lássuk a nettó értékesítést országonként.
+Ha az **Alt-Enter** billentyűre kattint, különböző sorokba rendezheti a képlet részeit, a **Tab** használatával pedig áthelyezheti az elemeket.
 
-1.  Húzza a **Net Sales** mértéket a **Sales** tábláról a jelentésvászonra.
+![Kibontott képlet](media/desktop-tutorial-create-measures/meastut_netsales_newmeasure_formula_expanded.png)
+
+### <a name="use-your-measure-in-the-report"></a>A mérték használata a jelentésben
+Mostantól felveheti a Net Sales (Nettó értékesítés) értéket a jelentésvásznon, és kiszámíthatja a jelentéshez hozzáadott bármely mező nettó értékesítési értékét. Nettó értékesítés megtekintése országonként:
+
+1. Kattintson a **Sales** tábla **Net Sales** mértékére, vagy húzza át a jelentésvászonra.
     
-2. Most húzza a **RegionCountryName** (Régió/országnév) mezőt a **Geography** (Földrajzi hely) táblából a diagramra.
+2. Kattintson a **Geography** (Földrajzi hely) tábla **RegionCountryName** (RégióOrszágNév) mezőjére, vagy húzza át a diagramra.
     
-    ![](media/desktop-tutorial-create-measures/meastut_netsales_byrcn.png)
+    ![Nettó értékesítés országonként](media/desktop-tutorial-create-measures/meastut_netsales_byrcn.png)
     
-    Adjunk hozzá további adatokat.
+Ha a **SalesAmount** mezőre kattint, vagy áthúzza a diagramra, megtekintheti a nettó és az összes értékesítés közti különbséget országonként. 
+
+![Értékesítések összege és Nettó értékesítés országonként](media/desktop-tutorial-create-measures/meastut_netsales_byrcnandsalesamount.png)
+
+Az ábra most két mértéket használ: az automatikusan összeadott SalesAmount értéket, és az imént létrehozott saját Net Sales értéket. Mindkét mértéket egy másik mező, a RegionCountryName (RégióOrszágNév) környezetében számolta ki a rendszer.
     
-3.  Húzza a **SalesAmount** mezőt a diagramra, hogy a nettó értékesítés és az értékesítés összege közti különbség is látható legyen.
+### <a name="use-your-measure-with-a-slicer"></a>Saját mérték használata szeletelővel
+
+Szeletelő hozzáadásával tovább szűrheti a nettó értékesítés és az összes értékesítés értékeit a naptári év alapján.
     
-    Most lényegében két mérték jelenik meg a diagramon. az automatikusan összegzett SalesAmount, valamint az imént létrehozott Net Sales mérték. Mindkettő esetében az eredmények egy, a diagramon megjelenő másik mező, a RegionCountryName (Régió/országnév) országai alapján számolódnak.
-    
-    ![](media/desktop-tutorial-create-measures/meastut_netsales_byrcnandsalesamount.png)
-    
-    Adjunk hozzá egy szeletelőt, hogy tovább bonthassuk a nettó értékesítés és az értékesítés összegét naptári évek szerint.
-    
-4.  Kattintson a diagram egy üres területére, majd a **Vizualizációk** menüben a Tábla vizualizációra.
-    
-    ![](media/desktop-tutorial-create-measures/meastut_netsales_blanktablevisbutton.png)
-    
-    Ez létrehoz egy üres táblavizualizációt a jelentésvásznon.
+1.  Kattintson egy üres területre a diagram mellett, majd kattintson a **Vizualizációk** menüben található **Tábla** vizualizációra. Ezzel létrehoz egy üres táblavizualizációt a jelentésvásznon.
     
     ![](media/desktop-tutorial-create-measures/meastut_netsales_blanktable.png)
     
-5.  Húzza a **Year** (Év) mezőt a **Calendar** (Naptár) táblából erre az új üres táblára.
+2.  Húzza a **Year** (Év) mezőt a **Calendar** (Naptár) táblából erre az üres táblavizualizációra. Mivel az Év numerikus mező, a Power BI Desktop összeadja a benne található értékeket, de ennek összegzésként nincs sok értelme. 
     
-    ![](media/desktop-tutorial-create-measures/meastut_netsales_yearaggtable.png)
+    ![Év összegzése](media/desktop-tutorial-create-measures/meastut_netsales_yearaggtable.png)
     
-    Mivel a Year egy numerikus mező, a Power BI Desktop összegezte a benne lévő értékeket, és megjelenített egy diagramot. Ez azonban szeletelőként így nem igazán használható.
+3.  A Vizualizációk táblán lévő **Values** (Értékek) területen kattintson a **Year** (Év) elem mellett található lefelé mutató nyílra, majd kattintson a **Don't summarize** (Nincs összegzés) lehetőségre. A tábla most már az egyes éveket mutatja.
     
-6. Az **Értékek** menüben kattintson a **Year** mező mellett a lefelé mutató nyílra, majd kattintson az **Összegzés mellőzése** lehetőségre.
+    ![Nincs összegzés](media/desktop-tutorial-create-measures/meastut_netsales_year_donotsummarize.png)
     
-    ![](media/desktop-tutorial-create-measures/meastut_netsales_year_donotsummarize.png)
-    
-    Most már átalakíthatjuk a Year mezőt szeletelővé a táblavizualizációban.
+4.  Ha a Vizualizációk ablaktáblán kiválasztja a **Szeletelő** ikont, szeletelővé alakítja a táblát.
 
-    7.  A **Vizualizációk** menüben kattintson a **Szeletelő** vizualizációra.
+    ![Átalakítás szeletelővé](media/desktop-tutorial-create-measures/meastut_netsales_year_changetoslicer.png)
+    
+5.  Válasszon ki egy tetszőleges értéket a **Year** (Év) szeletelőben a **Nettó értékesítés és értékesítési összeg országonként** diagram megfelelő szűréséhez. A Power BI újraszámolja a Net Sales és a SalesAmount értékeit, majd a kiválasztott Év mező környezetében jeleníti meg az eredményt. 
+    
+    ![Év szerint szeletelt diagram](media/desktop-tutorial-create-measures/meastut_netsales_chartslicedbyyear.png)
 
-    ![](media/desktop-tutorial-create-measures/meastut_netsales_year_changetoslicer.png)
-    
-    Így most hozzáadtuk a Year mezőt szeletelőként. Ha most bármelyik évet vagy évek csoportját kiválasztjuk, a jelentés vizualizációi annak megfelelően lesznek szeletelve.
-    
-8. Próbálja ki, és kattintson a **2013** évre. Láthatja, ahogy a diagram változik. A rendszer újraszámítja a Net Sales és a SalesAmount mértékeket, és azokban most csak a 2013-ra vonatkozó új eredmények láthatóak. Így tehát most újra módosítottuk a környezetet, amelyben a rendszer a mértékeket számítja és az eredményeket megjeleníti.
-    
-    ![](media/desktop-tutorial-create-measures/meastut_netsales_chartslicedbyyear.png)
+### <a name="use-your-measure-in-another-measure"></a>Saját érték használata egy másik értéken belül
 
-## <a name="lets-create-another-measure"></a>Hozunk létre egy újabb mértéket
-Most hogy már tudja, hogyan hozhat létre mértékeket, hozzunk létre egy újabbat.
+Annak kimutatásához, hogy értékesített darabszámra vetítve melyik terméknél a legnagyobb a nettó értékesítési összeg, olyan mértékre van szükség, amely a nettó értékesítést elosztja az értékesített darabok számával. Létrehozhat egy új értéket, amely elosztja a saját készítésű Net Sales mérték eredményét a Sales[SalesQuantity] összegével.
 
-### <a name="net-sales-per-unit"></a>Nettó értékesítés egységenként
-Mit tegyünk, ha azt szeretnénk megtudni, hogy melyik az eladott egységenként legnagyobb értékesítést produkáló termékünk?
+1.  Hozzon létre egy **Net Sales per Unit** (Darabszámra vetített nettó értékesítés) nevű mértéket a Sales táblában.
+    
+2.  A szerkesztőlécen kezdje begépelni a **Net Sales** kifejezést. A javaslati listában megjelennek a választható lehetőségek. Válassza a **[Net Sales]** mértéket.
+    
+    ![Képlet a Net Sales használatával](media/desktop-tutorial-create-measures/meastut_nspu_formulastep2a.png)
+    
+    A mértékekre úgy is hivatkozhat, ha csak egy nyitó szögletes zárójelet (**[**) ír be. A javaslati listában csak a képlethez hozzáadható mértékek jelennek meg.
+    
+    ![A szögletes zárójelben csak mértékek jelennek meg](media/desktop-tutorial-create-measures/meastut_nspu_formulastep2b.png)
+    
+3.  Írjon be egy szóközt, egy osztási operátort (**/**), majd még egy szóközt, egy SUM függvényt, és gépelje be a **Quantity** (Mennyiség) kifejezést. A javaslati lista az összes olyan oszlopot tartalmazza, amelyeknek a nevében szerepel a Quantity (Mennyiség) kifejezés. Válassza a **Sales[SalesQuantity]** lehetőséget, zárja be a zárójelet, majd nyomja le az ENTER billentyűt, vagy kattintson a pipa jelre a képlet érvényesítéséhez. A képletnek ilyennek kell lennie:
+    
+    `Net Sales per Unit = [Net Sales] / SUM(Sales[SalesQuantity])`
+    
+4. Válassza ki a **Net Sales per Unit** (Darabszámra vetített nettó értékesítés) mértéket a Sales tábláról, vagy húzza át egy üres területre a jelentésvásznon. A diagram most az összes eladott termékre mutatja a darabszámonkénti nettó értékesítési összeget, ami nem túl hasznos információ. 
+    
+    ![Teljes nettó értékesítés darabszámonként](media/desktop-tutorial-create-measures/meastut_nspu_chart.png)
+    
+5. A megjelenítés megváltoztatásához módosítsa a diagramvizualizáció típusát **Faszerkezetes térképre**.
+    
+    ![Módosítás faszerkezetes térképre](media/desktop-tutorial-create-measures/meastut_nspu_changetotreemap.png)
+    
+6. Kattintson a **Product Category** (TermékKategória) mezőre, vagy húzza át a Vizualizáció panel faszerkezetes térképére vagy Csoport mezőjére. Ezek már fontos információk!
+    
+    ![Faszerkezetes térkép a Termékkategória alapján](media/desktop-tutorial-create-measures/meastut_nspu_byproductcat.png)
+    
+7. Próbálja ki, hogy eltávolítja a **ProductCategory** mezőt, és helyette a **ProductName** (TermékNév) mezőt húzza át a diagramra. 
+    
+    ![TermékNév faszerkezetes térképe](media/desktop-tutorial-create-measures/meastut_nspu_byproductname.png)
+    
+Rendben, ez itt most csak játszadozás, de azért elég menő, ezt be kell látnia! Kísérletezzen bátran a vizualizáció egyéb szűrési és formázási lehetőségeivel is.
 
-Nos, létrehozhatunk egy újabb mértéket. Ebben az esetben a nettó értékesítést el kell osztanunk az értékesített egységek mennyiségével. Lényegében a Net Sales mérték eredményét a Sales[SalesQuantity] összegével szeretnénk osztani.
-
-1.  Hozzon létre egy új mértéket **Net Sales per Unit** (Nettó értékesítés egységenként) néven a Sales (Értékesítés) vagy a Products (Termékek) táblában.
-    
-    Ebben a mértékben a korábban létrehozott Net Sales mértéket fogjuk használni. A DAX-képletekben hivatkozhatunk más mértékekre is.
-    
-2.  Kezdje el beírni a **Net Sales** nevét. A javaslati listában jelennek meg a lehetőségek, amelyek közül választhatunk. Válassza a **[Net Sales]** mértéket.
-    
-    ![](media/desktop-tutorial-create-measures/meastut_nspu_formulastep2a.png)
-    
-    Ha mértékre szeretne hivatkozni, elég csak beírnia egy nyitó szögletes zárójelet (**[**). A javaslati listában ekkor csak a képlethez hozzáadható mértékek jelennek meg.
-    
-    ![](media/desktop-tutorial-create-measures/meastut_nspu_formulastep2b.png)
-    
-3.  Közvetlenül a **[Net Sales]** után írjon be egy szóközt, majd egy osztás operátort (**/**), majd adjon meg egy SUM függvényt, és írja be a **Quantity** (Mennyiség) nevet. A javaslati lista ekkor az összes olyan oszlopot tartalmazza, amelyeknek szerepel a Quantity kifejezés a nevében. Válassza a **Sales[SalesQuantity]** elemet. A képletnek most így kell kinéznie:
-    
-    > **Net Sales per Unit = [Net Sales] / SUM(Sales[SalesQuantity])**
-    > 
-    > 
-    
-    Szép, nem? A DAX-képletek beírása igazából meglehetősen egyszerű a DAX-szerkesztő keresési és javaslati funkcióinak használatával. Most lássuk, milyen eredményeket kapunk az új Net Sales per Unit mértékkel.
-    
-4. Húzza a **Net Sales per Unit** mértéket a jelentésvászon egy üres területére.
-    
-    ![](media/desktop-tutorial-create-measures/meastut_nspu_chart.png)
-    
-    Hát nem valami érdekes, nemde? Ne aggódjon.
-    
-5.  Módosítsa a diagramvizualizáció típusát **Faszerkezetes térképre**.
-    
-    ![](media/desktop-tutorial-create-measures/meastut_nspu_changetotreemap.png)
-    
-6. Most húzza a **ProductCategory** (Termékkategória) mezőt a **ProductCategory** tábláról a **Csoport** területre.
-    
-    ![](media/desktop-tutorial-create-measures/meastut_nspu_byproductcat.png)
-    
-    Ezek értékes információk, de mit csináljunk, ha a termékenkénti nettó értékesítés érdekel bennünket?
-    
-7. Távolítsa el a **ProductCategory** mezőt, majd húzza helyette a **ProductName** (Terméknév) mezőt a **Product** tábláról a **Csoport** területre. 
-    
-    ![](media/desktop-tutorial-create-measures/meastut_nspu_byproductname.png)
-    
-    Rendben, ez itt most csak játszadozás, de azért elég menő, ezt be kell ismernie! Természetesen ezt a faszerkezetes térképet számos különböző módon szűrhetjük, ez azonban a jelen oktatóanyagnak nem témája.
-
-## <a name="what-weve-learned"></a>A megismert témák
-A mértékek rengeteg lehetőséget kínálnak az adatokból kinyerhető információk elemzéséhez. Megtanultuk, hogyan hozhatunk létre mértékeket a szerkesztőléc segítségével. A mértékeknek, ha értelmét látjuk, nevet is adhatunk, a javaslati listákkal pedig könnyedén megtalálhatjuk és kiválaszthatjuk a képletekbe beilleszteni kívánt megfelelő elemeket. Megismertük a környezeteket is, amelyekben a mértékek számítási eredményei más mezőknek vagy a mértékképletben foglalt egyéb kifejezéseknek megfelelően módosulnak.
+## <a name="what-youve-learned"></a>Az oktatóanyag összefoglalása
+A mértékek nagy segítséget nyújtanak az adatok tetszés szerinti elemzéséhez. Ez az oktatóanyag megmutatta, hogyan hozhat létre mértékeket a szerkesztőléc használatával, hogyan adhat nekik könnyen értelmezhető nevet, és hogyan találhatja meg, illetve választhatja ki a megfelelő képletelemeket a DAX javaslati listákkal. Tájékozódhatott a környezetekről is, hiszen a mértékekkel végzett számítások aszerint változnak, hogy milyen más mezők és kifejezések jelennek még meg a képletben.
 
 ## <a name="next-steps"></a>Következő lépések
-Ha szeretné a DAX-képleteket részletesebben megismerni, és speciálisabb mértékeket létrehozni olvassa el [A DAX alapszintű használata a Power BI Desktopban](desktop-quickstart-learn-dax-basics.md) című cikket. Ez a cikk a DAX alapvető fogalmaira, a szintaxisra, a függvényekre és a környezet alaposabb megértésére összpontosít.
-
-Mindenképp vegye fel a [Data Analysis Expressions (DAX) referenciát](https://msdn.microsoft.com/library/gg413422.aspx) a kedvencei közé. Ebben találja részletesen leírva a DAX-szintaxist, az operátorokat, valamint a több mint 200 DAX-függvényt.
+- További információk a Power BI Desktop számos gyakori számítást nyújtó gyorsmérőiről: [A gyorsmérők használata általános és nagy igényű számítások egyszerű végrehajtásához](desktop-quick-measures.md).
+  
+- A DAX-képletek részletesebb megismeréséhez és speciálisabb mértékek létrehozásához lásd: [A DAX alapszintű használata a Power BI Desktopban](desktop-quickstart-learn-dax-basics.md). Ez a cikk a DAX alapvető fogalmaira, a szintaxisra, a függvényekre és a környezet alaposabb megértésére összpontosít.
+  
+- Mindenképp vegye fel a [Data Analysis Expressions (DAX) referenciát](https://msdn.microsoft.com/library/gg413422.aspx) a kedvencei közé. Ebben találja részletesen leírva a DAX-szintaxist, az operátorokat, valamint a több mint 200 DAX-függvényt.
 

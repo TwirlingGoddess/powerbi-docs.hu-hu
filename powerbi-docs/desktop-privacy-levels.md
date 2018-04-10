@@ -1,15 +1,15 @@
 ---
-title: "A Power BI Desktop adatvédelmi szintjeinek megismerése"
-description: "A Power BI Desktop adatvédelmi szintjei"
+title: A Power BI Desktop adatvédelmi szintjeinek megismerése
+description: A Power BI Desktop adatvédelmi szintjei
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 01/19/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 3cf6875fcb0756bfa9f5622a8d49f5b645b13c24
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 110d851e08ee8b63645c11507500eb2cbf179a46
+ms.sourcegitcommit: ae4d771b883b654358a6a94dd784ea9bdf3d3aa3
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="power-bi-desktop-privacy-levels"></a>A Power BI Desktop adatvédelmi szintjei
 A **Power BI Desktop** adatvédelmi szintjei egy elkülönítési szintet adnak meg, amely meghatározza, hogy az adott adatforrás milyen mértékben lesz elkülönítve a többi adatforrástól. A korlátozó elkülönítési szint azonban gátolja az adatforrások közötti információcserét, csökkentheti a funkcionalitást és hatással lehet a teljesítményre.
@@ -31,15 +31,6 @@ A **Fájl > Lehetőségek és beállítások > Beállítások** majd az **Aktuá
 
 ![](media/desktop-privacy-levels/desktop_privacylevels1.png)
 
- Az adatforrások **Adatvédelmi** beállítások párbeszédpanele a **Fájl > Lehetőségek és beállítások > Adatforrás beállításai** alatt található. Válassza ki az adatforrást, majd kattintson a **Szerkesztés** elemre. Megjelenik az **Adatforrás beállításai** párbeszédpanel, ahol a panel alján található legördülő menüből kiválaszthatja a megfelelő adatvédelmi szintet, az alábbi képen is látható módon.
-
- ![](media/desktop-privacy-levels/desktop_privacylevels2.png)
-
-> [!CAUTION]
-> A rendkívül bizalmas vagy titkos adatokat tartalmazó adatforrást célszerű **Privát** láthatóságúra állítani.
-> 
-> 
-
 ## <a name="configure-a-privacy-level"></a>Adatvédelmi szint beállítása
 Az adatvédelmi szint beállításaival megadhat egy elkülönítési szintet, amely meghatározza, hogy az adott adatforrást milyen mértékben kell elkülöníteni a többi adatforrástól.
 
@@ -47,7 +38,7 @@ Az adatvédelmi szint beállításaival megadhat egy elkülönítési szintet, a
 | --- | --- | --- |
 | **Privát adatforrás** |Egy **Privát** adatforrás bizalmas vagy titkos információt tartalmaz, és az adatforrást csak a jogosult felhasználók láthatják. A privát adatforrás teljesen el van különítve az egyéb adatforrásoktól. |A Facebook-adatok, tőzsdei juttatásokat tartalmazó szöveges fájlok vagy az alkalmazottak felülvizsgálatát tartalmazó munkafüzet. |
 | **Szervezeti adatforrás** |A **Szervezeti** adatforrás személyek megbízható csoportjára korlátozza egy adatforrás láthatóságát. A **Szervezeti** adatforrás el van különítve az összes **Nyilvános** adatforrástól, de látható az egyéb **Szervezeti** adatforrások számára. |Egy intranetes SharePoint-webhelyen található **Microsoft Word**-dokumentum, megbízható csoport számára biztosított engedélyekkel. |
-| **Nyilvános adatforrás** |Egy **Nyilvános** adatforrás mindenki számára láthatóvá teszi az adatforrásban található adatokat. Csak a fájlok, internetes adatforrások vagy egy munkafüzet adatai jelölhetők meg **nyilvánosként**. |A Microsoft Azure Piactér ingyenes adatai, egy Wikipédia-oldal adatai, vagy egy nyilvános webhelyről másolt adatokat tartalmazó helyi fájl |
+| **Nyilvános adatforrás** |Egy **Nyilvános** adatforrás mindenki számára láthatóvá teszi az adatforrásban található adatokat. Csak a fájlok, internetes adatforrások vagy egy munkafüzet adatai jelölhetők meg **nyilvánosként**. |A Microsoft Azure Marketplace ingyenes adatai, egy Wikipédia-oldal adatai, vagy egy nyilvános webhelyről másolt adatokat tartalmazó helyi fájl. |
 
 ## <a name="configure-privacy-level-settings"></a>Adatvédelmi szintek beállításainak konfigurálása
 Az adatforrások **Adatvédelmi** beállítások párbeszédpanele a **Fájl > Lehetőségek és beállítások > Adatforrás beállításai** alatt található.

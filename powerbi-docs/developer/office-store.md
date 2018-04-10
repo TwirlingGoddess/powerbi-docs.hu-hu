@@ -1,27 +1,27 @@
 ---
-title: "Egyéni vizualizációk közzététele az AppSource-ban"
-description: "Megtudhatja, hogyan teheti közzé egyéni vizualizációit az AppSource-ban, amelyeket aztán mások is felfedezhetnek és használhatnak."
+title: Egyéni vizualizációk közzététele az AppSource-ban
+description: Megtudhatja, hogyan teheti közzé egyéni vizualizációit az AppSource-ban, amelyeket aztán mások is felfedezhetnek és használhatnak.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/5/2017
+ms.date: 04/02/2018
 ms.author: maghan
-ms.openlocfilehash: 5dc5cda126943bbb6da25e384b789c169187b249
-ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
+ms.openlocfilehash: 9730f92a7f50e2e0d0ad824f8a5f74f6a09ded97
+ms.sourcegitcommit: afa10c016433cf72d6d366c024b862187a8692fd
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/04/2018
 ---
 # <a name="publish-custom-visuals-to-appsource"></a>Egyéni vizualizációk közzététele az AppSource-ban
 Megtudhatja, hogyan teheti közzé egyéni vizualizációit az AppSource-ban, amelyeket aztán mások is felfedezhetnek és használhatnak. office
@@ -39,7 +39,7 @@ Miután végzett az egyéni vizualizáció kódolásával és tesztelésével, �
 | --- | --- | --- |
 | Pbiviz csomag, amely az összes kötelező metaadatot tartalmazza |Igen |Vizualizáció neve<br>Megjelenített név<br>GUID<br>Verzió<br>Leírás<br>Szerző neve és e-mail-címe |
 | Minta .pbix jelentésfájl |Igen |Ahhoz, hogy kellően be tudja mutatni a vizualizációt, segítenie kell a felhasználókat a részletei megismerésében. Érdemes kihangsúlyozni, hogy milyen értéket nyújt a vizualizáció a felhasználó számára, és érdemes felhozni a használatra, formázási lehetőségekre stb. vonatkozó példákat. Egy *„tippek”* oldalt is hozzáadhat a végén, amely tippeket, trükköket, elkerülendő lépéseket és hasonló információkat tartalmaz.<br>A minta .pbix jelentésfájlnak offline állapotban kell működnie, bármilyen külső kapcsolat nélkül |
-| Ikon |Igen |Meg kell adnia az egyéni vizualizáció áruházban megjelenő emblémáját. Ennek formátuma .png, .jpg, .jpeg vagy .gif lehet, és pontosan 300 képpont (szélesség) x 300 képpont (magasság) méretűnek kell lennie. A fájl mérete nem lehet nagyobb 512 kB-nál. |
+| Ikon |Igen |Meg kell adnia az egyéni vizualizáció áruházban megjelenő emblémáját. Ennek formátuma .png, .jpg, .jpeg vagy .gif lehet, és pontosan 300 képpont (szélesség) x 300 képpont (magasság) méretűnek kell lennie. **Fontos!** Az ikon beküldése előtt gondosan tekintse át a [rövid útmutatót](https://docs.microsoft.com/en-us/office/dev/store/craft-effective-appsource-store-images). |
 | Képernyőképek |Igen |Meg kell adnia legalább egy képernyőképet. Ennek formátuma .png, .jpg, .jpeg vagy .gif lehet, és pontosan 1366 képpont (szélesség) x 768 képpont (magasság) méretűnek kell lennie. A fájl mérete nem lehet nagyobb 1024 kB-nál. *A hatékonyabb használat érdekében adjon hozzá szövegbuborékokat az egyes képernyőképeken látható fő jellemzők által képviselt érték kihangsúlyozásához.* |
 | Támogatás letöltési hivatkozása |Igen |Adjon meg egy URL-címet, amelyet felkereshetnek a felhasználók, akiknek gondjuk van a vizualizációval. Az URL formátumának tartalmaznia kell a https:// vagy a http:// előtagot. |
 | Adatvédelmi dokumentum hivatkozása |Igen |Adja meg a vizualizációt használó ügyfelekre vonatkozó adatvédelmi szabályzat hivatkozását. A hivatkozás formátumának tartalmaznia kell a https:// vagy a http:// előtagot. |
@@ -49,6 +49,10 @@ Miután végzett az egyéni vizualizáció kódolásával és tesztelésével, �
 
 ## <a name="submitting-to-power-bi"></a>Elküldés a Power BI-nak
 Az elküldés során először egy e-mailt küld az egyéni Power BI-vizualizációk elküldéséért felelős csapatának. Az e-mailt a következő címre küldheti el: [pbivizsubmit@microsoft.com](mailto:pbivizsubmit@microsoft.com).
+
+> [!IMPORTANT]
+> A .pbiviz-csomag létrehozása előtt ki kell töltenie a következő mezőket a pbiviz.json fájlban: „description”, „supportUrl”, „author”, „name” és „email”.
+> 
 
 Mellékelje a .pbiviz fájlt és a mintajelentés .pbix fájlját az e-mailhez. A Power BI csapattól egy választ fog kapni, amely tartalmazza a feltöltésre vonatkozó utasításokat és a feltöltendő alkalmazáscsomag XML-fájlját. Erre az XML-alkalmazáscsomagra szükség van ahhoz, hogy be tudja küldeni a vizualizációt az Office fejlesztői központján keresztül.
 

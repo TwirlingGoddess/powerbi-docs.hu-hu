@@ -1,15 +1,15 @@
 ---
-title: "Oktatóanyag: Facebook-elemzések a Power BI Desktop használatával"
-description: "Oktatóanyag: Facebook-elemzések a Power BI Desktop használatával"
+title: 'Oktatóanyag: Facebook-elemzések a Power BI Desktop használatával'
+description: 'Oktatóanyag: Facebook-elemzések a Power BI Desktop használatával'
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,213 +18,234 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: e0bdec7d2774fd5c6641041af14b2170d7223151
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 6113ab53e36dd035772c0bd9812f9870a6404eac
+ms.sourcegitcommit: afa10c016433cf72d6d366c024b862187a8692fd
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/04/2018
 ---
 # <a name="tutorial-facebook-analytics-using-power-bi-desktop"></a>Oktatóanyag: Facebook-elemzések a Power BI Desktop használatával
-Ez az oktatóanyag bemutatja, hogyan importálhatja és vizualizálhatja a **Facebookról** származó adatokat. Ebben az oktatóanyagban elsajátíthatja, hogyan csatlakozhat egy adott Facebook-oldalhoz (a Power BI oldalhoz), hogyan alkalmazhatja az adatátalakítási lépéseket, és hozhat létre egyes vizualizációkat.
 
-A végrehajtandó lépések a következők:
+Ez az oktatóanyag az adatok Facebookról való importálását és azok Power BI Desktopban való használatát ismerteti. Ön adatokhoz fog kapcsolódni, importálni fogja az adatokat a Power BI Facebook-oldaláról, átalakításokat fog végezni az importált adatokon, valamint jelentésbeli vizualizációkban fogja használni az adatokat.
 
-* **1. feladat**: Kapcsolódás egy Facebook-oldalhoz
-* **2. feladat**: Vizualizáció létrehozása a Jelentés nézettel
-  
-  * **1. lépés**: Fatérkép vizualizáció létrehozása
-* **3. feladat**: Adatok formázása a Lekérdezés nézetben
-  
-  * **1. lépés**: A dátum-idő oszlop ketté bontása
-  * **2. lépés**: Összesített érték hozzáadása egy kapcsolódó táblából
-* **4. feladat**: További vizualizációk létrehozása a Jelentés nézettel
-  
-  * **1. lépés**: A lekérdezés betöltése a jelentésbe
-  * **2. lépés**: Vonaldiagram és sávdiagram létrehozása
+## <a name="connect-to-a-facebook-page"></a>Kapcsolódás egy Facebook-oldalhoz
 
-## <a name="task-1-connect-to-a-facebook-page"></a>**1. feladat: Kapcsolódás egy Facebook-oldalhoz**
-Ebben a feladatban adatokat importálunk a [Microsoft Power BI Facebook](https://www.facebook.com/microsoftbi)-helyről (íme az URL-cím: *https://www.facebook.com/microsoftbi )*.
+Ez az oktatóanyag a [Microsoft Power BI Facebook-oldaláról](https://www.facebook.com/microsoftbi) (*https://www.facebook.com/microsoftbi*) származó adatokat használja. Nincs szükség semmilyen különleges hitelesítő adatra a kapcsolódáshoz, illetve az adatok oldalról való importálásához, kivéve személyes Facebook-fiók használatakor.
 
-Ehhez az oldalhoz bárki kapcsolódhat, és végrehajthatja ezeket a lépéseket – nincs szükség speciális hitelesítő adatokra (a jelen lépésben használt saját Facebook-fiókjától eltekintve).
-
-![](media/desktop-tutorial-facebook-analytics/1.png)
-
-1. Az **Első lépések** párbeszédpanelen vagy a **Kezdőlap szalagfülön** válassza az **Adatok lekérése** lehetőséget.
-2. Megjelenik az **Adatok lekérése** párbeszédpanel, amelyen számos különféle adatforrás közül választhat. Válassza a **Facebook** lehetőséget az **Egyéb** csoportban.
+1. Nyissa meg a Power BI Desktopot, válassza az **Adatok lekérése** elemet az **Első lépések** párbeszédpanelen, vagy a **Kezdőlap** szalagfülön válassza az **Adatok lekérése**, majd a **Továbbiak...** elemet.
    
-   ![](media/desktop-tutorial-facebook-analytics/t_fb_getdataother.png)
+2. Az **Adatok lekérése** párbeszédpanelen válassza a **Facebook** elemet az **Online szolgáltatások** csoportban, majd válassza a **Kapcsolódás** parancsot.
    
-   A **Kapcsolódás** gombra kattintva egy párbeszédpanel jelenik meg, amely a külső szolgáltatások használatának kockázataira figyelmezteti.
+   ![Adatok lekérése](media/desktop-tutorial-facebook-analytics/t_fb_getdataother.png)
    
-   ![](media/desktop-tutorial-facebook-analytics/t_fb_connectingtotps.png)
-3. A Folytatás gombra kattintva megjelenik a **Facebook** párbeszédpanel, ahol beillesztheti az oldal nevét (**microsoftbi**) a **Felhasználónév** mezőbe. Válassza a **Bejegyzések** lehetőséget a **Kapcsolat** legördülő menüből.
+   Egy párbeszédpanel jelenik meg, amely a külső szolgáltatások használatának kockázataira figyelmeztet.
    
-   ![](media/desktop-tutorial-facebook-analytics/2.png)
-4. Kattintson az **OK** gombra.
-5. Amikor a rendszer a hitelesítő adatokat kéri, jelentkezzen be a saját Facebook-fiókjával, és engedélyezze a Power BI-hozzáférést a fiókján keresztül.
+   ![Külső szolgáltatásra vonatkozó figyelmeztetés](media/desktop-tutorial-facebook-analytics/t_fb_connectingtotps.png)
    
-   ![](media/desktop-tutorial-facebook-analytics/facebookcredentials.png)
-
-Miután felépült a kapcsolat az oldallal, láthatja, ahogy az adatok a modellbe töltődnek. 
-
-![](media/desktop-tutorial-facebook-analytics/t_fb_1-loadpreview.png)
-
-Innen a **Lekérdezésszerkesztő** jeleníti meg az adatokat. A **Lekérdezésszerkesztő** a Power BI Desktop részét képezi, de egy külön ablakban töltődik be, ahol az adatkapcsolatokra vonatkozó összes átalakítást végrehajthatja.
-
-![](media/desktop-tutorial-facebook-analytics/t_fb_1-intoqueryeditor.png)
-
-Mikor elérte az adatok kívánt formáját, betöltheti azokat a Power BI Desktopba. Válassza a **Bezárás és betöltés** lehetőséget a **Kezdőlap** menüszalaglapról.
-
-![](media/desktop-tutorial-facebook-analytics/t_fb_1-loadandclose.png)
-
-Egy párbeszédpanel jelenik meg, amelyen az adatok a Power BI Desktop adatmodellbe való betöltése követhető nyomon.
-
-![](media/desktop-tutorial-facebook-analytics/t_fb_1-loading.png)
-
-Az adatok betöltését követően a **Jelentés** nézet nyílik meg, ahol a tábla oszlopai a jobb oldalon a **Mező** listában láthatóak.
-
-![](media/desktop-tutorial-facebook-analytics/fbdesigner1.png)
-
-## <a name="task-2-create-visualizations-using-the-report-view"></a>**2. feladat: Vizualizáció létrehozása a Jelentés nézettel**
-Most, miután betöltötte az adatokat az oldalról, vizualizációk használatával gyorsan és egyszerűen elemezheti azokat.
-
-**1. lépés:** Fatérkép vizualizáció létrehozása
-
-A vizualizációk létrehozása egyszerű, csak áthúzzuk a mezőket a **Mező listából** a **Jelentés vászonra**.
-
-Húzza a **type** (típus) mezőt a **Jelentés** vászonra. A Power BI Desktop létrehoz egy új vizualizációt a **Jelentés vásznon**. Ezután húzza a **type** (típus) mezőt a **Mezők** listából (ugyanazt a mezőt, amelyet az imént a **Jelentés** vászonra is) az **Érték** területre egy **Sáv** vizualizáció létrehozásához.
-
-![](media/desktop-tutorial-facebook-analytics/fbdesigner2.png)
-
-A vizualizáció típusa a **Vizualizáció** ablaktáblán egy másik ikonra kattintva bármikor módosítható. Módosítsuk a típust egy **Fatérképre** a megfelelő ikon kiválasztásával a **Vizualizációk** ablaktáblán, amint az a következő képen látható.
-
-![](media/desktop-tutorial-facebook-analytics/fbdesigner3.png)
-
-Most adjunk hozzá egy jelmagyarázatot, és módosítsuk egy adatpont színét. Kattintson a **Formátum** ikonra a **Vizualizációk** ablaktáblán – a **Formátum** ikon egy ecsetet ábrázol.
-
-![](media/desktop-tutorial-facebook-analytics/fbdesigner3a.png)
-
-A **Jelmagyarázat** melletti lefelé mutató nyílra kattintva a szakasz kibomlik, és megjelennek a kijelölt vizualizáció jelmagyarázatának formázási lehetőségei. Ebben az esetben a következő változtatásokat végeztük el:
-
-* a **Jelmagyarázat** kapcsolót **Be** állásba toltuk, hogy a jelmagyarázat megjelenjen
-* a **Jelmagyarázat pozíciója** legördülő listában a **Jobbra** lehetőséget választottuk
-* a **Cím** kapcsolót szintén **Be** állapotba toltuk, hogy a jelmagyarázat címe is látható legyen
-* beírtuk a **Típus** címet a jelmagyarázat címeként
-
-A következő ábrán ezek a változtatások már el vannak végezve, és láthatóak a vizualizáción.
-
-![](media/desktop-tutorial-facebook-analytics/fbdesigner3b.png)
-
-Ezután módosítsuk az egyik adatpont színét. A hivatkozás adatpontját érdemes kék színre venni, hogy jobban hasonlítson a hiperhivatkozásokhoz általában használt színéhez.
-
-Az **Adatszínek** melletti nyílra kattintva bontsa ki az adott szakaszt. Megjelennek az adatpontok, minden szín mellett egy-egy választónyíllal, amelyek segítségével adatpontonként külön szín állítható be.
-
-![](media/desktop-tutorial-facebook-analytics/fbdesigner3c.png)
-
-Ha az egyes adatpontok mellett a színmező lefelé mutató nyíl ikonjára kattint, megjelenik egy színválasztó panel, amelyen kiválaszthatja a kívánt színt. Ebben az esetben most a világoskék színt választjuk.
-
-![](media/desktop-tutorial-facebook-analytics/fbdesigner3d.png)
-
-Mindjárt jobb is. A következő ábrán láthatja, ahogy a szín alkalmazva lett a vizualizációban az adatpontra, és a jelmagyarázat is frissül, valamint annak színe megváltozik is az **Adatszínek** szakaszban.
-
-![](media/desktop-tutorial-facebook-analytics/fbdesigner3e.png)
-
-## <a name="task-3-shape-data-in-the-table"></a>**3. feladat: Adatok formázása a táblában**
-Most, miután importálta a kijelölt táblát, és megkezdte a vizualizáció létrehozását, láthatja, hogy a lehető legjobb eredmények érdekében érdemes különféle adatformázási és -tisztítási lépéseket végrehajtania.
-
-**1. lépés**: A dátum-idő oszlop ketté bontása
-
-Ebben a lépésben kettéosztjuk a **created\_time** (létrehozás időpontja) oszlopot, hogy a dátum és az idő értékét külön kapjuk meg. Ha a Power BI Desktopot használja, és módosítani szeretne egy meglévő lekérdezést, ehhez el kell indítania a **Lekérdezésszerkesztőt**. Ehhez válassza a **Lekérdezések szerkesztése** lehetőséget a **Kezdőlapon**.
-
-![](media/desktop-tutorial-facebook-analytics/t_fb_editquery.png)
-
-1. A **Lekérdezésszerkesztő** táblázatában görgessen jobbra, amíg meg nem találja a **created\_time** oszlopot
-2. Kattintson jobb gombbal egy oszlopfejlécre a **Lekérdezés előnézete** táblázatban, majd kattintson az **Oszlop felosztása \> Elválasztó alapján** lehetőségre az oszlopok felosztásához. Válassza az **Egyéni** lehetőséget az elválasztó karakterek legördülő listájában, és írja be a **„T”** karaktert. Ez a művelet a **Kezdőlap** szalagfül **Oszlopok kezelése** csoportjában is elérhető.
+3. Válassza a **Folytatás** lehetőséget. Megjelenik a **Facebook**-párbeszédpanel.
    
-   ![](media/desktop-tutorial-facebook-analytics/9.png)
+4. Írja vagy illessze be az oldal nevét (**microsoftbi**) a **Felhasználónév** szövegmezőbe, válassza a **Bejegyzések** lehetőséget a **Kapcsolat** legördülő menüből, majd válassza az **OK** gombot.
    
-   ![](media/desktop-tutorial-facebook-analytics/10.png)
-3. Nevezze át az újonnan létrehozott oszlopokat **created\_date** és **created\_time** névre.
-4. Jelölje ki az új **created\_time** oszlopot, **** majd a **Lekérdezésnézet** szalagon lépjen az **Oszlop hozzáadása** lapra, és válassza az **Idő\>Óra** lehetőséget a **Dátumból és időből** csoportban. Ez hozzáad egy új oszlopot, amely az időnek csak az óra összetevőjét tartalmazza.
+   ![Kapcsolódás](media/desktop-tutorial-facebook-analytics/2.png)
    
-   ![](media/desktop-tutorial-facebook-analytics/11.png)
-5. Módosítsa az új **Hour** oszlop típusát **Egész szám** értékre a **Kezdőlap** **Adattípus** menüjét lenyitva vagy jobb gombbal az oszlopra kattintva és az **Átalakítás\>Egész szám** lehetőséget választva.
+5. Amikor a rendszer a hitelesítő adatokat kéri, jelentkezzen be a saját Facebook-fiókjába, és engedélyezze a Power BI-hozzáférést a fiókján keresztül.
    
-   ![](media/desktop-tutorial-facebook-analytics/12.png)
+   ![Hitelesítő adatok](media/desktop-tutorial-facebook-analytics/facebookcredentials.png)
 
-**2. lépés**: Összesített érték hozzáadása egy kapcsolódó táblából
-
-Ebben a lépésben hozzáadjuk a megosztások számát a beágyazott értékből, hogy felhasználhassuk azt a vizualizációkban.
-
-1. Görgessen tovább jobbra, amíg el nem éri a **shares** (megosztások) oszlopot. A beágyazott érték azt jelenti, hogy még egy átalakítást el kell végeznünk, hogy megkapjuk a tényleges értékeket.
-2. Az oszlopfejléc jobb felső részén válassza a ![](media/desktop-tutorial-facebook-analytics/14.png) ikont a **Kibontás/összesítés** szerkesztő megnyitásához. Válassza a **count** (darabszám) lehetőséget, majd kattintson az **OK** gombra. Ez hozzáadja a megosztások számát a tábla mindegyik sorához.
+   Miután csatlakozott a Power BI Facebook-oldalához, megjelenik az oldal **Bejegyzések** típusú adatainak előnézete. 
    
-   ![](media/desktop-tutorial-facebook-analytics/15.png)
+   ![Adatelőnézet](media/desktop-tutorial-facebook-analytics/t_fb_1-loadpreview.png)
    
-   Miután az adatok betöltődtek, nevezze át az oszlopot **shares** (megosztások) névre. Ehhez kattintson duplán az oszlop nevére vagy jobb gombbal magára az oszlopra, vagy válassza a **Lekérdezésnézet** szalagon az **Átnevezés** lehetőséget az **Átalakítás** lap **Minden oszlop** csoportjában.
-3. Végül pedig módosítsa az új **shares** oszlop típusát **Egész szám** értékre. Ha az oszlop ki van jelölve, a típus módosításához kattintson jobb gombbal az oszlopra, és válassza az **Átalakítás\>Egész szám** lehetőséget, vagy **** lépjen a **Kezdőlapra**, és válassza az **Adattípus** legördülő menüt.
+## <a name="shape-and-transform-the-imported-data"></a>Az importált adatok formázása és átalakítása
 
-### <a name="query-steps-created"></a>A lekérdezéshez létrehozott lépések
-Ahogy egymás után hajtja végre a különféle átalakításokat a Lekérdezés nézetben, a lekérdezés lépéseit azok létrehozását követően a **Lekérdezési beállítások** ablaktábla sorolja fel az **ALKALMAZOTT LÉPÉSEK** listában. A lekérdezés mindegyik lépése rendelkezik egy megfelelő egy úgynevezett „M” nyelven íródott lekérdezési képlettel.
+Szeretné látni és megjeleníteni, hogy mely bejegyzések rendelkeznek a legtöbb hozzászólással adott időszakban, de észreveszi, hogy a **Bejegyzések** típusú adatok előnézetében a **created_time** adatai nehezen olvashatók és érthetők, és egyáltalán nincsenek hozzászólási adatok. El kell végezni az adatok formázását és tisztítását ahhoz, hogy a legtöbbet tudja kihozni az adatokból. A Power BI Desktop **Power Query-szerkesztőjével** a Power BI Desktopba való importálás előtt vagy után módosíthatja az adatokat. 
 
-![](media/desktop-tutorial-facebook-analytics/16.png)
+### <a name="split-the-datetime-column"></a>A dátum/idő oszlop felosztása
 
-| Feladat | Lekérdezési lépés | Képlet |
-| --- | --- | --- |
-| Kapcsolódás Facebook-forráshoz |Forrás |Facebook.Graph  (&quot;https://graph.facebook.com/microsoftbi/posts&quot;) |
-| **Oszlopok felosztása** a szükséges értékek megkapása érdekében |Oszlop felosztása elválasztó alapján |Table.SplitColumn  (Source,&quot;created_time&quot;,Splitter.SplitTextByDelimiter(&quot;T&quot;),{&quot;created_time.1&quot;, &quot;created_time.2&quot;}) |
-| Az új oszlopok **típusának módosítása** (automatikus lépés) |Típus módosítva |Table.TransformColumnTypes  (#&quot;Oszlop felosztása elválasztó alapján&quot;,{{&quot;created_time.1&quot;, type date}, {&quot;created_time.2&quot;, type time}}) |
-| **Oszlop **átnevezése**** |Oszlopok átnevezve |Table.RenameColumns  (#&quot;Típus módosítva&quot;,{{&quot;created_time.1&quot;, &quot;created_date&quot;}, {&quot;created_time.2&quot;, &quot;created_time&quot;}}) |
-| **Oszlop **beszúrása**** |Óra beszúrva |Table.AddColumn  (#&quot;Oszlopok átnevezve&quot;, &quot;Hour&quot;, each Time.Hour([created_time]), type number) |
-| **Típus módosítása ** |Típus módosítva1 |Table.TransformColumnTypes  (#&quot;Óra beszúrva&quot;,{{&quot;Hour&quot;, type text}}) |
-| **Értékek **kibontása beágyazott táblában**** |shares kibontása |Table.ExpandRecordColumn  (#&quot;Típus módosítva1&quot;, &quot;shares&quot;, {&quot;darabszám&quot;}, {&quot;shares.count&quot;}) |
-| **Az oszlop **átnevezése**** |Oszlopok átnevezve1 |Table.RenameColumns  (#&quot; shares kibontása&quot;,{{&quot;shares.count&quot;, &quot;shares&quot;}}) |
-| **Típus módosítása** |Típus módosítva2 |Table.TransformColumnTypes  (#&quot;Oszlopok átnevezve1&quot;,{{&quot;shares&quot;, Int64.Type}}) |
+Először a **created_time** oszlopban található dátum- és időértékeket válassza szét a jobb olvashatóság érdekében. 
 
-## <a name="task-4-create-additional-visualizations-using-the-report-view"></a>**4. feladat: További vizualizációk létrehozása a Jelentés nézettel**
-Most, miután sikerült az adatokat az elemzés további részéhez szükséges formába átalakítani, az eredményül kapott táblát betölthetjük a jelentésünkbe, és további vizualizációkat hozhatunk létre.
-
-**1. lépés:** A lekérdezés betöltése a jelentésbe
-
-A lekérdezés eredményeinek a jelentésbe való betöltéséhez a **Bezárás és betöltés** lehetőséget kell választanunk a **Lekérdezésszerkesztőben**. Ez betölti a módosított adatokat a Power BI Desktopba, és bezárja a **Lekérdezésszerkesztőt**.
-
-![](media/desktop-tutorial-facebook-analytics/t_fb_1-loadandclose.png)
-
-A Power BI Desktopban mindenképp a **Jelentések** nézetben kell lennünk. Kattintson a legfelső ikonra a Power BI Desktop bal oldali menüsávján.
-
-![](media/desktop-tutorial-facebook-analytics/17.png)
-
-**2. lépés:** Vonaldiagram és sávdiagram létrehozása
-
-Vizualizációk létrehozásához áthúzhatjuk a mezőket a **Mező listából** a **Jelentés vászonra**.
-
-1. Húzza a **shares** mezőt a **Jelentés** vászonra – ez létrehoz egy sávdiagramot. Ezután húzza a created\_date mezőt a diagramra, és a Power BI Desktop **Vonaldiagramra** módosítja a vizualizációt.
+1. A Facebook adatelőnézeti területén válassza a **Szerkesztés** elemet. 
    
-   ![](media/desktop-tutorial-facebook-analytics/19.png)
-2. A következő lépésben húzza a **shares** mezőt a **Jelentés vászonra**. Most pedig húzza a **Hour** mezőt a **Tengely** szakaszba a **Mező lista** területen.
+   ![Adatelőnézeti szerkesztés](media/desktop-tutorial-facebook-analytics/t_fb_1-editpreview.png)
    
-   ![](media/desktop-tutorial-facebook-analytics/20.png)
-3. A vizualizáció típusa a **Vizualizáció** ablaktáblán egy másik ikonra kattintva bármikor módosítható. Az alábbi ábrán a nyíl a **Sávdiagram** ikonra mutat.
+   A Power BI Desktop **Power Query-szerkesztője** egy új ablakban nyílik meg, és megjeleníti a Power BI Facebook-oldaláról származó adatelőnézetet. 
    
-   ![](media/desktop-tutorial-facebook-analytics/21.png)
-4. Módosítsa a vizualizáció típusát **Sávdiagramra**.
-5. Létrejön a **Sávdiagram**, a tengely azonban nem az, amit szeretnénk – mi a másik irányban szeretnénk sorba rendezni (a magasabb értékektől az alacsonyabbakig). Az **Y tengely** melletti lefelé mutató nyílra kattintva bontsa ki az adott szakaszt. A tengely típusát módosítanunk kell **Folytonos** típusról **Kategorikus** típusra, hogy úgy lehessen rendezni, ahogy szeretnénk (az alábbi képen a tengely még a beállítás előtt látható – az azt követő kép mutatja a kívánt állapotot).
+   ![Power Query-szerkesztő](media/desktop-tutorial-facebook-analytics/t_fb_1-intoqueryeditor.png)
+   
+2. Válassza ki a **created_time** oszlopot. Vegye figyelembe, hogy az oszlop jelenleg szöveges adattípusnak minősül, amelyet a fejlécben az **ABC** ikon jelöl. Kattintson a jobb gombbal a fejlécre, majd válassza az **Oszlop felosztása > Elválasztó alapján** lehetőséget a legördülő menőben, vagy válassza az **Oszlop felosztása > Elválasztó alapján** lehetőséget a Kezdőlap szalagfül **Átalakítás** csoportjában.  
+   
+   ![Oszlop felosztása elválasztó alapján](media/desktop-tutorial-facebook-analytics/delimiter1.png)
+   
+3. Az **Oszlop felosztása elválasztó alapján** párbeszédpanelen válassza az **Egyéni** lehetőséget a legördülő menüből, és írja be a **T** karaktert a beviteli mezőbe (ez az a karakter, amely a created_time értékeinek időre vonatkozó részével kezdődik), majd válassza az **OK** gombot. 
+   
+   ![Oszlop felosztása elválasztó alapján párbeszédpanel](media/desktop-tutorial-facebook-analytics/delimiter2.png)
+   
+   A rendszer két olyan oszlopra osztja fel az eredeti oszlopot, amelyek a **T** elválasztó előtti és utáni karakterláncokat tartalmazzák (ezek nevei a következők: **created_time.1** és **created_time.2**). Vegye észre, hogy a Power BI automatikusan észleli és **Dátum** adattípusra módosítja az első oszlop adattípusát, míg **Idő** adattípusra a második oszlop adattípusát, és úgy formázza a dátum- és időértékeket, hogy azok jobban olvashatóbbak legyenek.
+   
+4. Az egyes oszlopfejlécekre duplán kattintva nevezze át az oszlopokat, vagy jelölje ki az egyes oszlopokat, és a menüszalag **Átalakítás** fülének **Minden oszlop** csoportjában válassza az **Átnevezés** parancsot, majd írja be az új oszlopfejléceket: **created_date** és **created_time**.
+   
+   ![Új dátum- és időoszlopok](media/desktop-tutorial-facebook-analytics/delimiter3.png)
+   
+### <a name="expand-the-nested-column"></a>A beágyazott oszlop kibontása
 
-![](media/desktop-tutorial-facebook-analytics/22.png)
+Most, hogy a dátum- és időadatok a kívánt módon jelennek meg, a beágyazott oszlop kibontásával jelenítheti meg a hozzászólások adatait. 
 
-Mindjárt jobb is. És most már három vizualizációval rendelkezünk ezen az oldalon, amelyeket igény szerint átméretezhetünk a jelentésoldal kitöltése érdekében.
+1. Válassza az **object_link** oszlopot, majd a ![kibontás ikon](media/desktop-tutorial-facebook-analytics/14.png) ikon kiválasztásával megnyithatja a **Kibontás/összesítés** párbeszédpanelt. Válassza a **kapcsolatok** elemet, majd válassza az **OK** gombot. 
+   
+   ![Az object_link kibontása](media/desktop-tutorial-facebook-analytics/expand1.png)
+   
+   Az oszlopfejléc a következőre változik: **object_link.connections**.
+2. Újból válassza a ![kibontás ikon](media/desktop-tutorial-facebook-analytics/14.png) ikont az **object_link.connections** oszlop tetején, majd válassza a **hozzászólások** elemet és az **OK** gombot. Az oszlopfejléc a következőre változik: **object_link.connections.comments**.
+   
+3. Válassza a ![kibontás ikon](media/desktop-tutorial-facebook-analytics/14.png) ikont az **object_link.connections.comments** oszlop tetején, majd a Kibontás helyett ezúttal válassza az **Összesítés** elemet a párbeszédpanelen. Válassza az **Azonosító száma** lehetőséget, majd válassza az **OK** gombot. 
+   
+   ![Hozzászólások összesítése](media/desktop-tutorial-facebook-analytics/expand2.png)
+   
+   Az oszlop most már az egyes üzenetekhez tartozó hozzászólások számát mutatja. 
+   
+4. Nevezze át az **object_link.connections.comments.id száma** oszlopot a következőre: **Hozzászólások száma**.
+   
+5. Válassza ki a **Hozzászólások száma** fejléc melletti lefelé mutató nyilat, majd a **Csökkenő rendezés** kiválasztásával tekintheti meg a bejegyzéseket a hozzászólások csökkenő sorrendben való rendezésével. 
+   
+   ![Üzenetenkénti hozzászólások](media/desktop-tutorial-facebook-analytics/data-fixed.png)
+   
+### <a name="review-query-steps"></a>Lekérdezési lépések áttekintése
 
-![](media/desktop-tutorial-facebook-analytics/23.png)
+Miután a **Power Query-szerkesztő** használatával elvégzi az adatok formázását és átalakítását, a rendszer minden egyes lépést rögzít a Power Query-szerkesztői ablak jobb oldalán lévő **Lekérdezés beállításai** ablaktábla **Alkalmazott lépések** területén. Visszaléphet az Alkalmazott lépések használatával, és megtekintheti, hogy pontosan milyen módosításokat hajtott végre, valamint szerkesztheti, törölheti és átrendezheti az egyes lépéseket szükség szerint (bár ez kockázatos, mert a korábbi lépések módosítása a további lépések hibás rögzítéséhez vezethet). 
 
-Amint láthatja, a jelentésekhez könnyen készíthetőek vizualizációk, így tetszőleges módon lehet bemutatni az adatokat. A Power BI Desktop teljes körű szolgáltatást nyújt, lehetővé téve az adatok számos különféle adatforrásból való beszerzését, az elemzési igényeknek megfelelő átalakítását, valamint a látványos és interaktív módon történő megjelenítését. Miután elkészült a jelentés, [felöltheti azt a Power BI-ba](desktop-upload-desktop-files.md), és létrehozhat azon alapuló irányítópultokat, amelyeket más Power BI-felhasználókkal meg is oszthat.
+Az eddigi adatátalakítások alkalmazása után az Alkalmazott lépések terület a következőhöz hasonló:
+   
+   ![Alkalmazott lépések](media/desktop-tutorial-facebook-analytics/applied-steps.png)
+   
+   >[!TIP]
+   >Az Alkalmazott lépések alapjául olyan képletek szolgálnak, amelyek **Power Query-nyelven** (más néven **M**) íródtak. A Kezdőlap szalagfül **Lekérdezés** csoportjában lévő **Speciális szerkesztő** kiválasztásával megtekintheti és szerkesztheti a képleteket. 
 
-Az oktatóanyag végeredményét [innen](http://download.microsoft.com/download/1/4/E/14EDED28-6C58-4055-A65C-23B4DA81C4DE/FacebookAnalytics.pbix) töltheti le
+### <a name="import-the-transformed-data"></a>Az átalakított adatok importálása
 
-### <a name="where-else-can-i-get-more-information"></a>Hol olvashatok további információkat?
+Ha elégedett az adatokkal, a Kezdőlap szalagfül **Bezárás és alkalmazás** > **Bezárás és alkalmazás** elemének kiválasztásával importálhatja azokat a Power BI Desktop alkalmazásba. 
+   
+   ![Bezárás és alkalmazás](media/desktop-tutorial-facebook-analytics/t_fb_1-loadandclose.png)
+   
+   Egy párbeszédpanel jelenik meg, amelyen az adatok a Power BI Desktop adatmodellbe való betöltése követhető nyomon. 
+   
+   ![Adatok betöltése](media/desktop-tutorial-facebook-analytics/t_fb_1-loading.png)
+   
+   A betöltést követően az adatok a Jelentés nézetben jelennek meg a Mezők lista új lekérdezéseként.
+   
+   ![Új lekérdezés](media/desktop-tutorial-facebook-analytics/fb-newquery.png)
+   
+## <a name="use-the-data-in-report-visualizations"></a>Az adatok használata jelentésbeli vizualizációkban 
+
+Most, miután betöltötte az adatokat a Facebook-oldalról, a vizualizációk használatával gyorsan és egyszerűen elemezheti azokat. A vizualizációk létrehozása egyszerű, egyszerűen válasszon ki egy mezőt, vagy húzza át azt a **Mezők** listából a jelentésvászonra.
+
+### <a name="create-a-bar-chart"></a>Sávdiagram létrehozása
+
+1. A Power BI Desktop jelentési nézetében válassza ki az **üzenet** elemet a mezőlistából, vagy húzza át azt a vászonra. Az összes bejegyzésüzenetet tartalmazó tábla megjelenik a vásznon. 
+   
+   ![Új lekérdezés](media/desktop-tutorial-facebook-analytics/table-viz.png)
+   
+2. A tábla kijelölése után válassza a **Hozzászólások száma** elemet a Mezők listában, vagy húzza át azt a táblába. 
+   
+3. Válassza a **Halmozott sávdiagram** ikont a Megjelenítések ablaktáblán. A tábla olyan sávdiagramra változik, amely a bejegyzésenkénti hozzászólások számát mutatja. 
+   
+   ![Sávdiagram](media/desktop-tutorial-facebook-analytics/barchart1.png)
+   
+4. Válassza a vizualizáció jobb felső sarkában a három pont (...) lehetőséget, majd a **Rendezés hozzászólások száma szerint** elem kiválasztásával csökkenő sorrendbe rendezheti a tábla adatait. 
+   
+   ![Rendezés hozzászólások száma szerint](media/desktop-tutorial-facebook-analytics/barchart2.png)
+   
+5. Vegye észre, hogy a rendszer a legtöbb hozzászólást **Üres** üzenettel társította (elképzelhető, hogy ezek a bejegyzések történetek, hivatkozások, videók vagy egyéb nem szöveges tartalmak lehetettek). Az Üres sor kiszűréshez válassza a Megjelenítések ablaktábla alján található **Szűrők** elem **üzenet (összes)** lehetőségét, válassza az **Összes kijelölése** lehetőséget, majd válassza az **Üres** lehetőséget a bejelölés eltávolításához. A Szűrők bejegyzés az **üzenet nem (Üres)** értékre változik, és az Üres sor eltűnik a diagramos vizualizációból. 
+   
+   ![Üres értékek kiszűrése](media/desktop-tutorial-facebook-analytics/barchart3.png)
+   
+### <a name="format-the-chart"></a>A diagram formázása
+
+A vizualizáció kezd érdekes lenni, de nem túl sok bejegyzésszöveg látható a diagramon. További bejegyzésszöveg megjelenítése:
+
+1. A diagramos vizualizáció fogópontjainak használatával méretezze át a diagramot úgy, hogy az a lehető legnagyobb legyen. 
+   
+2. A diagram kijelölése után válassza a **Formázás ikont** (festőhenger) a Megjelenítések ablaktáblán.
+   
+3. Válassza az **Y tengely** melletti lefelé mutató nyilat, majd húzza a **Maximális méret** felirat melletti csúszkát egészen jobbra (50%). 
+4. Továbbá csökkentse a **szövegméretet** **10-es** értékre, hogy még több szöveg férjen el.
+   
+   ![Módosítások formázása](media/desktop-tutorial-facebook-analytics/barchart4.png)
+   
+   A diagramon most már több látszik a bejegyzés tartalmából. 
+   
+   ![További bejegyzések megjelenítése](media/desktop-tutorial-facebook-analytics/barchart5.png)
+   
+A diagram X tengelye (hozzászólások száma) nem pontos értékeket mutat, és zavarosnak tűnik a diagram alján. Ön inkább adatfeliratok használata mellett dönt. 
+
+1. Válassza a Formázás ikont, majd az **X tengely** melletti csúszka használatával kapcsolja **ki** azt. 
+   
+2. Válassza az **Adatfeliratok** melletti csúszkát a feliratok **bekapcsolásához**. A diagramon most már megjelenik az egyes bejegyzésekhez tartozó hozzászólások pontos száma.
+   
+   ![Adatfeliratok alkalmazása](media/desktop-tutorial-facebook-analytics/barchart6.png)
+   
+### <a name="edit-the-data-type"></a>Az adattípus szerkesztése
+
+Ez így már jobb, de az adatfeliratok mindegyike **.0** tizedesértékkel rendelkezik, amely zavaró és félrevezető, mivel a **bejegyzések számának** egész számnak kell lennie. Módosítani kell a **Bejegyzések száma** oszlop adattípusát egész számra.
+
+1. Az adattípus szerkesztéséhez kattintson a jobb gombbal a **Lekérdezés1** elemre a Mezők listában, vagy mutasson rá az egérmutatóval, válassza a **További beállítások** három pontot (...), majd válassza a **Lekérdezés szerkesztése** lehetőséget. Használhatja a Kezdőlap szalagfül **Külső adatok** területének **Lekérdezések szerkesztése** parancsát is, ilyenkor válassza a **Lekérdezések szerkesztése** lehetőséget a legördülő menüből. A Power BI Desktopban található **Power Query-szerkesztő** külön ablakban nyílik meg.
+   
+   ![Lekérdezés szerkesztése a Mezők listából](media/desktop-tutorial-facebook-analytics/editquery1.png)     ![Lekérdezések szerkesztése a menüszalagról](media/desktop-tutorial-facebook-analytics/t_fb_editquery.png)
+   
+2. A Power Query-szerkesztőben válassza a **Hozzászólások száma** oszlopot, majd módosítsa az adattípust **egész számra** az alábbi módszerek egyikével: 
+   - Válassza az **1.2** ikont a **Hozzászólások száma** oszlopfejléc mellett, majd válassza az **Egész szám** lehetőséget a legördülő menüből.
+   - Kattintson a jobb gombbal az oszlopfejlécre, majd válassza a **Típus módosítása > Egész szám** lehetőséget.
+   - Válassza az **Adattípus: Tizedes tört szám** lehetőséget a Kezdőlap szalagfül **Átalakítás** csoportjában, vagy az **Átalakítás** szalagfül **Minden oszlop** csoportjában válassza az **Egész szám** lehetőséget.
+   
+   Az oszlopfejléc ikonja **123** értékre változik, így jelölve az Egész szám adattípust.
+   
+   ![Adattípus módosítása](media/desktop-tutorial-facebook-analytics/change-datatype.png)
+   
+3. A **Bezárás és alkalmazás** vagy egyszerűen az **Alkalmazás** elemet kiválasztva alkalmazhatja a módosításokat, miközben a Power Query-szerkesztő ablaka továbbra is nyitva marad. A módosítások betöltését követően a diagram adatfeliratai egész számokra változnak. 
+   
+   ![Diagram egész számokkal](media/desktop-tutorial-facebook-analytics/vis-3.png)
+   
+### <a name="create-a-date-slicer"></a>Dátumszeletelő létrehozása
+
+Szeretné vizualizálni a bejegyzések hozzászólásainak számát adott időszakban. Szeletelői vizualizáció létrehozásával szűrni lehet a diagram adatait a különböző időkereteknek megfelelően. 
+
+1. Kattintson a vászon egy üres területére, majd válassza a **Szeletelő ikont** a Megjelenítések ablaktáblán. Megjelenik egy üres szeletelői vizualizáció. 
+   
+   ![Szeletelő ikon kiválasztása](media/desktop-tutorial-facebook-analytics/slicer1.png)
+   
+2. Válassza a **created_date** mezőt a Mezők listából, vagy húzza át az új szeletelőre. A szeletelő egy dátumtartomány típusú csúszkává változik a mező Dátum adattípusa alapján.
+   
+   ![Dátumtartomány típusú csúszka szeletelője](media/desktop-tutorial-facebook-analytics/slicer2.png)
+   
+3. A csúszka fogópontjainak mozgatásával különböző dátumtartományokat választhat ki, és észreveheti, hogy a diagram adatait a rendszer ennek megfelelően szűri. A dátummezőket is használhatja a szeletelőben, és konkrét dátumokat írhat be, vagy kiválaszthatja azokat a felbukkanó naptárból.
+    
+   ![Adatok szeletelése](media/desktop-tutorial-facebook-analytics/slicer3.png)
+   
+### <a name="format-the-visualizations"></a>A vizualizációk formázása
+
+Úgy dönt, hogy egy még inkább leíró jellegű, vonzó címet ad a diagramnak. 
+
+1. Miután kijelölte a diagramot, válassza a **Formázás** ikont, majd válassza a lefelé mutató nyilat a **Cím** kibontásához.
+2. Módosítsa a **Címszöveget** a következőre: **Hozzászólások bejegyzésenként**. 
+3. Válassza a **Betűszín** melletti lefelé mutató nyilat, majd válasszon zöld színt a vizualizáció zöld sávjaihoz való illeszkedés céljából.
+4. Növelje a **szövegméretet** **10-es** értékre, és módosítsa a **betűcsaládot** **Segoe (félkövér)** lehetőségre.
+
+![Diagramcím formázása](media/desktop-tutorial-facebook-analytics/formatting1.png)
+
+Kísérletezzen a további formázási lehetőségekkel és beállításokkal a vizualizációk megjelenésének módosításához. 
+
+![Vizualizációs elemek](media/desktop-tutorial-facebook-analytics/vis-1.png)
+
+## <a name="create-more-visualizations"></a>További vizualizációk létrehozása
+
+Amint láthatja, a jelentésekben könnyen testre szabhatók a vizualizációk, így tetszőleges módon lehet bemutatni az adatokat. Például az importált Facebook-adatok használatával próbálja meg létrehozni ezt a vonaldiagramot, amely a hozzászólások számát mutatja adott időszakban.
+
+![Vonaldiagram](media/desktop-tutorial-facebook-analytics/moreviz.png)
+
+A Power BI Desktop teljes körű szolgáltatást nyújt, lehetővé téve az adatok számos különféle adatforrásból való beszerzését, az elemzési igényeknek megfelelő átalakítását, valamint látványos és interaktív módon történő megjelenítését. Miután elkészült a jelentés, [feltöltheti azt a Power BI szolgáltatásba](desktop-upload-desktop-files.md), és létrehozhat azon alapuló irányítópultokat, amelyeket más Power BI-felhasználókkal is megoszthat.
+
+## <a name="next-steps"></a>Következő lépések
 * [Olvassa el a többi Power BI Desktop-oktatóanyagot](http://go.microsoft.com/fwlink/?LinkID=521937)
 * [Tekintse meg a Power BI Desktop videóit](http://go.microsoft.com/fwlink/?LinkID=519322)
 * [Látogasson el a Power BI fórumára](http://go.microsoft.com/fwlink/?LinkID=519326)
 * [Látogasson el a Power BI blogra](http://go.microsoft.com/fwlink/?LinkID=519327)
-
-
 

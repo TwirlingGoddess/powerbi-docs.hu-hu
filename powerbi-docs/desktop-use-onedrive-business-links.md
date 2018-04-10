@@ -1,15 +1,15 @@
 ---
-title: "OneDrive Vállalati verzióra mutató hivatkozások használata a Power BI Desktopban"
-description: "OneDrive Vállalati verzióra mutató hivatkozások használata a Power BI Desktopban"
+title: OneDrive Vállalati verzióra mutató hivatkozások használata a Power BI Desktopban
+description: OneDrive Vállalati verzióra mutató hivatkozások használata a Power BI Desktopban
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/05/2017
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 7d203668f3fbb3f9a50af50280d68d2fadf15f64
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: ad83703b77907488f47f9b5f419e8e4d5145ae97
+ms.sourcegitcommit: ae4d771b883b654358a6a94dd784ea9bdf3d3aa3
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="use-onedrive-for-business-links-in-power-bi-desktop"></a>OneDrive Vállalati verzióra mutató hivatkozások használata a Power BI Desktopban
 Sokan tárolnak olyan Excel-munkafüzeteket a OneDrive Vállalati verzió meghajtóján, amelyeket kiválóan tudnának a Power BI Desktopban használni. A **Power BI Desktopban** használhat a **OneDrive Vállalati verziójában** tárolt **Excel**-fájlokra mutató online hivatkozásokat jelentések és vizualizációk létrehozásához. Ehhez használhat **OneDrive Vállalati verzió**-csoportfiókot, vagy a saját **OneDrive Vállalati verzió**-fiókját.

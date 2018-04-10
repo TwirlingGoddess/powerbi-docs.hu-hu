@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 03/22/2018
 ms.author: maghan
 LocalizationGroup: Administration
-ms.openlocfilehash: 8b0b49e5c628f5e01bb2368d9bc471acc5342f97
-ms.sourcegitcommit: 1fe3ababba34c4e7aea08adb347ec5430e0b38e4
+ms.openlocfilehash: 685091cff071676da050d1a042a487fdadc77407
+ms.sourcegitcommit: ae4d771b883b654358a6a94dd784ea9bdf3d3aa3
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="purchasing-power-bi-pro"></a>A Power BI Pro megvásárlása
 
@@ -70,6 +70,10 @@ Ha Ön Office-rendszergazda, kövesse az alábbi lépéseket a Power BI Pro megv
 ## <a name="pricing"></a>Díjszabás
 
 A díjszabással kapcsolatos legújabb információkért tekintse át a [Power BI díjszabásának lapját](https://powerbi.microsoft.com/en-us/pricing/).
+
+> [!NOTE]
+> A hozzárendelt Pro licenccel rendelkező felhasználóknak az előfizetés befejeződése után 30 napig lesz teljes hozzáférésük. Amikor ez megtörténik az előfizetési állapota „lejárt” lesz a Felügyeleti portálon.
+>
 
 ## <a name="next-steps"></a>Következő lépések
 [Önkiszolgáló regisztráció a Power BI-ra](service-admin-signing-up-for-power-bi-with-a-new-office-365-trial.md)
