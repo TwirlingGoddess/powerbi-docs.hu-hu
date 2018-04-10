@@ -1,15 +1,15 @@
 ---
-title: "Kerberos használata a helyszíni átjárón egyszeri bejelentkezésre (SSO) a Power BI-ból a helyszíni adatforrásokba"
-description: "Az átjáró konfigurálása a Kerberosszal az egyszeri bejelentkezés engedélyezéséhez a Power BI-ból a helyszíni adatforrásokba"
+title: Kerberos használata a helyszíni átjárón egyszeri bejelentkezésre (SSO) a Power BI-ból a helyszíni adatforrásokba
+description: Az átjáró konfigurálása a Kerberosszal az egyszeri bejelentkezés engedélyezéséhez a Power BI-ból a helyszíni adatforrásokba
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 03/09/2018
 ms.author: davidi
 LocalizationGroup: Gateways
-ms.openlocfilehash: 834800b26e8dd3738f274a73aa4ff9b36402a3d9
-ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
+ms.openlocfilehash: f60709e45e844ff7ab1a9c6bf3cb669c567dfcc8
+ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 03/12/2018
+ms.lasthandoff: 03/30/2018
 ---
 # <a name="use-kerberos-for-sso-single-sign-on-from-power-bi-to-on-premises-data-sources"></a>Kerberos használata egyszeri bejelentkezésre (SSO) a Power BI-ból a helyszíni adatforrásokba
 Ha a helyszíni adatátjárót konfigurálja a Kerberosszal, zökkenőmentes egyszeri bejelentkezési kapcsolatot érhet el, amely lehetővé teszi a Power BI-jelentések és -irányítópultok frissítését a helyszíni adatokból. A helyszíni adatátjáró segíti az egyszeri bejelentkezést (SSO) a DirectQuery használatakor, amellyel a helyszíni adatforrásokhoz kapcsolódik.

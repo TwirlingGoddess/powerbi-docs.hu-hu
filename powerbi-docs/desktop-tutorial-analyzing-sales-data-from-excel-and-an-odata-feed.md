@@ -1,15 +1,15 @@
 ---
-title: "Oktatóanyag: Excelből és OData-csatornáról származó értékesítési adatok elemzése a Power BI Desktopban"
-description: "Oktatóanyag: Excelből és OData-csatornáról származó értékesítési adatok elemzése"
+title: 'Oktatóanyag: Excelből és OData-csatornáról származó értékesítési adatok elemzése a Power BI Desktopban'
+description: 'Oktatóanyag: Excelből és OData-csatornáról származó értékesítési adatok elemzése'
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: 4cab3ed114d03d42c6acf1bf62f70e7d920e16b2
-ms.sourcegitcommit: d91b7bf18d5c504037134f375886633379f28ede
+ms.openlocfilehash: aad93a6c636fb0d75ad89f9e3d9eb70ec203cc88
+ms.sourcegitcommit: afa10c016433cf72d6d366c024b862187a8692fd
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/04/2018
 ---
 # <a name="tutorial-analyzing-sales-data-from-excel-and-an-odata-feed"></a>Oktatóanyag: Excelből és OData-csatornáról származó értékesítési adatok elemzése
 A **Power BI Desktop** használatával különféle adatforrásokhoz kapcsolódhat, majd az ezekből származó adatokat úgy kombinálhatja és alakíthatja, hogy érdekes és magukkal ragadó elemzéseket és vizualizációkat eredményezzenek. Ebben az oktatóanyagban megtanulhatja, hogyan kombinálja két adatforrás adatait. 
@@ -133,7 +133,7 @@ Az egyes **Order\_Details** (Megrendelés részletei) sorok végösszegének kis
 1. Az **Oszlop hozzáadása** szalagfülön kattintson a **Hozzáadás** **Egyéni oszlop** lehetőségre.
    
    ![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/t_excelodata_4.png)
-2. Az **Egyéni oszlop hozzáadása** párbeszédablak **Egyéni oszlopképlet** szövegmezőjébe írja be az **[Order\_Details.UnitPrice] \* [Order\_Details.Quantity]** képletet.
+2. Az **Egyéni oszlop hozzáadása** párbeszédablak **Egyéni oszlopképlet** szövegmezőjébe írja be az **[Order\_Details.UnitPrice]**  \* **[Order\_Details.Quantity]** képletet.
 3. Az **Új oszlop neve** szövegmezőbe írja be a **LineTotal** (Sor összege) nevet.
    
    ![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/8.png)

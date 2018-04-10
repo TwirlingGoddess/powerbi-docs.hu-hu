@@ -1,15 +1,15 @@
 ---
-title: "Magas rendelkezésre állású fürtök helyszíni adatátjáróhoz"
-description: "A helyszíni adatátjárókból fürtök hozhatók létere, amelyek révén magas rendelkezésre állás biztosítható a vállalat számára."
+title: Magas rendelkezésre állású fürtök helyszíni adatátjáróhoz
+description: A helyszíni adatátjárókból fürtök hozhatók létere, amelyek révén magas rendelkezésre állás biztosítható a vállalat számára.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/05/2017
 ms.author: davidi
 LocalizationGroup: Gateways
-ms.openlocfilehash: 717451afc35614e9c356e5748f39f0302fa6244e
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 9ad1d4288184368dbb294bfafa69fe005780b322
+ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/30/2018
 ---
 # <a name="high-availability-clusters-for-on-premises-data-gateway"></a>Magas rendelkezésre állású fürtök helyszíni adatátjáróhoz
 A **helyszínen üzemelő adatátjárókból** **magas rendelkezésre állású fürtöket** hozhat lére, így biztosíthatja a szervezet hozzáférését a Power BI-jelentések és -irányítópultok által használt helyszíni adatforrásokhoz. Ezek a fürtök lehetővé teszik az átjárót felügyelő rendszergazdák számára az átjárók csoportosítását, és ezzel elkerülhetik, hogy egy adott pont meghibásodása megakadályozza a helyszíni adatforrásokhoz való hozzáférést. Ez a cikk azokat a lépéseket ismerteti, amelyekkel létrehozható a helyszíni adatátjárókból egy magas rendelkezésre állású fürt, és a beállításokhoz használható ajánlott eljárásokat is tartalmaz. A magas rendelkezésre állású átjárófürtökhöz a helyszíni adatátjáró 2017. novemberi vagy újabb frissítésére van szükség.

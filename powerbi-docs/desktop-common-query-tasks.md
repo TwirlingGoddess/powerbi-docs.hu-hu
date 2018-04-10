@@ -1,15 +1,15 @@
 ---
-title: "Gyakori lekérdezési feladatok a Power BI Desktopban"
-description: "Gyakori lekérdezési feladatok a Power BI Desktopban"
+title: Gyakori lekérdezési feladatok a Power BI Desktopban
+description: Gyakori lekérdezési feladatok a Power BI Desktopban
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 4d0a8b9a1f855c373b43c5c78ec41b6bc34d1d18
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 37c5e55d426d308fe8ea7de5c6604a9c66f81896
+ms.sourcegitcommit: afa10c016433cf72d6d366c024b862187a8692fd
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/04/2018
 ---
 # <a name="common-query-tasks-in-power-bi-desktop"></a>Gyakori lekérdezési feladatok a Power BI Desktopban
 A Power BI Desktop **Lekérdezésszerkesztő** ablakában elérhető néhány gyakran használt feladat. Ez a dokumentum ezeket a gyakori feladatokat mutatja be, és további információkra mutató hivatkozásokat is tartalmaz. 
@@ -45,7 +45,7 @@ Az első adatkapcsolat egy Excel-munkafüzet. A másik egy webes forrásanyag (e
 A két adatforráshoz való kapcsolódáshoz szükséges lépésekkel kezdődnek a gyakori lekérdezési feladatok.
 
 ## <a name="connect-to-data"></a>Csatlakozás adatokhoz
-A Power BI Desktopban az adatokhoz való kapcsolódáshoz kattintson a **Lekérdezés** gombra a **Kezdőlap** szalagon. Ekkor megjelenik a Power BI Desktop leggyakoribb adatforrásokat tartalmazó menüje. Az adatforrások teljes listájához, amelyekhez a Power BI Desktop csatlakoztatható, kattintson a menü alján a **Továbbiak...** gombra. További információért lásd [a Power BI Desktop adatforrásait](https://powerbi.uservoice.com/knowledgebase/articles/471643).
+A Power BI Desktopban az adatokhoz való kapcsolódáshoz kattintson a **Lekérdezés** gombra a **Kezdőlap** szalagon. Ekkor megjelenik a Power BI Desktop leggyakoribb adatforrásokat tartalmazó menüje. Az adatforrások teljes listájához, amelyekhez a Power BI Desktop csatlakoztatható, kattintson a menü alján a **Továbbiak...** gombra. További információért lásd [a Power BI Desktop adatforrásait](https://docs.microsoft.com/en-us/power-bi/desktop-data-sources).
 
 ![](media/desktop-common-query-tasks/commonquerytasks_getdata.png)
 
@@ -67,10 +67,10 @@ Kattintson az **OK** gombra, és a Power BI Desktop az előző lépéshez hasonl
 
 A többi adatkapcsolat is hasonlóan működik. Ha valamely adatkapcsolat létrehozásához hitelesítés szükséges, a Power BI Desktop megkéri, hogy adja meg a megfelelő hitelesítő adatokat.
 
-A Power BI Desktop-adatkapcsolatok létrehozásával kapcsolatos lépésenkénti útmutatóért lásd a témakört, amely azzal foglalkozik, [hogyan kapcsolódhat adatokhoz a Power BI Desktopban](https://powerbi.uservoice.com/knowledgebase/articles/471635).
+A Power BI Desktop-adatkapcsolatok létrehozásával kapcsolatos lépésenkénti útmutatóért lásd a témakört, amely azzal foglalkozik, [hogyan kapcsolódhat adatokhoz a Power BI Desktopban](https://docs.microsoft.com/en-us/power-bi/desktop-connect-to-data).
 
 ## <a name="shape-and-combine-data"></a>Adatok formázása és egyesítése
-A Lekérdezésszerkesztővel egyszerűen formázhatja és egyesítheti az adatokat. Ebben a szakaszban bemutatunk néhány példát az adatok formázására. Az adatok formázásának és egyesítésének részletesebb bemutatójáért lásd: **[Adatok formázása és egyesítése a Power BI Desktoppal](https://powerbi.uservoice.com/knowledgebase/articles/471644)**.
+A Lekérdezésszerkesztővel egyszerűen formázhatja és egyesítheti az adatokat. Ebben a szakaszban bemutatunk néhány példát az adatok formázására. Az adatok formázásának és egyesítésének részletesebb bemutatójáért lásd: **[Adatok formázása és egyesítése a Power BI Desktoppal](https://docs.microsoft.com/en-us/power-bi/desktop-shape-and-combine-data)**.
 
 Az előző szakaszban két adatkészletet csatlakoztattunk, egy Excel-munkafüzetet és egy webes erőforrást. Miután betöltöttük az adatokat a Lekérdezésszerkesztőbe, a következőt látjuk, ha a webes erőforrás lekérdezése van kiválasztva (a Lekérdezésszerkesztő ablak bal oldalán, a **Lekérdezések** panelen felsorolt elérhető lekérdezések között).
 
@@ -78,16 +78,16 @@ Az előző szakaszban két adatkészletet csatlakoztattunk, egy Excel-munkafüze
 
 Az adatok formázása során az adatokat olyan formába és formátumba alakítjuk, amely megfelel az igényeinknek. Ebben az esetben az első, *Header* (Fejléc) című oszlopra nincs szükségünk, ezért eltávolítjuk.
 
-A **Lekérdezésszerkesztőben** számos parancs található a menüszalagon és a környezetfüggő helyi menüben is. Például jobb gombbal a *Header* oszlopra kattintva a megjelenő menü megfelelő elemével törölhetjük az oszlopot. Azt is megtehetjük, hogy kijelöljük az oszlopot, majd a menüszalag **Oszlopok eltávolítása** gombjával töröljük.
+A **Lekérdezésszerkesztőben** számos parancs található a menüszalagon és a környezetfüggő helyi menüben is. Például a jobb gombbal a *Header* oszlopra kattintva a megjelenő menü megfelelő elemével törölheti az oszlopot. Azt is megteheti, hogy kijelöli az oszlopot, majd a menüszalag **Oszlopok eltávolítása** gombjával töröli.
 
 ![](media/desktop-common-query-tasks/commonquerytasks_removecolumns.png)
 
-A lekérdezés adatait rengeteg egyéb módon is átalakíthatnánk: bármennyi sort törölhetnénk felülről vagy alulról; hozzáadhatnánk oszlopokat vagy feloszthatnánk a meglévőket; cserélhetnénk az értékeket, továbbá egyéb alakítási műveletekkel is utasíthatnánk a Lekérdezésszerkesztőt, hogy a kívánt formába öntse az adatokat.
+A lekérdezés adatait rengeteg egyéb módon is átalakíthatja: bármennyi sort törölhet felülről vagy alulról; hozzáadhat oszlopokat vagy feloszthatja a meglévőket; cserélheti az értékeket, továbbá egyéb alakítási műveletekkel is utasíthatja a Lekérdezésszerkesztőt, hogy a kívánt formába öntse az adatokat.
 
 ## <a name="group-rows"></a>Sorok csoportosítása
 A Lekérdezésszerkesztőben több sor értékét csoportosítással egyetlen értékké vonhatjuk össze. Ez hasznos lehet például akkor, ha összesíteni szeretné az árajánlatokban szereplő termékek darabszámát, az összes értékesítést vagy a diákok számát.
 
-Ebben a példában egy oktatási regisztrációs adatkészlet sorait csoportosítjuk. Az adatok egy Excel-munkafüzetből származnak, és a Lekérdezésszerkesztőben már megformáztuk őket, így csak a szükséges oszlopok maradtak, a tábla át lett nevezve, és végrehajtottunk még néhány más átalakítást is.
+Ebben a példában egy oktatási regisztrációs adatkészlet sorait csoportosítjuk. Az adatok egy Excel-munkafüzetből származnak, és a Lekérdezésszerkesztőben már megformáztuk őket, így csak a szükséges oszlopok maradtak, nevezze át a táblát, és hajtson végre néhány más átalakítást is.
 
 Lássuk, hány Ügynökség (ez jelenthet iskolakörzetet vagy egyéb oktatási ügynökségeket, például regionális szolgáltatási körzeteket) van az egyes államokban. Jelölje ki a *State Abbr* oszlopot, majd kattintson a menüszalagon az **Átalakítás** vagy a **Kezdőlap** **Csoportosítási szempont** gombjára (a **Csoportosítási szempont** gomb mindkét lapon elérhető).
 
@@ -95,14 +95,16 @@ Lássuk, hány Ügynökség (ez jelenthet iskolakörzetet vagy egyéb oktatási 
 
 Megnyílik a **Csoportosítási szempont...** ablak. A sorok csoportosításakor a Lekérdezésszerkesztő egy új oszlopot hoz létre, amelyben a **Csoportosítási szempont** eredményeit helyezi el. A **Csoportosítási szempont** művelet a következők szerint állítható be:
 
-1. *Csoportosítási szempont* – Ez a csoportosítandó oszlop. A Lekérdezésszerkesztő a kijelölt oszlopot választja ki, de ebben az ablakban bármely másik oszlopot kiválaszthatja.
+1. *Csoportosítási szempont* – Ez a csoportosítandó oszlop. A Lekérdezésszerkesztő a kijelölt oszlopot választja ki, de ebben az ablakban bármely másik oszlopot is kiválaszthatja.
 2. *Új oszlop neve* – A Lekérdezésszerkesztő javaslatot tesz az új oszlop nevére a csoportosított oszlopon végrehajtott művelet alapján, de az új oszlopot ettől függetlenül bármilyen névre átnevezheti.
 3. *Művelet* – Itt adhatja meg a Lekérdezésszerkesztő által alkalmazott műveletet.
-4. *A +/- jelek* – Egyszerre több oszlopra kiterjedő összesítési műveleteket (**Csoportosítási szempont** műveleteket) is végrehajthat, és egyszerre több összesítést is elvégezhet a **Csoportosítási szempont** ablakban, egyetlen művelet részeként. A Lekérdezésszerkesztő létrehoz egy új oszlopot (az ebben az ablakbon kiválasztott beállítások szerint), amely több oszlopot kezel majd. A **+** gombra kattintva adhat hozzá további oszlopokat vagy összesítéseket egy **Csoportosítási szempont** művelethez. Az oszlopokat vagy összesítéseket a – gombra kattintva rögtön törölheti, így nyugodtan kísérletezhet a funkció használatával. 
+4. *Csoportosítás hozzáadása* és *Összesítés hozzáadása* – ezek a lehetőségek a **Speciális** beállítás kiválasztása után jelennek meg. Egyszerre több oszlopra kiterjedő összesítési műveleteket (**Csoportosítási szempont** műveleteket) is végrehajthat, és egyszerre több összesítést is elvégezhet a **Csoportosítási szempont** ablakban, egyetlen művelet részeként. A Lekérdezésszerkesztő létrehoz egy új oszlopot (az ebben az ablakbon kiválasztott beállítások szerint), amely több oszlopot kezel majd. 
+
+Válassza a **Csoportosítás hozzáadása** vagy az **Összesítés hozzáadása** gombot, ha további csoportosításokat vagy összesítéseket szeretne hozzáadni a **Csoportosítási szempont** művelethez. Az oszlopokat vagy összesítéseket törölheti, ha rákattint a **...** ikonra, majd a **Törlés** lehetőséget választja, így nyugodtan kísérletezhet a funkció használatával.
    
    ![](media/desktop-common-query-tasks/commonquerytasks_groupbynumbered.png)
 
-Az **OK** gombra kattintva a lekérdezés végrehajtja a **Csoportosítási szempont** műveletet, és visszaadja az eredményeket. Az a helyzet, hogy Ohióban, Texasban, Illinoisban és Kaliforniában is több mint ezer ügynökség található!
+Az **OK** gombra kattintva a lekérdezés végrehajtja a **Csoportosítási szempont** műveletet, és visszaadja az eredményeket. Az a helyzet, hogy Ohióban, Texasban, Illinoisban és Kaliforniában is most már több mint ezer ügynökség található!
 
 ![](media/desktop-common-query-tasks/commonquerytasks_groupedresult.png)
 
@@ -126,7 +128,7 @@ Az **OK** gombra kattintva a Lekérdezésszerkesztő megjeleníti a táblát a *
 ## <a name="create-custom-columns"></a>Egyéni oszlopok létrehozása
 A Lekérdezésszerkesztőben létrehozhat olyan egyéni képleteket, amelyek a tábla több oszlopán futnak, majd az ilyen képletek eredményét tárolhatja egy új (egyéni) oszlopban. A Lekérdezésszerkesztő segítségével egyszerűen hozhat létre egyéni oszlopokat.
 
-A Lekérdezésszerkesztőben kattintson az **Egyéni oszlop hozzáadása** gombra a menüszalag **Oszlop hozzáadása** lapján.
+A Lekérdezésszerkesztőben kattintson az **Egyéni oszlop** gombra a menüszalag **Oszlop hozzáadása** lapján.
 
 ![](media/desktop-common-query-tasks/commonquerytasks_customcolumn.png)
 
@@ -147,7 +149,7 @@ A Lekérdezésszerkesztő az egyes lekérdezések alkalmazott lépéseit szöveg
 
 ![](media/desktop-common-query-tasks/queryformulas_advancededitorbutton.png)
 
-A **Speciális szerkesztő** a következőképpen néz ki, amikor éppen az **USA\_StudentEnrollment** lekérdezés lépéseit jeleníti meg. Ezek a lépések a Power Query képletnyelv – gyakori nevén az **M** – használatával íródtak. További információkért lásd: [További tudnivalók a Power Query-képletekről](https://support.office.com/article/Learn-about-Power-Query-formulas-6bc50988-022b-4799-a709-f8aafdee2b2f?ui=en-US&rs=en-US&ad=US). A nyelvi specifikáció megtekintéséhez töltse le [az Excelhez készült Microsoft Power Query képletnyelv specifikációját](http://go.microsoft.com/fwlink/?linkid=320633).
+A **Speciális szerkesztő** a következőképpen néz ki, amikor éppen az **USA\_StudentEnrollment** lekérdezés lépéseit jeleníti meg. Ezek a lépések a Power Query képletnyelv – gyakori nevén az **M** – használatával íródtak. További információkért lásd: [További tudnivalók a Power Query-képletekről](https://support.office.com/article/Learn-about-Power-Query-formulas-6bc50988-022b-4799-a709-f8aafdee2b2f?ui=en-US&rs=en-US&ad=US). A nyelvi specifikáció megtekintéséhez lásd [az Excelhez készült Microsoft Power Query képletnyelv specifikációját](http://go.microsoft.com/fwlink/?linkid=320633).
 
 ![](media/desktop-common-query-tasks/queryformulas_advancededitor.png)
 

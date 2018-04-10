@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 02/05/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 369d99406cd286be7cf1afb3c02c98c1711531ae
-ms.sourcegitcommit: 93e7362fc47319959b6992dfd037effdf831d010
+ms.openlocfilehash: d0386f384698e0e66ce927466975eca7f25656db
+ms.sourcegitcommit: ae4d771b883b654358a6a94dd784ea9bdf3d3aa3
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 03/21/2018
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="using-the-analytics-pane-in-power-bi-desktop"></a>Az Elemzés panel használata a Power BI Desktopban
 A **Power BI Desktop** **Elemzés** paneljén dinamikus *referenciavonalak* adhatók hozzá a vizualizációkhoz, így irányítva rá a figyelmet a fontos trendekre vagy elemzésekre. Az **Elemzési** panel a Power BI Desktop **Vizualizációs elemek** területén található.
@@ -113,6 +113,8 @@ Végül pedig a nem Descartes-féle vizualizációk esetében jelenleg nem alkal
 * Tortadiagram
 * Gyűrű
 * Tábla
+
+A percentilis vonal csak akkor áll rendelkezésre, ha importált adatokat használ a **Power BI Desktop** alkalmazásban, vagy ha élő kapcsolatban van az **Analysis Service 2016** vagy újabb verzióját vagy az **Azure Analysis Services** szolgáltatást futtató kiszolgálón található modellel vagy a Power BI szolgáltatásban egy adatkészlettel. 
 
 ## <a name="next-steps"></a>Következő lépések
 A Power BI Desktop műveletek és lehetőségek széles tárházát tartalmazza. A program képességeivel kapcsolatos további információkért lásd az alábbi forrásanyagokat:

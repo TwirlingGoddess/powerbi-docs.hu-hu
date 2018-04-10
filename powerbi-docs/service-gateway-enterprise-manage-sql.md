@@ -1,15 +1,15 @@
 ---
-title: "Adatforrások kezelése – SQL"
-description: "Helyszíni adatátjáró és az átjáróhoz tartozó adatforrások kezelése."
+title: Adatforrások kezelése – SQL
+description: A helyszíni adatátjáró és az átjáróhoz tartozó adatforrások kezelésének módja.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,14 +18,14 @@ ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
 LocalizationGroup: Gateways
-ms.openlocfilehash: 5e1bbc86ea56dfbc692d8a81cbeb4bc38d872c2b
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: ad9b619f7e0d52442796dc461948a705b9b0f74a
+ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/30/2018
 ---
 # <a name="manage-your-data-source---sql-server"></a>Adatforrások kezelése – SQL Server
-A helyszíni adatátjáró telepítése után az átjáróval használható adatforrásokat adhat hozzá. Ez a cikk az átjárókkal és adatforrásokkal végzett munkához nyújt útmutatást. Az SQL Server-adatforrás ütemezett frissítéshez vagy DirectQueryhez is használható.
+A helyszíni adatátjáró telepítése után az átjáróval használható adatforrásokat adhat hozzá. Ez a cikk bemutatja, hogyan lehet használni az átjárókat és az adatforrásokat. Az SQL Server-adatforrás ütemezett frissítéshez vagy DirectQueryhez is használható.
 
 ## <a name="download-and-install-the-gateway"></a>Az átjáró letöltése és telepítése
 Az átjárót a Power BI szolgáltatásból töltheti le. Válassza a **Letöltések** > **Data Gateway** lehetőséget, vagy lépje az [átjáró letöltési oldalára](https://go.microsoft.com/fwlink/?LinkId=698861).
@@ -73,7 +73,7 @@ Ez után az adatforrás információit, köztük a **Kiszolgálót** és az **Ad
 
 ![](media/service-gateway-enterprise-manage-sql/datasourcesettings3.png)
 
-Miután mindent kitöltött, rákattinthat a **Hozzáadás** gombra.  Az adatforrás ettől kezdve használható ütemezett frissítéshez vagy DirectQuery-lekérdezéshez egy helyszíni SQL Server kiszolgálón. Siker esetén az *A kapcsolat sikeresen létrejött* üzenet jelenik meg.
+Miután minden információt megadott, kattintson a **Hozzáadás** lehetőségre.  Az adatforrás ettől kezdve használható ütemezett frissítéshez vagy DirectQuery-lekérdezéshez egy helyszíni SQL Server kiszolgálón. Siker esetén az *A kapcsolat sikeresen létrejött* üzenet jelenik meg.
 
 ![](media/service-gateway-enterprise-manage-sql/datasourcesettings4.png)
 
@@ -129,7 +129,7 @@ Ha szerepel az átjárón belül konfigurált adatforrás **Felhasználók** lap
 ## <a name="next-steps"></a>Következő lépések
 * [Helyszíni adatátjáró](service-gateway-onprem.md)  
 * [Helyszíni adatátjáró – részletek](service-gateway-onprem-indepth.md)  
-* [A helyszíni adatátjáró hibaelhárítása](service-gateway-onprem-tshoot.md)
+* [A Helyszíni adatátjáróval kapcsolatos hibák elhárítása](service-gateway-onprem-tshoot.md)
 * [Kerberos használata egyszeri bejelentkezéshez (SSO) a Power BI-ból a helyszíni adatforrásokhoz](service-gateway-kerberos-for-sso-pbi-to-on-premises-data.md). 
 * További kérdései vannak? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)
 

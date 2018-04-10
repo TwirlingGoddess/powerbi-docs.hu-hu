@@ -1,13 +1,13 @@
 ---
-title: "A Power BI Desktop beszerzése"
-description: "A Power BI Desktop letöltése és telepítése"
+title: A Power BI Desktop beszerzése
+description: A Power BI Desktop letöltése és telepítése
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: monitoring
 qualitydate: 08/15/2017
 ms.service: powerbi
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 0a0ffc46feadc5868b8e7a4bd273b7d8acc8bfb5
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: a03e859e769f880b0c627080a864b41e96fc138b
+ms.sourcegitcommit: 8132f7edc6879eda824c900ba90b29cb6b8e3b21
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="get-power-bi-desktop"></a>A Power BI Desktop beszerzése
 A **Power BI Desktop** segítségével az adatok megjelenítésére szolgáló speciális lekérdezések, modellek és jelentések állíthatók össze. A **Power BI Desktop** használatával adatmodelleket állíthat össze, jelentéseket hozhat létre és megoszthatja a munkáját a Power BI szolgáltatásba való közzététellel.  A **Power BI Desktop** ingyenesen letölthető.
@@ -30,7 +30,7 @@ A **Power BI Desktop** segítségével az adatok megjelenítésére szolgáló s
 A **Power BI Desktopot** kétféleképpen szerezheti be. Ezen módszerek leírását megtalálja a következő szakaszokban:
 
 * Közvetlen **letöltés** (egy MSI-csomag letöltésével és telepítésével a számítógépen)
-* Telepítés alkalmazásként a **Windows Áruházból**
+* Telepítés alkalmazásként a **Microsoft Store-ból**
 
 Mindkét módszerrel a **Power BI Desktop** legfrissebb verzióját szerzi be, de néhány különbséget érdemes kiemelni. Ezeket a különbségeket a következő szakaszok ismertetik.
 
@@ -54,31 +54,32 @@ A **Power BI Desktop** alkalmazásként lesz telepítve, amely a számítógépe
 ![](media/desktop-get-the-desktop/designer_gsg_install.png)
 
 > [!NOTE]
-> Nem támogatott a **Power BI Desktop** letöltött (MSI-) verziójának és **Windows Áruházból** elérhető verziójának telepítése ugyanarra a számítógépre (ez más néven a *párhuzamos* telepítés).
+> Nem támogatott a **Power BI Desktop** letöltött (MSI-) verziójának és **Microsoft Store-ból** elérhető verziójának telepítése ugyanarra a számítógépre (ez más néven a *párhuzamos* telepítés).
 > 
 > 
 
-## <a name="install-as-an-app-from-the-windows-store"></a>Telepítés alkalmazásként a Windows Áruházból
-A **Power BI Desktopot** a Windows Áruházból is beszerezheti a következő hivatkozásra kattintva:
+## <a name="install-as-an-app-from-the-microsoft-store"></a>Telepítés alkalmazásként a Microsoft Store-ból
+A **Power BI Desktopot** a Microsoft Store-ból is beszerezheti a következő hivatkozásra kattintva:
 
-* [A **Power BI Desktop** telepítése a **Windows Áruházból**](http://aka.ms/pbidesktopstore)
+* [A **Power BI Desktop** telepítése a **Microsoft Store-ból**](http://aka.ms/pbidesktopstore)
 
 ![](media/desktop-get-the-desktop/getpbid_04.png)
 
-A következő előnyökkel jár, ha a Windows Áruházból szerzi be a **Power BI Desktopot**:
+A következő előnyökkel jár, ha a Microsoft Store-ból szerzi be a **Power BI Desktopot**:
 
 * **Automatikus frissítések** – A Windows automatikusan letölti a legfrissebb verziót a háttérben, amint elérhetővé válik, így a verziója mindig naprakész marad.
-* **Kisebb letöltések** – A **Windows Áruház** csak azokat az összetevőket tölti le a gépre, amelyek az egyes frissítések során változtak, így frissítéskor kisebb méretű fájlokat kell letölteni.
-* **Nincs szükség rendszergazdai jogosultságokra** – amikor közvetlenül letölti és telepíti az MSI-fájlt, a telepítés sikeres elvégzéséhez rendszergazdának kell lennie. Ha a Windows Áruházból szerzi be a **Power BI Desktopot**, *nincs* szükség rendszergazdai jogosultságra.
-* **Engedélyezett az informatikai bevezetés** – a **Windows Áruházból** elérhető verzió könnyebben telepíthető vagy *vezethető be* a vállalat összes felhasználója számára, és a **Power BI Desktop** elérhetővé tehető a **Microsoft Store Vállalatoknak** segítségével.
-* **Nyelv észlelése** – a **Windows Áruházból** elérhető verzió tartalmazza az összes támogatott nyelvet, és minden indításkor ellenőrzi, hogy melyik nyelveket használják a számítógépen. Ez a **Power BI Desktopban** létrehozott modellek honosítására is hatással van: a beépített dátumhierarchiák például megfelelnek a **Power BI Desktop** által a .pbix fájl létrehozásakor használt nyelvnek.
+* **Kisebb letöltések** – A **Microsoft Store** csak azokat az összetevőket tölti le a gépre, amelyek az egyes frissítések során megváltoztak, így frissítéskor kisebb méretű fájlokat kell letölteni.
+* **Nincs szükség rendszergazdai jogosultságokra** – amikor közvetlenül letölti és telepíti az MSI-fájlt, a telepítés sikeres elvégzéséhez rendszergazdának kell lennie. Ha a Microsoft Store-ból szerzi be a **Power BI Desktopot**, *nincs* szükség rendszergazdai jogosultságra.
+* **Engedélyezett az informatikai bevezetés** – a **Microsoft Store-ból** elérhető verzió könnyebben telepíthető vagy *vezethető be* a cég összes felhasználója számára, és a **Power BI Desktop** elérhetővé tehető a **Microsoft Store Vállalatoknak** segítségével.
+* **Nyelv észlelése** – a **Microsoft Store-ból** elérhető verzió tartalmazza az összes támogatott nyelvet, és minden indításkor ellenőrzi, hogy mely nyelveket használják a számítógépen. Ez a **Power BI Desktopban** létrehozott modellek honosítására is hatással van: a beépített dátumhierarchiák például megfelelnek a **Power BI Desktop** által a .pbix fájl létrehozásakor használt nyelvnek.
 
-A **Power BI Desktop** a Windows Áruházból való telepítésével kapcsolatban megfontolandó szempontok és korlátozások többek között a következők:
+A **Power BI Desktop** Microsoft Store-ból való telepítésével kapcsolatban megfontolandó szempontok és korlátozások többek között a következők:
 
 * Ha az SAP-összekötőt használja, lehet, hogy a *Windows\System32* mappába kell helyeznie az SAP-illesztő fájljait.
+* A **Power BI Desktop** Microsoft Store-ból való telepítésével nem történik meg az MSI-verzióból származó felhasználói beállítások másolása. Elképzelhető, hogy újra kell csatlakoztatni a legutóbbi adatforrásokat, és ismét meg kell adni az adatforrások hitelesítő adatait. 
 
 > [!NOTE]
-> Nem támogatott a **Power BI Desktop** letöltött (MSI-) verziójának és **Windows Áruházból** elérhető verziójának telepítése ugyanarra a számítógépre (ez más néven a *párhuzamos* telepítés).
+> Nem támogatott a **Power BI Desktop** letöltött (MSI-) verziójának és **Microsoft Store-ból** elérhető verziójának telepítése ugyanarra a számítógépre (ez más néven a *párhuzamos* telepítés). A **Power BI Desktop** manuális eltávolítására van szükség a **Microsoft Store-ból** való letöltés előtt
 > 
 > [!NOTE]
 > A **Power BI Desktop** Power BI jelentéskészítő kiszolgáló verziója az ebben a cikkben tárgyalt verzióktól eltérő, önálló telepítés. A **Power BI Desktop** jelentéskészítő kiszolgáló verziójáról információt a [Rövid útmutató: Power BI-jelentés létrehozása a Power BI jelentéskészítő kiszolgálóhoz](report-server/quickstart-create-powerbi-report.md) című cikkben talál.

@@ -18,14 +18,14 @@ ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 9161966897811820935c72ac1657ceca58da403a
-ms.sourcegitcommit: 3841bcdb5e664568defe3d6a6e6b8cab3cd7087f
+ms.openlocfilehash: 8f5b80497850b8e61bd7df97c3c88777265d7a6b
+ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 03/23/2018
+ms.lasthandoff: 03/30/2018
 ---
 # <a name="use-report-themes-in-power-bi-desktop-preview"></a>Jelentéstémák használata a Power BI Desktopban (előzetes verzió)
-A **Jelentéstémák** használatával egységes színtémát alkalmazhat az egész jelentésre, például a cég színeit, az évszaknak megfelelő színeket, vagy bármely más színtémát, amit csak szeretne. **Jelentéstémák** alkalmazásakor a jelentésben szereplő összes vizualizáció a kiválasztott téma színeit fogja használni (ez alól van néhány kivétel, amelyeket a cikk későbbi részében mutatunk be).
+A **Jelentéstémák** használatával egységes színtémát alkalmazhat az egész jelentésre, például a cég színeit, az évszaknak megfelelő színeket vagy bármely más színtémát, amit csak szeretne. **Jelentéstémák** alkalmazásakor a jelentésben szereplő összes vizualizáció a kiválasztott téma színeit fogja használni (ez alól van néhány kivétel, amelyeket a cikk későbbi részében mutatunk be).
 
 ![](media/desktop-report-themes/report-themes_1.png)
 
@@ -100,7 +100,7 @@ Látja ezt a sok zöld árnyalatot? Ez azért jelenik meg így, mert ezek a szí
 ### <a name="situations-when-report-theme-colors-wont-stick-to-your-reports"></a>Milyen helyzetekben nem társulnak a jelentéshez a jelentéstéma színei?
 Ha egyéni színkészletet (vagy egyedi színeket) alkalmaz egy vizualizáció adott adatpontjára, az alkalmazott jelentéstéma *nem* írja felül a testre szabott adatpont színét.
 
-Emellett, ha egy adatpont színét a színpaletta Téma színei szakaszával manuálisan adja meg, akkor azok az így beállított színek *nem* frissülnek új jelentéstéma alkalmazásakor. Az alapértelmezett színek visszaállításához (ha azt szeretné, hogy azok új jelentéstéma alkalmazásakor frissüljenek) válassza a **Visszaállítás alapértelmezettre** lehetőséget a **Téma színei** palettán.
+Emellett, ha egy adatpont színét a színpaletta Téma színei szakaszával manuálisan adja meg, akkor azok az így beállított szín (vagy színek) *nem* frissül(nek) új jelentéstéma alkalmazásakor. Az alapértelmezett színek visszaállításához (ha azt szeretné, hogy azok új jelentéstéma alkalmazásakor frissüljenek) válassza a **Visszaállítás alapértelmezettre** lehetőséget a **Téma színei** palettán.
 
 ![](media/desktop-report-themes/report-themes_9.png)
 

@@ -1,28 +1,28 @@
 ---
-title: "Webes közzététel a Power BI-ból"
-description: "A Power BI Webes közzététel lehetőségével egyszerűen ágyazhat be interaktív Power BI-vizualizációkat online, például blogbejegyzésekbe, weboldalakba, e-mailen vagy közösségi médián keresztül, bármilyen eszközön."
+title: Webes közzététel a Power BI-ból
+description: A Power BI Webes közzététel lehetőségével egyszerűen ágyazhat be interaktív Power BI-vizualizációkat online, például blogbejegyzésekbe, weboldalakba, e-mailen vagy közösségi médián keresztül, bármilyen eszközön.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/27/2017
+ms.date: 03/28/2018
 ms.author: maghan
 LocalizationGroup: Share your work
-ms.openlocfilehash: 089cd84f493343822293cb6e74330d26e2a8bcd6
-ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
+ms.openlocfilehash: 31e40efee8c4d67ec524212996ac6d7a8caf1852
+ms.sourcegitcommit: 8132f7edc6879eda824c900ba90b29cb6b8e3b21
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="publish-to-web-from-power-bi"></a>Webes közzététel a Power BI-ból
 
@@ -133,13 +133,16 @@ A **Webes közzététel** az egyéni vizualizációkat is támogatja. A Webes k�
 
 ## <a name="limitations"></a>Korlátozások
 
-A Power BI szolgáltatás adatforrásainak és jelentéseinek túlnyomó többsége esetén támogatott a **Webes közzététel**, a következők azonban nem támogatottak és nem elérhetők Webes közzététellel:
+A Power BI szolgáltatás adatforrásainak és jelentéseinek túlnyomó többsége esetén támogatott a **Webes közzététel**, a következők azonban **jelenleg nem támogatottak és nem érhetők el** Webes közzététellel:
 
 1. Sorszintű biztonságot használó jelentések.
-2. Az élő kapcsolatos adatforrásokat (például a helyszíni Analysis Services táblázatost, az Analysis Service Multidimensionalt, az Azure Analysis Servicest és a Power BI-t) használó jelentések.
+2. Az élő kapcsolatos adatforrásokat (például a helyszíni Analysis Services táblázatost, az Analysis Service Multidimensionalt és az Azure Analysis Servicest) használó jelentések.
 3. Közvetlenül Önnel vagy céges tartalomcsomagon keresztül megosztott jelentések.
 4. Olyan csoporthoz tartozó jelentések, amelynek ön nem szerkesztési joggal bíró tagja.
 5. Az "R" vizualizációk Webes közzétételű jelentésekben jelenleg nem támogatottak.
+6. Adatok exportálása weben közzétett jelentésben szereplő vizualizációkból
+7. ArcGIS Maps for Power BI-vizualizációk
+8. [Bizalmas vagy szellemi tulajdont képező információk biztonságának védelme](#publish-to-web-from-power-bi)
 
 ## <a name="tenant-setting"></a>Bérlőbeállítások
 
@@ -177,7 +180,7 @@ A **Webes közzétételt** csak Microsoft Power BI-felhasználók használhatjá
 
 ## <a name="how-it-works-technical-details"></a>Hogyan működik? (technikai részletek)
 
-Amikor a **Webes közzététel** használatával beágyazott kódot állít elő, akkor a jelentés láthatóvá válik a felhasználók számára az Interneten. Nyilvánosan elérhető, tehát számítani lehet rá, hogy a megtekintői egyszerűen meg tudják majd osztani a jelentést a közösségi médiában. Amikor a felhasználók a közvetlen nyilvános URL-cím megnyitásával vagy egy weboldalba vagy blogba beágyazottan megtekintik a jelentést, akkor a Power BI gyorsítótárazza a jelentés definícióját és a jelentés megtekintéséhez szükséges lekérdezések eredményeit. Ezen a módon a jelentést egyidejűleg több ezer felhasználó is megtekintheti a teljesítmény romlása nélkül.  
+Amikor a **Webes közzététel** használatával beágyazott kódot állít elő, akkor a jelentés láthatóvá válik a felhasználók számára az Interneten. Nyilvánosan elérhető, tehát számítani lehet rá, hogy a megtekintői egyszerűen meg tudják majd osztani a jelentést a közösségi médiában. Amikor a felhasználók a közvetlen nyilvános URL-cím megnyitásával vagy egy weboldalba vagy blogba beágyazottan megtekintik a jelentést, akkor a Power BI gyorsítótárazza a jelentés definícióját és a jelentés megtekintéséhez szükséges lekérdezések eredményeit. Ezen a módon a jelentést egyidejűleg több ezer felhasználó is megtekintheti a teljesítmény romlása nélkül.
 
 A gyorsítótár hosszú ideig megőrzi a tartalmát, ezért ha Ön módosítja a jelentés definícióját (ha például megváltoztatja a megtekintési módját), akkor a módosítások körülbelül egy óra elteltével lesznek láthatók a jelentésnek a felhasználók által megtekintett verziójában. Éppen ezért ajánlott előre elkészíteni a munkáját, és a **Webes közzétételi** beágyazási kódot csak akkor létrehozni, amikor már elégedett a beállításokkal.
 

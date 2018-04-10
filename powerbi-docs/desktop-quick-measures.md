@@ -1,15 +1,15 @@
 ---
-title: "A gyorsmérők használata általános és nagy igényű számítások egyszerű végrehajtásához a Power BI-ban"
-description: "A gyorsmérők használatra kész, általános számításokat gyorsan elvégző DAX-képleteket biztosítanak"
+title: A gyorsmérők használata általános és nagy igényű számítások egyszerű végrehajtásához a Power BI-ban
+description: A gyorsmérők használatra kész, általános számításokat gyorsan elvégző DAX-képleteket biztosítanak
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 02/05/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: b9cc94593ca6fd98590d69bee3a2fa4cae6d0050
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: a7f877512d5b0f897fb98d2db205d1418d25c71a
+ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/30/2018
 ---
 # <a name="use-quick-measures-to-easily-perform-common-and-powerful-calculations"></a>A gyorsmérők használata általános és nagy igényű számítások egyszerű végrehajtásához
 A **Gyorsmérők** használatával könnyedén végrehajthat általános és nagy igényű számításokat. A **gyorsmérők** DAX-parancsokat futtatnak a színfalak mögött (a DAX-ot nem kell megírnia, készen áll) a párbeszédpanelen megadott bemeneti adatok alapján, majd az eredmények használatra készen megjelennek a jelentésben. Ami a legjobb, hogy megtekintheti a gyorsmérő által végrehajtott DAX-ot, és így megismerheti a DAX-ot, vagy bővítheti az ismereteit.
@@ -59,7 +59,7 @@ Amikor a legördülő menüt választja, megjelenik az elérhető **Gyorsmérők
 A Gyorsmérő számítási típusoknak öt külön csoportja van, mindegyikben található egy számításgyűjtemény. A csoportok és számítások a következők:
 
 * **Kategóriánkénti összesítés**
-  * Kategória szerinti
+  * Kategória szerinti átlag
   * Kategóriánkénti eltérés
   * Kategória szerinti maximum
   * Minimum kategóriánként
@@ -101,7 +101,7 @@ Az alábbi **Mátrix** vizualizáció elektronikai termékek értékesítésér�
 
 ![](media/desktop-quick-measures/quick-measures_05.png)
 
-Kattintsunk a jobb gombbal az **Értékek** mező területére, és válasszuk a **Gyorsmérők** lehetőséget, majd az *Átlag a kategórián belül* elemet *Számításnak*. Ezután válasszuk a *SalesAmount összege* elemet *Alapértéknek*, és a jobb oldali panel *Mezők* mezőjéből a bal oldali *Kategória* területre áthúzva a mezőt adjuk meg a *SalesAmount* elemet.
+Kattintsunk a jobb gombbal az **Értékek** mező területére, és válasszuk a **Gyorsmérők** lehetőséget, majd a *Kategória szerinti átlag* elemet *Számításnak*. Ezután válasszuk a *SalesAmount összege* elemet *Alapértéknek*, és a jobb oldali panel *Mezők* mezőjéből a bal oldali *Kategória* területre áthúzva a mezőt adjuk meg a *SalesAmount* elemet.
 
 ![](media/desktop-quick-measures/quick-measures_06.png)
 

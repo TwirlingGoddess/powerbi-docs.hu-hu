@@ -1,28 +1,28 @@
 ---
-title: "Power BI felügyeleti portál"
-description: "A felügyeleti portál a Power BI bérlői felügyeletét teszi lehetővé a munkahelyen. Olyan lehetőségeket kínál, mint például a használati metrikák, hozzáférés az Office 365 felügyeleti központjához, valamint a beállítások."
+title: Power BI felügyeleti portál
+description: A felügyeleti portál a Power BI bérlői felügyeletét teszi lehetővé a munkahelyen. Olyan lehetőségeket kínál, mint például a használati metrikák, hozzáférés az Office 365 felügyeleti központjához, valamint a beállítások.
 services: powerbi
-documentationcenter: 
-author: markingmyname
+documentationcenter: ''
+author: mgblythe
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/02/2018
-ms.author: maghan
+ms.date: 04/02/2018
+ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 1ce2bc2746773c344251b89173b5825940eb0174
-ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
+ms.openlocfilehash: 54ddccf9ca6ffdc1d9cbe840dbfced8d978ad194
+ms.sourcegitcommit: afa10c016433cf72d6d366c024b862187a8692fd
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/04/2018
 ---
 # <a name="power-bi-admin-portal"></a>Power BI felügyeleti portál
 
@@ -326,8 +326,8 @@ Fontos: a törlés nem vonható vissza. A törölt vizualizációk azonnal abbah
  
 ### <a name="how-to-update-a-visual"></a>A vizualizációk frissítése
 
-Ha az adattárban szeretné frissíteni a vizualizációt, mert annak elérhető egy új verziója (például hibajavítás, új funkciók vagy egyebek), töltse fel az új fájlt (változatlan vizualizációazonosítóval) új listabejegyzésként, és a megfelelő részleteket írja be a címbe és a leírásba (például „Saját vizualizáció v2.0“). Amikor a felhasználók legközelebb belépnek a szervezeti adattárba a Power BI Desktopból, importálhatják az új verziót, amely kérni fogja őket, hogy cseréljék le a jelentés jelenlegi verzióját.
- 
+Ha szeretné frissíteni az adattárban a vizualizációt, mert annak újabb verziója érhető el (pl. hibajavítások, új funkciók stb.), akkor válassza a **Frissítés** ikont, és töltse fel az új fájlt. Győződjön meg róla, hogy a vizuális azonosító ugyanaz maradt. Az új fájl az előző fájlt helyére kerül a jelentésekben az egész vállalatnál. Ha azonban a vizualizáció új verziója megbontja az előző verziójának valamely használati vagy adatstruktúráját, akkor ne cserélje le az előző verziót. Ehelyett hozzon létre egy új listázást a vizualizáció új verziójához. Például adjon hozzá egy új verziószámot (X.X verzió) az új listázott vizualizáció címéhez. Ezáltal nyilvánvalóvá válik, hogy ez ugyanaz a vizualizáció, de frissített verziószámmal, így a meglévő jelentések működése nem hibásodik meg. Most is győződjön meg róla, hogy a vizuális azonosító ugyanaz maradt. Így amikor a felhasználók legközelebb belépnek a szervezeti adattárba a Power BI Desktopból, importálhatják az új verziót, amely kérni fogja őket, hogy cseréljék le a jelentésben található jelenlegi verziót.
+
 ## <a name="next-steps"></a>Következő lépések
 
 [A Power BI rendszergazdai szerepkörének ismertetése](service-admin-role.md)  

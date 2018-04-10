@@ -1,15 +1,15 @@
 ---
-title: "Power BI-adatforrások előfeltételei"
-description: "Power BI-adatforrások előfeltételei"
+title: Power BI-adatforrások előfeltételei
+description: Power BI-adatforrások előfeltételei
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 274c94c7cdb2586e0c03af77de7f937700b6814e
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 282526e18777e623725859adc84475525dcf25ba
+ms.sourcegitcommit: ae4d771b883b654358a6a94dd784ea9bdf3d3aa3
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="power-bi-data-source-prerequisites"></a>Power BI-adatforrások előfeltételei
 A Power BI minden adatszolgáltató esetében egy adott szolgáltatóverziót támogat az objektumokon. A Power BI-hoz elérhető adatforrásokkal kapcsolatos további információkért lásd: [Adatforrások](desktop-data-sources.md). A következő táblázat ezeket a követelményeket ismerteti.
@@ -33,7 +33,7 @@ A Power BI minden adatszolgáltató esetében egy adott szolgáltatóverziót t�
 | Access |Microsoft Access adatbázismotor (ACE) |ACE 2010 SP1 |Nincs korlátozás |Táblák/nézetek |[Letöltési hivatkozás](http://go.microsoft.com/fwlink/?linkid=285987&clcid=0x409) |
 | Excel (csak .xls fájlok) (lásd: 1. megjegyzés) |Microsoft Access adatbázismotor (ACE) |ACE 2010 SP1 |Nincs korlátozás |Táblák, táblázatok |[Letöltési hivatkozás](http://go.microsoft.com/fwlink/?linkid=285987&clcid=0x409) |
 | Oracle (lásd: 2. megjegyzés) |ODP.NET |ODAC 11.2, 5. kiadás (11.2.0.3.20) |9.x+ |Táblák/nézetek |[Letöltési hivatkozás](http://go.microsoft.com/fwlink/?linkid=272376&clcid=0x409) |
-| System.Data.OracleClient (a .NET-keretrendszer részeként) |.NET-keretrendszer 3.5 |9.x+ |Táblák/nézetek |A .NET-keretrendszer 3.5-ös vagy újabb verziójának részeként | |
+| | System.Data.OracleClient (a .NET-keretrendszer részeként) |.NET-keretrendszer 3.5 |9.x+ |Táblák/nézetek |A .NET-keretrendszer 3.5-ös vagy újabb verziójának részeként |
 | IBM DB2 |Az IBM ADO.Net-ügyfele (az IBM-adatkiszolgáló illesztőcsomag részeként) |10.1 |9.1+ |Táblák/nézetek |[Letöltési hivatkozás](http://go.microsoft.com/fwlink/?linkid=274911&clcid=0x409) |
 | MySQL |Összekötő/hálózat |6.6.5 |5.1 |Táblák/nézetek, skaláris függvények |[Letöltési hivatkozás](http://go.microsoft.com/fwlink/?linkid=278885&clcid=0x409) |
 | PostgreSQL |NPGSQL ADO.NET-szolgáltató |2.0.12 |7.4 |Táblák/nézetek |[Letöltési hivatkozás](http://go.microsoft.com/fwlink/?linkid=282716&clcid=0x409) |

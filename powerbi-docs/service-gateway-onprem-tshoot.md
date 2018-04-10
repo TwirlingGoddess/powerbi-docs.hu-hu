@@ -1,30 +1,30 @@
 ---
-title: "A helyszíni adatátjáróval kapcsolatos hibák elhárítása"
-description: "Ez a cikk a helyszíni adatátjáróval kapcsolatos hibák elhárításának lehetőségeit mutatja be. A cikk leírja az ismert problémák kerülő megoldásait, valamint a használható eszközöket."
+title: A helyszíni adatátjáró hibaelhárítása
+description: Ez a cikk a helyszíni adatátjáróval kapcsolatos hibák elhárításának lehetőségeit mutatja be. A cikk leírja az ismert problémák kerülő megoldásait, valamint a használható eszközöket.
 services: powerbi
-documentationcenter: 
-author: davidiseminger
+documentationcenter: ''
+author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: powerbi
-ms.date: 11/21/2017
-ms.author: davidi
+ms.date: 03/23/2018
+ms.author: maghan
 LocalizationGroup: Gateways
-ms.openlocfilehash: 1651f18194cd47582376b52bb6359db10a330c27
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 9742fd0d48f4a77b5019aa7547fa511404c6f63e
+ms.sourcegitcommit: 8132f7edc6879eda824c900ba90b29cb6b8e3b21
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/03/2018
 ---
-# <a name="troubleshooting-the-on-premises-data-gateway"></a>A helyszíni adatátjáróval kapcsolatos hibák elhárítása
+# <a name="troubleshooting-the-on-premises-data-gateway"></a>A helyszíni adatátjáró hibaelhárítása
 Ez a cikk néhány olyan gyakori problémát ismertet, amelyek a **helyszíni adatátjáró** használatakor előfordulhatnak.
 
 <!-- Shared Community & support links Include -->
@@ -78,7 +78,7 @@ Ennek kijavításához tegye a következőket.
 1. Távolítsa el az átjárót.
 2. Törölje az alábbi mappát.
    
-        c:\Program Files\on-premises data gateway
+        c:\Program Files\On-premises data gateway
 3. Telepítse újra az átjárót.
 4. Opcionálisan alkalmazhatja a helyreállítási kulcsot egy meglévő átjáró visszaállításához.
 
@@ -193,7 +193,7 @@ Ennek ellenőrzéséhez a következőt teheti.
 
 Opcionálisan megtekintheti a Power BI által az Azure Active Directoryból beszerzett UPN-t is.
 
-1. A böngészőben nyissa meg a következő címet: [https://graphexplorer.cloudapp.net](https://graphexplorer.cloudapp.net).
+1. Lépjen a [https://graphexplorer.cloudapp.net](https://graphexplorer.cloudapp.net) lapra.
 2. Válassza a **Bejelentkezés** lehetőséget a jobb felső sarokban.
 3. Futtassa az alábbi lekérdezést. Egy eléggé nagy JSON-válasz jelenik meg.
    
@@ -314,11 +314,13 @@ from [dbo].[V_CustomerOrders] as [$Table])
 GROUP BY [t0].[ProductCategoryName],[t0].[FiscalYear] </pi>"
 ```
 
-### <a name="microsoftpowerbidatamovementpipelinegatewaycoredllconfig"></a>Microsoft.PowerBI.DataMovement.Pipeline.GatewayCore.dll.config
-A *Microsoft.PowerBI.DataMovement.Pipeline.Diagnostics.dll.config* fájlban módosítsa a `TraceVerbosity` értékét `4` értékről `5` értékre. A fájl alapértelmezett helye: *C:\Program Files\On-premises data gateway*. A beállítás módosításakor a rendszer részletes bejegyzéseket naplóz az átjáró naplójába. Ez magában foglalja az időtartamot megjelenítő bejegyzéseket is.
+### <a name="microsoftpowerbidatamovementpipelinediagnosticsdllconfig"></a>Microsoft.PowerBI.DataMovement.Pipeline.Diagnostics.dll.config
+A *Microsoft.PowerBI.DataMovement.Pipeline.Diagnostics.dll.config* fájlban módosítsa a `TracingVerbosity` értékét `4` értékről `5` értékre. A fájl alapértelmezett helye: *C:\Program Files\On-premises data gateway*. A beállítás módosításakor a rendszer részletes bejegyzéseket naplóz az átjáró naplójába. Ez magában foglalja az időtartamot megjelenítő bejegyzéseket is. A részletes bejegyzéseket is engedélyezheti a Helyszíni átjáró alkalmazás „További naplózás” gombjának engedélyezésével.
+
+   ![további naplózás](media/service-gateway-onprem-tshoot/additional-logging.png)
 
 > [!IMPORTANT]
-> Az átjáró használatának mértékétől függően a TraceVerbosity `5` értékre való állítása jelentősen megnövelheti a napló méretét. A naplók áttekintése után a TraceVerbosity értékét módosítsa `4` értékre. Nem javasoljuk, hogy ez a beállítás hosszabb ideig engedélyezve legyen.
+> Az átjáró használatának mértékétől függően a TracingVerbosity `5` értékre való állítása jelentősen megnövelheti a napló méretét. A naplók áttekintése után a TraceVerbosity értékét módosítsa `4` értékre. Nem javasoljuk, hogy ez a beállítás hosszabb ideig engedélyezve legyen.
 > 
 > 
 
@@ -352,6 +354,72 @@ Az adatforrás lekérdezési időtartamát az alábbiak szerint határozhatja me
    > 
    > 
 
+## <a name="kerberos"></a>Kerberos
+
+Ha az alapul szolgáló adatbázis-kiszolgáló és a helyszíni adatátjáró nincs megfelelően konfigurálva a [Kerberos által korlátozott delegáláshoz](service-gateway-kerberos-for-sso-pbi-to-on-premises-data.md), engedélyezze a [részletes naplózást](#microsoftpowerbidatamovementpipelinediagnosticsdllconfig) az átjárón, és a hibaelhárítás kiindulási pontjaként vizsgálja meg az átjáró naplófájljaiban található hibákat/nyomkövetéseket.
+
+### <a name="impersonationlevel"></a>ImpersonationLevel
+
+A ImpersonationLevel az egyszerű szolgáltatásnév vagy a helyi szabályzat beállításához kapcsolódik.
+
+```
+[DataMovement.PipeLine.GatewayDataAccess] About to impersonate user DOMAIN\User (IsAuthenticated: True, ImpersonationLevel: Identification)
+```
+
+**Megoldás**
+
+Kövesse az alábbi lépéseket a probléma megoldásához:
+1. Egyszerű szolgáltatásnév beállítása a helyszíni átjáróhoz
+2. Korlátozott delegálás beállítása az Active Directory (AD) szolgáltatásban
+
+### <a name="failedtoimpersonateuserexception-failed-to-create-windows-identity-for-user-userid"></a>FailedToImpersonateUserException: Nem sikerült windowsos identitást létrehozni a felhasználói azonosítóhoz
+
+A FailedToImpersonateUserException akkor történik, ha nem tud megszemélyesítést végezni más felhasználó nevében. Akkor is előfordulhat, ha a megszemélyesíteni kívánt fiók egy másik tartományból van, mint amelyikben az átjáró szolgáltatás tartománya található (ez egy korlátozás).
+
+**Megoldás**
+* Ellenőrizze a fenti ImpersonationLevel szakasz lépéseit követve, hogy megfelelő-e a konfiguráció
+* Győződjön meg róla, hogy a megszemélyesíteni kívánt felhasználói azonosító egy érvényes AD-fiók
+
+### <a name="general-error-1033-error-while-parsing-protocol"></a>Általános hiba; 1033 számú hiba történt a protokoll elemzése közben
+
+Az 1033-as hibát kapja, amikor az SAP HANA-ban konfigurált külső azonosító nem egyezik a bejelentkezési adatokkal, ha a felhasználó megszemélyesítése egyszerű felhasználónévvel (alias@domain.com) történt. A naplókban az „Eredeti UPN (alias@domain.com) új UPN-nel lesz lecserélve (alias@domain.com) a hibanaplók elején, az alábbiak szerint”.
+
+```
+[DM.GatewayCore] SingleSignOn Required. Original UPN 'alias@domain.com' replaced with new UPN 'alias@domain.com'.
+```
+
+**Megoldás**
+* Az SAP HANA megköveteli a megszemélyesített felhasználótól, hogy az sAMAccountName attribútumot használja az AD-ben (felhasználói alias). Ha ez nem helyes, az 1033 számú hiba jelenik meg.
+
+    ![sAMAccount](media/service-gateway-onprem-tshoot/sAMAccount.png)
+
+* A naplókban az sAMAccountName (alias) fióknevet kell látnia, nem pedig az egyszerű felhasználónevet, amely az aliasból és az azt követő tartományból áll (alias@doimain.com)
+
+    ![sAMAccount](media/service-gateway-onprem-tshoot/sAMAccount-02.png)
+
+```
+      <setting name="ADUserNameReplacementProperty" serializeAs="String">
+        <value>sAMAccount</value>
+      </setting>
+      <setting name="ADServerPath" serializeAs="String">
+        <value />
+      </setting>
+      <setting name="CustomASDataSource" serializeAs="String">
+        <value />
+      </setting>
+      <setting name="ADUserNameLookupProperty" serializeAs="String">
+        <value>AADEmail</value>
+```
+
+### <a name="sap-aglibodbchdb-dllhdbodbc-communication-link-failure-10709-connection-failed-rte-1-kerberos-error-major-miscellaneous-failure-851968-minor-no-credentials-are-available-in-the-security-package"></a>[SAP AG][LIBODBCHDB DLL][HDBODBC] Kommunikációs kapcsolódási hiba;-10709 sikertelen kapcsolódás (RTE:[-1] Kerberos-hiba. Jelentős: „[851968] egyéb hiba”, kisebb: „Nincsenek hitelesítő adatok a biztonsági csomagban”
+
+A -10709 sikertelen kapcsolat hibaüzenetet fogja kapni, ha a delegálás beállítása nem megfelelő az AD-ben.
+
+**Megoldás**
+* Ellenőrizze, hogy rendelkezik-e a SAP Hana-kiszolgálóval az AD delegálási lapján az átjárószolgáltatási fiókhoz
+
+   ![delegálás lap](media/service-gateway-onprem-tshoot/delegation-in-AD.png)
+
 <!-- Shared Troubleshooting tools Include -->
 [!INCLUDE [gateway-onprem-tshoot-tools-include](./includes/gateway-onprem-tshoot-tools-include.md)]
 
@@ -378,4 +446,3 @@ A frissítési forgatókönyvekkel kapcsolatos hibák elhárításáról a köve
 [Az adatforrás kezelése – SQL Server](service-gateway-enterprise-manage-sql.md)  
 [Az adatforrás kezelés – Importálás/Ütemezett frissítés](service-gateway-enterprise-manage-scheduled-refresh.md)  
 További kérdései vannak? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)
-
