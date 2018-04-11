@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 03/28/2018
 ms.author: maghan
-ms.openlocfilehash: 4faf32419c0b02ceadb495832ed90d312b823773
-ms.sourcegitcommit: c9905e625ba14dc28ad23835f320e49631c51d0f
+ms.openlocfilehash: bef0748f1431a29c96d7aa23ab457683e247724a
+ms.sourcegitcommit: e571de2afa3f34fac06a6aab0df0e8940cb00a0d
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 03/29/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="embed-a-power-bi-dashboard-tile-or-report-into-your-application-for-sovereign-clouds"></a>Power BI-irányítópult, -csempe vagy -jelentés beágyazása az alkalmazásba szuverén felhők használata esetén
 Ismerje meg, hogyan integrálhat vagy ágyazhat be egy irányítópultot, csempét vagy jelentést egy webalkalmazásba a Power BI .NET SDK-val és a Power BI JavaScript API-val, amikor az ügyfelei számára ágyaz be. Ez általában a független szoftverszállítóknál jellemző.
@@ -54,7 +54,7 @@ Ez a cikk a GitHubon az [ügyfelek számára végzett beágyazási mintában](ht
     2. Frissítse a clientid (a natív alkalmazás ügyfél-azonosítója), a groupid, a user (a fő felhasználó) és a password (jelszó) paramétereit a Web.config fájlban.
     3. Az alábbiaknak megfelelően adja hozzá a GCC-paramétereket a web.config fájlhoz.
 
-```
+```xml
 <add key="authorityUrl" value="https://login.windows.net/common/oauth2/authorize/" />
 
 <add key="resourceUrl" value="https://analysis.usgovcloudapi.net/powerbi/api" />
@@ -69,7 +69,7 @@ Ez a cikk a GitHubon az [ügyfelek számára végzett beágyazási mintában](ht
     2. Frissítse a clientid (a natív alkalmazás ügyfél-azonosítója), a groupid, a user (a fő felhasználó) és a password (jelszó) paramétereit a Web.config fájlban.
     3. Az alábbiaknak megfelelően adja hozzá a DoDCON-paramétereket a web.config fájlhoz.
 
-```
+```xml
 <add key="authorityUrl" value="https://login.windows.net/common/oauth2/authorize/" />
 
 <add key="resourceUrl" value="https://high.analysis.usgovcloudapi.net/powerbi/api" />
@@ -84,7 +84,7 @@ Ez a cikk a GitHubon az [ügyfelek számára végzett beágyazási mintában](ht
     2. Frissítse a clientid (a natív alkalmazás ügyfél-azonosítója), a groupid, a user (a fő felhasználó) és a password (jelszó) paramétereit a Web.config fájlban.
     3. Az alábbiaknak megfelelően adja hozzá a DoDCON-paramétereket a web.config fájlhoz.
 
-```
+```xml
 <add key="authorityUrl" value="https://login.windows.net/common/oauth2/authorize/" />
 
 <add key="resourceUrl" value="https://mil.analysis.usgovcloudapi.net/powerbi/api" />
@@ -99,7 +99,7 @@ Ez a cikk a GitHubon az [ügyfelek számára végzett beágyazási mintában](ht
     2. Frissítse a clientid (a natív alkalmazás ügyfél-azonosítója), a groupid, a user (a fő felhasználó) és a password (jelszó) paramétereit a Web.config fájlban.
     3. Az alábbiaknak megfelelően adja hozzá a németországi felhőhöz készült Power BI paramétereit a web.config fájlhoz.
 
-```
+```xml
 <add key="authorityUrl" value=https://login.microsoftonline.de/common/oauth2/authorize/" />
 
 <add key="resourceUrl" value="https://analysis.cloudapi.de/powerbi/api" />
@@ -142,7 +142,7 @@ A Power BI-tartalom beágyazásához el kell végeznie néhány dolgot a megfele
 ### <a name="create-the-power-bi-client-with-your-access-token"></a>A Power BI-ügyfél létrehozása a hozzáférési tokennel
 A hozzáférési tokennel érdemes létrehozni a Power BI-ügyfélobjektumot, amely lehetővé teszi a Power BI API-k használatát. Ehhez a hozzáférési tokent a *Microsoft.Rest.TokenCredentials* objektummal kell tördelni.
 
-```
+```csharp
 using Microsoft.IdentityModel.Clients.ActiveDirectory;
 using Microsoft.Rest;
 using Microsoft.PowerBI.Api.V2;
@@ -163,7 +163,7 @@ Ennek példája az [alkalmazás tulajdonában lévő adatok használatát ismert
 
 **Irányítópultok**
 
-```
+```csharp
 using Microsoft.PowerBI.Api.V2;
 using Microsoft.PowerBI.Api.V2.Models;
 
@@ -176,7 +176,7 @@ Dashboard dashboard = dashboards.Value.FirstOrDefault();
 
 **Csempe**
 
-```
+```csharp
 using Microsoft.PowerBI.Api.V2;
 using Microsoft.PowerBI.Api.V2.Models;
 
@@ -197,7 +197,7 @@ Tile tile = tiles.Value.FirstOrDefault();
 
 **Jelentés**
 
-```
+```csharp
 using Microsoft.PowerBI.Api.V2;
 using Microsoft.PowerBI.Api.V2.Models;
 
@@ -220,7 +220,7 @@ Ez feltételezi, hogy létrejött egy osztály az **EmbedConfig** és a **TileEm
 
 **Irányítópult**
 
-```
+```csharp
 using Microsoft.PowerBI.Api.V2;
 using Microsoft.PowerBI.Api.V2.Models;
 
@@ -239,7 +239,7 @@ var embedConfig = new EmbedConfig()
 
 **Csempe**
 
-```
+```csharp
 using Microsoft.PowerBI.Api.V2;
 using Microsoft.PowerBI.Api.V2.Models;
 
@@ -259,7 +259,7 @@ var embedConfig = new TileEmbedConfig()
 
 **Jelentés**
 
-```
+```csharp
 using Microsoft.PowerBI.Api.V2;
 using Microsoft.PowerBI.Api.V2.Models;
 
@@ -282,7 +282,7 @@ Ennek alkalmazásmintája a [céges beágyazási mintában](https://github.com/M
 
 **Views\Home\EmbedDashboard.cshtml**
 
-```
+```csharp
 <script src="~/scripts/powerbi.js"></script>
 <div id="dashboardContainer"></div>
 <script>
@@ -320,7 +320,7 @@ Ennek alkalmazásmintája a [céges beágyazási mintában](https://github.com/M
 
 **Views\Home\EmbedTile.cshtml**
 
-```
+```csharp
 <script src="~/scripts/powerbi.js"></script>
 <div id="tileContainer"></div>
 <script>
@@ -362,7 +362,7 @@ Ennek alkalmazásmintája a [céges beágyazási mintában](https://github.com/M
 
 **Views\Home\EmbedReport.cshtml**
 
-```
+```csharp
 <script src="~/scripts/powerbi.js"></script>
 <div id="reportContainer"></div>
 <script>
