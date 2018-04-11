@@ -3,7 +3,7 @@ title: Útmutató adatátjáró üzembe helyezéséhez a Power BI számára
 description: A Power BI-átjáró telepítéséhez ajánlott eljárások és a telepítés szempontjai.
 services: powerbi
 documentationcenter: ''
-author: davidiseminger
+author: mgblythe
 manager: kfile
 backup: ''
 editor: ''
@@ -16,13 +16,13 @@ ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: powerbi
 ms.date: 12/06/2017
-ms.author: davidi
+ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 9438b9563d17cff8ce334e48bc34a4f3fa6acf1c
-ms.sourcegitcommit: 1fe3ababba34c4e7aea08adb347ec5430e0b38e4
+ms.openlocfilehash: 899cef8c4e441c49f40acc7873348fe80a7b5f9d
+ms.sourcegitcommit: 8552a34df8e6141eb704314c1a019992901d6e78
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/08/2018
 ---
 # <a name="guidance-for-deploying-a-data-gateway-for-power-bi"></a>Útmutató adatátjáró üzembe helyezéséhez a Power BI számára
 A cikk útmutatást nyújt az adatátjáró hálózati környezetben történő telepítéséhez, és ismerteti a telepítés szempontjait. Az **átjáró** olyan szoftver, amely lehetővé teszi, hogy a helyszíni privát hálózaton lévő adatok elérhetőek legyenek az olyan felhőszolgáltatásokban, mint például a Power BI. A cikk végigvezeti a telepítés menetén, és útmutatást nyújt **Helyszíni adatátjáró** telepítéséhez.

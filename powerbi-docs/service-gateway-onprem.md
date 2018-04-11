@@ -3,7 +3,7 @@ title: Helyszíni adatátjáró
 description: Ez egy áttekintés a Power BI-hoz készült helyszíni adatátjáróhoz. Ezt az átjárót használhatja DirectQuery-adatforrásokon történő munkához. Helyszíni adatokkal rendelkező felhőbeli adatkészletek frissítésére is használhatja ezt az átjárót.
 services: powerbi
 documentationcenter: ''
-author: markingmyname
+author: mgblythe
 manager: kfile
 backup: ''
 editor: ''
@@ -16,13 +16,13 @@ ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: powerbi
 ms.date: 03/26/2018
-ms.author: maghan
+ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 1c0bd455d8b2dd34cc7d9ef20b0e75c5457034d2
-ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
+ms.openlocfilehash: c6c924095e3aaf4839f1c9422e027ba5373b9ad4
+ms.sourcegitcommit: 8552a34df8e6141eb704314c1a019992901d6e78
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 03/30/2018
+ms.lasthandoff: 04/08/2018
 ---
 # <a name="on-premises-data-gateway"></a>Helyszíni adatátjáró
 A helyszíni adatátjárók hídként működnek, és gyors és biztonságos adatátvitelt biztosítanak a helyszíni (nem a felhőben található) adatok és a Power BI, a Microsoft Flow, a Logic Apps és a PowerApps szolgáltatások között.

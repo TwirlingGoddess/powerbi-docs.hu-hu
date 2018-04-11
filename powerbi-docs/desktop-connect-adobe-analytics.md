@@ -1,40 +1,33 @@
 ---
-title: "Csatlakozás az Adobe Analyticshez a Power BI Desktopban (előzetes verzió)"
-description: "Könnyedén csatlakozhat az Adobe Analyticshez, és használhatja azt a Power BI Desktopban"
+title: Csatlakozás az Adobe Analyticshez a Power BI Desktopban
+description: Könnyedén csatlakozhat az Adobe Analyticshez, és használhatja azt a Power BI Desktopban
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/09/2018
+ms.date: 04/04/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: efd6d066e2f98f86248730917c2f4aa0c8a39983
-ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
+ms.openlocfilehash: 4488cd373fae22c4494ac697602536496ffc9b00
+ms.sourcegitcommit: e571de2afa3f34fac06a6aab0df0e8940cb00a0d
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 03/12/2018
+ms.lasthandoff: 04/05/2018
 ---
-# <a name="connect-to-adobe-analytics-in-power-bi-desktop-preview"></a>Csatlakozás az Adobe Analyticshez a Power BI Desktopban (előzetes verzió)
+# <a name="connect-to-adobe-analytics-in-power-bi-desktop"></a>Csatlakozás az Adobe Analyticshez a Power BI Desktopban 
 A **Power BI Desktopban** csatlakozhat az **Adobe Analyticshez**, és úgy használhatja az alapul szolgáló adatokat, mint a Power BI Desktop bármely más adatforrását. 
 
 ![Adatok lekérése az Adobe Analytics szolgáltatásból](media/desktop-connect-adobe-analytics/connect-adobe-analytics_01.png)
-
-## <a name="enable-the-adobe-analytics-connector-preview"></a>Az Adobe Analytics-összekötő előzetes verziójának engedélyezése 
-Mivel az **Adobe Analytics**-összekötő jelenleg előzetes verzióként érhető el, az előzetes verziójú funkció engedélyezése szükséges ahhoz, hogy az összekötő használható legyen az **Adatok lekérése** ablakban. Az összekötő előzetes verziójának engedélyezéséhez válassza a **Fájl > Lehetőségek és beállítások > Beállítások > Előzetes verziójú funkciók** lehetőséget a Power BI Desktopban, majd jelölje be a **Könyvjelzők** elem melletti jelölőnégyzetet. 
-
-![Az Adobe Analytics-összekötő előzetes verziójának engedélyezése a Beállítások között](media/desktop-connect-adobe-analytics/connect-adobe-analytics_02.png)
-
-Az Adobe Analytics-összekötő előzetes verziójának engedélyezésre után újra kell indítania a **Power BI Desktopot**.
 
 ## <a name="connect-to-adobe-analytics-data"></a>Kapcsolódás az Adobe Analytics adataihoz
 Ha csatlakozni kíván az **Adobe Analytics** adataihoz, válassza az **Adatok lekérése** lehetőséget a Power BI Desktop **Kezdőlap** menüszalagján. A bal oldali kategóriák közül válassza az **Online szolgáltatások** lehetőséget, ekkor megjelenik az **Adobe Analytics-összekötő**.
