@@ -1,12 +1,12 @@
 ---
-title: "Alkalmazások telepítése és használata irányítópultokkal és jelentésekkel a Power BI-ban"
-description: "A Power BI-ban az alkalmazások egy helyen hozzák össze az összefüggő irányítópultokat és jelentéseket."
+title: Alkalmazások telepítése és használata irányítópultokkal és jelentésekkel a Power BI-ban
+description: A Power BI-ban az alkalmazások egy helyen hozzák össze az összefüggő irányítópultokat és jelentéseket.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: monitoring
 qualitydate: 10/02/2017
 ms.service: powerbi

@@ -1,15 +1,15 @@
 ---
-title: "Céges tartalomcsomagok megkeresése és csatlakozás hozzájuk – Power BI"
-description: "Céges tartalomcsomag megkeresése és megnyitása a Power BI-ban"
+title: Céges tartalomcsomagok megkeresése és csatlakozás hozzájuk – Power BI
+description: Céges tartalomcsomag megkeresése és megnyitása a Power BI-ban
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
 backup: ajayan
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

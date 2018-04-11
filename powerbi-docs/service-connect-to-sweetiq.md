@@ -1,15 +1,15 @@
 ---
-title: "Kapcsolódás a SweetIQ-hoz a Power BI-jal"
+title: Kapcsolódás a SweetIQ-hoz a Power BI-jal
 description: SweetIQ a Power BI-hoz
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: SarinaJoan
 manager: kfile
 backup: maggiesMSFT
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

@@ -1,15 +1,15 @@
 ---
-title: "A Q&A használata a Power BI szolgáltatásban és a Power BI Desktopban – áttekintés"
-description: "Q&A szolgáltatás: Természetes nyelvi kérdések a Power BI-ban – Dokumentáció"
+title: A Q&A használata a Power BI szolgáltatásban és a Power BI Desktopban – áttekintés
+description: 'Q&A szolgáltatás: Természetes nyelvi kérdések a Power BI-ban – Dokumentáció'
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: 
-qualitydate: 
+backup: ''
+editor: ''
+tags: ''
+qualityfocus: ''
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

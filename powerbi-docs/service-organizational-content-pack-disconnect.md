@@ -1,15 +1,15 @@
 ---
-title: "Szervezeti tartalomcsomaggal létesített kapcsolat bontása – Power BI"
-description: "Elolvashatja a Power BI szervezeti tartalomcsomaggal létesített kapcsolatának az adatkészlet törlésével való eltávolításának lépéseit."
+title: Szervezeti tartalomcsomaggal létesített kapcsolat bontása – Power BI
+description: Elolvashatja a Power BI szervezeti tartalomcsomaggal létesített kapcsolatának az adatkészlet törlésével való eltávolításának lépéseit.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
 backup: ajayan
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

@@ -1,16 +1,16 @@
 ---
-title: "A Power BI-hoz használt Cortana hibaelhárítása"
-description: "Ha problémákat tapasztal a Cortana a Power BI-hoz való használata során, próbálja ki az alábbi javaslatokat."
+title: A Power BI-hoz használt Cortana hibaelhárítása
+description: Ha problémákat tapasztal a Cortana a Power BI-hoz való használata során, próbálja ki az alábbi javaslatokat.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
-featuredvideoid: 
-qualityfocus: 
-qualitydate: 
+backup: ''
+editor: ''
+tags: ''
+featuredvideoid: ''
+qualityfocus: ''
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

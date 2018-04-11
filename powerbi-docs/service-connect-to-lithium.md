@@ -1,15 +1,15 @@
 ---
-title: "Kapcsolódás a Power BI-ból a Lithiumhoz"
+title: Kapcsolódás a Power BI-ból a Lithiumhoz
 description: Lithium a Power BI-hoz
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: SarinaJoan
 manager: kfile
 backup: maggiesMSFT
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

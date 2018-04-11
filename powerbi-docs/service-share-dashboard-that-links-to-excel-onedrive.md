@@ -1,15 +1,15 @@
 ---
-title: "OneDrive-on található Excel-fájlra hivatkozó irányítópult megosztása ‒ Power BI"
-description: "Útmutatás a OneDrive-on található Excel-munkafüzetekhez csatlakozó, a munkafüzetből kitűzött csempéket tartalmazó irányítópultok megosztásához."
+title: OneDrive-on található Excel-fájlra hivatkozó irányítópult megosztása ‒ Power BI
+description: Útmutatás a OneDrive-on található Excel-munkafüzetekhez csatlakozó, a munkafüzetből kitűzött csempéket tartalmazó irányítópultok megosztásához.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
 backup: ajayan
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

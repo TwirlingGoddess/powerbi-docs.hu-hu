@@ -1,15 +1,15 @@
 ---
-title: "Rövid útmutató: első lépések a Power BI Q&A használatában"
-description: "Rövid útmutató: első lépések a Q&A kiskereskedelmi elemzési mintán való használatában a Power BI szolgáltatásban"
+title: 'Rövid útmutató: első lépések a Power BI Q&A használatában'
+description: 'Rövid útmutató: első lépések a Q&A kiskereskedelmi elemzési mintán való használatában a Power BI szolgáltatásban'
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: 
-qualitydate: 
+backup: ''
+editor: ''
+tags: ''
+qualityfocus: ''
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

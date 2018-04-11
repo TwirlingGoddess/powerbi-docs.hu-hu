@@ -1,15 +1,15 @@
 ---
-title: "Csatlakozás a Power BI alkalmazás munkaterületéhez tartozó OneDrive-ban tárolt fájlokhoz"
-description: "Itt olvashat arról, hogy miképpen tárolhatja a Power BI alkalmazás munkaterületéhez tartozó OneDrive-ban az Excel-, a CSV-, és a Power BI Desktop-fájlokat, és hogyan csatlakozhat hozzájuk."
+title: Csatlakozás a Power BI alkalmazás munkaterületéhez tartozó OneDrive-ban tárolt fájlokhoz
+description: Itt olvashat arról, hogy miképpen tárolhatja a Power BI alkalmazás munkaterületéhez tartozó OneDrive-ban az Excel-, a CSV-, és a Power BI Desktop-fájlokat, és hogyan csatlakozhat hozzájuk.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
 backup: ajayan
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

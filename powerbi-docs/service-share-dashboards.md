@@ -1,13 +1,13 @@
 ---
-title: "Power BI-irányítópult és -jelentés megosztása munkatársakkal és másokkal"
-description: "Tudnivalók Power BI-irányítópultoknak és -jelentéseknek a cégen belüli és kívüli munkatársakkal való megosztásáról és általában a megosztásról."
+title: Power BI-irányítópult és -jelentés megosztása munkatársakkal és másokkal
+description: Tudnivalók Power BI-irányítópultoknak és -jelentéseknek a cégen belüli és kívüli munkatársakkal való megosztásáról és általában a megosztásról.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
 backup: lukaszp
-editor: 
-tags: 
+editor: ''
+tags: ''
 featuredvideoid: 0tUwn8DHo3s
 qualityfocus: monitoring
 qualitydate: 08/14/2017

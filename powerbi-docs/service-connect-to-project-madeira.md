@@ -1,15 +1,15 @@
 ---
-title: "Csatlakozás a Madeira projekthez a Power BI használatával"
+title: Csatlakozás a Madeira projekthez a Power BI használatával
 description: A Madeira projekt a Power BI-ban
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: SarinaJoan
 manager: kfile
 backup: maggiesMSFT
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

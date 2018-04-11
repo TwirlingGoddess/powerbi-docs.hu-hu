@@ -1,15 +1,15 @@
 ---
-title: "Bevezetés a Power BI szervezeti tartalomcsomagjainak használatába"
-description: "Ebben a cikkben arról olvashat, miként rendezheti olyan szervezeti tartalomcsomagokba irányítópultjait, jelentéseit, Excel-munkafüzeteit és adatkészleteit, amelyeket aztán megoszthat munkatársaival."
+title: Bevezetés a Power BI szervezeti tartalomcsomagjainak használatába
+description: Ebben a cikkben arról olvashat, miként rendezheti olyan szervezeti tartalomcsomagokba irányítópultjait, jelentéseit, Excel-munkafüzeteit és adatkészleteit, amelyeket aztán megoszthat munkatársaival.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
 backup: ajayan
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

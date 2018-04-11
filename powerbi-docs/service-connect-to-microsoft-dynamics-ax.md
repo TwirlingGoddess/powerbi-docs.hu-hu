@@ -1,15 +1,15 @@
 ---
-title: "Csatlakozás a Power BI-ból a Microsoft Dynamics AX tartalomcsomaghoz"
-description: "Microsoft Dynamics AX tartalomcsomag a Power BI szolgáltatáshoz"
+title: Csatlakozás a Power BI-ból a Microsoft Dynamics AX tartalomcsomaghoz
+description: Microsoft Dynamics AX tartalomcsomag a Power BI szolgáltatáshoz
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: SarinaJoan
 manager: kfile
 backup: maggiesMSFT
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

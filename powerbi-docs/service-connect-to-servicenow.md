@@ -1,15 +1,15 @@
 ---
-title: "Csatlakozás a ServiceNow-hoz a Power BI használatával"
+title: Csatlakozás a ServiceNow-hoz a Power BI használatával
 description: ServiceNow a Power BI-ban
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: SarinaJoan
 manager: kfile
 backup: maggiesMSFT
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

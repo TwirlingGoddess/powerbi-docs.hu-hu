@@ -1,15 +1,15 @@
 ---
-title: "Csatlakozás a Microsoft Azure Consumption Insightshoz a Power BI használatával"
-description: "A Power BI-hoz készült Microsoft Azure Consumption Insights"
+title: Csatlakozás a Microsoft Azure Consumption Insightshoz a Power BI használatával
+description: A Power BI-hoz készült Microsoft Azure Consumption Insights
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: SarinaJoan
 manager: kfile
 backup: maggies
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

@@ -1,11 +1,11 @@
 ---
-title: "Power BI-jelentések és irányítópultok gyors keresése a Cortana használatával"
-description: "Használja a Cortanát a Power BI-hoz, hogy válaszokat nyerjen ki adataiból. Jelenleg jelentésekkel és irányítópultokkal használható."
+title: Power BI-jelentések és irányítópultok gyors keresése a Cortana használatával
+description: Használja a Cortanát a Power BI-hoz, hogy válaszokat nyerjen ki adataiból. Jelenleg jelentésekkel és irányítópultokkal használható.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-editor: 
+editor: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

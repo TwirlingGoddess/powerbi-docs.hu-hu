@@ -1,15 +1,15 @@
 ---
-title: "Együttműködés a Power BI alkalmazás-munkaterületén"
-description: "Ismertető a közös munkáról, amelyet munkatársaival Office 365-szolgáltatásokkal vagy Power BI Desktop-fájlokon az alkalmazás-munkaterületen végezhet, mint amilyen a fájlok megosztása a OneDrive Vállalati verzióban, az Exchange-beszélgetések, a naptár és a feladatok."
+title: Együttműködés a Power BI alkalmazás-munkaterületén
+description: Ismertető a közös munkáról, amelyet munkatársaival Office 365-szolgáltatásokkal vagy Power BI Desktop-fájlokon az alkalmazás-munkaterületen végezhet, mint amilyen a fájlok megosztása a OneDrive Vállalati verzióban, az Exchange-beszélgetések, a naptár és a feladatok.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
 backup: ajayan
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

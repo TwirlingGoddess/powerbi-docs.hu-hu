@@ -1,15 +1,15 @@
 ---
-title: "Kapcsolódás az Office365Mon tartalomcsomaghoz a Power BI-jal"
-description: "A Power BI-hoz készült Office365Mon tartalomcsomag"
+title: Kapcsolódás az Office365Mon tartalomcsomaghoz a Power BI-jal
+description: A Power BI-hoz készült Office365Mon tartalomcsomag
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: SarinaJoan
 manager: kfile
 backup: maggiesMSFT
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

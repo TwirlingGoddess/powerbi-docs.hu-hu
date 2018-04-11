@@ -1,14 +1,14 @@
 ---
-title: "Irányítópultokból és jelentésekből álló alkalmazások létrehozása és közzététele a Power BI-ban"
-description: "Tudja meg, hogyan hozhat létre és tehet közzé alkalmazásokat, azaz irányítópultokból és jelentésekből álló gyűjteményeket, amelyek célja az alapvető metrikák biztosítása a vállalat számára."
+title: Irányítópultokból és jelentésekből álló alkalmazások létrehozása és közzététele a Power BI-ban
+description: Tudja meg, hogyan hozhat létre és tehet közzé alkalmazásokat, azaz irányítópultokból és jelentésekből álló gyűjteményeket, amelyek célja az alapvető metrikák biztosítása a vállalat számára.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
