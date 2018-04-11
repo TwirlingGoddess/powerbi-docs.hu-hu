@@ -1,15 +1,15 @@
 ---
-title: "Az alkalmazás-munkaterület kezelése a Power BI-ban és az Office 365-ben"
-description: "A Power BI-ban az alkalmazás-munkaterületek az Office 365-csoportokra épülő együttműködési felületek. Az alkalmazás-munkaterületeket a Power BI-ban és az Office 365-ben is kezelheti."
+title: Az alkalmazás-munkaterület kezelése a Power BI-ban és az Office 365-ben
+description: A Power BI-ban az alkalmazás-munkaterületek az Office 365-csoportokra épülő együttműködési felületek. Az alkalmazás-munkaterületeket a Power BI-ban és az Office 365-ben is kezelheti.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
 backup: ajayan
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

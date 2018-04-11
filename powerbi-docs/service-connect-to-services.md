@@ -1,15 +1,15 @@
 ---
-title: "Kapcsolódás a Power BI segítségével a használt szolgáltatásokhoz"
-description: "Könnyedén kapcsolódhat a vállalkozása működtetéséhez használt olyan szolgáltatásokhoz, mint például a Salesforce, a Microsoft Dynamics CRM és a Google Analytics."
+title: Kapcsolódás a Power BI segítségével a használt szolgáltatásokhoz
+description: Könnyedén kapcsolódhat a vállalkozása működtetéséhez használt olyan szolgáltatásokhoz, mint például a Salesforce, a Microsoft Dynamics CRM és a Google Analytics.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

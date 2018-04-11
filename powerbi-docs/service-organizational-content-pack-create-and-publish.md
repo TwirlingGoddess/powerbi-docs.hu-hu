@@ -1,15 +1,15 @@
 ---
-title: "Szervezeti tartalomcsomag létrehozása és közzététele – Power BI"
-description: "Ebben az oktatóanyagban egy szervezeti tartalomcsomagot hoz létre, korlátozza az elérését egy adott csoportra, és közzéteszi a cég tartalomcsomagtárában a Power BI-ban."
+title: Szervezeti tartalomcsomag létrehozása és közzététele – Power BI
+description: Ebben az oktatóanyagban egy szervezeti tartalomcsomagot hoz létre, korlátozza az elérését egy adott csoportra, és közzéteszi a cég tartalomcsomagtárában a Power BI-ban.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
 backup: ajayan
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

@@ -1,16 +1,16 @@
 ---
-title: "Kiemelt kérdések létrehozása a Power BI Q&A-hez"
-description: "Dokumentáció arról, hogyan lehet kiemelt kérdéseket létrehozni a Power BI Q&A-hez"
+title: Kiemelt kérdések létrehozása a Power BI Q&A-hez
+description: Dokumentáció arról, hogyan lehet kiemelt kérdéseket létrehozni a Power BI Q&A-hez
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 featuredvideoid: E1mIAyEXuF4
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

@@ -1,13 +1,13 @@
 ---
-title: "Hogyan végezhetek közös munkát és hogyan oszthatok meg tartalmat a Power BI-ban?"
-description: "A Power BI-ban az irányítópultok, a jelentések, a csempék és az alkalmazások másokkal közös használatához és megosztásához számos mód áll rendelkezésre. Mindegyiknek megvannak a maga előnyei."
+title: Hogyan végezhetek közös munkát és hogyan oszthatok meg tartalmat a Power BI-ban?
+description: A Power BI-ban az irányítópultok, a jelentések, a csempék és az alkalmazások másokkal közös használatához és megosztásához számos mód áll rendelkezésre. Mindegyiknek megvannak a maga előnyei.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
 backup: lukaszp
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: monitoring
 qualitydate: 02/28/2017
 ms.service: powerbi

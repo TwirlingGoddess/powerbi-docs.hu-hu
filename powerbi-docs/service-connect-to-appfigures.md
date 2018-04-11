@@ -1,15 +1,15 @@
 ---
-title: "Csatlakozás az appFigures-hoz a Power BI használatával"
+title: Csatlakozás az appFigures-hoz a Power BI használatával
 description: appFigures a Power BI-hoz
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: SarinaJoan
 manager: kfile
 backup: maggiesMSFT
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

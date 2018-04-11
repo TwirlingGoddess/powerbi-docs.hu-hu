@@ -1,15 +1,15 @@
 ---
-title: "Csatlakozás az AT Internet Bridge-hez Power BI-jal"
+title: Csatlakozás az AT Internet Bridge-hez Power BI-jal
 description: AT Internet Bridge a Power BI-hoz
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: SarinaJoan
 manager: kfile
 backup: maggiesMSFT
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

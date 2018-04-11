@@ -1,11 +1,11 @@
 ---
-title: "A Power BI-hoz használt Cortana aktiválása"
-description: "Használja a Cortanát a Power BI-hoz, hogy válaszokat nyerjen ki az adataiból. Aktiválja a Cortanát az egyes Power BI-adatkészletekhez, majd engedélyezze a Cortana számára az adatkészletei elérését Windows-eszközökről."
+title: A Power BI-hoz használt Cortana aktiválása
+description: Használja a Cortanát a Power BI-hoz, hogy válaszokat nyerjen ki az adataiból. Aktiválja a Cortanát az egyes Power BI-adatkészletekhez, majd engedélyezze a Cortana számára az adatkészletei elérését Windows-eszközökről.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-editor: 
+editor: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

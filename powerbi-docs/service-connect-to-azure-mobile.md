@@ -1,15 +1,15 @@
 ---
-title: "Kapcsolódás az Azure Mobile Engagement szolgáltatáshoz a Power BI használatával"
-description: "A Power BI-hoz készült Azure Mobile Engagement"
+title: Kapcsolódás az Azure Mobile Engagement szolgáltatáshoz a Power BI használatával
+description: A Power BI-hoz készült Azure Mobile Engagement
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: SarinaJoan
 manager: kfile
 backup: maggiesMSFT
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

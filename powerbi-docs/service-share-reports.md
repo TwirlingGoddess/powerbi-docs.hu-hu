@@ -1,13 +1,13 @@
 ---
-title: "Power BI-jelentések szűrése és megosztása munkatársakkal"
-description: "Tudnivalók arról, hogyan oszthat meg munkatársaival szűrt Power BI-jelentéseket a cégen belül."
+title: Power BI-jelentések szűrése és megosztása munkatársakkal
+description: Tudnivalók arról, hogyan oszthat meg munkatársaival szűrt Power BI-jelentéseket a cégen belül.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
 backup: lukaszp
-editor: 
-tags: 
+editor: ''
+tags: ''
 featuredvideoid: 0tUwn8DHo3s
 qualityfocus: complete
 qualitydate: 06/22/2016

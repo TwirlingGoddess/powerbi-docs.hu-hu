@@ -1,12 +1,12 @@
 ---
-title: "Oktatóanyag: a Q&A használata irányítópulton vagy jelentésben"
-description: "Az oktatóanyag azt mutatja be, hogyan lehet új vizualizációkat létrehozni irányítópultokon és jelentésekben a Power BI Q&A használatával."
+title: 'Oktatóanyag: a Q&A használata irányítópulton vagy jelentésben'
+description: Az oktatóanyag azt mutatja be, hogyan lehet új vizualizációkat létrehozni irányítópultokon és jelentésekben a Power BI Q&A használatával.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

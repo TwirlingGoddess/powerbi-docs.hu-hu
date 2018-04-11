@@ -1,15 +1,15 @@
 ---
-title: "Jelentések exportálása a Power BI-ból a PowerPointba (előzetes verzió)"
-description: "Ismerje meg, hogyan exportálhat jelentést a Power BI-ból a PowerPointba."
+title: Jelentések exportálása a Power BI-ból a PowerPointba (előzetes verzió)
+description: Ismerje meg, hogyan exportálhat jelentést a Power BI-ból a PowerPointba.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: complete
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

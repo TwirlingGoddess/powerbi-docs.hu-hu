@@ -1,15 +1,15 @@
 ---
-title: "Kapcsolódás az Adobe Analytics eszközhöz a Power BI használatával"
-description: "Ha a Power BI használatával kapcsolódik az Adobe Analytics elemzőeszközhöz, a fiókhoz tartozó adatokat egy alkalmazás fogja megjeleníteni egy irányítópult és jelentések formájában."
+title: Kapcsolódás az Adobe Analytics eszközhöz a Power BI használatával
+description: Ha a Power BI használatával kapcsolódik az Adobe Analytics elemzőeszközhöz, a fiókhoz tartozó adatokat egy alkalmazás fogja megjeleníteni egy irányítópult és jelentések formájában.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: SarinaJoan
 manager: kfile
 backup: maggiesMSFT
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

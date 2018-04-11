@@ -1,16 +1,16 @@
 ---
-title: "Beágyazás jelentéskijelzővel a SharePoint Online-ban"
-description: "A Power BI új beágyazás jelentéskijelzővel a SharePoint Online-ban funkciójának használatával interaktív Power BI-jelentéseit könnyedén SharePoint Online-oldalakba illesztheti."
+title: Beágyazás jelentéskijelzővel a SharePoint Online-ban
+description: A Power BI új beágyazás jelentéskijelzővel a SharePoint Online-ban funkciójának használatával interaktív Power BI-jelentéseit könnyedén SharePoint Online-oldalakba illesztheti.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
-featuredvideoid: 
+backup: ''
+editor: ''
+tags: ''
+featuredvideoid: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

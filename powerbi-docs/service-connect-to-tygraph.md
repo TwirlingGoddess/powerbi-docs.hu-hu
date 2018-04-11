@@ -1,15 +1,15 @@
 ---
-title: "Csatlakozás a tyGraphoz a Power BI-t használva"
-description: "A Power BI-hoz készített tyGraph"
+title: Csatlakozás a tyGraphoz a Power BI-t használva
+description: A Power BI-hoz készített tyGraph
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: SarinaJoan
 manager: kfile
 backup: maggiesMSFT
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

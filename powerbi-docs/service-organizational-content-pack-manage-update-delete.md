@@ -1,15 +1,15 @@
 ---
-title: "Céges tartalomcsomagok kezelése és frissítése"
-description: "Tájékoztató a céges tartalomcsomagok Power BI-beli kezeléséről, frissítéséről és törléséről."
+title: Céges tartalomcsomagok kezelése és frissítése
+description: Tájékoztató a céges tartalomcsomagok Power BI-beli kezeléséről, frissítéséről és törléséről.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
 backup: ajayan
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

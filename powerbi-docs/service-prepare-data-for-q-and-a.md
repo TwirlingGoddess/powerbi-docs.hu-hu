@@ -1,15 +1,15 @@
 ---
-title: "Excel-adatok megfelelő működésének biztosítása a Q&A és a Power BI használatánál"
-description: "Adatok megfelelő működésének biztosítása a Q&A és a Power BI használatánál"
+title: Excel-adatok megfelelő működésének biztosítása a Q&A és a Power BI használatánál
+description: Adatok megfelelő működésének biztosítása a Q&A és a Power BI használatánál
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
