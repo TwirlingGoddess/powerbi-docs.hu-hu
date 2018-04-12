@@ -1,28 +1,28 @@
 ---
-title: "A Power BI Premium megvásárlása"
-description: "Megtudhatja, hogyan kezelheti a Power BI Premiumot, és hogyan engedélyezheti a tartalmakhoz való hozzáférést a teljes szervezet számára."
+title: A Power BI Premium megvásárlása
+description: Megtudhatja, hogyan kezelheti a Power BI Premiumot, és hogyan engedélyezheti a tartalmakhoz való hozzáférést a teljes szervezet számára.
 services: powerbi
-documentationcenter: 
-author: markingmyname
+documentationcenter: ''
+author: mgblythe
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/17/2017
-ms.author: maghan
+ms.author: mblythe
 LocalizationGroup: Premium
-ms.openlocfilehash: d80954599b866ff2f1d03d34a7e8e021d1be215b
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: e5bf5f4995c628640de2400f1097e89969eded7d
+ms.sourcegitcommit: 8552a34df8e6141eb704314c1a019992901d6e78
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/08/2018
 ---
 # <a name="how-to-purchase-power-bi-premium"></a>A Power BI Premium megvásárlása
 Megtudhatja, hogyan vásárolhat Power BI Premium-kapacitást a szervezete számára.
@@ -50,7 +50,7 @@ Ha egy meglévő szervezet tagja, globális vagy számlázási rendszergazdának
 
 Prémium-kapacitás vásárlásához az alábbi lépéseket kell elvégeznie.
 
-1. A Power BI szolgáltatásban válassza az **Office 365-alkalmazásválasztó** > **Felügyelet** lehetőséget. Másik lehetőségként megnyithatja az Office 365 Felügyeleti központját. Ehhez nyissa meg a https://portal.office.com oldalt, és válassza a **Felügyelet** lehetőséget.
+1. A Power BI szolgáltatásban válassza az **Office 365-alkalmazásválasztó** > **Felügyelet** lehetőséget. Másik lehetőségként megnyithatja az Office 365 Felügyeleti központját. Ehhez nyissa meg a(z) https://portal.office.com oldalt, majd válassza a **Felügyelet** lehetőséget.
    
     ![](media/service-admin-premium-purchase/o365-app-picker.png)
 2. Válassza a **Számlázás** > **Szolgáltatások vásárlása** lehetőséget.
