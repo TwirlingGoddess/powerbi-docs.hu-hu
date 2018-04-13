@@ -1,13 +1,13 @@
 ---
-title: "Újdonságok a Power BI Desktop legújabb frissítésében"
-description: "Újdonságok a Power BI Desktop legújabb frissítésében"
+title: Újdonságok a Power BI Desktop legújabb frissítésében
+description: Újdonságok a Power BI Desktop legújabb frissítésében
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: complete
 qualitydate: 05/31/2016
 ms.service: powerbi
@@ -15,22 +15,22 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/09/2018
+ms.date: 04/04/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 8dda30e988b4ab47eb32a85d746aeed38d565f2b
-ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
+ms.openlocfilehash: 08dbb8c68ba7ca50766f104d0a7581c9f876f6d1
+ms.sourcegitcommit: c80fbf5b12754ce217cb47a17cb5400b1036a8f2
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 03/12/2018
+ms.lasthandoff: 04/06/2018
 ---
 # <a name="whats-new-in-the-latest-power-bi-desktop-update"></a>Újdonságok a Power BI Desktop legújabb frissítésében
 
-## <a name="march-2018-update-2565023861"></a>2018. márciusi frissítés (2.56.5023.861)
+## <a name="april-2018-update-2575068501"></a>2018. áprilisi frissítés (2.57.5068.501)
 
 [A Power BI Desktop legújabb verziója](https://powerbi.microsoft.com/desktop) már letölthető. Ha Windows 10 operációs rendszert használ, a **Power BI Desktopot** a Windows Áruházból is letöltheti. A havi verziók a **Power BI Desktop** telepítésének módjától függetlenül megegyeznek. További információkért tekintse meg [ezt a cikket](desktop-get-the-desktop.md). 
 
-Nagy örömmel jelentjük be a **Power BI Desktop** e havi frissítéseit.
+Le sem tagadhatnánk, milyen izgatottan adjuk ki a **Power BI Desktop** e havi frissítéseit. A frissítések tucatnyi területre kiterjednek, és reméljük, hatékony segítséget fognak nyújtani Önnek abban, hogy még lenyűgözőbb és látványosabb vizualizációkkal tudjon jelentéseket létrehozni. 
 
 Az egyes frissítések mellett szereplő hivatkozások a következőket jelentik:
 
@@ -45,40 +45,39 @@ Ebben a hónapban az alábbi frissítések kerültek be a **Power BI Desktopba**
 
 ### <a name="reporting"></a>Jelentéskészítés
 
-* Jelentésoldal-alapú elemleírások [[videó]](https://youtu.be/kuI6MMzDh34?t=16s) [[cikk]]() [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#tooltips) 
-* Általánosan elérhető a könyvjelzőkezelési funkció [[videó]](https://youtu.be/kuI6MMzDh34?t=9m2s) [[cikk]](desktop-bookmarks.md) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#bookmarking) 
-* Megjelenítési egységek és precíziós vezérlők a tábla- és mátrixoszlopokhoz [[videó]](https://youtu.be/kuI6MMzDh34?t=11m1s) [[cikk]](desktop-slicer-numeric-range.md) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#displayUnits) 
-* Vizualizációs fejléc kikapcsolása jelentések olvasási nézetében [[videó]](https://youtu.be/kuI6MMzDh34?t=12m25s) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#visualHeader) 
-* Vizualizációk alapértelmezett elhelyezésének javítása [[videó]](https://youtu.be/kuI6MMzDh34?t=14m45s) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#visualPlacement) 
+* Q&A Explorer  [[videó]](https://youtu.be/W_Nb73Od_AI?t=13s)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary/#Q&AExplorer) 
+* Műveletek indítása gombokkal  [[videó]](https://youtu.be/W_Nb73Od_AI?t=9m42s) [[cikk]](desktop-buttons.md)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary/#buttons) 
+* Vonalstílusok kombinált diagramokhoz  [[videó]](https://youtu.be/W_Nb73Od_AI?t=16m55s)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary/#comboLines) 
+* Továbbfejlesztett alapértelmezett rendezés vizualizációkhoz  [[videó]](https://youtu.be/W_Nb73Od_AI?t=19m21s)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary/#sort) 
+* Általánosan elérhetők a numerikus szeletelők  [[videó]](https://youtu.be/W_Nb73Od_AI?t=21m13s)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary/#numericSlicer) 
+
+### <a name="analytics"></a>Elemzés
+
+* Nyelvi séma frissítése  [[videó]](https://youtu.be/W_Nb73Od_AI?t=22m)  [[cikk]](power-bi-custom-visuals-organization.md)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary/#linguisticSchema) 
+* Új DAX-függvény: COMBINEVALUES()  [[videó]](https://youtu.be/W_Nb73Od_AI?t=23m37s)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary/#combineValues) 
 
 ### <a name="custom-visuals"></a>Egyéni vizualizációk
 
-* Számos új egyéni vizualizáció [[videó]](https://youtu.be/kuI6MMzDh34?t=15m43s) [[cikk]](power-bi-custom-visuals-organization.md) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#customVisuals) 
+* Általánosan elérhetők a szervezeti vizualizációk  [[videó]](https://youtu.be/W_Nb73Od_AI?t=26m11s)  [[cikk]](power-bi-custom-visuals-organization.md)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary/#organizationalVisuals) 
+* Számos új egyéni vizualizáció  [[videó]](https://youtu.be/W_Nb73Od_AI?t=28m8s)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary/#overviewByCloudScope) 
 
 ### <a name="data-connectivity"></a>Adatkapcsolatok
 
-* A Visual Studio Team Services-összekötő fejlesztései [[videó]](https://youtu.be/kuI6MMzDh34?t=32m) [[cikk]](desktop-multi-select.md) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#vsts) 
-* A SAP HANA-összekötő fejlesztései [[videó]](https://youtu.be/kuI6MMzDh34?t=32m44s) [[cikk]](desktop-directquery-sap-hana.md) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#saphana) 
-  * Mostantól általánosan elérhető a DirectQuery többdimenziós funkcióinak támogatása
-  * SSL-tanúsítvány-érvényesítés támogatása
-* Általánosan elérhető az SAP BW DirectQuery [[videó]](https://youtu.be/kuI6MMzDh34?t=34m10s) [[cikk]](desktop-directquery-sap-hana.md) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#sapBW) 
-* Általánosan elérhető az Azure Analysis Services Connector [[videó]](https://youtu.be/kuI6MMzDh34?t=34m10s) [[cikk]](desktop-directquery-sap-hana.md) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#azureAS) 
+* Általánosan elérhető az Adobe Analytics-összekötő  [[videó]](https://youtu.be/kuI6MMzDh34?t=32m) [[cikk]](desktop-multi-select.md)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary/#adobeAnalytics) 
+* Továbbfejlesztett SAP HANA-összekötő: Portválasztás  [[videó]](https://youtu.be/kuI6MMzDh34?t=32m44s)  [[cikk]](desktop-directquery-sap-hana.md)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary/#sapHana) 
+* Dynamics 365 Business Central-összekötő  [[videó]](https://youtu.be/kuI6MMzDh34?t=34m10s)  [[cikk]](desktop-directquery-sap-hana.md)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary/#dynamics365BusinessCentral) 
 
-### <a name="other"></a>Egyéb
 
-* Továbbfejlesztett hibajelentés [[videó]](https://youtu.be/kuI6MMzDh34?t=34m51s) [[cikk]](desktop-directquery-about.md) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#errors) 
-* Korábban észlelt hibák megtekintése [[videó]](https://youtu.be/kuI6MMzDh34?t=34m51s) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#viewErrors) 
 
 > [!NOTE]
 > Megtekintheti továbbá [a Power BI Desktophoz elérhető adatforrások teljes listáját](desktop-data-sources.md). A lista folyamatosan bővül, ezért érdemes gyakran visszatérnie.
 
-További információkra kíváncsi ezekről a frissítésekről? Olvassa el [blogbejegyzésünket](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary), amely részletes információkkal szolgál az új funkciókról (ez ugyanaz a blogbejegyzés, amelyre a fenti lista hivatkozik).
+További információkra kíváncsi ezekről a frissítésekről? Olvassa el [blogbejegyzésünket](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary), amely részletes információkkal szolgál az új funkciókról (ez ugyanaz a blogbejegyzés, amelyre a fenti lista hivatkozik).
 
 
 Ezeket a frissítéseket az alábbi videó mutatja be. A videó a blogbejegyzésben is megtekinthető.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/kuI6MMzDh34" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/W_Nb73Od_AI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 > [!NOTE]
 > Érdekelhetik továbbá [a Power BI szolgáltatás újdonságai](service-whats-new.md), valamint [a Power BI mobilalkalmazásainak újdonságai](mobile-whats-new-in-the-mobile-apps.md).

@@ -1,15 +1,15 @@
 ---
-title: "Számított táblázatok használata a Power BI Desktopban"
-description: "Számított táblázatok a Power BI Desktopban"
+title: Számított táblázatok használata a Power BI Desktopban
+description: Számított táblázatok a Power BI Desktopban
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 8bf8d2629d6a0bd88a85fa468547586e93502721
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 41017e1570a518e26305b6195531bcff889dbd9c
+ms.sourcegitcommit: c80fbf5b12754ce217cb47a17cb5400b1036a8f2
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/06/2018
 ---
 # <a name="using-calculated-tables-in-power-bi-desktop"></a>Számított táblázatok használata a Power BI Desktopban
 A számított táblázatokkal új táblázatokat adhat a modellhez. De ahelyett, hogy értékeket kellene lekérdeznie és betöltenie egy adatforrásból az új táblázat oszlopaiba, létrehozhat egy Data Analysis Expressions- (DAX-) képletet, amely meghatározza a táblázat értékeit. A számított táblázatok a Power BI Desktopban az Új táblázat funkcióval hozhatók létre Jelentés nézetben vagy Adatnézetben.
@@ -36,7 +36,7 @@ A normál táblázatokhoz hasonlóan a számított táblázatoknak lehetnek kapc
 A számított táblázatok a [Data Analysis Expressions](https://msdn.microsoft.com/library/gg413422.aspx) (DAX) használatával számítják ki az eredményeket. Ez a képletnyelv olyan relációs adatok használatához készült, amilyeneket a Power BI Desktop is használ. A DAX több mint 200 függvényt, operátort és szerkezetet tartalmazó kódtárat tartalmaz, így rendkívüli rugalmasságot biztosít a képletek létrehozása során, amelyek szinte bármilyen adatelemzési igényhez képesek eredményeket számítani.
 
 ## <a name="lets-look-at-an-example"></a>Vegyünk egy példát.
-Jeff, a Contoso egyik projektmenedzsere két táblázattal rendelkezik, az egyikben az észak-nyugati régió alkalmazottai szerepelnek, a másikban a dél-nyugati régió alkalmazottai. Jeff egyetlen táblázatba szeretné egyesíteni a két táblázatot.
+Jeff, a Contoso egyik projektmenedzsere két táblázattal rendelkezik, az egyikben az északnyugati régió alkalmazottai szerepelnek, a másikban a délnyugati régió alkalmazottai. Jeff egyetlen táblázatba szeretné egyesíteni a két táblázatot.
 
 **NorthwestEmployees**
 
@@ -71,7 +71,15 @@ A számított táblázatok bármely, táblázatot visszaadó DAX-kifejezéssel m
 
 Számos elemzési probléma megoldásához használhatja a számított táblázatokat a DAX-szal. Itt csak röviden bemutattuk a számított táblázatokat. A számított táblázatok használatának megkezdéséhez íme néhány gyakori DAX-táblázatfüggvény, amely hasznos lehet:
 
-&lt;TABLE&gt; DISTINCT VALUES CROSSJOIN UNION NATURALINNERJOIN NATURALLEFTOUTERJOIN INTERSECT CALENDAR CALENDARAUTO
+* DISTINCT
+* VALUES
+* CROSSJOIN
+* UNION
+* NATURALINNERJOIN
+* NATURALLEFTOUTERJOIN
+* INTERSECT
+* CALENDAR
+* CALENDARAUTO
 
 Tekintse meg a [DAX-függvények referencia-útmutatóját](https://msdn.microsoft.com/ee634396.aspx) ezekért és más, táblázatokat visszaadó DAX-függvényekért.
 
