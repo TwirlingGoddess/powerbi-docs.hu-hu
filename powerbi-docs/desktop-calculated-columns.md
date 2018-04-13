@@ -1,15 +1,15 @@
 ---
-title: "Számított oszlopok használata a Power BI Desktopban"
-description: "Számított oszlopok a Power BI Desktopban"
+title: Számított oszlopok használata a Power BI Desktopban
+description: Számított oszlopok a Power BI Desktopban
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: e9d1820bff2768f2169530ec49cfa2963bff9baa
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 4a47e707969b592ec27c79558699638ce14f8640
+ms.sourcegitcommit: c80fbf5b12754ce217cb47a17cb5400b1036a8f2
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/06/2018
 ---
 # <a name="using-calculated-columns-in-power-bi-desktop"></a>Számított oszlopok használata a Power BI Desktopban
 A számított oszlopokkal új adatokat adhat hozzá a modellben már meglévő táblázathoz. De ahelyett, hogy értékeket kellene lekérdeznie és betöltenie egy adatforrásból az új oszlopba, létrehozhat egy Data Analysis Expressions- (DAX-) képletet, amely meghatározza az oszlop értékeit. A számított oszlopok a Power BI Desktopban az Új oszlop funkcióval hozhatók létre Jelentés nézetben.
@@ -54,11 +54,11 @@ Jeffnek most már rendelkezésére áll az a mező, amelyet szeretett volna.
 
 ![](media/desktop-calculated-columns/calccolinpbid_citystatefield.png)
 
-Hozzáadhatja a jelentésvászonhoz a szállítmányok számával együtt. Gyorsan és minimális erőfeszítéssel Jeff létrehozott egy „város, állam” mezőt. Bármilyen típusú vizualizációt hozzáadhat. Jeff azt is látja, hogy ha létrehoz egy térképi vizualizációt, a Power BI Desktop tudni fogja, hogyan olvassa be az új oszlopból a város, állam értékeket.
+Hozzáadhatja a jelentésvászonhoz a szállítmányok számával együtt. Gyorsan és minimális erőfeszítéssel Jeff létrehozott egy „város, állam” mezőt, melyet a vizualizációk szinte bármely típusához hozzá tud adni. Jeff látja, hogy ha létrehoz egy térképi vizualizációt, a Power BI Desktop tudni fogja, hogyan olvassa be az új oszlopból a város, állam értékeket.
 
 ![](media/desktop-calculated-columns/calccolinpbid_citystatemap.png)
 
-## <a name="learn-more"></a>További információk
+## <a name="learn-more"></a>További információ
 Itt csak röviden bemutattuk a számított oszlopokat. Ne felejtse el megtekinteni a [Számított oszlopok létrehozása a Power BI Desktopban](desktop-tutorial-create-calculated-columns.md) oktatóanyagot, ahol letölthet egy mintafájlt, és lépésenkénti útmutatókat talál további oszlopok létrehozásáról. 
 
 További információk a DAX-ról: [A DAX használatának alapjai a Power BI Desktopban](desktop-quickstart-learn-dax-basics.md).

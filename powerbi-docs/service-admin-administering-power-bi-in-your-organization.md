@@ -1,28 +1,28 @@
 ---
-title: "A Power BI céges felügyelete"
-description: "A Power BI céges felügyelete"
+title: A Power BI céges felügyelete
+description: A Power BI céges felügyelete
 services: powerbi
-documentationcenter: 
-author: markingmyname
+documentationcenter: ''
+author: mgblythe
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 11/28/2017
-ms.author: maghan
+ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: b42be834822b4363c58bc4454c38f7973336c7dc
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 64dd0239026d3529129924b8d89eb5cc2642a9af
+ms.sourcegitcommit: 8552a34df8e6141eb704314c1a019992901d6e78
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/08/2018
 ---
 # <a name="administering-power-bi-in-your-organization"></a>A Power BI céges felügyelete
 A Microsoft Power BI lehetővé teszi, hogy a felhasználók megjelenítsék az adatokat, megosszák egymással a feltárt részleteket, és új és intuitív módokon működjenek együtt. További információkért lásd a [Power BI használatának első lépéseit](service-get-started.md) ismertető cikket.
@@ -206,7 +206,7 @@ Ha egy bérlőt a Microsoft hozott létre, a következő lépésekkel igényelhe
 1. A Power BI-ra való regisztrációval csatlakozzon a bérlőhöz, a kezelni kívánt bérlőtartománynak megfelelő e-mail-címtartománnyal. Ha a Microsoft például a contoso.com bérlőt hozta létre, a következő utótaggal rendelkező e-mail-címmel kell a bérlőhöz csatlakoznia: @contoso.com.
 2. Igényeljen rendszergazdai irányítást a tartomány tulajdonosának ellenőrzésével: miután a bérlőbe került, a tartomány tulajdonosának ellenőrzésével *Globális rendszergazda* szerepbe léptetheti elő magát. Ehhez kövesse az alábbi lépéseket:
    
-   1. Nyissa meg a [https://portal.office.com](https://portal.office.com) webhelyet.
+   1. Látogasson el a [https://portal.office.com](https://portal.office.com) címre.
    2. Kattintson az alkalmazás indítóikonjára a bal felső sarokban, és válassza a **Rendszergazda** elemet.
    3. Olvassa el a **Váljon rendszergazdává** oldalon lévő utasításokat, majd válassza az **Igen, rendszergazda szeretnék lenni** lehetőséget.
       

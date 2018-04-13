@@ -1,15 +1,15 @@
 ---
-title: "A DAX alapszintű használata a Power BI Desktopban"
-description: "A DAX alapszintű használata a Power BI Desktopban"
+title: A DAX alapszintű használata a Power BI Desktopban
+description: A DAX alapszintű használata a Power BI Desktopban
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 1b6a08ffbc7d1edfe0a86b6eb0a84702dec22da0
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 474cca86151925ee4991d477a6127536180808a8
+ms.sourcegitcommit: c80fbf5b12754ce217cb47a17cb5400b1036a8f2
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/06/2018
 ---
 # <a name="dax-basics-in-power-bi-desktop"></a>A DAX alapszintű használata a Power BI Desktopban
 Ez a cikk a Power BI Desktoppal még csak most ismerkedő felhasználóknak szól. A célja annak a rövid bemutatása, hogyan lehet a Data Analysis Expressions (DAX) nyelv segítségével néhány alapszintű számítási és adatelemzési problémát megoldani. Ismerteti az alapvető fogalmakat, továbbá tartalmaz néhány elvégezhető feladatot és néhány tesztkérdést az elsajátított ismeretek felmérésére, így segít a DAX nyelvvel kapcsolatos legfontosabb alapvető tudnivalók elsajátításában.
@@ -40,7 +40,7 @@ Szeretnénk a számításokban, különösen a mértékekben és a számított o
 
 **Például szolgáló munkafüzet**
 
-A legjobban úgy sajátíthatja el a DAX használatát, ha létrehoz néhány alapvető képletet, azokat tényleges adatokkal használja, és megvizsgálja a kapott eredményeket. Az itt található példák és feladatok Power BI Desktop előzetes verziójához készült Contoso értékesítési mintára épülnek. Ez ugyanaz a mintafájl, amelyet a saját mértékek Power BI Desktopban történő létrehozását ismertető oktatóanyag is használ. A fájlt [innen](http://download.microsoft.com/download/4/6/A/46AB5E74-50F6-4761-8EDB-5AE077FD603C/Contoso%20Sales%20for%20Power%20BI%20Designer.zip) töltheti le.
+A legjobban úgy sajátíthatja el a DAX használatát, ha létrehoz néhány alapvető képletet, azokat tényleges adatokkal használja, és megvizsgálja a kapott eredményeket. Az itt található példák és feladatok Power BI Desktop előzetes verziójához készült Contoso értékesítési mintára épülnek. Ez ugyanaz a mintafájl, amelyet a [saját mértékek Power BI Desktopban való létrehozását ismertető oktatóanyag](desktop-tutorial-create-measures.md) is használ. A mintafájlt [innen töltheti le](http://download.microsoft.com/download/4/6/A/46AB5E74-50F6-4761-8EDB-5AE077FD603C/Contoso%20Sales%20for%20Power%20BI%20Designer.zip).
 
 ## <a name="lets-begin"></a>Lássunk is hozzá!
 A DAX nyelvvel kapcsolatos ismeretek három alapvető fogalom köré fűzhetőek fel: *Szintaxis*, *Függvények* és *Környezet*. Természetesen léteznek egyéb fontos fogalmak is a DAX-ban, de ennek a három alapvető fogalomnak az elsajátítása a többi megismerését elősegítő kellő alapot.
@@ -83,7 +83,7 @@ Azt is láttuk, hogy a [SalesAmount] oszlop előtt szerepelt a Sales tábla is, 
 > 
 > 
 
-Fontos, hogy a képletekben a megfelelő szintaxist alkalmazza. Hibás szintaxis esetén a rendszer általában szintaxishibát jelez. Az is előfordulhat, hogy a szintaxis helyes ugyan, a visszaadott értékek mégsem felelnek meg az elvárásoknak. A Power BI Desktop DAX-szerkesztője javaslatokat ad – ez a funkció segít a megfelelő elemek kiválasztásával szintaktikailag helyes képleteket előállítani.
+Fontos, hogy a képletekben a megfelelő szintaxist alkalmazza. Hibás szintaxis esetén a rendszer általában szintaxishibát jelez. Az is előfordulhat, hogy a szintaxis helyes ugyan, a visszaadott értékek mégsem felelnek meg az elvárásoknak. A Power BI Desktop DAX-szerkesztője tartalmaz egy javaslatokat nyújtó funkciót is, mely segít a megfelelő elemek kiválasztásával szintaktikailag helyes képleteket előállítani.
 
 Hozzunk létre egy egyszerű képletet. Ez a feladat segít jobban megérteni a képletek szintaxisát és a képletsáv javaslatokat nyújtó funkciójának működését.
 
@@ -100,7 +100,7 @@ A feladat végrehajtásához nyissa meg a Contoso értékesítési minta Power B
     
 4.  A zárójelek közé írja be a **CALCULATE** kifejezést, amelyet egy nyitó zárójel követ.
     
-    A CALCULATE függvénnyel a függvénynek átadott argumentum alapján szűrheti az összegezni kívánt összegeket. Ezt nevezzük a függvények beágyazásának. A CALCULATE függvény legalább két argumentumot vesz fel. Az első a kiértékelendő kifejezés, a második egy szűrő.
+    A CALCULATE függvénnyel a függvénynek átadott argumentum alapján szűrheti az összegezni kívánt összegeket. Ezt nevezzük a függvények beágyazásának. A CALCULATE függvény legalább két argumentumot vesz fel. Az első a kiértékelendő kifejezés, a második pedig egy szűrő.
    
 5.  A **CALCULATE** függvény zárójelei **()** közé írja be a **Sales[SalesAmount]** argumentumot. Ez a CALCULATE függvény első kifejezésargumentuma.
     
@@ -111,7 +111,6 @@ A feladat végrehajtásához nyissa meg a Contoso értékesítési minta Power B
 7.  A PREVIOUSQUARTER függvény zárójelei **()** közé írja be a **Calendar[DateKey]** argumentumot.
     
     A PREVIOUSQUARTER függvénynek egy argumentuma van, egy egybefüggő dátumtartományt tartalmazó oszlop.
-    >
     
 8.  A PREVIOUSQUARTER függvénynek adott mindkét argumentumot és a CALCULATE függvényt is mindenképpen két zárójellel **))** zárja le.
     
@@ -144,7 +143,7 @@ A válaszokat a cikk végén találja.
 ### <a name="functions"></a>Függvények
 A függvények előre definiált képletek, amelyek adott sorrendben vagy struktúrában megadott értékek, az úgynevezett argumentumok alapján végeznek számításokat. Az argumentumok lehetnek más függvények, egy másik képlet vagy kifejezés, oszlophivatkozások, számok, szövegek, logikai értékek (IGAZ vagy HAMIS) vagy konstansok.
 
-A DAX a következő függvénykategóriákat tartalmazza: [Dátum és idő](https://msdn.microsoft.com/library/ee634786.aspx), [Időintelligencia](https://msdn.microsoft.com/library/ee634763.aspx)[,](https://msdn.microsoft.com/library/ee634552.aspx)[Információs](https://msdn.microsoft.com/library/ee634552.aspx), [Logikai](https://msdn.microsoft.com/library/ee634365.aspx)[,](https://msdn.microsoft.com/library/ee634365.aspx)[Matematikai](https://msdn.microsoft.com/library/ee634241.aspx), [Statisztikai](https://msdn.microsoft.com/library/ee634822.aspx), [Szöveg](https://msdn.microsoft.com/library/ee634938.aspx), [Szülő/gyermek](https://msdn.microsoft.com/library/mt150102.aspx) és [Egyéb](https://msdn.microsoft.com/library/mt150101.aspx) függvények. Ha már ismeri az Excel-képletekben használt függvényeket, a DAX-függvények nagy része ismerősnek fog hatni, azonban a DAX-függvények a következő szempontokból egyedinek tekinthetők:
+A DAX a következő függvénykategóriákat tartalmazza: [Dátum és idő](https://msdn.microsoft.com/library/ee634786.aspx), [Időintelligencia](https://msdn.microsoft.com/library/ee634763.aspx), [Információs](https://msdn.microsoft.com/library/ee634552.aspx), [Logikai](https://msdn.microsoft.com/library/ee634365.aspx), [Matematikai](https://msdn.microsoft.com/library/ee634241.aspx), [Statisztikai](https://msdn.microsoft.com/library/ee634822.aspx), [Szöveg](https://msdn.microsoft.com/library/ee634938.aspx), [Szülő/gyermek](https://msdn.microsoft.com/library/mt150102.aspx) és [Egyéb](https://msdn.microsoft.com/library/mt150101.aspx) függvények. Ha már ismeri az Excel-képletekben használt függvényeket, a DAX-függvények nagy része ismerősnek fog hatni, azonban a DAX-függvények a következő szempontokból egyedinek tekinthetők:
 
 * A DAX-függvény minden esetben egy oszlopra vagy táblára hivatkozik. Ha csak bizonyos értékeket szeretne egy táblából vagy oszlopból használni, kiegészítheti szűrőkkel a képletet.
 * Ha a számításokat soronként testre szeretné szabni, a DAX-ben léteznek olyan függvények, amelyeknek az aktuális sor értékét vagy egy kapcsolódó értéket átadhat argumentumként, így környezetfüggő számításokat végezhet. A környezetekre a későbbiekben térünk vissza.
