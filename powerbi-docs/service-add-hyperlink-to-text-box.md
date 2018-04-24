@@ -1,32 +1,32 @@
 ---
-title: "Hivatkozás hozzáadása szövegmezőhöz egy jelentésben"
-description: "Hivatkozás hozzáadása szövegmezőhöz a Power BI szolgáltatásban és a Power BI Desktopban"
+title: Hivatkozás hozzáadása szövegmezőhöz egy jelentésben
+description: Hivatkozás hozzáadása szövegmezőhöz a Power BI szolgáltatásban és a Power BI Desktopban
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
-featuredvideoid: 
+backup: ''
+editor: ''
+tags: ''
+featuredvideoid: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/20/2017
+ms.date: 03/23/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 95352c72dfca1c1439f89d532dbcfcc5cd26758c
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 13edfd3f6968af66f96e3690f2509ba8a7158bbe
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="add-a-hyperlink-to-a-text-box-in-a-report"></a>Hivatkozás hozzáadása szövegmezőhöz egy jelentésben
-A szövegmezőket hozzá lehet adni jelentésekhez, rögzíteni lehet irányítópultokra a jelentésekből, és hozzá lehet őket közvetlenül adni az irányítópultokhoz. A hivatkozásokat hozzá lehet adni a szövegmezőkhöz, függetlenül attól, hol vannak. **A témakör a Power BI szolgáltatás (és nem a Power BI Desktop) jelentéseinek szövegmezőire vonatkozik.**
+A szövegmezőket hozzá lehet adni jelentésekhez, rögzíteni lehet irányítópultokra a jelentésekből, és hozzá lehet őket közvetlenül adni az irányítópultokhoz. A hivatkozásokat hozzá lehet adni a szövegmezőkhöz, függetlenül attól, hol vannak.  
 
 > **MEGJEGYZÉS**: A Power BI-táblákban és -mátrixokban szereplő hivatkozáskoról lásd: [Hivatkozások a táblákban](power-bi-hyperlinks-in-tables.md). A szövegdobozok **irányítópulthoz** való hozzáadásáról lásd: [Csempe hozzáadása közvetlenül az irányítópultról](service-dashboard-add-widget.md). 
 > 
@@ -61,8 +61,6 @@ A szövegmezőket hozzá lehet adni jelentésekhez, rögzíteni lehet irányít�
 
 ## <a name="next-steps"></a>Következő lépések
 [Szövegmezők Power BI-jelentésekben](power-bi-reports-add-text-and-shapes.md)
-
-[Szövegmező hozzáadása irányítópulthoz](service-dashboard-add-widget.md)
 
 További kérdései vannak? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)
 

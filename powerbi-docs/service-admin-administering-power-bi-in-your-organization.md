@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 11/28/2017
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 64dd0239026d3529129924b8d89eb5cc2642a9af
-ms.sourcegitcommit: 8552a34df8e6141eb704314c1a019992901d6e78
+ms.openlocfilehash: d5cb48469cc5ed5b49da841552bf7426ad29c3fb
+ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/08/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="administering-power-bi-in-your-organization"></a>A Power BI céges felügyelete
 A Microsoft Power BI lehetővé teszi, hogy a felhasználók megjelenítsék az adatokat, megosszák egymással a feltárt részleteket, és új és intuitív módokon működjenek együtt. További információkért lásd a [Power BI használatának első lépéseit](service-get-started.md) ismertető cikket.
@@ -185,8 +185,6 @@ A következő lépések elvégzése érdekében telepítenie kell a [Windows Pow
 Ha a vállalata már rendelkezik egy meglévő Office 365 környezettel, és a vállalatában lévő összes felhasználó rendelkezik Office 365-fiókkal, az identitáskezelés nem változik.
 
 Ha a vállalata már rendelkezik egy meglévő Office 365 környezettel, de a vállalatában nem minden felhasználó rendelkezik Office 365-fiókkal, létrehozunk egy felhasználót a bérlőben, és licenceket rendelünk hozzá a felhasználó munkája, vagy iskolája, e-mail-címe alapján. Ez azt jelenti, hogy az Ön által bármely adott időpontban felügyelt felhasználók száma növekszik, ahogy a vállalatában lévő felhasználók regisztrálnak a szolgáltatásra.
-
-Ha a helyszínen felügyeli a címtárat, és Active Directory összevonási szolgáltatásokat (AD FS-t) használ, a Microsoft nem ad felhasználókat a bérlőhöz, és a bérlőhöz csatlakozni próbáló felhasználók üzenetet kapnak, amely szerint kapcsolatba kell lépniük a vállalat rendszergazdájával.
 
 Ha a vállalatában nincs az e-mail-tartományhoz Office 365 környezet csatlakoztatva, nem változik az identitáskezelés módja. A felhasználók egy új, csak felhőalapú felhasználói címtárba kerülnek, és Ön felvállalhatja a bérlő rendszergazdai szerepkörét, hogy kezelni tudja őket.
 

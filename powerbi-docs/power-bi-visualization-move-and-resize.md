@@ -1,28 +1,28 @@
 ---
-title: "Vizualizációk áthelyezése, átméretezése és kiemelése"
-description: "Vizualizációk áthelyezése és átméretezése jelentésekben a Power BI szolgáltatásban és a Power BI Desktopban"
+title: Vizualizációk áthelyezése, átméretezése és kiemelése
+description: Vizualizációk áthelyezése és átméretezése jelentésekben a Power BI szolgáltatásban és a Power BI Desktopban
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/20/2017
+ms.date: 03/23/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: a46df6e225a5546f58e4f111d9cd3920a128614c
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 66df86d0db9767f29a1fdca637b95bb66cd9252d
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="move-and-resize-a-visualization-in-a-report-in-power-bi-service-and-power-bi-desktop"></a>Vizualizációk áthelyezése és átméretezése jelentésekben a Power BI szolgáltatásban és a Power BI Desktopban
 A vizualizációkat csak a jelentések létrehozói és tulajdonosai helyezhetik át és méretezhetik át. A Power BI szolgáltatásban (az app.powerbi.com webhelyen) ehhez a [Szerkesztési nézetben](service-reading-view-and-editing-view.md) kell tudni megnyitni a jelentést.
@@ -43,9 +43,5 @@ A Power BI-ban nyisson meg egy jelentést, amelyben legalább egy vizualizáció
 
 ## <a name="next-steps"></a>Következő lépések
 [Vizualizáció átméretezése egy irányítópulton](service-dashboard-edit-tile.md)  
-
-[Vizualizációk a Power BI-jelentésekben](power-bi-report-visualizations.md)  
-
-[Power BI – Alapfogalmak](service-basic-concepts.md)  
 
 További kérdései vannak? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)

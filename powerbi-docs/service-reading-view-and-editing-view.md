@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/13/2018
+ms.date: 04/13/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: a9cb6e3d3fe244a3d530efeb2624e3cc5a799e55
-ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
+ms.openlocfilehash: 1ccc4eeff54bff91a9ed245fdb82462768b65264
+ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="reading-view-and-editing-view-in-power-bi-service-reports"></a>A Power BI szolgáltatás jelentéseinek Olvasó és Szerkesztési nézete
 A Power BI szolgáltatásban a jelentések két módban tekinthetők meg és kezelhetők: az Olvasó és a Szerkesztési nézetben (a Power BI Desktopban nem). Az Olvasó nézet minden felhasználó számára elérhető, és speciálisan az adatok *felhasználói* számára lett kialakítva, míg a Szerkesztő nézet csak a jelentések *létrehozói* és tulajdonosai számára érhető el.
@@ -48,7 +48,6 @@ A táblázat nem tartalmazza a Power BI szolgáltatás minden jelentéssel kapcs
 |Feladat  | Olvasó nézet  | Szerkesztési nézet |
 |-------------------------|-------|-------|
 |**Jelentések teljes egészében**  |
-||||
 | [Jelentés létrehozása és szerkesztése](service-report-create-new.md) | Nem  | Igen |
 | [Jelentés megosztása](service-share-reports.md)| Igen | Igen, és ezen kívül engedélyeket is tud kezelni, többek között mások számára *tulajdonosi* engedélyek adhatók. |
 | [Állandó vizualizáció-szintű, lehatolási, oldalszintű és jelentésszintű szűrők létrehozása a Szűrők panelről](power-bi-report-add-filter.md) | Nem  | Igen |
@@ -63,12 +62,10 @@ A táblázat nem tartalmazza a Power BI szolgáltatás minden jelentéssel kapcs
 | [Jelentés mentése](service-report-save.md) | Igen, de csak a **Mentés másként** használatával. | Igen |
 | [Jelentés törlése](service-delete.md) | Nem  | Igen |
 |**Jelentés oldala** |
-||||
 | [Jelentésoldal hozzáadása vagy átnevezése](power-bi-report-add-page.md)  | Nem  | Igen  |
 | [Jelentésoldal megkettőzése](power-bi-report-copy-paste-page.md) | Nem  | Igen |
 | [Jelentésoldal törlése](service-delete.md) | nem | igen |
 |**Munka a jelentés vizualizációival**|
-||||
 | [Vizualizációk hozzáadása a jelentéshez](power-bi-report-add-visualizations-i.md) | Nem  | Igen |
 | [Szövegmezők és alakzatok hozzáadása egy jelentéshez](power-bi-reports-add-text-and-shapes.md) | Nem  | Igen |
 | [A jelentés formázási oldalának használata](service-the-report-editor-take-a-tour.md) | Nem | Igen |
