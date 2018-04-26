@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 04/24/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 37aff7aadaf6b514ca3b7329db26bc0228022bdd
-ms.sourcegitcommit: afa10c016433cf72d6d366c024b862187a8692fd
+ms.openlocfilehash: 4996b7485cb9514b9378982d2149ef5380e8fdc9
+ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/04/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="combine-files-binaries-in-power-bi-desktop"></a>Fájlok (bináris fájlok) egyesítése a Power BI Desktopban
 Az adatok a **Power BI Desktopba** való importálásának egy igen hatékony módja, ha az azonos sémájú fájlokat egyetlen logikai táblában egyesíti. A **Power BI Desktop** 2016 novemberi (és azt követő) kiadásaiban ez a kényelmes és népszerű megközelítés még kényelmesebbé és szélesebb körben alkalmazhatóvá vált, amint azt ez a cikk is ismerteti.

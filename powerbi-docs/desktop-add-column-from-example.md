@@ -1,28 +1,28 @@
 ---
-title: "Oszlop hozzáadása példából a Power BI Desktopban"
-description: "A meglévő oszlopok példaként történő használatával gyorsan létrehozhatók új oszlopok a Power BI Desktopban"
+title: Oszlop hozzáadása példából a Power BI Desktopban
+description: A meglévő oszlopok példaként történő használatával gyorsan létrehozhatók új oszlopok a Power BI Desktopban
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/21/2017
+ms.date: 04/24/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 1fcdd2d8b1eff61e3e53ca919e082afb4ec8e835
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 08ae182e62fc370b66b2ef88b0c6b7c91a46eff1
+ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="add-a-column-from-an-example-in-power-bi-desktop"></a>Oszlop hozzáadása példából a Power BI Desktopban
 A **Power BI Desktop** 2017. áprilisi kiadásától kezdve a **Lekérdezésszerkesztő** használatával új adatoszlopokat adhat a modellhez úgy, hogy egyszerűen megad egy vagy több mintaértéket az új oszlop számára. Létrehozhat új példaoszlopot az aktuális kijelölésnek megfelelően, vagy az adott táblában található összes oszlop (vagy csak a kijelölt oszlopok) alapján történő bemeneti értékek megadásával.
