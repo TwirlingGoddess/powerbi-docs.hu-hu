@@ -846,10 +846,12 @@
           href: desktop-send-smile-privacy-statement.md
     - name: Hibaelhárítás
       items:
-        - name: Access-adatbázisok és Excel-munkafüzetek Power BI Desktopba és Power Querybe való importálásával kapcsolatos hibák elhárítása
-          href: desktop-access-database-errors.md
+        - name: A Power BI Desktopba való bejelentkezés során felmerülő problémák megoldása
+          href: desktop-troubleshooting-sign-in.md
         - name: A Power BI Desktop indításával kapcsolatos hibák elhárítása
           href: desktop-error-launching-desktop.md
+        - name: Access-adatbázisok és Excel-munkafüzetek Power BI Desktopba és Power Querybe való importálásával kapcsolatos hibák elhárítása
+          href: desktop-access-database-errors.md
 - name: Power BI-mobilalkalmazások
   items:
     - name: Első lépések
@@ -1070,9 +1072,9 @@
           href: 'https://go.microsoft.com/fwlink/?linkid=848709'
         - name: KPI-k használata
           href: 'https://go.microsoft.com/fwlink/?linkid=849021'
-        - name: Támogatott adatforrások
+        - name: Adatforrások a Power BI-jelentésekhez (.pbix)
           href: report-server/data-sources.md
-        - name: Kapcsolódás adatforrásokhoz
+        - name: Adatforrások többoldalas jelentésekhez (.rdl)
           href: report-server/connect-data-sources.md
         - name: 'Megosztott adathalmazok elérése OData-csatornákként '
           href: report-server/access-dataset-odata.md
