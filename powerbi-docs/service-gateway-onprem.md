@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 03/26/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: c6c924095e3aaf4839f1c9422e027ba5373b9ad4
-ms.sourcegitcommit: 8552a34df8e6141eb704314c1a019992901d6e78
+ms.openlocfilehash: ee696e4d967e995771480d660de260b6d3b755cd
+ms.sourcegitcommit: 0cae0e6e1fd06b6465721702b2d0bb8333eb5afb
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/08/2018
+ms.lasthandoff: 04/27/2018
 ---
 # <a name="on-premises-data-gateway"></a>Helyszíni adatátjáró
 A helyszíni adatátjárók hídként működnek, és gyors és biztonságos adatátvitelt biztosítanak a helyszíni (nem a felhőben található) adatok és a Power BI, a Microsoft Flow, a Logic Apps és a PowerApps szolgáltatások között.
@@ -95,6 +95,11 @@ Amikor hozzáad egy adatforrást az átjáróhoz, meg kell adnia az adatforrás 
 * Az [Azure Information Protection](https://docs.microsoft.com/en-us/microsoft-365/enterprise/protect-files-with-aip
 ) jelenleg nem támogatott
 * Az [Access Online](https://products.office.com/en-us/access) jelenleg nem támogatott
+
+## <a name="tenant-level-administration"></a>Bérlőszintű felügyelet 
+
+Jelenleg nincs olyan felület, ahol a bérlő rendszergazdája együtt kezelhetné az összes olyan átjárót, amelyeket más felhasználók telepítettek és konfiguráltak.  Bérlőt felügyelő rendszergazdáknak azt javasoljuk, hogy kérjék meg a cégen belüli felhasználókat, hogy minden általuk telepített átjáróhoz adják hozzá őket rendszergazdaként. Ez lehetővé teszi, hogy a cég összes átjáróját kezelhesse az Átjáróbeállítások oldalon vagy pedig [PowerShell-parancsok](https://docs.microsoft.com/power-bi/service-gateway-high-availability-clusters#powershell-support-for-gateway-clusters) használatával. 
+
 
 ## <a name="troubleshooting"></a>Hibaelhárítás
 Ha problémába ütközik az átjáró telepítése vagy konfigurálása során, tekintse meg a [Helyszíni adatátjárók hibaelhárítása](service-gateway-onprem-tshoot.md) című cikket. Ha úgy gondolja, hogy a probléma a tűzfalával kapcsolatos, tekintse meg a hibaelhárítási cikk [tűzfal vagy proxy](service-gateway-onprem-tshoot.md#firewall-or-proxy) szakaszát.
