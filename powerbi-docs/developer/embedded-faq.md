@@ -1,27 +1,27 @@
 ---
-title: "Gyakori kérdések – Power BI Embedded"
-description: "Az alábbiakban a Power BI Embeddeddel kapcsolatos gyakori kérdések és válaszok listáját tekintheti át."
+title: Gyakori kérdések – Power BI Embedded
+description: Az alábbiakban a Power BI Embeddeddel kapcsolatos gyakori kérdések és válaszok listáját tekintheti át.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/07/2018
+ms.date: 04/23/2018
 ms.author: maghan
-ms.openlocfilehash: 52ff1095c063be867354a23e0e8e4908a4b4e1d7
-ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
+ms.openlocfilehash: 24e4dbaf6ede92436ff05c8cb57756e3ab7e8526
+ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Gyakori kérdések – Power BI Embedded
 
@@ -60,10 +60,6 @@ Előfordulhatnak olyan esetek, amikor független szoftvergyártók (általában 
 
 A PRO licenccel a beágyazási tokenek elsődlegesen fejlesztési és tesztelési célokra használhatók, a Power BI fő fiókja csak korlátozott mennyiségű tokent tud előállítani. Éles környezetben használt beágyazásokhoz [kapacitást szükséges vásárolni](https://docs.microsoft.com/power-bi/developer/embedded-faq#technical). Kapacitásvásárlás esetén nincs korlátja a beágyazási tokenek előállításának.
 
-### <a name="when-will-power-bi-embedded-be-available-in-azure"></a>Mikor lesz elérhető a Power BI Embedded az Azure-ban?
-
-A Power BI Embedded már elérhető az Azure-ban.
-
 ## <a name="technical"></a>Műszaki
 
 ### <a name="what-is-the-difference-between-the-a-skus-in-azure-and-the-em-skus-in-office-365"></a>Mi a különbség az Azure-beli „A” termékváltozatok és az Office 365-beli „EM” termékváltozatok között?
@@ -74,7 +70,7 @@ A Power BI Embedded egy fejlesztők számára készült API-gyűjtemény, amelly
 
 Itt látható egy részlet a különbségek listájából, amely mindkét megoldás esetén hasznos lehet.
 
-|Funkció  |Power BI Embedded<br>(A termékváltozatok) |Power BI Premium-kapacitás<br>(EM termékváltozatok)  |
+|Funkció  |Power BI Embedded<br>(A termékváltozatok) |Power BI Premium-kapacitás<br>(EM termékváltozatok)  | 
 |---------|---------|---------|
 |Összetevők beágyazása Power BI alkalmazás munkaterületeiről     |Azure-kapacitás |Office 365-kapacitás |
 |Power BI-licenc szükséges a jelentések használatához |Nem  |Igen |
@@ -138,14 +134,6 @@ A tartalomcsomagok adathalmazaiból készült **irányítópultokat** és **csem
 
 A Power BI Embedded az Azure-on keresztül érhető el.
 
-### <a name="how-power-bi-embedded-be-metered"></a>Hogyan történik a Power BI Embedded forgalmi díjának mérése?
-
-A Power BI Embedded forgalmi díjának mérése óránként történik.
-
-### <a name="how-does-the-usage-of-power-bi-embedded-show-up-on-my-bill"></a>Hogyan jelenik meg a Power BI Embedded használata a számlámon?
-
-A Power BI Embedded költségeinek számlázása könnyen előrejelezhető módon, óránként történik az üzembe helyezett csomópont(ok) típusa alapján. Vegye figyelembe, hogy ha az erőforrása aktív, abban az esetben akkor is díjat számolunk fel, ha nem történik tényleges használat. Ha nem szeretne díjat fizetni, az erőforrást kifejezetten szüneteltetnie kell. A szüneteltetés elvégezhető az Azure-ban vagy az ARM API-kon keresztül is.
-
 ### <a name="what-happens-if-i-already-purchased-power-bi-premium-and-now-i-want-some-of-the-benefits-of-power-bi-embedded-in-azure"></a>Mi történik akkor, ha már megvásároltam a Power BI Premiumot és szeretném használni az Azure-beli Power BI Embedded néhány előnyös funkcióját?
 
 Az ügyfelek továbbra is fizetnek a megvásárolt Power BI Premiumukért az aktuális megállapodásuk szerinti időszak végéig, ezt követően igényeik szerint válthatnak a megvásárolt Power BI Premiumukról.
@@ -153,6 +141,14 @@ Az ügyfelek továbbra is fizetnek a megvásárolt Power BI Premiumukért az akt
 ### <a name="do-i-still-have-to-buy-power-bi-premium-to-get-access-to-power-bi-embedded"></a>Meg kell vásárolnom a Power BI Premiumot, hogy hozzáférhessek a Power BI Embeddedhez?
 
 Nem, a Power BI Embedded magában foglalja a megoldásainak üzembe helyezéséhez és terjesztéséhez szükséges Azure-alapú kapacitást.
+
+### <a name="whats-the-purchase-commitment-for-power-bi-embedded"></a>Milyen kötelezettségeket kell vállalni a Power BI Embedded megvásárlásakor? 
+
+Ügyfeleink a használatukat óránként módosíthatják. A Power BI Embedded szolgáltatás esetén nincs havi vagy éves kötelezettségvállalás.
+
+### <a name="how-does-the-usage-of-power-bi-embedded-show-up-on-my-bill"></a>Hogyan jelenik meg a Power BI Embedded használata a számlámon?
+
+A Power BI Embedded költségeinek számlázása könnyen előrejelezhető módon, óránként történik az üzembe helyezett csomópont(ok) típusa alapján. Vegye figyelembe, hogy ha az erőforrása aktív, abban az esetben akkor is díjat számolunk fel, ha nem történik tényleges használat. Ha nem szeretne díjat fizetni, az erőforrást kifejezetten szüneteltetnie kell.
 
 ### <a name="who-needs-a-power-bi-pro-license-for-power-bi-embedded-and-why"></a>Kinek van szüksége a Power BI Embeddedhez Power BI Pro-licencre, és miért?
 
@@ -168,16 +164,21 @@ Igen, használhatja az [Azure-kreditjeit](https://azure.microsoft.com/free/) a P
 
 Mivel a Power BI Embedded az Azure része, így használhatja ezt a szolgáltatást az [Azure-regisztráció során kapott 200 $ értékű kreditjéből](https://azure.microsoft.com/free/).
 
-### <a name="whats-the-purchase-commitment-for-power-bi-embedded"></a>Milyen kötelezettségeket kell vállalni a Power BI Embedded megvásárlásakor? 
+### <a name="is-there-a-limit-to-the-number-of-embed-tokens-a-power-bi-master-account-can-generate"></a>Van korlát a Power BI fő fiókja által létrehozott beágyazási tokenek számára vonatkozóan? 
 
-Ügyfeleink a használatukat óránként módosíthatják. A Power BI Embedded szolgáltatás esetén nincs havi vagy éves kötelezettségvállalás.
+Igen, a szám korlátozott, mivel a beágyazási tokenek csak fejlesztési teszteléshez használhatók. Éles üzemi beágyazási helyzetekhez [kapacitást kell vásárolni](#technical). Kapacitásvásárlás esetén nincs korlátja a beágyazási tokenek előállításának. Az elhasznált ingyenes beágyazási tokenek számának megtekintéséhez lépjen az [Elérhető funkciók letöltése](https://msdn.microsoft.com/en-us/library/mt846473.aspx) területre.
 
-### <a name="where-is-power-bi-embedded-available-us-government-germany-china-what-is-the-timing"></a>Hol érhető el a Power BI Embedded? Az Egyesül Államok kormányzati szervei számára? Németországban? Kínában? Mi az ütemezés?
+### <a name="is-power-bi-embedded-available-for-sovereign-clouds-us-government-germany-china"></a>Elérhető a Power BI Embedded a szuverén felhőkben (US Government, Németország, Kína)?
 
-A Power BI Embedded az Azure kereskedelmi felhőiben és a US Government felhőkörnyezetben érhető el.  A szuverén felhőkben való elérhetőség Németországban és Kínában a későbbiekben várható.
+A Power BI Embedded csak bizonyos [szuverén felhőkben](embed-sample-for-customers-sovereign-clouds.md) érhető el. A kínai felhőben **nem**.
 
 ### <a name="is-power-bi-embedded-available-for-non-profits-and-educational"></a>Létezik non-profit vagy oktatási intézményeknek szánt Power BI Embedded?
 
 A non-profit és oktatási intézmények megvásárolhatják az Azure-t. Nincs az Azure-ban különleges díjszabásunk az ilyen típusú ügyfeleink számára.
 
+További információ: [A beágyazott alkalmazás hibaelhárítása](embedded-troubleshoot.md)
+
 További kérdései vannak? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)
+
+
+

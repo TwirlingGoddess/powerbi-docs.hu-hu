@@ -1,6 +1,6 @@
 ---
 title: Jelentések vizsgálata a Power BI mobilalkalmazásokban
-description: 'Tudja meg, hogyan tekintheti meg és használhatja Power BI mobilalkalmazásokban a jelentéseket a telefonján vagy a táblagépén. A jelentéseket a Power BI szolgáltatásban vagy a Power BI Desktopban hozza létre, majd használhatja azokat a mobilalkalmazásokban. '
+description: Tudja meg, hogyan tekintheti meg és használhatja Power BI mobilalkalmazásokban a jelentéseket a telefonján vagy a táblagépén. A jelentéseket a Power BI szolgáltatásban vagy a Power BI Desktopban hozza létre, majd használhatja azokat a mobilalkalmazásokban.
 services: powerbi
 documentationcenter: ''
 author: maggiesMSFT
@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 03/22/2018
 ms.author: maggies
-ms.openlocfilehash: 6edd5a6e9606150d4b489a79cdb5ca57ac2f8cce
-ms.sourcegitcommit: fe859130099d923ee30da6091efcc70a264dcba6
+ms.openlocfilehash: a7bd77ec65fd3897c6e9af9acd2a20a229565415
+ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="explore-reports-in-the-power-bi-mobile-apps"></a>Jelentések vizsgálata a Power BI mobilalkalmazásokban
 A következőkre vonatkozik:
@@ -50,7 +50,7 @@ A Power BI jelentéseket a rendszer a beszerzési helyük függvényében külö
   ![Jelentés telefonon fekvő tájolásban](media/mobile-reports-in-the-mobile-apps/power-bi-iphone-report-landscape.png)
 
 ## <a name="view-reports-optimized-for-phones"></a>Telefonra optimalizált jelentések megtekintése
-A Power BI-jelentések szerzői létrehozhatnak kifejezetten a telefonokra optimalizált jelentéselrendezést. A telefonokra optimalizált jelentésoldalak további funkciókkal is rendelkeznek: többek között részletes elemzés végezhető, a vizualizációk rendezhetőek fókusz módban, és elérhetőek [azok a szűrők is, amelyeket a szerző adott hozzá a jelentésoldalhoz](mobile-apps-view-phone-report.md#filter-the-report-page-on-a-phone). A jelentés azokra a weben beállított értékekre szűrve jelenik meg a telefonon egy üzenettel, hogy az oldalon aktív szűrő működik. A szűrők a telefonon módosíthatók.
+A Power BI-jelentések szerzői létrehozhatnak kifejezetten a telefonokra optimalizált jelentéselrendezést. A telefonokra optimalizált jelentésoldalak további funkciókkal is rendelkeznek: többek között részletes elemzés végezhető, a vizualizációk rendezhetők, és elérhetők [azok a szűrők is, amelyeket a szerző adott hozzá a jelentésoldalhoz](mobile-apps-view-phone-report.md#filter-the-report-page-on-a-phone). A jelentés azokra a weben beállított értékekre szűrve jelenik meg a telefonon egy üzenettel, hogy az oldalon aktív szűrő működik. A szűrők a telefonon módosíthatók.
 
 A jelentések listáján az optimalizált jelentésnek speciális ikonja van ![Telefonos jelentés ikon](media/mobile-reports-in-the-mobile-apps/power-bi-phone-report-icon.png):
 
@@ -64,7 +64,7 @@ Az ilyen jelentések álló tájolásban nyílnak meg telefonon.
 
 További információ a [telefonos megtekintésre optimalizált jelentésekről](mobile-apps-view-phone-report.md).
 
-## <a name="use-slicers-to-filter-a-report-page"></a>Szeletelők használta egy jelentésoldal szűréséhez
+## <a name="use-slicers-to-filter-a-report"></a>Szeletelők használta egy jelentés szűréséhez
 Ha jelentéseket hoz létre a Power BI Desktopban vagy a Power BI szolgáltatásban, érdemes lehet [szeletelőket hozzáadni a jelentésoldalhoz](power-bi-visualization-slicers.md). A szeletelőkkel egyszerűen lehet szűrni az oldalt böngészőben és mobilalkalmazásban is. Ha telefonon jelenítik meg a jelentést, a szeletelőket a telefonra optimalizált fekvő és álló tájolással is lehet használni. A szeletelőkben vagy szűrőkben kijelölt értékek akkor is ki lesznek jelölve, amikor az oldalt a mobilalkalmazásban nyitja meg. Egy üzenet tájékoztat arról, hogy az oldalon aktív szűrés van érvényben.  
 
 * Amikor kiválaszt egy értéket egy szeletelőben a jelentésoldalon, az szűri az oldalon lévő többi vizualizációt.
@@ -73,7 +73,7 @@ Ha jelentéseket hoz létre a Power BI Desktopban vagy a Power BI szolgáltatás
   
   Ezen az ábrán a szeletelő az oszlopdiagramot szűri, hogy csak a júliusi értékeket jelenítse meg.
 
-## <a name="cross-filter-and-highlight-a-power-bi-report-page"></a>Keresztszűrés és kiemelés a Power BI jelentésoldalakon
+## <a name="cross-filter-and-highlight-a-report"></a>Keresztszűrés és kiemelés a jelentésekben
 Amikor kiválaszt egy értéket egy vizualizációban, az más vizualizációkat nem szűr. Kiemeli a kapcsolódó értékeket a többi vizualizációban.
 
 * Koppintson egy vizualizáció egy értékére.
@@ -88,8 +88,8 @@ Amikor kiválaszt egy értéket egy vizualizációban, az más vizualizációkat
    ![Vizualizáció rendezése](media/mobile-reports-in-the-mobile-apps/power-bi-android-tablet-report-sort.png)
 * A rendezés irányának megfordításához koppintson ismét a három pontra (**...**), és koppintson újra ugyanarra a mezőnévre.
 
-## <a name="drill-down-and-up-in-a-visual-on-an-ipad-or-a-tablet"></a>Részletes elemzés és felhatolás a vizualizációkban iPaden vagy táblagépen
-Ha egy jelentésszerző hozzáadta ezt a képességet a vizualizációhoz, iPaden vagy táblagépen részletezhet egy vizualizációban az annak egy részét felépítő adatokhoz. A [részletes elemzési képességet egy vizualizációhoz](power-bi-visualization-drill-down.md) a Power BI Desktopban vagy a Power BI szolgáltatásban adhatja hozzá. 
+## <a name="drill-down-on-an-ipad-or-a-tablet"></a>Részletezés iPaden vagy táblagépen
+Ha egy jelentésszerző hozzáadta a részletezés funkciót a vizualizációhoz, iPaden vagy táblagépen részletezhet egy vizualizációban az annak egy részét felépítő adatokhoz. A [részletes elemzési képességet egy vizualizációhoz](power-bi-visualization-drill-down.md) a Power BI Desktopban vagy a Power BI szolgáltatásban adhatja hozzá. 
 
 > [!NOTE]
 > A részletes elemzés térképeken jelenleg nem működik iPaden és táblagépen.

@@ -1,28 +1,28 @@
 ---
-title: "Power BI az USA kormányzati ügyfelei számára – regisztráció"
-description: "Az USA kormányzati ügyfelei megismerhetik a Power BI egyesült államokbeli kormányzati szolgáltatására való regisztráció módját"
+title: Power BI az USA kormányzati ügyfelei számára – regisztráció
+description: Az USA kormányzati ügyfelei megismerhetik a Power BI egyesült államokbeli kormányzati szolgáltatására való regisztráció módját
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 02/27/2017
+ms.date: 04/24/2017
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: e4015d0de5c11a9726089a62825950dc0532205d
-ms.sourcegitcommit: d91b7bf18d5c504037134f375886633379f28ede
+ms.openlocfilehash: a52aaaffb5f66ba5596e788183ef52753f08c8bf
+ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="enroll-your-us-government-organization-in-the-power-bi-service"></a>USA-beli kormányzati szerv regisztrálása a Power BI szolgáltatásban
 A **Power BI szolgáltatás** külön verziója érhető el az USA kormányzati ügyfeleinek az **egyesült államokbeli Office 365-közösségi** előfizetések részeként. A jelen cikkben a **Power BI szolgáltatás** kifejezetten az USA kormányzati ügyfeleinek készült verzióját tárgyaljuk, amely elkülönül és különbözik a **Power BI szolgáltatás** kereskedelmi verziójától.
@@ -48,7 +48,7 @@ Ha az Ön munkahelye még nem használja az **Office kormányzati felhőkörnyez
 > Ezeket a lépéseket a portál rendszergazdájának kell elvégeznie.
 >
 
-1. Keresse fel a [https://products.office.com/en-us/government/office-365-web-services-for-government](https://products.office.com/en-us/government/office-365-web-services-for-government) weboldalt.
+1. Látogasson el a [https://products.office.com/en-us/government/office-365-web-services-for-government](https://products.office.com/en-us/government/office-365-web-services-for-government) címre.
 
 >[!NOTE]
 >Ha nem most kíván regisztrálni az Office kormányzati felhőszolgáltatására, lépjen kapcsolatba az értékesítési képviselővel.
@@ -82,7 +82,7 @@ Az alábbiakban további információt találhat az **USA kormányzati ügyfelei
 * Kattintson és nyissa meg a Számlázás > Szolgáltatás vásárlása > Kormányzati Power BI Pro menüelemet, és válassza a Vásárlás lehetőséget a Kipróbálás helyett
 * Töltse ki a szükséges adatokat, és szerezze be a licenceket
 * Távolítsa el a Power BI Pro-próbaverziót, vagy távolítsa el a régi licenceket, és rendelje hozzá az újakat a felhasználókhoz
-* Jelentkezzen be a [https://app.powerbigov.us](https://app.powerbigov.us) webhelyen
+* Bejelentkezés: [https://app.powerbigov.us](https://app.powerbigov.us)
 
 ### <a name="reseller-power-bi-trial-to-pro-customer-onboarding"></a>A Power BI próbaverziójáról Pro verzióra váltás – viszonteladói előkészítés
 Nyissa meg a **Számlázási > Előfizetések** menüelemet, majd válassza a **Kormányzati Power BI Pro** előfizetést. Itt az alábbiak láthatók:
@@ -97,12 +97,7 @@ Nyissa meg a **Számlázási > Előfizetések** menüelemet, majd válassza a **
 ### <a name="whitelisting-instructions"></a>Engedélyezési utasítások
 Az *engedélyezés* olyan folyamat, amelyet a Power BI mérnöki csapata használ az ügyfelek kereskedelmi felhőkörnyezetből biztonságos kormányzati felhőkörnyezetbe való áthelyezéséhez. Ez biztosítja azt, hogy az Egyesült Államok kormányzati felhőkörnyezetében elérhető funkciók a várt módon működjenek. Az USA kormányzati szerveinek biztosított **Power BI** szolgáltatásokat első alkalommal megvásároló minden meglévő (vagy új) egyesült államokbeli kormányzati ügyfélnek kezdeményeznie *kell* az alábbi engedélyezési folyamatot. A folyamatot az USA kormányzati szerveinek biztosított **Power BI** szolgáltatások beállítása vagy migrálása előtt kell elvégezni. 
 
-Ha szeretné *engedélyezni* a saját bérlőt az USA kormányzati felhőkörnyezetében, töltse ki a kérelemhez tartozó támogatási jegyet az alábbi hivatkozásra kattintva. Vegye figyelembe, hogy csak rendszergazdák kezdeményezhetik ezt a kérelmet:
-
-* [*Engedélyezésre* vonatkozó online támogatási kérelem](https://powerbi.microsoft.com/clouds/)
-* Ellenőrizze, hogy megadta-e az *engedélyezendő* tartományt, illetve a folyamatban Önnel együttműködő Microsoft-képviselő e-mail-címét.
-
-Az *engedélyezés* folyamata körülbelül 3 hetet vesz igénybe, amelynek során a Power BI mérnöki csapata elvégzi a saját bérlő az USA kormányzati felhőkörnyezetében való megfelelő működéséhez szükséges módosításokat.
+Ha azt szeretné, hogy a bérlője szerepeljen az USA kormányzati felhőjének *engedélyezési listáján*, forduljon a Microsoft-fiókok ügyfélszolgálatához. Vegye figyelembe, hogy csak rendszergazdák kezdeményezhetik ezt a kérelmet. Az *engedélyezés* folyamata körülbelül 3 hetet vesz igénybe, amelynek során a Power BI mérnöki csapata elvégzi a saját bérlő az USA kormányzati felhőkörnyezetében való megfelelő működéséhez szükséges módosításokat.
 
 A Power BI **ingyenes** licencéről az **USA kormányzati szerveinek biztosított Power BI-licencre** (és definíció szerint a jelen cikk korábbi szakaszában ismertetett **Pro**-licenc kapcsolódó funkcióra) migráló ügyfelek a cikk alábbi szakaszában ismertetett problémákba ütköznek, amíg a Power BI mérnöki csapata el nem végzi a bérlő *engedélyezését*.
 

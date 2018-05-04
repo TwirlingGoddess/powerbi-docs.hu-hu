@@ -1,39 +1,32 @@
 ---
-title: "A jelentéskészítő kiszolgáló konfigurálása Excel-munkafüzetek üzemeltetéséhez az Office Online Server (OOS) használatával"
-description: "A Power BI-jelentések webes portálon való megtekintése mellett az üzleti felhasználók most már a Power BI jelentéskészítő kiszolgálón is megtekinthetnek Excel-munkafüzeteket."
+title: Excel-munkafüzetek üzemeltetése az Office Online Server (OOS) használatával – Power BI jelentéskészítő kiszolgáló
+description: A Power BI-jelentések webes portálon való megtekintése mellett a Power BI jelentéskészítő kiszolgáló már Excel-munkafüzeteket üzemeltethet az Office Online Serverrel (OOS).
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 08/23/2017
+ms.date: 04/23/2018
 ms.author: maghan
-ms.openlocfilehash: a9d5c1b8da8935a535ed112030a5c2a40132f176
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: f2ff2b695ca548572294a4705235ae1c2b0046c5
+ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="configure-your-report-server-to-host-excel-workbooks-using-office-online-server-oos"></a>A jelentéskészítő kiszolgáló konfigurálása Excel-munkafüzetek üzemeltetéséhez az Office Online Server (OOS) használatával
-A Power BI jelentések webes portálon való megtekintése mellett az üzleti felhasználók most már a Power BI jelentéskészítő kiszolgálón is megtekinthetnek Excel-munkafüzeteket, így egyetlen helyen tehetnek közzé és tekinthetnek meg önkiszolgáló Microsoft BI-tartalmakat.
+A Power BI-jelentések webes portálon való megtekintése mellett a Power BI jelentéskészítő kiszolgáló már Excel-munkafüzeteket üzemeltethet az [Office Online Serverrel](https://docs.microsoft.com/officeonlineserver/office-online-server-overview) (OOS). A jelentéskészítő kiszolgálón egy helyen teheti közzé és tekintheti meg az önkiszolgáló Microsoft BI-tartalmakat.
 
-> [!NOTE]
-> Ez az előzetes verziójú szolgáltatás a 2017. augusztusi előzetes kiadásban vált elérhetővé. További információkért lásd [a Power BI jelentéskészítő kiszolgáló újdonságait](whats-new.md) ismertető témakört.
-> 
-> 
-
-![A jelentéskészítő kiszolgáló webes portálján megtekintett Excel-jelentések.](media/excel-oos/excel-in-pbirs.png)
-
-Ezt az [Office Online Server](https://technet.microsoft.com/library/jj219437\(v=office.16\).aspx) (OOS) használata teszi lehetővé.
+![A jelentéskészítő kiszolgáló webes portálján megtekintett Excel-jelentések](media/excel-oos/excel-in-pbirs.png)
 
 ## <a name="prepare-server-to-run-office-online-server"></a>A kiszolgáló előkészítése az Office Online Server futtatására
 Végezze el ezeket a lépéseket azon a kiszolgálón, amelyen az Office Online Server futni fog. A kiszolgálónak Windows Server 2012 R2-nek vagy Windows Server 2016-nak kell lennie. A Windows Server 2016 az Office Online Server 2017. áprilisi vagy újabb verziójának használatát igényli.
@@ -92,7 +85,7 @@ New-OfficeWebAppsFarm -InternalUrl "https://server.contoso.com" -ExternalUrl "ht
 
 **Paraméterek**
 
-* Az **–InternalURL** az Office Online Servert futtató kiszolgáló teljes tartományneve (FQDN), például http://kiszolgálónév.contoso.com.
+* Az **–InternalURL** az Office Online Servert futtató kiszolgáló teljes tartományneve (FQDN), például http://servername.contoso.com.
 * Az **–ExternalURL** az interneten elérhető FQDN.
 * A **–CertificateName** a tanúsítvány rövid neve.
 
@@ -105,7 +98,7 @@ New-OfficeWebAppsFarm -InternalURL "http://servername" -AllowHttp
 
 **Paraméterek**
 
-* Az **–InternalURL** az Office Online Servert futtató kiszolgáló neve, például http://kiszolgálónév.
+* Az **–InternalURL** az Office Online Servert futtató kiszolgáló neve, például http://servername.
 * Az **–AllowHttp** HTTP használatához konfigurálja a farmot.
 
 ### <a name="verify-that-the-office-online-server-farm-was-created-successfully"></a>Az Office Online Server-farm sikeres létrehozásának ellenőrzése

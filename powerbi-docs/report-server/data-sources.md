@@ -1,6 +1,6 @@
 ---
 title: A Power BI-jelentések adatforrásai a Power BI jelentéskészítő kiszolgálón
-description: A Power BI-jelentések különféle adatforrásokhoz csatlakozhatnak. Az adatok használatának módjától függően eltérő adatforrások érhetők el.
+description: A Power Bi-jelentések (.pbix) számos adatforráshoz csatlakozhatnak. Az adatok használatának módjától függően eltérő adatforrások érhetők el.
 services: powerbi
 documentationcenter: ''
 author: markingmyname
@@ -15,23 +15,22 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 04/02/2018
+ms.date: 04/23/2018
 ms.author: maghan
-ms.openlocfilehash: bc490834b215af45df1063fd06b94ed9b735d852
-ms.sourcegitcommit: 8132f7edc6879eda824c900ba90b29cb6b8e3b21
+ms.openlocfilehash: a32ef2e1e85b252a2a1071cb95c80149486c2604
+ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/26/2018
 ---
-# <a name="power-bi-report-data-sources-in-power-bi-report-server"></a>A Power BI-jelentések adatforrásai a Power BI jelentéskészítő kiszolgálón
-A Power BI-jelentések különféle adatforrásokhoz csatlakozhatnak. Az adatok használatának módjától függően eltérő adatforrások érhetők el. Az adatok importálhatók, vagy közvetlenül DirectQuery- vagy élő SQL Server Analysis Services-kapcsolattal lehet lekérdezni azokat.
+# <a name="power-bi-report-pbix-data-sources-in-power-bi-report-server"></a>A Power BI-jelentések (.pbix) adatforrásai a Power BI jelentéskészítő kiszolgálón
+A Power Bi-jelentések számos adatforráshoz csatlakozhatnak. Az adatok használatának módjától függően eltérő adatforrások érhetők el. Az adatok importálhatók, vagy közvetlenül DirectQuery- vagy élő SQL Server Analysis Services-kapcsolattal lehet lekérdezni azokat.
 
-Ezek az adatforrások a Power BI jelentéskészítő kiszolgálón használt adott Power BI-jelentésekkel kapcsolatosak. A többoldalas jelentésekben támogatott adatforrásokra vonatkozó információkért lásd: [A Reporting Services által támogatott adatforrások](https://docs.microsoft.com/sql/reporting-services/report-data/data-sources-supported-by-reporting-services-ssrs).
+Ezek az adatforrások a Power BI jelentéskészítő kiszolgálón használt adott Power BI-jelentésekkel kapcsolatosak. További információ a többoldalas jelentésekben (.rdl) támogatott adatforrásokról: [A Reporting Services által támogatott adatforrások](https://docs.microsoft.com/sql/reporting-services/report-data/data-sources-supported-by-reporting-services-ssrs).
 
 > [!IMPORTANT]
-> A Power BI Desktop-jelentésben szereplő összes adatforrásnak támogatottnak kell lennie az ütemezett frissítés konfigurálásához.
-> 
-> 
+> A Power BI Desktop-jelentésben szereplő összes adatforrásnak támogatnia kell az ütemezett frissítés konfigurálását.
+>  
 
 ## <a name="list-of-supported-data-sources"></a>Támogatott adatforrások listája
 
@@ -216,7 +215,7 @@ A Power BI jelentéskészítő kiszolgáló nem támogatja az OAuth-alapú hites
 
 
 ## <a name="next-steps"></a>Következő lépések
-Most, hogy kiválasztotta az adatforrást, az abból származó adatokat használva [hozzon létre egy jelentést](quickstart-create-powerbi-report.md).
+Most, hogy csatlakozott az adatforráshoz, az abból származó adatokat használva [hozzon létre egy Power BI-jelentést](quickstart-create-powerbi-report.md).
 
 További kérdései vannak? [Kérdezze meg a Power BI közösségét](https://community.powerbi.com/)
 

@@ -1,43 +1,34 @@
 ---
-title: "Kapcsolódás adatforráshoz"
-description: "Tudnivalók azokról az adatforrásokról, amelyekhez a Power BI jelentéskészítő kiszolgálón belülről lehet kapcsolódni."
+title: Többoldalas jelentések (.rdl) adatforrásai a Power BI jelentéskészítő kiszolgálón
+description: Ismerje meg azokat az adatforrásokat, amelyekhez csatlakozhatnak a Power BI jelentéskészítő kiszolgáló többoldalas jelentései (.rdl).
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/01/2017
+ms.date: 04/23/2018
 ms.author: maghan
-ms.openlocfilehash: 35312fcf4301a7655893c1824b93b7718d6ae97f
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: 189e5c2900fedf8403df75f0eb371830f28f7281
+ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 04/26/2018
 ---
-# <a name="connecting-to-data-sources"></a>Kapcsolódás adatforráshoz
-Tudnivalók azokról az adatforrásokról, amelyekhez a Power BI jelentéskészítő kiszolgálón belülről lehet kapcsolódni.
+# <a name="paginated-report-rdl-data-sources"></a>Adatforrások többoldalas jelentésekhez (.rdl)
+A Reporting Services a Power BI jelentéskészítő kiszolgálón található többoldalas jelentései ugyanazokat az adatforrásokat támogatják, mint amelyeket az SQL Server Reporting Services. Itt megtekintheti [a Reporting Services által támogatott adatforrásokat](https://docs.microsoft.com/sql/reporting-services/report-data/data-sources-supported-by-reporting-services-ssrs).
 
-## <a name="power-bi-reports"></a>Power BI-jelentések
-A Power BI-jelentések dolgozhatnak importált adatokkal vagy Analysis Services élő kapcsolat és DirectQuery használatával. A 2017. októberi kiadás része további kapcsolatok támogatása az Analysis Services élő kapcsolaton kívül. Ez vonatkozik az importált adatokra is. A 2017. októberi kiadás letölthető a [powerbi.com](https://powerbi.microsoft.com/report-server/) webhelyen.
+## <a name="next-steps"></a>Következő lépések
+Az adatforrás csatlakoztatása után [létrehozhat egy többoldalas jelentést](quickstart-create-paginated-report.md).  
 
-A támogatott adatforrásokat az [A Power BI jelentéskészítő kiszolgáló Power BI-jelentés adatforrásai](data-sources.md) című cikk ismerteti.
-
-## <a name="other-reports"></a>Egyéb jelentések
-Más jelentéstípusok az SQL Server Reporting Servicesben meglévő adatforrásokat támogatják. További tájékoztatást az [A Reporting Services által támogatott adatforrások](https://docs.microsoft.com/sql/reporting-services/report-data/data-sources-supported-by-reporting-services-ssrs) című cikkben talál.
-
-## <a name="next-steps"></a>További lépések
-[Felhasználói kézikönyv](user-handbook-overview.md)  
-[Rövid útmutató: Többoldalas jelentések](quickstart-create-paginated-report.md)  
-[Rövid útmutató: Power BI-jelentések](quickstart-create-powerbi-report.md)
 
 További kérdései vannak? [Kérdezze meg a Power BI közösségét](https://community.powerbi.com/)
 

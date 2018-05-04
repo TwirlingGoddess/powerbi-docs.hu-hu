@@ -1,28 +1,28 @@
 ---
-title: "A Power BI Desktop indítási hibáinak elhárítása"
-description: "A Power BI Desktop indítási hibáinak elhárítása"
+title: A Power BI Desktop indítási hibáinak elhárítása
+description: A Power BI Desktop indítási hibáinak elhárítása
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/24/2018
+ms.date: 04/24/2018
 ms.author: davidi
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 43263afb63fa0350a240cae602f4a2acf8ef8edd
-ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
+ms.openlocfilehash: 2014524b3209a67bd0f0aaa3d1ddf00042227c4d
+ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 03/12/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="resolve-issues-when-power-bi-desktop-will-not-launch"></a>A Power BI Desktop meghiúsult indulásával kapcsolatos hibák elhárítása
 A **Power BI Desktop** esetében azok a felhasználók, akik a **Power BI helyszíni adatátjáró** korábbi verzióit telepítették és futtatják, esetenként nem tudják elindítani a Power BI Desktopot a rendszergazdai szabályzatok korlátozásai miatt, amelyeket a Power BI helyszíni adatátjáró alkalmazott a helyi gép nevesített csöveire. 
@@ -39,10 +39,12 @@ Ha már nincs szüksége a Power BI helyszíni adatátjáróra, eltávolíthatja
 ### <a name="resolution-3-run-power-bi-desktop-with-administrator-privilege"></a>3.megoldás: Futtassa a Power BI Desktopot rendszergazdai jogosultsággal
 Harmadik lehetőségként rendszergazdai jogosultsággal is futtathatja a Power BI Desktopot, ami biztosítja annak sikeres indítását. Ekkor is javasolt azonban telepíteni a Power BI helyszíni adatátjáró legújabb verzióját, a cikkben korábban leírtaknak megfelelően.
 
+Fontos észben tartani, hogy a Power BI Desktop egy többfolyamatos architektúrával rendelkezik, amelynek számos folyamata Windows nevesített csövekkel kommunikál. Más folyamatok befolyásolhatják ezeket a nevesített csöveket. Az ilyen interferenciák leggyakoribb oka a biztonság, például azok a helyzetek, amelyekben a vírusirtó szoftver vagy a tűzfal letiltja a csöveket, vagy egy adott portra irányítja a forgalmat. Ha rendszergazdai jogosultsággal indítja el a Power BI Desktopot, az megoldhatja a problémát. Ha ez nem lehetséges, forduljon a rendszergazdához, és kérdezze meg, mely biztonsági szabályok gátolják meg a nevesített csövek megfelelő kommunikációját, valamint kérje meg, hogy helyezze engedélyezőlistára a Power BI Desktopot és annak részfolyamatait.
+
 ## <a name="help-with-other-issues-when-launching-power-bi-desktop"></a>A Power BI Desktop egyéb indítási hibáival kapcsolatos támogatás
 Igyekszünk a **Power BI Desktop** lehető legtöbb hibájára kitérni. Rendszeresen vizsgáljuk az olyan hibákat, amelyek több felhasználót is érintenek, és ezeket a cikkeinkben tárgyaljuk.
 
-Ha a **Power BI Desktop** indításával kapcsolatos hiba nem kapcsolódik a helyszíni adatátjáróhoz, vagy ha a fenti megoldások nem működnek, küldhet egy hibajegyet a [Power BI támogatási csapatának](https://support.powerbi.com) (https://support.powerbi.com) a probléma azonosítása és megoldása érdekében.
+Ha a **Power BI Desktop** indításával kapcsolatos hiba nem kapcsolódik a helyszíni adatátjáróhoz, vagy ha a fenti megoldások nem működnek, küldhet egy hibajegyet a [Power BI támogatási csapatának](https://support.powerbi.com) (https://support.powerbi.com)) a probléma azonosítása és megoldása érdekében.
 
 A **Power BI Desktoppal** kapcsolatos egyéb esetleges jövőbeli hibák esetén (reményeink szerint ilyenek nem, vagy csak elvétve akadnak majd), hasznosnak bizonyulhat a nyomkövető és gyűjtő naplófájlok bekapcsolása a problémák hatékonyabb elkülönítése és azonosítása érdekében. A nyomkövetés bekapcsolásához válassza a **Fájl > Lehetőségek és beállítások > Beállítások**, majd a **Diagnosztika** lehetőséget, és jelölje be a **Nyomkövetés engedélyezése** beállítást a *Diagnosztikai beállítások* területen. Tisztában vagyunk vele, hogy ennek a beállításnak a megadásához a **Power BI Desktopnak** futnia kell, ezért inkább a **Power BI Desktop** indításával kapcsolatos jövőbeli problémák esetében lehet hasznos.
 

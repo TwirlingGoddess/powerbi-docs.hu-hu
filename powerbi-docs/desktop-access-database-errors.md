@@ -1,34 +1,34 @@
 ---
-title: "Access- és .XLS-importálási hibák elhárítása a Power BI Desktopban"
-description: "Az Access-adatbázisok és .XLS-táblázatok importálási hibáinak elhárítása a Power BI Desktopban és a Power Queryben"
+title: Access- és .XLS-importálási hibák elhárítása a Power BI Desktopban
+description: Az Access-adatbázisok és .XLS-táblázatok importálási hibáinak elhárítása a Power BI Desktopban és a Power Queryben
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/24/2018
+ms.date: 04/24/2018
 ms.author: davidi
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 97c3cdf1a7ba47f60cd78e9f424ba7af550f1527
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 6448d76915f9bc2a118e1552fd7bc9d82058c713
+ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="resolve-issues-importing-access-and-xls-files-in-power-bi-desktop"></a>Az Access- és .XLS-fájlok importálási hibáinak elhárítása a Power BI Desktopban
-A **Power BI Desktopban** az **Access-adatbázisok** és az **Excel-munkafüzetek** korai verziói (Excel 2007-2003 típusú .XLS-fájlok) az *Access adatbázismotort* használják. Három gyakori helyzet van, amely meggátolhatja az Access adatbázismotor megfelelő működését:
+A **Power BI Desktopban** az **Access-adatbázisok** és az **Excel-munkafüzetek** korai verziói (Excel 97–2003 típusú .XLS-fájlok) az *Access adatbázismotort* használják. Három gyakori helyzet van, amely meggátolhatja az Access adatbázismotor megfelelő működését:
 
 ### <a name="situation-1-no-access-database-engine-installed"></a>1. helyzet: Nincs telepítve az Access adatbázismotor
-Amikor a Power BI Desktop hibaüzenete azt jelzi, hogy az Access adatbázismotor nincs telepítve, telepíteni kell a 32 vagy a 64 bites Access adatbázismotort, attól függően, hogy melyik felel meg a Power BI Desktop verziójának. Az Access adatbázismotort [innen](http://www.microsoft.com/en-us/download/details.aspx?id=13255) telepítheti.
+Amikor a Power BI Desktop hibaüzenete azt jelzi, hogy az Access adatbázismotor nincs telepítve, telepíteni kell a 32 vagy a 64 bites Access adatbázismotort, attól függően, hogy melyik felel meg a Power BI Desktop verziójának. Az Access adatbázismotort a [letöltési oldalról](http://www.microsoft.com/en-us/download/details.aspx?id=13255) telepítheti.
 
 >[!NOTE]
 >Ha a telepített Access adatbázismotor bitverziója különbözik a Microsoft Office bitverziójától, az Office-alkalmazások nem tudják használni az Access adatbázismotort.
@@ -47,7 +47,7 @@ Ez a helyzet gyakran előfordul, ha a Microsoft Office 32 bites verziója van te
    >[!NOTE]
    >A Power BI Desktop 32 bites verziójának használatakor a nagy méretű adatmodellek létrehozásakor kifogyhat a memóriából.
 2. Módosítsa úgy a Microsoft Office verzióját, hogy megfeleljen a telepített Power BI Desktop bitverziójának. A Microsoft Office bitverziójának módosításához távolítsa el az Office-t, majd telepítse egy olyan verzióját, amely megfelel a telepített Power BI Desktopnak.
-3. Ha a hiba akkor történt, amikor .XLS-fájlt (Excel 2007-2003 munkafüzetet) próbált megnyitni, az Access adatbázismotor használatának elkerüléséhez nyissa meg az .XLS-fájlt az Excelben, és mentse XLSX-fájlként.
+3. Ha a hiba akkor történt, amikor .XLS-fájlt (Excel 97–2003 munkafüzetet) próbált megnyitni, az Access adatbázismotor használatának elkerüléséhez nyissa meg az .XLS-fájlt az Excelben, és mentse XLSX-fájlként.
 4. Ha az előző három megoldás nem alkalmazható, telepítheti az Access adatbázismotor mindkét verzióját, de ez *nem* egy javasolt áthidaló megoldás. Mindkét verzió telepítésével megoldja az Excelhez készült Power Query és a Power BI Desktop hibáját, de más hibákat és problémákat okoz azoknál az alkalmazásoknál, amelyek automatikusan (alapértelmezés szerint) az Access adatbázismotor először telepített bitverzióját használják. Az Access adatbázismotor mindkét bitverziójának telepítéséhez [töltse le](http://www.microsoft.com/en-us/download/details.aspx?id=13255) mindkét verziót, majd futtassa mindkettőt a */passive* kapcsolóval. Például:
    
        c:\users\joe\downloads\AccessDatabaseEngine.exe /passive
@@ -57,9 +57,7 @@ Ez a helyzet gyakran előfordul, ha a Microsoft Office 32 bites verziója van te
 ### <a name="situation-3-trouble-using-access-or-xls-files-with-an-office-365-subscription"></a>3. helyzet: Probléma az Access- vagy .XLS-fájlok Office 365-előfizetéssel való használatakor
 Ha Office 365-előfizetést használ (legyen szó **Office 2013-ról** vagy **Office 2016-ról**), az Access adatbázismotor szolgáltatója olyan virtuálisbeállításjegyzék-helyen van regisztrálva, amelyet *csak* az Office-folyamatok érhetnek el. Ennek következtében az adategyesítési motor (amely a nem Office 365 Excel és a Power BI Desktop futtatásáért felelős), amely nem Office-folyamat, nem használhatja az Access adatbázismotor szolgáltatóját.
 
-A helyzet orvoslása érdekében letöltheti és telepítheti azt az Access adatbázismotor terjeszthető változatát, amely megfelel a telepített Power BI Desktop bitverziójának (a korábbi szakaszokban talál több információt a bitverziókról).
-
-Letöltési hivatkozás: [Access adatbázismotor letöltése](http://www.microsoft.com/en-us/download/details.aspx?id=13255).
+A helyzet orvoslása érdekében [letöltheti és telepítheti azt az Access adatbázismotor terjeszthető változatát](http://www.microsoft.com/en-us/download/details.aspx?id=13255), amely megfelel a telepített Power BI Desktop bitverziójának (a korábbi szakaszokban talál több információt a bitverziókról).
 
 ### <a name="other-situations-that-cause-import-issues"></a>Importálási problémát okozó egyéb helyzetek
 Igyekszünk az Access- vagy .XLS-fájlokkal kapcsolatban előforduló lehető legtöbb hibára kitérni. Ha a jelen cikkben nem szereplő hibával találkozik, küldjön el egy rá vonatkozó kérdést a [Power BI támogatásnak](https://powerbi.microsoft.com/support/). Rendszeresen vizsgáljuk az olyan hibákat, amelyek több felhasználót is érintenek, és ezeket a cikkeinkben tárgyaljuk.

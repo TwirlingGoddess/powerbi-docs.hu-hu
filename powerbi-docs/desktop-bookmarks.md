@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/06/2018
+ms.date: 04/24/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 1660f129ef5c93cf5aed5a3a5eda3c835e1885c1
-ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
+ms.openlocfilehash: 492eed949fd47b8f057bc67b127ba774b2218887
+ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 03/30/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="use-bookmarks-to-share-insights-and-build-stories-in-power-bi"></a>Elemzések megosztása és történetek felépítése a Power BI könyvjelzőivel 
 A Power BI-ban a **könyvjelzők** használatával rögzítheti az egyes jelentésoldalak aktuális nézetkonfigurációját, beleértve a szűréseket és a vizualizációk állapotát, hogy később egyszerűen a mentett könyvjelzőre kattintva visszaállíthassa az adott állapotot. 
@@ -69,6 +69,10 @@ A **Power BI Desktop** létrehoz egy könyvjelzőt, amelynek egy általános nev
 
 Miután létrehozott egy könyvjelzőt, a megjelenítéséhez egyszerűen kattintson rá a **Könyvjelzők** panelen. 
 
+Azt is megadhatja, hogy az egyes könyvjelzők alkalmazzák-e az *adattulajdonságokat*, például a szűrőket és a szeletelőket, valamint a *megjelenítési* tulajdonságokat, például a reflektorfényt és annak láthatóságát, illetve a könyvjelző hozzáadásakor látható oldalt bemutató oldalmódosításokat. Ezek a funkciók akkor lehetnek hasznosak, ha könyvjelzőkkel szeretne váltani a vizualizációtípusok között – ekkor ugyanis célszerű kikapcsolni az adattulajdonságokat, így a szűrők nem állnak alaphelyzetbe, ha a felhasználók módosítják a vizualizációtípusokat. 
+
+A módosítások elvégzéséhez kattintson a könyvjelző neve melletti három pontra (ahogyan azt az előző képen láthatja), majd jelölje be vagy törölje a jelölést az *Adatok*, *Megjelenítés*, és egyéb vezérlők jelölőnégyzeteiből. 
+
 ## <a name="arranging-bookmarks"></a>A könyvjelzők rendezése
 Előfordulhat, hogy a könyvjelzőket nem olyan sorrendben hozza létre, amilyenben aztán be szeretné őket mutatni. Ez nem jelent problémát, mivel a könyvjelzőket könnyedén átrendezheti.
 
@@ -105,13 +109,13 @@ A könyvjelzők hozzáadásakor a rendszer az egyes objektumok láthatósági á
 Érdemes megjegyezni, hogy a **szeletelők** a láthatósági állapotuktól függetlenül szűrik a jelentésoldalt. Így számos különböző könyvjelzőt hozhat létre különböző szeletelőbeállításokkal, és az adott jelentésoldal sokféleképpen jelenhet meg (és különböző lényegi összefüggésekre mutathat rá) a különböző könyvjelzőkön.
 
 ## <a name="bookmarks-for-shapes-and-images"></a>Alakzatok és képek könyvjelzői
-Alakzatokat és képeket is hozzárendelhet a könyvjelzőkhöz. Ezzel a funkcióval, ha egy objektumra kattint, megjelenik az adott objektumhoz rendelt könyvjelző. 
+Alakzatokat és képeket is hozzárendelhet a könyvjelzőkhöz. Ezzel a funkcióval, ha egy objektumra kattint, megjelenik az adott objektumhoz rendelt könyvjelző. Ez különösen hasznos lehet akkor, ha gombokkal dolgozik. Erről további információt a [Gombok használata a Power BI-ban](desktop-buttons.md) című cikkben találhat. 
 
-Egy könyvjelző objektumhoz rendeléséhez jelölje ki az objektumot, majd válassza a **Hivatkozás** gombot az **Alakzat formázása** panelen, amint az alábbi képen is látható.
+Egy könyvjelző objektumhoz rendeléséhez jelölje ki az objektumot, majd bontsa ki a **Művelet** szakaszt az **Alakzat formázása** panelen, amint az alábbi képen is látható.
 
 ![Könyvjelző-hivatkozás hozzárendelése egy objektumhoz](media/desktop-bookmarks/bookmarks_10.png)
 
-Miután **Be** állásba kapcsolta a **Hivatkozás** kapcsolót, kiválaszthatja, hogy az objektum egy hivatkozás vagy könyvjelző legyen-e. Ha a könyvjelzőt választja, megadhatja, hogy a meglévő könyvjelzők közül melyikhez legyen az objektum rendelve.
+Miután **Be** állásba kapcsolta a **Művelet** kapcsolót, kiválaszthatja, hogy az objektum egy vissza gomb, egy könyvjelző vagy egy Q&A-parancs legyen-e. Ha a könyvjelzőt választja, megadhatja, hogy a meglévő könyvjelzők közül melyikhez legyen az objektum rendelve.
 
 Az objektumokhoz rendelt könyvjelzőknek számos felhasználási módja van. Létrehozhat egy látványos tartalomjegyzéket a jelentésoldalon, vagy egyszerűen az egyes objektumokra kattintva különböző nézeteket (például különféle vizualizációtípusokat) mutathat be ugyanazokról az adatokról.
 
@@ -138,9 +142,7 @@ Ezzel szemben, ha a vizualizáció menüjében (...) a **Reflektorfény** elemre
 Ha egy könyvjelző hozzáadásakor bármelyik mód (fókusz vagy reflektorfény) be van kapcsolva, a könyvjelző megőrzi a beállítást.
 
 ## <a name="bookmarks-in-the-power-bi-service"></a>A könyvjelzők a Power BI szolgáltatásban
-Ha egy, a **Power BI szolgáltatásban** közzétett jelentés tartalmaz könyvjelzőket, azokat a **Power BI szolgáltatásban** is megtekintheti és használhatja. Ahhoz, hogy a könyvjelző funkció elérhető legyen egy adott jelentéshez a **Power BI szolgáltatásban**, a jelentésben már a közzététel előtt létre kell hozni legalább egy könyvjelzőt.
-
-Ha a jelentés tartalmaz könyvjelzőket, a vonatkozó paneleket a **Nézet > Kiválasztás panel** vagy a **Nézet > Könyvjelzők panel** kiválasztásával jelenítheti meg.
+Ha egy, a **Power BI szolgáltatásban** közzétett jelentés tartalmaz könyvjelzőket, azokat a **Power BI szolgáltatásban** is megtekintheti és használhatja. Ha a jelentés tartalmaz könyvjelzőket, a vonatkozó paneleket a **Nézet > Kiválasztás panel** vagy a **Nézet > Könyvjelzők panel** kiválasztásával jelenítheti meg.
 
 ![A Könyvjelzők és a Kiválasztás panel megjelenítése a Power BI szolgáltatásban](media/desktop-bookmarks/bookmarks_14.png)
 
@@ -151,11 +153,10 @@ A **Könyvjelzők panel** ugyanúgy működik a **Power BI szolgáltatásban**, 
 ## <a name="limitations-and-considerations"></a>Korlátozások és szempontok
 A **könyvjelzők** aktuális kiadásának használatára vonatkozik néhány korlátozás és egyéb szempont.
 
-* A szűrők *forrásaként* szolgáló egyéni vizualizációkon a könyvjelzők nem használhatók. Ha egyéni vizualizációkkal szűri egy oldal elemeit (például egy gombsorszeletelővel), és aztán egy könyvjelzővel megint megnyitja az oldalt, az oldal ugyan szűrve lehet, de az egyéni vizualizáció nem frissül, és nem mutatja, mi szerint van az oldal szűrve. 
-* A könyvjelzők létrehozásakor a jelentéspanel keresztkiemelési állapota *nem* lesz mentve. 
+* A legtöbb egyéni vizualizáció zökkenőmentesen működik a könyvjelzőkkel. Ha hibát tapasztal egy könyvjelző és egy egyéni vizualizáció használatakor, lépjen kapcsolatba az egyéni vizualizáció létrehozójával, és kérje meg, hogy szolgáltasson támogatást a könyvjelzőkhöz. 
 * Ha egy vizualizációt a könyvjelző létrehozását követően ad hozzá a jelentésoldalhoz, a vizualizáció az alapértelmezett állapotában jelenik meg. Ez azt is jelenti, hogy ha egy olyan oldalra vesz fel szeletelőt, ahol már hozott létre könyvjelzőket, a szeletelő az alapértelmezett állapotának megfelelően viselkedik majd.
 * Ha a vizualizációkat a könyvjelzők létrehozását követően áthelyezi, a változást a könyvjelzők lekövetik. 
-* Ahhoz, hogy a könyvjelző funkció elérhető legyen a **Power BI szolgáltatásban**, a jelentésben már a közzététel idején lennie *kell* legalább egy könyvjelzőnek. Ez minden közzétett jelentésre külön-külön igaz.
+
 
 ## <a name="next-steps"></a>Következő lépések
 A könyvjelzőkhöz hasonló vagy azokkal együtt használható funkciókkal kapcsolatos részletesebb információkat az alábbi cikkekben talál:

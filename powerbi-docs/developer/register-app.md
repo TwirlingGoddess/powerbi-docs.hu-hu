@@ -1,27 +1,27 @@
 ---
-title: "Alkalmazás regisztrálása Power BI-tartalmak beágyazásához"
-description: "Megismerheti, hogyan kell regisztrálni egy alkalmazást az Azure Active Directoryban Power BI-tartalmak beágyazásához."
+title: Alkalmazás regisztrálása Power BI-tartalmak beágyazásához
+description: Megismerheti, hogyan kell regisztrálni egy alkalmazást az Azure Active Directoryban Power BI-tartalmak beágyazásához.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/05/2017
+ms.date: 04/23/2018
 ms.author: maghan
-ms.openlocfilehash: cc9a4c7a29ddb84e6230d42f31a9c6a0427008f1
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: e3d0e8b98135e232809cd2b5e3fc06827b1f480e
+ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="register-an-azure-ad-app-to-embed-power-bi-content"></a>Azure AD-alkalmazás regisztrálása Power BI-tartalmak beágyazásához
 Megismerheti, hogyan kell regisztrálni egy alkalmazást az Azure Active Directoryban (Azure AD) Power BI-tartalmak beágyazásához.
@@ -59,6 +59,22 @@ Az alábbiak szerint regisztrálhatja alkalmazását a Power BI alkalmazásregis
    
     Ekkor kap egy **ügyfél-azonosítót**. **Kiszolgálóoldali webalkalmazás** esetén egy **titkos ügyfélkódot** kap. Az **ügyfél-azonosítót** később is lekérdezheti az Azure Portalról. Amennyiben elveszíti **titkos ügyfélkódját**, egy újat kell létrehoznia az Azure Portalon.
 
+8. Lépjen az Azure-ra, és válassza az **Engedélyek megadása** lehetőséget.
+> [!Note]
+    > Ehhez a művelethez az Azure-bérlő globális rendszergazdájának kell lennie
+>
+
+* Nyissa meg az Azure-t.
+* Keresse meg és válassza az **Alkalmazásregisztrációk** lehetőséget.
+* Válassza ki az alkalmazást.
+* Kattintson a **Beállítások** elemre.
+* Kattintson a **Szükséges engedélyek** lehetőségre.
+* Az alkalmazásregisztrációs webhelyen kiválasztott engedélyek ellenőrzéséhez válassza a **Power BI szolgáltatást**.
+* Válassza az **Engedélyek megadása** lehetőséget.
+
+
+
+
 Ezután a regisztrált alkalmazást saját egyéni alkalmazása részeként használhatja a Power BI szolgáltatásban.
 
 > [!IMPORTANT]
@@ -78,7 +94,7 @@ Az alkalmazást közvetlenül az Azure Portalon is regisztrálhatja. Az alkalmaz
 5. Kövesse az utasításokat az új alkalmazás létrehozásához.
    
    * Webalkalmazások esetén adja meg a Bejelentkezési URL-címet, vagyis az alkalmazás alap URL-címét, amelyen a felhasználók bejelentkezhetnek (például: http://localhost:13526).
-   * Natív alkalmazások esetén adja meg az Átirányítási URI-t, amelyet az Azure AD a jogkivonatválaszok visszaadására használ. Adja meg az alkalmazáshoz tartozó értéket, például: http://sajátalkalmazás/átirányítási-cím
+   * Natív alkalmazások esetén adja meg az Átirányítási URI-t, amelyet az Azure AD a jogkivonatválaszok visszaadására használ. Adja meg az alkalmazáshoz tartozó értéket, például: http://myapplication/redirect
 
 További információt az alkalmazások Azure Active Directoryban történő regisztrálásáról az [alkalmazások Azure Active Directoryval való integrálását](https://docs.microsoft.com/azure/active-directory/develop/active-directory-integrating-applications) ismertető témakörben talál.
 
@@ -190,4 +206,5 @@ Vagy a *fő* fiókkal (beágyazás), vagy a globális rendszergazdafiókkal kell
 Most, hogy regisztrálta alkalmazását az Azure AD-ben, hitelesítenie kell a felhasználókat az alkalmazásban. Erről részletesebben a [felhasználók hitelesítését és a Power BI-alkalmazáshoz való Azure AD-hozzáférési token beszerzését](get-azuread-access-token.md) ismertető témakörben olvashat.
 
 További kérdései vannak? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)
+
 
