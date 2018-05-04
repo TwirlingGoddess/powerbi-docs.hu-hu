@@ -1,60 +1,61 @@
 ### YamlMime:Tutorial
-title: "A Power BI és az Excel"
+title: A Power BI és az Excel
 metadata:
-  title: "A Power BI és az Excel | Microsoft Power BI"
-  description: "Az Excel és a Power BI együttes használatával hatékony, csatlakoztatott jelentéseket és vizualizációkat készíthet."
+  title: A Power BI és az Excel | Microsoft Power BI
+  description: Az Excel és a Power BI együttes használatával hatékony, csatlakoztatott jelentéseket és vizualizációkat készíthet.
   audience: Business User
   level: Beginner
-  nextTutorialHref: publishingandsharing
-  nextTutorialTitle: "Közzététel és megosztás"
+  nextTutorialHref: publishingandsharing.yml
+  nextTutorialTitle: Közzététel és megosztás
   displayType: one-column
   author: davidiseminger
   manager: kfile
   ms.service: powerbi
   ms.topic: get-started-article
-  ms.date: 12/05/2017
+  ms.date: 05/02/2018
   ms.author: davidi
-  ms.openlocfilehash: cc4e7ae228222e696c481c53a2d4f87b8ed1a146
-  ms.sourcegitcommit: 7bf22bb1136fdb0f962422e16e837187f090827c
+  ms.openlocfilehash: 409b3c25c0d9841d21f8c9be1ee20af37dafe846
+  ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
   ms.translationtype: HT
   ms.contentlocale: hu-HU
-  ms.lasthandoff: 02/06/2018
+  ms.lasthandoff: 05/04/2018
 items:
 - durationInMinutes: 1
-  content: "Az Excel és a Power BI együttes használatával hatékony, csatlakoztatott jelentéseket és vizualizációkat készíthet.\n"
-- title: "Bevezetés az Excel-adatok használatába a Power BI-ban"
+  content: >
+    Az Excel és a Power BI együttes használatával hatékony, csatlakoztatott jelentéseket és vizualizációkat készíthet.
+- title: Bevezetés az Excel-adatok használatába a Power BI-ban
   durationInMinutes: 2
   content: >
     > [!Video https://www.youtube.com/embed/TWVqSlkjVPw?rel=0]
 
 
     [!INCLUDE [](includes/5-1-intro-excel-data.md)]
-- title: "Excel-adatok betöltése a Power BI-ba"
+- title: Excel-adatok betöltése a Power BI-ba
   durationInMinutes: 4
   content: >
     > [!Video https://www.youtube.com/embed/8-z6QoaNL3A?rel=0]
 
 
     [!INCLUDE [](includes/5-2-upload-excel.md)]
-- title: "A Power View és a Power Pivot importálása a Power BI-ba"
+- title: A Power View és a Power Pivot importálása a Power BI-ba
   durationInMinutes: 4
   content: >
     > [!Video https://www.youtube.com/embed/nVkpj0tB4Yk?rel=0]
 
 
     [!INCLUDE [](includes/5-3-import-powerpivot-powerview.md)]
-- title: "A OneDrive Vállalati verzió csatlakoztatása a Power BI-hoz"
+- title: A OneDrive Vállalati verzió csatlakoztatása a Power BI-hoz
   durationInMinutes: 8
   content: >
     > [!Video https://www.youtube.com/embed/WK7OZF-hVZA?rel=0]
 
 
     [!INCLUDE [](includes/5-4-connect-onedrive-for-business.md)]
-- title: "Excel a Power BI-ban – összefoglaló"
+- title: Excel a Power BI-ban – összefoglaló
   durationInMinutes: 2
   content: >
     > [!Video https://www.youtube.com/embed/HNhK9XMuyO4?rel=0]
 
 
     [!INCLUDE [](includes/5-8-excel-data-summary.md)]
-- content: "Gratulálunk! Ön teljesítette a Power BI-oktatócsomag **A Power BI és az Excel** című fejezetét. A következő lépésben a közzétételről és a megosztásról tanulhat.\0"
+- content: Gratulálunk! Ön teljesítette a Power BI-oktatócsomag **A Power BI és az Excel** című fejezetét. A következő lépésben a közzétételről és a megosztásról tanulhat.

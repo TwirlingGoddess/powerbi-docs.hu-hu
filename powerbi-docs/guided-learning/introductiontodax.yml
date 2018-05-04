@@ -1,8 +1,8 @@
 ### YamlMime:Tutorial
-title: "Bevezetés a DAX használatába"
+title: Bevezetés a DAX használatába
 metadata:
-  title: "Bevezetés a DAX-ba | Microsoft Power BI"
-  description: "Elismert szakértőnktől megtanulhatja a DAX létrehozását és használatát."
+  title: Bevezetés a DAX-ba | Microsoft Power BI
+  description: Elismert szakértőnktől megtanulhatja a DAX létrehozását és használatát.
   audience: Business User
   level: Beginner
   displayType: one-column
@@ -10,56 +10,57 @@ metadata:
   manager: kfile
   ms.service: powerbi
   ms.topic: get-started-article
-  ms.date: 12/05/2017
+  ms.date: 05/02/2018
   ms.author: davidi
-  ms.openlocfilehash: 5553a2b4dc3856cb90f1d392709fb313acf3c4d8
-  ms.sourcegitcommit: 7bf22bb1136fdb0f962422e16e837187f090827c
+  ms.openlocfilehash: 51c99cf6290cb6eaf27e12021415e24b927060fc
+  ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
   ms.translationtype: HT
   ms.contentlocale: hu-HU
-  ms.lasthandoff: 02/06/2018
+  ms.lasthandoff: 05/04/2018
 items:
 - durationInMinutes: 1
-  content: "Elismert szakértőnktől megtanulhatja a DAX létrehozását és használatát.\n"
-- title: "Bevezetés a DAX használatába"
+  content: >
+    Elismert szakértőnktől megtanulhatja a DAX létrehozását és használatát.
+- title: Bevezetés a DAX használatába
   durationInMinutes: 9
   content: >
     > [!Video https://www.youtube.com/embed/lRhOJP3bZCo?rel=0]
 
 
     [!INCLUDE [](includes/7-1-intro-to-dax.md)]
-- title: "A DAX számítási típusai"
+- title: A DAX számítási típusai
   durationInMinutes: 22
   content: >
     > [!Video https://www.youtube.com/embed/BVlijY68wp8?rel=0]
 
 
     [!INCLUDE [](includes/7-2-dax-calculation-types.md)]
-- title: "A DAX függvényei"
+- title: A DAX függvényei
   durationInMinutes: 17
   content: >
     > [!Video https://www.youtube.com/embed/siTnzquk1SU?rel=0]
 
 
     [!INCLUDE [](includes/7-3-dax-functions.md)]
-- title: "Változók használata DAX-kifejezésekben"
+- title: Változók használata DAX-kifejezésekben
   durationInMinutes: 4
   content: >
     > [!Video https://www.youtube.com/embed/kd4tgKxhRTU?rel=0]
 
 
     [!INCLUDE [](includes/7-4-dax-expressions.md)]
-- title: "Táblakapcsolatok a DAX-ban"
+- title: Táblakapcsolatok a DAX-ban
   durationInMinutes: 13
   content: >
     > [!Video https://www.youtube.com/embed/yec1f5A08mc?rel=0]
 
 
     [!INCLUDE [](includes/7-5-table-relationships-and-dax.md)]
-- title: "Táblák és szűrés a DAX-ban"
+- title: Táblák és szűrés a DAX-ban
   durationInMinutes: 32
   content: >
     > [!Video https://www.youtube.com/embed/6eAoDI4VDFs?rel=0]
 
 
     [!INCLUDE [](includes/7-6-dax-tables-and-filtering.md)]
-- content: "Ön teljesítette a Power BI-oktatócsomag **Bevezetés a DAX-ba** című fejezetét. Szép teljesítmény! Ha az oktatóanyagokat az ajánlott sorrendben végezte el, akkor ezzel az **Interaktív oktatócsomag** minden fejezetét elvégezte. Gratulálunk! Most már elkezdheti használni a **Power BI-t**. Próbálja ki, és hozzon létre lenyűgöző jelentéseket és irányítópultokat.\0"
+- content: Ön teljesítette a Power BI-oktatócsomag **Bevezetés a DAX-ba** című fejezetét. Szép teljesítmény! Ha az oktatóanyagokat az ajánlott sorrendben végezte el, akkor ezzel az **Interaktív oktatócsomag** minden fejezetét elvégezte. Gratulálunk! Most már elkezdheti használni a **Power BI-t**. Próbálja ki, és hozzon létre lenyűgöző jelentéseket és irányítópultokat.

@@ -1,67 +1,68 @@
 ### YamlMime:Tutorial
-title: "Adatok beolvasása"
+title: Adatok beolvasása
 metadata:
-  title: "Adatok beolvasása | Microsoft Power BI"
-  description: "Felfedezheti és megismerheti az adatbeolvasás és -feldolgozás különböző módszereit a Power BI szolgáltatásban."
+  title: Adatok beolvasása | Microsoft Power BI
+  description: Felfedezheti és megismerheti az adatbeolvasás és -feldolgozás különböző módszereit a Power BI szolgáltatásban.
   audience: Business User
   level: Beginner
-  nextTutorialHref: modeling
-  nextTutorialTitle: "Modellezés"
+  nextTutorialHref: modeling.yml
+  nextTutorialTitle: Modellezés
   displayType: one-column
   author: davidiseminger
   manager: kfile
   ms.service: powerbi
   ms.topic: get-started-article
-  ms.date: 12/05/2017
+  ms.date: 05/02/2018
   ms.author: davidi
-  ms.openlocfilehash: 7a825054ddafc5277988df6b3760bca42a508704
-  ms.sourcegitcommit: 7bf22bb1136fdb0f962422e16e837187f090827c
+  ms.openlocfilehash: 9985382471f966f308ff782a8e95a07e29ebccca
+  ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
   ms.translationtype: HT
   ms.contentlocale: hu-HU
-  ms.lasthandoff: 02/06/2018
+  ms.lasthandoff: 05/04/2018
 items:
 - durationInMinutes: 1
-  content: "A Power BI legfontosabb összetevői maguk az adatok. Az **Interaktív oktatócsomag** jelen szakaszban azt tanulhatja meg, miképpen lehet adatokkal dolgozni a Power BI-ban.\n"
-- title: "A Power BI Desktop áttekintése"
+  content: >
+    A Power BI legfontosabb összetevői maguk az adatok. Az **Interaktív oktatócsomag** jelen szakaszban azt tanulhatja meg, miképpen lehet adatokkal dolgozni a Power BI-ban.
+- title: A Power BI Desktop áttekintése
   durationInMinutes: 4
   content: >
     > [!Video https://www.youtube.com/embed/mdy-eRev6HM?rel=0]
 
 
     [!INCLUDE [](includes/1-1-overview-of-power-bi-desktop.md)]
-- title: "Első lépések a Power BI Desktop alkalmazással"
+- title: Első lépések a Power BI Desktop alkalmazással
   durationInMinutes: 9
   content: >
     > [!Video https://www.youtube.com/embed/1Bo1BrpR3AY?rel=0]
 
 
     [!INCLUDE [](includes/0-2-get-started-power-bi-desktop.md)]
-- title: "Kapcsolódás adatforrásokhoz a Power BI Desktop alkalmazásban"
+- title: Kapcsolódás adatforrásokhoz a Power BI Desktop alkalmazásban
   durationInMinutes: 8
   content: >
     > [!Video https://www.youtube.com/embed/S6s0osmRCZ4?rel=0]
 
 
     [!INCLUDE [](includes/1-2-connect-to-data-sources-in-power-bi-desktop.md)]
-- title: "Adatok tisztítása és átalakítása a Lekérdezésszerkesztővel"
+- title: Adatok tisztítása és átalakítása a Lekérdezésszerkesztővel
   durationInMinutes: 8
   content: >
     > [!Video https://www.youtube.com/embed/o-sinon5JYY?rel=0]
 
 
     [!INCLUDE [](includes/1-3-clean-and-transform-data-with-query-editor.md)]
-- title: "Speciális adatforrások és adatátalakítások"
+- title: Speciális adatforrások és adatátalakítások
   durationInMinutes: 8
   content: >
     > [!Video https://www.youtube.com/embed/8WsY0R2V_bw?rel=0]
 
 
     [!INCLUDE [](includes/1-4-advanced-data-sources-and-transformation.md)]
-- title: "Nem helyesen formázott adatok tisztítása"
+- title: Nem helyesen formázott adatok tisztítása
   durationInMinutes: 8
   content: >
     > [!Video https://www.youtube.com/embed/74KQmzdvFV8?rel=0]
 
 
     [!INCLUDE [](includes/1-5-cleaning-irregular-data.md)]
-- content: "Gratulálunk! Ön teljesítette a Microsoft Power BI-oktatócsomag **Adatok beolvasása** című fejezetét. A következő lépésben a **Modellezésről** fog tanulni, ami a következő oktatóanyag témája.\0"
+- content: Gratulálunk! Ön teljesítette a Microsoft Power BI-oktatócsomag **Adatok beolvasása** című fejezetét. A következő lépésben a **Modellezésről** fog tanulni, ami a következő oktatóanyag témája.

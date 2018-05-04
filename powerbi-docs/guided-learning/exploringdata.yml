@@ -1,95 +1,96 @@
 ### YamlMime:Tutorial
-title: "Adatok feltárása"
+title: Adatok feltárása
 metadata:
-  title: "Adatok feltárása | Microsoft Power BI"
-  description: "A cikk azt ismerteti, hogyan lehet a Power BI-adatokat megtalálni, kapcsolódni hozzájuk és műveleteket végezni velük."
+  title: Adatok feltárása | Microsoft Power BI
+  description: A cikk azt ismerteti, hogyan lehet a Power BI-adatokat megtalálni, kapcsolódni hozzájuk és műveleteket végezni velük.
   audience: Business User
   level: Beginner
-  nextTutorialHref: powerbiandexcel
-  nextTutorialTitle: "A Power BI és az Excel"
+  nextTutorialHref: powerbiandexcel.yml
+  nextTutorialTitle: A Power BI és az Excel
   displayType: one-column
   author: davidiseminger
   manager: kfile
   ms.service: powerbi
   ms.topic: get-started-article
-  ms.date: 12/05/2017
+  ms.date: 05/02/2018
   ms.author: davidi
-  ms.openlocfilehash: aa974a0f3448efde8a4410fabcf0e4f78a5050fd
-  ms.sourcegitcommit: 7bf22bb1136fdb0f962422e16e837187f090827c
+  ms.openlocfilehash: 2d5e4f060aa342e7ce86af699032f7fa2256543e
+  ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
   ms.translationtype: HT
   ms.contentlocale: hu-HU
-  ms.lasthandoff: 02/06/2018
+  ms.lasthandoff: 05/04/2018
 items:
 - durationInMinutes: 1
-  content: "Üdvözöljük az **Adatok feltárása** című oktatóanyagban. Megtanulhatja, hogyan lehet a Power BI-adatokat megtalálni, kapcsolódni hozzájuk és műveleteket végezni velük.\n"
-- title: "A Power BI szolgáltatás bemutatása"
+  content: >
+    Üdvözöljük az **Adatok feltárása** című oktatóanyagban. Megtanulhatja, hogyan lehet a Power BI-adatokat megtalálni, kapcsolódni hozzájuk és műveleteket végezni velük.
+- title: A Power BI szolgáltatás bemutatása
   durationInMinutes: 2
   content: >
     > [!Video https://www.youtube.com/embed/B2vd4MQrz4M?rel=0]
 
 
     [!INCLUDE [](includes/4-0-intro-power-bi-service.md)]
-- title: "Gyors elemzések a Power BI-ban"
+- title: Gyors elemzések a Power BI-ban
   durationInMinutes: 5
   content: >
     > [!Video https://www.youtube.com/embed/et_MLSL2sA8?rel=0]
 
 
     [!INCLUDE [](includes/4-1a-quick-insights.md)]
-- title: "Irányítópult létrehozása és konfigurálása"
+- title: Irányítópult létrehozása és konfigurálása
   durationInMinutes: 6
   content: >
     > [!Video https://www.youtube.com/embed/lJKgWnvl6bQ?rel=0]
 
 
     [!INCLUDE [](includes/4-2-create-configure-dashboards.md)]
-- title: "Természetes nyelvi kérdések az adatokról"
+- title: Természetes nyelvi kérdések az adatokról
   durationInMinutes: 9
   content: >
     > [!Video https://www.youtube.com/embed/qMf7OLJfCz8?rel=0]
 
 
     [!INCLUDE [](includes/4-3-asking-questions-natural-language.md)]
-- title: "Kérdés-válasz megoldásra vonatkozó egyéni javaslatok létrehozása"
+- title: Kérdés-válasz megoldásra vonatkozó egyéni javaslatok létrehozása
   durationInMinutes: 4
   content: >
     > [!Video https://www.youtube.com/embed/E1mIAyEXuF4?rel=0]
 
 
     [!INCLUDE [](includes/4-3a-suggested-questions.md)]
-- title: "Irányítópult megosztása a cégen belül"
+- title: Irányítópult megosztása a cégen belül
   durationInMinutes: 7
   content: >
     > [!Video https://www.youtube.com/embed/0tUwn8DHo3s?rel=0]
 
 
     [!INCLUDE [](includes/4-4-share-dashboards.md)]
-- title: "Vizualizációs elemek és csempék teljes képernyős megjelenítése"
+- title: Vizualizációs elemek és csempék teljes képernyős megjelenítése
   durationInMinutes: 4
   content: >
     > [!Video https://www.youtube.com/embed/LoApjhwTse0?rel=0]
 
 
     [!INCLUDE [](includes/4-4b-display-visuals-tiles-fullscreen.md)]
-- title: "Csempe adatainak szerkesztése és widgetek hozzáadása"
+- title: Csempe adatainak szerkesztése és widgetek hozzáadása
   durationInMinutes: 6
   content: >
     > [!Video https://www.youtube.com/embed/XhqVbHqd5jQ?rel=0]
 
 
     [!INCLUDE [](includes/4-4d-change-tile-details.md)]
-- title: "A hely bővítése az irányítópulton"
+- title: A hely bővítése az irányítópulton
   durationInMinutes: 5
   content: >
     > [!Video https://www.youtube.com/embed/c31gZkyvC54?rel=0]
 
 
     [!INCLUDE [](includes/4-4e-get-more-dashboard-space.md)]
-- title: "Személyes átjáró telepítése és beállítása"
+- title: Személyes átjáró telepítése és beállítása
   durationInMinutes: 11
   content: >
     > [!Video https://www.youtube.com/embed/xjcO5tNvjGs?rel=0]
 
 
     [!INCLUDE [](includes/4-6-install-configure-personal-gateway.md)]
-- content: "Az oktatócsomag **Adatok feltárása** című szakaszában megismerkedhetett a különféle adattípusokkal való munkával. A következő oktatóanyagban azt tanulhatja meg, hogyan használható egy nagyon gyakori adatforrás: az Excel.\0"
+- content: 'Az oktatócsomag **Adatok feltárása** című szakaszában megismerkedhetett a különféle adattípusokkal való munkával. A következő oktatóanyagban azt tanulhatja meg, hogyan használható egy nagyon gyakori adatforrás: az Excel.'
