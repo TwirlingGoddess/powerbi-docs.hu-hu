@@ -1,36 +1,36 @@
 ---
-title: "Oktatóanyag: Új jelentés létrehozása adatkészletből "
-description: "Hozzon létre egy új Power BI-jelentést egy adatkészletből."
+title: 'Oktatóanyag: Új jelentés létrehozása adatkészletből '
+description: Hozzon létre egy új Power BI-jelentést egy adatkészletből.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: monitoring
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/01/2018
+ms.date: 03/24/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 7da16deb3e5919d509a5cbbb7fd845914c8c4ea4
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: e6c4a614f19a6ba7b9e24c199b7f291e7f57f098
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 04/16/2018
 ---
-# <a name="create-a-new-power-bi-report-by-importing-a-dataset"></a>Új Power BI-jelentés létrehozása adatkészlet importálásával
-Már elolvasta a [Jelentések a Power BI-ban](service-reports.md) című cikket, és szeretne létrehozni egy saját jelentést. A jelentések több különböző módon is létrehozhatók. Ebben a cikkben kezdésként egy Excel-adatkészletből egy alapszintű jelentést fogunk létrehozni. Ha már megismerte a jelentés létrehozásának alapjait, akkor a lap alján található **Következő lépések** hivatkozással továbbhaladhat a jelentésekkel kapcsolatos összetettebb témakörökre is.  
+# <a name="create-a-new-report-in-power-bi-service-by-importing-a-dataset"></a>Új jelentés létrehozása a Power BI szolgáltatásban adatkészlet importálásával
+Már elolvasta a [Jelentések a Power BI-ban](service-reports.md) című cikket, és szeretne létrehozni egy saját jelentést. A jelentések több különböző módon is létrehozhatók. Ebben a cikkben kezdésként egy Excel-adatkészletből egy alapszintű jelentést fogunk létrehozni a Power BI szolgáltatásban. Ha már megismerte a jelentés létrehozásának alapjait, akkor a lap alján található **Következő lépések** hivatkozással továbbhaladhat a jelentésekkel kapcsolatos összetettebb témakörökre is.  
 
 > **TIPP**: Ha egy meglévő jelentés másolásával szeretne létrehozni egy új jelentést, tekintse meg a [Jelentés másolása](power-bi-report-copy.md) cikket.
 > 
 ### <a name="prerequisites"></a>Előfeltételek
-- A Power BI szolgáltatás (arról, hogy hogyan hozhat létre jelentést a Power BI Desktopban lásd: [Desktop jelentés nézet](desktop-report-view.md)   
+- A Power BI szolgáltatás (arról, hogy hogyan hozhat létre jelentést a Power BI Desktopban lásd: [Desktop jelentés nézet](desktop-report-view.md) )  
 - A Kiskereskedelmi elemzési minta adatkészlete
 
 ## <a name="import-the-dataset"></a>Adatkészlet importálása

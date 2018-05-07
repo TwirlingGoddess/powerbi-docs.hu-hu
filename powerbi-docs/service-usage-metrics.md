@@ -1,29 +1,29 @@
 ---
-title: "Használati metrikák irányítópultokhoz és jelentésekhez"
-description: "A Power BI-irányítópultok és jelentések használati metrikáinak megtekintése, mentése és használata. Mérje fel és növelje eredményességét a tartalomkészítőknek szánt használati metrikákkal."
+title: Használati metrikák irányítópultokhoz és jelentésekhez
+description: A Power BI-irányítópultok és jelentések használati metrikáinak megtekintése, mentése és használata. Mérje fel és növelje eredményességét a tartalomkészítőknek szánt használati metrikákkal.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
-featuredvideoid: 
+backup: ''
+editor: ''
+tags: ''
+featuredvideoid: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 02/28/2018
+ms.date: 04/11/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 1ad8425917153f2f9662041dc594817857f8f499
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: d12f59f768b98bbc974258592f236176ecf52b3f
+ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="usage-metrics-for-dashboards-and-reports"></a>Használati metrikák irányítópultokhoz és jelentésekhez
 Ha irányítópultokat és jelentéseket készít, akkor a használati metrikák segítenek megérteni azok hatásosságát. Az irányítópultra vagy jelentésre vonatkozó használati metrikák futtatásával feltárhatja, hogyan használják a szervezetén belül az irányítópultokat és jelentéseket, ki mit használ fel, és milyen célra.  
@@ -53,7 +53,7 @@ Ha a **Használati metrikák** lehetőséget vagy a ![használati metrikák ikon
 
 A használati metrikai jelentések nem jelennek meg a **Legutóbbi**, a **Munkaterületek**, a **Kedvencek** vagy más tartalomlistákon. Nem lehet őket hozzáadni egy alkalmazáshoz. Ha egy használati metrikai jelentésből származó csempét hozzáad egy irányítópulthoz, akkor az az irányítópult már nem adható hozzá alkalmazáshoz vagy tartalomcsomaghoz.
 
-Ha mélyen kívánja elemezni a jelentés adatait, vagy saját jelentéseket kíván készíteni az adatkészlet alapján, akkor használja a **Mentés másként** lehetőséget (lásd: [Használati metrikai jelentés mentése teljes értékű Power BI-jelentésként](#save-the-usage-metrics-report-as-a-full-featured-power-bi-report)).
+Ha mélyen kívánja elemezni a jelentés adatait, vagy saját jelentéseket kíván készíteni az adatkészlet alapján, akkor használja a **Mentés másként** lehetőséget (lásd: [Használati metrikai jelentés mentése teljes értékű Power BI-jelentésként](#Save-the-Usage-Metrics-report-as-a-full-featured-Power-BI-report-(personalize))).
 
 ## <a name="open-a-usage-metrics-report-for-a-dashboard-or-report"></a>Használati metrikai jelentés megnyitása irányítópulthoz vagy jelentéshez
 1. Kezdje a munkát az irányítópultot vagy jelentést tartalmazó munkaterületen.
@@ -100,7 +100,7 @@ Ha mélyen kívánja elemezni a jelentés adatait, vagy saját jelentéseket kí
 ### <a name="report-usage-metrics-report"></a>Használati metrikai jelentés jelentéshez
 ![Használati metrikai jelentés jelentéshez](media/service-usage-metrics/power-bi-report-usage-metrics-update.png)
 
-## <a name="save-the-usage-metrics-report-as-a-full-featured-power-bi-report-personalize"></a>Használati metrikai jelentés mentése teljes értékű Power BI-jelentésként (testre szabás)
+## <a name="save-the-usage-metrics-report-as-a-full-featured-power-bi-report-personalize"></a>Használati metrikai jelentés mentése teljes értékű Power BI-jelentésként (testreszabás)
 
 ![Mentés másként](media/service-usage-metrics/power-bi-save-as.png)
 

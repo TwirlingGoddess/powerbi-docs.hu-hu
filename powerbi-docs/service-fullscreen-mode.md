@@ -1,35 +1,39 @@
 ---
-title: "Irányítópultok, irányítópult-csempék, jelentésoldalak és jelentések vizualizációinak megjelenítése teljes képernyős módban"
-description: "Irányítópultok, irányítópult-csempék, jelentésvizualizációk és jelentésoldalak megjelenítése teljes képernyős módban vagy más néven *TV-módban*."
+title: Irányítópultok, csempék, jelentésoldalak és vizualizációk megjelenítése teljes képernyős módban
+description: Irányítópultok, irányítópult-csempék, jelentésvizualizációk és jelentésoldalak megjelenítése teljes képernyős módban vagy más néven *TV-módban*.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
-featuredvideoid: 
-qualityfocus: 
-qualitydate: 
+backup: ''
+editor: ''
+tags: ''
+featuredvideoid: ''
+qualityfocus: ''
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/01/2018
+ms.date: 04/11/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 23241edc3b7fec6b4cf10c422fc7744268ed2cdc
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: 8fc102d7ec13a7d1c18706028d99ecfef9812baf
+ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 04/18/2018
 ---
-# <a name="full-screen-mode-in-power-bi"></a>Teljes képernyős mód a Power BI-ban
+# <a name="full-screen-mode-in-power-bi-service"></a>Teljes képernyős mód a Power BI szolgáltatásban
 ## <a name="what-is-full-screen-mode"></a>Mi az a teljes képernyős mód?
 ![irányítópult teljes képernyős módja előtte és utána](media/service-fullscreen-mode/power-bi-full-screen-comparison.png)
 
-Jelenítse meg menük és navigációs sávok nélkül a tartalmakat (irányítópultokat, jelentésoldalakat, csempéket és vizualizációkat), hogy semmi se terelje el róluk a figyelmet.  Így adatait bármikor megtekintheti egy letisztult, teljes képernyős nézetben, és ehhez elég csak odapillantania. Ezt a megjelenítési módot időnként TV módnak is nevezik. A teljes képernyős módban elérhető funkciók a megjelenített tartalomtól függenek.  
+Jelenítse meg menük és navigációs sávok nélkül a Power BI-tartalmakat (irányítópultokat, jelentésoldalakat, csempéket és vizualizációkat), hogy semmi se terelje el róluk a figyelmet.  Így adatait bármikor megtekintheti egy letisztult, teljes képernyős nézetben, és ehhez elég csak odapillantania. Ezt a megjelenítési módot időnként TV módnak is nevezik. A teljes képernyős módban elérhető funkciók a megjelenített tartalomtól függenek. 
+
+Ha a Power BI mobilalkalmazást használja, a [teljes képernyős mód a Windows 10-es mobilalkalmazásoknál érhető el](mobile-windows-10-app-presentation-mode.md). A Power BI Desktop nem rendelkezik teljes képernyős móddal jelentésekhez vagy vizualizációkhoz, de elérhető benne a Laphoz igazítás a [Kapcsolat nézethez](desktop-report-view.md), valamint a [fókuszmód a jelentésvizualizációkhoz](service-focus-mode.md).
+
+ 
 
 A teljes képernyős mód néhány felhasználása:
 

@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 5f081dff246c478f1b9ee3c918de2099b8382100
-ms.sourcegitcommit: 8552a34df8e6141eb704314c1a019992901d6e78
+ms.openlocfilehash: 5480768fc088b3a32a1af222d38e3829298e8f0d
+ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/08/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="on-premises-data-gateway-in-depth"></a>Helyszíni adatátjáró – részletesen
 Cége felhasználói hozzáférhetnek a helyszíni adatokhoz (amelyekhez már van hozzáférési jogosultságuk), de ahhoz, hogy ezek a felhasználók az Ön helyszíni adatforrásához kapcsolódjanak, helyszíni adatátjáró telepítésére és konfigurálására van szükség. Az átjáró gyors és biztonságos háttérbeli kommunikációt biztosít a felhőbeli felhasználótól az Ön helyszíni adatforrásáig és vissza a felhő felé.
@@ -87,10 +87,7 @@ A felhőszolgáltatások csak az Azure Active Directoryn belüli fiókokat érik
    Létrehozhat egy fiókot az Azure Portalon vagy az Office 365 felügyeleti portálon, amelynek a neve egyezik a helyi Active Directory-fiók egyszerű felhasználónevével.
 2. Használhatja az [Azure AD Connect](https://azure.microsoft.com/documentation/articles/active-directory-aadconnect/) eszközt az Azure Active Directory-bérlő és a helyi fiókok szinkronizálására.
    
-   Az Azure AD Connect eszköz címtár- és jelszó-szinkronizálási lehetőséget is nyújt. Ha Ön nem bérlői vagy helyi tartományi rendszergazda, akkor ennek konfigurálásához fel kell vennie a kapcsolatot a rendszergazdával.
-3. Konfigurálhatja az Active Directory összevonási szolgáltatásokat (ADFS).
-   
-   ADFS-kiszolgálóját az [Azure AD Connect](https://azure.microsoft.com/documentation/articles/active-directory-aadconnect/) eszköz használatával társíthatja AAD-bérlőjéhez. Az ADFS a fent tárgyalt címtár-szinkronizálást használja, de lehetővé teszi az egyszeri bejelentkezés (SSO) használatát. Ha például a saját munkahelyi hálózatából kapcsolódok a felhőszolgáltatáshoz, akkor előfordulhat, hogy a bejelentkezéskor a rendszer nem kéri a felhasználónevét és jelszavát. A rendszergazdával kell egyeztetnie, hogy ez a lehetőség elérhető-e az Ön munkahelye számára.
+   Az Azure AD Connect eszköz beállításokat tesz elérhetővé a címtár-szinkronizáláshoz és a hitelesítés beállításához, többek között jelszókivonat-szinkronizálást, átmenő hitelesítést és összevonást. Ha Ön nem bérlői vagy helyi tartományi rendszergazda, akkor ennek konfigurálásához fel kell vennie a kapcsolatot a rendszergazdával.
 
 Az Azure AD Connect használata biztosítja, hogy egyszerű felhasználónév egyezését az AAD és a helyszíni Active Directory között.
 

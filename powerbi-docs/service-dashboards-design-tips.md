@@ -1,28 +1,28 @@
 ---
-title: "Tippek a tökéletes Power BI-irányítópult megtervezéséhez"
-description: "Tippek a tökéletes Power BI-irányítópult megtervezéséhez"
+title: Tippek a tökéletes Power BI-irányítópult megtervezéséhez
+description: Tippek a tökéletes Power BI-irányítópult megtervezéséhez
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/02/2018
+ms.date: 03/22/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 769d669f00c87e6139d8ff2cb8640739d09edf7a
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: 9d71d417a2d7beb7f968bf18fc6de90794663ec8
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="tips-for-designing-a-great-power-bi-dashboard"></a>Tippek a tökéletes Power BI-irányítópult megtervezéséhez
 Most, hogy létrehozta az irányítópultot, és hozzáadott néhány csempét is, gondolja át, hogyan tehetné irányítópultját egyszerre ízlésessé és célratörővé. Ennek a legjobb módja, ha a legfontosabb információ a legfeltűnőbb, amelynek megjelenése letisztult és rendezett.
@@ -31,25 +31,28 @@ Most, hogy létrehozta az irányítópultot, és hozzáadott néhány csempét i
 
 > [!TIP]
 > A jelentésekre vonatkozó tervezési elvek közül jó néhány az irányítópultra is igaz.  Olvassa el következő tanulmányunkat: [A legjobb tervezési elvek jelentések és vizualizációk elkészítéséhez](power-bi-visualization-best-practices.md).
-> 
-> 
+>
+>
 
-### <a name="consider-your-audience"></a>Mindig gondoljon a közönségére
+## <a name="watch-the-dashboard-makeover-webinarhttpsinfomicrosoftcomco-powerbi-wbnr-fy16-05may-12-dashboard-makeover-registrationhtml"></a>Tekintse meg az [irányítópultok átalakításával foglalkozó webes szemináriumot](https://info.microsoft.com/CO-PowerBI-WBNR-FY16-05May-12-Dashboard-Makeover-Registration.html)
+Megtekintheti, ahogy Marc Reguera (a Microsoft fő programmenedzsere, a Power BI-irányítópultok szakértője) [irányítópultokat alakít át](https://info.microsoft.com/CO-PowerBI-WBNR-FY16-05May-12-Dashboard-Makeover-Registration.html).
+
+## <a name="consider-your-audience"></a>Mindig gondoljon a közönségére
 Mely kulcsfontosságú mérőszámok segítik őket leginkább a döntéshozatalban? Hogy fogják használni az irányítópultot? Milyen tanult vagy kulturális előfeltevések befolyásolhatják a tervezés során hozott döntéseket? Milyen információkra van szüksége a közönségének a sikerhez?
 
 Ne feledje, hogy az irányítópult az áttekintés eszköze, amelynek segítségével egy helyen követheti nyomon az adatok aktuális állapotát. Az irányítópult az alapul szolgáló jelentéseken és adatkészleteken alapszik, és ezek rengeteg részletet tartalmaznak. Az olvasók az irányítópulton keresztül érhetik el a jelentéseket. Ezért hacsak nem a részleteket monitorozzák az olvasók, ne az irányítópulton jelenítse azokat meg.
 
 Hol fog megjelenni az irányítópult? Ha egy nagyobb képátmérőjű monitoron jeleníti meg, akkor több tartalmat is elhelyezhet rajta. Ha azonban az olvasók a táblagépükön tekintik meg az irányítópultot, az olvashatóság érdekében használjon kevesebb csempét.
 
-### <a name="tell-a-story-and-keep-it-to-one-screen"></a>Mondja el a történetet egyetlen képernyő használatával
+## <a name="tell-a-story-and-keep-it-to-one-screen"></a>Mondja el a történetet egyetlen képernyő használatával
 Mivel az irányítópultok célja, hogy egyetlen pillantás alatt leolvashassuk a legfontosabb információkat, a legjobb, ha minden csempét egyetlen képernyőn jelenít meg. El tudja kerülni a görgetősávok használatát az irányítópulton?
 
 Túlságosan zsúfolt az irányítópult?  A legfontosabb, könnyen olvasható és értelmezhető információk kivételével távolítson el minden további adatot.
 
-### <a name="make-use-of-full-screen-mode"></a>Használja a teljes képernyős módot
+## <a name="make-use-of-full-screen-mode"></a>Használja a teljes képernyős módot
 Irányítópultját minden felesleges információ nélkül, [Teljes képernyős](service-fullscreen-mode.md) módban jelenítse meg.
 
-### <a name="make-the-most-important-information-biggest"></a>A legfontosabb információt jelenítse meg a legnagyobbként
+## <a name="make-the-most-important-information-biggest"></a>A legfontosabb információt jelenítse meg a legnagyobbként
 Ha az irányítópulton található szövegek és a vizualizációk azonos méretűek, az olvasóknak nehezére esik majd a legfontosabb információra összpontosítani. A kártyavizualizációk segítségével például hatásosan tudja megjeleníteni a fontos számokat:  
 ![Kártyavizualizáció](media/service-dashboards-design-tips/pbi_card.png)
 
@@ -57,10 +60,10 @@ De ügyeljen arra, hogy a kontextust is megadja.
 
 Olvassa el a [csupán egyetlen számmal ellátott csempe létrehozására](power-bi-visualization-card.md) vonatkozó részt.
 
-### <a name="put-the-most-important-information-in-the-upper-corner"></a>A legfontosabb információt helyezze a felső sarokba
+## <a name="put-the-most-important-information-in-the-upper-corner"></a>A legfontosabb információt helyezze a felső sarokba
 A legtöbb ember fentről lefelé kezd olvasni, így célszerű a képernyő tetején elhelyezni a legfontosabb részletet, és a közönség olvasási irányának megfelelően növelni a részletsűrűséget (balról jobbra, jobbról balra).
 
-### <a name="use-the-right-visualization-for-the-data-and-format-it-for-easy-reading"></a>Használja az adatoknak leginkább megfelelő vizualizációt, a formázással pedig igyekezzen elősegíteni a könnyű olvasást
+## <a name="use-the-right-visualization-for-the-data-and-format-it-for-easy-reading"></a>Használja az adatoknak leginkább megfelelő vizualizációt, a formázással pedig igyekezzen elősegíteni a könnyű olvasást
 Pusztán a változatosság kedvéért ne változtasson a vizualizáción.  A vizualizáció célja egy adott kép könnyen „olvasható” és értelmezhető ábrázolása.  Bizonyos adatok és vizualizációk esetében egy egyszerű grafikus vizualizáció is elegendő. Más esetekben azonban összetettebb vizualizációkra lehet szükség, ezért a csempék és címkék használatával, illetve további testreszabással igyekezzen segíteni az olvasót.  
 
 * [Megfelelő adatvizualizációt válasszon](http://blogs.msdn.com/b/microsoft_business_intelligence1/archive/2012/10/08/best-practices-in-data-visualization.aspx). Legyen óvatos a valóságot eltorzító, azaz 3D diagramok használatával. Ne feledje, hogy az emberi agy számára nehézséget jelent a körkörös alakok értelmezése. Bár a tortadiagramok, fánkdiagramok, mérőműszerek és egyéb kör alakú diagramok tetszetősek, az adatvizualizáció szempontjából nem ez az ajánlott eljárás.
@@ -84,7 +87,6 @@ A tökéletes irányítópult-tervezés elsajátításához érdemes megismerked
 * Andrew Abela *Advanced Presentations* című könyve   
 
 ## <a name="next-steps"></a>Következő lépések
-[A Power BI-irányítópultok](service-dashboards.md)  
+[Irányítópult létrehozása jelentésből](service-dashboard-create.md)  
 [Power BI – Alapfogalmak](service-basic-concepts.md)  
 További kérdései vannak? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)
-

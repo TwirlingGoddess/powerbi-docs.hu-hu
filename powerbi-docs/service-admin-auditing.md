@@ -15,27 +15,22 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/12/2017
+ms.date: 04/10/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 46f8d11d45423a9f7df96ac4d1e59c5d805304a7
-ms.sourcegitcommit: 8552a34df8e6141eb704314c1a019992901d6e78
+ms.openlocfilehash: 23fa4ea28631e7545a1d68cd1f631eb087c56b98
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/08/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="using-auditing-within-your-organization"></a>Naplózás használata a cégnél
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/zj4kA39jV_4?showinfo=0" frameborder="0" allowfullscreen></iframe>
 
 Megtudhatja, hogyan használhatja a Power BI naplózási funkcióját a végrehajtott műveletek figyelésére és vizsgálatára. Ehhez a Biztonsági és megfelelőségi központot vagy a PowerShellt használhatja.
 
 Ha tisztában van azzal, hogy a Power BI-bérlőn ki, milyen műveletet és mely elemeken végez el, sokat segíthet a munkahelyének a követelményeknek (például a jogszabályi követelményeknek és a rekordkezelésnek) való megfelelésben.
 
 A naplózási adatokat dátumtartomány, felhasználó, irányítópult, jelentés, adatkészlet és tevékenységtípus szerint szűrheti. A tevékenységeket le is töltheti egy CSV-fájlban, és offline elemezheti.
-
-> [!NOTE]
-> A Power BI naplózás funkciója előzetes verzióban érhető el minden adatterületen.
 
 ## <a name="requirements"></a>Követelmények
 Az auditnaplók eléréséhez az alábbi követelményeknek kell megfelelnie:
@@ -47,28 +42,8 @@ Az auditnaplók eléréséhez az alábbi követelményeknek kell megfelelnie:
 
 - Ha rendelkezik hozzáféréssel az auditnaplóhoz, de nem globális rendszergazda vagy a Power BI szolgáltatás rendszergazdája, nem lesz hozzáférése a Power BI felügyeleti portáljához. Ebben az esetben az Office 365 Biztonsági és megfelelőségi központra mutató közvetlen hivatkozást kell beszereznie.
 
-## <a name="enabling-auditing-functionality-in-the-power-bi-admin-portal"></a>A naplózás funkció engedélyezése a Power BI felügyeleti portálján
-
-Ha jelentésekkel szeretne dolgozni, engedélyeznie kell a naplózást a cégnél. Ezt a felügyeleti portálon, a bérlő beállításai között teheti meg.
-
-1. Kattintson a jobb felső sarokban található **fogaskerék ikonra**.
-
-2. Válassza a **Felügyeleti portál** lehetőséget.
-   
-   ![](media/service-admin-auditing/powerbi-admin.png)
-
-3. Válassza a **Bérlői beállítások** lehetőséget.
-   
-   ![](media/service-admin-auditing/powerbi-admin-tenant-settings.png)
-
-4. Kapcsolja be **A vizsgálati naplók létrehozása a belső tevékenységek vizsgálatát és a megfelelőség biztosítását segíti** beállítást.
-
-5. Válassza az **Alkalmazás** lehetőséget.
-
-A Power BI elkezdi a felhasználói tevékenységek naplózását. A naplók legfeljebb 48 óra múlva megjelennek az O365 Biztonsági és megfelelőségi központban. További információ a naplózott tevékenységekről: [A Power BI által naplózott tevékenységek](#list-of-activities-audited-by-power-bi).
-
 > [!NOTE]
-> Ha engedélyezni szeretné a naplózást a bérlőben, legalább egy bérlői postaládalicencre lesz szüksége.
+> A Power BI-hoz készült auditnaplóknak a bérlőben történő megtekintéséhez a bérlőben szükség van legalább egy Exchange-postaláda licencre.
 
 ## <a name="accessing-your-audit-logs"></a>A naplók elérése
 

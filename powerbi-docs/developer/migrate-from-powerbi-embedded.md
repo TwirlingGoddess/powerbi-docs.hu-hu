@@ -1,15 +1,15 @@
 ---
-title: "Power BI-munkaterületcsoport tartalmainak migrálása a Power BI-ba"
-description: "A cikk azt mutatja be, hogyan migrálhatja az adatokat a Power BI-munkaterületcsoportokból a Power BI Embeddedbe, és hogyan aknázhatja ki az alkalmazásokba való beágyazás nyújtotta fejlett lehetőségeket."
+title: Power BI-munkaterületcsoport tartalmainak migrálása a Power BI-ba
+description: A cikk azt mutatja be, hogyan migrálhatja az adatokat a Power BI-munkaterületcsoportokból a Power BI Embeddedbe, és hogyan aknázhatja ki az alkalmazásokba való beágyazás nyújtotta fejlett lehetőségeket.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.Embedded: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 03/06/2018
 ms.author: maghan
-ms.openlocfilehash: c8ad315976dd1ca47d6b4dc2fd9a191a11e044c7
-ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
+ms.openlocfilehash: 5cf1be502267b14075ac6160ce93fce47941d3c2
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="how-to-migrate-power-bi-workspace-collection-content-to-power-bi-embedded"></a>Power BI-munkaterületcsoport tartalmainak migrálása a Power BI Embeddedbe
 A cikk azt mutatja be, hogyan migrálhatja az adatokat a Power BI-munkaterületcsoportokból a Power BI Embeddedbe, és hogyan aknázhatja ki az alkalmazásokba való beágyazás nyújtotta fejlett lehetőségeket.
@@ -58,8 +58,7 @@ A következő fiókoknak létezniük kell a bérlőn.
 
 > [!NOTE]
 > Ezeknek a fiókoknak Power BI Pro licenccel kell rendelkezniük, hogy használhassák az alkalmazás-munkaterületet.
-> 
-> 
+>
 
 1. Egy bérlői rendszergazda felhasználó.
    
@@ -71,10 +70,13 @@ A következő fiókoknak létezniük kell a bérlőn.
    
     A fiók hitelesítő adatait az alkalmazások háttérrendszere tárolja majd és használja az Azure AD-token beszerzéséhez a Power BI API-k használatához. A rendszer ennek a fióknak a használatával hozza létre a beágyazási tokent az alkalmazáshoz. A fióknak a beágyazáshoz létrehozott alkalmazás-munkaterületeken is rendszergazdai jogosultsággal kell rendelkeznie.
    
-   > [!NOTE]
-   > Ez csak a szervezet egy normál felhasználói fiókja, amely beágyazási célokra lesz használva.
-   > 
-   > 
+> [!NOTE]
+> Ez csak a szervezet egy normál felhasználói fiókja, amely beágyazási célokra lesz használva.
+>
+
+> [!NOTE]
+> Ha csak alkalmazás token típusú hitelesítés szükséges az alkalmazása számára, kattintson [ide](mailto:pbieci@microsoft.com?Subject=App-only%20token%20requirement), és vegye fel velünk a kapcsolatot.
+>
 
 ## <a name="app-registration-and-permissions"></a>Alkalmazásregisztráció és -engedélyek
 Az alkalmazásokat regisztrálni kell az Azure AD-ben, és bizonyos engedélyeket kell biztosítani a számukra.
@@ -126,13 +128,13 @@ Gyorsítótárazott adatkészletek alatt olyan PBIX-fájlokat értünk, amelyek 
 #### <a name="directquery-dataset--report"></a>DirectQuery-adatkészlet és -jelentés
 **Folyamat**
 
-1. Hívja meg a GET https://api.powerbi.com/v1.0/collections/{csoport_azonosítója}/workspaces/{munkaterület_azonosítója}/datasets/{adatkészlet_azonosítója}/Default.GetBoundGatewayDataSources metódust, és mentse a visszakapott kapcsolati karakterláncot.
+1. Végezzen egy GET https://api.powerbi.com/v1.0/collections/{collection_id}/workspaces/{wid}/datasets/{dataset_id}/Default.GetBoundGatewayDataSources hívást, és mentse az így kapott kapcsolati karakterláncot.
 2. Hívja meg az Import PBIX API-t a PaaS-munkaterületről.
 3. Mentse a PBIX-fájlt.
 4. Hívja meg az Import PBIX API-t a SaaS-munkaterületre.
-5. A kapcsolati karakterlánc frissítéséhez hívja meg a következőt: POST  https://api.powerbi.com/v1.0/myorg/datasets/{adatkészlet_azonosítója}/Default.SetAllConnections
-6. Az átjáró- és az adatforrás-azonosító lekéréséhez hívja meg a következőt: GET https://api.powerbi.com/v1.0/myorg/datasets/{adatkészlet_azonosítója}/Default.GetBoundGatewayDataSources
-7. A felhasználói hitelesítő adatok frissítéséhez hívja meg a következőt: PATCH https://api.powerbi.com/v1.0/myorg/gateways/{átjáró_azonosítója}/datasources/{adatforrás_azonosítója}
+5. Kapcsolati karakterlánc frissítése ezzel a hívással: POST https://api.powerbi.com/v1.0/myorg/datasets/{dataset_id}/Default.SetAllConnections
+6. GW-azonosító és adatforrás-azonosító lekérdezése ezzel a hívással: GET https://api.powerbi.com/v1.0/myorg/datasets/{dataset_id}/Default.GetBoundGatewayDataSources
+7. A felhasználó hitelesítő adatainak frissítése: PATCH https://api.powerbi.com/v1.0/myorg/gateways/{gateway_id}/datasources/{datasource_id}
 
 #### <a name="old-dataset--reports"></a>Régi adatkészlet és jelentések
 Ezek a 2016 októbere előtt létrehozott adatkészletek/jelentések. A PBIX-letöltés API nem támogatja a 2016 októbere előtt feltöltött PBIX-fájlokat

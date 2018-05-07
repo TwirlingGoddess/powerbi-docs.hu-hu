@@ -1,15 +1,15 @@
 ---
-title: "Akadálymentesség a Power BI Desktop-jelentésekben"
-description: "Funkciók és javaslatok az akadálymentesített Power BI Desktop-jelentések létrehozásához"
+title: Akadálymentesség a Power BI Desktop-jelentésekben
+description: Funkciók és javaslatok az akadálymentesített Power BI Desktop-jelentések létrehozásához
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 11/21/2017
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: c0e11a46e6e228da2f2ca8ac3f7be63ae20c1d92
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: a0268af4d5b6ec1e94b42735100196e11c4d119b
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="accessibility-in-power-bi-desktop-reports"></a>Akadálymentesség a Power BI Desktop-jelentésekben
 A **Power BI Desktop** rendelkezik olyan funkciókkal, amelyek lehetővé teszik a fogyatékkal élők számára, hogy könnyedén használják és kezeljék a **Power BI Desktop**-jelentéseket. A funkciók közé tartozik az a lehetőség, hogy a jelentések billentyűzettel vagy képernyőolvasóval is használhatók legyenek, az oldalak objektumai léptetéssel emelhetők ki, és a jelölők használata átgondolt a vizualizációkban.
@@ -41,7 +41,7 @@ A **Power BI Desktop** 2017. szeptemberi kiadásával kezdve a **?** billentyű 
 
 Az akadálymentességi fejlesztéseknek köszönhetően a **Power BI Desktop**-jelentések billentyűzettel vagy képernyőolvasóval is használhatók az alábbi technikák segítségével:
 
-**Válthat fókuszt** a jelentés lapfülei vagy egy adott jelentésoldal objektumai között a **Ctrl+F6** billentyűkombinációval.
+Fókuszt válthat a jelentés lapfülei vagy egy adott jelentésoldal objektumai között a **Ctrl+F6** billentyűkombinációval.
 
 * Ha a fókusz a *jelentés lapfülein* van, a *Tab* vagy a *nyíl*billentyűk használatával válthat fókuszt az egyik jelentésoldalról a következőre. A képernyőolvasó felolvassa a jelentésoldal címét, valamint azt, hogy jelenleg ki van-e választva. A jelenleg aktív lévő jelentésoldal betöltéséhez nyomja le az *Enter* vagy a *Szóköz* billentyűt.
 * Ha a fókusz egy betöltött *jelentésoldalon* van, a *Tab* billentyű használatával válthat fókuszt az oldal egyes objektumaira, beleértve a szövegdobozokat, képeket, alakzatokat és diagramokat. A képernyőolvasó felolvassa az objektum típusát és az adott objektum leírását, amit a szerzője adott meg. 
@@ -77,7 +77,7 @@ Az alábbi tippek segítségével olyan **Power BI Desktop** jelentéseket hozha
 ## <a name="considerations-and-limitations"></a>Megfontolandó szempontok és korlátozások
 Az akadálymentességi funkciók néhány ismert hibáját és korlátait az alábbi lista ismerteti:
 
-* A JAWS támogatott a **Power BI szolgáltatásban** megtekintett jelentésekben, beleértve az összes beágyazott jelentést. A JAWS a **Power BI Desktopban** is támogatott, azonban a **Power BI Desktop**-fájlok megnyitása előtt meg kell nyitnia a képernyőolvasót, hogy a képernyőolvasó megfelelően működjön.
+* A JAWS támogatott a **Power BI szolgáltatásban** megtekintett jelentésekben, beleértve az összes beágyazott jelentést. A JAWS a **Power BI Desktopban** is támogatva van, azonban a **Power BI Desktop**-fájlok megnyitása előtt meg kell nyitnia a képernyőolvasót, hogy a képernyőolvasó megfelelően működjön.
 
 ## <a name="next-steps"></a>Következő lépések
 * [Jelentéstémák használata a Power BI Desktopban (előzetes verzió)](desktop-report-themes.md)

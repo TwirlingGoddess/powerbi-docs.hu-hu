@@ -1,31 +1,31 @@
 ---
-title: "Power BI-vizualizációk optimalizálása bármely méretre"
-description: "Itt megismerheti a Power BI Desktopban és a Power BI telefonos alkalmazások Power BI szolgáltatásában lévő vizualizációk optimalizálásának folyamatát."
+title: Power BI-vizualizációk optimalizálása bármely méretre
+description: Itt megismerheti a Power BI Desktopban és a Power BI telefonos alkalmazások Power BI szolgáltatásában meglévő jelentésvizualizációk optimalizálásának folyamatát.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/13/2017
+ms.date: 04/13/2018
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 4c80048213b20365102bcb9c6842c342d8b9052b
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: d80e96fbca893fee3ff03ef9021988f5a22bb2e7
+ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="optimize-a-power-bi-visual-for-any-size"></a>Power BI-vizualizációk optimalizálása bármely méretre
-Beállíthatja, hogy az irányítópulton vagy a jelentésben lévő vizualizációk *rugalmas* elrendezésűek legyenek, és a képernyő méretétől függően dinamikusan a lehető legtöbb adatot és elemzést jelenítsék meg egyszerre.
+Ha létrehoz egy új jelentést, akkor alapértelmezés szerint a vizualizációk *rugalmasak*: dinamikusan módosulnak, hogy a lehető legtöbb adatot jelenítsék meg a képernyő méretétől függően. Régebbi jelentések esetén is beállíthatja, hogy a vizualizációk dinamikusan átméreteződjenek.
 
 A vizualizáció méretének változásával a Power BI átrangsorolja az adatnézet elemeit, például eltávolítja a kitöltéseket, vagy automatikusan áthelyezi a jelmagyarázatot a vizualizáció tetejére, hogy az egyre kisebb méretű vizualizáció változatlanul áttekinthető maradjon. Az ilyen rugalmas elrendezés különösen hasznos a telehonokon futó Power BI mobilalkalmazásban lévő vizualizációk esetében.
 
@@ -34,7 +34,7 @@ A vizualizáció méretének változásával a Power BI átrangsorolja az adatn�
 Bármely X és Y tengellyel és szeletelőkkel rendelkező vizualizáció esetében bekapcsolható a rugalmasság.
 
 ## <a name="turn-on-responsiveness-in-power-bi-desktop"></a>A rugalmasság bekapcsolása a Power BI Desktopban
-1. A Power BI Desktop **Nézet** lapján ellenőrizze, hogy **Asztali elrendezésben** van-e.
+1. Régebbi jelentés esetében a Power BI Desktop **Nézet** lapján ellenőrizze, hogy **Asztali elrendezésben** van-e beállítva.
    
     ![Asztali elrendezés ikon](media/desktop-create-responsive-visuals/power-bi-desktop-layout.png)
 2. Válasszon ki egy vizualizációt, majd a **Vizualizációk** ablaktáblán válassza a **Formátum** szakaszt.
@@ -45,19 +45,18 @@ Bármely X és Y tengellyel és szeletelőkkel rendelkező vizualizáció eseté
      Ekkor [a telefonra optimalizált jelentések létrehozásakor](desktop-create-phone-report.md) ez a vizualizáció szépen átméreteződik a hozzáadás után.
 
 ## <a name="turn-on-responsiveness-in-the-power-bi-service"></a>A rugalmasság bekapcsolása a Power BI szolgáltatásban
-Bekapcsolhatja a Power BI szolgáltatás jelentéseiben lévő vizualizáció rugalmasan viselkedjenek. Ehhez szerkesztési jogosultsággal kell rendelkeznie a jelentésben.
+A rugalmas viselkedést bekapcsolhatja a Power BI szolgáltatás jelentéseiben lévő vizualizációknál is. Ehhez szerkesztési jogosultsággal kell rendelkeznie a jelentésben.
 
-1. A Power BI szolgáltatásban ([https://powerbi.com](https://powerbi.com)) válassza a **Jelentés szerkesztése** lehetőséget a jelentésben.
+1. A Power BI szolgáltatásban ([https://powerbi.com](https://powerbi.com)) válassza a **Jelentés szerkesztése** lehetőséget.
 2. Válasszon ki egy vizualizációt, majd a **Vizualizációk** ablaktáblán válassza a **Formátum** szakaszt.
 3. Bontsa ki az **Általános** elemet, és állítsa a **Rugalmas** kapcsolót **Be** állásba.
    
     ![Rugalmasság bekapcsolva](media/desktop-create-responsive-visuals/power-bi-turn-responsive-on.png)
    
-     Ekkor [az irányítópult telefonos nézetének létrehozásakor](service-create-dashboard-mobile-phone-view.md) ez a vizualizáció szépen átméreteződik a hozzáadás után.
+     Ekkor [a jelentés telefonos nézetének létrehozásakor](desktop-create-phone-report.md) ez a vizualizáció szépen átméreteződik a hozzáadás után.
 
-## <a name="next-steps"></a>További lépések
+## <a name="next-steps"></a>Következő lépések
 * [A Power BI telefonos alkalmazásokhoz optimalizált jelentések létrehozása](desktop-create-phone-report.md)
-* [Power BI-irányítópult telefonos nézetének létrehozása](service-create-dashboard-mobile-phone-view.md)
 * [Telefonra optimalizált Power BI-jelentések megtekintése](mobile-apps-view-phone-report.md)
 * További kérdései vannak? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)
 

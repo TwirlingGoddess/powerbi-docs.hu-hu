@@ -1,15 +1,15 @@
 ---
-title: "Változók vizualizációja lehetőségelemzési paraméterek használatával a Power BI Desktopban"
-description: "Létrehozhatja a saját Lehetőségelemzési változóját, hogy elképzelhesse és megjeleníthesse a változókat a Power BI-jelentésekben"
+title: Változók vizualizációja lehetőségelemzési paraméterek használatával a Power BI Desktopban
+description: Létrehozhatja a saját Lehetőségelemzési változóját, hogy elképzelhesse és megjeleníthesse a változókat a Power BI-jelentésekben
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,18 +18,18 @@ ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 5222b6ba99c9e61d1070f66115b90aa29099fd8d
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 5c6aa2639b8991cd7a9e1527c780bdbe21ad64b9
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="create-and-use-a-what-if-parameter-to-visualize-variables-in-power-bi-desktop"></a>Lehetőségelemzési paraméter létrehozása és használata változók vizualizációjához a Power BI Desktopban
 A **Power BI Desktop** 2017 augusztusi kiadásától kezdve létrehozhat **Lehetőségelemzési** változókat a jelentésekhez, szeletelőként dolgozhat a változókkal, és így a jelentésekben szereplő különböző kulcsértékeket jeleníthet meg és számszerűsíthet.
 
 ![](media/desktop-what-if/what-if_01.png)
 
-A **Lehetőségelemzési** paraméter a **Power BI Desktop** **Modellezés** lapján található. Ekkor megjelenik egy párbeszédpanel, ahol beállíthatja a paramétert.
+A **Lehetőségelemzési** paraméter a **Power BI Desktop** **Modellezés** lapján található. A kiválasztáskor megjelenik egy párbeszédpanel, ahol beállíthatja a paramétert.
 
 ## <a name="creating-a-what-if-parameter"></a>Lehetőségelemzési paraméter létrehozása
 **Lehetőségelemzési** paraméter létrehozásához kattintson a **Lehetőségelemzés** gombra a **Power BI Desktop** **Modellezés** lapján. Az alábbi képen létrehoztunk egy *Kedvezmény százaléka* nevű paramétert, és az adattípusát *Tizedes törtre* állítottuk. A *Minimális* érték nulla, a *Maximális* érték 0,50 (ötven százalék). A *Növekményt* 0,05-re, vagyis 5%-ra állítottuk. Ennyit fog a paraméter módosítani, ha egy jelentésben dolgozik vele.
@@ -37,7 +37,7 @@ A **Lehetőségelemzési** paraméter a **Power BI Desktop** **Modellezés** lap
 ![](media/desktop-what-if/what-if_02.png)
 
 > [!NOTE]
-> Tizedes törtek esetében ügyeljen arra, hogy nullával kezdje a számot, ahogy a fenti képen is 0,50 a szerepel a mezőben ,50 helyett. Ellenkező esetben a szám nem lesz érvényesítve, és az **OK** gomb nem válaszható ki.
+> Tizedes törtek esetében ügyeljen arra, hogy nullával kezdje a számot, például 0,50 szerepeljen ,50 helyett. Ellenkező esetben a szám nem lesz érvényesítve, és az **OK** gomb nem válaszható ki.
 > 
 > 
 
@@ -49,7 +49,7 @@ Továbbá a paraméter létrehozása mellett egy **Lehetőségelemzési** param�
 
 ![](media/desktop-what-if/what-if_04.png)
 
-Érdemes és hasznos megjegyezni, hogy miután létrehozott egy **Lehetőségelemzési** paramétert, a paraméter és a mérték is a modell része lesz. Ezért elérhetők a jelentésen keresztül, és a jelentés egyéb oldalain is használhatók. Mivel a modell részei, törölheti a szeletelőt a jelentés oldaláról, és ha vissza szeretné kapni, fogja meg a **Lehetőségelemzési** paramétert a **Mezők** listájából, és húzza a vászonra (majd módosítsa a vizualizációt szeletelőre), így egyszerűen visszahelyezheti a **Lehetőségelemzési** paramétert a jelentésbe.
+Érdemes és hasznos megjegyezni, hogy miután létrehozott egy **Lehetőségelemzési** paramétert, a paraméter és a mérték is a modell része lesz. Ezért elérhetők a jelentésen keresztül, és a jelentés egyéb oldalain is használhatók. Mivel a modell részei, törölheti a szeletelőt a jelentés oldaláról, és ha vissza szeretné kapni, fogja meg a **Lehetőségelemzési** paramétert a **Mezők** listájából, és húzza a vászonra (majd módosítsa a vizualizációt szeletelőre), így egyszerűen visszahelyezheti a paramétert a jelentésbe.
 
 ## <a name="using-a-what-if-parameter"></a>Lehetőségelemzési paraméter használata
 Hozzunk létre egy, a **Lehetőségelemzési** paraméter használatáról szóló, egyszerű példát. Az előző szakaszban létrehoztunk egy **Lehetőségelemzési** paramétert, most pedig használatba állítjuk egy új mérték létrehozásával, amelynek az értéke egy csúszkával állítható. Ehhez létrehozunk egy új mértéket.

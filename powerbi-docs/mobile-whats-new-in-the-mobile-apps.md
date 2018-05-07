@@ -12,16 +12,16 @@ qualityfocus: no
 qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
-ms.topic: get-started-article
+ms.topic: conceptual
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/20/2018
+ms.date: 04/09/2018
 ms.author: maggies
-ms.openlocfilehash: 29241b4c0f059540e6f1496f04b3044ebbd7d68b
-ms.sourcegitcommit: fe859130099d923ee30da6091efcc70a264dcba6
+ms.openlocfilehash: 9caf6e6867c55d3c601ac417add173d0af091897
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>A Power BI mobilalkalmazásainak újdonságai
 Az újdonságokra vonatkozó kapcsolódó információk:
@@ -29,6 +29,17 @@ Az újdonságokra vonatkozó kapcsolódó információk:
 * [A Power BI csapatának blogja a mobilalkalmazásokról](https://powerbi.microsoft.com/blog/tag/mobile/)
 * [A Power BI Desktop újdonságai](desktop-latest-update.md)  
 * [A Power BI szolgáltatás újdonságai](service-whats-new.md)  
+
+## <a name="april-2018"></a>2018. április
+
+### <a name="mobile-drill-down-and-drill-up"></a>Mobilos részletezés és felhatolás
+
+Mobileszközön is használható a részletezés és a felhatolás a jelentés vizualizációinál. Az új funkciót úgy érheti el, ha rákoppint és lenyomva tartja a vizualizáció elemleírás menüjét, majd a lehatolás-felhatolás gombokra koppint az adatok részletesebb megjelenítéséhez.
+
+### <a name="persistent-filters"></a>Állandó szűrők
+
+A közelmúltban frissítettük a jelentésszűrőket és a szeletelőket, így azok most már automatikusan mentve lesznek a webes Power BI-ból a Power BI mobilalkalmazásba. A mobilalkalmazásban beállított szűrők és szeletelők is automatikusan mentve lesznek a webes Power BI-ban.
+
 
 ## <a name="march-2018"></a>2018. március
 

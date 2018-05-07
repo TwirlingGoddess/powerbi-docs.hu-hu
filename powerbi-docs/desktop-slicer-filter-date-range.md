@@ -1,15 +1,15 @@
 ---
-title: "Relatív dátumszeletelő vagy -szűrő használata a Power BI Desktopban"
-description: "Ismerje meg, hogyan használhat szeletelőket és szűrőket a relatív dátumtartományok korlátozására a Power BI Desktopban."
+title: Relatív dátumszeletelő vagy -szűrő használata a Power BI Desktopban
+description: Ismerje meg, hogyan használhat szeletelőket és szűrőket a relatív dátumtartományok korlátozására a Power BI Desktopban.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/05/2017
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 0432998e44cdb1bf95a41225b73d805ec2a2379f
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 668c26cb2c2f6cda669280b2541fb5ccf8a44f27
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="use-a-relative-date-slicer-and-filter-in-power-bi-desktop"></a>Relatív dátumszeletelő és -szűrő használata a Power BI Desktopban
 A **relatív dátumszeletelővel** vagy **relatív dátumszűrővel** időalapú szűrőket alkalmazhat az adatmodellek bármely dátumoszlopára. A **relatív dátumszeletelő** használatával például a megjelenítést korlátozhatja az utóbbi harminc napban (vagy hónapban, naptári hónapban stb.) történt értékesítési eseményekre. Az adatok frissítésekor pedig a relatív időszak automatikusan alkalmazza a vonatkozó relatív dátumkorlátokat.
@@ -52,7 +52,7 @@ Ezek a lehetőségek az alábbi ábrán láthatók.
 
 A *relatív dátumszeletelő* következő (középső) beállításában egy szám beírásával megadhatja a relatív dátumtartományt.
 
-A harmadik beállítással kiválaszthatja a dátumtartomány mértékegységét az alábbi lehetőségek közül:
+A harmadik beállításban kiválaszthatja a dátummértéket. A következők közül választhat:
 
 * Napok
 * Hetek
@@ -66,7 +66,7 @@ Ezek a lehetőségek az alábbi ábrán láthatók.
 
 ![](media/desktop-slicer-filter-date-range/relative-date-range-slicer-filter_05.png)
 
-Válassza a *Hónapok* lehetőséget a listából, és írjon be 2-t a középső beállításban. Ekkor a következők történnek: ha ma július 20. van, a szeletelő által korlátozott vizualizációk adatai az előző két hónapra, azaz a május 20-tól június 20-ig (a mai napig) tartó időszakra korlátozva jelennek meg.
+Ha abban a listában a *Hónapok* lehetőséget választja, a középső beállításban pedig a 2. bemenetet, akkor a következők történnek: ha ma július 20. van, a szeletelő által korlátozott vizualizációk adatai az előző két hónapra, azaz a május 20-tól június 20-ig (a mai napig) tartó időszakra korlátozva jelennek meg.
 
 Összehasonlításképp, ha a *Hónapok (naptár)* elemet választotta volna, a vizualizációk a május 1-től június 30-ig tartó időszakra (az utolsó két teljes naptári hónapra) lennének korlátozva.
 

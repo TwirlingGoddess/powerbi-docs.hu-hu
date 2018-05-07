@@ -1,31 +1,33 @@
 ---
-title: "Jelentés használata Szerkesztő nézetben (Oktatóanyag)"
-description: "Jelentés használata Szerkesztő nézetben a Power BI szolgáltatásban"
+title: Jelentés használata Szerkesztő nézetben (Oktatóanyag)
+description: Jelentés használata Szerkesztő nézetben a Power BI szolgáltatásban
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: monitoring
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/02/2018
+ms.date: 04/11/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: b3dda418f3493c91db1be75365192539757f0449
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: eea3bcb040f5267cb1fcc1f24ef6b306f6c03af3
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="interact-with-a-report-in-editing-view-in-power-bi-service"></a>Jelentés használata Szerkesztő nézetben a Power BI szolgáltatásban
-A jelentéseket a Power BI szolgáltatásban és a Power BI Desktopban szerkesztheti, de csak ha tulajdonosi hozzáféréssel rendelkezik. A Desktoptól eltérően a Power BI szolgáltatásban kétféle módon lehet a jelentéseket használni: az [Olvasó nézet](service-reading-view-and-editing-view.md) a jelentés *felhasználói* számára, míg a Szerkesztési mód a tulajdonosok és létrehozók számára készült. Ez az oktatóanyag a Power BI szolgáltatás Olvasó nézetét ismerteti. 
+A jelentések a Power BI szolgáltatásban és a Power BI Desktopban hozhatók létre és szerkeszthetők. A Power BI szolgáltatásban a jelentések a **Szerkesztő nézetben** hozhatók létre és szerkeszthetők. A Power BI Desktopban pedig a jelentések a [**Jelentés nézetben**](desktop-report-view.md) hozhatók létre és szerkeszthetők. Ez a cikk a Power BI szolgáltatás Olvasó nézetét ismerteti. 
+
+A Power BI szolgáltatásban kétféle módon lehet a jelentéseket használni: az [Olvasó nézet](service-reading-view-and-editing-view.md) a jelentés *felhasználói* számára, míg a Szerkesztési mód a tulajdonosok és létrehozók számára készült.  A jelentések megosztásához, valamint a mások által létrehozott jelentések szerkesztéséhez Power BI Pro licencre van szükség. Ha Ön Power BI Free felhasználó, akkor továbbra is létrehozhat jelentéseket, de nem fogja tudni használni a [megosztást](service-share-reports.md).    
 
 A jelentések Szerkesztési nézetében számos lehetősége van a jelentések vizsgálatára és megtervezésére. Itt az [Olvasó nézet](service-reading-view-and-editing-view.md) minden funkciója elérhető – és sok egyéb is. A Szerkesztési nézet csak a jelentést létrehozó személy számára, vagy azon munkatársak számára érhető el, akik [egy alkalmazás-munkaterület tagjaként vagy rendszergazdájaként egy jelentés társtulajdonosai](service-create-distribute-apps.md).
 
@@ -42,6 +44,9 @@ Tekintse meg a témakörök listáját a Tartalomjegyzék **Jelentések** főcí
 * A vizualizáció létrehozásához használt adatok megjelenítése 
 * A részletezés beállítása
 * Jelentésoldal duplikálása
+
+## <a name="considerations-and-troubleshooting"></a>Megfontolandó szempontok és hibaelhárítás
+A mások által létrehozott jelentések szerkesztéséhez, illetve a saját jelentések másokkal való megosztásához Power BI Pro licencre van szükség.  Ha Ön Power BI Free felhasználó, akkor továbbra is létrehozhat jelentéseket, de nem fogja tudni használni a [megosztást](service-share-reports.md).
 
 
 ## <a name="next-steps"></a>Következő lépések

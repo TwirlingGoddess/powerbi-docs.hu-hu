@@ -1,13 +1,13 @@
 ---
-title: "Egyéni Power BI-regisztráció"
-description: "Megtudhatja, hogyan regisztrálhat a Power BI szolgáltatásra, és hogyan veheti használatba személyes jelentéskészítési és vizualizációs munkáihoz."
+title: Egyéni Power BI-regisztráció
+description: Megtudhatja, hogyan regisztrálhat a Power BI szolgáltatásra, és hogyan veheti használatba személyes jelentéskészítési és vizualizációs munkáihoz.
 services: powerbi
-documentationcenter: 
-author: markingmyname
+documentationcenter: ''
+author: mgblythe
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: monitoring
 qualitydate: 08/02/2017
 ms.service: powerbi
@@ -16,13 +16,13 @@ ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 03/02/2018
-ms.author: maghan
+ms.author: mblythe
 LocalizationGroup: Get started
-ms.openlocfilehash: b098c87796306bedb8f9da43971d093f464dd4bd
-ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
+ms.openlocfilehash: 7f40fdfd3e9784ab05fe0f44612cea6d48d739fe
+ms.sourcegitcommit: 20adb55065af8e2f48387a00e64c72cf6d700f0f
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/23/2018
 ---
 # <a name="signing-up-for-power-bi-as-an-individual"></a>Egyéni Power BI-regisztráció
 Megtudhatja, hogyan regisztrálhat a Power BI szolgáltatásra, és hogyan veheti használatba személyes jelentéskészítési és vizualizációs munkáihoz.
@@ -68,7 +68,7 @@ A cikk további része az egyes verziókra történő regisztrációt ismerteti.
 A Power BI-regisztráció leggyorsabb módja az ingyenes Power BI-fiók választása. Ez a fiók nem jár költségekkel, és a szolgáltatás számos funkcióját elérheti vele.
 
 > [!NOTE]
-> Ha egy arról szóló üzenetet kap, hogy már ismert felhasználó, lépjen a https://app.powerbi.com oldalra, és jelentkezzen be.
+> Ha egy arról szóló üzenetet kap, hogy már ismert felhasználó, lépjen a https://app.powerbi.com lapra, és jelentkezzen be.
 > 
 > 
 
@@ -88,9 +88,9 @@ A Power BI-regisztrációhoz az alábbi lépéseket kell elvégeznie.
    
     ![](media/service-self-service-signup-for-power-bi/powerbi-free-signup4.png)
 6. Nyissa meg a beérkezett e-mailben található hivatkozást az e-mail-címe megerősítéséhez. Ekkor visszakerül a regisztrációs folyamat ablakába. Előfordulhat, hogy meg kell adnia néhány további adatot magáról.
-7. Ezt követően megnyílik a https://app.powerbi.com oldal, Ön pedig ingyenes felhasználóként megkezdheti a Power BI használatát.
+7. Ezt követően megnyílik a https://app.powerbi.com lap, Ön pedig ingyenes felhasználóként megkezdheti a Power BI használatát.
 
-### <a name="what-this-looks-like-within-the-service"></a>A fióktípus megjelenése a szolgáltatásban
+### <a name="what-this-looks-like-within-the-service"></a>A fiók megjelenése a szolgáltatásban
 A szolgáltatásban meggyőződhet arról, hogy ingyenes fiókja van. Ehhez kattintson a **fogaskerék** ikonra, majd válassza a **Személyes tárhely kezelése** lehetőséget.
 
 ![](media/service-self-service-signup-for-power-bi/powerbi-free-signup7.png)

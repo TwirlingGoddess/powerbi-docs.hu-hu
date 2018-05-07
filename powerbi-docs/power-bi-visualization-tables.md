@@ -1,29 +1,29 @@
 ---
-title: "Oktatóanyag: táblázatos vizualizációk a Power BI-jelentésekben és -irányítópultokon (oktatóanyag)"
-description: "Oktatóanyag: Tippek a táblázatos vizualizációk használatához a Power BI-jelentésekben és -irányítópultokon, beleértve az oszlopszélességek átméretezését."
+title: Táblázatos vizualizációk a Power BI-jelentésekben és -irányítópultokon (oktatóanyag)
+description: 'Oktatóanyag: Tippek a táblázatos vizualizációk használatához a Power BI-jelentésekben és -irányítópultokon, beleértve az oszlopszélességek átméretezését.'
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
-featuredvideoid: 
-qualityfocus: 
-qualitydate: 
+backup: ''
+editor: ''
+tags: ''
+featuredvideoid: ''
+qualityfocus: ''
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/22/2018
+ms.date: 04/11/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: d41fd5085912ec74312fa4a4b25060cbd4afba94
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: a36e2afcda7c741c871b07c526ab010f77290a3b
+ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="working-with-tables-in-power-bi-reports-and-dashboards-tutorial"></a>Táblák használata a Power BI-jelentésekben és -irányítópultokon (oktatóanyag)
 A táblák olyan táblázatok, amelyek sorok és oszlopok logikai sorozataként jelenítik meg a kapcsolódó adatokat. Tartalmazhatnak fejléceket és összesítősorokat is. A táblák jól használhatók mennyiségi összehasonlításokhoz, ahol több, egy kategóriába tartozó érték vizsgálható egyszerre. Ez a tábla például a **Kategória** 5 különböző mértékét jeleníti meg.
@@ -69,15 +69,21 @@ A táblák sokféleképpen formázhatók, és itt csak néhányat mutatunk be ez
 
 * Próbálja ki a tábla formázását. Itt hozzáadtunk egy függőleges kék rácsot, növeltük a sorok közötti távolságot, és egy kicsivel növeltük a külső szegélyek és a szöveg méretét is.
   
-    ![](media/power-bi-visualization-tables/power-bi-table-grid2-new.png)
+    ![](media/power-bi-visualization-tables/power-bi-table-gridnew.png)
   
     ![](media/power-bi-visualization-tables/power-bi-table-grid3.png)
 * Az oszlopok fejléceiben módosítottuk a háttérszínt, hozzáadtunk egy körvonalat, és növeltük a betűméretet. 
   
-    ![](media/power-bi-visualization-tables/power-bi-table-column.png)
+    ![](media/power-bi-visualization-tables/power-bi-table-column-headers.png)
+
   
     ![](media/power-bi-visualization-tables/power-bi-table-column2.png)
-* Egyéb formázást is végrehajtottunk, mire megkaptuk ezt a végleges táblát. Mivel rengeteg formázási lehetőség létezik, a tanuláshoz a legjobb, ha egy sima táblával indít, megnyitja a Formázás ablaktáblát ![](media/power-bi-visualization-tables/power-bi-format.png), és kísérletez. 
+
+* Még az egyes oszlopokra és oszlopfejlécekre is alkalmazhat formázást. Kezdje a **Mezőformázás** kibontásával, majd jelölje ki az oszlopot a formázáshoz a legördülő menüben. Az oszlopértékektől függően a Mezőformázás lehetővé teszi a következők beállítását: megjelenítési egységek, betűszín, tizedesjegyek száma, háttér, igazítás stb. Miután módosította a beállításokat, döntse el, hogy alkalmazza-e ezeket a fejlécre és az összesítési sorra is.
+
+    ![](media/power-bi-visualization-tables/power-bi-field-formatting.png)
+
+* Egyéb formázást is végrehajtottunk, mire megkaptuk ezt a végleges táblát. Mivel rengeteg formázási lehetőség létezik, a tanuláshoz a legjobb, ha az alapértelmezett formázással indít, megnyitja a Formázás ablaktáblát ![](media/power-bi-visualization-tables/power-bi-format.png), és kísérletez. 
   
     ![](media/power-bi-visualization-tables/power-bi-table-format.png)
 

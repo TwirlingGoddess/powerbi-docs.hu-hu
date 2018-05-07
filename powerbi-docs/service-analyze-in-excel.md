@@ -1,28 +1,28 @@
 ---
-title: "Elemzés az Excelben"
-description: "Ismerje meg, hogyan elemezhet Power BI-adatkészleteket az Excelben"
+title: Elemzés az Excelben
+description: Ismerje meg, hogyan elemezhet Power BI-adatkészleteket az Excelben
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 02/05/2018
+ms.date: 03/22/2018
 ms.author: davidi
 LocalizationGroup: Reports
-ms.openlocfilehash: 385a89d6b50507833c1e43327c405f02b2468ac2
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 5cd319266e91a6bc4736a123375b797331dba568
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="analyze-in-excel"></a>Elemzés az Excelben
 Előfordulhat, hogy az Excel használatával szeretne megnézni és kezelni egy Power BI-adatkészletet. Az **Elemzés az Excelben** funkció segítségével pontosan ezt teheti meg, valamit elérheti az Excel kimutatás-, diagram- és szeletelő funkcióit a Power BI-ban létező adatkészletre vonatkozóan.
@@ -105,3 +105,5 @@ Ha egy felhasználó megnyitja a munkafüzetet, akivel Ön megosztotta azt, akko
 
 Mivel a felhasználóknak frissíteniük kell az adatkészletet, és az Excel Online nem támogatja a külső kapcsolatok frissítését, ezért javasoljuk, hogy a felhasználók a számítógépükön az Excel asztali verziójával nyissák meg a munkafüzetet.
 
+## <a name="troubleshooting"></a>Hibaelhárítás
+Előfordulhat az Elemzés az Excelben funkció használata során, hogy nem várt eredményt kap, vagy nem a kívánt módon működik. [Ez az oldal az Elemzés az Excelben használata során felmerülő gyakori problémákra nyújt megoldást](desktop-troubleshooting-analyze-in-excel.md)

@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/16/2017
+ms.date: 04/13/2018
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 8089c796441fd4200b146da6330dd5c208bf8b30
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 62624d35f1fb477c4daf2ffcef92bb18fb8a6a8e
+ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="connect-to-salesforce-with-power-bi"></a>Csatlakozás a Salesforce-hoz a Power BI-ban
 A Power BI használatával könnyedén csatlakozhat a Salesforce.com-fiókjához. A létrehozott kapcsolat lekéri az adatokat, és automatikusan a rendelkezésére bocsátja az adatokhoz kapcsolódó irányítópultot és jelentéseket.
@@ -70,13 +70,15 @@ Az adatok igény szerinti megjelenítéséhez tetszés szerint módosíthatja az
 * [Tegyen fel egy kérdést a Q&A mezőben](power-bi-q-and-a.md), amely az irányítópult tetején található
 * [Módosítsa a csempéket](service-dashboard-edit-tile.md) az irányítópulton
 * [Kattintson egy csempére](service-dashboard-tiles.md) az alapjául szolgáló jelentés megnyitásához
-* Az adatkészlet az ütemezés szerint naponta frissül, de módosíthatja is a frissítési ütemezést, vagy igény szerint frissíthet bármikor az **Azonnali frissítés** lehetőségre kattintva.
+* Noha az adatkészlet napi frissítésre van ütemezve, módosíthatja a frissítési ütemezést, vagy igény szerint frissíthet az **Azonnali frissítés** gombbal.
 
-## <a name="system-requirements"></a>Rendszerkövetelmények
-* Kapcsolódás egy éles környezetben lévő Salesforce-fiókhoz, amelyen engedélyezve van az API-hozzáférés
-* Engedély a Power BI alkalmazásnak a bejelentkezéskor
-* Elegendő elérhető API-hívás a fiók számára az adatok lekéréséhez és frissítéséhez
-* A frissítéshez érvényes hitelesítési jogkivonatra van szükség. Ellenőrizze, hogy 5, vagy annál kevesebb Salesforce-adatkészletet importált-e, mert a Salesforce legfeljebb 5 hitelesítési jogkivonatot engedélyez alkalmazásonként
+## <a name="system-requirements-and-considerations"></a>Rendszerkövetelmények és megfontolandó szempontok
+- Kapcsolódás egy éles környezetben lévő Salesforce-fiókhoz, amelyen engedélyezve van az API-hozzáférés
+- Engedély a Power BI alkalmazásnak a bejelentkezéskor
+- Elegendő elérhető API-hívás a fiók számára az adatok lekéréséhez és frissítéséhez
+- A frissítéshez érvényes hitelesítési jogkivonatra van szükség. Ellenőrizze, hogy 5, vagy annál kevesebb Salesforce-adatkészletet importált-e, mert a Salesforce legfeljebb 5 hitelesítési jogkivonatot engedélyez alkalmazásonként
+- A Salesforce-jelentések API a korlátozás miatt legfeljebb 2000 adatsort támogat.
+
 
 ## <a name="troubleshooting"></a>Hibaelhárítás
 Ha hibát észlel, tekintse át a fenti követelményeket. Azt is vegye figyelembe, hogy az egyéni vagy tesztkörnyezeti tartományba való bejelentkezés jelenleg nem támogatott.

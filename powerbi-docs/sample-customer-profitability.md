@@ -1,37 +1,37 @@
 ---
-title: "Oktatóanyag: Ügyfél-jövedelmezőségi minta a Power BI-hoz: bemutatás"
-description: "Ügyfél-jövedelmezőségi minta a Power BI-hoz: bemutató"
+title: 'Oktatóanyag: Ügyfél-jövedelmezőségi minta a Power BI-hoz: bemutatás'
+description: 'Ügyfél-jövedelmezőségi minta a Power BI-hoz: bemutató'
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: amandacofsky
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/13/2018
+ms.date: 04/13/2018
 ms.author: mihart
 LocalizationGroup: Samples
-ms.openlocfilehash: b7931cb97ff1c409cc2524e31d079dd770160ec4
-ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
+ms.openlocfilehash: 8c6d01cf1a89ea8e61506cc28344c77fe0276e47
+ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="customer-profitability-sample-for-power-bi-take-a-tour"></a>Ügyfél-jövedelmezőségi minta a Power BI-hoz: bemutató
 
 ## <a name="overview-of-the-customer-profitability-sample"></a>Az Ügyfél-jövedelmezőségi minta áttekintése
 Az „Ügyfél-jövedelmezőségi minta” nevű csomag egy marketinganyagokat készítő céghez tartozó irányítópultot, jelentést és adatkészletet tartalmaz. Az irányítópult létrehozásával a pénzügyi vezető figyelni tudja az 5 üzleti egység kezelőjéhez (vezetőjéhez), a termékekhez, az ügyfelekhez és a bruttó árréshez tartozó fontosabb metrikákat. A pénzügyi vezető egyetlen pillantással láthatja, hogy mely tényezők vannak hatással a jövedelmezőségre.
 
-![](media/sample-customer-profitability/power-bi-dash.png)
+![Power BI-irányítópult](media/sample-customer-profitability/power-bi-dash.png)
 
-Ez a minta egy olyan sorozat részét képezi, amely bemutatja, hogyan használhatja a Power BI-t üzleti adatokkal, jelentésekkel és irányítópultokkal. Az adatok az obviEnce-től ([www.obvience.com](http://www.obvience.com/)) származó valós, de anonimizált adatok. Többféle formátumban is elérhetőek: tartalomcsomagként vagy alkalmazásként, Excel-munkafüzetként és .pbix kiterjesztésű Power BI Desktop-fájlként is. Lásd az [Adatkészletmintákat](sample-datasets.md).
+Ez a minta abba a sorozatba tartozik, amely a Power BI üzleti jellegű adatokkal, jelentésekkel, és irányítópultokkal történő használatát mutatja be. Az adatok az obviEnce-től ([www.obvience.com](http://www.obvience.com/)) származó valós, de anonimizált adatok. Többféle formátumban is elérhetőek: tartalomcsomagként vagy alkalmazásként, Excel-munkafüzetként és .pbix kiterjesztésű Power BI Desktop-fájlként is. Lásd az [Adatkészletmintákat](sample-datasets.md).
 
 ## <a name="prerequisites"></a>Előfeltételek
 Ha érdekli a megoldás, tartson velünk. Ebben az oktatóanyagban a Power BI szolgáltatást és az Ügyfél-jövedelmezőségi minta tartalomcsomagot használjuk.  Mivel azonban a jelentéssel való munka nagyon hasonló, a Power BI Desktopot is használhatja a PBIX-mintafájllal, hogy követni tudja a bemutatott műveleteket. A tartalomcsomaghoz és a PBIX-fájlhoz való kapcsolódáshoz alább talál útmutatót.
@@ -41,10 +41,10 @@ Ha érdekli a megoldás, tartson velünk. Ebben az oktatóanyagban a Power BI sz
 1. Nyissa meg a Power BI szolgáltatást (app.powerbi.com), és jelentkezzen be.
 2. A bal alsó sarokban válassza az **Adatok lekérése** lehetőséget.
 
-    ![](media/sample-datasets/power-bi-get-data.png)
+    ![adatok lekérése](media/sample-datasets/power-bi-get-data.png)
 3. Ekkor megjelenik az Adatok lekérése lap. Itt kattintson a **Minták** ikonra.
 
-   ![](media/sample-datasets/power-bi-samples-icon.png)
+   ![minták ikon](media/sample-datasets/power-bi-samples-icon.png)
 4. Válassza ki az **Ügyfél-jövedelmezőségi mintát**, majd válassza a **Kapcsolódás** lehetőséget.  
 
    ![Adatok lekérése](media/sample-customer-profitability/get-supplier-sample.png)
@@ -73,7 +73,7 @@ A **Saját munkaterület** alatt keresse meg az Ügyfél-jövedelmezőségi mint
 
 2. Tekintse át a csempéket az irányítópult bal oldalán.
 
-    ![](media/sample-customer-profitability/power-bi-manager.png)
+    ![csempék vezetőknek](media/sample-customer-profitability/power-bi-manager.png)
 
 - A cég bruttó árrése 42,5%.
 - 80 ügyfélről van szó.
@@ -86,7 +86,7 @@ A **Saját munkaterület** alatt keresse meg az Ügyfél-jövedelmezőségi mint
 ### <a name="manager-specific-dashboard-tiles"></a>Vezetőre vonatkozó irányítópult-csempék
 Az irányítópult jobb oldalán található csempék a csapat mutatószámait tartalmazzák. A pénzügyi vezetőnek követnie kell a régiós vezetők teljesítményét, és ezek a csempék teszik lehetővé számára a profit magas szintű áttekintését – a százalékos bruttó árrés használatával. Ha a százalékos bruttó árrés trendje váratlan értékeket mutat bármely vezetőhöz kapcsolódóan, a pénzügyi vezető alaposabb vizsgálatot végezhet.
 
-![](media/sample-customer-profitability/power-bi-manager2.png)
+![Százalékos bruttó árrés vezetőknek](media/sample-customer-profitability/power-bi-manager2.png)
 
 - Carlos kivételével minden vezető meghaladta az értékesítési célkitűzést. Ezzel együtt azonban Carlos tényleges értékesítési adatai a legmagasabbak.
 - Annelie százalékos bruttó árrése a legalacsonyabb, de folyamatos növekedés tapasztalható március óta.
@@ -99,7 +99,7 @@ Ezen az irányítópulton szerepelnek olyan csempék, amelyek jelentésre vagy E
 ### <a name="open-the-excel-online-data-source"></a>Az Excel Online adatforrás megnyitása
 Az irányítópulton szereplő „Target vs Actual” és „Year Over Year Revenue Growth” nevű csempék Excel-munkafüzetből lettek az irányítópultra rögzítve. Ha bármely csempét kiválasztja, a Power BI megnyitja az adatforrást, ami esetünkben az Excel Online.
 
-![](media/sample-customer-profitability/power-bi-excel-online.png)
+![Excel Online](media/sample-customer-profitability/power-bi-excel-online.png)
 
 1. Válassza ki az Excelből rögzített csempék valamelyikét. Ekkor megnyílik az Excel Online a Power BI szolgáltatásban.
 2. Figyelje meg, hogy a munkafüzetnek három lapon vannak adatai. Nyissa meg a „Revenue” (Bevétel) lapot.
@@ -107,11 +107,11 @@ Az irányítópulton szereplő „Target vs Actual” és „Year Over Year Reve
     a. Az „Executive” (Vezetők) csúszka használatával válassza ki a **Carlos Grilo** tételt.   
     b. Az első kimutatásból megtudhatjuk, hogy Carlos elsődleges termékére, a Primusra vonatkozóan a bevétel 152%-kal csökkent a tavalyi évhez képest. Az Éves változást megjelenítő diagram azt mutatja, hogy Carlos eredménye a legtöbb hónapban a költségvetés alatti.  
 
-    ![](media/sample-customer-profitability/power-bi-pivotchart.png)
+    ![Kimutatás](media/sample-customer-profitability/power-bi-pivotchart.png)
 
-    ![](media/sample-customer-profitability/power-bi-carlos.png)
+    ![Carlos eredményei](media/sample-customer-profitability/power-bi-carlos.png)
 
-4. Folytassa a böngészést, és ha talál valami érdekeset, a jobb felső sarokban található **Rögzítés** ![](media/sample-customer-profitability/power-bi-excel-pin.png) elemet választva [rögzítheti is egy irányítópultra](service-dashboard-pin-tile-from-excel.md).
+4. Folytassa a böngészést, és ha talál valami érdekeset, a jobb felső sarokban található **Rögzítés** ![rögzítés ikon](media/sample-customer-profitability/power-bi-excel-pin.png) elemet választva [rögzítheti is egy irányítópultra](service-dashboard-pin-tile-from-excel.md).
 
 5. A böngésző vissza gombját használva térhet vissza az irányítópulthoz.
 
@@ -122,14 +122,14 @@ Az Ügyfél-jövedelmezőségi minta irányítópultján található csempék t�
 
 2. A jelentés 3 oldalból áll. A jelentés alján látható fülek mindegyike egy-egy oldalt jelöl.
 
-    ![](media/sample-customer-profitability/power-bi-report-tabs.png)
+    ![3 fül alul](media/sample-customer-profitability/power-bi-report-tabs.png)
 
     * A „Csapat mutatószámai” az 5 vezető teljesítményére és üzleti mutatóira fókuszál.
     * Az „Iparági árrés elemzése” lehetőséget biztosít a jövedelmezőség elemzésére az egész iparág jelenlegi teljesítményéhez viszonyítva.
     * A „Vezetők mutatószámai” az egyes vezetők teljesítményét mutatják a Cortanában való formázott megjelenítéshez.
 
 ### <a name="team-scorecard-page"></a>Csapat mutatószámai lap
-![](media/sample-customer-profitability/customer2.png)
+![Csapat mutatószámai jelentésoldal](media/sample-customer-profitability/customer2.png)
 
 Nézzük meg két csapattag teljesítményét részletesen, és lássuk, mely adatokba kaphatunk betekintést. A bal oldali szeletelőn Andrew nevének kiválasztásával szűrheti a jelentésoldalt, így csak Andrew adatai jelennek meg.
 
@@ -138,7 +138,7 @@ Nézzük meg két csapattag teljesítményét részletesen, és lássuk, mely ad
 * A „Teljes éves bevétel és a százalékos, költségvetéshez viszonyított bevételvariancia hónap szerint” diagram egyenletes profitot mutat. Azonban, ha az adatokat a **Középső** négyszögre kattintva szűrjük a regionális fatérképen, láthatjuk, hogy Andrew csak márciusban és csak Indianában termelt bevételt. Ez vajon szándékos, vagy alaposabb vizsgálatot igényel?
 
 Most térjünk át Valeryre. A szeletelőn Valery nevének kiválasztásával szűrheti a jelentésoldalt, így csak Valery adatai jelennek meg.  
-![](media/sample-customer-profitability/customer3.png)
+![az Executive szeletelése Valery Ushalovra](media/sample-customer-profitability/customer3.png)
 
 * Vegye észre, hogy a **Teljes éves bevétel állapota** nevű KPI piros színű. Ez mindenképpen további vizsgálatot igényel.
 * A bevételvariancia is aggasztó képet fest – Valery nem teljesíti a bevételi árrés követelményeit.
@@ -150,7 +150,7 @@ A feltárás folytatásával kideríthető, hogy Valery régiója miért is nem 
 
 ### <a name="industry-margin-analysis"></a>Iparági árrés elemzése
 Ez a jelentéslap az adatok egy másik szeletét mutatja meg. A teljes iparág bruttó árrését vizsgálja szegmens szerinti bontásban. A pénzügyi vezető ezt a lapot használva hasonlíthatja össze a cég és az üzleti egységek metrikáit az iparági metrikákkal, és mindez segít megmagyarázni a különböző trendeket és a jövedelmezőséget. Talán furcsa, hogy a csapat-specifikus „Bruttó árrés hónap és vezetőnév szerint” területi diagram szerepel ezen a lapon. Viszont lehetővé teszi a lap szűrését az üzleti egységek vezetői szerint.  
-![](media/sample-customer-profitability/customer6.png)
+![Iparági árrés elemzése jelentésoldal](media/sample-customer-profitability/customer6.png)
 
 Hogyan változik a jövedelmezőség az iparágban? Hogyan oszlanak meg a termékek és az ügyfelek iparági bontásban? Válasszon legalább egy iparágat a bal felső sarokban. (A fogyasztási cikkek iparágától kezdve) A szűrő törléséhez használja a radír ikont.
 
@@ -172,11 +172,11 @@ Az elemzéshez hasznos lenne megállapítani, hogy mely iparág termeli a legtö
 
 2.  A Q&A kérdésmező megnyitásához a felső menüsávban válassza a **Kérdés feltevése** lehetőséget.
 
-    ![](media/sample-customer-profitability/power-bi-ask-question.png)
+    ![Tegyen fel kérdést az adataival kapcsolatban](media/sample-customer-profitability/power-bi-ask-question.png)
 
 3. Írja be a következőt: **Valery teljes bevétele iparág szerint**. Figyelje meg, ahogy a vizualizáció frissül, miközben beírja a kérdést.
 
-    ![](media/sample-customer-profitability/power-bi-qna.png)
+    ![írja be a kérdést a kérdés mezőbe](media/sample-customer-profitability/power-bi-qna.png)
 
    A forgalmazás képviseli Valery legnagyobb bevételi területét.
 
@@ -186,15 +186,15 @@ Vessen egy pillantást a *Forgalmazás* iparágra.
 1. Nyissa meg az „Iparági árrés elemzése” jelentésoldalt.
 2. Anélkül, hogy bármilyen vizualizációt kijelölne a jelentéslapon, bontsa ki a jobb oldalon lévő Szűrő ablaktáblát (ha az még nincs kibontva). A Szűrők ablaktáblán csak lapszintű szűrők láthatók.  
 
-   ![](media/sample-customer-profitability/power-bi-filters.png)
+   ![Lapszintű szűrők](media/sample-customer-profitability/power-bi-filters.png)
 3. Keresse meg az **Iparág** szűrőt, és a nyíl kiválasztásával bontsa ki a listát. Adjon hozzá egy lapszűrőt a Forgalmazás iparághoz. Először törölje az összes kijelölést **Az összes kijelölése** jelölőnégyzet bejelölésének törlésével. Majd válassza a **Forgalmazás** elemet.  
 
-   ![](media/sample-customer-profitability/customer7.png)
+   ![a Forgalmazás szűrője](media/sample-customer-profitability/customer7.png)
 4. A „Bruttó árrés hónap és vezető neve szerint" területdiagramon az látható, hogy csak Valery és Tina rendelkezik ügyféllel ebben az iparágban, és csak Valery foglalkozott ezzel az iparággal júniustól novemberig.   
 5. Válassza ki **Tina** és  **Valery** nevét a „Bruttó árrés hónap és vezető neve szerint" területdiagram jelmagyarázatában. Figyelje meg, hogy Tina teljesítménye a „Teljes bevétel termék szerint” diagram adatai alapján meglehetősen kicsi Valery teljesítményéhez képest.
 6. Ha a tényleges bevételt szeretné megtekinteni, a Q&A használatával kérdezzen rá a következőre: **teljes forgalmi bevétel környezet és vezető szerint**.  
 
-     ![](media/sample-customer-profitability/power-bi-qna2.png)
+     ![írja be a kérdést a kérdés mezőbe a sávdiagram megjelenítéséhez](media/sample-customer-profitability/power-bi-qna2.png)
 
     Hasonlóan lehet megvizsgálni más iparágakat, és akár az ügyfelek vizualizációhoz való hozzáadásával is feltárhatók a Valery teljesítménye mögötti okok.
 

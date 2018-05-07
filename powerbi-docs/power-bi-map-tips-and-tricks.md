@@ -1,29 +1,29 @@
 ---
-title: "Tippek és trükkök a térkép-vizualizációkhoz, például a Bing Térképekkel való integrációhoz"
-description: "Tippek és trükkök Power BI-térképvizualizációkhoz, vizualizációkhoz, helyekhez, szélességhez és hosszúsághoz, valamint ezek a Bing Térképekkel való használatához. "
+title: Tippek és trükkök térképekhez (beleértve a Bing Maps-integrációt)
+description: 'Tippek és trükkök Power BI-térképvizualizációkhoz, vizualizációkhoz, helyekhez, szélességhez és hosszúsághoz, valamint ezek a Bing Térképekkel való használatához. '
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 featuredvideoid: ajTPGNpthcg
 qualityfocus: monitoring
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/18/2018
+ms.date: 04/11/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 5a78481376d679025fe3ac8929dff8756eb61257
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 031d977adbeb0697bcdd1bb6b19ebf21ec16e516
+ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="tips-and-tricks-for-power-bi-map-visualizations"></a>Tippek és trükkök Power BI-térképvizualizációkhoz
 A Power BI integrálva van a Bing Térképekkel alapértelmezett térképkoordináták biztosításához (ez a geokódolás nevű folyamat), így térképeket hozhat létre. Együtt algoritmusokat használnak a megfelelő hely azonosításához, de ez néha csak feltételezésen alapul. Ha a Power BI nem tudja egyedül létrehozni a térkép-vizualizációt, igénybe veszi a Bing Térképek segítségét. 
