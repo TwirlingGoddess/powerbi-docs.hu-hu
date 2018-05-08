@@ -18,14 +18,14 @@ ms.workload: powerbi
 ms.date: 04/24/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 08ae182e62fc370b66b2ef88b0c6b7c91a46eff1
-ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
+ms.openlocfilehash: 5031e31f83925d17fb87f39e4610a53617b9fca3
+ms.sourcegitcommit: bdb1fee3612bcc66153dcad8c4db2e99fb041014
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 04/28/2018
 ---
 # <a name="add-a-column-from-an-example-in-power-bi-desktop"></a>Oszlop hozzáadása példából a Power BI Desktopban
-A **Power BI Desktop** 2017. áprilisi kiadásától kezdve a **Lekérdezésszerkesztő** használatával új adatoszlopokat adhat a modellhez úgy, hogy egyszerűen megad egy vagy több mintaértéket az új oszlop számára. Létrehozhat új példaoszlopot az aktuális kijelölésnek megfelelően, vagy az adott táblában található összes oszlop (vagy csak a kijelölt oszlopok) alapján történő bemeneti értékek megadásával.
+A **Power BI Desktop** 2017. áprilisi kiadásától kezdve a **Lekérdezésszerkesztő** használatával új adatoszlopokat adhat a modellhez úgy, hogy egyszerűen megad egy vagy több mintaértéket az új oszlop számára. Létrehozhat új példaoszlopot az aktuális kijelölésből, vagy az adott táblában található összes oszlop (vagy csak a kijelölt oszlopok) alapján történő bemeneti értékek megadásával.
 
 ![](media/desktop-add-column-from-example/add-column-from-example_01.png)
 
@@ -42,7 +42,7 @@ Egy új oszlop példából történő létrehozásához indítsa el a **Lekérde
 
 ![](media/desktop-add-column-from-example/add-column-from-example_02.png)
 
-Ebben a cikkben a következő Wikipedia-cikk adatait használjuk (ez egy hivatkozás, amelyre rákattintva saját maga is lekérheti az adatokat, és követheti a folyamatot):
+Adatok weblapból történő lekéréséhez lépjen a **Kezdőlap** lapra, kattintson az **Adatok lekérése > Web** elemre, majd illessze be az URL-címet a megjelenő párbeszédablakba. Ez a cikk egy Wikipedia-cikk adatait használja. Rákattinthat a következő hivatkozásra az adatok lekéréséhez, majd kövesse az itt leírtakat:
 
 * [**Az Amerikai Egyesült Államok államai**](https://wikipedia.org/wiki/List_of_states_and_territories_of_the_United_States)
 
@@ -51,9 +51,9 @@ A **Lekérdezésszerkesztő** elindítását követően a rendszer betölt bizon
 ![](media/desktop-add-column-from-example/add-column-from-example_03.png)
 
 ## <a name="the-add-column-from-examples-pane"></a>Az Oszlop felvétele példákból panel
-Miután elvégezte a kijelölést az új oszlop példákból történő hozzáadásához, egy új panelen megjelennek az aktuális táblázat oszlopai (görgetéssel tekintheti meg az összeset). Egy új **Column1** oszlop is megjelenik a jobb oldalon – ez az az oszlop, amelyet a **Power BI Desktop** a példák alapján létre fog hozni. Az új **Column1** oszlop fejléce alatt található üres cellákba beírhatja azokat a példákat, amelynek alapján a Power BI szabályokat és átalakításokat hoz létre a példával való megfeleltetéshez.
+Miután elvégezte a kijelölést az új oszlop példákból történő hozzáadásához, egy új panelen megjelennek az aktuális táblázat oszlopai (görgetéssel tekintheti meg az összeset). Egy új **Column1** oszlop is megjelenik a jobb oldalon. Ez az az oszlop, amelyet a **Power BI Desktop** a példák alapján létrehoz. Az új **Column1** oszlop fejléce alatt található üres cellákba beírhatja azokat a példákat, amelynek alapján a Power BI szabályokat és átalakításokat hoz létre a példával való megfeleltetéshez.
 
-Vegye észre azt is, hogy ez egy **Alkalmazott lépés** a **Lekérdezés beállításai** panelen. Mint mindig, a **Lekérdezésszerkesztő** rögzíti az átalakítás lépéseit, és sorrendben alkalmazza azokat a lekérdezésen.
+Vegye észre, hogy ez egy **Alkalmazott lépés** a **Lekérdezés beállításai** panelen. Mint mindig, a **Lekérdezésszerkesztő** rögzíti az átalakítás lépéseit, és sorrendben alkalmazza azokat a lekérdezésen.
 
 ![](media/desktop-add-column-from-example/add-column-from-example_04.png)
 
@@ -66,9 +66,9 @@ Ennek neve **Oszlop felvétele példákból** panel, amelyhez négy fő terület
 
 ![](media/desktop-add-column-from-example/add-column-from-example_05.png)
 
-A példának az oszlopba történő beírása során a Power BI az észlelt átalakítások alapján megjeleníti az éppen létrehozás alatt álló oszlop előnézetét. Itt például az első sorba az *Alabama* kifejezést írjuk be, a tábla első oszlopa *Alabama* értékének megfelelően. Az *Enter* billentyű lenyomásakor a Power BI a fenti érték alapján tölti ki az oszlopot.
+A példának az oszlopba történő beírása során a Power BI az észlelt átalakítások alapján megjeleníti az éppen létrehozás alatt álló oszlop előnézetét. Ha például az első sorba az *Alabama* kifejezést írja be, az a tábla első oszlopában az *Alabama* értékének felel meg. Az *Enter* billentyű lenyomásakor a Power BI a fenti érték alapján tölti ki az oszlopot.
 
-Ezután azonban visszatérünk a *Massachusetts[E]* értéket tartalmazó sorhoz, és töröljük az utolsó *[E]* karaktert (mivel nincs rá szükség). A Power BI ekkor észleli a módosítást, és a példa alapján átalakítást hoz létre. A középső fenti panelen megtekintheti az átalakítás magyarázatát.
+De, ekkor lépjen mondjuk a *Massachusetts[E]* tartalmú sorra, és törölje a végéről az *[E]* részt (mert többé már nincs szükség rá). A Power BI észleli a változást, és a példát használja egy átalakítás létrehozására. A középső fenti panelen megtekintheti az átalakítás magyarázatát.
 
 ![](media/desktop-add-column-from-example/add-column-from-example_06.png)
 
@@ -80,7 +80,7 @@ Szeretné működés közben is megtekinteni? Az alábbi videó a funkció haszn
 <iframe width="560" height="315" src="https://www.youtube.com/embed/-ykbVW9wQfw" frameborder="0" allowfullscreen></iframe>
 
 ## <a name="considerations-and-limitations"></a>Megfontolandó szempontok és korlátozások
-Számos átalakítás érhető el az **Oszlop felvétele példákból** funkció használatakor, de nem mindegyik támogatott. A *támogatott* átalakításokat az alábbi lista tartalmazza.
+Számos átalakítás érhető el az **Oszlop felvétele példákból** funkció használatakor, de nem mindegyik támogatott. A támogatott átalakításokat az alábbi lista tartalmazza.
 
 * **Referencia**
   

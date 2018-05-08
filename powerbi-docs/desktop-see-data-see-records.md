@@ -1,15 +1,15 @@
 ---
-title: "Adatok és rekordok megtekintés a Power BI Desktop vizualizációiban"
-description: "A Power BI Desktop Adatok megjelenítése és Rekordok megjelenítése funkciójának használata a részletek feltárásához"
+title: Adatok és rekordok megtekintés a Power BI Desktop vizualizációiban
+description: A Power BI Desktop Adatok megjelenítése és Rekordok megjelenítése funkciójának használata a részletek feltárásához
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,78 +18,81 @@ ms.workload: powerbi
 ms.date: 02/22/2018
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: c44a5140fe40217aac170abb0b351197803b6299
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 507c2e5e6d9f41e3342019cc8f051dd1e11954cc
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="use-see-data-and-see-records-in-power-bi-desktop"></a>A Power BI Desktop Adatok megjelenítése és Rekordok megjelenítése funkciójának használata
-A **Power BI Desktopban** bármelyik vizualizációt részletesen feltárhatja, és megtekintheti az adatok szöveges alakját vagy a kijelölt vizualizáció egyes adatelemeit. Ezeket a szolgáltatásokat időnként *átkattintásnak*, *áthatolásnak* vagy *részletezésnek* is nevezik.
+A **Power BI Desktopban** a vizualizációkat részletesen feltárhatja, és megtekintheti a mögöttes adatok szöveges alakját vagy a kijelölt vizualizáció egyes adatrekordjait. Ezeket a szolgáltatásokat időnként *átkattintásnak*, *áthatolásnak* vagy *részletezésnek* is nevezik.
 
-A **Rekordok megjelenítése** segítségével megtekinthet egy vizualizáció kijelölt adatelemének alapjául szolgáló sorokat, az **Adatok megjelenítése** segítségével pedig megtekintheti a vizualizációban használt értékek szöveges verzióját. Az **Adatok megjelenítése** és a **Rekordok megjelenítése** funkciók használatára vonatkoznak bizonyos, a cikk végén tárgyalt korlátozások.
+Az **Adatok megtekintése** segítségével a kiválasztott vizualizációban használt értékek szöveges verzióját, a **Rekordok megtekintése** funkcióval pedig egy kiválasztott rekordhoz vagy adatponthoz tartozó összes adatot tekintheti meg. 
 
-![](media/desktop-see-data-see-records/see-data-see-records_1.png)
+![Adatok megtekintése és Rekordok megtekintése](media/desktop-see-data-see-records/see-data-record.png)
 
-## <a name="using-see-data-in-power-bi-desktop"></a>Az Adatok megjelenítése funkció használata Power BI Desktopban
-Az **Adatok megjelenítése** gomb az **Adatok/Részletezés** lapon érhető el, a menüszalag **Vizuális eszközök** szakaszán.
+>[!IMPORTANT]
+>Az **Adatok megtekintése** és a **Rekordok megtekintése** funkció csak a következő vizualizációtípusokat támogatja:
+>  - Sávdiagram
+>  - Oszlopdiagram
+>  - Fánkdiagram
+>  - Kartogram
+>  - Tölcsér
+>  - Térkép
+>  - Tortadiagram
+>  - Fatérkép
 
-![](media/desktop-see-data-see-records/see-data-see-records_2.png)
+## <a name="use-see-data-in-power-bi-desktop"></a>Az Adatok megtekintése funkció használata Power BI Desktopban
 
-Az **Adatok megjelenítése** úgy is használható, ha jobb gombbal egy vizualizációra kattint, és a megjelenő menüben kiválasztja az **Adatok megjelenítése** lehetőséget.
+Az **Adatok megtekintése** funkció a vizualizációk alapjául szolgáló mögöttes adatokat jeleníti meg. Az **Adatok megtekintése** funkció az adott vizualizáció kijelölése esetén a menüszalag **Vizuális eszközök** eszközcsoportjában, az **Adatok/Részletezés** lapon jelenik meg.
 
-![](media/desktop-see-data-see-records/see-data-see-records_3.png)
+![Adatok megtekintése a menüszalagon](media/desktop-see-data-see-records/see-data1.png)
 
-> [!NOTE]
-> A mutatót a vizualizáció egy adatpontja fölé kell vinnie, hogy elérhető legyen a helyi menü.
-> 
-> 
+Az adatok úgy is megtekinthetők, ha az adott vizualizáció jobb gombbal kattint, majd a megjelenő menüből az **Adatok megjelenítése** lehetőséget választja, vagy az adott vizualizáció jobb felső sarkában a három ponttal (...) jelzett **További lehetőségek** funkciót, majd onnan az **Adatok megjelenítése** lehetőséget választja.
 
-Amikor kiválasztja az **Adatok megjelenítése** elemet, a **Power BI Desktop** a kiválasztott vizualizációra és adatokra koncentrál, és a vászon területét az adatok vizuális és szöveges megjelenítésének szenteli. A vizualizáció a vászon felső felén jelenik meg, az adatok pedig az alsó felén látszanak, ahogy az alábbi ábrán is látható. Ez a *vízszintes* nézet.
-
-![](media/desktop-see-data-see-records/see-data-see-records_4.png)
-
-A jobb felső sarokban található ikonnal válthat *függőleges nézetre* (vagy vissza *vízszintesre*).
-
-![](media/desktop-see-data-see-records/see-data-see-records_5.png)
-
-A jelentéshez való visszatéréshez válassza a **< Vissza a jelentéshez** lehetőséget a vászon bal felső sarkában.
-
-![](media/desktop-see-data-see-records/see-data-see-records_6.png)
-
-## <a name="using-see-records-in-power-bi-desktop"></a>A Rekordok megjelenítése funkció használata Power BI Desktopban
-Azt is megteheti, hogy egy vizualizáció egyik adatelemére koncentrál, és részletesen megvizsgálhatja annak mögöttes adatait. Ha kijelölt egy vizualizációt, két módon használhatja a **Rekordok megjelenítése** funkciót: kapcsolja be a **Rekordok megjelenítése** váltógombot az **Adatok/Részletezés** menüszalagon, és kattintson egy adatelemre, vagy kattintson a jobb gombbal egy adatelemre, és válassza a megjelenő menüben a **Rekordok megjelenítése** lehetőséget.
-
-![](media/desktop-see-data-see-records/see-data-see-records_7.png)
+![Adatok megjelenítése kattintás jobb gombbal](media/desktop-see-data-see-records/see-data2.png)&nbsp;&nbsp;![Adatok megjelenítése További lehetőségek](media/desktop-see-data-see-records/see-data3.png)
 
 > [!NOTE]
-> Ha a kiválasztott vizualizáció nem támogatja a **Rekordok megjelenítése** funkciót, a menüszalagon kiszürkítve jelenik meg a gomb.
-> 
-> 
+> Az egérmutatót a vizualizáció egy adatpontja fölé kell vinnie, hogy elérhető legyen a helyi menü.
 
-Ha kiválasztotta a **Rekordok megjelenítése** lehetőséget, a **Power BI Desktop** arra az egy adatelemre koncentrál, és a vászon területét az elemhez tartozó adatok megjelenítésének szenteli, amint az alábbi ábrán is látható.
+Az **Adatok megtekintése** vagy az **Adatok megjelenítése** lehetőség választása esetén a Power BI Desktop vászon a vizualizációt és az adatok szöveges formáját is megjeleníti. A *vízszintes nézetben* a vizualizáció a vászon felső felén jelenik meg, az adatok pedig az alsó felén látszanak. 
 
-![](media/desktop-see-data-see-records/see-data-see-records_8.png)
+![vízszintes nézet](media/desktop-see-data-see-records/see-data4a.png)
+
+A vászon jobb felső sarokban található ikonnal válthat a vízszintes és a *függőleges nézet* között.
+
+![függőleges nézet váltás](media/desktop-see-data-see-records/see-data4.png)
+
+A jelentéshez való visszatéréshez a vászon bal felső sarkában válassza a **< Vissza a jelentéshez** lehetőséget.
+
+![Vissza a jelentéshez](media/desktop-see-data-see-records/see-data5.png)
+
+## <a name="use-see-records-in-power-bi-desktop"></a>Rekordok megtekintése funkció használata Power BI Desktopban
+
+A vizualizációk egy-egy adatrekordja is a középpontba állítható, és részletesen megvizsgálhatók az alapjául szolgáló mögöttes adatok. A **Rekordok megtekintése** használatához jelöljön ki egy vizualizációt, és a menüszalag **Vizuális eszközök** eszközcsoportjában, az **Adatok/Részletezés** lapon válassza a **Rekordok megtekintése** funkciót, majd utána jelölje ki a vizualizáció egyik adatpontját vagy sorát. 
+
+![Rekordok megtekintése a menüszalagon](media/desktop-see-data-see-records/see-record1.png)
 
 > [!NOTE]
-> A módosítások nem menthetők olyan adatok esetén, amelyeket egy jelentés **Rekordok megtekintése** funkciójával néznek (vagy felhasználók módosítanak).
+> Ha a menüszalagon a **Rekordok megtekintése** gomb le van tiltva és ki van szürkítve, az azt jelenti, hogy a kijelölt vizualizáció nem támogatja a **Rekordok megtekintése** funkciót.
 
-A jelentéshez való visszatéréshez válassza a **Vissza a jelentéshez** gombot a vászon bal felső sarkában.
+Jobb gombbal is kattinthat egy adatelemen, majd a megjelenő menüben is választhatja a **Rekordok megtekintése** lehetőséget.
 
-## <a name="limitations"></a>Korlátozások
-Az **Adatok megjelenítése** vagy a **Rekordok megjelenítése** használatakor figyelembe kell vennie a következő korlátozásokat:
+![Rekordok megtekintése jobb gombbal](media/desktop-see-data-see-records/see-record2.png)
 
-* Csak következő vizualizációtípusok támogatottak:
-  * **Sáv**
-  * **Oszlop**
-  * **Térkép**
-  * **Faszerkezetes térkép**
-  * **Kartogram**
-  * **Torta**
-  * **Fánk**
-  * **Tölcsér**
-* A **Rekordok megjelenítése** nem használható, ha a vizualizáció kiszámított mértéket használ.
-* A **Rekordok megjelenítése** nem használható, ha egy élő többdimenziós (multidimensional, MD) modellt használ.
+Ha egy adatelem esetén a **Rekordok megtekintése** lehetőséget választja, a Power BI Desktop vászon a kijelölt elemhez kapcsolódó összes adatot megjeleníti. 
+
+![](media/desktop-see-data-see-records/see-record3.png)
+
+A jelentéshez való visszatéréshez a vászon bal felső sarkában válassza a **< Vissza a jelentéshez** lehetőséget.
+
+![](media/desktop-see-data-see-records/see-record4.png)
+
+> [!NOTE]
+>A **Rekordok megtekintése** funkcióra a következő korlátozások vonatkoznak:
+> - A **Rekordok megtekintése** nézetben az adatok nem módosíthatók és nem menthetők vissza a jelentésbe.
+> - A **Rekordok megjelenítése** nem használható, ha a vizualizáció kiszámított mértéket használ.
+> - A **Rekordok megjelenítése** nem használható, ha egy élő többdimenziós (multidimensional, MD) modellt használ.
 
 ## <a name="next-steps"></a>Következő lépések
 A **Power BI Desktopban** sokféle jelentésformázási és adatkezelési szolgáltatás érhető el. A következő forrásanyagok ezekből ismertetnek néhányat:

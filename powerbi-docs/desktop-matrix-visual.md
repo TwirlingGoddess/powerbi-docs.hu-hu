@@ -1,15 +1,15 @@
 ---
-title: "A mátrixvizualizáció használata a Power BI Desktopban"
-description: "Megismerheti, hogy a mátrixvizualizáció hogyan teszi lehetővé a lépcsőzetes elrendezéseket és a részletes kiemelést a Power BI Desktopban"
+title: A mátrixvizualizáció használata a Power BI Desktopban
+description: Megismerheti, hogy a mátrixvizualizáció hogyan teszi lehetővé a lépcsőzetes elrendezéseket és a részletes kiemelést a Power BI Desktopban
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,14 +18,14 @@ ms.workload: powerbi
 ms.date: 02/05/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: de40c8ee25c5facc1c4396c807d38784c11e8bca
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: fdab0ee5a4804bcb05e936f4e6a9455127d352fa
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="use-the-matrix-visual-in-power-bi-desktop"></a>A Mátrix vizualizáció használata a Power BI Desktopban
-A **Mátrix** vizualizációval mátrixvizualizációkat (más néven *táblákat*) hozhat létre a **Power BI Desktop** jelentéseiben, és egyéb vizualizációk mellett keresztkiemelést alkalmazhat a mátrix elemei között. Továbbá kiválaszthat sorokat, oszlopokat vagy egyetlen cellát is, és keresztkiemeléssel láthatja el őket. Végül az elrendezési terület jobb kihasználásának érdekében, a mátrixvizualizáció támogatja a lépcsőzetes elrendezést.
+A **Mátrix** vizualizációs funkcióval mátrixvizualizációkat (más néven *táblákat*) hozhat létre a **Power BI Desktop** jelentéseiben, és egyéb vizualizációk mellett keresztkiemelést alkalmazhat a mátrix elemei között. Továbbá kiválaszthat sorokat, oszlopokat vagy egyetlen cellát is, és keresztkiemeléssel láthatja el őket. Végül az elrendezési terület jobb kihasználásának érdekében, a mátrixvizualizáció támogatja a lépcsőzetes elrendezést.
 
 ![](media/desktop-matrix-visual/matrix-visual_2a.png)
 
@@ -77,11 +77,11 @@ A **Részletes elemzés** kiválasztása kibontja az *ahhoz* a sorszinthez tarto
 
 ![](media/desktop-matrix-visual/matrix-visual_8.png)
 
-Ha a **Felhatolás** ikonra kattintunk, visszajutunk az előző, legfelső szintű nézethez. Ha ezután a **Következő szint megjelenítése** lehetőséget választja a helyi menüből, megjelenik a következő szinten (ebben az esetben az *Alkategória* mezőben) lévő elemek betűrendbe szedett listája, a magasabb szintű hierarchia-kategorizálás nélkül.
+Ha a **Felhatolás** ikonra kattint, visszajut az előző, legfelső szintű nézethez. Ha ezután a **Következő szint megjelenítése** lehetőséget választja a helyi menüből, megjelenik a következő szinten (ebben az esetben az *Alkategória* mezőben) lévő elemek betűrendbe szedett listája, a magasabb szintű hierarchiakategorizálás nélkül.
 
 ![](media/desktop-matrix-visual/matrix-visual_8a.png)
 
-Ha a bal felső sarokban található **Felhatolás** ikonra kattintunk, hogy a mátrix megjelenítse a legfelső szintű kategóriákat, majd a jobb gombbal ismét kattintunk, és kiválasztjuk a **Kibontás a következő szintre** elemet, a következő jelenik meg:
+Ha a bal felső sarokban található **Felhatolás** ikonra kattint, hogy a mátrix megjelenítse a legfelső szintű kategóriákat, majd a jobb gombbal ismét kattint, és kiválasztja a **Kibontás a következő szintre** elemet, a következő jelenik meg:
 
 ![](media/desktop-matrix-visual/matrix-visual_9.png)
 
@@ -96,11 +96,11 @@ A **Mátrix** vizualizációban, ha a jobb gombbal az oszlopra kattintunk, megje
 
 ![](media/desktop-matrix-visual/matrix-visual_11.png)
 
-A **Részletes elemzés** kiválasztása után, megjelenik a *Deluxe* oszlophierarchiájának következő szintje, ami ebben az esetben a *Szín*.
+A **Részletes elemzés** kiválasztása esetén megjelenik a *Deluxe* oszlophierarchiájának következő szintje, ami ebben az esetben a *Szín*.
 
 ![](media/desktop-matrix-visual/matrix-visual_12.png)
 
-A helyi menü többi eleme ugyanúgy működik az Oszlopok, ahogy a sorok esetében (lásd az előző szakaszt: **Sorazonosítókon végzett lehatolás**). **Megjelenítheti a következő szintet**, **kibonthat a következő szintre**, és a sorokhoz hasonlóan **belefoglalhatja** vagy **kizárhatja** az oszlopokat.
+A helyi menü többi eleme ugyanúgy működik az oszlopok, ahogy a sorok esetében (lásd az előző szakaszt: **Sorazonosítókon végzett lehatolás**). **Megjelenítheti a következő szintet**, **kibonthat a következő szintre**, és a sorokhoz hasonlóan **belefoglalhatja** vagy **kizárhatja** az oszlopokat.
 
 > [!NOTE]
 > A lehatolás és felhatolás ikonjai a mátrixvizualizáció bal felső sarkában csak a sorokra vonatkoznak. Ha oszlopokon szeretne lehatolást végezni, a helyi menüt kell használnia (a jobb gombbal kattintva).
@@ -108,17 +108,17 @@ A helyi menü többi eleme ugyanúgy működik az Oszlopok, ahogy a sorok eseté
 > 
 
 ## <a name="stepped-layout-with-matrix-visuals"></a>Lépcsőzetes elrendezés mátrixvizualizációkkal
-A **Mátrix** vizualizáció automatikusan behúzza egy hierarchia alkategóriáit minden szülő alatt, és ezt **lépcsőzetes elrendezésnek** hívjuk.
+A **Mátrix** vizualizáció automatikusan behúzza egy hierarchia alkategóriáit minden szülő alatt; ezt **Lépcsőzetes elrendezésnek** hívjuk.
 
-A mátrixvizualizáció *eredeti* verziójában az alkategóriák egy teljesen külön oszlopban jelentek meg, több helyet foglalva a vizualizációban. Az alábbi képen az eredeti **mátrix**vizualizáció egy táblája látható. Figyelje meg, hogy az alkategóriák egy teljesen külön oszlopban vannak.
+A mátrixvizualizáció *eredeti* verziójában az alkategóriák egy teljesen külön oszlopban jelentek meg, több helyet foglalva a vizualizációban. Az alábbi képen az eredeti **Mátrix** vizualizáció egy táblája látható. Figyelje meg, hogy az alkategóriák egy teljesen külön oszlopban vannak.
 
 ![](media/desktop-matrix-visual/matrix-visual_14.png)
 
-Az alábbi képen a **Mátrix** vizualizáció látható **lépcsőzetes elrendezéssel**. Figyelje meg, hogy a *Számítógépek* kategória saját, kis mértékben behúzott alkategóriákkal rendelkezik (Számítógép-kiegészítők, Asztali számítógépek, Laptopok, Monitorok stb.), ezzel átláthatóbb és tömörebb vizualizációt biztosít.
+Az alábbi képen a **Mátrix** vizualizáció látható **Lépcsőzetes elrendezéssel**. Figyelje meg, hogy a *Számítógépek* kategória saját, kis mértékben behúzott alkategóriákkal rendelkezik (Számítógép-kiegészítők, Asztali számítógépek, Laptopok, Monitorok stb.), ezzel átláthatóbb és tömörebb vizualizációt biztosít.
 
 ![](media/desktop-matrix-visual/matrix-visual_13.png)
 
-A **lépcsőzetes elrendezés** beállításait egyszerűen módosíthatja. Ha a **Mátrix** vizualizáció van kiválasztva, a **Vizualizációk** ablaktábla **Formátum** szakaszában (festőhenger ikon) bontsa ki a **Sorazonosítók** szakaszt. Két lehetőség érhető el: a **Lépcsőzetes elrendezés** váltógomb (amely ki- vagy bekapcsolja ezt az elrendezést) és a **Lépcsőzetes elrendezés behúzása** (a behúzás mértékét adja meg képpontokban).
+A lépcsőzetes elrendezés beállításait egyszerűen módosíthatja. Ha a **Mátrix** vizualizáció van kiválasztva, a **Vizualizációk** ablaktábla **Formátum** szakaszában (festőhenger ikon) bontsa ki a **Sorazonosítók** szakaszt. Két lehetőség érhető el: a **Lépcsőzetes elrendezés** váltógomb (amely ki- vagy bekapcsolja ezt az elrendezést) és a **Lépcsőzetes elrendezés behúzása** (a behúzás mértékét adja meg képpontokban).
 
 ![](media/desktop-matrix-visual/matrix-visual_15.png)
 
@@ -136,21 +136,21 @@ A **Vizualizációk** ablaktábla **Formátum** szakaszában (festőhenger ikon)
 Ugyanez a folyamat vonatkozik az oszlopok részösszegeire.
 
 ## <a name="cross-highlighting-with-matrix-visuals"></a>Keresztkijelölés a mátrixvizualizációkkal
-A **Mátrix** vizualizációval a mátrix bármely eleme kiválasztható a keresztkijelölés alapjaként. Válasszon ki egy oszlopot a **Mátrixban**, ez az oszlop ki lesz emelve csakúgy, mint a jelentés lapon látható bármely egyéb vizualizáció. Ez az egyéb vizualizációk és egy adatpont kiválasztásának közös funkciója volt, de már a **Mátrix** vizualizációnál is elérhető.
+A **Mátrix** vizualizációval a mátrix bármely eleme kiválasztható a keresztkijelölés alapjaként. Válasszon ki egy oszlopot a **Mátrixban**, ez az oszlop ki lesz emelve csakúgy, mint a jelentés lapon látható bármely egyéb vizualizáció. Ez az egyéb vizualizációk és egy adatpont kiválasztásának közös funkciója volt, így ugyanez már a **Mátrix** vizualizációnál is elérhető.
 
 Továbbá a Ctrl+kattintás is használható a keresztkijelöléshez. Például az alábbi képen alkategóriák egy gyűjteménye lett kiválasztva a **Mátrix** vizualizációból. Figyelje meg, hogy a vizualizációból ki nem választott elemek kiszürkítve jelennek meg, és az oldalon található egyéb vizualizációk a **Mátrix** vizualizációban végzett kijelöléseket tükrözik.
 
 ![](media/desktop-matrix-visual/matrix-visual_16.png)
 
 ## <a name="shading-and-font-colors-with-matrix-visuals"></a>Árnyékolás és betűtípus mátrixvizualizációkkal
-A **Mátrix** vizualizációval **feltételes formázást** (színek és árnyékolás) alkalmazhat a mátrixban található cellák hátterére, valamint magára a szövegre és az értékekre is.
+A **Mátrix** vizualizációval **Feltételes formázást** (színek és árnyékolás) alkalmazhat a mátrixban található cellák hátterére, valamint magára a szövegre és az értékekre is.
 
 Feltételes formázás alkalmazásához a következő lehetőségek közül választhat, ha ki van választva egy mátrixvizualizáció:
 
 * A **Mezők** ablaktáblán kattintson a jobb gombbal a Mezőre, és a menüből válassza a **Feltételes formázás** elemet.
   
   ![](media/desktop-matrix-visual/matrix-visual_17.png)
-* Vagy a **Formátum** ablaktáblán bontsa ki a **Feltételes formázás** kártyát, és állítsa a **Háttérszínek színskálái** vagy a **Betűszínek színskálái** csúszkát **Be** állapotúra. Bármelyik bekapcsolása után megjelenik a *Speciális vezérlők* hivatkozása, amely lehetővé teszi a színek és a színformátum értékeinek testreszabását.
+* Vagy a **Formátum** ablaktáblán bontsa ki a **Feltételes formázás** kártyát, és állítsa a **Háttérszínek színskálái** vagy a **Betűszínek színskálái** csúszkát **Be** állapotúra. Bármelyik lehetőség bekapcsolása után megjelenik a *Speciális vezérlők* hivatkozása, amely lehetővé teszi a színek és a színformátum értékeinek testreszabását.
   
   ![](media/desktop-matrix-visual/matrix-visual_18.png)
 

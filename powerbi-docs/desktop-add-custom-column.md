@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 04/24/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 15d492aba39da23a06ac2f13bce676e0123a332c
-ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
+ms.openlocfilehash: f982ba613bef66514aab39b43cf0fe92b1b7b81c
+ms.sourcegitcommit: bdb1fee3612bcc66153dcad8c4db2e99fb041014
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 04/28/2018
 ---
 # <a name="add-a-custom-column-in-power-bi-desktop"></a>Egyéni oszlop hozzáadása a Power BI Desktopban
 A **Power BI Desktop** **Lekérdezésszerkesztőjével** egyszerűen adhat hozzá új egyéni adatoszlopokat a modellekhez. Ha egyéni oszlopokat szeretne létrehozni vagy átnevezni, egyszerű gombműveletekkel az egyéni oszlopot definiáló [M képleteket](https://msdn.microsoft.com/library/mt270235.aspx) hozhat létre. Az M képlet egy [átfogó függvényreferencia-tartalomkészlettel](https://msdn.microsoft.com/library/mt779182.aspx) rendelkezik. 
@@ -43,7 +43,7 @@ Miután elindította a **Lekérdezésszerkesztőt** és betöltött néhány ada
 Ekkor megnyílik az **Egyéni oszlop hozzáadása** ablak, amelyet a következő szakaszban ismertetünk.
 
 ## <a name="the-add-custom-column-window"></a>Az Egyéni oszlop hozzáadása ablak
-A **Egyéni oszlop hozzáadása** ablak jobb oldali panelén az elérhető mezők listája látható, felül az egyéni oszlop nevével (ha át szeretné nevezni, csak írja be az új nevet a szövegmezőbe), valamint az új egyéni oszlopot definiáló [**M** képlettel](https://msdn.microsoft.com/library/mt779182.aspx), amelyet a jobb oldali mezők beillesztésével, operátorok hozzáadásával és egyéb módszerekkel hozhat létre (vagy írhat meg). 
+Az **Egyéni oszlop hozzáadása** ablak jobb oldali panelén az elérhető mezők listája látható, felül az egyéni oszlop nevével (ha át szeretné nevezni, csak írja be az új nevet a szövegmezőbe), valamint az új egyéni oszlopot definiáló [**M** képlettel](https://msdn.microsoft.com/library/mt779182.aspx), amelyet a jobb oldali mezők beillesztésével, operátorok hozzáadásával és egyéb módszerekkel hozhat létre (vagy írhat meg). 
 
 ![](media/desktop-add-custom-column/add-custom-column_03.png)
 

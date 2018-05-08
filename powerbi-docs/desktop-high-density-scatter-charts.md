@@ -1,47 +1,47 @@
 ---
-title: "Nagy sűrűségű pontdiagramok a Power BI-ban"
-description: "Nagy sűrűségű pontdiagramok a Power BI-ban"
+title: Nagy sűrűségű pontdiagramok a Power BI-ban
+description: Nagy sűrűségű pontdiagramok a Power BI-ban
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 04/19/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 714d9e0378cff0c03e26999d240857108e4ec5ad
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: f0c1117dc6a74f3ffc8ef9f93610aa83c54b50dc
+ms.sourcegitcommit: bdb1fee3612bcc66153dcad8c4db2e99fb041014
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/28/2018
 ---
 # <a name="high-density-sampling-in-power-bi-scatter-charts"></a>Nagy sűrűségű mintavételezés a Power BI-pontdiagramokban
 A **Power BI Desktop** 2017. szeptemberi kiadásától kezdve és a **Power BI szolgáltatás** frissítéseiben egy új mintavételi algoritmus érhető el, amelynek köszönhetően a pontdiagramok hatékonyabban jelenítik meg a nagy sűrűségű adatokat.
 
-Ha például vállalata értékesítési tevékenységeiről készít pontdiagramot, az üzletenként évente több ezer adatpontot jelent. Egy ilyen értékesítési információkat tartalmazó pontdiagram mintát vesz az elérhető adatokból (reprezentatív adatokat választ, amelyek megmutatják, hogyan alakultak az értékesítések az idő múlásával), és egy pontdiagramot hoz létre, amely az alapul szolgáló adatokat ábrázolja. Ez gyakori eljárás nagy sűrűségű pontdiagramoknál. Ebben a cikkben részletezzük, miben fejlődött a Power BI mintavételi folyamata nagy sűrűségű adatok esetén.
+Ha például vállalata értékesítési tevékenységeiről készít pontdiagramot, az üzletenként évente több ezer adatpontot jelent. Egy ilyen értékesítési információkat tartalmazó pontdiagram mintát vesz az elérhető adatokból (reprezentatív adatokat választ, amelyek megmutatják, hogyan alakultak az értékesítések az idő múlásával), és egy pontdiagramot hoz létre, amely az alapul szolgáló adatokat ábrázolja. Ez a gyakori eljárás a nagy sűrűségű pontdiagramoknál. Ebben a cikkben részletezzük, miben fejlődött a Power BI mintavételi folyamata nagy sűrűségű adatok esetén.
 
 ![](media/desktop-high-density-scatter-charts/high-density-scatter-charts_01.png)
 
 > [!NOTE]
-> A cikkben bemutatott **nagy sűrűségű mintavételi** algoritmus érvényes és elérhető a **Power BI Desktop** és a **Power BI szolgáltatás** pontdiagramjaiban is.
+> A cikkben bemutatott **nagy sűrűségű mintavételi** algoritmus elérhető a **Power BI Desktop** és a **Power BI szolgáltatás** pontdiagramjaiban is.
 > 
 > 
 
 ## <a name="how-high-density-scatter-charts-work"></a>A nagy sűrűségű pontdiagramok működése
 Korábban a **Power BI** determinisztikus módon választott mintaadatpontokat az alapul szolgáló adatok teljes tartományából pontdiagram létrehozásához. Pontosabban a Power BI kiválasztotta a pontdiagram-sorozat első és utolsó sorát, majd egyenlően osztotta el a fennmaradó sorokat úgy, hogy a pontdiagramon összesen 3500 adatpont jelenjen meg. Ha például a minta 35 000 sorral rendelkezett, akkor a program megjelenítette az első és az utolsó sort, és közöttük minden tizedik sort (35 000 / 10 = minden tizedik sor = 3500 adatpont). Korábban a nullértékek és a nem ábrázolható pontok (például a szöveges értékek) nem jelentek meg, így nem lettek figyelembe véve a vizualizáció készítésekor. Ilyen mintavételezéskor a pontdiagram észlelhető sűrűsége a reprezentatív adatpontokon is alapult, így a vizualizáció elméleti sűrűsége a mintavételezett pontoktól függött, nem az alapul szolgáló adatok teljes készletétől.
 
-Ha engedélyezi a **nagy sűrűségű mintavételezést**, a Power BI egy olyan algoritmust implementál, amely kiküszöböli az átfedésben lévő pontok jelenlétét, és lehetővé teszi a vizualizáció pontjainak elérését a vizualizáció kezelésekor. Emellett biztosítja, hogy az adatkészlet összes pontja megjelenjen a vizualizációban, így kontextust biztosít a kiválasztott pontok számára ahelyett, hogy egyszerűen egy reprezentatív mintát jelenítene meg.
+Ha engedélyezi a **nagy sűrűségű mintavételezést**, a Power BI egy olyan algoritmust implementál, amely kiküszöböli az átfedésben lévő pontok jelenlétét, és lehetővé teszi a vizualizáció pontjainak elérését a vizualizáció kezelésekor. Az algoritmus emellett biztosítja, hogy az adatkészlet összes pontja megjelenjen a vizualizációban, így kontextust biztosít a kiválasztott pontok számára ahelyett, hogy egyszerűen egy reprezentatív mintát jelenítene meg.
 
-A nagy sűrűségű adatok mintavételezésének alapvető oka az, hogy a vizualizációk elfogadható gyorsasággal jöhessenek létre, és interaktívak is lehessenek (a túl sok adatpont lelassítaná és zsúfolttá tenné a vizualizációt, és elvonná a figyelmet a trendek észleléséről). A mintavételezési algoritmus feladata a lehető legjobb vizualizáció létrehozása és annak biztosítása, hogy az összes adat megjelenjen. A Power BI algoritmusa úgy lett továbbfejlesztve, hogy együtt valósuljon meg a válaszképesség, a megfelelő ábrázolás és a teljes adatkészlet minden kulcsfontosságú pontjának megőrzése a teljes adatkészletben.
+Meghatározás szerint a nagy sűrűségű adatok mintavételezése a vizualizációk meglehetősen gyors és interakciókra reagáló módon való létrehozása érdekében történik. Ha a vizualizációban túl sok adatpont van, az lelassíthatja, és akadályozhatja a trendek megjelenítését. A mintavételezési algoritmus létrehozása tehát a mintavételezés módjától függ, hogy a lehető legjobb vizualizációs élményben lehessen része, és ez biztosítja, hogy minden adat megjelenjen. A Power BI algoritmusa úgy lett továbbfejlesztve, hogy együtt valósuljon meg a válaszképesség, a megfelelő ábrázolás és a teljes adatkészlet minden kulcsfontosságú pontjának megőrzése a teljes adatkészletben.
 
 > [!NOTE]
 > A **nagy sűrűségű mintavételezési** algoritmust használó pontdiagramok a legmegfelelőbben négyzetes vizualizációkban jeleníthetők meg, ahogyan az összes pontdiagram.
@@ -65,7 +65,7 @@ Emellett a nem ábrázolható adatokat (például a null- és a szöveges érté
 ### <a name="when-the-standard-algorithm-for-scatter-charts-is-used"></a>Mikor használható a hagyományos algoritmus?
 Bizonyos esetekben a **nagy sűrűségű mintavételezési** algoritmus nem alkalmazható az adott pontdiagramra, ezért a rendszer a hagyományos algoritmust használja. Ez a következő esetekben történhet:
 
-* Ha a jobb gombbal a **Részletek** elemre kattint, és kiválasztja az **Adatot nem tartalmazó elemek megjelenítése** lehetőséget a megjelenő menüből, a pontdiagram visszaáll az eredeti algoritmus használatára.
+* Ha a jobb gombbal a **Részletek** elemre kattint, és kiválasztja az **Adatot nem tartalmazó elemek megjelenítése** lehetőséget a menüből, a pontdiagram visszaáll az eredeti algoritmus használatára.
   
   ![](media/desktop-high-density-scatter-charts/high-density-scatter-charts_02.png)
 * Ha bármilyen érték szerepel a **Lejátszási** tengelyen, a pontdiagram visszaáll az eredeti algoritmus használatára.
@@ -75,15 +75,15 @@ Bizonyos esetekben a **nagy sűrűségű mintavételezési** algoritmus nem alka
   ![](media/desktop-high-density-scatter-charts/high-density-scatter-charts_03.png)
 
 ## <a name="how-to-turn-on-high-density-sampling-for-a-scatter-chart"></a>A nagy sűrűségű mintavételezés bekapcsolása pontdiagramokhoz
-A **nagy sűrűségű mintavételezés** bekapcsolásához válasszon ki egy pontdiagramot, lépjen a **Formátum** panelre, és bontsa ki az **Általános** kártyát. A kártya alján elérhető egy **Nagy sűrűségű mintavételezés** nevű csúszka. A bekapcsoláshoz csúsztassa ezt **Be** állapotba.
+A **nagy sűrűségű mintavétel** bekapcsolásához válasszon ki egy pontdiagramot, lépjen a **Formátum** ablaktáblára, bontsa ki az **Általános** kártyát, és a kártya aljának közelében váltsa át a **Nagy sűrűségű mintavétel** csúszkát a **Be** állásba.
 
 ![](media/desktop-high-density-scatter-charts/high-density-scatter-charts_04.png)
 
 > [!NOTE]
-> Ha a csúszka be van kapcsolva, a Power BI minden esetben megkísérli a **nagy sűrűségű mintavételezési** algoritmus használatát. Ha az algoritmus nem használható (például megad valamilyen értéket a *Lejátszási* tengelyen), a csúszka **Be** állapotban marad annak ellenére, hogy a diagram visszaáll a hagyományos algoritmus használatára. Ha ezután eltávolítja az értéket a *Lejátszási* tengelyről (vagy a körülmények úgy változnak, hogy a nagy sűrűségű mintavételezési algoritmus használhatóvá válik), a diagram automatikusan a nagy sűrűségű mintavételezést fogja használni, hiszen a csúszka továbbra is bekapcsolt állapotban van.
+> Ha a csúszka be van kapcsolva, a Power BI minden esetben megkísérli a **nagy sűrűségű mintavételezési** algoritmus használatát. Ha az algoritmus nem használható (például megad valamilyen értéket a *Lejátszási* tengelyen), a csúszka **Be** állapotban marad annak ellenére, hogy a diagram visszaáll a hagyományos algoritmus használatára. Ha ezután eltávolítja az értéket a *Lejátszási* tengelyről (vagy a körülmények úgy változnak, hogy a nagy sűrűségű mintavételezési algoritmus használhatóvá válik), a diagram automatikusan a nagy sűrűségű mintavételezést fogja használni, mivel ez a funkció aktív.
 > 
 > [!NOTE]
-> Az adatpontok index szerint vannak csoportosítva és/vagy kiválasztva. Az, hogy megjelenik-e jelmagyarázat, nem befolyásolja a mintavételezést az algoritmushoz, csak a vizualizáció elrendezésére van hatással.
+> Az adatpontok index szerint vannak csoportosítva vagy kiválasztva. Az, hogy megjelenik-e jelmagyarázat, nem befolyásolja a mintavételezést az algoritmushoz, csak a vizualizáció elrendezésére van hatással.
 > 
 > 
 
