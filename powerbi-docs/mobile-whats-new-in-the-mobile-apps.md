@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: conceptual
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 04/09/2018
+ms.date: 04/23/2018
 ms.author: maggies
-ms.openlocfilehash: 9caf6e6867c55d3c601ac417add173d0af091897
-ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
+ms.openlocfilehash: eeb6fe244057f10e33936c475f753cfba95deed8
+ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>A Power BI mobilalkalmazásainak újdonságai
 Az újdonságokra vonatkozó kapcsolódó információk:
@@ -34,7 +34,7 @@ Az újdonságokra vonatkozó kapcsolódó információk:
 
 ### <a name="mobile-drill-down-and-drill-up"></a>Mobilos részletezés és felhatolás
 
-Mobileszközön is használható a részletezés és a felhatolás a jelentés vizualizációinál. Az új funkciót úgy érheti el, ha rákoppint és lenyomva tartja a vizualizáció elemleírás menüjét, majd a lehatolás-felhatolás gombokra koppint az adatok részletesebb megjelenítéséhez.
+Mobileszközön is használható a részletezés és a felhatolás a jelentés vizualizációinál. Az új funkciót úgy érheti el, ha rákoppint és lenyomva tartja a vizualizáció elemleírás menüjét, majd a lehatolás-felhatolás gombokra koppint az adatok részletesebb megjelenítéséhez. További tudnivalók a [mobilalkalmazásokban történő részletezésről és a felhatolásról](https://powerbi.microsoft.com/blog/drill-down-up-in-power-bi-mobile-apps/).
 
 ### <a name="persistent-filters"></a>Állandó szűrők
 

@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 4/10/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: b5da2bf43f2d38e0828571e2b9d404feb615ac69
-ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
+ms.openlocfilehash: 7be260a5989ffb6a9dc1b72dad90d227e0b6295b
+ms.sourcegitcommit: bdb1fee3612bcc66153dcad8c4db2e99fb041014
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 04/28/2018
 ---
 # <a name="use-drillthrough-in-power-bi-desktop"></a>Részletezés használata a Power BI Desktopban
 A **Power BI Desktop** **részletezésével** olyan oldalt hozhat létre a jelentésben, amely adott entitásra összpontosít – például szállítóra, ügyfélre vagy gyártóra. Ezzel az összpontosított jelentésoldallal a felhasználók a jobb gombbal egy adatpontra kattinthatnak más jelentésoldalakon, és áthatolhatnak az összpontosított oldalra az ebben a környezetben szűrt részletek beszerzéséhez.
@@ -45,8 +45,8 @@ A **Power BI Desktop** **részletezésével** olyan oldalt hozhat létre a jelen
 ## <a name="use-your-own-image-for-a-back-button"></a>Saját kép használata vissza gombhoz    
  Mivel a vissza gomb egy kép, lecserélheti ezen vizualizáció képét bármilyen kívánt képre, és az továbbra is vissza gombként fog működni, vagyis a jelentés használói visszatérhetnek az eredeti oldalra.
 
-1. Saját kép vissza gombként történő használatához helyezzen egy képi elemet a részletező oldalra.
-2. Jelölje ki a képi elemet, és állítsa a **Vissza gomb** csúszkát bekapcsolt állásba. A kép most már vissza gombként működik.
+1. Kattintson a **Kezdőlap** lapon a **Kép** elemre, majd keresse meg a képet, és helyezze a részletező oldalra.
+2. Válassza ki az új képet a Részletezés oldalon, és a Kép formázása szakaszban kapcsolja be a **Hivatkozás** csúszkát, és állítsa be a **Típus** értékeként azt, hogy **Vissza**. A kép most már vissza gombként működik.
 
     ![](media/desktop-drillthrough/drillthrough_05.png)
 
