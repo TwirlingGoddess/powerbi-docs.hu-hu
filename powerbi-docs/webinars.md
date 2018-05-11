@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 04/20/2018
+ms.date: 04/26/2018
 ms.author: maikelson
-ms.openlocfilehash: 598266306657337e8190075b2a5e42de2b7d2144
-ms.sourcegitcommit: 20adb55065af8e2f48387a00e64c72cf6d700f0f
+ms.openlocfilehash: 9fa7f56f102ae098c870ae0e6e12f56cc26d0fde
+ms.sourcegitcommit: 0cae0e6e1fd06b6465721702b2d0bb8333eb5afb
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/23/2018
+ms.lasthandoff: 04/27/2018
 ---
 # <a name="power-bi-webinars"></a>Power BI-webináriumok
 
@@ -42,6 +42,14 @@ Tervezze meg a Power BI hatékony bevezetését vállalatánál, és fedezze fel
 <br>[Regisztráljon, és tekintse meg most: 3. rész – Szolgáltatásfelügyelet: Power BI szolgáltatásfelügyeleti elemzések](https://info.microsoft.com/ww-landing-pbi-adoption-framework-part3.html?Is=Website)
 <br>[Regisztráljon, és tekintse meg most: 2. rész – Irányítás: irányítsa saját Power BI-használatát](https://info.microsoft.com/ww-ondemand-powerbi-governance.html?Is=Website)
 <br>[Regisztráljon, és tekintse meg most: 1. rész – Adatközpontú kultúra bevezetése](https://info.microsoft.com/ww-landing-powerbi-adoption-ondemand.html?Is=Website)
+
+**Ismerje meg 20 percben a Power BI Embedded alkalmazást**
+<br>Készítette: Megan Asarrane és Colin Murphy
+<br>*2018. május 23. 10:00 (Csendes-óceáni téli idő), 13:00 (Keleti téli idő)*
+
+A webinárium célja, hogy bevezetést nyújtson a Power BI Embedded használatába. A webinárium megtekintése után a felhasználók tudni fogják, hogy mire szolgál a Power BI Embedded, tisztában lesznek a termék használatához szükséges következő lépésekkel, valamint tudni fogják, hogy hol találhatnak segítséget/erőforrásokat.
+
+[Regisztráció a május 23-i előadás megtekintéséhez](https://info.microsoft.com/ww-landing-power-bi-embedded-in-20-min.html?Is=Website)
 
 >[Részvétel a Power BI-közösség közelgő webináriumain](https://powerbi.microsoft.com/en-us/blog/tag/community-webinar?Is=Website)
 
@@ -132,8 +140,9 @@ Előadások megtekintése felvételről, tetszés szerinti időpontban
 <br>[Regisztráljon a megtekintéshez](https://info.microsoft.com/ww-landing-advanced-analytics-excel-powerbi.html?Is=Website)
 <br>[Az előadás követéséhez töltse le a fejlett elemzés indulókészletet (Advanced Analytics Starter Kit)](https://aka.ms/pbiaawebinar)
 
-**Az Office 365 pénzügyi szakembereknek webes előadássorozat – 2. rész: Ismétlődő jelentések automatizálása és az önkiszolgáló elemzés engedélyezése**
-<br>előadó Mark Traverso és Miguel Martinez
+**Az Office 365 webinárium-sorozata pénzügyi szakembereknek**
+<br>Készítette: Mark Traverso, Carlos Otero, Johnnie Thomas, Amanda Cofsky és Miguel Martinez
+<br>Az Office 365 általános használatához kapcsolódó tippeket, trükköket és ajánlott eljárásokat ismerhet meg.
 <br>[Regisztráció és megtekintés](https://aka.ms/Office365FinanceProsPBI)
 
 **A teljes híváslánc ereje legyen Önnel – A Power BI legfejlettebb funkcióinak bemutatása Star Wars adatokkal**
