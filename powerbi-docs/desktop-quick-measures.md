@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 02/05/2018
+ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: a7f877512d5b0f897fb98d2db205d1418d25c71a
-ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
+ms.openlocfilehash: 992282438ceac88dce759b60dc26f0767d0b1f86
+ms.sourcegitcommit: 9fa954608e78dcdb8d8a503c3c9b01c43ca728ab
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 03/30/2018
+ms.lasthandoff: 05/11/2018
 ---
 # <a name="use-quick-measures-to-easily-perform-common-and-powerful-calculations"></a>A gyorsmérők használata általános és nagy igényű számítások egyszerű végrehajtásához
 A **Gyorsmérők** használatával könnyedén végrehajthat általános és nagy igényű számításokat. A **gyorsmérők** DAX-parancsokat futtatnak a színfalak mögött (a DAX-ot nem kell megírnia, készen áll) a párbeszédpanelen megadott bemeneti adatok alapján, majd az eredmények használatra készen megjelennek a jelentésben. Ami a legjobb, hogy megtekintheti a gyorsmérő által végrehajtott DAX-ot, és így megismerheti a DAX-ot, vagy bővítheti az ismereteit.
@@ -43,8 +43,6 @@ Miután ezt beállította, újra kell indítania a **Power BI Desktopot**.
 Egy **Gyorsmérő** használatához kattintson a jobb gombbal egy mezőre (bármelyikre) a **Power BI Desktop** **Mezők** szakaszán, és válassza a megjelenő menüből a **Gyorsmérő** lehetőséget.
 
 ![](media/desktop-quick-measures/quick-measures_01.png)
-
-Ahhoz, hogy a **Gyorsmérők** elérhetők legyenek, az épp betöltött adatkészletben engedélyezni kell a modellezést. Így tehát az élő kapcsolatok (például egy Power BI szolgáltatásbeli adatkészlettel való kapcsolat) az SSAS élő kapcsolatok kivételével nem jelenítik meg a **Gyorsmérők** menüelemet, amikor jobb gombbal a **Mezők** listára kattint. 
 
 Az SQL Server Analysis Services (SSAS) élő kapcsolatok használatakor bizonyos **Gyorsmérők** elérhetők. A **Power BI Desktop** csak azokat a **Gyorsmérőket** jeleníti meg, amelyek támogatottak a kapcsolatban részt vevő SSAS-verzióhoz. Ha tehát csatlakozik egy SSAS élő adatforráshoz, és nem lát bizonyos **Gyorsmérőket** a listában, annak az az oka, hogy az az SSAS-verzió, amelyhez kapcsolódik, nem támogatja az adott **Gyorsmérő** megvalósításához használt DAX-mértéket.
 
@@ -141,9 +139,10 @@ Ha már tökéletes a mérték, kedve szerint átnevezheti ugyanabból a helyi m
 ## <a name="limitations-and-considerations"></a>Korlátozások és szempontok
 Figyelembe kell venni néhány korlátozást és szempontot.
 
-* A **gyorsmérők** csak akkor érhetők el, ha módosítani tudja a modellt, a DirectQuery és a legtöbb Élő kapcsolat (az SSAS élő kapcsolatok támogatottak, ahogy az már korábban is kiderült) esetében azonban nem ez a helyzet.
+* A **Gyorsmérők** csak akkor érhetők el, ha módosítani tudja a modellt, egyes élő kapcsolatok esetében ez azonban nem lehetséges (a táblázatos SSAS élő kapcsolatok támogatottak, ahogy ezt korábban említettük).
 * A **Mezők** szakaszba felvett mértékek a jelentés bármelyik vizualizációjában használhatók.
 * A **Gyorsmérőhöz** tartozó DAX-ot bármikor megtekintheti, ehhez jelölje ki a létrehozott mértéket a **Mezők** szakaszban, és a képlet megjelenik a **Képletsávban**.
+* Nem tud időintelligencia gyorsmérőt létrehozni, ha DirectQuery módban dolgozik. Az ezekben a gyorsmérőkben használt DAX-függvények negatív hatással vannak a teljesítményre, amikor a program lefordítja őket T-SQL-utasításokká az adatforrásnak való küldéshez.
 
 > [!WARNING]
 > A gyorsmérők jelenleg *csak* olyan DAX-utasításokat hoznak létre, ahol a vesszők argumentumelválasztóként funkcionálnak. Ha az Ön **Power BI Desktop**-verziója olyan nyelvre van lokalizálva, amely tizedeselválasztóként használja a vesszőket, a gyorsmérők nem fognak megfelelően működni.
@@ -151,7 +150,7 @@ Figyelembe kell venni néhány korlátozást és szempontot.
 > 
 
 ### <a name="time-intelligence-and-quick-measures"></a>Az időintelligencia és a gyorsmérők
-A **Power BI Desktop** 2017. októberi frissítésével kezdve a saját egyéni dátumoszlopait használhatja az időintelligenciát használó **gyorsmérőkhöz**. Ha az adatmodellben szerepel egy egyéni dátumtábla, a tábla elsődleges dátumoszlopát használhatja az időintelligenciát használó gyorsmérőkhöz. Ellenőriznie *kell*, hogy a modell létrehozásakor az adott tábla elsődleges dátum oszlopa Dátum táblaként lett-e megjelölve, amint az [ebben](https://docs.microsoft.com/sql/analysis-services/tabular-models/specify-mark-as-date-table-for-use-with-time-intelligence-ssas-tabular) a cikkben szerepel.
+A **Power BI Desktop** 2017. októberi frissítésével kezdve a saját egyéni dátumoszlopait használhatja az időintelligenciát használó **gyorsmérőkhöz**. Ha külső táblázatos modellt használ, ellenőrizze, hogy a modell létrehozásakor az adott tábla elsődleges dátum oszlopa Dátum táblaként lett-e megjelölve, amint az [ebben](https://docs.microsoft.com/sql/analysis-services/tabular-models/specify-mark-as-date-table-for-use-with-time-intelligence-ssas-tabular) a cikkben szerepel. Ha saját dátumtáblát importál, ügyeljen rá, hogy dátumtáblaként jelölje meg. Ennek módjáról [ebben a cikkben](https://docs.microsoft.com/power-bi/desktop-date-tables) olvashat.
 
 ### <a name="additional-information-and-examples"></a>További információ és példák
 Úgy tervezzük, hogy példákkal és útmutatókkal bővítjük az összes **gyorsmérők** számítást, ezért érdemes hamarosan újra áttekintenie az ezzel foglalkozó cikk frissítéseit.

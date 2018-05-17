@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 03/28/2018
 ms.author: maghan
-ms.openlocfilehash: bef0748f1431a29c96d7aa23ab457683e247724a
-ms.sourcegitcommit: e571de2afa3f34fac06a6aab0df0e8940cb00a0d
+ms.openlocfilehash: 5d0d679a9b5d3bea494915dc981e155ad69eeac6
+ms.sourcegitcommit: 1c7780e0dfe0b6b8322e6fafdd0693177db455d2
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/05/2018
+ms.lasthandoff: 05/14/2018
 ---
 # <a name="embed-a-power-bi-dashboard-tile-or-report-into-your-application-for-sovereign-clouds"></a>Power BI-irányítópult, -csempe vagy -jelentés beágyazása az alkalmazásba szuverén felhők használata esetén
 Ismerje meg, hogyan integrálhat vagy ágyazhat be egy irányítópultot, csempét vagy jelentést egy webalkalmazásba a Power BI .NET SDK-val és a Power BI JavaScript API-val, amikor az ügyfelei számára ágyaz be. Ez általában a független szoftverszállítóknál jellemző.
@@ -38,7 +38,7 @@ A Power BI a szuverén (privát) felhőket is támogatja. Minden egyes szuverén
 
 ![Beágyazott irányítópult](media/embed-sample-for-customers/powerbi-embed-dashboard.png)
 
-A bemutató megkezdéséhez **Power BI**-fiókra van szükség. Ha nincs beállított fiókja, a kormányzati típustól függően egy [egyesült államokbeli kormányzati Power BI-fiókot](../service-govus-signup.md) vagy egy [németországi felhőhöz készült Power BI-fiókot regisztrálhat](https://powerbi.microsoft.com/en-us/power-bi-germany/?ru=https%3A%2F%2Fapp.powerbi.de%2F%3FnoSignUpCheck%3D1).
+A bemutató megkezdéséhez **Power BI**-fiókra van szükség. Ha nincs beállított fiókja, a kormányzati típustól függően egy [egyesült államokbeli kormányzati Power BI-fiókot](../service-govus-signup.md) vagy egy [németországi felhőhöz készült Power BI-fiókot regisztrálhat](https://powerbi.microsoft.com/power-bi-germany/?ru=https%3A%2F%2Fapp.powerbi.de%2F%3FnoSignUpCheck%3D1).
 
 > [!NOTE]
 > A saját cégének szeretne irányítópultot beágyazni? Tekintse meg az [irányítópult céges alkalmazásba való integrálását](integrate-dashboard.md) ismertető cikket.
@@ -407,7 +407,7 @@ Ennek alkalmazásmintája a [céges beágyazási mintában](https://github.com/M
 
 * Egy mintaalkalmazás elérhető a GitHubon, hogy áttekinthesse. A fenti példák azon a mintán alapulnak. További információért tekintse meg a [céges beágyazási mintát](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data).
 * További információ a JavaScript API-ról: [Power BI JavaScript API](https://github.com/Microsoft/PowerBI-JavaScript).
-* További információ a németországi felhőhöz készült Power BI-ról: [A németországi felhőhöz készült Power BI – gyakori kérdések](https://docs.microsoft.com/en-us/power-bi/service-govde-faq)
+* További információ a németországi felhőhöz készült Power BI-ról: [A németországi felhőhöz készült Power BI – gyakori kérdések](https://docs.microsoft.com/power-bi/service-govde-faq)
 * [Power BI-munkaterületcsoport tartalmainak migrálása a Power BI-ba](migrate-from-powerbi-embedded.md)
 
 Korlátozások és megfontolandó szempontok

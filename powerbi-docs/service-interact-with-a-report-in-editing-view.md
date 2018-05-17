@@ -1,5 +1,5 @@
 ---
-title: Jelentés használata Szerkesztő nézetben (Oktatóanyag)
+title: Jelentés használata Szerkesztő nézetben
 description: Jelentés használata Szerkesztő nézetben a Power BI szolgáltatásban
 services: powerbi
 documentationcenter: ''
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 04/11/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: eea3bcb040f5267cb1fcc1f24ef6b306f6c03af3
-ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
+ms.openlocfilehash: 6b4fcd59b16e9fd7ef0dcddfc44a93bb842a32f8
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 05/07/2018
 ---
 # <a name="interact-with-a-report-in-editing-view-in-power-bi-service"></a>Jelentés használata Szerkesztő nézetben a Power BI szolgáltatásban
 A jelentések a Power BI szolgáltatásban és a Power BI Desktopban hozhatók létre és szerkeszthetők. A Power BI szolgáltatásban a jelentések a **Szerkesztő nézetben** hozhatók létre és szerkeszthetők. A Power BI Desktopban pedig a jelentések a [**Jelentés nézetben**](desktop-report-view.md) hozhatók létre és szerkeszthetők. Ez a cikk a Power BI szolgáltatás Olvasó nézetét ismerteti. 

@@ -3,13 +3,13 @@ A szerepkör létrehozása után tesztelheti a szerepkör hatásait a Power BI D
 
 ![](./media/rls-desktop-view-as-roles/powerbi-desktop-rls-view-as-roles.png)
 
-A **Megtekintés szerepkörökként** párbeszédpanelen ellenőrizheti, hogy egy adott felhasználó vagy szerepkör mit láthat. Megjelennek a létrehozott szerepkörei.
+A **Megtekintés szerepkörökként** párbeszédpanelen ellenőrizheti, hogy egy adott felhasználó vagy szerepkör mit láthat. Megtekintheti azokat a szerepköröket, amelyeket létrehozott.
 
 ![](./media/rls-desktop-view-as-roles/powerbi-desktop-rls-view-as-roles-dialog.png)
 
-Jelölje ki az egyik létrehozott szerepkörét, majd válassza az **OK** gombot, hogy alkalmazza a szerepkört arra, amit épp megtekintett. A jelentésekből csak a szerepkör számára releváns adatok jelennek meg.
+Jelölje ki az egyik létrehozott szerepkörét, majd kattintson az **OK** gombra, hogy alkalmazza a szerepkört arra, amit épp megtekintett. A jelentésekből csak a szerepkör számára releváns adatok jelennek meg.
 
-Az Egyéb felhasználó beállítással egy adott felhasználót is kiválaszthat. Az egyszerű felhasználónevet (UPN) érdemes megadni, mivel a Power BI szolgáltatás azt használja. Kattintson az **OK** gombra, és a jelentések csak a felhasználó számára elérhető adatokat fogják megjeleníteni. 
+Az **Egyéb felhasználó** beállítással egy adott felhasználót is kiválaszthat. Az egyszerű felhasználónevet (UPN) érdemes megadni, mivel a Power BI szolgáltatás azt használja. Kattintson az **OK** gombra, és a jelentések csak a felhasználó számára elérhető adatokat fogják megjeleníteni. 
 
 ![](./media/rls-desktop-view-as-roles/powerbi-desktop-rls-other-user.png)
 

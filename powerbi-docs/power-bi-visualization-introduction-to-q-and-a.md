@@ -1,6 +1,6 @@
 ---
-title: 'Rövid útmutató: első lépések a Power BI Q&A használatában'
-description: 'Rövid útmutató: első lépések a Q&A kiskereskedelmi elemzési mintán való használatában a Power BI szolgáltatásban'
+title: Első lépések a Power BI Q&A-ben
+description: Első lépések a Q&A kiskereskedelmi elemzési mintákon való használatában a Power BI szolgáltatásban
 services: powerbi
 documentationcenter: ''
 author: mihart
@@ -18,13 +18,13 @@ ms.workload: powerbi
 ms.date: 01/16/2018
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 0f4f56431fd0c667411c302f4f30f0c395269e4a
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: aa9b90521d2bf8df88676756135442a22277a4e8
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/07/2018
 ---
-# <a name="get-started-with-power-bi-qa-quickstart"></a>Első lépések a Power BI Q&A használatában (Rövid útmutató)
+# <a name="get-started-with-power-bi-qa"></a>Első lépések a Power BI Q&A-ben
 ## <a name="use-power-bi-qa-with-the-retail-analysis-sample"></a>A Power BI Q&A használata a kiskereskedelmi elemzési mintával
 Ha válaszokat keres az adatokban, néha az a leggyorsabb megoldás, ha természetes nyelven kérdez.  Ebben az útmutatóban két különböző módszert is megtekintünk ugyanannak a vizualizációnak a létrehozására: először felépítjük egy jelentésben, majd kérdést teszünk fel a Q&A-val. Noha a Power BI szolgáltatást fogjuk használni, a folyamat csaknem teljesen azonosan néz ki a Power BI Desktop használatával is.
 

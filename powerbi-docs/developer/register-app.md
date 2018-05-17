@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 04/23/2018
 ms.author: maghan
-ms.openlocfilehash: e3d0e8b98135e232809cd2b5e3fc06827b1f480e
-ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
+ms.openlocfilehash: 6dad138407c80a1caab8b3aca4668504bdf2c382
+ms.sourcegitcommit: c29525cbac2e747edb4dd3a1841084bb0ce42582
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/08/2018
 ---
 # <a name="register-an-azure-ad-app-to-embed-power-bi-content"></a>Azure AD-alkalmazás regisztrálása Power BI-tartalmak beágyazásához
 Megismerheti, hogyan kell regisztrálni egy alkalmazást az Azure Active Directoryban (Azure AD) Power BI-tartalmak beágyazásához.
@@ -71,9 +71,6 @@ Az alábbiak szerint regisztrálhatja alkalmazását a Power BI alkalmazásregis
 * Kattintson a **Szükséges engedélyek** lehetőségre.
 * Az alkalmazásregisztrációs webhelyen kiválasztott engedélyek ellenőrzéséhez válassza a **Power BI szolgáltatást**.
 * Válassza az **Engedélyek megadása** lehetőséget.
-
-
-
 
 Ezután a regisztrált alkalmazást saját egyéni alkalmazása részeként használhatja a Power BI szolgáltatásban.
 

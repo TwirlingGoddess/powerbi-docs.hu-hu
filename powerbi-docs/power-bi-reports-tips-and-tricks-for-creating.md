@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 04/13/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: d9500f2c3d385e96b9133a3b634fe06f9769936e
-ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
+ms.openlocfilehash: f1b92cf370dfdfdbeadd71ee954030aa8a79d338
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/07/2018
 ---
 # <a name="tips-and-tricks-for-creating-reports-in-power-bi-desktop-and-power-bi-service"></a>Tippek és trükkök jelentések létrehozásához a Power BI Desktopban és a Power BI szolgáltatásban
 Ahhoz, hogy a legtöbbet hozza ki az adataiból, néha szüksége van egy kis extra segítségre. Összegyűjtöttünk néhány tippet és trükköt, amelyek segítségére lehetnek, amikor jelentéseket hoz létre a Microsoft Power BI Desktopban, a Power BI szolgáltatásban *és* a Microsoft Excel 2016 vagy Excel 2013 Pro-Plus kiadásokban, amelyekben engedélyezve van a Power Pivot bővítmény, illetve telepítve és engedélyezve van a Power Query.
@@ -64,7 +64,7 @@ Ha kategorikus (karakterlánc) értéket használ a Power BI-ban a diagramtengel
 ### <a name="building-maps-more-easily-with-hints-to-bing"></a>Térképek egyszerűbb létrehozása Bing-javaslatokkal
 A Power BI integrálható a Binggel alapértelmezett térképkoordináták biztosításához (ez a geokódolás nevű folyamat), így egyszerűbben hozhat létre térképeket.  A Bing algoritmusokkal és javaslatokkal próbálja megtalálni a megfelelő helyet, de ez feltételezésen alapul. A helyes geokódolás valószínűségének növelése érdekében használhatja a következő tippeket:
 
-A térképek létrehozása gyakran országok, államok és városok megjelenítése céljából történik.  A Power BI Desktopban, ha a földrajzi megjelölés után elnevezi az oszlopokat, akkor a Bing könnyebben kitalálja, hogy Ön mit szeretne megjeleníteni. Például ha van egy mezője, amely USA tagállamok neveit tartalmazza (például „California” és „Washington”), a Bing lehet, hogy a „Washington” szóra Washington D.C. helyét fogja visszaadni Washington állam helyett.  Ha az oszlop a „State” (Állam) nevet kapja, pontosabb lesz a geokódolás.  Ugyanez vonatkozik a „Country” (Ország) és a „City” (Város) nevű oszlopra.   
+A térképek létrehozása gyakran országok, államok és városok megjelenítése céljából történik.  Ha a Power BI Desktopban a földrajzi megjelölés után elnevezi az oszlopokat, akkor a Bing könnyebben kitalálja, hogy Ön mit szeretne megjeleníteni. Például ha van egy mezője, amely USA tagállamok neveit tartalmazza (például „California” és „Washington”), a Bing lehet, hogy a „Washington” szóra Washington D.C. helyét fogja visszaadni Washington állam helyett.  Ha az oszlop a „State” (Állam) nevet kapja, pontosabb lesz a geokódolás.  Ugyanez vonatkozik a „Country” (Ország) és a „City” (Város) nevű oszlopra.   
 
 Néhány megjelölés nem egyértelmű, ha több ország/régió összefüggésében vizsgálják.  Bizonyos esetekben amit egy ország/régió „államnak” tekint, más helyek „tartományként”, „megyeként” vagy egyéb megjelölésként kezelnek.  Növelheti a geokódolás pontosságát, ha olyan oszlopokat hoz létre, amelyek több mezőt fűznek össze, és azokat használja az adatok helyének megjelenítéséhez.  Például ahelyett, hogy csak a „Wiltshire” nevű oszlopot adná át, a pontosabb geokódolási eredmény érdekében átadhatja a „Wiltshire, England” oszlopot.
 
@@ -166,7 +166,7 @@ Néha érdemes kiszámítani egy adatkészlet összefoglaló statisztikáit.  En
 ### <a name="using-dax-for-the-first-time"></a>A DAX első használata
 A DAX a Power BI Desktop számításokhoz használt képletnyelve.  Ez a nyelv BI-elemzéshez van optimalizálva.  Ha eddig még csak SQL típusú lekérdezési nyelvet használt, ez kicsit eltérhet a megszokottól. A DAX elsajátításához nagyon jó online és nyomtatott forrásokat találhat.
 
-[Rövid útmutató: A DAX alapszintű használata a Power BI Desktopban](desktop-quickstart-learn-dax-basics.md)
+[A DAX alapszintű használata a Power BI Desktopban](desktop-quickstart-learn-dax-basics.md)
 
 [Data Analysis Expressions-referencia (DAX)](https://msdn.microsoft.com/library/gg413422.aspx)
 

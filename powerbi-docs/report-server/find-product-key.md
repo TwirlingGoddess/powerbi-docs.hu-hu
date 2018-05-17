@@ -1,15 +1,15 @@
 ---
-title: "A jelentéskészítő kiszolgáló termékkulcsának megkeresése"
-description: "Megtudhatja, hogyan találhatja meg a Power BI jelentéskészítő kiszolgáló termékkulcsát a kiszolgáló éles környezetben történő telepítéséhez."
+title: A jelentéskészítő kiszolgáló termékkulcsának megkeresése
+description: Megtudhatja, hogyan találhatja meg a Power BI jelentéskészítő kiszolgáló termékkulcsát a kiszolgáló éles környezetben történő telepítéséhez.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 11/01/2017
 ms.author: maghan
-ms.openlocfilehash: ff2e515823cbaa726fbdf72d1cb398381ea69363
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: b1bfbdc635c0abba7e6d14567c3e839fd6a0c716
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 05/07/2018
 ---
 # <a name="how-to-find-your-report-server-product-key"></a>A jelentéskészítő kiszolgáló termékkulcsának megkeresése
 Megtudhatja, hogyan találhatja meg a Power BI jelentéskészítő kiszolgáló termékkulcsát a kiszolgáló éles környezetben történő telepítéséhez.
@@ -51,8 +51,8 @@ Ha SQL Server Enterprise Frissítési garancia szerződéssel rendelkezik, a [Me
 
 ![](media/find-product-key/vlsc-download.png "Mennyiségi licencszolgáltatási központ")
 
-## <a name="next-steps"></a>További lépések
-[Rövid útmutató: A Power BI jelentéskészítő kiszolgáló telepítése](quickstart-install-report-server.md)  
+## <a name="next-steps"></a>Következő lépések
+[A Power BI jelentéskészítő kiszolgáló telepítése](install-report-server.md)  
 [A Power BI jelentéskészítő kiszolgálóhoz optimalizált Power BI Desktop telepítése](install-powerbi-desktop.md)  
 [A Jelentéskészítő telepítése](https://docs.microsoft.com/sql/reporting-services/install-windows/install-report-builder)  
 [Az SQL Server Data Tools (SSDT) letöltése](http://go.microsoft.com/fwlink/?LinkID=616714)

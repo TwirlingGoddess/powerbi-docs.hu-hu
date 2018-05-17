@@ -1,31 +1,31 @@
 ---
-title: "Egyéni Power BI-válaszoldalak létrehozása Cortanához"
-description: "Egyéni válaszoldalak létrehozása Cortanához a Power BI-ban"
+title: Egyéni Power BI-válaszoldalak létrehozása Cortanához
+description: Egyéni válaszoldalak létrehozása Cortanához a Power BI-ban
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: yaron
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/20/2017
+ms.date: 05/02/2018
 ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: c4816ede1ea5364e5db2156af747a3d05231d02a
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: d5933002b13e90a745397a4e77cafb1808f2ad28
+ms.sourcegitcommit: 50016425005d2e929c8c606c2d0d393342e05d39
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/12/2018
 ---
 # <a name="use-power-bi-service-or-power-bi-desktop-to-create-a-custom-answer-page-for-cortana"></a>A Power BI szolgáltatás vagy a Power BI Desktop használata egyéni válaszoldal létrehozására Cortanához
-A Power BI teljes funkcionalitásának használata *Cortana-válaszoldalaknak* (vagy néha „Cortana-válaszkártyáknak”) nevezett, kifejezetten a Cortana-kérdések megválaszolására tervezett, különleges jelentésoldalak létrehozására.
+A Power BI teljes funkcionalitásának használata *Cortana-válaszoldalaknak* (vagy néha *Cortana-válaszkártyáknak*) nevezett, kifejezetten a Cortana-kérdések megválaszolására tervezett, különleges jelentésoldalak létrehozására.
 
 ![](media/service-cortana-answer-cards/power-bi-cortana.png)
 
@@ -35,9 +35,9 @@ A Power BI teljes funkcionalitásának használata *Cortana-válaszoldalaknak* (
 > 
 
 ## <a name="before-you-begin"></a>Előkészületek
-4 dokumentum nyújt útmutatást a Power BI-hoz használt Cortana beállításához és használatához. Ha még nem tette meg, javasoljuk, kezdje az 1. cikk elolvasásával. A 2. cikk pedig különösen fontos, mert ismertet néhány lépést, amelyet követnie kell, mielőtt használhatná a Cortana-válaszoldalakat.
+Négy dokumentum nyújt útmutatást a Power BI-hoz használt Cortana beállításához és használatához. Ha még nem tette meg, javasoljuk, hogy kezdje az első cikk elolvasásával. A második cikk pedig különösen fontos, mert ismertet néhány lépést, amelyet követnie kell, mielőtt használhatná a Cortana-válaszoldalakat.
 
-**1. cikk** [Cortana és a Power BI együttműködése](service-cortana-intro.md)
+**1. cikk**: [Cortana és a Power BI együttműködése](service-cortana-intro.md)
 
 **2. cikk**: [Power BI-jelentések keresése: Cortana, a Power BI és a Windows integrációjának engedélyezése](service-cortana-enable.md)
 
@@ -46,17 +46,17 @@ A Power BI teljes funkcionalitásának használata *Cortana-válaszoldalaknak* (
 **4. cikk**: [Hibaelhárítással kapcsolatos kérdések](service-cortana-troubleshoot.md)
 
 ## <a name="create-a-cortana-answer-page-designed-specifically-for-cortana"></a>Kifejezetten Cortanához tervezett Cortana-válaszoldal létrehozása
-A jelentésekben a *Cortana-válaszoldal* Cortanára van méretezve, hogy megjeleníthesse a képernyőn a kérdésekre adott válaszul.  Válaszoldal létrehozása Cortanához:
+A jelentésekben a *Cortana-válaszoldal* Cortanára van méretezve, hogy megjeleníthesse a képernyőn a kérdésekre adott válaszul. Válaszoldal létrehozása Cortanához:
 
 1. Javasoljuk, hogy egy [üres jelentésoldallal](power-bi-report-add-page.md) kezdje.
-2. A **Visualizations** (Vizualizációk) ablaktáblán kattintson a festőhenger ikonra, és válassza a **Page Size > Type > Cortana** (Oldalméret > Típus > Cortana) lehetőséget.
+2. A **Vizualizációk** ablaktáblán kattintson a festőhenger ikonra, és válassza az **Oldalméret** > **Típus** > **Cortana** lehetőséget.
    
     ![](media/service-cortana-answer-cards/pbi-cortana-page-size-new.png)
 3. Hozzon létre egy vizualizációt vagy egy vizualizációkészletet, amelyet szeretne megjeleníteni Cortanában egy meghatározott kérdésre (vagy kérdéssorra) adott válaszként.
-4. Győződjön meg róla, hogy minden vizualizáció elfér az oldalszegélyeken belül.  Módosíthatja a megjelenítési beállításokat, adatcímkéket, színeket és háttereket is.  
+4. Győződjön meg róla, hogy minden vizualizáció elfér az oldalszegélyeken belül. Módosíthatja a megjelenítési beállításokat, adatcímkéket, színeket és háttereket is.  
    
     ![](media/service-cortana-answer-cards/pbi_cortana_modify-new.png)
-5. Nevezze el az oldalt, és vegyen fel alternatív neveket.  Cortana ezeket a neveket használja eredmények keresésére. A **Visualizations** (Vizualizációk) ablaktáblán kattintson az ecset ikonra, és válassza a **Page Information** (Oldaladatok) lehetőséget. Engedélyezze a Q&A-t ehhez a vizualizációhoz a csúszka **On** (Be) állásba kapcsolásával.
+5. Nevezze el az oldalt, és vegyen fel alternatív neveket. Cortana ezeket a neveket használja eredmények keresésére. A **Visualizations** (Vizualizációk) ablaktáblán kattintson az ecset ikonra, és válassza a **Page Information** (Oldaladatok) lehetőséget. Engedélyezze a Q&A-t ehhez a vizualizációhoz a csúszka **On** (Be) állásba kapcsolásával.
    
     ![](media/service-cortana-answer-cards/pbi_cortana_names-newer.png)
    
@@ -67,7 +67,7 @@ A jelentésekben a *Cortana-válaszoldal* Cortanára van méretezve, hogy megjel
 6. Ha a jelentés rendelkezik oldalszintű szűrőkkel, nem kötelező, de érdemes megadnia az **Egyetlen kijelölésre van szükség** beállítást. Cortana ezt a jelentést csak akkor jeleníti meg válaszként, ha a szűrőelemek közül egy (és csak egy) meg van határozva a kérdésben. Az **Egyetlen kijelölésre van szükség** beállítás a **Szűrők** ablaktábla alján található.
    
    > [!NOTE]
-   > Nem kell megadnia a **Require single selection** (Egyetlen kijelölésre van szükség) beállítást ahhoz, hogy Cortana oldalszintű szűrőkkel jelenítse meg a jelentést.  Például a „show sales for Charlotte Lindseys” (értékesítés megjelenítése a Charlotte Lindseyshez) megjeleníti a válaszoldalt az Egyetlen kijelölésre van szükség beállításától függetlenül.
+   > Nem kell megadnia a **Require single selection** (Egyetlen kijelölésre van szükség) beállítást ahhoz, hogy Cortana oldalszintű szűrőkkel jelenítse meg a jelentést. Például a „show sales for Charlotte Lindseys” (értékesítés megjelenítése a Charlotte Lindseyshez) megjeleníti a válaszoldalt az Egyetlen kijelölésre van szükség beállításától függetlenül.
    > 
    > 
    
@@ -75,9 +75,9 @@ A jelentésekben a *Cortana-válaszoldal* Cortanára van méretezve, hogy megjel
    
       Ha például arra kéri Cortanát, hogy:
    
-   * „show sales by store name” (jelenítse meg az értékesítést áruháznév alapján), ez a válaszoldal nem fog megjelenni, mert a kötelező oldalszintű szűrő elemeinek egyikét sem adta meg.
-   * „show sales for Cary Lindseys and Charlotte Lindseys” (jelenítse meg az értékesítést Cary Lindseyshez és Charlotte Lindseyshez), ez a válaszoldal nem fog megjelenni, mert egynél többet adott meg a kötelező oldalszintű szűrők közül.
-   * „show sales for Charlotte Lindseys” (jelenítse meg az értékesítést Charlotte Lindseyshez), ez a válaszoldal meg fog jelenni.
+   * „show sales by store name” (jelenítse meg az értékesítést áruháznév alapján), ez a válaszoldal nem fog megjelenni, mert a kötelező oldalszintű szűrő elemeinek egyikét sem adta meg,
+   * „show sales for Cary Lindseys and Charlotte Lindseys” (jelenítse meg az értékesítést Cary Lindseyshez és Charlotte Lindseyshez), ez a válaszoldal nem fog megjelenni, mert egynél többet adott meg a kötelező oldalszintű szűrők közül,
+   * „show sales for Charlotte Lindseys” (jelenítse meg az értékesítést Charlotte Lindseyshez), ez a válaszoldal meg fog jelenni,
      
      = „show sales” (jelenítése meg az értékesítést), ez a válaszoldal nem fog megjelenni, mert a kötelező oldalszintű szűrő elemeinek egyikét sem adta meg.
 
@@ -87,10 +87,10 @@ A jelentésekben a *Cortana-válaszoldal* Cortanára van méretezve, hogy megjel
 > 
 
 ## <a name="how-does-cortana-order-the-results"></a>Milyen sorrendbe állítja Cortana az eredményeket?
-Cortana oldalán a magas pontszámú válaszok (például egy meghatározott oldalnév teljes találata) jelennek meg először *legjobb találatként*. Ha a Power BI-ban több Cortana-válaszoldal van, több legjobb találat is megjelenhet. A közepes vagy alacsonyabb pontszámú válaszok, például azok, amelyek nem egy válaszoldal nevén alapulnak, vagy azok a kérdések, amelyek a Power BI által nem értett szavakat tartalmaznak, Cortana oldalán hivatkozásokként jelennek meg a legjobb találatok alatt.
+Cortana oldalán a magas pontszámú válaszok (például egy meghatározott oldalnévre talált teljes egyezés) jelennek meg először *legjobb találatként*. Ha a Power BI-ban több Cortana-válaszoldal van, több legjobb találat is megjelenhet. A közepes vagy alacsonyabb pontszámú válaszok, például azok, amelyek nem egy válaszoldal nevén alapulnak, vagy azok a kérdések, amelyek a Power BI által nem értett szavakat tartalmaznak, Cortana oldalán hivatkozásokként jelennek meg a legjobb találatok alatt.
 
 > [!NOTE]
-> Amikor egy új adathalmazt vagy egyéni Cortana-válaszoldalt vesznek fel a Power BI-ba, és engedélyezik annak használatát Cortana számára, akár 30 percig is eltarthat, amíg az eredmények megjelennek Cortanában. A Windows 10-be való be- és kijelentkezéssel, illetve Cortana folyamatának a Windows 10-ben más módon való újraindításával elérhető, hogy az új tartalom azonnal megjelenjen.
+> Amikor egy új adathalmazt vagy egyéni Cortana-válaszoldalt vesznek fel a Power BI-ba, és engedélyezik annak használatát Cortana számára, akár 30 percig is eltarthat, amíg az eredmények megjelennek Cortana oldalán. A Windows 10-be való be- és kijelentkezéssel, illetve Cortana folyamatának a Windows 10-ben más módon való újraindításával elérhető, hogy az új tartalom azonnal megjelenjen.
 > 
 > 
 

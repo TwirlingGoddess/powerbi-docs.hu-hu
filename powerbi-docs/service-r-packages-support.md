@@ -1,28 +1,28 @@
 ---
-title: "A Power BI-ban) támogatott R-csomagok R-parancsfájlok használatához és létrehozásához"
-description: "A Power BI-ban támogatott és nem támogatott R-csomagok"
+title: A Power BI-ban) támogatott R-csomagok R-parancsfájlok használatához és létrehozásához
+description: A Power BI-ban támogatott és nem támogatott R-csomagok
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 189e9ed8bb63df4fdbebc5eaa11625bef4592d38
-ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
+ms.openlocfilehash: c4ff69bff3c65fa64f90184668d34fac5a82815f
+ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 03/12/2018
+ms.lasthandoff: 05/04/2018
 ---
 # <a name="r-packages-in-the-power-bi-service"></a>R-csomagok a Power BI szolgáltatásban
 A hatékony [R programozási nyelv](https://www.r-project.org/) használatával vizualizációkat hozhat létre a Power BI szolgáltatásban. A Power BI szolgáltatás számos R-csomagot támogat (és a támogatott csomagok száma folyamatosan nő), egyes csomagok viszont nem támogatottak.
@@ -117,7 +117,7 @@ Az alábbi táblázat a Power BI szolgáltatás által **támogatott** csomagoka
 | cvTools |0.3.2 |https://cran.r-project.org/web/packages/cvTools/index.html |
 | data.table |1.9.6 |https://cran.r-project.org/web/packages/data.table/index.html |
 | data.tree |0.7.0 |https://cran.r-project.org/web/packages/data.tree/index.html |
-| date |1.2-34 |https://cran.r-project.org/web/packages/date/index.html |
+| dátum |1.2-34 |https://cran.r-project.org/web/packages/date/index.html |
 | dbscan |0.9-7 |https://cran.r-project.org/web/packages/dbscan/index.html |
 | deal |1.2-37 |https://cran.r-project.org/web/packages/deal/index.html |
 | deepnet |0.2 |https://cran.r-project.org/web/packages/deepnet/index.html |
@@ -162,7 +162,7 @@ Az alábbi táblázat a Power BI szolgáltatás által **támogatott** csomagoka
 | foreach |1.4.3 |https://cran.r-project.org/web/packages/foreach/index.html |
 | forecast |7 |https://cran.r-project.org/web/packages/forecast/index.html |
 | forecastHybrid |0.3.0 |https://cran.r-project.org/web/packages/forecastHybrid/index.html |
-| Formula |1.2-1 |https://cran.r-project.org/web/packages/Formula/index.html |
+| Képlet |1.2-1 |https://cran.r-project.org/web/packages/Formula/index.html |
 | fracdiff |1.4-2 |https://cran.r-project.org/web/packages/fracdiff/index.html |
 | fTrading |3010.78 |https://cran.r-project.org/web/packages/fTrading/index.html |
 | futile.logger |1.4.3 |https://cran.r-project.org/web/packages/futile.logger/index.html |
@@ -198,7 +198,7 @@ Az alábbi táblázat a Power BI szolgáltatás által **támogatott** csomagoka
 | haplo.stats |1.7.6 |https://cran.r-project.org/web/packages/haplo.stats/index.html |
 | hash |2.2.6 |https://cran.r-project.org/web/packages/hash/index.html |
 | hbsae |1 |https://cran.r-project.org/web/packages/hbsae/index.html |
-| hdrcde |3.1 |https://cran.r-project.org/web/packages/hdrcde/index.html |
+| hdrcde |3,1 |https://cran.r-project.org/web/packages/hdrcde/index.html |
 | heavy |0.3 |https://cran.r-project.org/web/packages/heavy/index.html |
 | HH |3.1-25 |https://cran.r-project.org/web/packages/HH/index.html |
 | HI |0.4 |https://cran.r-project.org/web/packages/HI/index.html |
@@ -247,7 +247,7 @@ Az alábbi táblázat a Power BI szolgáltatás által **támogatott** csomagoka
 | maptree |1.4-7 |https://cran.r-project.org/web/packages/maptree/index.html |
 | MASS |7.3-45 |https://cran.r-project.org/web/packages/MASS/index.html |
 | MasterBayes |2.52 |https://cran.r-project.org/web/packages/MasterBayes/index.html |
-| Matrix |1.2-4 |https://cran.r-project.org/web/packages/Matrix/index.html |
+| Mátrix |1.2-4 |https://cran.r-project.org/web/packages/Matrix/index.html |
 | matrixcalc |1.0-3 |https://cran.r-project.org/web/packages/matrixcalc/index.html |
 | MatrixModels |0.4-1 |https://cran.r-project.org/web/packages/MatrixModels/index.html |
 | maxent |1.3.3.1 |https://cran.r-project.org/web/packages/maxent/index.html |
@@ -396,7 +396,7 @@ Az alábbi táblázat a Power BI szolgáltatás által **támogatott** csomagoka
 | tm |0.6-2 |https://cran.r-project.org/web/packages/tm/index.html |
 | topicmodels |0.2-3 |https://cran.r-project.org/web/packages/topicmodels/index.html |
 | tree |1.0-37 |https://cran.r-project.org/web/packages/tree/index.html |
-| treemap |2.4-2 |https://cran.r-project.org/web/packages/treemap/index.html |
+| fatérkép |2.4-2 |https://cran.r-project.org/web/packages/treemap/index.html |
 | tseries |0.10-34 |https://cran.r-project.org/web/packages/tseries/index.html |
 | tsfa |2014.10-1 |https://cran.r-project.org/web/packages/tsfa/index.html |
 | tsoutliers |0.6 |https://cran.r-project.org/web/packages/tsoutliers/index.html |

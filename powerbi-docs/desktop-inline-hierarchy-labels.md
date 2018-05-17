@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 974194cb04701e2dc21814a0945227ad9c4b770c
-ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
+ms.openlocfilehash: 67e0008383147763654d8e3a053384d28f4a57f7
+ms.sourcegitcommit: 50016425005d2e929c8c606c2d0d393342e05d39
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 05/04/2018
+ms.lasthandoff: 05/12/2018
 ---
 # <a name="use-inline-hierarchy-labels-in-power-bi-desktop"></a>Beágyazott hierarchiák feliratainak használata a Power BI Desktopban
 A **Power BI Desktop** támogatja a **beágyazott hierarchiák feliratainak** használatát. Ez azon két funkció egyike, amelyek a részletes hierarchikus kibontást javítják. A jelenleg fejlesztés alatt álló második funkció az egymásba ágyazott hierarchiák feliratainak használata (érdemes figyelnie, mert gyakran frissítünk).   
@@ -30,35 +30,41 @@ A **Power BI Desktop** támogatja a **beágyazott hierarchiák feliratainak** ha
 ## <a name="how-inline-hierarchy-labels-work"></a>A beágyazott hierarchiák feliratainak működése
 A beágyazott hierarchiák feliratai segítségével megtekintheti a hierarchiák feliratait, ha **Az összes kibontása** funkcióval kibontja a vizualizációkat. A hierarchiák feliratainak az egyik nagy előnye, hogy lehetőség van **rendezésre** a különböző hierarchiák feliratai szerint a hierarchikus adatok kibontása során.
 
-### <a name="using-the-built-in-expand-all-feature-without-sorting-by-hierarchy-labels"></a>A beépített Összes kibontása funkció használata (hierarchiák feliratai szerinti rendezés nélkül)
-Mielőtt megnézzük a beépített hierarchiák feliratainak a működését, tekintsük át **Az összes kibontása** funkció alapértelmezett viselkedését. Ez lehetővé teszi, hogy megértsük (és értékeljük), mennyire hasznosak lehetnek a beépített hierarchiák feliratai.
+### <a name="using-the-built-in-expand-feature-without-sorting-by-hierarchy-labels"></a>A beépített Kibontás funkció használata (hierarchiák feliratai szerinti rendezés nélkül)
+Mielőtt megnézzük a beágyazott hierarchiák feliratainak a működését, tekintsük át a **Kibontás a következő szintre** funkció alapértelmezett viselkedését. Ez lehetővé teszi, hogy megértsük (és értékeljük), mennyire hasznosak lehetnek a beépített hierarchiák feliratai.
 
-Az alábbi képen egy éves értékesítési adatokat tartalmazó sávdiagram látható. Ha jobb gombbal rákattint, kiválaszthatja **Az összes kibontása** lehetőséget.
+Az alábbi képen egy éves értékesítési adatokat tartalmazó sávdiagram látható. Ha a jobb egérgombbal kattint valamelyik sávra, a választható lehetőségek között megjelenik a **Kibontás a következő szintre** pont.
 
-![](media/desktop-inline-hierarchy-labels/inlinehierarchy_4.png)
+![A Kibontás helyi menü](media/desktop-inline-hierarchy-labels/desktop-inline-hierarchy-labels-menu.png)
 
-**Az összes kibontása** lehetőség kiválasztása után a vizualizáció kibontja a dátum hierarchiát *Évtől* kezdve *Negyedévig*, ahogy az alábbi képen látható.
+> [!NOTE]
+> A jobb gombbal való kattintás helyett a vizualizáció bal felső sarkában látható *Kibontás* gombot is használhatja.
 
-![](media/desktop-inline-hierarchy-labels/inlinehierarchy_5.png)
+  ![Kibontás gomb](media/desktop-inline-hierarchy-labels/desktop-inline-hierarchy-labels-expand-button-finger.png)
 
-Megfigyelheti, hogy az *Év* és *Negyedév* feliratok egymásba ágyazva jelennek meg. Ez a feliratozási séma folytatódik, ha **Az összes kibontása** lehetőséget használja a hierarchia aljáig.
 
-![](media/desktop-inline-hierarchy-labels/inlinehierarchy_6.png)
+A **Kibontás a következő szintre** lehetőség kiválasztása után a vizualizáció kibontja a dátumhierarchiát az *Év* szinttől kezdve a *Negyedév* szintig, ahogy az az alábbi képen látható.
+
+![Évek és negyedévek szintjére kibontott vizualizáció](media/desktop-inline-hierarchy-labels/desktop-inline-hierarchy-labels-qty-year-quarter.png)
+
+Megfigyelheti, hogy az *Év* és a *Negyedév* felirat egymásba ágyazva jelenik meg. Ez a feliratozási séma folytatódik, ha **Az összes kibontása** lehetőséget használva a hierarchiát a legalsó szintig kibontja.
+
+![Évek, negyedévek és hónapok szintjére kibontott vizualizáció](media/desktop-inline-hierarchy-labels/desktop-inline-hierarchy-labels-qty-year-quarter-month.png)
 
 Így viselkedik a beépített *Dátum* hierarchia, ami olyan mezőkhöz társul, amelyekben *dátum/idő* adattípus van. Lépjünk a következő szakaszra, és nézzük meg, hogy miben más az új beépített hierarchiák felirata funkció.
 
 ### <a name="using-inline-hierarchy-labels"></a>A beágyazott hierarchiák feliratainak használata
-Az alábbiakban bemutatunk egy másik diagramot olyan adatokkal, amelyek közt informális hierarchiáik vannak. Az alábbi vizualizációban van egy oszlopdiagram a **SalesAmount** (Értékesítés összege) értékét mutatja, és a *Color* (Szín) értéket használjuk tengelyként. Ezekben az adatokban a *Color* (Szín) és a *Class* (Osztály) informális hierarchiát alkotnak. Innen újra kiválaszthatja *Az összes kibontása* lehetőséget, és részletes elemzést indíthat a hierarchiában.
+Az alábbiakban bemutatunk egy másik diagramot olyan adatokkal, amelyek közt informális hierarchiáik vannak. Az alábbi vizualizációban látható oszlopdiagram a **Quantity** (Mennyiség) értékét mutatja, és a *ProductName* (Terméknév) értéket használja tengelyként. Az adatok között a *ProductName* és a *ShipCountry* (Szállítási ország) érték informális hierarchiát alkot. Innen újra kiválaszthatja a *Kibontás a következő szintre* lehetőséget, hogy megtekinthesse a hierarchia következő szintjét.
 
-![](media/desktop-inline-hierarchy-labels/inlinehierarchy_7.png)
+![Diagram informális hierarchiával](media/desktop-inline-hierarchy-labels/desktop-inline-hierarchy-labels-informal-top-expand.png)
 
-Ha kiválasztja **Az összes kibontása** lehetőséget, megjelenik a következő szint a hierarchiák feliratainak beépített megjelenítésével. Alapértelmezés szerint a beépített hierarchiák a mértékérték alapján vannak rendezve, ebben az esetben a **SalesAmount** alapján. Ha a beépített hierarchiák feliratai be vannak kapcsolva, rendezheti ezeket az adatokat hierarchia szerint is a felső sarokban található három pont (**...**) kiválasztásával, majd a **Rendezés szempontja > Color Class** lehetőség kiválasztásával, az alábbi képen látható módon.
+Ha a **Kibontás a következő szintre** lehetőséget választja, megjelenik a következő szint a hierarchiák feliratainak beágyazott megjelenítésével. Alapértelmezés szerint a beágyazott hierarchiák a mértékérték alapján vannak rendezve, ebben az esetben a **Quantity** érték alapján. Ha a beágyazott hierarchiák feliratai be vannak kapcsolva, az adatokat hierarchia szerint is rendezheti a felső sarokban található három pont (**...**), majd pedig a **Rendezés szempontja: ShipCountry** lehetőség kiválasztásával, az alábbi képen látható módon.
 
-![](media/desktop-inline-hierarchy-labels/inlinehierarchy_8.png)
+![Informális hierarchiát tartalmazó diagram alapértelmezett rendezéssel](media/desktop-inline-hierarchy-labels/desktop-inline-hierarchy-labels-informal-sort-quantity.png)
 
-A **Color Class** kiválasztása után az adatok rendezése a kiválasztott informális hierarchia szerint történik az alábbi képen látható módon.
+A **ShipCountry** érték kiválasztása után az adatok rendezése a kiválasztott informális hierarchia szerint történik az alábbi képen látható módon.
 
-![](media/desktop-inline-hierarchy-labels/inlinehierarchy_9.png)
+![Informális hierarchiát tartalmazó diagram informális hierarchia szerint rendezve](media/desktop-inline-hierarchy-labels/desktop-inline-hierarchy-labels-informal-sorted.png)
 
 > [!NOTE]
 > A beépített hierarchiák feliratai funkció még nem teszi lehetővé a beépített időhierarchia érték szerinti rendezését. Csak hierarchia szerint rendezhető.

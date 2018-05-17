@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/23/2018
+ms.date: 05/09/2018
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: 7b8d3b4202ff08b5b97765fe20abe37c41518a31
-ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
+ms.openlocfilehash: 4887204151d50e685ea98a2cf0252370ca4919bb
+ms.sourcegitcommit: 9fa954608e78dcdb8d8a503c3c9b01c43ca728ab
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 03/30/2018
+ms.lasthandoff: 05/11/2018
 ---
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>A Power BI szolgáltatás újdonságai
@@ -38,11 +38,15 @@ Az újdonságokról és a funkciókról az alábbi YouTube-csatornákon is táj�
 * [Microsoft Power BI (YouTube)](https://www.youtube.com/channel/UCy--PYvwBwAeuYaR8JLmrfg)
 * [Guy in a Cube (YouTube)](https://www.youtube.com/channel/UCFp1vaKzpfvoGai0vE5VJ0w)
 
-## <a name="march-2018"></a>2018. március
+## <a name="april-2018"></a>2018. április
+* [Tanulmány: A GDPR hatása a Power BI-ra](http://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=5bd4c466-277b-4726-b9e0-f816ac12872d&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_FAQ_and_White_Papers)
+* Alapértelmezetten bekapcsolt Power BI szolgáltatásbeli [auditnaplók](https://docs.microsoft.com/power-bi/service-admin-auditing) az Office 365-bérlőben.
+
+## <a name="previous-months-2018"></a>Korábbi hónapok (2018)
+### <a name="march-2018"></a>2018. március
 * [Perzisztens szűrők](https://powerbi.microsoft.com/en-us/blog/announcing-persistent-filters-in-the-service/) a Power BI szolgáltatásban.
 * Tartalom megosztása a felhasználókkal a személyes e-mail-fiókjaik használatával. Az [Azure Active Directory vállalatközi együttműködés](https://powerbi.microsoft.com/en-us/blog/power-bi-expands-access-to-intelligence-for-external-guest-users/) kiterjesztése.
 
-## <a name="previous-months-2018"></a>Korábbi hónapok (2018)
 ### <a name="february-2018"></a>2018. február
 * [Power BI-alkalmazások](https://docs.microsoft.com/en-us/power-bi/service-create-distribute-apps) automatikus telepítése a végfelhasználók számára.
 * P4- és P5-kapacitások a Power BI Premium szolgáltatásban

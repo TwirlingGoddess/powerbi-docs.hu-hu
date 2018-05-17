@@ -1,8 +1,8 @@
 ## <a name="faq"></a>Gyakori kérdések
-**Kérdés:** Mi történik, ha korábban létrehoztam szerepköröket/szabályokat egy adatkészlethez a Power BI szolgáltatásban? Akkor is működnek, ha nem teszek semmit?  
-**Válasz:** Nem. A vizualizációk nem fognak megfelelően renderelődni. Újból létre kell hoznia a szerepköröket/szabályokat a Power BI Desktopban, majd közzé kell tennie őket a Power BI szolgáltatásban.
+**Kérdés:** Mi történik, ha korábban már hoztam létre szerepköröket és szabályokat egy adatkészlethez a Power BI szolgáltatásban? Akkor is működnek, ha nem teszek semmit?  
+**Válasz:** Nem. A vizualizációk nem fognak megfelelően renderelődni. Újból létre kell hoznia a szerepköröket és szabályokat a Power BI Desktopban, majd közzé kell tennie őket a Power BI szolgáltatásban.
 
-**Kérdés:** Létrehozhatom ezeket a szerepköröket az Analysis Services-adatforrásokhoz?  
+**Kérdés:** Létrehozhatom ezeket a szerepköröket Analysis Services-adatforrásokhoz?  
 **Válasz:** Igen, ha az adatokat a Power BI Desktopba importálta. Ha élő kapcsolatot használ, nem konfigurálhatja az RLS-t a Power BI szolgáltatáson belül, mert a helyszínen van meghatározva az Analysis Services-modellben.
 
 **Kérdés:** RLS-sel korlátozhatom a felhasználóim számára elérhető oszlopok vagy mértékek körét?  

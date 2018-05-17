@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 03/19/2018
 ms.author: maggies
-ms.openlocfilehash: 995b1aab5547369ef9c4ceebae3f69c268107164
-ms.sourcegitcommit: 0473a155495a7a9ba4b899d0815100426718b7ac
+ms.openlocfilehash: dd6ab0afdb171a1cdb1267adee8bb1c411596dff
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 03/20/2018
+ms.lasthandoff: 05/07/2018
 ---
 # <a name="support-timeline-for-power-bi-report-server"></a>A Power BI jelentéskészítő kiszolgáló támogatási ütemterve
 A Power BI jelentéskészítő kiszolgáló évente néhány alkalommal jelenik meg. A biztonsági és kritikus frissítések addig érhetők el, amíg az új kiadás általánosan elérhető nem lesz. A következő kiadás megjelenése után az előző kiadás a 12 hónapos kiadási ciklusa hátralévő idejében továbbra is letölti a biztonsági frissítéseket.
@@ -46,7 +46,7 @@ A Power BI jelentéskészítő kiszolgáló, illetve a Power BI jelentéskészí
 [A Power BI jelentéskészítő kiszolgáló újdonságai](whats-new.md)  
 [Felhasználói kézikönyv](user-handbook-overview.md)  
 [Rendszergazdai kézikönyv](admin-handbook-overview.md)  
-[Gyors üzembe helyezés: Power BI jelentéskészítő kiszolgáló telepítése](quickstart-install-report-server.md)  
+[A Power BI jelentéskészítő kiszolgáló telepítése](install-report-server.md)  
 
 További kérdései vannak? [Kérdezze meg a Power BI közösségét](https://community.powerbi.com/)
 
