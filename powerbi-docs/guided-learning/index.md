@@ -1,12 +1,12 @@
 ---
-title: "Microsoft Power BI – Interaktív tanulás"
-description: "Ezekkel az egymásra épülő kurzusokkal elkezdheti a tanulást, és megismerheti a Microsoft Power BI kiterjedt lehetőségeit és hatékonyságát."
+title: Microsoft Power BI – Interaktív tanulás
+description: Ezekkel az egymásra épülő kurzusokkal elkezdheti a tanulást, és megismerheti a Microsoft Power BI kiterjedt lehetőségeit és hatékonyságát.
 layout: LandingPage
-ms.openlocfilehash: c0c9b77489731ff2107135f8720b14d320d11e52
-ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
+ms.openlocfilehash: f80886799a2cfc960e4d441d3572d94f3c09b22e
+ms.sourcegitcommit: dcde910817720c05880ffe24755034f916c9b890
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/17/2017
+ms.lasthandoff: 05/19/2018
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -31,23 +31,23 @@ ms.lasthandoff: 11/17/2017
 Első lépések </h3>
                           <ul class="noBullet" style="margin: 24px;">
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="gettingstarted.yml#step-1">Bevezetés a Power BI-ba</a>
+                                <a class="barLink" href="gettingstarted.yml?tutorial-step=1">Bevezetés a Power BI-ba</a>
                                 <span style="margin-left: 32px; align-self: center;">5p</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="gettingstarted.yml#step-2">A Power BI használata</a>
+                                <a class="barLink" href="gettingstarted.yml?tutorial-step=2">A Power BI használata</a>
                                 <span style="margin-left: 32px; align-self: center;">4p</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="gettingstarted.yml#step-3">A Power BI építőelemei</a>
+                                <a class="barLink" href="gettingstarted.yml?tutorial-step=3">A Power BI építőelemei</a>
                                 <span style="margin-left: 32px; align-self: center;">6p</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="gettingstarted.yml#step-4">A Power BI szolgáltatás gyors áttekintése</a>
+                                <a class="barLink" href="gettingstarted.yml?tutorial-step=4">A Power BI szolgáltatás gyors áttekintése</a>
                                 <span style="margin-left: 32px; align-self: center;">9p</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="gettingstarted.yml#step-5">A következő lépések áttekintése</a>
+                                <a class="barLink" href="gettingstarted.yml?tutorial-step=5">A következő lépések áttekintése</a>
                                 <span style="margin-left: 32px; align-self: center;">5p</span>
                               </li>
                           </ul>
@@ -70,27 +70,27 @@ Első lépések </h3>
 Adatok beolvasása </h3>
                           <ul class="noBullet" style="margin: 24px;">
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="gettingdata.yml#step-1">A Power BI Desktop áttekintése</a>
+                                <a class="barLink" href="gettingdata.yml?tutorial-step=1">A Power BI Desktop áttekintése</a>
                                 <span style="margin-left: 32px; align-self: center;">4p</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="gettingdata.yml#step-2">Első lépések a Power BI Desktop használatában</a>
+                                <a class="barLink" href="gettingdata.yml?tutorial-step=2">Első lépések a Power BI Desktop használatában</a>
                                 <span style="margin-left: 32px; align-self: center;">9m</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="gettingdata.yml#step-3">Csatlakozás adatforrásokhoz a Power BI Desktop használatával</a>
+                                <a class="barLink" href="gettingdata.yml?tutorial-step=3">Csatlakozás adatforrásokhoz a Power BI Desktop használatával</a>
                                 <span style="margin-left: 32px; align-self: center;">8p</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="gettingdata.yml#step-4">Adatok tisztítása és átalakítása a lekérdezésszerkesztő (Query Editor) használatával</a>
+                                <a class="barLink" href="gettingdata.yml?tutorial-step=4">Adatok tisztítása és átalakítása a lekérdezésszerkesztő (Query Editor) használatával</a>
                                 <span style="margin-left: 32px; align-self: center;">8p</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="gettingdata.yml#step-5">Speciális adatforrások és adatátalakítások</a>
+                                <a class="barLink" href="gettingdata.yml?tutorial-step=5">Speciális adatforrások és adatátalakítások</a>
                                 <span style="margin-left: 32px; align-self: center;">8p</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="gettingdata.yml#step-6">Nem helyesen formázott adatok tisztítása</a>
+                                <a class="barLink" href="gettingdata.yml?tutorial-step=6">Nem helyesen formázott adatok tisztítása</a>
                                 <span style="margin-left: 32px; align-self: center;">8p</span>
                               </li>
                           </ul>
@@ -113,31 +113,31 @@ Adatok beolvasása </h3>
 Modellezés </h3>
                           <ul class="noBullet" style="margin: 24px;">
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="modeling.yml#step-1">Bevezetés az adatmodellezésbe</a>
+                                <a class="barLink" href="modeling.yml?tutorial-step=1">Bevezetés az adatmodellezésbe</a>
                                 <span style="margin-left: 32px; align-self: center;">3p</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="modeling.yml#step-2">Adatkapcsolatok kezelése</a>
+                                <a class="barLink" href="modeling.yml?tutorial-step=2">Adatkapcsolatok kezelése</a>
                                 <span style="margin-left: 32px; align-self: center;">9p</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="modeling.yml#step-3">Számított oszlopok létrehozása</a>
+                                <a class="barLink" href="modeling.yml?tutorial-step=3">Számított oszlopok létrehozása</a>
                                 <span style="margin-left: 32px; align-self: center;">9p</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="modeling.yml#step-4">Adatmodellek optimalizálása</a>
+                                <a class="barLink" href="modeling.yml?tutorial-step=4">Adatmodellek optimalizálása</a>
                                 <span style="margin-left: 32px; align-self: center;">8p</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="modeling.yml#step-5">Számított mértékek létrehozása</a>
+                                <a class="barLink" href="modeling.yml?tutorial-step=5">Számított mértékek létrehozása</a>
                                 <span style="margin-left: 32px; align-self: center;">14p</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="modeling.yml#step-6">Számított táblák létrehozása</a>
+                                <a class="barLink" href="modeling.yml?tutorial-step=6">Számított táblák létrehozása</a>
                                 <span style="margin-left: 32px; align-self: center;">4p</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="modeling.yml#step-7">Időalapú adatok feltárása</a>
+                                <a class="barLink" href="modeling.yml?tutorial-step=7">Időalapú adatok feltárása</a>
                                 <span style="margin-left: 32px; align-self: center;">6p</span>
                               </li>
                           </ul>
@@ -160,79 +160,79 @@ Modellezés </h3>
 Vizualizációs elemek </h3>
                           <ul class="noBullet" style="margin: 24px;">
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="visualizations.yml#step-1">Bevezetés a Power BI vizuális elemeibe</a>
+                                <a class="barLink" href="visualizations.yml?tutorial-step=1">Bevezetés a Power BI vizuális elemeibe</a>
                                 <span style="margin-left: 32px; align-self: center;">2p</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="visualizations.yml#step-2">Egyszerű vizuális elemek létrehozása és testre szabása</a>
+                                <a class="barLink" href="visualizations.yml?tutorial-step=2">Egyszerű vizuális elemek létrehozása és testre szabása</a>
                                 <span style="margin-left: 32px; align-self: center;">8p</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="visualizations.yml#step-3">Kombinációs diagramok</a>
+                                <a class="barLink" href="visualizations.yml?tutorial-step=3">Kombinációs diagramok</a>
                                 <span style="margin-left: 32px; align-self: center;">5p</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="visualizations.yml#step-4">Szeletelők</a>
+                                <a class="barLink" href="visualizations.yml?tutorial-step=4">Szeletelők</a>
                                 <span style="margin-left: 32px; align-self: center;">7p</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="visualizations.yml#step-5">Térképes megjelenítések</a>
+                                <a class="barLink" href="visualizations.yml?tutorial-step=5">Térképes megjelenítések</a>
                                 <span style="margin-left: 32px; align-self: center;">11p</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="visualizations.yml#step-6">Mátrixok és táblák</a>
+                                <a class="barLink" href="visualizations.yml?tutorial-step=6">Mátrixok és táblák</a>
                                 <span style="margin-left: 32px; align-self: center;">8p</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="visualizations.yml#step-7">Pontdiagramok</a>
+                                <a class="barLink" href="visualizations.yml?tutorial-step=7">Pontdiagramok</a>
                                 <span style="margin-left: 32px; align-self: center;">9p</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="visualizations.yml#step-8">Vízesés- és tölcsérdiagramok</a>
+                                <a class="barLink" href="visualizations.yml?tutorial-step=8">Vízesés- és tölcsérdiagramok</a>
                                 <span style="margin-left: 32px; align-self: center;">5p</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="visualizations.yml#step-9">Mérőműszerek és számkártyák</a>
+                                <a class="barLink" href="visualizations.yml?tutorial-step=9">Mérőműszerek és számkártyák</a>
                                 <span style="margin-left: 32px; align-self: center;">7p</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="visualizations.yml#step-10">Diagramok és vizuális elemek színének módosítása</a>
+                                <a class="barLink" href="visualizations.yml?tutorial-step=10">Diagramok és vizuális elemek színének módosítása</a>
                                 <span style="margin-left: 32px; align-self: center;">5p</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="visualizations.yml#step-11">Alakzatok, szövegmezők és képek</a>
+                                <a class="barLink" href="visualizations.yml?tutorial-step=11">Alakzatok, szövegmezők és képek</a>
                                 <span style="margin-left: 32px; align-self: center;">6p</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="visualizations.yml#step-12">Az oldal elrendezése és formázása</a>
+                                <a class="barLink" href="visualizations.yml?tutorial-step=12">Az oldal elrendezése és formázása</a>
                                 <span style="margin-left: 32px; align-self: center;">5p</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="visualizations.yml#step-13">Vizuális elemek csoportjai közötti interakciók</a>
+                                <a class="barLink" href="visualizations.yml?tutorial-step=13">Vizuális elemek csoportjai közötti interakciók</a>
                                 <span style="margin-left: 32px; align-self: center;">9p</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="visualizations.yml#step-14">Jelentésoldal megkettőzése</a>
+                                <a class="barLink" href="visualizations.yml?tutorial-step=14">Jelentésoldal megkettőzése</a>
                                 <span style="margin-left: 32px; align-self: center;">2p</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="visualizations.yml#step-15">Adatok nélküli kategóriák megjelenítése</a>
+                                <a class="barLink" href="visualizations.yml?tutorial-step=15">Adatok nélküli kategóriák megjelenítése</a>
                                 <span style="margin-left: 32px; align-self: center;">3p</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="visualizations.yml#step-16">Összegzés és kategóriabeállítások</a>
+                                <a class="barLink" href="visualizations.yml?tutorial-step=16">Összegzés és kategóriabeállítások</a>
                                 <span style="margin-left: 32px; align-self: center;">9p</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="visualizations.yml#step-17">Mélység (Z)</a>
+                                <a class="barLink" href="visualizations.yml?tutorial-step=17">Mélység (Z)</a>
                                 <span style="margin-left: 32px; align-self: center;">3p</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="visualizations.yml#step-18">Hierarchikus megjelenítés és szintek kibontása</a>
+                                <a class="barLink" href="visualizations.yml?tutorial-step=18">Hierarchikus megjelenítés és szintek kibontása</a>
                                 <span style="margin-left: 32px; align-self: center;">5p</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="visualizations.yml#step-19">R-integráció a Power BI Desktopban</a>
+                                <a class="barLink" href="visualizations.yml?tutorial-step=19">R-integráció a Power BI Desktopban</a>
                                 <span style="margin-left: 32px; align-self: center;">9p</span>
                               </li>
                           </ul>
@@ -255,43 +255,43 @@ Vizualizációs elemek </h3>
 Adatok feltárása </h3>
                           <ul class="noBullet" style="margin: 24px;">
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="exploringdata.yml#step-1">A Power BI szolgáltatás bemutatása</a>
+                                <a class="barLink" href="exploringdata.yml?tutorial-step=1">A Power BI szolgáltatás bemutatása</a>
                                 <span style="margin-left: 32px; align-self: center;">2p</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="exploringdata.yml#step-2">Gyors elemzések a Power BI-ban</a>
+                                <a class="barLink" href="exploringdata.yml?tutorial-step=2">Gyors elemzések a Power BI-ban</a>
                                 <span style="margin-left: 32px; align-self: center;">5p</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="exploringdata.yml#step-3">Irányítópult létrehozása és konfigurálása</a>
+                                <a class="barLink" href="exploringdata.yml?tutorial-step=3">Irányítópult létrehozása és konfigurálása</a>
                                 <span style="margin-left: 32px; align-self: center;">6p</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="exploringdata.yml#step-4">Természetes nyelvi kérdések az adatokról</a>
+                                <a class="barLink" href="exploringdata.yml?tutorial-step=4">Természetes nyelvi kérdések az adatokról</a>
                                 <span style="margin-left: 32px; align-self: center;">9p</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="exploringdata.yml#step-5">Kérdés-válasz megoldásra vonatkozó egyéni javaslatok létrehozása</a>
+                                <a class="barLink" href="exploringdata.yml?tutorial-step=5">Kérdés-válasz megoldásra vonatkozó egyéni javaslatok létrehozása</a>
                                 <span style="margin-left: 32px; align-self: center;">4p</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="exploringdata.yml#step-6">Irányítópult megosztása a cégen belül</a>
+                                <a class="barLink" href="exploringdata.yml?tutorial-step=6">Irányítópult megosztása a cégen belül</a>
                                 <span style="margin-left: 32px; align-self: center;">7p</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="exploringdata.yml#step-7">Vizuális elemek és csempék teljes képernyős megjelenítése</a>
+                                <a class="barLink" href="exploringdata.yml?tutorial-step=7">Vizuális elemek és csempék teljes képernyős megjelenítése</a>
                                 <span style="margin-left: 32px; align-self: center;">4p</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="exploringdata.yml#step-8">Csempe adatainak szerkesztése és widgetek hozzáadása</a>
+                                <a class="barLink" href="exploringdata.yml?tutorial-step=8">Csempe adatainak szerkesztése és widgetek hozzáadása</a>
                                 <span style="margin-left: 32px; align-self: center;">5p</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="exploringdata.yml#step-9">A hely bővítése az irányítópulton</a>
+                                <a class="barLink" href="exploringdata.yml?tutorial-step=9">A hely bővítése az irányítópulton</a>
                                 <span style="margin-left: 32px; align-self: center;">5p</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="exploringdata.yml#step-10">Személyes átjáró telepítése és beállítása</a>
+                                <a class="barLink" href="exploringdata.yml?tutorial-step=10">Személyes átjáró telepítése és beállítása</a>
                                 <span style="margin-left: 32px; align-self: center;">11p</span>
                               </li>
                           </ul>
@@ -314,23 +314,23 @@ Adatok feltárása </h3>
 A Power BI és az Excel </h3>
                           <ul class="noBullet" style="margin: 24px;">
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="powerbiandexcel.yml#step-1">Bevezetés az Excel-adatok használatába a Power BI-ban</a>
+                                <a class="barLink" href="powerbiandexcel.yml?tutorial-step=1">Bevezetés az Excel-adatok használatába a Power BI-ban</a>
                                 <span style="margin-left: 32px; align-self: center;">2p</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="powerbiandexcel.yml#step-2">Excel-adatok betöltése a Power BI-ba</a>
+                                <a class="barLink" href="powerbiandexcel.yml?tutorial-step=2">Excel-adatok betöltése a Power BI-ba</a>
                                 <span style="margin-left: 32px; align-self: center;">4p</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="powerbiandexcel.yml#step-3">A Power View és a Power Pivot importálása a Power BI-ba</a>
+                                <a class="barLink" href="powerbiandexcel.yml?tutorial-step=3">A Power View és a Power Pivot importálása a Power BI-ba</a>
                                 <span style="margin-left: 32px; align-self: center;">4p</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="powerbiandexcel.yml#step-4">A OneDrive Vállalati verzió csatlakoztatása a Power BI-hoz</a>
+                                <a class="barLink" href="powerbiandexcel.yml?tutorial-step=4">A OneDrive Vállalati verzió csatlakoztatása a Power BI-hoz</a>
                                 <span style="margin-left: 32px; align-self: center;">8p</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="powerbiandexcel.yml#step-5">Excel a Power BI-ban – összefoglaló</a>
+                                <a class="barLink" href="powerbiandexcel.yml?tutorial-step=5">Excel a Power BI-ban – összefoglaló</a>
                                 <span style="margin-left: 32px; align-self: center;">2p</span>
                               </li>
                           </ul>
@@ -353,51 +353,51 @@ A Power BI és az Excel </h3>
 Közzététel és megosztás </h3>
                           <ul class="noBullet" style="margin: 24px;">
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="publishingandsharing.yml#step-1">A tartalomcsomagok, a biztonság és a csoportok bemutatása</a>
+                                <a class="barLink" href="publishingandsharing.yml?tutorial-step=1">A tartalomcsomagok, a biztonság és a csoportok bemutatása</a>
                                 <span style="margin-left: 32px; align-self: center;">2p</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="publishingandsharing.yml#step-2">Power BI Desktop-jelentések közzététele</a>
+                                <a class="barLink" href="publishingandsharing.yml?tutorial-step=2">Power BI Desktop-jelentések közzététele</a>
                                 <span style="margin-left: 32px; align-self: center;">2p</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="publishingandsharing.yml#step-3">Irányítópultok és jelentések nyomtatása és exportálása</a>
+                                <a class="barLink" href="publishingandsharing.yml?tutorial-step=3">Irányítópultok és jelentések nyomtatása és exportálása</a>
                                 <span style="margin-left: 32px; align-self: center;">4p</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="publishingandsharing.yml#step-4">Adatok újbóli közzététele és frissítése manuálisan</a>
+                                <a class="barLink" href="publishingandsharing.yml?tutorial-step=4">Adatok újbóli közzététele és frissítése manuálisan</a>
                                 <span style="margin-left: 32px; align-self: center;">5p</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="publishingandsharing.yml#step-5">A Power BI Mobile bemutatása</a>
+                                <a class="barLink" href="publishingandsharing.yml?tutorial-step=5">A Power BI Mobile bemutatása</a>
                                 <span style="margin-left: 32px; align-self: center;">7p</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="publishingandsharing.yml#step-6">Csoportok létrehozása a Power BI-ban</a>
+                                <a class="barLink" href="publishingandsharing.yml?tutorial-step=6">Csoportok létrehozása a Power BI-ban</a>
                                 <span style="margin-left: 32px; align-self: center;">5p</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="publishingandsharing.yml#step-7">Tartalomcsomagok létrehozása</a>
+                                <a class="barLink" href="publishingandsharing.yml?tutorial-step=7">Tartalomcsomagok létrehozása</a>
                                 <span style="margin-left: 32px; align-self: center;">5p</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="publishingandsharing.yml#step-8">Tartalomcsomagok használata</a>
+                                <a class="barLink" href="publishingandsharing.yml?tutorial-step=8">Tartalomcsomagok használata</a>
                                 <span style="margin-left: 32px; align-self: center;">7p</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="publishingandsharing.yml#step-9">Tartalomcsomagok frissítése</a>
+                                <a class="barLink" href="publishingandsharing.yml?tutorial-step=9">Tartalomcsomagok frissítése</a>
                                 <span style="margin-left: 32px; align-self: center;">4p</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="publishingandsharing.yml#step-10">A OneDrive Vállalati verzió integrálása a Power BI-vel</a>
+                                <a class="barLink" href="publishingandsharing.yml?tutorial-step=10">A OneDrive Vállalati verzió integrálása a Power BI-vel</a>
                                 <span style="margin-left: 32px; align-self: center;">3p</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="publishingandsharing.yml#step-11">Webes közzététel</a>
+                                <a class="barLink" href="publishingandsharing.yml?tutorial-step=11">Webes közzététel</a>
                                 <span style="margin-left: 32px; align-self: center;">5p</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="publishingandsharing.yml#step-12">A Power BI interaktív tanulás elvégzése</a>
+                                <a class="barLink" href="publishingandsharing.yml?tutorial-step=12">A Power BI interaktív tanulás elvégzése</a>
                                 <span style="margin-left: 32px; align-self: center;">4p</span>
                               </li>
                           </ul>
@@ -420,27 +420,27 @@ Közzététel és megosztás </h3>
 Bevezetés a DAX használatába </h3>
                           <ul class="noBullet" style="margin: 24px;">
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="introductiontodax.yml#step-1">Bevezetés a DAX-ba</a>
+                                <a class="barLink" href="introductiontodax.yml?tutorial-step=1">Bevezetés a DAX-ba</a>
                                 <span style="margin-left: 32px; align-self: center;">9p</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="introductiontodax.yml#step-2">A DAX számítási típusai</a>
+                                <a class="barLink" href="introductiontodax.yml?tutorial-step=2">A DAX számítási típusai</a>
                                 <span style="margin-left: 32px; align-self: center;">22p</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="introductiontodax.yml#step-3">DAX-függvények</a>
+                                <a class="barLink" href="introductiontodax.yml?tutorial-step=3">DAX-függvények</a>
                                 <span style="margin-left: 32px; align-self: center;">17p</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="introductiontodax.yml#step-4">Változók használata a DAX-kifejezésekben</a>
+                                <a class="barLink" href="introductiontodax.yml?tutorial-step=4">Változók használata a DAX-kifejezésekben</a>
                                 <span style="margin-left: 32px; align-self: center;">4p</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="introductiontodax.yml#step-5">Táblakapcsolatok a DAX-ban</a>
+                                <a class="barLink" href="introductiontodax.yml?tutorial-step=5">Táblakapcsolatok a DAX-ban</a>
                                 <span style="margin-left: 32px; align-self: center;">13p</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="introductiontodax.yml#step-6">Táblák és szűrés a DAX-ban</a>
+                                <a class="barLink" href="introductiontodax.yml?tutorial-step=6">Táblák és szűrés a DAX-ban</a>
                                 <span style="margin-left: 32px; align-self: center;">32p</span>
                               </li>
                           </ul>
