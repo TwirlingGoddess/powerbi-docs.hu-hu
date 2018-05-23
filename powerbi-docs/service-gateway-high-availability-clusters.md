@@ -1,28 +1,20 @@
 ---
 title: Magas rendelkezésre állású fürtök helyszíni adatátjáróhoz
 description: A helyszíni adatátjárókból fürtök hozhatók létere, amelyek révén magas rendelkezésre állás biztosítható a vállalat számára.
-services: powerbi
-documentationcenter: ''
 author: mgblythe
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: powerbi
+ms.component: powerbi-gateways
+ms.topic: conceptual
 ms.date: 12/05/2017
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 5ca925b45460f2b2e173e0a5e25b839e52eff309
-ms.sourcegitcommit: 8552a34df8e6141eb704314c1a019992901d6e78
+ms.openlocfilehash: e15983bf754a2fc1e2fe9ae376eedbed36e20ce4
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/08/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="high-availability-clusters-for-on-premises-data-gateway"></a>Magas rendelkezésre állású fürtök helyszíni adatátjáróhoz
 A **helyszínen üzemelő adatátjárókból** **magas rendelkezésre állású fürtöket** hozhat lére, így biztosíthatja a szervezet hozzáférését a Power BI-jelentések és -irányítópultok által használt helyszíni adatforrásokhoz. Ezek a fürtök lehetővé teszik az átjárót felügyelő rendszergazdák számára az átjárók csoportosítását, és ezzel elkerülhetik, hogy egy adott pont meghibásodása megakadályozza a helyszíni adatforrásokhoz való hozzáférést. Ez a cikk azokat a lépéseket ismerteti, amelyekkel létrehozható a helyszíni adatátjárókból egy magas rendelkezésre állású fürt, és a beállításokhoz használható ajánlott eljárásokat is tartalmaz. A magas rendelkezésre állású átjárófürtökhöz a helyszíni adatátjáró 2017. novemberi vagy újabb frissítésére van szükség.

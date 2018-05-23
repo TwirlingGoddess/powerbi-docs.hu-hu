@@ -1,28 +1,20 @@
 ---
-title: "Jelentés exportálása a Power BI szolgáltatásból a Desktopba (előzetes verzió)"
-description: "Jelentés letöltése a Power BI szolgáltatásból Power BI Desktop-fájlba"
-services: powerbi
-documentationcenter: 
+title: Jelentés exportálása a Power BI szolgáltatásból a Desktopba (előzetes verzió)
+description: Jelentés letöltése a Power BI szolgáltatásból Power BI Desktop-fájlba
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 0cda094f3104b32f9bad31bf5030e235eb7ce83d
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: 90f7cddec13159c445dc97f7adeea790020f8c72
+ms.sourcegitcommit: dcde910817720c05880ffe24755034f916c9b890
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 05/19/2018
 ---
 # <a name="export-a-report-from-power-bi-service-to-desktop-preview"></a>Jelentés exportálása a Power BI szolgáltatásból a Desktopba (előzetes verzió)
 A Power BI Desktopban exportálhat (más kifejezéssel *letölthet*) jelentést a Power BI szolgáltatásba, ha menti a jelentést, és a **Közzététel** lehetőséget választja. Exportálhat a másik irányba is, és letöltheti a jelentést a Power BI szolgáltatásból a Desktopba. Az exportált fájlok kiterjesztése mindkét irány esetében *.pbix*.
@@ -38,7 +30,7 @@ A .pbix-fájl letöltéséhez kövesse az alábbi lépéseket:
 2. A menüsávon válassza a **Fájl > Jelentés letöltése** lehetőséget.
    
    > [!NOTE]
-   > Ahhoz, hogy a jelentés letölthető legyen, a [Power BI Desktop használatával létrehozott](guided-learning/publishingandsharing.yml#step-2), 2016. november 23. utáni – és azóta frissített – jelentésnek kell lennie. Ha nem az, akkor a Power BI szolgáltatás *Jelentés letöltése* menüpontja halványítva jelenik meg.
+   > Ahhoz, hogy a jelentés letölthető legyen, a [Power BI Desktop használatával létrehozott](guided-learning/publishingandsharing.yml?tutorial-step=2), 2016. november 23. utáni – és azóta frissített – jelentésnek kell lennie. Ha nem az, akkor a Power BI szolgáltatás *Jelentés letöltése* menüpontja halványítva jelenik meg.
    > 
    > 
 3. A .pbix-fájl létrehozása közben egy állapotsáv jelzi a folyamat előrehaladását. Amikor a fájl elkészül, a rendszer felszólítja a .pbix-fájl megnyitására vagy mentésére. A fájl neve megegyezik a jelentés címével.

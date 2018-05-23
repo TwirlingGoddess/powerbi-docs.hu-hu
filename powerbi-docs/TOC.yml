@@ -140,8 +140,6 @@
                   href: service-connect-to-azure-consumption-insights.md
                 - name: Azure Search
                   href: service-connect-to-azure-search.md
-                - name: Azure Security Center
-                  href: service-connect-to-azure-security-center.md
                 - name: Circuit ID
                   href: service-connect-to-circuit-id.md
                 - name: ClickDimensions
@@ -414,10 +412,8 @@
                   href: refresh-excel-file-onedrive.md
                 - name: 'A OneDrive-ban tárolt, vesszővel tagolt (.csv) fájlból létrehozott adatkészlet frissítése'
                   href: refresh-csv-file-onedrive.md
-                - name: Frissítésekkel kapcsolatos hibák elhárítása
+                - name: Frissítési forgatókönyvekkel kapcsolatos hibák elhárítása
                   href: refresh-troubleshooting-refresh-scenarios.md
-                - name: Adatvédelmi beállítások letiltása
-                  href: refresh-enable-fast-combine.md
             - name: Hibaelhárítás
               items:
                 - name: Elfelejtette a Power BI-hoz használatos jelszavát?
@@ -470,6 +466,18 @@
       items:
         - name: Több adatforrás formázása és kombinálása
           href: desktop-shape-and-combine-data.md
+        - name: Weblapokról származó adatok importálása és elemzése a Power BI Desktop használatával
+          href: desktop-tutorial-importing-and-analyzing-data-from-a-web-page.md
+        - name: ' Excelből és OData-csatornáról származó értékesítési adatok elemzése'
+          href: desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed.md
+        - name: Saját mértékek létrehozása a Power BI Desktopban
+          href: desktop-tutorial-create-measures.md
+        - name: Számított oszlopok létrehozása a Power BI Desktopban
+          href: desktop-tutorial-create-calculated-columns.md
+        - name: Facebook-elemzések a Power BI Desktop használatával
+          href: desktop-tutorial-facebook-analytics.md
+        - name: Dinamikus sorszintű biztonság Analysis Services-beli táblázatos modellel
+          href: desktop-tutorial-row-level-security-onprem-ssas-tabular.md
     - name: Minták
       items:
         - name: A Power BI-hoz készült Pénzügyi minta munkafüzet letöltése
@@ -526,18 +534,6 @@
           href: desktop-connect-to-data.md
         - name: Közzététel a Power BI Desktopból
           href: desktop-upload-desktop-files.md
-        - name: Weblapokról származó adatok importálása és elemzése a Power BI Desktop használatával
-          href: desktop-tutorial-importing-and-analyzing-data-from-a-web-page.md
-        - name: ' Excelből és OData-csatornáról származó értékesítési adatok elemzése'
-          href: desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed.md
-        - name: Saját mértékek létrehozása a Power BI Desktopban
-          href: desktop-tutorial-create-measures.md
-        - name: Számított oszlopok létrehozása a Power BI Desktopban
-          href: desktop-tutorial-create-calculated-columns.md
-        - name: Facebook-elemzések a Power BI Desktop használatával
-          href: desktop-tutorial-facebook-analytics.md
-        - name: Dinamikus sorszintű biztonság Analysis Services-beli táblázatos modellel
-          href: desktop-tutorial-row-level-security-onprem-ssas-tabular.md
         - name: Egyéni vizualizációk a Power BI-ban
           href: power-bi-custom-visuals.md
         - name: Egyéni vizualizációk cégek számára a Power BI-ban
@@ -898,8 +894,6 @@
           href: developer/qanda.md
     - name: Útmutató
       items:
-        - name: Egyéni vizuális elem létrehozása a Fejlesztői eszközökkel
-          href: service-custom-visuals-getting-started-with-developer-tools.md
         - name: Tartalom beágyazása
           href: developer/embedding-content.md
         - name: Adatbetöltés irányítópultra
@@ -914,6 +908,18 @@
           href: developer/integrate-report.md
         - name: Tartalom integrálása alkalmazásba (az alkalmazás az adattulajdonos)
           href: developer/embed-sample-for-customers.md
+        - name: Tartalom integrálása alkalmazásba szuverén felhők esetében (az alkalmazás az adattulajdonos)
+          href: developer/embed-sample-for-customers-sovereign-clouds.md
+        - name: Egyéni vizuális elem létrehozása
+          items:
+            - name: Egyéni vizuális elem létrehozása a Fejlesztői eszközökkel
+              href: service-custom-visuals-getting-started-with-developer-tools.md
+            - name: Egyéni vizuális elem biztonsági és adatvédelmi ellenőrzése
+              href: service-custom-visuals-review-for-security-and-privacy.md
+            - name: Egyéni vizuális elem hitelesítése
+              href: power-bi-custom-visuals-certified.md
+            - name: Egyéni vizualizációk közzététele az AppSource-ban
+              href: developer/office-store.md
         - name: Beágyazás
           items:
             - name: Beágyazás a Power BI-jal
@@ -932,12 +938,6 @@
               href: developer/migrate-code-snippets.md
             - name: Beágyazott alkalmazás hibaelhárítása
               href: developer/embedded-troubleshoot.md
-        - name: Egyéni vizuális elem létrehozása
-          items:
-            - name: Egyéni vizualizációk áttekintése biztonsági és adatvédelmi szempontból
-              href: service-custom-visuals-review-for-security-and-privacy.md
-            - name: Egyéni vizuális elem hitelesítése
-              href: power-bi-custom-visuals-certified.md
         - name: Adatbetöltés irányítópultra
           items:
             - name: Alkalmazás regisztrálása az Azure AD-vel
@@ -976,7 +976,7 @@
           href: 'https://go.microsoft.com/fwlink/?linkid=848277'
     - name: Erőforrások
       items:
-        - name: JavaScript-beágyazási bemutató
+        - name: JavaScript Playground-minta
           href: 'https://go.microsoft.com/fwlink/?linkid=848279'
         - name: Minták
           href: 'https://go.microsoft.com/fwlink/?linkid=851293'
@@ -1126,10 +1126,12 @@
           href: service-gateway-kerberos-for-sso-pbi-to-on-premises-data.md
         - name: Proxybeállítások konfigurálása
           href: service-gateway-proxy.md
-        - name: Helyszíni adatátjáró – részletes
-          href: service-gateway-onprem-indepth.md
         - name: Magas rendelkezésre állású fürtök helyszíni adatátjáróhoz
           href: service-gateway-high-availability-clusters.md
+        - name: Helyszíni adatátjáró
+          href: service-gateway-onprem.md
+        - name: Helyszíni adatátjáró – részletes
+          href: service-gateway-onprem-indepth.md
         - name: Helyszíni adatátjáró (személyes mód)
           href: service-gateway-personal-mode.md
         - name: A helyszíni adatátjáróval kapcsolatos hibák elhárítása
@@ -1188,6 +1190,8 @@
           href: service-admin-health.md
         - name: A Power BI-fiók megszüntetése
           href: service-admin-closing-your-account.md
+        - name: A Power BI Pro használata a szervezetben
+          href: service-admin-power-bi-pro-in-your-organization.md
         - name: Power BI (ingyenes) a cégen belül
           href: service-admin-service-free-in-your-organization.md
         - name: A Power BI és az ExpressRoute

@@ -1,28 +1,20 @@
 ---
 title: Irányítási és üzembe helyezési megközelítések
 description: Tanulmány a Power BI-ökoszisztéma irányításával kapcsolatos alapfogalmak, lehetőségek és javaslatok megismeréséhez.
-services: powerbi
-documentationcenter: ''
 author: mgblythe
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: powerbi
+ms.component: powerbi-admin
+ms.topic: conceptual
 ms.date: 06/28/2017
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 8f2f48143e9f1c5a304f8d864ea39b8118d331f8
-ms.sourcegitcommit: 8552a34df8e6141eb704314c1a019992901d6e78
+ms.openlocfilehash: 955f4347630a781174d399d6a1363683745a4b3e
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/08/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="governance-and-deployment-approaches"></a>Irányítási és üzembe helyezési megközelítések
 Az elmúlt néhány évtizedben a vállalatok egyre jobban felfigyeltek arra, milyen fontos az adategységekben rejlő előnyök stratégiai kihasználása, ha a piaci lehetőségekből profitálni szeretnének. Sok vállalat már megértette, hogy egy adatstratégia alkalmazásával, például a versenyképesség elemzésével vagy a működési minták megismerésével, a versenytársak előtt maradhatnak.  

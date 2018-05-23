@@ -1,28 +1,20 @@
 ---
 title: A Q&A használata a Power BI Desktopban
 description: Mostantól használhat természetes nyelvű lekérdezéseket a Power BI Desktop alkalmazásban, a Q&A segítségével
-services: powerbi
-documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 2fd3b599e89646f7bcebbe8b65212765fe76874b
-ms.sourcegitcommit: 9fa954608e78dcdb8d8a503c3c9b01c43ca728ab
+ms.openlocfilehash: e9f1bd3231182d66d2ded0abbb67b4d111941ee4
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 05/11/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="use-qa-in-power-bi-desktop-for-natural-language-queries"></a>A Q&A használata a Power BI Desktopban a természetes nyelvű lekérdezések lehetővé tételéhez
 Hatékony eszköz a munkához, ha gyakori kifejezéseken és természetes nyelven alapuló kérdéseket tud feltenni az adataival kapcsolatban. Még hatékonyabb, ha az adatforrás válaszol is, és a **Power BI Desktop** alkalmazás Q&A szolgáltatása épp ezt teszi lehetővé.

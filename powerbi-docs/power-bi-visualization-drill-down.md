@@ -1,29 +1,21 @@
 ---
-title: "Lehatolás a vizualizációk mélyebb szintjeire a Power BI-ban"
-description: "Ez a dokumentum bemutatja, hogyan lehet lehatolni a vizualizációk mélyebb szintjeire a Microsoft Power BI szolgáltatásban és a Power BI Desktopban."
-services: powerbi
-documentationcenter: 
+title: Lehatolás a vizualizációk mélyebb szintjeire a Power BI-ban
+description: Ez a dokumentum bemutatja, hogyan lehet lehatolni a vizualizációk mélyebb szintjeire a Microsoft Power BI szolgáltatásban és a Power BI Desktopban.
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+ms.reviewer: ''
 featuredvideoid: MNAaHw4PxzE
-qualityfocus: no
-qualitydate: 
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 02/26/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: fb834c92953c2cafcbca77bc1b3828b385755bca
-ms.sourcegitcommit: 743e44fc8730fea0f7149916080b0c6d7eb6359d
+ms.openlocfilehash: d622e6b461668d1972a78f6844bd269fb6596061
+ms.sourcegitcommit: dcde910817720c05880ffe24755034f916c9b890
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/28/2018
+ms.lasthandoff: 05/19/2018
 ---
 # <a name="drill-down-in-a-visualization-in-power-bi"></a>Lehatolás a vizualizációk mélyebb szintjeire a Power BI-ban
 ## <a name="drill-down-requires-a-hierarchy"></a>A lehatoláshoz hierarchiára van szükség
@@ -35,7 +27,7 @@ Nem tudja, mely Power BI-vizualizációk tartalmaznak hierarchiát?  Húzza a ku
 ![](media/power-bi-visualization-drill-down/power-bi-drill-icon4.png)  ![](media/power-bi-visualization-drill-down/power-bi-drill-icon2.png)  ![](media/power-bi-visualization-drill-down/power-bi-drill-icon3.png)
 ![](media/power-bi-visualization-drill-down/power-bi-drill-icon5.png) ![](media/power-bi-visualization-drill-down/power-bi-drill-icon6.png)  
 
-Sajátos hierarchiatípust képviselnek a dátumok. Amikor dátummezőt ad egy vizualizációhoz, a Power BI automatikusan felvesz egy évekből, negyedévekből, hónapokból és napokból álló időhierarchiát. Ha ezzel kapcsolatban további információra van szüksége, tekintse át a [vizualizációs hierarchiákat és a lehatolás működését](guided-learning/visualizations.yml#step-18) áttekintő cikket.
+Sajátos hierarchiatípust képviselnek a dátumok. Amikor dátummezőt ad egy vizualizációhoz, a Power BI automatikusan felvesz egy évekből, negyedévekből, hónapokból és napokból álló időhierarchiát. Ha ezzel kapcsolatban további információra van szüksége, tekintse át a [vizualizációs hierarchiákat és a lehatolás működését](guided-learning/visualizations.yml?tutorial-step=18) áttekintő cikket.
 
 
   <iframe width="560" height="315" src="https://www.youtube.com/embed/MNAaHw4PxzE?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>

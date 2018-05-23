@@ -1,34 +1,26 @@
 ---
 title: Szövegdobozok és alakzatok a Power BI-jelentésekben
 description: Dokumentáció szövegdobozok és alakzatok Microsoft Power BI szolgáltatással történő hozzáadásáról és létrehozásáról a jelentésekben.
-services: powerbi
-documentationcenter: ''
 author: mihart
 manager: kfile
-backup: ''
-editor: ''
+ms.reviewer: ''
 featuredvideoid: _3q6VEBhGew
-tags: ''
-qualityfocus: no
-qualitydate: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 03/22/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 5e71159e2c7d0cb7439a14bf5d8e082192c4ab7a
-ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
+ms.openlocfilehash: 7a002bb99cb80d805298d29916d4eb56f692b479
+ms.sourcegitcommit: dcde910817720c05880ffe24755034f916c9b890
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 05/19/2018
 ---
 # <a name="static-content-in-power-bi-reports"></a>Statikus tartalom a Power BI-jelentésekben
 Szövegmezőket és alakzatokat a Power BI szolgáltatásban és a Power BI Desktopban is hozzá lehet adni a jelentésekhez. Mindkét esetben a jelentésre vonatkozó szerkesztési jogosultsággal kell rendelkeznie. Ha a jelentést megosztották Önnel a Power BI szolgáltatásban, akkor nem rendelkezik hozzá szerkesztési jogosultsággal. 
 
-Figyelje meg, hogyan használja Will a Power BI Desktopot, hogy [statikus képeket adjon hozzá egy jelentéshez](guided-learning/visualizations.yml#step-11), majd az alábbi lépéseket használva próbálja meg ugyanezt elvégezni a Power BI szolgáltatás használatával.
+Figyelje meg, hogyan használja Will a Power BI Desktopot, hogy [statikus képeket adjon hozzá egy jelentéshez](guided-learning/visualizations.yml?tutorial-step=11), majd az alábbi lépéseket használva próbálja meg ugyanezt elvégezni a Power BI szolgáltatás használatával.
 > 
 > <iframe width="560" height="315" src="https://www.youtube.com/embed/_3q6VEBhGew" frameborder="0" allowfullscreen></iframe>
 > 

@@ -1,28 +1,20 @@
 ---
 title: Az Azure és a Power BI
 description: Az Azure és a Power BI
-services: powerbi
-documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Data from databases
-ms.openlocfilehash: 9e4685174c5489b898777383925d601dd44fea39
-ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
+ms.openlocfilehash: a656866b1c9cdc0d1eb83b67c0edf79c182d1a71
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 05/04/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="azure-and-power-bi"></a>Az Azure és a Power BI
 Az **Azure** szolgáltatások és a **Power BI** segítségével adatfeldolgozási erőfeszítéseit elemzésekké és jelentésekké alakíthatja, amelyek valós idejű betekintést nyújtanak üzleti tevékenységébe. Legyen az adatfeldolgozás felhőalapú vagy helyszíni, egyszerű vagy összetett, egyetlen forrásból származó vagy tömegesen skálázott, raktározott vagy valós idejű, az Azure és a Power BI biztosítja a beépített kapcsolódást és integrációt üzletiintelligencia-erőfeszítéseinek életre keltéséhez.

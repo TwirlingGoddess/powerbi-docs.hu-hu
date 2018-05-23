@@ -1,66 +1,58 @@
 ---
 title: Átméretezhető rugalmas szeletelő létrehozása a Power BI-ban
 description: Útmutató egy olyan szeletelő létrehozásához, mely átméretezhető a jelentésnek megfelelően
-services: powerbi
-documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 12/08/2017
+ms.component: powerbi-desktop
+ms.topic: conceptual
+ms.date: 05/04/2018
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: f70ebae419c83e359f950d7b1180809d3e25b59e
-ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
+ms.openlocfilehash: d5d57525e8aab3a3f7bfa1806661c4bf6e3ff981
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 05/07/2018
+ms.lasthandoff: 05/17/2018
 ---
-# <a name="create-a-responsive-slicer-you-can-resize-in-power-bi-preview"></a>Átméretezhető rugalmas szeletelő létrehozása a Power BI-ban (Előzetes verzió)
+# <a name="create-a-responsive-slicer-you-can-resize-in-power-bi"></a>Átméretezhető rugalmas szeletelő létrehozása a Power BI-ban
 
 A rugalmas szeletelők a jelentés tetszőleges területének megfelelően átméretezhetők. Ha rugalmas szeletelőket használ, azokat különböző méretekre és vízszintes, négyzetes vagy függőleges alakzatokra méretezheti át, és a szeletelő értékei eközben automatikusan átrendeződnek. A Power BI Desktopban és a Power BI szolgáltatásban is rugalmassá tehet vízszintes szeletelőket és dátumtartomány-szeletelőket. A dátumtartomány-szeletelők emellett továbbfejlesztett érintéses területtel rendelkeznek, így könnyebben módosíthatók egyetlen érintéssel. A rugalmas szeletelők tetszőleges méretűre állíthatók; emellett a rendszer automatikusan átméretezi őket, hogy megfelelően illeszkedjenek a jelentésekbe a Power BI szolgáltatásban, illetve a Power BI-mobilalkalmazásokban is. 
 
-![A rugalmas szeletelők számos különböző alakúak lehetnek](media/power-bi-slicer-filter-responsive/responsive-slicer-gif.gif)
+![A rugalmas szeletelők számos különböző alakúak lehetnek](media/power-bi-slicer-filter-responsive/power-bi-slicer-filter-responsive-0-slicer.gif)
 
 ## <a name="create-a-slicer"></a>Szeletelő létrehozása
 
 A dinamikus szeletelők létrehozásának első lépése egy egyszerű szeletelő létrehozása. 
 
-1. Válassza a **Szeletelő** ikont ![Szeletelő ikon](media/power-bi-slicer-filter-responsive/power-bi-slicer-icon.png) a **Megjelenítések** ablaktáblán.
+1. Válassza a **Szeletelő** ikont ![Szeletelő ikon](media/power-bi-slicer-filter-responsive/power-bi-slicer-filter-responsive-0-slicer-icon.png) a **Megjelenítések** ablaktáblán.
 2. Húzza a szűrni kívánt mezőt a **Mező** lehetőségre.
 
-    ![Mező hozzáadása a szeletelőhöz](media/power-bi-slicer-filter-responsive/power-bi-slicer-field.png)
+    ![Mező hozzáadása a szeletelőhöz](media/power-bi-slicer-filter-responsive/power-bi-slicer-filter-responsive-1-create.png)
 
 ## <a name="convert-to-a-horizontal-slicer"></a>Átalakítás vízszintes szeletelővé
 
 1. Válassza ki a szeletelőt, majd a **Megjelenítések** ablaktáblán válassza a **Formátum** lapot.
 2. Bontsa ki az **Általános** szakaszt, majd a **Tájolás** beállításnál válassza a **Vízszintes** lehetőséget.
 
-    ![A szeletelő vízszintesre állítása](media/power-bi-slicer-filter-responsive/power-bi-slicer-horizontal.png) 
+    ![A szeletelő vízszintesre állítása](media/power-bi-slicer-filter-responsive/power-bi-slicer-filter-responsive-2-horizontal.png) 
 
 1.  Érdemes szélesebbre állítania, hogy több érték jelenjen meg.
 
-     ![A szeletelő szélesebbre állítása](media/power-bi-slicer-filter-responsive/power-bi-slicer-wide-horizontal.png)
+     ![A szeletelő szélesebbre állítása](media/power-bi-slicer-filter-responsive/power-bi-slicer-filter-responsive-3-wider.png)
 
 ## <a name="make-it-responsive-and-experiment-with-it"></a>Rugalmassá tétel és kísérletezés
 
 Ez egy könnyű lépés. 
 
-1. A **formátum** lap **Általános** szakaszában közvetlenül a **Tájolás** alatt állítsa a **Rugalmas (Előzetes verzió)** csúszkát a **Bekapcsolva** értékre.  
+1. A **formátum** lap **Általános** szakaszában közvetlenül a **Tájolás** alatt állítsa a **Rugalmas** csúszkát a **Bekapcsolva** értékre.  
 
-    ![A szeletelő mostantól rugalmas](media/power-bi-slicer-filter-responsive/power-bi-slicer-wide-responsive.png)
+    ![A szeletelő mostantól rugalmas](media/power-bi-slicer-filter-responsive/power-bi-slicer-filter-responsive-4-responsive-on.png)
 
 1. Most már kísérletezhet vele. A sarkok húzásával rövidre, hosszúra, szélesre vagy keskenyre állíthatja. Ha kellően kicsire állítja, akkor csupán egy szűrőikon lesz belőle.
 
-    ![Egy olyan kicsi rugalmas szeletelő, amely már csak egy szűrőikon](media/power-bi-slicer-filter-responsive/power-bi-slicer-small-filter-icon.png)
+    ![Egy olyan kicsi rugalmas szeletelő, amely már csak egy szűrőikon](media/power-bi-slicer-filter-responsive/power-bi-slicer-filter-responsive-5-mini-icon.png)
 
 ## <a name="add-it-to-a-phone-report-layout"></a>Hozzáadás egy telefonos jelentéselrendezéséhez
 
@@ -68,11 +60,11 @@ A Power BI Desktopban egy jelentés minden egyes oldalához létrehozhat egy tel
 
 1. A **Nézet** menüben válassza a **Telefonos elrendezés** lehetőséget.
 
-     ![Telefonos elrendezés ikon, Nézet menü](media/power-bi-slicer-filter-responsive/power-bi-phone-layout-menu.png)
+     ![Telefonos elrendezés ikon, Nézet menü](media/power-bi-slicer-filter-responsive/power-bi-slicer-filter-responsive-6-phone-layout-button.png)
     
 1. Húzzon minden, a telefonos jelentésben használni kívánt látványelemet a rácsra. A rugalmas szeletelő húzásakor állítsa azt tetszőleges méretűre – ebben az esetben olyanra, hogy csak egy szűrőikon legyen.
 
-    ![A szeletelő hozzáadása a telefonos jelentéselrendezéshez](media/power-bi-slicer-filter-responsive/power-bi-slicer-phone-layout.png)
+    ![A szeletelő hozzáadása a telefonos jelentéselrendezéshez](media/power-bi-slicer-filter-responsive/power-bi-slicer-filter-responsive-7-phone-slicer-icon.png)
 
 További információk [a Power BI-mobilalkalmazásokra optimalizált jelentések létrehozásáról](desktop-create-phone-report.md).
 

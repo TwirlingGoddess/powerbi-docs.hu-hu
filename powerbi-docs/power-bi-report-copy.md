@@ -1,28 +1,20 @@
 ---
 title: Jelentés másolása a Power BI szolgáltatásban
 description: Hozzon létre új Power BI-jelentést egy másik jelentésből a Power BI szolgáltatásban.
-services: powerbi
-documentationcenter: ''
 author: mihart
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: ''
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 03/24/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: a4f4e394aa4534093858ebfe7738dd7fdb0affd2
-ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
+ms.openlocfilehash: 760eda5625bd52bf7129ba7cfe5f213921d469b7
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="create-a-new-report-from-an-existing-report-copy-a-report"></a>Új jelentés létrehozása meglévő jelentésből (jelentés másolása)
 Lehet, hogy rendelkezik egy jelentéssel, amely már az adatkészletéhez kapcsolódik, és van néhány vizualizációja, amelyeket szeretne újrahasznosítani vagy módosítani.  Miért nem másolja le ezt a jelentést egy új jelentés alapjául?  Ehhez:

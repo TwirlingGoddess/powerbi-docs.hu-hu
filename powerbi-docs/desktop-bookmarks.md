@@ -1,28 +1,20 @@
 ---
 title: Könyvjelzők használata a Power BI-ban
 description: A Power BI Desktop könyvjelzői segítségével elmentheti a jelentések nézeteit és beállításait, valamint történetszerű bemutatókat hozhat létre
-services: powerbi
-documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 04/24/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 492eed949fd47b8f057bc67b127ba774b2218887
-ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
+ms.openlocfilehash: d350593f3a5168d959711e1ca2bbbd8a86524187
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="use-bookmarks-to-share-insights-and-build-stories-in-power-bi"></a>Elemzések megosztása és történetek felépítése a Power BI könyvjelzőivel 
 A Power BI-ban a **könyvjelzők** használatával rögzítheti az egyes jelentésoldalak aktuális nézetkonfigurációját, beleértve a szűréseket és a vizualizációk állapotát, hogy később egyszerűen a mentett könyvjelzőre kattintva visszaállíthassa az adott állapotot. 

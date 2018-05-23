@@ -4,13 +4,13 @@ Sikerült! **Gratulálunk!** Ön teljesítette a Power BI **Interaktív tanulás
 
 Ez az oktatóanyag utolsó szakasza (és az utolsó témaköre is, hacsak nem szeretné megismerni a DAX-ot), így szánjon rá egy pár másodpercet és érezze át, milyen sikereket ért el eddig. Szép munka! Most már ismeri az alábbi összes **fontos fogalmat**:
 
-* A [Power BI](../gettingstarted.yml#step-1) bemutatása
-* A Power BI [építőelemei](../gettingstarted.yml#step-3)
-* Adatok [beolvasása](../gettingdata.yml#step-3) és [modellezése](../modeling.yml#step-1)
-* [Vizualizációk](../visualizations.yml#step-1)
-* [Adatok felfedezése](../exploringdata.yml#step-1) a Power BI szolgáltatásban
-* Az [Excel és a Power BI](../powerbiandexcel.yml#step-1) együttes használata
-* És a munka [közzététele és megosztása](../publishingandsharing.yml#step-1)
+* A [Power BI](../gettingstarted.yml?tutorial-step=1) bemutatása
+* A Power BI [építőelemei](../gettingstarted.yml?tutorial-step=3)
+* Adatok [beolvasása](../gettingdata.yml?tutorial-step=3) és [modellezése](../modeling.yml?tutorial-step=1)
+* [Vizualizációk](../visualizations.yml?tutorial-step=1)
+* [Adatok felfedezése](../exploringdata.yml?tutorial-step=1) a Power BI szolgáltatásban
+* Az [Excel és a Power BI](../powerbiandexcel.yml?tutorial-step=1) együttes használata
+* És a munka [közzététele és megosztása](../publishingandsharing.yml?tutorial-step=1)
 
 Ez a nagy mennyiségű tudás már mind az Ön fejében van, és készen áll arra, hogy használja is. Itt megtalálható néhány **hivatkozás a letöltésekhez** vagy hogy a böngészőjéből **csatlakozzon a Power BI szolgáltatáshoz**:
 

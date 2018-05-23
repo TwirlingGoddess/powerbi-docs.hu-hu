@@ -1,25 +1,19 @@
 ---
 title: 'Oktatóanyag: a Q&A használata irányítópulton vagy jelentésben'
 description: Az oktatóanyag azt mutatja be, hogyan lehet új vizualizációkat létrehozni irányítópultokon és jelentésekben a Power BI Q&A használatával.
-services: powerbi
-documentationcenter: ''
 author: mihart
 manager: kfile
-editor: ''
-tags: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 01/17/2018
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 44501e5447248164f6f04d4463213939975e18ae
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 0e98c68e62f36114257052171e0928db25853f24
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="tutorial-how-to-use-qa-to-create-visualizations-and-build-reports"></a>Oktatóanyag: A Q&A használata vizualizációk és jelentések létrehozásához
 A [Q&A áttekintésében](power-bi-q-and-a.md) megismerkedhetett a Power BI Q&A alapjaival, és megtanulta, mi a különbség a *felhasználók* (akikkel irányítópultokat és jelentéseket osztottak meg) és a *létrehozók* (az alapul szolgáló jelentések és adatkészletek tulajdonosai) között. Ennek az oktatóanyagnak az első része elsősorban azoknak szól, akik a Power BI szolgáltatásban irányítópultokat használnak fel. A második részt azoknak szántuk, akik jelentéseket hoznak létre akár a Power BI szolgáltatásban, akár a Power BI Desktopban. A [Q&A és a Power BI Mobile](mobile-apps-ios-qna.md), valamint a [Q&A a Power BI Embedded használatával](developer/qanda.md) külön cikkekben szerepelnek.

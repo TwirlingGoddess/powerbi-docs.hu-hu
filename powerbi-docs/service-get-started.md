@@ -1,32 +1,24 @@
 ---
-title: "A Power BI szolgáltatás használatának első lépései"
-description: "A Power BI szolgáltatás használatának első lépései"
-services: powerbi
-documentationcenter: 
+title: A Power BI szolgáltatás használatának első lépései
+description: A Power BI szolgáltatás használatának első lépései
 author: adamw
 manager: kfile
-backup: 
-editor: 
-tags: 
+ms.reviewer: ''
 featuredvideoid: B2vd4MQrz4M
-qualityfocus: monitoring
-qualitydate: 
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: get-started-article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: cbb7697e3d3dbc92c2917b0a80deadfc0b9fd5a0
-ms.sourcegitcommit: 85d18d9f11a4ce4d4ed65e4544d13da6c2d9b1d4
+ms.openlocfilehash: d66653ebe9232cb6da2f3c53b01e791ca9966db9
+ms.sourcegitcommit: dcde910817720c05880ffe24755034f916c9b890
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 05/19/2018
 ---
 # <a name="get-started-with-power-bi-service-apppowerbicom"></a>A Power BI szolgáltatás (az app.powerbi.com webhely) használatának első lépései
-Ez az oktatóanyag segít az első lépések megtételében a ***Power BI szolgáltatásban***. Ha szeretné megérteni, hogyan illeszkedik a Power BI szolgáltatás a többi Power BI-ajánlathoz, javasoljuk, először olvassa el a [Mi az a Power BI](guided-learning/gettingstarted.yml#step-1) című szakaszt.
+Ez az oktatóanyag segít az első lépések megtételében a ***Power BI szolgáltatásban***. Ha szeretné megérteni, hogyan illeszkedik a Power BI szolgáltatás a többi Power BI-ajánlathoz, javasoljuk, először olvassa el a [Mi az a Power BI](guided-learning/gettingstarted.yml?tutorial-step=1) című szakaszt.
 
 ![a Desktop, a szolgáltatás és a mobilalkalmazás közti kapcsolatot mutató ábra](media/service-get-started/power-bi-components.png)
 

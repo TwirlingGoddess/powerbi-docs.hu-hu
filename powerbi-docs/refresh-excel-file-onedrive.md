@@ -1,28 +1,20 @@
 ---
 title: Excel-munkafüzetből létrehozott adatkészlet frissítése (felhőbeli)
 description: A OneDrive-on vagy a SharePoint Online-on található Excel-munkafüzetből létrehozott adatkészlet frissítése
-services: powerbi
-documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 9c5d6faec5826391c25056c2c7eb43ad9c2cc70c
-ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
+ms.openlocfilehash: b7a49a04ed344d6977dba5ac739c0f0d41aca5b9
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 05/04/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="refresh-a-dataset-created-from-an-excel-workbook-on-onedrive-or-sharepoint-online"></a>A OneDrive-on vagy a SharePoint Online-on található Excel-munkafüzetből létrehozott adatkészlet frissítése
 Importálhat a helyi gépén vagy egy felhőbeli tárhelyben (például a OneDrive Vállalati verzióban vagy a SharePoint Online-on) tárolt Excel-munkafüzeteket. Ebben a cikkben a felhőbeli tárhelyek az Excel-fájlokkal való használatának előnyeit ismertetjük. További információ az Excel-fájlok a Power BI-ba való importálásáról: [Adatok lekérdezése Excel-munkafüzetből](service-excel-workbook-files.md).

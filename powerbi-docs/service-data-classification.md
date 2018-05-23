@@ -1,28 +1,20 @@
 ---
-title: "Irányítópult adatainak besorolása"
-description: "Útmutatás az irányítópult adatainak besorolásával kapcsolatban (például hogyan állíthatja be a rendszergazda, vagy hogy az irányítópult tulajdonosai hogyan tudják módosítani a besorolást)."
-services: powerbi
-documentationcenter: 
+title: Irányítópult adatainak besorolása
+description: Útmutatás az irányítópult adatainak besorolásával kapcsolatban (például hogyan állíthatja be a rendszergazda, vagy hogy az irányítópult tulajdonosai hogyan tudják módosítani a besorolást).
 author: amandacofsky
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: complete
-qualitydate: 03/15/2016
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: amac
 LocalizationGroup: Dashboards
-ms.openlocfilehash: aed13e5bc7a21caa87e4c5b25fd61d55dcfc6129
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: f08e4199af06a4a7fd74cb525e918a67a27165a8
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="dashboard-data-classification"></a>Irányítópult adatainak besorolása
 Minden irányítópult különbözik, és attól függően, hogy milyen adatforráshoz kapcsolódik, Önnek, és azoknak, akikkel az információkat megosztja, más-más intézkedéseket kell tennie az érzékeny adatok védelme érdekében. Néhány irányítópultot soha sem szabad kinyomtatni vagy cégen kívül megosztani, míg másokat szabadon lehet terjeszteni. Az irányítópultok adatainak a besorolásával fel tudja hívni az irányítópultokat megtekintő felhasználók figyelmét arra, hogy milyen szintű adatvédelmet kell alkalmazniuk. Az irányítópultokat felcímkézheti az IT osztály által definiált besorolásokkal, így az adatok érzékenységéről mindenki egyformán tájékozódhat, aki a tartalmat megtekinti.

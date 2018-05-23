@@ -1,28 +1,20 @@
 ---
 title: A Power BI archivált munkaterülete
 description: A Power BI archivált munkaterülete az Office 365-bérlő kezelése után
-services: powerbi
-documentationcenter: ''
 author: mgblythe
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-admin
+ms.topic: conceptual
 ms.date: 06/28/2017
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 254857072df2b06fbdeb2af0a53d262e98f8f254
-ms.sourcegitcommit: 8552a34df8e6141eb704314c1a019992901d6e78
+ms.openlocfilehash: 8b9fcf1c6121c4aeecfdf948b77493f1f2a7f825
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/08/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="power-bi-archived-workspace"></a>A Power BI archivált munkaterülete
 A Power BI-ra bárki perceken belül regisztrálhat, és megkezdheti a szolgáltatás használatát.  Később a vállalat IT-részlege dönthet úgy, hogy átveszi a Power BI-nak a vállalat felhasználói számára történő kezelését.  Ha ez az átvétel megtörténik, akkor élvezheti a vállalat felhasználóinak és engedélyeinek központi kezelését, és kihasználhatja az egyszerűbb bejelentkezés előnyeit ugyanazzal a felhasználónévvel és jelszóval, amelyet a vállalat más szolgáltatásaiban is használ. 

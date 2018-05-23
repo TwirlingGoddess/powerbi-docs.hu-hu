@@ -1,29 +1,21 @@
 ---
 title: Kiemelt kérdések létrehozása a Power BI Q&A-hez
 description: Dokumentáció arról, hogyan lehet kiemelt kérdéseket létrehozni a Power BI Q&A-hez
-services: powerbi
-documentationcenter: ''
 author: mihart
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
+ms.reviewer: ''
 featuredvideoid: E1mIAyEXuF4
-qualityfocus: no
-qualitydate: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 38cb04269937aa0b56589e4831eb7a3b027986d0
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: f3a9e8aabbd45cb476866158165e2e37a3d8f652
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="create-featured-questions-for-power-bi-qa"></a>Kiemelt kérdések létrehozása a Power BI Q&A-hez
 Ha rendelkezik saját adatkészlettel, ehhez az adatkészlethez hozzáadhatja a kiemelt kérdéseit.  A Power BI Q&A pedig megjeleníti ezeket a kérdéseket az adatkészletet használó (más néven *fogyasztó*) munkatársaknak.  A kiemelt kérdések ötleteket adnak a munkatársaknak, hogy milyen típusú kérdéseket lehet feltenni az adatkészletről. Ön dönti el, milyen kérdéseket vesz fel. Vegyen fel népszerű kérdéseket, érdekes eredményeket megjelenítő kérdéseket vagy esetleg nehezen megfogalmazható kérdéseket.

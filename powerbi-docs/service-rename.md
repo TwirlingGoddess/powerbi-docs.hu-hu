@@ -1,28 +1,20 @@
 ---
-title: "Irányítópultok, jelentések, munkaterületek, jelentéslapok és adatkészletek átnevezése"
-description: "A Power BI-szolgáltatásban szinte bármit átnevezhet."
-services: powerbi
-documentationcenter: 
+title: Irányítópultok, jelentések, munkaterületek, jelentéslapok és adatkészletek átnevezése
+description: A Power BI-szolgáltatásban szinte bármit átnevezhet.
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: cdea6474901dad27a4155b80fb605502102201a5
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: d19e0a77f603ce6b80ce70ba5df4506699bd0969
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="rename-almost-anything-in-power-bi-service"></a>A Power BI-szolgáltatásban szinte bármit átnevezhet
 Ebből a cikkből megtudhatja, hogy miképpen nevezhet át irányítópultot, jelentést, munkafüzetet, adatkészletet, alkalmazást, vizualizációt vagy munkaterületet a Power BI szolgáltatásban.

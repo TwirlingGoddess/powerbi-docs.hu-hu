@@ -1,28 +1,20 @@
 ---
 title: A Power BI szolgáltatás jelentéseinek Olvasó és Szerkesztési nézete
 description: A Power BI szolgáltatás jelentéseinek Olvasó és Szerkesztési nézete közötti különbségek általános áttekintése
-services: powerbi
-documentationcenter: ''
 author: mihart
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 04/13/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 1ccc4eeff54bff91a9ed245fdb82462768b65264
-ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
+ms.openlocfilehash: eacadb04935dd0c929a85904335b613f3d5d4d58
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="reading-view-and-editing-view-in-power-bi-service-reports"></a>A Power BI szolgáltatás jelentéseinek Olvasó és Szerkesztési nézete
 A Power BI szolgáltatásban a jelentések két módban tekinthetők meg és kezelhetők: az Olvasó és a Szerkesztési nézetben (a Power BI Desktopban nem). Az Olvasó nézet minden felhasználó számára elérhető, és speciálisan az adatok *felhasználói* számára lett kialakítva, míg a Szerkesztő nézet csak a jelentések *létrehozói* és tulajdonosai számára érhető el.

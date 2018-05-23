@@ -1,28 +1,20 @@
 ---
 title: Helyszíni adatátjáró – részletesen
 description: Ez a cikk a helyszíni adatátjárót ismerteti részletesen. Kitér a szolgáltatás és az Azure Active Directory, valamint a helyszíni Active Directory közötti együttműködésre az Analysis Services használata során.
-services: powerbi
-documentationcenter: ''
 author: mgblythe
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: powerbi
+ms.component: powerbi-gateways
+ms.topic: conceptual
 ms.date: 12/06/2017
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 5480768fc088b3a32a1af222d38e3829298e8f0d
-ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
+ms.openlocfilehash: 8b0121dbfe633eca9c438dfd272d3aeb56fd59a4
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="on-premises-data-gateway-in-depth"></a>Helyszíni adatátjáró – részletesen
 Cége felhasználói hozzáférhetnek a helyszíni adatokhoz (amelyekhez már van hozzáférési jogosultságuk), de ahhoz, hogy ezek a felhasználók az Ön helyszíni adatforrásához kapcsolódjanak, helyszíni adatátjáró telepítésére és konfigurálására van szükség. Az átjáró gyors és biztonságos háttérbeli kommunikációt biztosít a felhőbeli felhasználótól az Ön helyszíni adatforrásáig és vissza a felhő felé.

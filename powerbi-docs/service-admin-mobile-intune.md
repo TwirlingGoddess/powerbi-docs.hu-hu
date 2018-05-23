@@ -1,28 +1,20 @@
 ---
 title: Mobilalkalmazások konfigurálása a Microsoft Intune-nal
 description: Ismerkedjen meg a Power BI Mobile-alkalmazások a Microsoft Intune-nal való konfigurálásával, beleértve az alkalmazás hozzáadását és üzembe helyezését, valamint a mobilalkalmazás-használati szabályzat létrehozását a biztonság szabályozásához.
-services: powerbi
-documentationcenter: ''
 author: mgblythe
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: powerbi
+ms.component: powerbi-admin
+ms.topic: conceptual
 ms.date: 06/28/2017
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: c33fcbdfa93e38283e17b0842e1242634664be7a
-ms.sourcegitcommit: 8552a34df8e6141eb704314c1a019992901d6e78
+ms.openlocfilehash: 03f1c9948b3c178f39d369fddece36a5fcd05e4f
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/08/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="configure-mobile-apps-with-microsoft-intune"></a>Mobilalkalmazások konfigurálása a Microsoft Intune-nal
 A Microsoft Intune lehetővé teszi a cégek számára az eszközök és alkalmazások kezelését. A Power BI iOS és Android rendszerhez készült mobilalkalmazásai integrálódnak az Intune-nal, lehetővé téve az alkalmazás kezelését az eszközökön, valamint a biztonság szabályozását. Konfigurációs szabályzatok útján a szervezetek sok mindent meghatározhatnak, például hogy egy elemhez szükség van-e hozzáférési kódra, hogy az alkalmazás hogyan kezeli az adatokat és akár az alkalmazásadatok titkosítását is, amikor az alkalmazás nincs használatban.

@@ -1,28 +1,20 @@
 ---
-title: "Irányítópult-csempék a Power BI szolgáltatásban"
-description: "Minden, amit a Power BI irányítópult csempékről tudni érdemes. Ide tartoznak az SQL Server Reporting Services-ből (SSRS-ből) létrehozott csempék is."
-services: powerbi
-documentationcenter: 
+title: Irányítópult-csempék a Power BI szolgáltatásban
+description: Minden, amit a Power BI irányítópult csempékről tudni érdemes. Ide tartoznak az SQL Server Reporting Services-ből (SSRS-ből) létrehozott csempék is.
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: 
-qualitydate: 03/15/2016
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 3b6d8c31c9ba03b0119635af5f9270a584081139
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: e53945e0a112d9498dc6798e2441dd3d925a64c1
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="dashboard-tiles-in-power-bi"></a>Irányítópult-csempék a Power BI-ban
 Az irányítópultok és az irányítópulton található csempék nem a Power BI Desktophoz, hanem a Power BI szolgáltatáshoz tartozó funkciók. A Power BI mobilalkalmazásban nem hozhatók létre és nem tűzhetők ki irányítópult-csempék, de [megtekinthetők és megoszthatók](mobile-tiles-in-the-mobile-apps.md) abból. Ezenkívül a Power BI mobilalkalmazásban [képeket vehet fel az irányítópulthoz az iPhone-alkalmazással](mobile-iphone-app-get-started.md).

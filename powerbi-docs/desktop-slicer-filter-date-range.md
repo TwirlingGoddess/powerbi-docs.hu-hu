@@ -1,28 +1,20 @@
 ---
 title: Relatív dátumszeletelő vagy -szűrő használata a Power BI Desktopban
 description: Ismerje meg, hogyan használhat szeletelőket és szűrőket a relatív dátumtartományok korlátozására a Power BI Desktopban.
-services: powerbi
-documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 26facbc0c634efb613ec0f01691a5ffe1be0fc5d
-ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
+ms.openlocfilehash: 1d074cbd61373bf53e22ecc60c0c1389c0b94881
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 05/04/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="use-a-relative-date-slicer-and-filter-in-power-bi-desktop"></a>Relatív dátumszeletelő és -szűrő használata a Power BI Desktopban
 A **relatív dátumszeletelővel** vagy **relatív dátumszűrővel** időalapú szűrőket alkalmazhat az adatmodellek bármely dátumoszlopára. A **relatív dátumszeletelő** használatával például a megjelenítést korlátozhatja az utóbbi harminc napban (vagy hónapban, naptári hónapban stb.) történt értékesítési eseményekre. Az adatok frissítésekor pedig a relatív időszak automatikusan alkalmazza a vonatkozó relatív dátumkorlátokat.

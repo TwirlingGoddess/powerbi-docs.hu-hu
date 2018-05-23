@@ -1,28 +1,20 @@
 ---
 title: Power BI az USA kormányzati ügyfelei számára – regisztráció
 description: Az USA kormányzati ügyfelei megismerhetik a Power BI egyesült államokbeli kormányzati szolgáltatására való regisztráció módját
-services: powerbi
-documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 04/24/2017
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: a52aaaffb5f66ba5596e788183ef52753f08c8bf
-ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
+ms.openlocfilehash: 17d7c07cb35eb9046b6fcfe8da5a85ee15fe7eaf
+ms.sourcegitcommit: dcde910817720c05880ffe24755034f916c9b890
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/19/2018
 ---
 # <a name="enroll-your-us-government-organization-in-the-power-bi-service"></a>USA-beli kormányzati szerv regisztrálása a Power BI szolgáltatásban
 A **Power BI szolgáltatás** külön verziója érhető el az USA kormányzati ügyfeleinek az **egyesült államokbeli Office 365-közösségi** előfizetések részeként. A jelen cikkben a **Power BI szolgáltatás** kifejezetten az USA kormányzati ügyfeleinek készült verzióját tárgyaljuk, amely elkülönül és különbözik a **Power BI szolgáltatás** kereskedelmi verziójától.
@@ -130,7 +122,7 @@ Annak azonosításához, hogy a bérlőn a Power BI ingyenes licence fut-e, a re
 A Power BI sokféle feladat elvégzésére alkalmas. További információt és tananyagokat – beleértve a szolgáltatásra való regisztrációt bemutató cikket – ezekben a forrásokban talál:
 
 * [Power BI az USA kormányzati szervei számára – áttekintés](service-govus-overview.md)
-* [Power BI-oktatócsomag](guided-learning/gettingstarted.yml#step-1)
+* [Power BI-oktatócsomag](guided-learning/gettingstarted.yml?tutorial-step=1)
 * [Első lépések a Power BI szolgáltatással](service-get-started.md)
 * [Első lépések a Power BI Desktop alkalmazással](desktop-getting-started.md)
 

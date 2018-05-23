@@ -1,28 +1,20 @@
 ---
 title: Power BI (ingyenes) a cégen belül
 description: Ez a cikk céges szempontból tekinti át a Power BI (ingyenes) lehetőségeit. Ha Ön a bérlő rendszergazdája, itt olvashat az ingyenes regisztrációk kezeléséről.
-services: powerbi
-documentationcenter: ''
 author: mgblythe
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: powerbi
+ms.component: powerbi-admin
+ms.topic: conceptual
 ms.date: 09/05/2017
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 5da8b4cbb86766e6b411af902fce4bf18f480612
-ms.sourcegitcommit: 8552a34df8e6141eb704314c1a019992901d6e78
+ms.openlocfilehash: 2ba97b76b13c9adf3c9f20d5d42c5ec9c363edda
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/08/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="power-bi-free-in-your-organization"></a>Power BI (ingyenes) a cégen belül
 A témakör azt írja le, hogy miképpen használható fel a Power BI (ingyenes) ajánlata a cégen belül. A cég meghatározása, hogy bérlőt használ, és a bérlőn belül lehetősége van a felhasználók és a szolgáltatások kezelésére. Rendszergazdaként Ön szabályozhatja a licencek hozzárendelését, vagy engedélyezheti az egyéni felhasználók regisztrációját. Az alábbiakban tájékozódhat a Power BI (ingyenes) licencről és az egyéni regisztrációk kezeléséről.

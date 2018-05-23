@@ -1,28 +1,20 @@
 ---
 title: Power BI-vizualizációk optimalizálása bármely méretre
 description: Itt megismerheti a Power BI Desktopban és a Power BI telefonos alkalmazások Power BI szolgáltatásában meglévő jelentésvizualizációk optimalizálásának folyamatát.
-services: powerbi
-documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 04/13/2018
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: d80e96fbca893fee3ff03ef9021988f5a22bb2e7
-ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
+ms.openlocfilehash: a6e683318c00a800f69334f90ce3a71d74489030
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="optimize-a-power-bi-visual-for-any-size"></a>Power BI-vizualizációk optimalizálása bármely méretre
 Ha létrehoz egy új jelentést, akkor alapértelmezés szerint a vizualizációk *rugalmasak*: dinamikusan módosulnak, hogy a lehető legtöbb adatot jelenítsék meg a képernyő méretétől függően. Régebbi jelentések esetén is beállíthatja, hogy a vizualizációk dinamikusan átméreteződjenek.

@@ -1,28 +1,20 @@
 ---
 title: A Q&A nyelvi sémáinak szerkesztése és kifejezések hozzáadása
 description: Hogyan szerkeszthetők a Power BI Q&A nyelvi sémái a Power BI Desktop használatával.
-services: powerbi
-documentationcenter: ''
 author: willthom
 manager: kfile
-backup: mihart
-editor: ''
-tags: ''
-qualityfocus: ''
-qualitydate: ''
+ms.reviewer: mihart
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 04/20/2018
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 3be0422e914b4f78826715f03c9ddcd92baa7ead
-ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
+ms.openlocfilehash: b7fb59e7fca6a3211b542b2a942565d6865e560c
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 05/07/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="language-modeling-and-the-linguistic-schema"></a>A nyelvi modellezés és a nyelvi sémák 
 Hatékony eszköz a munkához, ha gyakori kifejezéseken és természetes nyelven alapuló kérdéseket tud feltenni az adataival kapcsolatban. És még hatékonyabb, ha a maguk az adatok válaszolnak, ahogy azt a Power BI Q&A szolgáltatása lehetővé teszi. Amikor kérdést tesz fel a Power BI Q&A szolgáltatásának, a rendszer igyekszik a legpontosabban megválaszolni azt. 

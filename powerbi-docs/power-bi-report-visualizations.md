@@ -1,29 +1,21 @@
 ---
-title: "A Power BI szolgáltatás és a Power BI Desktop jelentésvizualizációinak áttekintése"
-description: "A Microsoft Power BI jelentésvizualizációinak áttekintése."
-services: powerbi
-documentationcenter: 
+title: A Power BI szolgáltatás és a Power BI Desktop jelentésvizualizációinak áttekintése
+description: A Microsoft Power BI jelentésvizualizációinak áttekintése.
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+ms.reviewer: ''
 featuredvideoid: SYk_gWrtKvM
-qualityfocus: no
-qualitydate: 
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 01/21/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: f6846a58642dd65545016a7159f6bb461edaf373
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: f0e0dc02fc07849c68c00ce857da0ccbeb2d76df
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="visualizations-in-power-bi-reports"></a>Vizualizációk Power BI-jelentésekben
 A vizualizációk az adatokból nyert információkat jelenítik meg. Egy Power BI-jelentés állhat egyetlen oldalból, amelyen csak egy vizualizáció szerepel, de előfordulhatnak olyan jelentések is, amelyek számos vizualizációt tartalmazó oldalakból állnak. A Power BI szolgáltatásban a vizualizációkat [jelentésekből irányítópultokra lehet rögzíteni](service-dashboard-pin-tile-from-report.md). 

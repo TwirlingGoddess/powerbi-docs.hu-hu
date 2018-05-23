@@ -1,28 +1,20 @@
 ---
 title: Kapcsolódás a Google Analytics szolgáltatáshoz a Power BI használatával
 description: A Power BI-hoz készült Google Analytics
-services: powerbi
-documentationcenter: ''
 author: SarinaJoan
 manager: kfile
-backup: maggiesMSFT
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 2e1f0d3fad5c556030ed5351793a95a86cfea977
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: b479c46ffe3e51ad5f15cc9884a2ea02626a4cc5
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="connect-to-google-analytics-with-power-bi"></a>Kapcsolódás a Google Analytics szolgáltatáshoz a Power BI használatával
 Ha kapcsolódni szeretne a Google Analytics szolgáltatáshoz a Power BI-on keresztül, először lépjen be a Google Analytics-fiókjába. Ezután megjelenik egy Power BI-irányítópult és bizonyos Power BI-jelentések, amelyek a webhelye forgalmára és felhasználóira vonatkozó adatokat tartalmaznak. Az irányítópultot és a jelentéseket használhatja és megtekintheti, de a változtatásokat nem mentheti. Az adatok naponta egyszer automatikusan frissülnek.

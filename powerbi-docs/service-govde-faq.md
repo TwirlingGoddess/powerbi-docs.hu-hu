@@ -1,28 +1,20 @@
 ---
 title: A Power BI szolgáltatással kapcsolatos gyakori kérdések németországi kormányzati ügyfelek részére
 description: Németországi kormányzati ügyfeleknek – válasz a németországi kormányzati Power BI szolgáltatással kapcsolatos gyakori kérdésekre
-services: powerbi
-documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 4c9e059b97f845aa3a480238400df16c914e563a
-ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
+ms.openlocfilehash: 909d524416b04654dc6f511a71b675381ec74e3a
+ms.sourcegitcommit: dcde910817720c05880ffe24755034f916c9b890
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 05/04/2018
+ms.lasthandoff: 05/19/2018
 ---
 # <a name="frequently-asked-questions-for-power-bi-for-germany-cloud-customers"></a>A németországi felhőszolgáltatás (Germany Cloud) Power BI-felhasználói számára készült gyakori kérdések
 A **Power BI szolgáltatás** egyik verziója kifejezetten az Európai Unió és az Európai Szabadkereskedelmi Társulás (EU és EFTA) országaiban lévő ügyfeleknek készült, és Microsoft Cloud Deutschland (MCD) néven hivatkozunk rá. A jelen cikkben a **Power BI szolgáltatás** EU- és EFTA-ügyfelek részére készült verzióját tárgyaljuk, amely elkülönül és különbözik a **Power BI szolgáltatás** kereskedelmi verziójától és a kormányzati ügyfelek részére biztosított Power BI-szolgáltatásoktól.
@@ -78,7 +70,7 @@ Az alábbi kérdések és válaszok fontos információkat nyújtanak a Microsof
 ### <a name="next-steps"></a>Következő lépések
 A Power BI sokféle feladat elvégzésére alkalmas. További információt és tananyagokat – beleértve a szolgáltatásra való regisztrációt bemutató cikket – ezekben a forrásokban talál:
 
-* [Power BI-oktatócsomag](guided-learning/gettingstarted.yml#step-1)
+* [Power BI-oktatócsomag](guided-learning/gettingstarted.yml?tutorial-step=1)
 * [Első lépések a Power BI szolgáltatással](service-get-started.md)
 * [Első lépések a Power BI Desktop alkalmazással](desktop-getting-started.md)
 

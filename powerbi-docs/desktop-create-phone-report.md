@@ -1,28 +1,20 @@
 ---
-title: "A Power BI telefonos alkalmazásokhoz optimalizált jelentések létrehozása"
-description: "Megismerkedhet annak a folyamatával, hogyan lehet optimalizálni a Power BI Desktop jelentésoldalait a Power BI telefonos alkalmazásaihoz."
-services: powerbi
-documentationcenter: 
+title: A Power BI telefonos alkalmazásokhoz optimalizált jelentések létrehozása
+description: Megismerkedhet annak a folyamatával, hogyan lehet optimalizálni a Power BI Desktop jelentésoldalait a Power BI telefonos alkalmazásaihoz.
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 12/08/2017
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: ea6da7eb23268e7605ff46281c63030a6d72798c
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 58fa5214d1a5b7e7c80d199e23cfae9762a80f36
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="create-reports-optimized-for-the-power-bi-phone-apps"></a>A Power BI telefonos alkalmazásokhoz optimalizált jelentések létrehozása
 Amikor [létrehoz egy jelentést a Power BI Desktopban](desktop-report-view.md), kényelmesebbé teheti a használatát a telefonokon futó mobilalkalmazásokban, ha létrehozza kifejezetten a telefonokra tervezett verzióját. A jelentés telefonra való optimalizálása a vizualizációk átrendezését és átméretezését, esetleg egyes vizualizációk kihagyását jelenti a kényelmes használat érdekében. Emellett [*rugalmas* vizualizációkat](#optimize-a-visual-for-any-size) és [rugalmas szeletelőket](#enhance-slicers-to-to-work-well-in-phone-reports) is létrehozhat, amelyek megfelelően átméretezhetők a telefonon való megtekintéshez. Ha a jelentéshez szűrőket is hozzáad, azok automatikusan megjelennek a telefonos jelentésben. A jelentés olvasói is láthatják őket, és a használatukkal szűrhetik a jelentés adatait.

@@ -1,28 +1,20 @@
 ---
 title: Csatlakozás a Power BI-ból a Microsoft Dynamics AX tartalomcsomaghoz
 description: Microsoft Dynamics AX tartalomcsomag a Power BI szolgáltatáshoz
-services: powerbi
-documentationcenter: ''
 author: SarinaJoan
 manager: kfile
-backup: maggiesMSFT
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 09362afc3bc84b454db8a095edc5135f1b9955d8
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 2e84d52d9e26b23380b9fbc12fdaa4086a2ec7ed
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="connect-to-microsoft-dynamics-ax-content-pack-with-power-bi"></a>Csatlakozás a Power BI-ból a Microsoft Dynamics AX tartalomcsomaghoz
 A Microsoft Dynamics AX három Power BI-hez készült tartalomcsomaggal rendelkezik, különböző üzleti felhasználók számára. A Financial Performance tartalomcsomag, amely kifejezetten pénzügyi vezetőknek lett kifejlesztve, a szervezet pénzügyi teljesítményébe enged betekintést. A csatornafelelősök számára kialakított Retail Channel Performance tartalomcsomag az eladási teljesítményre összpontosítva, a kiskereskedelmi és kereskedelmi adatok elemzésével értékes információkat nyújt és segít előrejelezni a trendeket. A vezérigazgatók és pénzügyi vezetők számára kialakított Cost Management tartalomcsomag a műveleti teljesítményről szolgáltat részletes adatokat.
