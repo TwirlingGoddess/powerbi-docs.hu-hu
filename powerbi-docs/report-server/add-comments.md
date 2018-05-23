@@ -1,27 +1,19 @@
 ---
-title: "Megjegyzések hozzáadása jelentéshez jelentéskészítő kiszolgálón – Power BI jelentéskészítő kiszolgáló"
-description: "Megtudhatja, hogyan adhat megjegyzéseket Power BI- vagy tördelt jelentéshez Power BI jelentéskészítő kiszolgálón vagy SQL Server Reporting Services jelentéskészítő kiszolgálón."
-services: powerbi
-documentationcenter: 
+title: Megjegyzések hozzáadása jelentéshez jelentéskészítő kiszolgálón – Power BI jelentéskészítő kiszolgáló
+description: Megtudhatja, hogyan adhat megjegyzéseket Power BI- vagy tördelt jelentéshez Power BI jelentéskészítő kiszolgálón vagy SQL Server Reporting Services jelentéskészítő kiszolgálón.
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-report-server
+ms.topic: conceptual
 ms.date: 10/12/2017
 ms.author: maggies
-ms.openlocfilehash: 24848b978ae88ae890cbd5b6eea24146cd01e542
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: e5e49d2f30cca4c0c731d29fe31d2cb6856066f2
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="add-comments-to-a-report-in-a-report-server"></a>Megjegyzések hozzáadása jelentéshez jelentéskészítő kiszolgálón
 Megjegyzéseket adhat a jelentésekhez (beleértve a Power BI-jelentéseket is) a jelentéskészítő kiszolgálók webes portálján. A megjegyzések a jelentésben szerepelnek, és megfelelő engedélyekkel bárki láthatja a jelentés megjegyzéseit. A részletekért tekintse meg a lenti [Engedélyek](#permissions) szakaszt.

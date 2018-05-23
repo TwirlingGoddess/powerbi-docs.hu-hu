@@ -1,27 +1,19 @@
 ---
-title: "Irányítópult integrálása a cég egy alkalmazásába"
-description: "Ismerje meg, hogyan integrálhat vagy ágyazhat be egy irányítópultot egy webalkalmazásba a Power BI API-kkal."
-services: powerbi
-documentationcenter: 
+title: Irányítópult integrálása a cég egy alkalmazásába
+description: Ismerje meg, hogyan integrálhat vagy ágyazhat be egy irányítópultot egy webalkalmazásba a Power BI API-kkal.
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: get-started-article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-developer
+ms.topic: conceptual
 ms.date: 02/13/2018
 ms.author: maghan
-ms.openlocfilehash: e85b745798fd33ffbb5061f4c156054d2218bfb1
-ms.sourcegitcommit: 2ceea44d3606c15b57142c37649c9d481ec4becc
+ms.openlocfilehash: 979b76350b9867bbc684a70bd89a82f88993e625
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/15/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="integrate-a-dashboard-into-an-app-for-your-organization"></a>Irányítópult integrálása a cég egy alkalmazásába
 Ismerje meg, hogyan integrálhat vagy ágyazhat be egy irányítópultot egy webalkalmazásba a REST API-hívásokkal és a Power BI JavaScript API-val együtt, ha a cége számára ágyaz be.

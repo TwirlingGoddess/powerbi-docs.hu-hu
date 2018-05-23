@@ -1,27 +1,19 @@
 ---
-title: "SSRS-mobiljelentések, KPI-k megtekintése a Windows 10-hez készült Power BI mobilalkalmazásban"
-description: "A Windows 10-hez készült Power BI mobilalkalmazás valós idejű, érintéssel vezérelhető mobil hozzáférést biztosít a fontos helyszíni vállalati információkhoz."
-services: powerbi
-documentationcenter: 
+title: SSRS-mobiljelentések, KPI-k megtekintése a Windows 10-hez készült Power BI mobilalkalmazásban
+description: A Windows 10-hez készült Power BI mobilalkalmazás valós idejű, érintéssel vezérelhető mobil hozzáférést biztosít a fontos helyszíni vállalati információkhoz.
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-mobile
+ms.topic: conceptual
 ms.date: 10/13/2017
 ms.author: maggies
-ms.openlocfilehash: 7d210e6f31cd76060bcc824622962804b82dc495
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 7bbf03c35284924c415a9ae1348528ed80c3f2fe
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="view-reporting-services-ssrs-mobile-reports-and-kpis-in-the-windows-10-power-bi-mobile-app"></a>Reporting Services- (SSRS-) mobiljelentések és -KPI-k megtekintése a Windows 10-hez készült Power BI mobilalkalmazásban
 A Windows 10-hez készült Power BI mobilalkalmazás valós idejű, érintéssel vezérelhető mobil hozzáférést biztosít az SQL Server 2016 Reporting Services szolgáltatásban található fontos helyszíni vállalati információkhoz. 
@@ -118,5 +110,5 @@ A Power BI-mobilalkalmazásban nincs lehetősége Reporting Services-KPI-k és -
 ## <a name="next-steps"></a>Következő lépések
 * [A Windows 10-hez készült Power BI mobilalkalmazás használatának első lépései](mobile-windows-10-phone-app-get-started.md)  
 * [Első lépések a Power BI-ban](service-get-started.md)  
-* Kérdése van? [Forduljon a Power BI közösségéhez](http://community.powerbi.com/)
+* Kérdése van? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)
 

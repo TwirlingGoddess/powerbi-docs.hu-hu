@@ -1,27 +1,19 @@
 ---
-title: "A Power BI REST API-jainak leírása"
-description: "A Power BI REST API-jainak leírása"
-services: powerbi
-documentationcenter: 
+title: A Power BI REST API-jainak leírása
+description: A Power BI REST API-jainak leírása
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-developer
+ms.topic: conceptual
 ms.date: 09/05/2017
 ms.author: maghan
-ms.openlocfilehash: b05eb753f709ccfcbd1eb0fa488edd2926575651
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: 851e9747aa7f38e908ef89fcc3983fa605174033
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="power-bi-rest-api-reference"></a>A Power BI REST API-jainak leírása
 A Power BI egy felhőalapú szolgáltatás, amely segítségével egyéni irányítópult-alkalmazásokat hozhat létre. A Power BI REST API egy Rest-alapú API, amely programozható hozzáférést biztosít a Power BI **Irányítópult** erőforrásaihoz, például **Adatkészletekhez**, **Táblákhoz** és **Sorokhoz**.

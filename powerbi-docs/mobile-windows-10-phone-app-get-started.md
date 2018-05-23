@@ -1,27 +1,19 @@
 ---
-title: "Windows 10-hez készült Power BI mobilalkalmazás – első lépések"
-description: "A Windows 10-hez készült Power BI alkalmazás naprakész, érintéses használatra optimalizált mobil hozzáférést biztosít a vállalati információkhoz a táblagépén vagy a telefonján."
-services: powerbi
-documentationcenter: 
+title: Windows 10-hez készült Power BI mobilalkalmazás – első lépések
+description: A Windows 10-hez készült Power BI alkalmazás naprakész, érintéses használatra optimalizált mobil hozzáférést biztosít a vállalati információkhoz a táblagépén vagy a telefonján.
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-mobile
+ms.topic: conceptual
 ms.date: 12/05/2017
 ms.author: maggies
-ms.openlocfilehash: 97fb3625848210f6222317cf3fc48eea305ef04d
-ms.sourcegitcommit: 7248b5e449b2495d6baef385470d18edfacec457
+ms.openlocfilehash: 6cd1c8aec1bf31a8cae43074531014cbeef71bd5
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 12/08/2017
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-for-windows-10"></a>Windows 10-hez készült Power BI mobilalkalmazás – első lépések
 A Windows 10-hez készült Power BI alkalmazással táblagépen és mobilon is használhatja a Power BI-t: naprakész, érintéses használatra optimalizált mobil hozzáférést kap a vállalati információkhoz. Bárhol megtekintheti és használhatja a vállalati irányítópultjait – közvetlenül a [Windows kezdőképernyőjéről](mobile-pin-dashboard-start-screen-windows-10-phone-app.md).

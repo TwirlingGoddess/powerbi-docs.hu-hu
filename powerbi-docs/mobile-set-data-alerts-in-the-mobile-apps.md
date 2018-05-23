@@ -1,27 +1,19 @@
 ---
-title: "Adatriasztások beállítása a Power BI mobilalkalmazásokban"
-description: "Megtudhatja, hogyan állíthat be olyan adatriasztásokat a Power BI-mobilalkalmazásokban, amelyek figyelmeztetik, ha az irányítópultokon lévő adatok meghaladják a beállított korlátokat."
-services: powerbi
-documentationcenter: 
+title: Adatriasztások beállítása a Power BI mobilalkalmazásokban
+description: Megtudhatja, hogyan állíthat be olyan adatriasztásokat a Power BI-mobilalkalmazásokban, amelyek figyelmeztetik, ha az irányítópultokon lévő adatok meghaladják a beállított korlátokat.
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-mobile
+ms.topic: conceptual
 ms.date: 12/18/2017
 ms.author: maggies
-ms.openlocfilehash: c6406a6d1ad4269352ce8421b91f4304fd35c78f
-ms.sourcegitcommit: ea247cb3cfc1cac076d4b076c1ad8e2fc37e15a1
+ms.openlocfilehash: aa4aac1b0628fb0670a4265095ba2abcae3c1dcf
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 12/19/2017
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="set-data-alerts-in-the-power-bi-mobile-apps"></a>Adatriasztások beállítása a Power BI mobilalkalmazásokban
 A következőkre vonatkozik:
@@ -175,5 +167,5 @@ Az adatforrások általában napi frissítésre vannak állítva, némelyik azon
 ## <a name="next-steps"></a>További lépések
 * [Riasztások kezelése a Power BI szolgáltatásban](service-set-data-alerts.md)
 * [Power BI mobil értesítési központ](mobile-apps-notification-center.md)
-* Kérdése van? [Forduljon a Power BI közösségéhez](http://community.powerbi.com/)
+* Kérdése van? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)
 
