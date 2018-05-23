@@ -1,27 +1,19 @@
 ---
 title: A Power BI jelentéskészítő kiszolgáló támogatási ütemterve
 description: A Power BI jelentéskészítő kiszolgáló verzióinak és azok elérhetőségének listája.
-services: powerbi
-documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-report-server
+ms.topic: conceptual
 ms.date: 03/19/2018
 ms.author: maggies
-ms.openlocfilehash: dd6ab0afdb171a1cdb1267adee8bb1c411596dff
-ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
+ms.openlocfilehash: 9bfcf7ab0b752cdbacefe7075e5975f7b0eb8bf9
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 05/07/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="support-timeline-for-power-bi-report-server"></a>A Power BI jelentéskészítő kiszolgáló támogatási ütemterve
 A Power BI jelentéskészítő kiszolgáló évente néhány alkalommal jelenik meg. A biztonsági és kritikus frissítések addig érhetők el, amíg az új kiadás általánosan elérhető nem lesz. A következő kiadás megjelenése után az előző kiadás a 12 hónapos kiadási ciklusa hátralévő idejében továbbra is letölti a biztonsági frissítéseket.

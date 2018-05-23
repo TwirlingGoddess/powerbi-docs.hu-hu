@@ -1,28 +1,20 @@
 ---
 title: Csatlakozás a Webtrends eszközhöz a Power BI használatával
 description: A Power BI-hoz készült Webtrends
-services: powerbi
-documentationcenter: ''
 author: SarinaJoan
 manager: kfile
-backup: maggiesMSFT
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 9c8772430143b974fb389eac2f2ad3e74748fd3f
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 89eda507e0b908fe746cb13c0c6477baed07ba3c
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="connect-to-webtrends-with-power-bi"></a>Csatlakozás a Webtrends eszközhöz a Power BI használatával
 A Power BI Webtrends-tartalomcsomagja számos azonnal használatba vehető metrikát tartalmaz, így például az összes oldalmegtekintést és az adatforgalmi forrás szerinti látogatásokat. A Webtrends-adatok Power BI-ben történő vizualizációja a Webtrends-fiókhoz való csatlakozással kezdődik. Használhatja a mellékelt irányítópultot és jelentéseket, vagy testre szabhatja őket úgy, hogy az Ön számára legfontosabb adatokat emeljék ki.  Az adatok naponta egyszer automatikusan frissülnek.
@@ -102,7 +94,7 @@ A hitelesítő adatok ugyanazok, mint amelyeket a Webtrendsbe történő bejelen
 ![](media/service-connect-to-webtrends/webtrendscreds.png)
 
 ## <a name="troubleshooting"></a>Hibaelhárítás
-A tartalomcsomag betöltése közben, a hitelesítő adatok megadása után problémát tapasztalhat. Ha betöltés közben a „Hoppá” üzenetet látja, tekintse meg az alábbi hibaelhárítási javaslatokat. Ha továbbra is problémákat tapasztal, küldjön támogatási jegyet a https://support.powerbi.com címen
+A tartalomcsomag betöltése közben, a hitelesítő adatok megadása után problémát tapasztalhat. Ha betöltés közben a „Hoppá” üzenetet látja, tekintse meg az alábbi hibaelhárítási javaslatokat. Ha továbbra is problémákat tapasztal, küldjön támogatási jegyet a https://support.powerbi.com címen.
 
 1. A megfelelő profilazonosítót használja, további részletekért lásd: [Paraméterek keresése](#FindingParams).
 2. A felhasználó hozzáféréssel rendelkezik a [„Tartalom”](#Included) szakaszban felsorolt jelentésekhez

@@ -1,28 +1,20 @@
 ---
 title: Csatlakozás a comScore Digital Analytix eszközhöz a Power BI használatával
 description: comScore Digital Analytix a Power BI-hoz
-services: powerbi
-documentationcenter: ''
 author: SarinaJoan
 manager: kfile
-backup: maggiesMSFT
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: c7e476cb9e5a210ce2d37691c44ed05dd9f3c256
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: bc9a8637416bdea50e955c1aea73bbcfeed51bb6
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="connect-to-comscore-digital-analytix-with-power-bi"></a>Csatlakozás a comScore Digital Analytix eszközhöz a Power BI használatával
 A Power BI-tartalomcsomag segítségével a Power BI-ban jelenítheti meg és elemezheti a comScore Digital Analytix adatait. Az adatok naponta egyszer automatikusan frissülnek.
@@ -71,7 +63,7 @@ Az alábbiakban olvashatók a comScore-paraméterek megkereséséhez szükséges
 
 A csatlakoztatott adatközpontot a comScore-ból elért URL-cím határozza meg.
 
-Ha a https://dax.comscore.com címet használja, az „US”, ha a https://dax.comscore.eu címet használja, az „EU” értéket kell megadnia.
+A https://dax.comscore.com cím használata esetén az „US”, a https://dax.comscore.eu cím használata esetén az „EU” értéket kell megadni.
 
 ![](media/service-connect-to-connect-to/comscore_url.png) 
 

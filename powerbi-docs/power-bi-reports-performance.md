@@ -1,28 +1,20 @@
 ---
-title: "Ajánlott eljárások a Power BI teljesítményének javításához"
-description: "A cikkből megtudhatja, hogyan hozhat létre gyors és megbízható jelentéseket a Power BI-ban."
-services: powerbi
-documentationcenter: 
+title: Ajánlott eljárások a Power BI teljesítményének javításához
+description: A cikkből megtudhatja, hogyan hozhat létre gyors és megbízható jelentéseket a Power BI-ban.
 author: MarkMcGeeAtAquent
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: monitoring
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 12/12/2017
+ms.component: powerbi-service
+ms.topic: conceptual
+ms.date: 05/18/2018
 ms.author: v-mamcge
 LocalizationGroup: Reports
-ms.openlocfilehash: e584f48f5d3650821aac094ebfde7eef5261cc36
-ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
+ms.openlocfilehash: 78dcd0ac0735bfbb3c22678d6bda1397120360cd
+ms.sourcegitcommit: dcde910817720c05880ffe24755034f916c9b890
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 03/12/2018
+ms.lasthandoff: 05/19/2018
 ---
 # <a name="power-bi-performance-best-practices"></a>Ajánlott eljárások a Power BI teljesítményének javításához 
 A cikk azt mutatja be, hogyan hozhat létre gyors és megbízható jelentéseket a Power BI-ban.  
@@ -96,8 +88,14 @@ Ne feledje, hogy DirectQuery és élő kapcsolat esetében ez a lekérdezési gy
 ## <a name="understand-custom-visual-performance"></a>Az egyéni vizualizációk teljesítményének ismertetése 
 Tesztelje az összes egyéni vizualizációt annak megállapításához, hogy biztosan megfelelő teljesítményt nyújtanak-e. A rosszul optimalizált egyéni vizualizációk a teljes jelentés teljesítményére negatív hatással lehetnek. 
  
-## <a name="deep-dive-into-query-performance-with-sql-profiler-and-power-bi-desktop"></a>A lekérdezések teljesítményének részletes elemzése az SQL Profiler és a Power BI Desktop használatával 
-Ha szeretné részletesebben megismerni, hogy mely vizualizációk igényelnek a legtöbb időt és erőforrást, csatlakoztathatja az SQL Profiler eszközt a Power BI Desktop alkalmazáshoz, és megtekintheti a lekérdezések részletes teljesítményadatait. A teendők a következők: 
+## <a name="deep-dive-into-query-performance-with-sql-profiler-and-power-bi-desktop"></a>A lekérdezések teljesítményének részletes elemzése az SQL Profiler és a Power BI Desktop használatával
+
+Ha szeretné részletesebben megismerni, hogy mely vizualizációk igényelnek a legtöbb időt és erőforrást, csatlakoztathatja az SQL Profiler eszközt a Power BI Desktop alkalmazáshoz, és megtekintheti a lekérdezések részletes teljesítményadatait.
+
+> [!NOTE]
+> A Power BI Desktop támogatja a diagnosztikai portokhoz való csatlakozást. A diagnosztikai port lehetővé teszi, hogy más eszközök csatlakozzanak és diagnosztikai célú nyomkövetést végezzenek. *A modell semmiféle módosítása sem támogatott! A modell megváltoztatása adatsérülést és adatvesztést okozhat.*
+
+A teendők a következők:
   
 1. **Telepítse az SQL Server Profiler eszközt, és indítsa el a Power BI Desktop alkalmazást** 
 

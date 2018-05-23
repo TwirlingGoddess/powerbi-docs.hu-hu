@@ -1,27 +1,19 @@
 ---
-title: "Helyszíni jelentések és KPI-k megtekintése a Power BI-mobilalkalmazásokban"
-description: "A Power BI Mobile-alkalmazások élő, érintésvezérelt mobilhozzáférést biztosítanak helyszíni üzleti adataihoz a Microsoft SQL Server Reporting Services és a Power BI jelentéskészítő kiszolgáló használatával."
-services: powerbi
-documentationcenter: 
+title: Helyszíni jelentések és KPI-k megtekintése a Power BI-mobilalkalmazásokban
+description: A Power BI Mobile-alkalmazások élő, érintésvezérelt mobilhozzáférést biztosítanak helyszíni üzleti adataihoz a Microsoft SQL Server Reporting Services és a Power BI jelentéskészítő kiszolgáló használatával.
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-mobile
+ms.topic: conceptual
 ms.date: 12/18/2017
 ms.author: maggies
-ms.openlocfilehash: 5bbd2f09187e9fac16f6cc4b9ac3ff59a888ed7f
-ms.sourcegitcommit: ea247cb3cfc1cac076d4b076c1ad8e2fc37e15a1
+ms.openlocfilehash: 4277a8353fa6d9538ff050f0c08b9644d4a218c6
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 12/19/2017
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="view-on-premises-report-server-reports-and-kpis-in-the-power-bi-mobile-apps"></a>Helyszíni jelentéskészítő kiszolgálói jelentések és KPI-k megtekintése a Power BI-mobilalkalmazásokban
 A következőkre vonatkozik:
@@ -117,5 +109,5 @@ KPI-ket és jelentéseket jelölhet meg kedvencekként a webes portálon, majd a
 
 ## <a name="next-steps"></a>Következő lépések
 * [Első lépések a Power BI-ban](service-get-started.md)  
-* Kérdése van? [Forduljon a Power BI közösségéhez](http://community.powerbi.com/)
+* Kérdése van? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)
 

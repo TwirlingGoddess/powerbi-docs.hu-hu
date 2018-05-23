@@ -1,28 +1,20 @@
 ---
 title: Csatlakozás az Insightly-hoz a Power BI használatával
 description: Insightly a Power BI-hoz
-services: powerbi
-documentationcenter: ''
 author: SarinaJoan
 manager: kfile
-backup: maggiesMSFT
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: a49260a90647178e0737e728804b00c004b21376
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: fe5e061913713c76f64995876dda047f7cdc5fea
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="connect-to-insightly-with-power-bi"></a>Csatlakozás az Insightly-hoz a Power BI használatával
 Megjelenítheti és megoszthatja Insightly CRM-adatait a Power BI-ban az Insightly tartalomcsomag használatával. Csatlakozzon a Power BI-hoz az Insightly API-kulccsal jelentések és irányítópultok megtekintéséhez és felépítéséhez a CRM-adatokból. A Power BI használatával új módokon elemezheti az adatokat, hatékony gráfokat és diagramokat hozhat létre, valamint térképen jeleníthet meg a kapcsolattartókat, érdeklődőket és cégeket.
@@ -83,7 +75,7 @@ Ha másolni szeretné az API-kulcsot az Insightly-ból, válassza az Insightly p
 ![](media/service-connect-to-insightly/findapi.png)
 
 ## <a name="troubleshooting"></a>Hibaelhárítás
-Az adatokat az Insightly API-n keresztül importálja, amelyre az Insightly előfizetési csomag szintjétől függő napi korlát vonatkozik. A korlátok az API-dokumentáció Sebességkorlátozás/Kérelmek szabályozása szakaszában szerepelnek: https://api.insight.ly/v2.2/Help#!/Overview/Introduction#ratelimit
+Az adatokat az Insightly API-n keresztül importálja, amelyre az Insightly előfizetési csomag szintjétől függő napi korlát vonatkozik. A korlátok az API-dokumentáció Rate Limiting/Throttling Requests (Sebességkorlátozás/kérelmek szabályozása) című szakaszában szerepelnek: https://api.insight.ly/v2.2/Help#!/Overview/Introduction#ratelimit
 
 A megadott jelentések az Insightly alapértelmezett mezőit használják, így előfordulhat, hogy nem tartalmazzák a testreszabásait. Szerkessze a jelentést az összes elérhető mező megtekintéséhez.
 

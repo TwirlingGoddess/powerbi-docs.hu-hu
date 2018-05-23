@@ -1,28 +1,20 @@
 ---
 title: Csatlakozás a Microsoft Dynamicshoz a Power BI használatával
 description: A Power BI-hoz készült Microsoft Dynamics CRM
-services: powerbi
-documentationcenter: ''
 author: SarinaJoan
 manager: kfile
-backup: maggiesMSFT
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: e7bfb936bdff4ba7ddd5097c3f59003d48c70347
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 1dadb70f2d75596bb7180a5e7360cae19e1515b8
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="connect-to-microsoft-dynamics-crm-with-power-bi"></a>Csatlakozás a Microsoft Dynamics CRM-hez a Power BI használatával
 A Power BI-hoz készült Microsoft Dynamics CRM Online lehetővé teszi az adatok könnyű elérését és elemzését. A Power BI az OData-adatcsatorna használatával hoz létre leíró modelleket, beleértve az összes szükséges entitást és mértéket (pl.: Fiókok, Tevékenységek, Lehetőségek, Termék, Érdeklődők, Felhasználók stb.). Az alkalmazás telepítése után az irányítópultot és a jelentéseket a Power BI szolgáltatásban ([https://powerbi.com](https://powerbi.com)) és a Power BI-mobilalkalmazásokban is megtekintheti. 

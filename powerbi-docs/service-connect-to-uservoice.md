@@ -1,28 +1,20 @@
 ---
 title: Csatlakozás a UserVoice-hoz a Power BI-ban
 description: UserVoice a Power BI-ban
-services: powerbi
-documentationcenter: ''
 author: SarinaJoan
 manager: kfile
-backup: maggiesMSFT
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: bc55031358fe27b5bb935b8255c8b6b1c191d4ab
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 2761b2bd1230e18b5dd4e0b69342e55ed33d0983
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="connect-to-uservoice-with-power-bi"></a>Csatlakozás a UserVoice-hoz a Power BI-ban
 A UserVoice-adatok egyszerűen nyomon követhetők és megvizsgálhatók aPower BI és a UserVoice-tartalomcsomag használatával. A Power BI beolvassa az adatokat, köztük a jegyeket, javaslatokat és elégedettségi mutatókat, majd az adatok alapján használatra kész irányítópultot és jelentéseket hoz létre.
@@ -42,7 +34,7 @@ Kapcsolódás a [UsreVoice-tartalomcsomaghoz](https://app.powerbi.com/getdata/se
 3. Válassza a **UserVoice**, majd a **Beolvasás** lehetőséget.
    
    ![](media/service-connect-to-uservoice/uservoice.png)
-4. Amikor a rendszer kéri, adja meg UserVoice URL-címét. Az URL-címnek pontosan meg kell felelnie a következő mintának: https://fabrikam.uservoice.com (a "fabrikam" helyén a saját terméke vagy szolgáltatása nevével).
+4. Amikor a rendszer kéri, adja meg UserVoice URL-címét. Az URL-címnek pontosan meg kell felelnie a következő mintának: https://fabrikam.uservoice.com (a „fabrikam” helyén a saját terméke vagy szolgáltatása nevével).
    
    >[!NOTE]
    >A cím végén nincs lezáró perjel, és a kapcsolati séma http**s**.
@@ -70,7 +62,7 @@ Kapcsolódás a [UsreVoice-tartalomcsomaghoz](https://app.powerbi.com/getdata/se
 
 Ha ezt a hibaüzenetet kapja a UserVoice URL-címe begépelése után, akkor győződjön meg a következő követelmények teljesüléséről:
 
-* Az URL-cím pontosan megfelel a következő mintának: https://fabrikam.uservoice.com (a "fabrikam" helyén a saját helyes UserVoice URL-előtagjával).
+* Az URL-cím pontosan megfelel a következő mintának: „https://fabrikam.uservoice.com” (a „fabrikam” helyén a saját helyes UserVoice-os URL-előtagjával).
 * Minden betű kisbetű.
 * Az URL-cím sémája 'http**s**'.
 * Az URL-cím vége nincs perjellel lezárva.
@@ -81,7 +73,7 @@ Ha "Sikertelen bejelentkezés" hibaüzenetet kap a UserVoice hitelesítő adatai
 
 "**Oops something went wrong**" (Hoppá! Hiba történt.)
 
-Ha ez a hibaüzenet jelenik meg az adatok betöltésekor, akkor ellenőrizze, hogy a UserVoice-fiókja nem lépte-e túl a havi API-használati keretét. Ha mindent rendben talál, akkor próbáljon meg újra kapcsolódni. Ha a probléma továbbra is fennáll, forduljon a Power BI támogatási oldalához: [https://community.powerbi.com](https://community.powerbi.com/).
+Ha ez a hibaüzenet jelenik meg az adatok betöltésekor, akkor ellenőrizze, hogy a UserVoice-fiókja nem lépte-e túl a havi API-használati keretét. Ha mindent rendben talál, akkor próbáljon meg újra kapcsolódni. Ha a probléma továbbra is fennáll, keresse fel a Power BI támogatási oldalát: [https://community.powerbi.com](https://community.powerbi.com/).
 
 **Egyéb**  
 

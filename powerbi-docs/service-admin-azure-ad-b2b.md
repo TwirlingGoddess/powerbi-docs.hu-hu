@@ -1,28 +1,20 @@
 ---
 title: Power BI tartalmak terjesztése Azure AD B2B külső vendégfelhasználóknak
 description: A Power BI integrálható az Azure Active Directory vállalatközi felhasználásra szánt verziójával (Azure AD B2B), ami lehetővé teszi, hogy a Power BI-tartalmakat cégen kívüli vendégfelhasználókkal is biztonságosan meg tudja osztani.
-services: powerbi
-documentationcenter: ''
 author: mgblythe
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-admin
+ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 16820050ad879b128482af5754bc53973449f982
-ms.sourcegitcommit: 8552a34df8e6141eb704314c1a019992901d6e78
+ms.openlocfilehash: 2cd096303412ef2ecbf65d818cfa70a007767da9
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/08/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="distribute-power-bi-content-to-external-guest-users-with-azure-ad-b2b"></a>Power BI tartalmak terjesztése Azure AD B2B külső vendégfelhasználóknak
 
@@ -62,7 +54,7 @@ Tervezett meghívást az Azure AD-beli Microsoft Azure Portalon belül, PowerShe
 
 4. Kattintson a **Meghívás** lehetőségre.
 
-Ha egynél több vendéget szeretne meghívni, használja a PowerShellt. Ha további információra van szüksége, tekintse át az [Azure Active Directory B2B együttműködési kódmintát és PowerShell-példákat](https://docs.microsoft.com/azure/active-directory/active-directory-b2b-code-samples) tartalmazó cikket.
+Ha egynél több vendéget szeretne meghívni, használja a PowerShellt. Ha további információra van szüksége, tekintse át az [Azure Active Directory B2B együttműködési kódmintát és PowerShell-példákat](https://docs.microsoft.com/azure/active-directory/b2b/code-samples) tartalmazó cikket.
 
 A vendégfelhasználónak az e-mailben kapott meghívóban rá kell majd kattintania az **Első lépések** (Get Started) lehetőségre. A rendszer ezután hozzá fogja adni a vendégfelhasználót a bérlőhöz.
 
@@ -111,7 +103,7 @@ A vendégfelhasználó saját bérlőjén már rendelkezik Power BI Pro-licencce
 * Személyes, például gmail.com-os, outlook.com-os vagy hotmail.com-os e-mail-fiókot használó vendég meghívása esetén [ebben a beágyazott videóban](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-b2b-redemption-experience) tekintheti meg a felhasználók bejelentkezésének menetét.
 * A külső B2B-vendégeknek csak olvasási jogosultságuk van a tartalomhoz. A külső B2B-vendégek megtekinthetnek alkalmazásokat, irányítópultokat, jelentéseket, illetve adatokat exportálhatnak, és irányítópultokhoz és jelentésekhez kapcsolódó e-mail-értesítéseket hozhatnak létre. Nem férhetnek hozzá azonban munkaterületekhez, és nem tehetik közzé saját tartalmaikat.
 * Ez a funkció jelenleg nem érhető el Power BI-mobilalkalmazásokban. Az Azure AD B2B-vel megosztott Power BI-tartalmakat a mobileszközén böngészőben tekintheti meg.
-* A Power BI nem támogatja a vendégfelhasználókat független (kormányzati) felhőkben.
+* Ez a funkció a Power BI SharePoint Online-jelentés kijelzőjéhez jelenleg nem érhető el.
 
 ## <a name="next-steps"></a>Következő lépések
 

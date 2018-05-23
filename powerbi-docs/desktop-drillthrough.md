@@ -1,28 +1,20 @@
 ---
 title: Részletezés használata a Power BI Desktopban
 description: Megtudhatja, hogyan elemezheti részletesen az adatokat új jelentésoldalon a Power BI Desktopban.
-services: powerbi
-documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 05/08/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: d0c78643d285099f7b7856704ac7ee350ff9f93a
-ms.sourcegitcommit: 509be8852ba7595b9441c9479224f9dca298b26d
+ms.openlocfilehash: 8c9a0d075c6d55baa1f518874fa668a3f0db8cb3
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 05/09/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="use-drillthrough-in-power-bi-desktop"></a>Részletezés használata a Power BI Desktopban
 A **Power BI Desktop** **részletezésével** olyan oldalt hozhat létre a jelentésben, amely adott entitásra összpontosít – például szállítóra, ügyfélre vagy gyártóra. Ezzel az összpontosított jelentésoldallal a felhasználók a jobb gombbal egy adatpontra kattinthatnak más jelentésoldalakon, és áthatolhatnak az összpontosított oldalra az ebben a környezetben szűrt részletek beszerzéséhez.
@@ -71,6 +63,14 @@ Amikor ezután részletez egy vizualizációt, láthatja, hogy mely szűrők let
 ![dőlt formázású átmeneti szűrők](media/desktop-drillthrough/drillthrough_07.png)
 
 Ugyanezt elvégezhetné eszköztipplapokkal is, de ez szokatlan élményhez vezetne (az eszköztipp látszólag nem megfelelően működne), ezért az eszköztippek e módon való használata nem javasolt.
+
+## <a name="add-a-measure-to-drillthrough"></a>Mérték hozzáadása részletezéshez
+
+Azonkívül, hogy az összes szűrőt átadhatja a részletezési ablaknak, mértéket (vagy összegzett numerikus oszlopot) is hozzáadhat a részletezési területhez. A részletező mező alkalmazásához csupán a Részletezés kártyára kell húznia azt. 
+
+![mérték hozzáadása részletezéshez](media/desktop-drillthrough/drillthrough_08.png)
+
+Mérték (vagy összegzett numerikus oszlop) hozzáadása esetén a mezőt a vizualizáció *Érték* területén használva jelenítheti meg az oldal részleteit.
 
 Ezek a legfontosabb tudnivalók a **részletezés** jelentésekben való használatáról. Ez nagyszerű mód a részletezési szűrőhöz kiválasztott entitásinformációk kibővített nézetének megjelenítésére.
 

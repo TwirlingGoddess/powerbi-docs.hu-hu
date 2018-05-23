@@ -1,28 +1,20 @@
 ---
 title: Kapcsolódás a Marketo eszközhöz a Power BI használatával
 description: Marketo a Power BI-ban
-services: powerbi
-documentationcenter: ''
 author: SarinaJoan
 manager: kfile
-backup: maggiesMSFT
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 78f128e870bbf775c805438464342612d5ba8382
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 3f7ad953f36830db74fb8e611dc9a0641498affd
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="connect-to-marketo-with-power-bi"></a>Kapcsolódás a Marketo eszközhöz a Power BI használatával
 A Marketo eszközhöz készült Power BI-tartalomcsomag az érdeklődőkhöz és tevékenységeikhez kapcsolódó adatokkal segíti a Marketo-fiók elemzését. A kapcsolat lekéri az adatokat, és automatikusan a rendelkezésére bocsátja a rájuk épülő irányítópultot, valamint a kapcsolódó jelentéseket.
@@ -43,8 +35,8 @@ Kapcsolódás a Power BI-hoz készült [Marketo tartalomcsomaghoz](https://app.p
    
    ![](media/service-connect-to-marketo/pbi_marketoconnect.png)
    
-   További információk a Marketo REST végpontról: [http://developers.marketo.com/documentation/rest/endpoint-url/ ](http://developers.marketo.com/documentation/rest/endpoint-url/).
-5. Használja az **Alapszintű** hitelesítési módot, és **Felhasználónévként**adja meg az ügyfél-azonosítóját, **Jelszóként** pedig a titkos ügyfélkulcsot. Az ügyfél-azonosító és a titkos ügyfélkulcs a Marketo rendszerében vagy a Marketo rendszergazdájánál érhető el ([http://developers.marketo.com/documentation/rest/custom-service/](http://developers.marketo.com/documentation/rest/custom-service/)). 
+   További információk a Marketo REST-végpontról: [http://developers.marketo.com/documentation/rest/endpoint-url/ ](http://developers.marketo.com/documentation/rest/endpoint-url/).
+5. Használja az **Alapszintű** hitelesítési módot, és **Felhasználónévként**adja meg az ügyfél-azonosítóját, **Jelszóként** pedig a titkos ügyfélkulcsot. Ügyfélazonosító és titkos ügyfélkód a Marketóban vagy a Marketo-rendszergazdánál ([http://developers.marketo.com/documentation/rest/custom-service/](http://developers.marketo.com/documentation/rest/custom-service/)) érhető el. 
    
    ![](media/service-connect-to-marketo/pbi_marketosignin.png)
    

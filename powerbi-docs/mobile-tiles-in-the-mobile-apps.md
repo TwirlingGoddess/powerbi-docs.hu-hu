@@ -1,27 +1,19 @@
 ---
-title: "Ismerkedés a Power BI-mobilalkalmazások csempéivel"
-description: "A csempék az adatokról készült élő, irányítópultra rögzített pillanatképek. Útmutató csempék használatához Power BI-mobilalkalmazásokban."
-services: powerbi
-documentationcenter: 
+title: Ismerkedés a Power BI-mobilalkalmazások csempéivel
+description: A csempék az adatokról készült élő, irányítópultra rögzített pillanatképek. Útmutató csempék használatához Power BI-mobilalkalmazásokban.
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-mobile
+ms.topic: conceptual
 ms.date: 10/13/2017
 ms.author: maggies
-ms.openlocfilehash: 062031560c8b047837dffacb81b45fff4f06e0d9
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 4680ab3709f1a2cbe56445e6719ea4de15396eb0
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="explore-tiles-in-the-power-bi-mobile-apps"></a>Ismerkedés a Power BI-mobilalkalmazások csempéivel
 A következőkre vonatkozik:

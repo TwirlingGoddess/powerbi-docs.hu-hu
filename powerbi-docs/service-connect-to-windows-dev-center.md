@@ -1,28 +1,20 @@
 ---
 title: Kapcsolódás a Windows fejlesztői központhoz a Power BI-jal
 description: Windows fejlesztői központ a Power BI-hoz
-services: powerbi
-documentationcenter: ''
 author: SarinaJoan
 manager: kfile
-backup: maggiesMSFT
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 246c1dc22d120ac01fe5276bbd0a2dd95b0dbc1f
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 6cdb4d6684ec97786c7fd10da7d22515a24e9dbc
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="connect-to-windows-dev-center-with-power-bi"></a>Kapcsolódás a Windows fejlesztői központhoz a Power BI-jal
 A Power BI-tartalomcsomag használatával a Power BI-ban vizsgálhatja és figyelheti a Windows fejlesztői központ alkalmazáselemzési adatait. Az adatok naponta egyszer automatikusan frissülnek.
@@ -73,9 +65,9 @@ Ez a tartalomcsomag megkövetel legalább egy, a Windows Áruházban közzétett
 ## <a name="finding-parameters"></a>Paraméterek keresése
 Egy alkalmazás azonosítóját az Alkalmazáskezelés alatti Alkalmazásidentitás lap megnyitásával találhatja meg.
 
-Az alkalmazás azonosítója a Windows 10 Áruház-beli URL-cím végén található (https://www.microsoft.com/store/apps/ **{alkalmazásazonosító}**)
+Az alkalmazás azonosítója a Windows 10 Áruházbeli URL-cím végén található (https://www.microsoft.com/store/apps/ **{alkalmazásazonosító}**)
 
-## <a name="next-steps"></a>További lépések
+## <a name="next-steps"></a>Következő lépések
 [Első lépések a Power BI-ban](service-get-started.md)
 
 [Adatok lekérése a Power BI-ban](service-get-data.md)

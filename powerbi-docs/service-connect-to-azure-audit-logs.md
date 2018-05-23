@@ -1,28 +1,20 @@
 ---
 title: Kapcsolódás Azure-auditnaplókhoz a Power BI-jal
 description: Azure-auditnaplók a Power BI-hoz
-services: powerbi
-documentationcenter: ''
 author: SarinaJoan
 manager: kfile
-backup: maggiesMSFT
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 02/06/2018
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: bb88ca524df5dd8c683c38a1a54a9bd626dad840
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 22020595b4f972f112f10e16fe7ae7d7fd4abed7
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="connect-to-azure-audit-logs-with-power-bi"></a>Kapcsolódás Azure-auditnaplókhoz a Power BI-jal
 Az Azure-auditnaplók tartalomcsomagjával elemezheti és vizualizálhatja az auditnaplókban tárolt információt. A Power BI lekéri az adatait, előregyártott irányítópultot készít, és jelentéseket hoz létre az adatok alapján.
@@ -67,8 +59,8 @@ Az Azure-auditnaplók tartalomcsomagnak hozzáférésre van szüksége az auditn
 ## <a name="finding-parameters"></a>Paraméterek keresése
 Az előfizetés-azonosítót két egyszerű módon találhatja meg.
 
-1. A https://portal.azure.com helyről -&gt; Tallózás -&gt; Előfizetések -&gt; Előfizetés-azonosító
-2. A https://manage.windowsazure.com helyről -&gt; Beállítások -&gt; Előfizetési azonosító
+1. A https://portal.azure.com helyről  -&gt; Tallózás -&gt; Előfizetések -&gt; Előfizetés-azonosító
+2. A https://manage.windowsazure.com helyről  -&gt; Beállítások -&gt; Előfizetés-azonosító
 
 Az előfizetés-azonosító egy hosszú betű- és számsor, ami a fenti \#4. lépésben láthatóhoz hasonlít. 
 

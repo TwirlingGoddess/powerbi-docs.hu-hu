@@ -1,28 +1,20 @@
 ---
 title: Csatlakozás a Madeira projekthez a Power BI használatával
 description: A Madeira projekt a Power BI-ban
-services: powerbi
-documentationcenter: ''
 author: SarinaJoan
 manager: kfile
-backup: maggiesMSFT
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 02b8c2e8ed9a8a4ca0c8aaf9848699f3ca3c24c8
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: b4462d8ef5037cf4fe76a6ff061b7993e8d8ec44
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="connect-to-project-madeira-with-power-bi"></a>Csatlakozás a „Madeira” projekthez a Power BI használatával
 A Power BI és a „Madeira” projekt tartalomcsomag segítségével egyszerűen elemezheti a „Madeira” projekt adatait. A Power BI begyűjti az adatait (beleértve a Sales, azaz értékesítési és a Financial, azaz pénzügyi adatokat), majd összeállít egy használatra kész irányítópultot, és jelentést készít az adatok alapján.
@@ -40,7 +32,7 @@ Kapcsolódjon a Power BI-hoz készült [„Madeira” projekt elemzési tartalom
     ![](media/service-connect-to-project-madeira/services.png)
 3. Válassza a **„Madeira” projekt** elemet, majd kattintson a **Lekérés** elemre.  
     ![](media/service-connect-to-project-madeira/projectmadeira.png)
-4. Amikor a rendszer erre kéri, adja meg a „Madeira” projekt URL-címét. Az URL-címnek pontosan ezt a mintát kell követnie: https://mycronusus.projectmadeira.com:7048/NAV/OData/Company('CRONUS%20US') a saját „Madeira” projekt vállalatának nevével. Ügyeljen arra, hogy az URL-cím nem perjelre végződik, és a kapcsolatnak https-kapcsolatnak kell lennie. Az URL-cím megkeresésének részleteit [alább](#FindingParams) találja.  
+4. Amikor a rendszer erre kéri, adja meg a „Madeira” projekt URL-címét. Az URL-címnek pontosan ezt a mintát kell követnie: https://mycronusus.projectmadeira.com:7048/NAV/OData/Company('CRONUS%20US') a saját „Madeira” projektbeli cégnévvel. Ügyeljen arra, hogy az URL-cím nem perjelre végződik, és a kapcsolatnak https-kapcsolatnak kell lennie. Az URL-cím megkeresésének részleteit [alább](#FindingParams) találja.  
    
     ![](media/service-connect-to-project-madeira/params.png)
 5. Amikor a rendszer erre kéri, válassza az Alapszintű Hitelesítés módszert, felhasználónévként adja meg a „Madeira” projekthez tartozó e-mail-címét, jelszóként pedig a „Madeira” projekthez tartozó fiókja webszolgáltatás-hozzáférési kulcsát. Amennyiben böngészőben már bejelentkezett a „Madeira” projektbe, elképzelhető, hogy nem kell ismét megadnia a hitelesítő adatait. A hozzáférési kulcs létrehozásának részleteit lásd [alább](#FindingParams).  

@@ -1,28 +1,20 @@
 ---
 title: Az Azure SQL Database DirectQueryvel
 description: Az Azure SQL Database DirectQueryvel
-services: powerbi
-documentationcenter: 
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 12/18/2017
 ms.author: maghan
 LocalizationGroup: Data from databases
-ms.openlocfilehash: a32326c089c50ef4913f6d646d68d66e31efdbfc
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 27b2eb90a07d3112b771fd3ee23cc86353a46991
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="azure-sql-database-with-directquery"></a>Az Azure SQL Database DirectQueryvel
 Ismerje meg, hogyan lehet az Azure SQL Database-hez közvetlenül kapcsolódni, és élő adatok használatával jelentéseket létrehozni. Nem szükséges az adatok a saját forrásukból a Power BI-ba juttatni.
@@ -35,10 +27,10 @@ A DirectQuery használatával, miközben a jelentés nézetben feltárja az adat
 * Győződjön meg arról, hogy az adatbázisra vonatkozó tűzfalszabályokban konfigurálva van az [Azure-szolgáltatásokhoz való hozzáférés engedélyezése](https://msdn.microsoft.com/library/azure/ee621782.aspx)
 * Minden művelet, mint például egy oszlop kiválasztása vagy egy szűrő felvétele, visszaküld egy lekérdezést az adatbázisnak
 * A csempék óránként frissülnek (a frissítést nem szükséges ütemezni). Ezen a csatlakozáskor lehet módosítani, a Speciális beállítások között.
-* DirectQueryvel elért adatkészletek esetén a Q&A nem használható
-* A rendszer nem követi automatikusan a sémák változásait
+* A Q&A nem érhető el DirectQuery-adatkészletek esetén
+* A sémaváltozások felvétele nem automatikus
 
-Ezek a korlátozások és figyelmeztetések a felhasználói felületek fejlesztésével változhatnak. Alább láthatók a kapcsolódás lépéseinek részletei. 
+Ezek a korlátozások és megjegyzések a kezelőfelület további fejlesztése folyamán változhatnak. Alább láthatók a kapcsolódás lépéseinek részletei. 
 
 ## <a name="power-bi-desktop-and-directquery"></a>A Power BI Desktop és a DirectQuery
 A Power BI Desktop használata szükséges ahhoz, hogy az Azure SQL Database-hez DirectQueryvel kapcsolódhasson. Ez a megközelítés nagyobb rugalmasságot és további képességeket biztosít. A Power BI Desktoppal létrehozott jelentések közzétehetők a Power BI szolgáltatásban. További tudnivalók arról, hogyan kapcsolódhat az [Azure SQL Database-hez DirectQuery használatával](desktop-use-directquery.md) a Power BI Desktopban. 

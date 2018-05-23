@@ -1,28 +1,20 @@
 ---
 title: Jelentéstémák használata a Power BI Desktopban (előzetes verzió)
 description: Megtudhatja, hogyan használhat egyéni színpalettát, és hogyan alkalmazhatja azt egy egész jelentésre a Power BI Desktopban
-services: powerbi
-documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 8f4f8c257404eaca97f419603bac386da5bf7446
-ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
+ms.openlocfilehash: 8ad48c0e5b78dabee7b1851c75b01e7fda611c1d
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 05/04/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="use-report-themes-in-power-bi-desktop-preview"></a>Jelentéstémák használata a Power BI Desktopban (előzetes verzió)
 A **Jelentéstémák** használatával egységes színtémát alkalmazhat az egész jelentésre, például a cég színeit, az évszaknak megfelelő színeket vagy bármely más színtémát, amit csak szeretne. **Jelentéstémák** alkalmazásakor a jelentésben szereplő összes vizualizáció a kiválasztott téma színeit fogja használni (ez alól van néhány kivétel, amelyeket a cikk későbbi részében mutatunk be).
@@ -149,7 +141,7 @@ Az alapszintű JSON-fájl öt kötelező sort tartalmaz:
 
 * **name** – Ez a téma neve, amely az egyetlen kötelezően kitöltendő mező
 * **dataColors** – Hexadecimális kódolású színkódok listája a Power BI Desktop vizualizációiban szereplő adatokhoz. A lista annyi színt tartalmazhat, amennyi szükséges
-* **background**, **foreground** és **tableAccent** – Ezek az értékek a **tábla** és **mátrix** típusú vizualizációkban használt színeket határozzák meg. A színek használatának módja az alkalmazott tábla- vagy mátrixstílustól függ. A **tábla** és **mátrix** típusú vizualizációk alapértelmezés szerint alkalmazzák ezeket a stílusokat.
+* **background**, **foreground** és **tableAccent** – Ezek az értékek a különböző típusú vizualizációkban alkalmazandó színeket határozzák meg. A **foreground** (előtérszín) a szövegmezők, a KPI-célok, a többsoros kártyák, a kártyaértékek, a mérőkiolvasások és a függőleges szeletelőelemek szövegére, valamint a **táblázatok** és **mátrixok** összegeire és értékeire vonatkozik. A **background** (háttérszín) a gombok kitöltésére és a kombinált diagramok címkéinek hátterére vonatkozik. A színek használatának módja az alkalmazott vizualizációstílustól függ. A **tábla** és **mátrix** típusú vizualizációk alapértelmezés szerint alkalmazzák ezeket a stílusokat.
 
 Ha bővített formátumú JSON-fájlt szeretne létrehozni, amelynek formátuma sokkal részletesebben szabályozható, akkor egy **visualStyles** nevű szakaszt kell hozzáadnia a JSON-fájlhoz, és abban a szakaszban kell megadnia a formázás részleteit. A **visualStyles** szakasz formátuma a következőképpen néz ki:
 

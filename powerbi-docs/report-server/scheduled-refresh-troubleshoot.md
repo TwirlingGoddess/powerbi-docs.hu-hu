@@ -1,27 +1,19 @@
 ---
 title: Ütemezett frissítések hibaelhárítása a Power BI jelentéskészítő kiszolgálón
 description: Ez a cikk a Power BI jelentéskészítő kiszolgáló ütemezett frissítéseivel kapcsolatos hibák elhárításához rendelkezésre álló forrásokat ismerteti.
-services: powerbi
-documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-report-server
+ms.topic: conceptual
 ms.date: 11/01/2017
 ms.author: maghan
-ms.openlocfilehash: cf084492a7b5d1ecc10ff933eeaef4cdbdc14022
-ms.sourcegitcommit: bdb1fee3612bcc66153dcad8c4db2e99fb041014
+ms.openlocfilehash: a90f22c262a314b50981be94121e2573f9fe525a
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/28/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="troubleshoot-scheduled-refresh-in-power-bi-report-server"></a>Ütemezett frissítések hibaelhárítása a Power BI jelentéskészítő kiszolgálón
 Ez a cikk a Power BI jelentéskészítő kiszolgáló ütemezett frissítéseivel kapcsolatos hibák elhárításához rendelkezésre álló forrásokat ismerteti.

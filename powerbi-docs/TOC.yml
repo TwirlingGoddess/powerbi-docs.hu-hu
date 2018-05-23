@@ -10,12 +10,14 @@
           href: service-the-new-power-bi-experience.md
     - name: Oktatóanyagok
       items:
-        - name: Kapcsolódás a GitHub online szolgáltatáshoz
+        - name: Csatlakozás GitHub-mintához
           href: service-tutorial-connect-to-github.md
     - name: Fogalmak
       items:
         - name: A Power BI szolgáltatás újdonságai
           href: service-whats-new.md
+        - name: Önkiszolgáló regisztráció
+          href: service-self-service-signup-for-power-bi.md
         - name: Power BI-alapismeretek
           items:
             - name: Power BI – Alapfogalmak
@@ -56,16 +58,12 @@
           items:
             - name: Gyors elemzések a Power BI-ban
               href: service-insights.md
-            - name: Irányítópult létrehozása jelentésből
-              href: service-dashboard-create.md
             - name: Adatok lekérdezése fájlból
               href: service-get-data-from-files.md
             - name: Power BI-jelentés megnyitása Olvasó vagy Szerkesztő nézetben
               href: service-reading-view-and-editing-view.md
             - name: A jelentésszerkesztő – bevezetés
               href: service-the-report-editor-take-a-tour.md
-            - name: Power BI-minták
-              href: sample-datasets.md
             - name: Vizualizációk a Power BI-ban
               href: power-bi-report-visualizations.md
             - name: Adatforrások a Power BI-ban
@@ -124,6 +122,8 @@
                   href: service-connect-to-services.md
                 - name: Acumatica
                   href: service-connect-to-acumatica.md
+                - name: Adobe Analytics
+                  href: service-connect-to-adobe-analytics.md
                 - name: Az Alpine Metrics értékesítési előrejelzései
                   href: service-connect-to-alpine-metrics.md
                 - name: appFigures
@@ -248,8 +248,6 @@
                   href: service-publish-to-powerpoint.md
         - name: Munka a Power BI-ban
           items:
-            - name: Power BI minta-tartalomcsomagok használata
-              href: sample-tutorial-connect-to-the-samples.md
             - name: Excel-munkafüzettől egy lenyűgöző jelentésig villámgyorsan
               href: service-from-excel-to-stunning-report.md
             - name: A Q&A használata vizualizációk és jelentések létrehozásához
@@ -268,6 +266,8 @@
               href: refresh-scheduled-refresh.md
             - name: Irányítópultok
               items:
+                - name: Irányítópult létrehozása jelentésből
+                  href: service-dashboard-create.md
                 - name: Irányítópult másolatának létrehozása
                   href: service-dashboard-copy.md
                 - name: Csempe rögzítése Power BI-irányítópultra jelentésből
@@ -314,19 +314,15 @@
                   href: power-bi-q-and-a-linguistic-schema.md
             - name: Hogyan oszthatja meg munkáját
               items:
-                - name: 'Céges tartalomcsomagok: bevezetés'
-                  href: service-organizational-content-pack-introduction.md
-                - name: Szervezeti tartalomcsomag létrehozása és közzététele
-                  href: service-organizational-content-pack-create-and-publish.md
                 - name: Szűrt jelentés megosztása
                   href: service-share-reports.md
                 - name: Közzététel Power BI-ból a webre
                   href: service-publish-to-web.md
                 - name: Jelentés beágyazása a SharePoint Online-ban
                   href: service-embed-report-spo.md
-                - name: Kapcsolódás a csoport OneDrive Vállalati verzióban tárolt fájljaihoz
+                - name: Kapcsolódás a csoport OneDrive-on tárolt fájljaihoz
                   href: service-connect-to-files-in-app-workspace-onedrive-for-business.md
-                - name: Együttműködés a Power BI csoport-munkaterületén
+                - name: Együttműködés a csoport munkaterületén
                   href: service-collaborate-power-bi-workspace.md
                 - name: Csoport kezelése a Power BI-ban és az Office 365-ben
                   href: service-manage-app-workspace-in-power-bi-and-office-365.md
@@ -334,6 +330,10 @@
                   href: service-organizational-content-pack-manage-update-delete.md
                 - name: 'Vállalati tartalomcsomagok: másolás, frissítés és hozzáférés kérése'
                   href: service-organizational-content-pack-copy-refresh-access.md
+                - name: 'Céges tartalomcsomagok: bevezetés'
+                  href: service-organizational-content-pack-introduction.md
+                - name: Szervezeti tartalomcsomag létrehozása és közzététele
+                  href: service-organizational-content-pack-create-and-publish.md
                 - name: Céges tartalomcsomaghoz való kapcsolódás törlése
                   href: service-organizational-content-pack-disconnect.md
                 - name: A OneDrive Vállalati verzióban tárolt Excel-munkafüzetre hivatkozó irányítópult megosztása
@@ -446,9 +446,13 @@
                   href: service-refresh-xero-credentials.md
     - name: Erőforrások
       items:
-        - name: A Power BI használatát támogató böngészők
+        - name: Videók
+          href: videos.md
+        - name: Webináriumok
+          href: webinars.md
+        - name: Támogatott böngészők
           href: service-browser-support.md
-        - name: A Power BI által támogatott nyelvek és országok/régiók
+        - name: Támogatott nyelvek és országok/régiók
           href: supported-languages-countries-regions.md
         - name: Tanulmányok
           href: whitepapers.md
@@ -480,24 +484,28 @@
           href: desktop-tutorial-row-level-security-onprem-ssas-tabular.md
     - name: Minták
       items:
-        - name: A Power BI-hoz készült Pénzügyi minta munkafüzet letöltése
-          href: sample-financial-download.md
-        - name: 'Szállítói minőségelemzési minta a Power BI-hoz: bemutató'
-          href: sample-supplier-quality.md
-        - name: 'Informatikai kiadások elemzése minta a Power BI-hoz: bemutató'
-          href: sample-it-spend.md
-        - name: 'Értékesítési és marketing minta a Power BI-hoz: bemutató'
-          href: sample-sales-and-marketing.md
-        - name: 'Ügyfél-jövedelmezőségi minta a Power BI-hoz: bemutató'
+        - name: Power BI-minták
+          href: sample-datasets.md
+        - name: A minta-tartalomcsomagok használata
+          href: sample-tutorial-connect-to-the-samples.md
+        - name: 'Ügyfél-jövedelmezőségi minta: bemutató'
           href: sample-customer-profitability.md
+        - name: 'Informatikai beszerzéselemzési minta: bemutató'
+          href: sample-it-spend.md
         - name: 'Emberi erőforrások minta: bemutató'
           href: sample-human-resources.md
-        - name: 'Lehetőségelemzési minta a Power BI-hoz: bemutató'
+        - name: 'Lehetőségelemzési minta: bemutató'
           href: sample-opportunity-analysis.md
         - name: 'Beszerzéselemzési minta: bemutató'
           href: sample-procurement.md
-        - name: 'Kiskereskedelmi elemzési minta a Power BI-hoz: bemutató'
+        - name: 'Kiskereskedelmi elemzési minta: bemutató'
           href: sample-retail-analysis.md
+        - name: 'Értékesítési és marketingminta: bemutató'
+          href: sample-sales-and-marketing.md
+        - name: 'Szállítói minőségelemzési minta: bemutató'
+          href: sample-supplier-quality.md
+        - name: A Pénzügyi minta munkafüzet letöltése
+          href: sample-financial-download.md
     - name: Fogalmak
       items:
         - name: Újdonságok a Power BI Desktop legújabb frissítésében
@@ -806,6 +814,8 @@
           items:
             - name: Helyszíni jelentések megtekintése a mobilalkalmazásokban
               href: mobile-app-ssrs-kpis-mobile-on-premises-reports.md
+            - name: Power BI vegyes valósághoz alkalmazás (előzetes verzió)
+              href: mobile-mixed-reality-app.md
             - name: Irányítópult megosztása a Power BI mobilalkalmazásokból
               href: mobile-share-dashboard-from-the-mobile-apps.md
             - name: Csempék használata a mobilalkalmazásokban
@@ -837,7 +847,7 @@
             - name: Első lépések az androidos Power BI-alkalmazással
               href: mobile-android-app-get-started.md
             - name: Az „Ön vállalati SSL-tanúsítványa nem megbízható” üzenettel kapcsolatos hiba elhárítása
-              href: mobile-android-app-error-corporate-ssl-account-is-untrusted.md
+              href: mobile-android-error-update-android-system-webview.md
         - name: iOS
           items:
             - name: Első lépések az iOS-es Power BI-alkalmazással
@@ -1004,8 +1014,6 @@
           href: report-server/changelog.md
         - name: Támogatási ütemterv
           href: report-server/support-timeline.md
-        - name: Támogatott adatforrások
-          href: report-server/data-sources.md
         - name: Hardver- és szoftverkövetelmények
           href: report-server/system-requirements.md
         - name: Böngészőtámogatás
@@ -1016,9 +1024,9 @@
           items:
             - name: Power BI-jelentések ütemezett frissítése
               href: report-server/scheduled-refresh.md
-            - name: Adatforrások a Power BI-jelentésekhez (.pbix)
+            - name: Adatforrások a Power BI-jelentésekhez
               href: report-server/data-sources.md
-            - name: Adatforrások többoldalas jelentésekhez (.rdl)
+            - name: Adatforrások többoldalas jelentésekhez
               href: report-server/connect-data-sources.md
             - name: Előfizetések
               href: 'https://go.microsoft.com/fwlink/?linkid=851310'
@@ -1048,10 +1056,6 @@
               href: report-server/getting-around.md
             - name: Lapszámozott jelentés létrehozása jelentéskészítő kiszolgálóhoz
               href: report-server/quickstart-create-paginated-report.md
-            - name: Haladó szintű Power BI-jelentések
-              href: 'https://go.microsoft.com/fwlink/?linkid=848708'
-            - name: Haladó szintű többoldalas jelentések
-              href: 'https://go.microsoft.com/fwlink/?linkid=848709'
             - name: KPI-k használata
               href: 'https://go.microsoft.com/fwlink/?linkid=849021'
             - name: 'Megosztott adathalmazok elérése OData-csatornákként '

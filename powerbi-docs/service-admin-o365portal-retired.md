@@ -1,28 +1,20 @@
 ---
 title: Az Office 365-höz készült Power BI-t kivonták
 description: Az Office 365-höz készült Power BI-t kivonták, ismerje meg a jelenlegi Power BI használatát és felügyeletét.
-services: powerbi
-documentationcenter: ''
 author: mgblythe
 manager: kfile
-backup: amandacofsky
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: amandacofsky
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-admin
+ms.topic: conceptual
 ms.date: 12/06/2017
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 34e739ef47207b2f3fe3f9d5536c7941164bae98
-ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
+ms.openlocfilehash: 024bdce00ba6ec7b9c1027163776a71e77aaf91d
+ms.sourcegitcommit: e6db826c2f43a69e4c63d5f4920baa8f66bc41be
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 05/23/2018
 ---
 # <a name="power-bi-for-office-365-is-retired"></a>Az Office 365-höz készült Power BI-t kivonták
 A Power BI előző verziója, az Office 365-höz készült Power BI helyét a [Power BI](https://powerbi.microsoft.com) jelenlegi verziója veszi át. Az **Office 365-höz készült Power BI**  eddigi felhasználói áttérhetnek a Power BI jelenlegi verziójára. [További információk a Power BI használatáról](service-get-started.md).
