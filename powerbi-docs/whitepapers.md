@@ -1,27 +1,19 @@
 ---
 title: Power BI-tanulmányok
 description: A tanulmányokkal behatóbban ismerheti meg a Power BI témaköreit.
-services: powerbi
-documentationcenter: ''
-author: markingmyname
+author: maggiesMSFT
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 04/11/2018
-ms.author: maghan
-ms.openlocfilehash: 049ffb993e749e9cb251130438e351d8adbe3bdf
-ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
+ms.component: powerbi-service
+ms.topic: conceptual
+ms.date: 05/18/2018
+ms.author: maggies
+ms.openlocfilehash: e64850351c9bdc1877eed3a53323e7934e11fbe7
+ms.sourcegitcommit: aa8045e42b979206c600bce4a8d17de1f0620462
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 05/22/2018
 ---
 # <a name="whitepapers-for-power-bi"></a>Power BI-tanulmányok
 
@@ -37,11 +29,12 @@ A tanulmányokkal behatóbban ismerheti meg a Power BI témaköreit. Itt találj
 | [Biztonság](service-admin-power-bi-security.md) |Részletes leírást nyújt a Power BI-on belüli biztonságról. |
 | [A Power BI és a GDPR](https://aka.ms/power-bi-gdpr-whitepaper)| A Power BI fontos állomása lehet a GDPR-megfelelőségi törekvéseinek. Ebben a dokumentumban szeretnénk rövid tájékoztatást nyújtani a GDPR-ról, és hogy az miképpen viszonyul a Power BI-hoz. Noha a GDPR-megfelelőség kötelezően alkalmazandó az ebben a dokumentumban leírt bizonyos helyzetekben, a megfelelőség nem egyszerű ki-bekapcsolási művelet. Ez egyszersmind kiváló alkalom arra is, hogy növelje az adatvédelmi funkciókat általában is.|
 | [Power BI-tartalom terjesztése külső vendégfelhasználóknak az Azure Active Directory B2B használatával](https://aka.ms/powerbi-b2b-whitepaper)|Ebből a tanulmányból megtudhatja, hogyan terjeszthető tartalom a cégen kívüli felhasználóknak az Azure Active Directory vállalatközi (AAD B2B) integrációjával.|
-| [Bevált tervezési gyakorlatok jelentésekhez és vizualizációkhoz](power-bi-visualization-best-practices.md) |Ez a tanulmány a Power BI szolgáltatásban történő jelentéstervezés bevált gyakorlatait mutatja be. |
 | [Fejlett elemzés a Power BI használatával](https://info.microsoft.com/advanced-analytics-with-power-bi.html?Is=Website) |Bemutatja a Power BI fejlett elemzési képességeit, beleértve a prediktív elemzéseket, az egyéni vizualizációkat, az R-integrációt és az adatelemzési kifejezéseket. |
+| [Bevált tervezési gyakorlatok jelentésekhez és vizualizációkhoz](power-bi-visualization-best-practices.md) |Ez a tanulmány a Power BI szolgáltatásban történő jelentéstervezés bevált gyakorlatait mutatja be. |
 | [Kétirányú szűrés](desktop-bidirectional-filtering.md) |Ismerteti a Power BI Desktopban elérhető kétirányú keresztszűrést (valamint az SQL Server Analysis Services 2016 működését is, mivel ugyanúgy viselkedik). |
 | [DirectQuery az SQL Server 2016 Analysis Servicesben](https://blogs.msdn.microsoft.com/analysisservices/2017/04/06/directquery-in-sql-server-2016-analysis-services-whitepaper/) |A DirectQuery az SQL Server 2016 esetében át lett alakítva a drámaian jobb sebesség és teljesítmény érdekében, de emiatt most a megértése és megvalósítása is bonyolultabbá vált. |
-| [A táblázatos BI szemantikai modell biztonságossá tétele](http://download.microsoft.com/download/D/2/0/D20E1C5F-72EA-4505-9F26-FEF9550EFD44/Securing%20the%20Tabular%20BI%20Semantic%20Model.docx) |Ez a tanulmány bemutatja a táblázatos BI-szemantika és a Power BI biztonsági modelljét. Megtudhatja, hogyan hozhat létre szerepköröket, valósíthat meg dinamikus biztonságot, konfigurálhat megszemélyesítési beállításokat, kezelhet szerepköröket és választhatja ki a módszert a hálózati biztonsági környezetében működő modellekhez való csatlakozáshoz. |
 | [Power BI és SAP BW](https://aka.ms/powerbiandsapbw)| Ez a dokumentum azt ismerteti, milyen előnyökkel jár, ha az ügyfelek a Power BI-t a meglévő SAP Business Warehouse (BW) rendszerükhöz csatlakoztatják.|
+| [Megközelítések a Power BI irányításához és üzembe helyezéséhez](http://go.microsoft.com/fwlink/?LinkId=785915&clcid=0x409) | Ismerteti a Power BI-ökoszisztéma irányításával kapcsolatos alapfogalmakat, lehetőségeket és javaslatokat. |
+| [A táblázatos BI szemantikai modell biztonságossá tétele](http://download.microsoft.com/download/D/2/0/D20E1C5F-72EA-4505-9F26-FEF9550EFD44/Securing%20the%20Tabular%20BI%20Semantic%20Model.docx) |Ez a tanulmány bemutatja a táblázatos BI-szemantika és a Power BI biztonsági modelljét. Megtudhatja, hogyan hozhat létre szerepköröket, valósíthat meg dinamikus biztonságot, konfigurálhat megszemélyesítési beállításokat, kezelhet szerepköröket és választhatja ki a módszert a hálózati biztonsági környezetében működő modellekhez való csatlakozáshoz. |
 
 További kérdései vannak? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)

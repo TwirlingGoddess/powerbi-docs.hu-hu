@@ -1,34 +1,26 @@
 ---
-title: "Adatkészlet létrehozása"
-description: "Útmutató – Adatok elküldése adatkészletbe – Adatkészlet létrehozása a Power BI-ban"
-services: powerbi
-documentationcenter: 
+title: Adatkészlet létrehozása
+description: Útmutató – Adatok elküldése adatkészletbe – Adatkészlet létrehozása a Power BI-ban
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: get-started-article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-developer
+ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: maghan
-ms.openlocfilehash: 31677a3d92ece6944825eccad190863f67c3a145
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: c94f0a94cfc2e59942a17b542efb7b1bb641174c
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="step-3-create-a-dataset-in-power-bi"></a>3. lépés: Adatkészlet létrehozása a Power BI-ban
 Ez a cikk az [adatok az adatkészletekbe való küldését](walkthrough-push-data.md) ismertető részletes útmutató része.
 
 Az Adatok elküldése az adatkészletbe **2. lépésében** ([Hitelesítéshez szükséges hozzáférési jogkivonat beszerzése](walkthrough-push-data-get-token.md)) egy tokent kapott, amellyel hitelesítheti magát az **Azure AD**-ben. Ebben a lépésben a jogkivonat segítségével meghívhatja az [Adatkészlet létrehozása](https://msdn.microsoft.com/library/mt203562.aspx) műveletet.
 
-REST-erőforrás meghívásához használja az erőforrás helyét megadó URL-címet, és küldjön az adatkészletet leíró JavaScript Object Notation- (JSON-) karakterláncot a Power BI szolgáltatás erőforrásának. A REST-erőforrás azonosítja a Power BI szolgáltatás azon részét, amellyel dolgozni szeretne. Adatok adatkészletbe történő küldéséhez a célerőforrás egy **Adatkészlet**. Az adatkészletet azonosító URL-cím a következő: https://api.PowerBI.com/v1.0/myorg/datasets. Ha egy csoporton belül küld adatokat, az URL-cím a következő: https://api.PowerBI.com/v1.0/myorg/groups/{group_id}/datasets.
+REST-erőforrás meghívásához használja az erőforrás helyét megadó URL-címet, és küldjön az adatkészletet leíró JavaScript Object Notation- (JSON-) karakterláncot a Power BI szolgáltatás erőforrásának. A REST-erőforrás azonosítja a Power BI szolgáltatás azon részét, amellyel dolgozni szeretne. Adatok adatkészletbe történő küldéséhez a célerőforrás egy **Adatkészlet**. Az adatkészletet azonosító URL-cím https://api.PowerBI.com/v1.0/myorg/datasets. Ha egy csoporton belül küld adatokat, akkor az URL-cím https://api.PowerBI.com/v1.0/myorg/groups/{group_id}/datasets.
 
 Egy Power BI REST-művelet hitelesítéséhez adja hozzá a [hitelesítéshez szükséges hozzáférési jogkivonat beszerzését](walkthrough-push-data-get-token.md) ismertető szakaszban kapott jogkivonatot egy kérés fejlécéhez:
 

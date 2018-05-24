@@ -1,27 +1,19 @@
 ---
 title: Beágyazott alkalmazás hibaelhárítása
 description: Ez a cikk azokat a gyakori problémákat ismerteti, amelyek Power BI-tartalmak beágyazása során merülhetnek fel.
-services: powerbi
-documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-developer
+ms.topic: conceptual
 ms.date: 04/23/2018
 ms.author: maghan
-ms.openlocfilehash: 13bdbbfec2e76b526b92d65f6f9f5cd1372f2094
-ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
+ms.openlocfilehash: 2108d8fc290a5af568a3e06ae5986e82413b680b
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="troubleshooting-your-embedded-application"></a>Beágyazott alkalmazás hibaelhárítása
 
@@ -66,7 +58,7 @@ Ha a Microsoft támogatási szolgálatával lép kapcsolatba, kérjük, adja meg
 
 **Sikertelen alkalmazásregisztráció**
 
-Ha hibaüzenetet tapasztal az Azure Portal vagy a Power BI alkalmazásregisztrációs oldalán, akkor az a megfelelő jogosultságok hiányára utal. Alkalmazások regisztrációjához rendszergazdának kell lennie az Azure AD-bérlőjében, vagy engedélyezni kell az alkalmazások regisztrációját a nem rendszergazdai felhasználók számára.
+Ha hibaüzenetet tapasztal az Azure Portal vagy a Power BI alkalmazásregisztrációs oldalán, akkor az a megfelelő jogosultságok hiányára utal. Alkalmazások regisztrálásához rendszergazdának kell lennie az Azure AD-bérlőjében, vagy engedélyezni kell az alkalmazások regisztrációját a nem rendszergazdai felhasználók számára.
 
 **Új alkalmazás regisztrációja során nem jelenik meg a Power BI szolgáltatás az Azure Portalon**
 
@@ -144,5 +136,3 @@ Nyissa meg a fájlt a Power BI Desktopban vagy a powerbi.com-on, és ellenőrizz
 További információ: [Power BI Embedded – gyakori kérdések](embedded-faq.md).
 
 További kérdései vannak? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)
-
-

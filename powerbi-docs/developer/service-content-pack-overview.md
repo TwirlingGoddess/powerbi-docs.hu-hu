@@ -1,27 +1,19 @@
 ---
-title: "A Power BI szolgáltatás tartalomcsomag-programjának áttekintése"
-description: "Tartalomcsomag-tanúsítási program"
-services: powerbi
-documentationcenter: 
+title: A Power BI szolgáltatás tartalomcsomag-programjának áttekintése
+description: Tartalomcsomag-tanúsítási program
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-developer
+ms.topic: conceptual
 ms.date: 02/20/2018
 ms.author: maghan
-ms.openlocfilehash: 2cc78b3d2a877e465d5f4bdc67f501b7de87f88e
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: cfb9727a41d602ce14bfd2a403a87e82d2f0e94d
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="overview-of-the-power-bi-service-content-pack-program"></a>A Power BI szolgáltatás tartalomcsomag-programjának áttekintése
 A tartalomcsomagok olyan nem beépített tartalmakból álló csomagok, amelyekkel a felhasználók azonnali elemzésekhez juthatnak adatforrásaikból. A tartalomcsomagok általában egy adott üzleti forgatókönyvre fókuszálva elemzéseket készítenek egy szerepkörről, tartományról vagy munkafolyamatról.
@@ -85,7 +77,7 @@ A közzétett tartalomcsomagok havonta frissíthetők. A [pbiservicesapps@micros
 Kérdéseit elküldheti a következő e-mail-címre: [pbiservicesapps@microsoft.com](mailto:pbiservicesapps@microsoft.com)
 
 ## <a name="support"></a>Támogatás
-Ha a fejlesztési szakaszban van szüksége támogatásra, használja a következő webhelyet: [https://powerbi.microsoft.com/support](https://powerbi.microsoft.com/support). A támogatási webhelyet aktívan figyeljük és kezeljük. Az ügyfélincidensek gyorsan eljutnak a megfelelő csapathoz.
+Ha a fejlesztési fázisban van szüksége támogatásra, használja a következő webhelyet: [https://powerbi.microsoft.com/support](https://powerbi.microsoft.com/support). A támogatási webhelyet aktívan figyeljük és kezeljük. Az ügyfélincidensek gyorsan eljutnak a megfelelő csapathoz.
 
 ## <a name="next-step"></a>Következő lépés
 [Tartalomkészítés](template-content-pack-authoring.md)

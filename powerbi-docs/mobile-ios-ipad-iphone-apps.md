@@ -1,34 +1,26 @@
 ---
-title: "Adatok böngészése az iOS rendszerű eszközökhöz készült Power BI mobilalkalmazással"
-description: "Megtekintheti és interakcióba léphet Power BI-irányítópultjaival és -jelentéseivel, valamint Reporting Services-mobiljelentéseivel és -KPI-jeivel iPad, iPhone, Apple Watch és iPod touch készülékéről is."
-services: powerbi
-documentationcenter: 
+title: Adatok böngészése az iOS rendszerű eszközökhöz készült Power BI mobilalkalmazással
+description: Megtekintheti és interakcióba léphet Power BI-irányítópultjaival és -jelentéseivel, valamint Reporting Services-mobiljelentéseivel és -KPI-jeivel iPad, iPhone, Apple Watch és iPod touch készülékéről is.
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-mobile
+ms.topic: conceptual
 ms.date: 10/13/2017
 ms.author: maggies
-ms.openlocfilehash: 0b09706b8d8f7f4dbf9c2f8d3f6fc844383ce6be
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: b0785555e288084f97d06d05161ebef78d21731c
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="explore-your-data-on-the-power-bi-mobile-app-for-ios-devices"></a>Adatok böngészése az iOS rendszerű eszközökhöz készült Power BI mobilalkalmazással
 Az iOS rendszerhez készült Microsoft Power BI alkalmazás elhozza a mobil üzletiintelligencia-élményt iPhone, Apple Watch és iPod touch készülékére. Az alkalmazások valós idejű, érintéssel vezérelhető mobil hozzáférést biztosítanak fontos üzleti adataihoz, így bárhol megtekintheti és interakcióba léphet cége Power BI-irányítópultjaival és -jelentéseivel, valamint Reporting Services-mobiljelentéseivel és -KPI-jeivel. Böngészheti az irányítópultokon szereplő adatokat, és megoszthatja azokat kollégáival e-mail vagy szöveges üzenet formájában.
 
 ![iPhone és iPad](media/mobile-ios-ipad-iphone-apps/pbi_ipad_iphonedevices.png)
 
-Keresse fel a Power BI webhelyét (https://powerbi.com), és regisztráljon a Power BI szolgáltatásra.
+Keresse fel a Power BI webhelyét (https://powerbi.com)), és regisztráljon a Power BI szolgáltatásra.
 
 Ismerje meg [a Power BI mobilalkalmazásainak újdonságait](mobile-whats-new-in-the-mobile-apps.md).
 
@@ -52,5 +44,5 @@ Kezdésként [kérje le az adatait](service-get-data.md) a rendelkezésre álló
 Ezután pedig megtekintheti adatait az iOS rendszerhez készült Power BI alkalmazásban.
 
 ## <a name="next-steps"></a>Következő lépések
-* Kérdése van? [Forduljon a Power BI közösségéhez](http://community.powerbi.com/)
+* Kérdése van? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)
 

@@ -8,14 +8,14 @@ featuredvideoid: G26dr2PsEpk
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: quickstart
-ms.date: 05/07/2018
+ms.date: 05/18/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 157103ff224cf0d71e2ca14106903b9c89fdc3d4
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 004b9c921de9e94cb52f90cdea4815acd6162175
+ms.sourcegitcommit: 2b9ef93bbff5c741ba55ea0502f642632683d593
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 05/24/2018
 ---
 # <a name="quickstart---getting-around-in-power-bi-service"></a>Rövid útmutató – Navigáció a Power BI szolgáltatásban
 
@@ -125,6 +125,19 @@ A tartalmakat a nevük vagy a tulajdonosuk alapján is rendezheti.
 ![tartalom rendezése](media/service-the-new-power-bi-experience/power-bi-sort.png)
 
 További információkat itt talál: [Navigáció a Power BI-ban: keresés, rendezés, szűrés](service-navigation-search-filter-sort.md)
+
+## <a name="clean-up-resources"></a>Erőforrások felszabadítása
+Miután végzett ezzel a gyors útmutatóval, igény szerint eltávolíthatja a Kiskereskedelmi elemzési mintát, a jelentést és az adatkészletet.
+
+1. Nyissa meg a Power BI-szolgáltatást (app.powerbi.com), és jelentkezzen be.    
+2. A bal oldali navigációs panelen válassza a **Munkaterületek > Saját munkaterület** lehetőséget.  
+    Látja a sárga csillagot, amely a kedvencnek jelölést mutatja?    
+3. Az **Irányítópult** lapon kattintson a **Törlés** (kuka) ikonra a Kiskereskedelmi elemzés irányítópultja mellett.    
+
+    ![irányítópult törlése](media/service-the-new-power-bi-experience/power-bi-cleanup.png)
+
+4. Váltson a **Jelentések** lapra, és ismételje meg a műveletet a Kiskereskedelmi elemzés jelentésével.
+1. Váltson az **Adatkészletek** lapra, és ismételje meg a műveletet a Kiskereskedelmi elemzés adatkészletével.
 
 ## <a name="next-steps"></a>Következő lépések
 

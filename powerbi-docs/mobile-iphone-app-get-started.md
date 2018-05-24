@@ -1,27 +1,19 @@
 ---
-title: "Első lépések a Power BI mobilalkalmazással iPhone-on"
-description: "Bemutatjuk, hogyan teszi bárhol elérhetővé az iPhone-on futó iOS-es Microsoft Power BI-alkalmazás a Power BI-t, a helyszíni és felhőbeli üzleti információkhoz való mobil hozzáféréssel együtt."
-services: powerbi
-documentationcenter: 
+title: Első lépések a Power BI mobilalkalmazással iPhone-on
+description: Bemutatjuk, hogyan teszi bárhol elérhetővé az iPhone-on futó iOS-es Microsoft Power BI-alkalmazás a Power BI-t, a helyszíni és felhőbeli üzleti információkhoz való mobil hozzáféréssel együtt.
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: complete
-qualitydate: 05/04/2016
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-mobile
+ms.topic: conceptual
 ms.date: 01/25/2018
 ms.author: maggies
-ms.openlocfilehash: 9a2f381ea97fb62d85841cbfcace8352007dd60b
-ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
+ms.openlocfilehash: 9a3177dc0fe80ebc6c1041ce64b1186cb5865e37
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-an-iphone-or-ipod-touch"></a>Első lépések a Power BI mobilalkalmazással iPhone-on vagy iPod Touch eszközön
 Az iPhone-on vagy iPod Touchon futó iOS-es Microsoft Power BI-alkalmazás mobil BI-élményt kínál a Power BI-hoz, a Power BI jelentéskészítő kiszolgálóhoz és a Reporting Services-hez. Tekintse meg és kezelje helyszíni vagy felhőbeli céges irányítópultjait bárhonnan élő, érintésre reagáló mobil hozzáféréssel. Fedezze fel az adatokat az irányítópultokon, és ossza meg eredményeit munkatársaival e-mailben vagy SMS-ben. Kísérje figyelemmel a legidőszerűbb adatokat [Appla Watch](mobile-apple-watch.md)on.  
@@ -46,7 +38,7 @@ Ismerje meg [a Power BI mobilalkalmazások újdonságait](mobile-whats-new-in-th
 > 
 
 ## <a name="sign-up-for-the-power-bi-service"></a>Regisztráció a Power BI szolgáltatásra
-Ha még nem tette meg, keresse a szolgáltatást a Power BI webhelyén (https://powerbi.com). Ingyenes.
+Ha még nem tette meg, keresse a szolgáltatást a Power BI webhelyén (https://powerbi.com)). Ingyenes.
 
 ## <a name="get-started-with-the-power-bi-app"></a>Első lépések a Power BI alkalmazással
 1. Nyissa meg a Power BI-alkalmazást az iPhone-on.

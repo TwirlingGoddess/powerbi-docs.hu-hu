@@ -846,7 +846,9 @@
           items:
             - name: Első lépések az androidos Power BI-alkalmazással
               href: mobile-android-app-get-started.md
-            - name: Az „Ön vállalati SSL-tanúsítványa nem megbízható” üzenettel kapcsolatos hiba elhárítása
+            - name: A „vállalati SSL-tanúsítványa nem megbízható” hiba elhárítása
+              href: mobile-android-app-error-corporate-ssl-account-is-untrusted.md
+            - name: A „frissíteni kell az Android System Webview alkalmazást” hiba elhárítása
               href: mobile-android-error-update-android-system-webview.md
         - name: iOS
           items:

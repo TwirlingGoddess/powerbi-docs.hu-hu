@@ -1,27 +1,19 @@
 ---
-title: "Alkalmazás regisztrálása az Azure AD-ben"
-description: "Útmutató – Adatok küldése adatkészletekbe – Alkalmazás regisztrálása az Azure AD-ben"
-services: powerbi
-documentationcenter: 
+title: Alkalmazás regisztrálása az Azure AD-ben
+description: Útmutató – Adatok küldése adatkészletekbe – Alkalmazás regisztrálása az Azure AD-ben
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: get-started-article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-developer
+ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: maghan
-ms.openlocfilehash: 48ab2a51a479269b8846288b64089964a0544681
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: 660f79eab32ae7ade5cea990c6fc152bb9507297
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="step-1-register-an-app-with-azure-ad"></a>1. lépés: Alkalmazás regisztrálása az Azure AD-ben
 Ez a cikk az [adatok adatkészletbe történő leküldését](walkthrough-push-data.md) ismertető részletes útmutató része.
@@ -39,7 +31,7 @@ Az alkalmazások az Azure AD-ben való regisztrálásának lépései a következ
 2. Kattintson a **Bejelentkezés meglévő fiókkal** lehetőségre, és jelentkezzen be a Power BI-fiókjába.
 3. Adja meg az **Alkalmazás nevét**, például: „Mintaalkalmazás adatküldéshez”.
 4. Az **Alkalmazás típusa** mezőben válassza a **Natív alkalmazás** lehetőséget.
-5. Adjon meg egy **Átirányítási URL-címet**, például: **https://login.live.com/oauth20_desktop.srf**. **Natív ügyfél-alkalmazás** esetén az átirányítási URI azonosító révén az **Azure AD** további információkat tud meg az adott alkalmazásról, amelyet hitelesítenie kell. Az ügyfél-alkalmazások standard URI azonosítója: https://login.live.com/oauth20_desktop.srf.
+5. Adjon meg egy URL-címet a **Redirect URL** (Átirányítási URL) mezőben, például **https://login.live.com/oauth20_desktop.srf**. **Natív ügyfél-alkalmazás** esetén az átirányítási URI azonosító révén az **Azure AD** további információkat tud meg az adott alkalmazásról, amelyet hitelesítenie kell. Az ügyfélalkalmazások szokásos URI-ja https://login.live.com/oauth20_desktop.srf.
 6. Az **Elérendő API-k kiválasztása** alatt válassza **Az összes adatkészlet olvasása és írása** lehetőséget. A Power BI összes alkalmazásengedélyéről további információt találhat a [Power BI-engedélyeket](power-bi-permissions.md) ismertető cikkben.
 7. Kattintson az **Alkalmazás regisztrálása** gombra, és mentse az így létrehozott **ügyfél-azonosítót**. Az **ügyfél-azonosító** azonosítja az alkalmazást az Azure AD-ben.
 

@@ -1,27 +1,19 @@
 ---
-title: "Irányítópultok, jelentések, alkalmazások megkeresése a Power BI mobilalkalmazásokban"
-description: "Megtudhatja, hol találja az irányítópultokat, jelentéseket és alkalmazásokat a Power BI mobilalkalmazásokban, attól függően, hogy honnan származnak."
-services: powerbi
-documentationcenter: 
+title: Irányítópultok, jelentések, alkalmazások megkeresése a Power BI mobilalkalmazásokban
+description: Megtudhatja, hol találja az irányítópultokat, jelentéseket és alkalmazásokat a Power BI mobilalkalmazásokban, attól függően, hogy honnan származnak.
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 02/06/2018
 ms.author: maggies
-ms.openlocfilehash: 23a3fc38b1cf284f79b3515b25ec0396b79fb267
-ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
+ms.openlocfilehash: 26a45efaba84961351008bf7b3497c6214cfd702
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/09/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="find-your-dashboards-reports-and-apps-in-the-power-bi-mobile-apps"></a>Az irányítópultok, jelentések és alkalmazások megkeresése a Power BI mobilalkalmazásokban
 A következőkre vonatkozik:
@@ -74,7 +66,7 @@ Itt találja a munkatársai által Önnel megosztott irányítópultokat és jel
 ![Power BI Velem megosztva](media/mobile-apps-find-content-mobile-devices/power-bi-android-shared-fave.png)
 
 ## <a name="5-workspaces"></a>5 Munkaterületek
-Ezek átmeneti környezetek (más néven *alkalmazás-munkaterületek*) a Power BI szolgáltatásban ([https://powerbi.com](https://powerbi.com)), ahol együttműködhet a munkatársaival az irányítópultok és jelentések gyűjteményének létrehozása érdekében. Ezután *alkalmazásként* terjesztheti a gyűjteményt. 
+Ezek átmeneti környezetek (más néven *alkalmazás-munkaterületek*) a Power BI szolgáltatásban ([https://powerbi.com](https://powerbi.com)), ahol együttműködhet a munkatársaival az irányítópultok és jelentések gyűjteményének létrehozásához. Ezután *alkalmazásként* terjesztheti a gyűjteményt. 
 
 A mobilalkalmazásokban bármely olyan munkaterületen megtekintheti és használhatja a tartalmakat, ahol tag vagy rendszergazda. Nem tehet közzé alkalmazásokat a munkaterületekről a mobilalkalmazásokban.
 

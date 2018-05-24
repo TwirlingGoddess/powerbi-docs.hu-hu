@@ -8,14 +8,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 04/11/2018
+ms.date: 05/18/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 071f7ea0c324ec8fe0160766f65cf929f811362a
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: aeaea6d14cf8f4fd62fbbf5098e68429fe40b96a
+ms.sourcegitcommit: 2b9ef93bbff5c741ba55ea0502f642632683d593
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 05/24/2018
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>Jelentés szűrése lekérdezésisztring-paraméterek URL-címben való használatával
 A Power BI szolgáltatásban megnyitott jelentések minden egyes oldalának saját egyedi URL-címe van. Az adott jelentésoldal a jelentésvászon Szűrők paneljének használatával szűrhető.  A jelentés úgy is szűrhető, hogy lekérdezésisztring-paramétereket ad hozzá a jelentés URL-címéhez. Tegyük fel, hogy egy jelentést meg szeretne mutatni a munkatársainak, és előre szűrni szeretné azt a számukra. Ennek egyik módja, hogy a jelentés alapértelmezett URL-címéből kiindulva hozzáfűzi ahhoz a szűrési paramétereket, majd elküldi nekik a teljes URL-címet.
@@ -97,9 +97,10 @@ Miután lekérdezésisztring-paraméterek használatával szűrte a jelentést, 
 
 Bizonyos esetekben ez hasznos is lehet, ha különböző eredményeket szeretne látni: szűrve az irányítópulton és szűrés nélkül a jelentésben.
 
-## <a name="limitations-and-troubleshooting"></a>Korlátozások és hibaelhárítás
+## <a name="considerations-and-troubleshooting"></a>Megfontolandó szempontok és hibaelhárítás
 Lekérdezésisztring-paraméterek használatakor néhány szemponttal érdemes tisztában lenni.
 
+* A Power BI jelentéskészítő kiszolgálón [adhat át jelentésparamétereket](https://docs.microsoft.com/sql/reporting-services/pass-a-report-parameter-within-a-url?view=sql-server-2017.md) úgy, hogy belefoglalja őket a jelentés URL-címébe. Ezek az URL-paraméterek nincsenek előtaggal ellátva, mert a rendszer közvetlenül átadja őket a jelentésfeldolgozó motornak. 
 * A lekérdezési sztringgel végzett szűrés [webes közzététellel](service-publish-to-web.md) és Power BI Embedded használatával nem működik.   
 * A fájltípusnak szám vagy sztring típusúnak kell lennie.
 * A tábla és a mező neve nem tartalmazhat szóközöket.

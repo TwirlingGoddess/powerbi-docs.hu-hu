@@ -1,27 +1,19 @@
 ---
-title: "Első lépések a Power BI mobilalkalmazással iPaden"
-description: "Bemutatjuk, hogyan hozza el az iPaden futó iOS-es Microsoft Power BI-alkalmazás a Power BI-t az Ön zsebébe, a helyszíni és felhőbeli üzleti információkhoz való mobil hozzáféréssel együtt."
-services: powerbi
-documentationcenter: 
+title: Első lépések a Power BI mobilalkalmazással iPaden
+description: Bemutatjuk, hogyan hozza el az iPaden futó iOS-es Microsoft Power BI-alkalmazás a Power BI-t az Ön zsebébe, a helyszíni és felhőbeli üzleti információkhoz való mobil hozzáféréssel együtt.
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: identified
-qualitydate: 08/08/2016
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-mobile
+ms.topic: conceptual
 ms.date: 01/25/2018
 ms.author: maggies
-ms.openlocfilehash: a35197e7775fb1b0dfec5c0905706f44d6f14494
-ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
+ms.openlocfilehash: ded3ad829a0c9a2d4892a5a06250f60a93662c61
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-an-ipad"></a>Első lépések a Power BI mobilalkalmazással iPaden
 Az iPeden futó iOS-es Microsoft Power BI-alkalmazás a mobil BI-élményt kínálja a Power BI-hoz, a Power BI jelentéskészítő kiszolgálóhoz és a Reporting Services-hez. Tekintse meg és kezelje helyszíni vagy felhőbeli céges irányítópultjait bárhonnan élő, érintésre reagáló mobil hozzáféréssel. Fedezze fel az adatokat az irányítópultokon, és ossza meg eredményeit munkatársaival e-mailben vagy szöveges üzenetben. 
@@ -46,7 +38,7 @@ Az [iPad-alkalmazás letöltése](http://go.microsoft.com/fwlink/?LinkId=522062)
 > 
 
 ## <a name="sign-up-for-the-power-bi-service"></a>Regisztráció a Power BI szolgáltatásra
-Ha még nem tette meg, regisztráljon a szolgáltatásra a Power BI webhelyén (https://powerbi.com). Ingyenes.
+Ha még nem tette meg, regisztráljon a szolgáltatásra a Power BI webhelyén (https://powerbi.com)). Ingyenes.
 
 ## <a name="get-started-with-the-power-bi-app"></a>Első lépések a Power BI alkalmazással
 1. Nyissa meg az iPaden a Power BI alkalmazást.

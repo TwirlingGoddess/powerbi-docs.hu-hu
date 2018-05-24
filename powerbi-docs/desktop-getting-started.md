@@ -1,28 +1,20 @@
 ---
 title: Első lépések a Power BI Desktopban
 description: Első lépések a Power BI Desktopban
-services: powerbi
-documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: get-started-article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 99f2679f30c8eebf40389883b41601d4fc3da939
-ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
+ms.openlocfilehash: 606ef1f1c69643852a94a7d83ece93cca8940e7a
+ms.sourcegitcommit: dcde910817720c05880ffe24755034f916c9b890
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 05/04/2018
+ms.lasthandoff: 05/19/2018
 ---
 # <a name="getting-started-with-power-bi-desktop"></a>Első lépések a Power BI Desktopban
 Üdvözöljük a **Power BI Desktop Első lépések útmutatójában**. Ebben a rövid bemutatóban megismerkedhet a Power BI Desktop használatával, képességeivel, és megtudhatja, hogyan állíthat össze gyorsan nagy teljesítményű adatmodelleket és lenyűgöző jelentéseket, amelyek megalapozottabb üzleti döntéseket eredményeznek. 
@@ -336,6 +328,10 @@ További információt az irányítópultok létrehozásáról, megosztásáról
 
 A Power BI Desktopban és a Power BI szolgáltatásban számos különféle lenyűgöző adategyesítést és vizualizációt hozhat létre. További információért tekintse meg a következő szakaszt.
 
+## <a name="diagnostics"></a>Diagnosztika
+
+A Power BI Desktop támogatja a diagnosztikai portokhoz való csatlakozást. A diagnosztikai port lehetővé teszi, hogy más eszközök csatlakozzanak és diagnosztikai célú nyomkövetést végezzenek. *A modell semmiféle módosítása sem támogatott! A modell megváltoztatása adatsérülést és adatvesztést okozhat.*
+
 ## <a name="next-steps"></a>Következő lépések
 A Power BI Desktop műveletek és lehetőségek széles tárházát tartalmazza. A program képességeivel kapcsolatos további információkért lásd az alábbi forrásanyagokat:
 
@@ -344,4 +340,3 @@ A Power BI Desktop műveletek és lehetőségek széles tárházát tartalmazza.
 * [Csatlakozás adatokhoz a Power BI Desktopban](desktop-connect-to-data.md)
 * [Adatok formázása és kombinálása a Power BI Desktoppal](desktop-shape-and-combine-data.md)
 * [Gyakori lekérdezési feladatok a Power BI Desktopban](desktop-common-query-tasks.md)   
-

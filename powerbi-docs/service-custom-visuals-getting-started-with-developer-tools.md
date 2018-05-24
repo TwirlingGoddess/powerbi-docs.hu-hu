@@ -1,27 +1,19 @@
 ---
-title: "Egyéni vizualizációk létrehozása fejlesztőeszközökkel"
-description: "Egyéni vizualizációk segítségével megfelelhet a felhasználók igényeinek, és igazodhat saját alkalmazásának felületéhez. Cikkünk bemutatja, hogy miképpen hozhat létre egyéni Power BI-vizualizációt a fejlesztőeszközökkel."
-services: powerbi
-documentationcenter: 
+title: Egyéni vizualizációk létrehozása fejlesztőeszközökkel
+description: Egyéni vizualizációk segítségével megfelelhet a felhasználók igényeinek, és igazodhat saját alkalmazásának felületéhez. Cikkünk bemutatja, hogy miképpen hozhat létre egyéni Power BI-vizualizációt a fejlesztőeszközökkel.
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-developer
+ms.topic: conceptual
 ms.date: 11/30/2017
 ms.author: maghan
-ms.openlocfilehash: c7ed6a9b8acc74c9d4e39ff21a10624a208847f4
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: 8b5da248b6992c8ae3e8d30caf4f0fc6c47bdcf5
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="use-developer-tools-to-create-custom-visuals"></a>Egyéni vizualizációk létrehozása fejlesztőeszközökkel
 Egyéni vizualizációk segítségével megfelelhet a felhasználók igényeinek, és igazodhat saját alkalmazásának felületéhez. Cikkünk bemutatja, hogy miképpen hozhat létre egyéni Power BI-vizualizációt a fejlesztőeszközökkel.
@@ -87,7 +79,7 @@ Ahhoz, hogy egyéni vizualizációt tudjon létrehozni, telepítenie kell a Node
     --install-cert  Install localhost certificate
     </code></pre>
 
-<a name"ssl-setup"></a>
+<a name="ssl-setup"></a>
 
 ### <a name="server-certificate-setup"></a>A kiszolgálótanúsítvány telepítése
 Ahhoz, hogy élőben láthassa a vizualizáció előnézetét, egy megbízható HTTPS-kiszolgáló szükséges. Mielőtt munkához lát, telepítenie kell egy SSL-tanúsítványt, amely lehetővé teszi a vizualizáció elemeinek betöltését a webböngészőbe. 
@@ -97,9 +89,24 @@ Ahhoz, hogy élőben láthassa a vizualizáció előnézetét, egy megbízható 
 > 
 > 
 
-A tanúsítvány *hozzáadásához* futtassa a következő parancsot.
+A tanúsítvány *létrehozásához* futtassa a következő parancsot.
+
+    pbiviz --create-cert
+
+> [!NOTE]
+> Ekkor meg kell jelennie egy üzenetnek, mely tartalmazza a tanúsítvány elérési útját és a frissen generált hozzáférési kódot.
+> 
+> 
+
+
+A tanúsítvány *telepítéséhez* futtassa a következő parancsot.
 
     pbiviz --install-cert
+    
+> [!NOTE]
+> Ekkor meg kell jelennie egy üzenetnek, mely felkéri, hogy telepítsen egy PFX-tanúsítványt a frissen generált hozzáférési kóddal.
+> 
+> 
 
 **Windows operációs rendszer**
 

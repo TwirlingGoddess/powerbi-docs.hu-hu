@@ -1,38 +1,21 @@
 ---
-title: 'Hiba: '
-need: 
-to: 
-update: 
-android: 
-system: 
-webview": 
-'-': 
-power: 
-bi": 
-description: "Amikor bejelentkezik a Android-mobilalkalmazásba, egy üzenetet kaphat, hogy frissítse az Android System Webview alkalmazást."
-services: powerbi
-documentationcenter: 
+title: A „frissíteni kell az Android System Webview alkalmazást” hiba elhárítása – Power BI
+description: Amikor bejelentkezik a Android-mobilalkalmazásba, egy üzenetet kaphat, hogy frissítse az Android System Webview alkalmazást.
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 10/13/2017
+ms.component: powerbi-service
+ms.topic: conceptual
+ms.date: 05/18/2018
 ms.author: maggies
-ms.openlocfilehash: 1a478d8465f05fcc4218d049101c239ed5559fc9
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 1b2e440f1c25468f4e947256720ef236a927b23c
+ms.sourcegitcommit: aa8045e42b979206c600bce4a8d17de1f0620462
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 05/22/2018
 ---
-# <a name="error-need-to-update-android-system-webview---power-bi"></a>Hiba: „frissíteni kell az Android System Webview alkalmazást” – Power BI
+# <a name="fixing-need-to-update-android-system-webview"></a>A „frissíteni kell az Android System Webview alkalmazást” hiba elhárítása
 Amikor bejelentkezik a Microsoft Power BI-hoz készült Android-mobilalkalmazásba, egy üzenetet kaphat, hogy frissítse az Android System Webview alkalmazást. 
 
 Tegyük fel, hogy ellátogat a Google Play áruházba, és frissíti az Android System Webview-t, majd visszatér, és ismét megpróbálja megnyitni a Power BI mobilalkalmazást. 
