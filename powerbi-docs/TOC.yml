@@ -96,6 +96,8 @@
                   href: service-print.md
                 - name: Feliratkozás jelentésre vagy irányítópultra
                   href: service-report-subscribe.md
+                - name: Számos lehetőség a jelentések megnyitására
+                  href: service-report-open.md
                 - name: Tartalom átnevezése a Power BI-ban
                   href: service-rename.md
                 - name: Irányítópult és jelentés teljes képernyős módban való megjelenítése
