@@ -1,29 +1,21 @@
 ---
 title: 'Oktatóanyag: Excelből és OData-csatornáról származó adatok összevonása a Power BI Desktopban'
 description: 'Oktatóanyag: Excelből és OData-csatornáról származó adatok összevonása'
-services: powerbi
-documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 05/02/2018
+ms.component: powerbi-desktop
+ms.topic: tutorial
+ms.date: 05/21/2018
 ms.author: v-thepet
 LocalizationGroup: Learn more
-ms.openlocfilehash: 00c4915df0e18504ec6f5d26540d9289c2f5ddb2
-ms.sourcegitcommit: 773ba0d1cc1d1fcee8e666e1c20450f5e343c5c1
+ms.openlocfilehash: c6cd75efd44259c2812f98a37875cf716d4843ad
+ms.sourcegitcommit: e6db826c2f43a69e4c63d5f4920baa8f66bc41be
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 05/10/2018
-ms.locfileid: "33945986"
+ms.lasthandoff: 05/23/2018
+ms.locfileid: "34456203"
 ---
 # <a name="tutorial-combine-sales-data-from-excel-and-an-odata-feed"></a>Oktatóanyag: Excelből és OData-csatornáról származó értékesítési adatok összevonása
 
@@ -53,7 +45,7 @@ Először is importálja az Excel Products.xlsx munkafüzetben lévő termékada
    
    ![Az Excel kezelőpanelje](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/t_excelodata_2.png)
    
-A **Power Query-szerkesztőben** megnyílik a táblázat előnézeti képe, amelyben átalakításokat hajthat végre az adattisztításhoz. 
+A **Power Query-szerkesztőben** megnyílik a tábla előnézeti képe, amelyben átalakításokat hajthat végre az adattisztításhoz. 
    
 ![Power Query-szerkesztő](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/t_excelodata_3.png)
    
