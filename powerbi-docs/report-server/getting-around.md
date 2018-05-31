@@ -1,28 +1,20 @@
 ---
 title: Tartalom kezelése a Power BI jelentéskészítő kiszolgáló webportálján
 description: Ebben a cikkben a Power BI jelentéskészítő kiszolgáló webportálján végzett tartalomkezelésről olvashat.
-services: powerbi
-documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-report-server
+ms.topic: conceptual
 ms.date: 05/07/2018
 ms.author: maggies
-ms.openlocfilehash: 022d884e98876a78ab1cfd53cc93cd648cb68efe
-ms.sourcegitcommit: c29525cbac2e747edb4dd3a1841084bb0ce42582
+ms.openlocfilehash: f739104bc9b67e51792e6e76da08b9e6dbb7cef3
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 05/08/2018
-ms.locfileid: "33892508"
+ms.lasthandoff: 05/17/2018
+ms.locfileid: "34293237"
 ---
 # <a name="manage-content-in-the-web-portal"></a>Tartalom kezelése a webes portálon 
 A Power BI jelentéskészítő kiszolgáló webportálja egy helyszíni platform, amely Power BI-, mobil- és többoldalas jelentések és főbb teljesítménymutatók (KPI-k) megtekintésére, tárolására és kezelésére szolgál.

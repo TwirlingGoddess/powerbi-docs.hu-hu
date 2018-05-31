@@ -1,28 +1,20 @@
 ---
 title: A Power BI jelentéskészítő kiszolgáló változásnaplója
 description: Ez a változásnapló a Power BI jelentéskészítő kiszolgálóra vonatkozik, és minden kiadott buildhez felsorolja az új elemeket és hibajavításokat.
-services: powerbi
-documentationcenter: ''
 author: jtarquino
 manager: kfile
-backup: maggies
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: maggies
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-report-server
+ms.topic: conceptual
 ms.date: 12/11/2017
 ms.author: jtarquino
-ms.openlocfilehash: bf6fae781863379e56c398f58d86d1bf1e5244af
-ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
+ms.openlocfilehash: 65ad5e6ca9fbdd71643f71fa56186ee3d01d2dd1
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 05/07/2018
-ms.locfileid: "33813530"
+ms.lasthandoff: 05/17/2018
+ms.locfileid: "34295679"
 ---
 # <a name="changelog-for-power-bi-report-server"></a>A Power BI jelentéskészítő kiszolgáló változásnaplója
 

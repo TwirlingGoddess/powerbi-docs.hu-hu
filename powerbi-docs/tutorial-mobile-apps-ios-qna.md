@@ -1,29 +1,20 @@
 ---
 title: 'Oktatóanyag: Kérdezés a Power BI Q&A virtuális elemzőjével iOS-alkalmazásokban'
 description: Ebben az oktatóanyagban azt mutatjuk be, hogyan tehet fel a saját szavaival megfogalmazott kérdéseket a mintaadatokkal kapcsolatban az iOS-eszközökön futó Power BI mobilalkalmazás Q&A virtuális elemzőjét használva.
-services: powerbi
-documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
-ms.devlang: NA
 ms.topic: tutorial
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
 ms.date: 05/08/2018
 ms.author: maggies
-ms.openlocfilehash: 270a6ef9f9c9559ae5dd303249fd372c5f4d2b79
-ms.sourcegitcommit: 773ba0d1cc1d1fcee8e666e1c20450f5e343c5c1
+ms.openlocfilehash: 5c8afc963c67493c30821048736d914d3aec278e
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 05/10/2018
-ms.locfileid: "33945917"
+ms.lasthandoff: 05/17/2018
+ms.locfileid: "34297860"
 ---
 # <a name="tutorial-ask-questions-about-your-data-with-the-qa-virtual-analyst-in-ios-apps---power-bi"></a>Oktatóanyag: Adatokkal kapcsolatos kérdések feltevése a Power BI Q&A virtuális elemzőjével iOS-alkalmazásokban
 

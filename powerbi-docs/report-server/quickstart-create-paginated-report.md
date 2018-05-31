@@ -1,28 +1,20 @@
 ---
 title: Többoldalas jelentés létrehozása a Power BI jelentéskészítő kiszolgálóhoz
 description: Ismerje meg, hogyan hozhat létre többoldalas jelentést a Power BI jelentéskészítő kiszolgálóra néhány egyszerű lépésben.
-services: powerbi
-documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-report-server
+ms.topic: conceptual
 ms.date: 10/12/2017
 ms.author: maggies
-ms.openlocfilehash: 52f4d747738e294d6e73e6311819b6ec91f0b0a2
-ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
+ms.openlocfilehash: 75810bfad9efd5a0ea42a07d44a61d4f92f7f232
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 05/07/2018
-ms.locfileid: "33813714"
+ms.lasthandoff: 05/17/2018
+ms.locfileid: "34294916"
 ---
 # <a name="create-a-paginated-report-for-power-bi-report-server"></a>Többoldalas jelentés létrehozása a Power BI jelentéskészítő kiszolgálóhoz
 Mint ahogyan az elnevezés is sugallja, a többoldalas jelentések egyszerre több oldalon is átnyúlhatnak. Az elrendezésük rögzített formátumban történik, és precíz testreszabási lehetőségeket biztosítanak. A többoldalas jelentések .rdl-fájlok.

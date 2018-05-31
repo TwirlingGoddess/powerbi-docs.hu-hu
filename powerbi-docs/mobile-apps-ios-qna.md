@@ -1,29 +1,20 @@
 ---
 title: Q&A virtuális elemző iOS-alkalmazásokban – Power BI
 description: Saját szavaival megfogalmazott kérdéseket tehet fel a mintaadatokkal kapcsolatban az iOS-eszközökön futó Power BI mobilalkalmazás Q&A virtuális elemzőjét használva.
-services: powerbi
-documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
-ms.devlang: NA
 ms.topic: conceptual
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
 ms.date: 05/05/2018
 ms.author: maggies
-ms.openlocfilehash: eaa8960de53b5c3e48c4bd619469beeec384b033
-ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
+ms.openlocfilehash: 85487567d428618034f6f026324846fbfbd87baf
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 05/07/2018
-ms.locfileid: "33812173"
+ms.lasthandoff: 05/17/2018
+ms.locfileid: "34295008"
 ---
 # <a name="qa-virtual-analyst-in-ios-apps---power-bi"></a>Q&A virtuális elemző iOS-alkalmazásokban – Power BI
 
@@ -35,7 +26,7 @@ A következőkre vonatkozik:
 |:--- |:--- |
 | iPhone-ok |iPadek |
 
-A Q&A virtuális elemző egy csevegésen alapuló BI-megoldás, amely hozzáfér az alapul szolgáló Q&A-adatokhoz a Power BI szolgáltatásban [(https://powerbi.com)](https://powerbi.com). Adatokkal kapcsolatos információkat javasol, és beírhatja vagy szóban felteheti saját kérdéseit is.
+A Q&A virtuális elemző egy csevegésen alapuló BI-megoldás, amely hozzáfér az alapul szolgáló Q&A-adatokhoz a Power BI szolgáltatásban [(https://powerbi.com)](https://powerbi.com). Adatokkal kapcsolatos információkat javasol, a felületén pedig beírhatja vagy szóban felteheti saját kérdéseit is.
 
 ![Értékesítési csúcsok Q&A virtuális elemzése](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-top-sale-intro.png)
 
