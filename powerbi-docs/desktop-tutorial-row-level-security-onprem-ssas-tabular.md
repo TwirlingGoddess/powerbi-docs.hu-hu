@@ -1,30 +1,24 @@
 ---
-title: 'Oktatóanyag: Dinamikus sorszintű biztonság Analysis Servicesbeli táblázatos modellel a Power BI-ban'
-description: 'Oktatóanyag: Dinamikus sorszintű biztonság Analysis Services-beli táblázatos modellel'
-services: powerbi
-documentationcenter: ''
+title: Dinamikus sorszintű biztonság Analysis Services-beli táblázatos modellel a Power BI-ban
+description: Dinamikus sorszintű biztonság Analysis Services-beli táblázatos modellel
 author: selvarms
 manager: amitaro
-backup: davidi
+ms.reviewer: davidi
 editor: davidi
-tags: ''
-qualityfocus: no
-qualitydate: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 10/12/2017
+ms.component: powerbi-desktop
+ms.topic: tutorial
+ms.date: 10/21/2017
 ms.author: selvar
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 34ad1c6568dfd73dc65d561e4fed7bf8c4c63fbc
-ms.sourcegitcommit: e31fc1f6e4af427f8b480c8dbc537c3617c9b2c0
+ms.openlocfilehash: f8c1aae757e80c0c2adbc321345c242eba25098c
+ms.sourcegitcommit: e6db826c2f43a69e4c63d5f4920baa8f66bc41be
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 05/23/2018
+ms.locfileid: "34456134"
 ---
-# <a name="tutorial-dynamic-row-level-security-with-analysis-services-tabular-model"></a>Oktatóanyag: Dinamikus sorszintű biztonság Analysis Services-beli táblázatos modellel
+# <a name="dynamic-row-level-security-with-analysis-services-tabular-model"></a>Dinamikus sorszintű biztonság Analysis Services-beli táblázatos modellel
 Ez az oktatóanyag bemutatja a **sorszintű biztonság** megvalósításához szükséges lépéseket az **Analysis Services-beli táblázatos modellben**, és a Power BI-jelentésben való használatának módját. A jelen oktatóanyagban szereplő lépések célja, hogy végigvezessék és megismertessék a minta adatkészlet teljesítéséhez szükséges lépésekkel.
 
 Az oktatóanyag során a következő lépésekről részletes leírás található, amelyek segítségével megtudhatja, mit kell tennie egy dinamikus sorszintű biztonság beállításához az Analysis Services-beli táblázatos modellel:

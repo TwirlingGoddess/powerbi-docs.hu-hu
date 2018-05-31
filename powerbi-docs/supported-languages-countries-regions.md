@@ -18,11 +18,12 @@ ms.workload: powerbi
 ms.date: 04/13/2018
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 4552e08c5291ee5f0ce268e796e1a9148eb64be2
-ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
+ms.openlocfilehash: 62eab4de4dc46695f7bfd922333d588ed863f2bc
+ms.sourcegitcommit: c29525cbac2e747edb4dd3a1841084bb0ce42582
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/08/2018
+ms.locfileid: "33871478"
 ---
 # <a name="supported-languages-and-countriesregions-for-power-bi"></a>A Power BI által támogatott nyelvek és országok/régiók
 
@@ -165,6 +166,11 @@ A Power BI Desktop alkalmazás nyelvének beállítása mellett a modell nyelvé
 - A karakterláncok összehasonlítására és rendezésére. Mivel például a török nyelvben két i betű található, az adatbázis rendezésétől függően ezen két betű sorrendjei eltérőek lehetnek rendezéskor. 
 - A nyelvre, amelyet a Power BI Desktop rejtett dátumtáblázatok dátummezőkből való létrehozásakor használ. A mezők neve lehet például Month, Monat, Hónap, stb.
 
+> [!NOTE]
+> A Power BI modellje jelenleg a kis- és nagybetűket (vagy kanákat) nem megkülönböztető területi beállításokat használ, tehát az “ABC” és “abc” egyenértékűként lesz kezelve. Ha elsőként “ABC” van betöltve az adatbázisban, akkor az olyan, csak kis-nagybetűkben eltérő karakterláncok, mint az “Abc” nem lesznek külön értékként betöltve.
+> 
+>
+
 A következőképpen állíthatja be a modell nyelvét.
 
 1. A Power BI Desktopban lépjen a **Fájl** > **Lehetőségek és beállítások** > **Beállítások** területre.
@@ -173,6 +179,10 @@ A következőképpen állíthatja be a modell nyelvét.
 
     ![A Power BI Desktopban használt modell nyelvének beállítása](media/supported-languages-countries-regions/power-bi-supported-model-languages.png)
 
+> [!NOTE]
+> Létrehozása után a Power BI-modell nyelve nem változtatható meg.
+> 
+>
 
 ## <a name="languages-for-the-help-documentation"></a>A súgódokumentáció nyelvei
 A súgó a következő 10 nyelven van honosítva: 

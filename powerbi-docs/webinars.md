@@ -1,27 +1,20 @@
 ---
 title: Power BI-webináriumok
 description: Power BI-webináriumok
-services: powerbi
-documentationcenter: ''
 author: maikelson
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: get-started-article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 04/26/2018
+ms.component: powerbi-service
+ms.topic: conceptual
+ms.date: 05/09/2018
 ms.author: maikelson
-ms.openlocfilehash: 9fa7f56f102ae098c870ae0e6e12f56cc26d0fde
-ms.sourcegitcommit: 0cae0e6e1fd06b6465721702b2d0bb8333eb5afb
+ms.openlocfilehash: 29aba440f92f37763dd9887b5fa7511d6191a5f7
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/27/2018
+ms.lasthandoff: 05/17/2018
+ms.locfileid: "34299286"
 ---
 # <a name="power-bi-webinars"></a>Power BI-webináriumok
 
@@ -31,17 +24,13 @@ Regisztráljon a soron következő élő előadásokra, vagy tekintse meg őket 
 
 Regisztráció a Power BI-szakértők előadásaira, ahol lehetősége van élőben feltenni kérdéseit
 
-**[Power BI bevezetési keretrendszer webinárium-sorozat](https://info.microsoft.com/ww-landing-powerbi-adoption-framework-series.html?Is=Website)**
-<br>írta: Manu Kanwarpal és Paul Henwood
-<br>*2018. március, április és május, 9:00 (PST időzóna szerint), 12:00 (EST időzóna szerint)*
+**Pontos elemzések a Power BI és a Visio használatával**
+<br>Előadó: Shakun Grover
+<br>*2018. MÁJUS 22. 10:00 (CSENDES-ÓCEÁNI TÉLI IDŐ), 13:00 (KELETI TÉLI IDŐ)*
 
-Tervezze meg a Power BI hatékony bevezetését vállalatánál, és fedezze fel a hatékony SaaS (Software as a Service) felügyelet részleteit. Ez egy olyan ötrészes sorozat, amely segít kiaknázni a Power BI lehetőségeit a cége számára.
+Tartson velünk ezen a webináriumon, és ismerje meg, hogyan kombinálhatja a Power BI irányítópultjait a Microsoft Visio grafikonjaival a hatásos vizuális elemzések elkészítéséhez. A Visio és a Power BI egyaránt sok látványelemet használ, és természetes kiegészítői egymásnak. A Visio segítségével grafikonokon szemléltethet például összekapcsolt munkafolyamatokat és valós elrendezéseket. A Power BI-ban intuitív irányítópultokat hozhat létre, amelyek a fő teljesítménymutatókat és célkitűzéseket mutatják be grafikonokkal és térképekkel.
 
-[Regisztráljon a május 1-i adáshoz: 5. rész – Bevezetés: a Power BI sikeres bevezetése](https://info.microsoft.com/ww-landing-powerbi-adoption-part5-rollout.html?Is=Website)
-<br>[Regisztráljon, és tekintse meg most: 4. rész – Biztonság: adatainak megvédése a Power BI segítségével](https://info.microsoft.com/ww-landing-pbi-adoption-framework-part4.html?Is=Website)
-<br>[Regisztráljon, és tekintse meg most: 3. rész – Szolgáltatásfelügyelet: Power BI szolgáltatásfelügyeleti elemzések](https://info.microsoft.com/ww-landing-pbi-adoption-framework-part3.html?Is=Website)
-<br>[Regisztráljon, és tekintse meg most: 2. rész – Irányítás: irányítsa saját Power BI-használatát](https://info.microsoft.com/ww-ondemand-powerbi-governance.html?Is=Website)
-<br>[Regisztráljon, és tekintse meg most: 1. rész – Adatközpontú kultúra bevezetése](https://info.microsoft.com/ww-landing-powerbi-adoption-ondemand.html?Is=Website)
+[Regisztráció a május 22-i előadás megtekintéséhez](https://info.microsoft.com/ww-landing-powerbi-and-visio.html?Is=Website)
 
 **Ismerje meg 20 percben a Power BI Embedded alkalmazást**
 <br>Készítette: Megan Asarrane és Colin Murphy
@@ -88,6 +77,10 @@ Előadások megtekintése felvételről, tetszés szerinti időpontban
 **Útmutató: Látványos Power BI-jelentések tervezése**
 <br>Készítette Charles Sterling
 <br>[Megtekintés](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/5-3-17-Webinar-How-to-Design-Visually-Stunning-Power-BI-Reports/m-p/168204?Is=Website)
+
+**A táblázatokon túl**
+<br>Előadó: Gohul Shanmugalingam
+<br>[Regisztráció és megtekintés](https://info.microsoft.com/CA-PowerBI-WBNR-FY18-05May-09-DataBeyondtheSpreadsheet-MCW0006385_01Registration-ForminBody.html?Is=Website)
 
 **Jó minőségű jelentésből kiváló jelentés!**
 <br>Készítette Reid Havens
@@ -139,6 +132,14 @@ Előadások megtekintése felvételről, tetszés szerinti időpontban
 <br>írta: Nagasaikiran Kambhampati és Miguel Martinez
 <br>[Regisztráljon a megtekintéshez](https://info.microsoft.com/ww-landing-advanced-analytics-excel-powerbi.html?Is=Website)
 <br>[Az előadás követéséhez töltse le a fejlett elemzés indulókészletet (Advanced Analytics Starter Kit)](https://aka.ms/pbiaawebinar)
+
+**[Power BI bevezetési keretrendszer webinárium-sorozat](https://info.microsoft.com/ww-landing-powerbi-adoption-framework-series.html?Is=Website)**
+<br>írta: Manu Kanwarpal és Paul Henwood
+<br>[Regisztráljon, és tekintse meg most: 1. rész – Adatközpontú kultúra bevezetése](https://info.microsoft.com/ww-landing-powerbi-adoption-ondemand.html?Is=Website)
+<br>[Regisztráljon, és tekintse meg most: 2. rész – Irányítás: irányítsa saját Power BI-használatát](https://info.microsoft.com/ww-ondemand-powerbi-governance.html?Is=Website)
+<br>[Regisztráljon, és tekintse meg most: 3. rész – Szolgáltatásfelügyelet: Power BI szolgáltatásfelügyeleti elemzések](https://info.microsoft.com/ww-landing-pbi-adoption-framework-part3.html?Is=Website)
+<br>[Regisztráljon, és tekintse meg most: 4. rész – Biztonság: adatainak megvédése a Power BI segítségével](https://info.microsoft.com/ww-landing-pbi-adoption-framework-part4.html?Is=Website)
+<br>[Regisztráljon, és tekintse meg most: 5. rész – Bevezetés: A Power BI sikeres bevezetése](https://info.microsoft.com/ww-landing-powerbi-adoption-part5-rollout.html?Is=Website)
 
 **Az Office 365 webinárium-sorozata pénzügyi szakembereknek**
 <br>Készítette: Mark Traverso, Carlos Otero, Johnnie Thomas, Amanda Cofsky és Miguel Martinez

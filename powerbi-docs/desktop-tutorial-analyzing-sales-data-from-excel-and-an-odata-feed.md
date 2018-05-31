@@ -1,6 +1,6 @@
 ---
-title: 'Oktatóanyag: Excelből és OData-csatornáról származó értékesítési adatok elemzése a Power BI Desktopban'
-description: 'Oktatóanyag: Excelből és OData-csatornáról származó értékesítési adatok elemzése'
+title: 'Oktatóanyag: Excelből és OData-csatornáról származó adatok összevonása a Power BI Desktopban'
+description: 'Oktatóanyag: Excelből és OData-csatornáról származó adatok összevonása'
 services: powerbi
 documentationcenter: ''
 author: davidiseminger
@@ -15,220 +15,254 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/24/2018
-ms.author: davidi
+ms.date: 05/02/2018
+ms.author: v-thepet
 LocalizationGroup: Learn more
-ms.openlocfilehash: aad93a6c636fb0d75ad89f9e3d9eb70ec203cc88
-ms.sourcegitcommit: afa10c016433cf72d6d366c024b862187a8692fd
+ms.openlocfilehash: 00c4915df0e18504ec6f5d26540d9289c2f5ddb2
+ms.sourcegitcommit: 773ba0d1cc1d1fcee8e666e1c20450f5e343c5c1
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/04/2018
+ms.lasthandoff: 05/10/2018
+ms.locfileid: "33945986"
 ---
-# <a name="tutorial-analyzing-sales-data-from-excel-and-an-odata-feed"></a>Oktatóanyag: Excelből és OData-csatornáról származó értékesítési adatok elemzése
-A **Power BI Desktop** használatával különféle adatforrásokhoz kapcsolódhat, majd az ezekből származó adatokat úgy kombinálhatja és alakíthatja, hogy érdekes és magukkal ragadó elemzéseket és vizualizációkat eredményezzenek. Ebben az oktatóanyagban megtanulhatja, hogyan kombinálja két adatforrás adatait. 
+# <a name="tutorial-combine-sales-data-from-excel-and-an-odata-feed"></a>Oktatóanyag: Excelből és OData-csatornáról származó értékesítési adatok összevonása
 
-Igen gyakori, hogy az adatok több különböző adatforrásban találhatók, például a termékinformációk egy adatbázisban, az értékesítési adatok egy másikban. Az ebben a dokumentumban bemutatott példákban egy Excel-munkafüzetet és egy OData-csatornát alkalmazunk, azonban a technikák ugyanúgy alkalmazhatók más adatforrásokra, például SQL Server lekérdezésekre, CSV-fájlokra vagy bármely egyéb adatforrásra a Power BI Desktopban.
+Igen gyakori, hogy az adatok több különböző adatforrásban találhatók, például a termékinformációk egy adatbázisban, az értékesítési adatok egy másikban. A **Power BI Desktoppal** összevonhatja a különböző forrásokból származó adatokat, így érdekes, meggyőző elemzéseket és vizualizációkat hozhat létre. 
 
-Ebben az oktatóanyagban az adatokat az Excelből (a termékinformációkat) és egy OData-csatornáról (a megrendelések adatait) importáljuk. Átalakítási és összesítési műveleteket hajtunk végre, és a két forrásból származó adatokat kombinálva létrehozunk egy interaktív vizualizációkat is tartalmazó **Összes értékesítés termék és év szerint** jelentést. 
-
-A végleges jelentés így fog kinézni:
-
-![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/18.png)
-
-Az oktatóanyagban szereplő lépések végrehajtásához szükség lesz a Termékek munkafüzetre, amelyet letölthet: **[Kattintson ide a Products.xlsx fájl letöltéséhez](http://download.microsoft.com/download/1/4/E/14EDED28-6C58-4055-A65C-23B4DA81C4DE/Products.xlsx)**
-
-A **Mentés másként** párbeszédablakban nevezze el a fájlt **Products.xlsx** néven.
-
-## <a name="task-1-get-product-data-from-an-excel-workbook"></a>1. feladat: Termékadatok betöltése Excel-munkafüzetből
-Ebben a feladatban a Products.xlsx fájlból a Power BI Desktopba importáljuk a termékeket.
-
-### <a name="step-1-connect-to-an-excel-workbook"></a>1. lépés: Kapcsolódás az Excel-munkafüzethez
-1. Indítsa el a Power BI Desktopot.
-2. A Kezdőlap menüszalagon válassza az **Adatok lekérése** lehetőséget. Az Excel egyike a **Leggyakoribb** adatkapcsolatoknak, így közvetlenül kiválasztható az **Adatok lekérése** menüből.
-   
-   ![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/t_excelodata_1.png)
-3. Ha közvetlenül az Adatok lekérése gombra kattint, itt választhatja a **Fájl \> Excel**, majd a **Kapcsolódás** lehetőséget.
-4. A **Fájl megnyitása** párbeszédablakban válassza ki a **Products.xlsx** fájlt.
-5. A **Kezelő** ablaktáblán válassza a **Termékek** táblát, majd a **Szerkesztés** lehetőséget.
-   
-   ![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/t_excelodata_2.png)
-
-### <a name="step-2-remove-other-columns-to-only-display-columns-of-interest"></a>2. lépés: Az egyéb oszlopok eltávolítása, hogy csak a lényeges oszlopok jelenjenek meg
-Ebben a lépésben a **ProductID** (Termékazonosító), **ProductName** (Terméknév), **UnitsInStock** (Készletmennyiség) és **QuantityPerUnit** (MennyiségEgységenként) oszlopokon kívül az összes többi oszlopot eltávolítja. A Power BI Desktopban gyakori, hogy egy adott feladatot többféleképpen is el lehet végezni. Például a menüszalag számos gombja az oszlopok vagy cellák helyi menüjéből (jobb kattintás) is elérhető.
-
-A Power BI Desktop Lekérdezésszerkesztő eszközével formázhatja és alakíthatja az adatkapcsolatokat. A **Kezelőben** a **Szerkesztés** gombra kattintva a Lekérdezésszerkesztő automatikusan megnyílik. Emellett megnyitható a Power BI Desktop **Kezdőlap** menüszalagján a **Lekérdezések szerkesztése** lehetőséget választva is. A következő lépéseket a Lekérdezésszerkesztőben kell végrehajtania.
-
-1. A Lekérdezésszerkesztőben jelölje ki a **ProductID**, a **ProductName**, a **QuantityPerUnit** és a **UnitsInStock** oszlopokat (több külön oszlop kijelöléséhez használja a **Ctrl+kattintás**, több egymás mellett állóhoz a **Shift+kattintás** kombinációt).
-2. Válassza az **Oszlopok eltávolítása** \> **További oszlopok eltávolítása** parancsot a menüszalagon, vagy kattintson jobb gombbal az oszlopfejlécre, majd kattintson **További oszlopok eltávolítása** elemre.
-
-![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/anlayzingsalesdata_removeothercolumns.png)
-
-### <a name="step-3-change-the-data-type-of-the-unitsinstock-column"></a>3. lépés: A UnitsInStock oszlop adattípusának módosítása
-Miután a Lekérdezésszerkesztő kapcsolódott az adatokhoz, megvizsgálja az egyes mezőket, és meghatározza azok optimális adattípusát. Az Excel-munkafüzetben a készleten lévő termékek mennyisége mindig egész számként lesz megadva, így ebben a lépésben jóváhagyhatjuk, hogy a **UnitsInStock** oszlop adattípusa Egész szám.
-
-1. Jelölje ki a **UnitsInStock** oszlopot.
-2. Kattintson az **Adattípus** legördülő menü gombjára a **Kezdőlap** menüszalagon.
-3. Ha nem Egész szám van beállítva, az adattípusnak válassza ki az **Egész szám** lehetőséget a legördülő menüből (az **Adattípus:** gomb az aktuális kijelölés adattípusát is megjeleníti).
-   
-   ![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/anlayzingsalesdata_wholenumber.png)      
-
-### <a name="power-bi-desktop-steps-created"></a>A Power BI Desktopban létrehozott lépések
-Ahogy egymás után hajtja végre a különféle lekérdezési műveleteket a Lekérdezésszerkesztőben, a lekérdezés lépéseit azok létrehozását követően a **Lekérdezési beállítások** ablaktábla sorolja fel az **Alkalmazott lépések** listában. A lekérdezés mindegyik lépése rendelkezik egy megfelelő, az úgynevezett „M” nyelven íródott képlettel. További információk az „M” képletnyelvről: [A Power BI képletek bemutatása](https://support.office.com/Article/Learn-about-Power-Query-formulas-6bc50988-022b-4799-a709-f8aafdee2b2f).
-
-| Feladat | Lekérdezési lépés | Képlet |
-| --- | --- | --- |
-| Kapcsolódás az Excel-munkafüzethez |Forrás |Source{[Name="Products"]}[Data] |
-| Az első sor előléptetése a tábla oszlopfejléceivé |FirstRowAsHeader |[Table.PromoteHeaders](https://support.office.com/Article/TablePromoteHeaders-b8eaeb95-042a-42e1-9164-6d3c646acadc "Table.PromoteHeaders") <br /> (Products) |
-| Az egyéb oszlopok eltávolítása, hogy csak a lényeges oszlopok jelenjenek meg |RemovedOtherColumns |[Table.SelectColumns](https://support.office.com/Article/TableSelectColumns-20bb9e28-9fd3-4cd2-a21b-97972c82ec22 "Table.SelectColumns")  <br />(FirstRowAsHeader,{"ProductID", "ProductName", "QuantityPerUnit", "UnitsInStock"}) |
-| Adattípus módosítása |Típus módosítva |Table.TransformColumnTypes(\#"A többi oszlop eltávolítva",{{"UnitsInStock", Int64.Type}}) |
-
-## <a name="task-2-import-order-data-from-an-odata-feed"></a>2. feladat: Megrendelésadatok importálása az OData-csatornáról
-Ebben a feladatban megrendelésadatokat olvashat be. Ez a lépés az értékesítési rendszerekkel való kapcsolódást mutatja be. Az adatokat a Power BI Desktopba arról a minta Northwind OData-csatornáról importálhatja a következő URL-címen, amelyet az alábbi lépések során másolhat (és illeszthet be): <http://services.odata.org/V3/Northwind/Northwind.svc/> 
-
-### <a name="step-1-connect-to-an-odata-feed"></a>1. lépés: Kapcsolódás az OData-csatornához
-1. A Lekérdezésszerkesztőben a **Kezdőlap** menüszalagon válassza az **Adatok lekérése** lehetőséget.
-2. Tallózással keresse meg az **OData-csatorna** adatforrást.
-3. Az **OData-csatorna** párbeszédablakban illessze be a Northwind OData-csatorna **URL-címét**.
-4. Kattintson az **OK** gombra.
-5. A **Kezelő** ablaktáblán válassza az **Orders** (Megrendelések) táblát, majd a **Szerkesztés** lehetőséget.
-   
-   ![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/anlayzingsalesdata_odatafeed.png)
+Ebben az oktatóanyagban két adatforrás esetén sajátíthatja el a belőlük származó adatok összevonását: az egyik a termékinformációkat tartalmazó Excel-munkafüzet, a másik a megrendeléseket tartalmazó OData-csatorna. Az adatkészletek importálása, majd az átalakítás és összesítés lépései után mindkét forrás adatait felhasználhatja egy interaktív vizualizációkkal kiegészített eladáselemzési jelentéshez. Ezek a technikák SQL Server-lekérdezésekhez, CSV-fájlokhoz és a Power BI Desktopban használt egyéb adatforrásokhoz is használhatók.
 
 >[!NOTE]
->Ha valamelyik tábla nevére kattint, de nem jelöli be a jelölőnégyzetet, megtekintheti a tábla előnézetét.
+>A Power BI Desktopban gyakori, hogy egy adott feladatot többféleképpen is el lehet végezni. Például a menüszalag elemeit ki lehet jelölni jobb gombbal történő kattintással, vagy az egyik oszlopon vagy cellán található **További lehetőségek** menü választásával is. Az alábbi lépések számos választható módszert leírnak. 
 
-### <a name="step-2-expand-the-orderdetails-table"></a>2. lépés: Az Order\_Details (Megrendelések részletei) tábla kibontása
-Az **Orders** (Megrendelések) tábla egy hivatkozást tartalmaz a **Details** (Részletek) táblára, amely az egyes megrendelésekben érintett egyedi termékeket tartalmazza. Amikor olyan adatforráshoz kapcsolódik, amely több táblát is tartalmaz (például egy relációs adatbázishoz), az ilyen hivatkozások segítségével állíthatja össze a lekérdezést. 
+## <a name="import-the-product-data-from-excel"></a>Termékadatok importálása az Excelből
 
-Ebben a lépésben kibontjuk az **Orders** (Megrendelések) táblához kapcsolódó **Order\_Details** (Megrendelések részletei) táblát, és így kombináljuk az **Order\_Details** (Megrendelések részletei) tábla **ProductID** (Termékazonosító), **UnitPrice** (Egységár) és **Quantity** (Mennyiség) oszlopait az **Orders** (Megrendelések) táblán. Az alábbi ábra a táblákon lévő adatok sémáját mutatja:
+Először is importálja az Excel Products.xlsx munkafüzetben lévő termékadatokat a Power BI Desktopba.
 
-![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/orderdetails.png)
+1. [Töltse le a Products.xlsx Excel-munkafüzetet](http://download.microsoft.com/download/1/4/E/14EDED28-6C58-4055-A65C-23B4DA81C4DE/Products.xlsx), és mentse **Products.xlsx** néven.
+   
+2. Kattintson a Power BI Desktop **Kezdőlap** szalagfülén az **Adatok lekérése** elem mellett lenyitó nyílra, majd a **Leggyakoribb** legördülő listán kattintson az **Excel** elemre. 
+   
+   ![Adatok lekérése](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/t_excelodata_1.png)
+   
+   >[!NOTE]
+   >Az **Adatok lekérése** elemet kijelölheti közvetlenül, vagy kiválaszthatja a Power BI **Első lépések** párbeszédéből is, majd az **Adatok lekérése** párbeszédpanelben kattintson az **Excel** vagy a **Fájl** > **Excel** elemre, és végül a **Kapcsolódás** elemre.
+   
+3. A **Megnyitás** párbeszédpanelben keresse meg és jelölje ki a **Products.xlsx** fájlt, majd kattintson a **Megnyitás** elemre.
+   
+4. A **Kezelő** ablaktáblán válassza a **Termékek** táblát, majd a **Szerkesztés** lehetőséget.
+   
+   ![Az Excel kezelőpanelje](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/t_excelodata_2.png)
+   
+A **Power Query-szerkesztőben** megnyílik a táblázat előnézeti képe, amelyben átalakításokat hajthat végre az adattisztításhoz. 
+   
+![Power Query-szerkesztő](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/t_excelodata_3.png)
+   
+>[!NOTE]
+>A **Power Query-szerkesztőt** a Power BI Desktop **Kezdőlap** szalagfül **Lekérdezések szerkesztése** > **Lekérdezések szerkesztése** elemére kattintva nyithatja meg, vagy úgy, ha a jobb gombbal kijelöli a **Jelentés nézet** mellett lévő **További lehetőségeket**, és ott rákattint a **Lekérdezések szerkesztése** elemre.
 
-A **Kibontás** művelettel egy kapcsolódó tábla adatai kombinálhatóak egy érintett táblán. A lekérdezés futtatásakor a kapcsolódó tábla (**Order\_Details**) sorai az érintett tábla (**Orders**) soraivá lesznek kombinálva.
+## <a name="clean-up-the-products-columns"></a>A termékeket tartalmazó oszlopok tisztítása
 
-Miután kibontotta az **Order\_Details** táblát, az **Orders** tábla három új oszloppal és további sorokkal bővül, a beágyazott vagy kapcsolódó tábla minden sora után eggyel.
+Mivel az összevont jelentés a munkafüzetből csak a **ProductID** (Termékazonosító), a **ProductName** (Terméknév), a **QuantityPerUnit** (Mennyiség egységek szerint) és a **UnitsInStock** (Egységek száma a készletben) oszlopokat fogja használni, a többi oszlopot eltávolíthatja. 
 
-1. A **Lekérdezés nézetében** görgessen az **Order\_Details** (Megrendelés részletei) oszlopra.
-2. Az **Order\_Details** (Megrendelés részletei) oszlopban kattintson a Kibontás ikonra (![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/expand.png)).
+1. A **Power Query-szerkesztőben** jelölje ki a **ProductID**, a **ProductName**, a **QuantityPerUnit**, és a **UnitsInStock** oszlopokat (a **Ctrl**+**Kattintás** kombinációval több oszlopot is kiválaszthat, a **Shift**+**Kattintás** kombinációval egymás melletti oszlopokat jelölhet ki).
+   
+2. Kattintson a jobb gombbal a kijelölt fejlécek bármelyikére, majd a legördülő listában kattintson a **További oszlopok eltávolítása** elemre, így a táblázat összes oszlopát eltávolíthatja a kijelölteken kívül. 
+   Azt is megteheti, hogy a **Kezdőlap** szalagfül **Oszlopok kezelése** csoportjában kattint rá az **Oszlopok eltávolítása** > **További oszlopok eltávolítása** elemre. 
+   
+   ![További oszlopok eltávolítása](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/analyzingsalesdata_removeothercolumns.png)
+
+## <a name="import-the-order-data-from-an-odata-feed"></a>Megrendelési adatok importálása egy OData-csatornáról
+
+A következő lépésben importálja a megrendelési adatokat a Northwind értékesítési rendszer mintaanyagából az OData-csatornán keresztül. 
+
+1. A **Power Query-szerkesztőben** kattintson az **Új forrás** elemre, majd a **Leggyakoribbak** legördülő listából válassza ki az **OData-csatorna** lehetőséget. 
+   
+   ![OData beolvasása](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/get_odata.png)
+   
+2. Az **OData-csatorna** párbeszédpanelbe másolja be a Northwind OData-csatorna URL-címét, `http://services.odata.org/V3/Northwind/Northwind.svc/`, majd kattintson az **OK** elemre.
+   
+   ![OData-csatorna párbeszédpanel](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/get_odata2.png)
+   
+3. Az adatokat úgy töltheti be a **Power Query-szerkesztőbe**, hogy a **Kezelő** panelen a **Megrendelések** táblázatra, majd az **OK** elemre kattint.
+   
+   ![OData Kezelő panel](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/analyzingsalesdata_odatafeed.png)
+   
+   >[!NOTE]
+   >Ha a **Kezelőben** rákattint egy táblázat nevére, de nem jelöli be a jelölőnégyzetet, megtekintheti a táblázat előnézetét.
+
+## <a name="expand-the-order-data"></a>A megrendelési adatok kibontása
+
+Ha több táblázatot tartalmazó adatforrásokhoz csatlakozik, mint például a relációs adatbázisok, vagy a Northwind OData-csatorna, a lekérdezések létrehozásához hivatkozásokat használhat a táblázatok között. A **Megrendelések** táblázat hivatkozásokat tartalmaz több kapcsolódó táblázathoz. A **Kibontás** művelettel a kapcsolódó **Order_Details** (Megrendelés részletei) táblázatból hozzáadhatja a **ProductID**, a **UnitPrice**, és a **Quantity** oszlopokat a (**Megrendelések**) táblázathoz. 
+
+1. Görgessen jobbra a **Megrendelések** táblázatban, amíg el nem jut az **Order_Details** oszlopig. Vegye figyelembe, hogy itt nem adatokat, hanem más táblázatokra mutató hivatkozásokat talál.
+   
+   ![Order_Details oszlop](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/7.png)
+   
+2. Kattintson a **Kibontás** ikonra (![Kibontás ikon](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/expand.png)) az **Order_Details** oszlop fejlécén. 
+   
 3. A **Kibontás** legördülő menüben:
+   
    1. Válassza **(Az összes oszlop kijelölése)** lehetőséget az összes oszlop törléséhez.
-   2. Jelölje ki a **ProductID**, a **UnitPrice** és a **Quantity** oszlopokat.
-   3. Kattintson az **OK** gombra.
-      ![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/7.png)
+      
+   2. Jelölje ki a **ProductID**, a **UnitPrice**, és a **Quantity** oszlopokat, majd kattintson az **OK** elemre.
+      
+      ![Kibontás párbeszédpanel](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/8.png)
 
-### <a name="step-3-remove-other-columns-to-only-display-columns-of-interest"></a>3. lépés: Az egyéb oszlopok eltávolítása, hogy csak a lényeges oszlopok jelenjenek meg
-Ebben a lépésben az **OrderDate (Megrendelés dátuma), ShipCity** (Szállítási cím városa), **ShipCountry** (Szállítási cím országa), **Order\_Details.ProductID** (Megrendelés_részletei.Termékazonosító), **Order\_Details.UnitPrice** (Megrendelés_részletei.Egységár) és **Order\_Details.Quantity** (Megrendelés_részletei.Mennyiség) oszlopokon kívül az összes többi oszlopot eltávolítja. Az előző feladatban a **További oszlopok eltávolítása** parancsot használtuk. Ebben a feladatban a kijelölt oszlopokat fogjuk eltávolítani.
+Miután kibontotta az **Order_Details** táblázatot, az **Order_Details** oszlop helyére a beágyazott táblázat három új oszlopa kerül, és minden új megrendelésnél új sorok jelennek meg a hozzáadott adatok részére. 
 
-1. A **Lekérdezés nézetében** az a. és a b. pontok végrehajtásával jelölje ki az összes oszlopot:
-   1. Kattintson az első oszlopra (**OrderID**).
-   2. A Shift billentyűt lenyomva tartva kattintson az utolsó oszlopra (**Shipper**).
-   3. Most, hogy az összes oszlop ki van jelölve, a Ctrl billentyűt lenyomva tartva kattintson a következő oszlopokra azok kijelölésének visszavonásához: **OrderDate**, **ShipCity**, **ShipCountry**, **Order\_Details.ProductID**, **Order\_Details.UnitPrice** és **Order\_Details.Quantity**.
-2. Most, hogy csak az eltávolítani kívánt oszlopok vannak kijelölve, kattintson a jobb gombbal bármelyik kijelölt oszlop fejlécére, majd kattintson az **Oszlopok eltávolítása** lehetőségre.
+![Kibontott oszlopok](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/9.png)
 
-### <a name="step-4-calculate-the-line-total-for-each-orderdetails-row"></a>Lépés 4: Az egyes Order\_Details (Megrendelés részletei) sorok végösszegének kiszámítása
-A Power BI Desktop segítségével számításokat végezhet az importált oszlopok alapján, így bővítheti a betöltött adatokat. Ebben a lépésben egy **Egyéni oszlopot** hozunk létre az egyes **Order\_Details** (Megrendelés részletei) sorok végösszegének kiszámítására.
+## <a name="create-a-custom-calculated-column"></a>Egyéni számított oszlop létrehozása
 
-Az egyes **Order\_Details** (Megrendelés részletei) sorok végösszegének kiszámítása:
+A Power Query-szerkesztővel számításokat és egyéni mezőket vehet fel az adatok bővítéséhez. Hozzon létre egy egyéni oszlopot, amely az egységár és a tételmennyiség szorzatával kiszámítja egy megrendelés minden sortételének teljes árát.
 
-1. Az **Oszlop hozzáadása** szalagfülön kattintson a **Hozzáadás** **Egyéni oszlop** lehetőségre.
-   
-   ![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/t_excelodata_4.png)
-2. Az **Egyéni oszlop hozzáadása** párbeszédablak **Egyéni oszlopképlet** szövegmezőjébe írja be az **[Order\_Details.UnitPrice]**  \* **[Order\_Details.Quantity]** képletet.
-3. Az **Új oszlop neve** szövegmezőbe írja be a **LineTotal** (Sor összege) nevet.
-   
-   ![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/8.png)
-4. Kattintson az **OK** gombra.
-
-### <a name="step-5-set-the-datatype-of-the-linetotal-field"></a>5. lépés: A LineTotal mező adattípusának beállítása
-1. Kattintson a jobb gombbal a **LineTotal** oszlopra.
-2. Válassza a **Típus módosítása** lehetőséget, majd a **Tizedes tört szám** értéket.
-   
-   ![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/9.png)
-
-### <a name="step-6-rename-and-reorder-columns-in-the-query"></a>6. lépés: A lekérdezés oszlopainak átnevezése és átrendezése
-Ebben a lépésben átnevezzük és átrendezzük a modell végső oszlopait, hogy könnyebb legyen azt használni a jelentések létrehozása során.
-
-1. A **Lekérdezésszerkesztőben** húzza a **LineTotal** oszlopot balra, a **ShipCountry** oszlop mögé.
+1. A Power Query-szerkesztő **Oszlop hozzáadása** szalagfülén válassza ki az **Egyéni oszlop** lehetőséget.
    
    ![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/10.png)
-2. Törölje az *Order\_Details.* előtagot az **Order\_Details.ProductID**, az **Order\_Details.UnitPrice** és az **Order\_Details.Quantity** oszlopok nevében. Ehhez kattintson duplán az adott oszlopok fejlécére, majd törölje az adott szövegrészletet az oszlop nevéből.
-
-### <a name="power-bi-desktop-steps-created"></a>A Power BI Desktopban létrehozott lépések
-Ahogy egymás után hajtja végre a különféle lekérdezési műveleteket a Lekérdezésszerkesztőben, a lekérdezés lépéseit azok létrehozását követően a **Lekérdezési beállítások** ablaktábla sorolja fel az **Alkalmazott lépések** listában. A lekérdezés mindegyik lépése rendelkezik egy megfelelő egy úgynevezett „M” nyelven íródott Power Query képlettel. További információk erről a képletnyelvről: [A Power BI képletek bemutatása](https://support.office.com/Article/Learn-about-Power-Query-formulas-6bc50988-022b-4799-a709-f8aafdee2b2f "A Power Query képletek bemutatása").
-
-| Feladat | Lekérdezési lépés | Képlet |
-| --- | --- | --- |
-| Kapcsolódás OData-csatornához |Forrás |Source{[Name="Orders"]}[Data] |
-| Az Order\_Details tábla kibontása |Az Order\_Details kibontása |[Table.ExpandTableColumn](https://support.office.com/Article/TableExpandTableColumn-54903f25-75a2-4a44-a9a3-52a9d895ee98 "Table.ExpandTableColumn") <br /> (Orders, "Order\_Details", {"ProductID", "UnitPrice", "Quantity"}, {"Order\_Details.ProductID", "Order\_Details.UnitPrice", "Order\_Details.Quantity"}) |
-| Az egyéb oszlopok eltávolítása, hogy csak a lényeges oszlopok jelenjenek meg |RemovedColumns |[Table.RemoveColumns](https://support.office.com/Article/TableRemoveColumns-6265190e-2f58-4300-85b8-df88fc1a67d3 "Table.RemoveColumns") <br />(\#"Expand Order\_Details",{"OrderID", "CustomerID", "EmployeeID", "RequiredDate", "ShippedDate", "ShipVia", "Freight", "ShipName", "ShipAddress", "ShipCity", "ShipRegion", "ShipPostalCode", "ShipCountry", "Customer", "Employee", "Shipper"}) |
-| Az egyes Order\_Details sorok végösszegének kiszámítása |InsertedColumn |[Table.AddColumn](https://support.office.com/Article/TableAddColumn-6c64d0a5-9654-4d15-bfb6-9cc380aaf3c0 "Table.AddColumn") <br /> (RemovedColumns, "Custom", each [Order\_Details.UnitPrice] \* [Order\_Details.Quantity]) |
-
-## <a name="task-3-combine-the-products-and-total-sales-queries"></a>3. feladat: A Products (Termékek) és a Total Sales (Összes értékesítés) lekérdezés kombinálása
-A Power BI Desktopban nem szükséges kombinálni a lekérdezéseket ahhoz, hogy jelentéseket készíthessen belőlük. Ehelyett létrehozhat **Kapcsolatokat** az adatkészletek között. Ezek a kapcsolatok bármely olyan oszlopra létrehozhatóak, amely mindegyik érintett adatkészletben megtalálható. További információ: [Kapcsolatok létrehozása és kezelése](desktop-create-and-manage-relationships.md).
-
-Ebben az oktatóanyagban az Orders (Megrendelések) és a Products (Termékek) adatai is tartalmaznak „ProductID” (Termékazonosító) mezőt, ezért gondoskodnunk kell róla, hogy a Power BI Desktopban használt modellben létezzen ezek között kapcsolat. Egyszerűen adja meg a Power BI Desktopban, hogy a két táblában ezek az oszlopok kapcsolatban vannak (azaz ugyanazokat az értékeket veszik fel). A Power BI Desktop automatikusan beállítja a kapcsolat irányát és számosságát. Egyes esetekben képes automatikusan észlelni is a kapcsolatokat.
-
-Ebben a feladatban ellenőrizni fogjuk, hogy létrejött-e a kapcsolat a Power BI Desktopban a **Products** és a **Total Sales** lekérdezések közt.
-
-### <a name="step-1-confirm-the-relationship-between-products-and-total-sales"></a>1. lépés: A Products és a Total Sales közötti kapcsolat ellenőrzése
-1. Először be kell töltenünk a Lekérdezésszerkesztőben létrehozott modellt a Power BI Desktopba. A Lekérdezésszerkesztő **Kezdőlap** menüszalagján válassza a **Bezárás és betöltés** lehetőséget.
    
-   ![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/t_excelodata_4.png)
-2. A Power BI Desktop betölti az adatokat a két lekérdezésből.
+2. Az **Egyéni oszlop** párbeszédpanelen írja be a **LineTotal** (Sorösszeg) kifejezést az **Új oszlop neve** mezőbe.
+
+3. Az **Egyéni oszlop képlete** mezőben a **=** jel után adja meg az **[Order_Details.UnitPrice]** \* **[Order_Details.Quantity]** adatokat. (A mezőneveket a **Megjeleníthető oszlopok** görgetőgombon is kijelölheti, és a begépelés helyett kattinthat a **<< Beillesztés** elemre.) 
+3. Kattintson az **OK** gombra.
    
-   ![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/11.png)      
-3. Az adatok betöltését követően kattintson a **Kapcsolatok kezelése** gombra a **Kezdőlap** menüszalagon.
+   ![Egyéni oszlop párbeszédpanel](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/11.png)
+
+Az új **LineTotal** (Sorösszeg) mező a **Megrendelések** táblázat utolsó oszlopaként jelenik meg.
+
+## <a name="set-the-data-type-for-the-new-field"></a>Adattípus beállítása az új mezőhöz
+
+Amikor a Power Query-szerkesztő csatlakozik az adatokhoz, minden mezőhöz meghatározza a legmegfelelőbb adattípust, és az adatokat ez alapján jeleníti meg. A mezőkhöz rendelt adattípusokat a fejlécekben lévő ikonok mutatják, vagy megtekinthetők a **Kezdőlap** szalagfülön, az **Átalakítás** csoport **Adattípusok** eleme alatt. 
+
+Az új **LineTotal** (Sorösszeg) oszlop tartalmaz egy **Bármely** adattípust is, de a benne foglalt értékek pénznemek. Adattípus hozzárendeléséhez kattintson a jobb gombbal a **LineTotal** oszlop fejlécére, válassza ki a legördülő menüből az **Adattípus módosítása** lehetőséget, és kattintson a **Fixpontos decimális szám** elemre. 
+
+![Adattípus módosítása](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/12.png)
+
+>[!NOTE]
+>Azt is megteheti, hogy kiválasztja a **LineTotal** oszlopot, rákattint a lenyíló nyílra a **Kezdőlap** szalagfül **Átalakítás** területének **Adattípusok** eleme mellett, és itt jelöli ki a **Fixpontos decimális szám** elemet.
+
+## <a name="clean-up-the-orders-columns"></a>A megrendelések oszlop tisztítása
+
+Annak érdekében, hogy a modell a jelentéseken belül könnyebben kezelhető legyen, egyes oszlopokat törölhet, átnevezhet és átrendezhet.
+
+A jelentés csak az **OrderDate** (Megrendelés dátuma), **ShipCity** (Megrendelés városa), **ShipCountry** (Megrendelés országa), **Order_Details.ProductID** (Megrendelés adatai, termékazonosító), **Order_Details.UnitPrice** (Megrendelés adatai, egységár), és az **Order_Details.Quantity** (Megrendelés adatai, mennyiség) oszlopokat használja fel. Ezen oszlopok kijelölése mellett ugyanúgy használhatja a **További oszlopok eltávolítása** lehetőséget, mint korábban az Excel-adatok esetén, vagy kijelölheti a listázottakon kívül az összes oszlopot, jobb gombbal rákattinthat az egyik kijelölt oszlopra, és az **Oszlopok eltávolítása** elemre kattintva távolíthatja mindegyiket el. 
+
+Ha eltávolítja az *Order_Details.* előtagot az oszlopnevekből, könnyebben azonosíthatók lesznek az **Order_Details.ProductID**, az **Order_Details.UnitPrice** és az **Order_Details.Quantity** oszlopok. Az oszlopokat a következőképpen nevezheti át a **ProductID**, a **UnitPrice** és a **Quantity** névre:
+
+1. Kattintson duplán, koppintson nyomvatartással, vagy kattintson a jobb gombbal az egyes oszlopfejlécekre, és a legördülő menüből válassza az **Átnevezés** lehetőséget. 
+2. Törölje az *Order_Details.* előtagot minden egyes névből, majd nyomja le az **Entert**.
+
+Végezetül pedig húzza balra a **LineTotal** oszlopot, közvetlenül a **ShipCountry** oszlop jobb oldalára, hogy könnyebben hozzáférhető legyen.
+
+![A tisztított táblázat](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/14.png)
+
+## <a name="review-the-query-steps"></a>A lekérdezési lépések áttekintése
+
+Amikor a Power Query-szerkesztőben formázta és átalakította az adatokat, a rendszer minden lépést rögzített a Power Query-szerkesztő jobb oldalán lévő **Lekérdezés beállításai** ablaktábla **Alkalmazott lépések** területén. Az Alkalmazott lépések területen visszaléphet, és áttekintheti a végrehajtott módosításokat, sőt szükség szerint szerkesztheti, törölheti és át is rendezheti őket (bár ez kockázatos lehet, mert a korábbi lépések módosítása a későbbi lépések hibájához vezethet). 
+
+A Power Query-szerkesztő bal oldalán látható **Lekérdezések** listán válassza ki a lekérdezéseit, és tekintse meg az **Alkalmazott lépéseket** a **Lekérdezés beállításai** ablaktáblán. Az eddigi adatátalakítások után a két lekérdezés az Alkalmazott lépések területen az alábbihoz hasonlóan jelenik meg:
+
+![Termékek lekérdezése az Alkalmazott lépésekben](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/15.png) &nbsp;&nbsp; ![Megrendelések lekérdezése az Alkalmazott lépésekben](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/17.png)
+
+>[!TIP]
+>Az Alkalmazott lépések alapjául olyan képletek szolgálnak, amelyek **Power Query-nyelven** (más néven **M**) íródtak. A Kezdőlap szalagfül **Lekérdezés** csoportjában lévő **Speciális szerkesztő** kiválasztásával megtekintheti és szerkesztheti a képleteket. 
+
+## <a name="import-the-transformed-queries"></a>Az átalakított lekérdezések importálása
+
+Ha elégedett az átalakított adatokkal, kattintson a **Kezdőlap** szalagfül **Bezárás** csoportjának **Bezárás és Alkalmazás** > **Bezárás és alkalmazás** elemére, és ezzel importálja az adatokat a Power BI Desktop Jelentés nézetébe. 
+
+![Bezárás és alkalmazás](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/t_excelodata_4.png)
+
+Az adatok betöltése után a lekérdezések megjelennek a Power BI Desktop Jelentés nézetének **Mezőlistáján**.
+
+![Lekérdezések a Mezőlistán](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/18.png)
+
+## <a name="manage-the-relationship-between-the-datasets"></a>Az adatkészletek kapcsolatainak kezelése
+
+A Power BI Desktopban nem szükséges kombinálni a lekérdezéseket ahhoz, hogy jelentéseket készíthessen belőlük. De az adatkészletek közti kapcsolatokat a közös mezők alapján felhasználhatja a jelentések kiterjesztéséhez és gazdagításához. A kapcsolatokat a Power BI Desktop automatikusan is észlelheti, de Ön is létrehozhatja őket a Power BI Desktop **Kapcsolatok kezelése** párbeszédpaneljén. További információk a kapcsolatokról a Power BI Desktopban: [Kapcsolatok létrehozása és kezelése](desktop-create-and-manage-relationships.md).
+
+Mivel az Orders (Megrendelések) és a Products (Termékek) adatkészletek ebben az oktatóanyagban közös *ProductID* (Termékazonosító) mezőhöz tartoznak, az adott oszlop létrehoz köztük egy kapcsolatot. 
+
+1. A Power BI Jelentés nézetben a **Kezdőlap** szalagfülön kattintson a **Kapcsolatok** terület **Kapcsolatok kezelése** elemére.
    
-   ![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/t_excelodata_5.png)
-4. Kattintson az **Új...** gombra
+   ![Kapcsolatok kezelése menüszalag](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/t_excelodata_5.png)
    
-   ![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/t_excelodata_6.png)
-5. Amikor megpróbáljuk létrehozni a kapcsolatot, láthatjuk, hogy az már létezik! Amint azt a **Kapcsolat létrehozása** párbeszédablak mutatja (az árnyékolt oszlopokkal), a két lekérdezés **ProductsID** mezői között már létre lett hozva a kapcsolat.
+2. A **Kapcsolatok kezelése** párbeszédpanelen figyelje meg, hogy a Power BI Desktop már észlelt és felvett a listára egy aktív kapcsolatot a Termékek és a Megrendelések táblázat között. A kapcsolat megtekintéséhez kattintson a **Szerkesztés** elemre. 
    
-    ![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/12.png)
-6. Kattintson a **Mégse** gombra, majd válassza a **Kapcsolat** nézetet a Power BI Desktopban.
+   ![Kapcsolatok kezelése párbeszédpanel](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/t_excelodata_6.png)
    
-   ![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/t_excelodata_7.png)
-7. A lekérdezések közötti kapcsolatot ábrázoló alábbi séma jelenik meg.
+   Ekkor megnyílik a **Kapcsolat szerkesztése** párbeszédpanel, és láthatóvá válnak a kapcsolat részletei.  
    
-   ![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/t_excelodata_8.png)
-8. A két lekérdezést összekötő vonalon lévő nyílra duplán kattintva a **Kapcsolat szerkesztése** párbeszédablak jelenik meg.
+   ![Kapcsolat szerkesztése párbeszédpanel](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/t_excelodata_7.png)
    
-   ![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/t_excelodata_9.png)
-9. Itt nem kell módosításokat végrehajtanunk, ezért a **Mégse** gombra kattintva egyszerűen bezárjuk a **Kapcsolat szerkesztése** párbeszédablakot.
+3. A Power BI Desktop pontosan észlelte a kapcsolatot, ezért a **Mégse**, majd a **Bezárás** elemre kattintva kiléphet a párbeszédpanelből.
 
-## <a name="task-4-build-visuals-using-your-data"></a>4. feladat: Vizualizáció létrehozása az adatok alapján
-A Power BI Desktop segítségével különféle vizualizációkat hozhat létre, amelyek segítségével elemezheti az adatokat. Többoldalas jelentéseket is létrehozhat, és mindegyik oldalon több vizualizáció is szerepelhet. A vizualizációk kezelésével az adatok még részletesebben elemezhetőek és értelmezhetőek. További információk a jelentések szerkesztésérről: [Jelentések szerkesztése](service-interact-with-a-report-in-editing-view.md).
+A lekérdezések közti kapcsolatokat úgy is megtekintheti és kezelheti, ha a Power BI Desktop ablak bal oldalán lévő **Kapcsolat** nézetre kattint. Kattintson duplán a két lekérdezést összekötő vonalon látható nyílra, és ezzel nyissa meg a **Kapcsolatok szerkesztése** párbeszédpanelt a kapcsolat megtekintéséhez vagy módosításához. 
 
-Ebben a feladatban a korábban betöltött adatok alapján hozhat létre jelentést. A Mezők panelen választhatja ki azokat az oszlopokat, amelyekből a vizualizációkat létre szeretné hozni.
+![Kapcsolat nézet](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/t_excelodata_8.png)
 
-### <a name="step-1-create-charts-showing-units-in-stock-by-product-and-total-sales-by-year"></a>1. lépés: A Stock by Product (Készleten lévő mennyiségek termékenként) és a Total Sales by Year (Teljes értékesítés évenként) diagramok létrehozása
-Húzza a **UnitsInStock** (Készletmennyiség) mezőt a Mezők panelről (ez a képernyő jobb oldalán található) a vászon egy üres területére. Ezzel létrehoz egy Tábla vizualizációt. Ezután húzza a ProductName (Terméknév) mezőt a Tengely dobozba a Megjelenítések panel alsó felében. Ezután válassza a **Rendezés szempontja: \> UnitsInStock** lehetőséget a vizualizáció jobb felső sarkában lévő ikonra kattintva.
+A Kapcsolatok nézetből a **Jelentés nézet** ikonra kattintva léphet vissza a Jelentés nézethez. 
 
-![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/14.png)
+![Jelentés nézet ikonja](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/t_excelodata_9.png)
 
-Húzza az **OrderDate** (Megrendelés dátuma) mezőt a vászonra a az első diagram alá, majd (ugyanígy a Mezők panelről) a LineTotal (Sor összege) mezőt a vizualizációra, és válassza a Vonaldiagram lehetőséget. Ezzel az alábbi vizualizáció jön létre.
+## <a name="create-visualizations-using-your-data"></a>Vizualizációk létrehozása az adatok alapján
 
-![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/15.png)
+A Power BI Desktop Jelentés nézetében különféle vizualizációkat hozhat létre az adatok elemzéséhez. Többoldalas jelentéseket is készíthet, amelyeknek akár mindegyik oldalán több vizualizáció szerepelhet. A vizualizációkat munkatársaival együtt kezelheti az adatok elemzéséhez és megértéséhez. A jelentések saját, Power BI szolgáltatásbeli oldalon történő megtekintéséhez és szerkesztéséhez lásd: [Jelentés szerkesztése](service-interact-with-a-report-in-editing-view.md).
 
- Ezután húzza a **ShipCountry** (Szállítási cím országa) mezőt a vászon jobb felső részére. Mivel egy földrajzi adatokat tartalmazó mezőt választott, a rendszer automatikusan létrehoz egy térképet. Most húzza a **LineTotal** mezőt az **Értékek** mezőbe, így a térképen a körök mérete az egyes országokon az adott országból feladott megrendelések **LineTotal** értékével arányosan változik.
+Az értékesítési adatok vizualizálásához és elemzéséhez mindkét adatkészletet és a köztük lévő kapcsolatokat is felhasználhatja. 
 
-![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/17.png)
+Először is hozzon létre egy mindkét lekérdezés mezőit használó halmozott oszlopdiagramot, amely a megrendelt termékek mennyiségét mutatja. 
 
-### <a name="step-2-interact-with-your-report-visuals-to-analyze-further"></a>2. lépés: A jelentés vizualizációinak kezelése az adatok részletesebb elemzéséhez
-A Power BI Desktopban a vizualizációk egymás közötti keresztkiemelések és szűrések segítségével további trendeket képesek mutatni. További információk: [Szűrők és kiemelések a jelentésekben](power-bi-reports-filters-and-highlighting.md)
-
-1. Kattintson a **Kanadán lévő** világoskék körre. Láthatja, hogy a vizualizációk szűrve lettek, és csak a Kanadára vonatkozó Stock (**ShipCountry**) és Total Orders (**LineTotal**) adatokat mutatják.
+1. A jobb oldalon lévő **Mezők** tábla **Megrendelések** területén kattintson a **Mennyiség** mezőre, vagy húzza át azt a vászon egyik üres részére. Ez a lépés egy halmozott oszlopdiagramot hoz létre, amelyen az összes megrendelt termék mennyisége látható. 
    
-   ![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/18.png)
+2. Az egyes megrendelt termékek mennyiségének megtekintéséhez kattintson a **ProductName** (Terméknév) elemre a **Mezők** tábla **Termékek** területén. 
+   
+3. A termékek megrendelésszám szerint csökkenő rangsorolásához kattintson a vizualizáció jobb felső sarkában lévő **További lehetőségek** három pontra (**...**), majd kattintson a **Sort By Quantity** (Rendezés mennyiség szerint) elemre.
+   
+4. Több terméknév megjelenítéséhez a sarkokban lévő fogópontokkal nagyíthatja fel a diagramot. 
+   
+   ![Mennyiség terméknév szerint sávdiagram](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/19.png)
 
-## <a name="complete-sales-analysis-report"></a>Teljes értékesítéselemzési jelentés
-Miután végrehajtotta a fenti lépéseket, az így eredményül kapott értékesítési jelentés a Products.xlsx fájl és a Northwind OData-csatorna adatait kombinálja. A jelentés vizualizációival kielemezhetőek az egyes országokra vonatkozó értékesítési adatok. Az oktatóanyag kész Power BI Desktop-fájlját [innen](http://download.microsoft.com/download/1/4/E/14EDED28-6C58-4055-A65C-23B4DA81C4DE/Analyzing_Sales_Data.pbix) töltheti le.
+Most hozzon létre egy olyan grafikont, amely a megrendelések dátuma szerinti (**OrderDate**), dollárban kifejezett összegeket (**LineTotal**) tünteti fel. 
+
+1. Kijelölés nélküli vászon mellett kattintson a **Mezők** panelen a **Megrendelések** terület **LineTotal** (Sorösszeg) elemére, vagy húzza át azt a vászon egyik üres részére. A halmozott oszlopdiagram az összes megrendelés teljes értékét mutatja dollárban. 
+   
+2. A grafikon kijelölése mellett kattintson az **OrderDate** (Megrendelés dátuma) elemre az **Orders** (Megrendelések) területről, vagy húzza át azt a grafikonra. A grafikon most az egyes megrendelési dátumokon mutatja a sorösszegeket. 
+   
+3. Több adat megtekintéséhez a sarkok kihúzásával méretezheti át a vizualizációt. 
+   
+   ![Grafikon: Sorösszegek a megrendelés dátuma szerint](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/20.png)
+   
+   >[!TIP]
+   >Ha csak az Éveket (három adatpont) látja a grafikonon, gördítse le a **Vizualizációk** panelen, a **Tengely** mezőben az **OrderDate** elem mellett látható nyilat, és a **Date Hierarchy** helyett kattintson az **OrderDate** elemre. 
+
+Végül pedig hozzon létre egy térképi megjelenítést az egyes országokból érkező rendelések ábrázolásához. 
+
+1. Kijelölés nélküli vászon mellett kattintson a **Mezők** panelen a **Megrendelések** terület **ShipCountry** (Megrendelés országa) elemére, vagy húzza át azt a vászon egyik üres részére. A Power BI Desktop észleli, hogy az adatok országnevek, ezért automatikusan létrehoz egy térképi megjelenítést, amelyen adatpont jelöl minden országot, ahonnan megrendelés érkezett. 
+   
+2. Ahhoz, hogy az adatpontok az országokhoz tartozó megrendelések nagyságát is érzékeltessék, húzza át a **LineTotal** mezőt a térképre (vagy húzza át a **Vizualizációk** ablaktábla alsó részén lévő **Méret** szakasz **Húzza ide az adatmezőket** területére). A térképen lévő körök területe most az egyes országokból érkező megrendelések dollárban kifejezett összegét tükrözi. 
+   
+   ![Térképi megjelenítés: Sorösszegek a megrendelés országa alapján](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/21.png)
+
+## <a name="interact-with-your-report-visuals-to-analyze-further"></a>A jelentés vizualizációinak kezelése az adatok részletesebb elemzéséhez
+
+A Power BI Desktopban a vizualizációk egymás közötti keresztkiemeléseinek és szűréseinek kezelésével további trendeket is kimutathat. További információkért lásd: [Szűrés és kiemelés a jelentésekben](power-bi-reports-filters-and-highlighting.md). 
+
+Mivel a lekérdezések kapcsolatban állnak egymással, az egyik vizualizáció kezelése az oldal összes többi vizualizációját is befolyásolja. 
+
+Kattintson a térképi megjelenítésen a **Kanadát** jelölő körre. Figyelje meg, hogy most a másik két vizualizáció is csak Kanadánál emeli ki a sorösszegeket és a megrendelési mennyiségeket.
+
+![Kanadára szűnt eladási adatok](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/22.png)
+
+Ha kijelöl egy terméket a **Quantity by ProductName** (Mennyiség terméknév alapján) grafikonon, a térkép és az adatdiagram az adott termékre vonatkozó adatokra szűr, ha dátumot jelöl ki a **LineTotal by OrderDate** (Sorösszeg megrendelési dátum alapján) grafikonon, a térkép és az adatdiagram az adott dátumra szűr. 
+>[!TIP]
+>Kijelölés visszavonásához ismételje meg a kijelölést, vagy jelöljön ki egy másik vizualizációt. 
+
+## <a name="complete-the-sales-analysis-report"></a>Az eladáselemzési jelentés befejezése
+
+Az elkészült jelentés a Products.xlsx Excel-fájl és a Northwind OData-csatorna adatait összegzi a vizualizációkban, amelyek a különböző országokra, időtartamokra és termékekre vonatkozó megrendelési adatok elemzését segítik. Az elkészült jelentést [feltöltheti a Power BI szolgáltatásba](desktop-upload-desktop-files.md), és megoszthatja más Power BI-felhasználókkal is.
 
 ## <a name="next-steps"></a>Következő lépések
 * [Olvassa el a többi Power BI Desktop-oktatóanyagot](http://go.microsoft.com/fwlink/?LinkID=521937)
 * [Tekintse meg a Power BI Desktop videóit](http://go.microsoft.com/fwlink/?LinkID=519322)
 * [Látogasson el a Power BI fórumára](http://go.microsoft.com/fwlink/?LinkID=519326)
 * [Látogasson el a Power BI blogra](http://go.microsoft.com/fwlink/?LinkID=519327)
-
-

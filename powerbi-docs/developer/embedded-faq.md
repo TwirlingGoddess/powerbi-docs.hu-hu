@@ -1,27 +1,20 @@
 ---
 title: Gyakori kérdések – Power BI Embedded
 description: Az alábbiakban a Power BI Embeddeddel kapcsolatos gyakori kérdések és válaszok listáját tekintheti át.
-services: powerbi
-documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-developer
+ms.topic: conceptual
 ms.date: 04/23/2018
 ms.author: maghan
-ms.openlocfilehash: 24e4dbaf6ede92436ff05c8cb57756e3ab7e8526
-ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
+ms.openlocfilehash: 255efac5d5bf73bca3126f869d4c7434d5c6ef0f
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/17/2018
+ms.locfileid: "34289740"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Gyakori kérdések – Power BI Embedded
 
@@ -58,7 +51,7 @@ Előfordulhatnak olyan esetek, amikor független szoftvergyártók (általában 
 
 ### <a name="how-many-embed-tokens-can-i-create"></a>Hány beágyazási tokent hozhatok létre?
 
-A PRO licenccel a beágyazási tokenek elsődlegesen fejlesztési és tesztelési célokra használhatók, a Power BI fő fiókja csak korlátozott mennyiségű tokent tud előállítani. Éles környezetben használt beágyazásokhoz [kapacitást szükséges vásárolni](https://docs.microsoft.com/power-bi/developer/embedded-faq#technical). Kapacitásvásárlás esetén nincs korlátja a beágyazási tokenek előállításának.
+A PRO licenccel a beágyazási tokenek elsődlegesen fejlesztési tesztelésre használhatók, a Power BI fő fiókja csak korlátozott mennyiségű tokent tud előállítani. Éles környezetben használt beágyazásokhoz [kapacitást szükséges vásárolni](#technical). Kapacitásvásárlás esetén nincs korlátja a beágyazási tokenek előállításának. Az [Elérhető szolgáltatások beszerzése](https://msdn.microsoft.com/library/mt846473.aspx) oldalon ellenőrizheti az aktuális beágyazott használatot százalékosan jelző használati értéket.
 
 ## <a name="technical"></a>Műszaki
 
@@ -164,10 +157,6 @@ Igen, használhatja az [Azure-kreditjeit](https://azure.microsoft.com/free/) a P
 
 Mivel a Power BI Embedded az Azure része, így használhatja ezt a szolgáltatást az [Azure-regisztráció során kapott 200 $ értékű kreditjéből](https://azure.microsoft.com/free/).
 
-### <a name="is-there-a-limit-to-the-number-of-embed-tokens-a-power-bi-master-account-can-generate"></a>Van korlát a Power BI fő fiókja által létrehozott beágyazási tokenek számára vonatkozóan? 
-
-Igen, a szám korlátozott, mivel a beágyazási tokenek csak fejlesztési teszteléshez használhatók. Éles üzemi beágyazási helyzetekhez [kapacitást kell vásárolni](#technical). Kapacitásvásárlás esetén nincs korlátja a beágyazási tokenek előállításának. Az elhasznált ingyenes beágyazási tokenek számának megtekintéséhez lépjen az [Elérhető funkciók letöltése](https://msdn.microsoft.com/en-us/library/mt846473.aspx) területre.
-
 ### <a name="is-power-bi-embedded-available-for-sovereign-clouds-us-government-germany-china"></a>Elérhető a Power BI Embedded a szuverén felhőkben (US Government, Németország, Kína)?
 
 A Power BI Embedded csak bizonyos [szuverén felhőkben](embed-sample-for-customers-sovereign-clouds.md) érhető el. A kínai felhőben **nem**.
@@ -176,9 +165,47 @@ A Power BI Embedded csak bizonyos [szuverén felhőkben](embed-sample-for-custom
 
 A non-profit és oktatási intézmények megvásárolhatják az Azure-t. Nincs az Azure-ban különleges díjszabásunk az ilyen típusú ügyfeleink számára.
 
+## <a name="power-bi-workspace-collection"></a>Power BI-munkaterületcsoport
+
+### <a name="what-is-power-bi-workspace-collection"></a>Mi a Power BI-munkaterületcsoport?
+
+A **Power BI-munkaterület-csoport** (a **Power BI Embedded** 1 verziója) egy olyan megoldás, amely a **Power BI-munkaterületcsoport** nevű Azure-erőforráson alapul. Ez a megoldás **Power BI Embedded**-alkalmazások létrehozását teszi lehetővé az ügyfelek részére a **Power BI-munkaterületcsoporton** belüli Power BI tartalmak, megoldások és dedikált API-k segítségével, valamint munkaterületcsoport-kulcsokkal az alkalmazás Power BI-ban történő hitelesítéséhez.
+
+### <a name="can-i-migrate-from-power-bi-workspace-collection-to-power-bi-embedded"></a>Áttelepíthetem-e a Power BI-munkaterületcsoport tartalmait a Power BI Embeddedbe?
+
+1. Az áttelepítési eszközzel klónozhatja a **Power BI-munkaterületcsoport** tartalmát a Power BI-ba – https://docs.microsoft.com/power-bi/developer/migrate-from-powerbi-embedded#content-migration.
+
+2. Kezdje a Power BI-tartalmakat használó **Power BI Embedded** kísérleti (POC) alkalmazással.
+
+3. Ha készen áll a munkára, szerezzen be dedikált kapacitást a **Power BI Embedded** használatához, és rendelje hozzá a saját Power BI-tartalmat (munkaállomást).
+
+>[!Note]
+Miközben párhuzamosan létrehozza a **Power BI Embedded** megoldást, tovább használhatja a **Power BI-munkaterületcsoportot** is. Miután elkészült, áttelepítheti az ügyfelet az új **Power BI Embedded** megoldásba, majd kivezetheti a **Power BI-munkaterületcsoportot**.
+
+További információkért lásd: [Power BI-munkaterületcsoport tartalmainak áttelepítése a Power BI Embeddedbe](https://docs.microsoft.com/power-bi/developer/migrate-from-powerbi-embedded)
+
+### <a name="is-power-bi-workspace-collection-on-a-path-to-be-deprecated"></a>Nemsokára elavul a Power BI-munkaterületcsoport?
+
+Igen, de a  **Power BI-munkaterületcsoport** meglévő felhasználói tovább használhatják azt az elavulás időpontjáig. Az ügyfelek egyaránt létrehozhatnak új munkaterületcsoportokat és **Power BI-munkaterületcsoportot** még használó **Power BI Embedded**-megoldásokat is.
+
+Ez azonban azzal jár, hogy a **Power BI-munkaterületcsoportokban** már nem jelennek meg új funkciók, és az ügyfeleknek érdemes lesz megtervezni a tartalmak áttelepítését a **Power BI Embedded** megoldásba.
+### <a name="when-will-power-bi-workspace-collection-support-be-discontinued"></a>Mikor szűnik meg a Power BI-munkaterületcsoport támogatása?
+
+A **Power BI-munkaterületcsoportot** használó ügyfelek 2018 június végéig, vagy a támogatási szerződésük lejártáig folytathatják a használatot.
+
+### <a name="in-what-regions-can-pbi-workspace-collection-be-created"></a>Mely régiókban hozható létre a PBI-munkaterületcsoport?
+
+Az elérhető régiók Délkelet-Ausztrália, Dél-Brazília, Közép-Kanada, az USA 2. keleti régiója, Kelet-Japán, az USA északi középső régiója, Észak-Európa, az USA déli középső régiója, Délkelet-Ázsia, az Egyesült Királyság déli régiója, Nyugat-Európa, Nyugat-India és az USA nyugati régiója.
+
+### <a name="why-should-i-migrate-from-pbi-workspace-collection-to-power-bi-embedded"></a>Miért kell áttelepítenem a PBI-munkaterületcsoportot a Power BI Embeddedbe?
+
+A **Power BI Embedded** megoldás olyan új funkciókkal és képességekkel rendelkezik, amelyek a **Power BI-munkaterületcsoportban** nem valósíthatók meg.
+
+Néhány ilyen funkció:
+* A PBI esetében minden adatforrás támogatott, szemben a **Power BI-munkaterületcsoport** 2 adatforrásával. 
+* Számos új funkció, köztük a Q&A, a Frissítés, a könyvjelzők, az irányítópultok és csempék beágyazása és az egyéni menü csak a **Power BI Embedded** megoldásban támogatott.
+* Kapacitás-számlázási modell.
+
 További információ: [A beágyazott alkalmazás hibaelhárítása](embedded-troubleshoot.md)
 
 További kérdései vannak? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)
-
-
-

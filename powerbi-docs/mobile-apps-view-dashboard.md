@@ -1,13 +1,13 @@
 ---
-title: "Irányítópultok és jelentések megtekintése a Power BI-mobilalkalmazásokban"
-description: "A Power BI szolgáltatásban irányítópultokat és jelentéseket hozhat létre, illetve csatlakozhat hozzájuk, majd megtekintheti őket a Power BI-mobilalkalmazásokban."
+title: Irányítópultok és jelentések megtekintése a Power BI-mobilalkalmazásokban
+description: A Power BI szolgáltatásban irányítópultokat és jelentéseket hozhat létre, illetve csatlakozhat hozzájuk, majd megtekintheti őket a Power BI-mobilalkalmazásokban.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: complete
 qualitydate: 07/08/2016
 ms.service: powerbi
@@ -15,13 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/16/2018
+ms.date: 05/07/2018
 ms.author: maggies
-ms.openlocfilehash: e91b9745663ad88d388b410feb83ac8dfdc791b6
-ms.sourcegitcommit: 259d7689bcb1683d4d63a245a9b02becea072139
+ms.openlocfilehash: 2f273dc76419b0513204f9c20def0c9d6f337ffe
+ms.sourcegitcommit: 773ba0d1cc1d1fcee8e666e1c20450f5e343c5c1
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 05/10/2018
+ms.locfileid: "33945825"
 ---
 # <a name="view-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>Irányítópultok és jelentések megtekintése a Power BI-mobilalkalmazásokban
 A következőkre vonatkozik:
@@ -115,31 +116,21 @@ A „csippentés” kézmozdulattal nagyíthatja és kicsinyítheti az irányít
    
    ![Irányítópult kezdőlapja](media/mobile-apps-view-dashboard/power-bi-android-dashboards.png)
 
-     -     A sárga csillagok ![Kedvenc csillag](media/mobile-apps-view-dashboard/power-bi-mobile-yes-favorite-icon.png) a kedvenc irányítópultokat jelzik. 
+    A sárga csillagok ![Kedvenc csillag](media/mobile-apps-view-dashboard/power-bi-mobile-yes-favorite-icon.png) a kedvenc irányítópultokat jelzik. 
 
-     -     Az irányítópultok neve (ebben az esetben „MBI”) ![Adatok besorolása](media/mobile-apps-view-dashboard/power-bi-android-dashboard-medium-classification.png) alatti jelölés az egyes irányítópultok adatainak besorolását jeleníti meg. A [Power BI adatbesorolásairól itt talál](service-data-classification.md) további információkat.
-
+    Az irányítópultok neve (ebben az esetben „MBI”) ![Adatok besorolása](media/mobile-apps-view-dashboard/power-bi-android-dashboard-medium-classification.png) alatti jelölés az egyes irányítópultok adatainak besorolását jeleníti meg. A [Power BI adatbesorolásairól itt talál](service-data-classification.md) további információkat.
 
     A Power BI irányítópultok kissé máshogy néznek ki az Android-telefonokon. Minden csempe ugyanolyan szélesen jelenik meg, és felülről lefelé egymás után vannak rendezve.
 
     ![Irányítópult álló tájolásban](media/mobile-apps-view-dashboard/pbi_andr_dash.png)
 
-     Másik lehetőségként oldalra fordíthatja a telefont, hogy fekvő tájolású módban lássa azokat.
-
-    > [AZURE.TIP] Ha Ön az irányítópult tulajdonosa, a Power BI szolgáltatásban [létrehozhat egy kifejezetten telefonokhoz való nézetet](service-create-dashboard-mobile-phone-view.md) álló tájolású módban. 
+    Ha Ön az irányítópult tulajdonosa, a Power BI szolgáltatásban [létrehozhat egy kifejezetten telefonokhoz való nézetet](service-create-dashboard-mobile-phone-view.md) álló tájolású módban. 
 
 1. Mialatt az irányítópulton van, a név melletti függőleges három pontra (...) koppinthat egy munkatárs meghívásához, frissítéshez vagy az irányítópulttal kapcsolatos információk beszerzéséhez:
    
    ![Három pont menü](media/mobile-apps-view-dashboard/pbi_andr_dashellipsis.png)
 2. Pöccintsen felfelé és lefelé az [irányítópulton lévő összes csempe](mobile-tiles-in-the-mobile-apps.md) megtekintéséhez. 
 3. Ha vissza szeretne lépni az irányítópultok kezdőlapjára, koppintson az irányítópult nevére az útkövetés útjának megnyitásához, majd koppintson a **Saját munkaterület** elemre.   
-
-### <a name="view-dashboards-in-landscape-mode-on-your-android-phone"></a>Irányítópultok megtekintése fekvő tájolásban Android rendszerű telefonon
-Fekvő tájolással is megjelenítheti az irányítópultokat a telefon elfordításával. Az irányítópult elrendezése a csempék sorozatáról a teljes irányítópult nézetére vált – úgy látja az irányítópult összes csempéjét, ahogyan a Power BI szolgáltatásban vannak elrendezve.
-
-![Irányítópult fekvő tájolása](media/mobile-apps-view-dashboard/power-bi-android-landscape-dashboard.png)
-
-A „csippentés” kézmozdulattal nagyíthatja és kicsinyítheti az irányítópult különböző területeit, és pásztázhat a navigáláshoz. Továbbra is [koppinthat a csempékre](mobile-tiles-in-the-mobile-apps.md), hogy Fókusz módban nyissa meg a csempét és használhassa az adatokat.
 
 ## <a name="view-dashboards-on-your-android-tablet"></a>Irányítópultok megtekintése Android-táblagépen
 1. Nyissa meg a Power BI alkalmazást az Android rendszerű táblagépen, és jelentkezzen be.

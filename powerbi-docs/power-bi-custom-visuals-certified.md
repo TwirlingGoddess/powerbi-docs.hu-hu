@@ -1,28 +1,21 @@
 ---
 title: Minősített egyéni Power BI képi megjelenítések
 description: Az egyéni vizualizációk minősítésre való beküldésének követelményei és folyamata. Továbbá a már minősített egyéni vizualizációk listája.
-services: powerbi
-documentationcenter: ''
 author: mihart
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
+ms.reviewer: ''
 featuredvideoid: ''
-qualityfocus: no
-qualitydate: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-developer
+ms.topic: conceptual
 ms.date: 02/13/2018
 ms.author: mihart
-ms.openlocfilehash: ceb101d02fcacecacb8410052b2d9eaba01d46fd
-ms.sourcegitcommit: e571de2afa3f34fac06a6aab0df0e8940cb00a0d
+ms.openlocfilehash: a1d3a18fd2f325cd82cd682feb52205f17dacf93
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/05/2018
+ms.lasthandoff: 05/17/2018
+ms.locfileid: "34297009"
 ---
 # <a name="getting-a-custom-visual-certified"></a>Egyéni vizualizáció *minősítésének* megszerzése
 ## <a name="what-is-meant-by-certified"></a>Mit értünk az alatt, hogy *minősített*?
@@ -105,11 +98,13 @@ A Microsoft saját belátása szerint eltávolíthatja a vizualizációkat a Min
 | [Képrács](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381355) | |
 | [Infografika-tervező](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380898) | |
 | [KPI-diagram az Akvelontól](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381432) | |
+| [KPI-oszlop a MAQ Software-től](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380996) | [Videó](https://youtu.be/rU0xoOlIq1U) |
 | [KPI-kijelző](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380832) | |
 | [KPI-szalagcím a MAQ Software-től](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380946) | [Videó](https://youtu.be/cudG4gsZ2V8) |
 | [Lineáris mérőműszer a MAQ Software-től](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380821) | [Videó](https://youtu.be/7_jFaM30dkc) |
 | [Vonalpontos diagram](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380766) | |
 | [Mekko diagram](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380785) | [Videó](https://youtu.be/90FLCKpgicA) |
+| [Áttekintés a CloudScope-tól](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381477) | |
 | [Lejátszási tengely (dinamikus szeletelő)](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380981) | |
 | [Nagy teljesítményű KPI](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381083) | [Videó](https://youtu.be/IvfIP3E6-1Q) |
 | [Power KPI Matrix](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381299) | [Videó](https://youtu.be/1enze8pcGzY) |

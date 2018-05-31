@@ -1,27 +1,20 @@
 ---
 title: A Power BI jelentéskészítő kiszolgáló változásnaplója
 description: Ez a változásnapló a Power BI jelentéskészítő kiszolgálóra vonatkozik, és minden kiadott buildhez felsorolja az új elemeket és hibajavításokat.
-services: powerbi
-documentationcenter: ''
 author: jtarquino
-manager: jonhp
-backup: maggies
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+manager: kfile
+ms.reviewer: maggies
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-report-server
+ms.topic: conceptual
 ms.date: 12/11/2017
-ms.author: tankas
-ms.openlocfilehash: 67b9a162d689a8615a3e2459295eab6dad6d2364
-ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
+ms.author: jtarquino
+ms.openlocfilehash: 65ad5e6ca9fbdd71643f71fa56186ee3d01d2dd1
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 05/17/2018
+ms.locfileid: "34295679"
 ---
 # <a name="changelog-for-power-bi-report-server"></a>A Power BI jelentéskészítő kiszolgáló változásnaplója
 
@@ -31,6 +24,24 @@ Az új funkciókról az [A Power BI jelentéskészítő kiszolgáló újdonsága
 
 ## <a name="march-2018"></a>2018. március
 - **Power BI jelentéskészítő kiszolgáló**
+    - *Verzió: 1.2.6690.34729 (Build 15.0.2.402), Kiadás dátuma: 2018. április 27.*
+        - Hibajavítások
+            - Az SQL Server Reporting Services 2017-gyűjtemények migrálásának engedélyezése
+            - Power BI-jelentések (PBIX)
+                - A jelentéseket frissíteni lehet, ha a szerver egyéni hitelesítés használatára van konfigurálva
+                - A jelentés tulajdonságainak módosítása nem állítja alaphelyzetbe az adatforrás hitelesítő adatait
+            - Oldalakra osztott jelentések (RDL)
+                - A `Lookup()` vagy más származtatott függvények (például a `LookupSet()` vagy a `MultiLookup()`) már nem `#Error` eredménnyel térnek vissza
+                - A csatolt jelentések nyomtatáskor figyelembe veszik a céljelentés oldalméretét
+                - Létrehozhatók feliratkozások hierarchikus paramétereket használó csatolt jelentésekre
+                - A több értéket felvevő paraméterek alapértelmezett értékei módosíthatóak az IE11 használatakor
+                - Az adatvezérelt feliratkozás-kézbesítési lehetőségek szerkeszthetők
+                - A feliratkozások megnézhetők és szerkeszthetők a feliratkozás végrehajtása közben
+                - Az adatforrás hitelesítő adatainak beállítása nem távolítja el a kifejezésalapú kapcsolati karakterláncokat
+            - KPI-k
+                - A trendvonalak frissülnek az adatok frissítésekor
+            - Általános stabilitási fejlesztések
+
     - *Verzió: 1.2.6660.39920 (Build: 15.0.2.389), Kiadás dátuma: 2018. március 28.*
         - Hibajavítások
             - A Power BI-jelentéseknél (PBIX) javítás a Power BI-vizualizációkból indított nem működő adatexportáláshoz
@@ -120,7 +131,7 @@ Az új funkciókról az [A Power BI jelentéskészítő kiszolgáló újdonsága
 
     - *Build 14.0.600.301, Kiadás dátuma: 2017. július 11.*
         - Hibajavítások
-            - A {{UserId}} címke a tárolt hitelesítő adatokra áll be a Power BI Reportsban a jelentést futtató felhasználó helyett
+            - A `{{UserId}}` címke a tárolt hitelesítő adatokra áll be a Power BI Reportsban a jelentést futtató felhasználó helyett
             - Bizonyos képek nem jelennek meg a Power BI jelentéskészítő kiszolgáló jelentéseiben
             - Power BI-jelentések nevét nem lehet megváltoztatni Power BI jelentéskészítő kiszolgálóban
             - Nem lehet egyedi vizualizációkat betölteni a Power BI-mobilalkalmazásban (a helyi gyorsítótár kiürítéséhez újra kell telepíteni a mobilalkalmazást)
@@ -136,7 +147,7 @@ Az új funkciókról az [A Power BI jelentéskészítő kiszolgáló újdonsága
 
 [Felhasználói kézikönyv](user-handbook-overview.md)  
 [Rendszergazdai kézikönyv](admin-handbook-overview.md)  
-[Rövid útmutató: A Power BI jelentéskészítő kiszolgáló telepítése](quickstart-install-report-server.md)  
+[A Power BI jelentéskészítő kiszolgáló telepítése](install-report-server.md)  
 [A Jelentéskészítő telepítése](https://docs.microsoft.com/sql/reporting-services/install-windows/install-report-builder)  
 [Az SQL Server Data Tools (SSDT) letöltése](http://go.microsoft.com/fwlink/?LinkID=616714)
 

@@ -1,34 +1,35 @@
 ---
-title: "A Power BI jelentéskészítő kiszolgáló rendszergazdai kézikönyvének áttekintése"
-description: "Üdvözöljük a Power BI jelentéskészítő kiszolgáló rendszergazdai kézikönyvének olvasói között. A kiszolgáló a Power BI-, mobil- és több oldalas jelentések helyszíni tárolására és kezelésére szolgál."
+title: Rendszergazdai áttekintés, Power BI jelentéskészítő kiszolgáló
+description: Ez a cikk a Power BI jelentéskészítő kiszolgáló rendszergazdai áttekintését nyújtja. A kiszolgáló a Power BI-, mobil- és többoldalas jelentések helyszíni tárolására és kezelésére szolgál.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/01/2017
+ms.date: 05/07/2018
 ms.author: maghan
-ms.openlocfilehash: 130a4264b2e8c4e511527f34088a580a7787673b
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: 52b2c9cac7fd07564480fdbf3a6a91e04e72db11
+ms.sourcegitcommit: c29525cbac2e747edb4dd3a1841084bb0ce42582
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 05/08/2018
+ms.locfileid: "33883089"
 ---
-# <a name="administrator-handbook-overview-power-bi-report-server"></a>A Power BI jelentéskészítő kiszolgáló rendszergazdai kézikönyvének áttekintése
-Üdvözöljük a Power BI jelentéskészítő kiszolgáló rendszergazdai kézikönyvének olvasói között. A kiszolgáló a Power BI-, mobil- és több oldalas jelentések helyszíni tárolására és kezelésére szolgál.
+# <a name="admin-overview-power-bi-report-server"></a>Rendszergazdai áttekintés, Power BI jelentéskészítő kiszolgáló
+Ez a cikk a Power BI jelentéskészítő kiszolgáló rendszergazdai áttekintését nyújtja. A kiszolgáló a Power BI-, mobil- és többoldalas jelentések helyszíni tárolására és kezelésére szolgál. A cikk bemutatja a Power BI jelentéskészítő kiszolgáló tervezésének, üzembe helyezésének és kezelésének alapelveit, és további információkra mutató hivatkozásokat is tartalmaz.
 
 ![](media/admin-handbook-overview/admin-handbook.png)
 
-Ez a kézikönyv segítséget nyújt a Power BI jelentéskészítő kiszolgáló tervezésére, üzembe helyezésére és kezelésére vonatkozó fogalmak megértésében.
+
 
 ## <a name="installing-and-migration"></a>Telepítés és migráció
 A használatának megkezdéséhez telepítenie kell a Microsoft Power BI jelentéskészítő kiszolgálót. Elérhetők az információk ennek a feladatnak az elvégzéséhez.
@@ -36,10 +37,9 @@ A használatának megkezdéséhez telepítenie kell a Microsoft Power BI jelent�
 Mielőtt elkezdené a Power BI jelentéskészítő kiszolgáló telepítését, a migrációt vagy arra frissítene, vessen egy pillantást a jelentéskészítő kiszolgáló [rendszerkövetelményeire](system-requirements.md).
 
 ### <a name="installing"></a>Telepítés
-Ha egy új Power BI jelentéskészítő kiszolgálót helyez üzembe, ehhez a következő dokumentumok nyújtanak segítséget. Rendelkezésre áll a gyors üzembe helyezés az azonnali kezdéshez. Vagy, a részletes leírást megtalálja a telepítési dokumentumban.
+Ha egy új Power BI jelentéskészítő kiszolgálót helyez üzembe, ehhez a következő dokumentum nyújt segítséget. 
 
-* [Gyors üzembe helyezés: A Power BI jelentéskészítő kiszolgáló telepítése](quickstart-install-report-server.md)
-* [A Power BI jelentéskészítő kiszolgáló telepítése](install-report-server.md)
+[A Power BI jelentéskészítő kiszolgáló telepítése](install-report-server.md)
 
 ### <a name="migration"></a>Migráció
 Az SQL Server Reporting Serviceshez nem áll rendelkezésre helyben végzett verzióváltás. Ha egy meglévő SQL Server Reporting Services-példánnyal rendelkezik, amelyet Power BI jelentéskészítő kiszolgálóvá szeretne átalakítani, akkor azt migrálnia kell. Migrációra más okokból is szükség lehet. További részletekért tekintse át a migrációra vonatkozó dokumentumot.
@@ -55,9 +55,9 @@ A beállítások nagy részét a jelentéskészítő kiszolgáló konfiguráci�
 A biztonság és a védelem minden cég számára fontos. A hitelesítésről, engedélyezésről, szerepkörökről és engedélyekről a [biztonsági](https://docs.microsoft.com/sql/reporting-services/security/reporting-services-security-and-protection) dokumentációban olvashat.
 
 ## <a name="next-steps"></a>Következő lépések
-[Gyors üzembe helyezés: A Power BI jelentéskészítő kiszolgáló telepítése](quickstart-install-report-server.md)  
+[A Power BI jelentéskészítő kiszolgáló telepítése](install-report-server.md)  
 [A jelentéskészítő kiszolgáló termékkulcsának megkeresése](find-product-key.md)  
-[A Power BI jelentéskészítő kiszolgálóra optimalizált Power BI Desktop telepítése](install-powerbi-desktop.md)  
+[A Power BI jelentéskészítő kiszolgálóhoz optimalizált Power BI Desktop telepítése](install-powerbi-desktop.md)  
 [A Jelentéskészítő telepítése](https://docs.microsoft.com/sql/reporting-services/install-windows/install-report-builder)  
 [Az SQL Server Data Tools (SSDT) letöltése](http://go.microsoft.com/fwlink/?LinkID=616714)
 

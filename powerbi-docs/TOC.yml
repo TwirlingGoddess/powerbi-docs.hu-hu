@@ -898,32 +898,14 @@
       items:
         - name: Mire használhatom a Power BI API-t?
           href: developer/overview-of-power-bi-rest-api.md
-        - name: Gyakori kérdések
-          href: developer/embedded-faq.md
         - name: Power BI-engedélyek
           href: developer/power-bi-permissions.md
         - name: Sorszintű biztonság (RLS)
           href: developer/embedded-row-level-security.md
-        - name: Beágyazással kapcsolatos GYIK
-          href: developer/qanda.md
+        - name: Gyakori kérdések
+          href: developer/embedded-faq.md
     - name: Útmutató
       items:
-        - name: Tartalom beágyazása
-          href: developer/embedding-content.md
-        - name: Adatbetöltés irányítópultra
-          href: developer/walkthrough-push-data.md
-        - name: A Power BI Embedded migrálása
-          href: developer/migrate-from-powerbi-embedded.md
-        - name: Irányítópult beágyazása alkalmazásba (a felhasználó az adattulajdonos)
-          href: developer/integrate-dashboard.md
-        - name: Power BI-csempe beágyazása alkalmazásba (a felhasználó az adattulajdonos)
-          href: developer/integrate-tile.md
-        - name: Power BI-jelentés beágyazása alkalmazásba (a felhasználó az adattulajdonos)
-          href: developer/integrate-report.md
-        - name: Tartalom integrálása alkalmazásba (az alkalmazás az adattulajdonos)
-          href: developer/embed-sample-for-customers.md
-        - name: Tartalom integrálása alkalmazásba szuverén felhők esetében (az alkalmazás az adattulajdonos)
-          href: developer/embed-sample-for-customers-sovereign-clouds.md
         - name: Egyéni vizuális elem létrehozása
           items:
             - name: Egyéni vizuális elem létrehozása a Fejlesztői eszközökkel
@@ -936,8 +918,20 @@
               href: developer/office-store.md
         - name: Beágyazás
           items:
-            - name: Beágyazás a Power BI-jal
+            - name: Beágyazás a Power BI használatával
               href: developer/embedding.md
+            - name: Tartalom beágyazása
+              href: developer/embedding-content.md
+            - name: Irányítópult beágyazása alkalmazásba (a felhasználó az adattulajdonos)
+              href: developer/integrate-dashboard.md
+            - name: Power BI-csempe beágyazása alkalmazásba (a felhasználó az adattulajdonos)
+              href: developer/integrate-tile.md
+            - name: Power BI-jelentés beágyazása alkalmazásba (a felhasználó az adattulajdonos)
+              href: developer/integrate-report.md
+            - name: Tartalom integrálása alkalmazásba (az alkalmazás az adattulajdonos)
+              href: developer/embed-sample-for-customers.md
+            - name: Tartalom integrálása alkalmazásba szuverén felhők esetében (az alkalmazás az adattulajdonos)
+              href: developer/embed-sample-for-customers-sovereign-clouds.md
             - name: Egyéni elrendezések beágyazása alkalmazásokba
               href: developer/embedded-custom-layout.md
             - name: Azure Active Directory-bérlő létrehozása
@@ -946,14 +940,20 @@
               href: developer/register-app.md
             - name: Hitelesítés Power BI szolgáltatásba
               href: developer/get-azuread-access-token.md
+            - name: Beágyazással kapcsolatos GYIK
+              href: developer/qanda.md
+            - name: A Power BI Embedded migrálása
+              href: developer/migrate-from-powerbi-embedded.md
             - name: Power BI Embedded migrálási eszköz
               href: developer/migrate-tool.md
             - name: Migrálási kódtöredékek
               href: developer/migrate-code-snippets.md
             - name: Beágyazott alkalmazás hibaelhárítása
               href: developer/embedded-troubleshoot.md
-        - name: Adatbetöltés irányítópultra
+        - name: Adatok leküldése
           items:
+            - name: Adatbetöltés irányítópultra
+              href: developer/walkthrough-push-data.md
             - name: Alkalmazás regisztrálása az Azure AD-vel
               href: developer/walkthrough-push-data-register-app-with-azure-ad.md
             - name: Hitelesítési hozzáférési jogkivonat beszerzése
@@ -990,6 +990,8 @@
           href: 'https://go.microsoft.com/fwlink/?linkid=848277'
     - name: Erőforrások
       items:
+        - name: Előkészítési eszköz beágyazáshoz
+          href: 'https://aka.ms/embedsetup'
         - name: JavaScript Playground-minta
           href: 'https://go.microsoft.com/fwlink/?linkid=848279'
         - name: Minták

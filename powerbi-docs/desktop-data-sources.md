@@ -15,25 +15,26 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/06/2018
+ms.date: 05/08/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 4bfdbaaa305f80195fd08155ecca744444495aeb
-ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
+ms.openlocfilehash: 1558f78f8f496814ac7745afe9b86f327ef7772b
+ms.sourcegitcommit: 509be8852ba7595b9441c9479224f9dca298b26d
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 05/09/2018
+ms.locfileid: "33923454"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Adatforrások a Power BI Desktopban
 A Power BI Desktoppal különböző forrásokból származó adatokhoz csatlakozhat. Az elérhető adatforrások teljes listája az oldal alján látható.
 
 Az adatokhoz való csatlakozáshoz válassza a **Kezdőlap** menüszalag **Lekérdezés** lehetőségét. A lefelé mutató nyíl vagy a gomb **Lekérdezés** feliratának kiválasztásával megjelenik a **Leggyakoribb** adattípusok menüje, ahogyan az a következő képen látható:
 
-![](media/desktop-data-sources/data-sources_1.png)
+![Adatok lekérése a Power BI Desktopban](media/desktop-data-sources/data-sources_01.png)
 
 A **Továbbiak...** lehetőség a **Leggyakoribb** menüből való kiválasztásakor megjelenik a **Lekérdezés** ablak. A **Lekérdezés** ablakot (a **Leggyakoribb** menü kihagyásával) a **Lekérdezés** **ikongomb** közvetlen kiválasztásával is megjelenítheti.
 
-![](media/desktop-data-sources/data-sources_2.png)
+![Adatok lekérése gomb](media/desktop-data-sources/data-sources_02.png)
 
 > [!NOTE]
 > A Power BI csapata folyamatosan bővíti a **Power BI Desktop** és a **Power BI szolgáltatás** számára elérhető adatforrásokat. Ezért gyakran láthatja majd a fejlesztés alatt álló adatforrások előzetes verzióit *bétaverzió* vagy *előzetes verzió* felirattal. A *bétaverzió* vagy *előzetes verzió* felirattal ellátott adatforrások támogatása és működése korlátozott, használatuk éles környezetben nem ajánlott.
@@ -46,6 +47,7 @@ Az adattípusok a következő kategóriákba vannak csoportosítva:
 * Összes
 * Fájl
 * Adatbázis
+* Power BI
 * Azure
 * Online szolgáltatások
 * Egyéb
@@ -63,12 +65,7 @@ A **Fájl** kategória a következő adatkapcsolatokat biztosítja:
 
 A következő képen a **Lekérdezés** ablak látható, amelyen a **Fájl** kategória ki van választva.
 
-![](media/desktop-data-sources/data-sources_3.png)
-
-> [!NOTE]
-> A Power BI Desktop korábbi verzióiban a **CSV** és a **Szöveg** külön adatkapcsolat-típusnak számított. Ezek az adatösszekötők mostantól együtt alkotják a **CSV/Szöveg** kategóriát.
-> 
-> 
+![Lekérdezés > Fájl](media/desktop-data-sources/data-sources_03.png)
 
 Az **Adatbázis** kategória a következő adatkapcsolatokat biztosítja:
 
@@ -88,8 +85,9 @@ Az **Adatbázis** kategória a következő adatkapcsolatokat biztosítja:
 * SAP Business Warehouse üzenetkezelési kiszolgáló (bétaverzió)
 * Amazon Redshift
 * Impala
-* Google BigQuery (bétaverzió)
+* Google BigQuery
 * Snowflake
+* Exasol
 
 > [!NOTE]
 > Egyes adatbázis-összekötőket engedélyezni kell a **Fájl > Lehetőségek és beállítások > Beállítások** elem, majd az **Előzetes verziójú funkciók** lehetőség kiválasztásával és az adott összekötő engedélyezésével. Ha a fentiekben említett összekötők nem jelennek meg itt, és használni kívánja őket, ellenőrizze az **Előzetes verziójú funkciók** beállításait. Vegye figyelembe azt is, hogy a *bétaverzió* vagy *előzetes verzió* felirattal ellátott adatforrások támogatása és működése korlátozott, használatuk éles környezetben nem ajánlott.
@@ -98,7 +96,16 @@ Az **Adatbázis** kategória a következő adatkapcsolatokat biztosítja:
 
 A következő képen a **Lekérdezés** ablak látható, amelyen az **Adatbázis** kategória ki van választva.
 
-![](media/desktop-data-sources/data-sources_4.png)
+![Lekérdezés > Adatbázisok](media/desktop-data-sources/data-sources_04.png)
+
+A **Power BI** kategória a következő adatkapcsolatokat biztosítja:
+
+* Power BI-adathalmazok
+* Power BI-adatkészletek (bétaverzió)
+
+A következő képen az **Lekérdezés** ablak látható, amelyen az **Power BI** kategória ki van választva.
+
+![Lekérdezés > Power BI](media/desktop-data-sources/data-sources_05.png)
 
 Az **Azure** kategória a következő adatkapcsolatokat biztosítja:
 
@@ -112,19 +119,20 @@ Az **Azure** kategória a következő adatkapcsolatokat biztosítja:
 * Azure HDInsight (HDFS)
 * Azure HDInsight Spark (bétaverzió)
 * HDInsight interaktív lekérdezés (bétaverzió)
+* Azure KustoDB (bétaverzió)
 
 A következő képen a **Lekérdezés** ablak látható, amelyen az **Azure** kategória ki van választva.
 
-![](media/desktop-data-sources/data-sources_5.png)
+![Lekérdezés > Azure](media/desktop-data-sources/data-sources_06.png)
 
 Az **Online szolgáltatások** kategória a következő adatkapcsolatokat biztosítja:
 
-* Power BI szolgáltatás
 * SharePoint Online-lista
 * Microsoft Exchange Online
 * Dynamics 365 (online)
 * Dynamics NAV (bétaverzió)
-* Dynamics 365 for Financials (bétaverzió)
+* Dynamics 365 Business Central
+* Common Data Service for Apps (bétaverzió)
 * Common Data Service (bétaverzió)
 * Microsoft Azure – használati elemzés (bétaverzió)
 * Visual Studio Team Services (bétaverzió)
@@ -153,15 +161,15 @@ Az **Online szolgáltatások** kategória a következő adatkapcsolatokat biztos
 * tyGraph (bétaverzió)
 * Webtrends (bétaverzió)
 * Zendesk (bétaverzió)
+* TeamDesk (bétaverzió)
 
 A következő képen a **Lekérdezés** ablak látható, amelyen az **Online szolgáltatások** kategória ki van választva.
 
-![](media/desktop-data-sources/data-sources_6b.png)
+![Lekérdezés > Online szolgáltatások](media/desktop-data-sources/data-sources_07.png)
 
 Az **Egyéb** kategória a következő adatkapcsolatokat biztosítja:
 
 * Vertica (bétaverzió)
-* Kusto (bétaverzió)
 * Web
 * SharePoint-lista
 * OData-adatcsatorna
@@ -176,7 +184,7 @@ Az **Egyéb** kategória a következő adatkapcsolatokat biztosítja:
 
 A következő képen a **Lekérdezés** ablak látható, amelyen az **Egyéb** kategória ki van választva.
 
-![](media/desktop-data-sources/data-sources_7a.png)
+![Lekérdezés > Egyéb](media/desktop-data-sources/data-sources_08.png)
 
 > [!NOTE]
 > Jelenleg nem lehetséges olyan egyéni adatforrásokhoz csatlakozni, amelyek védelmét az Azure Active Directory biztosítja.
@@ -186,15 +194,15 @@ A következő képen a **Lekérdezés** ablak látható, amelyen az **Egyéb** k
 ## <a name="connecting-to-a-data-source"></a>Csatlakozás adatforráshoz
 Egy adott adatforráshoz való csatlakozáshoz válassza ki azt a **Lekérdezés** ablakban, majd válassza a **Kapcsolódás** lehetőséget. A következő képen a **Web** lehetőség van kiválasztva az **Egyéb** adatkapcsolat-kategórián belül.
 
-![](media/desktop-data-sources/data-sources_7b.png)
+![Webes csatlakozás](media/desktop-data-sources/data-sources_08a.png)
 
 Ekkor megjelenik egy, az adott adatkapcsolatra jellemző csatlakozási ablak. Ha hitelesítő adatok szükségesek, a rendszer ezek megadására kéri. A következő képen a Web típusú adatforráshoz való csatlakozáshoz szükséges URL-cím megadása látható.
 
-![](media/desktop-data-sources/datasources_fromwebbox.png)
+![webes URL-cím bevitele](media/desktop-data-sources/datasources_fromwebbox.png)
 
 Az URL-cím vagy az erőforrás csatlakozási adatainak megadása után kattintson az **OK** gombra. A Power BI Desktop csatlakozik az adatforráshoz, és megjeleníti az elérhető adatforrásokat a **Kezelőben**.
 
-![](media/desktop-data-sources/datasources_fromnavigatordialog.png)
+![Kezelőképernyő](media/desktop-data-sources/datasources_fromnavigatordialog.png)
 
 Az adatokat betöltheti a **Kezelő** panel alján található **Betöltés** gombbal, vagy szerkesztheti a lekérdezést az adatok betöltése előtt a **Szerkesztés** gombbal.
 
