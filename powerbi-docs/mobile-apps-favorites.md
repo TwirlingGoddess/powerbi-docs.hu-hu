@@ -1,27 +1,28 @@
 ---
-title: "Kedvencek a Power BI-mobilalkalmazásokban"
-description: "Ebben a cikkben a kedvenc Power BI-irányítópultjai, jelentései, alkalmazásai, valamint Power BI jelentéskészítő kiszolgáló- és Reporting Services-jelentései és fő teljesítménymutatói (KPI-k) mobilalkalmazásokban való rögzítéséről és megtekintéséről olvashat."
+title: Kedvencek a Power BI-mobilalkalmazásokban
+description: Ebben a cikkben a kedvenc Power BI-irányítópultjai, jelentései, alkalmazásai, valamint Power BI jelentéskészítő kiszolgáló- és Reporting Services-jelentései és fő teljesítménymutatói (KPI-k) mobilalkalmazásokban való rögzítéséről és megtekintéséről olvashat.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 02/09/2018
+ms.date: 05/05/2018
 ms.author: maggies
-ms.openlocfilehash: d3b53618f43652fffcb53502fd9d55ef91f2aff3
-ms.sourcegitcommit: ad9bd4e52471b1179f46f847960d5ed79c0c0761
+ms.openlocfilehash: 4edffdbf918e4ccf7e31821d359df54dfc275f46
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/11/2018
+ms.lasthandoff: 05/07/2018
+ms.locfileid: "33812150"
 ---
 # <a name="make-and-view-favorites-in-the-power-bi-mobile-apps"></a>Kedvencek rögzítése és megjelenítése a Power BI-mobilalkalmazásokban
 A következőkre vonatkozik:
@@ -80,7 +81,7 @@ Egy irányítópult vagy jelentés az irányítópultok vagy jelentések listáj
     ![Androidos kedvenc csillag](media/mobile-apps-favorites/power-bi-android-favorite-in-dashboard.png)
 
 ## <a name="make-favorite-power-bi-report-server-and-reporting-services-reports-and-kpis"></a>Power BI jelentéskészítő kiszolgáló- és Reporting Services-jelentések és KPI-k felvétele a kedvencek közé
-Kedvenc Power BI jelentéskészítő kiszolgáló- és Reporting Services-jelentéseit és KPI-it megtekintheti a Power BI mobilalkalmazásokban, de a kedvencek közé nem tudja felvenni őket a mobilon. [Jelölje meg őket kedvencekként a webes portálon](report-server/getting-around.md#tag-your-favorite-reports-and-kpis). 
+Kedvenc Power BI jelentéskészítő kiszolgáló- és Reporting Services-jelentéseit és KPI-it megtekintheti a Power BI mobilalkalmazásokban, de a kedvencek közé nem tudja felvenni őket a mobilon. [Jelölje meg őket kedvencekként a webes portálon](report-server/tutorial-explore-report-server-web-portal.md#tag-your-favorites). 
 
 ## <a name="next-steps"></a>További lépések
 * [Népszerű irányítópultok a Power BI szolgáltatásban](service-dashboard-favorite.md) 

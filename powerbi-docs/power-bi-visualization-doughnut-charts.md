@@ -1,15 +1,15 @@
 ---
-title: "Perecdiagramok a Power BI szolgáltatásban (Oktatóanyag)"
-description: "Oktatóanyag: Perecdiagramok a Power BI szolgáltatásban"
+title: Perecdiagramok a Power BI szolgáltatásban
+description: Perecdiagramok a Power BI szolgáltatásban
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,13 +18,14 @@ ms.workload: powerbi
 ms.date: 12/23/2017
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: dca772fd2a1b8f40fa61f1abc41145e8ff6e5a8a
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: a8f0b07cd21314549df27ef3206743cad058f98f
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/07/2018
+ms.locfileid: "33812725"
 ---
-# <a name="doughnut-charts-in-power-bi-tutorial"></a>Perecdiagramok a Power BI szolgáltatásban (Oktatóanyag)
+# <a name="doughnut-charts-in-power-bi"></a>Perecdiagramok a Power BI szolgáltatásban
 A perecdiagram hasonlít a tortadiagramhoz, amennyiben a részek egészhez való viszonyát mutatja. Az egyetlen különbség az, hogy a középső rész üres, így helyet biztosít egy címkének vagy ikonnak.
 
 ## <a name="create-a-doughnut-chart"></a>Perecdiagram létrehozása

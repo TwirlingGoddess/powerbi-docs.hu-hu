@@ -1,27 +1,20 @@
 ---
 title: Tippek és trükkök jelentések létrehozásához a Power BI-ban
 description: Tippek és trükkök jelentések létrehozásához a Power BI szolgáltatásban és a Power BI Desktopban
-services: powerbi
-documentationcenter: ''
 author: mihart
 manager: kfile
-backup: willthom
-editor: ''
-tags: ''
-qualityfocus: identified
-qualitydate: ''
+ms.reviewer: willthom
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 03/21/2018
 ms.author: davidi
-ms.openlocfilehash: d4c32d82fb25fcce47900080d3c454623e14cd74
-ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
+ms.openlocfilehash: 7f1ec08fdd280d8c4c3e96367083e7bdb2d31e1b
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 05/17/2018
+ms.locfileid: "34230209"
 ---
 # <a name="tips-and-tricks-for-creating-reports-in-power-bi-desktop"></a>Tippek és trükkök jelentések létrehozásához a Power BI Desktopban
 Ahhoz, hogy a legtöbbet hozza ki az adataiból, néha szüksége van egy kis extra segítségre. Összegyűjtöttünk néhány tippet és trükköt, amelyek segítségére lehetnek, amikor jelentéseket hoz létre a Microsoft Power BI Desktopban *és* a Microsoft Excel 2016 vagy Excel 2013 Pro-Plus kiadásokban, amelyekben engedélyezve van a Power Pivot bővítmény, illetve telepítve és engedélyezve van a Power Query. 
@@ -163,7 +156,7 @@ Néha érdemes kiszámítani egy adatkészlet összefoglaló statisztikáit.  En
 ## <a name="using-dax-for-the-first-time"></a>A DAX első használata
 A DAX a Power BI Desktop számításokhoz használt képletnyelve.  Ez a nyelv BI-elemzéshez van optimalizálva.  Ha eddig még csak SQL típusú lekérdezési nyelvet használt, ez kicsit eltérhet a megszokottól. A DAX elsajátításához nagyon jó online és nyomtatott forrásokat találhat. 
 
-[Rövid útmutató: A DAX alapszintű használata a Power BI Desktopban](desktop-quickstart-learn-dax-basics.md)
+[A DAX alapszintű használata a Power BI Desktopban](desktop-quickstart-learn-dax-basics.md)
 
 [Data Analysis Expressions-referencia (DAX)](https://msdn.microsoft.com/library/gg413422.aspx)
 

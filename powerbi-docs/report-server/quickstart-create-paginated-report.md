@@ -1,29 +1,22 @@
 ---
-title: "Rövid útmutató: Többoldalas jelentés létrehozása a Power BI jelentéskészítő kiszolgálóra"
-description: "Ismerje meg, hogyan hozhat létre többoldalas jelentést a Power BI jelentéskészítő kiszolgálóra néhány egyszerű lépésben."
-services: powerbi
-documentationcenter: 
+title: Többoldalas jelentés létrehozása a Power BI jelentéskészítő kiszolgálóhoz
+description: Ismerje meg, hogyan hozhat létre többoldalas jelentést a Power BI jelentéskészítő kiszolgálóra néhány egyszerű lépésben.
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-report-server
+ms.topic: conceptual
 ms.date: 10/12/2017
 ms.author: maggies
-ms.openlocfilehash: 1e77a1ef92826010d6bc2fa28749a2ee17bbe723
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 75810bfad9efd5a0ea42a07d44a61d4f92f7f232
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 05/17/2018
+ms.locfileid: "34294916"
 ---
-# <a name="quickstart-create-a-paginated-report-for-power-bi-report-server"></a>Rövid útmutató: Többoldalas jelentés létrehozása a Power BI jelentéskészítő kiszolgálóra
+# <a name="create-a-paginated-report-for-power-bi-report-server"></a>Többoldalas jelentés létrehozása a Power BI jelentéskészítő kiszolgálóhoz
 Mint ahogyan az elnevezés is sugallja, a többoldalas jelentések egyszerre több oldalon is átnyúlhatnak. Az elrendezésük rögzített formátumban történik, és precíz testreszabási lehetőségeket biztosítanak. A többoldalas jelentések .rdl-fájlok.
 
 A többoldalas jelentéseket a Power BI jelentéskészítő kiszolgáló webportálján és az SQL Server Reporting Services (SSRS) webportálján tárolhatja és kezelheti. Létrehozhatja őket a Jelentéskészítőben vagy az SQL Server Data Tools (SSDT) eszközkészletben található Jelentéstervező használatával, majd közzéteheti őket az egyiknek a webportálján. Ekkor a jelentések megtekinthetővé válnak a cégen belüli olvasók számára egy böngészőben, vagy a Power BI mobilalkalmazás használatával a mobileszközeiken.

@@ -1,33 +1,34 @@
 ---
-title: Adatok formázása és összevonása a Power BI Desktopban
-description: Adatok formázása és összevonása a Power BI Desktopban
-services: powerbi
-documentationcenter: ''
+title: Több adatforrásból származó adatok formázása és kombinálása
+description: Ebben az oktatóanyagban azt ismertetjük, hogyan lehet adatokat formázni és kombinálni a Power BI Desktopban
 author: davidiseminger
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 01/30/2018
+ms.component: powerbi-desktop
+ms.topic: tutorial
+ms.date: 05/03/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 0bb2f8a8d9299d525085a8ba7d2ecabdcd9e6c78
-ms.sourcegitcommit: afa10c016433cf72d6d366c024b862187a8692fd
+ms.openlocfilehash: 27479add7839e1078e76bbb6523b287f10194566
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/04/2018
+ms.lasthandoff: 05/17/2018
+ms.locfileid: "34288751"
 ---
-# <a name="shape-and-combine-data-in-power-bi-desktop"></a>Adatok formázása és összevonása a Power BI Desktopban
-A **Power BI Desktoppal** számos különféle típusú adatforráshoz csatlakozhat, és igény szerint formázhatja az adatokat. A *formázás* az adatok átalakítását jelenti, például oszlopok vagy táblázatok átnevezését, szöveg számokká alakítását, sorok eltávolítását, az első sorok fejléccé alakítását stb. Az adatok *összevonásakor* két vagy több adatforráshoz csatlakozik, amelyeket igény szerint formázhat, majd egyetlen, hasznos lekérdezéssé vonhat össze.
+# <a name="tutorial-shape-and-combine-data-in-power-bi-desktop"></a>Oktatóanyag: Adatok formázása és összevonása a Power BI Desktopban
 
-Ez a cikk bemutatja a lekérdezések formázását a Power BI Desktoppal, és kiemel néhány gyakran használt feladatot. Az itt használt lekérdezés részletesebb leírását – például teljesen új lekérdezés létrehozásának lépéseit – az [Első lépések a Power BI Desktopban](desktop-getting-started.md) című témakörben találja.
+A **Power BI Desktoppal** számos különféle típusú adatforráshoz csatlakozhat, és igény szerint formázhatja az adatokat, így létrehozhat olyan jelentéseket, amelyeket másokkal is megoszthat. A *formázás* az adatok átalakítását jelenti, például oszlopok vagy táblázatok átnevezését, szöveg számokká alakítását, sorok eltávolítását, az első sorok fejléccé alakítását stb. Az adatok *összevonásakor* két vagy több adatforráshoz csatlakozik, amelyeket igény szerint formázhat, majd egyetlen, hasznos lekérdezéssé vonhat össze.
+
+Az útmutatóban a következőkről szerezhet ismereteket:
+
+* Adatok formázása a **Lekérdezésszerkesztővel**
+* Kapcsolódás adatforráshoz
+* Kapcsolódás másik adatforráshoz
+* Az adatforrások kombinálása és jelentésekben felhasználható adatmodell létrehozása
+
+Ez az oktatóanyag bemutatja a lekérdezések formázását a Power BI Desktoppal, és kiemel néhány gyakran használt feladatot. Az itt használt lekérdezés részletesebb leírását – például teljesen új lekérdezés létrehozásának lépéseit – az [Első lépések a Power BI Desktopban](desktop-getting-started.md) című témakörben találja.
 
 Érdemes tudni, hogy a Power BI Desktop **Lekérdezésszerkesztőjében** a funkciók a menüszalagon és helyi menükben is elérhetőek. Az **Átalakítás** menüszalag elemeinek nagy része egy adott elemre (például oszlopra) a jobb gombbal kattintva megjelenő menüből is elérhető.
 

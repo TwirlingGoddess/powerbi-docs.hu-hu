@@ -1,108 +1,107 @@
 ---
-title: "Jelentés beágyazása iFrame használatával"
-description: "A Power BI jelentéskészítő kiszolgáló telepítése nagyon gyorsan elvégezhető. A letöltés, a telepítés és a konfigurálás néhány percen belül elvégezhető, és a rendszere máris működésre kész."
-services: powerbi
-documentationcenter: 
+title: Jelentés beágyazása iFrame használatával
+description: Power BI jelentéskészítő kiszolgálóval készült jelentés beágyazása iFrame-keretben a SharePoint Serverben
 author: markingmyname
-manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
-ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 11/09/2017
 ms.author: maghan
-ms.openlocfilehash: 56835bfb25c8c930099fadf710137f69fa89fc2e
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.date: 05/04/2018
+ms.topic: quickstart
+ms.service: powerbi
+ms.component: powerbi-report-server
+ms.custom: mvc
+manager: kfile
+ms.openlocfilehash: 8d7653e6f390959df745fa2b19076ee89b26b1bc
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 05/17/2018
+ms.locfileid: "34293697"
 ---
-# <a name="quickstart-embed-a-power-bi-report-using-an-iframe-and-url-parameters"></a>Rövid útmutató: Power BI-jelentés beágyazása egy iFrame és URL-paraméterek használatával
+# <a name="quickstart-embed-a-power-bi-report-server-report-using-an-iframe-in-sharepoint-server"></a>Rövid útmutató: Power BI jelentéskészítő kiszolgálóval készült jelentés beágyazása iFrame-keretben a SharePoint Serverben
 
-Az alkalmazásában egy iFrame használatával bármilyen jelentést beágyazhat. 
+Ezzel a rövid útmutatóval megtanulhatja egy Power BI jelentéskészítő kiszolgálóval készült jelentés iFrame használatával történő beágyazását egy SharePoint oldalba. Ha a SharePoint Online-nal dolgozik, akkor a Power BI jelentéskészítő kiszolgálónak nyilvánosan elérhetőnek kell lennie. A SharePoint Online-ban a Power BI szolgáltatással együttműködő Power BI jelentéskijelző nem működik együtt a Power BI jelentéskészítő kiszolgálóval. 
 
-## <a name="url-parameter"></a>URL-paraméter
+![iFrame-minta](media/quickstart-embed/quickstart_embed_01.png)
+## <a name="prerequisites"></a>Előfeltételek
+* Szüksége lesz a telepített és konfigurált [Power BI jelentéskészítő kiszolgálóra](https://powerbi.microsoft.com/en-us/report-server/).
+* A [Power BI jelentéskészítő kiszolgálóhoz optimalizált Power BI Desktopnak](install-powerbi-desktop.md) telepítve kell lennie.
+* Szüksége lesz még egy telepített és konfigurált [SharePoint](https://docs.microsoft.com/en-us/sharepoint/install/install)-környezetre.
 
-Bármely jelentés URL-címéhez hozzáadhatja a `?rs:Embed=true` lekérdezési sztringet.
+## <a name="creating-the-power-bi-report-server-report-url"></a>A Power BI jelentéskészítő kiszolgálóval készült jelentés URL-címének létrehozása
 
-Példa:
+1. Töltse le a mintát a GitHubról – [Blog Demo](https://github.com/Microsoft/powerbi-desktop-samples).
 
-```
-http://myserver/reports/powerbi/Sales?rs:embed=true
-```
+    ![minta PBIX-fájl letöltése](media/quickstart-embed/quickstart_embed_14.png)
 
-Ez használható a Power BI jelentéskészítő kiszolgáló bármelyik típusú jelentése esetén.
+2. Nyissa meg a GitHubról származó PBIX-fájlt a **Power BI jelentéskészítő kiszolgálóhoz optimalizált Power BI Desktopban**.
 
-## <a name="iframe"></a>iFrame
+    ![PBI RS asztali eszköz](media/quickstart-embed/quickstart_embed_02.png)
 
-Ha megvan az URL-cím, létrehozhat egy weblapon egy iFrame-et, amely megjeleníti a jelentést.
+3. Mentse a jelentést a **Power BI jelentéskészítő kiszolgálóra**. 
 
-Példa:
+    ![PBI RS mentés](media/quickstart-embed/quickstart_embed_03.png)
 
-```
-<iframe width="800" height="600" src="http://myserver/reports/powerbi/Sales?rs:embed=true" frameborder="0" allowFullScreen="true"></iframe>
-```
+4. Jelentés megtekintése a **webes portálon**.
 
-## <a name="url-filter"></a>URL-szűrő
+    ![webes portál](media/quickstart-embed/quickstart_embed_04.png)
 
-Az URL-címhez hozzáadhat egy lekérdezésiszting-paramétert a Power BI-jelentésben visszaadott adatok szűrésére.
+### <a name="capturing-the-url-parameter"></a>Az URL-paraméter rögzítése
 
-A szintaxis nagyon egyszerű – a jelentés URL-címével kezdje, adjon hozzá egy kérdőjelet, majd ezt a szűrési szintaxist.
+Ha megvan az URL-cím, létrehozhat egy SharePoint-oldalon egy iFrame-et, amely megjeleníti a jelentést. A Power BI jelentéskészítő kiszolgálóval készült jelentések URL-címéhez hozzáfűzhető a `?rs:embed=true` lekérdezési sztring amely egy iFrame-be ágyazza be a jelentést. 
 
-URL?filter=***Tábla***/***Mező*** eq '***érték***'
+   Például:
+    ``` 
+    http://myserver/reports/powerbi/Sales?rs:embed=true
+    ```
+## <a name="embedding-a-power-bi-report-server-report-in-a-sharepoint-iframe"></a>Power BI jelentéskészítő kiszolgálóval készült jelentés beágyazása SharePoint iFrame-keretben
 
-A következő szempontokat vegye figyelembe:
+1. Nyissa meg a SharePoint **Webhely tartalma** oldalát.
 
-- A **Tábla** és a **Mező** nevei megkülönböztetik a kis- és nagybetűket, az **érték** viszont nem.
-- A jelentés olyan mezők alapján is szűrhető, amelyek a jelentés nézetében nem láthatók.
-- Az **értéket** aposztrófok között kell megadni.
-- A mezőnek sztring típusúnak kell lennie.
-- A tábla és a mező nevei nem tartalmazhatnak szóközöket.
+    ![Webhely tartalma oldal](media/quickstart-embed/quickstart_embed_05.png)
 
-###  <a name="example-filter-on-a-field"></a>Példa: Szűrés egy mező alapján
+2. Válassza ki az oldalt, amelyhez hozzá kívánja adni a jelentést.
 
-Vegyük például a [Kiskereskedelmi elemzési mintát](../sample-datasets.md). Tegyük fel, hogy a jelentéskészítő kiszolgáló „power-bi” mappájában található egy jelentés, amelynek az URL-címe a következő:
+    ![Webhely tartalma oldal alkalmazás](media/quickstart-embed/quickstart_embed_06.png)
 
-```
-https://report-server/reports/power-bi/Retail-Analysis-Sample
-```
+3. Válassza a jobb felső sarokban lévő fogaskerék ikont, majd az **Oldal szerkesztése** lehetőséget.
 
-A Kiskereskedelmi elemzési minta térképi vizualizációján az Észak-Karolinában és más államokban található üzleteket láthatja.
+    ![Oldal szerkesztése lehetőség](media/quickstart-embed/quickstart_embed_07.png)
 
-![Kiskereskedelmi elemzési minta – térképi vizualizáció](media/quickstart-embed/report-server-retail-analysis-sample-map.png)
+4. Válassza a **Kijelző hozzáadása** lehetőséget.
 
-Az **Store** (Üzlet) tábla **Territory** (Terület) mezőjében tárolt *NC* érték Észak-Karolinát jelenti. Tehát ha szűrni szeretné a jelentést, hogy csak az Észak-Karolinában található üzletek adatait jelenítse meg, akkor fűzze hozzá az URL-címhez a következőt:
+    ![Kijelző hozzáadása](media/quickstart-embed/quickstart_embed_08.png)
 
-?filter=Store/Territory eq 'NC'
+5. A **Kategóriák** alatt válassza a **Média és tartalom** elemet, a **Kijelzők** között pedig a **Tartalomszerkesztő** elemet, majd a **Hozzáadás** lehetőséget.
 
-A jelentés így már szűrve lett Észak-Karolinára, és a jelentés oldalán található összes vizualizáció csak Észak-Karolina adatait jeleníti meg.
+    ![Tartalomszerkesztő webes kijelző kiválasztása](media/quickstart-embed/quickstart_embed_09.png) ![Hozzáadás kiválasztása](media/quickstart-embed/quickstart_embed_091.png)
 
-![Kiskereskedelmi elemzési minta – szűrt vizualizációk](media/quickstart-embed/report-server-retail-analysis-sample-filtered-map.png)
+6. Válassza az **Új tartalom hozzáadásához kattintson ide** elemet.
 
-### <a name="create-a-dax-formula-to-filter-on-multiple-values"></a>DAX-képlet létrehozása több érték alapján történő szűréshez
+    ![Új tartalom hozzáadása](media/quickstart-embed/quickstart_embed_10.png)
 
-A szűrés egy másik módja, ha létrehoz a Power BI-ban egy számított oszlopot, amely két mezőt egyetlen értékké fűz össze. Ezt követően már szűrhet erre az értékre.
+7. A szalagon válassza a **Szöveg formázása** lapot, majd a **Forrás szerkesztése** lehetőséget.
 
-A Kiskereskedelmi elemzési mintában például két mező található: Territory (Terület) és Chain (Üzletlánc). A Power BI Desktopban [létrehozhat egy számított oszlopot](../desktop-tutorial-create-calculated-columns.md) (Mezőt), TerritoryChain (TerületÜzletlánc) néven. Ne feledje, hogy a **Mező** neve nem tartalmazhat szóközöket. Itt látható az oszlop DAX-képlete.
+     ![Forrás szerkesztése](media/quickstart-embed/quickstart_embed_11.png)
 
-TerritoryChain = [Territory] & "-" & [Chain]
+8. A Forrás szerkesztése ablakban illessze be iFrame-kódját és válassza az OK lehetőséget.
 
-Tegye közzé a jelentést a Power BI jelentéskészítő kiszolgálón, majd használja az URL-cím lekérdezési sztringjét, hogy a jelentés csak az Észak-Karolinában található Lindseys üzletek adatait jelenítse meg.
+    ![iFrame-kód](media/quickstart-embed/quickstart_embed_12.png)
 
-```
-https://report-server/reports/power-bi/Retail-Analysis-Sample?filter=Store/TerritoryChain eq 'NC-Lindseys'
+     Például:
+     ```
+     <iframe width="800" height="600" src="http://myserver/reports/powerbi/Sales?rs:embed=true" frameborder="0" allowFullScreen="true"></iframe>
+     ```
 
-```
+9. A szalagon válassza az **Oldal** lapot, majd a **Szerkesztés befejezése** lehetőséget.
+
+    ![Szerkesztés befejezése](media/quickstart-embed/quickstart_embed_13.png)
+
+10. A jelentésnek meg kell jelennie az oldalon.
+
+    ![iFrame-minta](media/quickstart-embed/quickstart_embed_01.png)
 
 ## <a name="next-steps"></a>Következő lépések
 
 [Rövid útmutató: Power BI-jelentés létrehozása a Power BI jelentéskészítő kiszolgálóra](quickstart-create-powerbi-report.md)  
 [Rövid útmutató: Többoldalas jelentés létrehozása a Power BI jelentéskészítő kiszolgálóra](quickstart-create-paginated-report.md)  
 
-További kérdései vannak? [Kérdezze meg a Power BI közösségét](https://community.powerbi.com/)
+További kérdései vannak? [Kérdezze meg a Power BI közösségét](https://community.powerbi.com/) 
