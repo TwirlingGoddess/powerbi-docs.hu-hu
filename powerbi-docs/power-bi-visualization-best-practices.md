@@ -18,11 +18,12 @@ ms.workload: powerbi
 ms.date: 04/11/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: c1b0d87d432dc337a1dab5d13bba10cc8c99dd14
-ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
+ms.openlocfilehash: 26d04c77967a8223672cbe174a3c45e6d12602ea
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/07/2018
+ms.locfileid: "33813369"
 ---
 # <a name="best-design-practices-for-reports-and-visuals"></a>Ajánlott eljárások jelentések és vizualizációk megalkotásához
 <!-- Shared newnav Include -->
@@ -734,7 +735,7 @@ Ehhez nyissa meg a Formázás ablaktáblát, bontsa ki az **Y tengely** elemet, 
 
 További információ:
 
-* [Oktatóanyag: kombinált diagram a Power BI-ban](power-bi-visualization-combo-chart.md)
+* [Kombinált diagram a Power BI-ban](power-bi-visualization-combo-chart.md)
 * [A kettős mértékű tengelyek veszélye a vizualizációkban](http://www.perceptualedge.com/articles/visual_business_intelligence/dual-scaled_axes.pdf)
 
 ### <a name="scatter-chart"></a>Pontdiagram
@@ -810,8 +811,8 @@ A KPI-k ugyanakkora területen az értéket, az állapotot, a célt, a célhoz k
 
 További információ:
 
-* [Oktatóanyag: kör alakú mérőműszer-diagramok a Power BI-ban](power-bi-visualization-radial-gauge-charts.md)
-* [Oktatóanyag: KPI-k a Power BI-ban](power-bi-visualization-kpi.md)
+* [A Power BI kör alakú mérőműszer-diagramjai](power-bi-visualization-radial-gauge-charts.md)
+* [KPI-k a Power BI-ban](power-bi-visualization-kpi.md)
 
 ## <a name="conclusion"></a>Összegzés
 Ideje élesben is kipróbálni az ajánlott eljárásokat.  Maradjunk kapcsolatban: ossza meg velünk saját legjobb eljárásait! Nem ért egyet a javaslatainkkal, vagy egy remek kivételt talált, amellyel „megszegheti a szabályokat”?  Ezekről is nagyon szívesen hallanánk.  

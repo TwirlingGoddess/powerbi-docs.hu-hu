@@ -1,168 +1,196 @@
 ---
-title: "Oktatóanyag: Weboldalakról származó adatok importálása és elemzése a Power BI Desktop használatával"
-description: "Oktatóanyag: Weboldalakról származó adatok importálása és elemzése a Power BI Desktop használatával"
+title: 'Oktatóanyag: Weboldalakról származó adatok importálása és elemzése a Power BI Desktop használatával'
+description: 'Oktatóanyag: Weboldalakról származó adatok importálása és elemzése a Power BI Desktop használatával'
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: 9650f0be6ca795fdea3395721c0eb02e80464821
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 14c6cc0d221e5ed0a2fe6ead88deb9e8fb867290
+ms.sourcegitcommit: 773ba0d1cc1d1fcee8e666e1c20450f5e343c5c1
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/10/2018
+ms.locfileid: "33945963"
 ---
-# <a name="analyzing-web-page-data-using-power-bi-desktop-tutorial"></a>Weboldalakról származó adatok elemzése a Power BI Desktop használatával (oktatóanyag)
-Ez az oktatóanyag bemutatja, hogyan importálhat egy adatokból álló táblázatot egy weboldalról, majd hogyan hozhat létre egy jelentést az adatok vizualizációjához. A folyamat részeként a weboldalon elérhető táblázatok között kell navigálnia, és át kell alakítania az adatokat egy új formátumba.
+# <a name="tutorial-analyze-web-page-data-using-power-bi-desktop"></a>Oktatóanyag: Weboldalakról származó adatok elemzése a Power BI Desktop használatával
 
- A cikk tartalma:
+Igazi futballrajongóként szeretne jelentést készíteni az UEFA labdarúgó-Európa-bajnokság (Eb) eddigi győzteseiről. A Power BI Desktop használatával az adatokat egy weboldalról egy jelentésbe importálhatja, majd vizualizációs elemek létrehozásával megjelenítheti azokat. Ebben az oktatóanyagban bemutatjuk, hogyan végezheti el a következő feladatokat a Power BI Desktop alkalmazással:
 
-* **1. feladat:** Kapcsolódás egy webes adatforráshoz
-* **2. feladat:** Adatok formázása a Lekérdezés nézetben
-  * 1. lépés: Az egyéb oszlopok eltávolítása, hogy csak a lényeges oszlopok jelenjenek meg
-  * 2. lépés: A kijelölt oszlop értékeinek megtisztítása az értékek cseréjével
-  * 3. lépés: Oszlop értékeinek szűrése
-  * 4. lépés: Oszlop átnevezése
-  * 5. lépés: Nullértékek kiszűrése az oszlopból
-  * 6. lépés: Lekérdezés átnevezése
-  * A lekérdezéshez létrehozott lépések
-* **3. feladat:** Vizualizáció létrehozása a Jelentés nézettel
-  * 1. lépés: Lekérdezés betöltése a jelentésbe
-  * 2. lépés: Térkép vizualizáció létrehozása
+- Kapcsolódás egy webes adatforráshoz és navigálás az elérhető táblák között;
+- Adatok formázása és átalakítása a **Power Query-szerkesztőben**;
+- Lekérdezés elnevezése és importálása egy Power BI Desktop-jelentésbe; valamint 
+- Térképes és tortadiagramos vizualizáció létrehozása és testreszabása.
 
-## <a name="task-1-connect-to-a-web-data-source"></a>1. feladat: Kapcsolódás egy webes adatforráshoz
- Az 1. feladat keretében a Bajnoksági összefoglaló táblázatot importálja az UEFA labdarúgó Európa-bajnokság Wikipédia-oldaláról, a következő címről: https://hu.wikipedia.org/wiki/\_Labdarúgó-\_Európa-\_bajnokság
+## <a name="connect-to-a-web-data-source"></a>Kapcsolódás egy webes adatforráshoz
 
-![](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage1.png)
+Az Eb-győztesekre vonatkozó adatokat a labdarúgó-Európa-bajnokság Wikipédia-oldalán található Eredmények nevű táblából töltheti le az alábbi linken: http://en.wikipedia.org/wiki/UEFA_European_Football_Championship. 
 
-### <a name="add-a-wikipedia-page-data-source"></a>Wikipédia-oldal adatforrásként történő hozzáadása
-1. Az **Első lépések** párbeszédpanelen vagy a **Kezdőlap** szalagfülön válassza az **Adatok lekérése** lehetőséget.
-2. Ezzel megnyitja az **Adatok lekérése** párbeszédpanelt, ahol számos adatforrás közül választhat, amelyekből adatokat importálhat a Power BI Desktopba. Ezúttal a **Web** lehetőséget választjuk, amely az **Összes** vagy az **Egyéb** csoportban található meg.
-3. A **Webes tartalom** párbeszédpanel **URL** szövegmezőjébe illessze be a Wikipédia-oldal URL-címét (https://hu.wikipedia.org/wiki/\_Labdarúgó-\_Európa-\_bajnokság).
-4. Kattintson az **OK** gombra.
+![Eredmények tábla a Wikipédia-oldalon](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage1.png)
 
-Miután sikerült kapcsolatot létesíteni a weboldallal, a **Kezelő** párbeszédpanelen tekintse meg a Wikipédia-oldalon elérhető táblázatok listáját. Az egyes táblázatokra kattintva megtekintheti azok előnézetét.
+Az adatok importálásához a következőket kell tennie:
 
-A **Kezelő** bal oldali ablaktábláján válassza az **Eredmények[szerkesztés]** táblázatot a bajnoksági összefoglaló eredményeinek megjelenítéséhez, vagy válassza az **Eredmények[szerkesztés]** táblázatot, majd a **Szerkesztés** parancsot. Ez lehetővé teszi a táblázatban található adatok átalakítását a jelentésbe történő importálás előtt, mivel az adatok nem az elemzéshez szükséges formátumban vannak.
+1. A Power BI Desktop alkalmazásban a **Kezdőlap** szalagfülön kattintson a **Lekérdezés** melletti listanyílra, majd válassza ki a **Web** lehetőséget.
+   
+   ![Adatok lekérése a szalagfülön keresztül](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/get-data-web3.png) 
+   
+   >[!NOTE]
+   >A **Lekérdezés** elemet kijelölheti közvetlenül, vagy kiválaszthatja a Power BI **Első lépések** párbeszédéből is, majd a **Lekérdezés** párbeszédpanelen kattintson a **Web** elemre az **Összes** vagy **Egyéb** szakaszon belül, végül pedig kattintson a **Kapcsolódás** elemre.
+   
+2. A **Webes tartalomból** párbeszédpanelen illessze be az URL-címet `http://en.wikipedia.org/wiki/UEFA_European_Football_Championship` az **URL** szövegmezőbe, majd kattintson az **OK** gombra.
+   
+    ![Adatok lekérése az párbeszédpanelen](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/get-data-web2.png)
+   
+   A Wikipédia-oldalhoz történő kapcsolódást követően a Power BI **Kezelő** párbeszédpanelje az oldalon elérhető táblák listáját tartalmazza. Az adatok előnézetének megtekintéséhez válassza ki bármelyik tábla nevét. Az **Eredmények[szerkesztés]** tábla tartalmazza azokat az adatokat, amelyekre szüksége van, azonban nem olyan formában, amelyben használni szeretné őket. Az adatokat újra kell formáznia és meg kell tisztítania, mielőtt betöltené őket a jelentésbe. 
+   
+   ![Kezelő párbeszédpanel](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/tutorialimanaly_navigator.png)
+   
+   >[!NOTE]
+   >Az **Előnézet** ablaktábla a legutoljára kiválasztott táblát mutatja, de az összes kiválasztott tábla betöltődik a **Power Query-szerkesztőbe**, amikor rákattint a **Szerkesztés** vagy **Betöltés** lehetőségre. 
+   
+3. Válassza ki az **Eredmények [szerkesztés]** táblát a **Kezelő** listájából, majd kattintson a **Szerkesztése** lehetőségre. 
+   
+   A **Power Query-szerkesztőben** megnyílik a tábla előnézeti képe, amelyben átalakításokat hajthat végre az adattisztításhoz. 
+   
+   ![Power Query-szerkesztő](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage3.png)
+   
+## <a name="shape-data-in-power-query-editor"></a>Adatok formázása a Power Query-szerkesztőben
 
-![](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/tutorialimanaly_navigator.png)
+Ha kizárólag az évszámokat és a győztes országokat jeleníti meg, azzal megkönnyítheti az adatok beolvasását. Az adatokat a **Power Query-szerkesztő** használatával tudja formázni és megtisztítani.
 
-Ezzel megjeleníti a táblázat előnézetét a Lekérdezés nézetben, ahol a megfelelő átalakítási lépésekkel megtisztíthatjuk az adatokat.
+Először távolítson el minden oszlopot a táblából az **Év** és a **Döntő győztesei** oszlopok kivételével.
 
-![](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage3.png)
+1. A **Power Query-szerkesztő** által létrehozott táblában válassza ki az **Év** és a **Döntő győztesei** oszlopokat (több elem kiválasztásához tartsa lenyomva a **CTRL** billentyűt).
+   
+2. Kattintson a jobb gombbal, és válassza ki a **További oszlopok eltávolítása** lehetőséget a legördülő menüből, vagy válassza az **Oszlopok eltávolítása** > **További oszlopok eltávolítása** lehetőséget az  **Oszlopok kezelése** csoportban a **Kezdőlap** szalagfülön, hogy minden további oszlopot eltávolítson a táblából. 
+   
+   ![További oszlopok eltávolítása a legördülő menün keresztül](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/get-data-web6.png) vagy ![További oszlopok eltávolítása a szalagfülön keresztül](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage4.png)
 
-## <a name="task-2-shape-data-in-the-subject-table"></a>2. feladat: Adatok formázása az érintett táblázatban
-Most, hogy kijelölte az érintett táblázatot az adatlekérdezésben, bemutatjuk, hogyan hajthat végre különböző adatátalakítási és adattisztítási műveleteket.
-
-**1. lépés:** Az egyéb oszlopok eltávolítása, hogy csak a lényeges oszlopok jelenjenek meg
-
-Ebben a lépésben eltávolítunk minden oszlopot, az **Év** és a **Döntő győztesei** kivételével.
-
-1. A **Lekérdezés előnézete** rácson válassza ki az **Év** és a **Döntő győztesei** oszlopot (**CTRL** + **kattintással**).
-2. Kattintson a jobb gombbal egy oszlopfejlécre a **Lekérdezés előnézete** rácson, majd kattintson a **További oszlopok eltávolítása** parancsra a ki nem jelölt oszlopok eltávolításához. Ez a művelet elérhető a **Kezdőlap** szalagfülről is, az **Oszlopok kezelése** csoportban.
-
-![](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage4.png)
-
-**2. lépés:** A kijelölt oszlop értékeinek megtisztítása az értékek cseréjével
-
-Ebben a lépésben az **Év** oszlop Részletek utótagját cseréli le. Figyelje meg, hogy ez az utótag egy új sorban található, ezért nem jelenik meg a táblázat előnézetében. Ugyanakkor, ha az Év oszlop egyik numerikus értéket tartalmazó cellájára kattint, a részletes nézetben a teljes érték látható lesz.
-
-![](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage5.png)
+Ezután távolítsa el a felesleges **Részletek** szót az **Év** oszlop celláiból.
 
 1. Jelölje ki az **Év** oszlopot.
-2. A **Lekérdezés nézet** szalagon kattintson a **Kezdőlap** fül **Értékek lecserélése** elemére, majd kattintson a jobb gombbal az **Év** oszlopra, és kattintson az **Értékek lecserélése** parancsra, hogy a Részletek helyére üres szöveg kerüljön.
-3. Az **Értékek lecserélése** párbeszédpanelen írja be a Részletek szöveget a **Keresendő érték** szövegmezőbe, és hagyja üresen a **Csere a következőre** szövegmezőt üresen.
-4. Kattintson az **OK** gombra.
+   
+2. Kattintson a jobb gombbal, és válassza ki az **Értékek lecserélése** lehetőséget a legördülő menüből, vagy válassza az **Értékek lecserélése** lehetőséget az **Átalakítás** csoportban a **Kezdőlap** szalagfülön (amely a **Bármely oszlop** csoportban is megtalálható az **Átalakítás** fülön). 
+   
+   ![Értékek lecserélése a legördülő menün keresztül](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/get-data-web7.png) vagy ![Értékek lecserélése a szalagfülön keresztül](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/get-data-web8a.png)
+   
+3. Az **Értékek lecserélése** párbeszédpanelen írja be a **Részletek** szöveget a **Keresendő érték** szövegmezőbe, hagyja üresen a **Csere a következőre** szövegmezőt, majd kattintson az **OK** gombra, törölve ezáltal a „Részletek” szót az **Év** oszlopban található bejegyezésekből.
+   
+   ![](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage6.png)
 
-![](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage6.png)
-
- **3. lépés:** Oszlop értékeinek szűrése
-
-Ebben a lépésben szűrni fogjuk az **Év** oszlop értékeit, hogy ne jelenjenek meg az „Év” szöveget tartalmazó sorok.
+Néhány **Év** cella csak az „Év” szót tartalmazza az évszámok helyett. Az **Év** oszlop értékeire tud úgy szűrni, hogy csak azok a sorok jelenjenek meg, amelyek nem tartalmazzák az „Év” szót. 
 
 1. Kattintson a szűrő listanyílra az **Év** oszlopban.
-2. A **Szűrés** legördülő listában törölje az **Év** elem jelölését.
-3. Kattintson az **OK** gombra.
-
-![](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage7.png)
-
-**4. lépés:** Oszlop átnevezése
-
-Most, hogy sikerült megtisztítani az **Év** oszlop adatait, rátérhetünk a **Döntő győztesei** oszlopra.
-
-Mivel kizárólag a győztesek listáját szeretnénk megkapni, átnevezhetjük az oszlopot „**Ország**”-ra.
-
-1. Válassza ki a **Döntő győztesei** oszlopot a Lekérdezés előnézetben.
-2. A **Lekérdezés nézet** szalag **Átalakítás** fülének **Minden oszlop** csoportjában kattintson az **Átnevezés** parancsra.
-3. Ezzel szerkeszthetővé teszi az oszlop nevét. Nevezzük át az oszlopot az **Ország** névre.
-
-**5. lépés:** Nullértékek kiszűrése az oszlopból
-
-Ezután ki kell szűrnünk a nullértékeket az **Ország** oszlopból. Ezt megtehetjük a Szűrés menün keresztül a 3. lépésben látott módon, de elérhető egy másik megoldás is:
-
-1. Kattintson a jobb gombbal az **Ország** oszlop valamelyik cellájára, amely nullértéket tartalmaz.
-2. A helyi menüben jelölje be a **Szövegszűrők –\> nem egyenlő** elemet.
-3. Ezzel egy új szűrési lépést hoz létre, amellyel eltávolítja a nullértéket tartalmazó sorokat az **Ország** oszlopból.
-
-**6. lépés:** Lekérdezés elnevezése
-
-Ebben a lépésben a végső lekérdezésnek az **Európa-kupa győztesei** nevet adjuk.
-
-1. A **Lekérdezési beállítások** ablaktábla **Név** szövegmezőjébe írja be az **Európa-kupa győztesei** szöveget.
    
-   ![](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage8.png)
+2. Görgessen le a legördülő menüben, és törölje a jelölést az **Év** lehetőség melletti jelölőnégyzetből, majd kattintson az **OK**, gombra, eltávolítva ezáltal azokat a sorokat, amelyek kizárólag az „Év” szót tartalmazzál az **Év** oszlopban. 
 
-## <a name="task-3-create-visualizations-using-the-report-view"></a>3. feladat: Vizualizáció létrehozása a Jelentés nézettel
-Most, miután sikerült az adatokat az elemzéshez szükséges formába átalakítani, az eredményül kapott táblázatot betölthetjük a jelentésünkbe, és vizualizációkat hozhatunk létre.
+   ![Adatok szűrése](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage7.png)
 
-**1. lépés:** A lekérdezés betöltése a jelentésbe
+Most, hogy sikerült megtisztítania az **Év** oszlop adatait, rátérhet a **Döntő győztesei** oszlopra. Mivel jelenleg csakis a döntő győzteseinek adatait látja, átnevezheti az oszlopot „**Ország**”-ra. Az oszlopot a következőképpen nevezheti át:
 
-Ahhoz, hogy betölthessük a lekérdezés eredményeit a Power BI Desktopba, és létrehozhassunk egy jelentést, a **Kezdőlap** szalagon kattintson a **Bezárás és betöltés** elemre.
-
-![](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage9.png)
-
-Ezzel elindítja a lekérdezés értékelését, és betölti a táblázatos kimenetet a jelentésbe. A Power BI Desktopban válassza ki a **Jelentés** ikont, hogy a Power BI Desktop látható legyen a Jelentés nézetben.
-
-![](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage10.png)
-
-Az így kapott táblázatmezők a **Jelentés nézet** jobb oldalán, a **Mezők ablaktáblán** jelennek meg.
-
-![](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage11.png)
-
-**2. lépés:** Térkép vizualizáció létrehozása
-
-Vizualizációk létrehozásához áthúzhatjuk a mezőket a **Mező listából** a **Jelentés vászonra**.
-
-1. Húzza az **Ország** mezőt a **Jelentés vászonra**. Ezzel létrehozza a vizualizációt a **Jelentés vásznon**. Ebben az esetben, mivel országok listájáról van szó, egy **Térkép vizualizációt** kapunk.
+1. Kattintson duplán vagy koppintson és tartsa lenyomva a **Döntő győztesei** oszlop fejlécét, vagy 
+   - Kattintson a jobb gombbal a **Döntő győztesei** oszlop fejlécére, és válassza ki az **Átnevezés** lehetőséget a legördülő menüből, vagy 
+   - Válassza ki a **Döntő győztesei** oszlopot, majd kattintson az **Átnevezés** lehetőségre a **Bármely oszlop** csoportban a menüszalag **Átalakítás** fülén. 
    
-   ![](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage12.png)
-2. A **Vizualizáció** panel egy másik ikonjára kattintva bármikor módosítható a vizualizáció típusa.
+   ![Átnevezés a legördülő menün keresztül](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage7a.png) vagy ![Átnevezés a menüszalagon keresztül](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/get-data-web8.png)
    
-   ![](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage13.png)
-3. Mi maradunk a **Térkép** vizualizációs típusnál. A vizualizációt ezenkívül az egyik sarkánál húzva át lehet méretezni a kívánt méretre.
+2. Írja be az **Ország** szót a fejlécbe, majd nyomja le az **ENTER** billentyűt az oszlop átnevezéséhez.
+
+Ezenkívül az olyan sorokat is érdemes kiszűrnie, mint a „2020”-as értékkel rendelkező sor, amelyek az **Ország** oszlopban null értéket tartalmaznak. Ehhez használhatja a szűrő menüt, ahogyan azt az **Év** oszlop értékeivel is tette, vagy ugyanezt megteheti a következő módon:
+
+1. A **2020**-as értékkel rendelkező sorban kattintson a jobb gombbal az **Ország** oszlop cellájára, amely *null* értéket tartalmaz. 
+2. Válassza ki a **Szövegszűrők** > **Nem egyenlő** lehetőséget a helyi menüből, hogy eltávolítson minden olyan sort, amelyek tartalmazzák ennek a cellának az értékét.
    
-   ![](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage14.png)
-4. Figyelje meg, hogy jelenleg a térképen minden pont ugyanolyan méretű. Azt szeretnénk, hogy ha minél több Európa-kupát nyert az ország, annál nagyobb pont jelenítené meg a térképen. Ehhez húzza át a **Mezők lista** **Év** mezőjét a **Mezők ablaktábla** alsó felében található **Értékek** mezőbe.
+   ![Szövegszűrő](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/get-data-web11.png)
+   
+## <a name="import-the-query-into-report-view"></a>A lekérdezés importálása Jelentés nézetbe
+
+Most, hogy az adatokat az igényeinek megfelelően megformázta, nevezze el a lekérdezését (például „Európa-kupa győztesei”) és importálja azt a jelentésébe.
+
+1. A **Lekérdezési beállítások** ablaktábla **Név** szövegmezőjébe írja be az **Európa-kupa győztesei** szöveget, majd nyomja le az **ENTER** billentyűt.
+   
+   ![Lekérdezés elnevezése](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage8.png)
+
+2. Válassza ki a **Bezárás és alkalmazás** > **Bezárás és alkalmazás** lehetőséget a menüszalag **Kezdőlap** fülén.
+   
+   ![Bezárás és alkalmazás](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage9.png)
+   
+Miután a lekérdezés betöltődött, a Power BI Desktop **Jelentés nézet** oldalán, a **Mezők** ablaktáblán láthatja azt. 
+   
+   ![Mezők ablaktábla](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage11.png)
+>[!TIP]
+>Mindig visszatérhet a **Power Query-szerkesztőbe**, ha szerkeszteni vagy finomítani szeretné lekérdezését, amit a következőképpen tehet meg:
+>- Válassza a **További beállítások** opciót jelző három pont (**...** ) lehetőséget az **Európa-kupa győztesei** mező mellett a **Mezők** ablaktáblán, majd válassza ki a **Lekérdezés szerkesztése** lehetőséget a legördülő menüből, vagy
+>- Jelentés nézetben válassza ki a **Lekérdezések szerkesztése** > **Lekérdezés szerkesztése** lehetőséget a **Külső adatok** csoportban a **Kezdőlap** szalagfülön. 
+
+## <a name="create-a-visualization"></a>Vizualizáció létrehozása
+
+Vizualizáció létrehozása az adatok alapján: 
+
+1. Válassza ki az **Ország** mezőt a **Mezők** ablaktáblán, vagy húzza azt a jelentésvászonra. A Power BI Desktop felismeri, hogy az adatok országnevek, és automatikusan létrehoz egy **Térkép** vizualizációt. 
+   
+   ![Térkép vizualizáció](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/get-data-web14.png)
+   
+2. Húzza a fogópontokat a képernyő sarkai felé, hogy felnagyítsa a térképet és lássa az összes győztes ország nevét.  
+
+   ![Térkép nagyítása](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage14.png)
+   
+3. A térkép azonos adatpontokat mutat minden olyan ország esetén, amelyek valaha Európa-bajnokságot nyertek. Ha szeretné, hogy az egyes adatpontok méreteiből kiderüljön, hogy egy adott ország hányszor győzött, húzza az **Év** mezőt az **Ide húzhatja az adatmezőket** feliratra a **Méret** lehetőség alatt, a **Vizualizációs elemek** ablaktábla alsó részén. A mező automatikusan **Évek száma** mezőre változik, a térképen pedig azok az országok, amelyek több bajnokságot is megnyertek, nagyobb adatponttal rendelkeznek majd. 
    
    ![](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage15.png)
+   
 
-Amint láthatja, a jelentésekhez könnyen készíthetők vizualizációk, így tetszőleges módon lehet bemutatni az adatokat. A Power BI Desktop teljes körű szolgáltatást nyújt, lehetővé téve az adatok számos különféle adatforrásból való beszerzését, az elemzési igényeknek megfelelő átalakítását, valamint a látványos és interaktív módon történő megjelenítését. Miután elkészült a jelentés, [felöltheti azt a Power BI-ba](desktop-upload-desktop-files.md), és létrehozhat azon alapuló irányítópultokat, amelyeket más Power BI-felhasználókkal meg is oszthat.
+## <a name="customize-the-visualization"></a>Vizualizáció testreszabása
 
-Ezzel az **adatok webes forrásból történő importálását** ismertető oktatóanyag végéhez is ért. Az elkészült Power BI Desktop-fájlt [innen](http://download.microsoft.com/download/1/4/E/14EDED28-6C58-4055-A65C-23B4DA81C4DE/Analyzing_Data_From_The_Web.pbix) töltheti le.
+Ahogyan láthatta, rendkívül egyszerűen tud létrehozni vizualizációs elemeket adatai alapján. Vizualizációs elemeit ugyanilyen könnyedén testre is szabhatja, hogy az adatok úgy jelenjenek meg, ahogy az a leginkább megfelel az Ön számára. 
 
-## <a name="where-else-can-i-get-more-information"></a>Hol olvashatok további információkat?
+### <a name="format-the-map"></a>A térkép formázása
+Ha szeretné megváltoztatni egy vizualizációs elem megjelenését, válassza ki az elemet, majd kattintson a **Formázás** (festőhenger) ikonra a **Vizualizációs elemek** ablaktáblán. A „Németország” adatpont(ok) például megtévesztőek lehetnek a térkép vizualizáción, ugyanis Nyugat-Németország két bajnokságot is megnyert, Németország viszont csak egyet, a térkép azonban egymásra helyezi a két pontot ahelyett, hogy különválasztaná vagy egyesítené azokat. Ha szeretné felhívni erre a figyelmet, adjon meg különböző színeket ehhez a két ponthoz. A térképnek még inkább leíró jellegű, vonzó címet is adhat. 
+
+1. A vizualizáció kijelölése után kattintson a **Formázás** ikonra, és válassza ki az **Adatszínek** lehetőséget a lehetséges adatszíneket tartalmazó mező kibontásához. 
+   
+   ![Adatszínek formázása](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/get-data-web15.png)
+   
+2. Az **Összes megjelenítése** lehetőségnél válassza a **Be** opciót, majd kattintson a legördülő menüre **Nyugat-Németország** mellett és válassza ki az egyik sárga színt. 
+   
+   ![Szín módosítása](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/get-data-web16.png)
+   
+3. Kattintson a **Cím** lehetőségre a címbeállítások kibontásához, és a **Címszöveg** mezőbe az aktuális cím helyett írja be az **Európa-kupa győztesei** szöveget. 
+4. A **Betűszínt** állítsa át pirosra, a **Szövegméretet** állítsa **12**-esre, a **Betűcsaládot** pedig módosítsa a **Segoe (Bold)** lehetőségre. 
+   
+   ![Adatszínek formázása](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/get-data-web17.png)
+   
+
+Az Ön térkép vizualizációja jelenleg így néz ki:
+
+![Formázott térkép vizualizáció](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/get-data-web18.png)
+   
+### <a name="change-the-visualization-type"></a>Vizualizáció típusának módosítása
+Egy vizualizáció típusának módosításához válassza ki az adott vizualizációt, majd kattintson egy másik ikonra a **Vizualizáció** ablaktábla tetején. Térkép vizualizációja például nem tartalmazza a Szovjetunióra és Csehszlovákiára vonatkozó adatokat, ezek az országok ugyanis már nem szerepelnek a világtérképen. Más típusú vizualizációk, például egy fatérkép vagy egy tortadiagram pontosabb képet adhatnak, mivel ezek minden értéket megjelenítenek. 
+
+Ha a térképet tortadiagramra szeretné cserélni, jelölje ki a térképet, majd kattintson a **Tortadiagram** ikonra a **Vizualizáció** ablaktáblán. 
+   
+![](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/get-data-web19.png)
+
+>[!TIP]
+>- Az **Adatszínek** formázási lehetőséggel „Németország” és „Nyugat-Németország” esetén megadhatja ugyanazt a színt. 
+>- Ha szeretné csoportosítani a tortadiagramon a legtöbb győzelmet aratott országokat, válassza a három pont (**...** ) lehetőséget a vizualizáció jobb felső sarkában, majd válassza ki a **Rendezés az Évek száma szerint** lehetőséget a legördülő menüből. 
+
+A Power BI Desktop teljes körű szolgáltatást nyújt, lehetővé téve az adatok számos különféle adatforrásból való beszerzését, az elemzési igényeknek megfelelő átalakítását, valamint látványos és interaktív módon történő megjelenítését. Miután elkészült a jelentés, [felöltheti azt a Power BI-ba](desktop-upload-desktop-files.md), és létrehozhat azon alapuló irányítópultokat, amelyeket más Power BI-felhasználókkal meg is oszthat.
+
+## <a name="see-also"></a>Lásd még:
 * [Olvassa el a többi Power BI Desktop-oktatóanyagot](http://go.microsoft.com/fwlink/?LinkID=521937)
 * [Tekintse meg a Power BI Desktop videóit](http://go.microsoft.com/fwlink/?LinkID=519322)
 * [Látogasson el a Power BI fórumára](http://go.microsoft.com/fwlink/?LinkID=519326)

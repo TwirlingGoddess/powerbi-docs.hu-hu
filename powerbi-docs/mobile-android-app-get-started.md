@@ -1,29 +1,22 @@
 ---
-title: "Első lépések a Power BI mobilalkalmazással Android rendszerű telefonokon"
-description: "Bemutatjuk, hogyan hozza a Microsoft Power BI androidos mobilalkalmazása a Power BI-t az Ön zsebébe, a helyszíni és felhőbeli üzleti információkhoz való mobil hozzáféréssel együtt."
-services: powerbi
-documentationcenter: 
+title: Első lépések az androidos eszközökhöz készült Power BI mobilalkalmazással
+description: Bemutatjuk, hogyan hozza a Microsoft Power BI androidos mobilalkalmazása a Power BI-t az Ön zsebébe, a helyszíni és felhőbeli üzleti információkhoz való mobil hozzáféréssel együtt.
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: complete
-qualitydate: 05/18/2016
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 10/13/2017
+ms.component: powerbi-mobile
+ms.topic: conceptual
+ms.date: 05/07/2018
 ms.author: maggies
-ms.openlocfilehash: aed84f27ff838456b519283f45ae5f58feaf2521
-ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
+ms.openlocfilehash: 84a2fe350c1146591aa89c5900c10f2747e90cf3
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 05/17/2018
+ms.locfileid: "34297446"
 ---
-# <a name="get-started-with-the-power-bi-mobile-app-on-android-phones"></a>Első lépések a Power BI mobilalkalmazással Android rendszerű telefonokon
+# <a name="get-started-with-the-power-bi-mobile-app-on-android-devices"></a>Első lépések az androidos eszközökhöz készült Power BI mobilalkalmazással
 A Microsoft Power BI Android rendszerű eszközökön futó alkalmazása mobil felületet nyújt a Power BI, a Power BI jelentéskészítő kiszolgáló és a Reporting Services használatához. Bárhonnan megtekintheti és kezelheti helyszíni vagy felhőbeli céges irányítópultjait élő, érintésre reagáló mobil hozzáféréssel. Fedezze fel az adatokat az irányítópultokon, és ossza meg eredményeit munkatársaival e-mailben vagy SMS-ben. 
 
 ![Irányítópult az androidos Power BI-alkalmazásban](media/mobile-android-app-get-started/power-bi-android-dashboard-optimized-090117.png)
@@ -33,34 +26,37 @@ A Power BI Desktopban létrehozhat Power BI-jelentéseket és közzéteheti őke
 * [Közzéteheti őket a Power BI szolgáltatásban](service-get-started.md), és irányítópultokat hozhat létre.
 * [Közzéteheti őket a helyszínen a Power BI jelentéskészítő kiszolgálón](report-server/quickstart-create-powerbi-report.md).
 
-Ezután az androidos Power BI-alkalmazásban dolgozhat az irányítópultjaival és jelentéseivel, akár a helyszínen, akár a felhőben.
+Ezután az androidos Power BI alkalmazásban a helyszínen és a felhőben is dolgozhat az irányítópultokkal és a jelentésekkel.
 
 Ismerje meg [a Power BI mobilalkalmazások újdonságait](mobile-whats-new-in-the-mobile-apps.md).
 
-## <a name="first-things-first"></a>Először a lényeg
-* **Az alkalmazás letöltése** [Az androidos Power BI-alkalmazás letöltése](http://go.microsoft.com/fwlink/?LinkID=544867) a Play Áruházból.
+## <a name="prerequisites"></a>Előfeltételek
+
+### <a name="get-the-app"></a>Az alkalmazás beszerzése
+
+[Töltse le az Androidhoz készült Power BI alkalmazást](http://go.microsoft.com/fwlink/?LinkID=544867) a Google Play Áruházból.
   
-  A Power BI sokféle androidos telefonon futtatható. A telefonnak Android 5.0 vagy újabb operációs rendszerűnek kell lennie. Ezt a telefonján a **Beállítások** > **A telefonról** > **Android verzió** részen tudja ellenőrizni. 
-* **Kezdés az alkalmazás megnyitásakor** Az alkalmazás megnyitásakor át tudja ugrani a bejelentkezési oldalakat, így még regisztráció vagy bejelentkezés nélkül is gyorsan áttekintheti, milyen feladatok elvégzésére alkalmas az androidos telefonon futó Power BI alkalmazás. Koppintson a **Kihagyás** lehetőségre a minták megismeréséhez, és hogy gyakorolhassa az alkalmazás felületének használatát. Az irányítópultok kezdőlapjáról bármikor [visszatérhet a példákhoz](mobile-android-app-get-started.md#try-the-power-bi-and-reporting-services-samples).
-* Ismerje meg [a Power BI mobilalkalmazások újdonságait](mobile-whats-new-in-the-mobile-apps.md).
+A Power BI számos különböző androidos eszközön fut, ha azon Android 5.0 vagy annál későbbi operációs rendszer található. Az eszközt a **Beállítások** > **Az eszközről** > **Android verzió** részben ellenőrizheti. 
+
+**Indítás az alkalmazás megnyitásakor**    
+Amikor megnyitja az alkalmazást, átugorhatja a bejelentkezési oldalakat, így regisztráció vagy bejelentkezés nélkül is gyorsan áttekintheti, milyen feladatok elvégzésére alkalmas az androidos eszközön futó Power BI alkalmazás. Koppintson a **Kihagyás** gombra a példák megtekintésének mellőzése és az alkalmazás használatával kapcsolatos gyakorlati tapasztalatok szerzése érdekében. Az irányítópultok kezdőlapjáról bármikor [visszatérhet a példákhoz](mobile-android-app-get-started.md#try-the-power-bi-and-reporting-services-samples).
+
+Ismerje meg [a Power BI mobilalkalmazások újdonságait](mobile-whats-new-in-the-mobile-apps.md).
 
 ## <a name="sign-up-for-the-power-bi-service-on-the-web"></a>Regisztráció a Power BI szolgáltatásra a weben
-Ha még nem regisztrált, lépjen a [Power BI szolgáltatásra (http://powerbi.com/)](http://powerbi.com/), és hozzon létre egy saját fiókot, ahol irányítópultokat és jelentéseket hozhat létre és tárolhat, valamint összevonhatja az adatait. Ezután lépjen be a Power BI szolgáltatásba az androidos eszközről, hogy bárhonnan megtekinthesse saját irányítópultjait.
+Ha még nem regisztrált, nyissa meg a [Power BI szolgáltatást (http://powerbi.com/)](http://powerbi.com/), és hozzon létre saját fiókot az irányítópultok és jelentések létrehozásához és tárolásához, valamint az adatok összevonásához. Ezután bárhol is tartózkodjon, beléphet a Power BI-ba az androidos eszközről, és megtekintheti saját irányítópultjait.
 
 1. A Power BI szolgáltatásban koppintson a [Regisztráció](http://go.microsoft.com/fwlink/?LinkID=513879) gombra a Power BI-fiók létrehozásához.
-2. Hozzáláthat [saját irányítópultok és jelentések létrehozásához](service-get-started.md).
+2. Hozzáláthat a [saját irányítópultok és jelentések létrehozásához](service-get-started.md).
 
-## <a name="get-started-with-the-power-bi-app-on-your-phone"></a>Első lépések a Power BI alkalmazással a telefonján
-1. Az androidos telefonján nyissa meg az androidos Power BI alkalmazást a kezdőképernyőről.
+## <a name="get-started-with-the-power-bi-app-on-your-device"></a>Első lépések az eszközön futó Power BI alkalmazással
+1. Nyissa meg az Androidhoz készült Power BI alkalmazást az androidos eszköz nyitóképernyőjéről.
    
    ![Power BI ikon](media/mobile-android-app-get-started/power-bi-logo-android.png)
 2. A Power BI irányítópultjai és jelentései megtekintéséhez koppintson a **Power BI** lehetőségre.  
    
-   > [!IMPORTANT]
-   > Ha azt az üzenetet látja, hogy nem tud bejelentkezni a Power BI-ba, akkor a probléma megoldásának részleteiért tekintse meg [„A hitelesítés nem sikerült, mert a vállalati SSL-tanúsítványt nem megbízhatóként kezeli ez az eszköz”](mobile-android-app-error-corporate-ssl-account-is-untrusted.md) című cikket.
-   > 
-   > 
-   
+   Ha azt az üzenetet látja, hogy nem tud bejelentkezni a Power BI-ba, akkor a probléma megoldásának részleteiért tekintse meg [„A hitelesítés nem sikerült, mert a vállalati SSL-tanúsítványt nem megbízhatóként kezeli ez az eszköz”](mobile-android-app-error-corporate-ssl-account-is-untrusted.md) című cikket.
+
    A Power BI jelentéskészítő kiszolgálói és Reporting Services-jelentések és KPI-k megtekintéséhez koppintson a **Jelentéskészítő kiszolgáló** lehetőségre.
    
    ![Bejelentkezés a Power BI-ba](media/mobile-android-app-get-started/power-bi-connect-to-login.png)
@@ -120,9 +116,9 @@ A Microsoft Intune segítségével a cégek szabályozhatják az olyan elemeket,
 További információk az [Android rendszerhez készült Power BI-mobilalkalmazások Microsoft Intune-nal történő konfigurálásáról](service-admin-mobile-intune.md). 
 
 ## <a name="next-steps"></a>Következő lépések
-Néhány további tevékenység következik, amelyeket az androidos Power BI alkalmazásban tud elvégezni Power BI-irányítópultokkal és -jelentésekkel, valamint a Power BI jelentéskészítő kiszolgálón vagy a Reporting Services webes portálján lévő jelentésekkel és KPI-kkel.
+Az androidos Power BI alkalmazásban az alábbi műveleteket is elvégezheti a Power BI-irányítópultokkal és -jelentésekkel, valamint a Microsoft Power BI jelentéskészítő kiszolgálón vagy a Reporting Services webes portálján található jelentésekkel és KPI-kkel.
 
-### <a name="power-bi-dashboards-and-reports"></a>Power BI-irányítópultok és -jelentések
+### <a name="power-bi-dashboards-and-reports"></a>A Power BI irányítópultok és jelentések
 * [Az alkalmazásai](service-install-use-apps.md) megtekintése.
 * Megtekintheti [irányítópultjait](mobile-apps-view-dashboard.md).
 * Felfedezheti [irányítópultjai csempéit](mobile-tiles-in-the-mobile-apps.md).
@@ -130,7 +126,7 @@ Néhány további tevékenység következik, amelyeket az androidos Power BI alk
 * Megtekintheti [alkalmazásait](service-install-use-apps.md).
 * [Jegyzettel láthat el és megoszthat csempéket](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md).
 * [Irányítópultok](mobile-share-dashboard-from-the-mobile-apps.md) megosztása.
-* [Power BI QR-kód beolvasása](mobile-apps-qr-code.md) kapcsolódó irányítópult vagy jelentés megnyitásához. 
+* [Power BI QR-kód beolvasása](mobile-apps-qr-code.md) androidos telefonnal egy kapcsolódó irányítópult vagy jelentés megnyitásához. 
 * A [Power BI-fiókba érkezett, változásokkal kapcsolatos értesítések megtekintése](mobile-apps-notification-center.md) (például a munkatársak által megosztott irányítópultokkal kapcsolatban).
 
 ### <a name="reports-and-kpis-on-the-power-bi-report-server-and-reporting-services-web-portals"></a>Jelentések és KPI-k a Power BI jelentéskészítő kiszolgáló és a Reporting Services webes portálján
