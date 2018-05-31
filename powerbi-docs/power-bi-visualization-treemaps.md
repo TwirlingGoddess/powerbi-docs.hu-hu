@@ -1,22 +1,30 @@
 ---
 title: Fatérképek a Power BI-ban
 description: Fatérképek a Power BI-ban
+services: powerbi
+documentationcenter: ''
 author: mihart
 manager: kfile
-ms.reviewer: ''
+backup: ''
+editor: ''
+tags: ''
 featuredvideoid: IkJda4O7oGs
+qualityfocus: no
+qualitydate: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
-ms.topic: conceptual
+ms.devlang: NA
+ms.topic: article
+ms.tgt_pltfrm: NA
+ms.workload: powerbi
 ms.date: 01/23/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 8b3f49487677f00e1026c9eab813633f470e6b41
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 5c9ce6b7b25170e87ea3474519036e854b15e940
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 05/17/2018
-ms.locfileid: "34295353"
+ms.lasthandoff: 05/07/2018
+ms.locfileid: "33813208"
 ---
 # <a name="treemaps-in-power-bi"></a>Fatérképek a Power BI-ban
 A fatérképek a hierarchikus adatokat beágyazott téglalapokként jelenítik meg.  A hierarchia minden egyes szintjét egy színes téglalap (más néven „ág”) jelöli, amely további téglalapokat („leveleket”) tartalmaz.  Egy téglalapon belül a hely lefoglalása a mért mennyiségi értékek alapján, méret szerint rendezve történik – bal oldalt felül találhatók a legnagyobb téglalapok, jobbra alul pedig a legkisebbek.
