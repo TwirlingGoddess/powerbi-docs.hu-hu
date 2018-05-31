@@ -1,29 +1,20 @@
 ---
 title: 'Oktatóanyag: A Power BI jelentéskészítő kiszolgáló áttekintése virtuális gépen'
 description: Ebben az oktatatóanyagban virtuális gépet hozhat létre az előre telepített Power BI jelentéskészítő kiszolgálóval, és áttekintheti a webportált.
-services: powerbi
-documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
-ms.component: powerbi-report-server
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
+ms.component: powerbi-report-server
 ms.topic: tutorial
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 05/05/2018
+ms.date: 05/18/2018
 ms.author: maggies
-ms.openlocfilehash: a77dceac19368fc7997f79513b0b5f946a914dfc
-ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
+ms.openlocfilehash: 38985014407a4d64998e25f6944f57aedcc67309
+ms.sourcegitcommit: aa8045e42b979206c600bce4a8d17de1f0620462
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 05/07/2018
-ms.locfileid: "33813944"
+ms.lasthandoff: 05/22/2018
+ms.locfileid: "34445003"
 ---
 # <a name="tutorial-explore-the-power-bi-report-server-web-portal-in-a-vm"></a>Oktatóanyag: A Power BI jelentéskészítő kiszolgáló webportáljának áttekintése virtuális gépen
 Ebben az oktatatóanyagban Azure-beli virtuális gépet hozhat létre az előre telepített Power BI jelentéskészítő kiszolgálóval, így kipróbálhatja a Power BI- és a többoldalas jelentésminták és főbb teljesítménymutatók megtekintését, szerkesztését és kezelését.
@@ -58,6 +49,8 @@ Szerencsére a Power BI csapata létrehozott egy virtuális gépet, amelyre már
 5. Hozzon létre egy felhasználónevet és jelszót.
 
 6. Az **Erőforráscsoport** alatt tartsa meg az **Új létrehozása** beállítást, és adja meg hozzá a **reportserverresourcegroup** nevet.
+
+    Ha többször elvégzi az oktatóanyagot, az első alkalom után új nevet kell adnia az erőforráscsoportnak. Egy előfizetésben nem használhatja kétszer ugyanazt az erőforráscsoport-nevet. 
 
 7. Tartsa meg a többi alapbeállítást > **OK**.
 
@@ -166,6 +159,8 @@ A webportálon megtekintheti és kezelheti a Power BI-jelentéseket, és közvet
 
     ![Power BI Desktop](media/tutorial-explore-report-server-web-portal/power-bi-report-server-power-bi-desktop.png)
 
+     A Power BI Desktop a virtuális gépen telepített verzióját használja. Jelentés feltöltéséhez nem léphet másik tartományba.
+
 3. A Mezők panelen bontsa ki az Ügyfél táblát, és húzza át a Foglalkozás mezőt a jelentésszintű szűrők közé.
 
     ![Mező áthúzása a Szűrők panelre](media/tutorial-explore-report-server-web-portal/power-bi-report-server-desktop-filter.png)
@@ -252,7 +247,9 @@ Az oktatóanyag befejezése után törölje az erőforráscsoportot, a virtuáli
 
 ## <a name="next-steps"></a>Következő lépések
 
-Az oktatóanyag elvégzése során létrehozott egy virtuális gépet Power BI jelentéskészítő kiszolgálóval. Kipróbálhatta a webportál néhány funkcióját, valamint megnyitott egy Power BI-jelentést és egy többoldalas jelentést a megfelelő szerkesztőfelületen. A folytatásban még többet tudhat meg a Power BI jelentéskészítő kiszolgálóhoz készült jelentések létrehozásáról.
+Az oktatóanyag elvégzése során létrehozott egy virtuális gépet Power BI jelentéskészítő kiszolgálóval. Kipróbálhatta a webportál néhány funkcióját, valamint megnyitott egy Power BI-jelentést és egy többoldalas jelentést a megfelelő szerkesztőfelületen. Ezen a virtuális gépen SQL Server Analysis Services-adatforrások vannak telepítve, így ezekkel létrehozhat saját Power BI- és lapszámozott jelentéseket. 
+
+A folytatásban még többet tudhat meg a Power BI jelentéskészítő kiszolgálóhoz készült jelentések létrehozásáról.
 
 > [!div class="nextstepaction"]
 > [Power BI-jelentés létrehozása a Power BI jelentéskészítő kiszolgálóhoz](./quickstart-create-powerbi-report.md)
