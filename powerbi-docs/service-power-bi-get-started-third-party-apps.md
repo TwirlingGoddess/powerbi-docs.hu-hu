@@ -11,10 +11,11 @@ ms.date: 08/10/2017
 ms.author: maghan
 LocalizationGroup: Get started
 ms.openlocfilehash: 7ac6cee3331333b40119d6f5ab014b2e39d2ef23
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34251749"
 ---
 # <a name="get-started-with-third-party-apps"></a>Első lépések harmadik féltől származó alkalmazásokkal
 A Power BI segítségével olyan alkalmazásokat is használhat, amelyeket Microsofton kívüli cégek vagy személyek hoztak létre. Például használhat olyan, harmadik féltől származó alkalmazást, amely a Power BI csempéit egy egyénileg létrehozott webes alkalmazással integrálja. Harmadik féltől származó alkalmazás használata esetén a rendszer arra kéri, hogy adjon az alkalmazásnak bizonyos engedélyeket a Power BI-fiókhoz és annak erőforrásaihoz. Fontos, hogy csak olyan alkalmazásoknak adjon engedélyeket, amelyeket ismer, és amelyekben megbízik. Az alkalmazásnak adott engedély bármikor visszavonható. Lásd: [Harmadik féltől származó alkalmazások engedélyének visszavonása](#revoke).

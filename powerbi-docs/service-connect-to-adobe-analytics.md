@@ -11,10 +11,11 @@ ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: e8e9b21e62f0a91234fccf78977a696e321ed8dc
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34251621"
 ---
 # <a name="connect-to-adobe-analytics-with-power-bi"></a>Kapcsolódás az Adobe Analytics eszközhöz a Power BI használatával
 Ha a Power BI-ból kíván kapcsolódni az Adobe Analytics eszközhöz, csatlakozzon az Adobe Analytics Marketing Cloud-fiókjához. Az ekkor megjelenő alkalmazás egy Power BI-irányítópult és -jelentéskészlet segítségével tünteti fel a webhelye forgalmára és felhasználóira vonatkozó elemzéseket. Az adatok naponta egyszer automatikusan frissülnek. Az irányítópultot és a jelentéseket használhatja és megtekintheti, de nem mentheti a változásokat.
@@ -52,7 +53,7 @@ A Power BI az Adobe Analytics jelentéskészítő API segítségével a követke
 
 | **Táblázat neve** | **Oszlop adatai** |
 | --- | --- |
-| Termékek |elements=  "product" (top 25) </br> metrics="cartadditions", "cartremovals", "carts", "cartviews", "checkouts", "revenue", "units" |
+| Products |elements=  "product" (top 25) </br> metrics="cartadditions", "cartremovals", "carts", "cartviews", "checkouts", "revenue", "units" |
 | Böngészők |elements= "browser" (top 25)</br>  metrics="bounces", "bouncerate", "visitors", "visits", "uniquevisitors", "totaltimespent", "pageviews" |
 | Oldalak |elements= "page" (top 25)</br>  metrics="cartadditions", "cartremovals", "carts", "cartviews", "checkouts", "revenue", "units", "visits", "uniquevisitors", "pageviews", "bounces", "bouncerate", "totaltimespent" |
 | JavaScript engedélyezve |elements=  "javascriptenabled”, “browser” (top 25) |

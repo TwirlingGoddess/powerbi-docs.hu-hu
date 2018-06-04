@@ -11,10 +11,11 @@ ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 9506ab48e48fe04e07de8dcb08ad5234d31045cf
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34242955"
 ---
 # <a name="connect-to-clickdimensions-with-power-bi"></a>Csatlakozás a ClickDimensions eszközhöz a Power BI-ban
 A Power BI-hoz készült ClickDimensions tartalomcsomag lehetővé teszi, hogy a felhasználók a ClickDimensions marketingadataival dolgozhassanak a Power BI-ban, és további elemzéseket nyújt a vezetői csoportoknak a marketingmunka és az értékesítések elemzéséhez. A Power BI irányítópultjainak és jelentéseinek segítségével vizualizálhatja és elemezheti az e-mail-interakciókat, a webes látogatásokat és az űrlapbeküldéseket.
