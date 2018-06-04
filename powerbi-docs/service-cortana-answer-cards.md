@@ -11,10 +11,11 @@ ms.date: 05/02/2018
 ms.author: mihart
 LocalizationGroup: Create reports
 ms.openlocfilehash: d2f657423903b783c2e57822cabb577acd10a8bc
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34294686"
 ---
 # <a name="use-power-bi-service-or-power-bi-desktop-to-create-a-custom-answer-page-for-cortana"></a>A Power BI szolgáltatás vagy a Power BI Desktop használata egyéni válaszoldal létrehozására Cortanához
 A Power BI teljes funkcionalitásának használata *Cortana-válaszoldalaknak* (vagy néha *Cortana-válaszkártyáknak*) nevezett, kifejezetten a Cortana-kérdések megválaszolására tervezett, különleges jelentésoldalak létrehozására.

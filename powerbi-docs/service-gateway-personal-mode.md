@@ -11,10 +11,11 @@ ms.date: 12/14/2017
 ms.author: mblythe
 LocalizationGroup: Gateways
 ms.openlocfilehash: 093339e820c45fcbd586bd1eb6d8933b6e5743f8
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34298205"
 ---
 # <a name="on-premises-data-gateway-personal-mode"></a>Helyszíni adatátjáró (személyes mód)
 Az átjáró használatával vehetők igénybe a helyszíni adatforrások, illetve létrehozhatók Power BI-jelentések és -irányítópultok. Az **átjárók** olyan szoftverek, amelyek hozzáférést biztosítanak egy helyszíni magánhálózaton tárolt adatokhoz, majd lehetővé teszik ezen adatok felhasználását olyan online szolgáltatásokban, mint a **Power BI szolgáltatás**. A **helyszíni adatátjáró (személyes mód)** a Power BI egy nemrég kiadott frissítése, amely lehetővé teszi személyek számára, hogy telepítsenek a számítógépükön egy átjárót, és hozzáférést szerezzenek helyszíni adatokhoz.

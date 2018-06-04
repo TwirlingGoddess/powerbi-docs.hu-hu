@@ -11,10 +11,11 @@ ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Data from databases
 ms.openlocfilehash: a656866b1c9cdc0d1eb83b67c0edf79c182d1a71
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34244433"
 ---
 # <a name="azure-and-power-bi"></a>Az Azure és a Power BI
 Az **Azure** szolgáltatások és a **Power BI** segítségével adatfeldolgozási erőfeszítéseit elemzésekké és jelentésekké alakíthatja, amelyek valós idejű betekintést nyújtanak üzleti tevékenységébe. Legyen az adatfeldolgozás felhőalapú vagy helyszíni, egyszerű vagy összetett, egyetlen forrásból származó vagy tömegesen skálázott, raktározott vagy valós idejű, az Azure és a Power BI biztosítja a beépített kapcsolódást és integrációt üzletiintelligencia-erőfeszítéseinek életre keltéséhez.

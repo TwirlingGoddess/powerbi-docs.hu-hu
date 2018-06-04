@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: tutorial
 ms.date: 05/08/2018
 ms.author: maggies
-ms.openlocfilehash: 5c8afc963c67493c30821048736d914d3aec278e
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 8cb9e78898228aa7dad82db76d1d7da1a7151702
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 05/17/2018
-ms.locfileid: "34297860"
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34561425"
 ---
 # <a name="tutorial-ask-questions-about-your-data-with-the-qa-virtual-analyst-in-ios-apps---power-bi"></a>Oktatóanyag: Adatokkal kapcsolatos kérdések feltevése a Power BI Q&A virtuális elemzőjével iOS-alkalmazásokban
 
@@ -132,5 +132,5 @@ Amikor végzett az oktatóanyaggal, nyugodtan törölheti a Lehetőségelemzési
 
 Kipróbálta a Q&A virtuális asszisztenst az iOS-es Power BI-mobilalkalmazásban. Tájékozódjon tovább a Power BI szolgáltatás Q&A funkciójáról.
 > [!div class="nextstepaction"]
-> [Q&A a Power BI szolgáltatásban](/.power-bi-q-and-a.md)
+> [Q&A a Power BI szolgáltatásban](power-bi-q-and-a.md)
 

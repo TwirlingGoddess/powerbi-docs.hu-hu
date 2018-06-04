@@ -11,10 +11,11 @@ ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: 3575a94ede595b4d83fef0cddcbb279ea7a533c0
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34285531"
 ---
 # <a name="use-ribbon-charts-in-power-bi"></a>Szalagdiagramok használata a Power BI-ban
 Szalagdiagramok használatával megjelenítheti az adatokat a **Power BI**-ban, és gyorsan meghatározhatja a legmagasabb rangú (legnagyobb értéket képviselő) adatkategóriát. A szalagdiagramokkal hatékonyan ábrázolható a rangok időbeli változása: minden időszakban a legmagasabb rangú (értékű) kategória látható felül. A szalagdiagramok a 2017. szeptemberi kiadástól érhetők el a **Power BI Desktopban**, a **Power BI szolgáltatásban** pedig az ezt követő frissítésekben.
