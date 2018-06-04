@@ -11,10 +11,11 @@ ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Data refresh
 ms.openlocfilehash: b7a49a04ed344d6977dba5ac739c0f0d41aca5b9
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34239130"
 ---
 # <a name="refresh-a-dataset-created-from-an-excel-workbook-on-onedrive-or-sharepoint-online"></a>A OneDrive-on vagy a SharePoint Online-on található Excel-munkafüzetből létrehozott adatkészlet frissítése
 Importálhat a helyi gépén vagy egy felhőbeli tárhelyben (például a OneDrive Vállalati verzióban vagy a SharePoint Online-on) tárolt Excel-munkafüzeteket. Ebben a cikkben a felhőbeli tárhelyek az Excel-fájlokkal való használatának előnyeit ismertetjük. További információ az Excel-fájlok a Power BI-ba való importálásáról: [Adatok lekérdezése Excel-munkafüzetből](service-excel-workbook-files.md).
