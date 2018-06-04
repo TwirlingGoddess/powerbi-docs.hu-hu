@@ -11,10 +11,11 @@ ms.date: 04/11/2018
 ms.author: mihart
 LocalizationGroup: Reports
 ms.openlocfilehash: 35bdf975d9df31ded5a7c3f5be26ae6181002169
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34240430"
 ---
 # <a name="interact-with-a-report-in-editing-view-in-power-bi-service"></a>Jelentés használata Szerkesztő nézetben a Power BI szolgáltatásban
 A jelentések a Power BI szolgáltatásban és a Power BI Desktopban hozhatók létre és szerkeszthetők. A Power BI szolgáltatásban a jelentések a **Szerkesztő nézetben** hozhatók létre és szerkeszthetők. A Power BI Desktopban pedig a jelentések a [**Jelentés nézetben**](desktop-report-view.md) hozhatók létre és szerkeszthetők. Ez a cikk a Power BI szolgáltatás Olvasó nézetét ismerteti. 
