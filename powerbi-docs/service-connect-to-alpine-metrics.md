@@ -11,10 +11,11 @@ ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: d9e70e0b69f0ce68826f566e6e5cdb0f4d8e113e
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34242932"
 ---
 # <a name="connect-to-alpine-metrics-sales-predictions-with-power-bi"></a>Kapcsolódás a Power BI-ból az Alpine Metrics Sales Predictionshöz
 Az Alpine Metrics a legkorszerűbb prediktív értékesítésifolyamat-optimalizálási szolgáltatást biztosítja a felhőben és igény szerint, kis és nagy értékesítési vállalatok számára. A Power BI-hoz készült Alpine Metrics Sales Predictions-tartalomcsomag mélyebb elemzési lehetőségeket biztosít az üzlete jövőjével kapcsolatban, és egyebek között olyan metrikákat tartalmaz, mint a lehetséges és az előrejelzett eladások és kockázatok. 

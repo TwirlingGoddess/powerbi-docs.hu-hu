@@ -10,10 +10,11 @@ ms.date: 01/16/2018
 ms.author: maggies
 LocalizationGroup: Model your data
 ms.openlocfilehash: ed8a0990c9da2da877c32a0ef44c676f91e0f493
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34291397"
 ---
 # <a name="set-geographic-filters-in-power-bi-desktop-for-the-mobile-apps"></a>Földrajzi szűrők beállítása mobilalkalmazásokhoz a Power BI Desktopban
 A Power BI Desktopban [kategorizálhatja egy oszlop földrajzi adatait](desktop-data-categorization.md), így a Power BI Desktop tudja, hogyan kezelje az értékeket egy jelentés vizualizációiban. További előny, hogy ha Ön vagy munkatársai a Power BI mobilalkalmazásokban tekintik meg a jelentést, a Power BI automatikusan az Ön helyzetének megfelelő földrajzi szűrést biztosít. 

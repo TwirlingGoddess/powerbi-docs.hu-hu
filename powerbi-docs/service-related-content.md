@@ -12,10 +12,11 @@ ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Get started
 ms.openlocfilehash: 9aa0169f76515dd2f05a3e9debb8bc3d10cbdd07
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34250146"
 ---
 # <a name="view-related-content-in-power-bi-service"></a>Kapcsolódó tartalom megtekintése a Power BI szolgáltatásban
 A **Kapcsolódó tartalom** ablaktáblában megtekintheti, hogyan vannak összekapcsolva a különböző Power BI-tartalmak – irányítópultok, jelentések és adatkészletek.  És ami még jobb, erről az ablaktábláról elvégezheti az olyan gyakori feladatokat is, mint a frissítés, az átnevezés, az értékelések készítése és még sok minden más. Ha kiválaszt egy kapcsolódó jelentést vagy irányítópultot, az megnyílik a Power BI munkaterületén.   

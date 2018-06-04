@@ -11,10 +11,11 @@ ms.date: 03/23/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 44b7c8ab65accdb804c7a4b8afd19b1598137dbe
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34295445"
 ---
 # <a name="copy-and-paste-a-visualization-in-power-bi-service-and-power-bi-desktop"></a>Vizualizációk másolása és beillesztése a Power BI szolgáltatásban és a Power BI Desktopban
 A vizualizációk másolásához és beillesztéséhez a jelentésre vonatkozó szerkesztési jogosultságok szükségesek. A Power BI szolgáltatásban ehhez a [Szerkesztési nézetben](service-reading-view-and-editing-view.md) kell tudni megnyitni a jelentést.
