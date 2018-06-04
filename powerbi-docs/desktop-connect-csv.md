@@ -11,10 +11,11 @@ ms.date: 04/24/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: 15651c29dc333385156b1e82f55cab0d315c9862
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34291143"
 ---
 # <a name="connect-to-csv-files-in-power-bi-desktop"></a>Csatlakozás CSV-fájlokhoz a Power BI Desktopban
 A Power BI Desktopban a vesszővel tagolt adatfájlhoz (*CSV*) való csatlakozás hasonlít az Excel-munkafüzethez való csatlakozáshoz. Mindkettő egyszerű, és ez a cikk lépésről lépésre bemutatja, hogyan csatlakozhat bármely CSV-fájlhoz, amelyhez hozzáfér.
