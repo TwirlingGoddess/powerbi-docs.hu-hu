@@ -11,10 +11,11 @@ ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Get started
 ms.openlocfilehash: 183d0fdcf164ca706dd1704ea1c503f59ca7d715
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34252324"
 ---
 # <a name="data-sources-for-the-power-bi-service"></a>Adatforrások a Power BI szolgáltatásban
 A Power BI legfontosabb összetevői maguk az adatok. Amikor adatokat vizsgál, diagramokat és irányítópultokat hoz létre, és kérdéseket tesz fel a Q&A-jel, akkor a kapott vizualizációk és válaszok alapjául szolgáló adatok valójában egy adatkészletből származnak. De honnan származik ez az adatkészlet? Természetesen egy adatforrásból.
