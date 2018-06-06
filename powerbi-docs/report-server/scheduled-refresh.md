@@ -9,12 +9,12 @@ ms.component: powerbi-report-server
 ms.topic: conceptual
 ms.date: 11/01/2017
 ms.author: maghan
-ms.openlocfilehash: fceeda7a135d097c3269c25e25fde0c8cd639767
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 1e29898ed2c72b3a28bc2fd90dd430e45b5cde03
+ms.sourcegitcommit: b25ae650643b0a62f33d7c1741307137b9cec316
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34296894"
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "34799533"
 ---
 # <a name="power-bi-report-scheduled-refresh-in-power-bi-report-server"></a>A Power BI-jelentések ütemezett frissítése a Power BI jelentéskészítő kiszolgálón
 A Power BI jelentések ütemezett frissítésének köszönhetően folyamatosan naprakészek maradnak a jelentések adatai.
@@ -60,9 +60,6 @@ A jelentéskészítő kiszolgáló szokásos feladatai hasonlítanak a webalkalm
 Az Analysis Services-példányok monitorozásáról az [Analysis Services-példány monitorozása](https://docs.microsoft.com/sql/analysis-services/instances/monitor-an-analysis-services-instance) című cikk nyújt tájékoztatást.
 
 Az Analysis Servicesen belüli memóriabeállításokról a [Memóriatulajdonságok](https://docs.microsoft.com/sql/analysis-services/server-properties/memory-properties) című cikkben olvashat.
-
-### <a name="authentication-and-kerberos"></a>A hitelesítés és a Kerberos
-Ha az adatforrás a windowsos hitelesítő adatok használatára van beállítva, akkor előfordulhat, hogy ez csak a korlátozott Kerberos-delegálás konfigurálása esetén működik. Erről a [Windows-hitelesítés konfigurálása a jelentéskészítő kiszolgálón](https://docs.microsoft.com/sql/reporting-services/security/configure-windows-authentication-on-the-report-server) című cikk nyújt részletesebb tájékoztatást.
 
 ## <a name="next-steps"></a>Következő lépések
 Egy Power BI-jelentés [ütemezett frissítésének](configure-scheduled-refresh.md) konfigurálása.
