@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: d2f657423903b783c2e57822cabb577acd10a8bc
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 5d5544fba824443b1ba7b58c3e9d21f7769554d6
+ms.sourcegitcommit: b3b32b9b3935706d7caa091833bd32259d7ff6ee
 ms.translationtype: HT
 ms.contentlocale: hu-HU
 ms.lasthandoff: 06/04/2018
-ms.locfileid: "34294686"
+ms.locfileid: "34755323"
 ---
 # <a name="use-power-bi-service-or-power-bi-desktop-to-create-a-custom-answer-page-for-cortana"></a>A Power BI szolgáltatás vagy a Power BI Desktop használata egyéni válaszoldal létrehozására Cortanához
 A Power BI teljes funkcionalitásának használata *Cortana-válaszoldalaknak* (vagy néha *Cortana-válaszkártyáknak*) nevezett, kifejezetten a Cortana-kérdések megválaszolására tervezett, különleges jelentésoldalak létrehozására.
@@ -46,6 +46,12 @@ A jelentésekben a *Cortana-válaszoldal* Cortanára van méretezve, hogy megjel
    
     ![](media/service-cortana-answer-cards/pbi-cortana-page-size-new.png)
 3. Hozzon létre egy vizualizációt vagy egy vizualizációkészletet, amelyet szeretne megjeleníteni Cortanában egy meghatározott kérdésre (vagy kérdéssorra) adott válaszként.
+
+> [!NOTE]
+> Jelenleg Cortana válaszoldala nem támogatja a statikus képeket megjelenítő képeket. Megadhat az adatok URL-címe alapján dinamikus adatkiszolgálással beolvasott mátrixvizualizációkat vagy képeket táblákban. 
+> 
+> 
+
 4. Győződjön meg róla, hogy minden vizualizáció elfér az oldalszegélyeken belül. Módosíthatja a megjelenítési beállításokat, adatcímkéket, színeket és háttereket is.  
    
     ![](media/service-cortana-answer-cards/pbi_cortana_modify-new.png)

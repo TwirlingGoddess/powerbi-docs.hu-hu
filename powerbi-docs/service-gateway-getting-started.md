@@ -10,18 +10,18 @@ ms.topic: overview
 ms.date: 04/18/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: d569b68da7d13518f2d641817dfe1a68862698ac
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 1da7591a490ae5bc6d132136691db05af7cffd81
+ms.sourcegitcommit: b3b32b9b3935706d7caa091833bd32259d7ff6ee
 ms.translationtype: HT
 ms.contentlocale: hu-HU
 ms.lasthandoff: 06/04/2018
-ms.locfileid: "34297883"
+ms.locfileid: "34754909"
 ---
 # <a name="what-are-power-bi-gateways"></a>Mik a Power BI-átjárók?
 
 A Power BI-átjáró egy olyan szoftver, amelyet a helyszíni hálózaton belül telepíthet, és amely lehetővé teszi a hálózaton belüli adatok elérését. Kapuőrként figyeli a kapcsolódási kérelmeket, és csak akkor engedélyezi azokat, ha a felhasználói kérelem eleget tesz bizonyos feltételeknek. Ez lehetővé teszi, hogy a cégek az adatbázisaikat és más adatforrásaikat a helyszíni hálózaton belül tartsák, de ezzel együtt biztonságosan használhassák ezeket a helyszíni adatokat a Power BI-jelentésekhez és az irányítópultokhoz.
 
-Az alábbi ábrán egy áttekintő nézet látható, ahol az átjáró a felhőből három helyszíni számítógéphez érkező kérelmet kezel. A cikk későbbi részében erre még részletsebben is kitérünk majd.
+Egy átjáró használható egyetlen adatforráshoz vagy több adatforráshoz. Az alábbi ábrán egy áttekintő nézet látható, ahol az átjáró a felhőből három helyszíni számítógéphez érkező kérelmet kezel. A cikk későbbi részében erre még részletsebben is kitérünk majd.
 
 ![Az átjáró áttekintése](media/service-gateway-getting-started/gateway-overview.png)
 

@@ -7,22 +7,22 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 02/06/2018
+sktopms.date: 06/01/2018
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: e72e3bcca4254b957580775196d4919e88452773
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: e8af4695ba54fee91820552802cf18d8a758e8b0
+ms.sourcegitcommit: b3b32b9b3935706d7caa091833bd32259d7ff6ee
 ms.translationtype: HT
 ms.contentlocale: hu-HU
 ms.lasthandoff: 06/04/2018
-ms.locfileid: "34253093"
+ms.locfileid: "34755047"
 ---
 # <a name="frequently-asked-questions-about-power-bi"></a>Gyakori kérdések – Power BI
 * Ha bármilyen egyéb kérdése van, [kérdezze a Power BI-közösséget](http://community.powerbi.com/).
 * Továbbra sem találja a megoldást? Keresse fel a [Power BI támogatási oldalát](https://powerbi.microsoft.com/support/).
 
 ## <a name="what-is-microsoft-power-bi"></a>Mi az a Microsoft Power BI?
-A [Power BI](https://powerbi.microsoft.com/) egy olyan felhőalapú üzleti analitikai szolgáltatás, amely gyorsabban, hatékonyabban és áttekinthetőbben teszi lehetővé az adatok vizualizálását és elemzését bárkinek. A felhasználók különböző adatok széles köréhez kapcsolódhatnak az egyszerűen használható irányítópultoknak, az interaktív jelentéseknek és az olyan lenyűgöző vizualizációknak köszönhetően, amelyekkel az adatok életre kelnek.
+A Power BI egy olyan felhőalapú üzleti analitikai szolgáltatás, amely gyorsabban, hatékonyabban és áttekinthetőbben teszi lehetővé mindenki számára az adatok vizualizálását és elemzését. A felhasználók különböző adatok széles köréhez kapcsolódhatnak az egyszerűen használható irányítópultoknak, az interaktív jelentéseknek és az olyan lenyűgöző vizualizációknak köszönhetően, amelyekkel az adatok életre kelnek. További olvasnivaló arról, hogy [Mi az a Power BI](power-bi-overview.md).
 
 ## <a name="whats-the-difference-between-power-bi-and-power-bi-pro"></a>Mi a különbség a Power BI és a Power BI Pro között?
 A Power BI különböző funkciókkal segíti az adatok korszerű feltárásának megkezdését. A Power BI Pro a Power BI összes nagyszerű funkcióját tartalmazza, valamint olyan kiegészítő funkciókat kínál, mint például a további tárolókapacitás, a napi üzemezésnél gyakoribb adatfrissítés, élő adatforrások teljes interaktivitással, csoportok és így tovább. További információ: [A Power BI Pro és az ingyenes verzió közti különbség](https://powerbi.microsoft.com/pricing).
@@ -33,36 +33,20 @@ A Power BI Desktop ingyenes. A Power BI Pro ingyenes próbaverziója 60 napig ha
 ## <a name="what-if-i-have-questions-about-power-bi-premium"></a>Mi a teendő, ha kérdéseim vannak a Power BI Premium verzióval kapcsolatban?
 A Power BI Premium verzióval kapcsolatos kérdésekért lásd: [Power BI Premium – gyakori kérdések](service-premium-faq.md).
 
-## <a name="are-users-who-signed-up-after-may-3-2017-eligible-for-the-extended-pro-trial"></a>A 2017. május 3. után regisztrált felhasználók jogosultak-e a kiterjesztett Pro-próbaverzióra?
-A Power BI (ingyenes) szolgáltatásba 2017. május 3-án vagy azt követően regisztrált felhasználók nem jogosultak a kiterjesztett Pro-próbaverzió használatára. Azonban jogosultak a normál 60 napos Pro-próbaverzió használatára.
-
-## <a name="how-do-i-find-out-who-in-my-organization-is-eligible-for-the-extended-pro-trial"></a>Hogyan deríthetem ki, hogy mely munkatársaim jogosultak a kiterjesztett Pro-próbaverzió használatára?
-Bár nem létezik közvetlen módszer ennek kiderítésére, az Azure Active Directory integrált alkalmazásokat tartalmazó jelentésében megtekintheti az adott munkahely aktív felhasználóit. A jogosultsági időszakban lévő, ingyenes licenceket használó aktív felhasználók felbukkanó ablakban kapnak értesítést. További információért lásd: [Bejelentkezett Power BI-felhasználók keresése](service-admin-access-usage.md).
-
-> [!NOTE]
-> Az Azure AD-jelentésben nem látható, hogy az adott felhasználó a Power BI ingyenes vagy Pro verzióját használja-e. Csak az tekinthető meg, hogy mely felhasználók regisztráltak a Power BI-ba, és mikor jelentkeztek be. Ha egy felhasználó szerepel ebben a jelentésben, az nem feltétlenül jelenti azt, hogy az adott felhasználó jogosult a kiterjesztett Pro-próbaverzió használatára.
-> 
-> 
+## <a name="how-do-i-find-out-who-in-my-organization-has-a-power-bi-account"></a>Hogyan találhatom meg, hogy a vállalatomnál kinek van Power BI-fiókja?
+Az Azure Active Directory Power BI-hoz készült, integrált alkalmazásokat tartalmazó jelentésében megtekintheti az adott vállalat aktív felhasználóit. Az Azure AD-jelentésben nem látható, hogy az adott felhasználó a Power BI ingyenes vagy Pro verzióját használja-e. Csak az tekinthető meg, hogy mely felhasználók regisztráltak a Power BI-ba, és mikor jelentkeztek be. További információért tekintse át a [Bejelentkezett Power BI-felhasználók keresése](service-admin-access-usage.md) témát.
 
 ## <a name="what-is-power-bi-desktop"></a>Mi az a Power BI Desktop?
-A [Power BI Desktop](https://powerbi.microsoft.com/designer) egy ingyenes asztali alkalmazás, amelyet közvetlenül a saját számítógépre lehet telepíteni. A Power BI Desktop szorosan együttműködik a Power BI szolgáltatással, és speciális adatfeltárást, -átalakítást, -modellezést, valamint kifejezetten interaktív vizualizációkat használó jelentéskészítést biztosít. A felhasználó a munkáját egy fájlba mentheti, majd az adatokat és a jelentéseket közvetlenül a Power BI webhelyén teheti közzé és oszthatja meg másokkal.
+A Power BI Desktop egy ingyenes asztali alkalmazás, amelyet közvetlenül a saját számítógépre telepíthet. A Power BI Desktop szorosan együttműködik a Power BI szolgáltatással, és speciális adatfeltárást, -átalakítást, -modellezést, valamint kifejezetten interaktív vizualizációkat használó jelentéskészítést biztosít. A felhasználó a munkáját egy fájlba mentheti, majd az adatokat és a jelentéseket közvetlenül a Power BI webhelyén teheti közzé és oszthatja meg másokkal. További olvasnivaló arról, hogy [Mi az a Power BI Desktop](desktop-what-is-desktop.md).
 
 ## <a name="what-do-i-need-to-use-power-bi"></a>Mire van szükség a Power BI használatához?
-Csak egy webböngészőre és egy munkahelyi e-mail-címre.
-
->[!NOTE]
->A .gov és a .mil végződésű e-mail-címek jelenleg nem támogatottak.
+Csak egy webböngészőre és egy munkahelyi e-mail-címre. A feliratkozáshoz .gov és .mil e-mail-címeket használhat. További információért lásd: [USA-beli kormányzati szerv regisztrálása a Power BI szolgáltatásban](service-govus-signup.md) 
 
 ## <a name="why-do-i-have-to-sign-up-with-my-work-email"></a>Miért a munkahelyi e-mail-címemmel kell regisztrálni?
 A Power BI nem támogatja a fogyasztói e-mail-szolgáltatók vagy távközlési szolgáltatók által biztosított e-mail-címeket. További információ: [A Power BI önkiszolgáló regisztrációs folyamata](service-self-service-signup-for-power-bi.md).
 
-## <a name="which-work-email-addresses-are-supported"></a>Milyen munkahelyi e-mail-címek támogatottak?
-A **.edu** és a **.org** végződésű munkahelyi e-mail-címek támogatottak.
-
-A **.gov** és a **.mil** végződésű e-mail-címek jelenleg nem támogatottak.
-
 ## <a name="is-government-academic-and-non-profit-pricing-available-for-power-bi"></a>Létezik külön Power BI-díjszabás kormányzati, felsőoktatási és nonprofit intézményeknek?
-Igen. Létezik nonprofit díjszabás, ha a szolgáltatást közvetlenül a Microsofttól vásárolja meg. További információ és a regisztráció a [Microsoft termékadományokkal foglalkozó webhelyén](https://www.microsoft.com/about/philanthropies/product-donations/products/powerbi/) található. A kormányzati és a felsőoktatási intézményeknek szóló díjszabás a Microsoft Online Előfizetési Program, a közvetlen licencelés, a nagyvállalati szerződések vagy az Open-licencprogram keretében érhető el. A kormányzati szerveknek szóló díjszabás szindikálás formájában is rendelkezésre áll. A Power BI jelenleg nem érhető el az USA kormányzati közösségi felhőjében.
+Igen. Létezik nonprofit díjszabás, ha a szolgáltatást közvetlenül a Microsofttól vásárolja meg. További információ és a regisztráció a [Microsoft termékadományokkal foglalkozó webhelyén](https://www.microsoft.com/about/philanthropies/product-donations/products/powerbi/) található. A kormányzati és a felsőoktatási intézményeknek szóló díjszabás a Microsoft Online Előfizetési Program, a közvetlen licencelés, a nagyvállalati szerződések vagy az Open-licencprogram keretében érhető el. A kormányzati szerveknek szóló díjszabás szindikálás formájában is rendelkezésre áll. 
 
 ## <a name="is-power-bi-available-on-premises"></a>Elérhető a Power BI helyszíni szolgáltatásként?
 A Power BI [https://powerbi.com](https://powerbi.com) jelenleg nem érhető el privát, belső felhőszolgáltatásként. Azonban létezik három egyéb lehetőség az adatok helyszíni megtekintésére és használatára. 

@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: conceptual
-ms.date: 03/22/2018
+ms.date: 06/05/2018
 ms.author: maggies
-ms.openlocfilehash: 6d7ab55c3ecbb13b40354f67263d597f0e1179f7
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 5b4d5ea7970dd44cfebadca6935452688515aef5
+ms.sourcegitcommit: b25ae650643b0a62f33d7c1741307137b9cec316
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34297676"
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "34799418"
 ---
 # <a name="explore-reports-in-the-power-bi-mobile-apps"></a>Jelentések vizsgálata a Power BI mobilalkalmazásokban
 A következőkre vonatkozik:
@@ -81,25 +81,30 @@ Amikor kiválaszt egy értéket egy vizualizációban, az más vizualizációkat
    ![Vizualizáció rendezése](media/mobile-reports-in-the-mobile-apps/power-bi-android-tablet-report-sort.png)
 * A rendezés irányának megfordításához koppintson ismét a három pontra (**...**), és koppintson újra ugyanarra a mezőnévre.
 
-## <a name="drill-down-on-an-ipad-or-a-tablet"></a>Részletezés iPaden vagy táblagépen
-Ha egy jelentésszerző hozzáadta a részletezés funkciót a vizualizációhoz, iPaden vagy táblagépen részletezhet egy vizualizációban az annak egy részét felépítő adatokhoz. A [részletes elemzési képességet egy vizualizációhoz](power-bi-visualization-drill-down.md) a Power BI Desktopban vagy a Power BI szolgáltatásban adhatja hozzá. 
+## <a name="drill-down-and-up-in-a-visual"></a>Vizualizációk részletes elemzése és visszatérés az átfogó nézetre
+Ha egy jelentésszerző hozzáadta a részletezés funkciót a vizualizációhoz, akkor a vizualizáció részletezésével megtekintheti az annak egy részét felépítő adatokat. A [részletes elemzési képességet egy vizualizációhoz](power-bi-visualization-drill-down.md) a Power BI Desktopban vagy a Power BI szolgáltatásban adhatja hozzá. 
 
-> [!NOTE]
-> A részletes elemzés térképeken jelenleg nem működik iPaden és táblagépen.
-> 
-> 
+* Az elemleírásának megtekintéséhez koppintson a vizualizáció egy adatpontjára. Ha rendelkezik részletezési funkcióval, akkor az elemleírás alján nyilak jelennek meg, melyekre rákoppinthat. 
+  
+  ![Vizualizációk részletes elemzése](media/mobile-reports-in-the-mobile-apps/power-bi-mobile-drill-down-tooltip.png)
 
-* Koppintson egy vizualizációra. Ha szerepel felfelé és lefelé mutató nyíl a felső sarkokban ![Felhatolás és részletes elemzés ikonjai](media/mobile-reports-in-the-mobile-apps/power-bi-mobile-drill-up-down.png), akkor végezhet részletes elemzést. Ha részletes elemzést szeretne végezni egy értéken, koppintson a jobb felső sarokban lévő nyílra, majd koppintson egy értékre a vizualizációban – ebben az esetben a sötétkék FD-04 buborékra.
+* A felhatoláshoz koppintson a felfelé mutató nyílra az elemleírásban.
   
-  ![Vizualizációk részletes elemzése](media/mobile-reports-in-the-mobile-apps/power-bi-mobile-drill-down-one.png)
-* A visszahatoláshoz koppintson a felfelé mutató nyílra a bal felső sarokban.
-  
-  ![Felhatolás](media/mobile-reports-in-the-mobile-apps/power-bi-mobile-drill-up.png)
+  ![Felhatolás](media/mobile-reports-in-the-mobile-apps/power-bi-mobile-drill-up-tooltip.png)
 
-## <a name="go-back-to-my-workspace"></a>Visszatérés a Saját munkaterületre
-* Koppintson a jelentés neve melletti nyílra > koppintson a **Saját munkaterület** elemre.
-  
-  ![Vissza felfelé](media/mobile-reports-in-the-mobile-apps/power-bi-iphone-report-back.png)
+* Részletezésre a vizualizáció összes adatpontjában van lehetőség. Nyissa meg a vizualizációt fókusz módban, koppintson a Vizsgálat ikonra, majd válassza a teljes következő szint megjelenítése lehetőséget, vagy kibontással megjelenítheti a jelenlegi és a következő szintet.
+
+   ![Részletes elemzés a Power BI összes adatpontjában](media/mobile-reports-in-the-mobile-apps/power-bi-drill-down-all.png)
+
+## <a name="drill-through-from-one-page-to-another"></a>Részletező oldal megjelenítése egy másik oldalról
+
+*Részletezés* használatakor, ha rákoppint a vizualizáció egy meghatározott részére, a Power BI a jelentés egy másik oldalára irányítja, amelyet annak az értéknek az alapján szűr, amelyre koppintott. A jelentés szerzője definiálhat egy vagy több részletező beállítást, amelyek mindegyike egy másik oldalra irányítja át. Ebben az esetben kiválaszthatja, hogy melyiket szeretné részletesen megjeleníteni. A következő példában amikor a kijelző egy értékére koppint, választhat, hogy a **kiadások üzleti terület szerint** vagy a **tervezés üzleti terület szerint** részletező oldalakat jeleníti-e meg.
+
+![Részletező jelentés a Power BI Mobile-ban](media/mobile-reports-in-the-mobile-apps/power-bi-mobile-drill-through-it-spent-report.png)
+
+Részletezés használatakor a vissza gomb visszaviszi a jelentés előző oldalára.
+
+Olvassa el, hogyan [adhat hozzá részletezést a Power BI Desktopban](desktop-drillthrough.md).
 
 ## <a name="next-steps"></a>Következő lépések
 * [Telefonra optimalizált Power BI-jelentések megtekintése és használata](mobile-apps-view-phone-report.md)

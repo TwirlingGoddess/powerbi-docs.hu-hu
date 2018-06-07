@@ -10,18 +10,18 @@ ms.topic: conceptual
 ms.date: 04/10/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 04dc755eb7d575aa8438b4a5000ad40549c6220f
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: bcf012d94dedfd912479c3e51e0de388b177c294
+ms.sourcegitcommit: b3b32b9b3935706d7caa091833bd32259d7ff6ee
 ms.translationtype: HT
 ms.contentlocale: hu-HU
 ms.lasthandoff: 06/04/2018
-ms.locfileid: "34297078"
+ms.locfileid: "34755024"
 ---
 # <a name="using-auditing-within-your-organization"></a>Naplózás használata a cégnél
 
 Megtudhatja, hogyan használhatja a Power BI naplózási funkcióját a végrehajtott műveletek figyelésére és vizsgálatára. Ehhez a Biztonsági és megfelelőségi központot vagy a PowerShellt használhatja.
 
-Ha tisztában van azzal, hogy a Power BI-bérlőn ki, milyen műveletet és mely elemeken végez el, sokat segíthet a munkahelyének a követelményeknek (például a jogszabályi követelményeknek és a rekordkezelésnek) való megfelelésben.
+Ha tisztában van azzal, hogy a Power BI-bérlőn ki, milyen műveletet és mely elemeken végez el, sokat segíthet a munkahelyének a követelményeknek (például a jogszabályi követelményeknek és a rekordkezelésnek) való megfelelésben. Használhatja a Power BI naplózási funkcióját a felhasználók által végzett műveletek, például a „Jelentés megtekintése” vagy az „Irányítópult megtekintése” naplózására. Nem használhatja a naplózást engedélyek naplózására. 
 
 A naplózási adatokat dátumtartomány, felhasználó, irányítópult, jelentés, adatkészlet és tevékenységtípus szerint szűrheti. A tevékenységeket le is töltheti egy CSV-fájlban, és offline elemezheti.
 
@@ -29,18 +29,18 @@ A naplózási adatokat dátumtartomány, felhasználó, irányítópult, jelent�
 Az auditnaplók eléréséhez az alábbi követelményeknek kell megfelelnie:
 
 - Az Office 365 Biztonsági és megfelelőségi központ naplózási szakaszának eléréséhez Exchange Online-licenccel kell rendelkeznie (melyet a Office 365 nagyvállalati E3 és E5 csomagra való előfizetések tartalmaznak).
-- Globális rendszergazdának kell lennie, vagy pedig olyan Exchange-rendszergazdai szerepkörrel kell rendelkeznie, mely hozzáférést biztosít az auditnaplóhoz. 
 
-  Az Exchange-rendszergazdai szerepkörök az Exchange Felügyeleti központban szabályozhatók. További információ: [Az Exchange Online engedélyei](https://technet.microsoft.com/library/jj200692(v=exchg.150).aspx).
+- Globális rendszergazdának kell lennie, vagy pedig olyan Exchange-rendszergazdai szerepkörrel kell rendelkeznie, mely hozzáférést biztosít az auditnaplóhoz. Az Exchange-rendszergazdai szerepkörök az Exchange Felügyeleti központban szabályozhatók. További információ: [Az Exchange Online engedélyei](https://technet.microsoft.com/library/jj200692(v=exchg.150).aspx).
 
 - Ha rendelkezik hozzáféréssel az auditnaplóhoz, de nem globális rendszergazda vagy a Power BI szolgáltatás rendszergazdája, nem lesz hozzáférése a Power BI felügyeleti portáljához. Ebben az esetben az Office 365 Biztonsági és megfelelőségi központra mutató közvetlen hivatkozást kell beszereznie.
 
-> [!NOTE]
-> A Power BI-hoz készült auditnaplóknak a bérlőben történő megtekintéséhez a bérlőben szükség van legalább egy Exchange-postaláda licencre.
+- A Power BI-hoz készült auditnaplóknak a bérlőben történő megtekintéséhez a bérlőben szükség van legalább egy Exchange-postaláda licencre.
 
 ## <a name="accessing-your-audit-logs"></a>A naplók elérése
 
 A Power BI-naplók vizsgálatához lépjen be az O365 Biztonsági és megfelelőségi központba.
+
+Akár 48 órás késés is lehet a naplózás engedélyezése és a naplózási adatok megtekinthetővé válása között. Ha nem látja azonnal adatokat, ellenőrizze később az auditnaplókat. Hasonló késés lehet az auditnaplók megtekintési engedélyének megkapása és a naplók elérésének lehetővé válása között.
 
 1. Kattintson a jobb felső sarokban található **fogaskerék ikonra**.
 
@@ -56,8 +56,7 @@ A Power BI-naplók vizsgálatához lépjen be az O365 Biztonsági és megfelelő
 
 Másik lehetőségként megnyithatja az [Office 365 | Biztonsági és megfelelőségi központot](https://protection.office.com/#/unifiedauditlog).
 
-> [!NOTE]
-> Ha a nem rendszergazdai fiókoknak hozzáférést szeretne adni a naplóhoz, az engedélyeket az Exchange Online Felügyeleti központban kell hozzárendelnie. Hozzáadhat például egy felhasználót egy meglévő szerepkörcsoporthoz, például a Szervezetfelügyelet csoporthoz, vagy létrehozhat egy új szerepkörcsoportot a Naplók szerepkörrel. További információ: [Az Exchange Online engedélyei](https://technet.microsoft.com/library/jj200692\(v=exchg.150\).aspx).
+Ha a nem rendszergazdai fiókoknak hozzáférést szeretne adni a naplóhoz, az engedélyeket az Exchange Online Felügyeleti központban kell hozzárendelnie. Hozzáadhat például egy felhasználót egy meglévő szerepkörcsoporthoz, például a Szervezetfelügyelet csoporthoz, vagy létrehozhat egy új szerepkörcsoportot a Naplók szerepkörrel. További információ: [Az Exchange Online engedélyei](https://technet.microsoft.com/library/jj200692\(v=exchg.150\).aspx).
 
 ## <a name="search-only-power-bi-activities"></a>Keresés csak Power BI-tevékenységek között
 

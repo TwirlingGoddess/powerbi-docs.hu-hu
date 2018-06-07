@@ -10,11 +10,12 @@ ms.topic: conceptual
 ms.date: 04/24/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 726d084201c59182655fbaf5ef35a0e999bc07fc
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: c92e91a08026ab3e4fce4513aa8e0892fa0c3db3
+ms.sourcegitcommit: b25ae650643b0a62f33d7c1741307137b9cec316
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "34799487"
 ---
 # <a name="using-analysis-services-tabular-data-in-power-bi-desktop"></a>Az Analysis Services táblázatos adatainak használata a Power BI Desktopban
 A Power BI Desktopban kétféleképpen érheti el és kérheti le az adatokat az SQL Server Analysis Services táblázatos modelljeiből: élő kapcsolaton keresztüli feltárással vagy az elemek kiválasztásával és a Power BI Desktopba történő importálásával.
@@ -84,4 +85,10 @@ Miután létrehozott egy élő vizsgálati kapcsolattal rendelkező Power BI Des
 2. Adja meg az új kiszolgáló nevét.
    
    ![](media/desktop-analysis-services-tabular-data/pbid_sqlas_chname_dialog.png)
+   
+   
+## <a name="troubleshooting"></a>Hibaelhárítás 
+A következő lista tartalmazza az SQL Server Analysis Services (SSAS) vagy Azure Analysis Services szolgáltatáshoz való kapcsolódáskor előforduló összes ismert problémát. 
+
+* **Hiba: A modellséma nem tölthető be** – Ez a hiba általában akkor fordul elő, ha az Analysis Serviceshez csatlakozó felhasználó nem rendelkezik hozzáféréssel az adatbázishoz/modellhez.
 

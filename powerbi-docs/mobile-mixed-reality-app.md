@@ -1,25 +1,25 @@
 ---
 title: Power BI vegyes valósághoz alkalmazás (előzetes verzió)
-description: A Power BI vegyes valósághoz alkalmazásban megtekintheti az irányítópultjait és jelentéseit a virtuális világban vagy a környezetében elhelyezve.
+description: A Power BI vegyes valósághoz (előzetes verziójú) alkalmazásban megtekintheti az irányítópultjait és jelentéseit a virtuális világban vagy a környezetében elhelyezve.
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: conceptual
-ms.date: 03/13/2018
+ms.date: 06/05/2018
 ms.author: maggies
-ms.openlocfilehash: 32ef06cfdefe4ff1554cfe5f449d69583569f158
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 15c59d25814a50ce09b5b52accd0f88d74871a34
+ms.sourcegitcommit: b25ae650643b0a62f33d7c1741307137b9cec316
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34721432"
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "34799326"
 ---
 # <a name="power-bi-for-mixed-reality-app-preview"></a>Power BI vegyes valósághoz alkalmazás (előzetes verzió)
-A Power BI vegyes valósághoz alkalmazásban megtekintheti az irányítópultjait és jelentéseit a virtuális világban, vagy elhelyezheti őket igény szerint a környezetében. 
+A Power BI vegyes valósághoz (előzetes verziójú) alkalmazásban megtekintheti az irányítópultjait és jelentéseit a virtuális világban, vagy elhelyezheti őket igény szerint a környezetében. 
 
-Az irányítópultok és jelentések megtekintéséhez töltse le a Power BI vegyes valósághoz alkalmazás előzetes verzióját a Windows Áruházból. A virtuális valóságban műveleteket végezhet velük, majd kiválaszthatja, melyeket szeretné elhelyezni. 
+[A Power BI vegyes valósághoz alkalmazás letöltése](https://www.microsoft.com/p/power-bi-mobile/9nblgggzlxn1?activetab=pivot%3aoverviewtab) a Windows Store-ból: A Windows Store-ban ezt „Power BI Mobile”-nak hívják. A virtuális valóságban műveleteket végezhet az irányítópultjaival és a jelentéseivel, majd kiválaszthatja, melyeket szeretné elhelyezni. 
 
 ## <a name="two-views-windows-classic-and-holographic"></a>Két nézet: klasszikus Windows és holografikus Windows
 
