@@ -1,5 +1,5 @@
 ---
-title: Lehatolás a vizualizációk mélyebb szintjeire a Power BI-ban
+title: Részletezési mód vizualizációkban a Power BI-ban
 description: Ez a dokumentum bemutatja, hogyan lehet lehatolni a vizualizációk mélyebb szintjeire a Microsoft Power BI szolgáltatásban és a Power BI Desktopban.
 author: mihart
 manager: kfile
@@ -8,17 +8,19 @@ featuredvideoid: MNAaHw4PxzE
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 02/26/2018
+ms.date: 05/26/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: d622e6b461668d1972a78f6844bd269fb6596061
-ms.sourcegitcommit: dcde910817720c05880ffe24755034f916c9b890
+ms.openlocfilehash: f0ac0ca1bd03f06e2b7679ab4afc1b9193286f5b
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 05/19/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34584208"
 ---
-# <a name="drill-down-in-a-visualization-in-power-bi"></a>Lehatolás a vizualizációk mélyebb szintjeire a Power BI-ban
-## <a name="drill-down-requires-a-hierarchy"></a>A lehatoláshoz hierarchiára van szükség
+# <a name="drill-mode-in-a-visualization-in-power-bi"></a>Részletezési mód vizualizációkban a Power BI-ban
+
+## <a name="drill-requires-a-hierarchy"></a>A részletezéshez hierarchiára van szükség
 Ha a vizualizáció mögött hierarchikus adatstruktúra található, a részletesebb adatszintek kibonthatók. Tegyük fel például, hogy egy vizualizáció az olimpiai érmek számát jeleníti meg, sportonkénti, szakágankénti és versenyszámonkénti adathierarchia alapján. Alapértelmezés szerint a vizualizáció az érmek számát sportok szerinti bontásban (pl. gimnasztika, síelés, vízi sportok.) jeleníti meg. Ugyanakkor mivel rendelkezik hierarchiával, egy-egy vizuális elem (például egy oszlop, egy sáv vagy egy kör) kiválasztásakor egyre részletesebb ábra jeleníthető meg. Ha a **vízi sportok** elemre kattint, megjeleníthetők az úszásra, műugrásra és vízilabdára vonatkozó adatok.  Ezután ha a **műugrásra** kattint, megtekintheti a műugró, toronyugró és szinkronugró versenyszámokra vonatkozó információkat.
 
 Hierarchiát csak saját jelentéseihez adhat, mások által Önnel megosztottakhoz nem.
@@ -35,64 +37,134 @@ Sajátos hierarchiatípust képviselnek a dátumok. Amikor dátummezőt ad egy v
 > [!NOTE]
 > Ha meg szeretné tanulni, hogyan hozhatók létre hierarchiák a Power BI Desktopot használva, tekintse meg a [How to create and add hierarchies](https://youtu.be/q8WDUAiTGeU) (Hierarchiák létrehozása és hozzáadása) című videót
 > 
-> 
 
-## <a name="two-methods-to-drill-down"></a>Két lehatolási módszer
-A vizualizációkban kétféle módon lehet le- illetve felhatolni.  Ez a cikk mindkét módszert bemutatja. Mindkét módszer ugyanazt eredményezi. Használja azt, amelyiket könnyebbnek érzi.
+## <a name="prerequisites"></a>Előfeltételek
+
+1. A Power BI szolgáltatásban és a Power BI Desktopban a részletezéshez hierarchiával rendelkező vizualizációra van szükség. 
+   
+2. A lépések követéséhez [nyissa meg a Retail Analysis (Kiskereskedelmi elemzés) mintát](sample-datasets.md), majd hozzon létre egy fatérképet, mely a **Total Units This Year (Egységek éves száma összesen)** értéket (Értékek) **Territory** (Terület), **City** (Város), **PostalCode** (Irányítószám), és **Name** (Név) bontásban (Csoport) tudja megjeleníteni.  A fatérkép területből (Territory), városból (City), irányítószámból (Postal Code) és városnévből (Name) felépülő hierarchiával rendelkezik. Minden területhez egy vagy több város, minden városhoz egy vagy több irányítószám tartozik, és így tovább. Alapértelmezés szerint a vizualizáció csak a területi adatokat jeleníti meg, mert a lista első eleme a *Territory* (Terület).
+   
+   ![](media/power-bi-visualization-drill-down/power-bi-hierarcy-list.png)
+
+2. A különféle részletezési ikonok együttműködését nehéz lehet átlátni, ezért most szűrni fogjuk a fatérképet, hogy csak ezt a két kisebb területet mutassa: **KY** és **TN**. Válassza ki a fatérképet, majd a **Vizualizáció szintű szűrők** alatt bontsa ki a **Terület** részt, és válassza ki a **KY** és a **TN** elemeket.
+
+    ![szűrés KY és TN területekre](media/power-bi-visualization-drill-down/power-bi-filter.png)    
+
+   Most már csak két terület jelenik meg a fatérképen.
+
+   ![kettős részletezési ikon](media/power-bi-visualization-drill-down/power-bi-territories.png)
+
+## <a name="three-ways-to-access-the-drill-features"></a>A részletezési funkciók elérésének három módja
+A lehatolási, felhatolási és kibontási funkciókat több különféle módon is elérheti a hierarchiával rendelkező vizualizációknál. Ebben a cikkben alább az első módszer használatát mutatjuk be. Ha már megismerkedett a lehatolás és a kibontás alapjaival, mindhárom módszerrel elérheti ugyanazt az eredményt. Próbálja ki mindegyiket, és használja azt, amelyik leginkább tetszik Önnek.
+
+- Az ikonok használatához mutasson egy vizualizációra.  
+
+    ![lehatolási útvonal](media/power-bi-visualization-drill-down/power-bi-hover.png)
+
+- A menü megjelenítéséhez kattintson jobb gombbal egy vizualizációra.
+    
+    ![helyi menü](media/power-bi-visualization-drill-down/power-bi-drill-menu.png)
+
+- A Power BI menüsávjában válassza a **Böngészés** gombot.
+
+   ![](media/power-bi-visualization-drill-down/power-bi-explore.png)
+
+## <a name="drill-pathways"></a>A lehatolás útvonala
+### <a name="drill-down"></a>Lehatolás
+A vizualizációban való lehatoláshoz több módszert is használhat. A ***Lehatolás*** lehetőséggel a hierarchia következő szintjét érheti el, így ha a **Terület** szinten van, lehatolhat a város szintjére, majd az irányítószám, és végül a név szintjére is. Az útvonal minden lépésén új információhoz juthat.
+
+![lehatolási útvonal](media/power-bi-visualization-drill-down/power-bi-drill-path.png)
+
+### <a name="expand"></a>Kibontás
+
+A ***Kibontás*** a jelenlegi nézethez egy új hierarchiaszintet ad hozzá. Így ha a **Terület** szinten van, kibonthatja, azt és hozzáadhat a fatérképhez várost, irányítószámot és nevet. Az útvonal minden lépése ugyanazt az információt jeleníti meg, és egy új szintet ad hozzá új információkkal.
+
+![az útvonal kibontása](media/power-bi-visualization-drill-down/power-bi-expand-path.png)
+
+Egyesével is lehatolhat és kibonthatja a szintet, de lehetőség van arra is, hogy egyszerre az összes mezőre végezze el a műveletet. 
+
+## <a name="drill-down-all-fields-at-a-time"></a>Lehatolás minden mezőre egyszerre
+
+1. Kezdje a fatérkép legfelső szintjével, ahol a KY és a TN adatai láthatóak. Szélesítse ki a fatérképet: válassza ki az egyik fogópontot, és húzza a jobb oldalra. 
+
+    ![2 államot mutató fatérkép](media/power-bi-visualization-drill-down/power-bi-drill-down.png) .
+
+2. Ha az ***összes szinten egyszerre*** szeretne lehatolni, kattintson a vizualizáció bal felső sarkában látható, lefelé mutató dupla nyílra  ![kétszeres lehatolás ikon](media/power-bi-visualization-drill-down/power-bi-drill-icon3.png). A fatérkép most Kentucky és Tennessee városadatait mutatja. 
+
+    ![kettős részletezési ikon](media/power-bi-visualization-drill-down/power-bi-drill-down1.png)
+   
+5. Hatoljon le még egyszer az irányítószám szintre a hierarchiában.
+
+    ![kettős részletezési ikon](media/power-bi-visualization-drill-down/power-bi-drill-down2.png)
+
+3. Ha vissza szeretne lépni, válassza a vizualizáció bal felső sarkában látható felfelé mutató nyilat ![](media/power-bi-visualization-drill-down/power-bi-drill-icon5.png).
+
+
+## <a name="drill-down-one-field-at-a-time"></a>Lehatolás mezőnként
+Ez a módszer a vizualizációk felső sarkaiban megjelenő lehatolási ikonokat használja. 
+
+1. A lehatolási ikont kiválasztással kapcsolhatja be ![bekapcsolt lehatolás](media/power-bi-visualization-drill-down/power-bi-drill-icon2.png). Most már lehetősége van arra, hogy ***egyszerre egy mezőnyit hatoljon le***. 
+   
+   ![](media/power-bi-visualization-drill-down/power-bi-drill-icon-new.png)
+
+   Ha nem kapcsolja be a lehatolási módot, akkor a rendszer nem lehatolást végez, hanem a jelentésoldalon szereplő többi diagram tekintetében keresztszűrést alkalmaz, amikor rákattint valamelyik vizualizációs elemre (pl. az egyik oszlopra, egy körre vagy levélcsomópontra).
+
+2. Válassza ki a **TN**-hez tartozó *levélcsomópontot*. A fatérkép most megjeleníti az összes olyan várost Tennessee államban, amelyben van üzlet. 
+
+    ![](media/power-bi-visualization-drill-down/power-bi-drill-down-one1.png)
+
+2. Most folytathatja a lehatolást Tennessee államra, vagy lehatolhat Tennessee egy adott városára is, de lehetőség van arra is, hogy kibontást végezzen (lásd a **Minden mező kibontása** témát alább). Most folytassuk azzal, hogy egyszerre egy-egy mezőben végzünk lehatolást.  Válassza ki a **Knoxville, TN** elemet. A fatérkép most a Knoxville-ben található üzlet postai irányítószámát mutatja. 
+
+   ![](media/power-bi-visualization-drill-down/power-bi-drill-down-one2.png)
+
+    Nézze meg, hogyan változik a csempe, ahogy le- és felhatol a hierarchiában.  
+
+## <a name="expand-all-and-expand-one-field-at-a-time"></a>Az összes kibontása és egyszerre egy-egy mező kibontása
+Egy olyan fatérkép, amely mindössze egy irányítószámot mutat, nem igazán hasznos.  Ezért bontsuk ki a hierarchiát egy szinttel lejjebb.  
+
+1. Az aktív fatérképben válassza a *Kibontás lefelé* ikont ![kibontás lefelé ikon](media/power-bi-visualization-drill-down/power-bi-drill-icon6.png)  . A fatérkép most a hierarchia két szintjét mutatja: irányítószámot és üzletnevet. 
+
+    ![irányítószám és üzletnév mutatása](media/power-bi-visualization-drill-down/power-bi-expand1.png)
+
+2. Ha meg akarja tekinteni a Tennesee-hez tartozó adatok mind a 4 hierarchiaszintjét, válassza a felhatolás nyilat addig, amíg el nem éri a fatérképen a második szintet, amely a **Total units this year by territory and city** (Összes egység ebben az évben terület és város szerint). 
+
+    ![](media/power-bi-visualization-drill-down/power-bi-drill-down-one1.png)
+
+
+3. Ügyeljen rá, hogy a lehatolás még be legyen kapcsolva ![lehatolás bekapcsolva](media/power-bi-visualization-drill-down/power-bi-drill-icon2.png) , majd válassza a *kibontás lefelé* ikont ![kibontás lefelé ikon](media/power-bi-visualization-drill-down/power-bi-drill-icon6.png). A fatérkép most már további adatokat is megjelenít: a város és az állam mellett most már irányítószámot is mutat. 
+
+    ![kettős részletezési ikon](media/power-bi-visualization-drill-down/power-bi-expand-one3.png)
+
+4. Válassza a *kibontás lefelé* ikont még egyszer: ezzel megjeleníti a Tennesee-hez tartozó adatok mind a 4 hierarchiaszintjét a fatérképen. Ha még több részletet szeretne, mutasson rá egy levélcsomópontra.
+
+   ![fatérkép Tennesee adataival](media/power-bi-visualization-drill-down/power-bi-expand-all.png)
+
+## <a name="drilling-filters-other-visuals"></a>Más vizualizációk szűrése részletezéskor
+A Részletezés mód használatakor el kell döntenie, hogy a lehatolás és a kibontás milyen hatással legyen az oldal többi vizualizációjára. 
+
+Alapértelmezés szerint a lehatolás nem szűri a jelentés többi vizualizációját. Ez a funkció azonban bekapcsolható a Power BI Desktopban és a Power BI szolgáltatásban. 
+
+1. A Desktopban válassza a **Formázás** lapfület, majd jelölje be a **Más vizualizációk részletező szűrése** lehetőség melletti jelölőnégyzetet.
+
+    ![beállítás a Power BI Desktopban](media/power-bi-visualization-drill-down/power-bi-drill-filters-desktop.png)
+
+2. Ha most lehatolást, felhatolást vagy kibontást végez egy hierarchiával rendelkező vizualizációnál, ez a művelet az oldal más vizualizációit is szűrni fogja. 
+
+    ![beállítás a Desktopban](media/power-bi-visualization-drill-down/power-bi-drill-filters.png)
+
+    ![beállítás a Desktopban](media/power-bi-visualization-drill-down/power-bi-drill-filters2.png)
 
 > [!NOTE]
-> A lépések követéséhez [nyissa meg a Retail Analysis (Kiskereskedelmi elemzés) mintát](sample-datasets.md) a Power BI szolgáltatásban, majd hozzon létre egy fatérképet, mely a **Total Units This Year (Egységek éves száma összesen)** értéket (Értékek) **Territory** (Terület), **City** (Város), **PostalCode** (Irányítószám), és **Name** (Név) bontásban (Csoport) tudja megjeleníteni.  
-> 
-> 
+> A Power BI szolgáltatásban ezt úgy engedélyezheti, ha a felső menüsávban kiválasztja a **Vizuális interakciók > Más vizualizációk részletező szűrése** lehetőséget.
+>
+> ![beállítás a Power BI szolgáltatásban](media/power-bi-visualization-drill-down/power-bi-drill-filters-service.png)
 
-## <a name="method-one-for-drill-down"></a>A lehatolás első módszere
-Ez a módszer a vizualizációk felső sarkaiban megjelenő lehatolási ikonokat használja.
 
-1. A Power BI-ban nyisson meg egy jelentést [Olvasó nézetben vagy Szerkesztő nézetben](service-reading-view-and-editing-view.md). A lehatoláshoz hierarchiával rendelkező vizualizációra van szükség. 
-   
-   Az alábbi animáción egy hierarchia látható.  A vizualizáció területből (Territory), városból (City), irányítószámból (Postal Code) és városnévből (Name) felépülő hierarchiával rendelkezik. Minden területhez egy vagy több város, minden városhoz egy vagy több irányítószám tartozik, és így tovább. Alapértelmezés szerint a vizualizáció csak a területi adatokat jeleníti meg, mert a lista első eleme a *Territory* (Terület).
-   
-   ![](media/power-bi-visualization-drill-down/power-bi-hierarcy-list.png)
-2. A lehatolás engedélyezéséhez kattintson a vizualizáció jobb felső sarkában látható, nyilat ábrázoló ikonra. Ha az ikon sötét színű, az adatszintek közötti mozgás engedélyezve van (a lehatolási mód be van kapcsolva). Ha nem kapcsolja be a lehatolási üzemmódot, akkor a rendszer a jelentés oldalon szereplő többi diagram tekintetében keresztszűrést alkalmaz, amikor rákattint valamelyik vizualizációs elemre (pl. az egyik oszlopra vagy egy körre).    
-   
-   ![](media/power-bi-visualization-drill-down/power-bi-drill-icon.png)
-3. Ha **egyszerre csak egy mezőnyit** szeretne lehatolni, jelölje ki a vizualizáció egyik elemét. Egy sávdiagramban ez az egyik sáv kijelölését jelenti. Egy fatérképen ez az egyik **levél** kijelölését jelenti. Nézze meg, hogyan változik a csempe, ahogy le- és felhatol a hierarchiában. Az alábbi animációban először az egységek területenkénti éves számát, majd a területenkénti és városonkénti, majd területenkénti, városonkénti és irányítószámonkénti, és végül a területenkénti, városonkénti, irányítószámonkénti és nevenkénti teljes éves számát mutatja. Ha ismét feljebb szeretne lépni, kattintson a vizualizáció bal felső sarkában látható **Felhatolás** ![](media/power-bi-visualization-drill-down/power-bi-drill-icon5.png) ikonra, ahogy az alább látható.
-   
-   ![](media/power-bi-visualization-drill-down/drill.gif)
-4. Ha az ***összes szintet egyszerre*** szeretné kibontani, kattintson a vizualizáció bal felső sarkában látható, lefelé mutató dupla nyílra.
-   
-   ![](media/power-bi-visualization-drill-down/pbi_drillall.png)
-5. Ha vissza szeretne lépni, kattintson a vizualizáció bal felső sarkában látható felfelé mutató nyílra. Ha vissza szeretne lépni, kattintson a vizualizáció bal felső sarkában látható felfelé mutató nyílra.
-   
-   ![](media/power-bi-visualization-drill-down/pbi_drillup2.png)
-
-## <a name="method-two-for-drill-down"></a>A lehatolás második módszere
-Ehhez a módszerhez a Power BI felső menüsorában található **Tallózás** legördülő menüt kell használni.
-
-1. A Power BI-ban nyisson meg egy jelentést [Olvasó nézetben vagy Szerkesztő nézetben](service-reading-view-and-editing-view.md). A lehatoláshoz hierarchiával rendelkező vizualizációra van szükség. 
-   
-   Az alábbi ábrán egy hierarchia látható.  A vizualizáció területből (Territory), városból (City), irányítószámból (Postal Code) és városnévből (Name) felépülő hierarchiával rendelkezik. Minden területhez egy vagy több város, minden városhoz egy vagy több irányítószám tartozik, és így tovább. Alapértelmezés szerint a vizualizáció csak a területi adatokat jeleníti meg, mert a lista első eleme a *Territory* (Terület).
-   
-   ![](media/power-bi-visualization-drill-down/power-bi-hierarcy-list.png)
-2. A lehatolás engedélyezéséhez válassza ki az egyik vizualizációt, amely így aktívvá válik. Ezután a Power BI felső menüsorából válassza ki a **Tallózás** > **Lehatolás** lehetőséget. A vizualizáció jobb felső sarkában látható lehatolás ikon sötét hátterűre változik. ![](media/power-bi-visualization-drill-down/power-bi-drill-icon2.png)  
-   
-   ![](media/power-bi-visualization-drill-down/power-bi-explore2.png)
-3. Ha sikerült engedélyezni a lehatolást, bontson ki egy-egy szintet a fatérkép egy-egy levelére kattintva. Az alábbi példában a kiválasztott terület neve **NC**, így a vizualizáció az észak-karolinai (North Carolina) területen éves szinten értékesített egységek számát mutatja, városonként.
-   
-   ![](media/power-bi-visualization-drill-down/power-bi-drilldown-1.png)
-4. Ha szeretné az összes szintet egyszerre kibontani, kattintson a **Tallózás** > **A következő szint megjelenítése** lehetőségre.
-   
-   ![](media/power-bi-visualization-drill-down/power-bi-show-next-level.png)
-5. Az előző szintre történő visszalépéshez kattintson a **Tallózás** > **Felhatolás** lehetőségre.
-   
-   ![](media/power-bi-visualization-drill-down/power-bi-drill-up2.png)
-
-6. A vizualizáció létrehozásához használt adatok megjelenítéshez kattintson az **Adatok megjelenítése** lehetőségre. Az adatok a vizualizáció alatt, egy panelen jelennek meg. Az ablaktábla a vizualizációs szintek közötti mozgás során is megmarad. Ha további információra van szüksége, olvassa át a [vizualizáció létrehozásához használt adatok megjelenítéséről](service-reports-show-data.md) szóló cikket.
 
 ## <a name="understanding-the-hierarchy-axis-and-hierarchy-group"></a>A hierarchiatengely és hierarchiacsoport ismertetése
 A hierarchiatengely és a hierarchiacsoport tulajdonképpen a megtekinteni kívánt adatok részletességét szabályozó eszközöket jelenti. A kategóriákba és alkategóriákba csoportosítható minden adat rendelkezik hierarchiával. Ez természetesen magában foglalja a dátumokat és az időt.
 
-Ha egy Power BI-vizualizációt hierarchiával együtt szeretne létrehozni, jelöljön ki egy vagy több adatmezőt, amelyet a **Tengely**vagy a **Csoport** gyűjtőhöz ad, valamint az adatmezőkként vizsgálni kívánt adatokat, amelyeket az**Értékek** gyűjtőhöz ad. Ha a Részletezés mód ikonjai a vizualizáció jobb és bal felső sarkában jelennek meg, akkor biztos lehet benne, hogy az adatok hierarchikusak. 
+Ha egy Power BI-vizualizációt hierarchiával együtt szeretne létrehozni, jelöljön ki egy vagy több adatmezőt, amelyet a **Tengely**vagy a **Csoport** gyűjtőhöz ad, valamint az adatmezőkként vizsgálni kívánt adatokat, amelyeket az**Értékek** gyűjtőhöz ad. Ha a *Részletezés mód* ikonjai a vizualizáció jobb és bal felső sarkában jelennek meg, akkor biztos lehet benne, hogy az adatok hierarchikusak. 
 
 Alapvetően kétféle hierarchikus adatokkal dolgozunk:
 - Dátum- és időadatok – Ha egy Dátum/idő adattípussal rendelkező adatmezője van, akkor hierarchikus adatokkal dolgozik. A Power BI automatikusan létrehozza a hierarchiát azon adatmezőkhöz, amelyek értékei [Dátum/idő](https://msdn.microsoft.com/library/system.datetime.aspx) struktúra szerint elemezhetők. A **Tengely** vagy a **Csoport** gyűjtőhöz csak egy Dátum/Idő mezőt kell adnia.

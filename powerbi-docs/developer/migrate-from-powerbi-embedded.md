@@ -6,13 +6,14 @@ manager: kfile
 ms.reviewer: ''
 ms.Embedded: powerbi
 ms.topic: conceptual
-ms.date: 03/06/2018
+ms.date: 05/25/2018
 ms.author: maghan
-ms.openlocfilehash: bfee68658816d46e23a3b66f9b04b2069704a2b8
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.openlocfilehash: 67b52fa94ee3af9da3bfcae17f69a72e1aa46c77
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34689783"
 ---
 # <a name="how-to-migrate-power-bi-workspace-collection-content-to-power-bi-embedded"></a>Power BI-munkaterületcsoport tartalmainak migrálása a Power BI Embeddedbe
 A cikk azt mutatja be, hogyan migrálhatja az adatokat a Power BI-munkaterületcsoportokból a Power BI Embeddedbe, és hogyan aknázhatja ki az alkalmazásokba való beágyazás nyújtotta fejlett lehetőségeket.
@@ -26,9 +27,14 @@ A jelenlegi Power BI-munkaterületcsoport már csak korlátozott ideig lesz elé
 > [!IMPORTANT]
 > Bár a migrálás függőséget jelent a Power BI Embeddedtől, az alkalmazást használó ügyfelekre **beágyazási token** használata esetén nem vonatkozik Power BI-függőség. Nem kell bejelentkezniük a Power BI szolgáltatásba a beágyazott tartalmak megtekintéséhez az alkalmazásban. Ezzel a beágyazási megközelítéssel kiszolgálhatja az Embedded nem Power BI-felhasználóit.
 > 
-> 
 
 ![](media/migrate-from-powerbi-embedded/powerbi-embed-flow.png)
+
+Mielőtt megkezdené az új Power BI Embedded szolgáltatásba való migrálást, gyorsan áttekintheti a lépésenkénti útmutatót, melynek segítségével beállíthatja az új Power BI Embedded-környezetet az [Előkészítési felület eszközzel](https://aka.ms/embedsetup).
+
+Válassza ki az Ön számára megfelelő megoldást:
+* **Beágyazás az ügyfelek számára** – ha olyan megoldásra van szüksége, melyben [az adatok tulajdonosa az alkalmazás (app owns data)](https://aka.ms/embedsetup/AppOwnsData). Amennyiben az [ügyfelei számára végez beágyazást](embedding.md#embedding-for-your-customers), irányítópultokat és jelentéseket ágyazhat be olyan felhasználók számára, akik nem rendelkeznek Power BI-fiókkal. 
+* **Beágyazás a cég számára** – ha olyan megoldásra van szüksége, melyben [az adatok tulajdonosa a felhasználó (user owns data)](https://aka.ms/embedsetup/UserOwnsData). Amennyiben [a cég számára végzi a beágyazást](embedding.md#embedding-for-your-organization), kibővítheti a Power BI szolgáltatást.
 
 ## <a name="prepare-for-the-migration"></a>Előkészületek a migráláshoz
 A Power BI-munkaterület-csoport Power BI Embeddedbe való migrálásának előkészítéséhez néhány dolgot végre kell hajtania. Szükség lesz egy elérhető bérlőre, valamint egy Power BI Pro licenccel rendelkező felhasználóra.
@@ -63,10 +69,6 @@ A következő fiókoknak létezniük kell a bérlőn.
    
 > [!NOTE]
 > Ez csak a szervezet egy normál felhasználói fiókja, amely beágyazási célokra lesz használva.
->
-
-> [!NOTE]
-> Ha csak alkalmazás token típusú hitelesítés szükséges az alkalmazása számára, kattintson [ide](mailto:pbieci@microsoft.com?Subject=App-only%20token%20requirement), és vegye fel velünk a kapcsolatot.
 >
 
 ## <a name="app-registration-and-permissions"></a>Alkalmazásregisztráció és -engedélyek

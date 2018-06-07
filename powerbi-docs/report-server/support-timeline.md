@@ -7,13 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-report-server
 ms.topic: conceptual
-ms.date: 03/19/2018
+ms.date: 05/19/2018
 ms.author: maggies
-ms.openlocfilehash: 9bfcf7ab0b752cdbacefe7075e5975f7b0eb8bf9
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: a7012bf96ee0f8ac7e73d1db21e9a36f0fea88cb
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34481049"
 ---
 # <a name="support-timeline-for-power-bi-report-server"></a>A Power BI jelentéskészítő kiszolgáló támogatási ütemterve
 A Power BI jelentéskészítő kiszolgáló évente néhány alkalommal jelenik meg. A biztonsági és kritikus frissítések addig érhetők el, amíg az új kiadás általánosan elérhető nem lesz. A következő kiadás megjelenése után az előző kiadás a 12 hónapos kiadási ciklusa hátralévő idejében továbbra is letölti a biztonsági frissítéseket.
@@ -36,8 +37,8 @@ A Power BI jelentéskészítő kiszolgáló, illetve a Power BI jelentéskészí
 
 ## <a name="next-steps"></a>Következő lépések
 [A Power BI jelentéskészítő kiszolgáló újdonságai](whats-new.md)  
-[Felhasználói kézikönyv](user-handbook-overview.md)  
-[Rendszergazdai kézikönyv](admin-handbook-overview.md)  
+[A Power BI Jelentéskészítő kiszolgáló bemutatása](get-started.md)
+[Rendszergazdai áttekintés](admin-handbook-overview.md)  
 [A Power BI jelentéskészítő kiszolgáló telepítése](install-report-server.md)  
 
 További kérdései vannak? [Kérdezze meg a Power BI közösségét](https://community.powerbi.com/)

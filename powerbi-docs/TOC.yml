@@ -234,6 +234,8 @@
                   href: service-dashboard-featured.md
                 - name: A Power BI egyesített értesítési központja
                   href: service-notification-center.md
+                - name: Irányítópult-témák
+                  href: service-dashboard-themes.md
             - name: Jelentések
               items:
                 - name: A diagramok rendezésének módosítása egy Power BI-jelentésben
@@ -572,6 +574,8 @@
               href: desktop-import-excel-workbooks.md
             - name: Kapcsolódás adatokhoz általános interfész használatával
               href: desktop-connect-using-generic-interfaces.md
+            - name: Kapcsolódás az Adobe Analyticshez
+              href: desktop-connect-adobe-analytics.md
             - name: Kapcsolódás Oracle-adatbázishoz
               href: desktop-connect-oracle-database.md
             - name: R-parancsfájlok futtatása a Power BI Desktopban
@@ -616,8 +620,6 @@
               href: desktop-directquery-sap-hana.md
             - name: Hivatkozási integritás feltételezése beállítás a Power BI Desktopban
               href: desktop-assume-referential-integrity.md
-            - name: DirectQuery Oracle- és Teradata-adatbázisokhoz
-              href: desktop-directquery-for-oracle-teradata.md
             - name: Az SAP BW-összekötő használata a Power BI Desktopban (előzetes verzió)
               href: desktop-sap-bw-connector.md
             - name: OneDrive Vállalati verzióra mutató hivatkozások használata a Power BI Desktopban
@@ -788,6 +790,8 @@
           href: desktop-send-smile-privacy-statement.md
         - name: Kisegítő lehetőségek a Power BI-jelentésekben
           href: desktop-accessibility.md
+        - name: A Power BI Desktop bejelentkezési űrlapjának kezelése
+          href: desktop-admin-sign-in-form.md
 - name: Power BI – mobilalkalmazások
   items:
     - name: Áttekintés
@@ -1152,7 +1156,7 @@
   items:
     - name: Áttekintés
       items:
-        - name: Mi a Power BI-felügyelet?
+        - name: Mit jelent a Power BI-felügyelet?
           href: service-admin-administering-power-bi-in-your-organization.md
     - name: Rövid útmutatók
       items:

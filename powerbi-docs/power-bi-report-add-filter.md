@@ -7,14 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 04/13/2018
+ms.date: 05/26/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 7006d35a76780313e4d57d0d489b5b25ed92b4d2
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.openlocfilehash: e5e257fd245687f2aeb83a9ee45c0342cf16392d
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34561701"
 ---
 # <a name="add-a-filter-to-a-power-bi-service-report-in-editing-view"></a>Szűrő hozzáadása a Power BI szolgáltatás jelentéseihez (Szerkesztési nézetben)
 > [!TIP]
@@ -28,7 +29,7 @@ A cikkben található példák a Power BI szolgáltatást szemléltetik. Az elv�
 A jelentések két módban használhatók: [Olvasás nézetben](service-reading-view-and-editing-view.md) és [Szerkesztési nézetben](service-interact-with-a-report-in-editing-view.md).  A szűrési képességek attól függnek, hogy milyen módban van éppen.
 
 * Szerkesztési nézetben hozzáadhat jelentés-, oldal- és vizualizációszűrőket. Ha menti a jelentést, a rendszer a szűrőket is menti. A jelentést Olvasó nézetben megtekintő felhasználók használhatják az Ön által hozzáadott szűrőket.
-* Olvasó nézetben használható a jelentésben már szereplő összes jelentés-, részletezés-, oldal- és vizualizációszűrő, de nem lehet új szűrőket hozzáadni. A Szűrök panelen végzett módosításokat menti a rendszer a jelentéssel együtt, még akkor is, ha mobilalkalmazásban tekinti meg a jelentést.  
+* Olvasó nézetben használható a jelentésben már szereplő összes jelentés-, részletezés-, oldal- és vizualizációszűrő, de nem lehet új szűrőket hozzáadni. Ugyanakkor a Szűrök panelen végzett módosításokat menti a rendszer a jelentéssel együtt, még akkor is, ha mobilalkalmazásban tekinti meg a jelentést, vagy ha kilép a jelentésből, és később visszatér arra.  
 
 > [!NOTE]
 > Ez a cikk azt ismerteti, hogyan hozhatók létre szűrők egy jelentés **Szerkesztési nézetében**.  Az Olvasó nézet szűrőire vonatkozó további információkért tekintse át [a jelentés szűrőinek Olvasó nézetben történő használatával foglalkozó témakört](service-reading-view-and-editing-view.md).
@@ -44,7 +45,11 @@ A szűrőknek négy különböző típusa létezik.
 - **Részletezési szűrő:** A jelentés egyetlen entitására vonatkozik.    
 - **Jelentésszűrő:** A jelentés összes oldalára vonatkozik.    
 
-    ![](media/power-bi-report-add-filter/power-bi-add-filter-reading-view.png)
+    ![a szűrők ablaktáblája Olvasó nézetben](media/power-bi-report-add-filter/power-bi-add-filter-reading-view.png)
+
+Mivel a szűrőket *megőrzi* a rendszer, amikor kilép a jelentésből, a Power BI eltárolja a szűrők, a szeletelők és az adatnézet egyéb módosításait. Így amikor visszatér a jelentéshez, ott folytathatja, ahol abbahagyta. Ha nem szeretné, hogy a rendszer megőrizze a szűrők módosításait, válassza a **Visszaállítás alapértelmezettre** lehetőséget a felső menüsoron.
+
+![a megőrzött szűrők gombja](media/power-bi-report-add-filter/power-bi-reset-to-default.png)
 
 ## <a name="add-a-filter-to-a-specific-visualization-aka-visual-filter"></a>Szűrő hozzáadása egy adott vizualizációhoz (vizualizációszűrő)
 Ennek 2 módja van: 
@@ -135,12 +140,13 @@ Lássuk, hogy működik a részletezési szűrő.
 1. A vissza nyilat kiválasztva térhet vissza az előző jelentésoldalra.
 
 ## <a name="considerations-and-troubleshooting"></a>Megfontolandó szempontok és hibaelhárítás
-### <a name="why-your-visual-level-filter-and-page-level-filter-may-return-different-results"></a>Miért adhat különböző eredményt a vizualizációszintű és az oldalszintű szűrő?
-Amikor vizualizációszintű szűrőt ad meg, a Power BI az összesített eredményeket szűri.  Az alapértelmezett összesítés a Sum, de [az összesítés típusa módosítható](service-aggregates.md).  
 
-Amikor oldalszintű szűrőt ad meg, a Power BI összesítés nélkül végzi el a szűrést.  Ennek az az oka, hogy egy oldalon több, különböző típusú összesítést használó vizualizáció is lehet.  Így a rendszer minden egyes adatsorra külön alkalmazza a szűrőt.
+- Bizonyos helyzetekben a vizualizációszintű és az oldalszintű szűrő különböző eredményt adhat.  Például amikor vizualizációszintű szűrőt ad meg, a Power BI az összesített eredményeket szűri.  Az alapértelmezett összesítés a Sum, de [az összesítés típusa módosítható](service-aggregates.md).  
 
-Ha nem látja a Mezők panelt, győződjön meg arról, hogy a jelentés [Szerkesztési nézetében](service-interact-with-a-report-in-editing-view.md) van.
+    Amikor ezután oldalszintű szűrőt ad meg, a Power BI összesítés nélkül végzi el a szűrést.  Ennek az az oka, hogy egy oldalon több, különböző típusú összesítést használó vizualizáció is lehet.  Így a rendszer minden egyes adatsorra külön alkalmazza a szűrőt.
+
+- Ha nem látja a Mezők panelt, győződjön meg arról, hogy a jelentés [Szerkesztési nézetében](service-interact-with-a-report-in-editing-view.md) van.    
+- Ha nagy mennyiségű módosítást végzett a szűrőkön, és szeretne visszatérni a jelentés készítőjének alapértelmezett beállításaihoz, válassza a **Visszaállítás alapértelmezettre** lehetőséget a felső menüsoron.
 
 ## <a name="next-steps"></a>Következő lépések
  [A jelentésszűrők használata](power-bi-how-to-report-filter.md)

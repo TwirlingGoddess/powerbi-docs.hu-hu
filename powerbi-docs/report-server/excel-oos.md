@@ -9,11 +9,12 @@ ms.component: powerbi-report-server
 ms.topic: conceptual
 ms.date: 04/23/2018
 ms.author: maghan
-ms.openlocfilehash: 8a002105fcb9f5dc07197aac5722a57c7bba14b6
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 705de47a1e89d765f34eadfcd35064ccde7aa66b
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34481900"
 ---
 # <a name="configure-your-report-server-to-host-excel-workbooks-using-office-online-server-oos"></a>A jelentéskészítő kiszolgáló konfigurálása Excel-munkafüzetek üzemeltetéséhez az Office Online Server (OOS) használatával
 A Power BI-jelentések webes portálon való megtekintése mellett a Power BI jelentéskészítő kiszolgáló már Excel-munkafüzeteket üzemeltethet az [Office Online Serverrel](https://docs.microsoft.com/officeonlineserver/office-online-server-overview) (OOS). A jelentéskészítő kiszolgálón egy helyen teheti közzé és tekintheti meg az önkiszolgáló Microsoft BI-tartalmakat.
@@ -166,8 +167,8 @@ A webes portálon a felderítési URL-cím beírása, az **Alkalmazás** gomb, m
 * A Power BI jelentéskészítő kiszolgálón az Excel-munkafüzetek megtekintésének képessége jelenleg előzetes verzióban érhető el.
 * A munkafüzetekben csak olvasási képességgel fog rendelkezni.
 
-## <a name="next-steps"></a>További lépések
-[Rendszergazdai kézikönyv](admin-handbook-overview.md)  
+## <a name="next-steps"></a>Következő lépések
+[Rendszergazdai áttekintés](admin-handbook-overview.md)  
 [A Power BI jelentéskészítő kiszolgáló telepítése](install-report-server.md)  
 [A Jelentéskészítő telepítése](https://docs.microsoft.com/sql/reporting-services/install-windows/install-report-builder)  
 [Az SQL Server Data Tools (SSDT) letöltése](http://go.microsoft.com/fwlink/?LinkID=616714)

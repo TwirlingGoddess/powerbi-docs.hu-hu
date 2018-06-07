@@ -10,11 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 891e9d35be271f6479a832b234a69132736f09a5
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.openlocfilehash: 6e1b2960eee8f436f8dbce660e755a5d0b39a68e
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34721570"
 ---
 # <a name="troubleshooting-refresh-scenarios"></a>Frissítési forgatókönyvekkel kapcsolatos hibák elhárítása
 Itt a Power BI szolgáltatásban az adatok frissítése során fellépő különféle forgatókönyvekkel kapcsolatos információkat talál.
@@ -57,7 +58,15 @@ A **Power BI szolgáltatásba** importált adatkészletek maximális mérete 1 
 ## <a name="scheduled-refresh-timeout"></a>Ütemezett frissítés időtúllépése
 Az importált adatkészletek frissítése két óra után időtúllépési hibát ad. Az ilyen időtúllépések határa a **Premium** munkaterületeken lévő adatkészletek esetében öt órára nő. Ha eléri ezt a korlátot, érdemes fontolóra vennie az adatkészlet méretének vagy összetettségének csökkentését, vagy érdemes feldarabolni kisebb tömbökre.
 
-## <a name="next-steps"></a>További lépések
+## <a name="access-to-the-resource-is-forbidden"></a>Az erőforráshoz való hozzáférés le van tiltva  
+Ez a hiba a lejárt hitelesítési adatok miatt léphet fel. Törölje az internetes gyorsítótárat: jelentkezzen be a Power BI-ba, és lépjen ide: https://app.powerbi.com?alwaysPromptForContentProviderCreds=true. Ez kikényszeríti a hitelesítő adatok frissítését. 
+    
+    
+## <a name="data-refresh-failure-because-of-password-change-or-expired-credentials"></a>Adatfrissítési hiba jelszóváltozás vagy lejárt hitelesítő adatok miatt 
+Az adatfrissítés a lejárt gyorsítótárazott hitelesítő adatok miatt is meghiúsulhat. Törölje az internetes gyorsítótárat: jelentkezzen be a Power BI-ba, és lépjen ide: https://app.powerbi.com?alwaysPromptForContentProviderCreds=true. Ez kikényszeríti a hitelesítő adatok frissítését.
+
+
+## <a name="next-steps"></a>Következő lépések
 [Adatfrissítés](refresh-data.md)  
 [A Helyszíni adatátjáróval kapcsolatos hibák elhárítása](service-gateway-onprem-tshoot.md)  
 [A személyes Power BI Gateway hibáinak elhárítása](service-admin-troubleshooting-power-bi-personal-gateway.md)  

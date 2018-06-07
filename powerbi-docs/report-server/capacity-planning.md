@@ -9,11 +9,12 @@ ms.component: powerbi-report-server
 ms.topic: conceptual
 ms.date: 3/5/2018
 ms.author: pashah
-ms.openlocfilehash: 94f137f0b8627bf34e78d9ac36574c64dd5d4752
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 3c3295483112ae0b5475e15c2073faba86dfff30
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34561816"
 ---
 # <a name="capacity-planning-guidance-for-power-bi-report-server"></a>A Power BI jelentéskészítő kiszolgáló kapacitástervezési útmutatója
 A Power BI jelentéskészítő kiszolgáló olyan önkiszolgáló BI és céges jelentéskészítő megoldás, amelyet az ügyfelek helyben telepíthetnek a saját tűzfal mögé. A Power BI Desktop interaktív jelentéskészítő képességét kombinálja az SQL Server Reporting Services helyi kiszolgálói platformjával. Az elemzések és a jelentések gyakori és növekvő céges használatának köszönhetően a hardveres infrastruktúrák és a vállalati felhasználói bázis skálázásához szükséges szoftverlicencek költségbecslése kihívást jelenthet. A jelen dokumentum célja, hogy útmutatást nyújtson a Power BI jelentéskészítő kiszolgálójának kapacitástervezéséhez, és megossza a jelentéskészítő kiszolgáló különböző számítási feladataihoz tartozó terhelési tesztek végrehajtási eredményeit. Bár a cégek jelentései, lekérdezései és használati mintái eltérőek lehetnek, a jelen dokumentumban ismertetett eredmények – a ténylegesen használt tesztekkel és azok végrehajtásának részletes bemutatásával – hivatkozási pontként szolgálnak bárkinek, aki a Power BI jelentéskészítő kiszolgáló üzembe helyezésének korai tervezési szakaszában van.
@@ -49,7 +50,7 @@ A Power BI jelentéskészítő kiszolgáló üzemelő példánya az alábbi virt
 A topológiában használt egyes virtuális gépek átfogó konfigurálásával kapcsolatban lásd: 1.1. függelék – A Power BI jelentéskészítő kiszolgáló topológiája és 1.2. függelék – A Power BI jelentéskészítő kiszolgáló virtuálisgép-konfigurációja.
 
 ### <a name="tests"></a>Tesztek
-A terhelési műveletekben használt tesztek nyilvánosan elérhetők a Reporting Services LoadTest nevű GitHub-projektben. (Lásd: https://github.com/Microsoft/Reporting-Services-LoadTest)). Ez az eszköz lehetővé teszi a felhasználóknak az SQL Server Reporting Services és a Power BI jelentéskészítő kiszolgáló teljesítményre, megbízhatóságra, skálázhatóságra és helyreállíthatósági jellemzőkre vonatkozó adatainak tanulmányozását. A projekt négy csoportba tartozó teszteseteket tartalmaz:
+A terhelési műveletekben használt tesztek nyilvánosan elérhetők a [Reporting Services LoadTest](https://github.com/Microsoft/Reporting-Services-LoadTest) nevű GitHub-projektben. Ez az eszköz lehetővé teszi a felhasználóknak az SQL Server Reporting Services és a Power BI jelentéskészítő kiszolgáló teljesítményre, megbízhatóságra, skálázhatóságra és helyreállíthatósági jellemzőkre vonatkozó adatainak tanulmányozását. A projekt négy csoportba tartozó teszteseteket tartalmaz:
 
 * Power BI-jelentések megjelenítését szimuláló tesztek.
 * Mobiljelentések megjelenítését szimuláló tesztek.

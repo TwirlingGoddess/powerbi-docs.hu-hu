@@ -8,15 +8,15 @@ featuredvideoid: zIZPA0UrJyA
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 03/05/2018
+ms.date: 05/25/2018
 ms.author: v-thepet
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 77c1dbe528b218fe3b51992f548325bb8916c22c
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 75ae82e43987cb42b858fe4350330fda3692cf97
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 05/17/2018
-ms.locfileid: "34297354"
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34721501"
 ---
 # <a name="slicers-in-power-bi"></a>Szeletelők a Power BI-ban
 A jelentést olvasók számára az összesítő értékesítési mérőszámok megjelenítése mellett az egyes körzeti vezetők teljesítményét és a különböző időkereteket is ki kell tudni mutatni. Létrehozhat különálló jelentéseket vagy összehasonlító diagramokat, illetve használhat szeletelőket. A szűrés másféle lehetőségét kínáló szeletelőkkel az adathalmaz a jelentés más vizualizációiban szereplő részére szűkíthető. 
@@ -43,6 +43,13 @@ A Power BI-szeletelőkre a következő korlátozások érvényesek:
 ## <a name="create-slicers"></a>Szeletelők létrehozása
 
 Új szeletelők létrehozásához válassza a szeletelő ikont, és jelölje ki a szűréshez az adatmezőt (vagy az egérrel húzza azt a **Vizualizációs elemek** ablaktábla **Mezők** szövegdobozába), vagy előbb vizualizáció létrehozásához jelölje ki vagy húzza az adatmezőt, majd vizualizáció szeletelővé való átalakításához válassza a szeletelő ikont. Különböző adattípusok különböző típusú szeletelőket hoznak létre, különböző hatásokkal és lehetőségekkel. 
+
+Amikor először módosítja a jelentést, aktiválódik a **Visszaállítás alapértelmezettre** gomb. Ez arra emlékeztet, hogy módosította az eredeti jelentésbeállításokat. Ha kilép a jelentésből, a rendszer menti (megőrzi) a módosítást. Amikor visszatér a jelentéshez, nem kell újból szeletelnie a jelentést.  Ha azonban szeretné visszaállítani a jelentést a készítő alapértelmezett beállításaira, válassza a **Visszaállítás alapértelmezettre** gombot a felső menüsoron.
+
+![a Visszaállítás alapértelmezettre gomb](media/power-bi-visualization-slicers/power-bi-reset-to-default.png)
+
+> [!NOTE]
+> Ha a **Visszaállítás alapértelmezettre** gomb letiltva marad, az vagy azt jelenti, hogy a jelentés készítője letiltotta ezt a funkciót a jelentés esetében, vagy azt, hogy a jelentés egy egyéni vizualizációt tartalmaz. A magyarázatot megtalálhatja, ha egyszerűen a gombra mutat, és elolvassa az elemleírást. 
 
 **Új szeletelő létrehozása körzeti vezető szerint szűrt adatok létrehozásához**
 

@@ -10,11 +10,12 @@ ms.topic: conceptual
 ms.date: 03/26/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 21ceec0ea522bd45a937096bcd778f2695c1edc3
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.openlocfilehash: 4eb9f8e0b8548fbecd4e5d2e2fd47c4c3acd2bd6
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34722816"
 ---
 # <a name="on-premises-data-gateway"></a>Helyszíni adatátjáró
 
@@ -93,6 +94,11 @@ Amikor hozzáad egy adatforrást az átjáróhoz, meg kell adnia az adatforrás 
 
 Jelenleg nincs olyan felület, ahol a bérlő rendszergazdája együtt kezelhetné az összes olyan átjárót, amelyeket más felhasználók telepítettek és konfiguráltak.  Bérlőt felügyelő rendszergazdáknak azt javasoljuk, hogy kérjék meg a cégen belüli felhasználókat, hogy minden általuk telepített átjáróhoz adják hozzá őket rendszergazdaként. Ez lehetővé teszi, hogy a cég összes átjáróját kezelhesse az Átjáróbeállítások oldalon vagy pedig [PowerShell-parancsok](https://docs.microsoft.com/power-bi/service-gateway-high-availability-clusters#powershell-support-for-gateway-clusters) használatával. 
 
+## <a name="enabling-outbound-azure-connections"></a>Kimenő Azure-kapcsolatok engedélyezése 
+A helyszíni adatátjáró az Azure Service Bust használja a felhőbeli csatlakozásokhoz, és ennek megfelelően hoz létre kimenő kapcsolatokat a társított Azure-régiókhoz. Alapértelmezés szerint ez a Power BI-bérlő helye. Hol található a [Power BI-bérlőm?](https://powerbi.microsoft.com/en-us/documentation/powerbi-admin-where-is-my-tenant-located/)
+Ha a kimenő kapcsolatokat tűzfal blokkolja, a tűzfalat úgy kell konfigurálnia, hogy az engedélyezze a kimenő kapcsolatokat a helyszíni adatátjárótól a hozzá kapcsolódó Azure-régióba. A [Microsoft Azure adatközpontjainak IP-címtartományai](https://www.microsoft.com/en-us/download/details.aspx?id=41653) című témakörben megtalálhatja minden egyes Azure-adatközpont IP-címtartományát.
+> [!NOTE]
+> Az IP-címtartományok idővel változhatnak, ezért fontos, hogy a legújabb információt rendszeresen letöltse. 
 
 ## <a name="troubleshooting"></a>Hibaelhárítás
 Ha problémába ütközik az átjáró telepítése vagy konfigurálása során, tekintse meg a [Helyszíni adatátjárók hibaelhárítása](service-gateway-onprem-tshoot.md) című cikket. Ha úgy gondolja, hogy a probléma a tűzfalával kapcsolatos, tekintse meg a hibaelhárítási cikk [tűzfal vagy proxy](service-gateway-onprem-tshoot.md#firewall-or-proxy) szakaszát.

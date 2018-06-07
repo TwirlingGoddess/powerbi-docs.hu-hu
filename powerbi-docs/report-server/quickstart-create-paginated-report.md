@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-report-server
 ms.topic: conceptual
-ms.date: 10/12/2017
+ms.date: 05/18/2018
 ms.author: maggies
-ms.openlocfilehash: 75810bfad9efd5a0ea42a07d44a61d4f92f7f232
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: e996b1399ff4dde96d122e747cf1f07db3a44876
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 05/17/2018
-ms.locfileid: "34294916"
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34721823"
 ---
 # <a name="create-a-paginated-report-for-power-bi-report-server"></a>Többoldalas jelentés létrehozása a Power BI jelentéskészítő kiszolgálóhoz
 Mint ahogyan az elnevezés is sugallja, a többoldalas jelentések egyszerre több oldalon is átnyúlhatnak. Az elrendezésük rögzített formátumban történik, és precíz testreszabási lehetőségeket biztosítanak. A többoldalas jelentések .rdl-fájlok.
@@ -94,7 +94,7 @@ Ha elkészült a jelentése, mentse a Power BI jelentéskészítő kiszolgálór
 Számos nagyszerű erőforrás nyújt segítséget, ha jelentést szeretne készíteni a Jelentéskészítőben vagy az SQL Server Data Tools eszközkészletben található Jelentéstervezőben. Érdemes a Jelentéskészítő oktatóanyagaival kezdeni.
 
 * [A Jelentéskészítő oktatóanyagai](https://docs.microsoft.com/sql/reporting-services/report-builder-tutorials)
-* [Power BI jelentéskészítő kiszolgáló – felhasználói kézikönyv](user-handbook-overview.md)  
+* [Mi a Power BI jelentéskészítő kiszolgáló?](get-started.md)  
 
 További kérdései vannak? [Kérdezze meg a Power BI közösségét](https://community.powerbi.com/)
 

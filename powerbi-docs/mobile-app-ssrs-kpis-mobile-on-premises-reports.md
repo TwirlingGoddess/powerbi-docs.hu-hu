@@ -7,24 +7,27 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: conceptual
-ms.date: 12/18/2017
+ms.date: 05/21/2018
 ms.author: maggies
-ms.openlocfilehash: 4277a8353fa6d9538ff050f0c08b9644d4a218c6
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 999fdf0376973d6550a5c4e214b4315db01e74e0
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34482245"
 ---
 # <a name="view-on-premises-report-server-reports-and-kpis-in-the-power-bi-mobile-apps"></a>Helyszíni jelentéskészítő kiszolgálói jelentések és KPI-k megtekintése a Power BI-mobilalkalmazásokban
+
+A Power BI Mobile-alkalmazások élő, érintésvezérelt mobilhozzáférést biztosítanak helyszíni üzleti adataihoz a Power BI jelentéskészítő kiszolgáló és az SQL Server 2016 Reporting Services (SSRS) használatával.
+
 A következőkre vonatkozik:
 
 | ![iPhone](media/mobile-app-ssrs-kpis-mobile-on-premises-reports/iphone-logo-50-px.png) | ![iPad](media/mobile-app-ssrs-kpis-mobile-on-premises-reports/ipad-logo-50-px.png) | ![Android rendszerű telefon](media/mobile-app-ssrs-kpis-mobile-on-premises-reports/android-phone-logo-50-px.png) | ![Android rendszerű táblagép](media/mobile-app-ssrs-kpis-mobile-on-premises-reports/android-tablet-logo-50-px.png) |
 |:--- |:--- |:--- |:--- |
-| iPhone-ok |iPadek |Android rendszerű telefonok |Android-táblagépek |
+| iPhone-ok |iPadek |Android rendszerű telefonok |Android rendszerű táblagépek |
 
-A Power BI Mobile-alkalmazások élő, érintésvezérelt mobilhozzáférést biztosítanak helyszíni üzleti adataihoz a Power BI jelentéskészítő kiszolgáló és az SQL Server 2016 Reporting Services (SSRS) használatával. 
 
- ![A jelentéskészítő kiszolgáló kezdőlapja a mobilalkalmazásokban](media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-ipad-pbi-report-server-home.png)
+![A jelentéskészítő kiszolgáló kezdőlapja a mobilalkalmazásokban](media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-ipad-pbi-report-server-home.png)
 
 ## <a name="first-things-first"></a>Kezdjük az elején
 **A mobilalkalmazásokban megtekinteni lehet a Power BI-tartalmat, létrehozni nem.**
@@ -41,9 +44,9 @@ Még ha nincs is hozzáférése a Microsoft SQL Server Reporting Services webes 
 1. Koppintson a globális navigáció gombra ![Globális navigáció gomb](media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-iphone-global-nav-button.png) a bal felső sarokban, majd a fogaskerék ikonra a jobb felsőben ![Fogaskerék ikon](media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-ios-settings-icon.png).
 2. Koppintson a **Reporting Services-példák** elemre, majd tallózással keresse a mintául szolgáló KPI-ket és mobiljelentéseket.
    
-   ![Reporting Services-példák](media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-iphone-ssrs-samples.png)
+   ![Reporting Services-minták](media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-iphone-ssrs-samples.png)
 
-## <a name="connect-to-an-on-premises-server"></a>Csatlakozás helyszíni kiszolgálóhoz
+## <a name="connect-to-an-on-premises-report-server"></a>Csatlakozás helyszíni jelentéskészítő kiszolgálóhoz
 A helyszíni Power BI-jelentéseket, a Reporting Services mobiljelentéseit és a KPI-ket a Power BI-mobilalkalmazásokban tekintheti meg. 
 
 1. Nyissa meg a mobileszközön a Power BI alkalmazást.
@@ -77,6 +80,24 @@ A helyszíni Power BI-jelentéseket, a Reporting Services mobiljelentéseit és 
 6. A kiszolgáló megjelenik a bal oldali navigációs sávon – ebben a példában a neve „power bi report server”.
    
    ![Jelentéskészítő kiszolgáló a bal oldali navigációs sávon](media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-iphone-left-nav-report-server.png)
+
+## <a name="connect-to-an-on-premises-report-server-in-ios"></a>Csatlakozás helyszíni jelentéskészítő kiszolgálóhoz iOS rendszeren
+
+Ha az iOS-es mobilalkalmazásban tekinti meg a Power BI-t, előfordulhat, hogy a rendszergazda definiált egy alkalmazáskonfigurációs szabályzatot. Ha így van, a jelentéskészítő kiszolgálóhoz való csatlakozáshoz használt felület leegyszerűsített, és nem kell olyan sok adatot megadnia, amikor csatlakozik egy jelentéskészítő kiszolgálóhoz. 
+
+1. Egy üzenet jelenik meg arról, hogy a mobilalkalmazás egy jelentéskészítő kiszolgálóhoz lett konfigurálva. Koppintson a **Bejelentkezés** lehetőségre.
+
+    ![Bejelentkezés a jelentéskészítő kiszolgálóba](media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-config-server-sign-in.png)
+
+2.  A **Csatlakozás kiszolgálóhoz** oldalon már ki vannak töltve a jelentéskészítő kiszolgáló adatai. Koppintson a **Csatlakozás** lehetőségre.
+
+    ![A jelentéskészítő kiszolgáló adatai kitöltve](media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-ios-remote-configure-connect-server.png)
+
+3. Írja be a hitelesítéshez szükséges jelszót, majd koppintson a **Bejelentkezés** lehetőségre. 
+
+    ![A jelentéskészítő kiszolgáló adatai kitöltve](media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-config-server-address.png)
+
+Most már megtekintheti és használhatja a jelentéskészítő kiszolgálón tárolt KPI-ket és Power BI-jelentéseket.
 
 ## <a name="view-power-bi-reports-and-kpis-in-the-power-bi-app"></a>Power BI-jelentések és KPI-k megtekintése a Power BI alkalmazásban
 A Power BI-jelentések, a Reporting Services mobiljelentései és a KPI-k ugyanazokban a mappákban jelennek meg, amelyekben a Reporting Services webes portálján találhatók. 

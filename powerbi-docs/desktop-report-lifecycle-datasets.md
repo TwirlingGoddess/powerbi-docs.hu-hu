@@ -7,14 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/02/2018
+ms.date: 06/02/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 1bf5f83265c9d4fc11532b647207f8d273aab50c
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: b1bfe0e35015cd32024b381a1859330cd8f1862a
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34721110"
 ---
 # <a name="connect-to-datasets-in-the-power-bi-service-from-power-bi-desktop"></a>Kapcsolódás a Power BI szolgáltatásban lévő adatkészletekhez a Power BI Desktopból
 Létrehozhat élő kapcsolatot a Power BI szolgáltatás egy megosztott adatkészletével, és számos különböző jelentést hozhat létre ugyanabból az adatkészletből. Ez azt jelenti, hogy létrehozhatja a tökéletes adatmodellt a Power BI Desktopban, közzéteheti azt a Power BI szolgáltatásban, majd mások létrehozhatnak több különböző jelentést (külön .pbix fájlokban) a közös adatmodellből. Ennek a szolgáltatásnak **Élő kapcsolat Power BI szolgáltatással** a neve.
@@ -35,6 +36,8 @@ Mindenki rajong a jelentésért és az adatkészletért, és itt kezdődik a gon
 
 ### <a name="connect-to-a-power-bi-service-dataset-using-a-live-connection"></a>Csatlakozás a Power BI szolgáltatás adatkészletéhez élő kapcsolattal
 Amint Anna létrehozza a jelentést (és az adatkészletet, amelyen az alapul), és közzéteszi a **Power BI szolgáltatásban**, megjelenik a csapata munkaterületén a Power BI szolgáltatásban. Most már a munkaterületen mindenki látja és használhatja is.
+
+További információ a munkaterületekről: [Alkalmazás-munkaterületek](service-create-distribute-apps.md#app-workspaces).
 
 A munkaterület más tagjai ekkor létrehozhatnak egy élő kapcsolatot Anna megosztott adatmodelljével (az **Élő kapcsolat Power BI-szolgáltatással** szolgáltatás révén), és létrehozhatják az *ő eredeti adatkészlete* alapján a saját egyedi jelentéseiket.
 

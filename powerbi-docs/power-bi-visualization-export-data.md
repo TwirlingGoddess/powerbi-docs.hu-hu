@@ -8,14 +8,15 @@ featuredvideoid: jtlLGRKBvXY
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 01/20/2018
+ms.date: 05/25/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 5a3192910faf41bee925eb4938098bccb6434bb2
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.openlocfilehash: 4d67499c571d736da3a8cebed5826c708911cc4d
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34584162"
 ---
 # <a name="export-data-from-visualizations"></a>Adatok exportálása vizualizációkból
 Ha szeretné megtekinteni a vizualizáció létrehozásához használt adatokat, [megjelenítheti az adatokat a Power BI-ban](service-reports-show-data.md) vagy exportálhatja őket az Excelbe .xlsx- vagy .csv-fájlként.   
@@ -31,7 +32,7 @@ Tekintse meg, ahogy Will exportálja az adatokat az egyik jelentésében találh
 2. Kattintson az **Adatok exportálása** ikonra.
    
     ![](media/power-bi-visualization-export-data/pbi_export_dash.png)
-3. Az adatok exportálva lettek egy .csv-fájlba. Ha a vizualizáció szűrve van, akkor a letöltött adatok is szűrve lesznek.
+3. Az adatok exportálva lettek egy .csv-fájlba. Ha a vizualizáció szűrve van, akkor a letöltött adatok is szűrve lesznek.    
 4. A böngésző megkéri, hogy mentse a fájlt.  A mentés után nyissa meg a .csv-fájlt az Excelben.
    
     ![](media/power-bi-visualization-export-data/pbi-export-to-excel.png)
@@ -84,6 +85,7 @@ Annak érdekében, hogy követni tudja a lépéseket, nyissa meg a [Beszerzésel
 * A Power BI csak az alapszintű összesítést használó vizualizációkban támogatja az exportálást. A modell- vagy jelentésmértékeket használó vizualizációkban az exportálás nem érhető el.
 * Az egyéni vizualizációk és az R-vizualizációk jelenleg nem támogatottak.
 * Az adatok exportálása nem érhető el a cégen kívüli olyan felhasználók számára, akik velük megosztott irányítópultot használnak. 
+* A Power BI-ban egy mező (oszlop) átnevezéséhez kattintson duplán a mezőre,majd írja be az új nevet.  Ez az új név az úgynevezett *alias*. Előfordulhat, hogy egy Power BI-jelentésben így ismétlődő mezőnevek fordulnak elő, de az Excel nem engedélyezi az ismétlődő elemek használatát.  Így az adatok Excelbe való exportálásakor a mezők aliasai visszaállnak az eredeti mező- (oszlop-) nevekre.  
 * Ha a .csv-fájlban Unicode-karakter található, a szöveg az Excelben hibásan jelenhet meg. A Jegyzettömbben azonban probléma nélkül megnyitható. Unicode-karakterek lehetnek például a pénznemek szimbólumai és az idegen szavak. Megkerülő megoldásként importálhatja a .csv-fájlt az Excelbe, közvetlen megnyitás helyett. Ehhez tegye a következőket:
   
   1. Nyissa meg az Excelt.

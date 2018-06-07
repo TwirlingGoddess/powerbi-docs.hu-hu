@@ -9,11 +9,12 @@ ms.component: powerbi-report-server
 ms.topic: conceptual
 ms.date: 09/05/2017
 ms.author: maghan
-ms.openlocfilehash: e13a4810baf4898eb9aba7b09978991c9bc3d0a6
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 0bfad6dba38cce4bd170bb3f3bd7f9a7877b6174
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34480934"
 ---
 # <a name="migrate-a-report-server-installation"></a>Telepített jelentéskészítő kiszolgáló migrálása
 Cikkünkből megtudhatja, hogyan migrálhatja meglévő SQL Server Reporting Services-példányát (SSRS-példányát) egy Power BI jelentéskészítő kiszolgálói példányba.
@@ -98,7 +99,7 @@ Az egyik Power BI jelentéskészítő kiszolgálóról a másikra történő mig
 * Szükség szerint törölje a Power BI jelentéskészítő kiszolgáló régi telepítése után megmaradó fölösleges elemeket.
 
 ## <a name="next-steps"></a>Következő lépések
-[Rendszergazdai kézikönyv](admin-handbook-overview.md)  
+[Rendszergazdai áttekintés](admin-handbook-overview.md)  
 [A Power BI jelentéskészítő kiszolgáló telepítése](install-report-server.md)  
 [Az rs.exe segédprogramra és a webszolgáltatásra épülő szkriptek](https://docs.microsoft.com/sql/reporting-services/tools/script-with-the-rs-exe-utility-and-the-web-service)
 

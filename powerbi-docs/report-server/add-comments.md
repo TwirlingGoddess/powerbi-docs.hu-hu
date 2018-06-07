@@ -7,13 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-report-server
 ms.topic: conceptual
-ms.date: 10/12/2017
+ms.date: 05/18/2018
 ms.author: maggies
-ms.openlocfilehash: e5e49d2f30cca4c0c731d29fe31d2cb6856066f2
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 08a7740d1a44c4a5e8ef961100c38f3bc4622fd8
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34721961"
 ---
 # <a name="add-comments-to-a-report-in-a-report-server"></a>Megjegyzések hozzáadása jelentéshez jelentéskészítő kiszolgálón
 Megjegyzéseket adhat a jelentésekhez (beleértve a Power BI-jelentéseket is) a jelentéskészítő kiszolgálók webes portálján. A megjegyzések a jelentésben szerepelnek, és megfelelő engedélyekkel bárki láthatja a jelentés megjegyzéseit. A részletekért tekintse meg a lenti [Engedélyek](#permissions) szakaszt.
@@ -43,8 +44,8 @@ Az engedélyeitől függően a következők vonatkozhatnak Önre:
 * Láthatja az összes megjegyzést, és saját megjegyzéseket tehet közzé, szerkeszthet és törölhet.
 * Láthatja az összes megjegyzést; saját megjegyzéseket tehet közzé, szerkeszthet és törölhet; és törölheti mások megjegyzéseit.
 
-## <a name="next-steps"></a>További lépések
-* [Power BI jelentéskészítő kiszolgáló – felhasználói kézikönyv](user-handbook-overview.md)  
+## <a name="next-steps"></a>Következő lépések
+* [Mi a Power BI jelentéskészítő kiszolgáló?](get-started.md)  
 
 További kérdései vannak? [Kérdezze meg a Power BI közösségét](https://community.powerbi.com/)
 

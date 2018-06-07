@@ -9,11 +9,12 @@ ms.component: powerbi-report-server
 ms.topic: conceptual
 ms.date: 11/01/2017
 ms.author: maghan
-ms.openlocfilehash: c4429c33f52954852f430e582064c813b11555b7
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: a9173ba6b4689a6cc71eba679f9bcc0c54de048c
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34481785"
 ---
 # <a name="configure-kerberos-to-use-power-bi-reports"></a>A Kerberos konfigurálása Power BI-jelentések használatára
 <iframe width="640" height="360" src="https://www.youtube.com/embed/vCH8Fa3OpQ0?showinfo=0" frameborder="0" allowfullscreen></iframe>
@@ -214,7 +215,7 @@ A fenti konfigurációk elvégzése után a jelentésnek megfelelően meg kell j
 Ez a konfiguráció a legtöbb esetben működik, a Kerberosszal azonban a környezettől függően szükség lehet további konfigurációkra. Ha a jelentés továbbra sem töltődik be, vegye fel a kapcsolatot a tartományi rendszergazdával vagy az ügyfélszolgálattal.
 
 ## <a name="next-steps"></a>Következő lépések
-[Rendszergazdai kézikönyv](admin-handbook-overview.md)  
+[Rendszergazdai áttekintés](admin-handbook-overview.md)  
 [A Power BI jelentéskészítő kiszolgáló telepítése](install-report-server.md)  
 
 További kérdései vannak? [Kérdezze meg a Power BI közösségét](https://community.powerbi.com/)

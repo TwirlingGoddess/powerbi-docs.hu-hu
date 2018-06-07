@@ -7,14 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/02/2018
+ms.date: 05/17/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: e588387245bbf57a614bb099a92a87a156654a3c
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: d513c68dba27bb6e37a158eaad4059b24bc8db6a
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34481992"
 ---
 # <a name="publish-from-power-bi-desktop"></a>Közzététel a Power BI Desktopból
 Amikor közzétesz egy **Power BI Desktop-fájlt** a **Power BI szolgáltatásban**, a rendszer a modellben található adatokat és a **Jelentés** nézetben létrehozott jelentéseket közzéteszi az Ön Power BI-munkaterületén. A munkaterület-kezelőben megjelenik egy ugyanilyen nevű új adatkészlet, valamint az összes jelentés.
@@ -28,11 +29,17 @@ A **Power BI Desktopból** való közzétételnek az eredménye ugyanaz, mintha 
 
 ## <a name="to-publish-a-power-bi-desktop-dataset-and-reports"></a>Power BI Desktop-adatkészletek és -jelentések közzététele
 1. A Power BI Desktopban kattintson a \> **Fájl** \> **Közzététel** \> **Közzététel a Power BI-ban** lehetőségre, vagy a menüszalagon a **Közzétesz** elemre.  
-   ![](media/desktop-upload-desktop-files/pbid_publish_publishbutton.png)
-2. Jelentkezzen be a Power BI szolgáltatásba.
 
-Ha végzett, egy hivatkozást kap, amellyel megnyithatja a jelentést a Power BI-webhelyén.  
-    ![](media/desktop-upload-desktop-files/pbid_publish_success.png)
+   ![Közzététel gomb](media/desktop-upload-desktop-files/pbid_publish_publishbutton.png)
+
+2. Jelentkezzen be a Power BI szolgáltatásba.
+3. Válassza ki a célt.
+
+   ![Közzététel céljának kiválasztása](media/desktop-upload-desktop-files/pbid_publish_select_destination.png)
+
+Amikor végzett, egy hivatkozást kap, amely a jelentésére mutat. A hivatkozásra kattintva megnyithatja a jelentést saját Power BI-webhelyén.
+
+![Sikeres közzététel párbeszédpanel](media/desktop-upload-desktop-files/pbid_publish_success.png)
 
 ## <a name="re-publish-or-replace-a-dataset-published-from-power-bi-desktop"></a>Egy Power BI Desktoppal közzétett adatkészlet újbóli közzététele vagy cseréje
 Egy **Power BI Desktop-fájl** közzétételekor a rendszer a **Power BI Desktopban** létrehozott adatkészletet és jelentéseket közzéteszi az Ön Power BI-webhelyén. Egy **Power BI Desktop-fájl** újbóli közzétételekor a rendszer a Power BI-webhelyen található adatkészletet lecseréli a **Power BI Desktop-fájlból** származó frissített adatkészletre.

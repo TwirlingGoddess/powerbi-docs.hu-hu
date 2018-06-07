@@ -7,14 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 03/15/2018
+ms.date: 05/25/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: b0a18d5befe49a3ffaa400b0e081d88720cdd28c
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.openlocfilehash: 6d0a1afe27372c808e63adb34fda96e978b2e2be
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34721386"
 ---
 # <a name="take-a-tour-of-the-report-filters-pane"></a>Ismerkedés a jelentések Szűrők panelével
 A cikk a jelentések Szűrők panelét mutatja be részletesen. A panel [a Power BI szolgáltatásban Szerkesztési és Olvasó nézetben](service-reading-view-and-editing-view.md), míg a [Power BI Desktopban Jelentés nézetben](desktop-report-view.md) jelenik meg.
@@ -22,7 +23,7 @@ A cikk a jelentések Szűrők panelét mutatja be részletesen. A panel [a Power
 Az adatok szűrésének számos módja áll rendelkezésre a Power BI-ban, ezért javasoljuk, hogy először olvassa el a [szűrőkkel és a kiemeléssel](power-bi-reports-filters-and-highlighting.md) foglalkozó szakaszt.
 
 ## <a name="working-with-the-report-filters-pane"></a>A jelentések Szűrők panelének használata
-A Power BI Desktopban a jelentések Jelentés nézetben nyílnak meg. A Power BI szolgáltatásban a jelentések [Szerkesztő vagy Olvasó nézetben](service-reading-view-and-editing-view.md) nyithatók meg. Szerkesztő nézetben és a Desktop Jelentés nézetében a jelentéstulajdonosok [szűrőket adhatnak a jelentéshez](power-bi-report-add-filter.md), amelyek a jelentéssel együtt lesznek mentve. Azok, akik Olvasó nézetben tekintik meg a jelentést, kezelhetik a szűrőket, de nem adhatnak hozzá új szűrőket.
+A Power BI Desktopban a jelentések Jelentés nézetben nyílnak meg. A Power BI szolgáltatásban a jelentések [Szerkesztő vagy Olvasó nézetben](service-reading-view-and-editing-view.md) nyithatók meg. Szerkesztő nézetben és a Desktop Jelentés nézetében a jelentéstulajdonosok [szűrőket adhatnak a jelentéshez](power-bi-report-add-filter.md), amelyek a jelentéssel együtt lesznek mentve. Azok, akik Olvasó nézetben tekintik meg a jelentést, kezelhetik a szűrőket és menthetik a módosításaikat, de nem adhatnak hozzá új szűrőket a jelentéshez.
 
 A Power BI szolgáltatásban a jelentések megtartják a Szűrők panelen végzett módosításokat, és a jelentés mobilos verziójára is alkalmazzák őket. A Szűrők panel alapértelmezettre való visszaállításához válassza a **Visszaállítás alapértelmezettre** lehetőséget a felső menüsávban.     
 

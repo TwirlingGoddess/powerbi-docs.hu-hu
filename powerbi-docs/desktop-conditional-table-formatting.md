@@ -7,35 +7,91 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/08/2018
+ms.date: 05/17/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 9599b40940c9d9cca254bb2ed2e87c161cce371f
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 70aa61d6a02bea1b7058a68b20718008ace1b8c8
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34480888"
 ---
-# <a name="conditional-formatting-in-tables"></a>Táblázatok feltételes formázása
-A táblázatok feltételes formázásával a cellák értéke, illetve más értékek vagy mezők alapján határozhat meg egyéni cellaháttérszínt, és akár színátmeneteket is használhat. A feltételes formázás használatához a Power BI Desktop **Vizualizációk** ablaktáblájának **Mezők** szakaszában kattintson a lefele mutató nyílra a formázással ellátni kívánt **Értékek** területen (vagy kattintson a jobb gombbal a mezőre). A mezők feltételes formázása kizárólag az **Értékek** terület **Mezők** szakaszában kezelhető.
+# <a name="conditional-formatting-in-tables"></a>Táblázatok feltételes formázása 
+A táblázatok feltételes formázásával a cellák értéke, illetve más értékek vagy mezők alapján határozhat meg egyéni cellaszíneket, akár színátmenetek használatával is. A cellák értékei adatsávokkal is megjeleníthetők. 
 
-![táblázat feltételes formázása](media/desktop-conditional-table-formatting/table-formatting_1.png)
+A feltételes formázás használatához a Power BI Desktop **Vizualizációk** ablaktáblájának **Mezők** szakaszában kattintson a lefele mutató nyílra a formázással ellátni kívánt **Értékek** területen (vagy kattintson a jobb gombbal a mezőre). A mezők feltételes formázása kizárólag az **Értékek** terület **Mezők** szakaszában kezelhető.
 
-A megjelenő párbeszédpanelen beállíthatja a színt, valamint a *Minimum* és *Maximum* értékét. A **Széttartó** jelölőnégyzet bejelölése esetén megadhat egy választható *Középértéket* is.
+![Feltételes formázás menü](media/desktop-conditional-table-formatting/table-formatting-0-popup-menu.png)
 
-![széttartó színek](media/desktop-conditional-table-formatting/table-formatting_2.png)
+A következő bekezdések ezt a három feltételes formázási lehetőséget ismertetik. Egy táblázatoszlopban egyszerre több lehetőség is használható.
 
-Színátmenetet akár az adatmodell egy mezője alapján is létrehozhat. Emellett megadhatja a kijelölt mezőre alkalmazandó összesítés típusát (a kijelölt mező **A szín alkalmazása erre** mezőben látható).
+> [!NOTE]
+> A táblázatra alkalmazott feltételes formázás felülír minden, a feltételesen formázott cellákra vonatkozó egyéni táblázatstílust.
 
-![színek alkalmazása mező alapján](media/desktop-conditional-table-formatting/table-formatting_2b.png)
+A vizualizációk feltételes formázásának törléséhez egyszerűen kattintson újra a mezőre a jobb gombbal, válassza a **Feltételes formázás eltávolítása** lehetőséget, majd válassza ki az eltávolítandó formázástípust.
 
-A táblázatra a fenti lépéseket követve alkalmazott egyéni formázás felülír minden, a feltételesen formázott cellákra vonatkozó egyéni táblázatstílust.
+![Feltételes formázás eltávolítása menü](media/desktop-conditional-table-formatting/table-formatting-1-remove.png)
 
-![táblázatformázás](media/desktop-conditional-table-formatting/table-formatting_3.png)
+## <a name="background-color-scales"></a>Háttérszínek színskálái
 
-Akár szöveges és dátummezőkre is alkalmazhat feltételes formázást, ha a formázás alapjául numerikus értéket választ. 
+A **Feltételes formázás**, majd a **Háttérszínek színskálái** lehetőséget választva a következő párbeszédpanel jelenik meg.
 
-A vizualizációk feltételes formázásának törléséhez egyszerűen kattintson újra a mezőre a jobb gombbal, és válassza a **Feltételes formázás eltávolítása** lehetőséget.
+![Háttérszínek színskálái párbeszédpanel](media/desktop-conditional-table-formatting/table-formatting-1-default-dialog.png)
 
-![táblázatformázás eltávolítása](media/desktop-conditional-table-formatting/table-formatting_4.png)
+Kijelölhet egy mezőt az adatmodellből a színezés alapjául, ha megadja a mezőt az **A szín ezen az értéken alapul:** beállításnál. Ezen kívül a kiválasztott mező összesítésének típusát is megadhatja az **Összegzés** értékeként. A színezendő mező az **A szín alkalmazása erre:** alatt van megadva, hogy követni tudja a beállításokat. Szöveges és dátummezőkre is alkalmazhat feltételes formázást, ha a formázás alapjául numerikus értéket választ.
 
+![Színezés mező alapján](media/desktop-conditional-table-formatting/table-formatting-1-apply-color-to.png)
+
+Ha külön színeket szeretne használni adott értéktartományokhoz, jelölje be a **Szabályok szerinti színezés** lehetőséget. Színskála használatához hagyja jelöletlenül a **Szabályok szerinti színezés** jelölőnégyzetet. 
+
+![Háttérszínek színskálái párbeszédpanel](media/desktop-conditional-table-formatting/table-formatting-1-color-by-rules-dialog.png)
+
+### <a name="color-by-rules"></a>Szabályok szerinti színezés
+
+Ha a **Szabályok szerinti színezés** lehetőséget választja, megadhat egy vagy több értéktartományt, és mindegyikhez beállíthat egy színt.  Minden tartomány egy *Ha az érték* feltétellel kezdődik, és tartozik hozzá egy *és* kapcsolattal megadott feltétel és egy szín.
+
+![Szabályok szerinti színezés értéktartománya](media/desktop-conditional-table-formatting/table-formatting-1-color-by-rules-if-value.png)
+
+A táblázat egyes tartományokba eső értékű cellái a megadott színnel jelennek meg. A következő ábrán három szabály látható.
+
+![Példa szabályok szerinti színezésre](media/desktop-conditional-table-formatting/table-formatting-1-color-by-rules.png)
+
+A példához tartozó táblázat ekkor a következőképpen jelenik meg:
+
+![Példatáblázat szabályok szerinti színezéssel](media/desktop-conditional-table-formatting/table-formatting-1-color-by-rules-table.png)
+
+
+### <a name="color-minimum-to-maximum"></a>Színezés a minimumtól a maximumig
+
+Megadhatja a *Minimum* és a *Maximum* értékét és a hozzájuk tartozó színeket. A **Széttartó** jelölőnégyzet bejelölése esetén megadhat egy választható *Középértéket* is.
+
+![Széttartás gomb](media/desktop-conditional-table-formatting/table-formatting-1-diverging.png)
+
+A példához tartozó táblázat ekkor a következőképpen jelenik meg:
+
+![Példatáblázat széttartó színezéssel](media/desktop-conditional-table-formatting/table-formatting-1-diverging-table.png)
+
+## <a name="font-color-scales"></a>Betűszínek színskálái
+
+A **Feltételes formázás**, majd a **Betűszínek színskálái** lehetőséget választva a következő párbeszédpanel jelenik meg. A párbeszédpanel hasonló a **Háttérszínek színskálái** panelhez, de nem a cellák háttérszínét, hanem a szöveg színét változtatja meg.
+
+![Betűszínek színskálái párbeszédpanel](media/desktop-conditional-table-formatting/table-formatting-2-diverging.png)
+
+A példához tartozó táblázat ekkor a következőképpen jelenik meg:
+
+![Példatáblázat betűszínek színskáláival színezve](media/desktop-conditional-table-formatting/table-formatting-2-table.png)
+
+## <a name="data-bars"></a>Adatsávok
+
+A **Feltételes formázás**, majd az **Adatsávok** lehetőséget választva a következő párbeszédpanel jelenik meg. 
+
+![Adatsávok párbeszédpanel](media/desktop-conditional-table-formatting/table-formatting-3-default.png)
+
+A **Csak sávok megjelenítése** lehetőség alapértelmezés szerint nincs bejelölve, így a cellában az adatsáv és a tényleges érték is látható.
+
+![Példatáblázat adatsávokkal és értékekkel](media/desktop-conditional-table-formatting/table-formatting-3-default-table.png)
+
+Ha a **Csak sávok megjelenítése** lehetőség be van jelölve, akkor a cellában csak az adatsáv látható.
+
+![Példatáblázat csak adatsávokkal](media/desktop-conditional-table-formatting/table-formatting-3-default-table-bars.png)

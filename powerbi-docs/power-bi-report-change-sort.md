@@ -7,14 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 01/20/2018
+ms.date: 05/20/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 6b70a9ef7774d1ba49bc5bf825a5c1cde47197f2
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.openlocfilehash: 3c32fc3cc9dc2b16384016ca624d4dd3a773aacb
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34561793"
 ---
 # <a name="change-how-a-chart-is-sorted-in-a-power-bi-report"></a>A diagramok rendezésének módosítása egy Power BI-jelentésben
 A Power BI-jelentésekben a legtöbb vizualizációt rendezheti a kategóriáinak neve alapján betűrendben vagy az egyes kategóriák számértéke szerint. Ennek a diagramnak a rendezése például áruháznév alapján történt.
@@ -29,6 +30,13 @@ A rendezés könnyedén módosítható egy kategóriáról (store name – üzle
    ![](media/power-bi-report-change-sort/sortby.gif)
 
    **FIGYELEM**: Nem minden vizualizációt lehet rendezni.  A következő vizualizációkat például nem lehet rendezni: fatérkép, térkép, kartogram, pontdiagram, mérőműszer, kártya, többsoros kártya, vízesés.
+
+## <a name="saving-changes-you-make-to-sort-order"></a>A rendezési sorrend módosításainak mentése
+A Power BI-jelentések megőrzik a szűrőket, a szeletelőket, a rendezést és az adatnézetek egyéb módosításait. Így ha kilép egy jelentésből, majd később visszatér, a módosítások mentve lesznek.  Ha szeretné visszaállítani a módosításokat a jelentés készítőjének beállításaira, válassza a **Visszaállítás alapértelmezettre** lehetőséget a felső menüsorban. 
+
+![megőrzött rendezés](media/power-bi-report-change-sort/power-bi-reset-to-default.png)
+
+Ha azonban a **Visszaállítás alapértelmezettre** gomb szürke színnel jelenik meg, az azt jelenti, hogy a jelentés készítője letiltotta a módosítások mentésének (megőrzésének) képességét.
 
 <a name="other"></a>
 ## <a name="sorting-using-other-criteria"></a>Rendezés más feltételek alapján

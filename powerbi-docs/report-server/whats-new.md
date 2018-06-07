@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-report-server
 ms.topic: conceptual
-ms.date: 04/19/2018
+ms.date: 05/21/2018
 ms.author: maggies
-ms.openlocfilehash: 391edc8a2187f9a4af43b93f0713d40e41f6e943
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 07c393425d2a04376a4fcf81c2c35a0e115eeaee
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 05/17/2018
-ms.locfileid: "34295422"
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34481957"
 ---
 # <a name="whats-new-in-power-bi-report-server"></a>A Power BI jelentéskészítő kiszolgáló újdonságai
 A Power BI jelentéskészítő kiszolgáló újdonságainak bemutatása. A cikk a főbb funkciókat ismerteti és az új elemek kibocsátásakor frissül.
@@ -32,6 +32,12 @@ Az újdonságokra vonatkozó Power BI-információk:
 * [A Power BI szolgáltatás újdonságai](../service-whats-new.md)
 * [A Power BI Desktop újdonságai](../desktop-latest-update.md)
 * [A Power BI-mobilalkalmazások újdonságai](../mobile-whats-new-in-the-mobile-apps.md)
+
+## <a name="may-2018"></a>2018. máj.
+
+### <a name="configure-power-bi-ios-mobile-apps-for-report-servers-remotely"></a>Az iOS-es Power BI-mobilalkalmazások jelentéskészítő kiszolgálóhoz való távoli konfigurálása
+
+Rendszergazdaként mostantól a cég MDM eszközével távolról konfigurálhatja a Power BI iOS-es mobilalkalmazásának egy jelentéskészítő kiszolgálóhoz való hozzáférését. További részleteket [Az iOS-es Power BI-mobilalkalmazás jelentéskészítő kiszolgálóhoz való távoli hozzáférésének konfigurálása](configure-powerbi-mobile-apps-remote.md) című témakörben talál.
 
 ## <a name="march-2018-release"></a>2018. márciusi kiadás
 
@@ -204,7 +210,7 @@ A Power BI jelentéskészítő kiszolgáló már támogatja a Power BI új tábl
 * Továbbfejlesztett együttműködés megjegyzéseket tartalmazó jelentésekben
 
 ## <a name="next-steps"></a>Következő lépések
-[Felhasználói kézikönyv](user-handbook-overview.md)  
+[Mi a Power BI jelentéskészítő kiszolgáló?](get-started.md) 
 [Rendszergazdai kézikönyv](admin-handbook-overview.md)  
 [A Power BI jelentéskészítő kiszolgáló telepítése](install-report-server.md)  
 [A Jelentéskészítő telepítése](https://docs.microsoft.com/sql/reporting-services/install-windows/install-report-builder)  

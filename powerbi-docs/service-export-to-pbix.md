@@ -10,11 +10,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 90f7cddec13159c445dc97f7adeea790020f8c72
-ms.sourcegitcommit: dcde910817720c05880ffe24755034f916c9b890
+ms.openlocfilehash: 938f7b5f905d156518f71a30b355575cf1c04683
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 05/19/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34722543"
 ---
 # <a name="export-a-report-from-power-bi-service-to-desktop-preview"></a>Jelentés exportálása a Power BI szolgáltatásból a Desktopba (előzetes verzió)
 A Power BI Desktopban exportálhat (más kifejezéssel *letölthet*) jelentést a Power BI szolgáltatásba, ha menti a jelentést, és a **Közzététel** lehetőséget választja. Exportálhat a másik irányba is, és letöltheti a jelentést a Power BI szolgáltatásból a Desktopba. Az exportált fájlok kiterjesztése mindkét irány esetében *.pbix*.
@@ -57,8 +58,9 @@ A *.pbix*-fájlnak a Power BI szolgáltatásból történő letöltésekor (expo
 * Ez a funkció nem működik az eredetileg a **Power BI szolgáltatással** létrehozott jelentésekkel, beleértve a tartalomcsomagokat is.
 * Letöltött fájlok megnyitásához javasolt mindig a **Power BI Desktop** legújabb verzióját használni. A letöltött *.pbix*-fájlok olykor nem nyílnak meg a **Power BI Desktop** régebbi verzióiban.
 * Ha a rendszergazdája kikapcsolta az adatok exportálásának lehetőségét, akkor ez a funkció nem jelenik meg a **Power BI szolgáltatásban**.
+* Növekményes frissítéssel rendelkező adathalmazt nem lehet *.pbix* fájlba letölteni.
 
-## <a name="next-steps"></a>További lépések
+## <a name="next-steps"></a>Következő lépések
 Tekintse meg a **Guy in a Cube** csatorna erről a funkcióról szóló egyperces videóját:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ymWqU5jiUl0" frameborder="0" allowfullscreen></iframe>

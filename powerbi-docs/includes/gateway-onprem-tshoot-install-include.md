@@ -1,5 +1,5 @@
 ## <a name="update-to-the-latest-version"></a>Frissítés a legújabb verzióra
-Ha az átjáró verziója elavult, számos probléma felmerülhet.  Általában véve célszerű meggyőződnie arról, hogy a legújabb verzióval rendelkezik.  Ha az átjárót már legalább egy hónapja nem frissítette, javasoljuk, hogy telepítse az átjáró legújabb verzióját, majd nézze meg, hogy jelentkezik-e ugyanaz a probléma.
+Ha az átjáró verziója elavult, számos probléma felmerülhet.  Általában véve célszerű mindig a legújabb verziót használni.  Ha az átjárót már legalább egy hónapja nem frissítette, javasoljuk, hogy telepítse az átjáró legújabb verzióját, majd nézze meg, hogy jelentkezik-e ugyanaz a probléma.
 
 ## <a name="common-issues"></a>Gyakori problémák
 Az alábbiakban ismertetünk néhány gyakori problémát a megoldásával együtt. Ezek az információk már több, az internetelérést korlátozó ügyfelünkön segítettek.
@@ -23,4 +23,7 @@ Kényszerítheti az átjárót arra, hogy közvetlen TCP helyett HTTPS-en kommun
 ## <a name="installation"></a>Telepítés
 ### <a name="error-failed-to-add-user-to-group---2147463168---pbiegwservice---performance-log-users---"></a>Hiba: Nem sikerült hozzáadni a felhasználót a csoporthoz.  (-2147463168   PBIEgwService   Teljesítménynapló felhasználói   )
 Ez a hibaüzenet akkor jelenik meg, ha egy tartományvezérlőre próbálja telepíteni az átjárót. A tartományvezérlőre történő telepítés nem támogatott. Az átjárót olyan gépre kell telepítenie, amely nem tartományvezérlő.
+
+### <a name="installation-fails"></a>A telepítés sikertelen
+Telepítési hibát tapasztalhat, ha a számítógépen lévő víruskereső szoftver elavult. Frissítheti a víruskeresőt, vagy tiltsa le az átjáró telepítésének befejezéséig, majd engedélyezze újra.
 
