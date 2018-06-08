@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/21/2017
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: c0ad0c22d0787eaaa45cb36c74c01f6a1d1f85e3
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: ef554d7190709565610336169b4883d71970f822
+ms.sourcegitcommit: b25ae650643b0a62f33d7c1741307137b9cec316
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34722658"
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "34799556"
 ---
 # <a name="configuring-proxy-settings-for-the-on-premises-data-gateway"></a>Helyszíni adatátjáró proxybeállításainak konfigurálása
 Munkakörnyezete megkövetelheti, hogy proxyn keresztül érje el az Internetet. Ez megakadályozhatja, hogy a helyszíni adatátjáró a szolgáltatáshoz kapcsolódjon.
@@ -50,7 +50,7 @@ Az alapértelmezett proxykonfiguráció a következő.
         <defaultProxy useDefaultCredentials="true" />
     </system.net>
 
-Az alapértelmezett konfiguráció Windows-hitelesítéssel működik. Ha az Ön proxyja másféle hitelesítési formát használ, akkor módosítania kell a beállításokat. Ha nem biztos a dolgában, forduljon a hálózati rendszergazdához.
+Az alapértelmezett konfiguráció Windows-hitelesítéssel működik. Ha az Ön proxyja másféle hitelesítési formát használ, akkor módosítania kell a beállításokat. Ha nem biztos a dolgában, forduljon a hálózati rendszergazdához. Az alapszintű proxyhitelesítés nem ajánlott, ha alapszintű proxyhitelesítést próbál használni, az proxyhitelesítési hibákat okozhat, aminek eredményeképpen az átjáró nem lesz megfelelően konfigurálva. A feloldáshoz használjon erősebb proxyhitelesítési módot.
 
 Az alapértelmezett hitelesítő adatok használatán kívül hozzáadhat <proxy> elemet is, így részletesebben definiálhatja a proxykiszolgáló beállításait. Meghatározhatja például, hogy a helyszíni adatárjáró még a helyi erőforrásokhoz is mindig használja a proxyt, ha a bypassonlocal paramétert false (hamis) értékre állítja. Ez segíthet a hibakeresésben, ha a proxy naplófájljában nyomon szeretne követni minden olyan http-kérelmet, amely egy helyszíni adatátjáróról érkezik. Az alábbi konfigurációs példa meghatározza, hogy minden kérelemnek egy meghatározott, 192.168.1.10 IP-című proxyn keresztül kell áthaladnia.
 
@@ -93,8 +93,12 @@ Ha a proxybeállításokat a fent ismertetett módon az alapértelmezett hiteles
 5. Állítsa helyre az átjárót a helyreállítási kulcs használatával.
    
     Ezzel teszi lehetővé, hogy az új szolgáltatásfiók visszafejtse az adatforrások eléréséhez szükséges tárolt hitelesítő adatokat.
+    
+> [!NOTE]
+> Ha a szolgáltatásfiókot közvetlenül a Szolgáltatások vezérlőpulton módosítja, akkor az nem frissíti automatikusan a hozzáférés-vezérlési listákat. Gondoskodnia kell róla, hogy az új szolgáltatás fiók rendelkezzen hozzáféréssel a telepítési fájlokhoz és mappához. Az átjáró telepítési mappáját a C:\Program Files\On-premises data gateway elérési úton találja. 
+> 
 
-## <a name="next-steps"></a>További lépések
+## <a name="next-steps"></a>Következő lépések
 [Helyszíni adatátjáró (személyes mód)](service-gateway-personal-mode.md)
 [Tűzfal-információk](service-gateway-onprem-tshoot.md#firewall-or-proxy)  
 További kérdései vannak? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)

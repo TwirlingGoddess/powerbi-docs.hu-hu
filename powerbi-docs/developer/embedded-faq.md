@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 05/25/2018
 ms.author: maghan
-ms.openlocfilehash: d7baa305c514d084f6390754d516b238794bcdbf
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 3e1b3b59fff26242e662d90365a6b8acc98259e6
+ms.sourcegitcommit: b3b32b9b3935706d7caa091833bd32259d7ff6ee
 ms.translationtype: HT
 ms.contentlocale: hu-HU
 ms.lasthandoff: 06/04/2018
-ms.locfileid: "34721018"
+ms.locfileid: "34754932"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Gyakori kérdések – Power BI Embedded
 
@@ -103,8 +103,7 @@ Az alkalmazások felhasználóinak hitelesítését és engedélyezését a füg
 
 Ha már rendelkezik egy Azure AD-bérlővel, akkor használhatja meglévő címtárát, vagy létrehozhat egy új Azure AD-bérlőt a beágyazott alkalmazásai tartalmainak biztonságához.
 
-AAD-token beszerzéséhez használhatja az Azure Active Directory valamely hitelesítési kódtárát. Ügyfélkódtárak több platformhoz is elérhetőek.
-https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-authentication-libraries
+AAD-token beszerzéséhez használhatja az Azure Active Directory valamely hitelesítési kódtárát – https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-authentication-libraries. Ügyfélkódtárak több platformhoz is elérhetőek.
 
 ### <a name="how-is-power-bi-embedded-different-from-other-azure-services"></a>Miben különbözik a Power BI Embedded más Azure-szolgáltatásoktól?
 

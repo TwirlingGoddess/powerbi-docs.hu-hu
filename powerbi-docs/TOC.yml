@@ -94,10 +94,6 @@
                   href: service-focus-mode.md
                 - name: 'Irányítópult nyomtatása, irányítópult-csempe nyomtatása, jelentési oldal nyomtatása'
                   href: service-print.md
-                - name: Feliratkozás jelentésre vagy irányítópultra
-                  href: service-report-subscribe.md
-                - name: Számos lehetőség a jelentések megnyitására
-                  href: service-report-open.md
                 - name: Tartalom átnevezése a Power BI-ban
                   href: service-rename.md
                 - name: Irányítópult és jelentés teljes képernyős módban való megjelenítése
@@ -238,12 +234,16 @@
                   href: service-dashboard-themes.md
             - name: Jelentések
               items:
+                - name: Számos lehetőség a jelentések megnyitására
+                  href: service-report-open.md
                 - name: A diagramok rendezésének módosítása egy Power BI-jelentésben
                   href: power-bi-report-change-sort.md
                 - name: Adatok exportálása vizuális elemből
                   href: power-bi-visualization-export-data.md
                 - name: A jelentésszűrők használata
                   href: power-bi-how-to-report-filter.md
+                - name: Feliratkozás jelentésre vagy irányítópultra
+                  href: service-report-subscribe.md
             - name: Közzététel
               items:
                 - name: Excelhez készült Power BI Publisher
@@ -252,22 +252,6 @@
                   href: service-publish-to-powerpoint.md
         - name: Munka a Power BI-ban
           items:
-            - name: Excel-munkafüzettől egy lenyűgöző jelentésig villámgyorsan
-              href: service-from-excel-to-stunning-report.md
-            - name: A Q&A használata vizualizációk és jelentések létrehozásához
-              href: power-bi-tutorial-q-and-a.md
-            - name: Adatok elérése Excel-munkafüzetfájlokból
-              href: service-excel-workbook-files.md
-            - name: Új jelentés létrehozása adatkészletből
-              href: service-report-create-new.md
-            - name: Jelentés használata Szerkesztő nézetben a Power BI-ban
-              href: service-interact-with-a-report-in-editing-view.md
-            - name: Irányítópultok és jelentések közös használata és megosztása
-              href: service-how-to-collaborate-distribute-dashboards-reports.md
-            - name: Alkalmazások létrehozása és közzététele irányítópultokkal és jelentésekkel
-              href: service-create-distribute-apps.md
-            - name: Ütemezett frissítés beállítása
-              href: refresh-scheduled-refresh.md
             - name: Irányítópultok
               items:
                 - name: Irányítópult létrehozása jelentésből
@@ -304,6 +288,8 @@
                   href: service-data-classification.md
             - name: Kérdések az adatokról
               items:
+                - name: A Q&A használata vizualizációk és jelentések létrehozásához
+                  href: power-bi-tutorial-q-and-a.md
                 - name: Q&A használata a Power BI Gatewayjel – nagyvállalati adatok (előzetes verzió)
                   href: service-q-and-a-direct-query.md
                 - name: Megfelelő adatműködés biztosítása a Q&A és a Power BI használatánál
@@ -318,6 +304,10 @@
                   href: power-bi-q-and-a-linguistic-schema.md
             - name: Hogyan oszthatja meg munkáját
               items:
+                - name: Irányítópultok és jelentések közös használata és megosztása
+                  href: service-how-to-collaborate-distribute-dashboards-reports.md
+                - name: Alkalmazások létrehozása és közzététele irányítópultokkal és jelentésekkel
+                  href: service-create-distribute-apps.md
                 - name: Szűrt jelentés megosztása
                   href: service-share-reports.md
                 - name: Közzététel Power BI-ból a webre
@@ -354,6 +344,10 @@
                   href: power-bi-report-add-filter.md
                 - name: Jelentés mentése a Power BI-ban
                   href: service-report-save.md
+                - name: Új jelentés létrehozása adatkészletből
+                  href: service-report-create-new.md
+                - name: Jelentés használata Szerkesztő nézetben a Power BI-ban
+                  href: service-interact-with-a-report-in-editing-view.md
                 - name: Elemzés az Excelben
                   href: service-analyze-in-excel.md
                 - name: Vizualizációk jelentésen belüli működésének módosítása
@@ -382,7 +376,11 @@
                   href: power-bi-visualizations-arcgis.md
             - name: Fájlokból származó adatok
               items:
-                - name: Adatok lekérése Power BI Desktop-fájlokból
+                - name: Excel-munkafüzettől egy lenyűgöző jelentésig villámgyorsan
+                  href: service-from-excel-to-stunning-report.md
+                - name: Adatok elérése Excel-munkafüzetfájlokból
+                  href: service-excel-workbook-files.md
+                - name: Adatok lekérdezése Power BI Desktop-fájlból
                   href: service-desktop-files.md
                 - name: Adatok lekérdezése vesszővel tagolt (.csv) fájlból
                   href: service-comma-separated-value-files.md
@@ -406,7 +404,9 @@
                   href: service-azure-and-power-bi.md
             - name: Adatfrissítés
               items:
-                - name: Power BI Desktop-fájlból létrehozott adatkészlet frissítése – helyi
+                - name: Ütemezett frissítés beállítása
+                  href: refresh-scheduled-refresh.md
+                - name: Power BI Desktop-fájlból létrehozott adatkészlet frissítése (helyi)
                   href: refresh-desktop-file-local-drive.md
                 - name: Power BI Desktop-fájlból létrehozott adatkészlet frissítése (felhőbeli)
                   href: refresh-desktop-file-onedrive.md
@@ -796,7 +796,7 @@
   items:
     - name: Áttekintés
       items:
-        - name: Mik a Power BI-mobilalkalmazások?
+        - name: Mik azok a mobilalkalmazások?
           href: mobile-apps-for-mobile-devices.md
     - name: Rövid útmutatók
       items:
@@ -808,20 +808,20 @@
           href: tutorial-mobile-apps-ios-qna.md
     - name: Fogalmak
       items:
-        - name: A Power BI mobilalkalmazásainak újdonságai
+        - name: A mobilalkalmazások újdonságai
           href: mobile-whats-new-in-the-mobile-apps.md
-        - name: Való életből származó Power BI-adatok mobilalkalmazásokkal
+        - name: Adatok a való világból a mobilalkalmazásokkal
           href: mobile-apps-data-in-real-world-context.md
-        - name: Adatok megtekintése kapcsolat nélküli üzemmódban a Power BI-mobilalkalmazásokban
+        - name: Adatok megtekintése kapcsolat nélküli üzemmódban a mobilalkalmazásokban
           href: mobile-apps-offline-data.md
+        - name: Power BI vegyes valósághoz alkalmazás (előzetes verzió)
+          href: mobile-mixed-reality-app.md
     - name: Útmutató
       items:
         - name: Minden mobilalkalmazás
           items:
             - name: Helyszíni jelentések megtekintése a mobilalkalmazásokban
               href: mobile-app-ssrs-kpis-mobile-on-premises-reports.md
-            - name: Power BI vegyes valósághoz alkalmazás (előzetes verzió)
-              href: mobile-mixed-reality-app.md
             - name: Irányítópult megosztása a Power BI mobilalkalmazásokból
               href: mobile-share-dashboard-from-the-mobile-apps.md
             - name: Csempék használata a mobilalkalmazásokban
@@ -850,7 +850,7 @@
               href: service-admin-mobile-intune.md
         - name: Androidos eszközök
           items:
-            - name: Első lépések az androidos Power BI-alkalmazással
+            - name: Első lépések az Android-alkalmazással
               href: mobile-android-app-get-started.md
             - name: A „vállalati SSL-tanúsítványa nem megbízható” hiba elhárítása
               href: mobile-android-app-error-corporate-ssl-account-is-untrusted.md
@@ -858,7 +858,7 @@
               href: mobile-android-error-update-android-system-webview.md
         - name: iOS
           items:
-            - name: Első lépések az iOS-es Power BI-alkalmazással
+            - name: Első lépések az iOS-alkalmazással
               href: mobile-iphone-app-get-started.md
             - name: Első lépések az iPad-alkalmazással
               href: mobile-ipad-app-get-started.md
@@ -866,27 +866,27 @@
               href: mobile-apps-ios-qna.md
             - name: Apple Watchra készült Power BI alkalmazás
               href: mobile-apple-watch.md
-            - name: Vonalkód szkennelése Power BI-hoz iPhone-on
+            - name: Vonalkód beolvasása az iPhone-ján lévő alkalmazásból
               href: mobile-apps-scan-barcode-iphone.md
             - name: iOS-es Power BI-mobilalkalmazás
               href: mobile-ios-ipad-iphone-apps.md
         - name: iOS és Android
           items:
-            - name: 'Megjegyzés hozzáadása csempéhez, jelentéshez vagy vizuális elemhez a mobilalkalmazásokban'
+            - name: Jegyzetkészítés és megosztás a mobilalkalmazásokban
               href: mobile-annotate-and-share-a-tile-from-the-mobile-apps.md
         - name: Windows 10-es eszközökhöz készült Power BI alkalmazás
           items:
-            - name: Windows 10-hez készült Power BI mobilalkalmazás – első lépések
+            - name: Első lépések a Windows 10-hez készült mobilalkalmazásban
               href: mobile-windows-10-phone-app-get-started.md
             - name: Irányítópult rögzítése a kezdőképernyőn
               href: mobile-pin-dashboard-start-screen-windows-10-phone-app.md
-            - name: A Reporting Services mobiljelentéseinek és KPI-k megtekintése Windows 10-es rendszerű Power BI-mobilalkalmazásokban
+            - name: A Microsoft SQL Server Reporting Services mobiljelentéseinek és KPI-knek megtekintése Windows 10-hez készült alkalmazásokban
               href: mobile-app-windows-10-ssrs-kpis-mobile-reports.md
             - name: Power BI megtekintése Surface Hubon
               href: mobile-windows-10-app-presentation-mode.md
     - name: Erőforrások
       items:
-        - name: Támogatott nyelvek a Power BI-mobilalkalmazásokban
+        - name: Támogatott nyelvek a mobilalkalmazásokban
           href: mobile-apps-supported-languages.md
 - name: Power BI fejlesztőknek
   items:
@@ -914,8 +914,6 @@
           items:
             - name: Egyéni vizuális elem létrehozása a Fejlesztői eszközökkel
               href: service-custom-visuals-getting-started-with-developer-tools.md
-            - name: Egyéni vizuális elem biztonsági és adatvédelmi ellenőrzése
-              href: service-custom-visuals-review-for-security-and-privacy.md
             - name: Egyéni vizuális elem hitelesítése
               href: power-bi-custom-visuals-certified.md
             - name: Egyéni vizualizációk közzététele az AppSource-ban
@@ -983,7 +981,7 @@
     - name: Hivatkozás
       items:
         - name: REST API-k
-          href: developer/rest-api-reference.md
+          href: 'https://docs.microsoft.com/rest/api/power-bi/'
         - name: 'Power BI C# Git-tárház'
           href: 'https://go.microsoft.com/fwlink/?linkid=848273'
         - name: .NET SDK letöltése

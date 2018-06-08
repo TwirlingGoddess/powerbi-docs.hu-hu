@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: conceptual
-ms.date: 05/21/2018
+ms.date: 06/05/2018
 ms.author: maggies
-ms.openlocfilehash: 0e4401499ab54707970b928366c67a9dcf7d587a
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 9cf6e1a0b4e711f696d9728850352a53ac8442f6
+ms.sourcegitcommit: b25ae650643b0a62f33d7c1741307137b9cec316
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34482176"
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "34799625"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>A Power BI mobilalkalmazásainak újdonságai
 Az újdonságokra vonatkozó kapcsolódó információk:
@@ -25,9 +25,26 @@ Az újdonságokra vonatkozó kapcsolódó információk:
 
 ## <a name="may-2018"></a>2018. máj.
 
-### <a name="configure-power-bi-ios-mobile-apps-for-report-servers-remotely"></a>A Power BI iOS-es mobilalkalmazás jelentéskészítő kiszolgálóhoz való konfigurálása
+### <a name="mobile-drill-through-all-mobile-apps"></a>Mobilos részletezés: minden mobilalkalmazás
 
-A rendszergazda most már MDM eszközzel is konfigurálhatja a Power BI iOS-es mobilalkalmazás jelentéskészítő kiszolgálóhoz való hozzáférését. További részleteket [A Power BI iOS-es mobilalkalmazás jelentéskészítő kiszolgálóhoz való távoli hozzáférésének konfigurálása](report-server/configure-powerbi-mobile-apps-remote.md) című témakörben talál.
+A részletezéshez megjelenítheti egy kijelölt adatpontból a mobilalkalmazások egy másik jelentésoldalát, ha a jelentés szerzője definiálta ezt a műveletet. 
+
+### <a name="back-button-all-mobile-apps"></a>Vissza gomb: minden mobilalkalmazás
+
+Mostantól, ha a jelentésben pöccintéssel navigál, jelentésoldalt választ a műveleti sávon, vagy a részletezést használja, a vissza gomb visszaviszi az előzőleg megtekintett oldalra. 
+
+### <a name="dashboard-themes-all-mobile-apps"></a>Irányítópult-témák: minden mobilalkalmazás
+
+Ha a jelentések szerzői testre szabják a témákat a Power BI szolgáltatásban, az irányítópult megjelenése és működése a mobilalkalmazásban is megváltozik. Háttérképek azonban nem jelennek meg.
+
+### <a name="ios-configure-power-bi-ios-mobile-app-access-to-a-report-server-remotely"></a>iOS: A Power BI iOS-es mobilalkalmazás jelentéskészítő kiszolgálóhoz való távoli hozzáférésének konfigurálása
+
+A rendszergazda most már MDM eszközzel is konfigurálhatja a Power BI iOS-es mobilalkalmazás jelentéskészítő kiszolgálóhoz való hozzáférését. További részleteket [Az iOS-es Power BI-mobilalkalmazás jelentéskészítő kiszolgálóhoz való távoli hozzáférésének konfigurálása](report-server/configure-powerbi-mobile-apps-remote.md) című témakörben talál.
+
+### <a name="power-bi-for-mixed-reality-app-preview"></a>Power BI vegyes valósághoz alkalmazás (előzetes verzió)
+
+A Power BI vegyes valósághoz alkalmazás már elérhető a Microsoft Store-ban. Megtekintheti a virtuális világon belül az irányítópultjait és jelentéseit, vagy a környezetén belül mozgathatja és adott helyeken tekintheti meg őket. Az információ kontextusba helyezéséhez tekintse meg az új [Introducing Power BI on Hololens](https://www.youtube.com/watch?v=J_X_nOFUBss) (A Power BI on Hololens bemutatása) videónkat, vagy olvassa el az új [Power BI vegyes valósághoz alkalmazásról](mobile-mixed-reality-app.md) szóló cikket.
+
 
 ## <a name="april-2018"></a>2018. április
 

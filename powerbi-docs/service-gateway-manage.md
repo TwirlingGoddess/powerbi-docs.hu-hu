@@ -10,21 +10,25 @@ ms.topic: conceptual
 ms.date: 04/18/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: aec57dc8d015afe80c9cc9cde83c2d1fd6ba26b0
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 8369566712e24c035ac0ec07cc7d5a219041a400
+ms.sourcegitcommit: b3b32b9b3935706d7caa091833bd32259d7ff6ee
 ms.translationtype: HT
 ms.contentlocale: hu-HU
 ms.lasthandoff: 06/04/2018
-ms.locfileid: "34722589"
+ms.locfileid: "34755162"
 ---
 # <a name="manage-a-power-bi-gateway"></a>Power BI-átjáró kezelése
 
-A [telepített Power BI-adatátjárót](service-gateway-install.md) kezelheti a Power BI szolgáltatás **Átjárók kezelése** területén, a helyi számítógépen lévő átjáró-alkalmazással vagy Power Shell-szkriptekkel. Ez a cikk a Power BI szolgáltatással foglalkozik. Ha éppen most telepített átjárót, akkor ajánlott a következő lépésben [adatforrást hozzáadni](#add-a-data-source), majd [hozzáadni a felhasználókat](#add-users-to-a-data-source), hogy elérhessék az adatforrást.
+Miután [telepítette a Power BI-adatátjárót](service-gateway-install.md), a követelményeknek megfelelően kezelheti azt. Ebben a témakörben elsajátíthatja, hogyan vehet fel és távolíthat el adatforrásokat és felhasználókat; indíthat újra átjárókat; és helyezhet át, állíthat vissza, vehet át és távolíthat el átjárókat. 
+
+Az átjárókat a Power BI szolgáltatás **Átjárók kezelése** területén, a helyi számítógépen az átjáró-alkalmazással vagy Power Shell-szkriptekkel kezelheti. Ez a cikk a Power BI szolgáltatással foglalkozik. 
+
+Ha éppen most telepített átjárót, akkor ajánlott a következő lépésben [adatforrást hozzáadni](#add-a-data-source), majd [hozzáadni a felhasználókat](#add-users-to-a-data-source), hogy elérhessék az adatforrást.
 
 
 ## <a name="manage-data-sources"></a>Adatforrások kezelése
 
-A Power BI sokféle helyszíni adatforrást támogat, és ezek mindegyikéhez saját követelmények tartoznak. Az itt tárgyalt példában adatforrásként SQL Server hozzáadását mutatjuk be, de a lépések más adatforrások esetén is hasonlóak.
+A Power BI sokféle helyszíni adatforrást támogat, és ezek mindegyikéhez saját követelmények tartoznak. Egy átjáró használható egyetlen adatforráshoz vagy több adatforráshoz. Az itt tárgyalt példában adatforrásként SQL Server hozzáadását mutatjuk be, de a lépések más adatforrások esetén is hasonlóak.
 
 
 ### <a name="add-a-data-source"></a>Adatforrások felvétele
@@ -113,6 +117,14 @@ Ha a rendszergazda a **Power BI szolgáltatás** fogaskerék ikonja alatt talál
 
 Minden új **Ütemezett frissítési** kérelem és DirectQuery-művelet automatikusan az adott átjárófürt elsődleges példányára irányul. Ha az elsődleges átjárópéldány nem érhető el, a kérelem a fürt egy másik példányához lesz átirányítva.
 
+
+## <a name="share-a-gateway"></a>Átjáró megosztása
+
+Maga az átjáró nem *osztható meg*, de hozzáadhat rendszergazdákat az átjáróhoz, valamint hozzáadhat felhasználókat az átjáró adatforrásaihoz. 
+
+Miután telepített egy átjárót, alapértelmezés szerint Ön lesz az átjáró rendszergazdája. Amint azt korábban bemutattuk, más személyeket is felvehet rendszergazdaként. Ezek a rendszergazdák felvehetnek adatforrásokat, valamint konfigurálhatják és eltávolíthatják az átjárót.
+
+Az egyes átjárók alatt létrehozott adatforrásokhoz felhasználókat is hozzárendelhet. A felhasználók ez után ezekkel az adatforrásokkal frissíthetik a Power BI-jelentéseket. Nem tudják azonban megváltoztatni az adatforrásokat, sem az átjáróbeállításokat.
 
 ## <a name="migrate-restore-or-take-over-a-gateway"></a>Átjáró migrálása, visszaállítása vagy átvétele
 

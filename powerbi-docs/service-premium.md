@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 02/05/2018
 ms.author: mblythe
 LocalizationGroup: Premium
-ms.openlocfilehash: 980aa830e38e49613b54ad473ef23eb7eac78ed2
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 04963d513fa397e75c34f0650bf55fb31c1490f2
+ms.sourcegitcommit: b3b32b9b3935706d7caa091833bd32259d7ff6ee
 ms.translationtype: HT
 ms.contentlocale: hu-HU
 ms.lasthandoff: 06/04/2018
-ms.locfileid: "34722793"
+ms.locfileid: "34755093"
 ---
 # <a name="power-bi-premium---what-is-it"></a>Mit jelent a Power BI Premium?
 A Power BI Premium dedikált erőforrásokat biztosít cége vagy csapata számára a Power BI szolgáltatás futtatásához, megbízhatóbb teljesítményt biztosítva nagyobb mennyiségű adat kezeléséhez is. A Prémium szint lehetővé teszi a tartalom széles körű megosztását anélkül, hogy a megtekintők számára felhasználónkénti licenceket kellene vásárolnia.
@@ -61,9 +61,8 @@ Alapértelmezés szerint a munkaterületek megosztott kapacitáshoz tartoznak. E
 ### <a name="premium-capacity-nodes"></a>Prémium szintű kapacitást használó csomópontok
 A Power BI Premium csomópont-konfigurációkban különböző virtuálismag-kapacitások érhetők el. A konkrét termékváltozat-ajánlatokról és a költségekről a [Power BI díjszabása](https://powerbi.microsoft.com/pricing/) témakörben tájékozódhat. Itt egy [költségkalkulátor](https://powerbi.microsoft.com/calculator/) is elérhető. Ha további információra van szüksége a beágyazott elemzési kapacitások tervezésével kapcsolatban, tekintse át a [Planning a Power BI Enterprise Deployment](https://aka.ms/pbienterprisedeploy) (A Power BI vállalati bevezetésének a megtervezése) című tanulmányt.
 
-* A P csomópontok beágyazott, illetve szolgáltatási környezetben is használhatók
-* Az EM csomópontok csak beágyazott környezetekben használhatók
-* EM1 és EM2 
+* A P csomópontok beágyazott, illetve szolgáltatási környezetben is használhatók.
+* Az EM csomópontok csak beágyazott környezetekben használhatók. Az EM csomópontok nem férhetnek hozzá prémium képességekhez, például alkalmazások Power BI Pro-licenccel nem rendelkező felhasználókkal való megosztásához.
 
 >[!NOTE]
 >A táblázatban szereplő hivatkozások csak az Office 365 globális rendszergazdái számára működnek megfelelően; mindenki más 404-es hibaüzenetet kap. 
