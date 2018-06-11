@@ -1136,6 +1136,8 @@
           href: service-gateway-onprem-manage-oracle.md
         - name: A vállalati adatforrások kezelése – importálás és ütemezett frissítés
           href: service-gateway-enterprise-manage-scheduled-refresh.md
+        - name: Helyszíni és felhőbeli adatforrások egyesítése
+          href: service-gateway-mashup-on-premises-cloud.md
         - name: Kerberos használata egyszeri bejelentkezéshez (SSO)
           href: service-gateway-kerberos-for-sso-pbi-to-on-premises-data.md
         - name: Proxybeállítások konfigurálása
