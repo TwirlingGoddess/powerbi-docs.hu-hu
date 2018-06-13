@@ -8,12 +8,12 @@ ms.Embedded: powerbi
 ms.topic: conceptual
 ms.date: 05/25/2018
 ms.author: maghan
-ms.openlocfilehash: 67b52fa94ee3af9da3bfcae17f69a72e1aa46c77
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: d9dfdf3f77629a58b324945815a8608fa45f509f
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34689783"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34813503"
 ---
 # <a name="how-to-migrate-power-bi-workspace-collection-content-to-power-bi-embedded"></a>Power BI-munkaterületcsoport tartalmainak migrálása a Power BI Embeddedbe
 A cikk azt mutatja be, hogyan migrálhatja az adatokat a Power BI-munkaterületcsoportokból a Power BI Embeddedbe, és hogyan aknázhatja ki az alkalmazásokba való beágyazás nyújtotta fejlett lehetőségeket.
@@ -121,11 +121,11 @@ Gyorsítótárazott adatkészletek alatt olyan PBIX-fájlokat értünk, amelyek 
 #### <a name="directquery-dataset--report"></a>DirectQuery-adatkészlet és -jelentés
 **Folyamat**
 
-1. Végezzen egy GET https://api.powerbi.com/v1.0/collections/{collection_id}/workspaces/{wid}/datasets/{dataset_id}/Default.GetBoundGatewayDataSources hívást, és mentse az így kapott kapcsolati karakterláncot.
+1. Végezzen egy GET https://api.powerbi.com/v1.0/collections/{collection_id}/workspaces/{wid}/datasets/{dataset_id}/Default.GetBoundGatewayDataSources hívást, és mentse az így kapott kapcsolati sztringet.
 2. Hívja meg az Import PBIX API-t a PaaS-munkaterületről.
 3. Mentse a PBIX-fájlt.
 4. Hívja meg az Import PBIX API-t a SaaS-munkaterületre.
-5. Kapcsolati karakterlánc frissítése ezzel a hívással: POST https://api.powerbi.com/v1.0/myorg/datasets/{dataset_id}/Default.SetAllConnections
+5. Kapcsolati sztring frissítése ezzel a hívással: POST https://api.powerbi.com/v1.0/myorg/datasets/{dataset_id}/Default.SetAllConnections
 6. GW-azonosító és adatforrás-azonosító lekérdezése ezzel a hívással: GET https://api.powerbi.com/v1.0/myorg/datasets/{dataset_id}/Default.GetBoundGatewayDataSources
 7. A felhasználó hitelesítő adatainak frissítése: PATCH https://api.powerbi.com/v1.0/myorg/gateways/{gateway_id}/datasources/{datasource_id}
 
@@ -159,7 +159,7 @@ A Power BI-munkaterületcsoportokból migrált tartalmak mellett a Power BI Desk
 
 ## <a name="rebuild-your-application"></a>Az alkalmazás újrabuildelése
 1. Power BI REST API-k használatához és a powerbi.com szolgáltatáson belüli jelentéshely megadásához módosítania kell az alkalmazást.
-2. Buildelje újra az AuthN/AuthZ hitelesítést az alkalmazás *fő* fiókjának használatával. [Beágyazási token](https://msdn.microsoft.com/library/mt784614.aspx) használatával kiaknázhatja azt a lehetőséget, hogy ez a felhasználó a többi felhasználó nevében cselekedhet.
+2. Buildelje újra az AuthN/AuthZ hitelesítést az alkalmazás *fő* fiókjának használatával. [Beágyazási token](https://docs.microsoft.com/rest/api/power-bi/embedtoken) használatával kiaknázhatja azt a lehetőséget, hogy ez a felhasználó a többi felhasználó nevében cselekedhet.
 3. Ágyazza be a jelentéseket a powerbi.com helyről az alkalmazásba.
 
 ## <a name="map-your-users-to-a-power-bi-user"></a>A felhasználók leképezése Power BI-felhasználókra

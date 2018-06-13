@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/05/2017
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 39f40c4b8aaf53e81f15c1ad29d1d8425f017468
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 67863b261bb8f3490d20ad21786313541df33388
+ms.sourcegitcommit: 49570ab8f5b5cd5bab4cd388f4281b1372bcb80b
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34294286"
+ms.lasthandoff: 06/09/2018
+ms.locfileid: "35250315"
 ---
 # <a name="unable-to-add-power-bi-to-office-365-partner-subscription"></a>Nem sikerült hozzáadni a Power BI-t az Office 365 típusú partneri előfizetéshez
 Az Office 365 lehetővé teszi a cégeknek az Office 365 saját megoldásokkal integrált, csomagalapú továbbértékesítését, és a cégek egyetlen kapcsolatfelvételi pontot biztosíthatnak a végfelhasználóknak a vásárláshoz, a számlázáshoz és a támogatáshoz.
@@ -59,10 +59,6 @@ Ha szeretne Power BI Pro- vagy Power BI Premium-előfizetést vásárolni, a par
 
 * A partner beleegyezik abba, hogy felvegye a Power BI-t a portfóliójába, így megvásárolhatja azt tőle.
 * A partner segítségével olyan modellre válthat, amelyben a Power BI közvetlenül a Microsofttól vagy egy Power BI-t értékesítő másik partnertől vásárolható meg.
-
-Az alábbi videó az Office 365-szindikálást és a Power BI megvásárlását ismerteti:
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/C357phT94A8" frameborder="0" allowfullscreen></iframe>
 
 ## <a name="next-steps"></a>Következő lépések
 [Az Azure AD kezelése a Windows PowerShell használatával](https://technet.microsoft.com/library/jj151815.aspx)  

@@ -9,12 +9,12 @@ ms.component: powerbi-report-server
 ms.topic: conceptual
 ms.date: 03/19/2018
 ms.author: maggies
-ms.openlocfilehash: 830c867c6f495c30bd28640db9adab964bc5e2bd
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 3efd7da5ef320e08ab620da3c63a6d3ff327396a
+ms.sourcegitcommit: 49570ab8f5b5cd5bab4cd388f4281b1372bcb80b
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34721731"
+ms.lasthandoff: 06/09/2018
+ms.locfileid: "35250384"
 ---
 # <a name="install-power-bi-report-server"></a>A Power BI jelentéskészítő kiszolgáló telepítése
 
@@ -23,10 +23,6 @@ Ismerje meg, hogyan telepítheti a Power BI jelentéskészítő kiszolgálót.
  **Letöltés** ![letöltés](media/install-report-server/download.png "letöltés")
 
 A Power BI jelentéskészítő kiszolgáló letöltéséhez látogasson el a [Helyszíni jelentéskészítés a Power BI jelentéskészítő kiszolgálóval](https://powerbi.microsoft.com/report-server/) című lapra, és válassza az **Ingyenes próbaverzió letöltése** lehetőséget. 
-
-## <a name="video-install-power-bi-report-server"></a>Videó: A Power BI jelentéskészítő kiszolgáló telepítése
-
-<iframe width="640" height="360" src="https://www.youtube.com/embed/zacaEb9A4F0?showinfo=0" frameborder="0" allowfullscreen></iframe>
 
 ## <a name="before-you-begin"></a>Előkészületek
 Javasoljuk, hogy a Power BI jelentéskészítő kiszolgáló telepítése előtt tekintse át a [Power BI jelentéskészítő kiszolgáló telepítésének hardver- és szoftverkövetelményeit](system-requirements.md).

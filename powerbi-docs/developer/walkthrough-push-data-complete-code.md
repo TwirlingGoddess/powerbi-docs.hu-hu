@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: maghan
-ms.openlocfilehash: e5866b249d95cd3b05c7d769fe0cdbab984a978d
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: a41acec10e2801d046185d34c64e4d51b5e9dae0
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34289924"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34813089"
 ---
 # <a name="push-data-to-a-dataset-complete-code-listing"></a>Adatok leküldése egy adatkészletbe – Teljes kódlista
 Ez a cikk az [adatok adatkészletbe történő leküldését](walkthrough-push-data.md) ismertető részletes útmutató része.
@@ -228,7 +228,7 @@ Az **Adatok leküldése adatkészletekbe** bemutató 2–5. lépésének végreh
 [Adatkészlet létrehozása a Power BI-ban](walkthrough-push-data-create-dataset.md)  
 [Adatkészlet lekérése, és sorok hozzáadása egy Power BI-táblázathoz](walkthrough-push-data-get-datasets.md)  
 [Sorok hozzáadása egy Power BI-táblához](walkthrough-push-data-add-rows.md)  
-[A Power BI REST API-jainak leírása](https://msdn.microsoft.com/library/mt147898.aspx)  
+[A Power BI REST API-jainak leírása](https://docs.microsoft.com/rest/api/power-bi/)  
 [A Power BI REST API áttekintése](overview-of-power-bi-rest-api.md)  
 
 

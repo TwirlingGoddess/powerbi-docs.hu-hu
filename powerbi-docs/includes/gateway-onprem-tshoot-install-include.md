@@ -4,8 +4,6 @@ Ha az átjáró verziója elavult, számos probléma felmerülhet.  Általában 
 ## <a name="common-issues"></a>Gyakori problémák
 Az alábbiakban ismertetünk néhány gyakori problémát a megoldásával együtt. Ezek az információk már több, az internetelérést korlátozó ügyfelünkön segítettek.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/-t7RO6mHATI?showinfo=0" frameborder="0" allowfullscreen></iframe>
-
 ### <a name="authentication-to-proxy-server"></a>Hitelesítés a proxykiszolgálón
 Előfordulhat, hogy a proxyn egy tartományi felhasználói fióknak hitelesítenie kell magát. Az átjáró alapértelmezés szerint a Windows-szolgáltatás bejelentkezési felhasználójának SID azonosítóját használja. Általában megoldja a problémát, ha a bejelentkezési felhasználót módosítja egy tartományi felhasználóra. További tájékoztatást [Az átjárószolgáltatás fiókjának módosítása egy tartományi felhasználóra](../service-gateway-proxy.md#changing-the-gateway-service-account-to-a-domain-user) című cikkben talál.
 

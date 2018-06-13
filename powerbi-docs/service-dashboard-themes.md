@@ -7,22 +7,22 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 05/30/2018
+ms.date: 06/05/2018
 ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: 1ea92be426312a738e03d78454a4c83a82b233c5
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 331dc45f3049fe77145b86ffafd363162c74a589
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34722520"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34813802"
 ---
 # <a name="use-dashboard-themes-in-power-bi-service"></a>Irányítópult-témák használata a Power BI szolgáltatásban
 Az **Irányítópult-témák** használatával egységes színtémát alkalmazhat az egész irányítópultra, például a cég színeit, az évszaknak megfelelő színeket vagy bármely más színtémát, amit csak szeretne. **Irányítópult-témák** alkalmazásakor az irányítópulton szereplő összes vizualizáció a kiválasztott téma színeit fogja használni (ez alól van néhány kivétel, amelyeket a cikk későbbi részében mutatunk be).
 
 ![irányítópult-minta témával](media/service-dashboard-themes/power-bi-full-dashboard-theme.png)
 
-Az irányítópulton lévő jelentésvizualizációk színének megváltoztatása nem befolyásolja a jelentésben szereplő vizualizációkat. Ha olyan jelentésből rögzít csempéket, amelyhez már [hozzá van rendelve egy jelentéstéma](/desktop-report-themes.md), választhat, hogy meg szeretné-e tartani a jelenlegi témát, vagy inkább az irányítópult-témát szeretné használni.
+Az irányítópulton lévő jelentésvizualizációk színének megváltoztatása nem befolyásolja a jelentésben szereplő vizualizációkat. Ha olyan jelentésből rögzít csempéket, amelyhez már [hozzá van rendelve egy jelentéstéma](desktop-report-themes.md), választhat, hogy meg szeretné-e tartani a jelenlegi témát, vagy inkább az irányítópult-témát szeretné használni.
 
 
 ## <a name="prerequisites"></a>Előfeltételek

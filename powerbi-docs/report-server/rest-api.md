@@ -1,5 +1,5 @@
 ---
-title: Power BI jelentéskészítő kiszolgáló – kibocsátási megjegyzések
+title: Fejlesztés a Power BI jelentéskészítő kiszolgáló REST API-jaival
 description: A REST API szoftveres hozzáférést biztosít Power BI jelentéskészítő kiszolgáló katalógusában lévő objektumokhoz.
 author: markingmyname
 manager: kfile
@@ -9,14 +9,15 @@ ms.component: powerbi-report-server
 ms.topic: conceptual
 ms.date: 05/25/2018
 ms.author: maghan
-ms.openlocfilehash: a1cbcc6d265504bc93ef6447a6be381ca6399063
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 08c8075fe275ff1472d3e9845f954ef4d029b373
+ms.sourcegitcommit: 49570ab8f5b5cd5bab4cd388f4281b1372bcb80b
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34721754"
+ms.lasthandoff: 06/09/2018
+ms.locfileid: "35250430"
 ---
 # <a name="develop-with-the-rest-apis-for-power-bi-report-server"></a>Fejlesztés a Power BI jelentéskészítő kiszolgáló REST API-jaival
+
 A Power BI jelentéskészítő kiszolgáló támogatja a Representational State Transfer (REST) API-kat. A REST API-k HTTP-műveletek (metódusok) készletét támogató szolgáltatásvégpontok, amelyek létrehozási, lekérési, frissítési és törlési jogosultságot biztosítanak a jelentéskészítő kiszolgáló erőforrásaihoz.
 
 A REST API szoftveres hozzáférést biztosít Power BI jelentéskészítő kiszolgáló katalógusában lévő objektumokhoz. Az ilyen objektumok többek között mappák, jelentések, KPI-k, adatforrások, adatkészletek, frissítési tervek és előfizetések lehetnek. A REST API használatával például navigálhat a mappahierarchiában, felderítheti a mappák tartalmát, vagy letöltheti a jelentésdefiníciókat. Emellett létrehozhat, frissíthet és törölhet is objektumokat. Az objektumok kezelésével többek között jelentéseket tölthet fel, frissítési terveket hajthat végre, és mappákat törölhet.
@@ -24,6 +25,7 @@ A REST API szoftveres hozzáférést biztosít Power BI jelentéskészítő kisz
 [!INCLUDE [GDPR-related guidance](../includes/gdpr-hybrid-note.md)]
 
 ## <a name="components-of-a-rest-api-requestresponse"></a>A REST API-kérések/-válaszok összetevői
+
 A REST API-k kérés-válasz párosai öt összetevőt tartalmaznak:
 
 * A **kérés URI azonosítója**, amely a következőkből áll: `{URI-scheme} :// {URI-host} / {resource-path} ? {query-string}`. Bár a kérés URI azonosítója az üzenet fejlécének részét képezi, itt azért emeljük ki külön, mivel a legtöbb nyelvben és keretrendszerben a kérésüzenettől külön kell beadni.
@@ -46,15 +48,17 @@ A REST API-k kérés-válasz párosai öt összetevőt tartalmaznak:
   * A MIME-kódolású válaszobjektumok a HTTP-válasz törzsében térnek vissza, mint például a GET metódusra adott, adatokkal visszatérő válaszok. Az ilyen objektumok általában strukturált formában, például JSON vagy XML formátumban térnek vissza a `Content-type` válaszfejlécben jelzett módon.
 
 ## <a name="api-documentation"></a>API-dokumentáció
+
 A modern REST API-khoz modern API-dokumentáció szükséges. A REST API-k az OpenAPI specifikációra (más néven a Swagger-specifikációra) épülnek, és a dokumentáció elérhető a [SwaggerHubon](https://app.swaggerhub.com/apis/microsoft-rs/PBIRS/2.0). Az API dokumentálásán túl a SwaggerHub segítségével egy ügyfélkódtár is felépíthető a választott nyelven (többek között JavaScript, TypeScript, C#, Java, Python és Ruby).
 
 ## <a name="testing-api-calls"></a>API-hívások tesztelése
+
 HTTP kérés- és válaszüzenetek teszteléséhez használható eszköz a [Fiddler](http://www.telerik.com/fiddler). A Fiddler egy ingyenes webes hibaelhárító proxy, amely el tudja fogni a REST-kéréseket, így könnyen diagnosztizálhatóak a használatával a HTTP kérés- és válaszüzenetek.
 
 ## <a name="next-steps"></a>További lépések
+
 Tekintse át a [SwaggerHubon](https://app.swaggerhub.com/apis/microsoft-rs/PBIRS/2.0) az elérhető API-kat.
 
 A minták a [GitHubon](https://github.com/Microsoft/Reporting-Services) érhetők el. A minták között található egy, a TypeScript, a React és a webpack használatával készült HTML5-alkalmazás, valamint egy PowerShell-példa.
 
 További kérdései vannak? [Kérdezze meg a Power BI közösségét](https://community.powerbi.com/)
-
