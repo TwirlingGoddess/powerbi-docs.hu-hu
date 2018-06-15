@@ -900,8 +900,18 @@
           href: developer/embed-sample-for-customers.md
     - name: Fogalmak
       items:
-        - name: Mire használhatom a Power BI API-t?
-          href: developer/overview-of-power-bi-rest-api.md
+        - name: Munkavégzés a Power BI REST API-kkal
+          items:
+            - name: Mire használhatom a Power BI API-t?
+              href: developer/overview-of-power-bi-rest-api.md
+            - name: A Power BI REST API korlátozásai
+              href: developer/api-rest-api-limitations.md
+            - name: Adatkészlet tulajdonságai
+              href: developer/api-dataset-properties.md
+            - name: Adatmodell verzióinak kezelése
+              href: developer/api-data-model-versioning.md
+        - name: Egyéni vizuális elem létrehozása a Fejlesztői eszközökkel
+          href: service-custom-visuals-getting-started-with-developer-tools.md
         - name: Power BI-engedélyek
           href: developer/power-bi-permissions.md
         - name: Sorszintű biztonság (RLS)
@@ -966,8 +976,10 @@
               href: developer/walkthrough-push-data-get-datasets.md
             - name: Sorok hozzáadása táblához
               href: developer/walkthrough-push-data-add-rows.md
-            - name: Kódlistázás befejezése
+            - name: Teljes kódlista
               href: developer/walkthrough-push-data-complete-code.md
+            - name: Automatikus adatmegőrzési szabályzat valós idejű adatokhoz
+              href: developer/api-automatic-retention-policy-for-real-time-data.md
         - name: Tartalomcsomag hitelesítése
           items:
             - name: Tartalomcsomag-hitelesítési program
