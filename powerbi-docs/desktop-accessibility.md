@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 04/24/2018
+ms.date: 06/05/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: bd0565420382fc22af67b1363b41f6d8ed6e92ab
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 6147f41ea99ad4a0416f6aa9c01288102f792771
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34290752"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34812928"
 ---
 # <a name="accessibility-in-power-bi-desktop-reports"></a>Akadálymentesség a Power BI Desktop-jelentésekben
 A **Power BI Desktop** rendelkezik olyan funkciókkal, amelyek lehetővé teszik a fogyatékkal élők számára, hogy könnyedén használják és kezeljék a **Power BI Desktop**-jelentéseket. A funkciók közé tartozik az a lehetőség, hogy a jelentések billentyűzettel vagy képernyőolvasóval is használhatók legyenek, az oldalak objektumai léptetéssel emelhetők ki, és a jelölők használata átgondolt a vizualizációkban.
@@ -66,6 +66,23 @@ Az alábbi tippek segítségével olyan **Power BI Desktop** jelentéseket hozha
 * Győződjön meg arról, hogy elég kontraszt legyen a jelentéseiben a szöveg és a háttérszínek között.
 * Könnyen olvasható szövegméretet és betűtípusokat használjon. A kis betűméret vagy a nehezen olvasható betűtípusok nehezítik a használatot.
 * Adjon meg címet, tengelyfeliratokat és adatfeliratokat minden vizualizációhoz.
+
+## <a name="high-contrast-support-for-reports"></a>Kontrasztos megjelenítés a jelentésekhez
+
+Ha kontrasztos üzemmódot használ a Windowsban, akkor a rendszer a kiválasztott beállításokat és palettát a **Power BI Desktop** jelentéseire is alkalmazza. 
+
+![A Windows kontrasztos beállítása](media/desktop-accessibility/accessibility_05.png)
+
+A **Power BI Desktop** automatikusan észleli, milyen kontrasztos témát használ a Windowsban, és alkalmazza ezeket a beállításokat a jelentésekre. Ezek a kontrasztos színek megmaradnak a jelentésben a Power BI szolgáltatásban vagy máshol való közzétételkor.
+
+![A Windows kontrasztos beállítása](media/desktop-accessibility/accessibility_05b.png)
+
+A Power BI szolgáltatás megpróbálja a Windowshoz kiválasztott kontrasztos beállításokat is felderíteni, de ennek a felderítésnek a hatékonysága és pontossága a Power BI szolgáltatáshoz használt böngészőbeállításoktól függ. Ha manuálisan szeretné beállítani a témát a Power BI szolgáltatásban, kiválaszthatja a **Nézet > Kontrasztos színes** beállítást, majd a témát, amelyet a jelentésre szeretne alkalmazni.
+
+![Kontrasztos megjelenítés beállítása a Power BI szolgáltatásban](media/desktop-accessibility/accessibility_06.png)
+
+Miután megnyitotta a **Power BI Desktop** alkalmazást, vegye észere, hogy bizonyos területek, például a **Vizualizációk** és a **Mezők** nem a kiválasztott kontrasztos Windows-színsémákat használják.
+
 
 ## <a name="considerations-and-limitations"></a>Megfontolandó szempontok és korlátozások
 Az akadálymentességi funkciók néhány ismert hibáját és korlátait az alábbi lista ismerteti:
