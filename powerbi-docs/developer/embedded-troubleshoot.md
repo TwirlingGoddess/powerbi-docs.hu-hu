@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 04/23/2018
 ms.author: maghan
-ms.openlocfilehash: fa142a34da003328ef509c319faf24d556023440
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: ad23161985cc2721562cfdfd9128e326db887ece
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34720811"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34813158"
 ---
 # <a name="troubleshooting-your-embedded-application"></a>Beágyazott alkalmazás hibaelhárítása
 
@@ -108,7 +108,7 @@ Megadott hatályos identitás esetén a GenerateToken-hívás sikertelenségét 
 
 Ahhoz, hogy eldönthesse, melyik okozza a hibát, próbálja meg a következőket.
 
-* Hajtsa végre az [adatok lekérését](https://msdn.microsoft.com/library/mt784653.aspx). Az IsEffectiveIdentityRequired tulajdonság true (igaz) értékű?
+* Hajtsa végre az [adatkészlet lekérése](https://docs.microsoft.com/rest/api/power-bi/datasets) műveletet. Az IsEffectiveIdentityRequired tulajdonság true (igaz) értékű?
 * A felhasználónév megadása minden EffectiveIdentity esetén kötelező.
 * Ha az IsEffectiveIdentityRolesRequired true (igaz) értékű, akkor kötelező megadni a szerepkört.
 * A DatasetId megadása minden EffectiveIdentity esetén kötelező.

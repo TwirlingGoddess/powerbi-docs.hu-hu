@@ -10,12 +10,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/13/2018
 ms.author: mihart
-ms.openlocfilehash: a1d3a18fd2f325cd82cd682feb52205f17dacf93
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 691956dace3ad7592be6763c97517384b7560681
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34297009"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34813595"
 ---
 # <a name="getting-a-custom-visual-certified"></a>Egyéni vizualizáció *minősítésének* megszerzése
 ## <a name="what-is-meant-by-certified"></a>Mit értünk az alatt, hogy *minősített*?
@@ -90,6 +90,7 @@ A Microsoft saját belátása szerint eltávolíthatja a vizualizációkat a Min
 | [Gantt](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380765) | [Videó](https://youtu.be/qJ7s_KrGiUU) |
 | [Gantt-diagram a MAQ Software-től](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381364) | [Videó](https://youtu.be/vJLV9JRCpI8) |
 | [Földgömb adatsávok](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381344) | |
+| [Rács a MAQ Software-től](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380825) | [Videó](https://youtu.be/VOPoDJgZfOY) |
 | [Hierarchiadiagram az Akvelontól](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381333) | [Videó](https://youtu.be/0ZGzJaq_KT4) |
 | [Hisztogram](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380776) | |
 | [Pontokkal rendelkező hisztogram a MAQ Software-től](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381032) | [Videó](https://youtu.be/-ILF--wExrw) |

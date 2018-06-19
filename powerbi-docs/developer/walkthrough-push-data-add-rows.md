@@ -9,19 +9,19 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: maghan
-ms.openlocfilehash: 382d600a6e50d926fc61163ea1b0e4f1273fdcc9
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: b6fdd950b77dedf9f5180f7cbc90d40c786051c7
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34287532"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34812537"
 ---
 # <a name="step-5-add-rows-to-a-power-bi-table"></a>5. lépés: Sorok hozzáadása egy Power BI-táblához
 Ez a cikk az [adatok adatkészletbe történő leküldését](walkthrough-push-data.md) ismertető részletes útmutató része.
 
-Az adatok adatkészletbe történő leküldési folyamatának **4. lépése** ([Adatkészlet lekérése és sorok hozzáadása egy Power BI-táblához](walkthrough-push-data-get-datasets.md)) esetében az [Adatkészletek lekérése](https://msdn.microsoft.com/library/mt203567.aspx) művelet és a Newtonsoft.Json fájl használatával történik az adatkészlet azonosítójának lekérése. Ebben a lépésben az adatkészlet azonosítóját és a [Sorok hozzáadása](https://msdn.microsoft.com/library/mt203561.aspx) műveletet fogja használni sorok hozzáadásához egy **Power BI**-adatkészlethez. 
+Az adatok adatkészletbe történő leküldési folyamatának **4. lépése** ([Adatkészlet lekérése és sorok hozzáadása egy Power BI-táblához](walkthrough-push-data-get-datasets.md)) esetében az [Adatkészletek lekérése](https://docs.microsoft.com/rest/api/power-bi/datasets/getdatasets) művelet és a Newtonsoft.Json fájl használatával történik az adatkészlet azonosítójának lekérése. Ebben a lépésben az adatkészlet azonosítóját és a [PostRows](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postrows) műveletet fogja használni arra, hogy sorokat adjon hozzá egy **Power BI**-adatkészlethez. 
 
-A [Sorok hozzáadása](https://msdn.microsoft.com/library/mt203561.aspx) művelet meghívásakor sorokat vesz fel egy adatkészletbe.
+A [PostRows](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postrows) művelet meghívásakor sorokat vesz fel egy adatkészletbe.
 
 ![](media/walkthrough-push-data-add-rows/powerbi-developer-add-rows.png)
 
@@ -308,9 +308,8 @@ Az alábbiakban megtalálja a [teljes kódlistát](#code).
     }
 
 ## <a name="next-steps"></a>Következő lépések
-[Sorok hozzáadása](https://msdn.microsoft.com/library/mt203561.aspx)  
-[Adatok leküldése egy Power BI-irányítópultba](walkthrough-push-data.md)  
+[Adatok elküldése egy Power BI-irányítópultba](walkthrough-push-data.md)  
 [A Power BI REST API áttekintése](overview-of-power-bi-rest-api.md)  
-[A Power BI REST API-jainak leírása](https://msdn.microsoft.com/library/mt147898.aspx)  
+[A Power BI REST API-jainak leírása](https://docs.microsoft.com/rest/api/power-bi/)  
 További kérdései vannak? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)
 

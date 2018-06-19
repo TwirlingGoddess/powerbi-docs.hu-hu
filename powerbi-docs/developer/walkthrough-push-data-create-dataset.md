@@ -9,23 +9,23 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: maghan
-ms.openlocfilehash: c94f0a94cfc2e59942a17b542efb7b1bb641174c
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: c6cbdf9effa3264eadf19de97be864cc3f152e8b
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34290315"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34812422"
 ---
 # <a name="step-3-create-a-dataset-in-power-bi"></a>3. lépés: Adatkészlet létrehozása a Power BI-ban
 Ez a cikk az [adatok az adatkészletekbe való küldését](walkthrough-push-data.md) ismertető részletes útmutató része.
 
-Az Adatok elküldése az adatkészletbe **2. lépésében** ([Hitelesítéshez szükséges hozzáférési jogkivonat beszerzése](walkthrough-push-data-get-token.md)) egy tokent kapott, amellyel hitelesítheti magát az **Azure AD**-ben. Ebben a lépésben a jogkivonat segítségével meghívhatja az [Adatkészlet létrehozása](https://msdn.microsoft.com/library/mt203562.aspx) műveletet.
+Az Adatok elküldése az adatkészletbe **2. lépésében** ([Hitelesítéshez szükséges hozzáférési jogkivonat beszerzése](walkthrough-push-data-get-token.md)) egy tokent kapott, amellyel hitelesítheti magát az **Azure AD**-ben. Ebben a lépésben a token használatával meghívja a [PostDataset](https://docs.microsoft.com/rest/api/power-bi/pushdatasets) műveletet.
 
-REST-erőforrás meghívásához használja az erőforrás helyét megadó URL-címet, és küldjön az adatkészletet leíró JavaScript Object Notation- (JSON-) karakterláncot a Power BI szolgáltatás erőforrásának. A REST-erőforrás azonosítja a Power BI szolgáltatás azon részét, amellyel dolgozni szeretne. Adatok adatkészletbe történő küldéséhez a célerőforrás egy **Adatkészlet**. Az adatkészletet azonosító URL-cím https://api.PowerBI.com/v1.0/myorg/datasets. Ha egy csoporton belül küld adatokat, akkor az URL-cím https://api.PowerBI.com/v1.0/myorg/groups/{group_id}/datasets.
+REST-erőforrás meghívásához használja az erőforrás helyét megadó URL-címet, és küldjön az adatkészletet leíró JavaScript Object Notation- (JSON-) sztringet a Power BI szolgáltatás erőforrásának. A REST-erőforrás azonosítja a Power BI szolgáltatás azon részét, amellyel dolgozni szeretne. Adatok adatkészletbe történő küldéséhez a célerőforrás egy **Adatkészlet**. Az adatkészletet azonosító URL-cím https://api.PowerBI.com/v1.0/myorg/datasets. Ha egy csoporton belül küld adatokat, akkor az URL-cím https://api.PowerBI.com/v1.0/myorg/groups/{group_id}/datasets.
 
 Egy Power BI REST-művelet hitelesítéséhez adja hozzá a [hitelesítéshez szükséges hozzáférési jogkivonat beszerzését](walkthrough-push-data-get-token.md) ismertető szakaszban kapott jogkivonatot egy kérés fejlécéhez:
 
-Ha az [Adatkészlet létrehozása](https://msdn.microsoft.com/library/mt203562.aspx) műveletet hívja meg, létrejön egy új adatkészlet. 
+Amikor a [PostDataset](https://docs.microsoft.com/rest/api/power-bi/pushdatasets) műveletet meghívja, egy új adatkészlet jön létre. 
 
 ![](media/walkthrough-push-data-create-dataset/powerbi-developer-create-dataset.png)
 
@@ -228,10 +228,11 @@ Az alábbiakban megtalálja a [teljes kódlistát](#code).
 ## <a name="next-steps"></a>Következő lépések
 [Adatkészlet lekérése, és sorok hozzáadása egy Power BI-táblához](walkthrough-push-data-get-datasets.md)  
 [Hitelesítési hozzáférési token beszerzése](walkthrough-push-data-get-token.md)  
-[Adatkészlet létrehozása](https://msdn.microsoft.com/library/mt203562.aspx)  
+[PostDataset](https://docs.microsoft.com/rest/api/power-bi/datasets_postdataset)  
+[PostDatasetInGroup](https://docs.microsoft.com/rest/api/power-bi/datasets_postdatasetingroup)  
 [Adatok elküldése egy Power BI-irányítópultba](walkthrough-push-data.md)  
 [A Power BI REST API áttekintése](overview-of-power-bi-rest-api.md)  
-[A Power BI REST API-jainak leírása](https://msdn.microsoft.com/library/mt147898.aspx)  
+[A Power BI REST API-jainak leírása](https://docs.microsoft.com/rest/api/power-bi/)  
 
 További kérdései vannak? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)
 

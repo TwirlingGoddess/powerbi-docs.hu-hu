@@ -7,14 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/02/2018
+ms.date: 06/05/2018
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 264071f314e4a05a3d0b283ab58d644dff4b44a1
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: f84e43a96243841b247530b5639f5f0c6ae1bb4f
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34813664"
 ---
 # <a name="create-and-manage-relationships-in-power-bi-desktop"></a>Kapcsolatok létrehozása és kezelése a Power BI Desktopban
 Amikor több táblázatot importál, valószínűleg az összes táblázatból származó adattal fog elemzést végezni. A táblázatok közötti kapcsolatok szükségesek az eredmények pontos kiszámításához és a jelentésekben a helyes információk megjelenítéséhez. A Power BI Desktop megkönnyíti ezen kapcsolatok létrehozását. Valójában a legtöbb esetben semmit sem kell tennie, az Automatikus észlelés funkció elvégezheti Ön helyett. Bizonyos esetekben azonban szükség lehet a kapcsolatok saját kezű létrehozására, vagy egy kapcsolat módosításaira. Mindkét esetben fontos megérteni a Power BI Desktopban lévő kapcsolatokat és azok létrehozásának és szerkesztésének módját.
@@ -35,6 +36,16 @@ A **Kezdőlap** lapon kattintson a **Kapcsolatok kezelése** \> **Automatikus é
 ![](media/desktop-create-and-manage-relationships/manualrelationship2.gif)
 
 Alapértelmezés szerint a Power BI Desktop automatikusan konfigurálja az új kapcsolat Számosság (irány), Szűrő irányának keresztezése és Aktív tulajdonságait, de szükség esetén módosíthatja ezeket. További tudnivalókat a jelen cikk későbbi, „További beállítások ismertetése” című szakaszában talál.
+
+Vegye figyelembe, hogy ha a kapcsolat létrehozásához kiválasztott táblák egyike sem tartalmaz egyedi értékeket, akkor *Az oszlopok egyikének egyedi értékeket kell tartalmaznia* hibaüzenet fog megjelenni. Egy kapcsolatban legalább az egyik táblának tartalmaznia *kell* kulcs-értékek megkülönböztethető, egyedi listáját, amely egy általános követelmény a relációs adatbázis-technológiák esetében. 
+
+Ha ezt a hibát észleli, a következő módokon javíthatja a problémát:
+
+* Használja az „Ismétlődő sorok eltávolítása” funkciót egy egyedi értékeket tartalmazó oszlop létrehozásához. Ennek a megközelítésnek az a hátránya, hogy az ismétlődő sorok eltávolítása adatvesztéssel jár, és egy kulcs (sor) legtöbb esetben okkal van megkettőzve.
+* Vegyen fel egy köztes táblát a modellben használt egyedi kulcs-értékekkel, amely csatlakoztatva lesz a kapcsolat mindkét eredeti oszlopához.
+
+További információkért tekintse meg ezt a [blogbejegyzést](https://blogs.technet.microsoft.com/cansql/2016/12/19/relationships-in-power-bi-fixing-one-of-the-columns-must-have-unique-values-error-message/), amely részletesebben körbejárja a problémát.
+
 
 ## <a name="edit-a-relationship"></a>Kapcsolat szerkesztése
 1. A **Kezdőlap** lapon kattintson a **Kapcsolatok kezelése** elemre.

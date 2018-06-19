@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 05/25/2018
 ms.author: maghan
-ms.openlocfilehash: 3e1b3b59fff26242e662d90365a6b8acc98259e6
-ms.sourcegitcommit: b3b32b9b3935706d7caa091833bd32259d7ff6ee
+ms.openlocfilehash: bcdb20d22790b74b54caca5d21325039d6e718bf
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34754932"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34812744"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Gyakori kérdések – Power BI Embedded
 
@@ -51,7 +51,7 @@ Előfordulhatnak olyan esetek, amikor független szoftvergyártók (általában 
 
 ### <a name="how-many-embed-tokens-can-i-create"></a>Hány beágyazási tokent hozhatok létre?
 
-A PRO licenccel a beágyazási tokenek elsődlegesen fejlesztési tesztelésre használhatók, a Power BI fő fiókja csak korlátozott mennyiségű tokent tud előállítani. Éles környezetben használt beágyazásokhoz [kapacitást szükséges vásárolni](#technical). Kapacitásvásárlás esetén nincs korlátja a beágyazási tokenek előállításának. Az [Elérhető szolgáltatások beszerzése](https://msdn.microsoft.com/library/mt846473.aspx) oldalon ellenőrizheti az aktuális beágyazott használatot százalékosan jelző használati értéket.
+A PRO licenccel a beágyazási tokenek elsődlegesen fejlesztési tesztelésre használhatók, a Power BI fő fiókja csak korlátozott mennyiségű tokent tud előállítani. Éles környezetben használt beágyazásokhoz [kapacitást szükséges vásárolni](#technical). Kapacitásvásárlás esetén nincs korlátja a beágyazási tokenek előállításának. Az [Elérhető szolgáltatások](https://docs.microsoft.com/rest/api/power-bi/availablefeatures) oldalon ellenőrizheti a használati értéket, amely százalékosan jelzi az aktuális beágyazott használatot.
 
 ## <a name="technical"></a>Műszaki
 

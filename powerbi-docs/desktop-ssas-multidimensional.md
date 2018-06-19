@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/02/2018
+ms.date: 06/05/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 62f6c8ac23fad39dfb6942678cf92a37014de8bf
-ms.sourcegitcommit: b25ae650643b0a62f33d7c1741307137b9cec316
+ms.openlocfilehash: c16fe65d766c6a1c18d809a68b3b0f6af8047db0
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "34799579"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34813342"
 ---
 # <a name="connect-to-ssas-multidimensional-models-in-power-bi-desktop"></a>Csatlakozás SSAS többdimenziós modellekhez a Power BI Desktopban
 A Power BI Desktopban hozzáférhet az **SSAS többdimenziós modellekhez** (gyakori nevükön **SSAS MD-khez**).
@@ -75,11 +75,12 @@ A felhasználói hierarchiák számított tagjai nem jelennek meg a Power BI-ban
 ### <a name="security"></a>Biztonság
 A többdimenziós modellek támogatják a dimenzió- és cellaszintű biztonság *szerepköralapú* megvalósítását. Ha a Power BI-jal kapcsolódik egy kockához, a rendszer hitelesíti és ellenőrzi a vonatkozó engedélyeit. Ha a felhasználón *dimenzióbiztonság* érvényesül, a vonatkozó dimenziótagokat nem fogja látni a Power BI-ban. Ha a felhasználó rendelkezik definiált *cellabiztonsági* engedéllyel, ahol bizonyos cellák korlátozva vannak, az adott felhasználó a Power BI használatával nem tud a kockához kapcsolódni.
 
-## <a name="limitations-of-ssas-multidimensional-models-in-power-bi-desktop"></a>Az SSAS többdimenziós modellek korlátai a Power BI Desktopban
+## <a name="considerations-and-limitations"></a>Megfontolandó szempontok és korlátozások
 Az **SSAS MD** használatára bizonyos korlátozások vonatkoznak:
 
 * A kiszolgálóknak az Analysis Services SQL Server 2012 SP1 CU4 vagy azt követő verzióját kell futtatniuk, hogy a Power BI Desktop SSAS MD-összekötője megfelelően működjön.
 * A *Műveletek* és az *Elnevezett készletek* nem jelennek meg a Power BI-ban, azonban továbbra is lehet kapcsolódni a *Műveleteket* vagy *Elnevezett készleteket* is tartalmazó kockákhoz, és vizualizációkat és jelentéseket is létre lehet hozni.
+* Előfordulhat olyan hiba, hogy bár a Power BI megjeleníti az SSAS modell metaadatait, de mégsem tud adatokat beolvasni a modellből. Ez olyankor fordulhat elő, amikor a rendszerre csak az MSOLAP-szolgáltató 32-bites verziója van telepítve, és nem rendelkezik a 64-bites verzióval. Ilyenkor a 64-bites verzió telepítése megoldhatja a problémát.
 
 ## <a name="supported-features-of-ssas-md-in-power-bi-desktop"></a>Az SSAS MD támogatott szolgáltatásai a Power BI Desktopban
 Az SSAS MD következő szolgáltatásai támogatottak a Power BI Desktopban:

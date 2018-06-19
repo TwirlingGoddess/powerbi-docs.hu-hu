@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 03/26/2018
+ms.date: 06/05/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 4eb9f8e0b8548fbecd4e5d2e2fd47c4c3acd2bd6
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: c91e257d79e9d16fa5a7a58b696d58aefaaaaf92
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34722816"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34812813"
 ---
 # <a name="on-premises-data-gateway"></a>Helyszíni adatátjáró
 
@@ -47,7 +47,9 @@ Az élő kapcsolatokat táblázatos vagy többdimenziós példányokhoz használ
 [!INCLUDE [gateway-onprem-datasources-include](./includes/gateway-onprem-datasources-include.md)]
 
 ## <a name="download-and-install-the-on-premises-data-gateway"></a>Helyszíni adatátjáró letöltése és telepítése
-Az átjáró letöltéséhez válassza a Letöltés menü alatt található **Data Gateway** (Adatátjáró) lehetőséget. Töltse le a [helyszíni adatátjárót](http://go.microsoft.com/fwlink/?LinkID=820925).
+Az átjáró letöltéséhez válassza a Letöltés menü alatt található **Data Gateway** (Adatátjáró) lehetőséget. Töltse le a [helyszíni adatátjárót](http://go.microsoft.com/fwlink/?LinkID=820925). 
+
+Vegye figyelembe, hogy a helyszíni adatátjáró frissítéséhez az átjáró újratelepítése szükséges, az ebben a szakaszban leírtaknak megfelelően. Az átjáró (újratelepítéssel történő) frissítésekor az átjáró meglévő beállításai megmaradnak.
 
 ![](media/service-gateway-onprem/powerbi-download-data-gateway.png)
 
@@ -56,9 +58,8 @@ Az átjáró letöltéséhez válassza a Letöltés menü alatt található **Da
 
 ## <a name="install-the-gateway-in-personal-mode"></a>Átjáró telepítése személyes módban
 > [!NOTE]
-> A személyes mód csak a Power BI-jal fog működni.
-> 
-> 
+> Az átjáró személyes verziója csak a Power BI szolgáltatással működik.
+
 
 A személyes átjáró telepítése után indítsa el a **Power BI Gateway – Personal beállítási varázslót**.
 

@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/02/2018
+ms.date: 06/05/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 3a27a3c39f1ddcee6a882184f511874313d77c9a
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: b1085c3715d9b4b75925cec1b94ec49b0f5792f7
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34291189"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34813135"
 ---
 # <a name="connect-to-amazon-redshift-in-power-bi-desktop"></a>Csatlakozás Amazon Redshifthez a Power BI Desktopban
 A **Power BI Desktopban** csatlakozhat egy **Amazon Redshift**-adatbázishoz, és úgy használhatja az alapul szolgáló adatokat, mint a Power BI Desktop bármely más adatforrását.
@@ -29,7 +29,7 @@ A megjelenő **Amazon Redshift** ablakban írja vagy illessze be az **Amazon Red
 
 ![](media/desktop-connect-redshift/connect_redshift_4.png)
 
-Ha a rendszer kéri, adja meg a felhasználónevét és a jelszavát.
+Ha a rendszer kéri, adja meg a felhasználónevét és a jelszavát. A hibák elkerülése érdekében az SSL-tanúsítványban található kiszolgálónévvel pontosan megegyező nevet használjon. 
 
 ![](media/desktop-connect-redshift/connect_redshift_5.png)
 

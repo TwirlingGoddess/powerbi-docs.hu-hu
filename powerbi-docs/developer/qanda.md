@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 11/20/2017
 ms.author: maghan
-ms.openlocfilehash: 86dd69cede6975021aff4b0ce3dada112db980ad
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: d1fd42f059f8050662adc80018748d11c1e73e2b
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34287785"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34813756"
 ---
 # <a name="qa-in-power-bi-embedded"></a>Kérdések és válaszok a Power BI Embeddedben
 A Power BI Embedded segítségével a Kérdések és válaszok szolgáltatást beépítheti egy alkalmazásba, és engedélyezheti a felhasználók számára, hogy kérdéseket tegyenek fel a természetes nyelvet használva, és ezekre azonnal választ is kapjanak vizualizációk, például diagramok és ábrák formájában.
@@ -93,9 +93,9 @@ qna.on("visualRendered", function(event) {
 ```
 
 ## <a name="embed-token"></a>Beágyazási token
-Hozzon létre egy beágyazási tokent egy adatkészletből a Kérdések és válaszok rész megkezdéséhez. További információkért lásd: [Token létrehozása a Kérdések és válaszok szolgáltatáshoz](https://msdn.microsoft.com/library/mt784614.aspx#qanda).
+Hozzon létre egy beágyazási tokent egy adatkészletből a Kérdések és válaszok rész megkezdéséhez. További információkért lásd: [Token létrehozása](https://docs.microsoft.com/rest/api/power-bi/embedtoken).
 
-## <a name="next-steps"></a>További lépések
+## <a name="next-steps"></a>Következő lépések
 A Kérdések és válaszok szolgáltatás beágyazásának kipróbáláshoz tekintse meg a [JavaScript beágyazási mintát](https://microsoft.github.io/PowerBI-JavaScript/demo/).
 
 További kérdései vannak? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)
