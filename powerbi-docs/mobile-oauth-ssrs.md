@@ -1,26 +1,27 @@
 ---
-title: Csatlakozás a Reporting Serviceshez OAuth használatával
-description: Tudja meg, hogy konfigurálhatja a környezetét az OAuth-hitelesítés támogatására a Power BI mobilalkalmazásban a Reporting Services 2016 (vagy újabb) szolgáltatáshoz való csatlakozáshoz.
+title: OAuth használata a Power BI jelentéskészítő kiszolgáló és az SSRS csatlakoztatásához
+description: Megtudhatja, hogyan konfigurálhatja a környezetét OAuth-hitelesítés támogatására a Power BI mobilalkalmazásban az SQL Server Reporting Services 2016 (vagy újabb) szolgáltatáshoz való csatlakozáshoz.
 author: markingmyname
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: conceptual
-ms.date: 08/10/2017
+ms.date: 06/07/2018
 ms.author: maghan
-ms.openlocfilehash: 4c9b2f5233ab984e57bf48978284441850c0c48f
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: ba8a0c6868e84cf9d675fff8f69a34b4befc9b61
+ms.sourcegitcommit: b7839f2aa68c3626f55ee7e49c8392169d1ec67e
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/08/2018
+ms.locfileid: "34852210"
 ---
-# <a name="using-oauth-to-connect-to-reporting-services"></a>Csatlakozás a Reporting Serviceshez OAuth használatával
-Tudja meg, hogy konfigurálhatja a környezetét az OAuth-hitelesítés támogatására a Power BI mobilalkalmazásban a Reporting Services 2016 (vagy újabb) szolgáltatáshoz való csatlakozáshoz.
+# <a name="using-oauth-to-connect-to-power-bi-report-server-and-ssrs"></a>OAuth használata a Power BI jelentéskészítő kiszolgáló és az SSRS csatlakoztatásához
+Megtudhatja, hogyan konfigurálhatja a környezetét OAuth-hitelesítés támogatására a Power BI mobilalkalmazásban a Power BI jelentéskészítő kiszolgáló és az SQL Server Reporting Services 2016 (vagy újabb) csatlakoztatásához.
 
 ![](media/mobile-oauth-ssrs/powerbi-mobile-oauth.png)
 
-A Power BI mobilalkalmazás korábban csak alapszintű (HTTPS-en keresztüli) hitelesítést támogatott a Reporting Serviceshez való csatlakozáshoz a mobiljelentések vagy KPI-k megjelenítése céljából. Számos vállalat biztonsági okokból nem támogatja ezt a típusú konfigurációt. A Power BI mobilalkalmazás frissítésével mostantól használhatja az OAuth hitelesítést a Reporting Serviceshez való csatlakozáshoz. A Windows Server 2016 biztosít néhány fejlesztést a webalkalmazás-proxyhoz, így lehetővé vált az ilyen típusú hitelesítés.
+Az OAuth-hitelesítést a Power BI jelentéskészítő kiszolgálóhoz való csatlakozásra használhatja, a Reporting Services-t pedig mobiljelentések és KPI-k megjelenítésére. A Windows Server 2016 webalkalmazás-proxyhoz (WAP) biztosított fejlesztései lehetővé tették az ilyen típusú hitelesítés használatát. Vegye figyelembe, hogy ennél a konfigurációnál nincs támogatva a Power BI-jelentések megtekintése a Power BI-mobilalkalmazásokban. Viszont megtekintheti őket a mobileszköz böngészőjében. Ahhoz, hogy a Power BI-jelentéseket a mobilalkalmazásban tekinthesse meg, Windows-hitelesítés szükséges.
 
 ## <a name="requirements"></a>Követelmények
 Szükséges a Windows Server 2016 a webalkalmazás-proxy (WAP) és az Active Directory összevonási szolgáltatások (ADFS) kiszolgálóihoz. Nincs szükség Windows 2016-os tartományműködési szintre.
@@ -202,7 +203,8 @@ Miután a **Bejelentkezés** lehetőséget választja, megjelennek a Reporting S
 A többtényezős hitelesítés engedélyezésével még biztonságosabbá teheti a környezetet. További információk: [Az AD FS 2016 és az Azure MFA konfigurálása](https://technet.microsoft.com/windows-server-docs/identity/ad-fs/operations/configure-ad-fs-2016-and-azure-mfa).
 
 ## <a name="troubleshooting"></a>Hibaelhárítás
-**Megjelenik a következő üzenet: Nem sikerült a bejelentkezés az SSRS-kiszolgálóra. Ellenőrizze a kiszolgálókonfigurációt.**
+
+### <a name="you-receive-the-error-failed-to-login-to-ssrs-server-please-verify-server-configuration"></a>A következő üzenet jelenik meg: Nem sikerült a bejelentkezés az SSRS-kiszolgálóra. Ellenőrizze a kiszolgálókonfigurációt.
 
 ![](media/mobile-oauth-ssrs/powerbi-mobile-error.png)
 

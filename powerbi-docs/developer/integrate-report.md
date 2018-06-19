@@ -7,13 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
-ms.date: 10/05/2017
+ms.date: 05/25/2018
 ms.author: maghan
-ms.openlocfilehash: d2fa65587fdbd85aabd429d531b79e9e614d2f49
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 032e0ed05d56d2d7f1e2b41cfd922999ff43ea94
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34813365"
 ---
 # <a name="integrate-a-report-into-an-app-for-your-organization"></a>Jelentés integrálása a szervezet egy alkalmazásába
 Ismerje meg, hogyan integrálhat vagy ágyazhat be egy jelentést a webalkalmazásba REST API-hívásokkal és a Power BI JavaScript API-val együtt, ha a szervezete számára ágyaz be.
@@ -27,10 +28,14 @@ Az útmutató megkezdéséhez egy **Power BI**-fiókra van szükség. Ha nincs f
 > 
 > 
 
-Egy jelentés beágyazásához a webalkalmazásba használja a **Power BI** REST API-t vagy a Power BI C# SDK-t, valamint egy Azure Active Directory (AD) engedélyezési **hozzáférési tokent** a jelentés lekéréséhez. Ezután töltse be a jelentést ugyanezen hozzáférési token használatával. A **Power BI** API szoftveres hozzáférést biztosít egyes **Power BI**-erőforrásokhoz. További információkért lásd: [A Power BI REST API áttekintése](https://msdn.microsoft.com/library/dn877544.aspx) és [Power BI JavaScript API](https://github.com/Microsoft/PowerBI-JavaScript).
+Egy jelentés beágyazásához a webalkalmazásba használja a **Power BI** REST API-t vagy a Power BI C# SDK-t, valamint egy Azure Active Directory (AD) engedélyezési **hozzáférési tokent** a jelentés lekéréséhez. Ezután töltse be a jelentést ugyanezen hozzáférési token használatával. A **Power BI** API szoftveres hozzáférést biztosít egyes **Power BI**-erőforrásokhoz. További információt a [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/) és a [Power BI JavaScript API](https://github.com/Microsoft/PowerBI-JavaScript) című cikkekben talál.
 
 ## <a name="download-the-sample"></a>A minta letöltése
 Ez a cikk a GitHubon, az [integrate-report-web-app](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/User%20Owns%20Data/integrate-report-web-app) mintában használt kódot mutatja be. A bemutató követéséhez letöltheti a mintát.
+
+De használhatja az [Előkészítési eszközt](https://aka.ms/embedsetup/UserOwnsData) is, amellyel egyszerűen elvégezheti az első lépéseket és letölthet egy mintaalkalmazást is.
+
+Ha mégis a környezet manuális létrehozása mellett dönt, folytathatja az alábbiak szerint.
 
 ## <a name="step-1---register-an-app-in-azure-ad"></a>1. lépés – alkalmazás regisztrálása az Azure AD-ben
 A REST API-hívások indításához az alkalmazásokat regisztrálni kell az Azure AD-ben. További információkért lásd: [Azure AD alkalmazás regisztrálása Power BI-tartalmak beágyazásához](register-app.md).
@@ -43,10 +48,10 @@ Ha letöltötte az [integrate-report-web-app](https://github.com/Microsoft/Power
 Az alkalmazásban először egy **hozzáférési tokent** kell beszereznie az Azure AD-ből, mielőtt hívásokat indíthatna a Power BI REST API-hoz. További információkért lásd [a felhasználók hitelesítésével és a Power BI-alkalmazáshoz Azure AD hozzáférési token beszerzésével](get-azuread-access-token.md) kapcsolatos cikket.
 
 ## <a name="step-3---get-a-report"></a>3. lépés – jelentés lekérése
-**Power BI**-jelentés lekéréséhez használja a [Jelentések lekérése](https://msdn.microsoft.com/library/mt634543.aspx) műveletet, amely a **Power BI**-jelentések listáját kéri le. A jelentések listájából lekérheti a jelentésazonosítót.
+**Power BI**-jelentés lekéréséhez használja a [Jelentések lekérése](https://docs.microsoft.com/rest/api/power-bi/reports/getreports) műveletet, amely a **Power BI**-jelentések listáját kéri le. A jelentések listájából lekérheti a jelentésazonosítót.
 
 ### <a name="get-reports-using-an-access-token"></a>Jelentések lekérése hozzáférési token használatával
-A [2. lépésben](#step-2-get-an-access-token-from-azure-ad) lekért **hozzáférési token** segítségével meghívhatja a [Jelentések lekérése](https://msdn.microsoft.com/library/mt634543.aspx) műveletet. A [Jelentések lekérése](https://msdn.microsoft.com/library/mt634543.aspx) művelet jelentések listáját adja vissza. A jelentések listájából lekérhet egyetlen jelentést. Alul látható egy teljes C# metódus jelentés lekéréséhez. 
+A [2. lépésben](#step-2-get-an-access-token-from-azure-ad) lekért **hozzáférési token** segítségével meghívhatja a [Jelentések lekérése](https://docs.microsoft.com/rest/api/power-bi/reports/getreports) műveletet. A [Jelentések lekérése](https://docs.microsoft.com/rest/api/power-bi/reports/getreports) művelet jelentések listáját adja vissza. A jelentések listájából lekérhet egyetlen jelentést. Alul látható egy teljes C# metódus jelentés lekéréséhez. 
 
 A REST API-hívásához egy *Engedélyezési* fejlécet is meg kell adnia a *Tulajdonos {hozzáférési token}* formátumában.
 
@@ -213,7 +218,7 @@ Ha letöltötte és futtatta az [integrate-report-web-app](https://github.com/Mi
 ![Minta beágyazott jelentés](media/integrate-report/powerbi-embedded-report.png)
 
 ## <a name="working-with-groups-app-workspaces"></a>A csoportok kezelése (alkalmazás-munkaterületek)
-Egy jelentés beágyazásához egy csoportból (alkalmazás-munkaterületről) be kell szereznie az egy csoport irányítópultján belül elérhető jelentések listáját az alábbi REST API-hívás használatával. További információ erről a REST API-hívásról: [Jelentések lekérése](https://msdn.microsoft.com/library/mt634543.aspx). A csoportban engedéllyel kell rendelkeznie, hogy a kérés eredményeket adjon vissza.
+Egy jelentés beágyazásához egy csoportból (alkalmazás-munkaterületről) be kell szereznie az egy csoport irányítópultján belül elérhető jelentések listáját az alábbi REST API-hívás használatával. További információ erről a REST API-hívásról: [Jelentések lekérése](https://docs.microsoft.com/rest/api/power-bi/reports/getreports). A csoportban engedéllyel kell rendelkeznie, hogy a kérés eredményeket adjon vissza.
 
 ```
 https://api.powerbi.com/v1.0/myorg/groups/{group_id}/reports

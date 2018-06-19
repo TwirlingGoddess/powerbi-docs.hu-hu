@@ -7,49 +7,74 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 04/09/2018
+ms.date: 06/05/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 79fcd556827c0c5c34615021e45e3abfadfd50e2
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: d0cc0ce18a187280c48be0c84bf9adf680ea3ea4
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34288153"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34813434"
 ---
 # <a name="use-the-sap-bw-connector-in-power-bi-desktop"></a>Az SAP BW Connector használata a Power BI Desktopban
 A Power BI Desktopban hozzáférhet az **SAP Business Warehouse (BW)** adataihoz.
 
 Ha szeretné megismerni, milyen előnyökkel jár, ha az ügyfelek a Power BI-t a meglévő SAP Business Warehouse (BW) rendszerükhöz csatlakoztatják, olvassa el a [Power BI-t és az SAP BW-t bemutató tanulmányt](https://aka.ms/powerbiandsapbw).
 
-## <a name="installation-of-sap-bw-connector"></a>Az SAP BW Connector telepítése
-Az **SAP BW Connector** használatához hajtsa végre az alábbi telepítési lépéseket:
+A **Power BI Desktop** 2018. júniusi kiadásától kezdődően az SAP BW-összekötő olyan új implementációját használhatja, amelyen jelentős teljesítménybeli és képességbeli fejlesztéseket végeztünk. Az SAP BW-összekötő felújított változatát a Microsoft fejlesztette, a neve **2.0-s Implementáció**. Ezentúl választhat a szabványos **SAP BW-összekötő** és az **SAP-összekötő 2.0-s Implementációja** között. A következő szakaszok az egyes verziók telepítését mutatják be egymás után. Amikor a Power BI Desktopból az SAP BW-hez kapcsolódik, kiválaszthatja, hogy a kettő közül melyik összekötőt kívánja használni.
+
+Javasoljuk, hogy amikor csak lehetséges az **SAP-összekötő 2.0-s Implementáció** lehetőséget válassza.
+
+## <a name="installation-of-the-standard-sap-bw-connector"></a>A szabványos SAP BW-összekötő telepítése
+Javasoljuk, hogy amikor csak lehetséges, az SAP-összekötő 2.0-s Implementációját használja (a használathoz útmutatást a következő szakaszban talál). Ez a szakasz a szabványos **SAP BW-összekötő** telepítését mutatja be, amelynek folyamata a következő telepítési lépésekből áll:
 
 1. Telepítse az **SAP NetWeaver** kódtárat a helyi számítógépen. Az **SAP Netweaver** kódtárat az SAP-rendszergazdától vagy közvetlenül az [SAP Software Download Center letöltőközpontból](https://support.sap.com/swdc) szerezheti be. Mivel az **SAP Software Download Center** szerkezete gyakran változik, a helyet nem tudjuk pontosabban meghatározni. Az **SAP NetWeaver** kódtárat általában az SAP Client Tools telepítése is tartalmazza.
    
    A legfrissebb verzió letöltései helyének megtalálásához érdemes rákeresnie a *SAP Note #1025361* jegyzetre. Bizonyosodjon meg róla, hogy az **SAP NetWeaver** kódtár architektúrája (32 vagy 64 bites) megegyezik a **Power BI Desktop** telepítésével, majd telepítse az **SAP NetWeaver RFC SDK-t** az SAP-jegyzetnek megfelelően.
 2. Az **Adatok lekérése** párbeszédpanelen az **Adatbázis** kategóriában megjelenik egy **SAP Business Warehouse-alkalmazáskiszolgáló** és egy **SAP Business Warehouse üzenetkezelési kiszolgáló** bejegyzés.
    
-   ![](media/desktop-sap-bw-connector/sap_bw_2a.png)
+   ![Adatbeolvasási lehetőségek az SAP-hoz](media/desktop-sap-bw-connector/sap_bw_2a.png)
 
-## <a name="sap-bw-connector-features"></a>Az SAP BW Connector funkciói
-A Power BI Desktopban az **SAP BW-összekötők** használatával importálhatók adatok az **SAP Business Warehouse-kiszolgáló** típusú kockákból, de a DirectQuery is használható. 
+## <a name="installation-of-implementation-20-sap-connector"></a>Az SAP-összekötő 2.0-s Implementációjának telepítése
+
+Az SAP-összekötő **2.0-s Implementációjához** szükség van az SAP .NET-összekötő 3.0-s verziójára. A következő hivatkozás használatával [letöltheti az SAP .NET-összekötő 3.0-s verzióját](https://go.microsoft.com/fwlink/?linkid=872300) az SAP weboldaláról:
+
+* [SAP .NET-összekötő 3.0](https://go.microsoft.com/fwlink/?linkid=872300)
+
+A letöltéshez való hozzáféréshez érvényes S-felhasználói fiókra van szükség. Javasoljuk, hogy az SAP .NET-összekötő 3.0-s verziójának beszerzéséhez ügyfeleink lépjenek kapcsolatba SAP Basis-csapatukkal. 
+
+Az összekötő elérhető 32-bites és 64-bites verzióban is, és ezek közül a felhasználóknak azt a verziót *kell* kiválasztaniuk, amelyik a Power BI Desktop telepített verziójához igazodik. A cikk írásának időpontjában két verzió érhető el a weboldalon (a .NET-keretrendszer 4.0-s verziójához):
+
+* SAP-összekötő Microsoft .NET-hez 3.0.20.0-s verzió Windows 32-bites (x86) rendszerhez zip-fájlként (6.896 KB), 2018 Január 16
+* SAP-összekötő Microsoft .NET-hez 3.0.20.0-s verzió Windows 64-bites (x64) rendszerhez zip-fájlként (7.180 KB), 2018 Január 16
+
+Telepítéskor ügyeljen rá, hogy a **Választható telepítési lépések** (Optional setup steps) ablakban a *Szerelvények telepítése a globális szerelvény-gyorsítótárba* (Install assemblies to GAC) lehetőség ki legyen választva, ahogy az a következő ábrán is látható:
+
+![Választható telepítési lépések az SAP-hoz](media/desktop-sap-bw-connector/sap_bw_2b.png)
+
+> [!NOTE]
+> A szabványos SAP BW-implementáció esetében szükség van a Netweaver DLL-fájlok telepítésére is, azonban ha az SAP-összekötő 2.0-s Implementációját használja, és nem a szabványos verziót, akkor a Netweaver DLL-fájlokra nincsen szükség.
+
+
+## <a name="standard-sap-bw-connector-features"></a>A szabványos SAP BW-összekötő funkciói
+A Power BI Desktopban található szabványos **SAP BW-összekötő** használatával adatokat importálhat az **SAP Business Warehouse-kiszolgáló** típusú kockákból, de DirectQuery használatát is lehetővé teszi. 
 
 Az **SAP BW Connectorról** és annak a DirectQueryvel való használatáról [A DirectQuery és az SAP Business Warehouse (BW)](desktop-directquery-sap-bw.md) című cikkből tájékozódhat.
 
 A kapcsolat kiépítéséhez kapcsolódáskor ki kell töltenie a *Kiszolgáló*, a *Rendszer száma* és az *Ügyfélazonosító* mezőt.
 
-![](media/desktop-sap-bw-connector/sap_bw_3a.png)
+![SAP-kiszolgáló kapcsolatbeállításai](media/desktop-sap-bw-connector/sap_bw_3a.png)
 
 Két további **Speciális beállítást** is megadhat: a nyelvkódot, valamint a megadott kiszolgálón futtatható egyéni MDX-utasítást.
 
-![](media/desktop-sap-bw-connector/sap_bw_4a.png)
+![kapcsolat további adatai](media/desktop-sap-bw-connector/sap_bw_4a.png)
 
 Ha nincs MDX-utasítás megadva, a **Kezelő** ablak jelenik meg, amely a kiszolgálón elérhető kockák listáját mutatja, valamint az elérhető kockák részletes elemzését és elemeit, köztük a dimenziók és mértékek kiválasztását lehetővé tevő beállításokat. A Power BI-ban elérhetőek a [BW Open Analysis Interface OLAP BAPI-kban](https://help.sap.com/saphelp_nw70/helpdata/en/d9/ed8c3c59021315e10000000a114084/content.htm) elérhető lekérdezések és kockák.
 
 Amikor kijelöl egy vagy több elemet a kiszolgálón, a rendszer a kijelölés alapján létrehozza a kimeneti tábla előnézetét.
 
-![](media/desktop-sap-bw-connector/sap_bw_5.png)
+![SAP-táblázat előnézete](media/desktop-sap-bw-connector/sap_bw_5.png)
 
 A **Kezelő** ablakban néhány **megjelenítési beállítás** is elérhető, amelyekkel a következőket állíthatja be:
 
@@ -57,7 +82,7 @@ A **Kezelő** ablakban néhány **megjelenítési beállítás** is elérhető, 
 * **Adatok előnézetének engedélyezése (alapértelmezett viselkedés):** Szabályozhatja azt is, hogy a párbeszédablakban megjelenjenek-e az adatelőnézetek. Az adatelőnézetek letiltása csökkenti a kiszolgálói hívások mennyiségét, mivel a rendszer nem kér le adatokat az előnézetekhez.
 * **Technikai nevek:** Az SAP BW támogatja a kockákban lévő objektumokra vonatkozó *technikai nevek* koncepciót. A technikai nevek segítségével a kocka tulajdonosa *felhasználóbarát* nevekkel jelenítheti meg a kockában lévő objektumokat, nem csupán azok *fizikai neveivel*.
 
-![](media/desktop-sap-bw-connector/sap_bw_6.png)
+![a Kezelőablak](media/desktop-sap-bw-connector/sap_bw_6.png)
 
 Miután kijelölte az összes szükséges objektumot a **Kezelőben** a **Kezelő** ablak alján lévő alábbi gombokkal meghatározhatja a következő lépéseket:
 
@@ -66,8 +91,82 @@ Miután kijelölte az összes szükséges objektumot a **Kezelőben** a **Kezel�
 
 Ne feledje, hogy az **SAP BW**-kockákból importálható adatok mellett adatforrások széles választékából importálhat még adatokat a Power BI Desktopba, és ezeket egyetlen jelentésbe kombinálhatja. Ez számos különféle izgalmas jelentéskészítési és elemzési forgatókönyvet tesz lehetővé az **SAP BW**-adatokra épülően.
 
+## <a name="using-implementation-20-sap-bw-connector"></a>Az SAP BW-összekötő 2.0-s Implementációjának használata
+
+Az SAP BW-összekötő 2.0-s Implementációjának használatához egy új kapcsolatot kell létrehozni. A következő lépések elvégzésével hozhat létre új kapcsolatot:
+
+1. Az **Adatok lekérése** ablakban válassza ki az **SAP Business Warehouse-alkalmazáskiszolgáló** vagy az **SAP Business Warehouse üzenetkezelési kiszolgáló** lehetőségek egyikét.
+
+2. Megjelenik az új kapcsolat párbeszédpanelje, ahol kiválasztható a használni kívánt implementáció. A **2.0-s Implementáció** kiválasztása – mint azt a következő ábra is bemutatja – elérhetővé teszi a Végrehajtási mód, a Köteg mérete, és a Jellemző struktúrák engedélyezése beállítási lehetőségeket.
+
+    ![SAP-kapcsolat párbeszédpanel](media/desktop-sap-bw-connector/sap_bw_7.png)
+
+3. Az **OK** lehetőség kiválasztása után a **Kezelő** használata már megegyezik a szakasz korábbi részében tárgyalt szabványos SAP BW-összekötő esetén leírtakkal. 
+
+### <a name="new-options-for-implementation-20"></a>A 2.0-s Implementáció új beállítási lehetőségei 
+
+A 2.0-s Implementáció a következő beállítási lehetőségeket támogatja:
+
+1. **ExecutionMode** (Végrehajtási mód) – meghatározza a kiszolgálón lekérdezések végrehajtására használt MDX-felületet. A következő érvényes lehetőségek közül választhat:
+
+        a. SapBusinessWarehouseExecutionMode.BasXml
+        b. SapBusinessWarehouseExecutionMode.BasXmlGzip
+        c. SapBusinessWarehouseExecutionMode.DataStream
+
+    A beállítás alapértelmezett értéke a SapBusinessWarehouseExecutionMode.BasXmlGzip.
+
+    A *SapBusinessWarehouseExecutionMode.BasXmlGzip.* beállítás használata javíthatja a teljesítményt nagy méretű adatkészletek vagy nagy késésű kapcsolat használata esetén.
+
+2. **BatchSize** (Köteg mérete) – Meghatározza az MDX-utasítások végrehajtásakor letöltött sorok maximális számát. Kevesebb sor esetén a nagyobb adatkészletek beolvasásához több hívásra lesz szükség a kiszolgáló felé. Nagy számú sor használata javíthat a teljesítményen, de memóriával kapcsolatos problémákat okozhat a SAP BW-kiszolgálón. Az alapértelmezett érték 50000 sor.
+
+3. **EnableStructures** (Struktúrák engedélyezése) – Logikai érték, amely a jellemző struktúrák felismerésének engedélyezését jelzi. A beállítás alapértelmezett értéke false (hamis). Hatással van a kiválasztható objektumok listájára. Natív lekérdezési módban nem támogatott.
+
+A **ScaleMeasures** (Mértékek skálázása) beállítás elavulttá vált ebben az implementációban. A rendszer viselkedése megegyezik a korábbi *ScaleMeasures = false* (Mértékek skálázása = hamis) beállítással, amely mindig méretezés nélkül jelenítette meg az értékeket.
+
+### <a name="additional-improvements-for-implementation-20"></a>További fejlesztések a 2.0-s Implementációban 
+
+A következő felsorolás bemutatja az új implementáció néhány további fejlesztett funkcióját:
+
+* Jobb teljesítmény
+* Akár több millió sornyi adat beolvasása és finomhangolhatóság a kötegméret paraméter használatával.
+* Kiválasztható végrehajtási mód.
+* Tömörített mód támogatása. Különösen hasznos nagy késleltetésű kapcsolatok vagy nagy adatkészletek esetében.
+* A Dátum változók továbbfejlesztett észlelése.
+* [Kísérleti funkció] A dátum (DATS ABAP-típusú) és idő (TIMS ABAP-típusú) dimenziók dátummá és idővé alakítása szöveges értékek helyett.
+* Jobb kivételkezelés. A BAPI-hívásokban esetleg felmerülő hibák megjelennek a felületen.
+* Oszlopok összecsukása BasXml és BasXmlGzip módoknál. Ha például a generált MDX-lekérdezés 40 oszlopot kér le, de az aktuális kijelöléshez csak 10 oszlopra van szükség, akkor ez a kérelem továbbításra kerül a kiszolgáló felé, hogy kisebb adatkészlet kerüljön letöltésre.
+
+
+### <a name="changing-existing-reports-to-use-implementation-20"></a>Meglévő jelentések átállítása a 2.0-s Implementáció használatára 
+
+A meglévő jelentések átállítása **2.0-s Implementáció használatára** csak Importálás módban lehetséges, és a következő kézileg elvégzendő lépésekből áll:
+
+1. Nyisson meg egy meglévő jelentést, válassza ki a **Lekérdezések szerkesztése** lehetőséget a menüszalagból, ezután pedig válassza ki azt az SAP Business Warehouse-lekérdezést, amelyet frissíteni szeretne.
+
+2. Kattintson jobb gombbal a lekérdezésre, és válassza a **Speciális szerkesztő** lehetőséget.
+
+3. A **Speciális szerkesztő** felületén következőképpen módosítsa az SapBusinessWarehouse.Cubes-hívást: 
+
+    a. Határozza meg, hogy tartalmaz-e már a lekérdezés ahhoz hasonló beállítás-rekordot, mint amilyen a következő példában látható:
+
+    ![lekérdezés-részlet](media/desktop-sap-bw-connector/sap_bw_9.png)
+
+    b. Ha igen, a következő példában látható módon vegye fel az Implementation 2.0 (2.0-s Implementáció) beállítást, és távolítsa el a ScaleMeasures beállítást, ha van ilyen:
+
+    ![lekérdezés-részlet](media/desktop-sap-bw-connector/sap_bw_10.png)
+
+    c. Ha a lekérdezés még nem tartalmaz beállítás-rekordot, egyszerűen vegyen fel egyet. Ha például a következők találhatók a lekérdezésben:
+
+    ![lekérdezés-részlet](media/desktop-sap-bw-connector/sap_bw_11.png)
+
+    d. Egyszerűen módosítsa a következőre:
+
+    ![lekérdezés-részlet](media/desktop-sap-bw-connector/sap_bw_12.png)
+
+4. Az SAP BW-összekötő 2.0-s Implementációjának fejlesztése során mindent megtettünk azért, hogy az kompatibilis maradjon a szabványos SAP BW-összekötővel. Ennek ellenére előfordulhat néhány különbség, amelyek az eltérő SAP BW MDX végrehajtási módok használatából fakadnak. Az egyezési hibák elhárítása érdekében érdemes lehet a különböző végrehajtási módok között váltani.
+
 ## <a name="troubleshooting"></a>Hibaelhárítás
-Ez a szakasz hibaelhárítási forgatókönyveket (és megoldásokat) mutat be az **SAP BW** Connector előzetes verziójának használatához.
+Ez a szakasz hibaelhárítási forgatókönyveket (és megoldásokat) mutat be az **SAP BW**-összekötő használatához.
 
 1. Az **SAP BW** numerikus adataiban az ezreselválasztó vessző helyett pont szerepel. Például az 1,000,000 helyett 1.000.000 áll.
    
@@ -105,7 +204,7 @@ Ez a szakasz hibaelhárítási forgatókönyveket (és megoldásokat) mutat be a
    ![](media/desktop-sap-bw-connector/sap_bw_8.png)
 
 ## <a name="next-steps"></a>Következő lépések
-Az SAP HANA-val és a DirectQueryvel kapcsolatos további információkért tekintse meg az alábbi forrásanyagokat:
+Az SAP-val és a DirectQueryvel kapcsolatos további információkért tekintse meg az alábbi forrásanyagokat:
 
 * [DirectQuery és SAP HANA](desktop-directquery-sap-hana.md)
 * [A DirectQuery használata a Power BI-ban](desktop-directquery-about.md)

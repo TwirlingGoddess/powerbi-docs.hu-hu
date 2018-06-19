@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/02/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 376fb2a6167e020e5d65c7d634ef05cd366b1aa2
-ms.sourcegitcommit: b3b32b9b3935706d7caa091833bd32259d7ff6ee
+ms.openlocfilehash: a604f50889d4443ba7c8e7da580275e579f69d15
+ms.sourcegitcommit: 4b61588e3ab3c8bbb17276402dbf7fa00085a266
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34755139"
+ms.lasthandoff: 06/11/2018
+ms.locfileid: "35301826"
 ---
 # <a name="power-bi-admin-portal"></a>Power BI felügyeleti portál
 
@@ -218,10 +218,13 @@ A munkahelyi felhasználók az Excel használatával megtekinthetik és használ
 > [!NOTE]
 > Az **Adatok exportálása** lehetőség letiltásával azt is megakadályozhatja, hogy a felhasználók az **Elemzés az Excelben** funkciót használják.
 
-### <a name="user-arcgis-maps-for-power-bi-preview"></a>Az ArcGIS Maps for Power BI (előzetes verzió) használata
+### <a name="use-arcgis-maps-for-power-bi"></a>Az ArcGIS Maps for Power BI használata
 
-A munkahelyi felhasználók használhatják az Esri által biztosított ArcGIS Maps for Power BI (előzetes verzió) vizualizációját. [További információ](power-bi-visualization-arcgis.md)
+A vállalati felhasználók használhatják az Esri által biztosított ArcGIS Maps for Power BI vizualizációt. [További információ](power-bi-visualization-arcgis.md)
 
+### <a name="use-global-search-for-power-bi-preview"></a>A globális keresés használata a Power BI-ban (előzetes verzió)
+
+A vállalati felhasználók használhatják az Azure Searchre épülő külső keresési funkciókat. Például a felhasználók a Cortana használatával a lényeges információkat közvetlenül a Power BI-irányítópultokból és -jelentésekből nyerhetik ki. [További információ](service-cortana-intro.md)
 
 ## <a name="custom-visuals-settings"></a>Egyéni vizualizációk beállításai
 ### <a name="enable-custom-visuals-for-the-entire-organization"></a>Egyéni vizualizációk engedélyezése a teljes cég számára

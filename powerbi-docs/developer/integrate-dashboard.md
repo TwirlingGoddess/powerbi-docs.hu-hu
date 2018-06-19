@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/13/2018
 ms.author: maghan
-ms.openlocfilehash: 979b76350b9867bbc684a70bd89a82f88993e625
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: dd7276eb436dfd9d842930f6a2c550a2a6b521f3
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34290269"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34812951"
 ---
 # <a name="integrate-a-dashboard-into-an-app-for-your-organization"></a>Irányítópult integrálása a cég egy alkalmazásába
 Ismerje meg, hogyan integrálhat vagy ágyazhat be egy irányítópultot egy webalkalmazásba a REST API-hívásokkal és a Power BI JavaScript API-val együtt, ha a cége számára ágyaz be.
@@ -28,7 +28,7 @@ A bemutató megkezdéséhez egy **Power BI**-fiókra van szükség. Ha nincs fi�
 > 
 > 
 
-Egy irányítópult beágyazásához a webalkalmazásba, használja a **Power BI** REST API-t, vagy a Power BI C# SDK-t, és egy Azure Active Directory (AD) engedélyezési **hozzáférési tokent** az irányítópult lekéréséhez. Ezután töltse be az irányítópultot ugyanezen hozzáférési token használatával. A **Power BI** API szoftveres hozzáférést biztosít egyes **Power BI**-erőforrásokhoz. További információkért lásd: [A Power BI REST API áttekintése](https://msdn.microsoft.com/library/dn877544.aspx) és [Power BI JavaScript API](https://github.com/Microsoft/PowerBI-JavaScript).
+Egy irányítópult beágyazásához a webalkalmazásba, használja a **Power BI** REST API-t, vagy a Power BI C# SDK-t, és egy Azure Active Directory (AD) engedélyezési **hozzáférési tokent** az irányítópult lekéréséhez. Ezután töltse be az irányítópultot ugyanezen hozzáférési token használatával. A **Power BI** API szoftveres hozzáférést biztosít egyes **Power BI**-erőforrásokhoz. További információt a [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/) és a [Power BI JavaScript API](https://github.com/Microsoft/PowerBI-JavaScript) című cikkekben talál.
 
 ## <a name="download-the-sample"></a>A minta letöltése
 Ez a cikk a GitHubon, az [integrate-dashboard-web-app](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/User%20Owns%20Data/integrate-dashboard-web-app) mintában használt kódot mutatja be. A bemutató követéséhez letöltheti a mintát.
@@ -44,12 +44,12 @@ Ha letöltötte az [irányítópult integrálását bemutató mintát](https://g
 Az alkalmazásban először egy **hozzáférési tokent** kell beszereznie az Azure AD-ből, mielőtt hívásokat indíthatna a Power BI REST API-hoz. További információkért lásd [a felhasználók hitelesítésével és a Power BI-alkalmazáshoz Azure AD hozzáférési token beszerzésével](get-azuread-access-token.md) kapcsolatos cikket.
 
 ## <a name="step-3---get-a-dashboard"></a>3. lépés – irányítópult beszerzése
-A **Power BI** irányítópult beszerzéséhez használja a [Get Dashboards](https://msdn.microsoft.com/library/mt465739.aspx) műveletet, amely a **Power BI** irányítópultok listáját kéri le. Az irányítópultok listájából lekérheti az irányítópultok azonosítóit.
+A **Power BI** irányítópult beszerzéséhez használja a [Get Dashboards](https://docs.microsoft.com/rest/api/power-bi/dashboards/getdashboards) műveletet, amely a **Power BI** irányítópultok listáját kéri le. Az irányítópultok listájából lekérheti az irányítópultok azonosítóit.
 
 ![](media/integrate-dashboard/powerbi-embed-dashboard-get-dashboards.png)
 
 ### <a name="get-dashboards-using-an-access-token"></a>Irányítópultok beszerzése hozzáférési token használatával
-A [2. lépésben](#step-2-get-an-access-token-from-azure-ad) lekért **hozzáférési token** segítségével meghívhatja a [Get Dashboards](https://msdn.microsoft.com/library/mt465739.aspx) műveletet. A [Get Dashboards](https://msdn.microsoft.com/library/mt465739.aspx) művelet az irányítópultok listáját adja vissza. Az irányítópultok listájából lekérhet egyetlen irányítópultot is. Alul látható egy teljes C# metódus az irányítópult beszerzéséhez. 
+A [2. lépésben](#step-2-get-an-access-token-from-azure-ad) lekért **hozzáférési token** segítségével meghívhatja a [Get Dashboards](https://docs.microsoft.com/rest/api/power-bi/dashboards/getdashboards) műveletet. A [Get Dashboards](https://docs.microsoft.com/rest/api/power-bi/dashboards/getdashboards) művelet az irányítópultok listáját adja vissza. Az irányítópultok listájából lekérhet egyetlen irányítópultot is. Alul látható egy teljes C# metódus az irányítópult beszerzéséhez. 
 
 A REST API-hívásához egy *Engedélyezési* fejlécet is meg kell adnia a *Tulajdonos {hozzáférési token}* formátumában.
 
@@ -258,7 +258,7 @@ Tile Clicked
 ```
 
 ## <a name="working-with-groups-app-workspaces"></a>A csoportok kezelése (alkalmazás-munkaterületek)
-Az irányítópultok csoportokból (alkalmazás-munkaterületről) végzett beágyazásához be kell szereznie a csoportban elérhető irányítópultok listáját az alábbi REST API-hívás használatával. Erről a REST API-hívásról további információt a [Get Dashboards](https://msdn.microsoft.com/library/mt465739.aspx) hívás leírásában talál. A csoportban engedéllyel kell rendelkeznie, hogy a kérés eredményeket adjon vissza.
+Az irányítópultok csoportokból (alkalmazás-munkaterületről) végzett beágyazásához be kell szereznie a csoportban elérhető irányítópultok listáját az alábbi REST API-hívás használatával. Erről a REST API-hívásról további információt a [Get Dashboards](https://docs.microsoft.com/rest/api/power-bi/dashboards/getdashboards) hívás leírásában talál. A csoportban engedéllyel kell rendelkeznie, hogy a kérés eredményeket adjon vissza.
 
 ```
 https://api.powerbi.com/v1.0/myorg/groups/{groupId}/dashboards

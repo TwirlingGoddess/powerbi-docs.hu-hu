@@ -9,19 +9,19 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: maghan
-ms.openlocfilehash: c550b911eef43ade98b3bc771e3f13929b805e11
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: ae8919bbe06c729cc43e230146c4c1a216a80168
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34287624"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34813237"
 ---
 # <a name="step-4-get-a-dataset-to-add-rows-into-a-power-bi-table"></a>4. lépés: Adatkészlet lekérése, és sorok hozzáadása egy Power BI-táblához
 Ez a cikk az [adatok adatkészletbe történő leküldését](walkthrough-push-data.md) ismertető részletes útmutató része.
 
-Az Adatok adatkészletbe való leküldésének **3. lépésében**, amelynek címe [Adatkészlet létrehozása a Power BI-ban](walkthrough-push-data-create-dataset.md), az [Adatkészlet létrehozása](https://msdn.microsoft.com/library/mt203562.aspx) művelet meghívásával létrehozott egy adatkészletet a Power BI-ban. Ebben a lépésben az [Adatkészletek lekérése](https://msdn.microsoft.com/library/mt203567.aspx) műveletet és a Newtonsoft.Jsont fogja használni az adatkészlet azonosítójának lekéréséhez. Az adatkészlet azonosítóját a 4. lépésben fogja használni, hogy sorokat adjon hozzá egy adatkészlethez. 
+Az Adatok adatkészletbe való leküldésének **3. lépésében**, amelynek címe [Adatkészlet létrehozása a Power BI-ban](walkthrough-push-data-create-dataset.md), az [Adatkészlet létrehozása](https://docs.microsoft.com/rest/api/power-bi/datasets) művelet meghívásával létrehozott egy adatkészletet a Power BI-ban. Ebben a lépésben az [Adatkészletek lekérése](https://docs.microsoft.com/rest/api/power-bi/getdatasets) műveletet és a Newtonsoft.Jsont fogja használni az adatkészlet azonosítójának lekéréséhez. Az adatkészlet azonosítóját a 4. lépésben fogja használni, hogy sorokat adjon hozzá egy adatkészlethez. 
 
-Ha adatokat szeretne elküldeni Power BI-adatkészletbe, akkor az adatkészletben hivatkoznia kell a táblára. Ha egy táblára kíván hivatkozni egy adatkészletben, először le kell kérnie az **Adatkészlet azonosítóját**. Az **adatkészlet azonosítójának** lekéréséhez használja az [Adatkészletek lekérése](https://msdn.microsoft.com/library/mt203567.aspx) műveletet. Az **Adatkészlet lekérése** művelet egy JSON-karakterláncot ad vissza, amely tartalmazza a Power BI-ban tárolt összes adatkészlet listáját. A JSON-karakterlánc deszerializálásának ajánlott módja a [Newtonsoft.JSON](http://www.newtonsoft.com/json) használata.
+Ha adatokat szeretne elküldeni Power BI-adatkészletbe, akkor az adatkészletben hivatkoznia kell a táblára. Ha egy táblára kíván hivatkozni egy adatkészletben, először le kell kérnie az **Adatkészlet azonosítóját**. **Adatkészlet-azonosító** lekéréséhez használja az [Adatkészlet lekérése azonosító alapján](https://docs.microsoft.com/rest/api/power-bi/datasets/getdatasetbyid) műveletet. Az **Adatkészlet lekérése azonosító alapján** művelet egy JSON-sztringet ad vissza, amely tartalmazza a Power BI-ban tárolt összes adatkészlet listáját. A JSON-sztring deszerializálásának ajánlott módja a [Newtonsoft.JSON](http://www.newtonsoft.com/json) használata.
 
 Az adatkészlet lekérésének menete:
 
@@ -267,10 +267,10 @@ Az alábbiakban megtalálja a [teljes kódlistát](#code).
 ## <a name="next-steps"></a>Következő lépések
 [Sorok hozzáadása egy Power BI-táblához](walkthrough-push-data-add-rows.md)  
 [Newtonsoft.Json](http://www.newtonsoft.com/json)  
-[Adatkészletek lekérése](https://msdn.microsoft.com/library/mt203567.aspx)  
+[Adatkészletek lekérése](https://docs.microsoft.com/rest/api/power-bi/datasets/getdatasets)  
 [Adatok leküldése a Power BI-ba](walkthrough-push-data.md)  
 [A Power BI REST API áttekintése](overview-of-power-bi-rest-api.md)  
-[A Power BI REST API-jainak leírása](https://msdn.microsoft.com/library/mt147898.aspx)  
+[A Power BI REST API-jainak leírása](https://docs.microsoft.com/rest/api/power-bi/)  
 
 További kérdései vannak? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)
 

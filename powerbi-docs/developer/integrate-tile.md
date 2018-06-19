@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/13/2018
 ms.author: maghan
-ms.openlocfilehash: 6ad2138ab37b20fa16a5455ab167ec9e6b7e159c
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: afed2bc87e7e358d9ba02a465c43d223f6e7cba3
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34288314"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34813779"
 ---
 # <a name="integrate-a-tile-into-an-app-user-owns-data"></a>Csempe integrálása egy alkalmazásba (a felhasználó az adatok tulajdonosa)
 Ismerje meg, hogyan integrálhat vagy ágyazhat be egy csempét egy webalkalmazásba REST API-hívásokkal és a Power BI JavaScript API-val, ha a szervezete számára ágyaz be.
@@ -28,7 +28,7 @@ Az útmutató megkezdéséhez egy **Power BI**-fiókra van szükség. Ha nincs f
 > 
 > 
 
-Egy csempe beágyazásához a webalkalmazásba használja a **Power BI** REST API-t vagy a Power BI C# SDK-t, valamint egy Azure Active Directory (AD) engedélyezési **hozzáférési tokent** a csempe lekéréséhez. Ezután töltse be a csempét ugyanezen hozzáférési token használatával. A **Power BI** API szoftveres hozzáférést biztosít egyes **Power BI**-erőforrásokhoz. További információkért lásd: [A Power BI REST API áttekintése](https://msdn.microsoft.com/library/dn877544.aspx) és [Power BI JavaScript API](https://github.com/Microsoft/PowerBI-JavaScript).
+Egy csempe beágyazásához a webalkalmazásba használja a **Power BI** REST API-t vagy a Power BI C# SDK-t, valamint egy Azure Active Directory (AD) engedélyezési **hozzáférési tokent** a csempe lekéréséhez. Ezután töltse be a csempét ugyanezen hozzáférési token használatával. A **Power BI** API szoftveres hozzáférést biztosít egyes **Power BI**-erőforrásokhoz. További információt a [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/) és a [Power BI JavaScript API](https://github.com/Microsoft/PowerBI-JavaScript) című cikkekben talál.
 
 ## <a name="download-the-sample"></a>A minta letöltése
 Ez a cikk a GitHubon, az [integrate-tile-web-app](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/User%20Owns%20Data/integrate-tile-web-app) mintában használt kódot mutatja be. A bemutató követéséhez letöltheti a mintát.
@@ -44,12 +44,12 @@ Ha letöltötte az [integrate-tile-web-app](https://github.com/Microsoft/PowerBI
 Az alkalmazásban először egy **hozzáférési tokent** kell beszereznie az Azure AD-ből, mielőtt hívásokat indíthatna a Power BI REST API-hoz. További információkért lásd [a felhasználók hitelesítésével és a Power BI-alkalmazáshoz Azure AD hozzáférési token beszerzésével](get-azuread-access-token.md) kapcsolatos cikket.
 
 ## <a name="step-3---get-a-tile"></a>3. lépés – csempe lekérése
-A **Power BI**-csempe lekéréséhez használja a [Csempék lekérése](https://msdn.microsoft.com/library/mt465741.aspx) műveletet, amely a **Power BI**-csempék listáját kéri le egy adott irányítópultból. A csempék listájából lekérhet egy csempeazonosítót és egy beágyazási URL-t.
+A **Power BI**-csempe lekéréséhez használja a [Csempék lekérése](https://docs.microsoft.com/rest/api/power-bi/dashboards/gettiles) műveletet, amely a **Power BI**-csempék listáját kéri le egy adott irányítópultból. A csempék listájából lekérhet egy csempeazonosítót és egy beágyazási URL-t.
 
 Először az irányítópult azonosítóját kell lekérni, mielőtt lekérné a csempét. Az irányítópult lehívásáról szóló további információért lásd: [Irányítópult integrálása alkalmazásba (a felhasználó az adatok tulajdonosa)](integrate-dashboard.md).
 
 ### <a name="get-tiles-using-an-access-token"></a>Csempék lekérése hozzáférési token használatával
-A [2. lépésben](#step-2-get-an-access-token-from-azure-ad) lekért **hozzáférési token** segítségével meghívhatja a [Csempék lekérése](https://msdn.microsoft.com/library/mt465741.aspx) műveletet. A [Csempék lekérése](https://msdn.microsoft.com/library/mt465741.aspx) művelet csempék listáját adja vissza. A csempék listájából lekérhet egyetlen csempét. Alább látható egy teljes C# metódus a csempe lekéréséhez. 
+A [2. lépésben](#step-2-get-an-access-token-from-azure-ad) lekért **hozzáférési token** segítségével meghívhatja a [Csempék lekérése](https://docs.microsoft.com/rest/api/power-bi/dashboards/gettiles) műveletet. A [Csempék lekérése](https://docs.microsoft.com/rest/api/power-bi/dashboards/gettiles) művelet csempék listáját adja vissza. A csempék listájából lekérhet egyetlen csempét. Alább látható egy teljes C# metódus a csempe lekéréséhez. 
 
 A REST API-hívásához egy *Engedélyezési* fejlécet is meg kell adnia a *Tulajdonos {hozzáférési token}* formátumában.
 
@@ -216,7 +216,7 @@ Ha letöltötte és futtatta az [integrate-tile-web-app](https://github.com/Micr
 ![Beágyazott csempe a webalkalmazásban](media/integrate-tile/powerbi-embedded-tile.png)
 
 ## <a name="working-with-groups-app-workspaces"></a>A csoportok kezelése (alkalmazás-munkaterületek)
-Egy csempe beágyazásához egy csoportból (alkalmazás-munkaterületről) le kell kérnie az egy csoport irányítópultján belül elérhető csempék listáját az alábbi REST API-hívás használatával. További információ erről a REST API-hívásról: [Csempék lekérése](https://msdn.microsoft.com/library/mt465741.aspx). A csoportban engedéllyel kell rendelkeznie, hogy a kérés eredményeket adjon vissza.
+Egy csempe beágyazásához egy csoportból (alkalmazás-munkaterületről) le kell kérnie az egy csoport irányítópultján belül elérhető csempék listáját az alábbi REST API-hívás használatával. További információ erről a REST API-hívásról: [Csempék lekérése](https://docs.microsoft.com/rest/api/power-bi/dashboards/gettiles). A csoportban engedéllyel kell rendelkeznie, hogy a kérés eredményeket adjon vissza.
 
 ```
 https://api.powerbi.com/v1.0/myorg/groups/{groupId}/dashboards/{dashboard_id}/tiles

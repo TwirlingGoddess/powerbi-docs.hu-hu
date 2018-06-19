@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 04/24/2018
+ms.date: 06/05/2018
 ms.author: davidi
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 99ee9e87584202420239658a3522ad82cb383227
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: bdf3791d74510b1630bc13c279ed0cd5ebddc3ec
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34286544"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34813457"
 ---
 # <a name="resolve-issues-when-power-bi-desktop-will-not-launch"></a>A Power BI Desktop meghiúsult indulásával kapcsolatos hibák elhárítása
 A **Power BI Desktop** esetében azok a felhasználók, akik a **Power BI helyszíni adatátjáró** korábbi verzióit telepítették és futtatják, esetenként nem tudják elindítani a Power BI Desktopot a rendszergazdai szabályzatok korlátozásai miatt, amelyeket a Power BI helyszíni adatátjáró alkalmazott a helyi gép nevesített csöveire. 
@@ -33,6 +33,13 @@ Ha már nincs szüksége a Power BI helyszíni adatátjáróra, eltávolíthatja
 Harmadik lehetőségként rendszergazdai jogosultsággal is futtathatja a Power BI Desktopot, ami biztosítja annak sikeres indítását. Ekkor is javasolt azonban telepíteni a Power BI helyszíni adatátjáró legújabb verzióját, a cikkben korábban leírtaknak megfelelően.
 
 Fontos észben tartani, hogy a Power BI Desktop egy többfolyamatos architektúrával rendelkezik, amelynek számos folyamata Windows nevesített csövekkel kommunikál. Más folyamatok befolyásolhatják ezeket a nevesített csöveket. Az ilyen interferenciák leggyakoribb oka a biztonság, például azok a helyzetek, amelyekben a vírusirtó szoftver vagy a tűzfal letiltja a csöveket, vagy egy adott portra irányítja a forgalmat. Ha rendszergazdai jogosultsággal indítja el a Power BI Desktopot, az megoldhatja a problémát. Ha ez nem lehetséges, forduljon a rendszergazdához, és kérdezze meg, mely biztonsági szabályok gátolják meg a nevesített csövek megfelelő kommunikációját, valamint kérje meg, hogy helyezze engedélyezőlistára a Power BI Desktopot és annak részfolyamatait.
+
+## <a name="resolve-issues-when-connecting-to-sql-server"></a>Az SQL Serverhez történő kapcsolódással összefüggő problémák megoldása
+Ha a következőhöz hasonló hibaüzenettel találkozik, amikor SQL Server-adatbázishoz csatlakozik, a problémát legtöbbször megoldja, ha a **Power BI Desktopot** rendszergazda-módban indítja el, és csak ezután hozza létre az SQL Server-kapcsolatot:
+
+    "An error happened while reading data from the provider: 'Could not load file or assembly 'System.EnterpriseServices, Version=4.0.0.0, Culture=neutral, PublicKeyToken=xxxxxxxxxxxxx' or one of its dependencies. Either a required impersonation level was not provided, or the provided impersonation level is invalid. (Exception from HRESULT: 0x80070542)'"
+
+A rendszergazda módban való indítás és a kapcsolat létrehozása után a szükséges DLL-fájlok már megfelelően regisztrálva lesznek. Ezt követően már nem lesz rá szükség, hogy a Power BI Desktopot rendszergazda módban indítsa el.
 
 ## <a name="help-with-other-issues-when-launching-power-bi-desktop"></a>A Power BI Desktop egyéb indítási hibáival kapcsolatos támogatás
 Igyekszünk a **Power BI Desktop** lehető legtöbb hibájára kitérni. Rendszeresen vizsgáljuk az olyan hibákat, amelyek több felhasználót is érintenek, és ezeket a cikkeinkben tárgyaljuk.
