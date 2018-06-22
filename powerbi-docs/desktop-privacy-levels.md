@@ -15,6 +15,7 @@ ms.sourcegitcommit: e6db826c2f43a69e4c63d5f4920baa8f66bc41be
 ms.translationtype: HT
 ms.contentlocale: hu-HU
 ms.lasthandoff: 05/23/2018
+ms.locfileid: "34455973"
 ---
 # <a name="power-bi-desktop-privacy-levels"></a>A Power BI Desktop adatvédelmi szintjei
 A **Power BI Desktop** adatvédelmi szintjei egy elkülönítési szintet adnak meg, amely meghatározza, hogy az adott adatforrás milyen mértékben lesz elkülönítve a többi adatforrástól. A korlátozó elkülönítési szint azonban gátolja az adatforrások közötti információcserét, csökkentheti a funkcionalitást és hatással lehet a teljesítményre.

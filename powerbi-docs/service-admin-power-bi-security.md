@@ -15,6 +15,7 @@ ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: hu-HU
 ms.lasthandoff: 05/17/2018
+ms.locfileid: "34296227"
 ---
 # <a name="power-bi-security"></a>A Power BI és a biztonság
 A Power BI biztonsági jellemzőinek részletesebb leírását a [letölthető Power BI-biztonsági tanulmány](http://go.microsoft.com/fwlink/?LinkId=829185) tartalmazza:

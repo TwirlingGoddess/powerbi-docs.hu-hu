@@ -15,6 +15,7 @@ ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: hu-HU
 ms.lasthandoff: 05/17/2018
+ms.locfileid: "34289993"
 ---
 # <a name="power-bi-data-source-prerequisites"></a>Power BI-adatforrások előfeltételei
 A Power BI minden adatszolgáltató esetében egy adott szolgáltatóverziót támogat az objektumokon. A Power BI-hoz elérhető adatforrásokkal kapcsolatos további információkért lásd: [Adatforrások](desktop-data-sources.md). A következő táblázat ezeket a követelményeket ismerteti.

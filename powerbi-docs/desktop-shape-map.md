@@ -15,6 +15,7 @@ ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: hu-HU
 ms.lasthandoff: 05/17/2018
+ms.locfileid: "34290959"
 ---
 # <a name="shape-maps-in-power-bi-desktop-preview"></a>Az Alakzatleképezések funkció a Power BI Desktopban (előzetes verzió)
 A Power BI Desktopban azért hozható létre **Alakzatleképezés** vizualizáció, hogy így a régiók relatív összehasonlítását jeleníthesse meg a különböző színek különböző régiókra történő alkalmazásával. A **Leképezés** vizualizációval szemben az **Alakzatleképezés** vizualizáció nem képes az adatpontok pontos földrajzi helyének megjelenítésére a térképen; alkalmazásának fő célja a régiók relatív összehasonlításának megjelenítése egy térképen eltérő színezéssel.

@@ -15,6 +15,7 @@ ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: hu-HU
 ms.lasthandoff: 05/17/2018
+ms.locfileid: "34289004"
 ---
 # <a name="bidirectional-cross-filtering-using-directquery-in-power-bi-desktop"></a>Kétirányú keresztszűrés a DirectQuery használatával a Power BI Desktopban
 

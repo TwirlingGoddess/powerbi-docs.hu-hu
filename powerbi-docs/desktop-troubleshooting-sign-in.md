@@ -15,6 +15,7 @@ ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: hu-HU
 ms.lasthandoff: 05/17/2018
+ms.locfileid: "34226713"
 ---
 # <a name="troubleshooting-sign-in-for-power-bi-desktop"></a>Bejelentkezés hibaelhárítása a Power BI Desktopban
 Előfordulhat, hogy amikor megkísérel bejelentkezni a **Power BI Desktopba**, hibát tapasztal. A bejelentkezési hibáknak két fő oka lehet: **proxy-hitelesítési hibák** és **Nem-HTTPS URL-cím átirányítási hibái**. 

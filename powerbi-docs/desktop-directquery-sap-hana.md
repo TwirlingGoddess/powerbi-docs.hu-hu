@@ -15,6 +15,7 @@ ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: hu-HU
 ms.lasthandoff: 05/17/2018
+ms.locfileid: "34290614"
 ---
 # <a name="directquery-and-sap-hana"></a>DirectQuery és SAP HANA
 Az **SAP HANA**-adatforrásokhoz közvetlenül kapcsolódhat a **DirectQuery** használatával. Az SAP HANA-hoz való kapcsolódás kétféle módszerrel is elvégezhető:

@@ -15,6 +15,7 @@ ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: hu-HU
 ms.lasthandoff: 05/17/2018
+ms.locfileid: "34288567"
 ---
 # <a name="directquery-and-sap-business-warehouse-bw"></a>DirectQuery és SAP Business Warehouse (BW)
 Az **SAP Business Warehouse- (BW-)** adatforrásokhoz közvetlenül kapcsolódhat a **DirectQuery** használatával. Az SAP BW OLAP/többdimenziós természeténél fogva számos különbség van aközött, ha a DirectQueryt az SAP BW-vel használjuk, vagy ha valamilyen relációs forrással, például az SQL Serverrel. A különbségeket a következőképpen lehet összefoglalni:

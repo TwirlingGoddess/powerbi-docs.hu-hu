@@ -15,6 +15,7 @@ ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: hu-HU
 ms.lasthandoff: 05/17/2018
+ms.locfileid: "34290867"
 ---
 # <a name="using-directquery-in-power-bi"></a>DirectQuery használata a Power BI-ban
 Számos különböző adatforrást kapcsolhat össze a **Power BI Desktop** vagy a **Power BI szolgáltatás** használatával, és ezeket az adatkapcsolatokat többféleképpen is létrehozhatja. *Importálhat* adatokat a Power BI-ba, ez az adatok lekérésének leggyakoribb módja, vagy közvetlenül is csatlakozhat az eredeti forrásadattárukban lévő adatokhoz, ez az eljárás **DirectQuery** néven ismert. Ez a cikk a **DirectQuery** szolgáltatást és annak képességeit mutatja be, az alábbi témaköröket beleértve:

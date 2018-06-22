@@ -15,6 +15,7 @@ ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: hu-HU
 ms.lasthandoff: 05/17/2018
+ms.locfileid: "34290660"
 ---
 # <a name="common-query-tasks-in-power-bi-desktop"></a>Gyakori lekérdezési feladatok a Power BI Desktopban
 A Power BI Desktop **Lekérdezésszerkesztő** ablakában elérhető néhány gyakran használt feladat. Ez a dokumentum ezeket a gyakori feladatokat mutatja be, és további információkra mutató hivatkozásokat is tartalmaz. 
