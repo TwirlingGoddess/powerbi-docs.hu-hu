@@ -11,10 +11,10 @@ ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 7990cdbc0741e80bf2cbb60431228ff6a1d41485
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/04/2018
+ms.lasthandoff: 06/26/2018
 ms.locfileid: "34243822"
 ---
 # <a name="connect-to-appfigures-with-power-bi"></a>Csatlakozás az appFigures-hoz a Power BI használatával
@@ -60,7 +60,7 @@ A Power BI-ban a következő, appFigures-ból származó adatok érhetők el.
 | Dátumok |Ez a táblázat az appFigures-fiókban lévő aktív és látható alkalmazásokhoz tartozó dátumokat tartalmazza a mai naptól visszamenőleg az adatok közzétételének (PublishDate) legkorábbi időpontjáig. |
 | Események |Ez a táblázat a letöltések, értékesítések és hirdetések napi adatait tartalmazza országok szerint az egyes alkalmazásokról. Vegye figyelembe, hogy az alkalmazásértékesítési és az alkalmazáson belüli értékesítési adatok egyaránt ebben a táblázatban szerepelnek – a különbségtételre a <strong>Típus</strong> oszlopot használhatja. |
 | Alkalmazáson belüli vásárlások |Ez a táblázat az appFigures-fiókban lévő aktív és látható alkalmazásokhoz hozzárendelt különböző típusú alkalmazáson belüli vásárlások adatait tartalmazza. |
-| Products |Ez a táblázat az appFigures-fiókban lévő különféle aktív és látható alkalmazások adatait tartalmazza. |
+| Termékek |Ez a táblázat az appFigures-fiókban lévő különféle aktív és látható alkalmazások adatait tartalmazza. |
 
 ## <a name="troubleshooting"></a>Hibaelhárítás
 Ha egy alkalmazás adatai nem jelennek meg a Power BI-ban, ellenőrizze, hogy az alkalmazás látható és aktív-e az appFigures-oldal **alkalmazások** lapján.

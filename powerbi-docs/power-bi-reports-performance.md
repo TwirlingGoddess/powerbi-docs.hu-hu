@@ -11,10 +11,10 @@ ms.date: 05/18/2018
 ms.author: v-mamcge
 LocalizationGroup: Reports
 ms.openlocfilehash: 78dcd0ac0735bfbb3c22678d6bda1397120360cd
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/04/2018
+ms.lasthandoff: 06/26/2018
 ms.locfileid: "34310544"
 ---
 # <a name="power-bi-performance-best-practices"></a>Ajánlott eljárások a Power BI teljesítményének javításához 
@@ -37,7 +37,7 @@ Néhány ajánlott eljárás:
 - Távolítsa el a nem használt táblákat és oszlopokat, ha lehetséges. 
 - Lehetőség szerint ne alkalmazzon darabszámmértéket nagy számosságú (például több milliónyi egyéni értéket tartalmazó) mezőkre.  
 - Igyekezzen kerülni a szükségtelenül nagy pontosságú és nagy számosságú mezők használatát. Az egyedi dátum- és időértékeket például feloszthatja különálló oszlopokra – például hónap, év, dátum, stb. Vagy ahol lehetséges, kerekítheti a nagy pontosságú mezőket a számosság csökkentése érdekében (példa: 13,29889 -> 13,3). 
-- Ahol lehetséges, használjon egész számokat karakterláncok helyett. 
+- Ahol lehetséges, használjon egész számokat sztringek helyett. 
 - Legyen óvatos az olyan DAX-függvényekkel, amelyeknek tesztelnie kell a tábla összes sorát (mint például RANKX), mert az ilyen függvények a legrosszabb esetben akár exponenciálisan is növelhetik a futásidőt és a memóriahasználatot a táblaméret lineáris növekedésével párhuzamosan. 
 - Ha DirectQuery segítségével csatlakozik adatforrásokhoz, fontolja meg a gyakorta ismételten szűrt vagy szeletelt oszlopok indexelését – ez nagyban megnöveli a jelentés válaszképességét.  
  

@@ -11,10 +11,10 @@ ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: 4be27c91d0616d4611eb07dab5d68c39ed0ab6d2
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/04/2018
+ms.lasthandoff: 06/26/2018
 ms.locfileid: "34287739"
 ---
 # <a name="connect-to-data-using-generic-interfaces-in-power-bi-desktop"></a>Csatlakozás adatokhoz általános illesztők használatával a Power BI Desktopban
@@ -40,7 +40,7 @@ Az alábbi szakaszokban megtalálhatja az általános illesztők segítségével
 Nem találja a **Power BI Desktopban** használni kívánt adatforrást? Javaslatait elküldheti a Power BI-csapatnak a [Javaslatok és kérések](https://ideas.powerbi.com/) listájában.
 
 ## <a name="data-sources-accessible-through-odbc"></a>ODBC-n keresztül elérhető adatforrások
-A **Power BI Desktop** **ODBC**-összekötőjével egyszerűen egy **adatforrás nevének (DSN)** vagy egy *kapcsolati karakterlánc* megadásával importálhat adatokat bármely harmadik féltől származó ODBC-illesztőből. Igény szerint megadhat egy, az ODBC-illesztőn végrehajtandó SQL-utasítást is.
+A **Power BI Desktop****ODBC**-összekötőjével egyszerűen egy **adatforrás nevének (DSN)** vagy egy *kapcsolati sztring* megadásával importálhat adatokat bármely harmadik féltől származó ODBC-illesztőből. Igény szerint megadhat egy, az ODBC-illesztőn végrehajtandó SQL-utasítást is.
 
 ![](media/desktop-connect-using-generic-interfaces/generic-data-interfaces_2.png)
 
@@ -60,7 +60,7 @@ Az alábbi lista néhány példát ismertet azon adatforrások közül, amelyekh
 | ODBC |Progress OpenEdge |[A Progress OpenEdge ODBC-illesztőre vonatkozó blogbejegyzés](https://na01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.progress.com%2Fblogs%2Fconnect-microsoft-power-bi-to-openedge-via-odbc-driver&data=02%7C01%7CMatt.Masson%40microsoft.com%7C5e63742e6c454308b58a08d4034b5923%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C636137069555329811&sdata=gSu2Rq3vZ0uBVOgjaXxd8Y3uBf%2B8DidX6PG33jwAduY%3D&reserved=0) |
 
 ## <a name="data-sources-accessible-through-ole-db"></a>OLE DB-n keresztül elérhető adatforrások
-A **Power BI Desktop** **OLE DB**-összekötőjével egyszerűen egy *kapcsolati karakterlánc* megadásával importálhat adatokat bármely harmadik féltől származó OLE DB-illesztőből. Igény szerint megadhat egy, az OLE DB-illesztőn végrehajtandó SQL-utasítást is.
+A **Power BI Desktop****OLE DB**-összekötőjével egyszerűen egy *kapcsolati sztring* megadásával importálhat adatokat bármely harmadik féltől származó OLE DB-illesztőből. Igény szerint megadhat egy, az OLE DB-illesztőn végrehajtandó SQL-utasítást is.
 
 ![](media/desktop-connect-using-generic-interfaces/generic-data-interfaces_3.png)
 

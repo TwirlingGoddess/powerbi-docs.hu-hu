@@ -11,10 +11,10 @@ ms.date: 05/21/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: 14b5f3d4b571df8ae672ee9731ed97555c476abd
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/04/2018
+ms.lasthandoff: 06/26/2018
 ms.locfileid: "34456030"
 ---
 # <a name="data-types-in-power-bi-desktop"></a>Adattípusok a Power BI Desktopban
@@ -60,7 +60,8 @@ A Power BI Desktop öt Dátum/idő adattípust támogat a Lekérdezésnézetben,
 **Időtartam** – Egy bizonyos hosszúságú időszeletet jelöl. Ez a típus Tizedes tört típusúvá lesz konvertálva a modellbe való betöltéskor.  Tizedes tört típusként megfelelő eredményt ad, ha hozzáadják vagy kivonják a Dátum/idő mezőkből.  Tizedes tört típusként könnyen használható nagyságrendet jelző vizualizációkban.
 
 ### <a name="text-type"></a>Szöveg típus
-**Szöveg** – Egy Unicode kódolású adatkarakterlánc. Ez lehet szöveg formátumban jelölt karakterlánc, szám vagy dátum. A karakterlánc maximális hossza 268 435 456 Unicode-karakter (256 mega karakter) vagy 536 870 912 bájt.
+
+  **Szöveg** – Egy Unicode kódolású adatsztring. Ez lehet szöveg formátumban jelölt sztring, szám vagy dátum. A sztring maximális hossza 268 435 456 Unicode-karakter (256 mega karakter) vagy 536 870 912 bájt.
 
 ### <a name="truefalse-type"></a>Igaz/hamis típus
 **Igaz/hamis** – Egy logikai érték, amely vagy Igaz vagy Hamis.
@@ -76,10 +77,10 @@ Mindegyik DAX-függvény saját követelményekkel rendelkezik a bemeneti és ki
 
 Ha az argumentumként megadott oszlopban lévő adatok típusa nem kompatibilis a függvény adattípus-követelményével, a DAX sok esetben hibát jelez. Azonban, ha csak lehetséges, a DAX megkísérli implicit módon konvertálni az adatokat a szükséges adattípusra. Például:
 
-* Beírhat egy dátumot szövegként, és a DAX megkísérli kielemezni a karakterláncot, és ráhúzni valamelyik windowsos dátum- és időformátumra.
+* Beírhat egy dátumot szövegként, és a DAX megkísérli kielemezni a sztringet, és ráhúzni valamelyik windowsos dátum- és időformátumra.
 * Az IGAZ + 1 képlet eredménye 2 lesz, mivel az IGAZ értéket a rendszer implicit módon az 1 értékre konvertálja, majd elvégzi az 1+1 műveletet.
-* Ha két külön oszlopban ad meg értékeket, és az egyik történetesen szöveges értékeket tartalmaz ("12"), míg a másik számokat (12), a DAX implicit módon számmá konvertálja a szöveget, majd elvégzi az összeadást, és egy numerikus értéket ad vissza. A következő kifejezés értéke tehát 44 lesz: = "22" + 22.
-* Ha két számot próbál összefűzni, a DAX karakterláncként jeleníti meg, majd összefűzi azokat. A következő kifejezés értéke tehát "1234" lesz: = 12 & 34.
+* Ha két külön oszlopban ad meg értékeket, és az egyik történetesen szöveges értékeket tartalmaz ("12"), míg a másik számokat (12), a DAX implicit módon számmá konvertálja a sztringet, majd elvégzi az összeadást, és egy numerikus értéket ad vissza. A következő kifejezés értéke tehát 44 lesz: = "22" + 22.
+* Ha két számot próbál összefűzni, az Excel sztringként jeleníti meg, majd összefűzi azokat. A következő kifejezés értéke tehát "1234" lesz: = 12 & 34.
 
 ### <a name="table-of-implicit-data-conversions"></a>Az implicit adatkonverziókat bemutató táblázat
 A végrehajtott konverzió típusát az operátor határozza meg, amely először átalakítja a szükséges értékeket, mielőtt elvégezné a kért műveleteket. Az alábbi táblázatok sorolják fel az operátorokat, és azt mutatják, hogy a vízszintesen jelölt adattípusok mivé lesznek konvertálva, ha az operátor a függőlegesen jelölt adattípusokkal köti össze őket.
@@ -142,7 +143,7 @@ A következő táblázatban a sorok az osztandót, az oszlopok az osztót jelzik
 Például ha egy Egész számot egy Pénznem típusú értékkel ötvöz egy osztási műveletben, a rendszer mindkét értéket Valós számmá alakítja, és az értéket szintén Valós számként adja vissza.
 
 ### <a name="comparison-operators"></a>Összehasonlító operátorok
-Az összehasonlítási kifejezésekben a logikai értékek nagyobbnak számítanak a szöveges értékeknél, ezek pedig nagyobbak a numerikus vagy Dátum/idő értékeknél, míg ez utóbbi két kategória egyenrangúnak számít. A rendszer a logikai és szöveges értékeket implicit módon nem konvertálja. Az ÜRES vagy az üres értékek 0/""/hamis értékké lesznek konvertálva, az összehasonlított érték adattípusának megfelelően.
+Az összehasonlítási kifejezésekben a logikai értékek nagyobbnak számítanak a sztringértékeknél, ezek pedig nagyobbak a numerikus vagy Dátum/idő értékeknél, míg ez utóbbi két kategória egyenrangúnak számít. A rendszer a logikai és sztringértékeket implicit módon nem konvertálja. Az ÜRES vagy az üres értékek 0/""/hamis értékké lesznek konvertálva, az összehasonlított érték adattípusának megfelelően.
 
 Ezt a viselkedést az alábbi DAX-függvények jól példázzák:
 
@@ -161,7 +162,7 @@ A numerikus és a Dátum/idő típus esetén a konverzió implicit módon tört�
 | VALÓS SZÁM |VALÓS SZÁM |VALÓS SZÁM |VALÓS SZÁM |VALÓS SZÁM |
 | Dátum/idő |VALÓS SZÁM |VALÓS SZÁM |VALÓS SZÁM |Dátum/idő |
 
-### <a name="handling-blanks-empty-strings-and-zero-values"></a>Üres értékek, üres karakterláncok és nullértékek kezelése
+### <a name="handling-blanks-empty-strings-and-zero-values"></a>Üres értékek, üres sztringek és nullértékek kezelése
 A DAX nyelvben a nullértékeket, az üres értékeket, az üres cellákat és a hiányzó értékeket ugyanaz az új ÜRES értéktípus jelöli. Üres értékeket a BLANK függvénnyel is létrehozhat, a meglévőket pedig az ISBLANK függvénnyel ellenőrizheti.
 
 Az üres értékek viselkedését a különféle műveletekben, például összeadásokban és összefűzésekben az egyes függvények határozzák meg. Az alábbi táblázat az üres értékek a DAX- és a Microsoft Excel-függvényekben való viselkedésének különbségeit foglalja össze:

@@ -10,10 +10,10 @@ ms.topic: conceptual
 ms.date: 03/06/2018
 ms.author: maghan
 ms.openlocfilehash: ea323419e38aab7360bb817a56ae4c7c662998ed
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/04/2018
+ms.lasthandoff: 06/26/2018
 ms.locfileid: "34689849"
 ---
 # <a name="code-snippets-for-migrating-content-from-power-bi-workspace-collection"></a>Kódrészletek a tartalmak Power BI-munaterületcsoportból való migrálásához
@@ -84,7 +84,7 @@ using System.Threading.Tasks;
     }
 ```
 
-## <a name="extract-directquery-connection-string-from-paas-report"></a>DirectQuery kapcsolati karakterlánc kinyerése a PaaS-jelentésből
+## <a name="extract-directquery-connection-string-from-paas-report"></a>DirectQuery kapcsolati sztring kinyerése a PaaS-jelentésből
 Ez a PBIX frissítéséhez szükséges az SaaS-be való migrálás után.
 
 ```
@@ -104,7 +104,7 @@ Ez a PBIX frissítéséhez szükséges az SaaS-be való migrálás után.
     var datasource = client.Datasets.GetDatasources(<myWorkspaceCollectionName>, <myWorkspaceId>, report.DatasetId);
 ```
 
-## <a name="update-directquery-connection-string-is-saas-workspace"></a>DirectQuery kapcsolati karakterlánc frissítése az SaaS-munkaterületen
+## <a name="update-directquery-connection-string-is-saas-workspace"></a>DirectQuery kapcsolati sztring frissítése az SaaS-munkaterületen
 ```
     public class ConnectionString
     {

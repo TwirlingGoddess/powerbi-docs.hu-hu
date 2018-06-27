@@ -11,10 +11,10 @@ ms.date: 01/24/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
 ms.openlocfilehash: aa4bc70fa67af4e3b82b8ed9a4eb16851d98eaeb
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/04/2018
+ms.lasthandoff: 06/26/2018
 ms.locfileid: "34297147"
 ---
 # <a name="manage-your-data-source---analysis-services"></a>Az adatforrás kezelése – Analysis Services
@@ -134,17 +134,17 @@ Ha helyszíni AD-tulajdonságkeresést szeretne végezni az AAD UPN-ek Active Di
 
 A **Power BI szolgáltatásban** a következő történik:
 
-- A Power BI AAD-felhasználók által egy helyszíni SSAS-kiszolgálóra irányított összes lekérdezés esetén a rendszer egy UPN-karakterláncot továbbít, például a következőt:      firstName.lastName@contoso.com
+- A Power BI AAD-felhasználók által egy helyszíni SSAS-kiszolgálóra irányított összes lekérdezés esetén a rendszer egy UPN-sztringet továbbít, például a következőt: firstName.lastName@contoso.com
 
 > [!NOTE]
-> A Power BI-adatforrás konfigurációjában meghatározott összes manuális felhasználói UPN-leképezés továbbra is érvényesül, *mielőtt* a rendszer a felhasználónév karakterláncát a helyszíni adatátjáróra küldené.
+> A Power BI-adatforrás konfigurációjában meghatározott összes manuális felhasználói UPN-leképezés továbbra is érvényesül, *mielőtt* a rendszer a felhasználónév sztringjét a helyszíni adatátjáróra küldené.
 > 
 > 
 
 A konfigurálható egyéni felhasználóleképezéssel rendelkező helyszíni adatátjárón tegye a következőt:
 
 1. Keresse meg azt az Active Directoryt, amelyben keresni szeretne (automatikus vagy konfigurálható).
-2. Keresse meg az AD személy attribútumát (például *E-mail*) a **Power BI szolgáltatásból** bejövő UPN karakterlánc („firstName.lastName@contoso.com”) alapján.
+2. Keresse meg az AD személy attribútumát (például *E-mail*) a **Power BI szolgáltatásból** bejövő UPN-sztring („firstName.lastName@contoso.com”) alapján.
 3. Ha az AD-keresés meghiúsul, megkísérli a továbbított UPN-t használni az EffectiveUser értékeként az SSAS-hez.
 4. Ha az AD-keresés sikeres, lekéri az AD személy *UserPrincipalName* nevét. 
 5. A *UserPrincipalName* e-mail-címet *EffectiveUser* értékként adja át az SSAS-nek, például a következőképpen: *Alias@corp.on-prem.contoso*
@@ -176,7 +176,7 @@ Amikor kiválaszt egy elemet a listából, választhat, hogy a **sávnyíl ikonj
 ![](media/service-gateway-enterprise-manage-ssas/gateway-enterprise-map-user-names-entry-selected.png)
 
 ### <a name="using-wildcard-"></a>Helyettesítő karakter (\*) használata
-Helyettesítő karaktert is használhat a **Csere (eredeti név)** karakterlánchoz. Ez csak önállóan használható, más karakterláncrészlettel nem. Lehetővé teszi, hogy a művelet az összes felhasználóra vonatkozzon, és egyetlen értéket adjon tovább az adatforrásba. Ez akkor hasznos, ha azt szeretné, hogy a cégen vagy vállalaton belül mindenki ugyanazt a felhasználót használja a helyi környezetben.
+Helyettesítő karaktert is használhat a **Csere (eredeti név)** sztringhez. Ez csak önállóan használható, más sztringrészlettel nem. Lehetővé teszi, hogy a művelet az összes felhasználóra vonatkozzon, és egyetlen értéket adjon tovább az adatforrásba. Ez akkor hasznos, ha azt szeretné, hogy a cégen vagy vállalaton belül mindenki ugyanazt a felhasználót használja a helyi környezetben.
 
 ### <a name="test-a-mapping-rule"></a>Leképezési szabály tesztelése
 Érvényesítheti az eredeti nevet lecserélő nevet, ha beír egy értéket az **Eredeti név** mezőbe, és kiválasztja a **Szabály tesztelése** lehetőséget.

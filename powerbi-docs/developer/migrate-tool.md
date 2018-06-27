@@ -10,10 +10,10 @@ ms.topic: conceptual
 ms.date: 08/21/2017
 ms.author: maghan
 ms.openlocfilehash: bbd0a616460d4fb948c2efe63cca0d3e3d90d70e
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/04/2018
+ms.lasthandoff: 06/26/2018
 ms.locfileid: "34689737"
 ---
 # <a name="power-bi-embedded-migration-tool"></a>Power BI Embedded migrálási eszköz
@@ -238,11 +238,12 @@ Az XML-fájl szerkesztése után nyissa meg újra a tervet a migrálási eszköz
 <a name="directquery-reports"></a>
 
 ### <a name="directquery-reports"></a>DirectQuery-jelentések
-Frissítenie kell ahhoz, hogy a rendszer frissítse a DirectQuery-jelentések kapcsolati karakterláncát. Ezt megteheti a *powerbi.com* webhelyen, vagy lekérdezheti a kapcsolati karakterláncot programozott módon a Power BI Embeddedből (PaaS). Egy vonatkozó példáért lásd: [DirectQuery kapcsolati karakterlánc kinyerése PaaS-jelentésből](migrate-code-snippets.md#extract-directquery-connection-string-from-paas-report).
+Frissítenie kell ahhoz, hogy a rendszer frissítse a DirectQuery-jelentések kapcsolati sztringjét. Ezt megteheti a *powerbi.com* webhelyen, vagy lekérdezheti a kapcsolati sztringet programozott módon a Power BI Embeddedből (PaaS). Egy vonatkozó példáért lásd: [DirectQuery kapcsolati sztring kinyerése PaaS-jelentésből](migrate-code-snippets.md#extract-directquery-connection-string-from-paas-report).
 
-Ezután frissítheti az adatkészlet kapcsolati karakterláncát a Power BI szolgáltatásban (SaaS), és beállíthatja az adatforrás hitelesítő adatait. Tekintse meg a következő példákat, hogy lássa, hogyan teheti ezt meg.
+Ezután frissítheti az adatkészlet kapcsolati sztringjét a Power BI szolgáltatásban (SaaS), és beállíthatja az adatforrás hitelesítő adatait. Tekintse meg a következő példákat, hogy lássa, hogyan teheti ezt meg.
 
-* [DirectQuery kapcsolati karakterlánc frissítése az SaaS-munkaterületen](migrate-code-snippets.md#update-directquery-connection-string-is-saas-workspace)
+* 
+  [DirectQuery kapcsolati sztring frissítése az SaaS-munkaterületen](migrate-code-snippets.md#update-directquery-connection-string-is-saas-workspace)
 * [DirectQuery hitelesítő adatok beállítása az SaaS-munkaterületen](migrate-code-snippets.md#set-directquery-credentials-in-saas-workspace)
 
 ## <a name="embedding"></a>Beágyazás

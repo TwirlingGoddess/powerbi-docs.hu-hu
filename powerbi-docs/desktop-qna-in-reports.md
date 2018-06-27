@@ -11,10 +11,10 @@ ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: e9f1bd3231182d66d2ded0abbb67b4d111941ee4
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/04/2018
+ms.lasthandoff: 06/26/2018
 ms.locfileid: "34289234"
 ---
 # <a name="use-qa-in-power-bi-desktop-for-natural-language-queries"></a>A Q&A használata a Power BI Desktopban a természetes nyelvű lekérdezések lehetővé tételéhez
@@ -60,7 +60,7 @@ Lássunk egy újabb példát. Tegyük fel, hogy van egy *Személyzet* nevű táb
 
 ## <a name="fix-incorrect-data-types"></a>Helytelen adattípusok javítása
 
-Az importált adatokhoz helytelen adattípus lehet beállítva. A Q&A a *karakterláncként* importált *dátum* és *szám* típusú oszlopokat például nem fogja dátumként, illetve számként értelmezni. Ügyeljen rá, hogy a megfelelő adattípust válassza a Power BI-modellben.
+Az importált adatokhoz helytelen adattípus lehet beállítva. A Q&amp;A a *sztringként* importált *dátum* és *szám* típusú oszlopokat például nem fogja dátumként, illetve számként értelmezni. Ügyeljen rá, hogy a megfelelő adattípust válassza a Power BI-modellben.
 
 ![válassza a megfelelő adattípust, hogy az adatok mindenképpen elérhetők legyenek a Q&A számára](media/desktop-qna-in-reports/desktop-qna_05.png)
 
@@ -72,7 +72,7 @@ A Power BI alapértelmezés szerint agresszíven aggregálja a numerikus oszlopo
 
 ## <a name="choose-a-data-category-for-each-date-and-geography-column"></a>Adatkategória választása a dátumot és földrajzi helyet tartalmazó oszlopokhoz
 
-Az **Adatkategória** beállítással az adattípuson kívül további szemantikai információt is megadhat az oszlopok tartalmával kapcsolatban. Egy egész számokat tartalmazó oszlopot elláthat például az Irányítószám jelöléssel, egy karakterláncokat tartalmazó oszlopot pedig Város, Megye, Régió vagy más hasonló jelöléssel. Ezeket az információkat a Q&A két lényeges módon használja: A vizualizációk kiválasztásához, valamint a nyelvi feldolgozáshoz.
+Az **Adatkategória** beállítással az adattípuson kívül további szemantikai információt is megadhat az oszlopok tartalmával kapcsolatban. Egy egész számokat tartalmazó oszlopot elláthat például az Irányítószám jelöléssel, egy sztringeket tartalmazó oszlopot pedig Város, Megye, Régió vagy más hasonló jelöléssel. Ezeket az információkat a Q&A két lényeges módon használja: A vizualizációk kiválasztásához, valamint a nyelvi feldolgozáshoz.
 
 Egyrészt a Q&A az **Adatkategória** információit figyelembe veszi annak megállapításánál, hogy milyen típusú vizualizációt kell használnia. Felismeri például, hogy azok az oszlopok, amelyeknél az **Adatkategória** dátum vagy idő, jellemzően jól alkalmazhatók vonaldiagramok vízszintes tengelyeként, illetve buborékdiagramok lejátszási tengelyeként. Emellett azt is feltételezi, hogy ha egy oszlop **Adatkategóriája** földrajzi, akkor az azt tartalmazó eredmény jól mutathat térképen megjelenítve.
 

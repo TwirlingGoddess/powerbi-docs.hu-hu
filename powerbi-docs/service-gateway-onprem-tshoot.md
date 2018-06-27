@@ -11,10 +11,10 @@ ms.date: 06/02/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
 ms.openlocfilehash: e689e031395130bab8ad80d5d06936a9dabaf852
-ms.sourcegitcommit: b3b32b9b3935706d7caa091833bd32259d7ff6ee
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/04/2018
+ms.lasthandoff: 06/26/2018
 ms.locfileid: "34755070"
 ---
 # <a name="troubleshooting-the-on-premises-data-gateway"></a>A helyszíni adatátjáró hibaelhárítása
@@ -168,7 +168,7 @@ Ennek különböző okai lehetnek a különböző forgatókönyvekben.
 3. A Power BI Desktop-fájl több adatforrást tartalmaz, és ezek közül nem mindegyik van konfigurálva az átjáróhoz. Ahhoz, hogy az adott átjáró hogy megjelenjen az Ütemezett frissítésben, mindegyik adatforrást meg kell határoznia az átjáróhoz.
 
 ### <a name="error-the-received-uncompressed-data-on-the-gateway-client-has-exceeded-limit"></a>Hiba: Az átjáróügyfélen fogadott tömörítetlen adatok mérete nagyobb az engedélyezettnél.
-A pontos határérték táblánként 10 GB tömörítetlen adat. Ha ezzel a problémával találkozik, jó lehetőségei vannak a hiba optimalizálására és elkerülésére. A probléma megoldását különösen a nagymértékben ismétlődő, hosszú karakterláncokból álló értékek használatának csökkentése, és ezek helyett normalizált kulcs használata vagy az oszlop eltávolítása (ha nincs használatban) segíti.
+A pontos határérték táblánként 10 GB tömörítetlen adat. Ha ezzel a problémával találkozik, jó lehetőségei vannak a hiba optimalizálására és elkerülésére. A probléma megoldását különösen a nagymértékben ismétlődő, hosszú sztringekből álló értékek használatának csökkentése, és ezek helyett normalizált kulcs használata vagy az oszlop eltávolítása (ha nincs használatban) segíti.
 
 ## <a name="reports"></a>Jelentések
 ### <a name="report-could-not-access-the-data-source-because-you-do-not-have-access-to-our-data-source-via-an-on-premises-data-gateway"></a>A jelentés nem tudott hozzáférni az adatforráshoz, mert nem rendelkezik hozzáféréssel az adatforráshoz egy helyszíni adatátjárón keresztül.

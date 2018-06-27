@@ -11,10 +11,10 @@ ms.date: 06/02/2018
 ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: 757c1465d2451da8ebf340c7b9bfe1f4d9ff04f1
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/04/2018
+ms.lasthandoff: 06/26/2018
 ms.locfileid: "34721179"
 ---
 # <a name="use-report-themes-in-power-bi-desktop-preview"></a>Jelentéstémák használata a Power BI Desktopban (előzetes verzió)
@@ -170,7 +170,7 @@ A *dateTime* érték meghatározásakor a dátumnak aposztrófok közötti ISO-f
 
     “datetime’2011-10-05T14:48:00.000Z’”
 
-A Boole-értékek lehetséges értéke *true* (igaz) vagy *false* (hamis). A karakterláncoknak idézőjelek között kell szerepelniük, például "ez egy karakterlánc".
+A Boole-értékek lehetséges értéke *true* (igaz) vagy *false* (hamis). A sztringeknek idézőjelek között kell szerepelniük, például "ez egy sztring".
 
 | **visualName** |
 | --- |

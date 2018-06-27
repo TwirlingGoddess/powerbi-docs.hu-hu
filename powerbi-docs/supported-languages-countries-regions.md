@@ -11,10 +11,10 @@ ms.date: 04/13/2018
 ms.author: maggies
 LocalizationGroup: Get started
 ms.openlocfilehash: 14890d93261c12e16756c8f65d9273d954f673dd
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/04/2018
+ms.lasthandoff: 06/26/2018
 ms.locfileid: "34256702"
 ---
 # <a name="supported-languages-and-countriesregions-for-power-bi"></a>A Power BI által támogatott nyelvek és országok/régiók
@@ -155,11 +155,11 @@ Akár letölti, akár a Windows Áruházból telepíti a Power BI Desktopot, egy
 
 A Power BI Desktop alkalmazás nyelvének beállítása mellett a modell nyelvét is beállíthatja. A modell nyelve elsősorban a következő két dologra van hatással:
 
-- A karakterláncok összehasonlítására és rendezésére. Mivel például a török nyelvben két i betű található, az adatbázis rendezésétől függően ezen két betű sorrendjei eltérőek lehetnek rendezéskor. 
+- A sztringek összehasonlítására és rendezésére. Mivel például a török nyelvben két i betű található, az adatbázis rendezésétől függően ezen két betű sorrendjei eltérőek lehetnek rendezéskor. 
 - A nyelvre, amelyet a Power BI Desktop rejtett dátumtáblázatok dátummezőkből való létrehozásakor használ. A mezők neve lehet például Month, Monat, Hónap, stb.
 
 > [!NOTE]
-> A Power BI modellje jelenleg a kis- és nagybetűket (vagy kanákat) nem megkülönböztető területi beállításokat használ, tehát az “ABC” és “abc” egyenértékűként lesz kezelve. Ha elsőként “ABC” van betöltve az adatbázisban, akkor az olyan, csak kis-nagybetűkben eltérő karakterláncok, mint az “Abc” nem lesznek külön értékként betöltve.
+> A Power BI modellje jelenleg a kis- és nagybetűket (vagy kanákat) nem megkülönböztető területi beállításokat használ, tehát az “ABC” és “abc” egyenértékűként lesz kezelve. Ha elsőként “ABC” van betöltve az adatbázisban, akkor az olyan, csak kis-nagybetűkben eltérő sztringek, mint az “Abc” nem lesznek külön értékként betöltve.
 > 
 >
 
