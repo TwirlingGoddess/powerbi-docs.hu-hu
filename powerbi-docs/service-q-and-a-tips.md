@@ -11,10 +11,10 @@ ms.date: 01/18/2018
 ms.author: jastru
 LocalizationGroup: Ask questions of your data
 ms.openlocfilehash: 0165eb7161e9ba931c336300f73316d215b1c88d
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/04/2018
+ms.lasthandoff: 06/26/2018
 ms.locfileid: "34247070"
 ---
 # <a name="tips-for-asking-questions-in-power-bi-qa"></a>Tippek kérdések feltevéséhez a Power BI Q&A-ben
@@ -34,7 +34,8 @@ Ha Ön a tulajdonosa egy adatkészletnek, különböző kifejezéseket és szino
 
 **Névelők**: a, an, the
 
-**Üres és logikai értékek**: blank, empty, null, „non” vagy „non-” előtaggal, empty string, empty text, true, t, false, f
+
+  **Üres és logikai értékek**: blank, empty, null, „non” vagy „non-” előtaggal, empty string, empty text, true, t, false, f
 
 **Összehasonlítások**: vs, versus, compared to, compared with
 

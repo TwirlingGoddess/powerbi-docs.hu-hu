@@ -11,10 +11,10 @@ ms.date: 03/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: 44dff39d043bb7a71c01b5103cfdf65e7d5e33cb
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/04/2018
+ms.lasthandoff: 06/26/2018
 ms.locfileid: "34287601"
 ---
 # <a name="use-sap-hana-in-power-bi-desktop"></a>Az SAP HANA használata a Power BI Desktopban
@@ -44,7 +44,7 @@ Ebben a kiadásban számos képesség érhető el az **SAP HANA**-hoz, például
 ### <a name="limitations-of-sap-hana"></a>Az SAP HANA korlátozásai
 Az **SAP HANA** használatára a következő néhány korlátozás vonatkozik:
 
-* Az NVARCHAR karakterláncokat a rendszer legfeljebb 4000 Unicode karakter hosszúságúra csonkolja
+* Az NVARCHAR sztringeket a rendszer legfeljebb 4000 Unicode karakter hosszúságúra csonkolja
 * A SMALLDECIMAL nem támogatott
 * A VARBINARY nem támogatott
 * Az érvényes dátumok 1899/12/30 és 9999/12/31 közöttiek
