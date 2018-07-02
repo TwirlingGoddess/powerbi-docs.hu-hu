@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 05/25/2018
 ms.author: v-thepet
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 75ae82e43987cb42b858fe4350330fda3692cf97
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 338b72ef39c5b9c9fe454c1063f26602e8ce2299
+ms.sourcegitcommit: 5eb8632f653b9ea4f33a780fd360e75bbdf53b13
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34721501"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36964791"
 ---
 # <a name="slicers-in-power-bi"></a>Szeletelők a Power BI-ban
 A jelentést olvasók számára az összesítő értékesítési mérőszámok megjelenítése mellett az egyes körzeti vezetők teljesítményét és a különböző időkereteket is ki kell tudni mutatni. Létrehozhat különálló jelentéseket vagy összehasonlító diagramokat, illetve használhat szeletelőket. A szűrés másféle lehetőségét kínáló szeletelőkkel az adathalmaz a jelentés más vizualizációiban szereplő részére szűkíthető. 
@@ -183,7 +183,7 @@ A további formázási lehetőségek alapértelmezés szerint ki vannak kapcsolv
 - **Szegély:** 1 képpont vastagságú szegélyt rajzol a szeletelő köré, és beállítja annak színét. (Ez a szeletelőszegély az általános körvonal-beállításoktól független, azok nincsenek hatással rá.) 
 
 ## <a name="next-steps"></a>Következő lépések
-[Próbálja ki – ingyenes!](https://powerbi.com/)
+[Regisztráljon ingyenes próbára](https://powerbi.microsoft.com/get-started/)
 
 Vannak a Power BI továbbfejlesztésére vonatkozó ötletei? [Ötlet beküldése](https://ideas.powerbi.com/forums/265200-power-bi-ideas).
 

@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 05/28/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 91836970bda7e72c99977f360e2c0531a20bef20
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: eaef6c8273fc8f4b0d4d43dc1df82fdf97c2edf8
+ms.sourcegitcommit: 5eb8632f653b9ea4f33a780fd360e75bbdf53b13
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34584116"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36964768"
 ---
 # <a name="scatter-charts-and-bubble-charts-in-power-bi"></a>Pontdiagramok és buborékdiagramok a Power BI-ban
 A pontdiagramok mindig két értéktengellyel rendelkeznek. A vízszintes tengely mentén numerikus adatok egy készletét ábrázolják, a függőleges tengely mentén pedig numerikus adatok egy másik készletét. A diagram pontokat jelenít meg az x és y numerikus értékek metszéspontjában, így egyetlen adatponttá kombinálja ezeket az értékeket. Ezek az adatpontok egyenletesen vagy egyenetlenül oszthatók el a vízszintes tengely mentén az adatoktól függően.
@@ -116,9 +116,9 @@ Vagy ha nem szerepel ilyen az adatokban, hozzon létre egy mezőt, amely pontonk
 Új mező létrehozásához [a Power BI Desktop Lekérdezésszerkesztőjével adjon hozzá egy indexoszlopot](desktop-add-custom-column.md) az adatkészlethez.  Ezután adja hozzá ezt az oszlopot a vizualizáció **Részletek** területéhez.
 
 ## <a name="next-steps"></a>További lépések
- [Vizualizációtípusok a Power BI-ban](power-bi-visualization-types-for-reports-and-q-and-a.md)
+[Vizualizációtípusok a Power BI-ban](power-bi-visualization-types-for-reports-and-q-and-a.md)
 
-[Próbálja ki – ingyenes!](https://powerbi.com/)  
+[Regisztráljon ingyenes próbára](https://powerbi.microsoft.com/get-started/)  
 
 További kérdései vannak? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 sktopms.date: 06/01/2018
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: e8af4695ba54fee91820552802cf18d8a758e8b0
-ms.sourcegitcommit: b3b32b9b3935706d7caa091833bd32259d7ff6ee
+ms.openlocfilehash: 6341d5b3bba051cc31fe95f526450e03c14d4b69
+ms.sourcegitcommit: 5eb8632f653b9ea4f33a780fd360e75bbdf53b13
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34755047"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36964814"
 ---
 # <a name="frequently-asked-questions-about-power-bi"></a>Gyakori kérdések – Power BI
 * Ha bármilyen egyéb kérdése van, [kérdezze a Power BI-közösséget](http://community.powerbi.com/).
@@ -24,17 +24,19 @@ ms.locfileid: "34755047"
 ## <a name="what-is-microsoft-power-bi"></a>Mi az a Microsoft Power BI?
 A Power BI egy olyan felhőalapú üzleti analitikai szolgáltatás, amely gyorsabban, hatékonyabban és áttekinthetőbben teszi lehetővé mindenki számára az adatok vizualizálását és elemzését. A felhasználók különböző adatok széles köréhez kapcsolódhatnak az egyszerűen használható irányítópultoknak, az interaktív jelentéseknek és az olyan lenyűgöző vizualizációknak köszönhetően, amelyekkel az adatok életre kelnek. További olvasnivaló arról, hogy [Mi az a Power BI](power-bi-overview.md).
 
-## <a name="whats-the-difference-between-power-bi-and-power-bi-pro"></a>Mi a különbség a Power BI és a Power BI Pro között?
-A Power BI különböző funkciókkal segíti az adatok korszerű feltárásának megkezdését. A Power BI Pro a Power BI összes nagyszerű funkcióját tartalmazza, valamint olyan kiegészítő funkciókat kínál, mint például a további tárolókapacitás, a napi üzemezésnél gyakoribb adatfrissítés, élő adatforrások teljes interaktivitással, csoportok és így tovább. További információ: [A Power BI Pro és az ingyenes verzió közti különbség](https://powerbi.microsoft.com/pricing).
+## <a name="whats-the-difference-between-power-bi-pro-and-power-bi-premium"></a>Mi a különbség a Power BI Pro és a Power BI Premium között?
+A Power BI Pro egyéni licenc, amely hozzáférést biztosít a Power BI szolgáltatásban minden tartalomhoz és funkcióhoz, többek között megosztható a tartalom, és lehetőség van más Pro-felhasználókkal való együttműködésre is. Csak a Pro szintű felhasználók tehetnek közzé és használhatnak tartalmat alkalmazás-munkaterületeken, oszthatnak meg irányítópultokat, és iratkozhatnak fel irányítópultokra és jelentésekre. 
+
+A Premium szint fenntartott kapacitást biztosít, amellyel konzisztensebb teljesítmény érhető el, és amely nagyobb adatméreteket támogat a Power BI-ban. Egyéni felhasználók esetén a Premium szint lehetővé teszi, hogy a Pro-felhasználók széles körben megoszthassák a tartalmat úgy, hogy ehhez nincs szükségük arra, hogy a tartalom címzettjei felhasználónkénti licencekkel rendelkezzenek.
 
 ## <a name="how-much-does-power-bi-cost"></a>Mennyibe kerül a Power BI?
-A Power BI Desktop ingyenes. A Power BI Pro ingyenes próbaverziója 60 napig használható. A díjszabással kapcsolatban lásd: [A Power BI díjszabása](https://powerbi.microsoft.com/pricing).
+A Power BI Desktop ingyenesen használható. A Power BI Pro ingyenes próbaverziója 60 napig használható. A díjszabással kapcsolatban lásd: [A Power BI díjszabása](https://powerbi.microsoft.com/pricing).
 
 ## <a name="what-if-i-have-questions-about-power-bi-premium"></a>Mi a teendő, ha kérdéseim vannak a Power BI Premium verzióval kapcsolatban?
 A Power BI Premium verzióval kapcsolatos kérdésekért lásd: [Power BI Premium – gyakori kérdések](service-premium-faq.md).
 
 ## <a name="how-do-i-find-out-who-in-my-organization-has-a-power-bi-account"></a>Hogyan találhatom meg, hogy a vállalatomnál kinek van Power BI-fiókja?
-Az Azure Active Directory Power BI-hoz készült, integrált alkalmazásokat tartalmazó jelentésében megtekintheti az adott vállalat aktív felhasználóit. Az Azure AD-jelentésben nem látható, hogy az adott felhasználó a Power BI ingyenes vagy Pro verzióját használja-e. Csak az tekinthető meg, hogy mely felhasználók regisztráltak a Power BI-ba, és mikor jelentkeztek be. További információért tekintse át a [Bejelentkezett Power BI-felhasználók keresése](service-admin-access-usage.md) témát.
+Az Azure Active Directory Power BI-hoz készült, integrált alkalmazásokat tartalmazó jelentésében megtekintheti az adott vállalat aktív felhasználóit. Az Azure AD-jelentés nem jelzi, hogy az egyes felhasználók milyen licenccel rendelkeznek. Csak az tekinthető meg, hogy mely felhasználók regisztráltak a Power BI-ba, és mikor jelentkeztek be. További információért tekintse át a [Bejelentkezett Power BI-felhasználók keresése](service-admin-access-usage.md) témát.
 
 ## <a name="what-is-power-bi-desktop"></a>Mi az a Power BI Desktop?
 A Power BI Desktop egy ingyenes asztali alkalmazás, amelyet közvetlenül a saját számítógépre telepíthet. A Power BI Desktop szorosan együttműködik a Power BI szolgáltatással, és speciális adatfeltárást, -átalakítást, -modellezést, valamint kifejezetten interaktív vizualizációkat használó jelentéskészítést biztosít. A felhasználó a munkáját egy fájlba mentheti, majd az adatokat és a jelentéseket közvetlenül a Power BI webhelyén teheti közzé és oszthatja meg másokkal. További olvasnivaló arról, hogy [Mi az a Power BI Desktop](desktop-what-is-desktop.md).
