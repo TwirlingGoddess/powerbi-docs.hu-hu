@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 05/27/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 22eb44048d8a4f681d8d112ce3fdb5a841d0511e
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 7e992152656a208c765743292e06b4d0d3708730
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34584231"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37600257"
 ---
 # <a name="working-with-tables-in-power-bi-reports-and-dashboards"></a>Táblák használata a Power BI-jelentésekben és -irányítópultokon
 A táblák olyan táblázatok, amelyek sorok és oszlopok logikai sorozataként jelenítik meg a kapcsolódó adatokat. Tartalmazhatnak fejléceket és összesítősorokat is. A táblák jól használhatók mennyiségi összehasonlításokhoz, ahol több, egy kategóriába tartozó érték vizsgálható egyszerre. Ez a tábla például a **Kategória** 5 különböző mértékét jeleníti meg.
@@ -32,52 +32,52 @@ A tábla remek választás a következő esetekben:
 
 > [!NOTE]
 > Ha a tábla túl sok értéket tartalmaz, érdemes lehet mátrixszá alakítani és/vagy lefúrást alkalmazni.
-> 
-> 
-## <a name="prerequisites"></a>Előfeltételek
- - Power BI szolgáltatás vagy Power BI Desktop
- - Kiskereskedelmi elemzési minta
 
+## <a name="prerequisites"></a>Előfeltételek
+- Power BI szolgáltatás vagy Power BI Desktop
+- Kiskereskedelmi elemzési minta
 
 ## <a name="create-a-table"></a>Tábla létrehozása
 Létrehozzuk a fenti ábrát az értékesítési adatok elemkategória szerinti megjelenítéséhez. Hogy követni tudja a lépéseket, jelentkezzen be a Power BI szolgáltatásba, és válassza az **Adatok lekérése \> Minták \> Kiskereskedelmi elemzési minta > Kapcsolódás** lehetőséget, majd válassza az **Ugrás az irányítópultra lehetőséget. A vizualizációk létrehozásához az adatkészletre és a jelentésre vonatkozó szerkesztési jogosultságok szükségesek. A Power BI mintái mind szerkeszthetőek. Ha a jelentést megosztották Önnel, akkor nem fog tudni vizualizációkat létrehozni a jelentésben.
 
 1. A bal oldali navigációs panelen válassza a **Munkaterületek > Saját munkaterület** lehetőséget.    
 2. Válassza az Adatkészletek lapot, és görgessen le az imént hozzáadott Kiskereskedelmi elemzés minta adatkészletig.  Válassza a **Jelentés létrehozása** ikont.
-   
+
     ![](media/power-bi-visualization-tables/power-bi-create-report.png)
 2. A jelentésszerkesztőben válassza az **Elem** > **Kategória** lehetőséget.  A Power BI automatikusan létrehoz egy táblát, amely az összes kategóriát felsorolja.
-   
+
     ![](media/power-bi-visualization-tables/power-bi-table1.png)
 3. Jelölje ki a **Sales > Average Unit Price** (Értékesítés > Átlagos egységár), a **Sales > Last Year Sales** (Értékesítés > Tavalyi értékesítések) és a **Sales > This Year Sales** (Értékesítés > Idei értékesítések) elemet, és válassza ki mind a 3 beállítást (Érték, Cél, Állapot).   
 4. A Vizualizációk ablaktáblán húzza az értékeket az **Értékek** területre, amíg a tábla oszlopainak rendje meg nem egyezik az oldalon fentebb látható első ábrával.  Az Értékek területnek így kell kinéznie.
-   
+
     ![](media/power-bi-visualization-tables/power-bi-table2.png)
 5. Rögzítse a táblát az irányítópultra a rajzszög ikonnal  
-   
+
      ![](media/power-bi-visualization-tables/pbi_pintile.png)
 
 ## <a name="format-the-table"></a>A táblázat formázása
 A táblák sokféleképpen formázhatók, és itt csak néhányat mutatunk be ezek közül. A többi formázási lehetőség megismeréséhez nyissa meg és fedezze fel a Formázás ablaktáblát (festőhenger ikon ![](media/power-bi-visualization-tables/power-bi-format.png)).
 
 * Próbálja ki a tábla formázását. Itt hozzáadtunk egy függőleges kék rácsot, növeltük a sorok közötti távolságot, és egy kicsivel növeltük a külső szegélyek és a szöveg méretét is.
-  
+
     ![](media/power-bi-visualization-tables/power-bi-table-gridnew.png)
-  
+
     ![](media/power-bi-visualization-tables/power-bi-table-grid3.png)
 * Az oszlopok fejléceiben módosítottuk a háttérszínt, hozzáadtunk egy körvonalat, és növeltük a betűméretet. 
-  
+
     ![](media/power-bi-visualization-tables/power-bi-table-column-headers.png)
 
-  
-    ![](media/power-bi-visualization-tables/power-bi-table-column2.png)
+
+~~~
+![](media/power-bi-visualization-tables/power-bi-table-column2.png)
+~~~
 
 * Még az egyes oszlopokra és oszlopfejlécekre is alkalmazhat formázást. Kezdje a **Mezőformázás** kibontásával, majd jelölje ki az oszlopot a formázáshoz a legördülő menüben. Az oszlopértékektől függően a Mezőformázás lehetővé teszi a következők beállítását: megjelenítési egységek, betűszín, tizedesjegyek száma, háttér, igazítás stb. Miután módosította a beállításokat, döntse el, hogy alkalmazza-e ezeket a fejlécre és az összesítési sorra is.
 
     ![](media/power-bi-visualization-tables/power-bi-field-formatting.png)
 
 * Egyéb formázást is végrehajtottunk, mire megkaptuk ezt a végleges táblát. Mivel rengeteg formázási lehetőség létezik, a tanuláshoz a legjobb, ha az alapértelmezett formázással indít, megnyitja a Formázás ablaktáblát ![](media/power-bi-visualization-tables/power-bi-format.png), és kísérletez. 
-  
+
     ![](media/power-bi-visualization-tables/power-bi-table-format.png)
 
 ### <a name="conditional-formatting"></a>Feltételes formázás
@@ -86,27 +86,27 @@ A formázás egyik típusa a *feltételes formázás*, amely a Power BI szolgál
 A táblák feltételes formázásával a cellák értéke alapján határozhat meg egyéni háttér- vagy betűszínt (akár színátmeneteket is) a cellákhoz. 
 
 1. A Power BI szolgáltatás vagy Power BI Desktop **Vizualizációk** ablaktábláján kattintson az **Értékek** területen a formázni kívánt érték mellett a lefele mutató nyílra (vagy kattintson a jobb gombbal a mezőre). A mezők feltételes formázása kizárólag az **Értékek** terület **Mezők** szakaszában kezelhető.
-   
+
     ![](media/power-bi-visualization-tables/power-bi-conditional-formatting-background.png)
 2. Válassza a **Háttérszínek színskálái** elemet. A megjelenő párbeszédpanelen beállíthatja a színt, valamint a *Minimum* és *Maximum* értékeket. A **Széttartó** jelölőnégyzet bejelölése esetén megadhat egy választható *Középértéket* is.
-   
+
     ![](media/power-bi-visualization-tables/power-bi-conditional-formatting-background2.png)
-   
+
     Most alkalmazzunk feltételes formázást az Average Unit Price (Átlagos egységár) értékekre. Válassza a **Széttartó** lehetőséget, adjon hozzá színeket, és kattintson az **OK** gombra. 
-   
+
     ![](media/power-bi-visualization-tables/power-bi-conditional-formatting-data-background.png)
 3. Vegyen fel egy pozitív és negatív értékeket is tartalmazó új mezőt a táblába.  Válassza az **Sales > Total Sales Variance** (Értékesítés > Teljes értékesítés szórása) lehetőséget. 
-   
+
     ![](media/power-bi-visualization-tables/power-bi-conditional-formatting2.png)
 4. Adjon hozzá feltételes adatsávformázást – ehhez válassza a lefelé mutató nyilat a **Total Sales Variance** (Teljes értékesítés szórása) mellett, majd a **Feltételes formázás > Adatsávok** lehetőséget.
-   
+
     ![](media/power-bi-visualization-tables/power-bi-conditional-formatting-data-bars.png)
 5. A megjelenő párbeszédpanelen állítsa be a **Pozitív sáv** és a **Negatív sáv** színeit, jelölje be a **Csak sávok megjelenítése** lehetőséget, és végezze el a többi kívánt módosítást.
-   
+
     ![](media/power-bi-visualization-tables/power-bi-data-bars.png)
-   
+
     Az **OK** gombra kattintva a numerikus értékek helyét adatsávok veszik át a táblában, így könnyebben áttekinthető lesz.
-   
+
     ![](media/power-bi-visualization-tables/power-bi-conditional-formatting-data-bars2.png)
 6. A vizualizációk feltételes formázásának törléséhez egyszerűen kattintson újra a mezőre a jobb gombbal, és válassza a **Feltételes formázás eltávolítása** lehetőséget.
 
