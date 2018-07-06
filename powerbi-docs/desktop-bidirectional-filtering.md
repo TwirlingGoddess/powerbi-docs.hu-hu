@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/24/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: a584d61e1f2f55c244b453e6c086f3222217ee9a
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 43119a700b3b660a2734d1a8f974291a2817ce8e
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34289004"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37597998"
 ---
 # <a name="bidirectional-cross-filtering-using-directquery-in-power-bi-desktop"></a>Kétirányú keresztszűrés a DirectQuery használatával a Power BI Desktopban
 
@@ -33,13 +33,11 @@ A keresztszűrés engedélyezéséhez egy kapcsolat **Kapcsolat szerkesztése** 
 
 * A **Szűrő irányának keresztezése** beállításnál a **Mindkettő** értéket kell beállítani
 * Emellett ki kell választani a **Biztonsági szűrők alkalmazása mindkét irányba** lehetőséget
-  
+
   ![](media/desktop-bidirectional-filtering/bidirectional-filtering_2.png)
 
 > [!NOTE]
-> A Power BI Desktopban a keresztszűrési DAX-képletek létrehozásakor használja a *UserPrincipalName* paramétert (ami általában ugyanaz, mint a felhasználó bejelentkezési neve, például *joe@contoso.com*) a *UserName* helyett. Ehhez lehet, hogy létre kell hozni egy kapcsolódó táblát, amely egymáshoz rendeli a *UserName* (vagy például EmployeeID) és a *UserPrincipleName* paramétereket.
-> 
-> 
+> A Power BI Desktopban a keresztszűrési DAX-képletek létrehozásakor használja a *UserPrincipalName* paramétert (ami általában ugyanaz, mint a felhasználó bejelentkezési neve, például <em>joe@contoso.com</em>) a *UserName* helyett. Ehhez lehet, hogy létre kell hozni egy kapcsolódó táblát, amely egymáshoz rendeli a *UserName* (vagy például EmployeeID) és a *UserPrincipalName* paramétereket.
 
 További információkért és a kétirányú keresztszűrés működési példáiért tekintse át a jelen cikkben korábban említett [tanulmányt](http://download.microsoft.com/download/2/7/8/2782DF95-3E0D-40CD-BFC8-749A2882E109/Bidirectional%20cross-filtering%20in%20Analysis%20Services%202016%20and%20Power%20BI.docx).
 

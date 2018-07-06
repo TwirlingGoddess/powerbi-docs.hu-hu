@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 817e01f83904a8481fa1d0915f671c6761247795
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 957408729812ab348cc171360416ee01b432d2e0
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34287670"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37136594"
 ---
 # <a name="using-the-analytics-pane-in-power-bi-desktop"></a>Az Elemzés panel használata a Power BI Desktopban
 A **Power BI Desktop** **Elemzés** paneljén dinamikus *referenciavonalak* adhatók hozzá a vizualizációkhoz, így irányítva rá a figyelmet a fontos trendekre vagy elemzésekre. Az **Elemzési** panel a Power BI Desktop **Vizualizációs elemek** területén található.
@@ -114,7 +114,7 @@ A Power BI Desktop műveletek és lehetőségek széles tárházát tartalmazza.
 
 * [A Power BI Desktop újdonságai](desktop-latest-update.md)
 * [A Power BI Desktop letöltése](desktop-get-the-desktop.md)
-* [Első lépések a Power BI Desktopban](desktop-getting-started.md)
+* [Mi az a Power BI Desktop?](desktop-what-is-desktop.md)
 * [Lekérdezések áttekintése a Power BI Desktopban](desktop-query-overview.md)
 * [Adattípusok a Power BI Desktopban](desktop-data-types.md)
 * [Adatok formázása és kombinálása a Power BI Desktoppal](desktop-shape-and-combine-data.md)

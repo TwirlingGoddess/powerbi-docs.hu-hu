@@ -2,12 +2,12 @@
 title: Microsoft Power BI – Interaktív tanulás
 description: Ezekkel az egymásra épülő kurzusokkal elkezdheti a tanulást, és megismerheti a Microsoft Power BI kiterjedt lehetőségeit és hatékonyságát.
 layout: LandingPage
-ms.openlocfilehash: f80886799a2cfc960e4d441d3572d94f3c09b22e
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 2cd748b60da6781ff9ea710b5802f3d68c3bc6b8
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34310153"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37600676"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -272,7 +272,7 @@ Adatok feltárása </h3>
                                 <span style="margin-left: 32px; align-self: center;">9p</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="exploringdata.yml?tutorial-step=5">Kérdés-válasz megoldásra vonatkozó egyéni javaslatok létrehozása</a>
+                                <a class="barLink" href="exploringdata.yml?tutorial-step=5">Kérdés&amp;válasz megoldásra vonatkozó egyéni javaslatok létrehozása</a>
                                 <span style="margin-left: 32px; align-self: center;">4p</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
