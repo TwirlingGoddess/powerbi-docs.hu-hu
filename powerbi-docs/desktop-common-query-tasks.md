@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/24/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 44756e45a6f9944f9d52afa98709b1a3f7b5b6e1
-ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
+ms.openlocfilehash: fde23a47bb0f4034e213a652d60241ff625921d3
+ms.sourcegitcommit: 001ea0ef95fdd4382602bfdae74c686de7dc3bd8
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37137491"
+ms.lasthandoff: 07/11/2018
+ms.locfileid: "38877331"
 ---
 # <a name="common-query-tasks-in-power-bi-desktop"></a>Gyakori lekérdezési feladatok a Power BI Desktopban
 A Power BI Desktop **Lekérdezésszerkesztő** ablakában elérhető néhány gyakran használt feladat. Ez a dokumentum ezeket a gyakori feladatokat mutatja be, és további információkra mutató hivatkozásokat is tartalmaz. 
@@ -38,7 +38,7 @@ Az első adatkapcsolat egy Excel-munkafüzet. A másik egy webes forrásanyag (e
 A két adatforráshoz való kapcsolódáshoz szükséges lépésekkel kezdődnek a gyakori lekérdezési feladatok.
 
 ## <a name="connect-to-data"></a>Csatlakozás adatokhoz
-A Power BI Desktopban az adatokhoz való kapcsolódáshoz kattintson a **Lekérdezés** gombra a **Kezdőlap** szalagon. Ekkor megjelenik a Power BI Desktop leggyakoribb adatforrásokat tartalmazó menüje. Az adatforrások teljes listájához, amelyekhez a Power BI Desktop csatlakoztatható, kattintson a menü alján a **Továbbiak...** gombra. További információért lásd [a Power BI Desktop adatforrásait](https://docs.microsoft.com/en-us/power-bi/desktop-data-sources).
+A Power BI Desktopban az adatokhoz való kapcsolódáshoz kattintson a **Lekérdezés** gombra a **Kezdőlap** szalagon. Ekkor megjelenik a Power BI Desktop leggyakoribb adatforrásokat tartalmazó menüje. Az adatforrások teljes listájához, amelyekhez a Power BI Desktop csatlakoztatható, kattintson a menü alján a **Továbbiak...** gombra. További információért lásd [a Power BI Desktop adatforrásait](https://docs.microsoft.com/power-bi/desktop-data-sources).
 
 ![](media/desktop-common-query-tasks/commonquerytasks_getdata.png)
 
@@ -60,10 +60,10 @@ Kattintson az **OK** gombra, és a Power BI Desktop az előző lépéshez hasonl
 
 A többi adatkapcsolat is hasonlóan működik. Ha valamely adatkapcsolat létrehozásához hitelesítés szükséges, a Power BI Desktop megkéri, hogy adja meg a megfelelő hitelesítő adatokat.
 
-A Power BI Desktop-adatkapcsolatok létrehozásával kapcsolatos lépésenkénti útmutatóért lásd a témakört, amely azzal foglalkozik, [hogyan kapcsolódhat adatokhoz a Power BI Desktopban](https://docs.microsoft.com/en-us/power-bi/desktop-connect-to-data).
+A Power BI Desktop-adatkapcsolatok létrehozásával kapcsolatos lépésenkénti útmutatóért lásd a témakört, amely azzal foglalkozik, [hogyan kapcsolódhat adatokhoz a Power BI Desktopban](https://docs.microsoft.com/power-bi/desktop-connect-to-data).
 
 ## <a name="shape-and-combine-data"></a>Adatok formázása és egyesítése
-A Lekérdezésszerkesztővel egyszerűen formázhatja és egyesítheti az adatokat. Ebben a szakaszban bemutatunk néhány példát az adatok formázására. Az adatok formázásának és egyesítésének részletesebb bemutatójáért lásd: **[Adatok formázása és egyesítése a Power BI Desktoppal](https://docs.microsoft.com/en-us/power-bi/desktop-shape-and-combine-data)**.
+A Lekérdezésszerkesztővel egyszerűen formázhatja és egyesítheti az adatokat. Ebben a szakaszban bemutatunk néhány példát az adatok formázására. Az adatok formázásának és egyesítésének részletesebb bemutatójáért lásd: **[Adatok formázása és egyesítése a Power BI Desktoppal](https://docs.microsoft.com/power-bi/desktop-shape-and-combine-data)**.
 
 Az előző szakaszban két adatkészletet csatlakoztattunk, egy Excel-munkafüzetet és egy webes erőforrást. Miután betöltöttük az adatokat a Lekérdezésszerkesztőbe, a következőt látjuk, ha a webes erőforrás lekérdezése van kiválasztva (a Lekérdezésszerkesztő ablak bal oldalán, a **Lekérdezések** panelen felsorolt elérhető lekérdezések között).
 

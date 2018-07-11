@@ -11,11 +11,11 @@ ms.date: 01/29/2018
 ms.author: maggies
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 5b8a438ed354f246c5ac1d5ac0d0488db19633dd
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.sourcegitcommit: 001ea0ef95fdd4382602bfdae74c686de7dc3bd8
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34239258"
+ms.lasthandoff: 07/11/2018
+ms.locfileid: "38924580"
 ---
 # <a name="connect-to-the-services-you-use-with-power-bi"></a>Kapcsolódás a Power BI segítségével a használt szolgáltatásokhoz
 Könnyedén kapcsolódhat a vállalkozása működtetéséhez használt olyan szolgáltatásokhoz, mint például a Salesforce, a Microsoft Dynamics és a Google Analytics. A Power BI először a hitelesítő adatok segítségével kapcsolódik a szolgáltatáshoz, majd létrehoz egy irányítópulttal rendelkező Power BI alkalmazást és néhány jelentést, amelyek automatikusan megjelenítik adatait, és vizuális elemzést biztosítanak az üzletmenetről. 

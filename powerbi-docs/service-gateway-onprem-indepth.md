@@ -11,11 +11,11 @@ ms.date: 12/06/2017
 ms.author: mblythe
 LocalizationGroup: Gateways
 ms.openlocfilehash: 8b0121dbfe633eca9c438dfd272d3aeb56fd59a4
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.sourcegitcommit: 001ea0ef95fdd4382602bfdae74c686de7dc3bd8
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34298573"
+ms.lasthandoff: 07/11/2018
+ms.locfileid: "38921507"
 ---
 # <a name="on-premises-data-gateway-in-depth"></a>Helyszíni adatátjáró – részletesen
 Cége felhasználói hozzáférhetnek a helyszíni adatokhoz (amelyekhez már van hozzáférési jogosultságuk), de ahhoz, hogy ezek a felhasználók az Ön helyszíni adatforrásához kapcsolódjanak, helyszíni adatátjáró telepítésére és konfigurálására van szükség. Az átjáró gyors és biztonságos háttérbeli kommunikációt biztosít a felhőbeli felhasználótól az Ön helyszíni adatforrásáig és vissza a felhő felé.

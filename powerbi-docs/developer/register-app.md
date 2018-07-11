@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 05/31/2018
 ms.author: maghan
-ms.openlocfilehash: f4aac424d448dcb3e2dd722efe54db99d318ba80
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: aa51d516e903908fb2b0121f9bbed41d54f5e670
+ms.sourcegitcommit: 001ea0ef95fdd4382602bfdae74c686de7dc3bd8
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37599486"
+ms.lasthandoff: 07/11/2018
+ms.locfileid: "38925001"
 ---
 # <a name="register-an-azure-ad-app-to-embed-power-bi-content"></a>Azure AD-alkalmazás regisztrálása Power BI-tartalmak beágyazásához
 Megismerheti, hogyan kell regisztrálni egy alkalmazást az Azure Active Directoryban (Azure AD) Power BI-tartalmak beágyazásához.
@@ -23,7 +23,6 @@ Az alkalmazás az Azure AD-vel regisztrálva hozzáférést biztosít az alkalma
 
 > [!IMPORTANT]
 > A Power BI alkalmazás regisztrálása előtt szüksége van egy [Azure Active Directory-bérlőre és egy céges felhasználóra](create-an-azure-active-directory-tenant.md). Amennyiben nem a bérlő egyik felhasználójával regisztrál a Power BI-ba, nem tudja regisztrálni az alkalmazást.
-> 
 > 
 
 Az alkalmazást két módon regisztrálhatja. Az első lehetőség a [Power BI alkalmazásregisztráló eszköz](https://dev.powerbi.com/apps/), a másik pedig az Azure Portal használata. A Power BI alkalmazásregisztráló eszköz kínálja az egyszerűbb megoldást, mivel csak néhány mezőt kell kitöltenie. Amennyiben módosítani kívánja az alkalmazását, az Azure Portal használatát javasoljuk.
@@ -45,7 +44,7 @@ Az alábbiak szerint regisztrálhatja alkalmazását a Power BI alkalmazásregis
    
     A **Kezdőlap URL-címe** csak akkor adható meg, ha a **Kiszolgálóoldali webalkalmazás** alkalmazástípust választja.
    
-    A *beágyazás ügyfelek számára* és az *irányítópulti webes alkalmazás integrálása* minták esetében az átirányítási URL-cím a következő: `http://localhost:13526/redirect`. A jelentés- és csempeminták átirányítási URL-címe: `http://localhost:13526/`.
+    A *beágyazás ügyfelek számára* és az *irányítópulti webes alkalmazás integrálása* minták esetében az **átirányítási URL-cím** a következő: `http://localhost:13526/Redirect`. A jelentés- és csempeminták **átirányítási URL-címe**: `http://localhost:13526/`.
 6. Válassza ki a hozzáféréssel rendelkező alkalmazáshoz az API-kat. További információt a Power BI hozzáférési engedélyeiről a [Power BI engedélyeit](power-bi-permissions.md) ismertető témakörben talál.
    
     ![](media/register-app/app-registration-apis.png)
@@ -83,7 +82,7 @@ Az alkalmazást közvetlenül az Azure Portalon is regisztrálhatja. Az alkalmaz
 5. Kövesse az utasításokat az új alkalmazás létrehozásához.
    
    * Webalkalmazások esetén adja meg a Bejelentkezési URL-címet, vagyis az alkalmazás alap URL-címét, amelyen a felhasználók bejelentkezhetnek (például: `http://localhost:13526`).
-   * Natív alkalmazások esetén adja meg az Átirányítási URI-t, amelyet az Azure AD a jogkivonatválaszok visszaadására használ. Adja meg az alkalmazáshoz tartozó értéket, például: `http://myapplication/redirect`
+   * Natív alkalmazások esetén adja meg az **Átirányítási URI-t**, amelyet az Azure AD a jogkivonatválaszok visszaadására használ. Adja meg az alkalmazáshoz tartozó értéket, például: `http://myapplication/Redirect`
 
 További információt az alkalmazások Azure Active Directoryban történő regisztrálásáról az [alkalmazások Azure Active Directoryval való integrálását](https://docs.microsoft.com/azure/active-directory/develop/active-directory-integrating-applications) ismertető témakörben talál.
 
