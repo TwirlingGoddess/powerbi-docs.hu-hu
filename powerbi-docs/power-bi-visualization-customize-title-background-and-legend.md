@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 01/22/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: d65281539bcc27ce24971a6da0945908ba65e754
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 1a39b347a68cb5557ffff7758efbfba86884b5ce
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34297101"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37599001"
 ---
 # <a name="customize-visualization-titles-legends-and-backgrounds"></a>A vizualizáció címeinek, jelmagyarázatainak és háttereinek testreszabása
 Ezen oktatóanyag segítségével elsajátíthatja a vizualizációk testre szabására szolgáló különböző módszereket.   Számos lehetőség van a vizualizációk testreszabására. A legjobban a Formátum panel felfedezésével ismerheti meg ezeket (kattintson a festőhenger ikonra).  Az első lépésekhez megtételéhez ez a cikk bemutatja, hogyan szabhatja testre a vizualizáció címét, jelmagyarázatát és hátterét.  
@@ -41,26 +41,26 @@ Hogy követni tudja a lépéseket, jelentkezzen be a Power BI szolgáltatásba (
 
 1. Navigáljon a jelentés „New Stores” (Új üzletek) lapjára, és válassza az „Open Store Count by Open Month...” (Megnyitott üzletek száma a megnyitás hónapja alapján) oszlopdiagramot.
 2. A Vizualizációk panelen kattintson a festőhenger ikonra, hogy láthatóvá váljanak a formázási lehetőségek.  Ezután a **Cím** lehetőség kiválasztásával bontsa ki az adott szakaszt.  
-   
+
    ![](media/power-bi-visualization-customize-title-background-and-legend/power-bi-formatting-menu.png)
 3. A Be (vagy Ki) csúszka kiválasztásával be- és kikapcsolhatja a **Címet**. Egyelőre hagyja **Be** állásban.  
-   
+
    ![](media/power-bi-visualization-customize-title-background-and-legend/onoffslider.png)
 4. A **Címszöveg** módosításához írja be a szövegmezőbe azt, hogy **Store count by month opened** (Üzletszám a megnyitás hónapja alapján).  
 5. Módosítsa a **Betűszínt** narancssárgára, és a **Háttérszínt** citromsárgára.
-   
+
    * Kattintson a legördülő listára, és válasszon egy színt a **Téma színei**, **Legutóbbi színek** vagy **Egyéni szín** közül.
    * Kattintson a legördülő listára a színablak bezárásához.  
      ![](media/power-bi-visualization-customize-title-background-and-legend/customizecolorpicker.png)
-   
+
    Mindig visszaállíthatja az alapértelmezett színeket a **Visszaállítás az alapértelmezettre** lehetőséggel a színablakban.
 6. Növelje a szövegméretet 12-esre.
 7. A diagram címének utolsó testre szabásaként a vizualizáció közepére igazítjuk azt. Alapértelmezés szerint a cím pozíciója balra igazított.  
    ![](media/power-bi-visualization-customize-title-background-and-legend/customizealign.png)
-   
+
     Az oktatóanyag ezen pontján az oszlopdiagramja **címének** körülbelül így kellene kinéznie:  
     ![](media/power-bi-visualization-customize-title-background-and-legend/tutorialprogress1.png)
-   
+
     A címen eddig végrehajtott testreszabások visszavonásához válassza a **Visszaállítás az alapértelmezettre** lehetőséget a **Cím** testreszabás panel alján.  
     ![](media/power-bi-visualization-customize-title-background-and-legend/revertall.png)
 
@@ -69,29 +69,30 @@ Ugyanazt az oszlopdiagramot kiválasztva bontsa ki a Háttér beállításokat.
 
 1. A Be (vagy Ki) csúszka kiválasztásával be- és kikapcsolhatja a hátteret. Egyelőre hagyja **Be** állásban.
 2. Módosítsa a háttérszínt 74%-os szürkére.
-   
+
    * Kattintson a legördülő listára, és válasszon egy szürke színt a **Téma színei**, **Legutóbbi színek** vagy **Egyéni szín** közül.
    * Módosítsa az átlátszóságot 74%-ra.   
      ![](media/power-bi-visualization-customize-title-background-and-legend/power-bi-customize-background.png)
-   
+
    Az eddig végrehajtott testreszabások visszavonásához válassza a **Visszaállítás az alapértelmezettre** lehetőséget a **Háttér** testreszabás panel alján.
 
 ## <a name="customize-visualization-legends"></a>Vizualizáció jelmagyarázatának testreszabása
 1. Nyissa meg az **Overview** (Áttekintés) jelentésoldalt, és válassza ki a „Total Sales Variance by FiscalMonth and District Manager” (Teljes értékesítési szórásnégyzet pénzügyi hónap és kerületi menedzser szerint) diagramot.
 2. A Vizualizáció lapon a Festőhenger ikonra kattintva nyissa meg a Formátum panelt.  
 3. Bontsa ki a **Jelmagyarázat** beállításait.
-   
+
       ![](media/power-bi-visualization-customize-title-background-and-legend/legend.png)
 4. A Be (vagy Ki) csúszka kiválasztásával be- és kikapcsolhatja a jelmagyarázatot. Egyelőre hagyja **Be** állásban.
 5. Helyezze át a jelmagyarázatot a vizualizáció bal oldalára.    
 6. A **Cím** **Be** helyzetbe váltásával, és a **Jelmagyarázat neve** mezőbe a **Managers** (Menedzserek) szó beírásával adja meg a jelmagyarázat címét.
    ![](media/power-bi-visualization-customize-title-background-and-legend/legend-move.png)
-   
+
    A jelmagyarázaton eddig végrehajtott testreszabások visszavonásához válassza a **Visszaállítás az alapértelmezettre** lehetőséget a **Jelmagyarázat** testreszabás panel alján.
 
 <a name="list"></a>
 
 ## <a name="visualization-types-that-can-be-customized"></a>Testre szabható vizualizációtípusok
+
 | Vizualizáció | Cím | Háttér | Jelmagyarázat |
 |:--- |:--- |:--- |:--- |
 | terület |igen |igen |igen |

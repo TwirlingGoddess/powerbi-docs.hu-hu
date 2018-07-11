@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 472be555bb4c46da41eb762c1eeae14ef991e742
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: ed9ab95aace7ab1ff0774732241bdd4a7fffcb15
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 05/17/2018
-ms.locfileid: "34290867"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37600989"
 ---
 # <a name="using-directquery-in-power-bi"></a>DirectQuery használata a Power BI-ban
 Számos különböző adatforrást kapcsolhat össze a **Power BI Desktop** vagy a **Power BI szolgáltatás** használatával, és ezeket az adatkapcsolatokat többféleképpen is létrehozhatja. *Importálhat* adatokat a Power BI-ba, ez az adatok lekérésének leggyakoribb módja, vagy közvetlenül is csatlakozhat az eredeti forrásadattárukban lévő adatokhoz, ez az eljárás **DirectQuery** néven ismert. Ez a cikk a **DirectQuery** szolgáltatást és annak képességeit mutatja be, az alábbi témaköröket beleértve:
@@ -152,7 +152,7 @@ A **DirectQuery** használatával ezen modellbővítések nagy részét el lehet
     
     Ennek az az oka, hogy nagy mennyiségű elem esetén egy ilyen mérték teljesítményproblémákat okozhatna.
 * **A számított táblázatok nem támogatottak:** A DirectQuery módban nem támogatott a számított táblázatok meghatározása egy DAX-kifejezés használatával.
-* **A kapcsolatok szűrése egy irányra korlátozódik:** A DirectQuery használatakor nem lehet a kapcsolatok keresztszűrésének irányánál a „Mindkettő” értéket beállítani. Az alábbi három tábla esetében például nem lehet olyan vizualizációt létrehozni, amely megjeleníti a Customer[Gender] \(Ügyfél[Nem]) értékeket, és az ezekhez tartozó Product[Category] \(Termék[Kategória]) értékeket. Az ilyen kétirányú szűrés használatát [ez a tanulmány](http://download.microsoft.com/download/2/7/8/2782DF95-3E0D-40CD-BFC8-749A2882E109/Bidirectional cross-filtering in Analysis Services 2016 and Power BI.docx) ismerteti részletesebben (a tanulmány az SQL Server Analysis Services kontextusában hoz példákat, de az alapvető pontok a Power BI-ra is ugyanúgy érvényesek).
+* **A kapcsolatok szűrése egy irányra korlátozódik:** A DirectQuery használatakor nem lehet a kapcsolatok keresztszűrésének irányánál a „Mindkettő” értéket beállítani. Az alábbi három tábla esetében például nem lehet olyan vizualizációt létrehozni, amely megjeleníti a Customer[Gender] \(Ügyfél[Nem]) értékeket, és az ezekhez tartozó Product[Category] \(Termék[Kategória]) értékeket. Az ilyen kétirányú szűrés használatát [ez a tanulmány](http://download.microsoft.com/download/2/7/8/2782DF95-3E0D-40CD-BFC8-749A2882E109/Bidirectional%20cross-filtering%20in%20Analysis%20Services%202016%20and%20Power%20BI.docx) ismerteti részletesebben (a tanulmány az SQL Server Analysis Services kontextusában hoz példákat, de az alapvető pontok a Power BI-ra is ugyanúgy érvényesek).
   
   ![](media/desktop-directquery-about/directquery-about_01.png)
   

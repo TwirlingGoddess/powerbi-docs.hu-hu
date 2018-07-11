@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/24/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: bb35e8762b4cbe79e8efe2aede15bcac66f2ac8b
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 699df2cf1cfcfde25eaadcec2946e9be922c56d9
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34289786"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37136088"
 ---
 # <a name="connect-to-excel-in-power-bi-desktop"></a>Kapcsolódás az Excelhez a Power BI Desktopban
 A Power BI Desktopban az Excel-munkafüzetek csatlakoztatása nem jelent gondot. Ez a cikk végigvezeti a szükséges lépéseken.
@@ -48,7 +48,7 @@ Azonnal fel is használhatja az Excel-munkafüzet importált adatait a Power BI 
 ### <a name="next-steps"></a>Következő lépések
 A Power BI Desktop használatával számos adatforráshoz csatlakozhat. Az adatforrásokkal kapcsolatos információkért lásd az alábbi forrásanyagokat:
 
-* [Első lépések a Power BI Desktopban](desktop-getting-started.md)
+* [Mi az a Power BI Desktop?](desktop-what-is-desktop.md)
 * [Adatforrások a Power BI Desktopban](desktop-data-sources.md)
 * [Adatok formázása és kombinálása a Power BI Desktoppal](desktop-shape-and-combine-data.md)
 * [Csatlakozás CSV-fájlokhoz a Power BI Desktopban](desktop-connect-csv.md)   

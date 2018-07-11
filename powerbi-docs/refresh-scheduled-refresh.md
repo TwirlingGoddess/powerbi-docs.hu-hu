@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: e6dbd431a1ea37195a6cbb6e3d9a39d79a4e9b0d
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 96c1709c1d85b8a960be9c96b6839b69b4f22eaa
+ms.sourcegitcommit: ba447d7cc94418d7d3cf6fdcb686ec1a859258a8
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34248135"
+ms.lasthandoff: 07/02/2018
+ms.locfileid: "37145456"
 ---
 # <a name="configuring-scheduled-refresh"></a>Ütemezett frissítés beállítása
 
@@ -26,7 +26,7 @@ ms.locfileid: "34248135"
 
 Ha az adatkészlet támogatja a Frissítés most és a Frissítés ütemezése használatával történő ütemezett frissítést, van néhány követelmény és beállítás, amelyek fontosak a sikeres frissítéshez. Ezek az **Átjárókapcsolat**, az **Adatforrás azonosító adatai** és a **Frissítés ütemezése**. Most vizsgáljuk meg közelebbről mindegyiket.
 
-Ez a cikk ismerteti mind a [Power BI Gateway – Personal](personal-gateway.md), mind a [Helyszíni adatátjáró](service-gateway-onprem.md) esetében rendelkezésre álló beállításokat.
+Ez a cikk ismerteti mind a [Power BI Gateway – Personal](service-gateway-personal-mode.md), mind a [Helyszíni adatátjáró](service-gateway-onprem.md) esetében rendelkezésre álló beállításokat.
 
 Az Frissítés ütemezése képernyőre való váltáshoz tegye a következőt:
 
@@ -123,7 +123,7 @@ Néha az adatok frissítése nem a várt módon történik. Ezt általában egy 
 
 ## <a name="next-steps"></a>Következő lépések
 [Adatfrissítés a Power BI-ban](refresh-data.md)  
-[Power BI Gateway – Personal](personal-gateway.md)  
+[Power BI Gateway – Personal](service-gateway-personal-mode.md)  
 [Helyszíni adatátjáró](service-gateway-onprem.md)  
 [A Helyszíni adatátjáróval kapcsolatos hibák elhárítása](service-gateway-onprem-tshoot.md)  
 [A személyes Power BI Gateway hibáinak elhárítása](service-admin-troubleshooting-power-bi-personal-gateway.md)  

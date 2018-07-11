@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 07db52bd2ffd881417f7ff59647c6779f7dc6bce
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: e2df8ecd746e34b85a3fdd15943ff6eda5712663
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34248342"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37598978"
 ---
 # <a name="edit-or-remove-a-dashboard-tile"></a>Irányítópult-csempék szerkesztése és eltávolítása
 
@@ -35,12 +35,12 @@ Ez a cikk az alábbiakat ismerteti.
 * [Csempe rögzítése egy másik irányítópulton](#different)
 * [Csempe törlése](#delete)
   
- > [!TIP]
- > Ha magán a csempén látható vizualizációt szeretné módosítani, törölje a csempét, és vegyen fel egy új [irányítópult-csempét](service-dashboard-tiles.md).
- > 
+  > [!TIP]
+  > Ha magán a csempén látható vizualizációt szeretné módosítani, törölje a csempét, és vegyen fel egy új [irányítópult-csempét](service-dashboard-tiles.md).
 
- ### <a name="prerequisites"></a>Előfeltételek
- 1. A bemutatott lépések követéséhez nyissa meg a Power BI szolgáltatást (nem a Power BI Desktopot), és [töltse le az Informatikaköltség-elemzési mintát](sample-it-spend.md). Amikor megkapja az értesítést a sikeres műveletről, válassza az **Ugrás az irányítópultra** lehetőséget.
+  
+## <a name="prerequisites"></a>Előfeltételek
+A bemutatott lépések követéséhez nyissa meg a Power BI szolgáltatást (nem a Power BI Desktopot), és [töltse le az Informatikaköltség-elemzési mintát](sample-it-spend.md). Amikor megkapja az értesítést a sikeres műveletről, válassza az **Ugrás az irányítópultra** lehetőséget.
 
 - - -
 <a name="create"></a>

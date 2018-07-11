@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 04/11/2018
+ms.date: 06/22/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 8716e6b5b75c7cd3db1b8daecfaae240f0647a50
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: e9b37ba2b44a23fa0f198bce7a649c67335ac0ed
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34297262"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "36945135"
 ---
 # <a name="best-design-practices-for-reports-and-visuals"></a>Ajánlott eljárások jelentések és vizualizációk megalkotásához
 <!-- Shared newnav Include -->
@@ -787,8 +787,6 @@ A sáv- és oszlopdiagramok általában a legtöbb célnak megfelelnek. Azt jól
 Itt az egyetlen hasznos felhasználási módjukat is megemlíti, a rész–egész kapcsolatok összehasonlítását. De még itt sem tesznek sokkal jobb szolgálatot egy 100%-ig halmozott sávdiagramnál.
 
 Egy további érdekes cikket (és animációt) találhat a kördiagramokról a [Darkhorse Analytics webhelyén](http://www.darkhorseanalytics.com/blog/salvaging-the-pie).
-
-De elolvashat egy ellentétes álláspontot is: [Why Tufte is flat-out wrong about pie charts](http://speakingppt.com/2013/03/18/why-tufte-is-flat-out-wrong-about-pie-charts/) (Miért nincs igaza Tufte-nak a kördiagramokkal kapcsolatban?).
 
 #### <a name="radial-gauges--kpis"></a>Kör alakú mérőműszerek és KPI-k
 ![](media/power-bi-visualization-best-practices/power-bi-gauge.png)

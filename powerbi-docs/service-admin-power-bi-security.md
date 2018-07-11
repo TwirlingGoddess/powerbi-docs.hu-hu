@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Administration
-ms.openlocfilehash: d3b3e077ac3dadf92a1c25d3704a4f59adea588b
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: ec8f1e40cac1c98bcfb5049d1fe8dd7397b616d6
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 05/17/2018
-ms.locfileid: "34296227"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37598854"
 ---
 # <a name="power-bi-security"></a>A Power BI és a biztonság
 A Power BI biztonsági jellemzőinek részletesebb leírását a [letölthető Power BI-biztonsági tanulmány](http://go.microsoft.com/fwlink/?LinkId=829185) tartalmazza:
@@ -48,7 +48,7 @@ A **Back End**-fürt fenti ábráján szaggatott vonal választja el a felhaszn�
 ## <a name="user-authentication"></a>Felhasználók hitelesítése
 A Power BI az Azure Active Directory ([AAD](http://azure.microsoft.com/services/active-directory/)) használatával hitelesíti a Power BI szolgáltatásba bejelentkező felhasználókat, ugyanakkor a Power BI bejelentkezési információit használja, ha a felhasználó hitelesítést megkövetelő forráshoz kísérel meg hozzáférni. A felhasználók a Power BI-fiókjuk létrehozásakor megadott e-mail-címükkel jelentkeznek be a Power BI szolgáltatásba. A Power BI ezt az e-mail-címet használja *érvényes felhasználónévként*, amelyet átad az erőforrásoknak, amikor a felhasználó adatokhoz próbál kapcsolódni. Az *érvényes felhasználónév* hozzárendelődik az *egyszerű felhasználónévhez* ([UPN](https://msdn.microsoft.com/library/windows/desktop/aa380525\(v=vs.85\).aspx)), és a hozzá társított Windows-tartományi fiókká oldódik fel, amelyen megtörténik a hitelesítés.
 
-Az olyan szervezeteknél, ahol vállalati e-mail-címeket használnak a Power BI-bejelentkezéshez (például *david@contoso.com*) az *érvényes felhasználónév* magától értetődően rendelődik hozzá az egyszerű névhez. Az olyan szervezeteknél, ahol nem vállalati e-mail-címeket használnak a Power BI-bejelentkezéshez (például *david@contoso.onmicrosoft.com*), az AAD és a helyszíni hitelesítő adatok egymáshoz rendelésének helyes működése [címtár-szinkronizálást](https://technet.microsoft.com/library/jj573653.aspx) kíván.
+Az olyan szervezeteknél, ahol vállalati e-mail-címeket használnak a Power BI-bejelentkezéshez (például <em>david@contoso.com</em>) az *érvényes felhasználónév* magától értetődően rendelődik hozzá az egyszerű névhez. Az olyan szervezeteknél, ahol nem vállalati e-mail-címeket használnak a Power BI-bejelentkezéshez (például <em>david@contoso.onmicrosoft.com</em>), az AAD és a helyszíni hitelesítő adatok egymáshoz rendelésének helyes működése [címtár-szinkronizálást](https://technet.microsoft.com/library/jj573653.aspx) kíván.
 
 A Power BI platform-szintű biztonsága magában foglalja a több-bérlős környezet biztonságát, a hálózati biztonságot és további AAD-alapú biztonsági elemek hozzáadásának lehetőségét.
 

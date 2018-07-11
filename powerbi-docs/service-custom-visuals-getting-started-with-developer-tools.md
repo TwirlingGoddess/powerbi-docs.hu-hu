@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 11/30/2017
 ms.author: maghan
-ms.openlocfilehash: 8b5da248b6992c8ae3e8d30caf4f0fc6c47bdcf5
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: a9663951035a697a9fb1f8732d2ce418950078f4
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34296299"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37600379"
 ---
 # <a name="use-developer-tools-to-create-custom-visuals"></a>Egyéni vizualizációk létrehozása fejlesztőeszközökkel
 Egyéni vizualizációk segítségével megfelelhet a felhasználók igényeinek, és igazodhat saját alkalmazásának felületéhez. Cikkünk bemutatja, hogy miképpen hozhat létre egyéni Power BI-vizualizációt a fejlesztőeszközökkel.
@@ -32,14 +32,14 @@ Ahhoz, hogy egyéni vizualizációt tudjon létrehozni, telepítenie kell a Node
 
 1. Töltse le és telepítse a [NodeJS](https://nodejs.org)-t. A követelmény a 4.0-s vagy újabb verzió, de az 5.0-s vagy újabb verzió ajánlott.
 2. Telepítse a parancssori eszközöket. Futtassa a következő parancsot egy parancssorból.
-   
+
         npm install -g powerbi-visuals-tools
 3. A következő parancs paraméter nélküli kiadásával ellenőrizheti, hogy megtörtént-e az eszközök telepítése.
-   
+
         pbiviz
-   
+
     Ekkor a súgónak kell megjelennie.
-   
+
     <pre><code>
          +syyso+/
     oms/+osyhdhyso/
@@ -59,22 +59,22 @@ Ahhoz, hogy egyéni vizualizációt tudjon létrehozni, telepítenie kell a Node
                /dmmh /mmmm/ /osyhhy/
                  //   dmmd
                        ++
-   
+
        PowerBI Custom Visual Tool
-   
+
     Usage: pbiviz [options] [command]
-   
+
     Commands:
-   
+
     new [name]        Create a new visual
     info              Display info about the current visual
     start             Start the current visual
     package           Package the current visual into a pbiviz file
     update [version]  Updates the api definitions and schemas in the current visual. Changes the version if specified
     help [cmd]        display help for [cmd]
-   
+
     Options:
-   
+
     -h, --help      output usage information
     -V, --version   output the version number
     --install-cert  Install localhost certificate
@@ -103,7 +103,7 @@ A tanúsítvány *létrehozásához* futtassa a következő parancsot.
 A tanúsítvány *telepítéséhez* futtassa a következő parancsot.
 
     pbiviz --install-cert
-    
+
 > [!NOTE]
 > Ekkor meg kell jelennie egy üzenetnek, mely felkéri, hogy telepítsen egy PFX-tanúsítványt a frissen generált hozzáférési kóddal.
 > 
@@ -112,20 +112,20 @@ A tanúsítvány *telepítéséhez* futtassa a következő parancsot.
 **Windows operációs rendszer**
 
 1. Válassza a **Tanúsítvány telepítése** gombot.
-   
+
     ![](media/service-custom-visuals-getting-started-with-developer-tools/install-ssl-certificate-windows.png)
 2. Válassza az **Aktuális felhasználó** lehetőséget, majd a **Tovább** gombot.
-   
+
     ![](media/service-custom-visuals-getting-started-with-developer-tools/install-ssl-certificate-windows2.png)
 3. Jelölje be a **Minden tanúsítvány tárolása ebben a tárolóban** választógombot, majd válassza a **Tallózás** gombot.
 4. Válassza a **Megbízható legfelső szintű hitelesítésszolgáltatók** tárolót, majd kattintson az **OK** gombra. Válassza a **Tovább** gombot.
-   
+
     ![](media/service-custom-visuals-getting-started-with-developer-tools/install-ssl-certificate-windows3.png)
 5. Válassza a **Befejezés** gombot.
-   
+
     ![](media/service-custom-visuals-getting-started-with-developer-tools/install-ssl-certificate-windows4.png)
 6. Válassza az **Igen** gombot a biztonsági figyelmeztetést tartalmazó párbeszédpanelen.
-   
+
     ![](media/service-custom-visuals-getting-started-with-developer-tools/install-ssl-certificate-windows5.png)
 7. Ha van nyitva böngésző, zárja be.
 
@@ -137,13 +137,13 @@ A tanúsítvány *telepítéséhez* futtassa a következő parancsot.
 **OSX**
 
 1. Ha a bal felső sarokban látható lakat zárva van, kattintással vagy koppintással nyissa ki. Keressen rá a *localhost* szóra, és kattintson duplán a tanúsítványra.
-   
+
     ![](media/service-custom-visuals-getting-started-with-developer-tools/install-ssl-certificate-osx.png)
 2. Válassza a **Mindig legyen megbízható** lehetőséget, és zárja be az ablakot.
-   
+
     ![](media/service-custom-visuals-getting-started-with-developer-tools/install-ssl-certificate-osx2.png)
 3. Adja meg a felhasználónevét és a jelszavát. Válassza a **Beállítások frissítése** gombot.
-   
+
     ![](media/service-custom-visuals-getting-started-with-developer-tools/install-ssl-certificate-osx3.png)
 4. Ha van nyitva böngésző, zárja be.
 
@@ -157,15 +157,15 @@ Engedélyezze az egyéni vizualizáció élő előnézetét a következő lépé
 
 1. Nyissa meg az [app.powerbi.com](https://app.powerbi.com) webhelyet, és jelentkezzen be.
 2. Válassza a **fogaskerék ikont**, majd a **Beállítások** elemet.
-   
+
     ![](media/service-custom-visuals-getting-started-with-developer-tools/powerbi-settings.png)
 3. Válassza a **Fejlesztő** elemet, majd a **Fejlesztői vizualizáció engedélyezése teszteléshez** lehetőséget.
-   
+
     ![](media/service-custom-visuals-getting-started-with-developer-tools/powerbi-settings-enable-developer-live-preview.png)
 4. Válassza a **Megjelenítések** panelen a **Fejlesztői látványelem** lehetőséget.
-   
+
     ![](media/service-custom-visuals-getting-started-with-developer-tools/powerbi-developer-visual-selection.png)
-   
+
    > [!NOTE]
    > Ehhez futtatnia kell a `pbiviz start` parancsot a vizualizációnak a fejlesztői gépen található mappájából. A vizualizáció létrehozásáról a cikk [Új vizualizáció létrehozása](#create-a-new-visual) című része nyújt részletes tájékoztatást.
    > 
@@ -196,11 +196,11 @@ A vizualizációt a következő eljárással futtathatja.
 1. Nyisson meg egy parancssort.
 2. Váltson át a vizualizáció mappájára. Ez az a mappa, amelyben a `pbiviz.json` fájl található.
 3. Futtassa a következő parancsot.
-   
+
     ```
     pbiviz start
     ```
-   
+
     ![](media/service-custom-visuals-getting-started-with-developer-tools/powerbi-start-visual.png)
 
 Ha nem a jó helyen van, akkor a következőhöz hasonló hibaüzenet jelenik meg.
@@ -249,7 +249,7 @@ A vizualizációt a következő eljárással csomagolhatja be.
 1. Nyisson meg egy parancssort.
 2. Váltson át a vizualizáció mappájára. Ez az a mappa, amelyben a `pbiviz.json` fájl található.
 3. Futtassa a következő parancsot.
-   
+
     ```
     pbiviz package
     ```
@@ -294,6 +294,7 @@ Ez a parancs az 1.2.0-s API-verzióra frissítené a vizualizációt. Az `1.2.0`
 A vizualizáció projektje az a mappa, amely létrejön a `pbiviz new` parancs futtatásakor. 
 
 ### <a name="file-structure"></a>Fájlstruktúra
+
 | Elem | Leírás |
 | --- | --- |
 | assets/ |A vizuális elemek (ikonok, képernyőképek stb.) tárolására használatos. |

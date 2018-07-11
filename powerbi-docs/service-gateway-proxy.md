@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/21/2017
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: ef554d7190709565610336169b4883d71970f822
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 621a5f92ebd9c7314b719b6643f5bfef958916c3
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34799556"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37599335"
 ---
 # <a name="configuring-proxy-settings-for-the-on-premises-data-gateway"></a>Helyszíni adatátjáró proxybeállításainak konfigurálása
 Munkakörnyezete megkövetelheti, hogy proxyn keresztül érje el az Internetet. Ez megakadályozhatja, hogy a helyszíni adatátjáró a szolgáltatáshoz kapcsolódjon.
@@ -77,23 +77,23 @@ Ha a proxybeállításokat a fent ismertetett módon az alapértelmezett hiteles
 
 ### <a name="change-the-on-premises-data-gateway-service-account"></a>Helyszíni adatátjáró szolgáltatásfiókjának módosítása
 1. Cserélje ki a Windows-szolgáltatásfiókot a **helyszíni adatátjáró szolgáltatáséra**.
-   
+
     Ennek a szolgáltatásnak az alapértelmezett fiókja az *NT SERVICE\PBIEgwService*. Ezt érdemes felváltani egy olyan tartományi felhasználófiókkal, amely az Ön Active Directory-tartományában található. A kötelező jelszómódosítás elkerülése érdekében esetleg érdemes lehet felügyelt szolgáltatásfiókot használni.
-   
+
     A fiók cseréjét a Windows-szolgáltatás tulajdonságai között, a **Bejelentkezés** oldalon hajthatja végre.
 2. Indítsa újra a **helyszíni adatátjáró-szolgáltatást**.
-   
+
     Rendszergazdai parancssorból adja ki a következő parancsokat.
-   
+
         net stop PBIEgwService
-   
+
         net start PBIEgwService
 3. Indítsa el a **helyszíni adatátjáró konfiguráló programját**. Kattintson a Start gombra, és keressen rá a *helyszíni adatátjáró* kifejezésre.
 4. Jelentkezzen be a Power BI szolgáltatásba.
 5. Állítsa helyre az átjárót a helyreállítási kulcs használatával.
-   
+
     Ezzel teszi lehetővé, hogy az új szolgáltatásfiók visszafejtse az adatforrások eléréséhez szükséges tárolt hitelesítő adatokat.
-    
+
 > [!NOTE]
 > Ha a szolgáltatásfiókot közvetlenül a Szolgáltatások vezérlőpulton módosítja, akkor az nem frissíti automatikusan a hozzáférés-vezérlési listákat. Gondoskodnia kell róla, hogy az új szolgáltatás fiók rendelkezzen hozzáféréssel a telepítési fájlokhoz és mappához. Az átjáró telepítési mappáját a C:\Program Files\On-premises data gateway elérési úton találja. 
 > 

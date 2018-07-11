@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 7d89ea7453a74470a73786bb8001c35db9252158
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 8d578738e75c575859d2c18066f029f10b591b49
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34290913"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37136893"
 ---
 # <a name="connect-to-snowflake-in-power-bi-desktop"></a>Kapcsolódás a Snowflake-hez a Power BI Desktopban
 A Power BI Desktopban csatlakozhat egy **Snowflake** Computing-adattárházhoz, és úgy használhatja az alapul szolgáló adatokat, mint a Power BI Desktop bármely más adatforrását. 
@@ -52,7 +52,7 @@ A kiválasztott táblát **betöltheti**, amellyel az egész tábla bekerül a *
 ## <a name="next-steps"></a>Következő lépések
 A Power BI Desktop használatával számos adatforráshoz csatlakozhat. Az adatforrásokkal kapcsolatos információkért lásd az alábbi forrásanyagokat:
 
-* [Első lépések a Power BI Desktopban](desktop-getting-started.md)
+* [Mi az a Power BI Desktop?](desktop-what-is-desktop.md)
 * [Adatforrások a Power BI Desktopban](desktop-data-sources.md)
 * [Adatok formázása és kombinálása a Power BI Desktoppal](desktop-shape-and-combine-data.md)
 * [Kapcsolódás az Excelhez a Power BI Desktopban](desktop-connect-excel.md)   

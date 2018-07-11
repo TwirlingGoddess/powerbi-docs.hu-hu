@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 03/22/2018
+ms.date: 06/22/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 9c67aa0982733847cdca7d6079fa8887e6c1d1d2
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 7da86135a391f8a6206a913a1e13df423ad96fbd
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34247047"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "36944974"
 ---
 # <a name="tips-for-designing-a-great-power-bi-dashboard"></a>Tippek a tökéletes Power BI-irányítópult megtervezéséhez
 Most, hogy létrehozta az irányítópultot, és hozzáadott néhány csempét is, gondolja át, hogyan tehetné irányítópultját egyszerre ízlésessé és célratörővé. Ennek a legjobb módja, ha a legfontosabb információ a legfeltűnőbb, amelynek megjelenése letisztult és rendezett.
@@ -59,7 +59,7 @@ A legtöbb ember fentről lefelé kezd olvasni, így célszerű a képernyő tet
 ## <a name="use-the-right-visualization-for-the-data-and-format-it-for-easy-reading"></a>Használja az adatoknak leginkább megfelelő vizualizációt, a formázással pedig igyekezzen elősegíteni a könnyű olvasást
 Pusztán a változatosság kedvéért ne változtasson a vizualizáción.  A vizualizáció célja egy adott kép könnyen „olvasható” és értelmezhető ábrázolása.  Bizonyos adatok és vizualizációk esetében egy egyszerű grafikus vizualizáció is elegendő. Más esetekben azonban összetettebb vizualizációkra lehet szükség, ezért a csempék és címkék használatával, illetve további testreszabással igyekezzen segíteni az olvasót.  
 
-* [Megfelelő adatvizualizációt válasszon](http://blogs.msdn.com/b/microsoft_business_intelligence1/archive/2012/10/08/best-practices-in-data-visualization.aspx). Legyen óvatos a valóságot eltorzító, azaz 3D diagramok használatával. Ne feledje, hogy az emberi agy számára nehézséget jelent a körkörös alakok értelmezése. Bár a tortadiagramok, fánkdiagramok, mérőműszerek és egyéb kör alakú diagramok tetszetősek, az adatvizualizáció szempontjából nem ez az ajánlott eljárás.
+* [Megfelelő adatvizualizációt válasszon](https://www.youtube.com/watch?v=-tdkUYrzrio). Legyen óvatos a valóságot eltorzító, azaz 3D diagramok használatával. Ne feledje, hogy az emberi agy számára nehézséget jelent a körkörös alakok értelmezése. Bár a tortadiagramok, fánkdiagramok, mérőműszerek és egyéb kör alakú diagramok tetszetősek, az adatvizualizáció szempontjából nem ez az ajánlott eljárás.
 * A diagramokon belül használja következetesen a tengelyeken található diagramméreteket, a diagramméret-elrendezést és a diagramértékekhez használt színeket.
 * Ügyeljen arra, hogy ízlésesen kódolja a mennyiségi adatokat. A számok megjelenítésénél három vagy négy számjegynél ne használjon többet. A tizedesvesszőtől egy vagy két hellyel balra található számjegyeket jelenítse meg, és léptékezze a számokat ezres vagy milliós nagyságrendre, tehát 3,4 millió 3 400 000 helyett.
 * A pontosság és az időpont szintjét soha ne keverje. Győződjön meg róla, hogy az időkeretek jól értelmezhetők.  Ne helyezzen egy, a múlt hónapot és az év egy más hónapját szemléltető szűrt diagramot egymás mellé.

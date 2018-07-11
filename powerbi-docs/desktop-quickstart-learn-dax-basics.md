@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 49f6e073d40ef00413ba38dd709780758cf1e448
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 1c9f838261658a77fa8a4d019e610de72649bbbb
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34291028"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37600774"
 ---
 # <a name="dax-basics-in-power-bi-desktop"></a>A DAX alapszintű használata a Power BI Desktopban
 Ez a cikk a Power BI Desktoppal még csak most ismerkedő felhasználóknak szól. A célja annak a rövid bemutatása, hogyan lehet a Data Analysis Expressions (DAX) nyelv segítségével néhány alapszintű számítási és adatelemzési problémát megoldani. Ismerteti az alapvető fogalmakat, továbbá tartalmaz néhány elvégezhető feladatot és néhány tesztkérdést az elsajátított ismeretek felmérésére, így segít a DAX nyelvvel kapcsolatos legfontosabb alapvető tudnivalók elsajátításában.
@@ -83,33 +83,33 @@ Hozzunk létre egy egyszerű képletet. Ez a feladat segít jobban megérteni a 
 ### <a name="task-create-a-measure-formula"></a>Feladat: Mértékképlet létrehozása
 A feladat végrehajtásához nyissa meg a Contoso értékesítési minta Power BI Desktop-fájlt.
     
-1.  A Jelentés nézet mezőlistájában kattintson jobb gombbal a **Sales** táblára, majd kattintson az **Új mérték** gombra.
+1. A Jelentés nézet mezőlistájában kattintson jobb gombbal a **Sales** táblára, majd kattintson az **Új mérték** gombra.
     
-2.  A szerkesztőlécben írja a **Mérték** helyőrző helyére az új mérték nevét: **Previous Quarter Sales** (Előző negyedévi értékesítések).
+2. A szerkesztőlécben írja a **Mérték** helyőrző helyére az új mérték nevét: **Previous Quarter Sales** (Előző negyedévi értékesítések).
     
-3.  Az egyenlőségjel után írja be a **SUM** függvényt, majd egy nyitó zárójelet.
+3. Az egyenlőségjel után írja be a **SUM** függvényt, majd egy nyitó zárójelet.
     
-    Ahelyett, hogy közvetlenül beírnánk egy oszlopnevet az összesítéshez, előbb megadunk egy másik függvényt az összesíteni kívánt adatok *szűrésére*.
+   Ahelyett, hogy közvetlenül beírnánk egy oszlopnevet az összesítéshez, előbb megadunk egy másik függvényt az összesíteni kívánt adatok *szűrésére*.
     
-4.  A zárójelek közé írja be a **CALCULATE** kifejezést, amelyet egy nyitó zárójel követ.
+4. A zárójelek közé írja be a **CALCULATE** kifejezést, amelyet egy nyitó zárójel követ.
     
-    A CALCULATE függvénnyel a függvénynek átadott argumentum alapján szűrheti az összegezni kívánt összegeket. Ezt nevezzük a függvények beágyazásának. A CALCULATE függvény legalább két argumentumot vesz fel. Az első a kiértékelendő kifejezés, a második pedig egy szűrő.
+   A CALCULATE függvénnyel a függvénynek átadott argumentum alapján szűrheti az összegezni kívánt összegeket. Ezt nevezzük a függvények beágyazásának. A CALCULATE függvény legalább két argumentumot vesz fel. Az első a kiértékelendő kifejezés, a második pedig egy szűrő.
    
-5.  A **CALCULATE** függvény zárójelei **()** közé írja be a **Sales[SalesAmount]** argumentumot. Ez a CALCULATE függvény első kifejezésargumentuma.
+5. A **CALCULATE** függvény zárójelei **()** közé írja be a **Sales[SalesAmount]** argumentumot. Ez a CALCULATE függvény első kifejezésargumentuma.
     
-6.  Írjon be egy vesszőt (**,**) az első szűrő megadásához, majd írja be a **PREVIOUSQUARTER** kifejezést és egy újabb nyitó zárójelet.
+6. Írjon be egy vesszőt (**,**) az első szűrő megadásához, majd írja be a **PREVIOUSQUARTER** kifejezést és egy újabb nyitó zárójelet.
     
-    A PREVIOUSQUARTER időintelligencia-függvény segítségével szűrhetjük a SUM eredményeit az előző negyedévre.
+   A PREVIOUSQUARTER időintelligencia-függvény segítségével szűrhetjük a SUM eredményeit az előző negyedévre.
     
-7.  A PREVIOUSQUARTER függvény zárójelei **()** közé írja be a **Calendar[DateKey]** argumentumot.
+7. A PREVIOUSQUARTER függvény zárójelei **()** közé írja be a **Calendar[DateKey]** argumentumot.
     
-    A PREVIOUSQUARTER függvénynek egy argumentuma van, egy egybefüggő dátumtartományt tartalmazó oszlop.
+   A PREVIOUSQUARTER függvénynek egy argumentuma van, egy egybefüggő dátumtartományt tartalmazó oszlop.
     
-8.  A PREVIOUSQUARTER függvénynek adott mindkét argumentumot és a CALCULATE függvényt is mindenképpen két zárójellel **))** zárja le.
+8. A PREVIOUSQUARTER függvénynek adott mindkét argumentumot és a CALCULATE függvényt is mindenképpen két zárójellel **))** zárja le.
     
    A képletnek most így kell kinéznie:
     
-    **Previous Quarter Sales = CALCULATE(SUM(Sales[SalesAmount]), PREVIOUSQUARTER(Calendar[DateKey]))**
+   **Previous Quarter Sales = CALCULATE(SUM(Sales[SalesAmount]), PREVIOUSQUARTER(Calendar[DateKey]))**
     
 9. A képlet érvényesítéséhez és a modellhez való hozzáadásához kattintson a pipa jelre ![](media/desktop-quickstart-learn-dax-basics/qsdax_syntax_taskcheckmark.png) a szerkesztőlécen vagy nyomja le az Enter billentyűt.
 
@@ -149,7 +149,7 @@ A DAX a következő függvénykategóriákat tartalmazza: [Dátum és idő](http
 ### <a name="functions-quickquiz"></a>Függvények-gyorsteszt
 1. Mire hivatkoznak minden esetben a függvények?
 2. Tartalmazhat egy képlet egynél több függvényt is?
-3. Melyik kategória valamelyik függvényét alkalmazná két szöveges karakterlánc egybefűzésére?
+3. Melyik kategória valamelyik függvényét alkalmazná két szöveges sztring egybefűzésére?
 
 A válaszokat a cikk végén találja.
 

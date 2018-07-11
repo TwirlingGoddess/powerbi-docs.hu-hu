@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 641a4f457782711902ee7e2414cb9afffb391afc
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 32b21e23a6cc4a5e6d9ae4915ddc56f9f9957d14
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34286336"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37599645"
 ---
 # <a name="create-power-bi-visuals-using-r"></a>Power BI-vizualizációk létrehozása az R programozási nyelvvel
 A **Power BI Desktopban** az **R** használatával vizualizálhatja az adatokat.
@@ -81,9 +81,9 @@ Miután megadta az R telepítési helyét, készen áll az R-vizualizációk lé
    * Ha a **Futtatás** lehetőséget választják az **R-parancsfájlszerkesztő** címsorán
    * Ha az adatok frissítés, szűrés vagy kiemelés miatt változnak
 
-    A következő képen egy példa látható a korrelációrajzolási kódra, amely a különböző típusú gépkocsik tulajdonságai közötti korrelációkat ábrázolja.
+     A következő képen egy példa látható a korrelációrajzolási kódra, amely a különböző típusú gépkocsik tulajdonságai közötti korrelációkat ábrázolja.
 
-    ![](media/desktop-r-visuals/r-visuals-6.png)
+     ![](media/desktop-r-visuals/r-visuals-6.png)
 
 5. A vizualizáció nagyobb méretű megtekintése érdekében az **R-parancsfájlszerkesztő** kis méretűre állítható. Természetesen a **Power BI Desktop** egyéb vizualizációihoz hasonlóan a korrelációs ábrázoláson keresztszűrést is alkalmazhat úgy, ha csak a sportkocsikat választja ki a gyűrűdiagramon (a fenti példaképen a jobb oldali kerek vizualizáció).
 

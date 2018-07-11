@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/05/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 52ef1f6526b83a54ba26fdffaf8150049c55880d
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 319c636c660aff3ab651475e2d7b553fef49b8cd
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34813319"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37137330"
 ---
 # <a name="get-power-bi-desktop"></a>A Power BI Desktop beszerzése
 A **Power BI Desktop** segítségével az adatok megjelenítésére szolgáló speciális lekérdezések, modellek és jelentések állíthatók össze. A **Power BI Desktop** használatával adatmodelleket állíthat össze, jelentéseket hozhat létre és megoszthatja a munkáját a Power BI szolgáltatásba való közzététellel.  A **Power BI Desktop** ingyenesen letölthető.
@@ -110,7 +110,7 @@ A Power BI Desktop aktuális verziójára történő frissítés általában meg
 ## <a name="next-steps"></a>Következő lépések
 A **Power BI Desktop** telepítése után a következő tartalmak segíthetnek a használatának gyors megkezdésében:
 
-* [Első lépések a Power BI Desktopban](desktop-getting-started.md)
+* [Mi az a Power BI Desktop?](desktop-what-is-desktop.md)
 * [Lekérdezések áttekintése a Power BI Desktopban](desktop-query-overview.md)
 * [Adatforrások a Power BI Desktopban](desktop-data-sources.md)
 * [Csatlakozás adatokhoz a Power BI Desktopban](desktop-connect-to-data.md)

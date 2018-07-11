@@ -1,4 +1,5 @@
 ### <a name="on-premises-data-gateway"></a>Helyszíni adatátjáró
+
 | **Adatforrás** |
 | --- |
 | Analysis Services – táblázatos |

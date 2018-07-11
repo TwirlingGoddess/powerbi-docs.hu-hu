@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 01/05/2017
 ms.author: maghan
-ms.openlocfilehash: 96b29c9dc6c384b663ef375d4968dedb011bd05d
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 1cc19d1ceefb95e0cb56e2a5dcbcc89609f654d5
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34813112"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37598549"
 ---
 # <a name="push-data-into-a-power-bi-dataset"></a>Adatok elküldése Power BI-adatkészletbe
 A Power BI API-val adatokat küldhet egy Power BI-adatkészletbe. Tegyük fel például, hogy ki szeretne bővíteni egy már meglévő üzleti munkafolyamatot kulcsfontosságú adatoknak az adatkészletbe történő elküldésével. Ebben az esetben egy Termék táblát tartalmazó Értékesítési marketing adatkészletet kíván elküldeni egy adatkészletbe.
@@ -98,6 +98,7 @@ Az Értékesítési marketing-adatkészlet példájában tehát az alábbihoz ha
 Power BI-táblaséma esetén az alábbi adattípusok használhatók.
 
 ## <a name="power-bi-table-data-types"></a>Power BI-tábla adattípusai
+
 | **Adattípus** | **Korlátozások** |
 | --- | --- |
 | Int64 |Az Int64.MaxValue és Int64.MinValue érték nem engedélyezett. |

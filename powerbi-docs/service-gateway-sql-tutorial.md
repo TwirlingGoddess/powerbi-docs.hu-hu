@@ -10,12 +10,12 @@ ms.topic: tutorial
 ms.date: 05/03/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 2dc47d1fdf539c20cc0aabadd65b0401dc172ae8
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 087813feb7db96a320c48ed6b2433a7183446c71
+ms.sourcegitcommit: 627918a704da793a45fed00cc57feced4a760395
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34298964"
+ms.lasthandoff: 07/10/2018
+ms.locfileid: "37926513"
 ---
 # <a name="tutorial-connect-to-on-premises-data-in-sql-server"></a>Oktatóanyag: Csatlakozás helyszíni adatokhoz az SQL Serverrel
 
@@ -128,7 +128,7 @@ Most, hogy már vannak mintaadatok, amelyekkel dolgozhat, csatlakozzon az SQL Se
 
 ## <a name="add-sql-server-as-a-gateway-data-source"></a>SQL Server hozzáadása átjáró adatforrásaként
 
-A Power BI Desktopban közvetlenül kapcsolódhat az SQL Serverhez, a Power BI szolgáltatásban viszont átjáróra van szükség. Most hozzáadhatja SQL Server-példányát adatforrásként az átjáróhoz, amelyet egy korábbi cikk alapján hozott létre (szerepel az [Előfeltételek](#prereqisites) között). 
+A Power BI Desktopban közvetlenül kapcsolódhat az SQL Serverhez, a Power BI szolgáltatásban viszont átjáróra van szükség. Most hozzáadhatja SQL Server-példányát adatforrásként az átjáróhoz, amelyet egy korábbi cikk alapján hozott létre (szerepel az [Előfeltételek](#prerequisites) között). 
 
 1. Válassza a Power BI szolgáltatás jobb felső sarkában lévő fogaskerék ikont ![Beállítások fogaskerék ikonja](media/service-gateway-sql-tutorial/icon-gear.png) > **Átjárók kezelése**.
 
@@ -142,15 +142,17 @@ A Power BI Desktopban közvetlenül kapcsolódhat az SQL Serverhez, a Power BI s
 
     ![Adatforrás-beállítások megadása](media/service-gateway-sql-tutorial/data-source-settings.png)
 
-    | Beállítás | Érték |
-    | ---    | ---   |
-    | **Adatforrás neve**       | test-sql-source      |
-    | **Adatforrás típusa**       | SQL Server      |
-    | **Kiszolgáló**       |  Saját SQL Server-példányának neve (egyeznie kell a Power BI Desktopban megadott névvel)    |
-    | **Adatbázis**       | TestGatewayDocs      |
-    | **Hitelesítési módszer**       | Windows      |
-    | **Felhasználónév**        |  A fiók, például michael@contoso.com, amellyel az SQL Serverhez csatlakozott     |
-    | **Jelszó**       |  Az SQL Serverhez való csatlakozáshoz használt jelszó    |
+
+   |          Beállítás           |                                               Érték                                                |
+   |---------------------------|----------------------------------------------------------------------------------------------------|
+   |   **Adatforrás neve**    |                                          test-sql-source                                           |
+   |   **Adatforrás típusa**    |                                             SQL Server                                             |
+   |        **Kiszolgáló**         | Saját SQL Server-példányának neve (egyeznie kell a Power BI Desktopban megadott névvel) |
+   |       **Adatbázis**        |                                          TestGatewayDocs                                           |
+   | **Hitelesítési módszer** |                                              Windows                                               |
+   |       **Felhasználónév**        |             A fiók, például michael@contoso.com, amellyel az SQL Serverhez csatlakozott             |
+   |       **Jelszó**        |                   Az SQL Serverhez való csatlakozáshoz használt jelszó                    |
+
 
 4. Válassza a **Hozzáadás** elemet. A folyamat sikeres befejezésekor megjelenik a *Sikeres csatlakozás* üzenet.
 

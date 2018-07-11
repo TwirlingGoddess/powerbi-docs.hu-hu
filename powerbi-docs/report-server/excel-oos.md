@@ -9,12 +9,12 @@ ms.component: powerbi-report-server
 ms.topic: conceptual
 ms.date: 04/23/2018
 ms.author: maghan
-ms.openlocfilehash: 705de47a1e89d765f34eadfcd35064ccde7aa66b
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: c57ae7a0213ce324f673e53862ba3dfa38f57409
+ms.sourcegitcommit: 695c65629d6d1faba61db2e1570324f65f235dde
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34481900"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37092667"
 ---
 # <a name="configure-your-report-server-to-host-excel-workbooks-using-office-online-server-oos"></a>A jelentéskészítő kiszolgáló konfigurálása Excel-munkafüzetek üzemeltetéséhez az Office Online Server (OOS) használatával
 A Power BI-jelentések webes portálon való megtekintése mellett a Power BI jelentéskészítő kiszolgáló már Excel-munkafüzeteket üzemeltethet az [Office Online Serverrel](https://docs.microsoft.com/officeonlineserver/office-online-server-overview) (OOS). A jelentéskészítő kiszolgálón egy helyen teheti közzé és tekintheti meg az önkiszolgáló Microsoft BI-tartalmakat.
@@ -78,7 +78,7 @@ New-OfficeWebAppsFarm -InternalUrl "https://server.contoso.com" -ExternalUrl "ht
 
 **Paraméterek**
 
-* Az **–InternalURL** az Office Online Servert futtató kiszolgáló teljes tartományneve (FQDN), például http://servername.contoso.com.
+* Az **–InternalURL** az Office Online Servert futtató kiszolgáló teljes tartományneve (FQDN), például `http://servername.contoso.com`.
 * Az **–ExternalURL** az interneten elérhető FQDN.
 * A **–CertificateName** a tanúsítvány rövid neve.
 
@@ -91,7 +91,7 @@ New-OfficeWebAppsFarm -InternalURL "http://servername" -AllowHttp
 
 **Paraméterek**
 
-* Az **–InternalURL** az Office Online Servert futtató kiszolgáló neve, például http://servername.
+* Az **–InternalURL** az Office Online Servert futtató kiszolgáló neve, például `http://servername`.
 * Az **–AllowHttp** HTTP használatához konfigurálja a farmot.
 
 ### <a name="verify-that-the-office-online-server-farm-was-created-successfully"></a>Az Office Online Server-farm sikeres létrehozásának ellenőrzése

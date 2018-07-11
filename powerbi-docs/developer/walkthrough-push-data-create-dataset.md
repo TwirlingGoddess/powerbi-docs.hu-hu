@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: maghan
-ms.openlocfilehash: c6cbdf9effa3264eadf19de97be864cc3f152e8b
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 9a6d8919f8ccb032fa7b4bd3312217501c1acb77
+ms.sourcegitcommit: 695c65629d6d1faba61db2e1570324f65f235dde
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34812422"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37092529"
 ---
 # <a name="step-3-create-a-dataset-in-power-bi"></a>3. lépés: Adatkészlet létrehozása a Power BI-ban
 Ez a cikk az [adatok az adatkészletekbe való küldését](walkthrough-push-data.md) ismertető részletes útmutató része.
@@ -228,8 +228,8 @@ Az alábbiakban megtalálja a [teljes kódlistát](#code).
 ## <a name="next-steps"></a>Következő lépések
 [Adatkészlet lekérése, és sorok hozzáadása egy Power BI-táblához](walkthrough-push-data-get-datasets.md)  
 [Hitelesítési hozzáférési token beszerzése](walkthrough-push-data-get-token.md)  
-[PostDataset](https://docs.microsoft.com/rest/api/power-bi/datasets_postdataset)  
-[PostDatasetInGroup](https://docs.microsoft.com/rest/api/power-bi/datasets_postdatasetingroup)  
+[PostDataset](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postdataset)  
+[PostDatasetInGroup](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postdatasetingroup)  
 [Adatok elküldése egy Power BI-irányítópultba](walkthrough-push-data.md)  
 [A Power BI REST API áttekintése](overview-of-power-bi-rest-api.md)  
 [A Power BI REST API-jainak leírása](https://docs.microsoft.com/rest/api/power-bi/)  

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/18/2018
 ms.author: v-mamcge
 LocalizationGroup: Reports
-ms.openlocfilehash: 78dcd0ac0735bfbb3c22678d6bda1397120360cd
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 58ae70553264b8055603da66a4cfd71b5c74a3e9
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34310544"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37598877"
 ---
 # <a name="power-bi-performance-best-practices"></a>Ajánlott eljárások a Power BI teljesítményének javításához 
 A cikk azt mutatja be, hogyan hozhat létre gyors és megbízható jelentéseket a Power BI-ban.  
@@ -115,7 +115,7 @@ A teendők a következők:
    [msmdsrv.exe] 
 
    Keresse meg az msmdsrv.exe által használt portot, és jegyezze fel későbbi használat céljából. A fenti példában a portszám 55786. 
-3.  **Csatlakoztassa az SQL Server Profiler eszközt a Power BI Desktop alkalmazáshoz** 
+3. **Csatlakoztassa az SQL Server Profiler eszközt a Power BI Desktop alkalmazáshoz** 
 
    - Indítsa el az SQL Server Profilert a **Start** menüből. 
    - Válassza a **File** (Fájl)  > **New Trace** (Új nyomkövetés) lehetőséget. 

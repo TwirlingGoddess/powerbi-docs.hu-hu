@@ -10,21 +10,21 @@ ms.topic: conceptual
 ms.date: 03/24/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 377ea4acc1a6fb41101571ac3ed0be2f3e50889b
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 872045a52f2f13829d26de8dd288ac723dcd2788
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34246157"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37599528"
 ---
 # <a name="create-a-new-report-in-power-bi-service-by-importing-a-dataset"></a>Új jelentés létrehozása a Power BI szolgáltatásban adatkészlet importálásával
 Már elolvasta a [Jelentések a Power BI-ban](service-reports.md) című cikket, és szeretne létrehozni egy saját jelentést. A jelentések több különböző módon is létrehozhatók. Ebben a cikkben kezdésként egy Excel-adatkészletből egy alapszintű jelentést fogunk létrehozni a Power BI szolgáltatásban. Ha már megismerte a jelentés létrehozásának alapjait, akkor a lap alján található **Következő lépések** hivatkozással továbbhaladhat a jelentésekkel kapcsolatos összetettebb témakörökre is.  
 
 > **TIPP**: Ha egy meglévő jelentés másolásával szeretne létrehozni egy új jelentést, tekintse meg a [Jelentés másolása](power-bi-report-copy.md) cikket.
 > 
-### <a name="prerequisites"></a>Előfeltételek
-- A Power BI szolgáltatás (arról, hogy hogyan hozhat létre jelentést a Power BI Desktopban lásd: [Desktop jelentés nézet](desktop-report-view.md) )  
-- A Kiskereskedelmi elemzési minta adatkészlete
+> ### <a name="prerequisites"></a>Előfeltételek
+> - A Power BI szolgáltatás (arról, hogy hogyan hozhat létre jelentést a Power BI Desktopban lásd: [Desktop jelentés nézet](desktop-report-view.md) )  
+> - A Kiskereskedelmi elemzési minta adatkészlete
 
 ## <a name="import-the-dataset"></a>Adatkészlet importálása
 Ha ezzel a módszerrel hoz létre egy jelentést, akkor annak kiindulópontja egy adatkészlet és egy üres jelentésvászon lesz. Ahhoz, hogy követhesse a lépéseket, [töltse le a Kiskereskedelmi elemzési minta Excel-adatkészletét](http://go.microsoft.com/fwlink/?LinkId=529778), és mentse a OneDrive Vállalati verzióra (javasolt) vagy lokálisan a számítógépére.

@@ -9,12 +9,12 @@ ms.component: powerbi-report-server
 ms.topic: tutorial
 ms.date: 05/18/2018
 ms.author: maggies
-ms.openlocfilehash: 38985014407a4d64998e25f6944f57aedcc67309
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 32bf2d3cedbeeb2430620855a2ac95bf349af9a2
+ms.sourcegitcommit: 695c65629d6d1faba61db2e1570324f65f235dde
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34445003"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37092046"
 ---
 # <a name="tutorial-explore-the-power-bi-report-server-web-portal-in-a-vm"></a>Oktatóanyag: A Power BI jelentéskészítő kiszolgáló webportáljának áttekintése virtuális gépen
 Ebben az oktatatóanyagban Azure-beli virtuális gépet hozhat létre az előre telepített Power BI jelentéskészítő kiszolgálóval, így kipróbálhatja a Power BI- és a többoldalas jelentésminták és főbb teljesítménymutatók megtekintését, szerkesztését és kezelését.
@@ -100,7 +100,7 @@ Amikor a virtuális gép megnyílik, a következő elemek láthatók az asztalá
 |![4](media/tutorial-explore-report-server-web-portal/number-4.png) | Elindítja a Power BI jelentéskészítő kiszolgálóhoz optimalizált Power BI Desktopot (2018. március)  |
 |![5](media/tutorial-explore-report-server-web-portal/number-5.png) | A Power BI jelentéskészítő kiszolgáló webportált nyitja meg a böngészőben   |
 
-Kattintson duplán a **Jelentéskészítő kiszolgáló webportál** ikonra. A böngészőben megnyílik a http://localhost/reports/browse oldal. A webportálon több, típusonként csoportosított fájlt talál. 
+Kattintson duplán a **Jelentéskészítő kiszolgáló webportál** ikonra. A böngészőben megnyílik a `http://localhost/reports/browse` oldal. A webportálon több, típusonként csoportosított fájlt talál. 
 
 ![Power BI jelentéskészítő kiszolgáló webes portálja](media/tutorial-explore-report-server-web-portal/power-bi-report-server-browser-in-vm.png)
 

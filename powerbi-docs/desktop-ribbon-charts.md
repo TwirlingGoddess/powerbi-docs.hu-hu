@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 3575a94ede595b4d83fef0cddcbb279ea7a533c0
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 0e0f9e857816b44782831640a74801b515919bae
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34285531"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37136755"
 ---
 # <a name="use-ribbon-charts-in-power-bi"></a>Szalagdiagramok használata a Power BI-ban
 Szalagdiagramok használatával megjelenítheti az adatokat a **Power BI**-ban, és gyorsan meghatározhatja a legmagasabb rangú (legnagyobb értéket képviselő) adatkategóriát. A szalagdiagramokkal hatékonyan ábrázolható a rangok időbeli változása: minden időszakban a legmagasabb rangú (értékű) kategória látható felül. A szalagdiagramok a 2017. szeptemberi kiadástól érhetők el a **Power BI Desktopban**, a **Power BI szolgáltatásban** pedig az ezt követő frissítésekben.
@@ -44,7 +44,7 @@ A szalagdiagramok formázási beállításaival a következőket módosíthatja:
 ## <a name="next-steps"></a>Következő lépések
 Ha többet szeretne megtudni a **Power BI Desktopról**, illetve a szoftver használatának kezdeti lépéseiről, tekintse meg a következő cikkeket.
 
-* [Első lépések a Power BI Desktopban](desktop-getting-started.md)
+* [Mi az a Power BI Desktop?](desktop-what-is-desktop.md)
 * [Lekérdezések áttekintése a Power BI Desktopban](desktop-query-overview.md)
 * [Adatforrások a Power BI Desktopban](desktop-data-sources.md)
 * [Csatlakozás adatokhoz a Power BI Desktopban](desktop-connect-to-data.md)

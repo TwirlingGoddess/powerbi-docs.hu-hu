@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/28/2017
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 4c8601e15a415e680028b2259a4c2b8e56dbd3b4
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: dce044a3f143ba85732c8345639ea57f44f05d5f
+ms.sourcegitcommit: 627918a704da793a45fed00cc57feced4a760395
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34297239"
+ms.lasthandoff: 07/10/2018
+ms.locfileid: "37926594"
 ---
 # <a name="administering-power-bi---frequently-asked-questions-faq"></a>A Power BI felügyelete – gyakori kérdések (GYIK)
 
@@ -41,14 +41,13 @@ A cikk a Power BI felügyeletével kapcsolatos gyakori kérdéseket ismerteti. A
 * [Hogyan távolítható el a Power BI a már regisztrált felhasználóktól?](#how-do-i-remove-power-bi-for-users-that-already-signed-up)
 * [Honnan szerzek arról tudomást, ha új felhasználók csatlakoztak a bérlőhöz?](#how-do-i-know-when-new-users-have-joined-my-tenant)
 * [Van még bármi egyéb, amire fel kell készülnöm?](#are-there-any-additional-things-i-should-be-prepared-for)
-* [A használat ingyenes? Fizetnem kell ezekért a licencekért?](#is-this-free-will-i-be-charged-for-these-licenses)
 * [Hol található a Power BI-bérlőm?](#where-is-my-power-bi-tenant-located)
 * [A Power BI SLA (szolgáltatásiszint-szerződés)](#what-is-the-power-bi-sla)
 
 **Biztonság a Power BI-ban**
 
 * [Eleget tesz a Power BI az országos, regionális, illetve iparágra jellemző megfelelőségi követelményeknek?](#does-power-bi-meet-national-regional-and-industry-specific-compliance-requirements)
-* [Hogyan működik a biztonság a Power BI-ban?](#how-does-security-work-in-power-bi?)
+* [Hogyan működik a biztonság a Power BI-ban?](#how-does-security-work-in-power-bi)
 
 ## <a name="sign-up-for-power-bi"></a>Regisztráció a Power BI-ra
 ### <a name="how-do-users-sign-up-for-power-bi"></a>Hogyan regisztrálnak a felhasználók a Power BI-ra?
@@ -232,9 +231,6 @@ Az új jelszavak létrehozásával kapcsolatos kérések növekedését tapaszta
 
 A szokásos eljárással távolíthat el felhasználókat a bérlőből az Office 365 felügyeleti központban. Ha azonban egy felhasználónak még mindig a vállalattól származó e-mail-címe van, újra tud csatlakozni, amíg le nem tiltja az összes felhasználó csatlakozását.
 
-### <a name="is-this-free-will-i-be-charged-for-these-licenses"></a>Ez ingyenes? Fizetnem kell ezekért a licencekért?
-A **Power BI (ingyenes)** licencek a Power BI ingyenes verziójához tartoznak. Ha érdeklik a további képességek, tekintse meg a [Power BI Pro verziót](service-premium.md).
-
 ### <a name="where-is-my-power-bi-tenant-located"></a>Hol található a Power BI-bérlőm?
 A Power BI-bérlő (másnéven az adatrégió) helyének megismeréséhez tekintse meg a [Hol található a Power BI-bérlőm?](service-admin-where-is-my-tenant-located.md) témakört.
 
@@ -252,7 +248,6 @@ A Power BI az Office 365 alapjára épül, amely viszont Azure-szolgáltatásoko
 [Power BI felügyeleti portál](service-admin-portal.md)  
 [A Power BI rendszergazdai szerep ismertetése](service-admin-role.md)  
 [Önkiszolgáló regisztráció a Power BI-ra](service-self-service-signup-for-power-bi.md)  
-[A Power BI (ingyenes) a vállalatában](service-admin-service-free-in-your-organization.md)  
 [A Power BI Pro megvásárlása](service-admin-purchasing-power-bi-pro.md)  
 [Power BI Premium – pontosan mi is ez?](service-premium.md)  
 [A Power BI Premium megvásárlása](service-admin-premium-purchase.md)  

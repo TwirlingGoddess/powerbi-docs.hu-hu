@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/24/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: aa4bc70fa67af4e3b82b8ed9a4eb16851d98eaeb
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: a4c931b671840ca78f340005c30aeb92454ca2a6
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34297147"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37599181"
 ---
 # <a name="manage-your-data-source---analysis-services"></a>Az adatforrás kezelése – Analysis Services
 Amint telepítette a helyszíni adatátjárót, fel kell vennie az átjáróval használható adatforrásokat. Ez a cikk bemutatja, hogyan lehet használni az átjárókat és az adatforrásokat. Az Analysis Services-adatforrást ütemezett frissítéshez vagy élő kapcsolatokhoz használhatja.
@@ -52,7 +52,7 @@ Egy átjáró eltávolítása az átjáró alatti adatforrásokat is törli.  Az
 
 1. Válassza ki a fogaskerék ikont ![](media/service-gateway-enterprise-manage-ssas/pbi_gearicon.png) a jobb felső sarokban, majd az **Átjárók kezelése** lehetőséget.
 2. Átjáró > **Eltávolítás**
-   
+
    ![](media/service-gateway-enterprise-manage-ssas/datasourcesettings7.png)
 
 ## <a name="add-a-data-source"></a>Adatforrások felvétele
@@ -119,15 +119,13 @@ Az UPN leképezési képernyőjének megnyitásához tegye a következőket.
 2. Bontsa ki az Analysis Services-adatforrást tartalmazó átjárót. Ha eddig nem hozta létre az Analysis Services-adatforrást, most megteheti.
 3. Válassza ki az adatforrást, majd válassza a **Felhasználók** fület.
 4. Válassza a **Felhasználónevek leképezése** lehetőséget.
-   
+
     ![](media/service-gateway-enterprise-manage-ssas/gateway-enterprise-map-user-names_02.png)
 
 Ekkor megjelennek a szabályok hozzáadásának és adott felhasználó tesztelésének lehetőségei.
 
 > [!NOTE]
-> Előfordulhat, hogy véletlenül olyan felhasználót módosít, akit nem szeretett volna. Ha például a **Csere (eredeti érték)** *@contoso.com*, és **A következővel (új név)** *@contoso.local*, minden, a *@contoso.com* nevet tartalmazó bejelentkezési adatokkal rendelkező felhasználó *@contoso.local* névre módosul. Ezenkívül, ha a **Csere (eredeti név)** *dave@contoso.com*, és **A következővel (új név)** *dave@contoso.local*, a v-dave@contoso.com nevet tartalmazó bejelentkezési adatokkal rendelkező felhasználók v-dave*@contoso.local* névre módosulnak.
-> 
-> 
+> Előfordulhat, hogy véletlenül olyan felhasználót módosít, akit nem szeretett volna. Ha például a **Csere (eredeti érték)** <em>@contoso.com</em>, és **A következővel (új név)** <em>@contoso.local</em>, minden, a <em>@contoso.com</em> nevet tartalmazó bejelentkezési adatokkal rendelkező felhasználó <em>@contoso.local</em> névre módosul. Ezenkívül, ha a **Csere (eredeti név)** <em>dave@contoso.com</em>, és **A következővel (új név)** <em>dave@contoso.local</em>, a v-dave@contoso.com nevet tartalmazó bejelentkezési adatokkal rendelkező felhasználók v-dave<em>@contoso.local</em> névre módosulnak.
 
 ### <a name="ad-lookup-mapping"></a>AD keresési leképezés
 Ha helyszíni AD-tulajdonságkeresést szeretne végezni az AAD UPN-ek Active Directory-felhasználókra való leképezéséhez, kövesse a jelen szakaszban ismertetett lépéseket. Először tekintsük át, hogyan működik ez a leképezés.
@@ -147,17 +145,17 @@ A konfigurálható egyéni felhasználóleképezéssel rendelkező helyszíni ad
 2. Keresse meg az AD személy attribútumát (például *E-mail*) a **Power BI szolgáltatásból** bejövő UPN-sztring („firstName.lastName@contoso.com”) alapján.
 3. Ha az AD-keresés meghiúsul, megkísérli a továbbított UPN-t használni az EffectiveUser értékeként az SSAS-hez.
 4. Ha az AD-keresés sikeres, lekéri az AD személy *UserPrincipalName* nevét. 
-5. A *UserPrincipalName* e-mail-címet *EffectiveUser* értékként adja át az SSAS-nek, például a következőképpen: *Alias@corp.on-prem.contoso*
+5. A *UserPrincipalName* e-mail-címet *EffectiveUser* értékként adja át az SSAS-nek, például a következőképpen: <em>Alias@corp.on-prem.contoso</em>
 
 Az átjáró konfigurálása az AD-kereséshez:
 
 1. Töltse le és telepítse a legújabb átjárót.
 2. Az átjáróban módosítania kell a **helyszíni adatátjárói szolgáltatást**, hogy tartományi fiókkal fusson (helyi szolgáltatásfiók helyett – különben az AD-keresés futásidőben nem fog megfelelően működni). A változtatás érvénybe léptetéséhez újra kell indítania az átjárószolgáltatást.  Nyissa meg a gépén az átjáróalkalmazást (keressen rá a „helyszíni adatátjáró” kifejezésre). Ehhez lépjen a **Szolgáltatásbeállítások > Szolgáltatásfiók módosítása** területre. Győződjön meg arról, hogy rendelkezik ezen átjáró helyreállítási kulcsával, mert vissza kell majd állítania ugyanezen a gépen, ha nem szeretne helyette létrehozni új átjárót. 
 3. Lépjen rendszergazdaként az átjáró telepítési mappájához, a *C:\Program Files\Hegyszíni adatátjáró* mappához, hogy írási-olvasási engedélyei legyenek, és szerkessze a következő fájlt:
-   
+
        Microsoft.PowerBI.DataMovement.Pipeline.GatewayCore.dll.config 
 4. Szerkessze a következő két konfigurációértéket az alapján, hogy *Ön* milyen attribútumkonfigurációkat adott meg az Active Directory felhasználóihoz. Az alábbi konfigurációértékek csak példák – az Active Directory konfigurációja alapján kell őket meghatároznia. 
-   
+
    ![](media/service-gateway-enterprise-manage-ssas/gateway-enterprise-map-user-names_03.png)
 5. A konfiguráció módosításának érvénybe léptetéséhez indítsa újra a **helyszíni adatátjáró** szolgáltatást.
 

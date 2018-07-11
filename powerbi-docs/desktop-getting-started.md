@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 606ef1f1c69643852a94a7d83ece93cca8940e7a
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 175852a05c4964e6a476abf50684d9ffc12c4468
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34309923"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37599869"
 ---
 # <a name="getting-started-with-power-bi-desktop"></a>Első lépések a Power BI Desktopban
 Üdvözöljük a **Power BI Desktop Első lépések útmutatójában**. Ebben a rövid bemutatóban megismerkedhet a Power BI Desktop használatával, képességeivel, és megtudhatja, hogyan állíthat össze gyorsan nagy teljesítményű adatmodelleket és lenyűgöző jelentéseket, amelyek megalapozottabb üzleti döntéseket eredményeznek. 
@@ -313,7 +313,7 @@ A **Power BI** szolgáltatás megjeleníti a jelentés első oldalát. Az oldal 
 
 Ha módosítani szeretne egy jelentést a **Power BI** szolgáltatásban, válassza a **Jelentés szerkesztése** lehetőséget a jelentés vásznának tetején.
 
-A jelentés mentéséhez válassza a **Fájl \> Mentés másként** lehetőséget a szolgáltatásban. A **Power BI** szolgáltatásban számos különféle érdekes vizualizációt létrehozhat a jelentésből, és ezeket rögzítheti az *irányítópulton*. A **Power BI** szolgáltatás irányítópultjainak megismerése érdekében tekintse meg **[a tökéletes irányítópult megtervezésével kapcsolatos tippeket](service-dashboards-design-tips.md)**.
+A jelentés mentéséhez válassza a **Fájl \> Mentés másként** lehetőséget a szolgáltatásban. A **Power BI** szolgáltatásban számos különféle érdekes vizualizációt létrehozhat a jelentésből, és ezeket rögzítheti az *irányítópulton*. A **Power BI** szolgáltatás irányítópultjainak megismerése érdekében tekintse meg <strong>[a tökéletes irányítópult megtervezésével kapcsolatos tippeket](service-dashboards-design-tips.md)</strong>.
 
  ![](media/desktop-getting-started/gsg_share5.png)
 

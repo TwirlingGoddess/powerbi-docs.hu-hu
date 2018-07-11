@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 12/06/2017
 ms.author: mblythe
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 58e6dc99198eb4f031dd28b5c80cc8babb03dbfb
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: d5f2fa0abe6f0503ce5f41387f66db928ae0267e
+ms.sourcegitcommit: ba447d7cc94418d7d3cf6fdcb686ec1a859258a8
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34247264"
+ms.lasthandoff: 07/02/2018
+ms.locfileid: "37145410"
 ---
 # <a name="troubleshooting-power-bi-gateway---personal"></a>A Power BI személyes átjáró hibáinak elhárítása
 Ebben a cikkben áttekintjük a Power BI személyes átjáró használata kapcsán gyakorta felmerülő kérdéseket.
@@ -146,7 +146,7 @@ Másik lehetőségként megnyithatja a **Temp mappát** (%temp%), és megtekinth
 ## <a name="next-steps"></a>Következő lépések
 [A Power BI-átjárók proxybeállításainak konfigurálása](service-gateway-proxy.md)  
 [Adatok frissítése](refresh-data.md)  
-[A Power BI személyes átjáró](personal-gateway.md)  
+[A Power BI személyes átjáró](service-gateway-personal-mode.md)  
 [Csempékkel kapcsolatos hibák elhárítása](refresh-troubleshooting-tile-errors.md)  
 [A Helyszíni adatátjáróval kapcsolatos hibák elhárítása](service-gateway-onprem-tshoot.md)  
 További kérdései vannak? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)

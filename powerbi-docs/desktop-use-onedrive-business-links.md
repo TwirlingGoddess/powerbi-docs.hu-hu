@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: ec5b46dcfebf614e70a0b8ebf858af7b34906eae
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 8813294f359c6bd6e1bb01fa3cc2ec3f5eb3d280
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 05/17/2018
-ms.locfileid: "34290706"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37598257"
 ---
 # <a name="use-onedrive-for-business-links-in-power-bi-desktop"></a>OneDrive Vállalati verzióra mutató hivatkozások használata a Power BI Desktopban
 Sokan tárolnak olyan Excel-munkafüzeteket a OneDrive Vállalati verzió meghajtóján, amelyeket kiválóan tudnának a Power BI Desktopban használni. A **Power BI Desktopban** használhat a **OneDrive Vállalati verziójában** tárolt **Excel**-fájlokra mutató online hivatkozásokat jelentések és vizualizációk létrehozásához. Ehhez használhat **OneDrive Vállalati verzió**-csoportfiókot, vagy a saját **OneDrive Vállalati verzió**-fiókját.
@@ -26,7 +26,7 @@ Egy **OneDrive Vállalati verzióra** mutató online hivatkozás beállításáh
 1. Lépjen egy böngésző segítségével a OneDrive Vállalati verzió helyére. Kattintson a jobb gombbal a használni kívánt fájlra, majd válassza a **Megnyitás Excelben** lehetőséget.
    
    > [!NOTE]
-> Előfordulhat, hogy a böngészője felülete nem egyezik teljes mértékben az alábbi ábrával. A **OneDrive vállalati verzió** böngészőfelületén található fájlokhoz több módon is kiválaszthatja a **Megnyitás Excelben** lehetőséget. Bármelyik lehetőség megfelel, amellyel meg tudja nyitni a fájlt Excelben.
+   > Előfordulhat, hogy a böngészője felülete nem egyezik teljes mértékben az alábbi ábrával. A **OneDrive vállalati verzió** böngészőfelületén található fájlokhoz több módon is kiválaszthatja a **Megnyitás Excelben** lehetőséget. Bármelyik lehetőség megfelel, amellyel meg tudja nyitni a fájlt Excelben.
    > 
    > 
    
@@ -44,7 +44,7 @@ A Power BI Desktopban használhatja az imént a vágólapra másolt hivatkozást
 2. Illessze a hivatkozást a **Webes tartalomból** párbeszédpanelre (még **ne** válassza ki az OK gombot).
    
     ![](media/desktop-use-onedrive-business-links/odb-links_05.png)
-3. Keresse meg a hivatkozás végén a *?web=1* karaktersort. A *webes URL-karakterlánc ezen részét el kell távolítania*, **mielőtt** az **OK** gombot kiválasztaná, hogy a **Power BI Desktop** meg tudja találni a fájlt.
+3. Keresse meg a hivatkozás végén a *?web=1* karaktersort. A *webes URL-sztring ezen részét el kell távolítania*, **mielőtt** az **OK** gombot kiválasztaná, hogy a **Power BI Desktop** meg tudja találni a fájlt.
 4. Ha a **Power BI Desktop** hitelesítő adatokat kér, válassza a **Windows** (helyszíni SharePoint-helyeknél) vagy a **Szervezeti fiók**(Office 365- vagy OneDrive Vállalati verzióhoz tartozó helyeknél) lehetőséget.
    
    ![](media/desktop-use-onedrive-business-links/odb-links_06.png)

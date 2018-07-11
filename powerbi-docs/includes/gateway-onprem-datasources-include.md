@@ -1,4 +1,5 @@
 ## <a name="list-of-available-data-source-types"></a>Elérhető adatforrástípusok listája
+
 | **Adatforrás** | **Élő lekérdezés/DirectQuery** | **Felhasználó által konfigurált kézi vagy ütemezett frissítés** |
 | --- | --- | --- | --- |
 | Analysis Services – táblázatos |Igen |Igen |

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: f283a8ed273dcb609e9d5160adbeb714e8935ab9
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 57e1e8ce015db9b5f88f7b685c80092023540a6f
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34251933"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37599135"
 ---
 # <a name="connect-to-zuora-with-power-bi"></a>Csatlakozás a Zuorához a Power BI-ból
 A Power BI-hoz készült Zuora segítségével ábrázolhatja a bevételekkel, a számlázással és az előfizetésekkel kapcsolatos fontos adatait. Az alapértelmezett irányítópulttal és jelentésekkel elemezheti a használati trendeket, követheti a számlázási és fizetési adatokat, illetve figyelheti az ismétlődő bevételeket. Az irányítópultot és a jelentéseket testre is szabhatja az egyéni igényei kielégítéséhez.
@@ -32,7 +32,7 @@ Csatlakozzon a Power BI-hoz készült [Zuora](https://app.powerbi.com/getdata/se
 3. Válassza a **Zuora** \> **Beolvasás** lehetőséget.
 
    ![](media/service-connect-to-zuora/zuora.png)
-4. Adja meg a Zuora URL-címét. Ez általában „https://www.zuora.com”. A [paraméterek megkereséséről](#FindingParams) alább olvashat részletesebben.
+4. Adja meg a Zuora URL-címét. Ez általában „<https://www.zuora.com>”. A [paraméterek megkereséséről](#FindingParams) alább olvashat részletesebben.
 
    ![](media/service-connect-to-zuora/params.png)
 5. **Hitelesítési módszerként** válassza az **Alapszintű** lehetőséget, adja meg a felhasználónevét és a jelszavát (figyeljen a kis- és nagybetűkre), majd kattintson a **Bejelentkezés** elemre.

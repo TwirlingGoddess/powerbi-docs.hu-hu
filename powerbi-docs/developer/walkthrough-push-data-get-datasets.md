@@ -9,17 +9,17 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: maghan
-ms.openlocfilehash: ae8919bbe06c729cc43e230146c4c1a216a80168
-ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
+ms.openlocfilehash: 44fbf1e651c36c95694e397c64050977f3ee730a
+ms.sourcegitcommit: 695c65629d6d1faba61db2e1570324f65f235dde
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/06/2018
-ms.locfileid: "34813237"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37092552"
 ---
 # <a name="step-4-get-a-dataset-to-add-rows-into-a-power-bi-table"></a>4. lépés: Adatkészlet lekérése, és sorok hozzáadása egy Power BI-táblához
 Ez a cikk az [adatok adatkészletbe történő leküldését](walkthrough-push-data.md) ismertető részletes útmutató része.
 
-Az Adatok adatkészletbe való leküldésének **3. lépésében**, amelynek címe [Adatkészlet létrehozása a Power BI-ban](walkthrough-push-data-create-dataset.md), az [Adatkészlet létrehozása](https://docs.microsoft.com/rest/api/power-bi/datasets) művelet meghívásával létrehozott egy adatkészletet a Power BI-ban. Ebben a lépésben az [Adatkészletek lekérése](https://docs.microsoft.com/rest/api/power-bi/getdatasets) műveletet és a Newtonsoft.Jsont fogja használni az adatkészlet azonosítójának lekéréséhez. Az adatkészlet azonosítóját a 4. lépésben fogja használni, hogy sorokat adjon hozzá egy adatkészlethez. 
+Az Adatok adatkészletbe való leküldésének **3. lépésében**, amelynek címe [Adatkészlet létrehozása a Power BI-ban](walkthrough-push-data-create-dataset.md), az [Adatkészlet létrehozása](https://docs.microsoft.com/rest/api/power-bi/datasets) művelet meghívásával létrehozott egy adatkészletet a Power BI-ban. Ebben a lépésben az [Adatkészletek lekérése](https://docs.microsoft.com/rest/api/power-bi/datasets/getdatasets) műveletet és a Newtonsoft.Jsont fogja használni az adatkészlet azonosítójának lekéréséhez. Az adatkészlet azonosítóját a 4. lépésben fogja használni, hogy sorokat adjon hozzá egy adatkészlethez. 
 
 Ha adatokat szeretne elküldeni Power BI-adatkészletbe, akkor az adatkészletben hivatkoznia kell a táblára. Ha egy táblára kíván hivatkozni egy adatkészletben, először le kell kérnie az **Adatkészlet azonosítóját**. **Adatkészlet-azonosító** lekéréséhez használja az [Adatkészlet lekérése azonosító alapján](https://docs.microsoft.com/rest/api/power-bi/datasets/getdatasetbyid) műveletet. Az **Adatkészlet lekérése azonosító alapján** művelet egy JSON-sztringet ad vissza, amely tartalmazza a Power BI-ban tárolt összes adatkészlet listáját. A JSON-sztring deszerializálásának ajánlott módja a [Newtonsoft.JSON](http://www.newtonsoft.com/json) használata.
 

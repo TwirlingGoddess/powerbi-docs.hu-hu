@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 2b5959049b65d32eebf7f484e8485ff59a10f459
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 5bb3f49ef49ed7bbaeb3f52e0711247e0abdc615
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34286083"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37134685"
 ---
 # <a name="use-insights-in-power-bi-desktop-preview"></a>Elemzések használata a Power BI Desktopban (Előzetes verzió)
 A **Power BI Desktop** alkalmazáson belül kérheti a diagramokon látható növekedések és csökkenések értelmezését, valamint az adatok gyors, automatikus, részletes elemzését is. Egyszerűen a jobb egérgombbal kattintson egy adatpontra, és válassza az **Elemzés > A csökkenés magyarázata**  lehetőséget (vagy a növekedés magyarázatát, ha az előző oszlop alacsonyabb volt). A rendszer ezt követően a magyarázatot egy könnyen használható ablakban jeleníti meg.
@@ -72,7 +72,7 @@ Továbbá az elemzések esetében jelenleg nem támogatottak a következő model
 ## <a name="next-steps"></a>Következő lépések
 Ha többet szeretne megtudni a **Power BI Desktopról**, illetve a szoftver használatának kezdeti lépéseiről, tekintse meg a következő cikkeket.
 
-* [Első lépések a Power BI Desktopban](desktop-getting-started.md)
+* [Mi az a Power BI Desktop?](desktop-what-is-desktop.md)
 * [Lekérdezések áttekintése a Power BI Desktopban](desktop-query-overview.md)
 * [Adatforrások a Power BI Desktopban](desktop-data-sources.md)
 * [Csatlakozás adatokhoz a Power BI Desktopban](desktop-connect-to-data.md)

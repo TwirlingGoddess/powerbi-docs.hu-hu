@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Visualizations
-ms.openlocfilehash: fd4198bb6b826f8d4af22e83e313c4c0b8101024
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 016237c95d3494435931e143ff34dbe4a82abb55
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34299309"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37599666"
 ---
 # <a name="creating-r-visuals-in-the-power-bi-service"></a>R-vizualizációk létrehozása a Power BI szolgáltatásban
 A Power BI szolgáltatás támogatja az R-parancsfájlokkal létrehozott vizualizációk megtekintését és használatát. Az R-parancsfájlokkal létrehozott, gyakran *R-vizualizációknak* nevezett vizualizációk fejlett adatformázást és elemzéseket, például előrejelzéseket kínálnak az R gazdag elemzési és megjelenítési lehetőségeinek kihasználásával.
@@ -37,7 +37,7 @@ A jelentésnek a **Power BI Desktopban** történő létrehozása után az egy v
 
 Vegye figyelembe, hogy a szolgáltatás nem minden R-csomagot támogat. Ennek a cikknek a végén a támogatott csomagokról szóló bekezdésben találja meg a Power BI szolgáltatás által jelenleg támogatott csomagok listáját.
 
-Letöltheti ezt a néhány R-vizualizációt tartalmazó [Power BI Desktop mintafájlt](http://download.microsoft.com/download/D/9/A/D9A65269-D1FC-49F8-8EC3-1217E3A4390F/RVisual_correlation_plot_sample SL.pbix) (.pbix-fájl), hogy kipróbálja a működését.
+Letöltheti ezt a néhány R-vizualizációt tartalmazó [Power BI Desktop mintafájlt](http://download.microsoft.com/download/D/9/A/D9A65269-D1FC-49F8-8EC3-1217E3A4390F/RVisual_correlation_plot_sample%20SL.pbix) (.pbix-fájl), hogy kipróbálja a működését.
 
 A **Power BI Desktopban** létrehozott, majd a Power BI szolgáltatásban közzétett R-vizualizációk szinte mindenben a Power BI szolgáltatásbeli más vizualizációkkal azonos módon viselkednek. Használhatók, szűrhetők, szűkíthetők, irányítópultra rögzíthetők vagy megoszthatók másokkal. Irányítópultok és vizualizációk megosztásáról az [Irányítópult megosztása munkatársakkal és másokkal](service-share-dashboards.md) című cikkben talál további információt. A más vizualizációktól való egyik eltérés az, hogy az R-vizualizációk nem jeleníthetnek meg elemleírásokat és nem használhatók más vizualizációk szűrésére.
 

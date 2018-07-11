@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/02/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: e689e031395130bab8ad80d5d06936a9dabaf852
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: a99200707c8fc7de4fea2e32fe83238011bbf46c
+ms.sourcegitcommit: 627918a704da793a45fed00cc57feced4a760395
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34755070"
+ms.lasthandoff: 07/10/2018
+ms.locfileid: "37926591"
 ---
 # <a name="troubleshooting-the-on-premises-data-gateway"></a>A helyszíni adatátjáró hibaelhárítása
 Ez a cikk néhány olyan gyakori problémát ismertet, amelyek a **helyszíni adatátjáró** használatakor előfordulhatnak.
@@ -31,10 +31,10 @@ Ez a cikk néhány olyan gyakori problémát ismertet, amelyek a **helyszíni ad
 Az átjáró Windows-szolgáltatásként fut, így többféle módon is elindítható és leállítható. Például megnyithat egy parancssort emelt szintű engedélyekkel a gépen, amelyen az átjáró fut, és aztán bármely parancsot futtathatja az alábbiak közül:
 
 * A szolgáltatás leállításához futtassa az alábbi parancsot:
-  
+
     „   net stop PBIEgwService   ”
 * A szolgáltatás elindításához futtassa az alábbi parancsot:
-  
+
     „   net start PBIEgwService   ”
 
 ### <a name="error-failed-to-create-gateway-please-try-again"></a>Hiba: Az átjáró létrehozása nem sikerült. Próbálkozzon újra.
@@ -70,7 +70,7 @@ Ennek kijavításához tegye a következőket.
 
 1. Távolítsa el az átjárót.
 2. Törölje az alábbi mappát.
-   
+
         c:\Program Files\On-premises data gateway
 3. Telepítse újra az átjárót.
 4. Opcionálisan alkalmazhatja a helyreállítási kulcsot egy meglévő átjáró visszaállításához.
@@ -129,11 +129,11 @@ Ezt az alábbiak szerint ellenőrizheti.
 
 1. Csatlakozzon az Analysis Services-géphez az SQL Server Management Studióban. A Speciális kapcsolati tulajdonságok részben adja meg a szóban forgó felhasználóhoz tartozó EffectiveUserName paramétert, és nézze meg, hogy a hiba továbbra is fennáll-e.
 2. A dsacls Active Directory eszköz használatával ellenőrizheti, hogy az attribútum szerepel-e a listában. Ez az eszköz általában egy tartományvezérlőben található meg. Ismernie kell a fiók megkülönböztetett tartománynevét, és el kell küldenie az eszköznek.
-   
+
         dsacls "CN=John Doe,CN=UserAccounts,DC=contoso,DC=com"
-   
+
     Az eredményeknek az alábbiakhoz hasonlónak kell lenniük.
-   
+
             Allow BUILTIN\Windows Authorization Access Group
                                           SPECIAL ACCESS for tokenGroupsGlobalAndUniversal
                                           READ PROPERTY
@@ -184,15 +184,15 @@ Ennek ellenőrzéséhez a következőt teheti.
 
 1. Keresse meg az érvényes felhasználónevet az [átjáró naplóiban](#logs).
 2. Ha megtalálta az átadott értéket, ellenőrizze a helyességét. Ha az Ön felhasználójáról van szó, futtathatja a következő parancsot egy parancssorból a megfelelően létrehozott UPN megtekintéséhez. Az UPN úgy fog kinézni, mint egy e-mail-cím.
-   
+
         whoami /upn
 
 Opcionálisan megtekintheti a Power BI által az Azure Active Directoryból beszerzett UPN-t is.
 
-1. Lépjen a [https://graphexplorer.cloudapp.net](https://graphexplorer.cloudapp.net) lapra.
+1. Lépjen a [https://developer.microsoft.com/graph/graph-explorer](https://developer.microsoft.com/graph/graph-explorer) lapra.
 2. Válassza a **Bejelentkezés** lehetőséget a jobb felső sarokban.
 3. Futtassa az alábbi lekérdezést. Egy eléggé nagy JSON-válasz jelenik meg.
-   
+
         https://graph.windows.net/me?api-version=1.5
 4. Keressen rá a következőre: **userPrincipalName**.
 
@@ -206,7 +206,7 @@ Az aktuális adatközponti régió kereséséhez tegye a következőket:
 1. Válassza ki a **?** elemet. a Power BI szolgáltatás ablakának jobb felső sarkában.
 2. Válassza **A Power BI bemutatása** lehetőséget.
 3. Az adatrégió **Az adatok a következő helyeken vannak tárolva** listában szerepel.
-   
+
     ![](media/service-gateway-onprem-tshoot/power-bi-data-region.png)
 
 Ha ez nem vezet eredményre, hálózati nyomkövetéssel is próbálkozhat például a [fiddler](#fiddler) vagy a netsh eszközzel, bár az ilyen speciális gyűjtési módszerek által összegyűjtött adatok elemzéséhez segítségre lehet szüksége. Segítségért forduljon a [támogatáshoz](https://support.microsoft.com).
@@ -329,6 +329,7 @@ A *Microsoft.PowerBI.DataMovement.Pipeline.Diagnostics.dll.config* fájlban mód
 <a name="activities"></a>
 
 ### <a name="activity-types"></a>Tevékenységtípusok
+
 | Tevékenységtípus | Leírás |
 | --- | --- |
 | MGEQ |ADO.NET-kapcsolaton végrehajtott lekérdezések. Magában foglalja a DirectQuery-adatforrásokat is. |
@@ -342,9 +343,9 @@ Az adatforrás lekérdezési időtartamát az alábbiak szerint határozhatja me
 2. A lekérdezés megkereséséhez keressen rá egy adott [Tevékenységtípusra](#activities). Ez lehet például az MGEQ.
 3. Jegyezze fel a második GUID-ot, mivel ez a kérés azonosítója.
 4. Folytassa az MGEQ keresését, amíg meg nem találja az időtartamot tartalmazó FireActivityCompletedSuccessfullyEvent bejegyzést. Ellenőrizheti, hogy a bejegyzés ugyanazzal a kérésazonosítóval rendelkezik-e. Az időtartam ezredmásodpercben van megadva.
-   
+
         DM.EnterpriseGateway Verbose: 0 : 2016-09-26T23:08:56.7940067Z DM.EnterpriseGateway    baf40f21-2eb4-4af1-9c59-0950ef11ec4a    5f99f566-106d-c8ac-c864-c0808c41a606    MGEQ    21f96cc4-7496-bfdd-748c-b4915cb4b70c    B8DFCF12 [DM.Pipeline.Common.TracingTelemetryService] Event: FireActivityCompletedSuccessfullyEvent (duration=5004)
-   
+
    > [!NOTE]
    > A FireActivityCompletedSuccessfullyEvent egy részletes bejegyzés. Ez a bejegyzés csak akkor lesz naplózva, ha a TraceVerbosity értéke legalább 5.
    > 
@@ -423,12 +424,12 @@ A -10709 sikertelen kapcsolat hibaüzenetet fogja kapni, ha a delegálás beáll
 Ha az átjárót ütemezett frissítésre használja, a **Frissítési előzmények** oldalon láthatja a hibákat, valamint hasznos adatokat is talál egy esetleges támogatáskérés létrehozásához. Itt az ütemezett és az igény szerinti frissítéseket is láthatja. A **Frissítési előzmények** oldalra az alábbiak szerint juthat el.
 
 1. A Power BI navigációs ablaktáblájának **Adatkészletek** területén jelöljön ki egy adatkészletet, majd válassza a &gt;Menü megnyitása&gt; **Frissítés ütemezése** lehetőséget.
-   
+
     ![](media/service-gateway-onprem-tshoot/scheduled-refresh.png)
 2. A **Beállítások:** &gt; **Frissítés ütemezése** menüpontban válassza a **Frissítési előzmények** lehetőséget.
-   
+
     ![](media/service-gateway-onprem-tshoot/scheduled-refresh-2.png)
-   
+
     ![](media/service-gateway-onprem-tshoot/refresh-history.png)
 
 A frissítési forgatókönyvekkel kapcsolatos hibák elhárításáról a következő cikkben talál további információkat: [Frissítési forgatókönyvekkel kapcsolatos hibák elhárítása](refresh-troubleshooting-refresh-scenarios.md).

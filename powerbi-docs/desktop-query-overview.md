@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 35171c5b1d61b9df860b72ee98d8fb63a875092d
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: f4ee0f114e6d905f202505f71b194a5b56fd6397
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34286382"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37137353"
 ---
 # <a name="query-overview-in-power-bi-desktop"></a>Lekérdezések áttekintése a Power BI Desktopban
 A **Power BI Desktop** segítségével adatokhoz csatlakozhat, lenyűgöző, alapvető fontosságú jelentéseket hozhat létre, és megoszthatja munkája eredményét másokkal, akik az Ön munkája alapján megalapozottabb üzleti döntéseket hozhatnak.
@@ -137,7 +137,7 @@ A munka mentéséhez válassza a **Fájl \> Mentés** (vagy **Fájl \> Mentés m
 ## <a name="next-steps"></a>Következő lépések
 A Power BI Desktop műveletek és lehetőségek széles tárházát tartalmazza. A program képességeivel kapcsolatos további információkért lásd az alábbi forrásanyagokat:
 
-* [Első lépések a Power BI Desktopban](desktop-getting-started.md)
+* [Mi az a Power BI Desktop?](desktop-what-is-desktop.md)
 * [Adatforrások a Power BI Desktopban](desktop-data-sources.md)
 * [Csatlakozás adatokhoz a Power BI Desktopban](desktop-connect-to-data.md)
 * [Adatok formázása és kombinálása a Power BI Desktoppal](desktop-shape-and-combine-data.md)

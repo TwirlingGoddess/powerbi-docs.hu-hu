@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/12/2017
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 859ab3fdfd06040d8bbf131ab91ea6c9f84deb40
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: d298c750d23e22ef0a6b2791916add13bb260ad0
+ms.sourcegitcommit: 5eb8632f653b9ea4f33a780fd360e75bbdf53b13
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34241947"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36965205"
 ---
 # <a name="manage-your-app-workspace-in-power-bi-and-office-365"></a>Az alkalmazás-munkaterület kezelése a Power BI-ban és az Office 365-ben
 Az Office 365-ben vagy a [Power BI-ban az alkalmazás-munkaterület](service-install-use-apps.md) létrehozójaként vagy rendszergazdájaként Ön kezeli a Power BI munkaterületének egyes funkcióit. Más funkciókat az Office 365-ben kezelhet. 
@@ -33,7 +33,7 @@ Az Office 365-ben vagy a [Power BI-ban az alkalmazás-munkaterület](service-ins
 * A csoport e-mail-címének megtekintése.
 * A csoport törlése.
 
-Ahhoz, hogy alkalmazás-munkaterület rendszergazdája vagy tagja lehessen [Power BI Pro](service-free-vs-pro.md)-licencre van szüksége. Az alkalmazás felhasználóinak szintén Power BI Pro-licenccel kell rendelkezniük, kivéve, ha az alkalmazás-munkaterület Power BI Premium-kapacitásban található. Ekkor a vállalati felhasználók ehelyett ingyenes Power BI-licenccel érhetik el az alkalmazást. További részletekért olvassa el [A Power BI Premium bemutatása](service-premium.md) cikket.
+Ahhoz, hogy alkalmazás-munkaterület rendszergazdája vagy tagja lehessen [Power BI Pro](service-free-vs-pro.md)-licencre van szüksége. Az alkalmazás felhasználóinak szintén Power BI Pro-licenccel kell rendelkezniük, kivéve, ha az alkalmazás-munkaterület Power BI Premium-kapacitásban található. Részletek: [Mi a Power BI Premium?](service-premium.md).
 
 ## <a name="edit-your-app-workspace-in-power-bi"></a>Az alkalmazás-munkaterület szerkesztése a Power BI-ban
 1. A Power BI szolgáltatásban válassza a **Munkaterületek** elem melletti nyilat, majd a munkaterület neve melletti három pontot (**...**), aztán a **Munkaterület szerkesztése** menüpontot. 

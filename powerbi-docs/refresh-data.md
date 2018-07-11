@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 779bfb3e69a76d0fe9e9a34d6576b2054de89cc1
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: aa7fcc720861d1459183aaf7a82a2af8912eb5b6
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34253619"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37599748"
 ---
 # <a name="data-refresh-in-power-bi"></a>Adatfrissítés a Power BI-ban
 A jó döntések meghozatalában gyakran kritikus fontosságú a legfrissebb adatok lekérése. Már valószínűleg ismeri a Power BI Adatok lekérése funkcióját, amellyel adatokhoz csatlakozhat, illetve adatokat tölthet fel, és biztosan létrehozott már jelentéseket és egy irányítópultot is. Ezután célszerű meggyőződni arról, hogy az adatok valóban frissek és hibátlanok.
@@ -101,6 +101,7 @@ Az adatfrissítés az olyan Power BI Desktop-fájlok és Excel-munkafüzeten ese
 A fájlok a OneDrive-ban vagy a SharePoint Online-ban való tárolása, valamint a Power BI-ból való kapcsolódás hozzájuk jelentős rugalmasságot nyújt. Azonban ezt a legnehezebb megérteni is. A OneDrive-ban vagy a SharePoint Online-ban tárolt fájlok ütemezett frissítése eltér a csomagfrissítéstől. További információt a [Frissítéstípusok](#types-of-refresh) szakaszban találhat.
 
 ### <a name="power-bi-desktop-file"></a>Power BI Desktop-fájl
+
 | **Adatforrás** | **Automatikus frissítés** | **Felhasználó által konfigurált kézi vagy ütemezett frissítés** | **Átjáró szükséges** |
 | --- | --- | --- | --- |
 | A menüszalagon található Adatok lekérése funkcióval csatlakozhat az adatokhoz, valamint lekérheti azokat bármelyik listázott online adatforrásból. |Nem |Igen |Nem (lásd alább) |
@@ -117,6 +118,7 @@ A fájlok a OneDrive-ban vagy a SharePoint Online-ban való tárolása, valamint
 További információ: [Power BI Desktop-fájlból létrehozott adatkészlet frissítése a OneDrive-ban](refresh-desktop-file-onedrive.md).
 
 ### <a name="excel-workbook"></a>Excel-munkafüzet
+
 | **Adatforrás** | **Automatikus frissítés** | **Felhasználó által konfigurált kézi vagy ütemezett frissítés** | **Átjáró szükséges** |
 | --- | --- | --- | --- |
 | Az Excel adatmodelljébe be nem töltött munkalap adattáblái. |Igen, óránként *(csak a OneDrive/SharePoint Online esetében* |Csak kézzel *(csak a OneDrive/SharePoint Online esetében* |Nem |
@@ -131,6 +133,7 @@ További információ: [Power BI Desktop-fájlból létrehozott adatkészlet fri
 További részletes információ: [A OneDrive-on található Excel-munkafüzetből létrehozott adatkészlet frissítése](refresh-excel-file-onedrive.md).
 
 ### <a name="comma-separated-value-csv-file-on-onedrive-or-sharepoint-online"></a>Vesszővel tagolt adatfájl (.csv) a OneDrive-ban vagy a SharePoint Online-ban
+
 | **Adatforrás** | **Automatikus frissítés** | **Felhasználó által konfigurált kézi vagy ütemezett frissítés** | **Átjáró szükséges** |
 | --- | --- | --- | --- |
 | Egyszerű, vesszővel tagolt adatfájl (.csv) |Igen, óránként |Csak kézzel |Nem |
@@ -145,6 +148,7 @@ A Power BI kétféle tartalomcsomaggal rendelkezik:
 **Céges tartalomcsomagok**: a saját cég felhasználói által létrehozott és megosztott csomagok. A tartalomcsomag fogyasztói nem állíthatnak be frissítésütemezést vagy kézi frissítést. Csak a tartalomcsomag készítője állíthatja be a csomag adatkészleteinek frissítését. Az adatkészlet frissítési beállításai öröklődnek.
 
 ### <a name="content-packs-from-online-services"></a>Online szolgáltatások tartalomcsomagjai
+
 | **Adatforrás** | **Automatikus frissítés** | **Felhasználó által konfigurált kézi vagy ütemezett frissítés** | **Átjáró szükséges** |
 | --- | --- | --- | --- |
 | Online szolgáltatások az Adatok lekérése &gt; Szolgáltatások területen |Igen |Igen |Nem |
@@ -237,7 +241,7 @@ Ebben az esetben kézzel frissítheti a SalesReport.xlsx adatkészletének adata
 > 
 > 
 
-További információ: [Excel-adatok a Power BI-ban](service-excel-workbook-files.md), [Power BI Gateway – Personal](personal-gateway.md), [Helyszíni adatátjáró](service-gateway-onprem.md), [Excel-munkafüzetből létrehozott adatkészlet frissítése helyi meghajtón](refresh-excel-file-local-drive.md).
+További információ: [Excel-adatok a Power BI-ban](service-excel-workbook-files.md), [Power BI Gateway – Personal](service-gateway-personal-mode.md), [Helyszíni adatátjáró](service-gateway-onprem.md), [Excel-munkafüzetből létrehozott adatkészlet frissítése helyi meghajtón](refresh-excel-file-local-drive.md).
 
 ### <a name="power-bi-desktop-file-with-data-from-an-odata-feed"></a>Power BI Desktop-fájl egy OData-csatorna adataival
 Ebben az esetben a Power BI Desktop Adatok lekérése funkciójával csatlakozott egy OData-csatorna fontos népszámlálási adataihoz, majd importálta őket.  Több jelentést is létrehozott a Power BI Desktopban, majd a fájlt WACensus néven mentette egy céges megosztón. Ezután közzétette a fájlt a Power BI-ban.
@@ -270,7 +274,7 @@ Hibaelhárítással kapcsolatos további információ: [Frissítéssel kapcsolat
 ## <a name="next-steps"></a>További lépések
 [Frissítéssel kapcsolatos hibák hibaelhárítási eszközei](service-gateway-onprem-tshoot.md)  
 [Frissítési forgatókönyvekkel kapcsolatos hibák elhárítása](refresh-troubleshooting-refresh-scenarios.md)  
-[Power BI Gateway – Personal](personal-gateway.md)  
+[Power BI Gateway – Personal](service-gateway-personal-mode.md)  
 [Helyszíni adatátjáró](service-gateway-onprem.md)  
 
 További kérdései vannak? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)

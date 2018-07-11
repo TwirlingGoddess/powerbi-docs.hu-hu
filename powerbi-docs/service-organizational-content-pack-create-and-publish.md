@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/08/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: f8b1e94ca0923c3e2ba509df266cec0f05596ab1
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: b95ff0d9102377b6aeb59488a565f7bcb9a65566
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34852187"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37598601"
 ---
 # <a name="create-and-publish-a-power-bi-organizational-content-pack-tutorial"></a>Power BI szervezeti tartalomcsomag létrehozása és közzététele (oktatóanyag)
 > [!NOTE]
@@ -43,24 +43,24 @@ Ha érdekli a megoldás, tartson velünk. A [Power BI szolgáltatásban](https:/
    
    Vegye figyelembe, hogy a cég tartalomcsomagtára idővel a cég vagy a különböző csoportok számára létrehozott tartalomcsomagok százait fogja tartalmazni. Ezért szánjon időt arra, hogy egy értelmes nevet és jól átlátható leírást adjon a tartalomcsomagnak, illetve kiválassza a megfelelő közönséget.  Használjon olyan szavakat, amelyek alapján a tartalomcsomag könnyen megtalálható.
    
-   1.  Válassza az **Adott csoportok** lehetőséget, és adja meg adott személyek, [Office 365-csoportok](https://support.office.com/article/Create-a-group-in-Office-365-7124dc4c-1de9-40d4-b096-e8add19209e9), terjesztési vagy biztonsági csoportok teljes e-mail-címét. Például:
+   1. Válassza az **Adott csoportok** lehetőséget, és adja meg adott személyek, [Office 365-csoportok](https://support.office.com/article/Create-a-group-in-Office-365-7124dc4c-1de9-40d4-b096-e8add19209e9), terjesztési vagy biztonsági csoportok teljes e-mail-címét. Például:
       
-         salesmgrs@contoso.com; sales@contoso.com
+        salesmgrs@contoso.com; sales@contoso.com
       
       Ebben az oktatóanyagban használja a saját vagy a csoportja e-mail-címét.
    
-   2.  Adja az **Értékesítési lehetőségek** nevet a csoportnak.
+   2. Adja az **Értékesítési lehetőségek** nevet a csoportnak.
    
       > [!TIP]
       > Érdemes lehet az irányítópult nevét is belevenni a tartalomcsomag nevébe. Így munkatársai könnyebben megtalálják az irányítópultot a tartalomcsomag csatlakoztatását követően.
       > 
       > 
    
-   3.  Ajánlott: Adjon meg egy **leírást**. Így a munkatársai könnyebben találják meg a számukra szükséges tartalomcsomagokat. A leírás mellett kulcsszavakat is hozzáadhat, amelyekkel a munkatársai könnyebben találhatják meg a tartalomcsomagot. Adja meg a kapcsolattartási adatait is arra az esetre, ha a munkatársainak kérdése merülne fel vagy segítségre volna szüksége.
+   3. Ajánlott: Adjon meg egy **leírást**. Így a munkatársai könnyebben találják meg a számukra szükséges tartalomcsomagokat. A leírás mellett kulcsszavakat is hozzáadhat, amelyekkel a munkatársai könnyebben találhatják meg a tartalomcsomagot. Adja meg a kapcsolattartási adatait is arra az esetre, ha a munkatársainak kérdése merülne fel vagy segítségre volna szüksége.
    
-   4.  **Töltsön fel egy képet vagy emblémát is**, hogy a csoport tagjai könnyebben találják meg a tartalomcsomagot – a képeket könnyebb gyorsan kiszúrni, mint a leírásokat. Az alábbi képernyőképen a Opportunity Count 100% (Lehetőségek száma 100%) oszlopdiagram csempéjének képét használjuk.
+   4. **Töltsön fel egy képet vagy emblémát is**, hogy a csoport tagjai könnyebben találják meg a tartalomcsomagot – a képeket könnyebb gyorsan kiszúrni, mint a leírásokat. Az alábbi képernyőképen a Opportunity Count 100% (Lehetőségek száma 100%) oszlopdiagram csempéjének képét használjuk.
    
-   5.  Válassza ki a **Lehetőségelemzési minta** irányítópultot, és adja a tartalomcsomaghoz.  A Power BI automatikusan hozzáadja a kapcsolódó jelentést és adatkészletet. Igény szerint továbbiakat is hozzáadhat.
+   5. Válassza ki a **Lehetőségelemzési minta** irányítópultot, és adja a tartalomcsomaghoz.  A Power BI automatikusan hozzáadja a kapcsolódó jelentést és adatkészletet. Igény szerint továbbiakat is hozzáadhat.
    
       > [!NOTE]
       >  Csak azok az irányítópultok, jelentések, adatkészletek és munkafüzetek vannak felsorolva, amelyeket szerkeszthet. Így az Önnel megosztott elemek nem szerepelnek a listában.
@@ -71,7 +71,7 @@ Ha érdekli a megoldás, tartson velünk. A [Power BI szolgáltatásban](https:/
    
    6. Az Excel-munkafüzetek a Jelentések között vannak felsorolva, és egy Excel ikon jelöli őket. Ezeket is hozzáadhatja a tartalomcsomaghoz.
    
-     ![](media/service-organizational-content-pack-create-and-publish/pbi_orgcontpkexcel.png)
+      ![](media/service-organizational-content-pack-create-and-publish/pbi_orgcontpkexcel.png)
    
       > [!NOTE]
       > Ha a csoport tagjai nem látják az Excel-munkafüzetet, esetleg [meg kell osztania azt velük a OneDrive Vállalati verziójában](https://support.office.com/en-us/article/Share-documents-or-folders-in-Office-365-1fe37332-0f9a-4719-970e-d2578da4941c).

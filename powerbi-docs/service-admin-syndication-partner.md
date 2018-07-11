@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/05/2017
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 67863b261bb8f3490d20ad21786313541df33388
-ms.sourcegitcommit: 49570ab8f5b5cd5bab4cd388f4281b1372bcb80b
+ms.openlocfilehash: a86b1d6823a1d889b47015d1213a9a056c537703
+ms.sourcegitcommit: 627918a704da793a45fed00cc57feced4a760395
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/09/2018
-ms.locfileid: "35250315"
+ms.lasthandoff: 07/10/2018
+ms.locfileid: "37926651"
 ---
 # <a name="unable-to-add-power-bi-to-office-365-partner-subscription"></a>Nem sikerült hozzáadni a Power BI-t az Office 365 típusú partneri előfizetéshez
 Az Office 365 lehetővé teszi a cégeknek az Office 365 saját megoldásokkal integrált, csomagalapú továbbértékesítését, és a cégek egyetlen kapcsolatfelvételi pontot biztosíthatnak a végfelhasználóknak a vásárláshoz, a számlázáshoz és a támogatáshoz.
@@ -33,7 +33,7 @@ Ha nem tudja közvetlenül megvásárolni a Power BI-t, attól függően, hogy m
 
 [Power BI (ingyenes)](#power-bi-free)
 
-[Power BI Pro és Premium](#power-bi-pro)
+[Power BI Pro és Premium](#power-bi-pro-and-premium)
 
 ## <a name="power-bi-free"></a>Power BI (ingyenes)
 Ha elégedett az ingyenesen elérhető Power BI-jal, regisztrálhat az ingyenes szolgáltatásra. Az egyéni regisztrációk (más néven alkalmi előfizetések), alapértelmezés szerint le vannak tiltva. Ha regisztrálni próbál a Power BI szolgáltatásra, egy üzenet jelenik meg, amely arról tájékoztat, hogy az informatikai részleg kikapcsolta a Microsoft Power BI-regisztrációt.

@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 06/05/2018
+ms.date: 06/22/2018
 ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: 331dc45f3049fe77145b86ffafd363162c74a589
-ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
+ms.openlocfilehash: d17694d6dd2e2133b80d326a8aa86194d5710946
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/06/2018
-ms.locfileid: "34813802"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "36944652"
 ---
 # <a name="use-dashboard-themes-in-power-bi-service"></a>Irányítópult-témák használata a Power BI szolgáltatásban
 Az **Irányítópult-témák** használatával egységes színtémát alkalmazhat az egész irányítópultra, például a cég színeit, az évszaknak megfelelő színeket vagy bármely más színtémát, amit csak szeretne. **Irányítópult-témák** alkalmazásakor az irányítópulton szereplő összes vizualizáció a kiválasztott téma színeit fogja használni (ez alól van néhány kivétel, amelyeket a cikk későbbi részében mutatunk be).
@@ -89,7 +89,6 @@ A beépített és az egyéni témákhoz hasonlóan a színek ezeknek a témákna
 
     ![Céltéma alkalmazása](media/service-dashboard-themes/power-bi-use-destination.png)
 
-* Az irányítópult-témák jelenleg nincsenek támogatva a REST API használatával beágyazott irányítópultok megtekintésénél, mobileszközökön, vagy ha azokat külső felhasználók tekintik meg.    
 * Az irányítópult-témák nem alkalmazhatók rögzített élő jelentésoldalakon, iframe-csempéken, SSRS-csempéken, munkafüzet-csempéken és képeken.
 * Az irányítópult-témák megtekinthetők mobileszközökön is, de irányítópult-csempét csak a Power BI szolgáltatásban hozhat létre. 
 * Az egyéni irányítópult-témák csak a jelentésekből rögzített csempékkel működnek. 
