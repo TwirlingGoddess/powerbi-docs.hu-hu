@@ -12,6 +12,8 @@
       items:
         - name: Csatlakozás GitHub-mintához
           href: service-tutorial-connect-to-github.md
+        - name: Első lépések a Power BI-ban
+          href: service-get-started.md
     - name: Fogalmak
       items:
         - name: A Power BI szolgáltatás újdonságai
@@ -380,8 +382,10 @@
                   href: service-from-excel-to-stunning-report.md
                 - name: Adatok elérése Excel-munkafüzetfájlokból
                   href: service-excel-workbook-files.md
-                - name: Adatok lekérdezése Power BI Desktop-fájlból
+                - name: Adatok lekérése Power BI Desktop-fájlokból
                   href: service-desktop-files.md
+                - name: Paraméterbeállítások adatkészletekhez
+                  href: service-parameters.md
                 - name: Adatok lekérdezése vesszővel tagolt (.csv) fájlból
                   href: service-comma-separated-value-files.md
                 - name: Valós idejű streamelés a Power BI-ban (előzetes verzió)
@@ -860,16 +864,12 @@
           items:
             - name: Első lépések az iOS-alkalmazással
               href: mobile-iphone-app-get-started.md
-            - name: Első lépések az iPad-alkalmazással
-              href: mobile-ipad-app-get-started.md
             - name: Q&A virtuális elemző az iOS-es mobilalkalmazásokban
               href: mobile-apps-ios-qna.md
             - name: Apple Watchra készült Power BI alkalmazás
               href: mobile-apple-watch.md
             - name: Vonalkód beolvasása az iPhone-ján lévő alkalmazásból
               href: mobile-apps-scan-barcode-iphone.md
-            - name: iOS-es Power BI-mobilalkalmazás
-              href: mobile-ios-ipad-iphone-apps.md
         - name: iOS és Android
           items:
             - name: Jegyzetkészítés és megosztás a mobilalkalmazásokban
@@ -940,8 +940,6 @@
               href: developer/integrate-tile.md
             - name: Power BI-jelentés beágyazása alkalmazásba (a felhasználó az adattulajdonos)
               href: developer/integrate-report.md
-            - name: Tartalom integrálása alkalmazásba (az alkalmazás az adattulajdonos)
-              href: developer/embed-sample-for-customers.md
             - name: Tartalom integrálása alkalmazásba szuverén felhők esetében (az alkalmazás az adattulajdonos)
               href: developer/embed-sample-for-customers-sovereign-clouds.md
             - name: Egyéni elrendezések beágyazása alkalmazásokba
@@ -1234,6 +1232,13 @@
           href: service-admin-syndication-partner.md
         - name: Mobilalkalmazások konfigurálása az Intune-nal
           href: service-admin-mobile-intune.md
+    - name: Hivatkozás
+      items:
+        - name: 'PowerShell, REST API-k és .NET SDK'
+          href: service-admin-reference.md
+        - name: Power BI-parancsmagok PowerShellhez
+          href: 'https://docs.microsoft.com/en-us/powershell/power-bi/'
+          maintainContext: true
     - name: Erőforrások
       items:
         - name: Megközelítések a Power BI irányításához és üzembe helyezéséhez
