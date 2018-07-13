@@ -1,6 +1,6 @@
 Ha útközben is szeretné figyelemmel kísérni az adatait, használhatja a Power BI mobilalkalmazást iOS, Android és Windows rendszerű eszközökön.
 
-A Power BI alkalmazás első használatakor jelentkezzen be a fiókjába a Power BI szolgáltatás fiókadataival. Windows rendszerű mobileszközön (esetünkben egy táblagépen) a bejelentkezés az alábbihoz hasonlóan néz ki.
+A Power BI alkalmazás használatakor először jelentkezzen be a fiókjába a Power BI szolgáltatás fiókadataival. Windows rendszerű mobileszközön (esetünkben egy táblagépen) a bejelentkezés az alábbihoz hasonlóan néz ki.
 
 ![](media/4-4a-power-bi-mobile/4-4a_1.png)
 
