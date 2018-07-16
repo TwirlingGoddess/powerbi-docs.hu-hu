@@ -896,8 +896,10 @@
           href: developer/what-can-you-do.md
     - name: Oktatóanyagok
       items:
-        - name: Tartalom beágyazása ügyfelek számára
+        - name: Tartalom beágyazása az ügyfelek számára
           href: developer/embed-sample-for-customers.md
+        - name: Tartalom beágyazása a cég számára
+          href: developer/embed-sample-for-your-organization.md
     - name: Fogalmak
       items:
         - name: Munkavégzés a Power BI REST API-kkal
@@ -934,12 +936,8 @@
               href: developer/embedding.md
             - name: Tartalom beágyazása
               href: developer/embedding-content.md
-            - name: Irányítópult beágyazása alkalmazásba (a felhasználó az adattulajdonos)
-              href: developer/integrate-dashboard.md
-            - name: Power BI-csempe beágyazása alkalmazásba (a felhasználó az adattulajdonos)
-              href: developer/integrate-tile.md
-            - name: Power BI-jelentés beágyazása alkalmazásba (a felhasználó az adattulajdonos)
-              href: developer/integrate-report.md
+            - name: Beágyazás alkalmazásból
+              href: developer/embed-from-apps.md
             - name: Tartalom integrálása alkalmazásba szuverén felhők esetében (az alkalmazás az adattulajdonos)
               href: developer/embed-sample-for-customers-sovereign-clouds.md
             - name: Egyéni elrendezések beágyazása alkalmazásokba
