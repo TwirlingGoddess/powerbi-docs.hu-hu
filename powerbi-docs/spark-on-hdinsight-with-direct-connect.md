@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/28/2017
 ms.author: maghan
 LocalizationGroup: Data from databases
-ms.openlocfilehash: 236a3d1bde84d4259d921d44730057a4e2fd3591
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: e1320135ba0abb737a487036948c2822d0c337ae
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34256748"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37136502"
 ---
 # <a name="spark-on-hdinsight-with-directquery"></a>A Spark on HDInsight és a DirectQuery
 A Spark on Azure HDInsight és a DirectQuery együttes használatával dinamikus jelentéseket hozhat létre a Spark-fürtben már meglévő adatok és metrikák alapján. A DirectQuery a jelentésnézet adatainak vizsgálatakor az Azure HDInsight Spark-fürtre küldi vissza a lekérdezéseket. Ez azoknak a felhasználóknak ajánlott, akik jól ismerik az entitásokat, amelyekhez csatlakoznak.
@@ -26,6 +26,10 @@ A Spark on Azure HDInsight és a DirectQuery együttes használatával dinamikus
 > 
 
 Az alábbi lépések végrehajtásával kapcsolódhat a Spark on Azure HDInsight-adatforráshoz a Power BI szolgáltatás DirectQuery funkciójával.
+
+> [!Important]
+> Továbbfejlesztettük a Spark-kapcsolódást.  A Sparkbeli adatforráshoz való kapcsolódás leghatékonyabb módja a Power BI Desktop használata.  Miután elkészítette a modellt és a jelentést, közzéteheti a Power BI szolgáltatásban.  A Spark a Power BI szolgáltatásban használt közvetlen összekötője elavult.
+>
 
 1. A bal oldali navigációs ablaktábla alján kattintson az **Adatok lekérése** elemre.
    
@@ -71,7 +75,7 @@ Az Azure Portalon további erőforrásokat is hozzárendelhet a **Konfiguráció
 
 ## <a name="next-steps"></a>Következő lépések
 [Első lépések: Apache Spark-fürt létrehozása HDInsight Linux rendszeren és interaktív lekérdezések futtatása Spark SQL használatával](https://azure.microsoft.com/documentation/articles/hdinsight-apache-spark-jupyter-spark-sql)  
-[Első lépések a Power BI-ban](service-get-started.md)  
+[A Power BI bemutatása](power-bi-overview.md)  
 [Power BI – Adatok lekérése](service-get-data.md)  
 További kérdései vannak? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)
 

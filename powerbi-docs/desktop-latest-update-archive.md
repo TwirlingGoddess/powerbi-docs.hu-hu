@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/05/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 53c4250949a696f4abbd0722cf89207f2c8d37c8
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 166d61c78f8e85a91dafa5de698d782b456834a7
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34813848"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37601637"
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>A Power BI Desktop korábbi havi frissítései
 
@@ -255,7 +255,7 @@ Az egyes frissítések mellett szereplő hivatkozások a következőket jelentik
 * A **[videókivonatok]** új böngészőablakban nyílnak meg, és a funkció ismertetését tartalmazzák.
 * Egyes funkciókról további **[cikkekben]** olvashat részletesen.
 * A legtöbb funkciót a havi frissítésről szóló **[blogbejegyzésben]** mutatjuk be.
--   Az említetteken kívül pedig vannak olyan funkciók, amelyek működése magától értetődő, ezért az ilyen esetekben nincs szükség magyarázó cikkre vagy videóra.
+* Az említetteken kívül pedig vannak olyan funkciók, amelyek működése magától értetődő, ezért az ilyen esetekben nincs szükség magyarázó cikkre vagy videóra.
 
 A **legújabb frissítésekről** szóló e havi videót az elejétől is végignézheti ezen a cikken belül. Ehhez kattintson a frissítések listája alatti videóképen található **lejátszás** ikonra.
 
@@ -1844,15 +1844,15 @@ Ebben a frissítésben a következő funkciók vagy azok továbbfejlesztett vál
     -   Jobb előnézeti élmény a többdimenziós források esetében (Analysis Services és SAP BusinessObjects)
     -   Kijelölt elemek megjelenítése beállítás
     -   Továbbfejlesztett keresési funkciók a Kezelő fán
--   Új átalakítások
-    -   Kor és Kivonás műveletek Dátum/idő oszlopok esetében
-    -   Oszlopok összesítése: Lehetőség az új oszlopok előtagjainak letiltásához
--   A mezőlista fejlesztései
-    -   Táblák kibontása/összecsukása
-    -   Mezők elrejtése/felfedése
-    -   Optimalizált elrendezés (térköz, margók és betűkészletek)
--   Jelentésoldal-navigáció – Billentyűzethasználat támogatása
--   Számos hibajavítás
+- Új átalakítások
+  -   Kor és Kivonás műveletek Dátum/idő oszlopok esetében
+  -   Oszlopok összesítése: Lehetőség az új oszlopok előtagjainak letiltásához
+- A mezőlista fejlesztései
+  -   Táblák kibontása/összecsukása
+  -   Mezők elrejtése/felfedése
+  -   Optimalizált elrendezés (térköz, margók és betűkészletek)
+- Jelentésoldal-navigáció – Billentyűzethasználat támogatása
+- Számos hibajavítás
 
 <iframe width="500" height="281" src="https://www.youtube.com/embed/-bZFeS1S1wU" frameborder="0" allowfullscreen></iframe>
 

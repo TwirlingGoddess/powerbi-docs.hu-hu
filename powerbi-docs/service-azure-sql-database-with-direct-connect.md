@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 12/18/2017
+ms.date: 06/20/2018
 ms.author: maghan
 LocalizationGroup: Data from databases
-ms.openlocfilehash: 27b2eb90a07d3112b771fd3ee23cc86353a46991
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: a1ae30097e0af90d5da8acd0d41b11f513756f88
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34242249"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37135904"
 ---
 # <a name="azure-sql-database-with-directquery"></a>Az Azure SQL Database DirectQueryvel
 Ismerje meg, hogyan lehet az Azure SQL Database-hez közvetlenül kapcsolódni, és élő adatok használatával jelentéseket létrehozni. Nem szükséges az adatok a saját forrásukból a Power BI-ba juttatni.
@@ -31,7 +31,11 @@ A DirectQuery használatával, miközben a jelentés nézetben feltárja az adat
 * A Q&A nem érhető el DirectQuery-adatkészletek esetén
 * A sémaváltozások felvétele nem automatikus
 
-Ezek a korlátozások és megjegyzések a kezelőfelület további fejlesztése folyamán változhatnak. Alább láthatók a kapcsolódás lépéseinek részletei. 
+Ezek a korlátozások és megjegyzések a kezelőfelület további fejlesztése folyamán változhatnak. Alább láthatók a kapcsolódás lépéseinek részletei.
+
+> [!Important]
+> Továbbfejlesztettük az Azure SQL Database-kapcsolódást.  Az Azure SQL Database-beli adatforráshoz való kapcsolódás leghatékonyabb módja a Power BI Desktop használata.  Miután elkészítette a modellt és a jelentést, közzéteheti a Power BI szolgáltatásban.  Az Azure SQL Database a Power BI szolgáltatásban használt közvetlen összekötője elavult.
+>
 
 ## <a name="power-bi-desktop-and-directquery"></a>A Power BI Desktop és a DirectQuery
 A Power BI Desktop használata szükséges ahhoz, hogy az Azure SQL Database-hez DirectQueryvel kapcsolódhasson. Ez a megközelítés nagyobb rugalmasságot és további képességeket biztosít. A Power BI Desktoppal létrehozott jelentések közzétehetők a Power BI szolgáltatásban. További tudnivalók arról, hogyan kapcsolódhat az [Azure SQL Database-hez DirectQuery használatával](desktop-use-directquery.md) a Power BI Desktopban. 
@@ -57,6 +61,6 @@ A teljes szervernevet és adatbázisnevet az Azure Portalon találhatja meg.
 
 ## <a name="next-steps"></a>Következő lépések
 [A DirectQuery használata a Power BI Desktopban](desktop-use-directquery.md)  
-[Első lépések a Power BI használatával](service-get-started.md)  
+[A Power BI bemutatása](power-bi-overview.md)  
 [Power BI – Adatok lekérése](service-get-data.md)  
 További kérdései vannak? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)

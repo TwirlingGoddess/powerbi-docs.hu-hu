@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 05/25/2018
 ms.author: maghan
-ms.openlocfilehash: cb84cb2f4242cb120f187c27bb1b1675177c33a2
-ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
+ms.openlocfilehash: 8a912791777c631208ee40d37c5eaad56806ccf9
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/06/2018
-ms.locfileid: "34813043"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "36945308"
 ---
 # <a name="embed-your-power-bi-dashboards-reports-and-tiles"></a>Power BI-irányítópultok, -jelentések és -csempék beágyazása
 
@@ -35,6 +35,9 @@ Mielőtt irányítópultokat és jelentéseket ágyazna be az alkalmazásba, gy�
 
 * [Győződjön meg arról, hogy rendelkezik Azure Active Directory-bérlővel](embedding-content.md#azureadtenant)
 * [Hozza létre a Power BI Pro-fiókját](embedding-content.md#proaccount)
+* [Alkalmazásregisztráció és engedélyek](embedding-content.md#appreg)
+* [Alkalmazás-munkaterületek létrehozása](embedding-content.md#appws)
+* [Jelentések létrehozása és feltöltése](embedding-content.md#createreports)
 
 Használhatja az [Előkészítési eszközt](https://aka.ms/embedsetup), amellyel egyszerűen elvégezheti az első lépéseket, és letölthet egy mintaalkalmazást.
 
@@ -67,7 +70,7 @@ A következő fiókoknak kell létezniük a bérlőben Power BI Pro-licenccel. P
 
 #### <a name="an-organizationtenant-admin-user"></a>Szervezeti/bérlői rendszergazda felhasználó
 
-A szervezeti/bérlői globális rendszergazdai felhasználót nem ajánlott az alkalmazás által az ügyfelek számára történő beágyazáshoz használt fiókként alkalmazni. Ennek az a célja, hogy minimálisra csökkentse az alkalmazásfiók bérlőn belüli hozzáférését. Ajánlott, hogy a rendszergazdai felhasználó a beágyazási célból létrehozott összes alkalmazás-munkaterület rendszergazdája legyen.
+A szervezeti/bérlői globális rendszergazdai felhasználót nem ajánlott az alkalmazás által az ügyfelek számára történő beágyazáshoz használt fiókként alkalmazni. Ennek az a célja, hogy minimálisra csökkentse az alkalmazásfiók bérlőn belüli hozzáférését. A rendszergazdai felhasználó a beágyazási célból létrehozott összes alkalmazás-munkaterület rendszergazdája kell, hogy legyen.
 
 #### <a name="accounts-for-analysts-that-create-content"></a>Tartalomkészítő elemzők fiókjai
 
@@ -83,7 +86,7 @@ A fő fiók egyszerűen egy Power BI Pro-licenccel rendelkező normál felhaszn�
 
 A REST API-hívások indításához az alkalmazásokat regisztrálni kell az Azure AD-ben. További információt az [Azure AD alkalmazás regisztrálása Power BI-tartalmak beágyazásához](register-app.md) eljárást ismertető cikkben talál.
 
-### <a name="create-app-workspaces"></a>Alkalmazás-munkaterületek létrehozása
+### <a name="appws"></a>Alkalmazás-munkaterületek létrehozása
 
 Ha irányítópultokat és jelentéseket ágyaz be az ügyfelek számára, akkor ezeket az irányítópultokat és jelentéseket egy alkalmazás-munkaterületre kell helyezni. A fentiekben említett *fő* fióknak az alkalmazás-munkaterület rendszergazdájának kell lennie.
 
@@ -93,13 +96,17 @@ Ha irányítópultokat és jelentéseket ágyaz be az ügyfelek számára, akkor
 > Egy nem rendszergazdai felhasználó legfeljebb 250 munkaterületet hozhat létre. Több alkalmazás-munkaterület létrehozásához egy bérlői rendszergazdai fiókot kell használnia.
 >
 
-### <a name="create-and-upload-your-reports"></a>Jelentések létrehozása és feltöltése
+### <a name="createreports"></a>Jelentések létrehozása és feltöltése
 
 A Power BI Desktop segítségével létrehozhatja jelentéseit és adatkészleteit, majd közzéteheti ezeket a jelentéseket egy alkalmazás-munkaterületen. A jelentéseket közzétevő végfelhasználónak Power BI Pro-licencre van szüksége az alkalmazás-munkaterületen történő közzétételhez.
 
 ## <a name="step-2-embed-your-content"></a>2. lépés: A tartalmak beágyazása
 
-Az alkalmazásban hitelesítést kell végeznie a Power BI-jal. Ha az ügyfelei számára ágyaz be tartalmat, a *fő* fiók hitelesítő adatait az alkalmazáson belül tárolja. További információkért lásd [a felhasználók hitelesítésével és a Power BI-alkalmazáshoz Azure AD hozzáférési token beszerzésével](get-azuread-access-token.md) kapcsolatos cikket.
+Az alkalmazásban hitelesítést kell végeznie a Power BI-jal. Ha az ügyfelei számára ágyaz be tartalmat, a *fő* fiók hitelesítő adatait az alkalmazáson belül tárolja.
+
+> [!NOTE]
+> Az ügyfelek számára történő beágyazás közbeni felhasználóhitelesítéssel kapcsolatban további információkért tekintse meg [a felhasználók hitelesítésével és a Power BI-alkalmazáshoz Azure AD hozzáférési token beszerzésével](get-azuread-access-token.md) kapcsolatos cikket.
+>
 
 A hitelesítés után az alkalmazáson belül a Power BI REST API-kkal és a JavaScript API-kkal ágyazhat be irányítópultokat és jelentéseket az alkalmazásba. 
 
@@ -123,7 +130,7 @@ Néhány további lépés szükséges, ha át szeretne állni éles környezetre
 
 Ha a szervezete számára végez beágyazást, csak azt kell tudatnia másokkal, hogyan érhetik el az alkalmazását. 
 
-Az ingyenes felhasználók akkor használhatnak alkalmazás-munkaterületről (csoportból) beágyazott tartalmakat, ha a munkaterület elkülönített kapacitással rendelkezik. Az ingyenes felhasználót az alkalmazás-munkaterület (csoport) tagjaként sorolja fel. Egyéb esetben 401-es jogosulatlan hozzáférést jelző hibát kap. A következő táblázat az Office 365-ben elérhető Power BI Premium-termékváltozatokat sorolja fel.
+A hozzájuk rendelt licenc típusától függetlenül minden felhasználó használhat alkalmazás-munkaterületről (csoportból) beágyazott tartalmakat, ha a munkaterület elkülönített kapacitással rendelkezik. Ehhez hozzá kell adnia minden olyan felhasználót az alkalmazás-munkaterülethez, aki nem rendelkezik Power BI Pro-licenccel, különben 401-es, jogosulatlan hozzáférést jelző hibát kap. A következő táblázat az Office 365-ben elérhető Power BI Premium-termékváltozatokat sorolja fel.
 
 | Kapacitási csomópont | Magok száma összesen<br/>*(Háttérrendszer + előtérrendszer)* | Háttérrendszerbeli magok | Előtérrendszerbeli magok | DirectQuery-/élő kapcsolat korlátai | Maximális oldalmegjelenítések óránként csúcsidőszakban |
 | --- | --- | --- | --- | --- | --- |

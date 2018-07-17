@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 03/22/2018
+ms.date: 06/20/2018
 ms.author: maghan
 LocalizationGroup: Data from databases
-ms.openlocfilehash: f264dadf9d9d91083094d393e1b63d9f53aaca4c
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 0f2c3649a2c6e0582fe7536473f7a6ee9067ee1d
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34722359"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37137445"
 ---
 # <a name="azure-sql-data-warehouse-with-directquery"></a>Az Azure SQL Data Warehouse használata DirectQueryvel
 Ha DirectQueryvel csatlakozik az Azure SQL Data Warehouse-hoz, dinamikus jelentéseket hozhat létre az Azure SQL Data Warehouse-ban tárolt adatokat és metrikákat használva. DirectQuery használata esetén a rendszer valós idejű lekérdezéseket küld az Azure SQL Data Warehouse-ba az adatok feltárásakor. Ez a módszer az SQL Data Warehouse méreteit is tekintve lehetővé teszi, hogy percek alatt hozzunk létre dinamikus jelentéseket akár több terabájtnyi adatból is. Ezenkívül a **Megnyitás Power BI-ban** gomb lehetővé teszi, hogy a felhasználók közvetlenül is csatlakoztathassák a Power BI-t az SQL Data Warehouse-hoz anélkül, hogy külön be kellene írniuk az ehhez szükséges információt.
@@ -32,6 +32,11 @@ Az SQL Data Warehouse-összekötő használatakor:
 Ezek a korlátozások és megjegyzések a termék folyamatos fejlesztése következtében valószínűleg változni fognak. A csatlakozás részletes lépései alább olvashatók.
 
 ## <a name="using-the-open-in-power-bi-button"></a>A „Megnyitás Power BI-ban” gomb használata
+
+> [!Important]
+> Továbbfejlesztettük az Azure SQL Data Warehouse-kapcsolódást.  Az Azure SQL Data Warehouse-beli adatforráshoz való kapcsolódás leghatékonyabb módja a Power BI Desktop használata.  Miután elkészítette a modellt és a jelentést, közzéteheti a Power BI szolgáltatásban.  Az Azure SQL Data Warehouse-nak a Power BI szolgáltatásban használt közvetlen összekötője elavult.
+>
+
 Az SQL Data Warehouse és a Power BI között a legegyszerűbben az Azure betekintő portálon elérhető **Megnyitás Power BI-ban** gombot használva mozoghat. Ez a gomb lehetővé teszi, hogy fennakadások nélkül kezdhessen új irányítópultokat létrehozni a Power BI-t használva.
 
 1. Kiindulásképpen lépjen az SQL Data Warehouse-példányhoz az Azure betekintő portálon. Vegye figyelembe, hogy az SQL Data Warehouse jelenleg még csak az Azure betekintő portálról érhető el.
@@ -82,8 +87,8 @@ A teljes szervernevet és adatbázisnevet az Azure betekintő portálon találha
 >
 
 ## <a name="next-steps"></a>Következő lépések
-[Első lépések a Power BI-ban](service-get-started.md)  
-[Adatbeolvasás a Power BI-ban](service-get-data.md)  
+[Mi az a Power BI?](power-bi-overview.md)  
+[Power BI – Adatok lekérése](service-get-data.md)  
 [Az Azure SQL Data Warehouse](https://azure.microsoft.com/documentation/services/sql-data-warehouse/)  
 
 További kérdései vannak? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)

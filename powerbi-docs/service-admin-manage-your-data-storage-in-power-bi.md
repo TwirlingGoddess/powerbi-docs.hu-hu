@@ -10,20 +10,20 @@ ms.topic: conceptual
 ms.date: 06/28/2017
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: e7c0399072bfef35a1103a5db448da183f64f74c
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: a30c90b1c180277a584a152f26c7f92549284c7d
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34245362"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "36944744"
 ---
 # <a name="manage-your-data-storage"></a>Saját tárhely kezelése
 Ismerje meg, hogy miképpen biztosíthatja a jelentések és az adatkészletek további közzétételét az egyéni vagy az alkalmazás-munkaterületen található saját tárhely kezelésével.
 
 A felhasználók és az alkalmazás-munkaterületek saját adatkapacitással rendelkeznek
 
-* Az ingyenes és a Pro változat felhasználói esetében a tárhely maximális mérete 10 GB.
-* A Pro-felhasználók több, egyenként 10 GB-os alkalmazás-munkaterületet is létrehozhatnak.
+* A felhasználók tárhelyének maximális mérete 10 GB.
+* A Power BI Pro-licenccel rendelkező felhasználók több, egyenként 10 GB-os alkalmazás-munkaterületet is létrehozhatnak.
 
 Bérlői szinten az egy Pro-felhasználóra és alkalmazás-munkaterületre jutó teljes használat nem haladhatja meg a felhasználónkénti 10 GB-ot.
 

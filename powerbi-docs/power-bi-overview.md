@@ -6,15 +6,15 @@ manager: kfile
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: overview
-ms.date: 06/04/2018
+ms.date: 06/22/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 78edb9d45df1332a25ec27476562d6105c7a8a48
-ms.sourcegitcommit: b3b32b9b3935706d7caa091833bd32259d7ff6ee
+ms.openlocfilehash: c2e0dc401e5927e69ecb9b059042df646b238bd5
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34755369"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "36944399"
 ---
 # <a name="what-is-power-bi"></a>A Power BI bemutatása
 A **Power BI** olyan szoftverszolgáltatások, alkalmazások és összekötők gyűjteménye, amellyel az egymástól független adatforrásokat egymással együttműködő, vizuálisan megragadó, interaktív elemzésekké alakítja. Akár egyszerű Excel-táblákból, akár felhőalapú és helyszíni hibrid adatraktárak gyűjteményéből állnak az adatai, a **Power BI** segítségével könnyedén összekötheti az adatforrásokat, vizualizálhatja (vagy feltárhatja) a fontos részleteket, és megoszthatja az így kapott információt bárkivel, akivel csak szeretné.
@@ -57,4 +57,5 @@ A Power BI mobil és többoldalas jelentések létrehozása, telepítése és fe
 A Power BI jelentéskészítő kiszolgáló megoldást tűzfal mögött lehet üzembe helyezni, és ezt követően különféle módokon lehet a jelentéseket a megfelelő felhasználókhoz eljuttatni, akik megnézhetik azokat egy webböngészőben, mobileszközön vagy e-mailben is. Mivel a Power BI jelentéskészítő kiszolgálója kompatibilis a felhőalapú Power BI-jal, bármikor dönthet úgy, hogy áttelepül a felhőbe, ha készen áll rá.
 
 ## <a name="next-steps"></a>Következő lépések
-[Jelentkezzen be, olvasson be adatokat, és ismerkedjen meg a Power BI szolgáltatás használatának alapjaival](service-the-new-power-bi-experience.md)
+[Jelentkezzen be, olvasson be adatokat, és ismerkedjen meg a Power BI szolgáltatás használatának alapjaival](service-the-new-power-bi-experience.md)   
+[Oktatóanyag: Első lépések a Power BI szolgáltatásban](service-get-started.md)

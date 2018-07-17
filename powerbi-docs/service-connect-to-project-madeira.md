@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: b4462d8ef5037cf4fe76a6ff061b7993e8d8ec44
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 1ce4fe4e80138995e7ec356b92f31e45f3a2c920
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34245605"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37599784"
 ---
 # <a name="connect-to-project-madeira-with-power-bi"></a>Csatlakozás a „Madeira” projekthez a Power BI használatával
 A Power BI és a „Madeira” projekt tartalomcsomag segítségével egyszerűen elemezheti a „Madeira” projekt adatait. A Power BI begyűjti az adatait (beleértve a Sales, azaz értékesítési és a Financial, azaz pénzügyi adatokat), majd összeállít egy használatra kész irányítópultot, és jelentést készít az adatok alapján.
@@ -33,7 +33,7 @@ Kapcsolódjon a Power BI-hoz készült [„Madeira” projekt elemzési tartalom
     ![](media/service-connect-to-project-madeira/services.png)
 3. Válassza a **„Madeira” projekt** elemet, majd kattintson a **Lekérés** elemre.  
     ![](media/service-connect-to-project-madeira/projectmadeira.png)
-4. Amikor a rendszer erre kéri, adja meg a „Madeira” projekt URL-címét. Az URL-címnek pontosan ezt a mintát kell követnie: https://mycronusus.projectmadeira.com:7048/NAV/OData/Company('CRONUS%20US') a saját „Madeira” projektbeli cégnévvel. Ügyeljen arra, hogy az URL-cím nem perjelre végződik, és a kapcsolatnak https-kapcsolatnak kell lennie. Az URL-cím megkeresésének részleteit [alább](#FindingParams) találja.  
+4. Amikor a rendszer erre kéri, adja meg a „Madeira” projekt URL-címét. Az URL-címnek pontosan ezt a mintát kell követnie: <https://mycronusus.projectmadeira.com:7048/NAV/OData/Company('CRONUS%20US>) a saját „Madeira” projektbeli cégnévvel. Ügyeljen arra, hogy az URL-cím nem perjelre végződik, és a kapcsolatnak https-kapcsolatnak kell lennie. Az URL-cím megkeresésének részleteit [alább](#FindingParams) találja.  
    
     ![](media/service-connect-to-project-madeira/params.png)
 5. Amikor a rendszer erre kéri, válassza az Alapszintű Hitelesítés módszert, felhasználónévként adja meg a „Madeira” projekthez tartozó e-mail-címét, jelszóként pedig a „Madeira” projekthez tartozó fiókja webszolgáltatás-hozzáférési kulcsát. Amennyiben böngészőben már bejelentkezett a „Madeira” projektbe, elképzelhető, hogy nem kell ismét megadnia a hitelesítő adatait. A hozzáférési kulcs létrehozásának részleteit lásd [alább](#FindingParams).  
@@ -93,10 +93,10 @@ A Power BI irányítópult a fent felsorolt közzétett webszolgáltatásokat ha
 
 Ha a „Madeira” projekt URL-címének megadása után ez a hibaüzenet jelenik meg, ellenőrizze, hogy az alábbi követelmények teljesülnek-e:  
 
-   - Az URL-cím pontosan ezt a mintát követi: https://*mycronusus*.projectmadeira.com:7048/NAV/OData/Company('*CRONUS%20US*')  
-   - Törölje a vállalat neve utáni zárójeles szövegeket.  
-   - Ellenőrizze, hogy az URL-cím nem perjellel záródik-e.  
-   - Ellenőrizze, hogy az URL-cím biztonságos kapcsolatot használ-e – ezt a cím előtt a https előtag jelzi.  
+- Az URL-cím pontosan ezt a mintát követi: https://*mycronusus*.projectmadeira.com:7048/NAV/OData/Company('<em>CRONUS%20US</em>')  
+- Törölje a vállalat neve utáni zárójeles szövegeket.  
+- Ellenőrizze, hogy az URL-cím nem perjellel záródik-e.  
+- Ellenőrizze, hogy az URL-cím biztonságos kapcsolatot használ-e – ezt a cím előtt a https előtag jelzi.  
 
 **„Sikertelen bejelentkezés”** Ha a „Madeira” projekthez tartozó hitelesítő adataival az irányítópultra való bejelentkezés során „sikertelen bejelentkezés” hibaüzenet jelenik meg, ezt a következő hibák okozhatják:  
 
@@ -104,16 +104,16 @@ Ha a „Madeira” projekt URL-címének megadása után ez a hibaüzenet jeleni
    - A „Madeira” projekt példánya, amelyhez csatlakozni próbál, nem rendelkezik érvényes a SSL-tanúsítvánnyal. Ebben az esetben egy részletesebb hibaüzenet jelenik meg („nem sikerült megbízható SSL-kapcsolatot kiépíteni”). Vegye figyelembe, hogy az önaláírt tanúsítványok nem támogatottak.  
 
 **„Hoppá!”** Ha „Hoppá!” kezdetű hibaüzenet jelenik meg a hitelesítési párbeszédablak bezárása után, ezt leggyakrabban a tartalomcsomag adataihoz való kapcsolódással kapcsolatos hibák okozzák. Ellenőrizze, hogy az URL-cím a fent bemutatott mintát követi-e:  
-    https://*mycronusus*.projectmadeira.com:7048/NAV/OData/Company('*CRONUS%20US*')
+    https://*mycronusus*.projectmadeira.com:7048/NAV/OData/Company('<em>CRONUS%20US</em>')
 
 Gyakori hiba a webszolgáltatás teljes URL-címének megadása:  
-    https://*mycronusus*.projectmadeira.com:7048/NAV/OData/Company('*CRONUS%20US*')/powerbifinance
+    https://*mycronusus*.projectmadeira.com:7048/NAV/OData/Company('<em>CRONUS%20US</em>')/powerbifinance
 
 Illetve az is hiba, ha lemarad a vállalat neve:   
-    https://*mycronusus*.projectmadeira.com:7048/NAV/OData/
+    https://<em>mycronusus</em>.projectmadeira.com:7048/NAV/OData/
 
 ## <a name="next-steps"></a>Következő lépések
-[Első lépések a Power BI-ban](service-get-started.md)
+[A Power BI bemutatása](power-bi-overview.md)
 
 [Power BI – Alapfogalmak](service-basic-concepts.md)
 

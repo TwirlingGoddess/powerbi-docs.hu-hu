@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 4b05fcc005f821c4fee24071f28651b5df57709c
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 5a0c00b6082b3561a1e07e5eef4e4e21f71f97a3
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34249344"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37135467"
 ---
 # <a name="connect-to-servicenow-with-power-bi-for-incident-reporting"></a>Csatlakozás a ServiceNow-hoz a Power BI használatával incidensjelentések készítéséhez
 A ServiceNow több terméket és megoldást is kínál a vállalkozások számára, köztük üzleti, üzemeltetési és informatikai felügyeleti megoldásokat. A tartalomcsomag több jelentést és elemzést is tartalmaz a nyitott, a nemrég megoldott és a nemrég lezárt incidensekkel kapcsolatban.  
@@ -61,7 +61,7 @@ Ha a betöltéskor a rendszer a hitelesítő adatokkal kapcsolatos hibát jelez,
 Ha hosszú betöltési időket tapasztal, ellenőrizze az incidensek és a napok számát, amelyeket a csatlakozáskor megadott, és esetleg csökkentse ezeket.
 
 ## <a name="next-steps"></a>Következő lépések
-[Első lépések a Power BI-ban](service-get-started.md)
+[A Power BI bemutatása](power-bi-overview.md)
 
 [Power BI – Alapfogalmak](service-basic-concepts.md)
 

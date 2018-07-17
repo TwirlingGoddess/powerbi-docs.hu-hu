@@ -10,12 +10,12 @@ ms.topic: overview
 ms.date: 05/01/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 5e69ed0010c5a2ff496b761f54b4cf2561f9b4ca
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 1f3c871d4ac47a110f2085ef1bdccb166fc00643
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34297423"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "36944307"
 ---
 # <a name="what-is-power-bi-administration"></a>Mit jelent a Power BI-felügyelet?
 
@@ -73,12 +73,12 @@ A Power BI-adminisztrációhoz számos eszköz használható, amelyeket az aláb
 
 | **Eszköz** | **Tipikus feladatok** |
 | --- | --- |
-| Power BI felügyeleti portál |<ul><li>Felhasználók Power BI-hozzáférésének letiltása<br><li>Prémium kapacitás beszerzése és kezelése<br><li>A szolgáltatás színvonalának biztosítása<br><li>Besorolás és üzleti adatok kezelése<br><li>Tartalom közzétételére és megosztásra vonatkozó szabályzatok betartatása<br><li>Munkaterületek kezelése<br><li>Egyéni vizualizációk közzététele<br><li>A Power BI más alkalmazásokban való beágyazásához használt kódok ellenőrzése<br><li>Adathozzáférési és más problémák elhárítása</ul>|
-| Office 365 Felügyeleti központ |<ul><li>Felhasználók feliratkozásának kezelése<br><li>Pro-licencek vásárlása és hozzárendelése</ul>|
-| Office 365 Security & Compliance Center |<ul><li>Auditálási események áttekintése és kezelése</ul>|
-| Az Azure Active Directory (AAD) az Azure Portalon |<ul><li>További hozzáférési engedélyek konfigurálása a Power BI-erőforrásokhoz az AAD használatával<br><li>Power BI Embedded-kapacitás kiépítése</ul>|
-| PowerShell-parancsmagok |<ul><li>Munkaterületek és más Power BI-funkciók kezelése parancsfájlokkal</ul>|
-| Felügyeleti API-k |<ul><li>A Power BI-rendszergazdai feladatokhoz egyéni felügyeleti eszközöket is létrehozhat. A Power BI Desktoppal használhatóak például az alábbi API-k a felügyelethez kapcsolódó adatokat használó jelentések létrehozására</ul>|
+| Power BI felügyeleti portál |<ul><li>Prémium kapacitás beszerzése és kezelése</li><li>A szolgáltatás színvonalának biztosítása</li><li>Besorolás és üzleti adatok kezelése</li><li>Tartalom közzétételére és megosztásra vonatkozó szabályzatok betartatása</li><li>Munkaterületek kezelése<br><li>Egyéni vizualizációk közzététele</li><li>A Power BI más alkalmazásokban való beágyazásához használt kódok ellenőrzése</li><li>Adathozzáférési és más problémák elhárítása</li></ul>|
+| Office 365 Felügyeleti központ |<ul><li>Felhasználók feliratkozásának kezelése</li><li>Pro-licencek vásárlása és hozzárendelése</li><li>Felhasználók Power BI-hozzáférésének letiltása</li></ul>|
+| Office 365 Security & Compliance Center |<ul><li>Auditálási események áttekintése és kezelése</li></ul>|
+| Az Azure Active Directory (AAD) az Azure Portalon |<ul><li>További hozzáférési engedélyek konfigurálása a Power BI-erőforrásokhoz az AAD használatával</li><li>Power BI Embedded-kapacitás kiépítése</li></ul>|
+| PowerShell-parancsmagok |<ul><li>Munkaterületek és más Power BI-funkciók kezelése parancsfájlokkal</li></ul>|
+| Felügyeleti API-k és SDK-k |<ul><li>A Power BI-rendszergazdai feladatokhoz egyéni felügyeleti eszközöket is létrehozhat. A Power BI Desktoppal használhatóak például az alábbi API-k a felügyelethez kapcsolódó adatokat használó jelentések létrehozására</li></ul>|
 
 ## <a name="next-steps"></a>Következő lépések
 

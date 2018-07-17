@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 12/18/2017
 ms.author: maggies
-ms.openlocfilehash: aa4aac1b0628fb0670a4265095ba2abcae3c1dcf
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 2ca419e1e07485ad29c486d8626e78d9605c8468
+ms.sourcegitcommit: 5eb8632f653b9ea4f33a780fd360e75bbdf53b13
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34292570"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36965021"
 ---
 # <a name="set-data-alerts-in-the-power-bi-mobile-apps"></a>Adatriasztások beállítása a Power BI mobilalkalmazásokban
 A következőkre vonatkozik:
@@ -25,7 +25,7 @@ A következőkre vonatkozik:
 
 Beállíthat riasztásokat az irányítópulton a Power BI-mobilalkalmazásokban és a Power BI szolgáltatásban is. A riasztások figyelmeztetik, ha egy csempe adatainak változásai meghaladják a beállított korlátokat. A riasztások az egyetlen értéket tartalmazó csempékkel, például kártyákkal és mérőműszerekkel működnek, a streamelési adatokkal azonban nem. A mobileszközön beállított adatriasztásokat megtekintheti a Power BI szolgáltatásban és viszont. Mindenki csak a saját maga által beállított adatriasztásokat látja, még az irányítópultnak vagy a csempe pillanatképének a megosztása esetén is.
 
-Ha Power BI Pro-licenccel rendelkezik, vagy ha ingyenes Power BI-licenccel rendelkezik és a megosztott irányítópult prémium szintű kapacitást használ, beállíthat riasztásokat csempékhez. 
+Ha Power BI Pro-licenccel rendelkezik, vagy a megosztott irányítópult prémium szintű kapacitást használ, beállíthat riasztásokat csempékhez. 
 
 > [!WARNING]
 > Az adatalapú riasztások értesítései az adatokkal kapcsolatos információkat tartalmaznak. Ha a mobileszközét ellopják, javasoljuk, hogy a Power BI szolgáltatásban tiltsa le az összes adatalapú riasztási szabályt. 

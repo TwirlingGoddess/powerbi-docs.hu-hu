@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/28/2018
 ms.author: maghan
 LocalizationGroup: Share your work
-ms.openlocfilehash: b85ffb97948976e25347039dfa4f81dda9f1ea7c
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 2e02b4dfe9798eed393a0097ef4f220746acfdf6
+ms.sourcegitcommit: 695c65629d6d1faba61db2e1570324f65f235dde
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34254855"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37092345"
 ---
 # <a name="publish-to-web-from-power-bi"></a>Webes közzététel a Power BI-ból
 
@@ -135,7 +135,8 @@ A Power BI szolgáltatás adatforrásainak és jelentéseinek túlnyomó többs�
 5. Az "R" vizualizációk Webes közzétételű jelentésekben jelenleg nem támogatottak.
 6. Adatok exportálása weben közzétett jelentésben szereplő vizualizációkból
 7. ArcGIS Maps for Power BI-vizualizációk
-8. [Bizalmas vagy szellemi tulajdont képező információk biztonságának védelme](#publish-to-web-from-power-bi)
+8. Jelentésszintű DAX-mértékeket tartalmazó jelentések
+9. [Bizalmas vagy szellemi tulajdont képező információk biztonságának védelme](#publish-to-web-from-power-bi)
 
 ## <a name="tenant-setting"></a>Bérlőbeállítások
 

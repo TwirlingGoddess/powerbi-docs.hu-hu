@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 2761b2bd1230e18b5dd4e0b69342e55ed33d0983
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: e44d4bb48289b515797167fb3b91a9bbf0d2bcdd
+ms.sourcegitcommit: 695c65629d6d1faba61db2e1570324f65f235dde
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34250826"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37092161"
 ---
 # <a name="connect-to-uservoice-with-power-bi"></a>Csatlakozás a UserVoice-hoz a Power BI-ban
 A UserVoice-adatok egyszerűen nyomon követhetők és megvizsgálhatók aPower BI és a UserVoice-tartalomcsomag használatával. A Power BI beolvassa az adatokat, köztük a jegyeket, javaslatokat és elégedettségi mutatókat, majd az adatok alapján használatra kész irányítópultot és jelentéseket hoz létre.
@@ -35,7 +35,7 @@ Kapcsolódás a [UsreVoice-tartalomcsomaghoz](https://app.powerbi.com/getdata/se
 3. Válassza a **UserVoice**, majd a **Beolvasás** lehetőséget.
    
    ![](media/service-connect-to-uservoice/uservoice.png)
-4. Amikor a rendszer kéri, adja meg UserVoice URL-címét. Az URL-címnek pontosan meg kell felelnie a következő mintának: https://fabrikam.uservoice.com (a „fabrikam” helyén a saját terméke vagy szolgáltatása nevével).
+4. Amikor a rendszer kéri, adja meg UserVoice URL-címét. Az URL-címnek pontosan meg kell felelnie a következő mintának: `https://fabrikam.uservoice.com` (a „fabrikam” helyén a saját terméke vagy szolgáltatása nevével).
    
    >[!NOTE]
    >A cím végén nincs lezáró perjel, és a kapcsolati séma http**s**.
@@ -63,7 +63,7 @@ Kapcsolódás a [UsreVoice-tartalomcsomaghoz](https://app.powerbi.com/getdata/se
 
 Ha ezt a hibaüzenetet kapja a UserVoice URL-címe begépelése után, akkor győződjön meg a következő követelmények teljesüléséről:
 
-* Az URL-cím pontosan megfelel a következő mintának: „https://fabrikam.uservoice.com” (a „fabrikam” helyén a saját helyes UserVoice-os URL-előtagjával).
+* Az URL-cím pontosan megfelel a következő mintának: `https://fabrikam.uservoice.com` (a „fabrikam” helyén a saját helyes UserVoice-os URL-előtagjával).
 * Minden betű kisbetű.
 * Az URL-cím sémája 'http**s**'.
 * Az URL-cím vége nincs perjellel lezárva.

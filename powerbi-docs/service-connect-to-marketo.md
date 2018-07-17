@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 3f7ad953f36830db74fb8e611dc9a0641498affd
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: d3051537298ac8f8fb5fc8661cfca998a07fc625
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34252462"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37135260"
 ---
 # <a name="connect-to-marketo-with-power-bi"></a>Kapcsolódás a Marketo eszközhöz a Power BI használatával
 A Marketo eszközhöz készült Power BI-tartalomcsomag az érdeklődőkhöz és tevékenységeikhez kapcsolódó adatokkal segíti a Marketo-fiók elemzését. A kapcsolat lekéri az adatokat, és automatikusan a rendelkezésére bocsátja a rájuk épülő irányítópultot, valamint a kapcsolódó jelentéseket.
@@ -85,10 +85,10 @@ A Power BI-ból a Marketo eszközhöz indított API-hívások száma a Marketo-f
 | Programváltozások |7500 |50 |
 | **Összes API-hívás** | |**2200** |
 
-## <a name="next-steps"></a>További lépések
-[Első lépések a Power BI-ban](service-get-started.md)
+## <a name="next-steps"></a>Következő lépések
+[A Power BI bemutatása](power-bi-overview.md)
 
-[Adatbeolvasás a Power BI-ban](service-get-data.md)
+[Power BI – Adatok lekérése](service-get-data.md)
 
 [Power BI-blog: A Marketo adatainak figyelése és elemzése a Power BI-ban](http://blogs.msdn.com/b/powerbi/archive/2015/03/19/monitor-and-analyze-your-marketo-data-with-power-bi.aspx)
 

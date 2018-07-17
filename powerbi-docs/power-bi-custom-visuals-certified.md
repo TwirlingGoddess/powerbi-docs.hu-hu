@@ -10,12 +10,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/13/2018
 ms.author: mihart
-ms.openlocfilehash: 691956dace3ad7592be6763c97517384b7560681
-ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
+ms.openlocfilehash: efddb15572705d6d1c7cb215250360e94a8546cb
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/06/2018
-ms.locfileid: "34813595"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37600356"
 ---
 # <a name="getting-a-custom-visual-certified"></a>Egyéni vizualizáció *minősítésének* megszerzése
 ## <a name="what-is-meant-by-certified"></a>Mit értünk az alatt, hogy *minősített*?
@@ -39,7 +39,7 @@ A *minősített egyéni vizualizáció* olyan vizualizáció, amely megfelel biz
 Egyéni vizualizáció beküldése minősítésre:
 
 1. Küldjön egy e-mailt a Power BI egyéni vizualizációk támogatásáért felelő csapatának (pbicvsupport@microsoft.com). Az e-mailben adja meg az alábbi információkat:    
-   
+
    * Cím: Vizualizáció minősítésére vonatkozó kérelem    
    * A vizualizáció forráskódját tartalmazó GitHub-adattárra mutató hivatkozás    
    * Feleljen meg a követelményeknek (lásd fent)    
@@ -51,6 +51,7 @@ Egyéni vizualizáció beküldése minősítésre:
 A Microsoft saját belátása szerint eltávolíthatja a vizualizációkat a Minősített listáról.  
 
 ## <a name="list-of-custom-visuals-that-have-been-certified"></a>A már minősített egyéni vizualizációk listája
+
 | Az AppSource-ra mutató hivatkozás | A videóra mutató hivatkozás |
 | --- | --- |
 | [Őszirózsa diagram](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380759) | |
@@ -100,6 +101,7 @@ A Microsoft saját belátása szerint eltávolíthatja a vizualizációkat a Min
 | [Infografika-tervező](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380898) | |
 | [KPI-diagram az Akvelontól](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381432) | |
 | [KPI-oszlop a MAQ Software-től](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380996) | [Videó](https://youtu.be/rU0xoOlIq1U) |
+| [KPI-rács a MAQ Software-től](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380947) | [Videó](https://youtu.be/dM4PvZh71V0) |
 | [KPI-kijelző](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380832) | |
 | [KPI-szalagcím a MAQ Software-től](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380946) | [Videó](https://youtu.be/cudG4gsZ2V8) |
 | [Lineáris mérőműszer a MAQ Software-től](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380821) | [Videó](https://youtu.be/7_jFaM30dkc) |
@@ -126,7 +128,9 @@ A Microsoft saját belátása szerint eltávolíthatja a vizualizációkat a Min
 | [Szövegszűrő](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381309) | |
 | [Szövegburkoló a MAQ Software-től](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380826) | |
 | [Hőmérő a MAQ Software-től](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380847) | [Videó](https://youtu.be/SPX9mgrAdBc) |
+| [Időecset-szeletelő](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380798) | |
 | [Idővonal-szeletelő](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380786) | [Videó](https://youtu.be/ozMtZ4_NZ10) |
+| [Timeline a CloudScope-tól](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381427) | [Videó](https://youtu.be/szNi9YgXFJc) |
 | [Tornádó diagram](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380768) | [Videó](https://www.youtube.com/watch?v=AQvd2FhRyCI) |
 | [Kereskedelmi diagram a MAQ Software-től](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380823) | [Videó](https://youtu.be/xhTR6y6J9Ko) |
 | [Ultimate variancia](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381140) | [Videó](https://youtu.be/pDYF8iZxERs) |

@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: conceptual
-ms.date: 05/07/2018
+ms.date: 06/28/2018
 ms.author: maggies
-ms.openlocfilehash: 84a2fe350c1146591aa89c5900c10f2747e90cf3
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 3323258304f8c36131caf6ef269d9befa6cfbb96
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34297446"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37136525"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-android-devices"></a>Első lépések az androidos eszközökhöz készült Power BI mobilalkalmazással
 A Microsoft Power BI Android rendszerű eszközökön futó alkalmazása mobil felületet nyújt a Power BI, a Power BI jelentéskészítő kiszolgáló és a Reporting Services használatához. Bárhonnan megtekintheti és kezelheti helyszíni vagy felhőbeli céges irányítópultjait élő, érintésre reagáló mobil hozzáféréssel. Fedezze fel az adatokat az irányítópultokon, és ossza meg eredményeit munkatársaival e-mailben vagy SMS-ben. 
@@ -23,7 +23,7 @@ A Microsoft Power BI Android rendszerű eszközökön futó alkalmazása mobil f
 
 A Power BI Desktopban létrehozhat Power BI-jelentéseket és közzéteheti őket:
 
-* [Közzéteheti őket a Power BI szolgáltatásban](service-get-started.md), és irányítópultokat hozhat létre.
+* [Közzéteheti őket a Power BI szolgáltatásban](power-bi-overview.md), és irányítópultokat hozhat létre.
 * [Közzéteheti őket a helyszínen a Power BI jelentéskészítő kiszolgálón](report-server/quickstart-create-powerbi-report.md).
 
 Ezután az androidos Power BI alkalmazásban a helyszínen és a felhőben is dolgozhat az irányítópultokkal és a jelentésekkel.
@@ -136,7 +136,7 @@ Az androidos Power BI alkalmazásban az alábbi műveleteket is elvégezheti a P
 
 ### <a name="see-also"></a>Lásd még:
 * [Töltse le az Android-alkalmazást](http://go.microsoft.com/fwlink/?LinkID=544867) az Androidos alkalmazás-áruházból.
-* [Első lépések a Power BI-ban](service-get-started.md)
+* [A Power BI bemutatása](power-bi-overview.md)
 * Kérdése van? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)
 
 

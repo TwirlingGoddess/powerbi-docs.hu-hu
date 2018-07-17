@@ -9,12 +9,12 @@ ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 05/19/2018
 ms.author: mihart
-ms.openlocfilehash: bf196ccf45e964f6fc1044723f7232eaf60230e7
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: fda707d3f36e6db2157d04887780bb957567a523
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34471801"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37136249"
 ---
 # <a name="power-bi-videos"></a>Power BI-videók
 A Power BI saját YouTube-csatornával rendelkezik! Keresse fel [csatornánkat](https://www.youtube.com/user/mspowerbi/videos), és ha új a Power BI használatában, akkor érdemes az [Adatok elemzése és megjelenítése a Power BI használatával](https://www.youtube.com/playlist?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP) lejátszási listával kezdenie.
@@ -45,8 +45,8 @@ Tekintse meg a további videókhoz készült források és tartalmak gyűjtemén
 * [Interaktív Power BI-oktatás](https://powerbi.microsoft.com/guided-learning/) – a Power BI megismerésére szánt sorozat, könnyen feldolgozható fejezetekre bontva
 * [Guy in a Cube csatorna](https://www.youtube.com/channel/UCFp1vaKzpfvoGai0vE5VJ0w) – friss videók a Power BI funkcióiról és lehetőségeiről
 
-## <a name="next-steps"></a>További lépések
-[Első lépések a Power BI-ban](service-get-started.md)
+## <a name="next-steps"></a>Következő lépések
+[A Power BI bemutatása](power-bi-overview.md)
 
 További kérdései vannak? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)
 

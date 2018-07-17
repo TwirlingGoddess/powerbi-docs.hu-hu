@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 05/22/2018
+ms.date: 06/26/2018
 ms.author: mihart
 LocalizationGroup: Samples
-ms.openlocfilehash: b6ef85549b729b1a91aa4a9a5f4686dcbbabaeb1
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: a90dbf4341bd801c4ab7de05b68211be62a4d69d
+ms.sourcegitcommit: db03649b8241bf34566968bbede8c9a0d35852fd
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34471985"
+ms.lasthandoff: 06/28/2018
+ms.locfileid: "37067101"
 ---
 # <a name="what-sample-data-is-available-to-use-with-power-bi"></a>Milyen mintaadatok használhatók a Power BI-ban?
 Tegyük fel, hogy kezdő felhasználó a Power BI-ban, és egyelőre adatok nélkül szeretné kipróbálni.  Vagy már van egy adatkészlete, de mivel (még) nem ismeri a Power BI működését, aggódik, hogy valahogy kárt tesz az adatkészletben.
@@ -173,23 +173,23 @@ Szeretné tudni, hogyan alakulnak át az Excel-munkafüzet adatai Power BI-adatk
 ## <a name="the-power-bi-samples-as-pbix-files"></a>Power BI-minták .pbix-fájlként
 A minta-tartalomcsomagok .pbix-fájlként is elérhetők. A .pbix-fájlok a Power BI Desktop szolgáltatáshoz lettek kialakítva.  
 
-1. A fájlokat letöltheti az alábbi hivatkozásokkal.
+1. A fájlokat letöltheti az alábbi hivatkozásokkal. A következő linkek kiválasztásával automatikusan menti a fájlt a Letöltések mappába. 
 
-   * [Kiskereskedelmi elemzési minta](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail-Analysis-Sample-PBIX.pbix)
-   * [Szállítói minőségelemzési minta](http://download.microsoft.com/download/8/C/6/8C661638-C102-4C04-992E-9EA56A5D319B/Supplier-Quality-Analysis-Sample-PBIX.pbix)
-   * [Emberi erőforrások minta](http://download.microsoft.com/download/6/9/5/69503155-05A5-483E-829A-F7B5F3DD5D27/Human-Resources-Sample-PBIX.pbix)
-   * [Ügyfél-jövedelmezőségi minta](http://download.microsoft.com/download/6/A/9/6A93FD6E-CBA5-40BD-B42E-4DCAE8CDD059/Customer-Profitability-Sample-PBIX.pbix)
-   * [Lehetőségkövetési minta](http://download.microsoft.com/download/9/1/5/915ABCFA-7125-4D85-A7BD-05645BD95BD8/Opportunity-Analysis-Sample-PBIX.pbix)
-   * [Informatikaköltség-elemzési minta](http://download.microsoft.com/download/E/9/8/E98CEB6D-CEBB-41CF-BA2B-1A1D61B27D87/IT-Spend-Analysis-Sample-PBIX.pbix)
-   * [Beszerzéselemzési minta](http://download.microsoft.com/download/D/5/3/D5390069-F723-413B-8D27-5888500516EB/Procurement-Analysis-Sample-PBIX.pbix)
-   * [Értékesítési és marketing minta](http://download.microsoft.com/download/9/7/6/9767913A-29DB-40CF-8944-9AC2BC940C53/Sales-and-Marketing-Sample-PBIX.pbix)
-2. Mentse a letöltött fájlt.
-3. A Desktopban válassza a **Fájl > Megnyitás** lehetőséget, majd navigáljon arra a helyre, ahova a .pbix-mintafájlt mentette.
+   * [Kiskereskedelmi elemzési minta PBIX](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)
+   * [Szállítói minőségelemzési minta PBIX](http://download.microsoft.com/download/8/C/6/8C661638-C102-4C04-992E-9EA56A5D319B/Supplier%20Quality%20Analysis%20Sample%20PBIX.pbix)
+   * [Emberi erőforrások minta PBIX](http://download.microsoft.com/download/6/9/5/69503155-05A5-483E-829A-F7B5F3DD5D27/Human%20Resources%20Sample%20PBIX.pbix)
+   * [Ügyfél-jövedelmezőségi minta PBIX](http://download.microsoft.com/download/6/A/9/6A93FD6E-CBA5-40BD-B42E-4DCAE8CDD059/Customer%20Profitability%20Sample%20PBIX.pbix)
+   * [Lehetőségkövetési minta PBIX](http://download.microsoft.com/download/9/1/5/915ABCFA-7125-4D85-A7BD-05645BD95BD8/Opportunity%20Analysis%20Sample%20PBIX.pbix)
+   * [Informatikaköltség-elemzési minta PBIX](http://download.microsoft.com/download/E/9/8/E98CEB6D-CEBB-41CF-BA2B-1A1D61B27D87/IT%20Spend%20Analysis%20Sample%20PBIX.pbix)
+   * [Beszerzéselemzési minta PBIX](http://download.microsoft.com/download/D/5/3/D5390069-F723-413B-8D27-5888500516EB/Procurement%20Analysis%20Sample%20PBIX.pbix)
+   * [Értékesítési és marketing minta PBIX](http://download.microsoft.com/download/9/7/6/9767913A-29DB-40CF-8944-9AC2BC940C53/Sales%20and%20Marketing%20Sample%20PBIX.pbix)
+
+1. A Power BI Desktopban válassza a **Fájl > Megnyitás** lehetőséget, majd navigáljon arra a helyre, ahova a .pbix-mintafájlt mentette.
 
    ![](media/sample-datasets/power-bi-desktop-open.png)
-4. A megnyitáshoz kattintson a .pbix-fájlra.
+4. A Power BI Desktopban történő megnyitáshoz kattintson a .pbix-fájlra.
 
-## <a name="next-steps"></a>További lépések
+## <a name="next-steps"></a>Következő lépések
 [A Power BI alapvető fogalmai](service-basic-concepts.md)
 
 [Oktatóanyag: Csatlakozás a Power BI-mintákhoz](sample-tutorial-connect-to-the-samples.md)

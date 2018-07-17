@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: conceptual
-ms.date: 05/18/2018
+ms.date: 06/28/2018
 ms.author: maggies
-ms.openlocfilehash: 143d3c2a48ca6dbe6ca39f4a097e45654accaa04
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 701dbeb60ea93e2df1bbfe886373919ae97a39c8
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34721248"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37134892"
 ---
 # <a name="fixing-need-to-update-android-system-webview"></a>A „frissíteni kell az Android System Webview alkalmazást” hiba elhárítása
 Amikor bejelentkezik a Microsoft Power BI-hoz készült Android-mobilalkalmazásba, egy üzenetet kaphat, hogy frissítse az Android System Webview alkalmazást. 
@@ -29,7 +29,7 @@ Tulajdonképpen, valójában a Chrome alkalmazást kell frissítenie.
 * Térjen vissza a Google Play áruházba, keressen rá a Chrome kifejezésre, és töltse le a frissítést.
 
 ## <a name="next-steps"></a>Következő lépések
-* [Töltse le az Android-alkalmazást](http://go.microsoft.com/fwlink/?LinkID=544867) az androidos alkalmazás-áruházból.
-* [Első lépések a Power BI-ban](service-get-started.md)
+* [Töltse le az Android-alkalmazást](http://go.microsoft.com/fwlink/?LinkID=544867) az Androidos alkalmazás-áruházból.
+* [A Power BI bemutatása](power-bi-overview.md)
 * Kérdése van? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)
 

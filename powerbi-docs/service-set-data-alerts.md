@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 02/28/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 321e66fd5ed185a92c98bf7832dc3b71944be98d
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: ffbad48df6665d5dff6c4eca97e86e6f2850565f
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34689714"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37137584"
 ---
 # <a name="data-alerts-in-power-bi-service"></a>Adatriasztások a Power BI szolgáltatásban
 Riasztásokat állíthat be, amelyek figyelmeztetik, ha az irányítópultjain lévő adatok változásai meghaladják a beállított korlátokat. 
@@ -104,6 +104,6 @@ A riasztások számos módon kezelhetők: Magával az irányítópult csempéjé
 ## <a name="next-steps"></a>További lépések
 [Adatriasztást tartalmazó Microsoft Flow létrehozása](service-flow-integration.md)    
 [Adatriasztások beállítása mobileszközökön](mobile-set-data-alerts-in-the-mobile-apps.md)    
-[Első lépések a Power BI-ban](service-get-started.md)    
+[A Power BI bemutatása](power-bi-overview.md)    
 További kérdései vannak? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)
 

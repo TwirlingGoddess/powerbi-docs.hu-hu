@@ -3,18 +3,18 @@ title: Gyakori kérdések – Power BI Embedded
 description: Az alábbiakban a Power BI Embeddeddel kapcsolatos gyakori kérdések és válaszok listáját tekintheti át.
 author: markingmyname
 manager: kfile
+ms.author: maghan
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
-ms.date: 05/25/2018
-ms.author: maghan
-ms.openlocfilehash: bcdb20d22790b74b54caca5d21325039d6e718bf
-ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
+ms.date: 06/22/2018
+ms.openlocfilehash: 07d51448083f61725157d3ea37c5d9dc73e85157
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/06/2018
-ms.locfileid: "34812744"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37599950"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Gyakori kérdések – Power BI Embedded
 
@@ -76,7 +76,7 @@ Itt látható egy részlet a különbségek listájából, amely mindkét megold
 |  |A termékváltozat (Power BI Embedded)  |EM termékváltozat (Power BI Premium)  |P termékváltozat (Power BI Premium)  |
 |---------|---------|---------|---------|
 |Vásárlás     |Azure Portal |Office |Office |
-|Felhasználási módok |* Tartalmak beágyazása saját alkalmazásba |* Tartalmak beágyazása saját alkalmazásba<br>* Tartalmak megosztása Power BI FREE-felhasználókkal a PowerBI.com-on kívül, és tartalmak beágyazása más SaaS-alkalmazásokban (SharePoint, Teams) |* Tartalmak beágyazása saját alkalmazásba<br>* Tartalmak megosztása Power BI FREE-felhasználókkal a PowerBI.com-on kívül, és tartalmak beágyazása más SaaS-alkalmazásokban (SharePoint, Teams)<br>* Tartalmak megosztása Power BI FREE-felhasználókkal a PowerBI.com-on keresztül  |
+|Felhasználási módok |* Tartalmak beágyazása saját alkalmazásba |* Tartalmak beágyazása saját alkalmazásba<br>* Tartalmak megosztása Power BI FREE-felhasználókkal a PowerBI.com-on kívül, és tartalmak beágyazása más SaaS-alkalmazásokban (SharePoint, [Teams](https://powerbi.microsoft.com/en-us/blog/power-bi-teams-up-with-microsoft-teams/)) |* Tartalmak beágyazása saját alkalmazásba<br>* Tartalmak megosztása Power BI FREE-felhasználókkal a PowerBI.com-on kívül, és tartalmak beágyazása más SaaS-alkalmazásokban (SharePoint, Teams)<br>* Tartalmak megosztása Power BI FREE-felhasználókkal a PowerBI.com-on keresztül  |
 |Számlázás |Óránként |Havonta |Havonta |
 |Kötelezettségvállalás  |Nincs kötelezettségvállalás |Éves  |Havi/Éves |
 |Megkülönböztetés |Az Azure Portalon vagy API-kon keresztül teljes mértékű rugalmasságot tesz lehetővé, vagyis felfelé és lefelé történő méretezhetőséget, illetve az erőforrások felfüggesztését és folytatását  |Tartalmak beágyazására használható a SharePointban vagy a Microsoft Teamsben |Egy kapacitáson belül egyesíti az alkalmazásokba történő beágyazásokat és a Power BI szolgáltatás használatát |
@@ -95,6 +95,58 @@ Az Azure-on keresztül történő monitorozás már szerepel a rövid távú ter
 
 Jelenleg nincs automatikus méretezés, ugyanakkor bármikor bármelyik API méretezhető.
 
+### <a name="why-creatingscalingresuming-a-capacity-results-in-putting-the-capacity-into-a-suspended-state"></a>Miért módosítja a kapacitás létrehozása/méretezése/folytatása a kapacitás állapotát felfüggesztettre?
+
+A kapacitás kiépítése (méretezés/folytatás/létrehozás) sikertelen lehet. A kiépítési hívás hívójának ellenőriznie kell a kapacitás ProvisioningState tulajdonságát a Részletek beolvasása API-val: [Capacities - Get Details](https://docs.microsoft.com/rest/api/power-bi-embedded/capacities/getdetails) (Kapacitások – Részletek beolvasása).
+
+### <a name="why-can-i-only-create-pbie-in-a-specific-region"></a>Miért csak egy adott régióban hozhatok létre PBIE-t?
+
+Csak a PBI-bérlő régiójában hozhat létre PBIE-kapacitást.
+
+### <a name="how-can-i-find-what-is-my-pbi-tenant-region"></a>Hogyan találhatom meg a PBI-bérlőm régióját?
+
+A PBI-portál használatával megtudhatja, melyik régió a PBI-bérlőjének régiója.
+
+https://app.powerbi.com/ > ? > A Power BI bemutatása
+
+![A Power BI bemutatása](media/embedded-faq/about-01.png)
+![Bérlői régió](media/embedded-faq/tenant-location-01.png)
+
+### <a name="what-is-supported-with-the-communicating-sequential-processes-csp-channel"></a>Mit támogat a szekvenciális folyamatokat kommunikáló (CSP) csatorna?
+
+* A CSP előfizetési típusú bérlőjéhez létrehozhat PBIE-t
+* A partnerfiók bejelentkezhet az ügyfélbérlőbe, vásárolhat PBIE-t az ügyfélbérlőhöz, és meghatározhatja az ügyfélbérlő felhasználóját a Power BI-kapacitás adminisztrátoraként
+
+### <a name="why-do-i-get-an-unsupported-account-message"></a>Miért kapok „nem támogatott fiók” üzenetet?
+
+A Power BI megköveteli, hogy céges fiókkal jelentkezzen be. A Power BI-ra MSA-val (Microsoft-fiókkal) történő regisztráció nem támogatott.
+
+### <a name="can-i-use-apis-to-create--manage-azure-capacities"></a>Használhatok API-kat Azure-képességek létrehozására és kezelésére?
+
+Igen, vannak PowerShell-parancsmagok és ARM API-k, amelyeket használhat PBIE-erőforrások létrehozására és kezelésére.
+
+* REST API-k – https://docs.microsoft.com/rest/api/power-bi-embedded/
+* PowerShell-parancsmagok – https://docs.microsoft.com/powershell/module/azurerm.powerbiembedded/
+
+### <a name="what-is-the-pbi-embedded-dedicated-capacity-role-in-a-pbi-embedded-solution"></a>Mi az a PBI Embedded elkülönített kapacitási szerepkör a PBI Embedded megoldásban?
+
+Annak érdekében, hogy a [megoldást elő lehessen léptetni az éles környezetbe](https://docs.microsoft.com/en-us/power-bi/developer/embedding-content#step-3-promote-your-solution-to-production), szükséges, hogy a Power BI-tartalom (az alkalmazásban használt alkalmazás-munkaterület) hozz legyen rendelve egy elkülönített kapacitáshoz.
+
+### <a name="what-are-the-azure-regions-pbi-embedded-is-available"></a>Mely Azure-régiókban érhető el a PBI Embedded?
+
+[PAM](https://ecosystemmanager.azurewebsites.net/home) (EcoManager) – lásd termékrendelkezésre állás-kezelő
+
+Elérhető régiók (16 – ugyanazok a régiók, mint a Power BI-ban)
+* US (6) – USA keleti régiója, USA 2. keleti régiója, USA északi középső régiója, USA déli középső régiója, USA nyugati régiója, USA 2. nyugati régiója
+* Európa (2) – Észak-Európa, Nyugat-Európa
+* Ázsia és a Csendes-óceáni térség (2) – Délkelet-Ázsia, Kelet-Ázsia
+* Brazília (1) – Dél-Brazília
+* Japán (1) – Kelet-Japán
+* Ausztrália (1) – Délkelet-Ausztrália
+* India (1) Nyugat-India
+* Kanada (1) – Közép-Kanada
+* Egyesült Királyság (1) Egyesült Királyság déli régiója
+
 ### <a name="what-is-the-authentication-model-for-power-bi-embedded"></a>Milyen hitelesítési modellt használ a Power BI Embedded?
 
 A Power BI Embedded továbbra is az Azure AD használatával hitelesíti a fő felhasználót (a Power BI Pro-licenccel rendelkező kijelölt felhasználót) és a Power BI-ban található alkalmazást.
@@ -104,6 +156,17 @@ Az alkalmazások felhasználóinak hitelesítését és engedélyezését a füg
 Ha már rendelkezik egy Azure AD-bérlővel, akkor használhatja meglévő címtárát, vagy létrehozhat egy új Azure AD-bérlőt a beágyazott alkalmazásai tartalmainak biztonságához.
 
 AAD-token beszerzéséhez használhatja az Azure Active Directory valamely hitelesítési kódtárát – https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-authentication-libraries. Ügyfélkódtárak több platformhoz is elérhetőek.
+
+### <a name="my-application-already-uses-aad-for-user-authentication-how-can-we-use-this-identity-when-authenticating-to-power-bi-in-a-user-owns-data-scenario"></a>Az alkalmazásom már AAD-t használ a felhasználói hitelesítéshez. Hogyan használhatjuk ezt az identitást, a „Felhasználó az adatok tulajdonosa” forgatókönyvek esetében a Power BI-ban való hitelesítésekor? 
+
+Ez egy szokásos, más nevében történő OAuth-hitelesítési folyamat (https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-authentication-scenarios#web-application-to-web-api) Az alkalmazást úgy kell konfigurálni, hogy engedélyt kérjen a PowerBI szolgáltatáshoz (a szükséges hatókörökkel), és ha már rendelkezik felhasználói tokennel az alkalmazáshoz, egyszerűen csak hívnia kell az ADAL API AcquireTokenAsync metódust a felhasználói hozzáférési tokennel, és meg kell adnia a PowerBI erőforrás URL-címét erőforrás-azonosítóként. Tekintse át az alábbi kódrészletet, amely bemutatja ennek módját:
+
+```csharp
+var context = new AD.AuthenticationContext(authorityUrl);
+var userAssertion = new AD.UserAssertion(userAccessToken);
+var clientAssertion = new AD.ClientAssertionCertificate(MyAppId, MyAppCertificate)
+var authenticationResult = await context.AcquireTokenAsync(resourceId, clientAssertion, userAssertion);
+```
 
 ### <a name="how-is-power-bi-embedded-different-from-other-azure-services"></a>Miben különbözik a Power BI Embedded más Azure-szolgáltatásoktól?
 
@@ -181,8 +244,8 @@ A **Power BI-munkaterület-csoport** (a **Power BI Embedded** 1 verziója) egy o
 
 3. Ha készen áll a munkára, szerezzen be dedikált kapacitást a **Power BI Embedded** használatához, és rendelje hozzá a saját Power BI-tartalmat (munkaállomást).
 
->[!Note]
-Miközben párhuzamosan létrehozza a **Power BI Embedded** megoldást, tovább használhatja a **Power BI-munkaterületcsoportot** is. Miután elkészült, áttelepítheti az ügyfelet az új **Power BI Embedded** megoldásba, majd kivezetheti a **Power BI-munkaterületcsoportot**.
+> [!Note]
+> Miközben párhuzamosan létrehozza a **Power BI Embedded** megoldást, tovább használhatja a **Power BI-munkaterületcsoportot** is. Miután elkészült, áttelepítheti az ügyfelet az új **Power BI Embedded** megoldásba, majd kivezetheti a **Power BI-munkaterületcsoportot**.
 
 További információkért lásd: [Power BI-munkaterületcsoport tartalmainak áttelepítése a Power BI Embeddedbe](https://docs.microsoft.com/power-bi/developer/migrate-from-powerbi-embedded)
 

@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/12/2017
+ms.date: 06/28/2018
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 297805d187ccdea2c04e0b79ad86723ec80d3f80
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: f4d16a5694dde63b66dcb001f1a5375ed92d978c
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34310061"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37137169"
 ---
 # <a name="10-tips-for-getting-help-with-your-power-bi-questions"></a>10 tanács a Power BI szolgáltatással kapcsolatos segítségkéréshez
 Előfordult már, hogy bosszankodott a Power BI használata közben, vagy nehezen boldogult, mert nem kapott választ a Power BI-jal kapcsolatos kérdéseire, amikor szüksége volt rájuk – éppen a kellő időben? 
@@ -68,7 +68,7 @@ Ha semmi más nem segít, akkor a végső tanács, hogy figyelje meg a rendszert
 
 Tegyük fel például, hogy arra kíváncsi, meg tud-e osztani egy irányítópultot egy biztonsági csoporttal. A kérdés megválaszolásához nyissa meg a megosztási párbeszédablakot, és próbáljon hozzáadni egy biztonsági csoportot. Bármi is az eredmény, ez után a próba után választ kap a kérdésére.
 
-## <a name="next-steps"></a>További lépések
-* [Első lépések a Power BI-ban](service-get-started.md)
+## <a name="next-steps"></a>Következő lépések
+* [A Power BI bemutatása](power-bi-overview.md)
 * Kérdezze meg a [Power BI közösségét](http://community.powerbi.com/)
 * Továbbra sem találja a megoldást? Keresse fel a [Power BI támogatási oldalát](https://powerbi.microsoft.com/support/).

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mblythe
 LocalizationGroup: Get started
-ms.openlocfilehash: 060bebbc79db02d28755cc7832f4a4ef3d2d578f
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: abc53080456e27e58d8b9519c9d6543e66142780
+ms.sourcegitcommit: 627918a704da793a45fed00cc57feced4a760395
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34299493"
+ms.lasthandoff: 07/10/2018
+ms.locfileid: "37926490"
 ---
 # <a name="signing-up-for-power-bi-as-an-individual"></a>Egyéni Power BI-regisztráció
 Megtudhatja, hogyan regisztrálhat a Power BI szolgáltatásra, és hogyan veheti használatba személyes jelentéskészítési és vizualizációs munkáihoz.
@@ -32,8 +32,7 @@ Ez a cikk végigvezeti a regisztráció beállításain és a Power BI első lé
 Ha Ön egy olyan meglévő szervezet része, amely Office 365-öt használ, akkor is regisztrálhat ingyenes fiókra. A rendszergazdája is megvásárolhatja a Power BI Prót, illetve licenceket rendelhet a felhasználókhoz. További információ a rendszergazdai lehetőségekről: [A Power BI Pro megvásárlása](service-admin-purchasing-power-bi-pro.md).
 
 > [!NOTE]
-> Ha Ön egy szervezethez tartozik, előfordulhat, hogy az egyéni regisztráció lehetősége le van tiltva. Ha olyan jellegű hibaüzenetet kap, hogy ez a lehetőség ki van kapcsolva, további információt találhat az [Egyéni regisztráció ki van kapcsolva](#individual-sign-up-has-been-turned-off) című témakörben.
->
+> Ha Ön egy szervezethez tartozik, előfordulhat, hogy az egyéni regisztráció lehetősége le van tiltva. Ha olyan hibát kap, amely a regisztráció letiltását jelzi, forduljon az informatikai részleghez.
 
 ## <a name="what-you-need-to-sign-up"></a>Mi szükséges a regisztrációhoz?
 
@@ -69,16 +68,16 @@ A Power BI-regisztrációhoz az alábbi lépéseket kell elvégeznie.
 
 1. Nyissa meg a [powerbi.com](https://powerbi.microsoft.com) webhelyet.
 2. Válassza az **Ingyenes próba megkezdése** vagy az **Ingyenes regisztráció** lehetőséget.
-   
+
     ![](media/service-self-service-signup-for-power-bi/powerbi-free-signup1.png)
 3. A kezdőlapon válassza a **Próbálja ki ingyenesen >** lehetőséget a Power BI felirat alatt.
-   
+
     ![](media/service-self-service-signup-for-power-bi/powerbi-free-signup2.png)
 4. Adja meg a regisztrációs e-mail-címét, majd válassza a **Regisztráció** lehetőséget. Ellenőrizze, hogy regisztrációhoz engedélyezett e-mail-címet használ-e. További információ a használható e-mail-címekről: [Milyen e-mail-címmel használható a Power BI?](#what-email-address-can-be-used-with-power-bi).
-   
+
     ![](media/service-self-service-signup-for-power-bi/powerbi-free-signup3.png)
 5. Egy üzenetet fog kapni, amely arra kéri Önt, hogy nyissa meg a postafiókját.
-   
+
     ![](media/service-self-service-signup-for-power-bi/powerbi-free-signup4.png)
 6. Nyissa meg a beérkezett e-mailben található hivatkozást az e-mail-címe megerősítéséhez. Ekkor visszakerül a regisztrációs folyamat ablakába. Előfordulhat, hogy meg kell adnia néhány további adatot magáról.
 7. Ezt követően megnyílik a https://app.powerbi.com lap, Ön pedig ingyenes felhasználóként megkezdheti a Power BI használatát.
@@ -123,7 +122,7 @@ Ezután kattintson a **Próbaverzió indítása** elemre.
 > 
 
 ### <a name="what-this-looks-like-within-the-service"></a>A fiók megjelenése a szolgáltatásban
-A szolgáltatásban meggyőződhet arról, hogy Pro próbaverziós fiókja van. Ehhez kattintson a **fogaskerék* ikonra, majd válassza a **Személyes tárhely kezelése** lehetőséget.
+A szolgáltatáson belül úgy ellenőrizheti, hogy Pro-próbaverziós fiókja van-e, hogy a <strong>fogaskerék* ikonra kattint, majd a **Személyes tárhely kezelése</strong> lehetőséget választja.
 
 ![](media/service-self-service-signup-for-power-bi/powerbi-pro-trial3.png)
 
@@ -133,11 +132,12 @@ Egyéni felhasználóként nem vásárolhat Power BI Pro-licencet. A licenc megv
 ## <a name="troubleshooting"></a>Hibaelhárítás
 Számos esetben a Power BI-regisztráció elvégezhető a fentebb ismertetett egyszerű önkiszolgáló módszerrel. Előfordulhat azonban, hogy több okból kifolyólag nem tudja elvégezni a regisztrációt.  Az alábbi táblázat összefoglalja a leggyakoribb ilyen okokat, és a hozzájuk tartozó megoldásokat.
 
-| **Probléma/hibaüzenet** | **Ok és megkerülő megoldás** |
-| --- | --- |
-| **Személyes e-mail-cím (például: nancy@gmail.com)** A regisztráció során az alábbihoz hasonló üzenet jelenik meg: <br /><br /> *Személyes e-mail-címet adott meg. Adja meg a munkahelyi vagy az iskolai e-mail-címét a céges adatainak biztonságos tárolása érdekében.* <br /><br /> vagy <br /><br /> *Ez egy személyes e-mail-címnek tűnik. Adja meg a munkahelyi e-mail-címét, így össze tudjuk kapcsolni Önt a cége többi tagjával. Ne aggódjon. A címét nem osztjuk meg senkivel.* |A Power BI nem támogatja a fogyasztói e-mail-szolgáltatók vagy távközlési szolgáltatók által biztosított e-mail-címeket. <br /><br /> Próbálja meg újra a regisztrációt egy munkahelyi vagy iskolai e-mail-címmel. <br /><br /> Ha továbbra sem tud regisztrálni, és hajlandó egy bonyolultabb telepítési folyamatot elvégezni, [regisztráljon egy új Office 365-próbaverziós előfizetésre, és használja az ahhoz megadott e-mail-címet a regisztrációhoz](service-admin-signing-up-for-power-bi-with-a-new-office-365-trial.md). <br /><br /> A felhasználói fiókot [Azure B2B-vendégként](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-b2b-what-is-azure-ad-b2b) hívja meg. |
-| **Az önkiszolgáló regisztráció le van tiltva** A regisztráció során az alábbihoz hasonló üzenet jelenik meg: <br /><br /> *Nem tudjuk befejezni a regisztrációt. Az informatikai részleg kikapcsolta a Microsoft Power BI-regisztráció lehetőségét. A regisztráció befejezéséhez forduljon hozzájuk.* <br /><br /> vagy <br /><br /> *Ez egy személyes e-mail-címnek tűnik. Adja meg a munkahelyi e-mail-címét, így össze tudjuk kapcsolni Önt a cége többi tagjával. Ne aggódjon. A címét nem osztjuk meg senkivel.* |A szervezet rendszergazdája letiltotta az önkiszolgáló regisztrációt a Power BI szolgáltatásba. <br /><br /> A regisztráció befejezéséhez forduljon a rendszergazdához, és kérje meg, hogy kövesse az alábbi lap utasításait, és engedélyezze, hogy a meglévő felhasználók regisztrálhassanak a Power BI-ba, valamint hogy az új felhasználók csatlakozhassanak a meglévő bérlőhöz. <br/><br/> Ez a probléma akkor is felmerülhet, ha egy partneren keresztül regisztrált az Office 365-be. [További információ](service-admin-syndication-partner.md) <br /><br /> [Szervezeti Power BI](https://support.office.com/en-ca/article/Power-BI-in-your-Organization-d7941332-8aec-4e5e-87e8-92073ce73dc5#BKMK_HowCanIAllowO365Tenant) |
-| **Az e-mail-cím nem egy Office 365-azonosító** A regisztráció során az alábbihoz hasonló üzenet jelenik meg: <br /><br /> *Ön nem rendelkezik fiókkal a contoso.com oldalon.  A munkahelyén vagy az iskolában másik azonosítót használ? <br /><br /> Próbáljon meg bejelentkezni azzal, és ha nem jár sikerrel, kérje az informatikai részleg segítségét.* |A szervezet nem az e-mail-címet használja azonosítóként az Office 365-ba és más Microsoft-szolgáltatásokba való bejelentkezéshez.  Előfordulhat például, hogy az e-mail-címe Nancy.Smith@contoso.com, míg az azonosítója nancys@contoso.com. <br /><br /> Ilyenkor a regisztrációhoz használja a szervezet által az Office 365-be és más Microsoft-szolgáltatásokba való bejelentkezéshez kapott azonosítót.  Ha ezt nem tudja, forduljon a rendszergazdához. <br /><br /> Ha továbbra sem tud regisztrálni, és hajlandó egy bonyolultabb telepítési folyamatot elvégezni, [regisztráljon egy új Office 365-próbaverziós előfizetésre, és használja az ahhoz megadott e-mail-címet a regisztrációhoz](service-admin-signing-up-for-power-bi-with-a-new-office-365-trial.md). |
+
+|                                                                                                                                                                                                                          **Probléma/hibaüzenet**                                                                                                                                                                                                                           |                                                                                                                                                                                                                                                                                                                                                **Ok és megkerülő megoldás**                                                                                                                                                                                                                                                                                                                                                |
+|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| <strong>Személyes e-mail-cím (például: nancy@gmail.com)</strong> A regisztráció során az alábbihoz hasonló üzenet jelenik meg: <br /><br /> *Személyes e-mail-címet adott meg. Adja meg a munkahelyi vagy az iskolai e-mail-címét a céges adatainak biztonságos tárolása érdekében.* <br /><br /> vagy <br /><br /> *Ez egy személyes e-mail-címnek tűnik. Adja meg a munkahelyi e-mail-címét, így össze tudjuk kapcsolni Önt a cége többi tagjával. Ne aggódjon. A címét nem osztjuk meg senkivel.* |                          A Power BI nem támogatja a fogyasztói e-mail-szolgáltatók vagy távközlési szolgáltatók által biztosított e-mail-címeket. <br /><br /> Próbálja meg újra a regisztrációt egy munkahelyi vagy iskolai e-mail-címmel. <br /><br /> Ha továbbra sem tud regisztrálni, és hajlandó egy bonyolultabb telepítési folyamatot elvégezni, [regisztráljon egy új Office 365-próbaverziós előfizetésre, és használja az ahhoz megadott e-mail-címet a regisztrációhoz](service-admin-signing-up-for-power-bi-with-a-new-office-365-trial.md). <br /><br /> A felhasználói fiókot [Azure B2B-vendégként](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-b2b-what-is-azure-ad-b2b) hívja meg.                           |
+|            **Az önkiszolgáló regisztráció le van tiltva** A regisztráció során az alábbihoz hasonló üzenet jelenik meg: <br /><br /> *Nem tudjuk befejezni a regisztrációt. Az informatikai részleg kikapcsolta a Microsoft Power BI-regisztráció lehetőségét. A regisztráció befejezéséhez forduljon hozzájuk.* <br /><br /> vagy <br /><br /> *Ez egy személyes e-mail-címnek tűnik. Adja meg a munkahelyi e-mail-címét, így össze tudjuk kapcsolni Önt a cége többi tagjával. Ne aggódjon. A címét nem osztjuk meg senkivel.*             |                             A szervezet rendszergazdája letiltotta az önkiszolgáló regisztrációt a Power BI szolgáltatásba. <br /><br /> A regisztráció befejezéséhez forduljon a rendszergazdához, és kérje meg, hogy kövesse az alábbi lap utasításait, és engedélyezze, hogy a meglévő felhasználók regisztrálhassanak a Power BI-ba, valamint hogy az új felhasználók csatlakozhassanak a meglévő bérlőhöz. <br/><br/> Ez a probléma akkor is felmerülhet, ha egy partneren keresztül regisztrált az Office 365-be. [További információ](service-admin-syndication-partner.md) <br /><br /> [Szervezeti Power BI](https://support.office.com/en-ca/article/Power-BI-in-your-Organization-d7941332-8aec-4e5e-87e8-92073ce73dc5#BKMK_HowCanIAllowO365Tenant)                              |
+|                                                                                          **Az e-mail-cím nem egy Office 365-azonosító** A regisztráció során az alábbihoz hasonló üzenet jelenik meg: <br /><br /> *Ön nem rendelkezik fiókkal a contoso.com oldalon.  A munkahelyén vagy az iskolában másik azonosítót használ? <br /><br /> Próbáljon meg bejelentkezni azzal, és ha nem jár sikerrel, kérje az informatikai részleg segítségét.*                                                                                           | A szervezet nem az e-mail-címet használja azonosítóként az Office 365-ba és más Microsoft-szolgáltatásokba való bejelentkezéshez.  Előfordulhat például, hogy az e-mail-címe Nancy.Smith@contoso.com, míg az azonosítója nancys@contoso.com. <br /><br /> Ilyenkor a regisztrációhoz használja a szervezet által az Office 365-be és más Microsoft-szolgáltatásokba való bejelentkezéshez kapott azonosítót.  Ha ezt nem tudja, forduljon a rendszergazdához. <br /><br /> Ha továbbra sem tud regisztrálni, és hajlandó egy bonyolultabb telepítési folyamatot elvégezni, [regisztráljon egy új Office 365-próbaverziós előfizetésre, és használja az ahhoz megadott e-mail-címet a regisztrációhoz](service-admin-signing-up-for-power-bi-with-a-new-office-365-trial.md). |
 
 ## <a name="next-steps"></a>Következő lépések
 [Ingyenes szervezeti Power BI](service-admin-service-free-in-your-organization.md)  

@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: conceptual
-ms.date: 05/21/2018
+ms.date: 06/13/2018
 ms.author: maggies
-ms.openlocfilehash: 999fdf0376973d6550a5c4e214b4315db01e74e0
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 32d73b4be55190b908353083b497581cb1b08c6e
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34482245"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37599024"
 ---
 # <a name="view-on-premises-report-server-reports-and-kpis-in-the-power-bi-mobile-apps"></a>Helyszíni jelentéskészítő kiszolgálói jelentések és KPI-k megtekintése a Power BI-mobilalkalmazásokban
 
@@ -103,6 +103,9 @@ Most már megtekintheti és használhatja a jelentéskészítő kiszolgálón t�
 A Power BI-jelentések, a Reporting Services mobiljelentései és a KPI-k ugyanazokban a mappákban jelennek meg, amelyekben a Reporting Services webes portálján találhatók. 
 
 * Koppintson egy Power BI-jelentésre ![Power BI-jelentés ikon](media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-rs-mobile-report-icon.png). Fekvő tájolásban nyílik meg, és a Power BI alkalmazásban kezelheti.
+
+    > [!NOTE]
+  > A részletezés jelenleg nem engedélyezett a Power BI jelentéseiben és a Power BI jelentéskészítő kiszolgálón.
   
     ![Power BI-jelentés](media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-iphone-report-server-report.png)
 * A Power BI Desktopban a jelentések tulajdonosai [optimalizálhatják a jelentéseket](desktop-create-phone-report.md) a Power BI-mobilalkalmazásokhoz. Az optimalizált jelentések a mobiltelefonon különleges ikonnal ![Optimalizált Power BI-jelentés ikonja](media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-rs-mobile-optimized-icon.png) és elrendezéssel rendelkeznek.
@@ -129,6 +132,6 @@ KPI-ket és jelentéseket jelölhet meg kedvencekként a webes portálon, majd a
 3. Koppintson a **Kiszolgáló eltávolítása** elemre.
 
 ## <a name="next-steps"></a>Következő lépések
-* [Első lépések a Power BI-ban](service-get-started.md)  
+* [A Power BI bemutatása](power-bi-overview.md)  
 * Kérdése van? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)
 

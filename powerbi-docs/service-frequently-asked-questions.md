@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-sktopms.date: 06/01/2018
+sktopms.date: 06/28/2018
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 6341d5b3bba051cc31fe95f526450e03c14d4b69
-ms.sourcegitcommit: 5eb8632f653b9ea4f33a780fd360e75bbdf53b13
+ms.openlocfilehash: 08772389df36e72e4f8c83239ba396773070f61a
+ms.sourcegitcommit: ba447d7cc94418d7d3cf6fdcb686ec1a859258a8
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "36964814"
+ms.lasthandoff: 07/02/2018
+ms.locfileid: "37145387"
 ---
 # <a name="frequently-asked-questions-about-power-bi"></a>Gyakori kérdések – Power BI
 * Ha bármilyen egyéb kérdése van, [kérdezze a Power BI-közösséget](http://community.powerbi.com/).
@@ -54,7 +54,7 @@ Igen. Létezik nonprofit díjszabás, ha a szolgáltatást közvetlenül a Micro
 A Power BI [https://powerbi.com](https://powerbi.com) jelenleg nem érhető el privát, belső felhőszolgáltatásként. Azonban létezik három egyéb lehetőség az adatok helyszíni megtekintésére és használatára. 
 
 ### <a name="on-premises-data-gateway"></a>Helyszíni adatátjáró
-A Power BI és a Power BI Desktop használatával a felhasználók biztonságosan kapcsolódhatnak helyszíni adatforrásokhoz. A [helyszíni adatátjárók](service-gateway-onprem.md) használatával élőben lehet kapcsolódni helyszíni SQL Server Analysis Services-kiszolgálókhoz és más adatforrásokhoz. Továbbá ütemezett frissítést is beállíthat a központi átjáróval. Ha az átjáró nem érhető el, az adatokat a helyszíni adatforrásokból frissítheti a [Power BI Gateway - Personal](personal-gateway.md) használatával.
+A Power BI és a Power BI Desktop használatával a felhasználók biztonságosan kapcsolódhatnak helyszíni adatforrásokhoz. A [helyszíni adatátjárók](service-gateway-onprem.md) használatával élőben lehet kapcsolódni helyszíni SQL Server Analysis Services-kiszolgálókhoz és más adatforrásokhoz. Továbbá ütemezett frissítést is beállíthat a központi átjáróval. Ha az átjáró nem érhető el, az adatokat a helyszíni adatforrásokból frissítheti a [Power BI Gateway - Personal](service-gateway-personal-mode.md) használatával.
 
 ### <a name="power-bi-report-server"></a>Power BI jelentéskészítő kiszolgáló
 A Power BI jelentéskészítő kiszolgáló olyan megoldás, amelyet a helyszíni üzembe helyezés után jelentések létrehozására, közzétételére és kezelésére, valamint a jelentések különböző felhasználóknak különböző módon (webböngészővel, mobileszközön vagy e-mailben) való küldésére lehet használni. További információ: [Power BI jelentéskészítő kiszolgáló](report-server/get-started.md).
@@ -137,7 +137,8 @@ Sok más Microsoft-szolgáltatáshoz és -szoftverhez hasonlóan a Power BI is e
 
 * A legutóbbi művelet vagy az utolsó néhány művelet **visszavonásához** használja a CTRL+Z billentyűkombinációt.
 
-## <a name="next-steps"></a>További lépések
+## <a name="next-steps"></a>Következő lépések
+* [A Power BI bemutatása](power-bi-overview.md)
 * További kérdései vannak? [Kérdezze a Power BI-közösséget](http://community.powerbi.com/)
 * Továbbra is problémába ütközik? Keresse fel a [Power BI támogatási oldalát](https://powerbi.microsoft.com/support/).
 

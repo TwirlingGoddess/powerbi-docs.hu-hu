@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 02/05/2018
 ms.author: mblythe
 LocalizationGroup: Premium
-ms.openlocfilehash: 04963d513fa397e75c34f0650bf55fb31c1490f2
-ms.sourcegitcommit: b3b32b9b3935706d7caa091833bd32259d7ff6ee
+ms.openlocfilehash: 15b64b917fed56e9d9ab6be2023060378324c794
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34755093"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "36944560"
 ---
 # <a name="power-bi-premium---what-is-it"></a>Mit jelent a Power BI Premium?
 A Power BI Premium dedikált erőforrásokat biztosít cége vagy csapata számára a Power BI szolgáltatás futtatásához, megbízhatóbb teljesítményt biztosítva nagyobb mennyiségű adat kezeléséhez is. A Prémium szint lehetővé teszi a tartalom széles körű megosztását anélkül, hogy a megtekintők számára felhasználónkénti licenceket kellene vásárolnia.
@@ -36,11 +36,11 @@ A Power BI-ban két típusú kapacitás létezik. Az egyik a Megosztott kapacit�
 | **Frissítési időköz** |8/nap |Nincs korlátozva |
 | **Dedikált hardverrel elkülönítve** |![](media/service-premium/not-available.png "Nem érhető el") |![](media/service-premium/available.png "Elérhető") |
 | ***Minden felhasználó*** **számára elérhető vállalati terjesztés** | | |
-| Alkalmazások |![](media/service-premium/not-available.png "Nem érhető el") |![](media/service-premium/available.png "Elérhető")<sup>1</sup> |
+| Alkalmazások és megosztás |![](media/service-premium/not-available.png "Nem érhető el") |![](media/service-premium/available.png "Elérhető")<sup>1</sup> |
 | Beágyazott API-k és vezérlők |![](media/service-premium/not-available.png "Nem érhető el") |![](media/service-premium/available.png "Elérhető")<sup>2</sup> |
 | **Power BI-jelentések helyszíni közzététele** |![](media/service-premium/not-available.png "Nem érhető el") |![](media/service-premium/available.png "Elérhető") |
 
-*<sup>1</sup> A felhasználók szabadon használhatják az alkalmazásokat, így lehetőségük van többek között a tartalmak megtekintésére weben vagy mobileszközön, a Q&A használatára, gyors elemzések végrehajtására, a Cortana használatára, valamint az adatok CSV-be, Excel-be és PowerPointba exportálására. Pro-licenc szükséges az itt fel nem sorolt tevékenységekhez, például megosztott adatkészletekre épülő jelentések létrehozásához és az Excelben való elemezéshez. További információ a [Power BI ingyenes és Pro verziókban](service-free-vs-pro.md) elérhető funkciókról.*  
+*<sup>1</sup> További információt a [Power BI Pro és a Power BI Premium felhasználói képességeit ismertető](service-free-vs-pro.md) cikkben találhat.*  
 *<sup>2</sup> A Power BI Premium általános elérhetőségét követően további fejlesztések várhatók.*
 
 ### <a name="premium-capacity"></a>Prémium-kapacitás
@@ -51,7 +51,7 @@ Ha egy munkaterülethez prémium szintű kapacitás tartozik, élvezheti a Power
 * Ütemezett frissítések: Importált modellek esetén a frissítések száma korábban napi 8-ra volt korlátozva. Ez a korlát a Prémium munkaterületeken található adatkészleteknél magasabb. A DirectQueryhez tartozó ütemezett gyorsítótár-frissítési beállításokra ugyanakkor ez nem vonatkozik. Azok változatlanok maradnak, függetlenül attól, hogy megosztott vagy prémium szintű kapacitású munkaterülethez tartoznak-e.
 * Elkülönítés dedikált hardverrel – A megosztott kapacitás természetéből adódóan a jelentések és irányítópultok teljesítményére hatással lehet a kapacitásban jelentkező egyéb számítási feladatok erőforrásokkal szemben támasztott igénye, noha ezt próbáljuk kivédeni. Ezzel szemben a Prémium szint sokkal egyenletesebb, megbízhatóbb teljesítményt nyújt annak köszönhetően, hogy a munkaterülethez tartozó számítási feladatokat elkülöníti a többi számítási feladattól.
 
-Ha egy alkalmazás prémium szintű kapacitással van támogatva (azaz prémium szintű kapacitáshoz rendelt munkaterületről lett közzétéve), a közzétett alkalmazást a cég bármely felhasználója használhatja, függetlenül attól, hogy milyen licenccel rendelkeznek. Ez azt jelenti, hogy az ingyenes Power BI-licenccel rendelkező felhasználók is használhatják azokat a közzétett alkalmazásokat.
+Ha egy alkalmazás prémium szintű kapacitással van támogatva (azaz prémium szintű kapacitáshoz rendelt munkaterületről lett közzétéve), a közzétett alkalmazást a cég bármely felhasználója használhatja, függetlenül attól, hogy milyen licenccel rendelkeznek.
 
 ### <a name="shared-capacity"></a>Megosztott kapacitás
 Alapértelmezés szerint a munkaterületek megosztott kapacitáshoz tartoznak. Ez a személyes, *Saját munkaterületek* és az alkalmazás-munkaterületek esetén is így van. A Megosztott kapacitás a Power BI megszokott felhasználási módja, amelyben a számítási feladatok olyan számítási erőforrásokon futnak, amelyek más felhasználókkal vannak megosztva.

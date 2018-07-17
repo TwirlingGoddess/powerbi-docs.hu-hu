@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/24/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: d350593f3a5168d959711e1ca2bbbd8a86524187
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: a69cccafa9651bbda44ea2154ebe68463c9da907
+ms.sourcegitcommit: 7e0335bd8c263b5f8ba4303b986ddc450d842297
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34288061"
+ms.lasthandoff: 06/23/2018
+ms.locfileid: "36330122"
 ---
 # <a name="use-bookmarks-to-share-insights-and-build-stories-in-power-bi"></a>Elemzések megosztása és történetek felépítése a Power BI könyvjelzőivel 
 A Power BI-ban a **könyvjelzők** használatával rögzítheti az egyes jelentésoldalak aktuális nézetkonfigurációját, beleértve a szűréseket és a vizualizációk állapotát, hogy később egyszerűen a mentett könyvjelzőre kattintva visszaállíthassa az adott állapotot. 
@@ -56,7 +56,7 @@ A könyvjelzők jelenleg még nem mentik a keresztkiemelési állapotokat.
 
 ![Könyvjelző hozzáadása](media/desktop-bookmarks/bookmarks_04.png)
 
-A **Power BI Desktop** létrehoz egy könyvjelzőt, amelynek egy általános nevet ad. A könyvjelzőket könnyen *átnevezheti*, *törölheti* vagy *frissítheti*, ha a könyvjelző neve melletti három pontra (...) kattint, majd kiválasztja a megfelelő műveletet a megjelenő menüből.
+A **Power BI Desktop** létrehoz egy könyvjelzőt, amelynek egy általános nevet ad. A könyvjelzőket könnyen *átnevezheti*, *törölheti* vagy *frissítheti*, ha a könyvjelző neve melletti három pontra kattint, majd kiválasztja a megfelelő műveletet a megjelenő menüből.
 
 ![Könyvjelző almenüjének kiválasztása a három pontra kattintva](media/desktop-bookmarks/bookmarks_05.png)
 
@@ -128,7 +128,7 @@ Ha az előző képen látható vizualizáció **fókusz** ikonjára kattintunk, 
 
 ![fókusz mód](media/desktop-bookmarks/bookmarks_12.png)
 
-Ezzel szemben, ha a vizualizáció menüjében (...) a **Reflektorfény** elemre kattintunk, az oldal így néz majd ki:
+Ezzel szemben, ha a vizualizáció menüjében (...) a **Reflektorfény** elemre kattint, az oldal így néz majd ki:
 
 ![reflektorfény mód](media/desktop-bookmarks/bookmarks_13.png)
 

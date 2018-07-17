@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
-ms.date: 04/23/2018
+ms.date: 07/03/2018
 ms.author: maghan
-ms.openlocfilehash: ad23161985cc2721562cfdfd9128e326db887ece
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: b3c9599ea3ce01094bb75d9b036fb25b1ca7109a
+ms.sourcegitcommit: 627918a704da793a45fed00cc57feced4a760395
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34813158"
+ms.lasthandoff: 07/10/2018
+ms.locfileid: "37926559"
 ---
 # <a name="troubleshooting-your-embedded-application"></a>Beágyazott alkalmazás hibaelhárítása
 
@@ -96,6 +96,44 @@ Lehet, hogy az alkalmazás háttérszolgáltatásának a GenerateToken-hívás e
     {"error":{"code":"TokenExpired","message":"Access token has expired, resubmit with a new access token"}}
 ```
 
+## <a name="authentication"></a>Hitelesítés
+
+### <a name="authentication-failed-with-aadsts70002-or-aadsts50053"></a>A hitelesítés nem sikerült: AADSTS70002 vagy AADSTS50053
+
+**(AADSTS70002: Hiba történt a hitelesítő adatok ellenőrzésekor. AADSTS50053: Túl sokszor próbált bejelentkezni helytelen felhasználóazonosítóval vagy jelszóval)**
+
+Ha Ön a Power BI Embedded szolgáltatást használja Azure AD közvetlen hitelesítéssel, és ehhez hasonló üzeneteket kap bejelentkezéskor: ***error:unauthorized_client,error_description:AADSTS70002, akkor hiba történt a hitelesítő adatok érvényesítésekor. AADSTS50053: Túl sokszor próbált bejelentkezni helytelen felhasználóazonosítóval vagy jelszóval***, ez azért van, mert a közvetlen hitelesítés 2018/06/14 dátummal ki lett kapcsolva.
+
+Javasoljuk, használja az [Azure AD Conditional Access](https://cloudblogs.microsoft.com/enterprisemobility/2018/06/07/azure-ad-conditional-access-support-for-blocking-legacy-auth-is-in-public-preview/) (Azure AD feltételes hozzáférés) támogatását az elavult hitelesítések letiltására, vagy használja az [Azure AD Directory Pass-through Authentication](https://docs.microsoft.com/en-us/azure/active-directory/connect/active-directory-aadconnect-pass-through-authentication) (Azure AD Directory átmenő hitelesítés) módszerét.
+
+Azonban ennek visszakapcsolására is van lehetőség [Azure AD szabályzattal](https://docs.microsoft.com/en-us/azure/active-directory/manage-apps/configure-authentication-for-federated-users-portal#enable-direct-authentication-for-legacy-applications), amelynek hatóköre lehet a cég vagy egy [szolgáltatásnév](https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-application-objects#service-principal-object).
+
+**_Javasoljuk, hogy ezt csak alkalmazásonként engedélyezze és csak a kerülő megoldásához szükséges mértékig._**
+
+Ennek a szabályzatnak a létrehozásához **globális rendszergazdai** engedélyekre van szüksége ahhoz a könyvtárhoz, ahol létrehozza és hozzárendeli a szabályzatot. Itt látható egy mintaszkript a szabályzat létrehozásához és az SP-hez való hozzárendeléshez ennél az alkalmazásnál:
+
+1. Telepítse az [Azure AD előzetes verziójának PowerShell-modulját](https://docs.microsoft.com/en-us/powershell/azure/active-directory/install-adv2?view=azureadps-2.0).
+
+2. Futtassa a következő PowerShell-parancsokat soronként (győződjön meg róla, hogy a $sp változó nem kap egynél több alkalmazást eredményül).
+
+```powershell
+Connect-AzureAD
+```
+
+```powershell
+$sp = Get-AzureADServicePrincipal -SearchString "Name_Of_Application"
+```
+
+```powershell
+$policy = New-AzureADPolicy -Definition @("{`"HomeRealmDiscoveryPolicy`":{`"AllowCloudPasswordValidation`":true}}") -DisplayName EnableDirectAuth -Type HomeRealmDiscoveryPolicy -IsOrganizationDefault $false
+```
+
+```powershell
+Add-AzureADServicePrincipalPolicy -Id $sp.ObjectId -RefObjectId $policy.Id 
+```
+
+A szabályzat hozzárendelése után várjon körülbelül 15–20 másodpercig a propagálásra a tesztelés előtt.
+
 **A token generálása sikertelen a hatályos identitás megadásakor**
 
 Megadott hatályos identitás esetén a GenerateToken-hívás sikertelenségét több tényező is okozhatja.
@@ -113,6 +151,30 @@ Ahhoz, hogy eldönthesse, melyik okozza a hibát, próbálja meg a következőke
 * Ha az IsEffectiveIdentityRolesRequired true (igaz) értékű, akkor kötelező megadni a szerepkört.
 * A DatasetId megadása minden EffectiveIdentity esetén kötelező.
 * Az Analysis Serviceshez használt fő felhasználónak az átjáró rendszergazdájának kell lennie.
+
+### <a name="aadsts90094-the-grant-requires-admin-permission"></a>AADSTS90094: A hozzájáruláshoz rendszergazdai engedély szükséges
+
+**_Tünetek:_**</br>
+Amikor egy rendszergazdai jogokkal nem rendelkező felhasználó először próbál bejelentkezni egy alkalmazásba és a hozzájárulását adja, a következő hibaüzenetet kapja:
+* A ConsentTest folyamatnak olyan engedélyre van szüksége a cég erőforrásainak eléréséhez, amelyet csak egy rendszergazda adhat meg. Kérjen engedélyt a rendszergazdától az alkalmazáshoz, hogy használhassa azt.
+* AADSTS90094: A hozzájáruláshoz rendszergazdai engedély szükséges.
+
+    ![Hozzájárulás megadása – teszt](media/embedded-troubleshoot/consent-test-01.png)
+
+Egy rendszergazdai jogú felhasználó be tud jelentkezni, és sikeresen meg tudja adni az engedélyt.
+
+**_Alapvető ok:_**</br>
+Felhasználói jóváhagyás le van tiltva a bérlő számára.
+
+**_Többféle javítás lehetséges:_**
+
+*Felhasználói beleegyezés engedélyezése a teljes bérlőnek (minden felhasználó, minden alkalmazás)*
+1. Az Azure Portalon lépjen az „Azure Active Directory” => „Felhasználók és csoportok” => „Felhasználói beállítások” pontba
+2. Engedélyezze „A felhasználók engedélyezhetik, hogy az alkalmazások a felhasználók nevében hozzáférjenek a vállalati adatokhoz” beállítást, és mentse a módosításokat
+
+    ![Hozzájárulás megadásának javítása](media/embedded-troubleshoot/consent-test-02.png)
+
+*Engedélyek adása rendszergazdaként* Adjon engedélyeket az alkalmazásnak rendszergazdaként – az egész bérlőhöz vagy egy meghatározott felhasználóhoz.
 
 ## <a name="data-sources"></a>Adatforrások
 
@@ -175,7 +237,7 @@ A **Beágyazás a cég számára** mintaalkalmazás futtatásánál az alábbi h
 
     AADSTS50011: The reply URL specified in the request does not match the reply URLs configured for the application: <client ID>
 
-Ennek az az oka, hogy a webkiszolgáló alkalmazáshoz megadott átirányítási URL-cím más, mint a minta URL-cím. A mintaalkalmazás regisztrálásához használja a *http://localhost:13526/* címet átirányítási URL-ként.
+Ennek az az oka, hogy a webkiszolgáló alkalmazáshoz megadott átirányítási URL-cím más, mint a minta URL-cím. A mintaalkalmazás regisztrálásához használja a `http://localhost:13526/` címet átirányítási URL-ként.
 
 Ha szerkeszteni szeretné a regisztrált alkalmazást, ismerje meg, hogyan lehet szerkeszteni az [AAD-ben regisztrált alkalmazást](https://docs.microsoft.com/azure/active-directory/develop/active-directory-integrating-applications#updating-an-application), hogy az alkalmazás hozzáférhessen a webes API-khoz.
 

@@ -1,48 +1,46 @@
 ---
-title: Első lépések a Power BI mobilalkalmazással iPhone-on
-description: Bemutatjuk, hogyan teszi bárhol elérhetővé az iPhone-on futó iOS-es Microsoft Power BI-alkalmazás a Power BI-t, a helyszíni és felhőbeli üzleti információkhoz való mobil hozzáféréssel együtt.
+title: Az iOS-hez készült Power BI mobilalkalmazás használatának első lépései
+description: Megtudhatja, hogyan hozza el a mobileszközökhöz készült, iOS-es Microsoft Power BI-alkalmazás a Power BI-t az Ön zsebébe, a helyszíni és felhőbeli üzleti információkhoz való mobil hozzáféréssel együtt.
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: conceptual
-ms.date: 01/25/2018
+ms.date: 06/27/2018
 ms.author: maggies
-ms.openlocfilehash: 9a3177dc0fe80ebc6c1041ce64b1186cb5865e37
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 1700d5bb6a3c17b0a76e6cf04155050a01136e96
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34294410"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37136554"
 ---
-# <a name="get-started-with-the-power-bi-mobile-app-on-an-iphone-or-ipod-touch"></a>Első lépések a Power BI mobilalkalmazással iPhone-on vagy iPod Touch eszközön
-Az iPhone-on vagy iPod Touchon futó iOS-es Microsoft Power BI-alkalmazás mobil BI-élményt kínál a Power BI-hoz, a Power BI jelentéskészítő kiszolgálóhoz és a Reporting Services-hez. Tekintse meg és kezelje helyszíni vagy felhőbeli céges irányítópultjait bárhonnan élő, érintésre reagáló mobil hozzáféréssel. Fedezze fel az adatokat az irányítópultokon, és ossza meg eredményeit munkatársaival e-mailben vagy SMS-ben. Kísérje figyelemmel a legidőszerűbb adatokat [Appla Watch](mobile-apple-watch.md)on.  
+# <a name="get-started-with-the-power-bi-mobile-app-on-ios-devices"></a>Első lépések az iOS-eszközökhöz készült Power BI mobilalkalmazással
+Az iPhone-on, iPaed és iPod Touchon futó iOS-es Microsoft Power BI alkalmazás mobil BI-élményt kínál a Power BI-hoz, a Power BI jelentéskészítő kiszolgálóhoz és a Reporting Services-hez. Az élő, érintéssel vezérelhető mobil hozzáférés révén bárhonnan megtekintheti és kezelheti vállalata helyszíni és felhőbeli irányítópultjait. Fedezze fel az adatokat az irányítópultokon, és ossza meg eredményeit munkatársaival e-mailben vagy SMS-ben. Kísérje figyelemmel a legidőszerűbb adatokat [Appla Watch](mobile-apple-watch.md)on.  
 
-![iPhone-os Power BI-mobilalkalmazás irányítópultja](media/mobile-iphone-app-get-started/power-bi-mobile-get-started-dash.png)
+![Az iPhone-hoz és iPadhez készült Power BI mobilalkalmazás](media/mobile-iphone-app-get-started/pbi_ipad_iphonedevices.png)
 
-Power BI-jelentéseket a Power BI Desktopban hozhat létre, majd közzéteheti őket:
+Létrehozhat Power BI-jelentéseket a Power BI Desktopban, és közzéteheti őket:
 
 * [Közzéteheti őket a Power BI szolgáltatásban](service-get-started.md), és irányítópultokat hozhat létre.
 * [Közzéteheti őket a helyszínen a Power BI jelentéskészítő kiszolgálón](report-server/quickstart-create-powerbi-report.md).
 
-Ez után az Iphone-os Power BI-alkalmazásban dolgozhat az irányítópultjaival és jelentéseivel, akár a helyszínen, akár a felhőben.
+Ezután az iOS-es Power BI mobilalkalmazásban a helyszínen és a felhőben is dolgozhat az irányítópultokkal és a jelentésekkel.
 
 Ismerje meg [a Power BI mobilalkalmazások újdonságait](mobile-whats-new-in-the-mobile-apps.md).
 
 ## <a name="download-the-app"></a>Alkalmazás letöltése
-[iOS-alkalmazás letöltése](http://go.microsoft.com/fwlink/?LinkId=522062 "iPhone-alkalmazás letöltése") az Apple App Store-ból iPhone-ra vagy iPod Touchra.
+[iOS-alkalmazás letöltése](http://go.microsoft.com/fwlink/?LinkId=522062 "iOS-alkalmazás letöltése") az Apple App Store-ból iPhone-ra, iPadre vagy iPod Touchra.
 
-> [!NOTE]
-> Az iOS-es Power BI-alkalmazás iOS 10 vagy újabb rendszerű iPhone 5 és újabb eszközön futtatható. Futtatható iOS 10 vagy újabb rendszerű iPod Touch eszközön is.
-> 
-> 
+Az iOS-es Power BI-alkalmazás iOS 10 vagy újabb rendszerű iPhone 5 és újabb eszközön futtatható. Futtatható iOS 10 vagy újabb rendszerű iPaden vagy iPod Touch eszközön is. 
 
 ## <a name="sign-up-for-the-power-bi-service"></a>Regisztráció a Power BI szolgáltatásra
-Ha még nem tette meg, keresse a szolgáltatást a Power BI webhelyén (https://powerbi.com)). Ingyenes.
+Ha még nem regisztrált, látogasson el a [powerbi.com](https://powerbi.microsoft.com/get-started/) webhelyre, és a **Power BI - Felhőbeli együttműködés és megosztás** területen válassza az **Ingyenes próba** lehetőséget.
 
-## <a name="get-started-with-the-power-bi-app"></a>Első lépések a Power BI alkalmazással
-1. Nyissa meg a Power BI-alkalmazást az iPhone-on.
+
+## <a name="get-started-with-the-power-bi-app"></a>Power BI alkalmazás – Az első lépések
+1. Nyissa meg az iOS-eszközön a Power BI alkalmazást.
 2. Power BI-irányítópultjai megtekintéséhez koppintson a **Power BI** lehetőségre.  
    A Reporting Services mobil jelentéseinek és a KPI-k megtekintéséhez koppintson az **SQL Server Reporting Services** lehetőségre.
    
@@ -72,7 +70,7 @@ Megtekintheti és felhasználhatja a Power BI irányítópult-mintáit, de van n
 2. Koppintson a jobb felső sarokban lévő fogaskerék ikonra ![Fogaskerék ikon](media/mobile-iphone-app-get-started/power-bi-ios-gear-icon.png), majd a **Reporting Services-minták** lehetőségre.
 3. Nyissa meg a Kiskereskedelmi jelentések vagy az Értékesítési jelentések mappát, és vizsgálja meg bennük a KPI-ket és mobiljelentéseket.
    
-   ![Reporting Services-minták a Power BI-mobilalkalmazásban](media/mobile-iphone-app-get-started/power-bi-iphone-ssrs-samples.png)
+   ![Reporting Services-minták a Power BI-mobilalkalmazásban](media/mobile-iphone-app-get-started/power-bi-reporting-services-samples.png)
 
 ## <a name="find-your-content-in-the-power-bi-mobile-apps"></a>Tartalom keresése a Power BI-mobilalkalmazásban
 Az irányítópultokat és jelentéseket a rendszer különböző helyeken tárolja a Power BI mobilalkalmazásokban, attól függően, hogy honnan származnak. További információk: [A tartalmak megkeresése a mobilalkalmazásokban](mobile-apps-find-content-mobile-devices.md). Ezenkívül bármikor rákereshet bármire a Power BI mobilalkalmazásokban. 
@@ -101,37 +99,17 @@ Tájékozódjon a [kedvencek használatáról a Power BI-mobilalkalmazásokban](
 ## <a name="enterprise-support-for-the-power-bi-mobile-apps"></a>Nagyvállalati támogatás a Power BI mobilalkalmazásaihoz
 A cégek a Microsoft Intune használatával kezelhetik az eszközöket és alkalmazásokat, beleértve az Android és iOS rendszerhez készült Power BI-mobilalkalmazásokat.
 
-A Microsoft Intune használatával a cégek sok mindent meghatározhatnak, például hogy egy elemhez szükség van-e hozzáférési kódra, hogy az alkalmazás hogyan kezeli az adatokat, vagy akár az alkalmazásadatok titkosítását is, amikor az alkalmazás nincs használatban.
+A Microsoft Intune segítségével a cégek szabályozhatják az olyan elemeket, mint a hozzáférési PIN-kódok bekérése, az alkalmazások adatkezelési módja, vagy a nem használt alkalmazások alkalmazásadatainak titkosítása.
 
 > [!NOTE]
-> Ha iPhone-ján használja a Power BI-mobilalkalmazást, és a szervezete konfigurálta a Microsoft Intune mobilalkalmazás-kezelését, akkor a háttérbeli adatok frissítése ki van kapcsolva. Amikor legközelebb megnyitja az alkalmazást, a Power BI a webes Power BI szolgáltatásból frissíti az adatokat.
-> 
+> Ha a Power BI mobilalkalmazást egy iOS-eszközön használja, és a cége konfigurálta a Microsoft Intune MAM felügyeletet, a háttérben futó adatfrissítés ki van kapcsolva. A Power BI a weben futó Power BI szolgáltatásból frissíti az adatokat, amikor legközelebb belép az alkalmazásba.
 > 
 
 További információ a [Power BI-mobilalkalmazások Microsoft Intune-nal történő konfigurálásáról](service-admin-mobile-intune.md). 
 
-## <a name="next-steps"></a>További lépések
-Néhány további tevékenység következik, amelyeket az iPhone-os alkalmazásban tud elvégezni Power BI-irányítópultokkal és -jelentésekkel, valamint a Power BI jelentéskészítő kiszolgálón vagy a Reporting Services webes portálján lévő KPI-kkel.
+## <a name="next-steps"></a>Következő lépések
 
-### <a name="power-bi-dashboards-and-reports"></a>Power BI-irányítópultok és -jelentések
-* Megtekintheti [alkalmazásait](service-install-use-apps.md).
-* Megtekintheti [Power BI-irányítópultjait](mobile-apps-view-dashboard.md).
-* Saját szavaival [tehet fel kérdéseket az adatairól](mobile-apps-ios-qna.md) a Q&A-val
-* Megtekintheti Power BI-csempéit [Apple Watch](mobile-apple-watch.md) okosóráján.
-* [Adatriasztásokat](mobile-set-data-alerts-in-the-mobile-apps.md) állíthat be adataihoz.
-* Megoszthat [Power BI-irányítópultokat](mobile-share-dashboard-from-the-mobile-apps.md).
-* [Hozzáadott megjegyzéssel együtt oszthat meg](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md) csempéket, jelentéseket vagy vizualizációkat.
-* [Beolvashat egy Power BI QR-kódot](mobile-apps-qr-code.md) egy kapcsolódó irányítópult-csempe vagy jelentés megnyitásához.
-* [Képes csempéket hozhat létre](mobile-iphone-app-get-started.md) iPhone-alkalmazásával.
-* Megtekintheti [a Power BI-fiókjának frissítéseiről szóló értesítéseket](mobile-apps-notification-center.md), például ha a munkatársai megosztanak Önnel egy irányítópultot.
-
-### <a name="reports-and-kpis-on-the-report-server-web-portals"></a>Jelentések és KPI-k a jelentéskészítő kiszolgáló webes portáljain
-* [Jelentéseket és KPI-ket tekinthet meg a webes portálon](mobile-app-ssrs-kpis-mobile-on-premises-reports.md) az iOS-eszközökhöz készült Power BI-mobilalkalmazásban.
-* Létrehozhat [KPI-ket a webes portálon](https://docs.microsoft.com/sql/reporting-services/working-with-kpis-in-reporting-services).
-* [Jelentések létrehozása a Power BI Desktopban és közzétételük a Power BI jelentéskészítő kiszolgáló](report-server/quickstart-create-powerbi-report.md) webes portálján
-
-### <a name="see-also"></a>Lásd még
-* [Első lépések a Power BI-ban](service-get-started.md)
+* [A Power BI bemutatása](power-bi-overview.md)
 * Kérdése van? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)
 
 

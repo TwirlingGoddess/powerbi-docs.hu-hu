@@ -7,27 +7,27 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/05/2018
+ms.date: 07/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: d0cc0ce18a187280c48be0c84bf9adf680ea3ea4
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 11be5cd6f5b97fe612bf42a37228518ab2fbb227
+ms.sourcegitcommit: d1a0da8638c5d957b884ca9412275ee8880d4b14
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34813434"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37900054"
 ---
 # <a name="use-the-sap-bw-connector-in-power-bi-desktop"></a>Az SAP BW Connector használata a Power BI Desktopban
 A Power BI Desktopban hozzáférhet az **SAP Business Warehouse (BW)** adataihoz.
 
 Ha szeretné megismerni, milyen előnyökkel jár, ha az ügyfelek a Power BI-t a meglévő SAP Business Warehouse (BW) rendszerükhöz csatlakoztatják, olvassa el a [Power BI-t és az SAP BW-t bemutató tanulmányt](https://aka.ms/powerbiandsapbw).
 
-A **Power BI Desktop** 2018. júniusi kiadásától kezdődően az SAP BW-összekötő olyan új implementációját használhatja, amelyen jelentős teljesítménybeli és képességbeli fejlesztéseket végeztünk. Az SAP BW-összekötő felújított változatát a Microsoft fejlesztette, a neve **2.0-s Implementáció**. Ezentúl választhat a szabványos **SAP BW-összekötő** és az **SAP-összekötő 2.0-s Implementációja** között. A következő szakaszok az egyes verziók telepítését mutatják be egymás után. Amikor a Power BI Desktopból az SAP BW-hez kapcsolódik, kiválaszthatja, hogy a kettő közül melyik összekötőt kívánja használni.
+A **Power BI Desktop** 2018. júniusi kiadásától kezdődően az SAP BW-összekötő olyan új implementációját használhatja, amelyen jelentős teljesítménybeli és képességbeli fejlesztéseket végeztünk. Az SAP BW-összekötő felújított változatát a Microsoft fejlesztette, a neve **2.0-s Implementáció**. Ezentúl választhat az 1. verzió (v1) **SAP BW-összekötője** és az **SAP-összekötő 2.0-ás implementációja** között. A következő szakaszok az egyes verziók telepítését mutatják be egymás után. Amikor a Power BI Desktopból az SAP BW-hez kapcsolódik, kiválaszthatja, hogy a kettő közül melyik összekötőt kívánja használni.
 
 Javasoljuk, hogy amikor csak lehetséges az **SAP-összekötő 2.0-s Implementáció** lehetőséget válassza.
 
-## <a name="installation-of-the-standard-sap-bw-connector"></a>A szabványos SAP BW-összekötő telepítése
-Javasoljuk, hogy amikor csak lehetséges, az SAP-összekötő 2.0-s Implementációját használja (a használathoz útmutatást a következő szakaszban talál). Ez a szakasz a szabványos **SAP BW-összekötő** telepítését mutatja be, amelynek folyamata a következő telepítési lépésekből áll:
+## <a name="installation-of-version-1-of-the-sap-bw-connector"></a>Az SAP BW-összekötő 1. verziójának telepítése
+Javasoljuk, hogy amikor csak lehetséges, az SAP-összekötő 2.0-s Implementációját használja (a használathoz útmutatást a következő szakaszban talál). Ez a szakasz az **SAP BW-összekötő** 1. verziójának telepítését mutatja be, amelynek folyamata a következő telepítési lépésekből áll:
 
 1. Telepítse az **SAP NetWeaver** kódtárat a helyi számítógépen. Az **SAP Netweaver** kódtárat az SAP-rendszergazdától vagy közvetlenül az [SAP Software Download Center letöltőközpontból](https://support.sap.com/swdc) szerezheti be. Mivel az **SAP Software Download Center** szerkezete gyakran változik, a helyet nem tudjuk pontosabban meghatározni. Az **SAP NetWeaver** kódtárat általában az SAP Client Tools telepítése is tartalmazza.
    
@@ -54,11 +54,11 @@ Telepítéskor ügyeljen rá, hogy a **Választható telepítési lépések** (O
 ![Választható telepítési lépések az SAP-hoz](media/desktop-sap-bw-connector/sap_bw_2b.png)
 
 > [!NOTE]
-> A szabványos SAP BW-implementáció esetében szükség van a Netweaver DLL-fájlok telepítésére is, azonban ha az SAP-összekötő 2.0-s Implementációját használja, és nem a szabványos verziót, akkor a Netweaver DLL-fájlokra nincsen szükség.
+> Az SAP BW-implementáció 1. verziójának esetében szükség van a Netweaver DLL-fájlok telepítésére is, azonban ha az SAP-összekötő 2.0-ás implementációját használja, és nem az 1. verziót, akkor a Netweaver DLL-fájlokra nincsen szükség.
 
 
-## <a name="standard-sap-bw-connector-features"></a>A szabványos SAP BW-összekötő funkciói
-A Power BI Desktopban található szabványos **SAP BW-összekötő** használatával adatokat importálhat az **SAP Business Warehouse-kiszolgáló** típusú kockákból, de DirectQuery használatát is lehetővé teszi. 
+## <a name="version-1-sap-bw-connector-features"></a>Az SAP BW-összekötő 1. verziójának funkciói
+A Power BI Desktopban található **SAP BW-összekötő** 1. verziójának használatával adatokat importálhat az **SAP Business Warehouse-kiszolgáló** típusú kockákból, de DirectQuery használatát is lehetővé teszi. 
 
 Az **SAP BW Connectorról** és annak a DirectQueryvel való használatáról [A DirectQuery és az SAP Business Warehouse (BW)](desktop-directquery-sap-bw.md) című cikkből tájékozódhat.
 
@@ -101,7 +101,7 @@ Az SAP BW-összekötő 2.0-s Implementációjának használatához egy új kapcs
 
     ![SAP-kapcsolat párbeszédpanel](media/desktop-sap-bw-connector/sap_bw_7.png)
 
-3. Az **OK** lehetőség kiválasztása után a **Kezelő** használata már megegyezik a szakasz korábbi részében tárgyalt szabványos SAP BW-összekötő esetén leírtakkal. 
+3. Az **OK** lehetőség kiválasztása után a **Kezelő** használata már megegyezik a szakasz korábbi részében tárgyalt SAP BW-összekötő (1. verzió) esetén leírtakkal. 
 
 ### <a name="new-options-for-implementation-20"></a>A 2.0-s Implementáció új beállítási lehetőségei 
 
@@ -115,7 +115,7 @@ A 2.0-s Implementáció a következő beállítási lehetőségeket támogatja:
 
     A beállítás alapértelmezett értéke a SapBusinessWarehouseExecutionMode.BasXmlGzip.
 
-    A *SapBusinessWarehouseExecutionMode.BasXmlGzip.* beállítás használata javíthatja a teljesítményt nagy méretű adatkészletek vagy nagy késésű kapcsolat használata esetén.
+    A *SapBusinessWarehouseExecutionMode.BasXmlGzip.* beállítás használata javíthatja a teljesítményt nagy méretű adatkészletek nagy késésű kapcsolattal történő használata esetén.
 
 2. **BatchSize** (Köteg mérete) – Meghatározza az MDX-utasítások végrehajtásakor letöltött sorok maximális számát. Kevesebb sor esetén a nagyobb adatkészletek beolvasásához több hívásra lesz szükség a kiszolgáló felé. Nagy számú sor használata javíthat a teljesítményen, de memóriával kapcsolatos problémákat okozhat a SAP BW-kiszolgálón. Az alapértelmezett érték 50000 sor.
 
@@ -163,7 +163,7 @@ A meglévő jelentések átállítása **2.0-s Implementáció használatára** 
 
     ![lekérdezés-részlet](media/desktop-sap-bw-connector/sap_bw_12.png)
 
-4. Az SAP BW-összekötő 2.0-s Implementációjának fejlesztése során mindent megtettünk azért, hogy az kompatibilis maradjon a szabványos SAP BW-összekötővel. Ennek ellenére előfordulhat néhány különbség, amelyek az eltérő SAP BW MDX végrehajtási módok használatából fakadnak. Az egyezési hibák elhárítása érdekében érdemes lehet a különböző végrehajtási módok között váltani.
+4. Az SAP BW-összekötő 2.0-s Implementációjának fejlesztése során mindent megtettünk azért, hogy az kompatibilis maradjon az SAP BW-összekötő 1. verziójával. Ennek ellenére előfordulhat néhány különbség, amelyek az eltérő SAP BW MDX végrehajtási módok használatából fakadnak. Az egyezési hibák elhárítása érdekében érdemes lehet a különböző végrehajtási módok között váltani.
 
 ## <a name="troubleshooting"></a>Hibaelhárítás
 Ez a szakasz hibaelhárítási forgatókönyveket (és megoldásokat) mutat be az **SAP BW**-összekötő használatához.

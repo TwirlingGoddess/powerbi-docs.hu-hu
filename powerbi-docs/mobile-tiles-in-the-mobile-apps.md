@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: conceptual
-ms.date: 10/13/2017
+ms.date: 06/28/2018
 ms.author: maggies
-ms.openlocfilehash: 4680ab3709f1a2cbe56445e6719ea4de15396eb0
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 5601ab79832f2d52622f5c13ecd23f346408f08e
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34297653"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37598628"
 ---
 # <a name="explore-tiles-in-the-power-bi-mobile-apps"></a>Ismerkedés a Power BI-mobilalkalmazások csempéivel
 A következőkre vonatkozik:
@@ -40,7 +40,7 @@ Ezek a csempék aztán a Power BI mobilalkalmazásban fókusz módban megnyithat
    
     ![](media/mobile-tiles-in-the-mobile-apps/power-bi-iphone-line-tile-values.png)
    
-   *Ezen a vonaldiagramon a kijelölt érték például az **Idei értékesítések** és a **Tavalyi értékesítések** **augusztusi** értéke.*  
+   <em>Ezen a vonaldiagramon a kijelölt érték például az **Idei értékesítések</em>* és a **Tavalyi értékesítések** **augusztusi** értéke.*  
    
    Kördiagram esetén egy körcikkre koppintva a diagram felett megjeleníthető a körcikkhez tartozó érték.  
    
@@ -107,7 +107,7 @@ Ezek a csempék aztán a Power BI mobilalkalmazásban fókusz módban megnyithat
    
    ![](media/mobile-tiles-in-the-mobile-apps/pbi_win10ph_bartile0316.png)
    
-   *Ezen a sávdiagramon a **Decor** sáv értékei jelennek meg a diagram fölött.*
+   <em>Ezen a sávdiagramon a **Decor</em>* sáv értékei jelennek meg a diagram fölött.*
    
    A **Teljes képernyő** ikonra ![](media/mobile-tiles-in-the-mobile-apps/power-bi-full-screen-icon.png) koppintva teljes képernyős módban, a navigációs és menüsávok nélkül nyithatja meg a csempét.
    
@@ -125,7 +125,7 @@ Ezek a csempék aztán a Power BI mobilalkalmazásban fókusz módban megnyithat
    A Jelentés megnyitása ikonra ![](media/mobile-tiles-in-the-mobile-apps/power-bi-ipad-open-report-icon.png) koppintva [megtekintheti a jelentést](mobile-reports-in-the-mobile-apps.md) amelyen a csempe alapul. 
 4. A vissza nyílra koppintva vagy a vissza gombbal bezárhatja a csempét és visszatérhet az irányítópulthoz.
 
-## <a name="next-steps"></a>További lépések
-* [Első lépések a Power BI-ban](service-get-started.md)
+## <a name="next-steps"></a>Következő lépések
+* [A Power BI bemutatása](power-bi-overview.md)
 * Kérdése van? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)
 

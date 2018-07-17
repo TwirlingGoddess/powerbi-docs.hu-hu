@@ -10,17 +10,17 @@ ms.topic: conceptual
 ms.date: 09/11/2017
 ms.author: mgblythe
 LocalizationGroup: Premium
-ms.openlocfilehash: 3cf20899e705328c9f63bdbede4c30bd69488762
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 52c6293bacb2cae1d74a7a0459c61fe3c3bc201f
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34298320"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "36944353"
 ---
 # <a name="power-bi-premium-release-notes"></a>A Power BI Premium kibocsátási megjegyzései
 Az alábbiak a dedikált kapacitást kínáló Power BI Premium kibocsátási megjegyzései, amely a szervezet vagy csapat számára megbízhatóbb teljesítményt, nagyobb adatköteteket és a tartalom terjesztésének lehetőségét nyújtja anélkül, hogy a megtekintőknek felhasználói licencekkel kellene rendelkezniük.
 
-* Már az ingyenes Power BI-licenccel rendelkező felhasználók is megtekinthetik a Power BI prémium szintű munkaterületein velük megosztott irányítópultokat.
+* A hozzájuk rendelt licenc típusától függetlenül minden felhasználó megtekintheti a Power BI prémium szintű munkaterületein vele megosztott irányítópultokat.
 * A kapacitás-rendszergazdák automatikusan kapacitás-hozzárendelési engedélyt kapnak.
 * A beágyazott használati esetekhez már elérhető a dinamikus sorszintű biztonság (RLS). További információ: [Sorszintű biztonság (RLS) beágyazott elemzéssel](developer/embedded-row-level-security.md).
 * A Power BI-alkalmazásoknak a powerbi.com webhelyet használó más AAD-bérlők felhasználóival való megosztása egyelőre nem támogatott. Ennek lehetővé tétele folyamatban van.

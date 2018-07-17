@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 7402bc638f27175e1c8e1f733fefd508850d9943
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 75636885da6357a756508558841c99435aa5f442
+ms.sourcegitcommit: 695c65629d6d1faba61db2e1570324f65f235dde
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34245582"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37092184"
 ---
 # <a name="enable-qa-for-live-connections"></a>Q&A engedélyezése élő kapcsolatokhoz
 ## <a name="what-is-on-premises-data-gateway--what-is-a-live-connection"></a>Mi az a helyszíni adatátjáró?  Mi az az élő kapcsolat?
@@ -56,6 +56,7 @@ A funkció előzetes kiadási fázisában van néhány korlátozás:
 
 * Eredetileg a funkció csak az SQL Server 2016 Analysis Services táblázatos adatforrásaihoz áll rendelkezésre. A funkció táblázatos adatokkal való munkavégzésre van optimalizálva. Néhány funkció rendelkezésre áll több dimenziós adatforrásokhoz, de a teljes Q&A-élmény több dimenziós adatok esetén még nem támogatott. A helyszíni adatátjáró által támogatott további adatforrások bevezetése a későbbiekben fog történni.
 * Az SQL Server Analysis Servicesben meghatározott sorszintű biztonság teljes támogatása kezdetben a nyilvános előzetes verzióban nem áll rendelkezésre. Miközben kérdéseket tesz fel a Q&A-ben, a kérdések beírása közben megjelenő automatikus kitöltési javaslatok között lehetnek olyan sztringértékek, amelyekhez a felhasználó nem rendelkezik hozzáféréssel. A modellben meghatározott RLS-t azonban tiszteletben tartja a rendszer a jelentés- és a diagramvizualizációknál, ezért nem fed fel alapul szolgáló számadatokat. Az ezt a viselkedést vezérlő beállítások az elkövetkező frissítésekben fognak szerepelni.
+* Az objektumszintű biztonság (OLS) nem támogatott. A Q&A figyelmen kívül hagyja az objektumszintű biztonságot, és megjeleníti a táblázatok és oszlopok neveit azon felhasználóknak, akik nem férnek hozzájuk. Célszerű engedélyezni a sorszintű biztonságot, így meggyőződhet arról, hogy az adatértékeket is megfelelő biztonságban tartja. 
 * Az élő kapcsolatok csak a helyszíni adatátjárónál támogatottak. Ezért személyes adatátjáróval nem használhatók.
 
 ## <a name="next-steps"></a>Következő lépések

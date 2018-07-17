@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/22/2018
 ms.author: maghan
-ms.openlocfilehash: 806ec6051cf8b77dfe17664d82e6add40147f0ed
-ms.sourcegitcommit: 4b61588e3ab3c8bbb17276402dbf7fa00085a266
+ms.openlocfilehash: d41b0a84d512c5ef6cebf810a89fd74a838c672e
+ms.sourcegitcommit: 9efb94ddb254e9c03e9871ad232509065ee24bf2
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "35301734"
+ms.lasthandoff: 07/06/2018
+ms.locfileid: "37864353"
 ---
 # <a name="use-row-level-security-with-power-bi-embedded-content"></a>Sorszintű biztonság használata beágyazott Power BI tartalommal
 A sorszintű biztonság (RLS) a felhasználók adatokhoz való hozzáférésének korlátozására használható irányítópultoknál, csempéknél, jelentéseknél és adatkészleteknél. Ugyanazokkal az összetevőkkel több felhasználó is dolgozhat egyszerre úgy, hogy más-másféle adatokat látnak. A beágyazás támogatja a RLS-t.
@@ -65,11 +65,11 @@ Ezt a következőképpen teheti meg:
 3. A **District** (Kerület) táblában írja be a következő DAX-kifejezést: **[District Manager] = USERNAME()**.
    
     ![DAX-utasítás RLS-szabályhoz](media/embedded-row-level-security/powerbi-embedded-new-role-dax.png)
-4. A szabályok működésének biztosítása érdekében a **Modellezés** lapon válassza a **Megtekintés szerepkörökként** lehetőséget, majd válassza ki a most létrehozott **Manager** szerepkört és az **Egyéb felhasználó** szerepkört is. Írja be felhasználóként az **Andrew Ma** nevet.
+4. A szabályok működésének biztosítása érdekében a **Modellezés** lapon válassza a **Megtekintés szerepkörökként** lehetőséget, majd válassza ki a most létrehozott **Manager** szerepkört és az **Egyéb felhasználó** szerepkört is. Írja be felhasználóként az **AndrewMa** nevet.
    
     ![Megtekintés szerepkörökként párbeszédpanel](media/embedded-row-level-security/powerbi-embedded-new-role-view.png)
    
-    A jelentések most úgy jelenítenek meg adatokat, mintha **Andrew Ma** néven lenne bejelentkezve.
+    A jelentések most úgy jelenítenek meg adatokat, mintha **AndrewMa** néven lenne bejelentkezve.
 
 A szűrő alkalmazásakor, ahogyan itt tettük, a **District** (Kerület), **Store** (Áruház) és **Sales** (Értékesítések) táblákban lévő összes rekordhoz. A **Sales** (Értékesítések) és a **Time** (Idő) közötti kapcsolat szűrőiránya miatt azonban a **Sales** (Értékesítések) és az **Item** (Tétel), és az **Item** (Tétel) és a **Time** (Idő) táblákra nem szűr le. A kétirányú keresztszűrésről további információért töltse le az [SQL Server Analysis Services 2016-ban és a Power BI Desktopban használatható kétirányú keresztszűrést ismertető](http://download.microsoft.com/download/2/7/8/2782DF95-3E0D-40CD-BFC8-749A2882E109/Bidirectional%20cross-filtering%20in%20Analysis%20Services%202016%20and%20Power%20BI.docx) tanulmányt.
 

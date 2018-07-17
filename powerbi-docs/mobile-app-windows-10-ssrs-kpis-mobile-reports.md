@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: conceptual
-ms.date: 10/13/2017
+ms.date: 06/28/2018
 ms.author: maggies
-ms.openlocfilehash: 7bbf03c35284924c415a9ae1348528ed80c3f2fe
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: b7435aa7cda68854409c4be7981a06a70d999f09
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34295618"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37136226"
 ---
 # <a name="view-reporting-services-ssrs-mobile-reports-and-kpis-in-the-windows-10-power-bi-mobile-app"></a>Reporting Services- (SSRS-) mobiljelentések és -KPI-k megtekintése a Windows 10-hez készült Power BI mobilalkalmazásban
 A Windows 10-hez készült Power BI mobilalkalmazás valós idejű, érintéssel vezérelhető mobil hozzáférést biztosít az SQL Server 2016 Reporting Services szolgáltatásban található fontos helyszíni vállalati információkhoz. 
@@ -53,7 +53,7 @@ Böngéssze át a mintákat a KPI-kkel és mobiljelentésekkel való interakció
      `http://<servername>/reports` VAGY `https://<servername>/reports`
    
    > [!NOTE]
-   > Írja be a **http** vagy **https** előtagot a kapcsolati karakterlánc elejére.
+   > Írja be a **http** vagy **https** előtagot a kapcsolati sztring elejére.
    > 
    > 
    
@@ -110,6 +110,6 @@ A Power BI-mobilalkalmazásban nincs lehetősége Reporting Services-KPI-k és -
 
 ## <a name="next-steps"></a>Következő lépések
 * [A Windows 10-hez készült Power BI mobilalkalmazás használatának első lépései](mobile-windows-10-phone-app-get-started.md)  
-* [Első lépések a Power BI-ban](service-get-started.md)  
+* [A Power BI bemutatása](power-bi-overview.md)  
 * Kérdése van? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 02a88f04d3c23746da702db043c1992267baf054
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: d0e1fdc79ae4bcd5946d82f2cbf7b929a47372cb
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34248677"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37136801"
 ---
 # <a name="dashboards-in-power-bi-service"></a>Irányítópult a Power BI szolgáltatásban
 
@@ -84,7 +84,7 @@ A Power BI Pro az irányítópultok megosztásához és a megosztott irányító
 > 
 
 ## <a name="next-steps"></a>Következő lépések
-[Első lépések a Power BI-ban](service-get-started.md)  
+[A Power BI bemutatása](power-bi-overview.md)  
 [Power BI – Alapfogalmak](service-basic-concepts.md)  
 [Power BI Premium – pontosan mi is ez?](service-premium.md)  
 

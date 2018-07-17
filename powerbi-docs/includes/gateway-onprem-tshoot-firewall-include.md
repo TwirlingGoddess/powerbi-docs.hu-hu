@@ -1,7 +1,7 @@
 ## <a name="firewall-or-proxy"></a>Tűzfalak és proxyk
 Az átjáró proxyinformációinak megadásával kapcsolatban további információt a [Proxybeállítások konfigurálása a Power BI-átjárókhoz](../service-gateway-proxy.md) leírásban talál.
 
-A PowerShell parancssorból a [Test-NetConnection](https://technet.microsoft.com/library/dn372891.aspx) parancs futtatásával ellenőrizheti, hogy a tűzfal vagy proxy blokkolja-e a kapcsolatokat. Ez teszteli a kapcsolódást az Azure Service Bushoz. Ez csakis a hálózati kapcsolatot teszteli, és nem érinti a felhőkiszolgáló szolgáltatást vagy az átjárót. Ez a parancs segít megállapítani, hogy a gépe képes-e az internetkapcsolatra.
+A PowerShell parancssorból a [Test-NetConnection](https://docs.microsoft.com/powershell/module/nettcpip/test-netconnection) parancs futtatásával ellenőrizheti, hogy a tűzfal vagy proxy blokkolja-e a kapcsolatokat. Ez teszteli a kapcsolódást az Azure Service Bushoz. Ez csakis a hálózati kapcsolatot teszteli, és nem érinti a felhőkiszolgáló szolgáltatást vagy az átjárót. Ez a parancs segít megállapítani, hogy a gépe képes-e az internetkapcsolatra.
 
     Test-NetConnection -ComputerName watchdog.servicebus.windows.net -Port 9350
 

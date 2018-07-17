@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 05/09/2018
+ms.date: 06/13/2018
 ms.author: maikelson
-ms.openlocfilehash: 29aba440f92f37763dd9887b5fa7511d6191a5f7
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 8a20e5b9807f9495183ebb1e6bd396e68f02c1a1
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34299286"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37137595"
 ---
 # <a name="power-bi-webinars"></a>Power BI-webináriumok
 
@@ -22,25 +22,9 @@ Regisztráljon a soron következő élő előadásokra, vagy tekintse meg őket 
 
 ## <a name="upcoming-webinars"></a>Közelgő webináriumok
 
-Regisztráció a Power BI-szakértők előadásaira, ahol lehetősége van élőben feltenni kérdéseit
+Még nincs tervezett webinárium. Látogasson vissza később közelgő eseményekért.
 
-**Pontos elemzések a Power BI és a Visio használatával**
-<br>Előadó: Shakun Grover
-<br>*2018. MÁJUS 22. 10:00 (CSENDES-ÓCEÁNI TÉLI IDŐ), 13:00 (KELETI TÉLI IDŐ)*
-
-Tartson velünk ezen a webináriumon, és ismerje meg, hogyan kombinálhatja a Power BI irányítópultjait a Microsoft Visio grafikonjaival a hatásos vizuális elemzések elkészítéséhez. A Visio és a Power BI egyaránt sok látványelemet használ, és természetes kiegészítői egymásnak. A Visio segítségével grafikonokon szemléltethet például összekapcsolt munkafolyamatokat és valós elrendezéseket. A Power BI-ban intuitív irányítópultokat hozhat létre, amelyek a fő teljesítménymutatókat és célkitűzéseket mutatják be grafikonokkal és térképekkel.
-
-[Regisztráció a május 22-i előadás megtekintéséhez](https://info.microsoft.com/ww-landing-powerbi-and-visio.html?Is=Website)
-
-**Ismerje meg 20 percben a Power BI Embedded alkalmazást**
-<br>Készítette: Megan Asarrane és Colin Murphy
-<br>*2018. május 23. 10:00 (Csendes-óceáni téli idő), 13:00 (Keleti téli idő)*
-
-A webinárium célja, hogy bevezetést nyújtson a Power BI Embedded használatába. A webinárium megtekintése után a felhasználók tudni fogják, hogy mire szolgál a Power BI Embedded, tisztában lesznek a termék használatához szükséges következő lépésekkel, valamint tudni fogják, hogy hol találhatnak segítséget/erőforrásokat.
-
-[Regisztráció a május 23-i előadás megtekintéséhez](https://info.microsoft.com/ww-landing-power-bi-embedded-in-20-min.html?Is=Website)
-
->[Részvétel a Power BI-közösség közelgő webináriumain](https://powerbi.microsoft.com/en-us/blog/tag/community-webinar?Is=Website)
+>[Részvétel a Power BI-közösség közelgő webináriumain](https://powerbi.microsoft.com/en-us/blog/tag/community-webinars/?Is=Website)
 
 ## <a name="featured-webinars"></a>Kiemelt előadások
 
@@ -78,15 +62,27 @@ Előadások megtekintése felvételről, tetszés szerinti időpontban
 <br>Készítette Charles Sterling
 <br>[Megtekintés](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/5-3-17-Webinar-How-to-Design-Visually-Stunning-Power-BI-Reports/m-p/168204?Is=Website)
 
+**Ismerje meg 20 percben a Power BI Embedded alkalmazást**
+<br>Készítette: Megan Asarrane és Colin Murphy
+<br>[Regisztráció és megtekintés](https://info.microsoft.com/ww-landing-power-bi-embedded-in-20-min.html?Is=Website)
+
 **A táblázatokon túl**
 <br>Előadó: Gohul Shanmugalingam
 <br>[Regisztráció és megtekintés](https://info.microsoft.com/CA-PowerBI-WBNR-FY18-05May-09-DataBeyondtheSpreadsheet-MCW0006385_01Registration-ForminBody.html?Is=Website)
+
+**Pontos elemzések a Power BI és a Visio használatával**
+<br>Előadó: Shakun Grover
+<br>[Regisztráció és megtekintés](https://info.microsoft.com/ww-landing-powerbi-and-visio.html?Is=Website)
 
 **Jó minőségű jelentésből kiváló jelentés!**
 <br>Készítette Reid Havens
 <br>[Megtekintés](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/Power-BI-Transforming-A-Report-From-Good-to-GREAT/m-p/315119?Is=Website)
 
 ### <a name="partners"></a>Partnerek ###
+
+**A Power BI továbbfejlesztése helyadatokkal**
+<br>Előadó: Scott Ball az Esritől és Enrique Plaza a Microsofttól
+<br>[Regisztráció és megtekintés](https://info.microsoft.com/ww-ondeamnd-boost-powerbi-with-arcgis.html?Is=Website)
 
 **A jövedelmezőség növelése az egészségügyben**
 <br>Készítette Stephen Cracknell és Stuart Macanliss, US Medical IT
@@ -172,7 +168,7 @@ Előadások megtekintése felvételről, tetszés szerinti időpontban
 
 - [A Microsoft Data Insights Summit 2017-es rendezvényének felvételről megtekinthető előadásai](https://community.powerbi.com/t5/Data-Insights-Summit-2017-On/bd-p/DataInsightsSummit2017OnDemand?Is=Website)
 
-- [Power BI – első lépések](service-get-started.md)
+- [A Power BI bemutatása](power-bi-overview.md)
 
 - Kövessen minket [@MSPowerBI a Twitteren](https://twitter.com/mspowerbi)
 

@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 05/09/2018
+ms.date: 06/06/2018
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: db32f7d0d3f7ca7b6943ca5347dc349c8c44be85
-ms.sourcegitcommit: 4b61588e3ab3c8bbb17276402dbf7fa00085a266
+ms.openlocfilehash: 750dbf2593981e8fc9ad5f2f66219d6bf6fd641c
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "35301849"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37137468"
 ---
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>A Power BI szolgáltatás újdonságai
@@ -31,11 +31,19 @@ Az újdonságokról és a funkciókról az alábbi YouTube-csatornákon is táj�
 * [Microsoft Power BI (YouTube)](https://www.youtube.com/channel/UCy--PYvwBwAeuYaR8JLmrfg)
 * [Guy in a Cube (YouTube)](https://www.youtube.com/channel/UCFp1vaKzpfvoGai0vE5VJ0w)
 
-## <a name="april-2018"></a>2018. április
+## <a name="may-2018"></a>2018. máj.
+* [Témák irányítópultjai](https://docs.microsoft.com/en-us/power-bi/service-dashboard-themes) a Power BI szolgáltatásban.
+* [Növekményes frissítések](https://docs.microsoft.com/en-us/power-bi/service-premium-incremental-refresh) a Prémium szolgáltatásban.
+* Hozzáféréskérési munkafolyamat a [Power BI Appshez](https://docs.microsoft.com/en-us/power-bi/service-create-distribute-apps).
+* Adatfrissítések kérése, hogy a felhasználók könnyebben megtalálhassák a [Power BI alkalmazásokat](https://docs.microsoft.com/en-us/power-bi/service-create-distribute-apps).
+* Beállítások a [Perzisztens szűrők](https://powerbi.microsoft.com/en-us/blog/announcing-persistent-filters-in-the-service/) be- és kikapcsolásához a Power BI szolgáltatásban.
+* Az Azure B2B meghívási munkafolyamatának fejlesztései a jelentésekhez.
+
+## <a name="previous-months-2018"></a>Korábbi hónapok (2018)
+### <a name="april-2018"></a>2018. április
 * [Tanulmány: A GDPR hatása a Power BI-ra](http://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=5bd4c466-277b-4726-b9e0-f816ac12872d&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_FAQ_and_White_Papers)
 * Alapértelmezetten bekapcsolt Power BI szolgáltatásbeli [auditnaplók](https://docs.microsoft.com/power-bi/service-admin-auditing) az Office 365-bérlőben.
 
-## <a name="previous-months-2018"></a>Korábbi hónapok (2018)
 ### <a name="march-2018"></a>2018. március
 * [Perzisztens szűrők](https://powerbi.microsoft.com/en-us/blog/announcing-persistent-filters-in-the-service/) a Power BI szolgáltatásban.
 * Tartalom megosztása a felhasználókkal a személyes e-mail-fiókjaik használatával. Az [Azure Active Directory vállalatközi együttműködés](https://powerbi.microsoft.com/en-us/blog/power-bi-expands-access-to-intelligence-for-external-guest-users/) kiterjesztése.
@@ -63,7 +71,7 @@ Az újdonságokról és a funkciókról az alábbi YouTube-csatornákon is táj�
 * Részletes felügyeleti vezérlés a [webes közzétételhez](https://docs.microsoft.com/en-us/power-bi/service-admin-portal#export-and-sharing-settings).
 
 ## <a name="september-2017"></a>2017. szeptember
-* Ingyenes felhasználókkal megosztható irányítópultok a Premiummal.
+* A prémium szintű kapacitásban irányítópultokat oszthat meg Power BI Pro-licenccel nem rendelkező felhasználókkal.
 * Kapacitások lefoglalása az üzleti igényeknek megfelelően a virtuális magok készletezésével.
 * Azonnal, egyetlen kattintással skálázható kapacitások.
 * [PubNub-blokk](https://www.pubnub.com/docs/blocks-catalog/power-bi-realtime-dashboards) az adatok REST API-kba történő egyszerű leküldéséhez.
@@ -222,7 +230,7 @@ A részletekről a [Power BI-csapat blogján](https://powerbi.microsoft.com/blog
 
 ***Elemzés az Excelben***
 
-* Az [Elemzés az Excelben](service-analyze-in-excel.md) funkció elérhető minden felhasználó számára: A Power BI-adatmodellek Excelben való elérését kiterjesztettünk minden felhasználóra (ingyenes és Pro előfizetőkre egyaránt).
+* Az [Elemzés az Excelben](service-analyze-in-excel.md) funkció elérhető minden felhasználó számára: A Power BI-adatmodellek Excelben való elérését kiterjesztettünk minden felhasználóra, a hozzájuk rendelt licencektől függetlenül.
 * Továbbfejlesztett többfelhasználós fiókok: Ha több mint egy Power BI-fiókja van, mostantól könnyebben jelentkezhet be.
 
 A részletekről a [Power BI-csapat blogján](https://powerbi.microsoft.com/blog/power-bi-service-april-update-expressroute-for-power-bi/) olvashat.
@@ -567,7 +575,7 @@ További információt a [blogunkban](http://blogs.msdn.com/b/powerbi/archive/20
 
 **2015. július 24.**
 
-* Örömmel jelentjük, hogy a Power BI mostantól általánosan elérhető. Továbbra is használhatja a Power BI ingyenes verzióját, vagy regisztrálhat a [Power BI Pro](service-self-service-signup-for-power-bi.md) verzióra. Az általánosan elérhető kiadás részeként nagyszerű új funkciókat vezettünk be:
+* Örömmel jelentjük, hogy a Power BI mostantól általánosan elérhető. Regisztráljon még ma a [Power BI Pro](service-self-service-signup-for-power-bi.md) szolgáltatásra. Az általánosan elérhető kiadás részeként nagyszerű új funkciókat vezettünk be:
 * Új vizualizáció- és jelentéskészítési folyamat: az új jelentésvászon több választható vizualizációval, szélesebb körű csempe-, jelmagyarázat-, tengely-, szín- és háttérformázási lehetőségekkel, valamint számos más funkcióval rendelkezik.
 * [A Power BI-csoportok](service-create-distribute-apps.md): a csoportokkal egy Office 365-csoportokra épülő, hatékony együttműködési platformot vehet igénybe.
 * [Céges tartalomcsomagok](service-organizational-content-pack-introduction.md): a Power BI szolgáltatással rendkívül egyszerűen hozhat létre irányítópultokat és jelentéseket, a felhasználók pedig mostantól közzétehetik ezeket a tartalmakat a céges tartalomgyűjteményben.
@@ -660,8 +668,8 @@ További információt a [blogunkban](http://blogs.msdn.com/b/powerbi/archive/20
 
 * Javult a OneDrive-val történő frissítés megbízhatósága.  Megoldást találtunk azokra az esetekre, amikor a OneDrive-munkafüzetek nem frissültek.
 
-## <a name="next-steps"></a>További lépések
-[Első lépések a Power BI-ban](service-get-started.md)  
+## <a name="next-steps"></a>Következő lépések
+[Mi az a Power BI?](power-bi-overview.md)  
 
 További kérdései vannak? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)
 

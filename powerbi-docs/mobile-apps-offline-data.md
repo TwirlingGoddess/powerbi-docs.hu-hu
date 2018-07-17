@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: conceptual
-ms.date: 01/16/2018
+ms.date: 06/27/2018
 ms.author: maggies
-ms.openlocfilehash: 5dd171ccd7d8859286abeac2f87771b454421448
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: cade8b126742610814f47587c950458796cca474
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34292846"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37136479"
 ---
 # <a name="view-your-data-offline-in-the-power-bi-mobile-apps"></a>Adatok megtekintése kapcsolat nélküli üzemmódban a Power BI-mobilalkalmazásokban
 A következőkre vonatkozik:
@@ -55,7 +55,8 @@ Amikor kapcsolat nélküli üzemmódban használja a Power BI-t a mobileszközé
 * A Power BI legfeljebb 250 MB adatot képes kapcsolat nélküli üzemmódban gyorsítótárazni.
 * Néhány csempetípushoz aktív kiszolgálókapcsolat szükséges, tehát kapcsolat nélküli üzemmódban nem érhetők el. Ilyenek például a Bing térkép csempéi és az egyéni csempék.
 * A Power BI-ban a teljes Excel-munkafüzetek nem érhetők el kapcsolat nélküli üzemmódban.
-* A Reporting Services mobiljelentések és KPI-k megtekinthetők kapcsolat nélküli üzemmódban, ha csatlakoztatott állapotban egyszer már használta őket, de nem frissülnek a háttérben. Csak akkor frissülnek, amikor megnyitja őket. 
+* A Reporting Services mobiljelentések és KPI-k megtekinthetők kapcsolat nélküli üzemmódban, ha csatlakoztatott állapotban egyszer már használta őket, de nem frissülnek a háttérben. Csak akkor frissülnek, amikor megnyitja őket.
+* A Power BI mobilalkalmazásaiban nem jelennek meg a Power BI jelentéskészítő kiszolgálón mentett Power BI Desktop-fájlok (.pbix-fájlok). 
 
 ## <a name="next-steps"></a>Következő lépések
 A visszajelzése segít eldönteni, hogy milyen fejlesztésekre koncentráljunk a jövőben, ezért kérjük, ne mulasszon el szavazni más szolgáltatásokra, amelyeket szívesen látna a Power BI-mobilalkalmazásokban. 
@@ -63,5 +64,5 @@ A visszajelzése segít eldönteni, hogy milyen fejlesztésekre koncentráljunk 
 * [Power BI-alkalmazások mobileszközökre](mobile-apps-for-mobile-devices.md)
 * @MSPowerBI követése Twitteren
 * Vegyen részt [a Power BI-közösség](http://community.powerbi.com/) beszélgetéseiben
-* [Első lépések a Power BI-ban](service-get-started.md)
+* [A Power BI bemutatása](power-bi-overview.md)
 
