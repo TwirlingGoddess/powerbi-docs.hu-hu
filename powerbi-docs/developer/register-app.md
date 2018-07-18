@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 05/31/2018
 ms.author: maghan
-ms.openlocfilehash: aa51d516e903908fb2b0121f9bbed41d54f5e670
-ms.sourcegitcommit: 001ea0ef95fdd4382602bfdae74c686de7dc3bd8
+ms.openlocfilehash: 7fb13b86e3f384c0c923a96e07631498edf84ee4
+ms.sourcegitcommit: 0c870a006e525447497e678484874a2f137b9abd
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 07/11/2018
-ms.locfileid: "38925001"
+ms.lasthandoff: 07/17/2018
+ms.locfileid: "39088885"
 ---
 # <a name="register-an-azure-ad-app-to-embed-power-bi-content"></a>Azure AD-alkalmazás regisztrálása Power BI-tartalmak beágyazásához
 Megismerheti, hogyan kell regisztrálni egy alkalmazást az Azure Active Directoryban (Azure AD) Power BI-tartalmak beágyazásához.
@@ -23,7 +23,6 @@ Az alkalmazás az Azure AD-vel regisztrálva hozzáférést biztosít az alkalma
 
 > [!IMPORTANT]
 > A Power BI alkalmazás regisztrálása előtt szüksége van egy [Azure Active Directory-bérlőre és egy céges felhasználóra](create-an-azure-active-directory-tenant.md). Amennyiben nem a bérlő egyik felhasználójával regisztrál a Power BI-ba, nem tudja regisztrálni az alkalmazást.
-> 
 
 Az alkalmazást két módon regisztrálhatja. Az első lehetőség a [Power BI alkalmazásregisztráló eszköz](https://dev.powerbi.com/apps/), a másik pedig az Azure Portal használata. A Power BI alkalmazásregisztráló eszköz kínálja az egyszerűbb megoldást, mivel csak néhány mezőt kell kitöltenie. Amennyiben módosítani kívánja az alkalmazását, az Azure Portal használatát javasoljuk.
 
@@ -174,7 +173,6 @@ Vagy a *fő* fiókkal (beágyazás), vagy a globális rendszergazdafiókkal kell
      "startTime":"2017-03-29T14:35:32.4933413+03:00"
      }
      ```
-
 5. Alkalmazásengedélyek megadása az Microsoft Azure Active Directorynak (AAD-nek)
    
    A **consentType** értéke megadhatja az **AllPrincipals** vagy a **Principal** értéket.
