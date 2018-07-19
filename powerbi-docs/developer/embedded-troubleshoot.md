@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
-ms.date: 07/03/2018
+ms.date: 07/09/2018
 ms.author: maghan
-ms.openlocfilehash: b3c9599ea3ce01094bb75d9b036fb25b1ca7109a
-ms.sourcegitcommit: 627918a704da793a45fed00cc57feced4a760395
+ms.openlocfilehash: d6b30d97b1982ceca34579751e412a279b0d8881
+ms.sourcegitcommit: 001ea0ef95fdd4382602bfdae74c686de7dc3bd8
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 07/10/2018
-ms.locfileid: "37926559"
+ms.lasthandoff: 07/11/2018
+ms.locfileid: "38877024"
 ---
 # <a name="troubleshooting-your-embedded-application"></a>Beágyazott alkalmazás hibaelhárítása
 
@@ -102,13 +102,11 @@ Lehet, hogy az alkalmazás háttérszolgáltatásának a GenerateToken-hívás e
 
 **(AADSTS70002: Hiba történt a hitelesítő adatok ellenőrzésekor. AADSTS50053: Túl sokszor próbált bejelentkezni helytelen felhasználóazonosítóval vagy jelszóval)**
 
-Ha Ön a Power BI Embedded szolgáltatást használja Azure AD közvetlen hitelesítéssel, és ehhez hasonló üzeneteket kap bejelentkezéskor: ***error:unauthorized_client,error_description:AADSTS70002, akkor hiba történt a hitelesítő adatok érvényesítésekor. AADSTS50053: Túl sokszor próbált bejelentkezni helytelen felhasználóazonosítóval vagy jelszóval***, ez azért van, mert a közvetlen hitelesítés 2018/06/14 dátummal ki lett kapcsolva.
+Ha Ön a Power BI Embedded szolgáltatást használja Azure AD közvetlen hitelesítéssel, és ehhez hasonló üzeneteket kap bejelentkezéskor: ***error:unauthorized_client,error_description:AADSTS70002, akkor hiba történt a hitelesítő adatok érvényesítésekor. AADSTS50053: Ön túl sokszor próbált bejelentkezni egy helytelen felhasználói azonosítóval vagy jelszóval***, ezért alapértelezés szerint 2018. június 14-ével a közvetlen hitelesítést kikapcsoltuk.
 
-Javasoljuk, használja az [Azure AD Conditional Access](https://cloudblogs.microsoft.com/enterprisemobility/2018/06/07/azure-ad-conditional-access-support-for-blocking-legacy-auth-is-in-public-preview/) (Azure AD feltételes hozzáférés) támogatását az elavult hitelesítések letiltására, vagy használja az [Azure AD Directory Pass-through Authentication](https://docs.microsoft.com/en-us/azure/active-directory/connect/active-directory-aadconnect-pass-through-authentication) (Azure AD Directory átmenő hitelesítés) módszerét.
+Ennek visszakapcsolására is van lehetőség [Azure AD-szabályzattal](https://docs.microsoft.com/en-us/azure/active-directory/manage-apps/configure-authentication-for-federated-users-portal#enable-direct-authentication-for-legacy-applications), amelynek hatóköre lehet a cég vagy egy [szolgáltatásnév](https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-application-objects#service-principal-object).
 
-Azonban ennek visszakapcsolására is van lehetőség [Azure AD szabályzattal](https://docs.microsoft.com/en-us/azure/active-directory/manage-apps/configure-authentication-for-federated-users-portal#enable-direct-authentication-for-legacy-applications), amelynek hatóköre lehet a cég vagy egy [szolgáltatásnév](https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-application-objects#service-principal-object).
-
-**_Javasoljuk, hogy ezt csak alkalmazásonként engedélyezze és csak a kerülő megoldásához szükséges mértékig._**
+Javasoljuk, hogy ezt csak az egyes alkalmazásokra engedélyezze.
 
 Ennek a szabályzatnak a létrehozásához **globális rendszergazdai** engedélyekre van szüksége ahhoz a könyvtárhoz, ahol létrehozza és hozzárendeli a szabályzatot. Itt látható egy mintaszkript a szabályzat létrehozásához és az SP-hez való hozzárendeléshez ennél az alkalmazásnál:
 

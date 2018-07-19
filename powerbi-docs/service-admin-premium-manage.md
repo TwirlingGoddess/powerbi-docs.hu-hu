@@ -10,19 +10,19 @@ ms.topic: conceptual
 ms.date: 10/10/2017
 ms.author: mblythe
 LocalizationGroup: Premium
-ms.openlocfilehash: 08d5d5b8d44d1ebceab2bb41ddbb244afda64fb6
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 24d585af19dd774cdf6fe7dafb66c12e02d311f9
+ms.sourcegitcommit: 001ea0ef95fdd4382602bfdae74c686de7dc3bd8
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "36945043"
+ms.lasthandoff: 07/11/2018
+ms.locfileid: "38924792"
 ---
 # <a name="manage-capacities-within-power-bi-premium-and-power-bi-embedded"></a>Kapacitáskezelés a Power BI Premium és a Power BI Embedded szolgáltatással
 Megtudhatja, hogyan kezelheti a Power BI Premium és a Power BI Embedded kapacitásait, amelyek dedikált erőforrásokat nyújtanak az Ön tartalmai számára.
 
 ![A Power BI Kapacitásbeállítások képernyője](media/service-admin-premium-manage/premium-capacity-management.png)
 
-A kapacitás a Power BI Premium és a Power BI Embedded ajánlatainak központja.
+A kapacitás a Power BI Premium és a Power BI Embedded ajánlatok alapvető funkciója.
 
 ## <a name="what-is-capacity"></a>Mi az a kapacitás?
 Kapacitásnak az olyan erőforráskészleteket nevezzük, amelyek kizárólag az Ön számára vannak fenntartva. A kapacitással irányítópultokat, jelentéseket és adatkészleteket tehet közzé a cég felhasználói számára anélkül, hogy licenceket vásárolna nekik. Emellett megbízható és következetes teljesítményt biztosít a kapacitásban tárolt tartalmaknak.
@@ -32,6 +32,16 @@ A kapacitás teljes mértékben áttekinthető a végfelhasználók számára. �
 [!INCLUDE [powerbi-premium-illustration](./includes/powerbi-premium-illustration.md)]
 
 További információ: [A Power BI Premium bemutatása](service-premium.md).
+
+### <a name="capacity-admins"></a>Kapacitás-rendszergazdák
+> [!NOTE]
+> A Power BI Embedded kapacitás-rendszergazdái a Microsoft Azure Portalon adhatók meg.
+
+Ha Ön egy kapacitás rendszergazdája lesz, teljes vezérlést kap a kapacitás és annak rendszergazdai funkciói felett. A Power BI felügyeleti portálon további kapacitás-rendszergazdákat adhat hozzá (csak a Power BI Premium esetében), vagy kapacitás-hozzárendelési engedélyt adhat a felhasználóknak. Egy kapacitáshoz tömegesen rendelhet hozzá munkaterületeket, és megtekintheti a kapacitás használati metrikáit.
+
+Minden kapacitás saját rendszergazdával rendelkezik. Egy kapacitás-rendszergazda megadása nem ad neki hozzáférést a cég többi kapacitásához. A kapacitás-rendszergazdák nem férhetnek hozzá alapértelmezés szerint a Power BI minden rendszergazdai felületéhez, így például a használati metrikákhoz, a naplókhoz és a bérlőbeállításokhoz. A kapacitás-rendszergazdák emellett nem állíthatnak be új kapacitásokat, és nem módosíthatják a meglévő kapacitások SKU-ját. Csak a globális rendszergazdák vagy a Power BI szolgáltatás-rendszergazdái férhetnek hozzá ezekhez az elemekhez.
+
+Az Office 365 globális rendszergazdái és a Power BI-rendszergazdák egyben a Power BI Premium-kapacitás és a Power BI Embedded-kapacitás rendszergazdái is.
 
 ## <a name="purchase-capacity"></a>Kapacitás vásárlása
 A dedikált kapacitás kihasználásához egy Power BI Premium-előfizetést kell vásárolnia az Office 365 Felügyeleti központban, vagy létre kell hoznia egy Power BI Embedded-erőforrást a Microsoft Azure Portalon. További információkat a következő cikkekben talál:
@@ -43,21 +53,9 @@ A Power BI Premium SKU-k vásárlásakor a bérlő a vásárlásnak megfelelő s
 
 > [!NOTE]
 > Az előfizetés vége után 30 napig teljes hozzáférése lesz, de az után a tartalom visszaáll megosztott kapacitásra. Szokásos megosztott licenccel az 1 GB feletti modellek nem lesznek támogatva.
->
 
-## <a name="capacity-admins"></a>Kapacitás-rendszergazdák
-> [!NOTE]
-> A Power BI Embedded kapacitás-rendszergazdái a Microsoft Azure Portalon adhatók meg.
->
->
 
-Ha Ön egy kapacitás rendszergazdája lesz, teljes vezérlést kap a kapacitás és annak rendszergazdai funkciói felett. A Power BI felügyeleti portálon további kapacitás-rendszergazdákat adhat hozzá (csak a Power BI Premium esetében), vagy kapacitás-hozzárendelési engedélyt adhat a felhasználóknak. Egy kapacitáshoz tömegesen rendelhet hozzá munkaterületeket, és megtekintheti a kapacitás használati metrikáit.
-
-Minden kapacitás saját rendszergazdával rendelkezik. Egy kapacitás-rendszergazda megadása nem ad neki hozzáférést a cég többi kapacitásához. A kapacitás-rendszergazdák nem férhetnek hozzá alapértelmezés szerint a Power BI minden rendszergazdai felületéhez, így például a használati metrikákhoz, a naplókhoz és a bérlőbeállításokhoz. A kapacitás-rendszergazdák emellett nem állíthatnak be új kapacitásokat, és nem módosíthatják a meglévő kapacitások SKU-ját. Csak a globális rendszergazdák vagy a Power BI szolgáltatás-rendszergazdái férhetnek hozzá ezekhez az elemekhez.
-
-Az Office 365 globális rendszergazdái és a Power BI-rendszergazdák egyben a Power BI Premium-kapacitás és a Power BI Embedded-kapacitás rendszergazdái is.
-
-## <a name="managing-capacity"></a>Kapacitáskezelés
+## <a name="manage-capacity"></a>Kapacitás kezelése
 Miután megvásárolta a kapacitás-csomópontokat az Office 365-ben, egy új kapacitást kell beállítania. Ezt a [Power BI felügyeleti portálján](service-admin-portal.md) teheti meg. A felügyeleti portálon egy **Kapacitásbeállítások** szakaszt láthat. Itt kezelheti a cég Power BI Premium-kapacitásait.
 
 ![Kapacitásbeállítások a felügyeleti portálon](media/service-admin-premium-manage/admin-portal-premium.png)
@@ -96,8 +94,6 @@ A prémium szintű kapacitás felügyeleti képernyőjén kattintson a Művelete
 
 > [!NOTE]
 > A Power BI Embedded kapacitásbeállítása a Microsoft Azure Portalon kezelhető.
->
->
 
 ### <a name="change-capacity-size-power-bi-premium"></a>Kapacitásméret módosítása (Power BI Premium)
 A Power BI-rendszergazdák és az Office 365 globális rendszergazdái a **Kapacitás méretének módosítása** lehetőséggel módosíthatják a prémium szintű kapacitás méretét. Az olyan kapacitás-rendszergazdák, akik nem Power BI-rendszergazdák vagy nem az Office 365 globális rendszergazdái, nem végezhetik el ezt a műveletet.
@@ -128,35 +124,6 @@ A Power BI Premium kapacitásaihoz további **kapacitás-rendszergazdákat** ren
 ![](media/service-admin-premium-manage/capacity-user-permissions.png)
 
 ![](media/service-admin-premium-manage/capacity-user-permissions2.png)
-
-## <a name="usage-measurements-power-bi-premium"></a>Használati mértékek (Power BI Premium)
-Minden kapacitáshoz láthatja a processzor, a memória, a memóriaakadozás és a Direct Query használati mértékeit. Célszerű figyelemmel kísérni ezeket a mértékeket, hogy a felhasználók biztosan jó teljesítményt tapasztaljanak a kapacitásán:
-
-![Használat az elmúlt hét napban](media/service-admin-premium-manage/premium-dashboard-tiles.png)
-
-> [!NOTE]
-> A Power BI Embedded kapacitáshasználatát az Azure Portalon követheti.
-
-| Mérték | Leírás |
-| --- | --- |
-| Processzor |Ahányszor a processzorhasználat túllépte a 80%-ot. |
-| Memóriaakadozás |A háttérrendszerbeli magok memóriaterhelését mutatja. Ez egészen pontosan azt jelzi, hogy az adathalmazok hányszor lettek kiürítve a memóriából a több adathalmaz használata miatti memóriaterhelés következtében. |
-| Memóriahasználat |Átlagos memóriahasználat, gigabájtban (GB) kifejezve. |
-| DQ/másodperc | Ahányszor a Direct Query-kapcsolatok és élő kapcsolatok száma meghaladta a korlát 80%-át. <br> <br> * A DirectQuery és élő kapcsolatos lekérdezések másodpercenkénti maximális száma korlátozott.<br><br>* A korlátok a következők: P1 esetében 30/másodperc, P2 esetében 60/másodperc, P3 esetében pedig 120/másodperc.<br><br> * A Direct Query és az élő kapcsolatos lekérdezések száma összeadódik. Ha például 15 DirectQueryvel és 15 élő kapcsolattal rendelkezik egy adott másodpercben, elérte a korlátot.<br/><br>* Ez mind a helyszíni, mind a felhőkapcsolatokra vonatkozik. |
-
-A metrikák az elmúlt hét használati adatait tükrözik.  Ha szeretne részletesebb nézetet látni a metrikákról, kattintson az összesítő csempék egyikére.  Ez megnyitja a prémium szintű kapacitása metrikáinak részletes diagramjait tartalmazó lapot.  Ezeket a diagramokat a rendszer óránként összegzi az elmúlt hétre vonatkozóan, és segítenek megállapítani, hogy mikor történhetett teljesítménnyel kapcsolatos esemény a prémium szintű kapacitásában.  
-
-![Részletes használati diagram – Processzor](media/service-admin-premium-manage/premium-usage-detailed-chart-cpu.png)
-
-![Részletes használati diagram – Memóriaakadozás](media/service-admin-premium-manage/premium-usage-detailed-chart-memory-thrashing.png)
-
-
-![Részletes használati diagram – Memóriaméret](media/service-admin-premium-manage/premium-usage-detailed-chart-memory-size.png)
-
-
-![Részletes használati diagram – Memóriaakadozás](media/service-admin-premium-manage/premium-usage-detailed-chart-dq.png)
-
-Exportálhatja bármelyik metrika mögöttes adatait egy CSV-fájlba.  Ezzel a művelettel részletes adatokat kaphat három perces időközökkel az elmúlt hét minden egyes napjára vonatkozóan.
 
 ## <a name="assign-a-workspace-to-a-capacity"></a>Munkaterület hozzárendelése kapacitáshoz
 A kapacitásokhoz többféleképpen is hozzárendelhet munkaterületeket.
@@ -193,6 +160,36 @@ Ha egy munkaterületet egy kapacitásba szeretne áthelyezni, ahhoz rendszergazd
 5. Kattintson a **Mentés** gombra.
 
 A mentés után a munkaterület és annak minden tartalma a prémium szintű kapacitásba kerül. A felhasználók számára ez semmilyen megszakítással nem jár.
+
+
+## <a name="monitor-capacity-usage"></a>Kapacitáshasználat monitorozása
+Minden kapacitáshoz láthatja a processzor, a memória, a memóriaakadozás és a Direct Query használati mértékeit. Célszerű figyelemmel kísérni ezeket a mértékeket, hogy a felhasználók biztosan jó teljesítményt tapasztaljanak a kapacitásán:
+
+![Használat az elmúlt hét napban](media/service-admin-premium-manage/premium-dashboard-tiles.png)
+
+> [!NOTE]
+> A Power BI Embedded kapacitáshasználatát az Azure Portalon követheti.
+
+| Mérték | Leírás |
+| --- | --- |
+| Processzor |Ahányszor a processzorhasználat túllépte a 80%-ot. |
+| Memóriaakadozás |A háttérrendszerbeli magok memóriaterhelését mutatja. Ez egészen pontosan azt jelzi, hogy az adathalmazok hányszor lettek kiürítve a memóriából a több adathalmaz használata miatti memóriaterhelés következtében. |
+| Memóriahasználat |Átlagos memóriahasználat, gigabájtban (GB) kifejezve. |
+| DQ/másodperc | Ahányszor a Direct Query-kapcsolatok és élő kapcsolatok száma meghaladta a korlát 80%-át. <br> <br> * A DirectQuery és élő kapcsolatos lekérdezések másodpercenkénti maximális száma korlátozott.<br><br>* A korlátok a következők: P1 esetében 30/másodperc, P2 esetében 60/másodperc, P3 esetében pedig 120/másodperc.<br><br> * A Direct Query és az élő kapcsolatos lekérdezések száma összeadódik. Ha például 15 DirectQueryvel és 15 élő kapcsolattal rendelkezik egy adott másodpercben, elérte a korlátot.<br/><br>* Ez mind a helyszíni, mind a felhőkapcsolatokra vonatkozik. |
+
+A metrikák az elmúlt hét használati adatait tükrözik.  Ha szeretne részletesebb nézetet látni a metrikákról, kattintson az összesítő csempék egyikére.  Ez megnyitja a prémium szintű kapacitása metrikáinak részletes diagramjait tartalmazó lapot.  Ezeket a diagramokat a rendszer óránként összegzi az elmúlt hétre vonatkozóan, és segítenek megállapítani, hogy mikor történhetett teljesítménnyel kapcsolatos esemény a prémium szintű kapacitásában.  
+
+![Részletes használati diagram – Processzor](media/service-admin-premium-manage/premium-usage-detailed-chart-cpu.png)
+
+![Részletes használati diagram – Memóriaakadozás](media/service-admin-premium-manage/premium-usage-detailed-chart-memory-thrashing.png)
+
+
+![Részletes használati diagram – Memóriaméret](media/service-admin-premium-manage/premium-usage-detailed-chart-memory-size.png)
+
+
+![Részletes használati diagram – Memóriaakadozás](media/service-admin-premium-manage/premium-usage-detailed-chart-dq.png)
+
+Exportálhatja bármelyik metrika mögöttes adatait egy CSV-fájlba.  Ezzel a művelettel részletes adatokat kaphat három perces időközökkel az elmúlt hét minden egyes napjára vonatkozóan.
 
 ## <a name="what-premium-looks-like-for-users"></a>A prémium szintű kapacitás a végfelhasználók szemével
 Az esetek többségében a felhasználók nem is tudnak róla, hogy prémium szintű kapacitásban vannak. Az irányítópultjaik és jelentéseik ugyanúgy működnek. A prémium kapacitásban lévő munkaterületeket egy gyémánt ikon jelzi.
