@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/22/2018
-ms.openlocfilehash: 07d51448083f61725157d3ea37c5d9dc73e85157
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: f3602f44bd2ab98e115f904baa89429db918637c
+ms.sourcegitcommit: ba3cab4613a2b815d46a213eff07a8a8ec22c17f
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37599950"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39032071"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Gyakori kérdések – Power BI Embedded
 
@@ -76,7 +76,7 @@ Itt látható egy részlet a különbségek listájából, amely mindkét megold
 |  |A termékváltozat (Power BI Embedded)  |EM termékváltozat (Power BI Premium)  |P termékváltozat (Power BI Premium)  |
 |---------|---------|---------|---------|
 |Vásárlás     |Azure Portal |Office |Office |
-|Felhasználási módok |* Tartalmak beágyazása saját alkalmazásba |* Tartalmak beágyazása saját alkalmazásba<br>* Tartalmak megosztása Power BI FREE-felhasználókkal a PowerBI.com-on kívül, és tartalmak beágyazása más SaaS-alkalmazásokban (SharePoint, [Teams](https://powerbi.microsoft.com/en-us/blog/power-bi-teams-up-with-microsoft-teams/)) |* Tartalmak beágyazása saját alkalmazásba<br>* Tartalmak megosztása Power BI FREE-felhasználókkal a PowerBI.com-on kívül, és tartalmak beágyazása más SaaS-alkalmazásokban (SharePoint, Teams)<br>* Tartalmak megosztása Power BI FREE-felhasználókkal a PowerBI.com-on keresztül  |
+|Felhasználási módok |* Tartalmak beágyazása saját alkalmazásba |* Tartalmak beágyazása saját alkalmazásba<br>* Tartalom beágyazása más SaaS-alkalmazásokba ([SharePoint](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/), [Teams](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/), [Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard)) |* Tartalmak beágyazása saját alkalmazásba<br>* Tartalom beágyazása más SaaS-alkalmazásokba ([SharePoint](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/), [Teams](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/), [Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard))<br>* Tartalom megosztása Power BI-felhasználókkal a [Power BI szolgáltatásban](https://powerbi.microsoft.com/en-us/)  |
 |Számlázás |Óránként |Havonta |Havonta |
 |Kötelezettségvállalás  |Nincs kötelezettségvállalás |Éves  |Havi/Éves |
 |Megkülönböztetés |Az Azure Portalon vagy API-kon keresztül teljes mértékű rugalmasságot tesz lehetővé, vagyis felfelé és lefelé történő méretezhetőséget, illetve az erőforrások felfüggesztését és folytatását  |Tartalmak beágyazására használható a SharePointban vagy a Microsoft Teamsben |Egy kapacitáson belül egyesíti az alkalmazásokba történő beágyazásokat és a Power BI szolgáltatás használatát |

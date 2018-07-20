@@ -7,18 +7,18 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/05/2018
+ms.date: 07/06/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 6147f41ea99ad4a0416f6aa9c01288102f792771
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 72a900b1661a77e5b31c1d68b5726d989b236f7b
+ms.sourcegitcommit: ba3cab4613a2b815d46a213eff07a8a8ec22c17f
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34812928"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39032002"
 ---
 # <a name="accessibility-in-power-bi-desktop-reports"></a>Akadálymentesség a Power BI Desktop-jelentésekben
-A **Power BI Desktop** rendelkezik olyan funkciókkal, amelyek lehetővé teszik a fogyatékkal élők számára, hogy könnyedén használják és kezeljék a **Power BI Desktop**-jelentéseket. A funkciók közé tartozik az a lehetőség, hogy a jelentések billentyűzettel vagy képernyőolvasóval is használhatók legyenek, az oldalak objektumai léptetéssel emelhetők ki, és a jelölők használata átgondolt a vizualizációkban.
+A Power BI rendelkezik olyan funkciókkal, amelyek lehetővé teszik a fogyatékkal élők számára, hogy könnyedén használják és kezeljék a Power BI-jelentéseket. A funkciók közé tartozik az a lehetőség, hogy a jelentések billentyűzettel vagy képernyőolvasóval is használhatók legyenek, az oldalak objektumai léptetéssel emelhetők ki, és a jelölők használata átgondolt a vizualizációkban.
 
 ![Különböző jelölők használata a vonal- és területdiagramokhoz az akadálymentesítés érdekében](media/desktop-accessibility/accessibility_01.png)
 
@@ -32,20 +32,25 @@ A **Power BI Desktop** 2017. szeptemberi kiadásával kezdve a **?** billentyű 
 
 ![A ? billentyű lenyomásával a Power BI Desktopban megjelenítheti az akadálymentességi billentyűparancsokat](media/desktop-accessibility/accessibility_03.png)
 
-Az akadálymentességi fejlesztéseknek köszönhetően a **Power BI Desktop**-jelentések billentyűzettel vagy képernyőolvasóval is használhatók az alábbi technikák segítségével:
+Az akadálymentességi fejlesztéseknek köszönhetően a Power BI-jelentések billentyűzettel vagy képernyőolvasóval is használhatók az alábbi technikák segítségével:
 
 Fókuszt válthat a jelentés lapfülei vagy egy adott jelentésoldal objektumai között a **Ctrl+F6** billentyűkombinációval.
 
 * Ha a fókusz a *jelentés lapfülein* van, a *Tab* vagy a *nyíl*billentyűk használatával válthat fókuszt az egyik jelentésoldalról a következőre. A képernyőolvasó felolvassa a jelentésoldal címét, valamint azt, hogy jelenleg ki van-e választva. A jelenleg aktív lévő jelentésoldal betöltéséhez nyomja le az *Enter* vagy a *Szóköz* billentyűt.
-* Ha a fókusz egy betöltött *jelentésoldalon* van, a *Tab* billentyű használatával válthat fókuszt az oldal egyes objektumaira, beleértve a szövegdobozokat, képeket, alakzatokat és diagramokat. A képernyőolvasó felolvassa az objektum típusát és az adott objektum leírását, amit a szerzője adott meg. 
+* Ha a fókusz egy betöltött *jelentésoldalon* van, a *Tab* billentyű használatával válthat fókuszt az oldal egyes objektumaira, beleértve a szövegdobozokat, képeket, alakzatokat és diagramokat. A képernyőolvasó felolvassa az objektum típusát, az objektum címét, ha van címe és az objektum leírását, ha a jelentés szerzője létrehozta azt. 
 
-Az **Alt+Shift+F10** billentyűkombinációval áthelyezheti a fókuszt egy vizualizáció menüjére.
+Ha a vizualizációk között navigálva szeretne további műveleteket is végezni az egyiken, megnyomhatja az **Alt+Shift+F10** billentyűkombinációt, hogy a kurzor a vizualizáció fejlécére kerüljön, ahol különféle lehetőségek állnak rendelkezésre, például leválogatás, a diagram alapjául szolgáló adatok exportálása és fókusz mód. 
 
-Az **Alt+Shift+F11** billentyűkombinációval megjelenítheti az *Adatok megjelenítése* ablak akadálymentesített verzióját.
+Az **Alt+Shift+F11** billentyűkombinációval megjelenítheti az *Adatok megjelenítése* ablak akadálymentesített verzióját. Ez lehetővé teszi a vizualizációban használt adatok feltárását egy HTML-táblában, ugyanazokkal a billentyűparancsokkal, amelyeket máskor is használni szokott a képernyőolvasóban. 
 
 ![Az Alt+Shift+F11 billentyűkombináció lenyomásával a Power BI Desktopban az egyes vizualizációk Adatok megjelenítése ablakának akadálymentesített változatát jelenítheti meg](media/desktop-accessibility/accessibility_04.png)
 
-Ezek az akadálymentesítési kiegészítések azért készültek, hogy a felhasználók képernyőolvasó és billentyűzetnavigáció segítségével is teljes mértékben használhassák a **Power BI Desktop**-jelentéseket.
+> [!NOTE]
+> Az Adatok megjelenítése funkció a képernyőolvasóban csak ezzel a billentyűparanccsal érhető el. Ha az Adatok megjelenítése funkciót a vizualizáció fejlécében lévő beállítással nyitja meg, akkor az nem lesz elérhető a képernyőolvasó számára.
+> 
+> 
+
+Ezek az akadálymentesítési kiegészítések azért készültek, hogy a felhasználók képernyőolvasó és billentyűzetnavigáció segítségével is teljes mértékben használhassák a Power BI-jelentéseket.
 
 ## <a name="tips-for-creating-accessible-reports"></a>Akadálymentesített jelentések létrehozásával kapcsolatos tippek
 Az alábbi tippek segítségével olyan **Power BI Desktop** jelentéseket hozhat létre, amelyek akadálymentesebbek.
@@ -58,14 +63,17 @@ Az alábbi tippek segítségével olyan **Power BI Desktop** jelentéseket hozha
   ![Különböző jelölők használata a vonal- és területdiagramokhoz az akadálymentesítés érdekében](media/desktop-accessibility/accessibility_01.png)
   
   * A különböző *jelölőalakzatok* használata az egyes vonalakhoz megkönnyíti a jelentés használóinak a vonalak (vagy területek) elkülönítését egymástól.
-* Az előző pontból következik az is, hogy ne használjon színt információ közlésére. Az alakzatok használata a vonalakon (jelölők, mint az előző felsoroláspontokban részleteztük) hasznos.
+* Az előző pontból következik az is, hogy ne használjon színt információ közlésére. Az alakzatok, vonal- és pontdiagramok használatán túl az is fontos, hogy ne alkalmazzon feltételes formázást a táblákban és matricákban a betekintő adatok biztosítására. 
+* Válasszon ki egy szándékolt rendezési sorrendet a jelentésben szereplő minden vizualizációhoz. Amikor a képernyőolvasót használók a diagram alapjául szolgáló adatokat böngészik, azok ugyanabban a rendezési sorrendben fognak sorra kerülni, mint a vizualizációban.
 * Válasszon olyan *témát* a témakatalógusból, ami kontrasztos és színvakbarát, és importálja a [**Témák** előzetes verzióként elérhető szolgáltatás](desktop-report-themes.md) segítségével.
 * A jelentés minden objektumához adjon meg *helyettesítő szöveget*. Ezzel biztosíthatja, hogy a jelentése felhasználói megértsék, mi a kommunikációs célja a vizualizációval, akkor is, ha nem látják a vizualizációt, a képet, az alakzatot vagy a szövegdobozt. A **Power BI Desktop** jelentés bármely objektumához megadhat *helyettesítő szöveget*, ha kijelöli az objektumot (például vizualizációt, alakzatot stb.), és a **Vizualizációk** panelen kiválasztja a **Formázás** szakaszt, kibontja az **Általános** elemet, majd legörget az aljára, és kitölti a **Helyettesítő szöveg** szövegdobozt.
   
   ![Egy jelentés bármely objektumához a Vizualizációk > Formázás > Általános > Helyettesítő szöveg mezőben adhat meg helyettesítő szöveget](media/desktop-accessibility/accessibility_02.png)
-* Győződjön meg arról, hogy elég kontraszt legyen a jelentéseiben a szöveg és a háttérszínek között.
+* Győződjön meg arról, hogy elég kontraszt legyen a jelentéseiben a szöveg és a háttérszínek között. Többféle eszköz, például a [Colour Contrast Analyser](https://developer.paciellogroup.com/resources/contrastanalyser/) (Színkontrasztelemző) is rendelkezésre áll a jelentés színeinek ellenőrzésére. 
 * Könnyen olvasható szövegméretet és betűtípusokat használjon. A kis betűméret vagy a nehezen olvasható betűtípusok nehezítik a használatot.
 * Adjon meg címet, tengelyfeliratokat és adatfeliratokat minden vizualizációhoz.
+* Használjon jelentéssel bíró címeket minden jelentésoldalhoz.
+* Ha lehetséges, kerülje a díszítő alakzatok és képek a jelentésben, mert ezek belekerülnek a jelentés lapsorrendjébe. Ha díszítő objektumokat szeretne szerepeltetni a jelentésben, frissítse az objektum helyettesítő szövegét, hogy a képernyőolvasót használók tudják, hogy azok díszítés célját szolgálják.
 
 ## <a name="high-contrast-support-for-reports"></a>Kontrasztos megjelenítés a jelentésekhez
 
@@ -87,7 +95,8 @@ Miután megnyitotta a **Power BI Desktop** alkalmazást, vegye észere, hogy biz
 ## <a name="considerations-and-limitations"></a>Megfontolandó szempontok és korlátozások
 Az akadálymentességi funkciók néhány ismert hibáját és korlátait az alábbi lista ismerteti:
 
-* A JAWS támogatott a **Power BI szolgáltatásban** megtekintett jelentésekben, beleértve az összes beágyazott jelentést. A JAWS a **Power BI Desktopban** is támogatva van, azonban a **Power BI Desktop**-fájlok megnyitása előtt meg kell nyitnia a képernyőolvasót, hogy a képernyőolvasó megfelelően működjön.
+* Ha képernyőolvasót használ a **Power BI Desktoppal**, a legjobb élményben új lesz része, ha a választott képernyőolvasót még azelőtt megnyitja, mielőtt bármilyen fájlt megnyitott volna a Power BI Desktopban.
+* Ha narrátort használ, akkor néhány korlátozás van érvényben az Adatok megjelenítése adatainak HTML-táblaként való böngészésekor.
 
 ## <a name="next-steps"></a>Következő lépések
 * [Jelentéstémák használata a Power BI Desktopban (előzetes verzió)](desktop-report-themes.md)

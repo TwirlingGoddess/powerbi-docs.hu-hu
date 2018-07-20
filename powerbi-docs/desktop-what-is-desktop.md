@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: overview
-ms.date: 12/06/2017
+ms.date: 07/10/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: be29d5879ef62ab3d7fcef271e61337a0d2fb050
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 57d5158098f6ba7b2754ae25afaca524723255f5
+ms.sourcegitcommit: ba3cab4613a2b815d46a213eff07a8a8ec22c17f
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34289188"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39031902"
 ---
 # <a name="what-is-power-bi-desktop"></a>Mi az a Power BI Desktop?
 
@@ -87,7 +87,7 @@ A **Közzététel** kiválasztásakor a Power BI Desktop az Ön Power BI-fiókj�
 
 ## <a name="next-steps"></a>Következő lépések
 
-A **Power BI Desktop** használatba vételéhez mindenek előtt le kell töltenie és telepítenie kell az alkalmazást. A **Power BI Desktopot** kétféle módon szerezheti be:
+A **Power BI Desktop** használatának megkezdéséhez először töltse le és telepítse az alkalmazást. A **Power BI Desktopot** kétféle módon szerezheti be:
 
 * [A Power BI Desktopot letöltheti az internetről](desktop-get-the-desktop.md)
 * [A Power BI Desktopot beszerezheti a Windows Áruházból](http://aka.ms/pbidesktopstore)

@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 05/25/2018
 ms.author: maghan
 LocalizationGroup: Share your work
-ms.openlocfilehash: 1c9948ad5c09b3123d898bf8841243d6e5fa83fd
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 63cb1fe3061d1ba48e71a4ac09862fce29dd9196
+ms.sourcegitcommit: ba3cab4613a2b815d46a213eff07a8a8ec22c17f
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34553565"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39032048"
 ---
 # <a name="embed-with-report-web-part-in-sharepoint-online"></a>Beágyazás jelentéskijelzővel a SharePoint Online-ban
 
@@ -84,7 +84,7 @@ Egy jelentés beágyazása a SharePoint Online-ba még nem ad automatikusan enge
 > [!IMPORTANT]
 > Tekintse át kik láthatják a jelentést a Power BI szolgáltatásban, és adjon hozzáférést azoknak, akik még nem szerepelnek a listában.
 
-A Power BI szolgáltatásban kétféleképpen lehet egy jelentéshez hozzáférést adni. Ha a SharePoint Online-csoportwebhely létrehozásához Office 365-csoportot használ, akkor a felhasználót hozzáadhatja az alkalmazás-munkaterülethez a Power BI szolgáltatásban. Ez biztosítja, hogy a felhasználók láthassák az adott csoport tartalmát. További információ: [Alkalmazások létrehozása és terjesztése a Power BI-ban](service-create-distribute-apps.md).
+A Power BI szolgáltatásban kétféleképpen lehet egy jelentéshez hozzáférést adni. Ha a SharePoint Online-csoportwebhely létrehozásához Office 365-csoportot használ, akkor a felhasználót hozzáadhatja az **alkalmazás-munkaterülethez a Power BI szolgáltatásban** és a **SharePoint-oldalon**. Ez biztosítja, hogy a felhasználók láthassák az adott csoport tartalmát. További információ: [Alkalmazások létrehozása és terjesztése a Power BI-ban](service-create-distribute-apps.md).
 
 A másik mód, amellyel hozzáférést adhat a felhasználóknak a jelentéshez, a következő:
 
@@ -129,7 +129,7 @@ A probléma elhárításához lépjen kapcsolatba a SharePoint Online-oldal tula
 
 ## <a name="known-issues-and-limitations"></a>Ismert problémák és korlátozások
 
-* **Hiba: „Hiba történt, kérjük jelentkezzen ki, és újból be, majd nyissa meg ismét az oldalt. Korrelációs azonosító: nincs definiálva, HTTP-válasz állapota: 400, kiszolgálói hibakód 10001, üzenet: Hiányzó frissítési token”**
+* Hiba: „Hiba történt, kérjük jelentkezzen ki, és újból be, majd nyissa meg ismét az oldalt. Korrelációs azonosító: nincs definiálva, HTTP-válasz állapota: 400, kiszolgálói hibakód 10001, üzenet: Hiányzó frissítési token”
   
   Ha ez a hibaüzenet jelenik meg, próbálja meg a következők egyikét:
   
@@ -154,5 +154,4 @@ A probléma elhárításához lépjen kapcsolatba a SharePoint Online-oldal tula
 [Irányítópult megosztása munkatársakkal és másokkal](service-share-dashboards.md)  
 [Mi a Power BI Premium?](service-premium.md)  
 
-További kérdései vannak? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/) 
-
+További kérdései vannak? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)
