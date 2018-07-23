@@ -322,6 +322,10 @@
                   href: service-collaborate-power-bi-workspace.md
                 - name: Csoport kezelése a Power BI-ban és az Office 365-ben
                   href: service-manage-app-workspace-in-power-bi-and-office-365.md
+                - name: A OneDrive Vállalati verzióban tárolt Excel-munkafüzetre hivatkozó irányítópult megosztása
+                  href: service-share-dashboard-that-links-to-excel-onedrive.md
+            - name: Tartalomcsomagok
+              items:
                 - name: 'Céges tartalomcsomagok kezelése, frissítése és törlése'
                   href: service-organizational-content-pack-manage-update-delete.md
                 - name: 'Vállalati tartalomcsomagok: másolás, frissítés és hozzáférés kérése'
@@ -332,8 +336,16 @@
                   href: service-organizational-content-pack-create-and-publish.md
                 - name: Céges tartalomcsomaghoz való kapcsolódás törlése
                   href: service-organizational-content-pack-disconnect.md
-                - name: A OneDrive Vállalati verzióban tárolt Excel-munkafüzetre hivatkozó irányítópult megosztása
-                  href: service-share-dashboard-that-links-to-excel-onedrive.md
+                - name: Tanúsítás
+                  items:
+                    - name: Tartalomcsomag-tanúsítási program
+                      href: service-content-pack-overview.md
+                    - name: Sablon tartalomcsomag szerzői műveletei
+                      href: template-content-pack-authoring.md
+                    - name: Sablon tartalomcsomag tesztelése
+                      href: template-content-pack-testing.md
+                    - name: Sablon tartalomcsomag használata
+                      href: template-content-pack-experience.md
             - name: Jelentések
               items:
                 - name: Új jelentés létrehozása meglévő jelentésből
@@ -890,58 +902,34 @@
           href: mobile-apps-supported-languages.md
 - name: Power BI fejlesztőknek
   items:
-    - name: Áttekintés
+    - name: Beágyazott analitika
       items:
-        - name: Mire használhatják a fejlesztők a Power BI-t?
-          href: developer/what-can-you-do.md
-    - name: Oktatóanyagok
-      items:
-        - name: Tartalom beágyazása az ügyfelek számára
-          href: developer/embed-sample-for-customers.md
-        - name: Tartalom beágyazása a cég számára
-          href: developer/embed-sample-for-your-organization.md
-    - name: Fogalmak
-      items:
-        - name: Munkavégzés a Power BI REST API-kkal
+        - name: Áttekintés
           items:
-            - name: Mire használhatom a Power BI API-t?
-              href: developer/overview-of-power-bi-rest-api.md
-            - name: A Power BI REST API korlátozásai
-              href: developer/api-rest-api-limitations.md
-            - name: Adatkészlet tulajdonságai
-              href: developer/api-dataset-properties.md
-            - name: Adatmodell verzióinak kezelése
-              href: developer/api-data-model-versioning.md
-        - name: Egyéni vizuális elem létrehozása a Fejlesztői eszközökkel
-          href: service-custom-visuals-getting-started-with-developer-tools.md
-        - name: Power BI-engedélyek
-          href: developer/power-bi-permissions.md
-        - name: Sorszintű biztonság (RLS)
-          href: developer/embedded-row-level-security.md
-        - name: Gyakori kérdések
-          href: developer/embedded-faq.md
-    - name: Útmutató
-      items:
-        - name: Egyéni vizuális elem létrehozása
-          items:
-            - name: Egyéni vizuális elem létrehozása a Fejlesztői eszközökkel
-              href: service-custom-visuals-getting-started-with-developer-tools.md
-            - name: Egyéni vizuális elem hitelesítése
-              href: power-bi-custom-visuals-certified.md
-            - name: Egyéni vizualizációk közzététele az AppSource-ban
-              href: developer/office-store.md
-        - name: Beágyazás
-          items:
-            - name: Beágyazás a Power BI használatával
+            - name: Beágyazás a Power BI-jal
               href: developer/embedding.md
+        - name: Oktatóanyagok
+          items:
+            - name: Tartalom beágyazása ügyfelek számára
+              href: developer/embed-sample-for-customers.md
+            - name: Tartalom beágyazása a cég számára
+              href: developer/embed-sample-for-your-organization.md
+        - name: Fogalmak
+          items:
+            - name: Sorszintű biztonság (RLS)
+              href: developer/embedded-row-level-security.md
+            - name: Gyakori kérdések
+              href: developer/embedded-faq.md
+            - name: Power BI-engedélyek
+              href: developer/power-bi-permissions.md
+        - name: Útmutató
+          items:
             - name: Tartalom beágyazása
               href: developer/embedding-content.md
             - name: Beágyazás alkalmazásból
               href: developer/embed-from-apps.md
             - name: Tartalom integrálása alkalmazásba szuverén felhők esetében (az alkalmazás az adattulajdonos)
               href: developer/embed-sample-for-customers-sovereign-clouds.md
-            - name: Egyéni elrendezések beágyazása alkalmazásokba
-              href: developer/embedded-custom-layout.md
             - name: Azure Active Directory-bérlő létrehozása
               href: developer/create-an-azure-active-directory-tenant.md
             - name: Alkalmazás regisztrálása
@@ -952,17 +940,105 @@
               href: developer/qanda.md
             - name: A Power BI Embedded migrálása
               href: developer/migrate-from-powerbi-embedded.md
-            - name: Power BI Embedded migrálási eszköz
-              href: developer/migrate-tool.md
-            - name: Migrálási kódtöredékek
-              href: developer/migrate-code-snippets.md
             - name: Beágyazott alkalmazás hibaelhárítása
               href: developer/embedded-troubleshoot.md
-        - name: Adatok leküldése
+        - name: Hivatkozás
           items:
-            - name: Adatbetöltés irányítópultra
+            - name: .NET SDK letöltése
+              href: 'https://go.microsoft.com/fwlink/?linkid=848274'
+            - name: Egyéni elrendezések beágyazása alkalmazásokba
+              href: developer/embedded-custom-layout.md
+            - name: Migrálási kódtöredékek
+              href: developer/migrate-code-snippets.md
+        - name: Erőforrások
+          items:
+            - name: Fejlesztői központ
+              href: 'https://powerbi.microsoft.com/en-us/developers/'
+            - name: Előkészítési eszköz beágyazáshoz
+              href: 'https://aka.ms/embedsetup'
+            - name: JavaScript Playground-minta
+              href: 'https://go.microsoft.com/fwlink/?linkid=848279'
+            - name: Power BI JavaScript wiki
+              href: 'https://github.com/Microsoft/powerbi-javascript/wiki'
+            - name: JavaScript Git-tárház
+              href: 'https://go.microsoft.com/fwlink/?linkid=848276'
+            - name: 'Power BI C# Git-tárház'
+              href: 'https://go.microsoft.com/fwlink/?linkid=848273'
+            - name: Minták
+              href: 'https://go.microsoft.com/fwlink/?linkid=851293'
+            - name: Power BI Embedded migrálási eszköz
+              href: developer/migrate-tool.md
+            - name: Power BI-közösség
+              href: 'https://go.microsoft.com/fwlink/?linkid=848280'
+            - name: Stack Overflow
+              href: 'https://go.microsoft.com/fwlink/?linkid=848281'
+    - name: Egyéni vizualizációk létrehozása
+      items:
+        - name: Áttekintés
+          items:
+            - name: Egyéni vizualizációk hozzáadása Power BI-hoz
+              href: 'https://microsoft.github.io/PowerBI-visuals/docs/latest/overview/'
+        - name: Oktatóanyagok
+          items:
+            - name: Egyéni Power BI-vizualizáció létrehozása
+              href: 'https://microsoft.github.io/PowerBI-visuals/docs/latest/step-by-step-lab/developing-a-power-bi-custom-visual/'
+        - name: Fogalmak
+          items:
+            - name: Képességek használata
+              href: 'https://microsoft.github.io/PowerBI-visuals/docs/latest/concepts/capabilities/'
+            - name: Adatnézet-leképezések
+              href: 'https://microsoft.github.io/PowerBI-visuals/docs/latest/concepts/dataviewmappings/'
+            - name: Objektumok és tulajdonságok
+              href: 'https://microsoft.github.io/PowerBI-visuals/docs/latest/concepts/objects-and-properties/'
+            - name: Speciális szerkesztési mód
+              href: 'https://microsoft.github.io/PowerBI-visuals/docs/latest/concepts/advanced-edit-mode/'
+            - name: Útmutató a verzióval ellátott API-ba való migráláshoz
+              href: 'https://microsoft.github.io/PowerBI-visuals/docs/latest/concepts/migrating-to-versioned-api-guide/'
+        - name: Útmutató
+          items:
+            - name: Egyéni vizuális elem hitelesítése
+              href: power-bi-custom-visuals-certified.md
+            - name: Egyéni vizualizációk közzététele az AppSource-ban
+              href: developer/office-store.md
+        - name: Hivatkozás
+          items:
+            - name: API-k
+              href: 'https://microsoft.github.io/PowerBI-visuals/api/references/ivisualhost/'
+        - name: Erőforrások
+          items:
+            - name: Fejlesztői központ
+              href: 'https://powerbi.microsoft.com/en-us/developers/'
+            - name: Egyéni vizuális elem létrehozása a Fejlesztői eszközökkel
+              href: service-custom-visuals-getting-started-with-developer-tools.md
+            - name: Minták
+              href: 'https://microsoft.github.io/PowerBI-visuals/samples/'
+            - name: Egyéni vizuális elemek Git-tárház
+              href: 'https://go.microsoft.com/fwlink/?linkid=848277'
+    - name: Automatizálás
+      items:
+        - name: Áttekintés
+          items:
+            - name: Mire használhatom a Power BI API-t?
+              href: developer/overview-of-power-bi-rest-api.md
+        - name: Oktatóanyagok
+          items: null
+        - name: Fogalmak
+          items:
+            - name: Automatikus adatmegőrzési szabályzat valós idejű adatokhoz
+              href: developer/api-automatic-retention-policy-for-real-time-data.md
+            - name: Adatok leküldése
+              items:
+                - name: A Power BI REST API korlátozásai
+                  href: developer/api-rest-api-limitations.md
+                - name: Adatkészlet tulajdonságai
+                  href: developer/api-dataset-properties.md
+                - name: Adatmodell verzióinak kezelése
+                  href: developer/api-data-model-versioning.md
+        - name: Útmutató
+          items:
+            - name: Adatok elküldése adatkészletbe
               href: developer/walkthrough-push-data.md
-            - name: Alkalmazás regisztrálása az Azure AD-vel
+            - name: Alkalmazás regisztrálása az Azure AD-ben
               href: developer/walkthrough-push-data-register-app-with-azure-ad.md
             - name: Hitelesítési hozzáférési jogkivonat beszerzése
               href: developer/walkthrough-push-data-get-token.md
@@ -970,46 +1046,24 @@
               href: developer/walkthrough-push-data-create-dataset.md
             - name: Sorok hozzáadása adatkészlettel
               href: developer/walkthrough-push-data-get-datasets.md
-            - name: Sorok hozzáadása táblához
+            - name: Sorok hozzáadása egy táblához
               href: developer/walkthrough-push-data-add-rows.md
+        - name: Hivatkozás
+          items:
+            - name: REST API-k
+              href: 'https://docs.microsoft.com/rest/api/power-bi'
+            - name: A Power BI REST API-jainak leírása
+              href: developer/rest-api-reference.md
             - name: Teljes kódlista
               href: developer/walkthrough-push-data-complete-code.md
-            - name: Automatikus adatmegőrzési szabályzat valós idejű adatokhoz
-              href: developer/api-automatic-retention-policy-for-real-time-data.md
-        - name: Tartalomcsomag hitelesítése
+        - name: Erőforrások
           items:
-            - name: Tartalomcsomag-hitelesítési program
-              href: developer/service-content-pack-overview.md
-            - name: Sablon tartalomcsomag szerzői műveletei
-              href: developer/template-content-pack-authoring.md
-            - name: Sablon tartalomcsomag tesztelése
-              href: developer/template-content-pack-testing.md
-            - name: Sablon tartalomcsomag használata
-              href: developer/template-content-pack-experience.md
-    - name: Hivatkozás
-      items:
-        - name: REST API-k
-          href: 'https://docs.microsoft.com/rest/api/power-bi/'
-        - name: 'Power BI C# Git-tárház'
-          href: 'https://go.microsoft.com/fwlink/?linkid=848273'
-        - name: .NET SDK letöltése
-          href: 'https://go.microsoft.com/fwlink/?linkid=848274'
-        - name: JavaScript Git-tárház
-          href: 'https://go.microsoft.com/fwlink/?linkid=848276'
-        - name: Egyéni vizuális elemek Git-tárház
-          href: 'https://go.microsoft.com/fwlink/?linkid=848277'
-    - name: Erőforrások
-      items:
-        - name: Előkészítési eszköz beágyazáshoz
-          href: 'https://aka.ms/embedsetup'
-        - name: JavaScript Playground-minta
-          href: 'https://go.microsoft.com/fwlink/?linkid=848279'
-        - name: Minták
-          href: 'https://go.microsoft.com/fwlink/?linkid=851293'
-        - name: Power BI-közösség
-          href: 'https://go.microsoft.com/fwlink/?linkid=848280'
-        - name: Stack Overflow
-          href: 'https://go.microsoft.com/fwlink/?linkid=848281'
+            - name: Fejlesztői központ
+              href: 'https://powerbi.microsoft.com/en-us/developers/'
+            - name: 'Power BI C# Git-tárház'
+              href: 'https://go.microsoft.com/fwlink/?linkid=848273'
+            - name: .NET SDK letöltése
+              href: 'https://go.microsoft.com/fwlink/?linkid=848274'
 - name: Power BI jelentéskészítő kiszolgáló
   items:
     - name: Áttekintés
