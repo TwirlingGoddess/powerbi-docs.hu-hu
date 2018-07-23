@@ -1021,7 +1021,9 @@
             - name: Mire használhatom a Power BI API-t?
               href: developer/overview-of-power-bi-rest-api.md
         - name: Oktatóanyagok
-          items: null
+          items:
+            - name: Adatok elküldése adatkészletbe
+              href: developer/walkthrough-push-data.md
         - name: Fogalmak
           items:
             - name: Automatikus adatmegőrzési szabályzat valós idejű adatokhoz
@@ -1036,8 +1038,6 @@
                   href: developer/api-data-model-versioning.md
         - name: Útmutató
           items:
-            - name: Adatok elküldése adatkészletbe
-              href: developer/walkthrough-push-data.md
             - name: Alkalmazás regisztrálása az Azure AD-ben
               href: developer/walkthrough-push-data-register-app-with-azure-ad.md
             - name: Hitelesítési hozzáférési jogkivonat beszerzése
