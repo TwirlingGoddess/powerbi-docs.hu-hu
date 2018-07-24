@@ -530,6 +530,12 @@
       items:
         - name: Újdonságok a Power BI Desktop legújabb frissítésében
           href: desktop-latest-update.md
+        - name: Összetett modellek a Power BI Desktopban (előzetes verzió)
+          href: desktop-composite-models.md
+        - name: Több-a-többhöz kapcsolatok a Power BI Desktopban (előzetes verzió)
+          href: desktop-many-to-many-relationships.md
+        - name: Tárolási mód a Power BI Desktopban (előzetes verzió)
+          href: desktop-storage-mode.md
         - name: Kétirányú keresztszűrés a Power BI Desktopban (előzetes verzió)
           href: desktop-bidirectional-filtering.md
         - name: A Power BI és a DirectQuery
@@ -670,6 +676,8 @@
               href: desktop-import-and-display-kpis.md
         - name: Jelentések létrehozása
           items:
+            - name: Vizuális elemek jelentésekhez
+              href: desktop-visual-elements-for-reports.md
             - name: Q&A a Power BI Desktopban
               href: desktop-qna-in-reports.md
             - name: Az Elemzés panel a Power BI Desktopban
@@ -1244,6 +1252,8 @@
               href: service-premium-large-datasets.md
             - name: Növekményes frissítés
               href: service-premium-incremental-refresh.md
+            - name: Multi-Geo támogatás (előzetes verzió)
+              href: service-admin-premium-multi-geo.md
             - name: Power BI Premium – gyakori kérdések
               href: service-premium-faq.md
             - name: A Power BI Premium kibocsátási megjegyzései
