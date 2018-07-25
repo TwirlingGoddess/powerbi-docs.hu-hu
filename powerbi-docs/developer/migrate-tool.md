@@ -242,8 +242,7 @@ Frissítenie kell ahhoz, hogy a rendszer frissítse a DirectQuery-jelentések ka
 
 Ezután frissítheti az adatkészlet kapcsolati sztringjét a Power BI szolgáltatásban (SaaS), és beállíthatja az adatforrás hitelesítő adatait. Tekintse meg a következő példákat, hogy lássa, hogyan teheti ezt meg.
 
-* 
-  [DirectQuery kapcsolati sztring frissítése az SaaS-munkaterületen](migrate-code-snippets.md#update-directquery-connection-string-is-saas-workspace)
+* [DirectQuery kapcsolati sztring frissítése az SaaS-munkaterületen](migrate-code-snippets.md#update-directquery-connection-string-is-saas-workspace)
 * [DirectQuery hitelesítő adatok beállítása az SaaS-munkaterületen](migrate-code-snippets.md#set-directquery-credentials-in-saas-workspace)
 
 ## <a name="embedding"></a>Beágyazás
