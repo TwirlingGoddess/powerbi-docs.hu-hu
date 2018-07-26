@@ -15,7 +15,7 @@ A **RELATED** (kapcsolódó) függvény *több-az-egyhez* típusú kapcsolatokn�
 
 A relációs függvények használatával olyan kifejezéseket hozhat létre, amelyek több különböző táblázat értékeit tartalmazzák. A DAX a kapcsolati lánc hosszától függetlenül mindig visszaadja ezeknek a függvényeknek az eredményét.
 
-> A videótartalomért köszönet illeti [Alberto Ferrarit az SQLBI-tól](http://www.sqlbi.com/learning-dax/?utm_source=powerbi&utm_medium=marketing&utm_campaign=after-summit)
+> A videótartalomért köszönet illeti [Alberto Ferrarit az SQLBI-tól](http://www.sqlbi.com/learning-dax)
 > 
 > 
 

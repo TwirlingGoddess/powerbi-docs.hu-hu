@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 05/02/2018
+ms.date: 07/24/2018
 ms.author: davidi
 LocalizationGroup: Data from databases
-ms.openlocfilehash: a656866b1c9cdc0d1eb83b67c0edf79c182d1a71
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 596d399e7c304d40be5b7839c5c16060eb9e8155
+ms.sourcegitcommit: 7fb0b68203877ff01f29724f0d1761d023075445
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34244433"
+ms.lasthandoff: 07/26/2018
+ms.locfileid: "39255986"
 ---
 # <a name="azure-and-power-bi"></a>Az Azure és a Power BI
 Az **Azure** szolgáltatások és a **Power BI** segítségével adatfeldolgozási erőfeszítéseit elemzésekké és jelentésekké alakíthatja, amelyek valós idejű betekintést nyújtanak üzleti tevékenységébe. Legyen az adatfeldolgozás felhőalapú vagy helyszíni, egyszerű vagy összetett, egyetlen forrásból származó vagy tömegesen skálázott, raktározott vagy valós idejű, az Azure és a Power BI biztosítja a beépített kapcsolódást és integrációt üzletiintelligencia-erőfeszítéseinek életre keltéséhez.
@@ -52,7 +52,7 @@ Az Azure és a Power BI segítségével igényei szerint növekedhet. A több fo
 ### <a name="connect-your-app-data-using-power-bi-apis"></a>Az alkalmazás csatlakoztatása a Power BI API-k használatával
 A Power BI használatával tájékozódhat a meglévő alkalmazásairól is. A Power BI API révén az alkalmazásfejlesztők teljes adathalmazokat küldhetnek a Power BI-ba programozott módon. Folyamatosan frissítenie kell? A Power BI API-kkal a fejlesztők valós idejű adatfrissítéseket küldhetnek az első lépések gyors megtételéhez, majd továbbléphetnek az Azure Stream Analytics használatára, ha a méretezési követelmények érdemessé teszik azt.
 
-Nagy mennyiségű információt találhat a Power BI API-król a [Power BI fejlesztői portálján](http://dev.powerbi.com). A [Power BI fejlesztői blogján](http://blogs.msdn.com/powerbidev) olvashat arról, hogy mások milyen tevékenységeket végeznek programozott módon a Power BI-val. Van egy, [a Power BI-fejlesztés első lépéseinek bemutatására](https://msdn.microsoft.com/library/dn889824.aspx) szánt oldal is.
+Nagy mennyiségű információt találhat a Power BI API-król a [Power BI fejlesztői portálján](http://dev.powerbi.com). 
 
 ### <a name="what-could-you-do-with-azure-and-power-bi"></a>Mit tehet az Azure-ban és a Power BI-ban?
 Mindenféle esetek vannak, ahol az **Azure** és a **Power BI** egyesíthető – a lehetőségek éppoly egyediek, mint maga a vállalkozása. További információ értaz **Azure-szolgáltatásokról** tekintse meg ezt az [áttekintő oldalt](http://go.microsoft.com/fwlink/?LinkId=535031&clcid=0x409), amely ismerteti a **az Azure használatával történő adatelemzési forgatókönyveket**, és ismerteti, miként törhet élre vállalkozása azzal, hogy értelmet ad adatforrásainak.

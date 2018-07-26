@@ -89,7 +89,7 @@ A DAX a következő **dátumfüggvényeket** tartalmazza:
 
 Noha ezek a függvényekkel jól hasznosíthatók *dátum* értékeken alapuló információk kiszámításához és a bennük tárolt információk kinyeréséhez, dátumtáblát használó időelemzésre nem alkalmasak.
 
-> A videótartalomért köszönet illeti [Alberto Ferrarit az SQLBI-tól](http://www.sqlbi.com/learning-dax/?utm_source=powerbi&utm_medium=marketing&utm_campaign=after-summit)
+> A videótartalomért köszönet illeti [Alberto Ferrarit az SQLBI-tól](http://www.sqlbi.com/learning-dax)
 > 
 > 
 

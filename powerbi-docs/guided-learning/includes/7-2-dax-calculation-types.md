@@ -57,7 +57,7 @@ A számított mérték kötelező elemei ugyanazok, mint a számított oszlopéi
 * új mértéknév
 * legalább egy függvény vagy kifejezés
 
-> A videótartalomért köszönet illeti [Alberto Ferrarit az SQLBI-tól](http://www.sqlbi.com/learning-dax/?utm_source=powerbi&utm_medium=marketing&utm_campaign=after-summit)
+> A videótartalomért köszönet illeti [Alberto Ferrarit az SQLBI-tól](http://www.sqlbi.com/learning-dax)
 > 
 > 
 

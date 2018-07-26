@@ -34,7 +34,7 @@ A Power BI-ban és a DAX-ban szerepelnek például olyan értékek is, amelyek n
 
 DAX-függvényekkel teljes, számított táblákat is létre lehet hozni. A DAX használatával létrehozott számított táblákhoz egy **NAME** és egy **TABLE** függvény is szükséges. A számított táblákat a szokásos módon, más táblákhoz hasonlóan lehet használni, így többek között kapcsolatok is létrehozhatók.
 
-> A videótartalomért köszönet illeti [Alberto Ferrarit az SQLBI-tól](http://www.sqlbi.com/learning-dax/?utm_source=powerbi&utm_medium=marketing&utm_campaign=after-summit)
+> A videótartalomért köszönet illeti [Alberto Ferrarit az SQLBI-tól](http://www.sqlbi.com/learning-dax)
 > 
 > 
 
