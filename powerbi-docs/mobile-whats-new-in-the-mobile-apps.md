@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: conceptual
-ms.date: 07/03/2018
+ms.date: 07/19/2018
 ms.author: maggies
-ms.openlocfilehash: 645e1e40867f52718f2ec79a17cf1b5525a3d951
-ms.sourcegitcommit: 9efb94ddb254e9c03e9871ad232509065ee24bf2
+ms.openlocfilehash: 41a8b463ca95d0e4e0e0ba71dbd9ec9a1ce78920
+ms.sourcegitcommit: f6fb681ec85313eb7b450edb8f190e9e7afbabca
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 07/06/2018
-ms.locfileid: "37864399"
+ms.lasthandoff: 07/20/2018
+ms.locfileid: "39182725"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>A Power BI mobilalkalmazásainak újdonságai
 Az újdonságokra vonatkozó kapcsolódó információk:
@@ -22,6 +22,19 @@ Az újdonságokra vonatkozó kapcsolódó információk:
 * [A Power BI csapatának blogja a mobilalkalmazásokról](https://powerbi.microsoft.com/blog/tag/mobile/)
 * [A Power BI Desktop újdonságai](desktop-latest-update.md)  
 * [A Power BI szolgáltatás újdonságai](service-whats-new.md)  
+
+## <a name="july-2018"></a>2018. július
+
+### <a name="ios-and-android-only"></a>Csak iOS és Android
+
+**Megosztott szűrők**
+
+Mostantól megosztott szűrőket és szeletelőket tartalmazó jelentéseket is kaphat.
+
+**Háttérkép-támogatás**
+
+Ha fekvő tájolásban tekint meg egy jelentést a mobileszközén, ugyanazokat a háttérképeket láthatja, amelyeket a webes Power BI-ban.
+
 
 ## <a name="june-2018"></a>2018. június
 

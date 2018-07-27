@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 06/05/2018
+ms.date: 07/24/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 94f4bf71f0b97b202ce05f1caadee43ccea6a733
-ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
+ms.openlocfilehash: f7c619a5696a6f432f24e5e2c875cfde335ab32c
+ms.sourcegitcommit: 7fb0b68203877ff01f29724f0d1761d023075445
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37135927"
+ms.lasthandoff: 07/26/2018
+ms.locfileid: "39256055"
 ---
 # <a name="power-bi-for-us-government-customers"></a>Power BI az USA kormányzati ügyfelei számára
 A **Power BI szolgáltatás** külön verziója érhető el az USA kormányzati ügyfeleinek az **egyesült államokbeli Office 365-közösségi** előfizetések részeként. A jelen cikkben a **Power BI szolgáltatás** kifejezetten az USA kormányzati ügyfeleinek készült verzióját tárgyaljuk, amely elkülönül és különbözik a **Power BI szolgáltatás** kereskedelmi verziójától.
@@ -58,7 +58,7 @@ A **Power BI szolgáltatás** kereskedelmi verziójában elérhető egyes funkci
 * A **Power BI US Government** csak **Pro licenccel** érhető el. Felügyeleti portálon (vagy felhasználók által) Power BI (ingyenes) licencre tett bármilyen hivatkozás egy kereskedelmi Power BI szolgáltatásfelhőben fut.
 * **Naplózás** – 2018. júniustól már elérhető a naplózás az Office 365 Biztonsági és Megfelelőségi portálján.
 * **Power BI-tartalom Cortanával** – A Power BI-eredmények nem jelennek meg a Cortanával végzett olyan keresések eredményeiben, amelyek a Power BI-tartalmakra (irányítópultok, jelentések és alkalmazások) vonatkoznak, valamint olyan eredményekben, amelyek meghatározott kulcsszavakhoz tartozó, Cortanára optimalizált jelentésoldalakat tartalmaznak.
-* **Külső felhasználói megosztás** – A megosztás csak a Power BI-bérlőn belül lehetséges, és 2018. júniustól a megosztás a Power BI-bérlőn kívüli felhasználókkal is engedélyezett.
+* **Külső felhasználói megosztás** – A megosztás csak a Power BI-bérlőn belül lehetséges, és 2018. júniustól a megosztás a Power BI-bérlőn kívüli felhasználókkal is engedélyezett. Lásd a [Power BI tartalmak terjesztése Azure AD B2B külső vendégfelhasználóknak](service-admin-azure-ad-b2b.md) című témakört.
 * **Használati metrikák irányítópultokhoz és jelentésekhez** – jelentésekhez és irányítópultokhoz nem érhetők el használati metrikák. A cégen belüli tartalmak használatáról az auditnaplók adataiból lehetséges használatra vonatkozó információt szerezni.
 
 Ha fiókjához **Power BI** ingyenes licencek vannak társítva, akkor a fiók a **Power BI** szolgáltatás kereskedelmi verzióját futtatja, és nem tartozik a **Power BI US Government** ajánlat hatálya alá. Ilyen ingyenes fiók esetén a következő problémákba ütközhet:

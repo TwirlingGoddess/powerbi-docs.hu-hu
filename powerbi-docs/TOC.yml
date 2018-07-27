@@ -804,6 +804,8 @@
           href: desktop-data-types.md
         - name: A Power BI Desktop adatvédelmi szintjei
           href: desktop-privacy-levels.md
+        - name: Összekötők bővíthetősége a Power BI-ban
+          href: desktop-connector-extensibility.md
     - name: Erőforrások
       items:
         - name: Power BI Desktop videók

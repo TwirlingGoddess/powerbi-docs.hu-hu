@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 05/25/2018
 ms.author: maghan
-ms.openlocfilehash: 8a912791777c631208ee40d37c5eaad56806ccf9
-ms.sourcegitcommit: 001ea0ef95fdd4382602bfdae74c686de7dc3bd8
+ms.openlocfilehash: 6a19478e561edfb4398f9a128e284d3a7e43e9b6
+ms.sourcegitcommit: efe6747614ff66b5a86af9677632c1fb535448b2
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 07/11/2018
-ms.locfileid: "38924713"
+ms.lasthandoff: 07/19/2018
+ms.locfileid: "39137944"
 ---
 # <a name="embed-your-power-bi-dashboards-reports-and-tiles"></a>Power BI-irányítópultok, -jelentések és -csempék beágyazása
 
@@ -110,15 +110,13 @@ Az alkalmazásban hitelesítést kell végeznie a Power BI-jal. Ha az ügyfelei 
 
 A hitelesítés után az alkalmazáson belül a Power BI REST API-kkal és a JavaScript API-kkal ágyazhat be irányítópultokat és jelentéseket az alkalmazásba. 
 
-Ha a **szervezete számára végez beágyazást**, tekintse át a következő útmutatókat:
+Ha a **cége számára végez beágyazást**, tekintse át a következő útmutatót:
 
-* [Irányítópult integrálása alkalmazásba](integrate-dashboard.md)
-* [Csempe integrálása egy alkalmazásba](integrate-tile.md)
-* [Jelentés integrálása egy alkalmazásba](integrate-report.md)
+* [Jelentés integrálása egy alkalmazásba](embed-sample-for-your-organization.md)
 
 Ha az **ügyfelei számára végez beágyazást**, ami gyakran előfordul ISV-k esetén, tekintse át a következőket:
 
-* [Irányítópult, csempe vagy jelentés beágyazása az alkalmazásba](embed-sample-for-customers.md)
+* [Jelentés beágyazása az alkalmazásba](embed-sample-for-customers.md)
 
 Amikor ügyfelek számára végez beágyazást, beágyazási tokenre van szükség. További információ: [Embed Token](https://docs.microsoft.com/rest/api/power-bi/embedtoken) (Jogkivonat beágyazása).
 

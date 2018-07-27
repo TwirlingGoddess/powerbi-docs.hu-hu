@@ -7,15 +7,15 @@ ms.reviewer: ajayan
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 06/08/2018
+ms.date: 07/19/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 1b7a111e1b240a37211c17bce4d497de2d864074
-ms.sourcegitcommit: 5eb8632f653b9ea4f33a780fd360e75bbdf53b13
+ms.openlocfilehash: 45e9207ffa666e33b298e82bbc78e07c226b780e
+ms.sourcegitcommit: f6fb681ec85313eb7b450edb8f190e9e7afbabca
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "34852302"
+ms.lasthandoff: 07/20/2018
+ms.locfileid: "39182794"
 ---
 # <a name="manage-update-and-delete-organizational-content-packs"></a>Céges tartalomcsomagok kezelése, frissítése és törlése
 > [!NOTE]
@@ -52,7 +52,7 @@ Amikor módosít és ment egy tartalomcsomagba foglalt irányítópultot, a Powe
 4. Hajtsa végre a szükséges módosításokat a **Tartalomcsomag frissítése** ablakban, majd válassza a **Frissítés** lehetőséget. Megjelenik a **Sikeres** változtatást jelző üzenet.
    
    * A rendszer automatikusan érvényesíti a frissítést azoknál a csoporttagoknál, akik nem szabták testre a tartalomcsomagot.
-   * Azokat a csoporttagokat, akik testreszabták a tartalomcsomagot, értesíti, hogy létezik egy új verzió.  Ha megnyitják az AppSource-ot, akkor letölthetik a frissített tartalomcsomagot, de a saját verziójuk is megmarad.  Így már két verziójuk lesz: a személyre szabott és a frissített tartalomcsomag.  A személyre szabott verzióból el fognak tűnni az eredeti tartalomcsomag csempéi.  Láthatóak lesznek ugyanakkor a más jelentésekből kitűzött csempék.    
+   * Azokat a csoporttagokat, akik testreszabták a tartalomcsomagot, értesíti, hogy létezik egy új verzió.  Ha megnyitják az AppSource-ot, akkor letölthetik a frissített tartalomcsomagot, de a saját verziójuk is megmarad.  Így már két verziójuk lesz: a személyre szabott és a frissített tartalomcsomag.  A személyre szabott verzióból el fognak tűnni az eredeti tartalomcsomag csempéi.  Láthatóak lesznek ugyanakkor a más jelentésekből kitűzött csempék. Ha azonban a tartalomcsomag tulajdonosa törli a csomag alapjául szolgáló adatkészletet, akkor a teljes jelentés elvész.  
 
 ## <a name="update-the-audience-expand-or-restrict-access"></a>A közönség frissítése: a hozzáférés kiterjesztése vagy korlátozása
 Egy másik módosítási lehetőség a tartalomcsomag létrehozói számára a hozzáférés kiterjesztése, illetve korlátozása.  Előfordulhat, hogy egy szűkebb csoportra szeretné korlátozni egy széles közönség számára közzétett tartalomcsomag elérhetőségét.  

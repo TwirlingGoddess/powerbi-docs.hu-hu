@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 05/25/2018
 ms.author: maghan
-ms.openlocfilehash: 8a688f46a46dbb1015629c7785d96b62d4f8df26
-ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
+ms.openlocfilehash: a9d178ccfdb47152fd2c13d445b9190ced6115e1
+ms.sourcegitcommit: 3a287ae4ab16d1e76caed651bd8ae1a1738831cd
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/06/2018
-ms.locfileid: "34813238"
+ms.lasthandoff: 07/19/2018
+ms.locfileid: "39157434"
 ---
 # <a name="what-can-developers-do-with-the-power-bi-api"></a>Mire használhatják a fejlesztők a Power BI API-t?
 A Power BI interaktív irányítópultokat jelenít meg, amelyek valós időben hozhatók létre és frissíthetők számos különböző adatforrásból. Bármilyen, REST-hívásokat támogató programnyelv használatával létrehozhat olyan alkalmazásokat, amelyek valós időben integrálhatók a Power BI-irányítópultokkal. Az alkalmazásokba Power BI-csempéket és jelentéseket is integrálhat.
@@ -35,7 +35,7 @@ A fejlesztők létrehozhatnak saját adatmegjelenítéseket is, amelyek az inter
 > 
 > 
 
-## <a name="power-bi-developer-samples"></a>Power BI fejlesztői minták
+## <a name="power-bi-developer-samples"></a>A Power BI fejlesztői mintái
 A Power BI fejlesztői minták elemeket tartalmaznak az irányítópultokba, jelentésekbe és csempékbe való beágyazáshoz.
 
 [Power BI fejlesztői minták](https://github.com/Microsoft/PowerBI-Developer-Samples)
@@ -58,6 +58,11 @@ Válassza ki az Ön számára megfelelő megoldást:
 * A [Beágyazás a cég számra](embedding.md#embedding-for-your-organization) használatával kiterjesztheti a Power BI szolgáltatást. Futtassa a [Beágyazás a cég számára](https://aka.ms/embedsetup/UserOwnsData) megoldást.
 
 A JavaScript API teljes körű mintáját a [Playground eszköz](https://microsoft.github.io/PowerBI-JavaScript/demo) segítségével használhatja. Ez az eszköz lehetőséget ad a Power BI Embedded különböző mintáinak gyors kipróbálására. A JavaScript API-ról a [PowerBI-JavaScript wiki](https://github.com/Microsoft/powerbi-javascript/wiki) oldalon talál további információkat.
+
+## <a name="push-data-into-power-bi"></a>Adatok leküldése a Power BI szolgáltatásba
+A Power BI API lehetővé teszi az adatok leküldését az adatkészletekbe. Ennek segítéségével kiegészítheti sorokkal az adatkészletekben lévő táblákat. Az irányítópultok csempéi vagy a jelentésekben lévő vizualizációk ezután tükrözik az új adatokat.
+
+![Adatminta leküldése](media/what-can-you-do/powerbi-push-data.png)
 
 ## <a name="next-steps"></a>Következő lépések
 [Adatok küldése adatkészletekbe](walkthrough-push-data.md)  

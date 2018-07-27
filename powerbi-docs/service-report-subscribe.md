@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 06/04/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 0b1aa1f9cdabc3508906cc87a4d41f277cd0b0b6
-ms.sourcegitcommit: 695c65629d6d1faba61db2e1570324f65f235dde
+ms.openlocfilehash: 9436f94add8c8aff4d0378734c83891ef407955d
+ms.sourcegitcommit: 7fb0b68203877ff01f29724f0d1761d023075445
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37092690"
+ms.lasthandoff: 07/26/2018
+ms.locfileid: "39256078"
 ---
 # <a name="subscribe-to-a-report-or-dashboard-in-power-bi-service-apppowerbicom"></a>Feliratkozás jelentésre vagy irányítópultra a Power BI szolgáltatásban (app.powerbi.com)
 Minden eddiginél egyszerűbb naprakésznek lenni a legfontosabb irányítópultokkal és jelentésekkel kapcsolatban. Ön és munkatársai feliratkozhatnak az Önöknek legfontosabb jelentésoldalakra és irányítópultokra, a Power BI pedig pillanatképeket küld e-mailben a postafiókjaikba. Megadhatja a Power BI-nak, hogy milyen gyakran szeretne ilyen e-mailt kapni: naponta egyszer, vagy csak hetente. 
@@ -83,8 +83,10 @@ A feliratkozás megszűnik, ha lejár a Pro-licence, ha az irányítópultot vag
 ## <a name="considerations-and-troubleshooting"></a>Megfontolandó szempontok és hibaelhárítás
 * Az irányítópultok e-mail-feliratkozásai esetén, ha bármely csempe sorszintű biztonsággal (RLS) rendelkezik, ezek a csempék nem jelennek meg.  A jelentések e-mail-feliratkozásai esetén, ha az adatkészlet sorszintű biztonságot használ, nem hozható létre feliratkozás.
 * A jelentésoldalakra való feliratkozás a jelentésoldal nevéhez kapcsolódik. Ha feliratkozik egy jelentésoldalra, majd átnevezi azt, akkor újra létre kell hoznia a feliratkozást
+* Jelenleg más felhasználók regisztrálásánál a jelentések/irányítópultok e-mailes megosztása nincs támogatva az élő kapcsolattal rendelkező adatkészleteket használatával.
 * Az élő kapcsolattal rendelkező adathalmazokra vonatkozó e-mailekre való feliratkozáskor csak az adatok változása esetén kap értesítést. Tehát ha frissítés történik, de az adatok nem változnak, akkor a Power BI nem küld e-mailt.
 * Az e-mailekre való feliratkozások az [egyéni vizualizációk](power-bi-custom-visuals.md) többségét nem támogatják.  Az egyetlen kivétel a [minősített](power-bi-custom-visuals-certified.md) egyéni vizualizációk esete.  
+* Az e-mailekre való feliratkozások jelenleg nem támogatják az R-alapú egyéni vizualizációkat.  
 * Ha bármely irányítópult-csempe sorszintű biztonsággal (RLS) rendelkezik, ezek a csempék nem jelennek meg.
 * Nem írathat fel más felhasználókat olyan jelentésekre, amelyek sorszintű biztonsággal rendelkeznek.
 * Az e-mail-értesítések a jelentés szűrőinek és szeletelőinek alapértelmezett állapotait alkalmazva lesznek elküldve. Az alapértelmezéseknek a feliratkozás után végzett módosításai nem jelennek meg az e-mailben.    

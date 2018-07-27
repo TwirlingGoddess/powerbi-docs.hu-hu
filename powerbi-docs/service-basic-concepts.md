@@ -8,15 +8,15 @@ featuredvideoid: B2vd4MQrz4M
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 01/20/2018
+ms.date: 07/19/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 0536dc6fd637db07c0e26a4ed7f0da1071b646eb
-ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
+ms.openlocfilehash: a1719f8a6f9f4ad3989aa498c584b337cd9fdd00
+ms.sourcegitcommit: f6fb681ec85313eb7b450edb8f190e9e7afbabca
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37137422"
+ms.lasthandoff: 07/20/2018
+ms.locfileid: "39182748"
 ---
 # <a name="power-bi---basic-concepts-for-power-bi-service"></a>Power BI – a Power BI szolgáltatás alapfogalmai
 
@@ -48,9 +48,9 @@ De meg is nézheti ezt a videót, mielőtt tovább olvassa a cikket.  A videóba
 A Power BI négy alapvető építőeleme a következő: ***irányítópultok***, ***jelentések***, ***munkafüzetek*** és ***adathalmazok***. Ezek mind pedig ***munkaterületekbe*** vannak szervezve. A négy építőelem részletes ismertetéséhez fontos tisztában lenni a munkaterületek működésével, ezért először ezekkel foglalkozunk. 
 
 ## <a name="workspaces"></a>Munkaterületek
-A munkaterületek a Power BI irányítópultjainak, jelentéseinek, munkafüzeteinek és adathalmazainak tárolói. A munkaterületeknek kétféle típusa van: a **Saját munkaterület* és az alkalmazás-munkaterületek. Mi tehát egy *alkalmazás*? Egy Power BI-*alkalmazás* az irányítópultok és jelentések egy olyan gyűjteménye, amely arra szolgál, hogy alapvető metrikákat bocsátson a szervezet rendelkezésére. Az alkalmazások interaktívak, de nem szerkeszthetők 
+A munkaterületek a Power BI irányítópultjainak, jelentéseinek, munkafüzeteinek és adathalmazainak tárolói. A munkaterületeknek kétféle típusa van: a *Saját munkaterület* és az *alkalmazás-munkaterületek*. Mi tehát egy *alkalmazás*? Egy Power BI-*alkalmazás* az irányítópultok és jelentések egy olyan gyűjteménye, amely arra szolgál, hogy alapvető metrikákat bocsátson a szervezet rendelkezésére. Az alkalmazások interaktívak, de nem szerkeszthetők. 
 
-- A *Saját munkaterület* az egyes Power BI-ügyfelek személyes munkaterülete, melyen a tartalmaikat használhatják. A Saját munkaterületéhez csak Ön fér hozzá. Ha bármely tartalmát meg szeretné osztani, erre több lehetősége is van: létrehozhat egy alkalmazás-munkaterületet, melyen a tartalmakat egy *alkalmazásba* kötegeli és elérhetővé teszi mások számára a szervezetben, vagy létrehozhat egy alkalmazás-munkaterületet, és a munkatársaknak hozzáférést adhat ehhez a munkaterülethez, hogy megoszthassanak egymással tartalmakat és együtt tudjanak működni.     
+- A *Saját munkaterület* az egyes Power BI-ügyfelek személyes munkaterülete, melyen saját tartalmaikat használhatják. A Saját munkaterületéhez csak Ön fér hozzá. A Saját munkaterületről meg is oszthatja az irányítópultokat és a jelentéseket. Ha viszont másokkal együttműködve szeretne irányítópultokkal és jelentésekkel dolgozni, vagy ha alkalmazást szeretne létrehozni, akkor az alkalmazás-munkaterületet érdemes választania.      
 -  Az *alkalmazás-munkaterületeken* együtt lehet működni és tartalmakat lehet megosztani a munkatársakkal. Emellett itt lehet a szervezet számára alkalmazásokat létrehozni, közzétenni és kezelni. Azon tartalmak átmeneti területeiként és tárolóiként tekinthet rájuk, melyek Power BI-alkalmazásokat alkotnak majd. Az alkalmazás-munkaterületekhez hozzáadhat munkatársakat, és közösen dolgozhatnak irányítópultokon, jelentéseken, munkafüzeteken és adathalmazokon. Az alkalmazás-munkaterületek minden tagjának Power BI Pro-licenccel kell rendelkeznie, az alkalmazások felhasználóinak (az alkalmazásokhoz hozzáféréssel rendelkező munkatársaknak) azonban nem feltétlenül van szükségük Pro-licencre.  
 
 További tudnivalókért tekintse meg a Tartalomjegyzék **Megosztás és együttműködés** című szakaszát, az [Irányítópultok és jelentések közös használata és megosztása](service-how-to-collaborate-distribute-dashboards-reports.md) című szakasztól kezdődően.
@@ -231,7 +231,7 @@ A képernyő ezen területén további lehetőségek találhatók a tartalom (eb
    ![](media/service-basic-concepts/power-bi-labeled-icons.png)
 
 ## <a name="next-steps"></a>Következő lépések
-[A Power BI bemutatása](power-bi-overview.md)  
+[Mi az a Power BI?](power-bi-overview.md)  
 [Navigáció: Eligazodás a Power BI szolgáltatásban](service-the-new-power-bi-experience.md)
 [Power BI-videók](videos.md)  
 [A jelentésszerkesztő – bemutató](service-the-report-editor-take-a-tour.md)

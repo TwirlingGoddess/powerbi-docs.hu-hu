@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/05/2018
+ms.date: 07/23/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 166d61c78f8e85a91dafa5de698d782b456834a7
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: dcf63989a7d016b5795337f43c9524b05d2d54cd
+ms.sourcegitcommit: 6faeb642721ee5abb41c04a8b729880c01c4d40e
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37601637"
+ms.lasthandoff: 07/23/2018
+ms.locfileid: "39210376"
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>A Power BI Desktop korábbi havi frissítései
 
@@ -34,6 +34,53 @@ A **legújabb frissítésekről** szóló videót az elejétől is végignézhet
 
 Az alábbi szakaszok a **Power BI Desktop** korábbi havi frissítéseit ismertetik.
 
+
+## <a name="june-2018-update-2595135101"></a>2018. júniusi frissítés (2.59.5135.101)
+
+Az ebben a hónapban megjelenő frissítések funkciói és javításai izgalmasabbá tették jelentéseit, hogy megállapításaival cége új lendületet nyerhessen.
+
+A **Power BI Desktop** júniusi újdonságai közé az alábbi frissítések tartoznak:
+
+### <a name="reporting"></a>Jelentéskészítés
+
+* Kontrasztos megjelenítés támogatása a jelentésekben [[videó]](https://youtu.be/4VpGtWSrssE?t=13s)  [[cikk]](desktop-accessibility.md#high-contrast-support-for-reports)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#highContrast) 
+* Gyűrűdiagram sugarának vezérlője [[videó]](https://youtu.be/4VpGtWSrssE?t=6m1s)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#donutRadius) 
+* Torta- és gyűrűdiagram adatcímke-elhelyezésének vezérlője [[videó]](https://youtu.be/4VpGtWSrssE?t=7m19s)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#detailLabels) 
+* Adatfeliratok formázása elkülönülten minden mértéknél kombinált diagramban [[videó]](https://youtu.be/4VpGtWSrssE?t=9m29s)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#comboLabels) 
+* Hosszabb telefonos jelentések [[videó]](https://youtu.be/4VpGtWSrssE?t=11m26s)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#phoneReports) 
+
+### <a name="custom-visuals"></a>Egyéni vizualizációk
+
+* Két új egyéni vizualizáció [[videó]](https://youtu.be/4VpGtWSrssE?t=17m42s)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#customVisuals) 
+
+### <a name="modeling"></a>Modellezés
+* Szűrés és rendezés adatnézetben [[videó]](https://youtu.be/4VpGtWSrssE?t=13m11s)  [[cikk]](desktop-data-view.md#filtering-in-data-view)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#filterAndSort) 
+* Javult területibeállítás-szűrés [[videó]](https://youtu.be/4VpGtWSrssE?t=15m35s)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#locale) 
+
+### <a name="data-connectivity"></a>Adatkapcsolatok
+
+* SAP BusinessWarehouse-összekötő javításai (új illesztőprogram és javított teljesítmény, továbbá a hierarchiaváltozók jobb támogatása) [[videó]](https://youtu.be/4VpGtWSrssE?t=21m6s) [[cikk]](desktop-sap-bw-connector.md)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#sapBW) 
+* Az Apache Spark-összekötő már támogatja a Windows-hitelesítést [[videó]](https://youtu.be/4VpGtWSrssE?t=24m31s)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#spark) 
+* Az OData V4-összekötő fejlesztései [[videó]](https://youtu.be/4VpGtWSrssE?t=25m12s)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#oData) 
+* Az ODBC-összekötő fejlesztései (az első sorok összecsukásának támogatása, navigáció szűrése DSN-katalógus alapján) [[videó]](https://youtu.be/4VpGtWSrssE?t=26m51s) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#odbc) 
+
+### <a name="other"></a>Egyéb
+
+* Szuverénfelhő-választó [[videó]](https://youtu.be/4VpGtWSrssE?t=27m45s)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#nationalCloud) 
+
+
+> [!NOTE]
+> Megtekintheti továbbá [a Power BI Desktophoz elérhető adatforrások teljes listáját](desktop-data-sources.md). A lista folyamatosan bővül, ezért érdemes gyakran visszatérnie.
+
+További információkra kíváncsi ezekről a frissítésekről? Olvassa el [blogbejegyzésünket](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/), amely részletes információkkal szolgál az új funkciókról (ez ugyanaz a blogbejegyzés, amelyre a fenti lista hivatkozik).
+
+Ezeket a frissítéseket az alábbi videó mutatja be. A videó a blogbejegyzésben is megtekinthető.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/4VpGtWSrssE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+
+> [!NOTE]
+> Érdekelhetik továbbá [a Power BI szolgáltatás újdonságai](service-whats-new.md), valamint [a Power BI mobilalkalmazásainak újdonságai](mobile-whats-new-in-the-mobile-apps.md).
 
 ## <a name="may-2018-update-2585103281"></a>2018. májusi frissítés (2.58.5103.281)
 

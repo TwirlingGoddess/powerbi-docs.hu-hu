@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/02/2018
+ms.date: 07/19/2018
 ms.author: davidi
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 3c91a6a70899a4a59c3d98cd9ab948284df5b662
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 144cdace662b5f6dbe546a213e07f087d634dcff
+ms.sourcegitcommit: 7fb0b68203877ff01f29724f0d1761d023075445
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34298389"
+ms.lasthandoff: 07/26/2018
+ms.locfileid: "39256009"
 ---
 # <a name="tips-and-tricks-for-color-formatting-in-power-bi"></a>Tippek és trükkök a színformázáshoz a Power BI-ban
 A Power BI sokféle lehetőséget kínál, amelyekkel egyedivé tehetők az irányítópultok és a jelentések. Ez a cikk néhány olyan ötletet fejt ki részletesen, amelyek segítségével meggyőzőbb, érdekesebb és az Ön igényeinek jobban megfelelő Power BI-vizualizációkat készíthet.
@@ -97,7 +97,7 @@ Figyelje meg az első képen, hogy a diagram oszlopai a sávon ábrázolt szín�
 
 ![](media/service-tips-and-tricks-for-color-formatting/tipstrickscolor_12.png)
 
-Most próbáljon meg numerikus értéket adni a **legkisebb** és a **legnagyobb** értékhez tartozó színek alatti **Minimum** és **Maximum** mezőknek (ahogyan az alábbi képen látható). Állítsa a **Minimum** és a **Maximum** értékét is 20 000 000-ra.
+Most próbáljon meg numerikus értéket adni a **legkisebb** és a **legnagyobb** értékhez tartozó színek alatti **Minimum** és **Maximum** mezőknek (ahogyan az alábbi képen látható). Állítsa a **Minimum** értékét 20 000 000-ra, a **Maximum** értékét pedig 20 000 001-re.
 
 Ezekkel az értékekkel a színátmenet már nem alkalmazható a diagramnak a **Minimum** alatti vagy **Maximum** feletti értékeire. A **Maximum** értéknél magasabb oszlopok színe zöld, a **Minimum** alattiaké piros.
 

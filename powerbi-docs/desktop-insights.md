@@ -7,18 +7,18 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/02/2018
+ms.date: 07/23/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 5bb3f49ef49ed7bbaeb3f52e0711247e0abdc615
-ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
+ms.openlocfilehash: 8f69eec2ce7273898698fb086f372daa2201eed8
+ms.sourcegitcommit: 6faeb642721ee5abb41c04a8b729880c01c4d40e
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37134685"
+ms.lasthandoff: 07/23/2018
+ms.locfileid: "39210261"
 ---
 # <a name="use-insights-in-power-bi-desktop-preview"></a>Elemzések használata a Power BI Desktopban (Előzetes verzió)
-A **Power BI Desktop** alkalmazáson belül kérheti a diagramokon látható növekedések és csökkenések értelmezését, valamint az adatok gyors, automatikus, részletes elemzését is. Egyszerűen a jobb egérgombbal kattintson egy adatpontra, és válassza az **Elemzés > A csökkenés magyarázata**  lehetőséget (vagy a növekedés magyarázatát, ha az előző oszlop alacsonyabb volt). A rendszer ezt követően a magyarázatot egy könnyen használható ablakban jeleníti meg.
+A **Power BI Desktop** alkalmazáson belül kérheti a diagramokon látható növekedések és csökkenések értelmezését, megnézheti az eloszlási tényezőket, valamint az adatok gyors, automatikus, részletes elemzését is. Egyszerűen a jobb egérgombbal kattintson egy adatpontra, és válassza az **Elemzés > A csökkenés magyarázata** lehetőséget (vagy a növekedés magyarázatát, ha az előző oszlop alacsonyabb volt), vagy az **Elemzés > Az eloszlási különbségek keresése** lehetőséget. A rendszer ezt követően a magyarázatot egy könnyen használható ablakban jeleníti meg.
 
 ![](media/desktop-insights/insights_01.png)
 
