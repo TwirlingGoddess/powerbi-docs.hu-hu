@@ -35,7 +35,7 @@ Kapcsolódjon a Power BI-hoz készült [Dynamics Marketing-tartalomcsomaghoz](ht
 3. Válassza a **Microsoft Dynamics Marketing** \> **Beolvasás** lehetőséget.
    
    ![](media/service-connect-to-microsoft-dynamics-marketing/mdmarketing.png)
-4. Adja meg a fiókjához társított OData URL-címét.  Ez „https://[instance\_name].marketing.dynamics.com/analytics” formájú lesz.
+4. Adja meg a fiókjához társított OData URL-címét.  Ez „ https:// [instance\_name].marketing.dynamics.com/analytics” formájú lesz.
    
    ![](media/service-connect-to-microsoft-dynamics-marketing/pbi_dynmktgserviceurl.png)
 5. Amikor a rendszer erre kéri, adja meg a hitelesítő adatait (ha már bejelentkezett a böngészőjében, akkor lehet, hogy ez a lépés kimarad). A Hitelesítési módszer beállításnál válassza az **oAuth2** elemet, majd kattintson a **Bejelentkezés** gombra:
@@ -54,7 +54,7 @@ Kapcsolódjon a Power BI-hoz készült [Dynamics Marketing-tartalomcsomaghoz](ht
 
 ## <a name="system-requirements"></a>Rendszerkövetelmények
 * A Dynamics Marketing-példányhoz egy érvényes OData URL-címet kell megadnia (a tartalomcsomag egy helyszíni CRM-verzióval nem fog működni).  
-* A rendszergazdának engedélyeznie kell az OData-végpontot a webhelybeállítások között. Az OData-végpont címe a **Kezdőlap \> Beállítások \> Webhelybeállítások** lehetőséget megnyitva a **Szervezeti Adatszolgáltatás** részen található meg.  Az OData URL-címe az alábbi formátumú:  https://[instance\_name].marketing.dynamics.com/analytics  
+* A rendszergazdának engedélyeznie kell az OData-végpontot a webhelybeállítások között. Az OData-végpont címe a **Kezdőlap \> Beállítások \> Webhelybeállítások** lehetőséget megnyitva a **Szervezeti Adatszolgáltatás** részen található meg.  Az OData URL-címe az alábbi formátumú:  https:// [instance\_name].marketing.dynamics.com/analytics  
 * A Microsoft Dynamics Marketinghez használt felhasználói fióknak/identitásnak ugyanannak kell lennie, mint amelyet a Power BI regisztrációjához használt. Amikor bejelentkezik a Microsoft Dynamics Marketingbe, a rendszer automatikusan belépteti ugyanazzal az identitással, amelyet a Power BI-hoz használ. Ha egy másik fiókkal szeretne bejelentkezni a Microsoft Dynamics Marketingbe, akkor regisztráljon ezzel a másik fiókkal Power BI-felhasználóként. Reméljük, ezt a problémát egy közelgő kiadásban meg fogjuk oldani.   
 
 ## <a name="troubleshooting"></a>Hibaelhárítás
