@@ -682,9 +682,11 @@
               href: desktop-qna-in-reports.md
             - name: Az Elemzés panel a Power BI Desktopban
               href: desktop-analytics-pane.md
-            - name: Elemzések használata a Power BI Desktopban
+            - name: Növekedések és csökkenések megértése elemzésekkel
               href: desktop-insights.md
-            - name: Könyvjelzők a Power BI-ban
+            - name: A diagramok eltérő eloszlásainak helyének azonosítása elemzésekkel
+              href: desktop-insights-find-where-different.md
+            - name: A Power BI könyvjelzői
               href: desktop-bookmarks.md
             - name: Jelentéstémák használata
               href: desktop-report-themes.md
