@@ -21,8 +21,8 @@ ms.locfileid: "34239222"
 ## <a name="capturing-additional-diagnostic-information-for-power-bi"></a>További diagnosztikai adatok gyűjtése a Power BI számára
 A következő útmutatók két lehetséges módszert kínálnak további diagnosztikai adatok manuális begyűjtésére a Power BI-webügyféltől.  Elég az egyiket végrehajtani.
 
-## <a name="network-capture---edge--internet-explorer"></a>Hálózati rögzítés – Microsoft Edge & Internet Explorer
-1. Nyissa meg a [Power BI](https://app.powerbi.com)-t a Microsoft Edge-ben vagy az Internet Explorerben.
+## <a name="network-capture---edge--internet-explorer"></a>Hálózati rögzítés – Edge & Internet Explorer
+1. Nyissa meg a [Power BI](https://app.powerbi.com)-t az Edge-ben vagy az Internet Explorerben.
 2. Nyissa meg az Edge fejlesztői eszközeit az F12 lenyomásával.
 3. Megjelenik a Fejlesztői eszközök ablak: 
    

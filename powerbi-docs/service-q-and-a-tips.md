@@ -34,8 +34,7 @@ Ha Ön a tulajdonosa egy adatkészletnek, különböző kifejezéseket és szino
 
 **Névelők**: a, an, the
 
-
-  **Üres és logikai értékek**: blank, empty, null, „non” vagy „non-” előtaggal, empty string, empty text, true, t, false, f
+**Üres és logikai értékek**: blank, empty, null, „non” vagy „non-” előtaggal, empty string, empty text, true, t, false, f
 
 **Összehasonlítások**: vs, versus, compared to, compared with
 
