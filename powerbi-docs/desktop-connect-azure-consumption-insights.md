@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 04/24/2018
+ms.date: 07/27/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: f42efcb833c723e7af9132f7e039c8ff8805d17d
-ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
+ms.openlocfilehash: 05a84d34bf82be99eb52fccfb6318142f7d47de1
+ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37137376"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39329914"
 ---
 # <a name="connect-to-azure-consumption-insights-in-power-bi-desktop-beta"></a>Kapcsolódás az Azure Consumption Insightshoz a Power BI Desktopban (bétaverzió)
 Az **Azure Consumption Insights** összekötő használatával a **Power BI Desktopból** kapcsolódhat az Azure-hoz, és részletes adatokat és információkat kérhet le cége Azure-szolgáltatáshasználatáról. Továbbá mértékeket, egyéni oszlopokat és vizualizációkat hozhat létre, amelyekkel jelentéseket készíthet és információkat oszthat meg cége Azure-használatáról. Az **Azure Consumption Insights** összekötő jelenleg bétaverzióban van, és később még változhat.

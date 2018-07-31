@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 04/24/2018
+ms.date: 07/27/2018
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 3c1df2f08732a45b98e2de84684735171b004602
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 0c7f4953f03acf84b6a76c11536b92426d4dbf13
+ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34290361"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39327775"
 ---
 # <a name="using-calculated-columns-in-power-bi-desktop"></a>Számított oszlopok használata a Power BI Desktopban
 A számított oszlopokkal új adatokat adhat hozzá a modellben már meglévő táblázathoz. De ahelyett, hogy értékeket kellene lekérdeznie és betöltenie egy adatforrásból az új oszlopba, létrehozhat egy Data Analysis Expressions- (DAX-) képletet, amely meghatározza az oszlop értékeit. A számított oszlopok a Power BI Desktopban az Új oszlop funkcióval hozhatók létre Jelentés nézetben.

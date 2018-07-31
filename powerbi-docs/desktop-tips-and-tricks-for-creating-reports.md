@@ -7,14 +7,14 @@ ms.reviewer: willthom
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 03/21/2018
+ms.date: 07/27/2018
 ms.author: davidi
-ms.openlocfilehash: 7f1ec08fdd280d8c4c3e96367083e7bdb2d31e1b
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 939c27dad3092880bfe4dba43b81f0c2988646d5
+ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34230209"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39330121"
 ---
 # <a name="tips-and-tricks-for-creating-reports-in-power-bi-desktop"></a>Tippek és trükkök jelentések létrehozásához a Power BI Desktopban
 Ahhoz, hogy a legtöbbet hozza ki az adataiból, néha szüksége van egy kis extra segítségre. Összegyűjtöttünk néhány tippet és trükköt, amelyek segítségére lehetnek, amikor jelentéseket hoz létre a Microsoft Power BI Desktopban *és* a Microsoft Excel 2016 vagy Excel 2013 Pro-Plus kiadásokban, amelyekben engedélyezve van a Power Pivot bővítmény, illetve telepítve és engedélyezve van a Power Query. 
@@ -49,7 +49,7 @@ A Power BI Desktopban a referenciavonalak meghatározása számított oszlop has
 A számított oszlop a 100 értéket fogja visszaadni függetlenül attól, hogy hol használják.  Az új oszlop meg fog jelenni a mezőlistában.  Adja hozzá a „Target Value” (Célérték) nevű számított oszlopot egy vonaldiagramhoz, amely bemutatja, hogyan viszonyulnak a sorozatok az adott referenciavonalhoz.  
 
 ## <a name="sort-by-another-column"></a>Rendezés más oszlop alapján
-Ha kategorikus (karakterlánc) értéket használ a Power BI-ban a diagramtengelyekhez, illetve egy szeletelőben vagy szűrőben, az alapértelmezett sorrend a betűrend szerinti rendezés. Ha más sorrendet kell használnia, például a hét napjai vagy hónapok szerinti rendezést, akkor utasíthatja a Power BI Desktopot, hogy rendezzen egy másik oszlop alapján. További információ: [Rendezés oszlop szerint a Power BI Desktopban](desktop-sort-by-column.md).
+Ha kategorikus (sztring) értéket használ a Power BI-ban a diagramtengelyekhez, illetve egy szeletelőben vagy szűrőben, az alapértelmezett sorrend a betűrend szerinti rendezés. Ha más sorrendet kell használnia, például a hét napjai vagy hónapok szerinti rendezést, akkor utasíthatja a Power BI Desktopot, hogy rendezzen egy másik oszlop alapján. További információ: [Rendezés oszlop szerint a Power BI Desktopban](desktop-sort-by-column.md).
 
 ## <a name="building-maps-more-easily-with-hints-to-bing"></a>Térképek egyszerűbb létrehozása Bing-javaslatokkal
 A Power BI integrálható a Binggel alapértelmezett térképkoordináták biztosításához (ez a geokódolás nevű folyamat), így egyszerűbben hozhat létre térképeket.  A Bing algoritmusokkal és javaslatokkal próbálja megtalálni a megfelelő helyet, de ez feltételezésen alapul. A helyes geokódolás valószínűségének növelése érdekében használhatja a következő tippeket:
@@ -119,7 +119,7 @@ Amikor aktív ügyfél-támogatási kérelmek adatkészleteit, és egy másik, m
 Ha nyomon szeretnénk követni egy adott CustomerName (Ügyfél neve) értékhez kapcsolódó összes incidenst és munkaelemet, nem hozhatunk létre egyszerűen egy kapcsolatot a két adatkészlet között.  Előfordulhat, hogy néhány WorkItems (Munkaelemek) érték nem kapcsolódik egy CustomerName (Ügyfél neve) értékhez, így a mező értéke üres vagy NULL lenne.  Az is előfordulhat, hogy a WorkItems (Munkaelemek) és a CustomerIncidents (Ügyfélincidens) tábla több rekordot tartalmaz egy adott CustomerName (Ügyfél neve) értékhez.  
 
 ### <a name="creating-relationships-in-power-bi-desktop-when-the-data-has-null-or-blank-values"></a>Kapcsolatok létrehozása a Power BI Desktopban, ha az adatok null vagy üres értékeket tartalmaznak
-Gyakran előfordul, hogy az adatkészletek null vagy üres értékekkel rendelkező oszlopokat tartalmaznak.  Ez problémákat okozhat a kapcsolatok használatakor.  Lényegében két lehetősége van a problémák megoldására.  Eltávolíthatja a null vagy üres értékeket tartalmazó sorokat.  Ehhez használhatja a szűrés funkciót a lekérdezés lapon, vagy ha lekérdezéseket egyesít, választhatja a „csak az egyező sorok megtartása” lehetőséget. Másik megoldásként lecserélheti a null vagy üres értékeket kapcsolatban működő értékekre, tehát jellemzően olyan karakterláncokra, mint a „NULL” és a „(Blank)”.   Helyes megközelítés nincs – Ha lekérdezés szakaszban szűri ki a sorokat, a rendszer eltávolítja a sorokat, és ez hatással lehet az összefoglaló statisztikákra és a számításokra.  Az utóbbi megközelítés megőrzi azokat az adatsorokat, de a használatával a nem kapcsolódó sorok kapcsolódóként jelenhetnek meg a modellben, amely számítási hibákhoz vezethet.  Ha az utóbbi megoldást alkalmazza, a pontos eredmények biztosításához használjon szűrőket azokon a nézeteken/diagramokon, ahol ez lehetséges.  És ami a legfontosabb, értékelje ki, hogy mely sorokat tartja meg/távolítja el, és legyen tisztában azzal, hogy milyen hatással van az adott megoldás az elemzésre.  
+Gyakran előfordul, hogy az adatkészletek null vagy üres értékekkel rendelkező oszlopokat tartalmaznak.  Ez problémákat okozhat a kapcsolatok használatakor.  Lényegében két lehetősége van a problémák megoldására.  Eltávolíthatja a null vagy üres értékeket tartalmazó sorokat.  Ehhez használhatja a szűrés funkciót a lekérdezés lapon, vagy ha lekérdezéseket egyesít, választhatja a „csak az egyező sorok megtartása” lehetőséget. Másik megoldásként lecserélheti a null vagy üres értékeket kapcsolatban működő értékekre, tehát jellemzően olyan sztringekre, mint a „NULL” és a „(Blank)”.   Helyes megközelítés nincs – Ha lekérdezés szakaszban szűri ki a sorokat, a rendszer eltávolítja a sorokat, és ez hatással lehet az összefoglaló statisztikákra és a számításokra.  Az utóbbi megközelítés megőrzi azokat az adatsorokat, de a használatával a nem kapcsolódó sorok kapcsolódóként jelenhetnek meg a modellben, amely számítási hibákhoz vezethet.  Ha az utóbbi megoldást alkalmazza, a pontos eredmények biztosításához használjon szűrőket azokon a nézeteken/diagramokon, ahol ez lehetséges.  És ami a legfontosabb, értékelje ki, hogy mely sorokat tartja meg/távolítja el, és legyen tisztában azzal, hogy milyen hatással van az adott megoldás az elemzésre.  
 
 ### <a name="creating-relationships-in-power-bi-desktop-when-the-data-has-duplicate-values"></a>Kapcsolatok létrehozása a Power BI Desktopban, ha az adatok ismétlődő értékeket tartalmaznak
 Amikor több forrásból tölt be részletes adatkészleteket, a duplikált értékek gyakran megakadályozzák a kapcsolatok létrehozását.  Ezt úgy oldhatja meg, ha létrehoz egy dimenziótáblát a két adatkészlet egyéni értékeivel. 
