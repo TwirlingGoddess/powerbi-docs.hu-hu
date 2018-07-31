@@ -58,7 +58,7 @@ A Planview Projectplace tartalomcsomagjának segítségével egészen újszerű 
 Ahhoz, hogy a Power BI-ba importálhassa Projectplace-adatait, Projectplace-felhasználónak kell lennie. Ez az eljárás feltételezi, hogy már bejelentkezett a Microsoft Power BI kezdőlapjára egy Power BI-fiókkal. Ha még nincs Power BI-fiókja, látogasson el a [powerbi.com](https://powerbi.microsoft.com/get-started/) webhelyre, és a **Power BI - Felhőbeli együttműködés és megosztás** területen válassza az **Ingyenes próba** lehetőséget. Ez után kattintson az **Adatok letöltése** lehetőségre.
 
 ## <a name="next-steps"></a>Következő lépések
-[A Power BI bemutatása](power-bi-overview.md)
+[Mi az a Power BI?](power-bi-overview.md)
 
 [Power BI – Alapfogalmak](service-basic-concepts.md)
 

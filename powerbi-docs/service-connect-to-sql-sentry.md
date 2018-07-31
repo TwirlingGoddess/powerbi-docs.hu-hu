@@ -93,7 +93,7 @@ Ha egyes alkalmazások adatai nem jelennek meg a Power BI-ban, ellenőrizze, hog
 Ha nem Ön a <https://cloud.sqlsentry.com> oldallal szinkronizált SQL Sentry-adatbázis tulajdonosa, forduljon a rendszergazdához, és bizonyosodjon meg róla, hogy jogosult megtekinteni a gyűjtött adatokat.
 
 ## <a name="next-steps"></a>Következő lépések
-[A Power BI bemutatása](power-bi-overview.md)
+[Mi az a Power BI?](power-bi-overview.md)
 
 [Power BI – Adatok lekérése](service-get-data.md)
 

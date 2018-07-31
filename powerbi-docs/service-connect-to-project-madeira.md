@@ -113,7 +113,7 @@ Illetve az is hiba, ha lemarad a vállalat neve:
     https://<em>mycronusus</em>.projectmadeira.com:7048/NAV/OData/
 
 ## <a name="next-steps"></a>Következő lépések
-[A Power BI bemutatása](power-bi-overview.md)
+[Mi az a Power BI?](power-bi-overview.md)
 
 [Power BI – Alapfogalmak](service-basic-concepts.md)
 

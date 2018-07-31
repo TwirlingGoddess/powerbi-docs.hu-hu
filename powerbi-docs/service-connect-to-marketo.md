@@ -86,7 +86,7 @@ A Power BI-ból a Marketo eszközhöz indított API-hívások száma a Marketo-f
 | **Összes API-hívás** | |**2200** |
 
 ## <a name="next-steps"></a>Következő lépések
-[A Power BI bemutatása](power-bi-overview.md)
+[Mi az a Power BI?](power-bi-overview.md)
 
 [Power BI – Adatok lekérése](service-get-data.md)
 
