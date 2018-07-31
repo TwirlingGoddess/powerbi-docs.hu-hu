@@ -5,7 +5,6 @@ Itt találja a sorszintű biztonság felhőmodellekben érvényes aktuális korl
 * Csak a Power BI Desktop-ügyféllel létrehozott adatkészleteken határozhat meg RLS-t. Ha az Excellel létrehozott adatkészletekhez szeretné engedélyeznie az RLS-t, először PBIX formátumba kell konvertálnia a fájlokat. [További információ](../desktop-import-excel-workbooks.md)
 * Csak az ETL- és a DirectQuery-kapcsolatok támogatottak. Az Analysis Services élő kapcsolatait a helyszíni modellen lehet kezelni.
 * A Q&A és a Cortana egyelőre nem támogatott az RLS-sel. Nem fog látni Q&A beviteli mezőt az irányítópultokhoz, ha mindegyik modellhez RLS van konfigurálva. Ennek az orvoslása szerepel a terveink között, de egyelőre nem tudjuk, mikorra fog megvalósulni.
-* A külső megosztás jelenleg nem támogatott az RLS-t használó adatkészletekkel.
 * Minden egyes modell esetén a biztonsági szerepkörökhöz rendelhető Azure AD-s rendszerbiztonsági tagok (vagyis egyéni felhasználók vagy biztonsági csoportok) maximális száma 1000. Ha sok felhasználót szeretne hozzárendelni a szerepkörökhöz, egyéni felhasználók helyett biztonsági csoportokat rendeljen hozzá.
 
 ## <a name="known-issues"></a>Ismert problémák

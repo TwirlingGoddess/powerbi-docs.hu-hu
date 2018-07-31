@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/06/2018
+ms.date: 07/24/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 72a900b1661a77e5b31c1d68b5726d989b236f7b
-ms.sourcegitcommit: ba3cab4613a2b815d46a213eff07a8a8ec22c17f
+ms.openlocfilehash: b26fbfccc3b0a98761ecc1444af4e535339c96de
+ms.sourcegitcommit: 6faeb642721ee5abb41c04a8b729880c01c4d40e
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39032002"
+ms.lasthandoff: 07/23/2018
+ms.locfileid: "39210284"
 ---
 # <a name="accessibility-in-power-bi-desktop-reports"></a>Akadálymentesség a Power BI Desktop-jelentésekben
 A Power BI rendelkezik olyan funkciókkal, amelyek lehetővé teszik a fogyatékkal élők számára, hogy könnyedén használják és kezeljék a Power BI-jelentéseket. A funkciók közé tartozik az a lehetőség, hogy a jelentések billentyűzettel vagy képernyőolvasóval is használhatók legyenek, az oldalak objektumai léptetéssel emelhetők ki, és a jelölők használata átgondolt a vizualizációkban.
@@ -47,8 +47,12 @@ Az **Alt+Shift+F11** billentyűkombinációval megjelenítheti az *Adatok megjel
 
 > [!NOTE]
 > Az Adatok megjelenítése funkció a képernyőolvasóban csak ezzel a billentyűparanccsal érhető el. Ha az Adatok megjelenítése funkciót a vizualizáció fejlécében lévő beállítással nyitja meg, akkor az nem lesz elérhető a képernyőolvasó számára.
-> 
-> 
+
+A **Power BI Desktop** 2018. júliusi verziójától kezdve az akadálymentességi funkciók a szeletelőkbe is be vannak építve. Egy kijelölt szeletelő értékének beállításakor a Ctrl+jobb nyíl (a Ctrl és a jobbra mutató nyíl billentyű) használatával lehet végiglépkedni a szeletelő különböző vezérlőin. Ha például először a Ctlr+jobb nyíl kombinációt nyomja le, akkor a radír ikon lesz kiemelve, és a SZÓKÖZ billentyű lenyomása azzal egyenértékű, mintha a radírra kattintott volna. Ezzel minden értéket töröl a szeletelőn. 
+
+Egy szeletelő vezérlőiben a TAB billentyűvel lépkedhet. Ha a radír ikonon állva nyomja le a TAB billentyűt, továbblép a legördítő gombra. A TAB ismételt lenyomásával továbblép a szeletelő első értékére (ha a szeletelőhöz több érték, például egy tartomány tartozik). 
+
+![A Power BI Desktopban a Ctrl+jobb nyíl billentyű lenyomásával állíthatók be egy szeletelő elemei vagy értékei. Az elem kiválasztásához és értéke beállításához nyomja le a SZÓKÖZ billentyűt.](media/desktop-accessibility/accessibility_07.png)
 
 Ezek az akadálymentesítési kiegészítések azért készültek, hogy a felhasználók képernyőolvasó és billentyűzetnavigáció segítségével is teljes mértékben használhassák a Power BI-jelentéseket.
 
