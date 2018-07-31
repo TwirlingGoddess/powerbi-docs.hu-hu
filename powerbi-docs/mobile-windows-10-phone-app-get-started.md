@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: maggies
-ms.openlocfilehash: 2ee490107b802957b262d0a133d8e8b0e2a42754
-ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
+ms.openlocfilehash: d445264e22520efe81af94e1e4c4261d15eed04b
+ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37135789"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39280064"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-for-windows-10"></a>Windows 10-hez készült Power BI mobilalkalmazás – első lépések
 A Windows 10-hez készült Power BI alkalmazással táblagépen és mobilon is használhatja a Power BI-t: naprakész, érintéses használatra optimalizált mobil hozzáférést kap a vállalati információkhoz. Bárhol megtekintheti és használhatja a vállalati irányítópultjait – közvetlenül a [Windows kezdőképernyőjéről](mobile-pin-dashboard-start-screen-windows-10-phone-app.md).
@@ -87,7 +87,7 @@ A mindig az alkalmazás tetején található keresőmezőbe írva gyorsan megtal
    ![Releváns keresési eredmények](media/mobile-windows-10-phone-app-get-started/pbi_win10_search_m.png)
 
 ## <a name="find-your-content-in-the-power-bi-mobile-apps"></a>A tartalmak megkeresése a Power BI mobilalkalmazásokban
-Az irányítópultokat és jelentéseket a rendszer különböző helyeken tárolja a Power BI mobilalkalmazásokban, attól függően, hogy honnan származnak. További információk: [A tartalmak megkeresése a mobilalkalmazásokban](mobile-apps-find-content-mobile-devices.md). Ezenkívül mindig bármit megkereshet a Power BI mobilalkalmazásokban. 
+Az irányítópultokat és jelentéseket a rendszer különböző helyeken tárolja a Power BI mobilalkalmazásokban, attól függően, hogy honnan származnak. További információk: [A tartalmak megkeresése a mobilalkalmazásokban](mobile-apps-quickstart-view-dashboard-report.md). Ezenkívül mindig bármit megkereshet a Power BI mobilalkalmazásokban. 
 
 ![Power BI bal oldali navigáció](media/mobile-windows-10-phone-app-get-started/power-bi-win10-left-nav.png)
 
@@ -111,7 +111,7 @@ A Windows 10-eszközökhöz készült Power BI alkalmazásban többek között a
 * [Az alkalmazásai](service-install-use-apps.md) megtekintése.
 * Az [irányítópultjai](mobile-apps-view-dashboard.md) megtekintése.
 * [Power BI-csempék és -irányítópultok rögzítése](mobile-pin-dashboard-start-screen-windows-10-phone-app.md) élő csempeként az eszköz kezdőképernyőjére.
-* [Csempék megosztása](mobile-share-tile-windows-10-phone-app.md).
+* [Csempék megosztása](mobile-windows-10-phone-app-get-started.md).
 * [Irányítópultok](mobile-share-dashboard-from-the-mobile-apps.md) megosztása.
 
 ### <a name="reporting-services-mobile-reports-and-kpis"></a>Reporting Services mobiljelentések és KPI-k
@@ -121,6 +121,6 @@ A Windows 10-eszközökhöz készült Power BI alkalmazásban többek között a
 
 ## <a name="next-steps"></a>További lépések
 * [A Power BI alkalmazás letöltése](http://go.microsoft.com/fwlink/?LinkID=526478) a Windows Áruházból  
-* [A Power BI bemutatása](power-bi-overview.md)
+* [Mi az a Power BI?](power-bi-overview.md)
 * Kérdése van? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)
 

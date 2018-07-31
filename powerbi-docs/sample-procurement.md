@@ -72,10 +72,8 @@ Először nézzük meg a költési trendeket kategória és hely szerint.
 Az alábbiak figyelhetők meg:
 
 * A **Teljes számla hónap és kategória szerint** nevű vonaldiagramon: a **Közvetlen** kategória következetes költéssel rendelkezik, a **Logisztika** kategória csúcsértéke decemberben van, míg az **Egyéb** nevű kategóriáé februárban.
-* A **Teljes számla ország/régió** szerint nevű térképen:
-a költések többsége az Egyesült Államokban történik.
-* A **Teljes számla alkategória szerint** nevű oszlopdiagramon:
-a **Hardver**, valamint a **Közvetett termékek és szolgáltatások** képviselik a legnagyobb költési kategóriát.
+* A **Teljes számla ország/régió** szerint nevű térképen:a költések többsége az Egyesült Államokban történik.
+* A **Teljes számla alkategória szerint** nevű oszlopdiagramon:a **Hardver**, valamint a **Közvetett termékek és szolgáltatások** képviselik a legnagyobb költési kategóriát.
 * A Teljes számla szint szerint nevű sávdiagramon: az ügyfelek többsége 1. szintű (első 10-be tartozó) beszállítónak minősül. Ez segít a beszállítói kapcsolatok jobb kezelésében.
 
 ## <a name="spending-in-mexico"></a>Mexikói költések

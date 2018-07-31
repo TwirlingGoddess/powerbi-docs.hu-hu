@@ -37,7 +37,7 @@ Az új funkciókról az [A Power BI jelentéskészítő kiszolgáló újdonsága
                 - A több értéket felvevő paraméterek alapértelmezett értékei módosíthatóak az IE11 használatakor
                 - Az adatvezérelt feliratkozás-kézbesítési lehetőségek szerkeszthetők
                 - A feliratkozások megnézhetők és szerkeszthetők a feliratkozás végrehajtása közben
-                - Az adatforrás hitelesítő adatainak beállítása nem távolítja el a kifejezésalapú kapcsolati karakterláncokat
+                - Az adatforrás hitelesítő adatainak beállítása nem távolítja el a kifejezésalapú kapcsolati sztringeket
             - KPI-k
                 - A trendvonalak frissülnek az adatok frissítésekor
             - Általános stabilitási fejlesztések
@@ -55,7 +55,7 @@ Az új funkciókról az [A Power BI jelentéskészítő kiszolgáló újdonsága
             - Javítás a többoldalas jelentésekhez, melyekben a csatolt jelentés paramétereinek láthatósága hibásan működött a tulajdonságok szerkesztését követő visszaállítás után
             - Javítás az egyéni űrlapokkal hitelesítést végző webportálokhoz, melyek figyelmen kívül hagyták a csúszóablakos lejáratú cookie-kat
             - Javítás a Wordbe exportálási funkcióhoz, mely egyenetlen sormagasságot okozott az üres soroknál
-            - Javítás a többoldalas jelentésekhez, melyekben a kifejezésalapú csatlakozási karakterlánc törlődött az adatforrás hitelesítő adatainak módosításakor
+            - Javítás a többoldalas jelentésekhez, melyekben a kifejezésalapú kapcsolati sztring törlődött az adatforrás hitelesítő adatainak módosításakor
             - Javítás a KPI-k szöveges értékekkel való használatához
             - Javítás a többoldalas jelentésekhez, melyekben nem működött az új adatkészlet társításának funkciója
             - Stabilitással és használattal kapcsolatos egyéb javítások

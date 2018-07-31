@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/20/2018
 ms.author: maggies
-ms.openlocfilehash: c70a5c50a139423f6c5e69ed6ec9a416dfae8b4e
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: bb628f0cc6f723a195f3b90e6d20f4018d9f2709
+ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 05/17/2018
-ms.locfileid: "34295261"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39279849"
 ---
 # <a name="annotate-and-share-a-tile-report-or-visual-in-power-bi-mobile-apps"></a>Csempék, jelentések és vizualizációk jegyzetekkel való ellátása és megosztása a Power BI mobilalkalmazásokban
 A következőkre vonatkozik:
@@ -31,7 +31,7 @@ Az iOS- és Android-eszközökre készült Power BI mobilalkalmazásokkal jegyze
 
 A csempe, jelentés vagy vizualizáció pillanatképét tartalmazó e-mail egy hivatkozást is tartalmaz, amely a tényleges objektumra mutat a Power BI szolgáltatásban ([https://powerbi.com](https://powerbi.com)). A címzettek a hivatkozásra kattintva megnyithatják az adott csempét, jelentést vagy vizualizációt, ha Ön és ők is rendelkeznek Power BI Pro licenccel, vagy ha a tartalom egy [prémium szintű kapacitáson](service-premium.md) található, és már megosztotta velük az adott elemet. 
 
-[A Windows 10 rendszerű eszközökre készült Power BI mobilalkalmazásból is megoszthat csempéket](mobile-share-tile-windows-10-phone-app.md), viszont nem láthatja el jegyzetekkel azokat.
+[A Windows 10 rendszerű eszközökre készült Power BI mobilalkalmazásból is megoszthat csempéket](mobile-windows-10-phone-app-get-started.md), viszont nem láthatja el jegyzetekkel azokat.
 
 ## <a name="open-a-tile-for-annotating"></a>Csempe megnyitása jegyzetkészítéshez
 1. Koppintson a csempére annak Fókusz módban való megnyitásához.

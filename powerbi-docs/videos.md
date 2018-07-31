@@ -46,7 +46,7 @@ Tekintse meg a további videókhoz készült források és tartalmak gyűjtemén
 * [Guy in a Cube csatorna](https://www.youtube.com/channel/UCFp1vaKzpfvoGai0vE5VJ0w) – friss videók a Power BI funkcióiról és lehetőségeiről
 
 ## <a name="next-steps"></a>Következő lépések
-[A Power BI bemutatása](power-bi-overview.md)
+[Mi az a Power BI?](power-bi-overview.md)
 
 További kérdései vannak? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)
 

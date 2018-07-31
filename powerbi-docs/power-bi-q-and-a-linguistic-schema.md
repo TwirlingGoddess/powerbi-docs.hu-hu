@@ -98,8 +98,7 @@ Amikor visszaimportálja a nyelvi séma fájlját a Power BI Desktopba, a rendsz
     ![Sikert jelző üzenet](media/power-bi-q-and-a-linguistic-schema/power-bi-success.png)
 
 ### <a name="add-phrasings-to-the-linguistic-schema"></a>Kifejezések hozzáadása a nyelvi sémához
-A kifejezés a dolgok közti kapcsolat leírásának (vagy „kifejezésének”) a módja. Például az ügyfelek és a termékek közti kapcsolat leírására a „customers buy products (az ügyfelek termékeket vásárolnak)” kifejezés használható. Az ügyfelek és életkorok közti kapcsolatról elmondható, hogy „ages indicate how old customers are (az életkor azt jelenti, hogy milyen idősek az ügyfelek)”. A sportolók és érmek közötti kapcsolat egyszerűen leírható azzal, hogy 
-„athletes win medals (a sportolók érmeket nyernek)”.
+A kifejezés a dolgok közti kapcsolat leírásának (vagy „kifejezésének”) a módja. Például az ügyfelek és a termékek közti kapcsolat leírására a „customers buy products (az ügyfelek termékeket vásárolnak)” kifejezés használható. Az ügyfelek és életkorok közti kapcsolatról elmondható, hogy „ages indicate how old customers are (az életkor azt jelenti, hogy milyen idősek az ügyfelek)”. A sportolók és érmek közötti kapcsolat egyszerűen leírható azzal, hogy „athletes win medals (a sportolók érmeket nyernek)”.
 
 Az ilyen kifejezések számos formában és méretben jelennek meg. Némelyik közvetlenül összefügg a szemantikai modellben lévő kapcsolatokkal. Némelyik az oszlopokat kapcsolja össze a táblázatokkal, amelyek tartalmazzák azokat. Más kifejezések több táblázatot és oszlopot kötnek össze komplex kapcsolatok révén. De minden esetben köznapi szavakkal írják le az egyes dolgok közti kapcsolatokat.
 

@@ -72,5 +72,5 @@ Ha továbbra is problémákat tapasztal, küldjön támogatási jegyet a Power B
 ## <a name="next-steps"></a>Következő lépések
 [Power BI – Adatok lekérése](service-get-data.md)
 
-[A Power BI bemutatása](power-bi-overview.md)
+[Mi az a Power BI?](power-bi-overview.md)
 

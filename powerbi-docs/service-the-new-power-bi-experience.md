@@ -115,7 +115,7 @@ További információ: [Kedvencek](service-dashboard-favorite.md).
 További tudnivalók: [Legutóbbi elemek a Power BI-ban](service-recent.md)
 
 ### <a name="search-and-sort-content"></a>Tartalom keresése és rendezése
-A tartalom nézet megkönnyíti a különböző tartalmak keresését, szűrését és rendezését. Egy adott irányítópult, jelentés vagy munkafüzet megkereséséhez használja a keresőmezőt. A Power BI csak azokat a szűrt találatokat jeleníti meg, amelyek neve tartalmazza az adott keresőszót.
+A tartalom nézet megkönnyíti a különböző tartalmak keresését, szűrését és rendezését. Egy adott irányítópult, jelentés vagy munkafüzet megkereséséhez használja a keresőmezőt. A Power BI csak azokat a szűrt találatokat jeleníti meg, amelyek neve tartalmazza az adott keresési sztringet.
 
 Mivel csak egy mintája van, a keresés és rendezés nem túl hasznos most.  De ha az irányítópultok, jelentések, munkafüzetek és adatkészletek hosszú listájával dolgozik, akkor a keresést és a rendezést rendkívül hasznosnak fogja találni.
 

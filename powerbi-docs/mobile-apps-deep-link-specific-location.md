@@ -103,5 +103,5 @@ A visszajelzése segít eldönteni, hogy milyen fejlesztésekre koncentráljunk 
 * [Power BI-alkalmazások mobileszközökre](mobile-apps-for-mobile-devices.md)
 * @MSPowerBI követése Twitteren
 * Vegyen részt [a Power BI-közösség](http://community.powerbi.com/) beszélgetéseiben
-* [A Power BI bemutatása](power-bi-overview.md)
+* [Mi az a Power BI?](power-bi-overview.md)
 

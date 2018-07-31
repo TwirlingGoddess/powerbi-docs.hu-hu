@@ -29,7 +29,7 @@ A Power BI az alábbi böngészőkben képes futni:
 Ezek a böngészők minden olyan platformon támogatva vannak, ahol elérhetőek.
 
 ### <a name="next-steps"></a>Következő lépések
-* [A Power BI bemutatása](power-bi-overview.md)
+* [Mi az a Power BI?](power-bi-overview.md)
 * Kérdezze meg a [Power BI közösségét](http://community.powerbi.com/)
 * Továbbra sem találja a megoldást? Keresse fel a [Power BI támogatási oldalát](https://powerbi.microsoft.com/support/).
 

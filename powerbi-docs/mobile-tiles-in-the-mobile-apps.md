@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: maggies
-ms.openlocfilehash: 5601ab79832f2d52622f5c13ecd23f346408f08e
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: eda7f44c869829564703bda6112177234d3f2d44
+ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37598628"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39280133"
 ---
 # <a name="explore-tiles-in-the-power-bi-mobile-apps"></a>Ismerkedés a Power BI-mobilalkalmazások csempéivel
 A következőkre vonatkozik:
@@ -92,7 +92,7 @@ Ezek a csempék aztán a Power BI mobilalkalmazásban fókusz módban megnyithat
    
     ![](media/mobile-tiles-in-the-mobile-apps/pbi_win10tileellpslink.png)
    
-    [Csempe pillanatképének megosztása](mobile-share-tile-windows-10-phone-app.md).
+    [Csempe pillanatképének megosztása](mobile-windows-10-phone-app-get-started.md).
    
     A [csempe alapjául szolgáló jelentés megtekintése](mobile-reports-in-the-mobile-apps.md) a **Jelentés megnyitása** ![](media/mobile-tiles-in-the-mobile-apps/power-bi-ipad-open-report-icon.png) lehetőségre koppintva.
    
@@ -120,12 +120,12 @@ Ezek a csempék aztán a Power BI mobilalkalmazásban fókusz módban megnyithat
    
    ![](media/mobile-tiles-in-the-mobile-apps/power-bi-windows-10-center-map.png)
    
-   A megosztás ikonra ![](media/mobile-tiles-in-the-mobile-apps/pbi_win10ph_shareicon.png) koppintva [megoszthat egy csempét](mobile-share-tile-windows-10-phone-app.md) másokkal.   
+   A megosztás ikonra ![](media/mobile-tiles-in-the-mobile-apps/pbi_win10ph_shareicon.png) koppintva [megoszthat egy csempét](mobile-windows-10-phone-app-get-started.md) másokkal.   
    
    A Jelentés megnyitása ikonra ![](media/mobile-tiles-in-the-mobile-apps/power-bi-ipad-open-report-icon.png) koppintva [megtekintheti a jelentést](mobile-reports-in-the-mobile-apps.md) amelyen a csempe alapul. 
 4. A vissza nyílra koppintva vagy a vissza gombbal bezárhatja a csempét és visszatérhet az irányítópulthoz.
 
 ## <a name="next-steps"></a>Következő lépések
-* [A Power BI bemutatása](power-bi-overview.md)
+* [Mi az a Power BI?](power-bi-overview.md)
 * Kérdése van? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)
 

@@ -76,7 +76,7 @@ Már nem használja olyan gyakran a tartalmat?  Eltávolíthatja a kedvencek kö
 > 
 
 ## <a name="next-steps"></a>Következő lépések
-[A Power BI bemutatása](power-bi-overview.md)
+[Mi az a Power BI?](power-bi-overview.md)
 
 [Power BI – Alapfogalmak](service-basic-concepts.md)
 

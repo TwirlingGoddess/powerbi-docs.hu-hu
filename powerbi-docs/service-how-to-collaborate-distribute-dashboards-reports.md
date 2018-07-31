@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 02/09/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 7c0037534fa61c5340206354beb6af04d3fc1f4a
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 5899274ba3cc8ce0a059978a9b83ae2a7fd08527
+ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34249505"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39280455"
 ---
 # <a name="how-should-i-collaborate-and-share-in-power-bi"></a>Hogyan végezhetek közös munkát és hogyan oszthatok meg tartalmat a Power BI-ban?
 
@@ -75,7 +75,7 @@ Csempe, jelentés vagy vizualizáció megosztásakor az adott elem egy pillanatk
 
 Többet is megtudhat arról, hogy hogyan [láthat el jegyzetekkel és oszthat meg csempéket, jelentéseket és vizualizációkat](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md) az iOS- és az Android-mobilalkalmazásokból.
 
-A Windows 10-eszközökön futó Power BI alkalmazásból is [megoszthatja a csempék pillanatképét](mobile-share-tile-windows-10-phone-app.md).
+A Windows 10-eszközökön futó Power BI alkalmazásból is [megoszthatja a csempék pillanatképét](mobile-windows-10-phone-app-get-started.md).
 
 ## <a name="publish-to-the-web"></a>Webes közzététel
 Megoszthatja a Power BI-jelentéseit a teljes internettel úgy, hogy interaktív vizualizációkat ágyaz be blogbejegyzésekbe, weblapokra, közösségi webhelyekre és más online kommunikációs tartalmakba. Ezt bármilyen eszközről megteheti. Ha így tesz, bárki megtekintheti a jelentéseit az interneten, és nem felügyelheti, hogy ki láthatja a közzétett tartalmait. A felhasználóknak nem kell Power BI-licenccel rendelkezniük. A webes közzététel csak azokhoz a jelentésekhez érhető el, amelyeknek jogosult a szerkesztésére. Nem tehet közzé jelentéseket az interneten, ha azokat csak megosztották Önnel, vagy ha azok egy alkalmazásban vannak. Többet is megtudhat a [webes közzétételről](service-publish-to-web.md).

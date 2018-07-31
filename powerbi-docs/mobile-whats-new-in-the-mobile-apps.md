@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 07/19/2018
 ms.author: maggies
-ms.openlocfilehash: 41a8b463ca95d0e4e0e0ba71dbd9ec9a1ce78920
-ms.sourcegitcommit: f6fb681ec85313eb7b450edb8f190e9e7afbabca
+ms.openlocfilehash: 7149fd43d4214ed756eff61a523805ec9f50e1ae
+ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 07/20/2018
-ms.locfileid: "39182725"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39280777"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>A Power BI mobilalkalmazásainak újdonságai
 Az újdonságokra vonatkozó kapcsolódó információk:
@@ -185,7 +185,7 @@ Olvassa el a [mobilalkalmazások funkcióinak 2017. júliusi összefoglalását]
 
 **Új menü: Alkalmazások** Az alkalmazások olyan irányítópultok és jelentések gyűjteményei, amelyeket a vállalat a fő mutatók megjelenítése érdekében állított össze a gyorsabb és egyszerűbb, adatokra épülő döntéshozatal érdekében.
 
-További tudnivalók [a Power BI-tartalmak elrendezéséről](mobile-apps-find-content-mobile-devices.md).
+További tudnivalók [a Power BI-tartalmak elrendezéséről](mobile-apps-quickstart-view-dashboard-report.md).
 
 #### <a name="ios-and-android-devices"></a>iOS- és Android-eszközök
 **A Power BI jelentéskészítő kiszolgáló előzetes verziója** Helyszíni Power BI-jelentéseket készíthet és tehet közzé. Ezután [megtekintheti őket és dolgozhat velük iOS- vagy Android-](mobile-app-ssrs-kpis-mobile-on-premises-reports.md)mobileszközén. 
@@ -241,7 +241,7 @@ A Q&A szolgáltatással a saját szavaival tehet fel kérdéseket az adatairól,
 Mostantól egyszerre akár öt SQL Server Reporting Services- (SSRS-) kiszolgálóhoz csatlakozhat.
 
 #### <a name="android-tablets"></a>Android rendszerű táblagépek
-Az androidos táblagépekhez készült **Power BI mobilalkalmazás** mostantól globálisan elérhető. Megkezdheti a [Power BI használatát androidos táblagépén](mobile-android-tablet-app-get-started.md).
+Az androidos táblagépekhez készült **Power BI mobilalkalmazás** mostantól globálisan elérhető. Megkezdheti a [Power BI használatát androidos táblagépén](mobile-android-app-get-started.md).
 
 #### <a name="ios-and-android-devices"></a>iOS- és Android-eszközök
 **Új menü az irányítópultok csempéihez** Az alapul szolgáló jelentéshez navigálhat, kibonthatja a csempét vagy kezelheti a riasztásokat – mindezt egyetlen menüből az irányítópultok csempéiről. 
@@ -304,7 +304,7 @@ Olvassa el a [Power BI mobilalkalmazásai funkcióinak 2016. novemberi összefog
 #### <a name="android-tablets"></a>Android rendszerű táblagépek
 **Androidos táblagépekhez készült Power BI mobilalkalmazás** – Megérkezett az előzetes verzió.
 
-* Kipróbálhatja a [Power BI-t androidos táblagépén](mobile-android-tablet-app-get-started.md)
+* Kipróbálhatja a [Power BI-t androidos táblagépén](mobile-android-app-get-started.md)
 * Áttekintheti a [Reporting Services-mobiljelentéseket és KPI-ket androidos táblagépén](mobile-app-ssrs-kpis-mobile-on-premises-reports.md)
 
 #### <a name="android-devices"></a>Androidos eszközök
@@ -498,7 +498,7 @@ Az összes januári fejlesztés már elérhető a 2015 decemberében kiadott, [W
 
 **R-csempék és webes widgetek** Ezek az új csempetípusok is megtekinthetők az irányítópultjain mobileszközön.
 
-**Bing-irányítópultok** A Power BI szolgáltatásban mostantól létrehozhat [Bing keresési eredményeket tartalmazó irányítópultokat](service-connect-to-bing.md), és megtekintheti őket mobileszközén.
+**Bing-irányítópultok** A Power BI szolgáltatásban mostantól létrehozhat [Bing keresési eredményeket tartalmazó irányítópultokat](service-connect-to-services.md), és megtekintheti őket mobileszközén.
 
 **Jelentésoldalak rögzítése csempékként az irányítópultokon** Mostantól teljes jelentésoldalakat rögzíthet az irányítópultokra a Power BI szolgáltatásban, így megtekintheti a jelentésoldalakat iPhone-ján vagy androidos telefonján a Power BI alkalmazásban.
 

@@ -80,10 +80,8 @@ Az alkalmazás hitelesíti és engedélyezi a felhasználókat és beágyazási 
 
 Az API olyan identitások listáját fogadja el, amelyben jelezve vannak a kapcsolódó adatkészletek. Az RLS működéséhez a következőt kell megadnia az identitás részeként.
 
-* 
-  **username (kötelező)** – Ez olyan sztring, amellyel azonosítható a felhasználó az RLS-szabályok alkalmazásakor. Csak egyetlen felhasználó sorolható fel.
-* 
-  **roles (kötelező)** – Sorszintű biztonsági szabályok alkalmazásakor kiválasztható szerepköröket tartalmazó sztring. Több szerepkör átadásakor sztringtömbként kell azokat átadni.
+* **username (kötelező)** – Ez olyan sztring, amellyel azonosítható a felhasználó az RLS-szabályok alkalmazásakor. Csak egyetlen felhasználó sorolható fel.
+* **roles (kötelező)** – Sorszintű biztonsági szabályok alkalmazásakor kiválasztható szerepköröket tartalmazó sztring. Több szerepkör átadásakor sztringtömbként kell azokat átadni.
 * **dataset (kötelező)** – Az épp beágyazott összetevőre érvényes adatkészlet. 
 
 A beágyazási token létrehozásához használja a **PowerBIClient.Reports** **GenerateTokenInGroup** metódusát. 

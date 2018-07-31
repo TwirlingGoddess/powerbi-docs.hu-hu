@@ -69,6 +69,6 @@ Ha semmi más nem segít, akkor a végső tanács, hogy figyelje meg a rendszert
 Tegyük fel például, hogy arra kíváncsi, meg tud-e osztani egy irányítópultot egy biztonsági csoporttal. A kérdés megválaszolásához nyissa meg a megosztási párbeszédablakot, és próbáljon hozzáadni egy biztonsági csoportot. Bármi is az eredmény, ez után a próba után választ kap a kérdésére.
 
 ## <a name="next-steps"></a>Következő lépések
-* [A Power BI bemutatása](power-bi-overview.md)
+* [Mi az a Power BI?](power-bi-overview.md)
 * Kérdezze meg a [Power BI közösségét](http://community.powerbi.com/)
 * Továbbra sem találja a megoldást? Keresse fel a [Power BI támogatási oldalát](https://powerbi.microsoft.com/support/).

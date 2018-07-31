@@ -34,6 +34,6 @@ A Power BI-irányítópultok rögzíthetők a Windows kezdőképernyőjén a Win
 ## <a name="next-steps"></a>További lépések
 * [A Windows 10-hez készült Power BI mobilalkalmazás letöltése](http://go.microsoft.com/fwlink/?LinkID=526478) a Windows Áruházból  
 * [A Windows 10-hez készült Power BI mobilalkalmazás használatának első lépései](mobile-windows-10-phone-app-get-started.md)  
-* [A Power BI bemutatása](power-bi-overview.md)
+* [Mi az a Power BI?](power-bi-overview.md)
 * Kérdése van? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)
 

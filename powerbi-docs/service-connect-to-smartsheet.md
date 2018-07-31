@@ -60,6 +60,6 @@ Egyéni lapokhoz való közvetlen kapcsolódáshoz a fiókban használhatja a Sm
 
 ## <a name="next-steps"></a>Következő lépések:
 
-[A Power BI bemutatása](power-bi-overview.md)
+[Mi az a Power BI?](power-bi-overview.md)
 
 [Power BI – Adatok lekérése](service-get-data.md)

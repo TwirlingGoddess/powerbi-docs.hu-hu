@@ -59,7 +59,7 @@ Ez a tartalomcsomag az elmúlt 45 nap adatait tartalmazza az alábbi táblákban
     - Global Visits (Globális látogatások)  
 
 ## <a name="next-steps"></a>Következő lépések
-[A Power BI bemutatása](power-bi-overview.md)
+[Mi az a Power BI?](power-bi-overview.md)
 
 [Power BI – Alapfogalmak](service-basic-concepts.md)
 

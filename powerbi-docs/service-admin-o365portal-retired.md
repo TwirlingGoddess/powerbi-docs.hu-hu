@@ -28,7 +28,7 @@ Az **Office 365-höz készült Power BI** felügyeleti portálja már nem érhet
 További információért lásd: [Power BI felügyeleti portál](service-admin-portal.md).
 
 ## <a name="next-steps"></a>Következő lépések
-[A Power BI bemutatása](power-bi-overview.md)
+[Mi az a Power BI?](power-bi-overview.md)
 
 [Mi az a Power BI Desktop?](desktop-what-is-desktop.md)
 

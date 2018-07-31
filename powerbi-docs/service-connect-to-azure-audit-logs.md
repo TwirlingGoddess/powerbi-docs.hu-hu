@@ -69,6 +69,6 @@ Az előfizetés-azonosító egy hosszú betű- és számsor, ami a fenti \#4. l�
 Ha hitelesítési hibát tapasztal vagy frissítési próbálkozáskor érvénytelen hitelesítő adatok miatti hibát, akkor próbálja törölni az Azure-auditnaplók tartalomcsomag összes példányát, és próbáljon újrakapcsolódni.
 
 ## <a name="next-steps"></a>Következő lépések
-[A Power BI bemutatása](power-bi-overview.md)  
+[Mi az a Power BI?](power-bi-overview.md)  
 [Power BI – Alapfogalmak](service-basic-concepts.md)  
 

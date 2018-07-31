@@ -82,7 +82,7 @@ Ha „Nem sikerült csatlakozni a távoli kiszolgálóhoz” üzenet jelenik meg
 
 
 ## <a name="next-steps"></a>Következő lépések
-[A Power BI bemutatása](power-bi-overview.md)
+[Mi az a Power BI?](power-bi-overview.md)
 
 [Adatok lekérése](service-get-data.md)
 

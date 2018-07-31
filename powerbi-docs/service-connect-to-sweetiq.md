@@ -54,7 +54,7 @@ Válassza az egyik olyan ügyfél azonosítóját, amelyhez a fiókja rendelkezi
 Az adott ügyfél adainak eléréséhez szükséges API-kulcs beszerzéséért beszéljen a rendszergazdával.
 
 ## <a name="next-steps"></a>Következő lépések
-[A Power BI bemutatása](power-bi-overview.md)
+[Mi az a Power BI?](power-bi-overview.md)
 
 [Power BI – Adatok lekérése](service-get-data.md)
 

@@ -75,7 +75,7 @@ Az Azure Portalon további erőforrásokat is hozzárendelhet a **Konfiguráció
 
 ## <a name="next-steps"></a>Következő lépések
 [Első lépések: Apache Spark-fürt létrehozása HDInsight Linux rendszeren és interaktív lekérdezések futtatása Spark SQL használatával](https://azure.microsoft.com/documentation/articles/hdinsight-apache-spark-jupyter-spark-sql)  
-[A Power BI bemutatása](power-bi-overview.md)  
+[Mi az a Power BI?](power-bi-overview.md)  
 [Power BI – Adatok lekérése](service-get-data.md)  
 További kérdései vannak? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)
 

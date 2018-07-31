@@ -61,7 +61,7 @@ Ha a betöltéskor a rendszer a hitelesítő adatokkal kapcsolatos hibát jelez,
 Ha hosszú betöltési időket tapasztal, ellenőrizze az incidensek és a napok számát, amelyeket a csatlakozáskor megadott, és esetleg csökkentse ezeket.
 
 ## <a name="next-steps"></a>Következő lépések
-[A Power BI bemutatása](power-bi-overview.md)
+[Mi az a Power BI?](power-bi-overview.md)
 
 [Power BI – Alapfogalmak](service-basic-concepts.md)
 

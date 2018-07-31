@@ -168,7 +168,7 @@ Előadások megtekintése felvételről, tetszés szerinti időpontban
 
 - [A Microsoft Data Insights Summit 2017-es rendezvényének felvételről megtekinthető előadásai](https://community.powerbi.com/t5/Data-Insights-Summit-2017-On/bd-p/DataInsightsSummit2017OnDemand?Is=Website)
 
-- [A Power BI bemutatása](power-bi-overview.md)
+- [Mi az a Power BI?](power-bi-overview.md)
 
 - Kövessen minket [@MSPowerBI a Twitteren](https://twitter.com/mspowerbi)
 

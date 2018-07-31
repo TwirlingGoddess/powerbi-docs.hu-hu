@@ -96,7 +96,7 @@ A **Power BI Desktop** májusi újdonságai közé az alábbi frissítések tart
 * Adatcímke-lehetőségek tölcsérdiagramhoz [[videó]](https://youtu.be/-_GMCE1TLvQ?t=6m25s)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2018-feature-summary/#funnelChart) 
 * Vonalvastagság nullára állítása [[video]](https://youtu.be/-_GMCE1TLvQ?t=6m49s)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2018-feature-summary/#lineStroke) 
 
-### <a name="analytics"></a>Analytics
+### <a name="analytics"></a>Elemzések
 
 * Mérték részletezése [[videó]](https://youtu.be/-_GMCE1TLvQ?t=2m9s)  [[cikk]](desktop-drillthrough.md#pass-all-filters-in-drillthrough)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2018-feature-summary/#measureDrillthrough) 
 
@@ -151,7 +151,7 @@ A **Power BI Desktop** áprilisi újdonságai közé az alábbi frissítések ta
 * Továbbfejlesztett alapértelmezett rendezés vizualizációkhoz  [[videó]](https://youtu.be/W_Nb73Od_AI?t=19m21s)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary/#sort) 
 * Általánosan elérhetők a numerikus szeletelők  [[videó]](https://youtu.be/W_Nb73Od_AI?t=21m13s)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary/#numericSlicer) 
 
-### <a name="analytics"></a>Analytics
+### <a name="analytics"></a>Elemzések
 
 * Nyelvi séma frissítése  [[videó]](https://youtu.be/W_Nb73Od_AI?t=22m)  [[cikk]](power-bi-custom-visuals-organization.md)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary/#linguisticSchema) 
 * Új DAX-függvény: COMBINEVALUES()  [[videó]](https://youtu.be/W_Nb73Od_AI?t=23m37s)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary/#combineValues) 
@@ -260,7 +260,7 @@ A **Power BI Desktop** 2018. februári újdonságai közé az alábbi frissíté
 * Egyéni szervezeti vizualizációk (előzetes verzió)  [[videó]](https://youtu.be/KeVB5RwMzJo?t=19m23s)  [[cikk]](power-bi-custom-visuals-organization.md)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#organizationalVisuals) 
 
 
-### <a name="analytics"></a>Analytics
+### <a name="analytics"></a>Elemzések
 
 * Egyéni dátumtáblázat beállítása  [[videó]](https://youtu.be/KeVB5RwMzJo?t=16m4s)  [[cikk]](desktop-date-tables.md) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#customDateTable)
 * Általánosan elérhetők a gyorsmérők  [[videó]](https://youtu.be/KeVB5RwMzJo?t=17m52s)  [[cikkk]](desktop-quick-measures.md) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#quickMeasures) 
@@ -319,7 +319,7 @@ A **Power BI Desktop** januári újdonságai közé az alábbi frissítések tar
 -   Első N kiválasztás a Q&A-ban [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-january-2018-feature-summary/#topN) 
 -   Számos új egyéni vizualizáció [[videó]](https://youtu.be/W8Pp5wuCXJw?t=11m32s)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-january-2018-feature-summary/#customVisuals) 
 
-### <a name="analytics"></a>Analytics
+### <a name="analytics"></a>Elemzések
 
 -   Gyorsmérő korrelációs együtthatóval [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-january-2018-feature-summary/#correlationCoefficient) 
 
@@ -370,7 +370,7 @@ A **Power BI Desktop** decemberi újdonságai közé az alábbi frissítések ta
 -   Nemrég megjelent egyéni vizualizációk  [[video]](https://youtu.be/ZPU8B-1BxjI?t=18m25s)  [[blogbejegyzés]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#customVisuals) 
 
 
-### <a name="analytics"></a>Analytics
+### <a name="analytics"></a>Elemzések
 
 -   Más vizualizációk részletező szűrése [[videó]](https://youtu.be/ZPU8B-1BxjI?t=28m53s)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#drillFiltersOtherVisuals) 
 

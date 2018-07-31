@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 01/16/2018
 ms.author: maggies
 LocalizationGroup: Model your data
-ms.openlocfilehash: ae6c7ba3603136aeea3daa412595b9f42ed13d6a
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: eb0d584e2383e1b878cfc26739e77d4e50d70a0f
+ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34286911"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39280478"
 ---
 # <a name="tag-barcodes-in-power-bi-desktop-for-the-mobile-apps"></a>Vonalkódok címkézése mobilalkalmazásokhoz a Power BI Desktopban
 A Power BI Desktopban [kategorizálhatja](desktop-data-categorization.md) egy oszlop adatait, így a Power BI Desktop tudja, hogyan kezelje az értékeket egy jelentésben a vizualizációkban. Kategorizálhat egy oszlopot is **Vonalkódként**. Ha akár Ön, akár a kollégái [beolvassák egy termék vonalkódját a Power BI alkalmazással](mobile-apps-scan-barcode-iphone.md) egy iPhone-on, megjelenik az összes, az adott vonalkódot tartalmazó jelentés. Amikor megnyitja a jelentést a mobilalkalmazásban, a Power BI automatikusan szűri a jelentést az adott vonalkódhoz kapcsolódó adatokra.
@@ -27,7 +27,7 @@ A Power BI Desktopban [kategorizálhatja](desktop-data-categorization.md) egy os
 4. A Jelentés nézetben adja hozzá ezt a mezőt a vonalkód szerint szűrni kívánt vizualizációkhoz.
 5. Mentse a jelentést, és tegye közzé a Power BI szolgáltatásban.
 
-Most már, ha megnyitja a beolvasót az [iPhone-ra készült Power BI alkalmazásban](mobile-ios-ipad-iphone-apps.md), és beolvas egy vonalkódot, megjelenik ez a jelentés a jelentések listájában. Amikor megnyitja a jelentést, a benne lévő vizualizációkat az alkalmazás a beolvasott termékvonalkód alapján szűri.
+Most már, ha megnyitja a beolvasót az [iPhone-ra készült Power BI alkalmazásban](mobile-iphone-app-get-started.md), és beolvas egy vonalkódot, megjelenik ez a jelentés a jelentések listájában. Amikor megnyitja a jelentést, a benne lévő vizualizációkat az alkalmazás a beolvasott termékvonalkód alapján szűri.
 
 ## <a name="supported-barcode-formats"></a>Támogatott vonalkódformátumok
 A Power BI a következő vonalkódokat ismeri fel, ha felcímkézi őket a Power BI-jelentésben: 

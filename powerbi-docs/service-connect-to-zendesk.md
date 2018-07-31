@@ -84,6 +84,6 @@ A Zendesk-URL-cím megegyezik azzal, amelyet a Zendesk-fiókjába való belépé
 Ha a kapcsolódási problémába ütközik, ellenőrizze a Zendesk-URL-címét, és győződjön meg arról, hogy Zendesk-rendszergazdai fiókot használ.
 
 ## <a name="next-steps"></a>Következő lépések
-* [A Power BI bemutatása](power-bi-overview.md)
+* [Mi az a Power BI?](power-bi-overview.md)
 * [Adatok lekérése](service-get-data.md)
 

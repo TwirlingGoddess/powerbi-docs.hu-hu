@@ -107,7 +107,7 @@ Amikor részletezi egy vizualizáció egy kategóriáját, mostantól az adott o
 - [Keresés a Formázás és Elemzés panelen](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#search)
 - [Mezőtulajdonságok panelje és mezőleírások](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#fieldPropertiesPane)
 
-### <a name="analytics"></a>Analytics
+### <a name="analytics"></a>Elemzések
 
 - [UTCNOW() és UTCTODAY()](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#utcDAX)
 - [Egyéni dátumtábla megjelölése](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#customDateTable)

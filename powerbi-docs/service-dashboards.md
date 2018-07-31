@@ -84,7 +84,7 @@ A Power BI Pro az irányítópultok megosztásához és a megosztott irányító
 > 
 
 ## <a name="next-steps"></a>Következő lépések
-[A Power BI bemutatása](power-bi-overview.md)  
+[Mi az a Power BI?](power-bi-overview.md)  
 [Power BI – Alapfogalmak](service-basic-concepts.md)  
 [Power BI Premium – pontosan mi is ez?](service-premium.md)  
 

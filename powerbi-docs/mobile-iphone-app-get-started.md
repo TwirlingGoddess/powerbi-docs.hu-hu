@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/27/2018
 ms.author: maggies
-ms.openlocfilehash: 1700d5bb6a3c17b0a76e6cf04155050a01136e96
-ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
+ms.openlocfilehash: 9e5d878b676159db7990af983f53ce813ac44441
+ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37136554"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39280248"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-ios-devices"></a>Első lépések az iOS-eszközökhöz készült Power BI mobilalkalmazással
 Az iPhone-on, iPaed és iPod Touchon futó iOS-es Microsoft Power BI alkalmazás mobil BI-élményt kínál a Power BI-hoz, a Power BI jelentéskészítő kiszolgálóhoz és a Reporting Services-hez. Az élő, érintéssel vezérelhető mobil hozzáférés révén bárhonnan megtekintheti és kezelheti vállalata helyszíni és felhőbeli irányítópultjait. Fedezze fel az adatokat az irányítópultokon, és ossza meg eredményeit munkatársaival e-mailben vagy SMS-ben. Kísérje figyelemmel a legidőszerűbb adatokat [Appla Watch](mobile-apple-watch.md)on.  
@@ -73,11 +73,11 @@ Megtekintheti és felhasználhatja a Power BI irányítópult-mintáit, de van n
    ![Reporting Services-minták a Power BI-mobilalkalmazásban](media/mobile-iphone-app-get-started/power-bi-reporting-services-samples.png)
 
 ## <a name="find-your-content-in-the-power-bi-mobile-apps"></a>Tartalom keresése a Power BI-mobilalkalmazásban
-Az irányítópultokat és jelentéseket a rendszer különböző helyeken tárolja a Power BI mobilalkalmazásokban, attól függően, hogy honnan származnak. További információk: [A tartalmak megkeresése a mobilalkalmazásokban](mobile-apps-find-content-mobile-devices.md). Ezenkívül bármikor rákereshet bármire a Power BI mobilalkalmazásokban. 
+Az irányítópultokat és jelentéseket a rendszer különböző helyeken tárolja a Power BI mobilalkalmazásokban, attól függően, hogy honnan származnak. További információk: [A tartalmak megkeresése a mobilalkalmazásokban](mobile-apps-quickstart-view-dashboard-report.md). Ezenkívül bármikor rákereshet bármire a Power BI mobilalkalmazásokban. 
 
 ![Bal oldali navigációs panel](media/mobile-iphone-app-get-started/power-bi-iphone-left-nav.png)
 
-Tájékozódjon bővebben a [tartalom kereséséről a mobilalkalmazásokban](mobile-apps-find-content-mobile-devices.md).
+Tájékozódjon bővebben a [tartalom kereséséről a mobilalkalmazásokban](mobile-apps-quickstart-view-dashboard-report.md).
 
 ## <a name="view-your-favorite-dashboards-kpis-and-reports"></a>Kedvenc irányítópultok, KPI-k és jelentések megtekintése
 A mobilalkalmazások Kedvencek oldalán a kedvenc Power BI-irányítópultjai, valamint a Power BI jelentéskészítő kiszolgáló és Reporting Services jelentései és a KPI-i jelennek meg. Amikor *kedvencnek* jelöl meg egy irányítópultot a Power BI mobilalkalmazásban, más eszközökről is hozzáférhet, beleértve a böngészőjében futó Power BI szolgáltatást is. 
@@ -109,7 +109,7 @@ További információ a [Power BI-mobilalkalmazások Microsoft Intune-nal tört�
 
 ## <a name="next-steps"></a>Következő lépések
 
-* [A Power BI bemutatása](power-bi-overview.md)
+* [Mi az a Power BI?](power-bi-overview.md)
 * Kérdése van? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)
 
 

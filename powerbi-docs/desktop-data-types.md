@@ -60,8 +60,7 @@ A Power BI Desktop öt Dátum/idő adattípust támogat a Lekérdezésnézetben,
 **Időtartam** – Egy bizonyos hosszúságú időszeletet jelöl. Ez a típus Tizedes tört típusúvá lesz konvertálva a modellbe való betöltéskor.  Tizedes tört típusként megfelelő eredményt ad, ha hozzáadják vagy kivonják a Dátum/idő mezőkből.  Tizedes tört típusként könnyen használható nagyságrendet jelző vizualizációkban.
 
 ### <a name="text-type"></a>Szöveg típus
-
-  **Szöveg** – Egy Unicode kódolású adatsztring. Ez lehet szöveg formátumban jelölt sztring, szám vagy dátum. A sztring maximális hossza 268 435 456 Unicode-karakter (256 mega karakter) vagy 536 870 912 bájt.
+**Szöveg** – Egy Unicode kódolású adatsztring. Ez lehet szöveg formátumban jelölt sztring, szám vagy dátum. A sztring maximális hossza 268 435 456 Unicode-karakter (256 mega karakter) vagy 536 870 912 bájt.
 
 ### <a name="truefalse-type"></a>Igaz/hamis típus
 **Igaz/hamis** – Egy logikai érték, amely vagy Igaz vagy Hamis.

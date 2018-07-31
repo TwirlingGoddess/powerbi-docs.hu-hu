@@ -138,7 +138,7 @@ Sok más Microsoft-szolgáltatáshoz és -szoftverhez hasonlóan a Power BI is e
 * A legutóbbi művelet vagy az utolsó néhány művelet **visszavonásához** használja a CTRL+Z billentyűkombinációt.
 
 ## <a name="next-steps"></a>Következő lépések
-* [A Power BI bemutatása](power-bi-overview.md)
+* [Mi az a Power BI?](power-bi-overview.md)
 * További kérdései vannak? [Kérdezze a Power BI-közösséget](http://community.powerbi.com/)
 * Továbbra is problémába ütközik? Keresse fel a [Power BI támogatási oldalát](https://powerbi.microsoft.com/support/).
 

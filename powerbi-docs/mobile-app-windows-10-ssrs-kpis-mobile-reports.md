@@ -110,6 +110,6 @@ A Power BI-mobilalkalmazásban nincs lehetősége Reporting Services-KPI-k és -
 
 ## <a name="next-steps"></a>Következő lépések
 * [A Windows 10-hez készült Power BI mobilalkalmazás használatának első lépései](mobile-windows-10-phone-app-get-started.md)  
-* [A Power BI bemutatása](power-bi-overview.md)  
+* [Mi az a Power BI?](power-bi-overview.md)  
 * Kérdése van? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)
 

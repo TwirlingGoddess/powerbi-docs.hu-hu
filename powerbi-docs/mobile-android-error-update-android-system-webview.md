@@ -30,6 +30,6 @@ Tulajdonképpen, valójában a Chrome alkalmazást kell frissítenie.
 
 ## <a name="next-steps"></a>Következő lépések
 * [Töltse le az Android-alkalmazást](http://go.microsoft.com/fwlink/?LinkID=544867) az Androidos alkalmazás-áruházból.
-* [A Power BI bemutatása](power-bi-overview.md)
+* [Mi az a Power BI?](power-bi-overview.md)
 * Kérdése van? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)
 

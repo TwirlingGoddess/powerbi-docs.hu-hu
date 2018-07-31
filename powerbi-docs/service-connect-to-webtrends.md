@@ -101,7 +101,7 @@ A tartalomcsomag betöltése közben, a hitelesítő adatok megadása után prob
 2. A felhasználó hozzáféréssel rendelkezik a [„Tartalom”](#Included) szakaszban felsorolt jelentésekhez
 
 ## <a name="next-steps"></a>Következő lépések
-[A Power BI bemutatása](power-bi-overview.md)
+[Mi az a Power BI?](power-bi-overview.md)
 
 [Power BI – Alapfogalmak](service-basic-concepts.md)
 

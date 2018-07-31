@@ -132,6 +132,6 @@ KPI-ket és jelentéseket jelölhet meg kedvencekként a webes portálon, majd a
 3. Koppintson a **Kiszolgáló eltávolítása** elemre.
 
 ## <a name="next-steps"></a>Következő lépések
-* [A Power BI bemutatása](power-bi-overview.md)  
+* [Mi az a Power BI?](power-bi-overview.md)  
 * Kérdése van? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)
 

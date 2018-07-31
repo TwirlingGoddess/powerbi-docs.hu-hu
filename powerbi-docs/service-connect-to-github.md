@@ -97,5 +97,5 @@ Ha szükséges, ellenőrizheti a GitHub-hitelesítő adatait.
 3. A Power BI-ba visszatérve próbáljon csatlakozni a GitHubhoz. A GitHub beállítása párbeszédpanelen adja meg a szóban forgó adattár nevét és tulajdonosát.  
 
 ## <a name="next-steps"></a>Következő lépések
-* [A Power BI bemutatása](power-bi-overview.md)
+* [Mi az a Power BI?](power-bi-overview.md)
 * [Adatok lekérése](service-get-data.md)
