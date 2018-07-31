@@ -27,9 +27,9 @@ A tartalom beágyazási módjától függően eltérő módon kérhető le a hoz
 Ez a példa arra vonatkozik, amikor a felhasználók manuálisan jelentkeznek be az Azure AD-be a szervezeti bejelentkezési adataikkal. Tartalmak olyan Power BI-felhasználók számára történő beágyazásához használható, akik az általuk a Power BI szolgáltatásban elérhető tartalmakat fogják elérni.
 
 ### <a name="get-an-authorization-code-from-azure-ad"></a>Hozzáférési kód beszerzése az Azure AD-ből
-A **hozzáférési token** lekérésének első lépése egy hozzáférési kód lekérése az **Azure AD-ből**. Ehhez egy lekérdezési karakterláncot kell összeállítani a következő tulajdonságokkal és átirányítani azt az **Azure AD-be**.
+A **hozzáférési token** lekérésének első lépése egy hozzáférési kód lekérése az **Azure AD-ből**. Ehhez egy lekérdezési sztringet kell összeállítani a következő tulajdonságokkal és átirányítani azt az **Azure AD-be**.
 
-**Hozzáférési kód lekérdezési karakterlánca**
+**Hozzáférési kód lekérdezési sztringje**
 
 ```
 var @params = new NameValueCollection
@@ -51,7 +51,7 @@ var @params = new NameValueCollection
 };
 ```
 
-A lekérdezési karakterlánc összeállítása után átirányítja azt az **Azure AD-be** **hozzáférési kód** lekéréséhez.  Az alábbiakban egy teljes C# metódus látható **hozzáférési kód** lekérdezési karakterláncának elkészítésére és az **Azure AD-ba** való átirányítására. Ha megvan a hozzáférési kód, a **hozzáférési kóddal** lekér egy **hozzáférési jogkivonatot**.
+A lekérdezési sztring összeállítása után átirányítja azt az **Azure AD-be****hozzáférési kód** lekéréséhez.  Az alábbiakban egy teljes C# metódus látható **hozzáférési kód** lekérdezési sztringjének elkészítésére és az **Azure AD-ba** való átirányítására. Ha megvan a hozzáférési kód, a **hozzáférési kóddal** lekér egy **hozzáférési jogkivonatot**.
 
 Ezután a rendszer a redirect.aspx.cs fájlban meghívja az [AuthenticationContext.AcquireTokenByAuthorizationCode](https://msdn.microsoft.com/library/azure/dn479531.aspx) elemet a token létrehozásához.
 
