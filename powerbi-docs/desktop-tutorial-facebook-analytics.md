@@ -11,10 +11,10 @@ ms.date: 05/21/2018
 ms.author: davidi
 LocalizationGroup: Learn more
 ms.openlocfilehash: b7aac59c9d3848db37211475cd82447d6359b459
-ms.sourcegitcommit: e6db826c2f43a69e4c63d5f4920baa8f66bc41be
+ms.sourcegitcommit: fecea174721d0eb4e1927c1116d2604a822e4090
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 05/23/2018
+ms.lasthandoff: 07/31/2018
 ms.locfileid: "34456039"
 ---
 # <a name="tutorial-facebook-analytics-using-power-bi-desktop"></a>Oktatóanyag: Facebook-elemzések a Power BI Desktop használatával
@@ -73,7 +73,7 @@ Először a **created_time** oszlopban található dátum- és időértékeket v
    
    ![Oszlop felosztása elválasztó alapján párbeszédpanel](media/desktop-tutorial-facebook-analytics/delimiter2.png)
    
-   A rendszer két olyan oszlopra osztja fel az eredeti oszlopot, amelyek a **T** elválasztó előtti és utáni karakterláncokat tartalmazzák (ezek nevei a következők: **created_time.1** és **created_time.2**). Vegye észre, hogy a Power BI automatikusan észleli és **Dátum** adattípusra módosítja az első oszlop adattípusát, míg **Idő** adattípusra a második oszlop adattípusát, és úgy formázza a dátum- és időértékeket, hogy azok jobban olvashatóbbak legyenek.
+   A rendszer két olyan oszlopra osztja fel az eredeti oszlopot, amelyek a **T** elválasztó előtti és utáni sztringeket tartalmazzák (ezek nevei a következők: **created_time.1** és **created_time.2**). Vegye észre, hogy a Power BI automatikusan észleli és **Dátum** adattípusra módosítja az első oszlop adattípusát, míg **Idő** adattípusra a második oszlop adattípusát, és úgy formázza a dátum- és időértékeket, hogy azok jobban olvashatóbbak legyenek.
    
 4. Az egyes oszlopfejlécekre duplán kattintva nevezze át az oszlopokat, vagy jelölje ki az egyes oszlopokat, és a menüszalag **Átalakítás** fülének **Minden oszlop** csoportjában válassza az **Átnevezés** parancsot, majd írja be az új oszlopfejléceket: **created_date** és **created_time**.
    
