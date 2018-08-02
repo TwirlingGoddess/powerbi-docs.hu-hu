@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/23/2018
+ms.date: 07/31/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 1105de002f6461589d61c6f0077cceeedaada471
-ms.sourcegitcommit: 6faeb642721ee5abb41c04a8b729880c01c4d40e
+ms.openlocfilehash: 40799bb2716b2f6e85405e76c2a301acef3509aa
+ms.sourcegitcommit: 06f59902105c93700e71e913dff8453e221e4f82
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 07/23/2018
-ms.locfileid: "39211341"
+ms.lasthandoff: 08/01/2018
+ms.locfileid: "39388755"
 ---
 # <a name="many-to-many-relationships-in-power-bi-desktop-preview"></a>Több-a-többhöz kapcsolatok a Power BI Desktopban (előzetes verzió)
 
@@ -27,7 +27,7 @@ A **Power BI Desktopban** beállítható **több-a-többhöz kapcsolatok** háro
 
 * **Összetett modellek** – Lehetővé teszi, hogy egy jelentés több adatkapcsolattal, köztük DirectQuery-kapcsolatokkal és importtal, vagy ezek bármilyen kombinációjával rendelkezzen.
 * **Több-a-többhöz kapcsolatok** – Az **összetett modellekkel** a táblák között **több-a-többhöz kapcsolatok** hozhatók létre, kiküszöbölve ezzel az egyedi értékek követelményét, és szükségtelenné téve a korábbi kerülő megoldásokat, amilyen például új táblák bevezetése a kapcsolatok létrehozásához. 
-* **Tárolási mód** – Mostantól megadható, hogy mely vizualizációk igényelnek a háttér-adatforrásokba irányuló lekérdezéseket. Azok, amelyekhez erre nincs szükség, importálva lesznek még akkor is, ha DirectQuery-alapúak. Ezáltal javul a teljesítmény és csökken a háttérbeli adatforgalom. Korábban még az olyan egyszerű vizualizációk, mint a szeletelők is kezdeményeztek a háttérbeli forrásokba irányuló lekérdezéseket. 
+* **Tárolási mód** – Mostantól megadható, hogy mely vizualizációk igényelnek a háttér-adatforrásokba irányuló lekérdezéseket. Azok, amelyekhez erre nincs szükség, importálva lesznek még akkor is, ha DirectQuery-alapúak. Ezáltal javul a teljesítmény, és csökken a háttérbeli adatforgalom. Korábban még az olyan egyszerű vizualizációk, mint a szeletelők is kezdeményeztek a háttérbeli forrásokba irányuló lekérdezéseket. 
 
 Az **összetett modelleknek** ezt a három, egymással összefüggő funkcióját külön cikkek ismertetik:
 
