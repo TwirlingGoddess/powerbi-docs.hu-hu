@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.component: powerbi-developer
 ms.custom: mvc
 manager: kfile
-ms.openlocfilehash: cfc450216202f332f518955d28cb71df6aa0b800
-ms.sourcegitcommit: f2b106b5eb338a64f903e8ce6793bccb07f9440a
+ms.openlocfilehash: 544429528ed51dd2928eb82632f512ff3f7d5afd
+ms.sourcegitcommit: fecea174721d0eb4e1927c1116d2604a822e4090
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 07/18/2018
-ms.locfileid: "39105269"
+ms.lasthandoff: 07/31/2018
+ms.locfileid: "39359731"
 ---
 # <a name="tutorial-embed-a-power-bi-report-dashboard-or-tile-into-an-application-for-your-organization"></a>Oktatóanyag: Power BI-jelentés, -irányítópult vagy -csempe beágyazása egy alkalmazásba a cége részére
 Ez az oktatóanyag bemutatja, hogyan integrálhat egy jelentést az alkalmazásokba a **Power BI .NET SDK** és a **Power BI JavaScript API** segítségével, amikor beágyazza a **Power BI** szolgáltatásait egy céges alkalmazásba. A **Power BI** segítségével jelentéseket, irányítópultokat és csempéket ágyazhat be az alkalmazásokba **a felhasználó az adatok tulajdonosa** forgatókönyvnek megfelelően. **A felhasználó az adatok tulajdonosa** forgatókönyv lehetővé teszi, hogy az alkalmazás kiterjessze a Power BI szolgáltatást.
@@ -413,7 +413,24 @@ function updateEmbedReport() {
 Most, hogy elkészült az alkalmazás fejlesztésével, ideje dedikált kapacitással ellátni az alkalmazás munkaterületét.
 
 ### <a name="create-a-dedicated-capacity"></a>Dedikált kapacitás létrehozása
-Dedikált kapacitás létrehozásával kihasználhatja annak az előnyeit, hogy egy dedikált erőforrás áll rendelkezésre az alkalmazás-munkaterületen a tartalom számára. Ha egy munkaterület nincs hozzárendelve dedikált kapacitáshoz, akkor megosztott kapacitásnak számít. Dedikált kapacitást létrehozhat a [Power BI Premium ](../service-admin-premium-purchase.md) használatával.
+Dedikált kapacitás létrehozásával kihasználhatja annak az előnyeit, hogy egy dedikált erőforrás áll rendelkezésre az alkalmazás-munkaterületen a tartalom számára. Dedikált kapacitást létrehozhat a [Power BI Premium ](../service-premium.md) használatával.
+
+A következő táblázat az [Office 365-ben](../service-admin-premium-purchase.md) elérhető Power BI Premium-termékváltozatokat sorolja fel.
+
+| Kapacitáscsomópont | Összes virtuális mag<br/>*(Háttérrendszer + előtérrendszer)* | Háttérrendszeri virtuális magok | Előtérrendszeri virtuális magok | DirectQuery-/élő kapcsolat korlátai | Maximális oldalmegjelenítések óránként csúcsidőszakban |
+| --- | --- | --- | --- | --- | --- |
+| EM1 |1 virtuális mag |0,5 virtuális mag, 10 GB RAM |0,5 virtuális mag |Másodpercenként 3,75 |150-300 |
+| EM2 |2 virtuális mag |1 virtuális mag, 10 GB RAM |1 virtuális mag |Másodpercenként 7.5 |301-600 |
+| EM3 |4 virtuális mag |2 virtuális mag, 10 GB RAM |2 virtuális mag |Másodpercenként 15 |601-1200 |
+| P1 |8 virtuális mag |4 virtuális mag, 25 GB RAM |4 virtuális mag |Másodpercenként 30 |1,201-2,400 |
+| P2 |16 virtuális mag |8 virtuális mag, 50 GB RAM |8 virtuális mag |Másodpercenként 60 |2,401-4,800 |
+| P3 |32 virtuális mag |16 virtuális mag, 100 GB RAM |16 virtuális mag |Másodpercenként 120 |4801-9600 |
+| P4 |64 virtuális mag |32 virtuális mag, 200 GB RAM |32 virtuális mag |Másodpercenként 240 |9601-19200
+| P5 |128 virtuális mag |64 virtuális mag, 400 GB RAM |64 virtuális mag |Másodpercenként 480 |19201-38400
+
+*Az **_EM SKU-kkal_** **az** **_MS Office-alkalmazásokkal_** való beágyazás során hozzáférhet a tartalmakhoz egy INGYENES Power BI-licenccel, azonban **nem férhet hozzá** a tartalmakhoz, ha a **_Powerbi.com_** oldalt vagy a **_Power BI Mobile-t_** használja.*
+
+*A **_P SKU-kkal_** **az** **_MS Office-alkalmazásokkal_** való beágyazás során, valamint a **_Powerbi.com_** oldal vagy a **_Power BI Mobile_** használatakor is hozzáférhet a tartalmakhoz egy INGYENES Power BI-licenccel.*
 
 ### <a name="assign-an-app-workspace-to-a-dedicated-capacity"></a>Alkalmazás-munkaterület hozzárendelése dedikált kapacitáshoz
 
@@ -431,13 +448,17 @@ A dedikált kapacitás létrehozása után hozzárendelheti az alkalmazás-munka
 
     ![egy kapacitáshoz hozzárendelt alkalmazás-munkaterület](media/embed-sample-for-your-organization/embed-sample-for-your-organization-037.png)
 
+## <a name="admin-settings"></a>Rendszergazdai beállítások
+
+A globális rendszergazdák vagy a Power BI szolgáltatás-rendszergazdái be- és kikapcsolhatják a REST API-k használatának képességét a bérlők esetében. A Power BI-rendszergazdák a teljes szervezethez vagy egyes biztonsági csoportokhoz is megadhatják ezt a beállítást. A beállítás alapértelmezés szerint a teljes szervezethez engedélyezve van. Ezt a [Power BI felügyeleti portálján](../service-admin-portal.md) teheti meg.
+
 ## <a name="next-steps"></a>Következő lépések
-Ebben az oktatóanyagban bemutattuk, hogyan lehet Power BI-tartalmat beágyazni egy alkalmazásba a **céges Power BI-fiók** használva. Most megpróbálhatja alkalmazások használatával beágyazni a Power BI-tartalmat egy alkalmazásba.  Megpróbálkozhat Power BI-tartalom beágyazásával külső ügyfelek számára is.
+Ebben az oktatóanyagban bemutattuk, hogyan lehet Power BI-tartalmat beágyazni egy alkalmazásba a **céges Power BI-fiók** használva. Most megpróbálhatja alkalmazások használatával beágyazni a Power BI-tartalmat egy alkalmazásba.  Megpróbálkozhat Power BI-tartalom beágyazásával az ügyfelei számára is.
 
 > [!div class="nextstepaction"]
 > [Beágyazás alkalmazásokból](embed-from-apps.md)
 
 > [!div class="nextstepaction"]
->[Beágyazás külső ügyfelek számára](embed-sample-for-customers.md)
+>[Beágyazás az ügyfelek számára](embed-sample-for-customers.md)
 
 További kérdései vannak? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)

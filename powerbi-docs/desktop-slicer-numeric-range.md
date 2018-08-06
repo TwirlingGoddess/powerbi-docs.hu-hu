@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/07/2018
+ms.date: 07/27/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 1e380a6821db7207d14e719fa5e070af38196b97
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 135e6ff76a0972bdedbff3eaf7ab1222f82a94ab
+ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34286934"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39331173"
 ---
 # <a name="use-the-numeric-range-slicer-in-power-bi-desktop"></a>A numerikustartomány-szeletelő használata a Power BI Desktopban
 A **numerikustartomány-szeletelővel** számos különféle szűrőt alkalmazhat az adatmodellek bármely numerikus oszlopára. Választhat, hogy számok **között**, egy számnál **kisebb vagy egyenlő** vagy egy számnál **nagyobb vagy egyenlő** értékekre szűr. Egyszerűnek tűnik, de nagyon hatékony módja az adatok szűrésének.
@@ -53,7 +53,7 @@ Végül ha a **Nagyobb vagy egyenlő** lehetőséget választjuk, a csúszkasáv
 
 ## <a name="snap-to-whole-numbers-with-the-numeric-range-slicer"></a>Egész számhoz illeszkedés a numerikustartomány-szeletelőnél
 
-A numerikustartomány-szeletelők egész számokhoz illeszkednek, hacsak nem decimális tartományról van szó. Ezzel lehetővé válik, hogy a szeletelőn egyszerűen válasszon ki egész számokat. 
+A numerikustartomány-szeletelő egész számokhoz illeszkedik, ha a mögöttes mező adattípusa **Egész szám**. Ezzel lehetővé válik, hogy a szeletelőn egyszerűen válasszon ki egész számokat. A **Tizedes tört** típusú mezőkkel törtszámokat írhat be. A szövegmezőre alkalmazott formázás megegyezik a mező formázásával, bár beírhat vagy kijelölhet pontosabb számokat.
 
 
 ## <a name="limitations-and-considerations"></a>Korlátozások és szempontok
@@ -61,3 +61,4 @@ Jelenleg a következő korlátozások és szempontok érvényesek a **numerikust
 
 * A **numerikustartomány-szeletelő** jelenleg az adatokban lévő összes alapul szolgáló sorra szűr, nem az összesített értékekre. Ha például egy *Értékesítési összeg* mezőt használ, akkor az *Értékesítési összegen* alapuló összes tranzakcióra szűr, nem a vizualizáció egyes adatpontjai *Értékesítési összegének* összegére.
 * A mértékekkel jelenleg nem működik.
+* A numerikus szeletelők szövegmezőibe bármilyen számot beírhat, akkor is, ha az kívül esik mögöttes oszlop értéktartományán. Így beállíthat szűrőket, ha tudja, hogy az adatok változni fognak.
