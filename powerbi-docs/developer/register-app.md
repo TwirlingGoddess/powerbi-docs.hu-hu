@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
-ms.date: 05/31/2018
+ms.date: 07/31/2018
 ms.author: maghan
-ms.openlocfilehash: 4242e2a88ab930c5f647bbfa4aa97fea1dc313ad
-ms.sourcegitcommit: 3a287ae4ab16d1e76caed651bd8ae1a1738831cd
+ms.openlocfilehash: 06e7c27579f559928dab822a7e0323cfb4abc1a1
+ms.sourcegitcommit: 06f59902105c93700e71e913dff8453e221e4f82
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 07/19/2018
-ms.locfileid: "39157125"
+ms.lasthandoff: 08/01/2018
+ms.locfileid: "39388594"
 ---
 # <a name="register-an-azure-ad-app-to-embed-power-bi-content"></a>Azure AD-alkalmazás regisztrálása Power BI-tartalmak beágyazásához
 Megismerheti, hogyan kell regisztrálni egy alkalmazást az Azure Active Directoryban (Azure AD) Power BI-tartalmak beágyazásához.
@@ -36,7 +36,7 @@ Az alábbiak szerint regisztrálhatja alkalmazását a Power BI alkalmazásregis
 3. Adja meg az **Alkalmazás nevét**.
 4. Az Alkalmazás típusának listájáról válassza ki a használt alkalmazás típusát.
    
-   * Az ügyféleszközökön futó alkalmazások esetében a **Natív alkalmazás** lehetőséget kell választania. Szintén a **Natív alkalmazás** lehetőséget kell választania, ha bármilyen tartalmat ágyaz be az ügyfelei számára, függetlenül attól, hogy konkrétan milyen alkalmazásról van szó. Ugyanez igaz a webalkalmazásokra is.
+   * Az ügyféleszközökön futó alkalmazások esetében a **Natív alkalmazás** lehetőséget kell választania. Szintén a **Natív alkalmazás** lehetőséget kell választania, ha bármilyen tartalmat ágyaz be az ügyfelei számára, függetlenül attól, hogy milyen alkalmazásról van szó, még webalkalmazások esetében is.
    * Webalkalmazások és webes API-k esetében válassza a **Kiszolgálóoldali webalkalmazás** lehetőséget.
 
 5. Írjon be egy értéket az **Átirányítási URL-cím** és a **Kezdőlap URL-címe** mezőbe. A **Átirányítási URL-cím** bármilyen érvényes URL-címmel működik.
@@ -81,7 +81,7 @@ Az alkalmazást közvetlenül az Azure Portalon is regisztrálhatja. Az alkalmaz
 5. Kövesse az utasításokat az új alkalmazás létrehozásához.
    
    * Webalkalmazások esetén adja meg a Bejelentkezési URL-címet, vagyis az alkalmazás alap URL-címét, amelyen a felhasználók bejelentkezhetnek (például: `http://localhost:13526`).
-   * Natív alkalmazások esetén adja meg az **Átirányítási URI-t**, amelyet az Azure AD a jogkivonatválaszok visszaadására használ. Adja meg az alkalmazáshoz tartozó értéket, például: `http://myapplication/Redirect`
+   * Natív alkalmazások esetén adja meg az **Átirányítási URI-t**, amelyet az Azure AD a jogkivonatválaszok visszaadására használ. Ügyeljen rá, hogy megadja az alkalmazáshoz tartozó értéket, például: `http://myapplication/Redirect`.
 
 További információt az alkalmazások Azure Active Directoryban történő regisztrálásáról az [alkalmazások Azure Active Directoryval való integrálását](https://docs.microsoft.com/azure/active-directory/develop/active-directory-integrating-applications) ismertető témakörben talál.
 
@@ -160,19 +160,25 @@ Vagy a *fő* fiókkal (beágyazás), vagy a globális rendszergazdafiókkal kell
     
      Az *Engedélyek megadása* műveletre azért van szükség, hogy a fő fióknál ne kelljen Azure AD-hozzájárulást kérni, hiszen az nem interaktív bejelentkezés esetén lehetetlen volna.
    
-     ```
+     ```json
      Post https://graph.microsoft.com/beta/OAuth2PermissionGrants
      Authorization: Bearer ey..qw
      Content-Type: application/json
      { 
      "clientId":"{Service_Plan_ID}",
      "consentType":"AllPrincipals",
-     "resourceId":"c78b2585-1df6-41de-95f7-dc5aeb7dc98e",
+     "resourceId":"c78a3685-1ce7-52cd-95f7-dc5aea8ec98e",
      "scope":"Dataset.ReadWrite.All Dashboard.Read.All Report.Read.All Group.Read Group.Read.All Content.Create Metadata.View_Any Dataset.Read.All Data.Alter_Any",
      "expiryTime":"2018-03-29T14:35:32.4943409+03:00",
      "startTime":"2017-03-29T14:35:32.4933413+03:00"
      }
      ```
+    A *c78a3685-1ce7-52cd-95f7-dc5aea8ec98e* **resourceId** nem univerzális, hanem a bérlőtől függ. Ez az érték az AAD-bérlőben található „Power BI szolgáltatás” alkalmazás objectId azonosítója.
+
+    A felhasználó ezt az értéket gyorsan beszerezheti az Azure Portalon:
+    1. https://portal.azure.com/#blade/Microsoft_AAD_IAM/StartboardApplicationsMenuBlade/AllApps
+    2. A keresőmezőbe írja be a „Power BI szolgáltatás” kifejezést
+
 5. Alkalmazásengedélyek megadása az Microsoft Azure Active Directorynak (AAD-nek)
    
    A **consentType** értéke megadhatja az **AllPrincipals** vagy a **Principal** értéket.
@@ -182,7 +188,7 @@ Vagy a *fő* fiókkal (beágyazás), vagy a globális rendszergazdafiókkal kell
     
    Az *Engedélyek megadása* műveletre azért van szükség, hogy a fő fióknál ne kelljen Azure AD-hozzájárulást kérni, hiszen az nem interaktív bejelentkezés esetén lehetetlen volna.
 
-   ```
+   ```json
    Post https://graph.microsoft.com/beta/OAuth2PermissionGrants
    Authorization: Bearer ey..qw
    Content-Type: application/json

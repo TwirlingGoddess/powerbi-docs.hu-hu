@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.component: powerbi-developer
 ms.custom: mvc
 manager: kfile
-ms.openlocfilehash: a8833cb6b41ea76d50814975ada6239690a0c196
-ms.sourcegitcommit: 001ea0ef95fdd4382602bfdae74c686de7dc3bd8
+ms.openlocfilehash: 781e34eadfccb89954c0a8548589e1bf89830079
+ms.sourcegitcommit: fecea174721d0eb4e1927c1116d2604a822e4090
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 07/11/2018
-ms.locfileid: "38877418"
+ms.lasthandoff: 07/31/2018
+ms.locfileid: "39359754"
 ---
 # <a name="tutorial-embed-a-power-bi-report-dashboard-or-tile-into-an-application-for-your-customers"></a>Oktatóanyag: Power BI-jelentés, -irányítópult vagy -csempe beágyazása egy alkalmazásba a saját ügyfelek részére
 Az **Azure-beli Power BI Embedded** segítségével jelentéseket, irányítópultokat és csempéket ágyazhat be az alkalmazásokba **az alkalmazás tulajdonában lévő adatokkal**. **Az alkalmazás tulajdonában lévő adatok** esetében egy alkalmazás a Power BI-t használja beágyazott elemzőplatformként. Ez rendszerint egy **ISV-fejlesztői** forgatókönyvben fordul elő. **ISV-fejlesztőkét** létrehozhat olyan Power BI-tartalmakat, amelyek jelentéseket, irányítópultokat vagy csempéket jelenítenek meg egy teljes mértékben integrált és interaktív alkalmazásban anélkül, hogy a felhasználóknak Power BI-licenccel kelljen rendelkezniük, vagy egyáltalán tudomásuk legyen róla, hogy a háttérben a Power BI működik. Ez az oktatóanyag bemutatja, hogyan integrálhat egy jelentést az ügyfelei által használt alkalmazásokba a **Power BI** .NET SDK és a **Power BI** JavaScript API segítségével, az **adatok az alkalmazáshoz tartoznak** elven, az **Azure-beli Power BI Embedded** használatával.
@@ -323,13 +323,28 @@ A JavaScript API teljes körű mintáját a [Playground eszköz](https://microso
 Most, hogy elkészült az alkalmazás fejlesztésével, ideje dedikált kapacitással ellátni az alkalmazás munkaterületét. Az éles üzemre való átálláshoz ez kötelező lépés.
 
 ### <a name="create-a-dedicated-capacity"></a>Dedikált kapacitás létrehozása
-Dedikált kapacitás létrehozásával dedikált erőforrást rendelhet egy ügyfélhez. Azok a munkaterületek, melyek nincsenek dedikált kapacitáshoz rendelve, egy megosztott kapacitásban szerepelnek. Dedikált kapacitást az Azure [Power BI Embedded dedikált kapacitás](https://docs.microsoft.com/azure/power-bi-embedded/create-capacity) megoldásával hozhat létre.
+Dedikált kapacitás létrehozásával dedikált erőforrást rendelhet egy ügyfélhez. Dedikált kapacitást a [Microsoft Azure Portalon](https://portal.azure.com) vásárolhat. A Power BI Embedded-kapacitások létrehozásával kapcsolatos részletekért tekintse meg a [Power BI Embedded-kapacitás az Azure Portalon való létrehozásával](https://docs.microsoft.com/azure/power-bi-embedded/create-capacity) kapcsolatos cikket.
+
+Az alábbi táblázatból megtudhatja, milyen kapacitású Power BI Embedded-kapacitás felel meg a leginkább az igényeinek.
+
+| Kapacitáscsomópont | Magok száma összesen<br/>*(Háttérrendszer + előtérrendszer)* | Háttérrendszerbeli magok | Előtérrendszerbeli magok | DirectQuery-/élő kapcsolat korlátai | Maximális oldalmegjelenítések óránként csúcsidőszakban |
+| --- | --- | --- | --- | --- | --- |
+| A1 |1 virtuális mag |0,5 mag, 3 GB RAM |0,5 mag | Másodpercenként 5 |1-300 |
+| A2 |2 virtuális mag |1 mag, 5 GB RAM |1 mag | Másodpercenként 10 |301-600 |
+| A3 |4 virtuális mag |2 mag, 10 GB RAM |2 mag | Másodpercenként 15 |601-1200 |
+| A4 |8 virtuális mag |4 mag, 25 GB RAM |4 mag |Másodpercenként 30 |1,201-2,400 |
+| A5 |16 virtuális mag |8 mag, 50 GB RAM |8 mag |Másodpercenként 60 |2,401-4,800 |
+| A6 |32 virtuális mag |16 mag, 100 GB RAM |16 mag |Másodpercenként 120 |4801-9600 |
+
+**_A termékváltozatokkal nem férhet hozzá a Power BI-tartalmakhoz INGYENES Power BI-licenccel._**
 
 A PRO licenccel a beágyazási tokenek elsődlegesen fejlesztési tesztelésre használhatók, a Power BI fő fiókja csak korlátozott mennyiségű tokent tud előállítani. Éles környezetben használt beágyazásokhoz dedikált kapacitást kell vásárolnia. Dedikált kapacitásokkal nincs korlátja a beágyazási tokenek előállításának. Az [Elérhető szolgáltatások](https://docs.microsoft.com/rest/api/power-bi/availablefeatures/getavailablefeatures) oldalon ellenőrizheti a használati értéket, amely százalékosan jelzi az aktuális beágyazott használatot. A használati mennyiséget fő fiókonként számoljuk.
 
+További részletekért tekintse meg az [Embedded elemzési kapacitásának tervezésével kapcsolatos tanulmányt](https://aka.ms/pbiewhitepaper).
+
 ### <a name="assign-an-app-workspace-to-a-dedicated-capacity"></a>Alkalmazás-munkaterület hozzárendelése dedikált kapacitáshoz
 
-A dedikált kapacitás létrehozása után rendelje hozzá az alkalmazás-munkaterületet. Ehhez kövesse az alábbi lépéseket.
+A dedikált kapacitás létrehozása után hozzárendelheti az alkalmazás-munkaterületet ehhez a kapacitáshoz. Ehhez kövesse az alábbi lépéseket.
 
 1. A **Power BI szolgáltatásban** bontsa ki a munkaterületeket, és kattintson a három pont elemre azon munkaterület mellett, amelyiket tartalombeágyazáshoz használ. Válassza a **Munkaterületek szerkesztése** lehetőséget.
 
@@ -339,6 +354,14 @@ A dedikált kapacitás létrehozása után rendelje hozzá az alkalmazás-munkat
 
     ![Dedikált kapacitás hozzárendelése](media/embed-sample-for-customers/embed-sample-for-customers-024.png)
 
-A Power BI Embedded használatáról a [Gyakori kérdések](embedded-faq.md) oldalon tájékozódhat.  Ha az alkalmazáson belül hibát észlel a Power BI Embedded használata során, látogassa meg a [hibaelhárítás](embedded-troubleshoot.md) oldalt.
+3. A **Mentés** kiválasztása után meg kell jelennie egy **gyémántnak** az alkalmazás-munkaterület neve mellett.
+
+    ![egy kapacitáshoz hozzárendelt alkalmazás-munkaterület](media/embed-sample-for-customers/embed-sample-for-customers-037.png)
+
+## <a name="next-steps"></a>Következő lépések
+Ebben az oktatóanyagban bemutattuk, hogyan lehet Power BI-tartalmat beágyazni az ügyfelek alkalmazásaiba. Megpróbálkozhat Power BI-tartalom beágyazásával a szervezete számára is.
+
+> [!div class="nextstepaction"]
+>[Beágyazás a cég számára](embed-sample-for-your-organization.md)
 
 További kérdései vannak? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)
