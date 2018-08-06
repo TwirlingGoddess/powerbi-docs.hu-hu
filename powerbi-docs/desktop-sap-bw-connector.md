@@ -7,20 +7,20 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/06/2018
+ms.date: 07/26/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 11be5cd6f5b97fe612bf42a37228518ab2fbb227
-ms.sourcegitcommit: d1a0da8638c5d957b884ca9412275ee8880d4b14
+ms.openlocfilehash: 5db9b801fad3145cc864799062fe886c99da53aa
+ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 07/07/2018
-ms.locfileid: "37900054"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39280202"
 ---
 # <a name="use-the-sap-bw-connector-in-power-bi-desktop"></a>Az SAP BW Connector használata a Power BI Desktopban
 A Power BI Desktopban hozzáférhet az **SAP Business Warehouse (BW)** adataihoz.
 
-Ha szeretné megismerni, milyen előnyökkel jár, ha az ügyfelek a Power BI-t a meglévő SAP Business Warehouse (BW) rendszerükhöz csatlakoztatják, olvassa el a [Power BI-t és az SAP BW-t bemutató tanulmányt](https://aka.ms/powerbiandsapbw).
+Ha szeretné megismerni, milyen előnyökkel jár, ha az ügyfelek a Power BI-t a meglévő SAP Business Warehouse (BW) rendszerükhöz csatlakoztatják, olvassa el a [Power BI-t és az SAP BW-t bemutató tanulmányt](https://aka.ms/powerbiandsapbw). A DirectQuery az SAP BW-vel való használatáról további tudnivalókat a [DirectQuery és SAP Business Warehouse (BW)](desktop-directquery-sap-bw.md) szolgáltatást ismertető cikkben találhat.
 
 A **Power BI Desktop** 2018. júniusi kiadásától kezdődően az SAP BW-összekötő olyan új implementációját használhatja, amelyen jelentős teljesítménybeli és képességbeli fejlesztéseket végeztünk. Az SAP BW-összekötő felújított változatát a Microsoft fejlesztette, a neve **2.0-s Implementáció**. Ezentúl választhat az 1. verzió (v1) **SAP BW-összekötője** és az **SAP-összekötő 2.0-ás implementációja** között. A következő szakaszok az egyes verziók telepítését mutatják be egymás után. Amikor a Power BI Desktopból az SAP BW-hez kapcsolódik, kiválaszthatja, hogy a kettő közül melyik összekötőt kívánja használni.
 
@@ -38,9 +38,9 @@ Javasoljuk, hogy amikor csak lehetséges, az SAP-összekötő 2.0-s Implementác
 
 ## <a name="installation-of-implementation-20-sap-connector"></a>Az SAP-összekötő 2.0-s Implementációjának telepítése
 
-Az SAP-összekötő **2.0-s Implementációjához** szükség van az SAP .NET-összekötő 3.0-s verziójára. A következő hivatkozás használatával [letöltheti az SAP .NET-összekötő 3.0-s verzióját](https://go.microsoft.com/fwlink/?linkid=872300) az SAP weboldaláról:
+Az SAP-összekötő **2.0-s Implementációjához** szükség van az SAP .NET-összekötő 3.0-s verziójára. A következő hivatkozás használatával [letöltheti az SAP .NET-összekötő 3.0-s verzióját](https://support.sap.com/en/product/connectors/msnet.html) az SAP weboldaláról:
 
-* [SAP .NET-összekötő 3.0](https://go.microsoft.com/fwlink/?linkid=872300)
+* [SAP .NET-összekötő 3.0](https://support.sap.com/en/product/connectors/msnet.html)
 
 A letöltéshez való hozzáféréshez érvényes S-felhasználói fiókra van szükség. Javasoljuk, hogy az SAP .NET-összekötő 3.0-s verziójának beszerzéséhez ügyfeleink lépjenek kapcsolatba SAP Basis-csapatukkal. 
 
@@ -207,6 +207,7 @@ Ez a szakasz hibaelhárítási forgatókönyveket (és megoldásokat) mutat be a
 Az SAP-val és a DirectQueryvel kapcsolatos további információkért tekintse meg az alábbi forrásanyagokat:
 
 * [DirectQuery és SAP HANA](desktop-directquery-sap-hana.md)
+* [DirectQuery és SAP Business Warehouse (BW)](desktop-directquery-sap-bw.md)
 * [A DirectQuery használata a Power BI-ban](desktop-directquery-about.md)
 * [A DirectQuery által támogatott adatforrások](desktop-directquery-data-sources.md)
 * [Power BI és SAP BW - tanulmány](https://aka.ms/powerbiandsapbw)
