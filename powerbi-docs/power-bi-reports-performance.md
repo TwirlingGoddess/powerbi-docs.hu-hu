@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/18/2018
 ms.author: v-mamcge
 LocalizationGroup: Reports
-ms.openlocfilehash: 58ae70553264b8055603da66a4cfd71b5c74a3e9
-ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
+ms.openlocfilehash: b3bb1e6d7d7ce5b3fdc050f5df10af9f61acac92
+ms.sourcegitcommit: d936a23f895ee6ef1420753342f5e6c055ea5e07
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "37598877"
+ms.lasthandoff: 08/07/2018
+ms.locfileid: "39582571"
 ---
 # <a name="power-bi-performance-best-practices"></a>Ajánlott eljárások a Power BI teljesítményének javításához 
 A cikk azt mutatja be, hogyan hozhat létre gyors és megbízható jelentéseket a Power BI-ban.  
@@ -24,8 +24,8 @@ A cikk azt mutatja be, hogyan hozhat létre gyors és megbízható jelentéseket
 
 Minél több adatot jelenítenek meg a vizualizációk, annál lassabban töltődnek be. Még ha ez nyilvánvalónak is tűnik, könnyű megfeledkezni róla. Tegyük fel például, hogy egy nagyméretű adathalmazon dolgozik, és létrehoz egy olyan, erre épülő jelentést, amely tartalmaz egy táblát. A végfelhasználók szeletelőkkel szűrnek a kívánt sorokra a lapon – jellemzően csak néhány tucatnyi sor érdekli őket.
 
-Gyakori hiba ilyen esetben, hogy a tábla alapértelmezett nézete szűretlen – vagyis az összes sort tartalmazza, mely akár 100 milliónál is több lehet. Ezeknek a soroknak az adatait minden egyes frissítéskor be kell töltenie a rendszernek a memóriába, majd ki kell tömörítenie. Ez hatalmas memóriaterhelést eredményezhet. A megoldás az, hogy csökkenteni kell a táblában maximálisan megjeleníthető elemek számát a „Felső N” szűrővel. A maximális elemszám lehet a felhasználók által jellemzően igényelt sorszámnál jóval magasabb is, például 10 000. Ha így tesz, az a végfelhasználók használati élményét nem befolyásolja, de a jelentés memóriahasználatát több nagyságrenddel csökkenti, ami ennek megfelelően javítja a teljesítményt. 
- 
+Gyakori hiba ilyen esetben, hogy a tábla alapértelmezett nézete szűretlen – vagyis az összes sort tartalmazza, mely akár 100 milliónál is több lehet. Ezeknek a soroknak az adatait minden egyes frissítéskor be kell töltenie a rendszernek a memóriába, majd ki kell tömörítenie. Ez hatalmas memóriaterhelést eredményezhet. A megoldás az, hogy csökkenteni kell a táblában maximálisan megjeleníthető elemek számát a „Felső N” szűrővel. A maximális elemszám lehet a felhasználók által jellemzően igényelt sorszámnál jóval magasabb is, például 10 000. Ha így tesz, az a végfelhasználók használati élményét nem befolyásolja, de a jelentés memóriahasználatát több nagyságrenddel csökkenti, ami ennek megfelelően javítja a teljesítményt.
+
 A fentihez hasonló megközelítés a jelentésekben található összes vizualizációhoz erősen ajánlott. Mindig tegye fel a kérdést: Minden adatra szükség van ebből a vizualizációból? Le lehet szűkíteni a vizualizációban megjelenített adatmennyiséget úgy, hogy az csak minimálisan befolyásolja a végfelhasználói élményt? Fontos megjegyezni, hogy a táblák különösképpen teljesítményigényesek lehetnek. 
  
 ## <a name="limit-visuals-on-report-pages"></a>A jelentéslapokon megjelenő vizualizációk számának korlátozása 
