@@ -10,12 +10,12 @@ ms.topic: reference
 ms.date: 05/21/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 14b5f3d4b571df8ae672ee9731ed97555c476abd
-ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
+ms.openlocfilehash: 7c970cd28a50dc15a7b721107b17ceade24c3bb2
+ms.sourcegitcommit: 146b505b42f0d95d3ee73762441a43b6f3b3a891
 ms.translationtype: HT
 ms.contentlocale: hu-HU
 ms.lasthandoff: 08/02/2018
-ms.locfileid: "34456030"
+ms.locfileid: "39475752"
 ---
 # <a name="data-types-in-power-bi-desktop"></a>Adattípusok a Power BI Desktopban
 A cikk a Power BI Desktop és a Data Analysis Expressions (DAX) által támogatott adattípusokat ismerteti. 
@@ -45,6 +45,11 @@ A Power BI Desktop három számtípust támogat:
 **Fixpontos tizedes tört** – A tizedeselválasztó rögzített helyen található. A tizedeselválasztótól jobbra minden esetben négy számjegy található, és a szám legfeljebb 19 helyiértéket tartalmazhat.  A legnagyobb érték 922 337 203 685 477,5807 lehet (pozitív vagy negatív).  A Fixpontos tizedes tört típus olyan esetekben hasznos, amikor a kerekítés hibákhoz vezethet.  Ha sok olyan számmal dolgozik, amelyeknek kicsi a tört része, ezek összeadódhatnak, és az eredmény hibás lehet.  Mivel a tizedesjeltől több mint négy pozícióval jobbra található értékek le vannak vágva, a Fixpontos tizedes tört segít elkerülni ezeket a hibákat.   Amennyiben jártas az SQL Server használatában, ez az adattípus megegyezik az SQL Server Tizedes tört (19,4) típusával vagy a Power Pivot Pénznemadat típusával. 
 
 **Egész szám** – Egy 64 bites (nyolc bájtos), egész számot jelöl. Mivel egész számról van szó, nincsenek számjegyek a tizedeselválasztótól jobbra. Legfeljebb 19 számjegyet tartalmazhat, és pozitív vagy negatív egész számokat jelölhet -9 223 372 036 854 775 808 (-2^63) és 9 223 372 036 854 775 807 (2^63-1) között.  A különféle szám adattípusok közül ez a típus jelölheti a lehető legnagyobb értékű számot.  Ahogy a Fixpontos tizedes tört szám típus, az Egész szám típus is hasznos lehet olyan esetekben, ahol felügyelet alatt szeretné tartani a kerekítést. 
+
+> [!NOTE]
+>  A Power BI Desktop-adatmodell 64 bites egész számokat támogat, de a vizualizációk által biztonságosan kifejezhető legnagyobb szám 9 007 199 254 740 991 (2^53-1) a JavaScript-korlátozások miatt. Ha az adatmodellben ennél nagyobb számokkal dolgozik, akkor számításokkal csökkentheti azokat, mielőtt hozzáadná egy vizualizációhoz 
+> 
+>
 
 ### <a name="datetime-types"></a>Dátum/idő típusok
 A Power BI Desktop öt Dátum/idő adattípust támogat a Lekérdezésnézetben, és hármat a Jelentésnézetben és a modellben.   A modellbe való betöltéskor a Dátum/idő/időzóna és az Időtartam típus konvertálva lesz.

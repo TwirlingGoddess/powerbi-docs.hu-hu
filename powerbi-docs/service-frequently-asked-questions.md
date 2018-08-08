@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-sktopms.date: 06/28/2018
+sktopms.date: 08/06/2018
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 08772389df36e72e4f8c83239ba396773070f61a
-ms.sourcegitcommit: ba447d7cc94418d7d3cf6fdcb686ec1a859258a8
+ms.openlocfilehash: 5f117bdeb4e37986884c6a1021db1f361bdcddd3
+ms.sourcegitcommit: d936a23f895ee6ef1420753342f5e6c055ea5e07
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 07/02/2018
-ms.locfileid: "37145387"
+ms.lasthandoff: 08/07/2018
+ms.locfileid: "39582671"
 ---
 # <a name="frequently-asked-questions-about-power-bi"></a>Gyakori kérdések – Power BI
 * Ha bármilyen egyéb kérdése van, [kérdezze a Power BI-közösséget](http://community.powerbi.com/).
@@ -47,8 +47,8 @@ Csak egy webböngészőre és egy munkahelyi e-mail-címre. A feliratkozáshoz .
 ## <a name="why-do-i-have-to-sign-up-with-my-work-email"></a>Miért a munkahelyi e-mail-címemmel kell regisztrálni?
 A Power BI nem támogatja a fogyasztói e-mail-szolgáltatók vagy távközlési szolgáltatók által biztosított e-mail-címeket. További információ: [A Power BI önkiszolgáló regisztrációs folyamata](service-self-service-signup-for-power-bi.md).
 
-## <a name="is-government-academic-and-non-profit-pricing-available-for-power-bi"></a>Létezik külön Power BI-díjszabás kormányzati, felsőoktatási és nonprofit intézményeknek?
-Igen. Létezik nonprofit díjszabás, ha a szolgáltatást közvetlenül a Microsofttól vásárolja meg. További információ és a regisztráció a [Microsoft termékadományokkal foglalkozó webhelyén](https://www.microsoft.com/about/philanthropies/product-donations/products/powerbi/) található. A kormányzati és a felsőoktatási intézményeknek szóló díjszabás a Microsoft Online Előfizetési Program, a közvetlen licencelés, a nagyvállalati szerződések vagy az Open-licencprogram keretében érhető el. A kormányzati szerveknek szóló díjszabás szindikálás formájában is rendelkezésre áll. 
+## <a name="is-government-academic-and-nonprofit-pricing-available-for-power-bi"></a>Létezik külön Power BI-díjszabás kormányzati, felsőoktatási és nonprofit intézményeknek?
+Igen. Létezik nonprofit díjszabás, ha a szolgáltatást közvetlenül a Microsofttól vásárolja meg. További információ és a regisztráció a [Microsoft Nonprofit](https://www.microsoft.com/en-us/nonprofits/power-bi) webhelyen található. A kormányzati és a felsőoktatási intézményeknek szóló díjszabás a Microsoft Online Előfizetési Program, a közvetlen licencelés, a nagyvállalati szerződések vagy az Open-licencprogram keretében érhető el. A kormányzati szerveknek szóló díjszabás szindikálás formájában is rendelkezésre áll. 
 
 ## <a name="is-power-bi-available-on-premises"></a>Elérhető a Power BI helyszíni szolgáltatásként?
 A Power BI [https://powerbi.com](https://powerbi.com) jelenleg nem érhető el privát, belső felhőszolgáltatásként. Azonban létezik három egyéb lehetőség az adatok helyszíni megtekintésére és használatára. 
