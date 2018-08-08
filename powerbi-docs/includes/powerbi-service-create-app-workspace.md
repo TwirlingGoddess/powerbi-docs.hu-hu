@@ -1,4 +1,4 @@
-1. Kezdjük a munkaterület létrehozásával. Válassza a **Munkaterületek** > **Alkalmazás munkaterületének létrehozása** lehetőséget.
+1. Kezdjük a munkaterület létrehozásával. Válassza a **Munkaterületek** > **Alkalmazás munkaterületének létrehozása** lehetőséget. 
    
      ![Alkalmazás munkaterületének létrehozása](media/powerbi-service-create-app-workspace/power-bi-create-app-workspace.png)
    

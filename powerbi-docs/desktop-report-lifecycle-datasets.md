@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/02/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: b1bfe0e35015cd32024b381a1859330cd8f1862a
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 4c4fbb5ea019ca439ecf063c91a69348ef33bbc2
+ms.sourcegitcommit: 2356dc8e5488438a43ba7f0ba9a55a2372669b47
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34721110"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "39623999"
 ---
 # <a name="connect-to-datasets-in-the-power-bi-service-from-power-bi-desktop"></a>Kapcsolódás a Power BI szolgáltatásban lévő adatkészletekhez a Power BI Desktopból
 Létrehozhat élő kapcsolatot a Power BI szolgáltatás egy megosztott adatkészletével, és számos különböző jelentést hozhat létre ugyanabból az adatkészletből. Ez azt jelenti, hogy létrehozhatja a tökéletes adatmodellt a Power BI Desktopban, közzéteheti azt a Power BI szolgáltatásban, majd mások létrehozhatnak több különböző jelentést (külön .pbix fájlokban) a közös adatmodellből. Ennek a szolgáltatásnak **Élő kapcsolat Power BI szolgáltatással** a neve.
@@ -37,7 +37,7 @@ Mindenki rajong a jelentésért és az adatkészletért, és itt kezdődik a gon
 ### <a name="connect-to-a-power-bi-service-dataset-using-a-live-connection"></a>Csatlakozás a Power BI szolgáltatás adatkészletéhez élő kapcsolattal
 Amint Anna létrehozza a jelentést (és az adatkészletet, amelyen az alapul), és közzéteszi a **Power BI szolgáltatásban**, megjelenik a csapata munkaterületén a Power BI szolgáltatásban. Most már a munkaterületen mindenki látja és használhatja is.
 
-További információ a munkaterületekről: [Alkalmazás-munkaterületek](service-create-distribute-apps.md#app-workspaces).
+További információ a munkaterületekről: [Alkalmazás-munkaterületek](service-create-workspaces.md).
 
 A munkaterület más tagjai ekkor létrehozhatnak egy élő kapcsolatot Anna megosztott adatmodelljével (az **Élő kapcsolat Power BI-szolgáltatással** szolgáltatás révén), és létrehozhatják az *ő eredeti adatkészlete* alapján a saját egyedi jelentéseiket.
 

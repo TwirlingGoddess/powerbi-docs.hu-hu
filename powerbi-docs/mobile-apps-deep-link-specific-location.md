@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: maggies
-ms.openlocfilehash: fb05b6fd2378c8fe2b6dec35250df31d227b7760
-ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
+ms.openlocfilehash: 3ea99d26418a583a6ca588879aeafcd114aeaa6e
+ms.sourcegitcommit: 16098be04df05bc8e3d44a99b4d143b622759c59
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37135444"
+ms.lasthandoff: 08/07/2018
+ms.locfileid: "39616005"
 ---
 # <a name="create-a-link-to-a-specific-location-in-the-power-bi-mobile-apps"></a>A Power BI-mobilalkalmazásokon belül egy meghatározott helyre mutató hivatkozás létrehozása
 URI létrehozásával és használatával a Power BI-mobilalkalmazásokon belüli meghatározott helyre mutató hivatkozást hozhat létre (*mélyhivaktozás*) az összes mobilplatformon: iOS, Android-eszközök és Windows 10.
@@ -36,7 +36,7 @@ Ezzel az URI-vel megnyithat a Power BI-mobilalkalmazásban egy meghatározott ir
 
 A 36 karakterből álló irányítópultobjektum-azonosító megkereséséhez lépjen a Power BI szolgáltatásban az adott irányítópultra (https://powerbi.com)). Nézze meg például ennek az URL-nek a kiemelt szakaszát:
 
-https://powerbi.com/groups/me/dashboards/**61b7e871-cb98-48ed-bddc-6572c921e270**
+`https://powerbi.com/groups/me/dashboards/**61b7e871-cb98-48ed-bddc-6572c921e270**`
 
 Ha az irányítópult a Saját munkaterület csoporton kívül egy másik csoportban található, adja hozzá a következőt az irányítópult azonosítója előtt vagy után: `&GroupObjectId=<36-character-group-id>`. Például: 
 
@@ -51,7 +51,7 @@ Ez az URI egy meghatározott csempét nyit meg fókuszált módban a Power BI-mo
 
 Az irányítópult és a csempe 36 karakterből álló objektumazonosítójának megkereséséhez lépjen az adott irányítópultra a Power BI szolgáltatásban (https://powerbi.com)), és nyissa meg a csempét fókuszált módban. Nézze meg például ennek az URL-nek a kiemelt szakaszait:
 
-https://powerbi.com/groups/me/dashboards/**3784f99f-b460-4d5e-b86c-b6d8f7ec54b7**/tiles/**565f9740-5131-4648-87f2-f79c4cf9c5f5**/infocus
+`https://powerbi.com/groups/me/dashboards/**3784f99f-b460-4d5e-b86c-b6d8f7ec54b7**/tiles/**565f9740-5131-4648-87f2-f79c4cf9c5f5**/infocus`
 
 Ehhez a csempéhez az URI a következő lesz:
 
