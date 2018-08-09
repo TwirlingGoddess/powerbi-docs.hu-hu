@@ -682,6 +682,8 @@
           items:
             - name: Vizuális elemek jelentésekhez
               href: desktop-visual-elements-for-reports.md
+            - name: Exportálás PDF-be és a jelentések nyomtatása
+              href: desktop-export-to-pdf.md
             - name: Q&A a Power BI Desktopban
               href: desktop-qna-in-reports.md
             - name: Az Elemzés panel a Power BI Desktopban
@@ -1242,6 +1244,8 @@
           href: service-gateway-onprem-indepth.md
         - name: Helyszíni adatátjáró (személyes mód)
           href: service-gateway-personal-mode.md
+        - name: Egyéni összekötők
+          href: service-gateway-custom-connectors.md
         - name: A helyszíni adatátjáróval kapcsolatos hibák elhárítása
           href: service-gateway-onprem-tshoot.md
 - name: Felügyelet
