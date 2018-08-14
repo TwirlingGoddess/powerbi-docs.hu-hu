@@ -3,33 +3,30 @@ title: Szervezeti tartalomcsomag létrehozása és közzététele – Power BI
 description: Ebben az oktatóanyagban egy szervezeti tartalomcsomagot hoz létre, korlátozza az elérését egy adott csoportra, és közzéteszi a cég tartalomcsomagtárában a Power BI-ban.
 author: maggiesMSFT
 manager: kfile
-ms.reviewer: ajayan
+ms.reviewer: lukaszp
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 06/08/2018
+ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: b95ff0d9102377b6aeb59488a565f7bcb9a65566
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: 46cd5e2730d1b0e90fe37a93bbd4340ffb708348
+ms.sourcegitcommit: 2356dc8e5488438a43ba7f0ba9a55a2372669b47
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37598601"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "39624252"
 ---
 # <a name="create-and-publish-a-power-bi-organizational-content-pack-tutorial"></a>Power BI szervezeti tartalomcsomag létrehozása és közzététele (oktatóanyag)
-> [!NOTE]
-> Hallott már az új *alkalmazásokról*? Az alkalmazásokkal új módon oszthatja meg a nagyközönséggel a tartalmakat a Power BI-ban. Terveink szerint a vállalati tartalomcsomagokat hamarosan elavulttá tesszük, ezért javasoljuk, hogy inkább alkalmazásokat használjon. [További információk az alkalmazásokról](service-install-use-apps.md).
-> 
-> 
 
 Ebben az oktatóanyagban egy szervezeti tartalomcsomagot hoz létre, hozzáférést ad hozzá egy adott csoport számára, és közzéteszi a cég tartalomcsomagtárában a Power BI-ban.
 
 A tartalomcsomagok létrehozása nem azonos az irányítópultok megosztásával vagy az azokon való közös munkával. Olvassa el [Az irányítópultokon és jelentéseken végzett közös munka, illetve azok megosztása](service-how-to-collaborate-distribute-dashboards-reports.md) szakaszt, hogy eldönthesse, melyik lehetőség felel meg legjobban a helyzetének.
 
+A szervezeti tartalomcsomagok létrehozásához Önnek és kollégáinak [Power BI Pro-fiókkal](https://powerbi.microsoft.com/pricing) kell rendelkezniük. 
+
 > [!NOTE]
-> A szervezeti tartalomcsomagok létrehozásához Önnek és kollégáinak [Power BI Pro-fiókkal](https://powerbi.microsoft.com/pricing) kell rendelkezniük.
-> 
+> Nem lehet létrehozni vagy telepíteni céges tartalomcsomagokat az új munkaterületi felhasználói felület előzetes verziójában. Ha még nem kezdte el, ideje frissítenie az alkalmazásokhoz tartozó tartalomcsomagokat. További információ az [új munkaterületi felhasználói felületről](service-create-the-new-workspaces.md).
 > 
 
 Képzelje el, hogy Ön a Contoso kiadáskezelője, és épp egy új termék kiadásának előkészületeit végzi.  Létrehozott egy irányítópultot, amelyet meg szeretne osztani a kiadást kezelő munkatársaival. Szeretné összecsomagolni az irányítópultot és a jelentéseket egyetlen megoldásba, amelyet aztán a munkatársai használhatnak. 

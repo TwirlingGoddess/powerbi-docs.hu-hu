@@ -9,15 +9,15 @@ ms.service: powerbi
 ms.component: powerbi-developer
 ms.custom: mvc
 manager: kfile
-ms.openlocfilehash: 781e34eadfccb89954c0a8548589e1bf89830079
-ms.sourcegitcommit: fecea174721d0eb4e1927c1116d2604a822e4090
+ms.openlocfilehash: 1185b6195f0d802cec71143c1f27ce5cead584c6
+ms.sourcegitcommit: 16098be04df05bc8e3d44a99b4d143b622759c59
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 07/31/2018
-ms.locfileid: "39359754"
+ms.lasthandoff: 08/07/2018
+ms.locfileid: "39616051"
 ---
 # <a name="tutorial-embed-a-power-bi-report-dashboard-or-tile-into-an-application-for-your-customers"></a>Oktatóanyag: Power BI-jelentés, -irányítópult vagy -csempe beágyazása egy alkalmazásba a saját ügyfelek részére
-Az **Azure-beli Power BI Embedded** segítségével jelentéseket, irányítópultokat és csempéket ágyazhat be az alkalmazásokba **az alkalmazás tulajdonában lévő adatokkal**. **Az alkalmazás tulajdonában lévő adatok** esetében egy alkalmazás a Power BI-t használja beágyazott elemzőplatformként. Ez rendszerint egy **ISV-fejlesztői** forgatókönyvben fordul elő. **ISV-fejlesztőkét** létrehozhat olyan Power BI-tartalmakat, amelyek jelentéseket, irányítópultokat vagy csempéket jelenítenek meg egy teljes mértékben integrált és interaktív alkalmazásban anélkül, hogy a felhasználóknak Power BI-licenccel kelljen rendelkezniük, vagy egyáltalán tudomásuk legyen róla, hogy a háttérben a Power BI működik. Ez az oktatóanyag bemutatja, hogyan integrálhat egy jelentést az ügyfelei által használt alkalmazásokba a **Power BI** .NET SDK és a **Power BI** JavaScript API segítségével, az **adatok az alkalmazáshoz tartoznak** elven, az **Azure-beli Power BI Embedded** használatával.
+Az **Azure-beli Power BI Embedded** segítségével jelentéseket, irányítópultokat és csempéket ágyazhat be az alkalmazásokba **az alkalmazás tulajdonában lévő adatokkal**. **Az alkalmazás tulajdonában lévő adatok** esetében egy alkalmazás a Power BI-t használja beágyazott elemzőplatformként. Az **alkalmazás tulajdonában lévő adatok** használata rendszerint egy **ISV-fejlesztői** forgatókönyvben fordul elő. **ISV-fejlesztőként** létrehozhat olyan **Power BI**-tartalmakat, amelyek jelentéseket, irányítópultokat vagy csempéket jelenítenek meg egy teljes mértékben integrált és interaktív alkalmazásban anélkül, hogy a felhasználóknak Power BI-licenccel kelljen rendelkezniük. Ez az oktatóanyag bemutatja, hogyan integrálhat egy jelentést az ügyfelei által használt alkalmazásokba a **Power BI** .NET SDK és a **Power BI** JavaScript API segítségével, az **adatok az alkalmazáshoz tartoznak** elven, az **Azure-beli Power BI Embedded** használatával.
 
 Az oktatóanyag a következőket ismerteti:
 >[!div class="checklist"]
@@ -32,7 +32,7 @@ A kezdéshez szüksége van egy **Power BI Pro**-fiókra, amely a **fő fiókké
 * Állítson be egy saját [Azure Active Directory-bérlőt](create-an-azure-active-directory-tenant.md).
 * Telepítse a [Visual Studio](https://www.visualstudio.com/) 2013-as vagy későbbi verzióját.
 
-## <a name="setup-your-embedded-analytics-development-environment"></a>A beágyazott elemzési fejlesztési környezet beállítása
+## <a name="set-up-your-embedded-analytics-development-environment"></a>A beágyazott elemzési fejlesztési környezet beállítása
 
 Mielőtt jelentéseket, irányítópultokat és csempéket ágyazna be az alkalmazásba, győződjön meg arról, hogy a környezete be van állítva a beágyazás engedélyezéséhez. A beállítás részeként a következőket kell elvégeznie.
 
@@ -49,7 +49,7 @@ Az alkalmazás Azure Active Directoryban történő regisztrálása lehetővé t
  
     ![Az Azure Portal főoldala](media/embed-sample-for-customers/embed-sample-for-customers-002.png)
 
-3. A bal oldali navigációs ablakban válassza ki az **Összes szolgáltatás** lehetőséget, és kattintson az **Alkalmazásregisztráció**, majd az **Új alkalmazás regisztrálása** elemre.
+3. A bal oldali navigációs ablakban válassza az **Összes szolgáltatás** lehetőséget, és kattintson az **Alkalmazásregisztráció**, majd az **Új alkalmazás regisztrálása** elemre.
    
     ![Alkalmazásregisztráció keresése](media/embed-sample-for-customers/embed-sample-for-customers-003.png)</br>
     ![Új alkalmazás regisztrálása](media/embed-sample-for-customers/embed-sample-for-customers-004.png)
@@ -98,7 +98,7 @@ Az alkalmazás részére további engedélyeket is meg kell adnia az alkalmazás
    
     ![Engedélyek megadása a Szükséges engedélyek párbeszédpanelen](media/embed-sample-for-customers/embed-sample-for-customers-016.png)
 
-## <a name="setup-your-power-bi-environment"></a>A Power BI-környezet beállítása
+## <a name="set-up-your-power-bi-environment"></a>A Power BI-környezet beállítása
 
 ### <a name="create-an-app-workspace"></a>Alkalmazás munkaterületének létrehozása
 
@@ -269,7 +269,9 @@ var embedConfig = new EmbedConfig()
 Ez feltételezi, hogy létrejött egy osztály az **EmbedConfig** és a **TileEmbedConfig** elemekhez. Ezek mintái a **Models\EmbedConfig.cs** és a **Models\TileEmbedConfig.cs** fájlban érhetők el.
 
 ### <a name="load-an-item-using-javascript"></a>Elem betöltése a JavaScript használatával
-A JavaScript használatával egy jelentést tölthet be a div elembe a weblapon. 
+A JavaScript használatával egy jelentést tölthet be a div elembe a weblapon.
+
+A JavaScript API teljes körű mintáját a [Playground eszköz](https://microsoft.github.io/PowerBI-JavaScript/demo) segítségével használhatja. Ez az eszköz lehetőséget ad a Power BI Embedded különböző mintáinak gyors kipróbálására. A JavaScript API-ról a [PowerBI-JavaScript wiki](https://github.com/Microsoft/powerbi-javascript/wiki) oldalon talál további információkat.
 
 Íme egy minta, amely az **EmbedConfig** és a **TileEmbedConfig** modellt használja egy jelentés nézeteivel együtt.
 
@@ -316,14 +318,12 @@ A JavaScript használatával egy jelentést tölthet be a div elembe a weblapon.
 </script>
 ```
 
-A JavaScript API teljes körű mintáját a [Playground eszköz](https://microsoft.github.io/PowerBI-JavaScript/demo) segítségével használhatja. Ez az eszköz lehetőséget ad a Power BI Embedded különböző mintáinak gyors kipróbálására. A JavaScript API-ról a [PowerBI-JavaScript wiki](https://github.com/Microsoft/powerbi-javascript/wiki) oldalon talál további információkat.
-
 ## <a name="move-to-production"></a>Átállás éles üzemre
 
 Most, hogy elkészült az alkalmazás fejlesztésével, ideje dedikált kapacitással ellátni az alkalmazás munkaterületét. Az éles üzemre való átálláshoz ez kötelező lépés.
 
 ### <a name="create-a-dedicated-capacity"></a>Dedikált kapacitás létrehozása
-Dedikált kapacitás létrehozásával dedikált erőforrást rendelhet egy ügyfélhez. Dedikált kapacitást a [Microsoft Azure Portalon](https://portal.azure.com) vásárolhat. A Power BI Embedded-kapacitások létrehozásával kapcsolatos részletekért tekintse meg a [Power BI Embedded-kapacitás az Azure Portalon való létrehozásával](https://docs.microsoft.com/azure/power-bi-embedded/create-capacity) kapcsolatos cikket.
+Dedikált kapacitás létrehozásával dedikált erőforrást rendelhet egy ügyfélhez. Dedikált kapacitást a [Microsoft Azure Portalon](https://portal.azure.com) vásárolhat. A Power BI Embedded-kapacitások létrehozásával kapcsolatos részletekért tekintse meg a [Power BI Embedded-kapacitás az Azure Portalon való létrehozásával](azure-pbie-create-capacity.md) kapcsolatos cikket.
 
 Az alábbi táblázatból megtudhatja, milyen kapacitású Power BI Embedded-kapacitás felel meg a leginkább az igényeinek.
 
@@ -331,7 +331,7 @@ Az alábbi táblázatból megtudhatja, milyen kapacitású Power BI Embedded-kap
 | --- | --- | --- | --- | --- | --- |
 | A1 |1 virtuális mag |0,5 mag, 3 GB RAM |0,5 mag | Másodpercenként 5 |1-300 |
 | A2 |2 virtuális mag |1 mag, 5 GB RAM |1 mag | Másodpercenként 10 |301-600 |
-| A3 |4 virtuális mag |2 mag, 10 GB RAM |2 mag | Másodpercenként 15 |601-1200 |
+| A3 |42 virtuális mag |2 mag, 10 GB RAM |2 mag | Másodpercenként 15 |601-1200 |
 | A4 |8 virtuális mag |4 mag, 25 GB RAM |4 mag |Másodpercenként 30 |1,201-2,400 |
 | A5 |16 virtuális mag |8 mag, 50 GB RAM |8 mag |Másodpercenként 60 |2,401-4,800 |
 | A6 |32 virtuális mag |16 mag, 100 GB RAM |16 mag |Másodpercenként 120 |4801-9600 |

@@ -3,21 +3,26 @@ title: Szervezeti tartalomcsomaggal létesített kapcsolat bontása – Power BI
 description: Elolvashatja a Power BI szervezeti tartalomcsomaggal létesített kapcsolatának az adatkészlet törlésével való eltávolításának lépéseit.
 author: maggiesMSFT
 manager: kfile
-ms.reviewer: ajayan
+ms.reviewer: lukaszp
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/12/2017
+ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: c0e7bddd23987377bfd8cf05bdfd1ab997e621ed
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 2389ed542a43b28296faf2eed2b69b4e83d227f5
+ms.sourcegitcommit: 2356dc8e5488438a43ba7f0ba9a55a2372669b47
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34247642"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "39624160"
 ---
 # <a name="remove-your-connection-to-a-power-bi-organizational-content-pack"></a>Power BI szervezeti tartalomcsomaggal létesített kapcsolat eltávolítása
+
+> [!NOTE]
+> Nem lehet létrehozni vagy telepíteni céges tartalomcsomagokat az új munkaterületi felhasználói felület előzetes verziójában. Ha még nem kezdte el, ideje frissítenie az alkalmazásokhoz tartozó tartalomcsomagokat. További információ az [új munkaterületi felhasználói felületről](service-create-the-new-workspaces.md).
+> 
+
 Egy munkatársa létrehozott egy tartalomcsomagot. Ön megnyitotta az AppSource-ban, és hozzáadta a Power BI-munkaterületéhez. Mostanra pedig már nincs rá szüksége.  Hogyan tudja eltávolítani?
 
 A tartalomcsomagok eltávolításához el kell távolítania azok adatkészletét.  

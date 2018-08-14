@@ -3,29 +3,29 @@ title: Céges tartalomcsomagok megkeresése és csatlakozás hozzájuk – Power
 description: Céges tartalomcsomag megkeresése és megnyitása a Power BI-ban
 author: maggiesMSFT
 manager: kfile
-ms.reviewer: ajayan
+ms.reviewer: lukaszp
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 06/08/2018
+ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 5ea86ab577298b6099487228cdf4c8a87e4fe421
-ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
+ms.openlocfilehash: 67072d690f09e922601c6b14ad1c150e2298040b
+ms.sourcegitcommit: 2356dc8e5488438a43ba7f0ba9a55a2372669b47
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39280225"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "39624275"
 ---
 # <a name="find-and-connect-to-an-organizational-content-pack"></a>Céges tartalomcsomag megkeresése és csatlakozás hozzá
-> [!NOTE]
-> Hallott már az új *alkalmazásokról*? Az alkalmazásokkal új módon oszthatja meg a nagyközönséggel a tartalmakat a Power BI-ban. Terveink szerint a vállalati tartalomcsomagokat hamarosan elavulttá tesszük, ezért javasoljuk, hogy inkább alkalmazásokat használjon. [További információk az alkalmazásokról](service-install-use-apps.md).
-> 
-> 
 
 Ha valaki céges tartalomcsomagot tesz közzé a cég, a terjesztési vagy biztonsági csoportok, vagy olyan [Office 365-csoportok](https://support.office.com/article/Create-a-group-in-Office-365-7124dc4c-1de9-40d4-b096-e8add19209e9) számára, amelyeknek Ön is tagja, a tartalom megjelenik az AppSource-ban.  Az AppSource-ban böngészve vagy keresve megtalálhatja és megnyithatja a céges tartalomcsomagokat.
 
-A tartalomcsomagok létrehozása eltér az irányítópultok megosztásától vagy csoportban történő közös használatától. Az optimális megoldás kiválasztásához olvassa el az [Irányítópultok és jelentések közös használata és megosztása](service-how-to-collaborate-distribute-dashboards-reports.md) című cikket.
+A tartalomcsomagok létrehozása eltér az irányítópultok megosztásától vagy csoportban történő közös használatától. Olvassa el [Az irányítópultokon és jelentéseken végzett közös munka, illetve azok megosztása](service-how-to-collaborate-distribute-dashboards-reports.md) szakaszt, hogy eldönthesse, melyik lehetőség felel meg legjobban a helyzetének.
+
+> [!NOTE]
+> Nem lehet létrehozni vagy telepíteni céges tartalomcsomagokat az új munkaterületi felhasználói felület előzetes verziójában. Ha még nem kezdte el, ideje frissítenie az alkalmazásokhoz tartozó tartalomcsomagokat. További információ az [új munkaterületi felhasználói felületről](service-create-the-new-workspaces.md).
+> 
 
 ## <a name="find-an-organizational-content-pack"></a>Céges tartalomcsomag megkeresése és csatlakozás hozzá
 Minden [Power BI Pro](https://powerbi.microsoft.com/pricing)-felhasználó számára elérhető az AppSource, ahol megtekinthetik az olyan tartalomcsomagokat, amelyeket a teljes céggel, a terjesztési vagy biztonsági csoportokkal és azokkal az Office 365-csoportokkal osztottak meg, amelyeknek ők is tagjai.  

@@ -3,29 +3,30 @@ title: Alkalmazások telepítése és használata irányítópultokkal és jelen
 description: A Power BI-ban az alkalmazások egy helyen hozzák össze az összefüggő irányítópultokat és jelentéseket.
 author: maggiesMSFT
 manager: kfile
+ms.reviewer: lukaszp
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 01/24/2018
+ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: de566aa22a7c48a27682a9c577f84eb6015ac8b7
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 464906acd17248c5a752d7febc4ab7b907c7cc46
+ms.sourcegitcommit: 2356dc8e5488438a43ba7f0ba9a55a2372669b47
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34242735"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "39624368"
 ---
 # <a name="install-and-use-apps-with-dashboards-and-reports-in-power-bi"></a>Alkalmazások telepítése és használata irányítópultokkal és jelentésekkel a Power BI-ban
 A Power BI-ban az *alkalmazások* egy helyen hozzák össze az összefüggő irányítópultokat és jelentéseket. Cégének tagjai fontos üzleti információkkal dolgozó alkalmazásokat hozhatnak létre és terjeszthetnek. Az esetleg már eddig is használt [külső szolgáltatások](service-connect-to-services.md), mint a Google Analytics és a Microsoft Dynamics CRM, szintén kínálnak Power BI-alkalmazásokat. 
 
 ![Alkalmazások a Power BI-ban](media/service-install-use-apps/power-bi-apps-left-nav.png)
 
-Az alkalmazásokat a Power BI szolgáltatásban ([https://powerbi.com](https://powerbi.com)) és mobileszközén is könnyen megtalálhatja és telepítheti. Egy alkalmazás telepítése után nem kell emlékeznie a sok különböző irányítópult nevére, mert mind együtt vannak az alkalmazásban, a böngészőjében vagy a mobileszközén.
+Az alkalmazásokat a Power BI szolgáltatásban ([https://powerbi.com](https://powerbi.com)) és mobileszközén is könnyen megtalálhatja és telepítheti. Egy alkalmazás telepítése után nem kell emlékeznie a sok különböző irányítópult nevére, mert mind együtt vannak egy alkalmazásban, a böngészőjében vagy a mobileszközén.
 
 Valahányszor az alkalmazás szerzője frissítést bocsát ki, Ön automatikusan látja a változtatásokat. Az adatok frissítésének ütemezését is a szerző szabja meg, így azok naprakészségével sem Önnek kell törődnie. 
 
-Azt tervezi, hogy saját alkalmazást készít? További információt az [Alkalmazások létrehozása és közzététele a Power BI-ban](service-create-distribute-apps.md) című cikkben talál.
+Azt tervezi, hogy saját alkalmazást készít? További információ: [Munkaterületek létrehozása munkatársakkal a Power BI-ban](service-create-distribute-apps.md).
 
 ## <a name="get-a-new-app"></a>Új alkalmazás letöltése
 Alkalmazásokat sokféleképpen be lehet szerezni. Az alkalmazást a szerzője automatikusan telepítheti az Ön Power BI-fiókjában, elküldheti Önnek az alkalmazásra mutató közvetlen hivatkozást, vagy Ön is megkeresheti azt az AppSource-ban, ahol minden hozzáférhető alkalmazást megtalál. A mobileszközén a Power BI-ban csak közvetlen hivatkozásról telepíthet, az AppSource-ból nem. Ha a szerző automatikusan telepíti az alkalmazást, akkor az megjelenik az Ön alkalmazásainak listájában.
@@ -57,11 +58,11 @@ A Microsoft AppSource-szal bármilyen alkalmazást megtalálhat és telepíthet,
 3. A **Letöltés most** lehetőséget választva adhatja hozzá az Alkalmazások oldalához. 
 
 ## <a name="interact-with-the-dashboards-and-reports-in-the-app"></a>Irányítópultok és jelentések használata az alkalmazásban
-Most már dolgozhat az adatokkal az alkalmazás irányítópultjainak és jelentéseinek használatával. Minden szokásos Power BI-műveletet elér, mint amilyen a szűrés, a kijelölés, a rendezés és a részletezés. Tudnivalók [a jelentések használatáról a Power BI-ban](service-reading-view-and-editing-view.md). 
-
-A módosításait nem mentheti ki, de egy táblából vagy a jelentés más vizualizációjából mindig [exportálhatja az adatokat az Excelbe](power-bi-visualization-export-data.md).
+Most már dolgozhat az adatokkal az alkalmazás irányítópultjainak és jelentéseinek használatával. Minden szokásos Power BI-műveletet elér, mint amilyen a szűrés, a kijelölés, a rendezés és a részletezés. Egy táblából vagy a jelentés más vizualizációjából [exportálhatja az adatokat az Excelbe](power-bi-visualization-export-data.md). Tudnivalók [a jelentések használatáról a Power BI-ban](service-reading-view-and-editing-view.md). 
 
 ![Adatok exportálása Power BI-vizualizációból](media/service-install-use-apps/power-bi-service-export-data-visual.png)
+
+
 
 ## <a name="next-steps"></a>További lépések
 * [Alkalmazások létrehozása és közzététele a Power BI-ban](service-create-distribute-apps.md)

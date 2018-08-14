@@ -1,92 +1,47 @@
 ---
-title: Irányítópultokból és jelentésekből álló alkalmazások létrehozása és közzététele a Power BI-ban
-description: Tudja meg, hogyan hozhat létre és tehet közzé alkalmazásokat, azaz irányítópultokból és jelentésekből álló gyűjteményeket, amelyek célja az alapvető metrikák biztosítása a vállalat számára.
+title: Irányítópultokból és jelentésekből álló alkalmazások közzététele a Power BI-ban
+description: Tudja meg, hogyan tehet közzé alkalmazásokat, azaz irányítópultokból és jelentésekből álló gyűjteményeket, amelyek célja az alapvető metrikák biztosítása a vállalat számára.
 author: maggiesMSFT
 manager: kfile
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 06/20/2018
+ms.date: 08/06/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 25aa03c12b36bf19c05fe01dc6c24a0e4a3a2416
-ms.sourcegitcommit: 001ea0ef95fdd4382602bfdae74c686de7dc3bd8
+ms.openlocfilehash: 18189948e0873824feea781d2b6b6523bc968592
+ms.sourcegitcommit: 2356dc8e5488438a43ba7f0ba9a55a2372669b47
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 07/11/2018
-ms.locfileid: "38937183"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "39624137"
 ---
-# <a name="create-and-publish-apps-with-dashboards-and-reports-in-power-bi"></a>Irányítópultokból és jelentésekből álló alkalmazások létrehozása és közzététele a Power BI-ban
+# <a name="publish-apps-with-dashboards-and-reports-in-power-bi"></a>Irányítópultokból és jelentésekből álló alkalmazások közzététele a Power BI-ban
 
-A Power BI-ban létrehozhat az irányítópultokat és jelentéseket egy helyen összefűző *alkalmazásokat*, majd közzéteheti azokat a vállalatban nagy csoportok számára elérhetően. Csatlakozhat a [külső szolgáltatásokhoz készült Power BI alkalmazásokhoz](service-connect-to-services.md) is, például a Google Analytics és a Microsoft Dynamics CRM szolgáltatáshoz.
+A Power BI szolgáltatásban közzétehet kapcsolódó irányítópultok-l és jelentésgyűjteményekből álló *alkalmazásokat*. Az alkalmazásokat a *alkalmazás-munkaterületeken* hozza létre, ahol együttműködhet a Power BI-tartalmakon a munkatársaival. Ezután közzéteheti a kész alkalmazásokat a szervezet számos tagja számára. További információ az [alkalmazás-munkaterületek létrehozásáról](service-create-workspaces.md).
 
 ![Power BI alkalmazások](media/service-create-distribute-apps/power-bi-apps-left-nav.png)
 
-Üzleti felhasználóinak gyakran lehet szükségük több Power BI-irányítópultra vagy -jelentésre az üzletvitelükhöz. Az alkalmazásokban összefűzheti ezeket az elemeket, így nem kell észben tartaniuk az összes irányítópult nevét és helyét. A Power BI alkalmazásokkal irányítópult- és jelentésgyűjteményeket hozhat létre, majd közzéteheti az alkalmazásokat a teljes vállalat, vagy egy adott személy vagy csoport számára. A jelentés készítője vagy a rendszergazda számára az alkalmazásoknak köszönhetően egyszerűbbé válik az irányítópult-gyűjteményekre vonatkozó engedélyek kezelése.
+Üzleti felhasználóinak gyakran lehet szükségük több Power BI-irányítópultra vagy -jelentésre az üzletvitelükhöz. A Power BI alkalmazásokkal irányítópult- és jelentésgyűjteményeket hozhat létre, majd közzéteheti az alkalmazásokat a teljes vállalat, vagy egy adott személy vagy csoport számára. A jelentés készítője vagy a rendszergazda számára az alkalmazásoknak köszönhetően egyszerűbbé válik a gyűjteményekre vonatkozó engedélyek kezelése.
 
-Az üzleti felhasználók különböző módokon férhetnek hozzá az alkalmazásokhoz. Ha a Power BI rendszergazda engedélyezi, telepítheti őket egyenesen a munkatársai Power BI-fiókjába. Ha nem, telepíthetik az alkalmazást a Microsoft AppSource-ból, vagy küldhet nekik egy közvetlen hivatkozást. Könnyen megtalálhatják újra a tartalmat, mert egy helyen érhető el minden. A rendszer automatikusan frissíti az alkalmazásokat, és szabályozható, milyen gyakran frissüljenek az adatok. További információk az [üzleti felhasználóknak elérhető alkalmazásélményről](service-install-use-apps.md).
+Az üzleti felhasználók különböző módokon férhetnek hozzá az alkalmazásokhoz. Ha a Power BI-rendszergazda engedélyezi, egyenesen a munkatársai Power BI-fiókjába telepíthet alkalmazásokat. Ha nem, telepíthetik az alkalmazást a Microsoft AppSource-ból, vagy küldhet nekik egy közvetlen hivatkozást. Könnyen megtalálhatják újra a tartalmat, mert egy helyen érhető el minden. Nem módosíthatják az alkalmazás tartalmát, de használhatják a Power BI szolgáltatásban vagy valamelyik mobilalkalmazásban is – maguk is szűrhetik, kiemelhetik és rendezhetik az adatokat. A rendszer automatikusan frissíti az alkalmazásokat, és szabályozható, milyen gyakran frissüljenek az adatok. További információk az [üzleti felhasználóknak elérhető alkalmazásélményről](service-install-use-apps.md).
 
-### <a name="licenses-for-apps"></a>Licencek alkalmazásokhoz
-Alkalmazás létrehozójaként Power BI Pro licencre lesz szüksége. Az alkalmazás felhasználói esetében két lehetőség van az alkalmazás megtekintésére.
+**Tudta?** A Power BI előzetes verziójú, új munkaterületi felhasználói felületet kínál. Az [Új munkaterületek létrehozása (előzetes verzió)](service-create-the-new-workspaces.md) című cikkben további információt talál a munkaterületek jövőbeni változásairól. 
 
-* 1. lehetőség: Az alkalmazás felhasználója **Power BI Pro-licenccel** rendelkezik. 
-* 2. lehetőség: Az alkalmazás felhasználó még rendelkezik **Power BI Pro-licenccel**, az alkalmazás azonban egy Power BI Premium-kapacitásban található. Részletek: [Mi a Power BI Premium?](service-premium.md).
-
-### <a name="apps-and-organizational-content-packs"></a>Alkalmazások és vállalati tartalomcsomagok
-Az alkalmazások a vállalati tartalomcsomagokból fejlődtek ki. Ha már vannak vállalati tartalomcsomagjai, azok továbbra is működnek az alkalmazásokkal párhuzamosan.
-
-Most, hogy áttekintettük az alkalmazásokat, beszéljünk az *alkalmazás-munkaterületekről*, ahol létrehozhatja az alkalmazásokat. 
+## <a name="apps-and-organizational-content-packs"></a>Alkalmazások és vállalati tartalomcsomagok
+Az alkalmazások a vállalati tartalomcsomagokból fejlődtek ki. Az új, előzetes verziójú munkaterületeken nem érhetők el a tartalomcsomagok. Ezen munkaterületek általános elérhetővé válása után nem használhat tartalomcsomagokat az újonnan létrehozott munkaterületeken. Ha még nem tette meg, kezdje meg a tartalomcsomagok az alkalmazásokba való migrálását.
 
 ## <a name="video-apps-and-app-workspaces"></a>Videó: Alkalmazások és alkalmazás-munkaterületek
 <iframe width="640" height="360" src="https://www.youtube.com/embed/Ey5pyrr7Lk8?showinfo=0" frameborder="0" allowfullscreen></iframe>
 
-## <a name="app-workspaces"></a>Alkalmazás munkaterületei
-Az *alkalmazás-munkaterületek* azok a területek, ahol létrehozhatja az alkalmazásokat, így egy alkalmazás létrehozása előtt létre kell hozni az alkalmazás-munkaterületet. Ha használt már csoportos munkaterületet a Power BI-ban, az alkalmazás-munkaterületek is ismerősek lesznek. Ezek a csoportos munkaterületekből fejlődtek ki – az alkalmazás tartalmához használt átmeneti területekből és tárolókból állnak. 
+## <a name="licenses-for-apps"></a>Licencek alkalmazásokhoz
+Az alkalmazás-munkaterületek tagjainak Power BI Pro-licencre van szüksége. Az alkalmazás felhasználói esetében két lehetőség van.
 
-A kollégákat hozzáadhatja tagként vagy rendszergazdaként ezekhez a munkaterületekhez. Az alkalmazás-munkaterület összes tagjának és rendszergazdájának Power BI Pro licenccel kell rendelkeznie. A munkaterületen együttműködhetnek az irányítópultokon, jelentéseken és más tartalmakon, amelyeket a szélesebb közönség vagy akár a teljes vállalat elé szeretne tárni. 
-
-Ha a tartalom elkészült, kiválaszthatja a közzétenni kívánt irányítópultokat, majd az alkalmazást is közzéteheti. Küldhet közvetlen hivatkozást a szélesebb közönségnek, vagy a **További alkalmazások AppSource-ból való letöltése és felderítése** területre lépve megkereshetik az alkalmazást az Alkalmazások lapon. Ezek a személyek nem módosíthatják az alkalmazás tartalmát, de használhatják a Power BI szolgáltatásban vagy valamelyik mobilalkalmazásban is – maguk is szűrhetik, kiemelhetik és rendezhetik az adatokat. 
-
-## <a name="create-an-app-workspace"></a>Alkalmazás munkaterületének létrehozása
-[!INCLUDE [powerbi-service-create-app-workspace](./includes/powerbi-service-create-app-workspace.md)]
-
-Üres, tehát most tartalmat kell hozzáadnia. Vegye figyelembe, hogy az első létrehozáskor akár egy órát is kell várnia, hogy a rendszer propagálja a munkaterületet az Office 365 szolgáltatásba. 
-
-A tartalom hozzáadása úgy zajlik, mintha a Saját munkaterülethez adna hozzá tartalmat, azzal az eltéréssel, hogy mások is látják a munkaterületet, és használhatják is. A nagy különbség az, hogy amikor kész van, közzéteheti a tartalmakat alkalmazásként. Amíg az alkalmazás-munkaterületen van, feltölthet tartalmat vagy csatlakozhat fájlokhoz, illetve csatlakozhat külső felek szolgáltatásaihoz, pont mintha a Saját munkaterületén lenne. Például:
-
-* [Csatlakozás szolgáltatásokhoz](service-connect-to-services.md), például a Microsoft Dynamics CRM-hez, a Salesforce-hoz vagy a Google Analyticshez.
-* [Adatok lekérése fájlokból](service-get-data-from-files.md), például Excel-, CSV- vagy Power BI Desktop (PBIX-) fájlokból.
-
-Ha alkalmazás munkaterületén jelenít meg tartalmat, a tulajdonos az alkalmazás-munkaterület neveként lesz feltüntetve.
-
-## <a name="add-an-image-to-your-app-optional"></a>Kép felvétele az alkalmazáshoz (opcionális)
-A Power BI alapértelmezés szerint egy kis színes kört hoz létre az alkalmazáshoz, benne az alkalmazás kezdőbetűivel. Ha szeretné, ezt testreszabhatja egy képpel. A kép felvételéhez Exchange Online-licenc szükséges.
-
-1. Válassza a **Munkaterületek** elemet, a három pontot (...) a munkaterület neve mellett, majd a **Tagok** lehetőséget. 
-   
-     ![Munkaterület tagjainak kiválasztása](media/service-create-distribute-apps/power-bi-apps-workspace-members.png)
-   
-    Megnyílik a munkaterülethez tartozó Office 365 Outlook-fiók egy új böngészőablakban.
-2. Ha a mutatót a bal felső területen lévő színes kör fölé viszi, az ceruza ikonná változik. Válassza ki.
-   
-     ![Office 365 ceruza ikon](media/service-create-distribute-apps/power-bi-apps-workspace-edit-image.png)
-3. Válassza ki újra a ceruzát, és keresse meg a használni kívánt képet.
-   
-     ![A ceruza ismételt kiválasztása](media/service-create-distribute-apps/power-bi-apps-workspace-edit-group.png)
-4. Kattintson a **Mentés** gombra.
-   
-     ![Mentés kiválasztása](media/service-create-distribute-apps/power-bi-apps-workspace-save-image.png)
-   
-    A kép az Office 365 Outlook ablakban szereplő színes kör helyére kerül. 
-   
-     ![Testreszabott kép](media/service-create-distribute-apps/power-bi-apps-workspace-image-in-office-365.png)
-   
-    Néhány percen belül megjelenik az alkalmazásban is a Power BI-ban.
-   
-     ![Testreszabott kép](media/service-create-distribute-apps/power-bi-apps-image.png)
+* 1. lehetőség: Minden üzleti felhasználónak **Power BI Pro** licencre van szüksége az alkalmazás megtekintéséhez. 
+* 2. lehetőség: A vállalat ingyenes felhasználói megtekinthetik az alkalmazás tartalmát, ha az alkalmazás egy Power BI Premium kapacitásban található. Részletek: [Mi a Power BI Premium?](service-premium.md).
 
 ## <a name="publish-your-app"></a>Az alkalmazás közzététele
-Ha az alkalmazás munkaterületén lévő irányítópultok és jelentések elkészültek, közzéteheti őket alkalmazásként. Ne feledje, hogy nem kell a munkaterületen szereplő minden jelentést és irányítópultot közzétennie. Megteheti, hogy csak azokat teszi közzé, amelyek elkészültek.
+Ha a munkaterület irányítópultjai és jelentései elkészültek, kiválaszthatja a közzétenni kívánt irányítópultokat és jelentéseket, majd alkalmazásként közzéteheti. Küldhet közvetlen hivatkozást a szélesebb közönségnek, vagy a **További alkalmazások AppSource-ból való letöltése és felderítése** területre lépve megkereshetik az alkalmazást az Alkalmazások lapon. 
 
 1. A munkaterület listanézetében határozhatja meg, mely irányítópultokat és jelentéseket szeretné felvenni az alkalmazásba.
 
@@ -116,12 +71,10 @@ Ha az alkalmazás munkaterületén lévő irányítópultok és jelentések elk�
    
      ![Alkalmazás befejezése](media/service-create-distribute-apps/power-bi-apps-success.png)
 
-Az üzleti felhasználók, akik számára közzétette az alkalmazást, több módon is megtalálhatják azt. Ha tudta automatikusan telepíteni, megjelenik a Power BI-fiókjukban az Alkalmazások alatt. Küldhet nekik egy közvetlenül az alkalmazásra mutató hivatkozást, vagy megkereshetik a Microsoft AppSource-ban, ahol minden alkalmazás megjelenik, amelyet jogosultak használni. Függetlenül attól, hogy hogyan szerezték be, onnantól kezdve az Alkalmazások területen mindig szerepelni fog ez az alkalmazás a listájukban.
-
 További információk az [üzleti felhasználóknak elérhető alkalmazásélményről](service-install-use-apps.md).
 
 ## <a name="change-your-published-app"></a>A közzétett alkalmazás módosítása
-Előfordulhat, hogy módosítani vagy frissíteni szeretné az alkalmazást a közzététel után. A frissítés egyszerű, ha rendszergazda vagy tag az alkalmazás-munkaterületen. 
+Előfordulhat, hogy módosítani vagy frissíteni szeretné az alkalmazást a közzététel után. A frissítés egyszerű, ha Ön rendszergazda vagy tag az alkalmazás-munkaterületen, vagy közreműködő egy új alkalmazás-munkaterületen. 
 
 1. Nyissa meg azt az alkalmazás-munkaterületet, amely megfelel az alkalmazásnak. 
    
@@ -140,18 +93,16 @@ Előfordulhat, hogy módosítani vagy frissíteni szeretné az alkalmazást a k�
 
 Azok, akikkel megosztotta az alkalmazást, automatikusan az alkalmazás frissített verzióját látják. 
 
-# <a name="automatically-install-apps-for-end-users"></a>Alkalmazások automatikus telepítése a végfelhasználók számára
-A végfelhasználók számára automatikusan telepíthet alkalmazásokat, így könnyebben eljuttathatja a megfelelő alkalmazásokat a megfelelő embereknek vagy csoportoknak.
+## <a name="automatically-install-apps-for-end-users"></a>Alkalmazások automatikus telepítése a végfelhasználók számára
+Az alkalmazásokkal eljuttathatja a végfelhasználók munkájához szükséges adatokat. Ha erre jogosultságot kap egy rendszergazdától, a végfelhasználók számára automatikusan telepíthet alkalmazásokat, így könnyebben eljuttathatja a megfelelő alkalmazásokat a megfelelő embereknek vagy csoportoknak. Az alkalmazás automatikusan megjelenik a végfelhasználók alkalmazástartalmainak listájában, így nem kell megkeresniük őket a Microsoft AppSource-ban vagy egy telepítési hivatkozást követve. Ennek köszönhetően könnyebben vezethet be szabványos Power BI-tartalmakat a felhasználók számára.
 
-Az alkalmazásokkal eljuttathatja a végfelhasználók munkájához szükséges adatokat. Az alkalmazástartalmak listájából mostantól automatikusan telepítheti ezeket az alkalmazásokat, így nem kell megkeresnie őket a Microsoft AppSource-ban vagy egy telepítési hivatkozást követve. Ennek köszönhetően könnyebben vezethet be szabványos Power BI-tartalmakat a felhasználók számára.
-
-## <a name="how-to-install-an-app-automatically-for-end-users"></a>Alkalmazás automatikus telepítése a végfelhasználók számára
-Ha a rendszergazda engedélyezte a funkciót, az alkalmazások közzétevői **automatikusan telepíthetik az alkalmazást**. Ha a négyzet ***be van jelölve*** és az alkalmazás közzétevője a **Befejezés** (vagy meglévő alkalmazások esetén az **Alkalmazás frissítése**) lehetőséget választja, az alkalmazás el lesz küldve a **Hozzáférés** lap **Engedélyek** szakaszában meghatározott csoportoknak.
+### <a name="how-to-install-an-app-automatically-for-end-users"></a>Alkalmazás automatikus telepítése a végfelhasználók számára
+Ha egy rendszergazda jogosultságot adott erre Önnek, **automatikusan telepítheti az alkalmazást**. Ha bejelöli a négyzetet, és kiválasztja a **Befejezés** (vagy meglévő alkalmazások esetén az **Alkalmazás frissítése**) lehetőséget, az alkalmazás el lesz küldve a **Hozzáférés** lap **Engedélyek** szakaszában meghatározott csoportoknak.
 
 ![Alkalmazásleküldés engedélyezése](media/service-create-distribute-apps/power-bi-apps-access.png)
 
-## <a name="how-users-get-the-apps-that-were-pushed-to-them"></a>A küldött alkalmazások felhasználói használatba vétele
-Egy alkalmazás leküldéses továbbítása után az automatikusan megjelenik az alkalmazások listájában. Az alkalmazásokat úgy válogathatja, hogy csak az egy felhasználó vagy szervezeti szerepkör számára szükségesek jelenjenek meg.
+### <a name="how-users-get-the-apps-that-were-pushed-to-them"></a>A küldött alkalmazások felhasználói használatba vétele
+Egy alkalmazás leküldéses továbbítása után az automatikusan megjelenik az alkalmazások listájában. Az alkalmazásokat úgy válogathatja, hogy csak az egy adott felhasználói csoport vagy szervezeti szerepkör számára szükségesek jelenjenek meg.
 
 ![Alkalmazásleküldés engedélyezése](media/service-create-distribute-apps/power-bi-apps-left-nav.png)
 
@@ -166,7 +117,7 @@ Az alkalmazások leküldéses továbbítása során az alábbiakra érdemes ügy
 
 * Lehetőleg ne terhelje túl a felhasználókat. Ne küldjön egyszerre túl sok alkalmazást, hogy a felhasználók az előtelepített alkalmazásokat is hasznosnak érezhessék. Célszerű megszabni, hogy ki küldhet alkalmazásokat a végfelhasználóknak, és együttműködni ennek időzítésében. A szervezeti alkalmazások a végfelhasználóknak való leküldéséhez létrehozhat egy kapcsolatfelvételi pontot.
 
-* Azoknál a vendég felhasználóknál, akik nem fogadták el a meghívást, az alkalmazások nem lesznek automatikusan telepítve.  
+* Azoknál a vendégfelhasználóknál, akik nem fogadták el a meghívást, az alkalmazások nem lesznek automatikusan telepítve.  
 
 ## <a name="unpublish-an-app"></a>Alkalmazás közzétételének visszavonása
 Egy alkalmazás-munkaterület bármely tagja visszavonhatja az alkalmazás közzétételét.
@@ -177,27 +128,9 @@ Egy alkalmazás-munkaterület bármely tagja visszavonhatja az alkalmazás közz
 
 Ez a művelet törli az alkalmazás telepítését mindenkitől, akivel megosztotta, és ezután nem fognak hozzáférni. Nem törli azonban az alkalmazás-munkaterületet vagy a tartalmát.
 
-## <a name="power-bi-apps-faq"></a>Power BI alkalmazások – gyakori kérdések
-### <a name="how-are-app-workspaces-different-from-group-workspaces"></a>Miben különböznek az alkalmazás-munkaterületek a csoportos munkaterületektől?
-Ebben a kiadásban az összes csoportos munkaterületet átneveztük alkalmazás-munkaterületnek. Bármelyik ilyen munkaterületről közzétehet alkalmazásokat. A működésük nagyjából megegyezik a csoportos munkaterületek működésével. A következő pár hónap során a következő fejlesztéseket tervezzük az alkalmazás-munkaterületek vonatkozásában: 
-
-* Az alkalmazás-munkaterületek létrehozása nem fog megfelelő entitásokat létrehozni az Office 365-ben, mint ahogy eddig a csoportos munkaterületek esetében történt. Így létrehozhat bármennyi alkalmazás-munkaterületet anélkül, hogy aggódnia kellene, hogy a háttérben különböző Office 365-csoportok jönnek létre (az Office 365-csoport OneDrive Vállalati verzióját továbbra is használhatja a fájlok tárolására). 
-* Most még csak egyéneket vehet fel a tagok és rendszergazdák listájára. Az egyszerűbb kezelhetőség érdekében hamarosan több AD biztonsági csoportot vagy modern csoportot is felvehet.  
-
-### <a name="how-are-apps-different-from-organizational-content-packs"></a>Miben különböznek az alkalmazások a vállalati tartalomcsomagoktól?
-Az alkalmazások a tartalomcsomagokból fejlődtek ki, egyszerűsödtek le, de van köztük néhány komoly különbség. 
-
-* Miután az üzleti felhasználók telepítenek egy tartalomcsomagot, az elveszíti a csoportosított identitását: csupán más irányítópultokkal és jelentésekkel összekeveredett irányítópultok és jelentések listája. Az alkalmazások ezzel szemben telepítés után is megtartják a csoportosításukat és az identitásukat. Így az üzleti felhasználók egyszerűbben navigálhatnak közöttük az idők során.
-* Létrehozhat több tartalomcsomagot is egy munkaterületről, az alkalmazás azonban egy-az-egyhez kapcsolatban áll a munkaterületével. Hiszünk abban, hogy ezt hosszú távon egyszerűbb átlátni és fenntartani. Arról, hogy hogyan tervezzük fejleszteni ezt a területet, a Power BI blogon találhat további információkat. 
-* Terveink szerint a vállalati tartalomcsomagok idővel elavulttá válnak, ezért javasoljuk, hogy mostantól alkalmazásokat hozzon létre.  
-
-### <a name="what-about-read-only-members-in-groups"></a>Mi a helyzet a csoportok csak olvasási jogosultsággal rendelkező tagjaival?
-A csoportokban hozzáadhat csak olvasási jogosultságokkal rendelkező tagokat, akik csak a tartalom megtekintésére jogosultak. Ezzel a megközelítéssel az volt a fő probléma, hogy nem lehetett biztonsági csoportokat tagként hozzáadni. 
-
-Az alkalmazások esetében az alkalmazás-munkaterület egy csak olvasható verzióját teheti közzé a nagyközönség (beleértve a biztonsági csoportokat) számára. Az alkalmazásban az irányítópultokon és jelentéseken úgy végezheti el a módosításokat, hogy az ne érintse a felhasználókat. Javasoljuk, hogy a jövőben így használja az alkalmazásokat. Hosszú távon szerepel a terveink között a munkaterületek csak olvasási joggal rendelkező tagjainak elavulttá tétele is.  
-
 ## <a name="next-steps"></a>Következő lépések
+* [Alkalmazás munkaterületének létrehozása](service-create-workspaces.md)
 * [Alkalmazások telepítése és használata a Power BI-ban](service-install-use-apps.md)
 * [Power BI alkalmazások külső szolgáltatásokhoz](service-connect-to-services.md)
-* [Power BI Felügyeleti portál](https://docs.microsoft.com/en-us/power-bi/service-admin-portal)
+* [Power BI Felügyeleti portál](https://docs.microsoft.com/power-bi/service-admin-portal)
 * Kérdése van? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)

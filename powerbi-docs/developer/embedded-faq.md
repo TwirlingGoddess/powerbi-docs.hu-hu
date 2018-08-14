@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/22/2018
-ms.openlocfilehash: f3602f44bd2ab98e115f904baa89429db918637c
-ms.sourcegitcommit: ba3cab4613a2b815d46a213eff07a8a8ec22c17f
+ms.openlocfilehash: ab637be12487029d17d7b1bfa89022dbae9aaa49
+ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39032071"
+ms.lasthandoff: 08/02/2018
+ms.locfileid: "39415392"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Gyakori kérdések – Power BI Embedded
 
@@ -63,29 +63,32 @@ A Power BI Embedded egy fejlesztők számára készült API-gyűjtemény, amelly
 
 Itt látható egy részlet a különbségek listájából, amely mindkét megoldás esetén hasznos lehet.
 
-|Funkció  |Power BI Embedded<br>(A termékváltozatok) |Power BI Premium-kapacitás<br>(EM termékváltozatok)  | 
-|---------|---------|---------|
-|Összetevők beágyazása Power BI alkalmazás munkaterületeiről     |Azure-kapacitás |Office 365-kapacitás |
-|Power BI-licenc szükséges a jelentések használatához |Nem  |Igen |
-|Power BI-jelentések használata Embedded-alkalmazásokban |Igen  |Igen |
-|Power BI-jelentések használata SharePointban |Nem |Igen |
-|Power BI-jelentések használata Teamsben |Nem |Igen |
+| Funkció | Power BI Embedded | Power BI Premium-kapacitás | Power BI Premium-kapacitás |
+|----------------------------------------------------------------------------------|-------------------|---------------------------|---------------------------|
+|   | (A termékváltozatok) | (EM termékváltozatok) | (P termékváltozatok) |
+| Összetevők beágyazása Power BI alkalmazás munkaterületeiről | Azure-kapacitás | Office 365-kapacitás | Office 365-kapacitás |
+| Power BI-jelentések használata Embedded-alkalmazásokban | Igen | Igen | Igen |
+| Power BI-jelentések használata SharePointban | Nem | Igen | Igen |
+| Power BI-jelentések használata Dynamicsben | Nem | Igen | Igen |
+| Power BI-jelentések használata Teamsben | Nem | Igen | Igen |
+| Hozzáférés a tartalomhoz INGYENES Power BI-licenccel a Powerbi.com oldalon és a Power BI Mobile-on | Nem | Nem | Igen |
+| Hozzáférés a tartalomhoz INGYENES, MS Office-alkalmazásokba beágyazott Power BI-licenccel | Nem | Igen | Igen |
 
 ### <a name="power-bi-now-offers-three-skus-for-embedding-a-skus-em-skus-and-p-skus-which-one-should-i-purchase-for-my-scenario"></a>A Power BI három típusú termékváltozatot kínál a beágyazásra: az A termékváltozatokat, az EM termékváltozatokat és a P termékváltozatokat. Melyiket vásároljam meg a saját forgatókönyvemhez?
 
 |  |A termékváltozat (Power BI Embedded)  |EM termékváltozat (Power BI Premium)  |P termékváltozat (Power BI Premium)  |
 |---------|---------|---------|---------|
 |Vásárlás     |Azure Portal |Office |Office |
-|Felhasználási módok |* Tartalmak beágyazása saját alkalmazásba |* Tartalmak beágyazása saját alkalmazásba<br>* Tartalom beágyazása más SaaS-alkalmazásokba ([SharePoint](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/), [Teams](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/), [Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard)) |* Tartalmak beágyazása saját alkalmazásba<br>* Tartalom beágyazása más SaaS-alkalmazásokba ([SharePoint](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/), [Teams](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/), [Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard))<br>* Tartalom megosztása Power BI-felhasználókkal a [Power BI szolgáltatásban](https://powerbi.microsoft.com/en-us/)  |
+|Felhasználási módok |* Tartalmak beágyazása saját alkalmazásba |* Tartalmak beágyazása saját alkalmazásba<br>* Tartalom beágyazása más MS Office-alkalmazásokba ([SharePoint](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/), [Teams](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/), [Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard)) |* Tartalmak beágyazása saját alkalmazásba<br>* Tartalom beágyazása más MS Office-alkalmazásokba ([SharePoint](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/), [Teams](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/), [Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard))<br>* Tartalom megosztása Power BI-felhasználókkal a [Power BI szolgáltatásban](https://powerbi.microsoft.com/en-us/)  |
 |Számlázás |Óránként |Havonta |Havonta |
 |Kötelezettségvállalás  |Nincs kötelezettségvállalás |Éves  |Havi/Éves |
 |Megkülönböztetés |Az Azure Portalon vagy API-kon keresztül teljes mértékű rugalmasságot tesz lehetővé, vagyis felfelé és lefelé történő méretezhetőséget, illetve az erőforrások felfüggesztését és folytatását  |Tartalmak beágyazására használható a SharePointban vagy a Microsoft Teamsben |Egy kapacitáson belül egyesíti az alkalmazásokba történő beágyazásokat és a Power BI szolgáltatás használatát |
 
 ### <a name="what-are-the-prerequisites-to-create-a-pbie-capacity-in-azure"></a>Milyen feltételekkel hozható létre PBIE-kapacitás az Azure-ban?
 
-- Be kell jelentkeznie a vállalati címtárba (MSA-fiókok nincsenek támogatva).
-- Power BI-bérlővel kell rendelkeznie, azaz a címtár legalább egy felhasználójának regisztrálva kell lennie a Power BI-ban. 
-- A vállalati címtárban szerepelnie kell egy Azure-előfizetésnek.
+* Be kell jelentkeznie a vállalati címtárba (MSA-fiókok nincsenek támogatva).
+* Power BI-bérlővel kell rendelkeznie, azaz a címtár legalább egy felhasználójának regisztrálva kell lennie a Power BI-ban. 
+* A vállalati címtárban szerepelnie kell egy Azure-előfizetésnek.
 
 ### <a name="how-can-i-monitor-capacity-consumption"></a>Hogyan tudom monitorozni a kapacitás felhasználását?
 
@@ -213,6 +216,8 @@ A Power BI Embedded költségeinek számlázása könnyen előrejelezhető módo
 Szükségük van Power BI Pro-licencre az elemzőknek, akik jelentéseket vesznek fel Power BI-munkaterületeken, a REST API-kat használó fejlesztőknek, illetve a bérlőrendszergazdáknak, akik a Power BI-bérlőt és -kapacitást kezelik.
 
 A Power BI Embedded a beágyazott tartalmak jóváhagyása és kezelése céljából engedélyezi a Power BI-portál használatát, ezért a PowerBI.com-on belül található alkalmazás hitelesítéséhez Power BI Pro-licenc szükséges, hogy az alkalmazás hozzáférhessen a megfelelő adattárakban található jelentésekhez.
+
+Azonban a [beágyazott jelentések létrehozásához/szerkesztéséhez](https://github.com/Microsoft/PowerBI-JavaScript/wiki/Create-Report-in-Embed-View) a saját alkalmazásán belül a végfelhasználónak nem kell Pro-licenccel rendelkeznie, mivel nem követelmény a Power BI használata.
 
 ### <a name="can-i-get-started-for-free"></a>Elkezdhetem ingyen a használatát?
 

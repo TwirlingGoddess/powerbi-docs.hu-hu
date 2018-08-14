@@ -3,24 +3,23 @@ title: Bevezetés a Power BI szervezeti tartalomcsomagjainak használatába
 description: Ebben a cikkben arról olvashat, miként rendezheti olyan szervezeti tartalomcsomagokba irányítópultjait, jelentéseit, Excel-munkafüzeteit és adatkészleteit, amelyeket aztán megoszthat munkatársaival.
 author: maggiesMSFT
 manager: kfile
-ms.reviewer: ajayan
+ms.reviewer: lukaszp
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 06/07/2018
+ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: e07e28ca7fd4dbb38f931a3fbc2a97661294711c
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 9109bd45f47e92d9158b9247fe32a43132fff720
+ms.sourcegitcommit: 2356dc8e5488438a43ba7f0ba9a55a2372669b47
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34852348"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "39624298"
 ---
 # <a name="intro-to-organizational-content-packs-in-power-bi"></a>Bevezetés a Power BI szervezeti tartalomcsomagjainak használatába
 > [!NOTE]
-> Hallott már az új *alkalmazásokról*? Az alkalmazásokkal új módon oszthatja meg a nagyközönséggel a tartalmakat a Power BI-ban. Terveink szerint a vállalati tartalomcsomagokat hamarosan elavulttá tesszük, ezért javasoljuk, hogy inkább alkalmazásokat használjon. [További információk az alkalmazásokról](service-install-use-apps.md).
-> 
+> Nem lehet létrehozni vagy telepíteni céges tartalomcsomagokat az új munkaterületi felhasználói felület előzetes verziójában. Ha még nem kezdte el, ideje frissítenie az alkalmazásokhoz tartozó tartalomcsomagokat. További információ az [új munkaterületi felhasználói felületről](service-create-the-new-workspaces.md).
 > 
 
 Rendszeresen oszt meg jelentéseket a csapatával e-mailben? Próbálja inkább így: csoportosítsa irányítópultjait, jelentéseit, Excel-munkafüzeteit és adatkészleteit, és tegye őket közzé a csapatában *szervezeti tartalomcsomagok* formájában. Az így létrehozott tartalomcsomagokat a csapattagok könnyen elérhetik az AppSource-katalógusban. A csomagok részét képezik a Power BI-nak, így minden funkcióját képesek kihasználni, beleértve az interaktív adatáttekintést, az új vizualizációs lehetőségeket, a Q&A szolgáltatást, a más adatforrásokkal történő integrációt, az adatfrissítést és egyebeket.

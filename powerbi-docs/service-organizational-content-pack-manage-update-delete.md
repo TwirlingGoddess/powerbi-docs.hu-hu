@@ -3,24 +3,23 @@ title: Céges tartalomcsomagok kezelése és frissítése
 description: Tájékoztató a céges tartalomcsomagok Power BI-beli kezeléséről, frissítéséről és törléséről.
 author: maggiesMSFT
 manager: kfile
-ms.reviewer: ajayan
+ms.reviewer: lukaszp
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 07/19/2018
+ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 45e9207ffa666e33b298e82bbc78e07c226b780e
-ms.sourcegitcommit: f6fb681ec85313eb7b450edb8f190e9e7afbabca
+ms.openlocfilehash: d00ad254e25f8806f6cf2bc944e849e32167b1f8
+ms.sourcegitcommit: 2356dc8e5488438a43ba7f0ba9a55a2372669b47
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 07/20/2018
-ms.locfileid: "39182794"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "39624321"
 ---
 # <a name="manage-update-and-delete-organizational-content-packs"></a>Céges tartalomcsomagok kezelése, frissítése és törlése
 > [!NOTE]
-> Hallott már az új *alkalmazásokról*? Az alkalmazásokkal új módon oszthatja meg a nagyközönséggel a tartalmakat a Power BI-ban. Terveink szerint a vállalati tartalomcsomagokat hamarosan elavulttá tesszük, ezért javasoljuk, hogy inkább alkalmazásokat használjon. [További információk az alkalmazásokról](service-install-use-apps.md).
-> 
+> Nem lehet létrehozni vagy telepíteni céges tartalomcsomagokat az új munkaterületi felhasználói felület előzetes verziójában. Ha még nem kezdte el, ideje frissítenie az alkalmazásokhoz tartozó tartalomcsomagokat. További információ az [új munkaterületi felhasználói felületről](service-create-the-new-workspaces.md).
 > 
 
 Irányítópultjait, jelentéseit, Excel-munkafüzeteit és adatkészleteit [céges tartalomcsomagokba](service-organizational-content-pack-introduction.md) rendezheti és megoszthatja munkatársaival. Munkatársai használhatják ezeket a megosztott formában, vagy létrehozhatják belőlük saját példányukat.
