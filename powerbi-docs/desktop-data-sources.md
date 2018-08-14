@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/27/2018
+ms.date: 08/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 203648affe06abe304d0e8a328b00189b42fa143
-ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
+ms.openlocfilehash: fa812801eb01529c3e364d69f041b7efd193c3ae
+ms.sourcegitcommit: cce10e14c111e8a19f282ad6c032d802ebfec943
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "39328396"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "39657874"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Adatforrások a Power BI Desktopban
 A Power BI Desktoppal különböző forrásokból származó adatokhoz csatlakozhat. Az elérhető adatforrások teljes listája az oldal alján látható.
@@ -93,7 +93,6 @@ A következő képen a **Lekérdezés** ablak látható, amelyen az **Adatbázis
 A **Power BI** kategória a következő adatkapcsolatokat biztosítja:
 
 * Power BI-adathalmazok
-* Power BI-adatkészletek (bétaverzió)
 
 A következő képen az **Lekérdezés** ablak látható, amelyen az **Power BI** kategória ki van választva.
 
@@ -168,7 +167,7 @@ Az **Egyéb** kategória a következő adatkapcsolatokat biztosítja:
 * Active Directory
 * Microsoft Exchange
 * Hadoop-fájl (HDFS)
-* Spark (bétaverzió)
+* Spark
 * R-szkript
 * ODBC
 * OLE DB
