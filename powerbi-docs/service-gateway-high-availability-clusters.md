@@ -2,26 +2,26 @@
 title: Magas rendelkezésre állású fürtök helyszíni adatátjáróhoz
 description: A helyszíni adatátjárókból fürtök hozhatók létere, amelyek révén magas rendelkezésre állás biztosítható a vállalat számára.
 author: mgblythe
+ms.author: mblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-gateways
 ms.topic: conceptual
-ms.date: 12/05/2017
-ms.author: mblythe
+ms.date: 08/08/2018
 LocalizationGroup: Gateways
-ms.openlocfilehash: 9777131c25974a2bc9936ef1c1ce285bb652028c
-ms.sourcegitcommit: ba3cab4613a2b815d46a213eff07a8a8ec22c17f
+ms.openlocfilehash: 5b89b53cab0f7e4df07b15a05cd74c7d99b1392a
+ms.sourcegitcommit: cce10e14c111e8a19f282ad6c032d802ebfec943
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39032025"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "39657989"
 ---
 # <a name="high-availability-clusters-for-on-premises-data-gateway"></a>Magas rendelkezésre állású fürtök helyszíni adatátjáróhoz
+
 A **helyszínen üzemelő adatátjárókból** **magas rendelkezésre állású fürtöket** hozhat lére, így biztosíthatja a szervezet hozzáférését a Power BI-jelentések és -irányítópultok által használt helyszíni adatforrásokhoz. Ezek a fürtök lehetővé teszik az átjárót felügyelő rendszergazdák számára az átjárók csoportosítását, és ezzel elkerülhetik, hogy egy adott pont meghibásodása megakadályozza a helyszíni adatforrásokhoz való hozzáférést. A Power BI szolgáltatás mindig a fürt elsődleges átjáróját használja, kivéve, az ha nem érhető el. Ebben az esetben a szolgáltatás a fürt következő átjárójára vált, és így tovább.
 
 Ez a cikk azokat a lépéseket ismerteti, amelyekkel létrehozható a helyszíni adatátjárókból egy magas rendelkezésre állású fürt, és a beállításokhoz használható ajánlott eljárásokat is tartalmaz. A magas rendelkezésre állású átjárófürtökhöz a helyszíni adatátjáró 2017. novemberi vagy újabb frissítésére van szükség.
-
 
 ## <a name="setting-up-high-availability-clusters-of-gateways"></a>Magas rendelkezésre állású átjárófürtök kialakítása
 
@@ -31,18 +31,23 @@ A **helyszíni adatátjáró** telepítésénél azt is meghatározhatja, hogy a
 
 Ha az átjárót meglévő fürthöz szeretné hozzáadni, meg kell adnia az elsődleges átjárópéldány *Helyreállítási kulcsát* ahhoz a fürthöz, amelyhez csatlakoztatni szeretné az átjárót. A fürt elsődleges átjárójának a 2017. novemberi vagy újabb frissítéssel kell rendelkeznie. 
 
-
 ## <a name="managing-a-gateway-cluster"></a>Az átjárófürt kezelése
 
-Ha az átjárófürt már több átjárót tartalmaz, akkor minden átjáróra irányuló művelet (például adatforrás hozzáadása vagy felügyeleti engedélyek kiosztása egy átjárónak) a fürt összes átjárójára érvényes lesz. 
+Ha az átjárófürt már több átjárót tartalmaz, akkor minden átjáróra irányuló művelet (például adatforrás hozzáadása vagy felügyeleti engedélyek kiosztása egy átjárónak) a fürt összes átjárójára érvényes lesz.
 
 Ha a rendszergazda a **Power BI szolgáltatás** fogaskerék ikonja alatt található **Átjárók kezelése** menüpontot használja, megjelenik számára a regisztrált fürtök vagy különálló átjárók listája, de a fürthöz tartozó egyes átjárópéldányok nem lesznek láthatóak.
 
 Minden új **Ütemezett frissítési** kérelem és DirectQuery-művelet automatikusan az adott átjárófürt elsődleges példányára irányul. Ha az elsődleges átjárópéldány nem érhető el, a kérelem a fürt egy másik példányához lesz átirányítva.
 
+## <a name="distribute-requests-traffic-across-all-gateways-in-a-cluster"></a>Kérelmek forgalmának elosztása a fürt minden átjárójára
+
+Beállíthatja, hogy a forgalom a fürt összes átjárója között legyen elosztva. Az **Átjárók kezelése** oldal **Power BI szolgáltatás** területén kattintson egy átjárófürtre a bal oldali navigációs listában. Itt bekapcsolhatja a „Kérelmek forgalmának elosztása ennek a fürtnek minden aktív átjárójára” lehetőséget.
+
+![Terheléselosztás](media/service-gateway-high-availability-clusters/gateway-onprem-loadbalance.png)
+
 ## <a name="powershell-support-for-gateway-clusters"></a>PowerShell-támogatás az átjárófürtökhöz
 
-A PowerShell-parancsfájlok a helyszíni adatátjáró telepítési könyvtárában találhatók. Ez a könyvtár alapértelmezés szerint a *C:\Program Files\On-premises data gateway*. A parancsfájlok futtatásához a PowerShell 5-ös vagy újabb verziója szükséges. A PowerShell-parancsfájlokkal az alábbi műveletek végezhetők el:
+A PowerShell-parancsfájlok a helyszíni adatátjáró telepítési könyvtárában találhatók. Ez a könyvtár alapértelmezés szerint a *C:\Program Files\On-premises data gateway*. A parancsfájlok megfelelő futtatásához a PowerShell 5-ös vagy újabb verziója szükséges. A PowerShell-parancsfájlokkal az alábbi műveletek végezhetők el:
 
 -   Egy felhasználó számára elérhető átjárófürtök listájának beolvasása
 -   Egy fürtben regisztrált átjárópéldányok listájának és a példányok online vagy offline állapotának lekérése
@@ -64,7 +69,7 @@ Ahhoz, hogy a táblázatban szereplő PowerShell-parancsokat futtatni tudja, el�
     Import-Module .\OnPremisesDataGatewayHAMgmt.psm1
     ```
 
-Ha ezekkel végzett, az átjárófürtök kezeléséhez használhatja a táblázatban szereplő parancsokat
+Ha ezekkel végzett, az átjárófürtök kezeléséhez használhatja a táblázatban szereplő parancsokat.
 
 | **Parancs** | **Leírás** | **Paraméterek** |
 | --- | --- | --- |
@@ -74,7 +79,6 @@ Ha ezekkel végzett, az átjárófürtök kezeléséhez használhatja a tábláz
 | *Set-OnPremisesDataGateway* | Egy fürtön belüli átjáró tulajdonságait lehet beállítani vele, többek között engedélyezhető vagy letiltható egy adott átjárópéldány  | *-ClusterObjectID xyz* (*xyz*-t egy tényleges fürtobjektum azonosítójának értékével kell kicserélni, melyet a *Get-OnPremisesDataGatewayClusters* paranccsal lehet lekérni) *-GatewayObjectID abc* az (*abc*-t egy tényleges átjáróobjektum azonosítójának értékével kell kicserélni, melyet a *Get-OnPremisesDataClusterGateways* paranccsal lehet lekérni egy adott fürtobjektum azonosítójával) |
 | *Get-OnPremisesDataGatewayStatus* | Egy fürtön belüli átjárópéldány állapotát lehet lekérni vele  | *-ClusterObjectID xyz* (*xyz*-t egy tényleges fürtobjektum azonosítójának értékével kell kicserélni, melyet a *Get-OnPremisesDataGatewayClusters* paranccsal lehet lekérni) *-GatewayObjectID abc* az (*abc*-t egy tényleges átjáróobjektum azonosítójának értékével kell kicserélni, melyet a *Get-OnPremisesDataClusterGateways* paranccsal lehet lekérni egy adott fürtobjektum azonosítójával) |
 | *Remove-OnPremisesDataGateway*  | Egy átjárópéldányt lehet eltávolítani vele egy fürtből. Vegye figyelembe, hogy a fürt elsődleges átjárója csak azt követően távolítható el, hogy a fürt összes többi átjáróját is eltávolították a fürtből.| *-ClusterObjectID xyz* (*xyz*-t egy tényleges fürtobjektum azonosítójának értékével kell kicserélni, melyet a *Get-OnPremisesDataGatewayClusters* paranccsal lehet lekérni) *-GatewayObjectID abc* az (*abc*-t egy tényleges átjáróobjektum azonosítójának értékével kell kicserélni, melyet a *Get-OnPremisesDataClusterGateways* paranccsal lehet lekérni egy adott fürtobjektum azonosítójával) |
-
 
 ## <a name="next-steps"></a>Következő lépések
 

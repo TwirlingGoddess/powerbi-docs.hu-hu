@@ -1,5 +1,5 @@
 ---
-title: Jelentéstémák használata a Power BI Desktopban (előzetes verzió)
+title: Jelentéstémák használata a Power BI Desktopban
 description: Megtudhatja, hogyan használhat egyéni színpalettát, és hogyan alkalmazhatja azt egy egész jelentésre a Power BI Desktopban
 author: davidiseminger
 manager: kfile
@@ -7,17 +7,17 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/02/2018
+ms.date: 08/08/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 757c1465d2451da8ebf340c7b9bfe1f4d9ff04f1
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 6aa3e6ba5a471176a6af2551344744cdc45697fb
+ms.sourcegitcommit: cce10e14c111e8a19f282ad6c032d802ebfec943
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34721179"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "39657943"
 ---
-# <a name="use-report-themes-in-power-bi-desktop-preview"></a>Jelentéstémák használata a Power BI Desktopban (előzetes verzió)
+# <a name="use-report-themes-in-power-bi-desktop"></a>Jelentéstémák használata a Power BI Desktopban
 A **Jelentéstémák** használatával egységes színtémát alkalmazhat az egész jelentésre, például a cég színeit, az évszaknak megfelelő színeket vagy bármely más színtémát, amit csak szeretne. **Jelentéstémák** alkalmazásakor a jelentésben szereplő összes vizualizáció a kiválasztott téma színeit fogja használni (ez alól van néhány kivétel, amelyeket a cikk későbbi részében mutatunk be).
 
 ![](media/desktop-report-themes/report-themes_1.png)
@@ -26,10 +26,14 @@ A **Jelentéstémák** alkalmazásához egy JSON-fájlra van szükség, amely ol
 
 A **Power BI Desktop** 2017. szeptemberi kiadásától kezdődően még több jelentéstéma-elemet határozhat meg JSON-fájlok használatával, továbbá a **Formázás** panelen manuálisan beállítható szinte összes elemet testre szabhatja (és szabványosíthatja) JSON-fájl segítségével. A 2017. szeptemberi (és a későbbi) kiadások célja, hogy teljes körűen, egészen a legapróbb részletekig megszabhassa a jelentések megjelenését és működését.
 
-### <a name="enable-report-themes-in-preview"></a>Jelentéstémák engedélyezése az előzetes verzióban
-Az új **Jelentéstémák** funkciót a **Power BI Desktop** **2017. márciusi** kiadásától kezdve használhatja. Ennek az előzetes funkciónak az engedélyezéséhez válassza a **Fájl > Lehetőségek és beállítások > Lehetőségek > Előzetes verziójú funkciók** lehetőséget, majd jelölje be az **Egyéni jelentéstémák** lehetőség melletti jelölőnégyzetet. Miután ezt beállította, újra kell indítania a **Power BI Desktopot**.
+### <a name="enable-report-themes"></a>Jelentéstémák engedélyezése
+A **Power BI Desktop** 2018. augusztusi kiadásától kezdődően általánosan elérhetőek a jelentéstémák, és nem szükséges külön engedélyezni őket. 
+
+Ha a **Power BI Desktop** korábbi verzióját használja, akkor előzetes funkcióként engedélyezheti a használatukat. Ehhez a **Fájl > Lehetőségek és beállítások > Lehetőségek > Előzetes verziójú funkciók** területen jelölje be az **Egyéni jelentéstémák** jelölőnégyzetet. Miután ezt beállította, újra kell indítania a **Power BI Desktopot**.
 
 ![](media/desktop-report-themes/report-themes_2.png)
+
+Javasoljuk, hogy mindig frissítsen a **Power BI Desktop** legújabb verziójára, amelyet a [Power BI Desktop beszerzése](desktop-get-the-desktop.md) hivatkozással érhet el. 
 
 ## <a name="how-report-themes-work"></a>A jelentéstémák működése
 Ha egy jelentéstémát szeretne alkalmazni egy Power BI Desktop jelentésre, kattintson a **Témaváltás** lehetőségre a **Kezdőlap** menüszalagon, majd a legördülő menüben válassza a **Téma importálása** elemet.
@@ -71,7 +75,7 @@ Ha egyszerűen kivágással és beillesztéssel szeretné létrehozni saját JSO
         "tableAccent": "#568410"
     }
 
-Ezzel megadhatja saját hexadecimális színkódját a kiválasztott színekhez.
+Itt beírhatja saját hexadecimális színkódját a kívánt színekhez.
 
 A **Power BI Desktop** 2017. szeptemberi kiadásától kezdve a JSON-fájl lényegesen összetettebb lehet. A JSON-fájlban csak azt a formátum szerepel, amelyiket módosítani szeretné, és minden más, ami *nem* szerepel a JSON-fájlban, a Power BI alapértelmezett beállításai szerint jelenik meg.
 

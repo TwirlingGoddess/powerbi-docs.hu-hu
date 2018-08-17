@@ -7,20 +7,21 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/27/2018
+ms.date: 08/06/2018
 ms.author: davidi
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 422f0ba97f5118ddc57e9102055a070deaf99b90
-ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
+ms.openlocfilehash: 805487087de865c25f08a29243d672fafbc26ca2
+ms.sourcegitcommit: cce10e14c111e8a19f282ad6c032d802ebfec943
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39329615"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "39658037"
 ---
 # <a name="getting-started-with-color-formatting-and-axis-properties"></a>Bevezetés a színformázás és tengelytulajdonságok használatába
 A **Power BI** szolgáltatásban módosíthatja az adatsorozatok, adatpontok színét, sőt akár a vizualizációk hátteréét is. Módosíthatja az x és y tengely megjelenítésének módját is, így teljes körűen szabályozhatja az irányítópultok és jelentések megjelenését.
 
 Első lépésként válassza a **Jelentés** elemet a **Saját munkaterület** ablaktáblán. Válassza a felső menüben található **Jelentés szerkesztése** elemet.  
+
 ![](media/service-getting-started-with-color-formatting-and-axis-properties/gettingstartedcolor_1a.png)
 
 Ha egy jelentést szerkeszt, és ki van jelölve egy vizualizáció, megjelenik a **Megjelenítések** ablaktábla, amely lehetővé teszi vizualizációk hozzáadását vagy módosítását. Közvetlenül a rendelkezésre álló vizualizációk alatt három ikon látható: a **Mezők** ikon (rudacskák), a **Formátum** ikon (gördülőkefe), és az **Analitika** (nagyító). Az alábbi ábrán a **Mezők** ikon van kijelölve, amit az ikon alatti sárga sáv jelez.
@@ -28,6 +29,7 @@ Ha egy jelentést szerkeszt, és ki van jelölve egy vizualizáció, megjelenik 
 ![](media/service-getting-started-with-color-formatting-and-axis-properties/gettingstartedcolor_2a.png)
 
 Ha a **Formátum** ikonra kattint, az alatta lévő terület a jelenleg kijelölt vizualizációhoz elérhető szín- és tengely-testreszabásokat jeleníti meg.  
+
 ![](media/service-getting-started-with-color-formatting-and-axis-properties/gettingstartedcolor_3a.png)
 
 Az egyes vizualizációk számos elemét testre szabhatja:
@@ -47,14 +49,13 @@ Az egyes vizualizációk számos elemét testre szabhatja:
 > [!NOTE]
 >  
 > Ezen elemek nem mindegyike látható az összes vizualizációs típus esetében. A választott vizualizáció hatással lesz az elérhető testreszabásokra; például tortadiagram kijelölése esetén nem látható X tengely, mivel a tortadiagramoknak nincs X tengelye.
-> 
-> 
 
 Vegye figyelembe azt is, hogy ha még nincs vizualizáció kijelölve, akkor az ikonok helyett a **Szűrők** elem jelenik meg, amely lehetővé teszi szűrők alkalmazását az oldalon lévő összes vizualizációra.
 
 Lássunk két példát: egyet a színek használatára, egyet pedig a tengely tulajdonságainak módosítására. Innentől készen kell állnia a színek, a tengelyek és a címkék testreszabására.
 
 ## <a name="working-with-colors"></a>Színek használata
+
 Vegyük végig a diagram színeinek testreszabásához szükséges lépéseket.
 
 1. Kijelölök egy **Csoportosított oszlopdiagramot** a jelentésvásznon.
@@ -76,6 +77,7 @@ A módosítások az alábbi képen láthatók. Hűha, ez aztán egy világos dia
 Nincs elragadtatva az előbb végzett módosítástól? A szokásos **CTRL + Z** billentyűkombinációval visszavonhatja.
 
 ## <a name="changing-axis-properties"></a>Tengely tulajdonságainak módosítása
+
 Gyakran érdemes módosítani az X vagy az Y tengelyt. A színek használatához hasonlóan a módosítani kívánt tengely mellett balra látható lefelé mutató nyíl ikonra kattintva módosíthatja, a következő ábrán látható módon.  
 ![](media/service-getting-started-with-color-formatting-and-axis-properties/gettingstartedcolor_7a.png)
 
@@ -88,11 +90,15 @@ Mindenféle szín közül választhat, és számos további testreszabást is al
 > [!NOTE]
 >  
 > A **Formátum** ikon kijelölésével elérhető szín, tengely és kapcsolódó testreszabások a Power BI Desktopban is elérhetők.
-> 
-> 
 
-## <a name="next-step"></a>Következő lépés
+## <a name="setting-color-from-text-values"></a>Színbeállítás szöveges értékekből
+
+A **Power BI Desktop** 2018. augusztusi frissítésétől kezdve a jelentés elemeinek színe beállítható szöveges érték vagy hexadecimális kód használatával is. További információt a [Táblázatok feltételes formázása](desktop-conditional-table-formatting.md) című témakörben talál.
+
+
+## <a name="next-steps"></a>Következő lépések
 További információkat a következő cikkekben talál:  
 
 * [Tippek és trükkök a színformázáshoz a Power BI-ban](service-tips-and-tricks-for-color-formatting.md)  
+* [Táblázatok feltételes formázása](desktop-conditional-table-formatting.md)
 

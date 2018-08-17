@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/27/2018
+ms.date: 08/06/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 2b8c4066f3128899d2c3c8121d7c5d41768f89dc
-ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
+ms.openlocfilehash: fe52646eef029359ac0e41c5fb32be524076a22d
+ms.sourcegitcommit: cce10e14c111e8a19f282ad6c032d802ebfec943
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39327821"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "39657966"
 ---
 # <a name="use-bookmarks-to-share-insights-and-build-stories-in-power-bi"></a>Elemzések megosztása és történetek felépítése a Power BI könyvjelzőivel 
 A Power BI-ban a **könyvjelzők** használatával rögzítheti az egyes jelentésoldalak aktuális nézetkonfigurációját, beleértve a szűréseket és a vizualizációk állapotát, hogy később egyszerűen a mentett könyvjelzőre kattintva visszaállíthassa az adott állapotot. 
@@ -113,6 +113,33 @@ Miután **Be** állásba kapcsolta a **Művelet** kapcsolót, kiválaszthatja, h
 Az objektumokhoz rendelt könyvjelzőknek számos felhasználási módja van. Létrehozhat egy látványos tartalomjegyzéket a jelentésoldalon, vagy egyszerűen az egyes objektumokra kattintva különböző nézeteket (például különféle vizualizációtípusokat) mutathat be ugyanazokról az adatokról.
 
 A szerkesztési módban Ctrl+kattintással nyithatja meg a hivatkozásokat, a szerkesztési módon kívül pedig elég rákattintani az objektumra. 
+
+## <a name="bookmark-groups"></a>Könyvjelzőcsoportok
+
+A **Power BI Desktop** 2018. augusztusi kiadásától kezdve könyvjelzőcsoportokat is létrehozhat és használhat. A könyvjelzőcsoport az Ön által létrehozott könyvjelzők gyűjteménye, amelyeket csoportokba gyűjtve jeleníthet meg. 
+
+Könyvjelzőcsoport létrehozásához a CTRL billentyű lenyomva tartása mellett válassza ki a csoportba foglalandó könyvjelzőket, majd kattintson bármely könyvjelző melletti három pontra, és a megjelenő menüben válassza a **Csoportosítás** lehetőséget.
+
+![Könyvjelzőcsoport létrehozása](media/desktop-bookmarks/bookmarks_15.png)
+
+A **Power BI Desktop** a csoportnak automatikusan a *Csoport 1* nevet adja. Az átnevezéshez egyszerűen kattintson a névre, és adja meg a használni kívánt új nevet.
+
+![Könyvjelzőcsoport átnevezése](media/desktop-bookmarks/bookmarks_16.png)
+
+Ha a könyvjelzőcsoport nevére kattint, akkor a könyvjelzőcsoportot kibonthatja vagy összecsukhatja, a név nem jelöl konkrét könyvjelzőket. 
+
+A könyvjelzők **Megjelenítés** funkciójának használatakor az alábbiak érvényesek:
+
+* Ha a kiválasztott könyvjelző egy könyvjelzőcsoport tagja, a **Megjelenítés** választásakor csak *az adott csoport* könyvjelzői jelennek meg. 
+
+* Ha a kiválasztott könyvjelző nem csoport, vagy ha a csoport legfelső szintjén található (például a könyvjelzőcsoport nevéről van szó), akkor a jelentés összes könyvjelzője megjelenik, beleértve a különféle csoportokban lévőket is. 
+
+A könyvjelzők csoportosításának megszüntetéséhez válassza ki a csoport bármelyik könyvjelzőjét, kattintson a három pontra, majd a megjelenő menüben válassza a **Csoportosítás megszüntetése** lehetőséget. 
+
+![Könyvjelzőcsoport csoportosításának megszüntetése](media/desktop-bookmarks/bookmarks_17.png)
+
+Vegye figyelembe, hogy ha egy csoport bármely könyvjelzőjénél a **Csoportosítás megszüntetése** funkciót használja, azzal minden könyvjelzőt eltávolít a csoportból. (A művelet törli a csoportot, de nem törli magukat a könyvjelzőket.) Ha csupán egyetlen könyvjelzőt szeretne eltávolítani a csoportból, akkor válassza a **Csoportosítás megszüntetése** lehetőséget az adott csoport bármely könyvjelzőjénél, amely megszünteti a csoportot. Ezt követően válassza ki az új csoportba felvenni kívánt könyvjelzőket (CTRL + az egyes könyvjelzőkre való kattintással), majd válassza újra a **Csoportosítás** lehetőséget. 
+
 
 ## <a name="using-spotlight"></a>A Reflektorfény használata
 A könyvjelzőkkel egy időben bevezetett másik funkció a **Reflektorfény**. A **Reflektorfénnyel** felhívhatja például a figyelmet egy adott diagramra, amikor a könyvjelzőket **Nézet** módban mutatja be.

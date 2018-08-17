@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/17/2018
+ms.date: 08/06/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 70aa61d6a02bea1b7058a68b20718008ace1b8c8
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 61a30484713ac96d3bbb65355310007a52f300a5
+ms.sourcegitcommit: cce10e14c111e8a19f282ad6c032d802ebfec943
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34480888"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "39657805"
 ---
 # <a name="conditional-formatting-in-tables"></a>Táblázatok feltételes formázása 
 A táblázatok feltételes formázásával a cellák értéke, illetve más értékek vagy mezők alapján határozhat meg egyéni cellaszíneket, akár színátmenetek használatával is. A cellák értékei adatsávokkal is megjeleníthetők. 
@@ -24,7 +24,7 @@ A feltételes formázás használatához a Power BI Desktop **Vizualizációk** 
 
 ![Feltételes formázás menü](media/desktop-conditional-table-formatting/table-formatting-0-popup-menu.png)
 
-A következő bekezdések ezt a három feltételes formázási lehetőséget ismertetik. Egy táblázatoszlopban egyszerre több lehetőség is használható.
+A következő bekezdések ezeket feltételes formázási lehetőségeket ismertetik. Egy táblázatoszlopban egyszerre több lehetőség is használható.
 
 > [!NOTE]
 > A táblázatra alkalmazott feltételes formázás felülír minden, a feltételesen formázott cellákra vonatkozó egyéni táblázatstílust.
@@ -95,3 +95,43 @@ A **Csak sávok megjelenítése** lehetőség alapértelmezés szerint nincs bej
 Ha a **Csak sávok megjelenítése** lehetőség be van jelölve, akkor a cellában csak az adatsáv látható.
 
 ![Példatáblázat csak adatsávokkal](media/desktop-conditional-table-formatting/table-formatting-3-default-table-bars.png)
+
+## <a name="color-formatting-by-field-value"></a>Formázás színekkel mezőérték szerint
+
+Használható mérték vagy színt meghatározó oszlop is akár szöveges, akár hexadecimális értékkel, amellyel megadható egy táblázat vagy mátrixvizualizáció betűjének vagy hátterének színe. Adott mezőhöz egyéni logikát is létrehozhat, és ezzel alkalmazhatja a kívánt színt a betűre vagy a háttérre.
+
+Az alábbi táblázatban például minden termékmodellhez egy adott szín van társítva. 
+
+![ProductName mező színnevekkel](media/desktop-conditional-table-formatting/conditional-table-formatting_01.png)
+
+Ha a cellát a mezőérték alapján szeretné formázni, válassza a **Feltételes formázás** párbeszédpanelt az adott vizualizáció *Szín* oszlopára való kattintással, majd a menüből válassza a **Háttérszín** lehetőséget. 
+
+![Háttérszín kiválasztása a menüben](media/desktop-conditional-table-formatting/conditional-table-formatting_02.png)
+
+A megjelenő párbeszédpanelen a **Formázás a következő szerint** legördülő területen válassza a **Mezőérték** lehetőséget, ahogy az alábbi képen látható.
+
+![Formázás Mezőérték szerint](media/desktop-conditional-table-formatting/conditional-table-formatting_03.png)
+
+Ez a folyamat megismételhető a betűszínre is, és a vizualizációban ennek eredményeképpen a **color** oszlop színét használó egyszínű kitöltés lesz alkalmazva, ahogyan az alábbi képen látható.
+
+![Formázás Mezőérték szerint](media/desktop-conditional-table-formatting/conditional-table-formatting_04.png)
+
+Létrehozható egy üzleti logikára épülő DAX-számítás is, amely a megadott feltételeknek megfelelően más-más hexadecimális kódokat ad vissza. Ez általában egyszerűbb eljárás, mint több szabályt létrehozni a feltételes formázás párbeszédpaneljében. Tekintse meg az alábbi képen a *ColorKPI* mezőt.
+
+![DAX-számítások](media/desktop-conditional-table-formatting/conditional-table-formatting_05.png)
+
+Ezt követően a **Háttérszínhez** a mezőértéket az alábbiak szerint állíthatja be.
+
+![Mezőszín beállítása KPI alapján](media/desktop-conditional-table-formatting/conditional-table-formatting_06.png)
+
+Az eredmények pedig az alábbi mátrix szerint jelennek majd meg.
+
+![Mátrixvizualizáció KPI-értékeken alapuló színnel](media/desktop-conditional-table-formatting/conditional-table-formatting_07.png)
+
+A fantáziáját és egy kis DAX-ot felhasználva számtalan egyéb változatot is létrehozhat.
+
+## <a name="next-steps"></a>Következő lépések
+További információkat a következő cikkekben talál:  
+
+* [Tippek és trükkök a színformázáshoz a Power BI-ban](service-tips-and-tricks-for-color-formatting.md)  
+

@@ -2,22 +2,23 @@
 title: A helyszíni adatátjáró hibaelhárítása
 description: Ez a cikk a helyszíni adatátjáróval kapcsolatos hibák elhárításának lehetőségeit mutatja be. A cikk leírja az ismert problémák kerülő megoldásait, valamint a használható eszközöket.
 author: mgblythe
+ms.author: mblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-gateways
 ms.topic: conceptual
-ms.date: 06/02/2018
-ms.author: mblythe
+ms.date: 08/08/2018
 LocalizationGroup: Gateways
-ms.openlocfilehash: a99200707c8fc7de4fea2e32fe83238011bbf46c
-ms.sourcegitcommit: 627918a704da793a45fed00cc57feced4a760395
+ms.openlocfilehash: f0f29cb88c77f3d7775670c0869ee55938327763
+ms.sourcegitcommit: cce10e14c111e8a19f282ad6c032d802ebfec943
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 07/10/2018
-ms.locfileid: "37926591"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "39658012"
 ---
 # <a name="troubleshooting-the-on-premises-data-gateway"></a>A helyszíni adatátjáró hibaelhárítása
+
 Ez a cikk néhány olyan gyakori problémát ismertet, amelyek a **helyszíni adatátjáró** használatakor előfordulhatnak.
 
 <!-- Shared Community & support links Include -->
@@ -27,44 +28,52 @@ Ez a cikk néhány olyan gyakori problémát ismertet, amelyek a **helyszíni ad
 [!INCLUDE [gateway-onprem-tshoot-install-include](./includes/gateway-onprem-tshoot-install-include.md)]
 
 ## <a name="configuration"></a>Konfiguráció
+
 ### <a name="how-to-restart-the-gateway"></a>Az átjáró újraindítása
+
 Az átjáró Windows-szolgáltatásként fut, így többféle módon is elindítható és leállítható. Például megnyithat egy parancssort emelt szintű engedélyekkel a gépen, amelyen az átjáró fut, és aztán bármely parancsot futtathatja az alábbiak közül:
 
 * A szolgáltatás leállításához futtassa az alábbi parancsot:
 
     „   net stop PBIEgwService   ”
+
 * A szolgáltatás elindításához futtassa az alábbi parancsot:
 
     „   net start PBIEgwService   ”
 
-### <a name="error-failed-to-create-gateway-please-try-again"></a>Hiba: Az átjáró létrehozása nem sikerült. Próbálkozzon újra.
+### <a name="error-failed-to-create-a-gateway-try-again"></a>Hiba: Az átjáró létrehozása nem sikerült. Próbálja újra
+
 Az összes részletes adat rendelkezésre áll, de a Power BI szolgáltatás meghívása hibát adott vissza. Ekkor megjelenik a hiba a tevékenységazonosítóval. Ez több különböző ok miatt történhet meg. A részletes adatok beszerzéséhez összegyűjtheti és áttekintheti az alábbiakban említett naplókat.
 
 Ezt proxykonfigurációs problémák is okozhatják. A proxy konfigurálása a felhasználói felületen nem lehetséges. További információ a [proxykonfiguráció módosításáról](service-gateway-proxy.md)
 
-### <a name="error-failed-to-update-gateway-details--please-try-again"></a>Hiba: Nem sikerült frissíteni az átjáró adatait.  Próbálkozzon újra.
+### <a name="error-failed-to-update-gateway-details-please-try-again"></a>Hiba: Nem sikerült frissíteni az átjáró adatait. Próbálkozzon újra
+
 A Power BI szolgáltatás adatokat küldött az átjárónak. A rendszer továbbította az adatokat a helyi Windows-szolgáltatásnak, de nem jöttek vissza. Vagy egy szimmetrikus kulcs létrehozása nem sikerült. A belső kivétel a **Részletek megjelenítése** területen látható. A részletes adatok beszerzéséhez összegyűjtheti és áttekintheti az alábbiakban említett naplókat.
 
-### <a name="error-power-bi-service-reported-local-gateway-as-unreachable-please-restart-the-gateway-and-try-again"></a>Hiba: A Power BI szolgáltatás jelentése szerint a helyi átjáró nem érhető el. Indítsa újra az átjárót, majd próbálkozzon újra.
+### <a name="error-power-bi-service-reported-local-gateway-as-unreachable-restart-the-gateway-and-try-again"></a>Hiba: A Power BI szolgáltatás jelentése szerint a helyi átjáró nem érhető el. Indítsa újra az átjárót, majd próbálkozzon újra
+
 A konfigurálás végén a rendszer újra meghívja a Power BI szolgáltatást az átjáró érvényesítése érdekében. A Power BI szolgáltatás az átjárót nem *élőként* látja. Lehetséges, hogy a Windows-szolgáltatás újraindításával elhárítható a kommunikációs probléma. A részletes adatok beszerzéséhez összegyűjtheti és áttekintheti az alábbiakban említett naplókat.
 
 ### <a name="script-error-during-sign-into-power-bi"></a>Szkripthiba a Power BI-ba történő bejelentkezés során
-A helyszíni adatátjáró konfigurálása során szkripthiba történhet a Power BI-ba történő bejelentkezéskor. A probléma elhárításához telepítse az alábbi biztonsági frissítést. A frissítés a Windows Update-en keresztül telepíthető.
+
+A helyszíni adatátjáró konfigurálása során szkripthiba történhet a Power BI-ba történő bejelentkezéskor. A probléma elhárítható az alábbi biztonsági frissítés telepítésével. A frissítés a Windows Update-en keresztül telepíthető.
 
 [MS16-051: Biztonsági frissítés az Internet Explorerhez: 2016. május 10. (KB 3154070)](https://support.microsoft.com/kb/3154070)
 
 ### <a name="gateway-configuration-failed-with-a-null-reference-exception"></a>Az átjáró konfigurálása nem sikerült, null értékű hivatkozáskivétel történt
+
 Az alábbihoz hasonló hibát tapasztalhat.
 
         Failed to update gateway details.  Please try again.
         Error updating gateway configuration.
 
-A hiba magában foglal egy hívásláncot, amely az alábbiakat tartalmazza.
+A hiba magában foglal egy hívásláncot, amely az alábbi üzenetet tartalmazhatja.
 
         Microsoft.PowerBI.DataMovement.Pipeline.Diagnostics.CouldNotUpdateGatewayConfigurationException: Error updating gateway configuration. ----> System.ArgumentNullException: Value cannot be null.
         Parameter name: serviceSection
 
-Ha régebbi átjáróról végez frissítést, a rendszer megőrzi a konfigurációs fájlt. Lehet, hogy hiányzik egy szakasz. Amikor az átjáró megpróbálja olvasni, a fenti null értékű referencia kivételt adja vissza.
+Ha régebbi átjáróról végez frissítést, a rendszer megőrzi a konfigurációs fájlt. Lehet, hogy hiányzik egy szakasz. Amikor az átjáró megpróbálja olvasni, a fenti null értékű referencia kivételt adhatja vissza.
 
 Ennek kijavításához tegye a következőket.
 
@@ -76,20 +85,24 @@ Ennek kijavításához tegye a következőket.
 4. Opcionálisan alkalmazhatja a helyreállítási kulcsot egy meglévő átjáró visszaállításához.
 
 ### <a name="support-for-tls-1112"></a>A TLS 1.1/1.2 támogatása
-A 2017. augusztusi frissítés után a helyszíni adatátjáró alapértelmezés szerint a Transport Layer Security (TLS) 1.1-es vagy 1.2-es verzióját használja a **Power BI szolgáltatással** való kommunikációra. A helyszíni adatátjáró korábbi verziói a TLS 1.0-t használják alapértelmezés szerint. 2017. november 1-jén a TLS 1.0 támogatása megszűnik. Frissítse helyszíni adatátjáróit a 2017. augusztusi vagy újabb kiadásra, hogy az átjárók ezután is megfelelően működjenek.
 
-Fontos megjegyezni, hogy a november 1-je előtt a helyszíni adatátjáró továbbra is támogatja a TLS 1.0-t – az átjáró tartalékként használja. Ahhoz, hogy biztosítsa, hogy az átjárók teljes adatforgalma a TLS 1.1-es vagy 1.2-es verzióját használja (és hogy megakadályozza a TLS 1.0 használatát az átjárón), a következő beállításkulcsokat kell megadnia vagy módosítania az átjárószolgáltatáson futó gépen:
+A 2017. augusztusi frissítés után a helyszíni adatátjáró alapértelmezés szerint a Transport Layer Security (TLS) 1.1-es vagy 1.2-es verzióját használja a **Power BI szolgáltatással** való kommunikációra. A helyszíni adatátjáró korábbi verziói a TLS 1.0-t használják alapértelmezés szerint. Frissítse helyszíni adatátjáróit a 2017. augusztusi vagy újabb kiadásra, hogy az átjárók ezután is megfelelően működjenek.
+
+>[!NOTE]
+>A TLS 1.0 támogatása 2017. november 1-jén megszűnt.
+
+Fontos megjegyezni, hogy 2017. november 1. előtt a helyszíni adatátjáró továbbra is támogatja a TLS 1.0-t, és azt az átjáró tartalékként használja. Ahhoz, hogy biztosítsa, hogy az átjárók teljes adatforgalma a TLS 1.1-es vagy 1.2-es verzióját használja (és hogy megakadályozza a TLS 1.0 használatát az átjárón), a következő beállításkulcsokat kell megadnia vagy módosítania az átjárószolgáltatáson futó gépen:
 
         [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\v4.0.30319]"SchUseStrongCrypto"=dword:00000001
         [HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\.NETFramework\v4.0.30319]"SchUseStrongCrypto"=dword:00000001
 
 > [!NOTE]
 > A beállításkulcsok hozzáadásával vagy módosításával a módosítások érvényesek lesznek az összes .NET-alkalmazásra. További információkat a TLS-t vagy az egyéb alkalmazásokat érintő beállításjegyzék-módosításokról [a Transport Layer Security (TLS) beállításjegyzék-módosításaival](https://docs.microsoft.com/windows-server/security/tls/tls-registry-settings) kapcsolatos cikkben olvashat.
-> 
-> 
 
 ## <a name="data-sources"></a>Adatforrások
+
 ### <a name="error-unable-to-connect-details-invalid-connection-credentials"></a>Hiba: Nem sikerült csatlakozni. Részletek: „Érvénytelen kapcsolathitelesítő adatok”
+
 A **Részletek megjelenítése** terület megjeleníti az adatforrástól származó hibaüzenetet. Az SQL Server esetében ez az alábbihoz hasonló.
 
     Login failed for user 'username'.
@@ -97,6 +110,7 @@ A **Részletek megjelenítése** terület megjeleníti az adatforrástól szárm
 Ellenőrizze, hogy a megfelelő felhasználónevet és jelszót adta-e meg. Ellenőrizze továbbá, hogy ezekkel a hitelesítő adatokkal sikeresen lehet-e kapcsolódni az adatforráshoz. Győződjön meg arról, hogy az éppen használt fiók megfelel a **hitelesítési módszernek**.
 
 ### <a name="error-unable-to-connect-details-cannot-connect-to-the-database"></a>Hiba: Nem sikerült csatlakozni. Részletek: „Nem lehet csatlakozni az adatbázishoz”
+
 A kiszolgálóhoz sikerült kapcsolódni, a megadott adatbázishoz azonban nem. Ellenőrizze az adatbázis nevét, és hogy a felhasználói hitelesítő adatok megfelelő jogosultságot biztosítanak-e az adatbázis eléréséhez.
 
 A **Részletek megjelenítése** terület megjeleníti az adatforrástól származó hibaüzenetet. Az SQL Server esetében ez az alábbihoz hasonló.
@@ -104,6 +118,7 @@ A **Részletek megjelenítése** terület megjeleníti az adatforrástól szárm
     Cannot open database "AdventureWorks" requested by the login. The login failed. Login failed for user 'username'.
 
 ### <a name="error-unable-to-connect-details-unknown-error-in-data-gateway"></a>Hiba: Nem sikerült csatlakozni. Részletek: „Ismeretlen hiba az adatátjáróban”
+
 Ez a hiba különböző okok miatt fordulhat elő. Mindenképpen ellenőrizze, hogy létrehozható-e kapcsolat az adatforrás és az átjárót üzemeltető gép között. Ez annak a következménye lehet, hogy a kiszolgáló nem érhető el.
 
 A **Részletek megjelenítése** területen ekkor megjelenik a **DM_GWPipeline_UnknownError** hibakód.
@@ -111,6 +126,7 @@ A **Részletek megjelenítése** területen ekkor megjelenik a **DM_GWPipeline_U
 További részleteket az Eseménynaplók > **Alkalmazás- és szolgáltatásnaplók** > **Helyszíni adatátjáró szolgáltatás** részben talál.
 
 ### <a name="error-we-encountered-an-error-while-trying-to-connect-to-server-details-we-reached-the-data-gateway-but-the-gateway-cant-access-the-on-premises-data-source"></a>Hiba: Hiba történt a(z) <server> rendszerhez történő csatlakozás közben. Részletek: „Az adatátjáró elérése sikerült, de az átjáró nem tud hozzáférni a helyszíni adatforráshoz.”
+
 Nem sikerült csatlakozni a megadott adatforráshoz. Ellenőrizze az adott adatforráshoz megadott információkat.
 
 A **Részletek megjelenítése** területen ekkor megjelenik a **DM_GWPipeline_Gateway_DataSourceAccessError** hibakód.
@@ -121,14 +137,14 @@ Ha a mögöttes hibaüzenet az alábbihoz hasonló, az azt jelenti, hogy az adat
 
 Ha a mögöttes hibaüzenet az alábbihoz hasonló, az azt is jelentheti, hogy az Analysis Services-szolgáltatásfiókból hiányzik a [token-groups-global-and-universal](https://msdn.microsoft.com/library/windows/desktop/ms680300.aspx) (TGGAU) könyvtárattribútum.
 
-    The user name or password is incorrect.
+    The username or password is incorrect.
 
 A Windows 2000 előtti rendszerekkel kompatibilis tartományok esetében a TGGAU attribútum engedélyezve van. A legtöbb újonnan létrehozott tartomány alapértelmezés szerint azonban nem engedélyezi ezt az attribútumot. További információkat [itt](https://support.microsoft.com/kb/331951) talál.
 
 Ezt az alábbiak szerint ellenőrizheti.
 
 1. Csatlakozzon az Analysis Services-géphez az SQL Server Management Studióban. A Speciális kapcsolati tulajdonságok részben adja meg a szóban forgó felhasználóhoz tartozó EffectiveUserName paramétert, és nézze meg, hogy a hiba továbbra is fennáll-e.
-2. A dsacls Active Directory eszköz használatával ellenőrizheti, hogy az attribútum szerepel-e a listában. Ez az eszköz általában egy tartományvezérlőben található meg. Ismernie kell a fiók megkülönböztetett tartománynevét, és el kell küldenie az eszköznek.
+2. A dsacls Active Directory eszköz használatával ellenőrizheti, hogy az attribútum szerepel-e a listában. Ez az eszköz egy tartományvezérlőben található meg. Ismernie kell a fiók megkülönböztetett tartománynevét, és el kell küldenie az eszköznek.
 
         dsacls "CN=John Doe,CN=UserAccounts,DC=contoso,DC=com"
 
@@ -140,50 +156,59 @@ Ezt az alábbiak szerint ellenőrizheti.
 
 A probléma elhárításához engedélyeznie kell a TGGAU attribútumot az Analysis Services Windows-szolgáltatáshoz használt fiók számára.
 
-**Másik lehetőség hibás felhasználónév vagy jelszó esetén**
+#### <a name="another-possibility-for-username-or-password-incorrect"></a>Másik lehetőség hibás felhasználónév vagy jelszó esetén
 
 Ennek a hibának az is lehet az oka, hogy az Analysis Services-kiszolgáló másik tartományban van, mint a felhasználók, és a tartományok között nincs kétirányú megbízhatósági kapcsolat.
 
 A tartományok közötti megbízhatósági kapcsolatot a tartományi rendszergazdával együttműködésben kell ellenőriznie.
 
-**Nem láthatók az adatátjáró adatforrásai az Analysis Services „Adatok lekérése” felületén a Power BI szolgáltatás használatakor**
+#### <a name="unable-to-see-the-data-gateway-data-sources-in-the-get-data-experience-for-analysis-services-from-the-power-bi-service"></a>Nem láthatók az adatátjáró adatforrásai az Analysis Services „Adatok lekérése” felületén a Power BI szolgáltatás használatakor
 
 Az átjáró konfigurálása során győződjön meg arról, hogy a fiókja szerepel az adatforrás **Felhasználók** lapján található listában. Ha nem rendelkezik hozzáféréssel az átjáróhoz, kérje meg az átjáró rendszergazdáját ennek ellenőrzésére. Az Analysis Services listájában szereplő adatforrás csak a **Felhasználók** listában szereplő fiókok számára látható.
 
 ### <a name="error-you-dont-have-any-gateway-installed-or-configured-for-the-data-sources-in-this-dataset"></a>Hiba: Nem rendelkezik egyetlen telepített vagy konfigurált átjáróval sem az ebben az adathalmazban lévő adatforrásokhoz
+
 Ellenőrizze, hogy hozzáadott-e egy vagy több adatforrást az átjáróhoz, amint az az [Adatforrás hozzáadása](service-gateway-manage.md#add-a-data-source) szakaszban szerepel. Ha az átjáró nem jelenik meg a felügyeleti portál **Átjárók kezelése**, területén, próbálja meg törölni a böngésző gyorsítótárát, vagy próbáljon kijelentkezni a szolgáltatásból, aztán ismét vissza.
 
 ## <a name="datasets"></a>Adathalmazok
-### <a name="error-there-is-not-enough-space-for-this-row"></a>Hiba: Nincs elegendő szabad terület ehhez a sorhoz.
+
+### <a name="error-there-is-not-enough-space-for-this-row"></a>Hiba: Nincs elegendő szabad terület ehhez a sorhoz
+
 Ez a hiba akkor fordul elő, ha egyetlen sor mérete nagyobb 4 MB-nál. Meg kell határoznia, hogy az adatforrás melyik soráról van szó, és meg kell próbálnia kiszűrni a sort, vagy csökkenteni a méretét.
 
-### <a name="error-the-server-name-provided-doesnt-match-the-server-name-on-the-sql-server-ssl-certificate"></a>Hiba: A megadott kiszolgálónév nem egyezik az SQL-kiszolgáló SSL-tanúsítványán szereplő kiszolgálónévvel.
-Ez akkor fordulhat elő, ha tanúsítvány köznapi neve a kiszolgáló teljes tartománynevéhez (FQDN) tartozik, viszont csak a kiszolgáló Netbios-neve lett megadva. Ez eltérést fog okozni a tanúsítványban. A probléma megoldásához meg kell adnia a kiszolgálónevet az átjáró adatforrásán belül, valamint a PBIX-fájlt a kiszolgáló teljes tartománynevének használatához.
+### <a name="error-the-server-name-provided-doesnt-match-the-server-name-on-the-sql-server-ssl-certificate"></a>Hiba: A megadott kiszolgálónév nem egyezik az SQL-kiszolgáló SSL-tanúsítványán szereplő kiszolgálónévvel
 
-### <a name="i-dont-see-the-on-premises-data-gateway-persent-when-configuring-scheduled-refresh"></a>Az ütemezett frissítés konfigurálásakor nem látható a helyszíni adatátjáró.
+Ez akkor fordulhat elő, ha tanúsítvány köznapi neve a kiszolgáló teljes tartománynevéhez (FQDN) tartozik, viszont csak a kiszolgáló NetBIOS-neve lett megadva. Ez eltérést okoz a tanúsítványban. A probléma megoldásához meg kell adnia a kiszolgálónevet az átjáró adatforrásán belül, valamint a PBIX-fájlt a kiszolgáló teljes tartománynevének használatához.
+
+### <a name="i-dont-see-the-on-premises-data-gateway-present-when-configuring-scheduled-refresh"></a>Az ütemezett frissítés konfigurálásakor nem látható a helyszíni adatátjáró
+
 Ennek különböző okai lehetnek a különböző forgatókönyvekben.
 
 1. A Power BI Desktopban és az átjáróhoz konfigurált adatforrásban megadott kiszolgáló- és az adatbázisnév nem egyezik meg. Ezeknek az értékeknek meg kell egyezniük. A rendszer nem tesz különbséget a kis- és a nagybetűk között.
 2. Az átjáró konfigurációjában a fiókja nem szerepel az adatforrás **Felhasználók** lapján. A listára az átjáró rendszergazdája veheti fel.
-3. A Power BI Desktop-fájl több adatforrást tartalmaz, és ezek közül nem mindegyik van konfigurálva az átjáróhoz. Ahhoz, hogy az adott átjáró hogy megjelenjen az Ütemezett frissítésben, mindegyik adatforrást meg kell határoznia az átjáróhoz.
+3. A Power BI Desktop-fájl több adatforrást tartalmaz, és ezek közül nem mindegyik van konfigurálva az átjáróhoz. Ahhoz, hogy az adott átjáró megjelenjen az Ütemezett frissítésben, mindegyik adatforrást meg kell határoznia az átjáróhoz.
 
-### <a name="error-the-received-uncompressed-data-on-the-gateway-client-has-exceeded-limit"></a>Hiba: Az átjáróügyfélen fogadott tömörítetlen adatok mérete nagyobb az engedélyezettnél.
-A pontos határérték táblánként 10 GB tömörítetlen adat. Ha ezzel a problémával találkozik, jó lehetőségei vannak a hiba optimalizálására és elkerülésére. A probléma megoldását különösen a nagymértékben ismétlődő, hosszú sztringekből álló értékek használatának csökkentése, és ezek helyett normalizált kulcs használata vagy az oszlop eltávolítása (ha nincs használatban) segíti.
+### <a name="error-the-received-uncompressed-data-on-the-gateway-client-has-exceeded-the-limit"></a>Hiba: Az átjáróügyfélen fogadott tömörítetlen adatok mérete nagyobb az engedélyezettnél
+
+A pontos határérték táblánként 10 GB tömörítetlen adat. Ha ezzel a problémával találkozik, jó lehetőségei vannak a hiba optimalizálására és elkerülésére. A probléma megoldását különösen a nagymértékben állandó, hosszú sztringekből álló értékek használatának csökkentése, és ezek helyett normalizált kulcs használata vagy az oszlop eltávolítása (ha nincs használatban) segíti.
 
 ## <a name="reports"></a>Jelentések
-### <a name="report-could-not-access-the-data-source-because-you-do-not-have-access-to-our-data-source-via-an-on-premises-data-gateway"></a>A jelentés nem tudott hozzáférni az adatforráshoz, mert nem rendelkezik hozzáféréssel az adatforráshoz egy helyszíni adatátjárón keresztül.
+
+### <a name="report-could-not-access-the-data-source-because-you-do-not-have-access-to-our-data-source-via-an-on-premises-data-gateway"></a>A jelentés nem tudott hozzáférni az adatforráshoz, mert nem rendelkezik hozzáféréssel az adatforráshoz egy helyszíni adatátjárón keresztül
+
 Ezt általában az alábbiak valamelyike okozza.
 
 1. Az adatforrás adatai nem egyeznek meg az alapul szolgáló adatkészletben található adatokkal. A kiszolgáló és az adatbázis nevének meg kell egyeznie a helyszíni adatátjáró számára meghatározott adatforrásban és a Power BI Desktopban. Ha a Power BI Desktop esetében IP-címet használ, akkor a helyszíni adatátjáróhoz tartozó adatforrásnak is IP-címet kell használnia.
 2. A cégen belül nem található elérhető adatforrással rendelkező átjáró. Az adatforrás konfigurálása egy új vagy egy meglévő helyszíni adatátjárón is elvégezhető.
 
-### <a name="error-data-source-access-error-please-contact-the-gateway-administrator"></a>Hiba: Adatforrás-hozzáférési hiba. Forduljon az átjáró rendszergazdájához.
+### <a name="error-data-source-access-error-please-contact-the-gateway-administrator"></a>Hiba: Adatforrás-hozzáférési hiba. Forduljon az átjáró rendszergazdájához
+
 Ha ez a jelentés élő Analysis Services-kapcsolatot használ, azt a problémát tapasztalhatja, hogy az EffectiveUserName tulajdonságnak átadott érték nem érvényes, vagy nem rendelkezik engedélyekkel az Analysis Services-gépen. A hitelesítési probléma oka jellemzően az, hogy az EffectiveUserName tulajdonságnak átadott érték nem egyezik meg egyetlen helyileg érvényes egyszerű felhasználónévvel (UPN-nel) sem.
 
 Ennek ellenőrzéséhez a következőt teheti.
 
 1. Keresse meg az érvényes felhasználónevet az [átjáró naplóiban](#logs).
-2. Ha megtalálta az átadott értéket, ellenőrizze a helyességét. Ha az Ön felhasználójáról van szó, futtathatja a következő parancsot egy parancssorból a megfelelően létrehozott UPN megtekintéséhez. Az UPN úgy fog kinézni, mint egy e-mail-cím.
+2. Ha megtalálta az átadott értéket, ellenőrizze a helyességét. Ha az Ön felhasználójáról van szó, futtathatja a következő parancsot egy parancssorból a UPN megtekintéséhez. A UPN egy e-mail-cím formátumával rendelkezik.
 
         whoami /upn
 
@@ -207,14 +232,16 @@ Az aktuális adatközponti régió kereséséhez tegye a következőket:
 2. Válassza **A Power BI bemutatása** lehetőséget.
 3. Az adatrégió **Az adatok a következő helyeken vannak tárolva** listában szerepel.
 
-    ![](media/service-gateway-onprem-tshoot/power-bi-data-region.png)
+    ![Adatterület](media/service-gateway-onprem-tshoot/power-bi-data-region.png)
 
 Ha ez nem vezet eredményre, hálózati nyomkövetéssel is próbálkozhat például a [fiddler](#fiddler) vagy a netsh eszközzel, bár az ilyen speciális gyűjtési módszerek által összegyűjtött adatok elemzéséhez segítségre lehet szüksége. Segítségért forduljon a [támogatáshoz](https://support.microsoft.com).
 
 ## <a name="performance"></a>Teljesítmény
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/IJ_DJ30VNk4?showinfo=0" frameborder="0" allowfullscreen></iframe>
 
 ### <a name="performance-counters"></a>Teljesítményszámlálók
+
 Az átjáróhoz tartozó tevékenységek méréséhez számos teljesítményszámláló használható. Ez hasznos lehet annak az észleléséhez, ha a nagy mennyiségű tevékenység új átjáró létrehozását teszi szükségessé. Ezek a számlálók nem mérik a tevékenységek időtartamát.
 
 A számlálók a Windows teljesítményfigyelő eszköz felületén érhetők el.
@@ -227,7 +254,7 @@ Az alábbiakban e számlálók általános csoportosítását mutatjuk be.
 | --- | --- |
 | ADO.NET |Bármely DirectQuery-kapcsolattal használható. |
 | ADOMD |Az Analysis Services 2014-es és korábbi verzióival használható. |
-| OLEDB |Egyes adatforrások használják. Ezek közé tartozik az SAP HANA és az Analysis Services 2016 (vagy újabb). |
+| OLEDB |Egyes adatforrások ezt használják. Ezek közé tartozik az SAP HANA és az Analysis Services 2016 (vagy újabb). |
 | Mashup |Tartalmazza az importált adatforrásokat is. Az ütemezett vagy igény szerinti frissítések az adategyesítési motoron keresztül történnek. |
 
 Az alábbiakban a rendelkezésre álló teljesítményszámlálók láthatók.
@@ -257,23 +284,23 @@ Az alábbiakban a rendelkezésre álló teljesítményszámlálók láthatók.
 | A másodpercenként végrehajtott nyitott OLEDB-kapcsolatok száma |A másodpercenként végrehajtott nyitott OLEDB-kapcsolati műveletek száma (sikeres vagy sikertelen). |
 | A másodpercenként meghiúsult nyitott OLEDB-kapcsolatok száma |A másodpercenként meghiúsult nyitott OLEDB-kapcsolati műveletek száma. |
 | A másodpercenként végrehajtott OLEDB-lekérdezések száma |A másodpercenként végrehajtott, több eredménykészlettel rendelkező OLEDB-lekérdezések száma (sikeres vagy sikertelen). |
-| A másodpercenként meghiúsult OLED-lekérdezések száma |A másodpercenként végrehajtott sikertelen, több eredménykészlettel rendelkező OLEDB-lekérdezések száma. |
+| A másodpercenként meghiúsult OLED-lekérdezések száma |A másodpercenként végrehajtott, több eredménykészlettel rendelkező sikertelen OLEDB-lekérdezések száma. |
 | A másodpercenként végrehajtott, egy eredménykészlettel rendelkező OLEDB-lekérdezések száma |A másodpercenként végrehajtott, egy eredménykészlettel rendelkező OLEDB-lekérdezések száma (sikeres vagy sikertelen). |
 | A másodpercenként meghiúsult lekérdezések száma |A másodpercenként végrehajtott sikertelen lekérdezések száma. |
 | A másodpercenként meghiúsult, egy eredménykészlettel rendelkező OLEDB-lekérdezések száma |A másodpercenként végrehajtott sikertelen, egy eredménykészlettel rendelkező OLEDB-lekérdezések száma. |
 
 ## <a name="reviewing-slow-performing-queries"></a>Lassú lekérdezések áttekintése
+
 Azt tapasztalhatja, hogy az átjáró lassan válaszol. Ez DirectQuery-lekérdezések esetében, illetve az importált adatkészlet frissítésekor fordulhat elő. A teljesítménycsökkenés okának azonosítása érdekében engedélyezheti a további naplózást, amellyel megtekintheti a kimeneteket és az időzítésüket. Ha hosszan futó lekérdezést észlel, lehetséges, hogy a lekérdezési teljesítmény hangolásához további módosításokat kell elvégeznie az adatforráson. Ilyen lehet például az SQL Server-lekérdezésekhez tartozó indexek beállítása.
 
 A lekérdezés időtartamának meghatározásához két konfigurációs fájlt kell módosítania.
 
 ### <a name="microsoftpowerbidatamovementpipelinegatewaycoredllconfig"></a>Microsoft.PowerBI.DataMovement.Pipeline.GatewayCore.dll.config
+
 A *Microsoft.PowerBI.DataMovement.Pipeline.GatewayCore.dll.config* fájlban módosítsa az `EmitQueryTraces` értékét `False` értékről `True` értékre. A fájl alapértelmezett helye: *C:\Program Files\On-premises data gateway*. Az `EmitQueryTraces` engedélyezésével bekapcsolja az átjáróról az adatforrásra küldött lekérdezések naplózását.
 
 > [!IMPORTANT]
 > Az átjáró használatának mértékétől függően az EmitQueryTraces engedélyezése jelentősen megnövelheti a napló méretét. A naplók áttekintése után az EmitQueryTraces értékét módosítsa False értékre. Nem javasoljuk, hogy ez a beállítás hosszabb ideig engedélyezve legyen.
-> 
-> 
 
 ```
 <setting name="EmitQueryTraces" serializeAs="String">
@@ -311,14 +338,13 @@ GROUP BY [t0].[ProductCategoryName],[t0].[FiscalYear] </pi>"
 ```
 
 ### <a name="microsoftpowerbidatamovementpipelinediagnosticsdllconfig"></a>Microsoft.PowerBI.DataMovement.Pipeline.Diagnostics.dll.config
-A *Microsoft.PowerBI.DataMovement.Pipeline.Diagnostics.dll.config* fájlban módosítsa a `TracingVerbosity` értékét `4` értékről `5` értékre. A fájl alapértelmezett helye: *C:\Program Files\On-premises data gateway*. A beállítás módosításakor a rendszer részletes bejegyzéseket naplóz az átjáró naplójába. Ez magában foglalja az időtartamot megjelenítő bejegyzéseket is. A részletes bejegyzéseket is engedélyezheti a Helyszíni átjáró alkalmazás „További naplózás” gombjának engedélyezésével.
+
+A *Microsoft.PowerBI.DataMovement.Pipeline.Diagnostics.dll.config* fájlban módosítsa a `TracingVerbosity` értékét `4` értékről `5` értékre. A fájl alapértelmezett helye: *C:\Program Files\On-premises data gateway*. A beállítás módosításakor a rendszer részletes bejegyzéseket naplóz az átjáró naplójába. Ez magában foglalja az időtartamot megjelenítő bejegyzéseket is. A részletes bejegyzéseket engedélyezheti a Helyszíni átjáró alkalmazás „További naplózás” gombjának engedélyezésével is.
 
    ![további naplózás](media/service-gateway-onprem-tshoot/additional-logging.png)
 
 > [!IMPORTANT]
 > Az átjáró használatának mértékétől függően a TracingVerbosity `5` értékre való állítása jelentősen megnövelheti a napló méretét. A naplók áttekintése után a TraceVerbosity értékét módosítsa `4` értékre. Nem javasoljuk, hogy ez a beállítás hosszabb ideig engedélyezve legyen.
-> 
-> 
 
 ```
 <setting name="TracingVerbosity" serializeAs="String">
@@ -330,7 +356,7 @@ A *Microsoft.PowerBI.DataMovement.Pipeline.Diagnostics.dll.config* fájlban mód
 
 ### <a name="activity-types"></a>Tevékenységtípusok
 
-| Tevékenységtípus | Leírás |
+| Művelettípus | Leírás |
 | --- | --- |
 | MGEQ |ADO.NET-kapcsolaton végrehajtott lekérdezések. Magában foglalja a DirectQuery-adatforrásokat is. |
 | MGEO |OLEDB-kapcsolaton végrehajtott lekérdezések. Ezek közé tartozik az SAP HANA és az Analysis Services 2016 (vagy újabb) is. |
@@ -348,8 +374,56 @@ Az adatforrás lekérdezési időtartamát az alábbiak szerint határozhatja me
 
    > [!NOTE]
    > A FireActivityCompletedSuccessfullyEvent egy részletes bejegyzés. Ez a bejegyzés csak akkor lesz naplózva, ha a TraceVerbosity értéke legalább 5.
-   > 
-   > 
+
+## <a name="firewall-or-proxy"></a>Tűzfalak és proxyk
+
+Az átjáró proxyinformációinak megadásával kapcsolatban további információt a [Proxybeállítások konfigurálása a Power BI-átjárókhoz](service-gateway-proxy.md) leírásban talál.
+
+A PowerShell parancssorból a [Test-NetConnection](https://docs.microsoft.com/powershell/module/nettcpip/test-netconnection) parancs futtatásával ellenőrizheti, hogy a tűzfal vagy proxy blokkolja-e a kapcsolatokat. Ez teszteli az Azure Service Bushoz való csatlakozást. Ez csakis a hálózati kapcsolatot teszteli, és nem érinti a felhőkiszolgáló szolgáltatást vagy az átjárót. Ez a parancs segít megállapítani, hogy a gépe képes-e az internetkapcsolatra.
+
+    Test-NetConnection -ComputerName watchdog.servicebus.windows.net -Port 9350
+
+> [!NOTE]
+> A Test-NetConnection csak a Windows Server 2012 R2 vagy újabb rendszereken érhető el. Ezenkívül a Windows 8.1 és újabb rendszereken is elérhető. A korábbi verziójú operációs rendszereken a Telnet használatával lehetett tesztelni a portkapcsolatokat.
+
+Az eredményeknek a következőképpen kell kinéznie. A TcpTestSucceeded értéket érdemes figyelni. Ha a **TcpTestSucceeded** értéke nem *true*, lehet, hogy egy tűzfal blokkolja a kapcsolódást.
+
+    ComputerName           : watchdog.servicebus.windows.net
+    RemoteAddress          : 70.37.104.240
+    RemotePort             : 5672
+    InterfaceAlias         : vEthernet (Broadcom NetXtreme Gigabit Ethernet - Virtual Switch)
+    SourceAddress          : 10.120.60.105
+    PingSucceeded          : False
+    PingReplyDetails (RTT) : 0 ms
+    TcpTestSucceeded       : True
+
+Ha igazán alapos szeretne lenni, helyettesítse a **ComputerName** és a **Port** értékeket a későbbiekben a [portok](https://docs.microsoft.com/power-bi/service-gateway-onprem#ports) alatt felsorolt értékekkel
+
+A tűzfal blokkolhatja az Azure Service Bus és az Azure adatközpontok közötti kapcsolatokat is. Ha ez az eset áll fenn, engedélyezze (oldja fel a blokkolást) az adatközpontok régiójának IP-címeit. Az Azure IP-címek listáját [itt](https://www.microsoft.com/download/details.aspx?id=41653) érheti el.
+
+### <a name="network-ports-test"></a>Hálózati portok tesztje
+
+A hálózatiport-teszt olyan eszköz, amely ellenőrzi, hogy az átjáró képes-e elérni a megfelelő portokat az összes olyan távoli kiszolgálóhoz, amelyekre az átjárónak az adatátvitelhez szüksége van. Ha a hálózati portok tesztje egyetlen porthoz sem tud csatakozni, az átjárón hálózati problémák léphetnek fel. Ha jelenleg hálózati problémákat tapasztal az átjáróján, futtasson egy hálózatiport-tesztet, amellyel ellenőrizheti, hogy optimális hálózati környezettel rendelkezik-e.  
+
+#### <a name="start-a-new-test"></a>Új teszt indítása
+
+Új hálózatiport-tesztet a Helyszíni adatátjáró felhasználói felületén indíthat.
+
+![Portteszt indítása](media/service-gateway-onprem-tshoot/gateway-onprem-porttest-starttest.png)
+
+A hálózatiport-teszt végrehajtása közben az átjáró az Azure Service Bustól lekéri a portok és kiszolgálók listáját, majd megpróbál csatlakozni az összes kiszolgálóhoz és porthoz. Ha megjelenik az Új teszt indítása hivatkozás, az azt jelzi, hogy a hálózati portok tesztje véget ért.  
+
+#### <a name="test-results"></a>Teszteredmények
+
+Az Új teszt indítása hivatkozás alatt Legutóbbi teszteredmények címmel jelenik meg a teszteredmények összefoglalása. A kétféle eredmény: Befejeződött (sikeres), valamint Befejeződött (sikertelen, lásd a legutóbbi teszt eredményeit). Ha a teszt sikeresen befejeződött, az azt jelenti, hogy az átjáró sikeresen csatlakozott az összes szükséges porthoz. Ha a teszt sikertelen, akkor lehetséges, hogy a hálózati környezet blokkolja ezeket a szükséges portokat és kiszolgálókat. 
+
+![Portteszt eredményei](media/service-gateway-onprem-tshoot/gateway-onprem-porttest-result.png)
+
+Ha a legutóbbi befejeződött teszt eredményeit szeretné megtekinteni, válassza az Utolsó befejezett teszt eredményeinek megnyitása (Open last completed test results) hivatkozást, ahogy az alábbi képen látható. A teszteredmények a Windows alapértelmezett szövegszerkesztőjében nyílnak meg.  
+
+A teszteredményekben megtalálható az összes olyan kiszolgáló, port és IP-cím, amelyekre az átjárónak szüksége van. Ha a teszteredményekben valamely portnál a Zárva jelzés szerepel (lásd az alábbi képet), ellenőrizze, hogy a hálózati környezet nem blokkolja-e a kapcsolatot. A szükséges portok megnyitásához lehetséges, hogy a hálózat rendszergazdájával kell felvennie a kapcsolatot.
+
+![Portteszt-eredmények fájlja](media/service-gateway-onprem-tshoot/gateway-onprem-porttest-result-file.png)
 
 ## <a name="kerberos"></a>Kerberos
 
@@ -374,23 +448,25 @@ Kövesse az alábbi lépéseket a probléma megoldásához:
 A FailedToImpersonateUserException akkor történik, ha nem tud megszemélyesítést végezni más felhasználó nevében. Akkor is előfordulhat, ha a megszemélyesíteni kívánt fiók egy másik tartományból van, mint amelyikben az átjáró szolgáltatás tartománya található (ez egy korlátozás).
 
 **Megoldás**
+
 * Ellenőrizze a fenti ImpersonationLevel szakasz lépéseit követve, hogy megfelelő-e a konfiguráció
 * Győződjön meg róla, hogy a megszemélyesíteni kívánt felhasználói azonosító egy érvényes AD-fiók
 
-### <a name="general-error-1033-error-while-parsing-protocol"></a>Általános hiba; 1033 számú hiba történt a protokoll elemzése közben
+### <a name="general-error-1033-error-while-parsing-the-protocol"></a>Általános hiba; 1033 számú hiba történt a protokoll elemzése közben
 
 Az 1033-as hibát kapja, amikor az SAP HANA-ban konfigurált külső azonosító nem egyezik a bejelentkezési adatokkal, ha a felhasználó megszemélyesítése egyszerű felhasználónévvel (alias@domain.com) történt. A naplókban az „Eredeti UPN (alias@domain.com) új UPN-nel lesz lecserélve (alias@domain.com) a hibanaplók elején, az alábbiak szerint”.
 
 ```
-[DM.GatewayCore] SingleSignOn Required. Original UPN 'alias@domain.com' replaced with new UPN 'alias@domain.com'.
+[DM.GatewayCore] SingleSignOn Required. Original UPN 'alias@domain.com' replaced with new UPN 'alias@domain.com.'
 ```
 
 **Megoldás**
+
 * Az SAP HANA megköveteli a megszemélyesített felhasználótól, hogy az sAMAccountName attribútumot használja az AD-ben (felhasználói alias). Ha ez nem helyes, az 1033 számú hiba jelenik meg.
 
     ![sAMAccount](media/service-gateway-onprem-tshoot/sAMAccount.png)
 
-* A naplókban az sAMAccountName (alias) fióknevet kell látnia, nem pedig az egyszerű felhasználónevet, amely az aliasból és az azt követő tartományból áll (alias@doimain.com)
+* A naplókban az sAMAccountName (alias) fióknév jelenik meg, nem pedig az egyszerű felhasználónév, amely az aliasból és az azt követő tartományból áll (alias@doimain.com)
 
     ![sAMAccount](media/service-gateway-onprem-tshoot/sAMAccount-02.png)
 
@@ -410,9 +486,10 @@ Az 1033-as hibát kapja, amikor az SAP HANA-ban konfigurált külső azonosító
 
 ### <a name="sap-aglibodbchdb-dllhdbodbc-communication-link-failure-10709-connection-failed-rte-1-kerberos-error-major-miscellaneous-failure-851968-minor-no-credentials-are-available-in-the-security-package"></a>[SAP AG][LIBODBCHDB DLL][HDBODBC] Kommunikációs kapcsolódási hiba;-10709 sikertelen kapcsolódás (RTE:[-1] Kerberos-hiba. Jelentős: „[851968] egyéb hiba”, kisebb: „Nincsenek hitelesítő adatok a biztonsági csomagban”
 
-A -10709 sikertelen kapcsolat hibaüzenetet fogja kapni, ha a delegálás beállítása nem megfelelő az AD-ben.
+A -10709 sikertelen kapcsolat hibaüzenetet kapja, ha a delegálás beállítása nem megfelelő az AD-ben.
 
 **Megoldás**
+
 * Ellenőrizze, hogy rendelkezik-e a SAP Hana-kiszolgálóval az AD delegálási lapján az átjárószolgáltatási fiókhoz
 
    ![delegálás lap](media/service-gateway-onprem-tshoot/delegation-in-AD.png)
@@ -421,6 +498,7 @@ A -10709 sikertelen kapcsolat hibaüzenetet fogja kapni, ha a delegálás beáll
 [!INCLUDE [gateway-onprem-tshoot-tools-include](./includes/gateway-onprem-tshoot-tools-include.md)]
 
 ### <a name="refresh-history"></a>Frissítési előzmények
+
 Ha az átjárót ütemezett frissítésre használja, a **Frissítési előzmények** oldalon láthatja a hibákat, valamint hasznos adatokat is talál egy esetleges támogatáskérés létrehozásához. Itt az ütemezett és az igény szerinti frissítéseket is láthatja. A **Frissítési előzmények** oldalra az alábbiak szerint juthat el.
 
 1. A Power BI navigációs ablaktáblájának **Adatkészletek** területén jelöljön ki egy adatkészletet, majd válassza a &gt;Menü megnyitása&gt; **Frissítés ütemezése** lehetőséget.

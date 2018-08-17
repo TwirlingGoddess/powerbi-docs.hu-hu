@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: be4651d1658c80c84105a65bc48e4072ed203794
-ms.sourcegitcommit: 7bdb76bd80973c5e5174747b7e304705754fe647
+ms.openlocfilehash: a3e39e6326eb5b32cd72e2aefec74c07804b4639
+ms.sourcegitcommit: cce10e14c111e8a19f282ad6c032d802ebfec943
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "39217628"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "39657897"
 ---
 # <a name="use-visual-elements-to-enhance-power-bi-reports"></a>Vizuális elemek használata Power BI-jelentések továbbfejlesztéséhez
 
@@ -59,6 +59,9 @@ Ha az oldal hátterét 50%-nál magasabb áttetszőségűre állítja, a jelent�
 ![Az 50%-nál magasabb áttetszőségnél pontozott szegély jelenik meg](media/desktop-visual-elements-for-reports/visual-elements-for-reports_04.png)
 
 Fontos megjegyezni, hogy a pontozott vonal *csak* a jelentés szerkesztése közben jelenik meg, a jelentést például a **Power BI szolgáltatásban** megtekintő felhasználó számára azonban *láthatatlan* marad.
+
+> [!NOTE]
+> Ha sötét színű háttérképet használ és a betű színét fehérre vagy nagyon világosra állítja, vegye figyelembe, hogy az **Exportálás PDF-be** funkció nem exportálja a háttérképet, így a fehér betűk gyakorlatilag láthatatlanok lesznek az exportált PDF-fájlban. A [PDF-be való exportálásról](desktop-export-to-pdf.md) az **Exportálás PDF-be** című témakörben olvashat bővebben.
 
 
 ## <a name="using-improved-visual-headers-in-power-bi-reports"></a>Továbbfejlesztett vizualizáció-fejlécek használata a Power BI-jelentésekben
