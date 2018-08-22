@@ -8,14 +8,14 @@ ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 05/18/2018
-ms.author: v-mamcge
+ms.author: kfile
 LocalizationGroup: Reports
-ms.openlocfilehash: b3bb1e6d7d7ce5b3fdc050f5df10af9f61acac92
-ms.sourcegitcommit: d936a23f895ee6ef1420753342f5e6c055ea5e07
+ms.openlocfilehash: 2e8888679f36b64a6fc5956a9ca10dc3d07dce1a
+ms.sourcegitcommit: 8b2ae15eb0e39cce29f3bf466ab7768f3f7c7815
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 08/07/2018
-ms.locfileid: "39582571"
+ms.lasthandoff: 08/16/2018
+ms.locfileid: "40257267"
 ---
 # <a name="power-bi-performance-best-practices"></a>Ajánlott eljárások a Power BI teljesítményének javításához 
 A cikk azt mutatja be, hogyan hozhat létre gyors és megbízható jelentéseket a Power BI-ban.  
@@ -46,10 +46,10 @@ Az adatforrások DirectQueryhez való optimalizálásáról bővebben a [DirectQ
  
 ## <a name="directquery-and-live-connection-understand-underlying-data-source-performance"></a>DirectQuery és élő kapcsolat: az alapul szolgáló adatforrás teljesítményének ismertetése 
 
-Ha DirectQueryt vagy élő kapcsolatot használ, akkor amikor a felhasználók megnyitnak egy Power BI-jelentést, a Power BI valós időben küld lekérdezéseket az alapul szolgáló adatforrásnak. A jelentés csak azután jelenik meg, hogy az adatforrás visszaadta a kért adatokat. Emiatt a jelentés teljesítménye ilyen esetekben nagyban függ az alapul szolgáló adatforrás teljesítményétől. 
- 
-Ezekben az esetekben fontos tisztában lennie azzal, hogy milyen teljesítményt nyújt az alapul szolgáló adatforrás. A különböző adatforrások esetében különböző eszközökkel tudja felmérni a teljesítményt. Az SQL Server és az Azure SQL esetében például használhatja a lekérdezéstárat, mely rögzíti a korábban végrehajtott lekérdezéseket és azok futásidejének statisztikai adatait. 
- 
+Ha DirectQueryt vagy élő kapcsolatot használ, akkor amikor a felhasználók megnyitnak egy Power BI-jelentést, a Power BI valós időben küld lekérdezéseket az alapul szolgáló adatforrásnak. A jelentés csak azután jelenik meg, hogy az adatforrás visszaadta a kért adatokat. Emiatt a jelentés teljesítménye ilyen esetekben nagyban függ az alapul szolgáló adatforrás teljesítményétől.
+
+Ezekben az esetekben fontos tisztában lennie azzal, hogy milyen teljesítményt nyújt az alapul szolgáló adatforrás. A különböző adatforrások esetében különböző eszközökkel tudja felmérni a teljesítményt. Az SQL Server és az Azure SQL esetében például használhatja a lekérdezéstárat, mely rögzíti a korábban végrehajtott lekérdezéseket és azok futásidejének statisztikai adatait.
+
 Javasolt, hogy a DirectQueryt és élő kapcsolatokat használó Power BI-jelentések üzembe helyezésekor próbálja ki a Power BI Desktop alkalmazásban azokat a műveleteket, amelyeket a végfelhasználók végre fognak hajtani. Ha a jelentés túlzottan lassan tölt be a Power BI Desktop alkalmazásban, akkor szinte biztosan lassan fog betöltődni a szolgáltatásban is a végfelhasználóknak. 
  
 ## <a name="directquery-best-practices"></a>Ajánlott eljárások a DirectQuery használatához 
