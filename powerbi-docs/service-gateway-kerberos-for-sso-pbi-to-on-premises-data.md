@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/09/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 402a39ef9e52fe61d80940a5050997ba19930209
-ms.sourcegitcommit: 5eb8632f653b9ea4f33a780fd360e75bbdf53b13
+ms.openlocfilehash: bf5120b1c4d787dd13e21245b234207123221fc4
+ms.sourcegitcommit: 9d6f37fd32b965592bd7b108dea87b8e53b11334
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "36964837"
+ms.lasthandoff: 08/18/2018
+ms.locfileid: "40257225"
 ---
 # <a name="use-kerberos-for-sso-single-sign-on-from-power-bi-to-on-premises-data-sources"></a>Kerberos használata egyszeri bejelentkezésre (SSO) a Power BI-ból a helyszíni adatforrásokba
 Ha a helyszíni adatátjárót konfigurálja a Kerberosszal, zökkenőmentes egyszeri bejelentkezési kapcsolatot érhet el, amely lehetővé teszi a Power BI-jelentések és -irányítópultok frissítését a helyszíni adatokból. A helyszíni adatátjáró segíti az egyszeri bejelentkezést (SSO) a DirectQuery használatakor, amellyel a helyszíni adatforrásokhoz kapcsolódik.
@@ -51,9 +51,7 @@ További információk a lépésekről:
    - A felhasználó megszemélyesítése és az adatbázishoz való kapcsolódás csak akkor sikeres, ha az átjáró szolgáltatásfiókja tartományi fiók (vagy szolgáltatási SID), és ha a Kerberos által korlátozott delegálás konfigurálva volt az adatbázishoz, hogy elfogadja a Kerberos-jegyeket az átjáró szolgáltatási fióktól.  
    
    > [!NOTE]
-   > A szolgáltatás biztonsági azonosítójával kapcsolatban, ha az AAD DirSync/Connect konfigurálva van és a felhasználói fiókok szinkronizálva vannak, az átjárószolgáltatásnak nem kell helyi AD-kereséseket végrehajtania futásidőben, és használhatja a helyi szolgáltatási SID-et (azaz nincs szükség tartományi fiókra) az átjáró szolgáltatáshoz.  A Kerberos által korlátozott delegálás cikkben ismertetett konfigurációs lépései ugyanezek (csak a tartományi fiók helyett a szolgáltatási SID alapján kell alkalmazni).
-   > 
-   > 
+   > A szolgáltatási SID-del kapcsolatban, ha az AAD DirSync/Connect konfigurálva van és a felhasználói fiókok szinkronizálva vannak, az átjárószolgáltatásnak nem kell helyi AD-kereséseket végrehajtania futásidőben, és használhatja a helyi szolgáltatási SID-et (azaz nincs szükség tartományi fiókra) az átjáró szolgáltatáshoz. A Kerberos által korlátozott delegálás cikkben ismertetett konfigurációs lépések ugyanazok, mint ez a konfiguráció (csak a tartományi fiók helyett az átjáró számítógép-objektumát kell Active Directoryban alkalmazni).
 
 
 > [!NOTE]

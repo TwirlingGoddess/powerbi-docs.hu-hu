@@ -2,22 +2,23 @@
 title: Egyéni vizualizációk a Power BI-ban
 description: Egyéni vizualizációk a Power BI-ban
 author: markingmyname
+ms.author: maghan
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
 ms.date: 02/06/2018
-ms.author: maghan
 LocalizationGroup: Visualizations
-ms.openlocfilehash: d8c3a33a3ae6166d33ea7a613917616613b84696
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 872f0c556dd995c20d461d9f4969b7fa00f80571
+ms.sourcegitcommit: 8990028a348b642ba5c96f001fe3a4280f0166ee
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34721455"
+ms.lasthandoff: 08/14/2018
+ms.locfileid: "40257256"
 ---
 # <a name="custom-visuals-in-power-bi"></a>Egyéni vizualizációk a Power BI-ban
+
 Power BI-jelentések létrehozása vagy szerkesztése során számos különböző vizualizációtípus használatára van lehetősége. Ezek a vizualizációk a **Vizualizációk** ablaktáblában láthatók. A Power BI Desktop letöltésekor vagy a Power BI szolgáltatás (app.powerbi.com) megnyitásakor a vizualizációk egy készlete azonnal elérhető.
 
 ![](media/power-bi-custom-visuals/power-bi-visualizations.png)
@@ -33,16 +34,14 @@ Az egyéni vizualizációk háromféle üzembe helyezési csatornán jelenhetnek
 
 ## <a name="custom-visual-files"></a>Egyéni vizualizációfájlok
 
-Az egyéni vizualizációk olyan csomagok, amelyek a nekik szolgáltatott adatok rendereléséhez szükséges kódot tartalmazzák. Egyéni vizualizációt bárki létrehozhat, valamint becsomagolhatja azt egy .pbiviz fájlként, amelyet aztán egy Power BI-jelentésbe importálhat.
+Az egyéni vizualizációk olyan csomagok, amelyek a nekik szolgáltatott adatok rendereléséhez szükséges kódot tartalmazzák. Egyéni vizualizációt bárki létrehozhat, valamint becsomagolhatja azt `.pbiviz`-fájlként, amelyet aztán egy Power BI-jelentésbe importálhat.
 
 > [!WARNING]
 > Az egyéni vizualizációk biztonsági vagy adatvédelmi kockázatot jelentő kódokat tartalmazhatnak, ezért az a jelentésbe való importálás előtt győződjön meg arról, hogy megbízható a vizualizáció szerzője és forrása.
-> 
-> 
 
 ## <a name="organization-visuals"></a>Szervezeti vizualizációk
 
-A Power BI-rendszergazdák egyéni vizualizációkat helyezhetnek üzembe a cégnél, a jelentéskészítők így könnyen felfedezhetik és használhatják a rendszergazda által jóváhagyott vizualizációkat. A rendszergazdák így konkrét egyéni vizualizációkat helyezhetnek üzembe a cégnél, valamint könnyen kezelhetik (frissíthetik, letilthatják vagy engedélyezhetik) őket. A jelentéskészítők pedig könnyen felfedezhetnek a cég számára egyedi vizualizációkat, amelyek frissítéséhez zökkenőmentes támogatást is kapnak.
+A Power BI-rendszergazdák egyéni vizualizációkat helyezhetnek üzembe a cégnél, a jelentéskészítők így könnyen felfedezhetik és használhatják a rendszergazda által jóváhagyott vizualizációkat. A rendszergazdák így konkrét egyéni vizualizációkat helyezhetnek üzembe a cégnél, valamint könnyen kezelhetik (pl. frissíthetik, letilthatják vagy engedélyezhetik) őket. A jelentéskészítők pedig könnyen felfedezhetnek a cég számára egyedi vizualizációkat, amelyek frissítéséhez zökkenőmentes támogatást is kapnak.
 
 További információt a szervezeti egyéni vizualizációkról [a szervezeti vizualizációkról szóló cikkekben](power-bi-custom-visuals-organization.md) találhat.
 
@@ -59,7 +58,7 @@ A minősített egyéni vizualizációk listájának megtekintéséhez vagy sajá
 
 Ön olyan webfejlesztő, aki szeretne saját vizualizációkat létrehozni, és hozzáadni azokat az AppSource-hoz? A [fejlesztői eszközöket ismertető](https://docs.microsoft.com/power-bi/service-custom-visuals-getting-started-with-developer-tools) rész megtekintésével megtudhatja, hogyan [tehet közzé egyéni vizualizációkat az AppSource-on](https://appsource.microsoft.com/en-us/marketplace/apps?product=power-bi-visuals).
 
-### <a name="import-a-custom-visuals-from-a-file"></a>Egyéni vizualizáció importálása egy fájlból
+### <a name="import-a-custom-visual-from-a-file"></a>Egyéni vizualizáció importálása fájlból
 
 1. Válassza a Vizualizációk ablaktábla alján található, három pontot ábrázoló gombot.
 
@@ -69,7 +68,7 @@ A minősített egyéni vizualizációk listájának megtekintéséhez vagy sajá
 
     ![](media/power-bi-custom-visuals/power-bi-custom-visual-import-from-file.png)
 
-3. A Fájl megnyitása menüben válassza ki az importálni kívánt .pbiviz-fájlt, majd válassza a Megnyitás lehetőséget. Az egyéni vizualizáció ikonja ekkor megjelenik a Vizualizációk ablaktábla alján, és már használhatja is a jelentésben.
+3. A Fájl megnyitása menüben válassza ki az importálni kívánt `.pbiviz`-fájlt, majd válassza a Megnyitás lehetőséget. Az egyéni vizualizáció ikonja ekkor megjelenik a Vizualizációk ablaktábla alján, és már használhatja is a jelentésben.
 
     ![](media/power-bi-custom-visuals/power-bi-custom-visual-imported.png)
 
@@ -94,8 +93,9 @@ A minősített egyéni vizualizációk listájának megtekintéséhez vagy sajá
 5. Az egyéni vizualizáció importálásához válassza a **Hozzáadás** parancsot. Az egyéni vizualizáció ikonja ekkor megjelenik a Vizualizációk ablaktábla alján, és már használhatja is a jelentésben.
 
     ![](media/power-bi-custom-visuals/power-bi-visual-org-05.png)
- 
+
 ## <a name="download-or-import-custom-visuals-from-microsoft-appsource"></a>Egyéni vizualizáció letöltése vagy importálása a Microsoft AppSource-ról
+
 Az egyéni vizualizációk letöltésének és importálásának két módja van. Megteheti ezt a Power BI-on belülről és az AppSource webhelyről.
 
 ### <a name="import-custom-visuals-from-within-power-bi"></a>Egyéni vizualizációk importálása a Power BI-on belül
@@ -138,11 +138,11 @@ Az egyéni vizualizációk letöltésének és importálásának két módja van
 
     ![](media/power-bi-custom-visuals/power-bi-appsource-visuals.png)
 
-3. Az AppSource minden egyes egyéni vizualizációhoz megjelenít egy csempét.  Minden csempe tartalmaz egy képernyőképet az egyéni vizualizációról, illetve egy rövid leírást és egy letöltési hivatkozást. További részletekért kattintson a csempére. 
+3. Az AppSource minden egyes egyéni vizualizációhoz megjelenít egy csempét.  Minden csempe tartalmaz egy képernyőképet az egyéni vizualizációról, illetve egy rövid leírást és egy letöltési hivatkozást. További részletekért kattintson a csempére.
 
     ![](media/power-bi-custom-visuals/powerbi-custom-select-visual.png)
 
-4. A részletek lapon többek között képernyőképeket, videókat és részletes leírásokat tekinthet meg. Az egyéni vizualizáció letöltéséhez kattintson a **Letöltés most** hivatkozásra, és fogadja el a használati feltételeket. 
+4. A részletek lapon többek között képernyőképeket, videókat és részletes leírásokat tekinthet meg. Az egyéni vizualizáció letöltéséhez kattintson a **Letöltés most** hivatkozásra, és fogadja el a használati feltételeket.
 
     ![](media/power-bi-custom-visuals/power-bi-appsource-get.png)
 
@@ -156,9 +156,9 @@ Az egyéni vizualizációk letöltésének és importálásának két módja van
 
     ![](media/power-bi-custom-visuals/powerbi-custom-try-sample.png)
 
-6. Mentse a .pbiviz-fájlt, majd nyissa meg a Power BI-t.
+6. Mentse a „.pbiviz”-fájlt, majd nyissa meg a Power BI-t.
 
-7. Importálja a .pbiviz-fájlt a jelentésbe (lásd a fenti,[Egyéni vizualizáció importálása egy fájlból](#import-a-custom-visuals-from-a-file) című szakaszt)
+7. Importálja a „.pbiviz”-fájlt a jelentésbe (lásd a fenti,[Egyéni vizualizáció importálása egy fájlból](#import-a-custom-visuals-from-a-file) című szakaszt)
 
 ## <a name="considerations-and-troubleshooting"></a>Megfontolandó szempontok és hibaelhárítás
 

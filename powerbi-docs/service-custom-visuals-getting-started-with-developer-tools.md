@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 11/30/2017
 ms.author: maghan
-ms.openlocfilehash: a9663951035a697a9fb1f8732d2ce418950078f4
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: 0d165505981f841c7dfe9688c7a95cea3b6777c3
+ms.sourcegitcommit: 8990028a348b642ba5c96f001fe3a4280f0166ee
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37600379"
+ms.lasthandoff: 08/14/2018
+ms.locfileid: "40257235"
 ---
 # <a name="use-developer-tools-to-create-custom-visuals"></a>Egyéni vizualizációk létrehozása fejlesztőeszközökkel
 Egyéni vizualizációk segítségével megfelelhet a felhasználók igényeinek, és igazodhat saját alkalmazásának felületéhez. Cikkünk bemutatja, hogy miképpen hozhat létre egyéni Power BI-vizualizációt a fejlesztőeszközökkel.
@@ -178,10 +178,10 @@ Most hozzáláthat a vizualizáció fejlesztéséhez.
 A következő paranccsal hozhatja létre egy új vizualizáció projektjét.
 
 ```
-pbiviz new My Visual name
+pbiviz new MyVisualName
 ```
 
-A *My Visual Name* helyére azt írja, ahogyan el szeretné nevezni a vizualizációt. Ez később megváltoztatható a generált `pbiviz.json` fájl `name` és `displayName` mezőjének módosításával.
+A *MyVisualName* helyére azt írja, ahogyan el szeretné nevezni a vizualizációt. Ez később megváltoztatható a generált `pbiviz.json` fájl `name` és `displayName` mezőjének módosításával.
 
 Ez a parancs egy új mappát hoz létre abban a könyvtárban, ahol futtatta. Ezenkívül generálja a vizualizáció alapszintű kiindulási sablonját. A parancs befejeződése után megnyithatja a könyvtárat, és tetszőleges szerkesztőeszközzel elkezdhet dolgozni a vizualizáción.
 

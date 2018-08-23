@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/27/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: f9c6d161149a4c862636a13ad88d3c43f2dbcd8a
-ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
+ms.openlocfilehash: cbec15b472e6cfad6134cc48970977132d61dd36
+ms.sourcegitcommit: 8990028a348b642ba5c96f001fe3a4280f0166ee
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39329311"
+ms.lasthandoff: 08/14/2018
+ms.locfileid: "40257347"
 ---
 # <a name="using-analysis-services-tabular-data-in-power-bi-desktop"></a>Az Analysis Services táblázatos adatainak használata a Power BI Desktopban
 A Power BI Desktopban kétféleképpen érheti el és kérheti le az adatokat az SQL Server Analysis Services táblázatos modelljeiből: élő kapcsolaton keresztüli feltárással vagy az elemek kiválasztásával és a Power BI Desktopba történő importálásával.
@@ -24,7 +24,9 @@ Lássuk mindezt közelebbről.
 
 **Feltárás élő kapcsolaton keresztül** – Élő kapcsolat használata esetén a táblázatos modellben vagy perspektívában lévő elemek, például a táblák, oszlopok és mértékek a Power BI Desktop Mezők listájában jelennek meg. A Power BI Desktop fejlett vizualizáció és jelentéskészítő eszközeivel új, interaktív módokon tárhatja fel a táblázatos modellek részleteit.
 
-Élő kapcsolat esetén a táblázatos modell adatait a rendszer nem importálja a Power BI Desktopba. Minden alkalommal, amikor használ egy vizualizációt, a Power BI Desktop lekérdezi a táblázatos modellt, és kiszámítja a megjelenített eredményeket. Az adatoknak mindig a legfrissebb verziója érhető el. Vegye figyelembe, hogy a táblázatos modellek rendkívül biztonságosak. A Power BI Desktopban megjelenő elemek a csatlakoztatott táblázatos modellre vonatkozó engedélyektől függnek.
+Élő kapcsolat esetén a táblázatos modell adatait a rendszer nem importálja a Power BI Desktopba. Minden alkalommal, amikor használ egy vizualizációt, a Power BI Desktop lekérdezi a táblázatos modellt, és kiszámítja a megjelenített eredményeket. Mindig a táblázatos modellben elérhető legfrissebb adatokat látja az utolsó feldolgozási időpontból vagy a táblázatos modellben elérhető közvetlen lekérdezési táblákból. 
+
+Vegye figyelembe, hogy a táblázatos modellek rendkívül biztonságosak. A Power BI Desktopban megjelenő elemek a csatlakoztatott táblázatos modellre vonatkozó engedélyektől függnek.
 
 A Power BI Desktopban létrehozott dinamikus jelentéseket másokkal is megoszthatja, ha közzéteszi őket a Power BI-webhelyén. Ha egy olyan Power BI Desktop-fájlt tesz közzé a Power BI-webhelyén, amelyet élő kapcsolat köt egy táblázatos modellhez, a rendszergazdának egy helyszíni adatátjárót kell telepítenie és konfigurálnia. További tudnivalókért lásd a [helyszíni adatátjárókkal](service-gateway-onprem.md) foglalkozó témakört.
 

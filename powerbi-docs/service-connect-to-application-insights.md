@@ -7,15 +7,15 @@ ms.reviewer: maggiesMSFT
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/16/2017
+ms.date: 08/10/2018
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 6ccf112a78e69e006a4ca3d6e8a7cd372adf5f05
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 3c1000eb48cfb53f5838f19f6c0ece4403e9d3ba
+ms.sourcegitcommit: 126e5eca8bfab6273581dabd7603df88be755240
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34244249"
+ms.lasthandoff: 08/11/2018
+ms.locfileid: "40257083"
 ---
 # <a name="connect-to-application-insights-with-power-bi"></a>Csatlakozás az Application Insightshoz Power BI-jal
 A Power BI használatával nagyszerű egyéni irányítópultokat hozhat létre az [Application Insights](https://azure.microsoft.com/documentation/articles/app-insights-overview/) telemetriai adataiból. Alkalmazásai telemetriai adatait újszerű módokon jelenítheti meg. Több alkalmazás vagy szolgáltatás mutatóit egyetlen irányítópulton egyesítheti. Az Application Insights-hoz készült Power BI tartalomcsomagnak ez az első kiadása. Olyan általánosan elterjedt, használati metrikákkal kapcsolatos widgeteket tartalmaz, mint például az aktív felhasználók száma, oldalmegtekintések, munkamenetek, böngésző- és operációsrendszer-verziók, valamint a felhasználók földrajzi eloszlása egy térképen.
@@ -23,9 +23,9 @@ A Power BI használatával nagyszerű egyéni irányítópultokat hozhat létre 
 Csatlakozzon a [Power BI-hoz készített Application Insights tartalomcsomaghoz](https://app.powerbi.com/getdata/services/application-insights).
 
 >[!NOTE]
->Ahhoz, hogy csatlakozni tudjon, hozzáféréssel kell rendelkeznie az alkalmazáshoz tartozó Application Insights panelhez az Azure Betekintő portálon. A követelményekről alább talál további információt.
+>Ez az integrációs mód már **elavult**. Ha többet szeretne megtudni az Application Insights Power BI-hoz való csatlakoztatásáról, használja az [elemzési lekérdezés exportálása funkciót](https://docs.microsoft.com/azure/application-insights/app-insights-export-power-bi#export-analytics-queries).
 
-## <a name="how-to-connect"></a>A csatlakozás menete
+## <a name="how-to-connect"></a>Csatlakozás
 1. Kattintson az **Adatok lekérése** elemre a bal oldalon lévő navigációs ablaktábla alján.
    
     ![Adatok lekérése gomb](media/service-connect-to-application-insights/pbi_getdata.png)

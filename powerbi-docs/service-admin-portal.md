@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-admin
 ms.topic: conceptual
-ms.date: 04/02/2018
+ms.date: 08/15/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: e2b61f84b459d3b14c2cd066e0261dcdb1b8a5ef
-ms.sourcegitcommit: 5eb8632f653b9ea4f33a780fd360e75bbdf53b13
+ms.openlocfilehash: db77e3e7421074383f67bffad318e6f7f4c3df28
+ms.sourcegitcommit: 52278d8e0c23ae5eaf46b10a6a2f1fb071a0f1cc
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "36965504"
+ms.lasthandoff: 08/16/2018
+ms.locfileid: "40257087"
 ---
 # <a name="power-bi-admin-portal"></a>Power BI felügyeleti portál
 
@@ -100,36 +100,37 @@ Az auditnaplókkal kapcsolatos további információ: [A Power BI-naplózás has
 
 A felügyeleti portál negyedik lapja a **Bérlői beállítások**. A Bérlői beállítások használatával hatékonyabban lehet szabályozni, hogy mely funkciók legyenek elérhetők a munkahelyen. Ha aggályai vannak a bizalmas adatokkal kapcsolatban, a funkciók némelyike esetlegesen nem megfelelő a munkahely számára, vagy csak egy adott funkciót szeretne engedélyezni egy adott csoportnak. Ha ezekről van szó, kikapcsolhatja az adott funkciót a bérlőn.
 
-A felhasználónkénti adatok például alapértelmezés szerint engedélyezve vannak a használati metrikákhoz, a tartalomkészítői fiókadatok pedig szerepelnek a metrikák jelentéseiben. Ha ezt az információt nem szeretné belefoglalni egyes felhasználók esetében, tiltsa le a funkciót megadott biztonsági csoportok, vagy a teljes szervezet számára. A fiókadatok ekkor *névtelenként* jelennek meg a jelentésben.
-
 ![](media/service-admin-portal/powerbi-admin-tenant-settings.png)
 
 > [!NOTE]
 > A beállítás érvénybe léptetése a bérlő összes felhasználója számára akár 10 percet is igénybe vehet.
 
-A megadott beállítások alapján a beállításoknak három állapota lehet.
+A beállítások állapota háromféle lehet:
 
-### <a name="disabled-for-the-entire-organization"></a>Az egész munkahelyen sehol nem engedélyezett
+* **Az egész munkahelyen sehol nem engedélyezett**: Letilthat egy funkciót, így a felhasználók nem fogják tudni használni azt.
 
-Letilthat egy funkciót, így a felhasználók nem fogják tudni használni azt.
+    ![](media/service-admin-portal/powerbi-admin-tenant-settings-disabled.png)
 
-![](media/service-admin-portal/powerbi-admin-tenant-settings-disabled.png)
+* **Az egész munkahelyen mindenhol engedélyezett**: Engedélyezhet egy funkciót az egész munkahelyen, így ahhoz minden felhasználó hozzáférhet.
 
-### <a name="enabled-for-the-entire-organization"></a>Az egész munkahelyen mindenhol engedélyezett
+    ![](media/service-admin-portal/powerbi-admin-tenant-settings-enabled.png)
 
-Engedélyezhet egy funkciót az egész munkahelyen, így minden felhasználó hozzáférhet ahhoz.
+* **A munkahely egy alegységénél engedélyezett**: A funkciókat a munkahely egy adott alegységénél is engedélyezheti. Erre különböző módokon kerülhet sor. Engedélyezhet egy funkciót az egész munkahelyen a felhasználók egy adott csoportja kivételével.
 
-![](media/service-admin-portal/powerbi-admin-tenant-settings-enabled.png)
+    ![](media/service-admin-portal/powerbi-admin-tenant-settings-enabled-except.png)
 
-### <a name="enabled-for-a-subset-of-the-organization"></a>A munkahely egy alegységénél engedélyezett
+    Engedélyezhet egy funkciót a felhasználók egy adott csoportjában, és letilthatja azt a felhasználók egy másik csoportjában. Így garantálható, hogy egyes felhasználók még akkor sem férhetnek hozzá az adott funkcióhoz, ha egyébként benne vannak az engedélyezett csoportban.
 
-A funkciókat a munkahely egy adott alegységénél is engedélyezheti. Erre különböző módokon kerülhet sor. Engedélyezhet egy funkciót az egész munkahelyen a felhasználók egy adott csoportja kivételével.
+    ![](media/service-admin-portal/powerbi-admin-tenant-settings-enabled-except2.png)
 
-![](media/service-admin-portal/powerbi-admin-tenant-settings-enabled-except.png)
+A következő néhány bekezdés a bérlői beállítások különböző típusainak áttekintését nyújtja.
 
-Engedélyezhet egy funkciót a felhasználók egy adott csoportjában, és letilthatja azt a felhasználók egy másik csoportjában. Így garantálható, hogy egyes felhasználók még akkor sem férhetnek hozzá az adott funkcióhoz, ha egyébként benne vannak az engedélyezett csoportban.
+## <a name="workspace-settings"></a>Munkaterület beállításai
 
-![](media/service-admin-portal/powerbi-admin-tenant-settings-enabled-except2.png)
+### <a name="create-workspaces-preview"></a>Munkaterületek létrehozása (előzetes verzió)
+A vállalat felhasználói alkalmazás-munkaterületeket hozhatnak létre az irányítópultok, jelentések és egyéb tartalmak közös használatához.
+
+További információk: [Új munkaterületek létrehozása](service-create-the-new-workspaces.md).
 
 ## <a name="export-and-sharing-settings"></a>Exportálási és megosztási beállítások
 
@@ -244,7 +245,7 @@ A munkahelyi felhasználók R-szkriptekkel készült vizualizációkat használh
 > [!NOTE]
 > Ez a beállítás az egész munkahelyre vonatkozik, és nem lehet korlátozni meghatározott csoportokra.
 
-## <a name="audit-settings"></a>Naplózási beállítások
+## <a name="audit-and-usage-settings"></a>Naplózási és használati beállítások
 
 ### <a name="create-audit-logs-for-internal-activity-auditing-and-compliance"></a>Auditnaplók létrehozása a belső tevékenységek vizsgálatához és a megfelelőség biztosításához
 
@@ -254,6 +255,25 @@ Az auditnapló bejegyzéseinek rögzítéséhez ezt a beállítást kell bekapcs
 
 > [!NOTE]
 > Ez a beállítás az egész munkahelyre vonatkozik, és nem lehet korlátozni meghatározott csoportokra.
+
+### <a name="usage-metrics-for-content-creators"></a>Használati metrikák tartalomkészítők számára
+A szervezet felhasználói láthatják az általuk létrehozott jelentések és irányítópultok metrikáit. [További információ](service-usage-metrics.md).
+
+A beállítást **Engedélyezve** értékre állíthatja, és megadhatja, hogy ki láthat használati metrikákat (a teljes szervezet vagy adott biztonsági csoportok).
+
+> [!NOTE]
+> Ne feledje, hogy bérlői beállítások módosításának érvénybe lépése időbe telhet.
+
+### <a name="per-user-data-in-usage-metrics-for-content-creators"></a>Felhasználónkénti adatok a használati metrikákban a tartalmak szerzői számára
+A tartalmak szerzőinek használati metrikáiban szerepel a tartalmakhoz hozzáférő felhasználók megjelenítendő neve és e-mail-címe. [További információ](service-usage-metrics.md).
+
+A beállítást **Engedélyezve** értékre állíthatja, és megadhatja, hogy ki láthatja a megjelenített nevet és az e-mail-címet a használati metrikákban (a teljes szervezet vagy adott biztonsági csoportok).
+
+A felhasználónkénti adatok alapértelmezés szerint engedélyezve vannak a használati metrikákhoz, a tartalomkészítői fiókadatok pedig szerepelnek a metrikák jelentéseiben. Ha ezt az információt nem szeretné belefoglalni egyes felhasználók esetében, tiltsa le a funkciót megadott biztonsági csoportok, vagy a teljes szervezet számára. A fiókadatok ekkor *névtelenként* jelennek meg a jelentésben.
+
+> [!NOTE]
+> Ne feledje, hogy bérlői beállítások módosításának érvénybe lépése időbe telhet.
+
 
 ## <a name="dashboard-settings"></a>Irányítópult beállításai
 
@@ -270,9 +290,9 @@ A munkahelyi felhasználók a biztonsági szint besorolását jelző címkékkel
 
 A munkahelyi felhasználók beágyazhatnak Power BI-irányítópultokat és -jelentéseket szolgáltatott szoftveres (SaaS-) alkalmazásokba. A beállítás kikapcsolásával megakadályozhatja, hogy a felhasználók a REST API-k használatával Power BI-tartalmakat ágyazzanak be saját alkalmazásukba.
 
-## <a name="premium-settings"></a>Premium-beállítások
+## <a name="capacity-settings"></a>Kapacitásbeállítások
 
-A Premium-beállítások lapon bármely Power BI Premium-kapacitás felügyelhető, amelyet a munkahely megvásárolt. A munkahely bármely felhasználója láthatja a Premium-beállítások lapot, de annak tartalma csak akkor jelenik meg, ha az adott felhasználó **kapacitás-rendszergazda**, vagy rendelkezik a szükséges engedélyekkel. Ha a felhasználó nem rendelkezik ilyen engedéllyel, az alábbi üzenet jelenik meg.
+A Kapacitásbeállítások lapon bármely Power BI Premium-kapacitás felügyelhető, amelyet a munkahely megvásárolt. A munkahely bármely felhasználója láthatja a Premium-beállítások lapot, de annak tartalma csak akkor jelenik meg, ha az adott felhasználó **kapacitás-rendszergazda**, vagy rendelkezik a szükséges engedélyekkel. Ha a felhasználó nem rendelkezik ilyen engedéllyel, az alábbi üzenet jelenik meg.
 
 ![](media/service-admin-portal/premium-settings-no-access.png "Nincs hozzáférés a Premium-beállításokhoz")
 

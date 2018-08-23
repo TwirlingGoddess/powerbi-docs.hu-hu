@@ -7,15 +7,15 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 08/07/2018
+ms.date: 08/17/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 36343b4db0481ea61fbfac1c791aa84760ee2c77
-ms.sourcegitcommit: 2356dc8e5488438a43ba7f0ba9a55a2372669b47
+ms.openlocfilehash: 271859dbc13e909d255e4287ae14e66b2d85724f
+ms.sourcegitcommit: 23bb84cd3e80ba7f03d559e48db322774d1a6fe0
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "39624764"
+ms.lasthandoff: 08/20/2018
+ms.locfileid: "40257274"
 ---
 # <a name="create-the-new-workspaces-preview-in-power-bi"></a>Új munkaterületek létrehozása a Power BI-ban (előzetes verzió)
 
@@ -112,8 +112,8 @@ Az új munkaterületek három szerepkört kínálnak: rendszergazdák, tagok és
 **A tagok a következő műveleteket végezhetik el:** 
 
 - Tagokat vagy alacsonyabb jogosultsággal rendelkezőket adhatnak hozzá.
-- Alkalmazásokat tehetnek közzé és frissíthetnek.
-- Megoszthatnak elemeket és alkalmazásokat.
+- Alkalmazást tehetnek közzé és frissíthetnek.
+- Elemeket vagy alkalmazásokat oszthatnak meg.
 - Engedélyezhetik másoknak az elemek újbóli megosztását.
 - Minden, a közreműködők számára elérhető műveletet elvégezhetnek.
 
@@ -129,7 +129,7 @@ Az új munkaterületek három szerepkört kínálnak: rendszergazdák, tagok és
 
 ## <a name="distribute-an-app"></a>Alkalmazások terjesztése
 
-Ha a tartalom elkészült, kiválaszthatja a közzétenni kívánt irányítópultokat és jelentéseket, amelyeket közzétehet *alkalmazásként*. A munkatársai különböző módokon férhetnek hozzá az alkalmazásokhoz. Ha a Power BI rendszergazda engedélyezi, automatikusan telepítheti őket a munkatársai Power BI-fiókjába. Ha nem, megkereshetik és telepíthetik az alkalmazást a Microsoft AppSource-ból, vagy küldhet nekik egy közvetlen hivatkozást. A rendszer automatikusan frissíti az alkalmazásokat, és szabályozható, milyen gyakran frissüljenek az adatok. További információ: [Irányítópultokból és jelentésekből álló alkalmazások közzététele a Power BI-ban](service-create-distribute-apps.md).
+Ha a tartalom elkészült, kiválaszthatja a közzétenni kívánt irányítópultokat és jelentéseket, amelyeket közzétehet *alkalmazásként*. Minden munkaterületről létrehozhat egy alkalmazást. A munkatársai különböző módokon férhetnek hozzá az alkalmazáshoz. Ha a Power BI rendszergazda engedélyezi, automatikusan telepítheti az alkalmazást a munkatársai Power BI-fiókjába. Ha nem, megkereshetik az alkalmazást a Microsoft AppSource-ban, és telepíthetik, vagy küldhet nekik egy közvetlen hivatkozást. A rendszer automatikusan frissíti az alkalmazásokat, és szabályozható, milyen gyakran frissüljenek az adatok. További információ: [Irányítópultokból és jelentésekből álló alkalmazások közzététele a Power BI-ban](service-create-distribute-apps.md).
 
 ## <a name="convert-old-app-workspaces-to-new-app-workspaces"></a>Régi alkalmazás-munkaterületek konvertálása új alkalmazás-munkaterületekké
 
@@ -161,7 +161,7 @@ Az új, előzetes verziós alkalmazás-munkaterületek egyes funkcióit még fej
 A jelenlegi alkalmazás-munkaterületek egyes funkciói másképp működnek, mint az új alkalmazás-munkaterületeké. Ezek a különbségek szándékosak, és az ügyfelek visszajelzésein alapulnak, segítségükkel pedig rugalmasabban működhet együtt másokkal a munkaterületeken:
 
 - A tagok újbóli megosztási jogosultsága: ennek helyét a Közreműködő szerepkör vette át
-- Csak olvasható munkaterületek: ennek helyét egy jövőbeli Megtekintő szerepkör veszi át, amellyel írásvédett hozzáférés adható egy munkaterület tartalmához.
+- Csak olvasható munkaterületek: Ahelyett, hogy csak olvasási hozzáférést adna a felhasználóknak, hozzárendelheti őket a soron következő megtekintő szerepkörhöz, amely hasonló, csak olvasási hozzáférést biztosít a munkaterületen lévő tartalomhoz.
 
 ## <a name="known-issues"></a>Ismert problémák
 

@@ -9,12 +9,12 @@ ms.component: powerbi-report-server
 ms.topic: conceptual
 ms.date: 03/31/2018
 ms.author: jtarquino
-ms.openlocfilehash: e0f90ccade44960cf24fd133b4caf46280b4a511
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: ec97676fc043f9d8bd014465cc1fd2c0ffcca423
+ms.sourcegitcommit: 52278d8e0c23ae5eaf46b10a6a2f1fb071a0f1cc
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34482130"
+ms.lasthandoff: 08/16/2018
+ms.locfileid: "40256413"
 ---
 # <a name="changelog-for-power-bi-report-server"></a>A Power BI jelentéskészítő kiszolgáló változásnaplója
 
@@ -22,6 +22,18 @@ Ez a változásnapló a Power BI jelentéskészítő kiszolgálóra vonatkozik, 
 
 Az új funkciókról az [A Power BI jelentéskészítő kiszolgáló újdonságai](whats-new.md) című cikkből tájékozódhat. 
 
+## <a name="august-2018"></a>2018. augusztus
+- **Power BI jelentéskészítő kiszolgáló**
+    - *Verzió: 1.3.6801.38816 (Build 15.0.2.540), Kiadás dátuma: 2018. augusztus 15.*
+        - Funkciók
+            - Már elérhető a Power BI-jelentésekhez a SAP HANA SSO Direct Query Kerberosszal támogatása
+            - Ebben a kiadásban megtalálható a Custom Visual API – 1.13.0-s verzió
+            - Az egyéni vizualizációk visszaváltanak a kiszolgálói API jelenlegi verziójával kompatibilis előző verzióra (ha rendelkezésre áll)
+
+- **Power BI Desktop (a Power BI jelentéskészítő kiszolgálóra optimalizálva)**
+    - *Verzió: 2.61.5192.64 (2018. augusztus), kiadás dátuma: 2018. augusztus 15.*
+        - A Power BI jelentéskészítő kiszolgálóval (2018. augusztus) való kapcsolathoz szükséges módosításokat tartalmaz         
+        
 ## <a name="march-2018"></a>2018. március
 - **Power BI jelentéskészítő kiszolgáló**
     - *Verzió: 1.2.6690.34729 (Build 15.0.2.402), Kiadás dátuma: 2018. április 27.*
