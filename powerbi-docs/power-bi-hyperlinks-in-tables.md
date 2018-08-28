@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/22/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: d696a7492f1295f2e2c9b39088b0eacdb66b15ca
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: be532e428680d9286247f57d81cab2802aea1fe3
+ms.sourcegitcommit: 9a666382484882162690efaed106b82a4bcbf883
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34310176"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "42799045"
 ---
 # <a name="hyperlinks-in-tables"></a>Hivatkozások a táblázatokban
 Ez a témakör azt mutatja be, hogyan hozhatók létre hivatkozások a Power BI Desktopban. A létrehozott hivatkozásokat a Power BI Desktop vagy a Power BI szolgáltatás segítségével adhatja hozzá a jelentések táblázataihoz és a mátrixokhoz. 
@@ -39,8 +39,10 @@ A hivatkozás felvételének menete attól függ, hogy importálta az adatokat, 
     ![](media/power-bi-hyperlinks-in-tables/pbi_data_category.png)
 3. Kattintson a **Webes URL-cím** lehetőségre.
 4. Váltson Jelentés nézetre, majd hozzon létre egy táblázatot vagy mátrixot a Webes URL-cím kategóriába sorolt mező használatával. A hivatkozások kék színnel, aláhúzva jelennek meg.
-   
     ![](media/power-bi-hyperlinks-in-tables/power-bi-table-with-hyperlinks2.png)
+> **FIGYELEM**: Az URL-címeknek a **http://, a https://** vagy a **www** előtaggal kell kezdődniük.
+> 
+>   
 5. Ha nem szeretne hosszú URL-címet megjeleníteni a táblázatban, használhatja helyette a ![](media/power-bi-hyperlinks-in-tables/power-bi-hyperlink-icon.png) hivatkozásikont is. Figyelem: a mátrixokban nem jeleníthet meg ikonokat.
    
    * A diagram aktiválásához kattintson a diagramra.
