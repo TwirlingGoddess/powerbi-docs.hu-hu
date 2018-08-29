@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: maggies
-ms.openlocfilehash: eda7f44c869829564703bda6112177234d3f2d44
-ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
+ms.openlocfilehash: 20bdd4731cd4aad3c6412d1959de3be088a3457a
+ms.sourcegitcommit: ef4bf1439bc5655d1afc7fb97079ea0679e9124b
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "39280133"
+ms.lasthandoff: 08/29/2018
+ms.locfileid: "43151952"
 ---
 # <a name="explore-tiles-in-the-power-bi-mobile-apps"></a>Ismerkedés a Power BI-mobilalkalmazások csempéivel
 A következőkre vonatkozik:
@@ -28,10 +28,6 @@ A csempék az adatokról készült élő, irányítópultra rögzített pillanat
 Ezek a csempék aztán a Power BI mobilalkalmazásban fókusz módban megnyithatók és használhatók. Mindenféle vizualizációt tartalmazó csempe megnyitható, beleértve a Bing- és R-alapúakat is.
 
 ## <a name="tiles-in-the-ios-apps"></a>Csempék az iOS-alkalmazásokban
-> [!NOTE]
-> [iPhone-alkalmazásával képes csempéket hozhat létre](mobile-iphone-app-get-started.md), és mentheti őket az irányítópultjára.
-> 
-> 
 
 1. Nyisson meg egy [irányítópultot az iOS rendszerhez készült mobilalkalmazásban](mobile-apps-view-dashboard.md).
 2. Koppintson egy csempére. Megnyílik fókusz módban, így a csempe adatai könnyebben áttekinthetők és vizsgálhatók. Fókusz módban a következő műveleteket végrehajtására van lehetőség:
@@ -40,7 +36,7 @@ Ezek a csempék aztán a Power BI mobilalkalmazásban fókusz módban megnyithat
    
     ![](media/mobile-tiles-in-the-mobile-apps/power-bi-iphone-line-tile-values.png)
    
-   <em>Ezen a vonaldiagramon a kijelölt érték például az **Idei értékesítések</em>* és a **Tavalyi értékesítések** **augusztusi** értéke.*  
+   *Ezen a vonaldiagramon a kijelölt érték például az **Idei értékesítések** és a **Tavalyi értékesítések** **augusztusi** értéke.*  
    
    Kördiagram esetén egy körcikkre koppintva a diagram felett megjeleníthető a körcikkhez tartozó érték.  
    
@@ -107,7 +103,7 @@ Ezek a csempék aztán a Power BI mobilalkalmazásban fókusz módban megnyithat
    
    ![](media/mobile-tiles-in-the-mobile-apps/pbi_win10ph_bartile0316.png)
    
-   <em>Ezen a sávdiagramon a **Decor</em>* sáv értékei jelennek meg a diagram fölött.*
+   *Ezen a sávdiagramon a **Decor** sáv értékei jelennek meg a diagram fölött.*
    
    A **Teljes képernyő** ikonra ![](media/mobile-tiles-in-the-mobile-apps/power-bi-full-screen-icon.png) koppintva teljes képernyős módban, a navigációs és menüsávok nélkül nyithatja meg a csempét.
    
