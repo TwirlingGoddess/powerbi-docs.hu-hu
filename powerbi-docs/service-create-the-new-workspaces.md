@@ -7,15 +7,15 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 08/17/2018
+ms.date: 08/24/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 271859dbc13e909d255e4287ae14e66b2d85724f
-ms.sourcegitcommit: 23bb84cd3e80ba7f03d559e48db322774d1a6fe0
+ms.openlocfilehash: cde28e7c41a35c3bbc37d0da56313ad7f8698110
+ms.sourcegitcommit: 15b877343540bb7e21f1d5bbd3d6f64e66fa138c
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 08/20/2018
-ms.locfileid: "40257274"
+ms.lasthandoff: 08/24/2018
+ms.locfileid: "42914519"
 ---
 # <a name="create-the-new-workspaces-preview-in-power-bi"></a>Új munkaterületek létrehozása a Power BI-ban (előzetes verzió)
 
@@ -29,12 +29,13 @@ Az előzetes verziójú munkaterületekkel a következőket végezheti el:
 - Office 365-csoport létrehozása nélkül hozhat létre egy Power BI-munkaterületet.
 - Részletesebb munkaterület-szerepköröket használhat, amelyekkel rugalmasabb engedélykezelést érhet el a munkaterületeken.
  
-Amikor létrehoz egy új munkaterületet, nem hoz létre egy mögöttes, társított Office 365-csoportot is. A munkaterület felügyelete kizárólag a Power BI-ban zajlik. Továbbra is hozzáadhat egy Office 365-csoportot a munkaterülethez, ha a felhasználók tartalomhoz való hozzáférését Office 365-csoportokkal szeretné kezelni. Azonban emellett már biztonsági csoportokat és terjesztési listákat is használhat, valamint közvetlenül a Power BI-n belül hozzáadhat egyéni felhasználókat, így rugalmasan kezelheti a munkaterületek hozzáférését.
+Amikor létrehoz egy új munkaterületet, nem hoz létre egy mögöttes, társított Office 365-csoportot is. A munkaterület felügyelete kizárólag a Power BI-ban zajlik. Továbbra is hozzáadhat egy Office 365-csoportot a munkaterülethez, ha a felhasználók tartalomhoz való hozzáférését Office 365-csoportokkal szeretné kezelni. Azonban emellett már biztonsági csoportokat és terjesztési listákat is használhat, valamint közvetlenül a Power BI-on belül hozzáadhat egyéni felhasználókat, így rugalmasan kezelheti a munkaterületek hozzáférését. Mivel a munkaterületek felügyelete most már a Power BI-ban történik, a Power BI rendszergazdái döntik el, hogy a cégen belül ki hozhat létre munkaterületet. További információt a [Power BI felügyeleti portálja cikkben, a Munkaterületek szakaszban](service-admin-portal.md#workspace-settings) talál. 
 
 Felhasználói csoportokat vagy egyéneket tagként, közreműködőként vagy rendszergazdaként adhat hozzá az új munkaterületekhez. A meghatározott szerepkört a felhasználói csoport minden tagja megkapja. Ha egy felhasználó több csoport tagja, a szerepkör által nyújtott legmagasabb szintű engedélyekkel fog rendelkezni.  A különböző szerepkörök ismertetését a cikk későbbi, [Az új munkaterületek szerepkörei](#roles-in-the-new-workspaces) című szakaszában találhatja.
 
 Az alkalmazás-munkaterületekhez adott tagoknak Power BI Pro-licencre van szüksége. A munkaterületen a felhasználók együttműködhetnek az irányítópultokon és jelentéseken, amelyeket a szélesebb közönség vagy akár a teljes vállalat elé szeretne tárni. Ha másokkal is megszeretné osztani a tartalmat a szervezeten belül, rendeljen hozzájuk Power BI Pro-licencet, vagy helyezze a munkaterületet egy Power BI Prémium szintű kapacitásba.
-Mivel ez egy előzetes verziójú funkció, érdemes tudnia a korlátozásokról. A <section link> jelenlegi korlátozásokat a cikk egy későbbi szakaszában ismertetjük. Az új munkaterületekkel újraterveztünk néhány funkciót. A cikk <szakasz hivatkozása> szakaszában megtekintheti a várhatóan maradandó változások ismertetését.
+
+Az új munkaterületekkel újraterveztünk néhány funkciót. A cikk későbbi részében az [Alkalmazás-munkaterület másképpen működő funkciói](#app-workspace-features-that-work-differently) szakaszban megtekintheti a várhatóan maradandó változások ismertetését. Mivel ez egy előzetes verziójú funkció, érdemes tudnia a korlátozásokról. A jelenlegi korlátozásokat a cikk egy későbbi szakaszában, az [Ismert porlémák](#known-issues) részben ismertetjük. 
 
 ## <a name="roll-out-new-app-workspaces"></a>Az új alkalmazás-munkaterületek bevezetése
 
