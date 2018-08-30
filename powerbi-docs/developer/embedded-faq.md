@@ -2,30 +2,30 @@
 title: Gyakori kérdések – Power BI Embedded
 description: Az alábbiakban a Power BI Embeddeddel kapcsolatos gyakori kérdések és válaszok listáját tekintheti át.
 author: markingmyname
-manager: kfile
 ms.author: maghan
+manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
-ms.date: 06/22/2018
-ms.openlocfilehash: ab637be12487029d17d7b1bfa89022dbae9aaa49
-ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
+ms.date: 08/21/2018
+ms.openlocfilehash: 935932e92e5d95ae52957bf1360db8d2232286ad
+ms.sourcegitcommit: dddb6f8d39131febadfd97efa0e0e1d728f4f5ff
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "39415392"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "42702960"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Gyakori kérdések – Power BI Embedded
 
 * Ha bármilyen egyéb kérdése van, [kérdezze meg a Power BI közösségét](http://community.powerbi.com/).
-* Továbbra sem találja a megoldást? Látogasson el a [Power BI támogatási oldalára](https://powerbi.microsoft.com/support/).
+* Továbbra sem találja a megoldást? Keresse fel a [Power BI támogatási oldalát](https://powerbi.microsoft.com/support/).
 
 ## <a name="general"></a>Általános
 
 ### <a name="what-is-power-bi-embedded"></a>Mi az a Power BI Embedded?
 
-A Microsoft Power BI Embedded használatával az alkalmazások fejlesztői lenyűgöző és teljes mértékben interaktív jelentéseket, irányítópultokat és csempéket ágyazhatnak alkalmazásaikba, így nem kell időt és pénzt fordítaniuk arra, hogy az alapokról építsék fel saját vizualizációikat és vezérlőelemeiket.
+A Microsoft Power BI Embedded (PBIE) használatával az alkalmazások fejlesztői lenyűgöző és teljes mértékben interaktív jelentéseket ágyazhatnak alkalmazásaikba, így nem kell időt és pénzt fordítaniuk arra, hogy az alapokról építsék fel saját vizualizációikat és vezérlőelemeiket.
 
 ### <a name="who-is-the-target-audience-for-power-bi-embedded"></a>Ki a Power BI Embedded célközönsége?
 
@@ -70,7 +70,7 @@ Itt látható egy részlet a különbségek listájából, amely mindkét megold
 | Power BI-jelentések használata Embedded-alkalmazásokban | Igen | Igen | Igen |
 | Power BI-jelentések használata SharePointban | Nem | Igen | Igen |
 | Power BI-jelentések használata Dynamicsben | Nem | Igen | Igen |
-| Power BI-jelentések használata Teamsben | Nem | Igen | Igen |
+| Power BI-jelentések használata Teamsben (csak asztali alkalmazások) | Nem | Igen | Igen |
 | Hozzáférés a tartalomhoz INGYENES Power BI-licenccel a Powerbi.com oldalon és a Power BI Mobile-on | Nem | Nem | Igen |
 | Hozzáférés a tartalomhoz INGYENES, MS Office-alkalmazásokba beágyazott Power BI-licenccel | Nem | Igen | Igen |
 
@@ -79,10 +79,10 @@ Itt látható egy részlet a különbségek listájából, amely mindkét megold
 |  |A termékváltozat (Power BI Embedded)  |EM termékváltozat (Power BI Premium)  |P termékváltozat (Power BI Premium)  |
 |---------|---------|---------|---------|
 |Vásárlás     |Azure Portal |Office |Office |
-|Felhasználási módok |* Tartalmak beágyazása saját alkalmazásba |* Tartalmak beágyazása saját alkalmazásba<br>* Tartalom beágyazása más MS Office-alkalmazásokba ([SharePoint](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/), [Teams](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/), [Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard)) |* Tartalmak beágyazása saját alkalmazásba<br>* Tartalom beágyazása más MS Office-alkalmazásokba ([SharePoint](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/), [Teams](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/), [Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard))<br>* Tartalom megosztása Power BI-felhasználókkal a [Power BI szolgáltatásban](https://powerbi.microsoft.com/en-us/)  |
+|Felhasználási módok |* Tartalmak beágyazása saját alkalmazásba |* Tartalmak beágyazása saját alkalmazásba<br>* Tartalom beágyazása más MS Office-alkalmazásokba ([SharePoint](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/), [Teams (csak asztali alkalmazások)](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/), [Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard)) |* Tartalmak beágyazása saját alkalmazásba<br>* Tartalom beágyazása más MS Office-alkalmazásokba ([SharePoint](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/), [Teams (csak asztali alkalmazások)](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/), [Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard))<br>* Tartalom megosztása Power BI-felhasználókkal a [Power BI szolgáltatásban](https://powerbi.microsoft.com/en-us/)  |
 |Számlázás |Óránként |Havonta |Havonta |
 |Kötelezettségvállalás  |Nincs kötelezettségvállalás |Éves  |Havi/Éves |
-|Megkülönböztetés |Az Azure Portalon vagy API-kon keresztül teljes mértékű rugalmasságot tesz lehetővé, vagyis felfelé és lefelé történő méretezhetőséget, illetve az erőforrások felfüggesztését és folytatását  |Tartalmak beágyazására használható a SharePointban vagy a Microsoft Teamsben |Egy kapacitáson belül egyesíti az alkalmazásokba történő beágyazásokat és a Power BI szolgáltatás használatát |
+|Megkülönböztetés |Az Azure Portalon vagy API-kon keresztül teljes mértékű rugalmasságot tesz lehetővé, vagyis felfelé és lefelé történő méretezhetőséget, illetve az erőforrások felfüggesztését és folytatását  |Tartalmak beágyazására használható a SharePointban vagy a Microsoft Teamsben (csak asztali alkalmazások) |Egy kapacitáson belül egyesíti az alkalmazásokba történő beágyazásokat és a Power BI szolgáltatás használatát |
 
 ### <a name="what-are-the-prerequisites-to-create-a-pbie-capacity-in-azure"></a>Milyen feltételekkel hozható létre PBIE-kapacitás az Azure-ban?
 
@@ -126,7 +126,7 @@ A Power BI megköveteli, hogy céges fiókkal jelentkezzen be. A Power BI-ra MSA
 
 ### <a name="can-i-use-apis-to-create--manage-azure-capacities"></a>Használhatok API-kat Azure-képességek létrehozására és kezelésére?
 
-Igen, vannak PowerShell-parancsmagok és ARM API-k, amelyeket használhat PBIE-erőforrások létrehozására és kezelésére.
+Igen, vannak PowerShell-parancsmagok és Azure Resource Manager (ARM) API-k, amelyeket használhat PBIE-erőforrások létrehozására és kezelésére.
 
 * REST API-k – https://docs.microsoft.com/rest/api/power-bi-embedded/
 * PowerShell-parancsmagok – https://docs.microsoft.com/powershell/module/azurerm.powerbiembedded/
@@ -162,7 +162,7 @@ AAD-token beszerzéséhez használhatja az Azure Active Directory valamely hitel
 
 ### <a name="my-application-already-uses-aad-for-user-authentication-how-can-we-use-this-identity-when-authenticating-to-power-bi-in-a-user-owns-data-scenario"></a>Az alkalmazásom már AAD-t használ a felhasználói hitelesítéshez. Hogyan használhatjuk ezt az identitást, a „Felhasználó az adatok tulajdonosa” forgatókönyvek esetében a Power BI-ban való hitelesítésekor? 
 
-Ez egy szokásos, más nevében történő OAuth-hitelesítési folyamat (https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-authentication-scenarios#web-application-to-web-api) Az alkalmazást úgy kell konfigurálni, hogy engedélyt kérjen a PowerBI szolgáltatáshoz (a szükséges hatókörökkel), és ha már rendelkezik felhasználói tokennel az alkalmazáshoz, egyszerűen csak hívnia kell az ADAL API AcquireTokenAsync metódust a felhasználói hozzáférési tokennel, és meg kell adnia a PowerBI erőforrás URL-címét erőforrás-azonosítóként. Tekintse át az alábbi kódrészletet, amely bemutatja ennek módját:
+Ez egy szokásos, más nevében történő OAuth-hitelesítési folyamat (https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-authentication-scenarios#web-application-to-web-api) Az alkalmazást úgy kell konfigurálni, hogy engedélyt kérjen a Power BI szolgáltatáshoz (a szükséges hatókörökkel), és ha már rendelkezik felhasználói tokennel az alkalmazáshoz, egyszerűen csak hívnia kell az ADAL API AcquireTokenAsync metódust a felhasználói hozzáférési tokennel, és meg kell adnia a Power BI-erőforrás URL-címét erőforrás-azonosítóként. Tekintse át az alábbi kódrészletet, amely bemutatja ennek módját:
 
 ```csharp
 var context = new AD.AuthenticationContext(authorityUrl);
@@ -273,7 +273,7 @@ A **Power BI Embedded** megoldás olyan új funkciókkal és képességekkel ren
 
 Néhány ilyen funkció:
 * A PBI esetében minden adatforrás támogatott, szemben a **Power BI-munkaterületcsoport** 2 adatforrásával. 
-* Számos új funkció, köztük a Q&A, a Frissítés, a könyvjelzők, az irányítópultok és csempék beágyazása és az egyéni menü csak a **Power BI Embedded** megoldásban támogatott.
+* Számos új funkció, köztük a Q&A, a Frissítés, a könyvjelzők, az irányítópultok és csempék beágyazása és az egyéni menü csak a **Power BI Embedded** megoldásban van támogatva.
 * Kapacitás-számlázási modell.
 
 ## <a name="onboarding-experience-tool-for-embedding"></a>Előkészítési eszköz beágyazáshoz
