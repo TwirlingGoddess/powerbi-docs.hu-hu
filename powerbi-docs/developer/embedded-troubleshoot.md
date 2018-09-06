@@ -2,35 +2,35 @@
 title: Beágyazott alkalmazás hibaelhárítása
 description: Ez a cikk azokat a gyakori problémákat ismerteti, amelyek Power BI-tartalmak beágyazása során merülhetnek fel.
 author: markingmyname
+ms.author: maghan
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
-ms.date: 07/09/2018
-ms.author: maghan
-ms.openlocfilehash: d6b30d97b1982ceca34579751e412a279b0d8881
-ms.sourcegitcommit: 001ea0ef95fdd4382602bfdae74c686de7dc3bd8
+ms.date: 08/31/2018
+ms.openlocfilehash: 48faf9ebde5860b59569a7e0a3a96664d06a1b0d
+ms.sourcegitcommit: aed348a2d0025f7f40f2196254993f6aba5db7d2
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 07/11/2018
-ms.locfileid: "38877024"
+ms.lasthandoff: 08/29/2018
+ms.locfileid: "43241568"
 ---
 # <a name="troubleshooting-your-embedded-application"></a>Beágyazott alkalmazás hibaelhárítása
 
-Ez a cikk azokat a gyakori problémákat ismerteti, amelyek Power BI-tartalmak beágyazása során merülhetnek fel.
+Ez a cikk azokat a gyakori problémákat ismerteti, amelyek Power BI-tartalmak beágyazása során fordulhatnak elő.
 
 ## <a name="tools-for-troubleshooting"></a>Hibaelhárítási eszközök
 
 ### <a name="fiddler-trace"></a>Nyomon követés a Fiddlerrel
 
-A [Fiddler](http://www.telerik.com/fiddler) a Telerik által kifejlesztett, HTTP-forgalmat figyelő ingyenes eszköz.  A Power BI API-k használatával megtekintheti a lekérdezések oda-vissza áramlását az ügyfélszámítógépen. Ebből kiderítheti az esetleges hibákat, illetve az egyéb kapcsolódó információkat.
+A [Fiddler](http://www.telerik.com/fiddler) a Telerik ingyenes eszköze, amely a HTTP-adatforgalom figyelésére használható.  A Power BI API-k használatával megtekintheti a forgalmat az ügyfélszámítógépen. Az eszköz hibaüzenetek és egyéb, kapcsolódó információk megjelenítésére is képes.
 
 ![Nyomon követés a Fiddlerrel](../includes/media/gateway-onprem-tshoot-tools-include/fiddler.png)
 
 ### <a name="f12-in-browser-for-front-end-debugging"></a>F12 billentyű a böngészőben a kezelőfelületen történő hibakereséshez
 
-Az F12 billentyű megnyitja a böngészőben a fejlesztői ablakot. Ezzel megtekintheti a hálózati forgalmat és az egyéb információkat.
+Az F12 billentyű megnyitja a böngészőben a fejlesztői ablakot. Ezzel az eszközzel megtekintheti a hálózati forgalmat és egyéb információkat.
 
 ![F12 billentyű a böngészőben történő hibakereséshez](media/embedded-troubleshoot/browser-f12.png)
 
@@ -38,7 +38,7 @@ Az F12 billentyű megnyitja a böngészőben a fejlesztői ablakot. Ezzel megtek
 
 Ez a kódrészlet azt mutatja be, hogyan lehet kigyűjteni a hiba részleteit egy HTTP-kivételből:
 
-```
+```csharp
 public static string GetExceptionText(this HttpOperationException exc)
 {
     var errorText = string.Format("Request: {0}\r\nStatus: {1} ({2})\r\nResponse: {3}",
@@ -52,14 +52,15 @@ public static string GetExceptionText(this HttpOperationException exc)
     return errorText;
 }
 ```
-Javasoljuk, hogy a kérelemazonosítókat (valamint hibakereséshez a hiba részleteit is) naplózza.
-Ha a Microsoft támogatási szolgálatával lép kapcsolatba, kérjük, adja meg a kérelem azonosítóját is.
+
+Javasoljuk, hogy naplózza a kérelemazonosítót (valamint hibakereséshez a hiba részleteit is).
+Ha a Microsoft támogatási szolgálatával lép kapcsolatba, adja meg a kérelem azonosítóját is.
 
 ## <a name="app-registration"></a>Alkalmazásregisztráció
 
 **Sikertelen alkalmazásregisztráció**
 
-Ha hibaüzenetet tapasztal az Azure Portal vagy a Power BI alkalmazásregisztrációs oldalán, akkor az a megfelelő jogosultságok hiányára utal. Alkalmazások regisztrálásához rendszergazdának kell lennie az Azure AD-bérlőjében, vagy engedélyezni kell az alkalmazások regisztrációját a nem rendszergazdai felhasználók számára.
+A hibaüzenetek az Azure Portal vagy a Power BI alkalmazásregisztrációs oldalán a megfelelő jogosultságok hiányát említik. Alkalmazások regisztrálásához rendszergazdának kell lennie az Azure AD-bérlőjében, vagy engedélyezni kell az alkalmazások regisztrációját a nem rendszergazdai felhasználók számára.
 
 **Új alkalmazás regisztrációja során nem jelenik meg a Power BI szolgáltatás az Azure Portalon**
 
@@ -188,11 +189,45 @@ Ellenőrizze, hogy a beágyazási token nem járt-e le. Ellenőrizze és frissí
 
 **A jelentés vagy irányítópult nem tölt be**
 
-Ha a felhasználó nem látja a jelentést vagy az irányítópultot, akkor ellenőrizze, hogy a jelentés vagy az irányítópult megfelelően betölt-e a powerbi.com-on. A jelentés vagy az irányítópult nem fog működni az alkalmazásban, ha nem tölt be a powerbi.com-on.
+Ha a felhasználó nem látja a jelentést vagy az irányítópultot, akkor ellenőrizze, hogy a jelentés vagy az irányítópult megfelelően betölt-e a powerbi.com-on. A jelentés vagy az irányítópult nem működik az alkalmazásban, ha nem tölt be a powerbi.com-on.
 
 **A jelentés vagy irányítópult lassan működik**
 
 Nyissa meg a fájlt a Power BI Desktopban vagy a powerbi.com-on, és ellenőrizze, hogy elfogadható-e a működése, hogy kizárhassa az alkalmazása vagy a beágyazási API-k hibáit.
+
+## <a name="troubleshooting-your-embedded-application-with-the-ierror-object"></a>A beágyazott alkalmazás hibaelhárítása az IError objektummal
+
+Használja az [**IError objektumot**, amelyet a *hiba*esemény adott vissza a **JavaScript SDK**](https://github.com/Microsoft/PowerBI-JavaScript/wiki/Troubleshooting-and-debugging-of-embedded-parts) készletből az alkalmazás hibaelhárításához és a hibák okának jobb megértéséhez.
+
+Miután beszerezte a IError objektumot, tekintse meg a megfelelő gyakori hibák táblát, amely egyezik a használt beágyazási típussal. Hasonlítsa össze az **IError-tulajdonságokat** a táblában lévőkkel, és keresse meg a hiba lehetséges okát/okait.
+
+### <a name="typical-errors-when-embedding-for-power-bi-users"></a>Tipikus hibák, amikor a Power BI-felhasználók számára végez beágyazást
+
+| Üzenet | Részletes üzenet | Hibakód | Lehetséges ok(ok) |
+|-------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------|-----------|--------------------------------------------------------|
+| TokenExpired | A hozzáférési jogkivonat lejárt, küldje be újra egy új hozzáférési jogkivonattal | 403 | Lejárt jogkivonat  |
+| PowerBIEntityNotFound | A jelentés lekérése sikertelen | 404 | <li> Hibás jelentésazonosító <li> A jelentés nem létezik  |
+| Érvénytelen paraméterek | A powerbiToken paraméter nincs megadva | N.A. | <li> Nem megadva hozzáférési jogkivonat <li> Nincs megadva jelentésazonosító |
+| LoadReportFailed | Nem sikerült inicializálni a – Nem sikerült feloldani a fürtöt | 403 | * Helytelen a hozzáférési jogkivonat * A beágyazási típus nem egyezik meg a jogkivonat típusával |
+| PowerBINotAuthorizedException | A jelentés lekérése sikertelen | 401 | <li> Hibás csoportazonosító <li> Nem engedélyezett csoport |
+| TokenExpired | A hozzáférési jogkivonat lejárt, küldje be újra egy új hozzáférési jogkivonattal. Nem lehetett leképezni a következő című jelentésvizualizációt: <visual title> | N.A. | A lekérdezési adatok jogkivonata lejárt |
+| OpenConnectionError | A vizualizáció nem jeleníthető meg. Nem lehetett leképezni a következő című jelentésvizualizációt: <visual title> | N.A. | A kapacitás fel van függesztve, vagy törölték, amíg a kapacitással kapcsolatos jelentés meg volt nyitva egy munkamenetben |
+| ExplorationContainer_FailedToLoadModel_DefaultDetails | Nem sikerült betölteni a jelentéshez társított modellsémát. Győződjön meg róla, hogy csatlakozott a kiszolgálóhoz, és próbálkozzon újra. | N.A. | <li> A kapacitás fel van függesztve <li> A kapacitás törölve |
+
+### <a name="typical-errors-when-embedding-for-non-power-bi-users-using-an-embed-token"></a>Tipikus hibák, ha nem Power BI-felhasználók számára végez beágyazást (beágyazási jogkivonat használatával)
+
+| Üzenet | Részletes üzenet | Hibakód | Ok(ok) |
+|-------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------|------------|-------------------------------------------------|
+| TokenExpired | A hozzáférési jogkivonat lejárt, küldje be újra egy új hozzáférési jogkivonattal | 403 | Lejárt jogkivonat  |
+| LoadReportFailed | A jelentés lekérése sikertelen | 404 | <li> Hibás jelentésazonosító <li> A jelentés nem létezik  |
+| LoadReportFailed | A jelentés lekérése sikertelen | 403 | A jelentés azonosítója nem egyezik meg a jogkivonattal |
+| LoadReportFailed | A jelentés lekérése sikertelen | 500 | A jelentés megadott azonosítója nem egy GUID azonosító |
+| Érvénytelen paraméterek | A powerbiToken paraméter nincs megadva | N.A. | <li> Nem megadva hozzáférési jogkivonat <li> Nincs megadva jelentésazonosító |
+| LoadReportFailed | Nem sikerült inicializálni a – Nem sikerült feloldani a fürtöt | 403 | Hibás jogkivonattípus, hibás jogkivonat |
+| PowerBINotAuthorizedException | A jelentés lekérése sikertelen | 401 | Hibás/jogosulatlan csoportazonosító |
+| TokenExpired | A hozzáférési jogkivonat lejárt, küldje be újra egy új hozzáférési jogkivonattal. Nem lehetett leképezni a következő című jelentésvizualizációt: <visual title> | N.A. | A lekérdezési adatok jogkivonata lejárt |
+| OpenConnectionError | A vizualizáció nem jeleníthető meg. Nem lehetett leképezni a következő című jelentésvizualizációt: <visual title> | N.A. | A kapacitás fel van függesztve, vagy törölték, amíg a kapacitással kapcsolatos jelentés meg volt nyitva egy munkamenetben |
+| ExplorationContainer_FailedToLoadModel_DefaultDetails | Nem sikerült betölteni a jelentéshez társított modellsémát. Győződjön meg róla, hogy csatlakozott a kiszolgálóhoz, és próbálkozzon újra. | N.A. | <li> A kapacitás fel van függesztve <li> A kapacitás törölve |
 
 ## <a name="onboarding-experience-tool-for-embedding"></a>Előkészítési eszköz beágyazáshoz
 
@@ -209,7 +244,7 @@ Mielőtt használatba venné az előkészítési eszközt, ellenőrizze, hogy re
 
 ### <a name="common-issues"></a>Gyakori problémák
 
-Az előkészítési eszköz tesztelésre való használatánál az alábbi gyakori problémák merülhetnek fel:
+Az előkészítési eszköz tesztelésre való használatakor az alábbi gyakori problémák merülhetnek fel:
 
 #### <a name="using-the-embed-for-your-customers-sample-application"></a>A Beágyazás az ügyfelek számára mintaalkalmazás használata
 
@@ -244,3 +279,5 @@ Ha a Power BI felhasználói profiljait vagy adatait szeretné szerkeszteni, olv
 További információ: [Power BI Embedded – gyakori kérdések](embedded-faq.md).
 
 További kérdései vannak? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)
+
+Ha további segítségre van szüksége, [forduljon az ügyfélszolgálathoz](https://powerbi.microsoft.com/en-us/support/pro/?Type=documentation&q=power+bi+embedded) vagy [hozzon létre egy támogatási jegyet az Azure Portalon keresztül](https://ms.portal.azure.com/#blade/Microsoft_Azure_Support/HelpAndSupportBlade/newsupportrequest), és adja meg a látott hibaüzenet(ek)et.
