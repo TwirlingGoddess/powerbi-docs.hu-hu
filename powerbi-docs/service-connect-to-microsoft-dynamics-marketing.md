@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 7cc2519353be7f83f69cdc6dda9d5f1a8ccc33a3
-ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
+ms.openlocfilehash: c69b73be481408884cc4fbfc5ae4987714b10d9d
+ms.sourcegitcommit: 60f637d8555fd59fd9a86de720b89b388fb85ac0
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37137022"
+ms.lasthandoff: 09/05/2018
+ms.locfileid: "43695110"
 ---
 # <a name="connect-to-microsoft-dynamics-marketing-with-power-bi"></a>Kapcsolódás a Power BI-ból a Microsoft Dynamics Marketinghez
 A Power BI-hoz készült Microsoft Dynamics Marketing-programcsomag segítségével könnyedén hozzáférhet a Dynamics Marketingből származó adatokhoz és egyszerűen elemezheti őket. A teljesítménycsomag egy, az OData-csatornára épülő leíró modellt használ, és az összes szükséges entitást és mértéket tartalmazza, többek között programokat, kampányokat, marketingkapcsolatokat és -vállalatokat, érdeklődőket, érdeklődő-interakciókat és érdeklődőpontozást, e-mailes marketingüzeneteket és weboldalakat, viselkedésmegfigyeléseket, költségvetéseket, pénzügyi tranzakciókat és teljesítmény KPI-ket. 
@@ -35,7 +35,7 @@ Kapcsolódjon a Power BI-hoz készült [Dynamics Marketing-tartalomcsomaghoz](ht
 3. Válassza a **Microsoft Dynamics Marketing** \> **Beolvasás** lehetőséget.
    
    ![](media/service-connect-to-microsoft-dynamics-marketing/mdmarketing.png)
-4. Adja meg a fiókjához társított OData URL-címét.  Ez „ https:// [instance\_name].marketing.dynamics.com/analytics” formájú lesz.
+4. Adja meg a fiókjához társított OData URL-címét.  Ennek formátuma: `https://[instance\_name].marketing.dynamics.com/analytics.`
    
    ![](media/service-connect-to-microsoft-dynamics-marketing/pbi_dynmktgserviceurl.png)
 5. Amikor a rendszer erre kéri, adja meg a hitelesítő adatait (ha már bejelentkezett a böngészőjében, akkor lehet, hogy ez a lépés kimarad). A Hitelesítési módszer beállításnál válassza az **oAuth2** elemet, majd kattintson a **Bejelentkezés** gombra:
