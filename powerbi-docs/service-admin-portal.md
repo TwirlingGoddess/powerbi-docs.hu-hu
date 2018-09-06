@@ -7,21 +7,21 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-admin
 ms.topic: conceptual
-ms.date: 08/15/2018
+ms.date: 06/28/2017
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: db77e3e7421074383f67bffad318e6f7f4c3df28
-ms.sourcegitcommit: 52278d8e0c23ae5eaf46b10a6a2f1fb071a0f1cc
+ms.openlocfilehash: 592c3bf5fbd508d63236d16ca21164ee507df35b
+ms.sourcegitcommit: 6be2c54f2703f307457360baef32aee16f338067
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 08/16/2018
-ms.locfileid: "40257087"
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "43300115"
 ---
 # <a name="power-bi-admin-portal"></a>Power BI felügyeleti portál
 
 A felügyeleti portál a Power BI bérlői felügyeletét teszi lehetővé a munkahelyen. Olyan lehetőségeket kínál, mint például a használati metrikák, hozzáférés az Office 365 felügyeleti központjához, valamint a beállítások.
 
-A cégnél a Power BI bérlői felügyelete a Power BI felügyeleti portálján keresztül történik. A felügyeleti portálhoz az Office 365 minden globális rendszergazdája hozzáférhet, valamint olyan felhasználók is, akik Power BI-szolgáltatásadminisztrátori szerepkört kaptak. További információ a Power BI-szolgáltatásadminisztrátori szerepkörről: [A Power BI rendszergazdai szerepkörének ismertetése](service-admin-role.md).
+A cégnél a Power BI bérlői felügyelete a Power BI felügyeleti portálján keresztül történik. A felügyeleti portálhoz az Office 365 minden globális rendszergazdája hozzáférhet, valamint olyan felhasználók is, akik Power BI-szolgáltatásadminisztrátori szerepkört kaptak. A Power BI szolgáltatás rendszergazdai szerepkörére vonatkozó további információkat [a Power BI rendszergazdai szerepkörét ismertető](service-admin-role.md) témakör tartalmaz.
 
 Az összes felhasználó láthatja a **Felügyeleti portál** menüpontot a fogaskerék ikonja alatt. Ha nem rendszergazdáról van szó, a felhasználó csak a **Premium-beállítások** szakaszt látja, és csak azok a kapacitások jelennek meg, amelyek felügyeletéhez a felhasználó jogosultsággal rendelkezik.
 
@@ -150,13 +150,13 @@ A munkahelyi felhasználók a weben tehetnek közzé jelentéseket. [További in
 
 ![](media/service-admin-portal/powerbi-admin-publish-to-web.png)
 
-A webes közzététel beállításától függően a felhasználók különféle lehetőségeket láthatnak majd a felhasználói felületen.
+A webes közzététel beállításától függően a felhasználók különféle lehetőségeket láthatnak a felhasználói felületen.
 
 |Funkció |A teljes cég számára engedélyezve |A teljes cég számára letiltva |Speciális biztonsági csoportok   |
 |---------|---------|---------|---------|
 |A **Webes közzététel** parancs egy jelentés **Fájl** menüjében.|Mindenki számára engedélyezve|Nem mindenki számára látható|Csak az arra jogosult felhasználók vagy csoportok láthatják.|
 |A **Beágyazási kódok kezelése** funkció a **Beállítások** közt|Mindenki számára engedélyezve|Mindenki számára engedélyezve|Mindenki számára engedélyezve<br><br>* A **Törlés** parancsot csak az arra jogosult felhasználók vagy csoportok érik el.<br>* A **Kód lekérése** mindenki számára engedélyezve van.|
-|**Beágyazási kódok** a felügyeleti portálon|Az állapot a következő értékeket jelenítheti meg:<br>* Aktív<br>* Nem támogatott<br>* Blokkolva|Az állapot **Letiltva** lesz|Az állapot a következő értékeket jelenítheti meg:<br>* Aktív<br>* Nem támogatott<br>* Blokkolva<br><br>Ha egy felhasználónak nincs megfelelő jogosultsága a bérlői beállítások alapján, akkor az állapot **Megsértve** lesz.|
+|**Beágyazási kódok** a felügyeleti portálon|Az állapot a következő értékek egyikét jeleníti meg:<br>* Aktív<br>* Nem támogatott<br>* Blokkolva|Állapotként a **Letiltva** jelenik meg|Az állapot a következő értékek egyikét jeleníti meg:<br>* Aktív<br>* Nem támogatott<br>* Blokkolva<br><br>Ha egy felhasználónak nincs megfelelő jogosultsága a bérlői beállítások alapján, akkor a **Megsértve** állapot jelenik meg.|
 |Meglévő közzétett jelentések|Minden engedélyezve|Minden letiltva|A jelentések továbbra is megjelennek mindenki számára.|
 
 ### <a name="export-data"></a>Adatok exportálása
@@ -210,12 +210,14 @@ További információ az [alkalmazások leküldéséről](service-create-distrib
 ## <a name="integration-settings"></a>Integrálási beállítások
 
 ### <a name="ask-questions-about-data-using-cortana"></a>Adatokkal kapcsolatos kérdések feltevése Cortanával
+
 A munkahelyi felhasználók Cortana használatával kérdéseket tehetnek fel az adataikról.
 
 > [!NOTE]
 > Ez a beállítás az egész munkahelyre vonatkozik, és nem lehet korlátozni meghatározott csoportokra.
 
 ### <a name="use-analyze-in-excel-with-on-premises-datasets"></a>Az Elemzés az Excelben helyszíni adatkészleteken való használata
+
 A munkahelyi felhasználók az Excel használatával megtekinthetik és használhatják a helyszíni Power BI-adatkészleteket. [További információ](service-analyze-in-excel.md)
 
 > [!NOTE]
@@ -230,7 +232,9 @@ A vállalati felhasználók használhatják az Esri által biztosított ArcGIS M
 A vállalati felhasználók használhatják az Azure Searchre épülő külső keresési funkciókat. Például a felhasználók a Cortana használatával a lényeges információkat közvetlenül a Power BI-irányítópultokból és -jelentésekből nyerhetik ki. [További információ](service-cortana-intro.md)
 
 ## <a name="custom-visuals-settings"></a>Egyéni vizualizációk beállításai
+
 ### <a name="enable-custom-visuals-for-the-entire-organization"></a>Egyéni vizualizációk engedélyezése a teljes cég számára
+
 A munkahelyi felhasználók egyéni vizualizációkat használhatnak és oszthatnak meg. [További információ](power-bi-custom-visuals.md)
 
 > [!NOTE]
@@ -292,11 +296,23 @@ A munkahelyi felhasználók beágyazhatnak Power BI-irányítópultokat és -jel
 
 ## <a name="capacity-settings"></a>Kapacitásbeállítások
 
-A Kapacitásbeállítások lapon bármely Power BI Premium-kapacitás felügyelhető, amelyet a munkahely megvásárolt. A munkahely bármely felhasználója láthatja a Premium-beállítások lapot, de annak tartalma csak akkor jelenik meg, ha az adott felhasználó **kapacitás-rendszergazda**, vagy rendelkezik a szükséges engedélyekkel. Ha a felhasználó nem rendelkezik ilyen engedéllyel, az alábbi üzenet jelenik meg.
+### <a name="premium-settings"></a>Premium-beállítások
 
-![](media/service-admin-portal/premium-settings-no-access.png "Nincs hozzáférés a Premium-beállításokhoz")
+A Premium-beállítások lapon bármely Power BI Premium-kapacitás (Em vagy P termékváltozat) felügyelhető, amelyet a munkahely megvásárolt. A munkahely bármely felhasználója láthatja a Premium-beállítások lapot, de annak tartalma csak akkor jelenik meg, ha az adott felhasználó **kapacitás-rendszergazda**, vagy rendelkezik a szükséges engedélyekkel. Ha a felhasználó nem rendelkezik ilyen engedéllyel, az alábbi üzenet jelenik meg.
+
+![A Power BI Premium adminisztrátori beállításai](media/service-admin-portal/premium-settings-no-access.png "Nincs hozzáférés a Premium-beállításokhoz")
 
 További információ a Premium-beállítások kezeléséről: [A Power BI Premium kezelése](service-admin-premium-manage.md).
+
+### <a name="power-bi-embedded-settings"></a>Power BI Embedded-beállítások
+
+A Power BI Embedded beállítások lapján megtekintheti a Power BI Embedded (A termékváltozat) kapacitásait, amelyeket az ügyfelének vásárolt. Mivel az Azure-tól csak A termékváltozatot vásárolhat, a [beágyazott kapacitások Azure-ban való kezelésére](developer/azure-pbie-create-capacity.md) az **Azure Portalt** használhatja.
+
+![A Power BI Embedded adminisztrátori beállításai](media/service-admin-portal/manage-pbie-capacities-01.png)
+
+![A Power BI Embedded adminisztrátori beállításainak részletei](media/service-admin-portal/manage-pbie-capacities-02.png)
+
+A Power BI Embedded (A termékváltozat) beállításainak kezeléséről további információért lásd a [Mi a Power BI Embedded](developer/azure-pbie-what-is-power-bi-embedded.md) szakaszt.
 
 ## <a name="embed-codes"></a>Beágyazási kódok
 
@@ -307,10 +323,10 @@ A rendszergazdák megnézhetik a bérlő számára generált beágyazási kódok
 ## <a name="organization-visuals"></a>Szervezeti vizualizációk
 
 A szervezeti vizualizációk lapon egyéni vizualizációkat helyezhet el és kezelhet a szervezetén belül, így könnyen alkalmazhat jogvédett egyéni vizualizációkat a szervezetében, amelyeket a jelentéskészítők könnyen megtalálhatnak és importálhatnak a jelentéseikbe közvetlenül a Power BI Desktopból.
- 
+
 A lapon minden olyan egyéni vizualizáció megjelenik, amely jelenleg megtalálható a szervezet adattárában.
- 
-![](media/service-admin-portal/power-bi-custom-visuals-organizational-admin-01.png)
+
+![Szervezeti rendszergazdai visualizáció](media/service-admin-portal/power-bi-custom-visuals-organizational-admin-01.png)
 
 ### <a name="add-a-new-custom-visual"></a>Új egyéni vizualizáció hozzáadása
 
@@ -320,26 +336,38 @@ A lapon minden olyan egyéni vizualizáció megjelenik, amely jelenleg megtalál
 
 > [!WARNING]
 > Az egyéni vizualizációk biztonsági vagy adatvédelmi kockázatot jelentő kódokat tartalmazhatnak, ezért az adattárban való üzembe helyezés előtt ellenőrizze, hogy megbízható-e a vizualizáció szerzője és forrása.
-> 
 
 Töltse ki a mezőket:
- 
+
 * Válasszon egy .pbiviz-fájlt (kötelező): Válasszon ki egy feltöltendő egyéni vizualizációs fájlt. Csak a verziószámmal ellátott API-s vizualizációk támogatottak (itt elolvashatja, ez mit jelent).
+
 Az egyéni vizualizációk feltöltése előtt át kell tekintenie a vizualizációt biztonsági és adatvédelmi szempontból, hogy biztosan megfeleljen a szervezet igényeinek. További információk az egyéni vizualizációk biztonságáról.
- 
+
 * Nevezze el az egyéni vizualizációkat (kötelező): Adjon egy rövid címet a vizualizációnak, a Power BI Desktop felhasználói így könnyen megérthetik, mi annak a célja
- 
+
 * Ikon (kötelező): A Power BI Desktop felhasználói felületén megjelenő ikonfájl.
- 
+
 * Leírás: A vizualizáció rövid leírása, amely több információt szolgáltat a felhasználónak
- 
-Az „Alkalmazás“ lehetőséggel kezdje meg a feltöltést. Ha ez sikeres, az új elem megjelenik a listában. Ha nem, egy ennek megfelelő hibaüzenet jelenik meg
- 
+
+Az „Alkalmazás“ lehetőséggel kezdje meg a feltöltést. Ha ez sikeres, az új elem megjelenik a listában. Ha nem, egy ennek megfelelő hibaüzenet jelenhet meg
+
 ### <a name="delete-a-custom-visual-from-the-list"></a>Egyéni látványelem törlése a listából
 
 A kuka ikonnal végleg törölheti a vizualizációt az adattárból.
-Fontos: a törlés nem vonható vissza. A törölt vizualizációk azonnal abbahagyják a renderelést a meglévő jelentésekben. Ha újra feltölti a vizualizációt, az nem helyettesíti a törölt verziót, a felhasználóknak pedig újra importálniuk kell az új vizualizációt, és kicserélni azt a saját jelentésükben található példánnyal.
- 
+Fontos: a törlés nem vonható vissza. A törölt vizualizációk azonnal abbahagyják a renderelést a meglévő jelentésekben. Még ha újra feltölti is a vizualizációt, az nem helyettesíti a törölt verziót, a felhasználók újra importálhatják az új vizualizációt, és kicserélhetik azt a saját jelentésükben található példánnyal.
+
+### <a name="disable-a-custom-visual-in-the-list"></a>Egyéni látványelem letiltása a listában
+
+A vizualizáció szervezeti áruházból való letiltásához válassza a fogaskerék ikont. A **Hozzáférés** szakaszban, tiltsa le az egyéni vizualizációt.
+
+Miután letiltja a vizualizációt, az nem fog megjelenni a meglévő jelentésekben, és az alábbi hibaüzenet jelenik meg.
+
+*Ez az egyéni vizualizáció már nem érhető el. További információért forduljon a rendszergazdához.*
+
+Azonban a könyvjelzőzött vizualizációk továbbra is működnek.
+
+Frissítés vagy rendszergazdai módosítás után a Power BI felhasználóinak újra kell indítaniuk az alkalmazást, vagy a Power BI szolgáltatás használata esetén frissíteniük kell a böngészőt a frissítések megjelenítéséhez.
+
 ### <a name="how-to-update-a-visual"></a>A vizualizációk frissítése
 
 Ha szeretné frissíteni az adattárban a vizualizációt, mert annak újabb verziója érhető el (pl. hibajavítások, új funkciók stb.), akkor válassza a **Frissítés** ikont, és töltse fel az új fájlt. Győződjön meg róla, hogy a vizuális azonosító ugyanaz maradt. Az új fájl az előző fájlt helyére kerül a jelentésekben az egész vállalatnál. Ha azonban a vizualizáció új verziója megbontja az előző verziójának valamely használati vagy adatstruktúráját, akkor ne cserélje le az előző verziót. Ehelyett hozzon létre egy új listázást a vizualizáció új verziójához. Például adjon hozzá egy új verziószámot (X.X verzió) az új listázott vizualizáció címéhez. Ezáltal nyilvánvalóvá válik, hogy ez ugyanaz a vizualizáció, de frissített verziószámmal, így a meglévő jelentések működése nem hibásodik meg. Most is győződjön meg róla, hogy a vizuális azonosító ugyanaz maradt. Így amikor a felhasználók legközelebb belépnek a szervezeti adattárba a Power BI Desktopból, importálhatják az új verziót, amely kérni fogja őket, hogy cseréljék le a jelentésben található jelenlegi verziót.

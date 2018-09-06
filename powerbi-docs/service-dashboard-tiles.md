@@ -2,20 +2,20 @@
 title: Irányítópult-csempék a Power BI szolgáltatásban
 description: Minden, amit a Power BI irányítópult csempékről tudni érdemes. Ide tartoznak az SQL Server Reporting Services-ből (SSRS-ből) létrehozott csempék is.
 author: mihart
-manager: kfile
+manager: annbe
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 03/02/2018
+ms.date: 08/21/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: e53945e0a112d9498dc6798e2441dd3d925a64c1
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 09fcce65539d89c9d42bc05369f13a6048eb96c2
+ms.sourcegitcommit: aed348a2d0025f7f40f2196254993f6aba5db7d2
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34249068"
+ms.lasthandoff: 08/29/2018
+ms.locfileid: "43241591"
 ---
 # <a name="dashboard-tiles-in-power-bi"></a>Irányítópult-csempék a Power BI-ban
 Az irányítópultok és az irányítópulton található csempék nem a Power BI Desktophoz, hanem a Power BI szolgáltatáshoz tartozó funkciók. A Power BI mobilalkalmazásban nem hozhatók létre és nem tűzhetők ki irányítópult-csempék, de [megtekinthetők és megoszthatók](mobile-tiles-in-the-mobile-apps.md) abból. Ezenkívül a Power BI mobilalkalmazásban [képeket vehet fel az irányítópulthoz az iPhone-alkalmazással](mobile-iphone-app-get-started.md).
@@ -67,9 +67,9 @@ Fogja meg az egyik csempét, és [mozgassa körbe az irányítópulton](service-
    
    * [Megnyithatja a csempe létrehozásához használt munkafüzetet](service-reports.md) ![munkafüzet ikon](media/service-dashboard-tiles/power-bi-open-worksheet.png)  
      
-     * [Megnyithatja a csempét fókusz módban](service-focus-mode.md) ![fókusz ikon](media/service-dashboard-tiles/fullscreen-icon.jpg)  
+    * [Megnyithatja a csempét fókusz módban](service-focus-mode.md) ![fókusz ikon](media/service-dashboard-tiles/fullscreen-icon.jpg)  
      * [Exportálhatja a csempéhez használt adatokat](power-bi-visualization-export-data.md) ![Adatok exportálása ikon](media/service-dashboard-tiles/export-icon.png)
-     * [Szerkesztheti a címet és az alcímet, felvehet egy hivatkozást, és megjelenítheti az utolsó frissítés idejét](service-dashboard-edit-tile.md) ![Szerkesztés ikon](media/service-dashboard-tiles/pencil-icon.jpg)
+     * [Cím és alcím szerkesztése, egy hivatkozás felvétele](service-dashboard-edit-tile.md) ![szerkesztés ikon](media/service-dashboard-tiles/pencil-icon.jpg)
      * [Elemzéseket futtathat ](service-insights.md) ![elemzések ikon](media/service-dashboard-tiles/power-bi-insights.png)
      * [Kitűzheti a csempét egy másik irányítópultra](service-pin-tile-to-another-dashboard.md)
        ![gombostű ikon](media/service-dashboard-tiles/pin-icon.jpg)

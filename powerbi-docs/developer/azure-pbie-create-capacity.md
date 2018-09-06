@@ -10,12 +10,12 @@ ms.devlang: csharp, javascript
 ms.topic: conceptual
 ms.reviewer: ''
 ms.date: 07/31/2018
-ms.openlocfilehash: 222a6368bc717880fee4f6ce6958455959b491bd
-ms.sourcegitcommit: fecea174721d0eb4e1927c1116d2604a822e4090
+ms.openlocfilehash: f364bb725c492c1bffd2493c1e2a48ee8c442a9e
+ms.sourcegitcommit: 6be2c54f2703f307457360baef32aee16f338067
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 07/31/2018
-ms.locfileid: "39360291"
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "43300046"
 ---
 # <a name="create-power-bi-embedded-capacity-in-the-azure-portal"></a>Power BI Embedded-kapacitás létrehozása az Azure Portalon
 
@@ -54,7 +54,7 @@ Ennek a rövid útmutatónak az elvégzéséhez a következőkre lesz szüksége
     |**Előfizetés**|Az előfizetés, amelyben létre szeretné hozni a kapacitást.|
     |**Erőforráscsoport**|Az új kapacitást tartalmazó erőforráscsoport. Választhat meglévő erőforráscsoportot, vagy létrehozhat egy újat. További információt [Az Azure Resource Manager áttekintésében](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-overview) találhat.|
     |**Power BI kapacitásadminisztrátor**|A Power BI kapacitás-rendszergazdái megtekinthetik a kapacitást a Power BI felügyeleti portálján, és hozzárendelési engedélyt adhatnak a felhasználóknak. A kapacitásadminisztrátor alapértelmezés szerint az Ön fiókja. A kapacitásadminisztrátornak a Power BI-bérlőn belül kell lennie.|
-    |**Hely**|A Power BI bérlői szolgáltatási helye. Ez a beállítás automatikusan feloldódik, és nem adható meg új hely.|
+    |**Hely**|A Power BI bérlői szolgáltatási helye. Az alapértelmezett hely az otthoni régiója, de a [Multi-Geo-beállításokkal](embedded-multi-geo.md) módosíthatja a helyet.
     |**Tarifacsomag**|Válassza ki az igényeinek megfelelő SKU-t (virtuális magok és memóriaméret szerint)  További információt a [Power BI Embedded díjszabásában](https://azure.microsoft.com/pricing/details/power-bi-embedded/) találhat|
 
 6. Kattintson a **Létrehozás** gombra.

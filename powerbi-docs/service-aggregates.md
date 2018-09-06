@@ -2,20 +2,20 @@
 title: Összesítések (összeg, átlag, maximum stb.) a vizualizációkban
 description: Diagramok összesítésének módosítása a Power BI-ban (összeg, átlag, maximum, stb.)
 author: mihart
-manager: kfile
+manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 01/04/2018
+ms.date: 08/29/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 39adfd04118362fa706f0840daa5c2520d899b5e
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: d48f99c8415b7b347a504525b0c6539d1e90f4dd
+ms.sourcegitcommit: aed348a2d0025f7f40f2196254993f6aba5db7d2
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34247596"
+ms.lasthandoff: 08/29/2018
+ms.locfileid: "43241545"
 ---
 # <a name="aggregates-in-power-bi-visualizations"></a>Összesítések a Power BI-vizualizációkban
 ## <a name="what-is-an-aggregate"></a>Mi az az összesítés?
@@ -26,7 +26,7 @@ Amikor a Power BI szolgáltatás és a Power BI Desktop vizualizációkat hoz l�
 Először vizsgáljuk meg az *adattípusokat*, hiszen az adat típusa határozza meg, hogy az illető adatot lehet-e egyáltalán összesíteni, és ha igen, milyen módon.
 
 ## <a name="types-of-data"></a>Adattípusok
-A legtöbb adathalmazban többféle adattípus található. Az adatok alapvetően lehetnek numerikusak vagy nem numerikusak. Numerikus adatot összeg, átlag, szám, minimum, variancia és sok más módszerrel is összesíthetünk. Még a szöveges adat is (ezt néha *kategóriaadatnak* is nevezzük) összesíthető. Ha kategóriamezőket próbálunk összegezni úgy, hogy egy csak számalapú gyűjtőbe (például **Értékek** vagy **Elemleírások**) helyezzük őket, a Power BI képes megszámlálni az egyes kategóriák normál vagy eltérő előfordulásait. Bizonyos speciális adattípusok, például a dátumok néhány saját összegzési típussal is rendelkeznek, ilyenek lehetnek a legkorábbi, a legújabb, az első vagy az utolsó. 
+A legtöbb adathalmazban többféle adattípus található. Az adatok alapvetően lehetnek numerikusak vagy nem numerikusak. Numerikus adatot összeg, átlag, szám, minimum, variancia és sok más módszerrel is összesíthetünk. Még a szöveges adat is (ezt néha *kategóriaadatnak* is nevezzük) összesíthető. Ha kategóriamezőt próbál összegezni úgy, hogy egy csak számalapú gyűjtőbe (például **Értékek** vagy **Elemleírások**) helyezi őket, a Power BI képes megszámlálni az egyes kategóriák normál vagy eltérő előfordulásait. Bizonyos speciális adattípusok, például a dátumok néhány saját összegzési típussal is rendelkeznek, ilyenek lehetnek a legkorábbi, a legújabb, az első vagy az utolsó. 
 
 Az alábbi példában:
 - A **Units Sold** és a **Manufacturing Price** oszlopok numerikus adatokat tartalmaznak
@@ -78,7 +78,7 @@ A mezők összesítésekor esetlegesen rendelkezésre álló lehetőségek:
 * **Darabszám (eltérők).** A mezőkben lévő különböző értékek darabszámát adja vissza.
 * **Szórás.**
 * **Variancia**.
-* **Medián**.  A mediánt (középértéket) mutatja. Ez az az érték, amely hozzá képest ugyanannyi számú kisebb és nagyobb elemmel rendelkezik.  Ha 2 mediánról van szó, a Power BI átlagolja őket.
+* **Medián**.  A mediánt (középértéket) mutatja. Ez az az érték, amely hozzá képest ugyanannyi számú kisebb és nagyobb elemmel rendelkezik.  Ha két mediánról van szó, a Power BI átlagolja őket.
 
 Nézzük például az alábbi adatokat:
 
@@ -139,6 +139,10 @@ V4: A harmadik lehetőség pedig az, hogy tengelyen használja az adott mezőt. 
 
 >[!NOTE]
 >Az egyetlen kivételt e szabály alól a pontdiagram képviseli, amely *megköveteli* az összesített értékek használatát az X és az Y tengelyeken.
+
+K: Miért nem lehet összesíteni a szöveges mezőket az SSAS-adatforrásoknál?
+
+V: Az SSAS MD élő kapcsolatai nem teszik lehetővé az ügyféloldali összesítéseket. Ez magában foglalja, az első, utolsó, átlag, min, max és összeg számítását.
 
 K: Pontdiagramot használok, és szeretném, ha az adott mező *nem* szerepelne az összesítésben.  Hogyan lehet ezt elérni?
 

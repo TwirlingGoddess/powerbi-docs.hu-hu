@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/10/2017
 ms.author: mblythe
 LocalizationGroup: Premium
-ms.openlocfilehash: 24d585af19dd774cdf6fe7dafb66c12e02d311f9
-ms.sourcegitcommit: 001ea0ef95fdd4382602bfdae74c686de7dc3bd8
+ms.openlocfilehash: 5da624f92093111c1996d9b1c5080cd58a906a45
+ms.sourcegitcommit: 2bdcb9e9959302a35ee90a145e4ff832a02aacb9
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 07/11/2018
-ms.locfileid: "38924792"
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "43250773"
 ---
 # <a name="manage-capacities-within-power-bi-premium-and-power-bi-embedded"></a>Kapacitáskezelés a Power BI Premium és a Power BI Embedded szolgáltatással
 Megtudhatja, hogyan kezelheti a Power BI Premium és a Power BI Embedded kapacitásait, amelyek dedikált erőforrásokat nyújtanak az Ön tartalmai számára.
@@ -163,33 +163,8 @@ A mentés után a munkaterület és annak minden tartalma a prémium szintű kap
 
 
 ## <a name="monitor-capacity-usage"></a>Kapacitáshasználat monitorozása
-Minden kapacitáshoz láthatja a processzor, a memória, a memóriaakadozás és a Direct Query használati mértékeit. Célszerű figyelemmel kísérni ezeket a mértékeket, hogy a felhasználók biztosan jó teljesítményt tapasztaljanak a kapacitásán:
 
-![Használat az elmúlt hét napban](media/service-admin-premium-manage/premium-dashboard-tiles.png)
-
-> [!NOTE]
-> A Power BI Embedded kapacitáshasználatát az Azure Portalon követheti.
-
-| Mérték | Leírás |
-| --- | --- |
-| Processzor |Ahányszor a processzorhasználat túllépte a 80%-ot. |
-| Memóriaakadozás |A háttérrendszerbeli magok memóriaterhelését mutatja. Ez egészen pontosan azt jelzi, hogy az adathalmazok hányszor lettek kiürítve a memóriából a több adathalmaz használata miatti memóriaterhelés következtében. |
-| Memóriahasználat |Átlagos memóriahasználat, gigabájtban (GB) kifejezve. |
-| DQ/másodperc | Ahányszor a Direct Query-kapcsolatok és élő kapcsolatok száma meghaladta a korlát 80%-át. <br> <br> * A DirectQuery és élő kapcsolatos lekérdezések másodpercenkénti maximális száma korlátozott.<br><br>* A korlátok a következők: P1 esetében 30/másodperc, P2 esetében 60/másodperc, P3 esetében pedig 120/másodperc.<br><br> * A Direct Query és az élő kapcsolatos lekérdezések száma összeadódik. Ha például 15 DirectQueryvel és 15 élő kapcsolattal rendelkezik egy adott másodpercben, elérte a korlátot.<br/><br>* Ez mind a helyszíni, mind a felhőkapcsolatokra vonatkozik. |
-
-A metrikák az elmúlt hét használati adatait tükrözik.  Ha szeretne részletesebb nézetet látni a metrikákról, kattintson az összesítő csempék egyikére.  Ez megnyitja a prémium szintű kapacitása metrikáinak részletes diagramjait tartalmazó lapot.  Ezeket a diagramokat a rendszer óránként összegzi az elmúlt hétre vonatkozóan, és segítenek megállapítani, hogy mikor történhetett teljesítménnyel kapcsolatos esemény a prémium szintű kapacitásában.  
-
-![Részletes használati diagram – Processzor](media/service-admin-premium-manage/premium-usage-detailed-chart-cpu.png)
-
-![Részletes használati diagram – Memóriaakadozás](media/service-admin-premium-manage/premium-usage-detailed-chart-memory-thrashing.png)
-
-
-![Részletes használati diagram – Memóriaméret](media/service-admin-premium-manage/premium-usage-detailed-chart-memory-size.png)
-
-
-![Részletes használati diagram – Memóriaakadozás](media/service-admin-premium-manage/premium-usage-detailed-chart-dq.png)
-
-Exportálhatja bármelyik metrika mögöttes adatait egy CSV-fájlba.  Ezzel a művelettel részletes adatokat kaphat három perces időközökkel az elmúlt hét minden egyes napjára vonatkozóan.
+A Power BI biztosít egy alkalmazást a kapacitás használatának monitorozásásra. További információ: [A Power BI Premium kapacitásának figyelése a cégnél](service-admin-premium-monitor-capacity.md).
 
 ## <a name="what-premium-looks-like-for-users"></a>A prémium szintű kapacitás a végfelhasználók szemével
 Az esetek többségében a felhasználók nem is tudnak róla, hogy prémium szintű kapacitásban vannak. Az irányítópultjaik és jelentéseik ugyanúgy működnek. A prémium kapacitásban lévő munkaterületeket egy gyémánt ikon jelzi.

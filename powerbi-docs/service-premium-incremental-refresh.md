@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/30/2018
 ms.author: chwade
 LocalizationGroup: Premium
-ms.openlocfilehash: 1b6a3c35abeff33e2fb1e0fecdc5c2a5c88e1530
-ms.sourcegitcommit: 5eb8632f653b9ea4f33a780fd360e75bbdf53b13
+ms.openlocfilehash: fd62e90d4a4f348ee7b3a524f85725d517180068
+ms.sourcegitcommit: 6be2c54f2703f307457360baef32aee16f338067
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "34298182"
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "43300138"
 ---
 # <a name="incremental-refresh-in-power-bi-premium"></a>Növekményes frissítés a Power BI Premium szolgáltatásban
 
@@ -43,6 +43,12 @@ A potenciálisan több milliárd sort tartalmazó nagyméretű adatkészletek ne
 
 A növekményes frissítés Power BI szolgáltatásban való használatához szűrnie kell az adatokat dátum/idő típusú Power Query-paraméterekkel, melyeknek a **RangeStart** és a **RangeEnd** fenntartott nevet kell adnia, a kis- és nagybetűk különbségére is ügyelve.
 
+A közzététel után a paraméterek értékét automatikusan felülbírálja a Power BI szolgáltatás. Nem szükséges a szolgáltatásban az adatkészlet beállításainál megadnia őket.
+ 
+Fontos elküldeni a szűrőt a forrásrendszernek, amikor elküldi a lekérdezéseket a frissítési műveletekhez. Ez azt jelenti, hogy az adatbázisnak támogatnia kell a „lekérdezési modellrészeket”. Az egyes adatforrásoknál a lekérdezési modellrészek különböző szintjeinek támogatása miatt fontos ellenőriznie, hogy a forráslekérdezések tartalmazzák-e a szűrési logikát. Ha ez nem történik meg, minden egyes lekérdezés az összes adatot lekéri a forrásból, ezáltal meghiúsítva a növekményes frissítés célját.
+ 
+A szűrő használatával tartományokra bontja az adatokat a Power BI szolgáltatásban. Nem a szűrt dátum oszlop frissítésének támogatására tervezték. A frissítés beszúrásként és törlésként lesz értelmezve (nem frissítésként). Ha a törlés az előzménytartományban és nem a növekményes tartományban történik, az nem lesz kiválasztva.
+
 A Power Query-szerkesztőben válassza a **Paraméterek kezelése** lehetőséget a paraméterek alapértelmezett értékkel való definiálásához.
 
 ![Paraméterek kezelése](media/service-premium-incremental-refresh/manage-parameters.png)
@@ -61,9 +67,6 @@ A sorokat úgy kell szűrnie, hogy az oszlopérték *nem korábbi, mint* szűrő
 > `(x as datetime) => Date.Year(x)*10000 + Date.Month(x)*100 + Date.Day(x)`
 
 Válassza a **Bezárás és alkalmazás** lehetőséget a Power Query-szerkesztőben. Ezután az adatkészlet egy alkészletével dolgozhat a Power BI Desktopban.
-
-> [!NOTE]
-> A közzététel után a paraméterek értékét automatikusan felülbírálja a Power BI szolgáltatás. Nem szükséges az adatkészlet beállításainál módosítania őket.
 
 ### <a name="define-the-refresh-policy"></a>Frissítési szabályzat definiálása
 
@@ -102,9 +105,11 @@ A Power BI szolgáltatás által végzett első frissítés tovább tarthat, mer
 
 **Előfordulhat, hogy ezeknek a tartományoknak a definiálásán kívül semmilyen más teendője nincs. Ez esetben közvetlenül a lentebb lévő közzétételi lépésekhez ugorhat. A többi legördülő lista speciális funkciók használatához készült.**
 
+### <a name="advanced-policy-options"></a>Speciális szabályzabeállítások
+
 #### <a name="detect-data-changes"></a>Adatváltozások észlelése
 
-10 napnyi adat növekményes frissítése természetesen sokkal hatékonyabb, mint 5 évnyi adat teljes frissítése. De lehet, hogy ennél többet is tudunk tenni. Az **Adatváltozások észlelése** jelölőnégyzet bejelölésével megadhat egy dátum/idő oszlopot, amely alapján a rendszer azonosítani tudja, hogy mely napokon történt adatváltozás, és csak ezeket a napokat frissíti. Ez azt feltételezi, hogy található ilyen oszlop a forrásrendszerben (mely jellemzően megtalálható, naplózási célokból). Ennek az oszlopnak a maximális értékét a rendszer kiértékeli a növekményes tartományban lévő minden egyes időszak esetében. Ha nem változott az utolsó frissítés óta, akkor nem szükséges frissíteni az időszakot. A jelen példában ez tovább csökkentheti a növekményesen frissített napok számát 10-ről akár 2-re.
+10 napnyi adat növekményes frissítése természetesen sokkal hatékonyabb, mint 5 évnyi adat teljes frissítése. De lehet, hogy ennél többet is tudunk tenni. Az **Adatváltozások észlelése** jelölőnégyzet bejelölésével megadhat egy dátum/idő oszlopot, amely alapján a rendszer azonosítani tudja, hogy mely napokon történt adatváltozás, és csak ezeket a napokat frissíti. Ez azt feltételezi, hogy található ilyen oszlop a forrásrendszerben (mely jellemzően megtalálható, naplózási célokból). **Ez nem lehet ugyanaz az oszlop, amelyet az adatoknak a RangeStart/RangeEnd paraméterekkel való particionálására használt.** Ennek az oszlopnak a maximális értékét a rendszer kiértékeli a növekményes tartományban lévő minden egyes időszak esetében. Ha nem változott az utolsó frissítés óta, akkor nem szükséges frissíteni az időszakot. A jelen példában ez tovább csökkentheti a növekményesen frissített napok számát 10-ről akár 2-re.
 
 ![Változások észlelése](media/service-premium-incremental-refresh/detect-changes.png)
 

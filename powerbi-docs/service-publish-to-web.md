@@ -2,26 +2,26 @@
 title: Webes közzététel a Power BI-ból
 description: A Power BI Webes közzététel lehetőségével egyszerűen ágyazhat be interaktív Power BI-vizualizációkat online, például blogbejegyzésekbe, weboldalakba, e-mailen vagy közösségi médián keresztül, bármilyen eszközön.
 author: markingmyname
+ms.author: maghan
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 03/28/2018
-ms.author: maghan
 LocalizationGroup: Share your work
-ms.openlocfilehash: 2e02b4dfe9798eed393a0097ef4f220746acfdf6
-ms.sourcegitcommit: 695c65629d6d1faba61db2e1570324f65f235dde
+ms.openlocfilehash: b305c684ccf0938cfa8f5d9a2aa06f27a8c8be12
+ms.sourcegitcommit: fb29c4bf7e598f962b453ac68091ca2189d6ae3b
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37092345"
+ms.lasthandoff: 08/31/2018
+ms.locfileid: "43380336"
 ---
 # <a name="publish-to-web-from-power-bi"></a>Webes közzététel a Power BI-ból
 
 A Power BI **Webes közzététel** lehetőségével egyszerűen ágyazhat be interaktív Power BI-vizualizációkat online, például blogbejegyzésekbe, weboldalakba, e-mailen vagy közösségi médián keresztül, bármilyen eszközön.
 
-A közzétett vizualizációkat egyszerűen szerkesztheti vagy frissítheti, vagy akár vissza is vonhatja a megosztást.
+A közzétett vizualizációkat egyszerűen szerkesztheti, frissítheti, vagy akár vissza is vonhatja a megosztásukat.
 
 > [!WARNING]
 > A **Webes közzététel** használatával közzétett jelentést vagy vizualizációt bárki megtekintheti az Interneten. A jelentések megtekintésekor nincs hitelesítés. A Webes közzétételt csak olyan jelentések és adatok esetén használja, amelyeket az Interneten bárki számára (hitelesítés nélkül) láthatóvá kíván tenni. Ez a részletes adatokra is vonatkozik, amelyeket a jelentéseiben összegez. A jelentés közzététele előtt ellenőrizze, hogy jogában áll-e nyilvánosan megosztani az adatokat és vizualizációkat. Bizalmas vagy szellemi tulajdont képező információt ne tegyen közzé. Ha bizonytalan, akkor a közzététel előtt ellenőrizze a cég szabályzatait.
@@ -77,7 +77,7 @@ A Webes közzététel után kapott beágyazási kód a következőhöz lesz haso
 
 A szélességét és magasságát manuálisan is módosíthatja, hogy pontosan a kívánt módon illeszkedjen az oldalba, amelybe beágyazza.
 
-A legjobb illeszkedés érdekében megpróbálhat 56 képpontot hozzáadni az iFrame-keret magasságához. Ezen éppen elfér a jelenlegi méretű alsó sáv. Ha a jelentésoldala dinamikus méretezést használ, akkor az alábbi táblázatban talál néhány üres sávok nélküli illeszkedést biztosító méretet.
+A legjobb illeszkedés érdekében megpróbálhat 56 képpontot hozzáadni az iFrame-keret magasságához. Ezen éppen elfér a jelenlegi méretű alsó sávon. Ha a jelentésoldala dinamikus méretezést használ, akkor az alábbi táblázatban talál néhány üres sávok nélküli illeszkedést biztosító méretet.
 
 | Képarány | Nagyság | Méret (szélesség × magasság) |
 | --- | --- | --- |
@@ -128,15 +128,16 @@ A **Webes közzététel** az egyéni vizualizációkat is támogatja. A Webes k�
 
 A Power BI szolgáltatás adatforrásainak és jelentéseinek túlnyomó többsége esetén támogatott a **Webes közzététel**, a következők azonban **jelenleg nem támogatottak és nem érhetők el** Webes közzététellel:
 
-1. Sorszintű biztonságot használó jelentések.
-2. Az élő kapcsolatos adatforrásokat (például a helyszíni Analysis Services táblázatost, az Analysis Service Multidimensionalt és az Azure Analysis Servicest) használó jelentések.
-3. Közvetlenül Önnel vagy céges tartalomcsomagon keresztül megosztott jelentések.
-4. Olyan csoporthoz tartozó jelentések, amelynek ön nem szerkesztési joggal bíró tagja.
-5. Az "R" vizualizációk Webes közzétételű jelentésekben jelenleg nem támogatottak.
-6. Adatok exportálása weben közzétett jelentésben szereplő vizualizációkból
-7. ArcGIS Maps for Power BI-vizualizációk
-8. Jelentésszintű DAX-mértékeket tartalmazó jelentések
-9. [Bizalmas vagy szellemi tulajdont képező információk biztonságának védelme](#publish-to-web-from-power-bi)
+- Sorszintű biztonságot használó jelentések.
+- Az élő kapcsolatos adatforrásokat (például a helyszíni Analysis Services táblázatost, az Analysis Service Multidimensionalt és az Azure Analysis Servicest) használó jelentések.
+- Közvetlenül Önnel vagy céges tartalomcsomagon keresztül megosztott jelentések.
+- Olyan csoporthoz tartozó jelentések, amelynek ön nem szerkesztési joggal bíró tagja.
+- Az "R" vizualizációk Webes közzétételű jelentésekben jelenleg nem támogatottak.
+- Adatok exportálása weben közzétett jelentésben szereplő vizualizációkból
+- ArcGIS Maps for Power BI-vizualizációk
+- Jelentésszintű DAX-mértékeket tartalmazó jelentések
+- Egyszeri bejelentkezési adatlekérdezési modellek
+- [Bizalmas vagy szellemi tulajdont képező információk biztonságának védelme](#publish-to-web-from-power-bi)
 
 ## <a name="tenant-setting"></a>Bérlőbeállítások
 
@@ -144,7 +145,7 @@ A Power BI-rendszergazdák engedélyezhetik vagy letilthatják a Webes közzét�
 
 |Funkció |A teljes cég számára engedélyezve |A teljes cég számára letiltva |Speciális biztonsági csoportok   |
 |---------|---------|---------|---------|
-|A **Webes közzététel** parancs egy jelentés **Fájl** menüjében.|Mindenki számára engedélyezve|Mindenki számára nem látható|Csak az arra jogosult felhasználók vagy csoportok láthatják.|
+|A **Webes közzététel** parancs egy jelentés **Fájl** menüjében.|Mindenki számára engedélyezve|Nem mindenki számára látható|Csak az arra jogosult felhasználók vagy csoportok láthatják.|
 |A **Beágyazási kódok kezelése** funkció a **Beállítások** közt|Mindenki számára engedélyezve|Mindenki számára engedélyezve|Mindenki számára engedélyezve<br><br>* A **Törlés** parancsot csak az arra jogosult felhasználók vagy csoportok érik el.<br>* A **Kód lekérése** mindenki számára engedélyezve van.|
 |**Beágyazási kódok** a felügyeleti portálon|Az állapot a következő értékeket jelenítheti meg:<br>* Aktív<br>* Nem támogatott<br>* Blokkolva|Az állapot **Letiltva** lesz|Az állapot a következő értékeket jelenítheti meg:<br>* Aktív<br>* Nem támogatott<br>* Blokkolva<br><br>Ha egy felhasználónak nincs megfelelő jogosultsága a bérlői beállítások alapján, akkor az állapot **Megsértve** lesz.|
 |Meglévő közzétett jelentések|Minden engedélyezve|Minden letiltva|A jelentések továbbra is megjelennek mindenki számára.|
