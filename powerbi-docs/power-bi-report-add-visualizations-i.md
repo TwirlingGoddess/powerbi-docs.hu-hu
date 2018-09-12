@@ -2,21 +2,21 @@
 title: 1. rész – Vizualizációk hozzáadása Power BI-jelentésekhez
 description: 1. rész – Vizualizációk hozzáadása Power BI-jelentésekhez
 author: mihart
-manager: kfile
+manager: kvivek
 ms.reviewer: ''
 featuredvideoid: IkJda4O7oGs
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 03/23/2018
+ms.date: 08/23/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 2203d6af692e80ffe5480a81a0e0f2312c62b905
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: d3a4d893518a86425c8a6ccb82fd082609095b13
+ms.sourcegitcommit: 619b66176394b9b881edc29b6d123d9729554eb3
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34293766"
+ms.lasthandoff: 09/06/2018
+ms.locfileid: "44044256"
 ---
 # <a name="part-i-add-visualizations-to-a-power-bi-report"></a>1. rész – Vizualizációk hozzáadása Power BI-jelentésekhez
 A cikk röviden bemutatja a vizualizációk jelentésekben történő létrehozását mind a Power BI szolgáltatás, mind pedig a Power BI Desktop használatával.  Részletesebb útmutatásért [lásd a II. részt](power-bi-report-add-visualizations-ii.md). Amanda bemutatja, hogyan lehet különbözőképpen létrehozni, szerkeszteni és formázni a vizualizációkat a jelentésvásznon. Ezután Ön is megpróbálhatja létrehozni a saját jelentését a [Értékesítési és marketing minta](sample-datasets.md) segítségével.
@@ -34,7 +34,7 @@ A cikk röviden bemutatja a vizualizációk jelentésekben történő létrehoz�
 ## <a name="add-visualizations-to-the-report"></a>Vizualizációk hozzáadása a jelentéshez
 1. A vizualizáció létrehozásához válasszon egy mezőt a **Mezők** panelen.  
    
-   **Ha egy numerikus mezővel kezdi**, mint az Értékesítés > Értékesítés $, a Power BI egy egy oszlopból álló oszlopdiagramot hoz létre.
+   **Kezdjen egy numerikus mezővel**, például SalesFact > Sales $. A Power BI létrehoz egy oszlopdiagramot egyetlen oszloppal.
    
    ![](media/power-bi-report-add-visualizations-i/pbi_onecolchart.png)
    
@@ -45,7 +45,7 @@ A cikk röviden bemutatja a vizualizációk jelentésekben történő létrehoz�
    **Ha egy földrajzi mezővel indít**, mint a Földrajz > Város, a Power BI a Bing Maps segítségével egy térképi vizualizációt hoz létre.
    
    ![](media/power-bi-report-add-visualizations-i/power-bi-map.png)
-2. Hozzon létre egy vizualizációt, majd módosítsa a típusát. Jelölje ki a **Termék > Termékek száma** és a **Termék > Kategória** elemeket, és adja hozzá őket az **Értékek** területhez.
+2. Hozzon létre egy vizualizációt, majd módosítsa a típusát. Válassza ki a **Termék > Kategória**, majd a **Termék > Termékek száma** lehetőséget, és adja hozzá mindkettőt az **Értékekhez**.
    
    ![](media/power-bi-report-add-visualizations-i/part1table1.png)
 3. Az oszlopdiagram ikonra kattintva váltsa át a vizualizációt egy oszlopdiagramra.
@@ -54,20 +54,13 @@ A cikk röviden bemutatja a vizualizációk jelentésekben történő létrehoz�
 4. Ha vizualizációkat hoz létre egy jelentésben, [rögzítheti őket az irányítópulton](service-dashboard-pin-tile-from-report.md). A vizualizáció rögzítéséhez kattintson a rajzszög ikonra ![](media/power-bi-report-add-visualizations-i/pinnooutline.png).
    
    ![](media/power-bi-report-add-visualizations-i/part1pin1.png)
-5. Ezután:
-   
-   Továbbléphet a következőre: [2. rész: Vizualizációk hozzáadása Power BI-jelentésekhez](power-bi-report-add-visualizations-ii.md).
+  
+
+## <a name="next-steps"></a>Következő lépések
+ Továbbléphet a következőre: [2. rész: Vizualizációk hozzáadása Power BI-jelentésekhez](power-bi-report-add-visualizations-ii.md).
    
    [Használhatja a vizualizációkat](service-reading-view-and-editing-view.md) a jelentésben.
    
    [Még hatékonyabban használhatja a vizualizációkat](power-bi-report-visualizations.md).
    
    [Mentheti a jelentést](service-report-save.md).
-
-## <a name="next-steps"></a>További lépések
-További információk [a Power BI-jelentések vizualizációjáról](power-bi-report-visualizations.md).
-
-[Power BI-jelentések](service-reports.md)
-
-További kérdései vannak? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)
-

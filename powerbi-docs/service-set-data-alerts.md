@@ -2,21 +2,21 @@
 title: Adatriasztások beállítása a Power BI szolgáltatásban
 description: Itt elsajátíthatja, hogyan állíthat be riasztásokat, amelyek figyelmeztetik, ha az irányítópultjain lévő adatok változásai meghaladják a Microsoft Power BI szolgáltatásban beállított korlátokat.
 author: mihart
-manager: kfile
+manager: kvivek
 ms.reviewer: ''
 featuredvideoid: JbL2-HJ8clE
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 02/28/2018
+ms.date: 08/28/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: ffbad48df6665d5dff6c4eca97e86e6f2850565f
-ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
+ms.openlocfilehash: 153676c983ef81bcccf1ea6bf0adf95ef29a2765
+ms.sourcegitcommit: fe03f2a80f2df82219b8e026085f93a8453201df
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37137584"
+ms.lasthandoff: 09/08/2018
+ms.locfileid: "44167928"
 ---
 # <a name="data-alerts-in-power-bi-service"></a>Adatriasztások a Power BI szolgáltatásban
 Riasztásokat állíthat be, amelyek figyelmeztetik, ha az irányítópultjain lévő adatok változásai meghaladják a beállított korlátokat. 
@@ -42,18 +42,18 @@ A példában Amanda a Retail Analysis (Kiskereskedelmi elemzés) minta-irányít
 1. Kezdje a műveletet egy irányítópulttal. Az irányítópult egyik mérőműszer-, KPI- vagy kártyacsempéjén kattintson a három pontra (...).
    
    ![Összes üzlet csempe](media/service-set-data-alerts/powerbi-card.png)
-2. A harang ikon ![riasztás ikon](media/service-set-data-alerts/power-bi-bell-icon.png) kiválasztásával adjon hozzá egy vagy több riasztást a **Total Stores** (Összes üzlet) csempéhez.
+2. A harang ikon ![riasztás ikon](media/service-set-data-alerts/power-bi-bell-icon.png) vagy a **Riasztások kezelése** kiválasztásával adhat hozzá egy vagy több riasztást a **Total Stores** (Összes üzlet) csempéhez.
    
-1. Először válassza a **+ Riasztási szabály hozzáadása** lehetőséget, győződjön meg arról, hogy a csúszka a **Be** állásba van kapcsolva, majd adjon címet a riasztásnak. A címek segítségével könnyebben felismerheti a riasztásokat.
+1. A **Riasztások kezelése** panelen válassza a **+ Riasztási szabály hozzáadása** lehetőséget.  Ügyeljen rá, hogy a csúszka **Be** állásba legyen kapcsolva, és adjon címet a riasztásnak. A címek segítségével könnyebben felismerheti a riasztásokat.
    
    ![Riasztások kezelése ablak](media/service-set-data-alerts/powerbi-alert-title.png)
 4. Görgessen le, és adja meg a riasztás adatait.  Ebben a példában most egy olyan riasztást állítunk be, amely napi küld értesítést, ha az üzletek száma 100 fölé emelkedik. A riasztások az Értesítési központban jelennek meg. Azt is beállítjuk, hogy a Power BI egy e-mailt is küldjön.
    
    ![Riasztások kezelése ablak, küszöbérték beállítása](media/service-set-data-alerts/power-bi-set-alert-details.png)
-5. Kattintson a **Mentés** gombra.
+5. Válassza a **Mentés és bezárás** lehetőséget.
 
 ## <a name="receiving-alerts"></a>Riasztások fogadása
-Ha egy követett adat eléri valamelyik beállított küszöböt, több dolog történik. Először is, a Power BI ellenőrzi, hogy eltelt-e legalább egy óra vagy 24 óra (a választott beállítástól függően) az utolsó riasztás óta. Ha az adat meghaladja a küszöböt, a rendszer mindenképp riasztást küld.
+Ha egy követett adat eléri valamelyik beállított küszöböt, több dolog történik. Először is a Power BI ellenőrzi, hogy eltelt-e már több mint egy óra vagy 24 óra (a választott beállítástól függően) az utolsó riasztás óta. Ha az adat meghaladja a küszöböt, a rendszer mindenképp riasztást küld.
 
 Ezután a Power BI egy riasztást küld az Értesítési központba, valamint választhatóan az e-mail-fiókjába is. Az egyes riasztásokban közvetlen hivatkozás mutat az adatokra. A hivatkozásra megnyitásával megtekintheti a vonatkozó csempét, ahol részletesebb információkat találhat, valamint megoszthatja az információkat.  
 
@@ -104,6 +104,4 @@ A riasztások számos módon kezelhetők: Magával az irányítópult csempéjé
 ## <a name="next-steps"></a>További lépések
 [Adatriasztást tartalmazó Microsoft Flow létrehozása](service-flow-integration.md)    
 [Adatriasztások beállítása mobileszközökön](mobile-set-data-alerts-in-the-mobile-apps.md)    
-[A Power BI bemutatása](power-bi-overview.md)    
-További kérdései vannak? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)
 

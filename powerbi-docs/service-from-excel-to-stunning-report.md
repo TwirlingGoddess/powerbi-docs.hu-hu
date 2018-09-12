@@ -2,20 +2,20 @@
 title: Excel-munkafüzettől egy lenyűgöző jelentésig villámgyorsan
 description: Excel-munkafüzettől egy lenyűgöző jelentésig villámgyorsan
 author: mihart
-manager: kfile
+manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 02/28/2018
+ms.date: 08/28/2018
 ms.author: mihart
 LocalizationGroup: Data from files
-ms.openlocfilehash: f24d4055bd5fcf5fdee058112c268a1a0e197012
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 3244a185c7b7e9caa689ab7b90c184c9bf5b4662
+ms.sourcegitcommit: 619b66176394b9b881edc29b6d123d9729554eb3
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34247172"
+ms.lasthandoff: 09/06/2018
+ms.locfileid: "44044417"
 ---
 # <a name="from-excel-workbook-to-stunning-report-in-no-time"></a>Excel-munkafüzettől egy lenyűgöző jelentésig villámgyorsan
 A főnöke azt szeretné, hogy még ma készítsen el egy kombinált jelentést a tavalyi év értékesítési mutatóiról és az előző kampánnyal kapcsolatos benyomásairól. A legutóbbi adatok azonban különböző külső gyártók rendszerein és a saját laptopján lévő fájlokban találhatók. Korábban több óráig is eltartott egy vizualizáció létrehozása és egy jelentés formázása. Kezd nyugtalan lenni?
@@ -34,7 +34,7 @@ Ezután formázza az adatokat táblázatként. Az Excelben a Kezdőlapon a Stíl
 ![táblázatos formátumú adatok](media/service-from-excel-to-stunning-report/pbi_excel_table.png)
 
 ## <a name="upload-your-excel-file-into-power-bi"></a>Excel-fájl feltöltése a Power BI-ba
-A Power BI több adatforráshoz is képes csatlakozni, köztük a számítógépén található Excel-fájlokhoz. Első lépésként jelentkezzen be a Power BI-ba. Ha még nem regisztrált, [akkor ezt ingyen megteheti](https://powerbi.com).
+A Power BI több adatforráshoz is képes csatlakozni, köztük a számítógépén található Excel-fájlokhoz. Első lépésként jelentkezzen be a Power BI szolgáltatásba. Ha még nem regisztrált, [akkor ezt ingyen megteheti](https://powerbi.com).
 
 Érdemes létrehozni egy új irányítópultot. Nyissa meg a **Saját munkaterületet**, majd válassza a **+ Létrehozás** ikont.
 

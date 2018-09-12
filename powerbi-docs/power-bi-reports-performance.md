@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/18/2018
 ms.author: kfile
 LocalizationGroup: Reports
-ms.openlocfilehash: 2e8888679f36b64a6fc5956a9ca10dc3d07dce1a
-ms.sourcegitcommit: 8b2ae15eb0e39cce29f3bf466ab7768f3f7c7815
+ms.openlocfilehash: 08ead2570602538218085327c6d385c36e0d7e8c
+ms.sourcegitcommit: 8bad5ed58e9e406aca53996415b1240c2972805e
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 08/16/2018
-ms.locfileid: "40257267"
+ms.lasthandoff: 09/11/2018
+ms.locfileid: "44343323"
 ---
 # <a name="power-bi-performance-best-practices"></a>Ajánlott eljárások a Power BI teljesítményének javításához 
 A cikk azt mutatja be, hogyan hozhat létre gyors és megbízható jelentéseket a Power BI-ban.  
@@ -59,7 +59,7 @@ Az alábbi szakasz néhány olyan általános ajánlott eljárást ismertet, ame
 - Vigye át a számított oszlopokat és a mértékeket a forrásba, amikor csak lehetséges – minél közelebb vannak a forráshoz, annál jobb lesz a teljesítmény. 
 - Végezzen optimalizálást! Ismerje meg a lekérdezések végrehajtási tervét, adjon hozzá indexeket a gyakran szűrt oszlopokhoz, és így tovább. 
 
-### <a name="modelling-guidance"></a>Modellezési tanácsok 
+### <a name="modeling-guidance"></a>Modellezési útmutató 
 - Kezdjen a Power BI Desktop alkalmazásban. 
 - Kerülje az összetett lekérdezések használatát a Lekérdezésszerkesztőben. 
 - Ne használjon relatív dátum szerinti szűrést a Lekérdezésszerkesztőben.  
@@ -110,7 +110,7 @@ A teendők a következők:
 
    A kimenetben az alkalmazások, illetve az egyes alkalmazások által megnyitott portok listájának kell megjelennie, például a következőképpen:  
 
-   TCP    [::1]:55786            [::1]:55830            ESTABLISHED 
+   `TCP    [::1]:55786            [::1]:55830            ESTABLISHED`
 
    [msmdsrv.exe] 
 

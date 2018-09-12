@@ -2,20 +2,20 @@
 title: A Q&A használata a Power BI szolgáltatásban és a Power BI Desktopban – áttekintés
 description: 'Q&A szolgáltatás: Természetes nyelvi kérdések a Power BI-ban – Dokumentáció'
 author: mihart
-manager: kfile
+manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 01/18/2018
+ms.date: 08/18/2018
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: a1d39d10982f1d598ffce7e978c1b030e0a442d4
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 1680a1aacf84eb5440703385dc831c32433456bb
+ms.sourcegitcommit: fe03f2a80f2df82219b8e026085f93a8453201df
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34295468"
+ms.lasthandoff: 09/08/2018
+ms.locfileid: "44167951"
 ---
 # <a name="qa-in-power-bi-service-and-power-bi-desktop"></a>A Q&A a Power BI szolgáltatásban és a Power BI Desktopban
 ## <a name="what-is-qa"></a>Mi a Q&A?
@@ -48,11 +48,9 @@ Az adatok vizsgálatán túl a létrehozók és az adatkészletek tulajdonosai j
 
 ## <a name="how-does-qa-know-how-to-answer-questions"></a>Honnan tudja a Q&A, hogy hogyan válaszoljon meg egy kérdést?
 ### <a name="which-datasets-does-qa-use"></a>Melyik adatkészleteket használja a Q&A?
-Honnan tudja a Q&A, hogy hogyan válaszoljon meg egy adott adatokra vonatkozó kérdést? Az alapul szolgáló adatkészlet tábláinak, oszlopainak és számított mezőinek nevére támaszkodik. Éppen ezért fontos, hogy Ön (vagy az adatkészlet tulajdonosa) mit minek nevez el!
+Honnan tudja a Q&A, hogy hogyan válaszoljon meg egy adott adatokra vonatkozó kérdést? Az alapul szolgáló adatkészlet tábláinak, oszlopainak és számított mezőinek nevére támaszkodik. Éppen ezért fontos, hogy az adatkészlet tulajdonosa mit minek nevez el! Ha kérdéseire nem találja a válaszokat a Q&A-ben, kérdezze meg az adattulajdonost, lehetséges-e az adatkészletet felhasználóbarátabbá tenni.
 
-Például egy “Eladások” nevű Excel-táblázatban, amelynek “Termék”, “Hónap”, “Eladott mennyiség”, “Bruttó bevétel” és “Nyereség” nevű oszlopai vannak, Ön kérdéseket tehet fel ezek bármelyikével kapcsolatban.  Kérheti az *eladások* és az összes *nyereség* *havonkénti* kimutatását, a *termékek* *eladott mennyiség* szerinti rendezését és sok minden mást.
-
-A Q&A az adatkészlet felépítésén alapuló kérdésekre képes választ adni. Hogyan működne ez Salesforce-adatok esetén? Amikor Ön a salesforce.com-fiókjához kapcsolódik, a Power BI automatikusan létrehoz egy irányítópultot.  Mielőtt elkezdene kérdéseket feltenni a Q&A-val, vessen egy pillantást az irányítópult vizualizációin és a Q&A legördülő menüjében látható adatokra.
+A Q&A-ben az adatkészlet felépítésére vonatkozó kérdésekre talál választ. Hogyan működne ez Salesforce-adatok esetén? Amikor Ön a salesforce.com-fiókjához kapcsolódik, a Power BI automatikusan létrehoz egy irányítópultot.  Mielőtt elkezdene kérdéseket feltenni a Q&A-val, vessen egy pillantást az irányítópult vizualizációin és a Q&A legördülő menüjében látható adatokra.
 
 * Ha a vizualizáció tengelyfeliratai és értékei között szerepelnek a "sales", "account", "month" és "opportunity" szavak, akkor feltehet olyan angol nyelvű kérdéseket, mint hogy "Which *account* has the highest *opportunity*", vagy "show *sales* by month as a bar chart".
 * Ha a legördülő listában szerepelnek a "salesperson", "state", és "year" szavak, akkor bizonyára választ kap a "which *salesperson* had the lowest *sales* in *Florida* in *2013*" angol nyelvű kérdésre.
@@ -81,7 +79,5 @@ A Q&A által felismert kulcsszavakról a [Tippek kérdések feltevéséhez](serv
 [A Q&A engedélyezése helyszíni adatkészletekhez](service-q-and-a-direct-query.md) Ha az adatkészlethez való csatlakozáshoz átjáróra van szüksége, használja a Power BI beállításait a Q&A be- és kikapcsolásához.
 
 [Oktatóanyag: A Q&A használata a Kiskereskedelmi értékesítési mintával a Power BI szolgáltatásban](power-bi-visualization-introduction-to-q-and-a.md): Valósághű iparági oktatóanyag a Q&A használatáról.
-
-[Az adatok és a Q&A összeegyeztetése](service-prepare-data-for-q-and-a.md): Adatkészleteket és adatmodelleket állít elő?  Akkor ez a témakör Önnek szól.
 
 További kérdései vannak? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)

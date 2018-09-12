@@ -2,20 +2,20 @@
 title: Vizualizációtípusok a Power BI-ban
 description: Vizualizációtípusok a Power BI-ban
 author: mihart
-manager: kfile
+manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 01/19/2018
+ms.date: 09/04/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: bc1c54be2fdafeba4c706ca637ce50da7bf9d48c
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 4a98e62145c7928af9d33a5cd08c17e1867eef28
+ms.sourcegitcommit: fe03f2a80f2df82219b8e026085f93a8453201df
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34246446"
+ms.lasthandoff: 09/08/2018
+ms.locfileid: "44168112"
 ---
 # <a name="visualization-types-in-power-bi"></a>Vizualizációtípusok a Power BI-ban
 ## <a name="power-bi-visualizations"></a>Power BI-vizualizációk
@@ -122,6 +122,14 @@ További információ: [Oktatóanyag: Kitöltött térképek a Power BI-ban](pow
 
 ### <a name="pie-charts"></a>Tortadiagramok
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_pie.png)
+
+### <a name="ribbon-charts"></a>Szalagdiagramok
+![](media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-ribbon.png)
+
+>[!TIP]
+>Megállapítható, hogy mely adatkategória rendelkezik a legmagasabb besorolással.
+
+További információt a [Szalagdiagramok használata a Power BI-ban](desktop-ribbon-charts.md) című témakörben talál.
 
 ### <a name="scatter-and-bubble-charts"></a>Pont- és buborékdiagramok
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_bubble.png)

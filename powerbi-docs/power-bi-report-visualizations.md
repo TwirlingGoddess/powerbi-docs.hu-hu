@@ -2,21 +2,21 @@
 title: A Power BI szolgáltatás és a Power BI Desktop jelentésvizualizációinak áttekintése
 description: A Microsoft Power BI jelentésvizualizációinak áttekintése.
 author: mihart
-manager: kfile
+manager: kvivek
 ms.reviewer: ''
 featuredvideoid: SYk_gWrtKvM
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 01/21/2018
+ms.date: 08/21/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: f0e0dc02fc07849c68c00ce857da0ccbeb2d76df
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 03b981f6ac03bf23077458a29ea6f88b8feaa04e
+ms.sourcegitcommit: 619b66176394b9b881edc29b6d123d9729554eb3
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34240187"
+ms.lasthandoff: 09/06/2018
+ms.locfileid: "44044279"
 ---
 # <a name="visualizations-in-power-bi-reports"></a>Vizualizációk Power BI-jelentésekben
 A vizualizációk az adatokból nyert információkat jelenítik meg. Egy Power BI-jelentés állhat egyetlen oldalból, amelyen csak egy vizualizáció szerepel, de előfordulhatnak olyan jelentések is, amelyek számos vizualizációt tartalmazó oldalakból állnak. A Power BI szolgáltatásban a vizualizációkat [jelentésekből irányítópultokra lehet rögzíteni](service-dashboard-pin-tile-from-report.md). 
@@ -25,7 +25,7 @@ Fontos különbséget tenni a jelentés *létrehozója* és *felhasználója* k�
 
 A Power BI VIZUALIZÁCIÓK paneljén számos különféle típusú vizualizáció érhető el. 
 
-![](media/power-bi-report-visualizations/power-bi-visualizations.png)
+![](media/power-bi-report-visualizations/power-bi-templates.png)
 
 A [Microsoft AppSource közösségi oldalon](https://appsource.microsoft.com) azonban még nagyobb választékban talál letölthető [egyéni vizualizációkat](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals&page=1), amelyeket a Microsoft és a közösség tett elérhetővé.    
 
@@ -48,8 +48,3 @@ Ha a vizualizáció pont úgy néz ki, ahogy szeretné, a Power BI szolgáltatá
 
 ## <a name="next-steps"></a>Következő lépések
 [Vizualizációtípusok a Power BI-ban](power-bi-visualization-types-for-reports-and-q-and-a.md)
-[Power BI-jelentések](service-reports.md)  
-[A Power BI-irányítópultok](service-dashboards.md)  
-[Power BI – Alapfogalmak](service-basic-concepts.md)  
-További kérdései vannak? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)
-

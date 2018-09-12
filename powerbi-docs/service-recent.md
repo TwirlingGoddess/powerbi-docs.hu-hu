@@ -2,31 +2,31 @@
 title: A legutóbb megtekintett tartalom megjelenítése a Power BI-ban
 description: A legutóbbiak megtekintése Power BI-ban ‒ dokumentáció
 author: mihart
-manager: kfile
+manager: kvivek
 ms.reviewer: ''
 featuredvideoid: G26dr2PsEpk
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 03/01/2018
+ms.date: 09/01/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: c3d75f6cada62e7fc1dd026a4bdfa1daa8e94153
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: ae57617b1b70a3ed6181ab164accb69dac29779c
+ms.sourcegitcommit: 619b66176394b9b881edc29b6d123d9729554eb3
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34250931"
+ms.lasthandoff: 09/06/2018
+ms.locfileid: "44044210"
 ---
 # <a name="recent-content-in-power-bi-service"></a>A **Legutóbbi** tartalom megtekintése a Power BI szolgáltatásban
 
 
 ## <a name="what-is-recent-content"></a>A legutóbbi tartalom
-A legutóbbi tartalom a legutóbb megtekintett legfeljebb 20 tételt jelenti.  Ezek között szerepelhetnek irányítópultok, jelentések, alkalmazások és munkafüzetek az összes munkaterületről.
+A legutóbbi tartalom a Power BI szolgáltatásban legutóbb megtekintett legfeljebb 20 tételt jelenti.  Ezek között szerepelhetnek irányítópultok, jelentések, alkalmazások és munkafüzetek az összes munkaterületről.
 
 ![Legutóbbi tartalom ablak](media/service-recent/power-bi-recent-screen.png)
 
-Tekintse meg Amanda bemutatójában, hogyan alakul ki a **Legutóbbi** lista, majd a videó alatti utasításokat követve próbálja ki Ön is.
+Tekintse meg Amanda bemutatójában, hogyan alakul ki a Power BI szolgáltatásban a **Legutóbbi** lista, majd a videó alatti utasításokat követve próbálja ki Ön is.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/G26dr2PsEpk" frameborder="0" allowfullscreen></iframe>
 
