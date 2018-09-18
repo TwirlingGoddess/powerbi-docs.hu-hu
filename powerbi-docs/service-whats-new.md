@@ -10,19 +10,19 @@ ms.topic: conceptual
 ms.date: 08/27/2018
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: d7f966834e2d6b44f3a887991bd0ebd6e38836f0
-ms.sourcegitcommit: 619b66176394b9b881edc29b6d123d9729554eb3
+ms.openlocfilehash: 83d9e435c1dca10a444f3125830eb6432aecf6bd
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 09/06/2018
-ms.locfileid: "44044348"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44728203"
 ---
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>A Power BI szolgáltatás újdonságai
 Ezen az oldalon a **Power BI szolgáltatás** ismert problémáit és új funkcióit ismertetjük. Kapcsolódó "Újdonságok" az alábbi helyeken találhatók:
 
 - [A Power BI Desktop újdonságai](desktop-latest-update.md)  
-- [A Power BI-mobilalkalmazások újdonságai](mobile-whats-new-in-the-mobile-apps.md)  
+- [A Power BI-mobilalkalmazások újdonságai](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)  
 - [A Power BI csapat blogja](https://powerbi.microsoft.com/blog/)
 - [Business Applications ‘18 tavaszi kiadási megjegyzések](http://aka.ms/businessappsreleasenotes) a Dynamics 365-től: Üzleti alkalmazásaink legújabb frissítései és új funkciók alkalmazásai és bővítményei platformunkon történő fejlesztéséhez. 
 

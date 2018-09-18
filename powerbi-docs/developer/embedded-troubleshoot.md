@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 08/31/2018
-ms.openlocfilehash: 48faf9ebde5860b59569a7e0a3a96664d06a1b0d
-ms.sourcegitcommit: aed348a2d0025f7f40f2196254993f6aba5db7d2
+ms.openlocfilehash: d540dd29214422dfc33dca2bf2fb1cb74ebe6de7
+ms.sourcegitcommit: 9c3a9ec14c111d766ef5703366c316e72f6e588f
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 08/29/2018
-ms.locfileid: "43241568"
+ms.lasthandoff: 09/13/2018
+ms.locfileid: "45558576"
 ---
 # <a name="troubleshooting-your-embedded-application"></a>Beágyazott alkalmazás hibaelhárítása
 
@@ -105,13 +105,13 @@ Lehet, hogy az alkalmazás háttérszolgáltatásának a GenerateToken-hívás e
 
 Ha Ön a Power BI Embedded szolgáltatást használja Azure AD közvetlen hitelesítéssel, és ehhez hasonló üzeneteket kap bejelentkezéskor: ***error:unauthorized_client,error_description:AADSTS70002, akkor hiba történt a hitelesítő adatok érvényesítésekor. AADSTS50053: Ön túl sokszor próbált bejelentkezni egy helytelen felhasználói azonosítóval vagy jelszóval***, ezért alapértelezés szerint 2018. június 14-ével a közvetlen hitelesítést kikapcsoltuk.
 
-Ennek visszakapcsolására is van lehetőség [Azure AD-szabályzattal](https://docs.microsoft.com/en-us/azure/active-directory/manage-apps/configure-authentication-for-federated-users-portal#enable-direct-authentication-for-legacy-applications), amelynek hatóköre lehet a cég vagy egy [szolgáltatásnév](https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-application-objects#service-principal-object).
+Ennek visszakapcsolására is van lehetőség [Azure AD-szabályzattal](https://docs.microsoft.com/azure/active-directory/manage-apps/configure-authentication-for-federated-users-portal#enable-direct-authentication-for-legacy-applications), amelynek hatóköre lehet a cég vagy egy [szolgáltatásnév](https://docs.microsoft.com/azure/active-directory/develop/active-directory-application-objects#service-principal-object).
 
 Javasoljuk, hogy ezt csak az egyes alkalmazásokra engedélyezze.
 
 Ennek a szabályzatnak a létrehozásához **globális rendszergazdai** engedélyekre van szüksége ahhoz a könyvtárhoz, ahol létrehozza és hozzárendeli a szabályzatot. Itt látható egy mintaszkript a szabályzat létrehozásához és az SP-hez való hozzárendeléshez ennél az alkalmazásnál:
 
-1. Telepítse az [Azure AD előzetes verziójának PowerShell-modulját](https://docs.microsoft.com/en-us/powershell/azure/active-directory/install-adv2?view=azureadps-2.0).
+1. Telepítse az [Azure AD előzetes verziójának PowerShell-modulját](https://docs.microsoft.com/powershell/azure/active-directory/install-adv2?view=azureadps-2.0).
 
 2. Futtassa a következő PowerShell-parancsokat soronként (győződjön meg róla, hogy a $sp változó nem kap egynél több alkalmazást eredményül).
 
@@ -274,7 +274,7 @@ Ennek az az oka, hogy a webkiszolgáló alkalmazáshoz megadott átirányítási
 
 Ha szerkeszteni szeretné a regisztrált alkalmazást, ismerje meg, hogyan lehet szerkeszteni az [AAD-ben regisztrált alkalmazást](https://docs.microsoft.com/azure/active-directory/develop/active-directory-integrating-applications#updating-an-application), hogy az alkalmazás hozzáférhessen a webes API-khoz.
 
-Ha a Power BI felhasználói profiljait vagy adatait szeretné szerkeszteni, olvassa el, hogyan szerkeszthetők a [Power BI-adatok](https://docs.microsoft.com/en-us/power-bi/service-basic-concepts).
+Ha a Power BI felhasználói profiljait vagy adatait szeretné szerkeszteni, olvassa el, hogyan szerkeszthetők a [Power BI-adatok](https://docs.microsoft.com/power-bi/service-basic-concepts).
 
 További információ: [Power BI Embedded – gyakori kérdések](embedded-faq.md).
 

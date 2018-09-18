@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/24/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 760eda5625bd52bf7129ba7cfe5f213921d469b7
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: a85733e8450c9e1d3574afb71ace64fa2622fe0c
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34247803"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44725627"
 ---
 # <a name="create-a-new-report-from-an-existing-report-copy-a-report"></a>Új jelentés létrehozása meglévő jelentésből (jelentés másolása)
 Lehet, hogy rendelkezik egy jelentéssel, amely már az adatkészletéhez kapcsolódik, és van néhány vizualizációja, amelyeket szeretne újrahasznosítani vagy módosítani.  Miért nem másolja le ezt a jelentést egy új jelentés alapjául?  Ehhez:
@@ -37,7 +37,7 @@ Lehet, hogy rendelkezik egy jelentéssel, amely már az adatkészletéhez kapcso
 5. Jó szórakozást az új jelentés frissítéséhez és szerkesztéséhez.
 
 ## <a name="next-steps"></a>Következő lépések:
-[Új vizualizációk létrehozása](power-bi-report-add-visualizations-ii.md)
+[Új vizualizációk létrehozása](visuals/power-bi-report-add-visualizations-ii.md)
 
 Szükségtelen [vizualizációk törlése](service-delete.md)
 

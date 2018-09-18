@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 08/21/2018
-ms.openlocfilehash: c1f9da598abee29a1d8eef0419fcb472f0a1467e
-ms.sourcegitcommit: aed348a2d0025f7f40f2196254993f6aba5db7d2
+ms.openlocfilehash: e83224932048aeab2dde6187eb217da7d89fed85
+ms.sourcegitcommit: 9c3a9ec14c111d766ef5703366c316e72f6e588f
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 08/29/2018
-ms.locfileid: "43241522"
+ms.lasthandoff: 09/13/2018
+ms.locfileid: "45558569"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Gyakori kérdések – Power BI Embedded
 
@@ -79,7 +79,7 @@ Itt látható egy részlet a különbségek listájából, amely mindkét megold
 |  |A termékváltozat (Power BI Embedded)  |EM termékváltozat (Power BI Premium)  |P termékváltozat (Power BI Premium)  |
 |---------|---------|---------|---------|
 |Vásárlás  |Azure Portal |Office |Office |
-|Felhasználási módok | Tartalmak beágyazása saját alkalmazásba | <li> Tartalmak beágyazása saját alkalmazásba <br><br></br> <li> Tartalmak beágyazása MS Office-alkalmazásokba: <br> - [SharePoint](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/) <br> - [Teams (a mobilalkalmazás kivételével)](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/) <br> - [Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard) | <li> Tartalmak beágyazása saját alkalmazásba <br><br></br> <li> Tartalmak beágyazása MS Office-alkalmazásokba: <br> - [SharePoint](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/) <br> - [Teams (a mobilalkalmazás kivételével)](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/) <br> - [Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard) <br><br></br> <li> Tartalom megosztása Power BI-felhasználókkal a [Power BI szolgáltatásban](https://powerbi.microsoft.com/en-us/)  |
+|Felhasználási módok | Tartalmak beágyazása saját alkalmazásba | <li> Tartalmak beágyazása saját alkalmazásba <br><br></br> <li> Tartalmak beágyazása MS Office-alkalmazásokba: <br> - [SharePoint](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/) <br> - [Teams (a mobilalkalmazás kivételével)](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/) <br> - [Dynamics 365](https://docs.microsoft.com/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard) | <li> Tartalmak beágyazása saját alkalmazásba <br><br></br> <li> Tartalmak beágyazása MS Office-alkalmazásokba: <br> - [SharePoint](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/) <br> - [Teams (a mobilalkalmazás kivételével)](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/) <br> - [Dynamics 365](https://docs.microsoft.com/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard) <br><br></br> <li> Tartalom megosztása Power BI-felhasználókkal a [Power BI szolgáltatásban](https://powerbi.microsoft.com/en-us/)  |
 |Számlázás |Óránként |Havonta |Havonta |
 |Kötelezettségvállalás  |Nincs kötelezettségvállalás |Éves  |Havi/Éves |
 |Megkülönböztetés |Az Azure Portalon vagy API-kon keresztül teljes mértékű rugalmasságot tesz lehetővé, vagyis felfelé és lefelé történő méretezhetőséget, illetve az erőforrások felfüggesztését és folytatását  |Tartalmak beágyazására használható a SharePoint Online-ban és a Microsoft Teamsben (a mobilalkalmazás kivételével) |Egy kapacitáson belül egyesíti az alkalmazásokba történő beágyazásokat és a Power BI szolgáltatás használatát |
@@ -133,7 +133,7 @@ Igen, vannak PowerShell-parancsmagok és Azure Resource Manager (ARM) API-k, ame
 
 ### <a name="what-is-the-pbi-embedded-dedicated-capacity-role-in-a-pbi-embedded-solution"></a>Mi az a PBI Embedded elkülönített kapacitási szerepkör a PBI Embedded megoldásban?
 
-Annak érdekében, hogy a [megoldást elő lehessen léptetni az éles környezetbe](https://docs.microsoft.com/en-us/power-bi/developer/embedding-content#step-3-promote-your-solution-to-production), szükséges, hogy a Power BI-tartalom (az alkalmazásban használt alkalmazás-munkaterület) hozzá legyen rendelve egy Power BI Embedded- (A termékváltozat) kapacitásoz.
+Annak érdekében, hogy a [megoldást elő lehessen léptetni az éles környezetbe](https://docs.microsoft.com/power-bi/developer/embedding-content#step-3-promote-your-solution-to-production), szükséges, hogy a Power BI-tartalom (az alkalmazásban használt alkalmazás-munkaterület) hozzá legyen rendelve egy Power BI Embedded- (A termékváltozat) kapacitásoz.
 
 ### <a name="what-are-the-azure-regions-pbi-embedded-is-available"></a>Mely Azure-régiókban érhető el a PBI Embedded?
 
@@ -158,11 +158,11 @@ Az alkalmazások felhasználóinak hitelesítését és engedélyezését a füg
 
 Ha már rendelkezik egy Azure AD-bérlővel, akkor használhatja meglévő címtárát, vagy létrehozhat egy új Azure AD-bérlőt a beágyazott alkalmazásai tartalmainak biztonságához.
 
-AAD-token beszerzéséhez használhatja az Azure Active Directory valamely hitelesítési kódtárát – https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-authentication-libraries. Ügyfélkódtárak több platformhoz is elérhetőek.
+AAD-token beszerzéséhez használhatja az Azure Active Directory valamely hitelesítési kódtárát – https://docs.microsoft.com/azure/active-directory/develop/active-directory-authentication-libraries. Ügyfélkódtárak több platformhoz is elérhetőek.
 
 ### <a name="my-application-already-uses-aad-for-user-authentication-how-can-we-use-this-identity-when-authenticating-to-power-bi-in-a-user-owns-data-scenario"></a>Az alkalmazásom már AAD-t használ a felhasználói hitelesítéshez. Hogyan használhatjuk ezt az identitást, a „Felhasználó az adatok tulajdonosa” forgatókönyvek esetében a Power BI-ban való hitelesítésekor? 
 
-Ez egy szokásos, más nevében történő OAuth-hitelesítési folyamat (https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-authentication-scenarios#web-application-to-web-api) Az alkalmazást úgy kell konfigurálni, hogy engedélyt kérjen a Power BI szolgáltatáshoz (a szükséges hatókörökkel), és ha már rendelkezik felhasználói tokennel az alkalmazáshoz, egyszerűen csak hívnia kell az ADAL API AcquireTokenAsync metódust a felhasználói hozzáférési tokennel, és meg kell adnia a Power BI-erőforrás URL-címét erőforrás-azonosítóként. Tekintse át az alábbi kódrészletet, amely bemutatja ennek módját:
+Ez egy szokásos, más nevében történő OAuth-hitelesítési folyamat (https://docs.microsoft.com/azure/active-directory/develop/active-directory-authentication-scenarios#web-application-to-web-api) Az alkalmazást úgy kell konfigurálni, hogy engedélyt kérjen a Power BI szolgáltatáshoz (a szükséges hatókörökkel), és ha már rendelkezik felhasználói tokennel az alkalmazáshoz, egyszerűen csak hívnia kell az ADAL API AcquireTokenAsync metódust a felhasználói hozzáférési tokennel, és meg kell adnia a Power BI-erőforrás URL-címét erőforrás-azonosítóként. Tekintse át az alábbi kódrészletet, amely bemutatja ennek módját:
 
 ```csharp
 var context = new AD.AuthenticationContext(authorityUrl);
@@ -299,7 +299,7 @@ Az AAD-ben regisztrált alkalmazások szerkesztéséről [itt](https://docs.micr
 
 ### <a name="how-can-i-edit-my-power-bi-user-profile-or-data"></a>Hogyan szerkeszthetem a Power BI-felhasználói profilt vagy adatokat?
 
-A Power BI-adatok szerkesztéséről [itt](https://docs.microsoft.com/en-us/power-bi/service-basic-concepts) olvashat.
+A Power BI-adatok szerkesztéséről [itt](https://docs.microsoft.com/power-bi/service-basic-concepts) olvashat.
 
 További információ: [A beágyazott alkalmazás hibaelhárítása](embedded-troubleshoot.md)
 

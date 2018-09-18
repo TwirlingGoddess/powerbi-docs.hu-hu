@@ -10,15 +10,15 @@ ms.topic: conceptual
 ms.date: 08/21/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 09fcce65539d89c9d42bc05369f13a6048eb96c2
-ms.sourcegitcommit: aed348a2d0025f7f40f2196254993f6aba5db7d2
+ms.openlocfilehash: c9451297dab6210a454ea96c1537189f46e8ad24
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 08/29/2018
-ms.locfileid: "43241591"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44726133"
 ---
 # <a name="dashboard-tiles-in-power-bi"></a>Irányítópult-csempék a Power BI-ban
-Az irányítópultok és az irányítópulton található csempék nem a Power BI Desktophoz, hanem a Power BI szolgáltatáshoz tartozó funkciók. A Power BI mobilalkalmazásban nem hozhatók létre és nem tűzhetők ki irányítópult-csempék, de [megtekinthetők és megoszthatók](mobile-tiles-in-the-mobile-apps.md) abból. Ezenkívül a Power BI mobilalkalmazásban [képeket vehet fel az irányítópulthoz az iPhone-alkalmazással](mobile-iphone-app-get-started.md).
+Az irányítópultok és az irányítópulton található csempék nem a Power BI Desktophoz, hanem a Power BI szolgáltatáshoz tartozó funkciók. A Power BI mobilalkalmazásban nem hozhatók létre és nem tűzhetők ki irányítópult-csempék, de [megtekinthetők és megoszthatók](consumer/mobile/mobile-tiles-in-the-mobile-apps.md) abból. Ezenkívül a Power BI mobilalkalmazásban [képeket vehet fel az irányítópulthoz az iPhone-alkalmazással](consumer/mobile/mobile-iphone-app-get-started.md).
 
 ## <a name="dashboard-tiles"></a>Irányítópult-csempék
 ![Power BI-irányítópult](media/service-dashboard-tiles/power-bi-dashboard.png)
@@ -94,7 +94,7 @@ Az, hogy mi történik, amikor rákattint valamelyik csempére, attól függ, ho
 * A csempe létrehozásához használt vizualizációs elem változásakor a csempe nem változik.  Például ha kitűz egy sávdiagramot egy jelentésből, majd a sávdiagramot oszlopdiagramra cseréli, az irányítópulton megjelenő csempén továbbra is sávdiagram lesz látható. Az adatok frissülni fognak, de a diagram típusa nem.
 
 ## <a name="next-steps"></a>Következő lépések
-[Kártyák (nagy méretű numerikus csempék) létrehozása az irányítópulthoz](power-bi-visualization-card.md)
+[Kártyák (nagy méretű numerikus csempék) létrehozása az irányítópulthoz](visuals/power-bi-visualization-card.md)
 
 [A Power BI-irányítópultok](service-dashboards.md)  
 

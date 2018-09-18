@@ -10,12 +10,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/13/2018
 ms.author: mihart
-ms.openlocfilehash: efddb15572705d6d1c7cb215250360e94a8546cb
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: 4676b31a117573d1d69b5947ec2380c4abf29405
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37600356"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44726869"
 ---
 # <a name="getting-a-custom-visual-certified"></a>Egyéni vizualizáció *minősítésének* megszerzése
 ## <a name="what-is-meant-by-certified"></a>Mit értünk az alatt, hogy *minősített*?
@@ -142,7 +142,7 @@ A Microsoft saját belátása szerint eltávolíthatja a vizualizációkat a Min
 ## <a name="next-steps"></a>További lépések
 [Bevezetés az egyéni vizualizációk fejlesztői eszközeinek használatába (előzetes verzió)](service-custom-visuals-getting-started-with-developer-tools.md)      
 [A Microsoft az egyéni vizualizációkat bemutató lejátszási listája a YouTube-on](https://www.youtube.com/playlist?list=PL1N57mwBHtN1vIjfvuBIzZllrmKo-Vz6x)  
-[Vizualizációk a Power BI-ban](power-bi-report-visualizations.md)  
+[Vizualizációk a Power BI-ban](visuals/power-bi-report-visualizations.md)  
 [Egyéni vizualizáció a Power BI-ban](power-bi-custom-visuals.md)  
 [Egyéni vizualizációk közzététele a Microsoft AppSource-ban](developer/office-store.md)  
 További kérdései vannak? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)

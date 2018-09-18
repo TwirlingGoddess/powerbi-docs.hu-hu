@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 06/22/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 1c4f710cd048fc2c2828f0386d23328c164bb3fb
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: 51c3fdbef345a0d6020abe35ba7c71aaa67882e4
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37598659"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44726846"
 ---
 # <a name="tutorial-get-started-with-power-bi-service-apppowerbicom"></a>Oktatóanyag: A Power BI szolgáltatás (az app.powerbi.com webhely) használatának első lépései
 Ez az oktatóanyag segít az első lépések megtételében a ***Power BI szolgáltatásban***. Ha szeretné megérteni, hogyan illeszkedik a Power BI szolgáltatás a többi Power BI-ajánlathoz, javasoljuk, először olvassa el a [Mi az a Power BI](power-bi-overview.md) című szakaszt.
@@ -42,7 +42,7 @@ Ha már rendelkezik fiókkal, nyissa meg a böngészőt, és írja be az app.pow
 
 ![Jelentkezzen be vagy regisztráljon ingyenesen](media/service-get-started/power-bi-sign-up.png)
 
-Ha a Power BI Desktoppal kapcsolatos segítséget keres, olvassa el az [Első lépések a Desktopban](desktop-getting-started.md) című szakaszt. Ha a Power BI Mobile-lal kapcsolatos segítségre van szükséges, lásd: [Power BI-alkalmazások mobileszközökre](mobile-apps-for-mobile-devices.md).
+Ha a Power BI Desktoppal kapcsolatos segítséget keres, olvassa el az [Első lépések a Desktopban](desktop-getting-started.md) című szakaszt. Ha a Power BI Mobile-lal kapcsolatos segítségre van szükséges, lásd: [Power BI-alkalmazások mobileszközökre](consumer/mobile/mobile-apps-for-mobile-devices.md).
 
 > [!TIP]
 > Ehelyett egy ingyenes, saját tempóban elvégezhető tanfolyamot szeretne? [Regisztráljon Analyzing and Visualizing Data (Adatok elemzése és vizualizációja) tanfolyamunkra az Edx-en](http://aka.ms/edxpbi).

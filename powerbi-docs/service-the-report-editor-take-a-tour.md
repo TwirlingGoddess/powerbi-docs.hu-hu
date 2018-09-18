@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 04/11/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: ef05531ee6080593d232e48a2118a9be7e8cbd19
-ms.sourcegitcommit: 5eb8632f653b9ea4f33a780fd360e75bbdf53b13
+ms.openlocfilehash: 78d9004a718990cbcd310835e8e9b8ae5e3eae17
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "34299470"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44726639"
 ---
 # <a name="the-report-editortake-a-tour"></a>A jelentésszerkesztő – bevezetés
 ## <a name="editing-reports-in-power-bi-service-and-power-bi-desktop"></a>Jelentések szerkesztése a Power BI szolgáltatásban és a Power BI Desktopban
@@ -65,7 +65,7 @@ Mezőt a mező neve mellett jobbra látható **×** választásával távolítha
 
 ![StoreType eltávolítása jelmagyarázatból](media/service-the-report-editor-take-a-tour/deletefield.png)
 
-További információ: [Vizualizáció hozzáadása Power BI-jelentéshez](power-bi-report-add-visualizations-i.md)
+További információ: [Vizualizáció hozzáadása Power BI-jelentéshez](visuals/power-bi-report-add-visualizations-i.md)
 
 ### <a name="format-your-visuals"></a>Vizualizációk formázása
 A festőhenger ikonra kattintva nyissa meg a Formázás panelt. Az elérhető lehetőségek a választott vizualizációtípustól függnek.
@@ -74,9 +74,9 @@ A festőhenger ikonra kattintva nyissa meg a Formázás panelt. Az elérhető le
 
 A formázási lehetőségek száma szinte végtelen.  A megismerésükhöz fedezze fel őket saját maga, vagy olvassa el az alábbi cikkeket:
 
-* [Vizualizáció címének, hátterének és jelmagyarázatának testre szabása](power-bi-visualization-customize-title-background-and-legend.md)
-* [Formázás színekkel](service-getting-started-with-color-formatting-and-axis-properties.md)
-* [Az X és az Y tengely tulajdonságainak beállítása](power-bi-visualization-customize-x-axis-and-y-axis.md)
+* [Vizualizáció címének, hátterének és jelmagyarázatának testre szabása](visuals/power-bi-visualization-customize-title-background-and-legend.md)
+* [Formázás színekkel](visuals/service-getting-started-with-color-formatting-and-axis-properties.md)
+* [Az X és az Y tengely tulajdonságainak beállítása](visuals/power-bi-visualization-customize-x-axis-and-y-axis.md)
 
 ### <a name="add-analytics-to-your-visualizations"></a>Elemzés hozzáadása vizualizációhoz
 Az Elemzés panel megnyitásához válassza a nagyító ikont. Az elérhető lehetőségek a választott vizualizációtípustól függnek.
@@ -126,7 +126,7 @@ A jelentésvásznon jelenik meg a munkája. A Mezők, a Szűrők és a Megjelen�
 ## <a name="next-steps"></a>További lépések:
 [Jelentés létrehozása](service-report-create-new.md)
 
-További információk a jelentések használatáról a [Power BI szolgáltatásban](service-reports.md), a [Power BI Desktopban](desktop-report-view.md) és a [Power BI Mobile-ban](mobile-apps-view-phone-report.md).
+További információk a jelentések használatáról a [Power BI szolgáltatásban](service-reports.md), a [Power BI Desktopban](desktop-report-view.md) és a [Power BI Mobile-ban](consumer/mobile/mobile-apps-view-phone-report.md).
 
 [Power BI – Alapfogalmak](service-basic-concepts.md)
 

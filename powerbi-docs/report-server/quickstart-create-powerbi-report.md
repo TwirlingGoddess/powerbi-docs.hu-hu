@@ -9,12 +9,12 @@ ms.component: powerbi-report-server
 ms.topic: conceptual
 ms.date: 05/18/2018
 ms.author: maggies
-ms.openlocfilehash: 0debedc6e768fb3158ebe5cb4bf820ed3dc14a58
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 64757d6cbd82b666bf18f1ee87d8e51954872990
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34481417"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44726731"
 ---
 # <a name="create-a-power-bi-report-for-power-bi-report-server"></a>Power BI-jelentés létrehozása a Power BI jelentéskészítő kiszolgálóhoz
 A Power BI-jelentéseket helyszínen is tárolhatja és kezelheti a Power BI jelentéskészítő kiszolgáló webportálján, illetve tárolhatja őket a felhőbeli Power BI szolgáltatásban (https://powerbi.com)). A jelentéseket a Power BI Desktopban hozhatja létre, majd közzéteheti a webportálon. Ekkor a jelentések megtekinthetővé válnak a cégen belüli olvasók számára egy böngésző vagy egy Power BI-mobilalkalmazás használatával.
@@ -108,7 +108,7 @@ A Power BI jelentéskészítő kiszolgálón tárolt jelentések nem támogatjá
 * A Power BI Desktop előzetes verziójú funkciói
 
 ### <a name="in-the-power-bi-mobile-apps"></a>A Power BI-mobilalkalmazásokban
-A Power BI jelentéskészítő kiszolgálón tárolt jelentések a [Power BI-mobilalkalmazások](../mobile-apps-for-mobile-devices.md) minden alapvető funkcióját támogatják, köztük:
+A Power BI jelentéskészítő kiszolgálón tárolt jelentések a [Power BI-mobilalkalmazások](../consumer/mobile/mobile-apps-for-mobile-devices.md) minden alapvető funkcióját támogatják, köztük:
 
 * [A jelentés telefonos elrendezése](../desktop-create-phone-report.md): A jelentést optimalizálhatja a Power BI-mobilalkalmazásokra. Az optimalizált jelentéseknek különleges ikonjuk ![Jelentés telefonos elrendezésének ikonja](media/quickstart-create-powerbi-report/power-bi-rs-mobile-optimized-icon.png) és elrendezésük van a mobiltelefonon.
   

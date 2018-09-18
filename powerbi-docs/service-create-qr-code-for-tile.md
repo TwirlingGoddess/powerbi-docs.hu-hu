@@ -10,19 +10,19 @@ ms.topic: conceptual
 ms.date: 03/07/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 3b0bf5e54ad6486134eb641d276fc9233b001157
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: bb2cd0e26caaa7639020d51a0827390932e78b06
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34249709"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44726055"
 ---
 # <a name="create-a-qr-code-for-a-tile-in-power-bi-to-use-in-the-mobile-apps"></a>QR-kód létrehozása egy Power BI-csempéhez mobilalkalmazásokban történő használathoz
 A Power BI-ban a QR-kódok a való világból bármit képesek közvetlenül a hozzájuk kapcsolódó BI-információkhoz kapcsolni – nincs szükség keresésre vagy navigálásra.
 
 A Power BI szolgáltatásban bármelyik irányítópult csempéjéhez létrehozhat egy QR-kódot, még akkor is, ha magát az irányítópultot nem szerkesztheti. Ezután elhelyezheti a QR-kódot egy kulcsfontosságú helyen. Beillesztheti például egy e-mailbe, vagy kinyomtathatja és elhelyezheti egy adott helyen. 
 
-Azok a munkatársak, akikkel megosztotta az irányítópultját, [közvetlenül a mobileszközeikről beolvashatják a csempe hozzáféréséhez készült QR-kódot](mobile-apps-qr-code.md). A Power BI alkalmazásban található QR-kódolvasót vagy az eszközükre telepített bármely QR-olvasót használhatják erre a célra.
+Azok a munkatársak, akikkel megosztotta az irányítópultját, [közvetlenül a mobileszközeikről beolvashatják a csempe hozzáféréséhez készült QR-kódot](consumer/mobile/mobile-apps-qr-code.md). A Power BI alkalmazásban található QR-kódolvasót vagy az eszközükre telepített bármely QR-olvasót használhatják erre a célra.
 
 
 ## <a name="create-a-qr-code-for-a-tile"></a>QR-kód létrehozása csempéhez
@@ -52,8 +52,8 @@ A Power BI JPG-fájlként hozza létre a QR-kódot, nyomtatásra készen.
 3. Vágja ki a QR-kódot, majd ragassza egy olyan helyre, amely kapcsolódik a csempéhez. 
 
 ## <a name="next-steps"></a>Következő lépések
-* [Power BI-információk elérése a való világból](mobile-apps-data-in-real-world-context.md) a mobilalkalmazásokkal
-* [Power BI QR-kódjának beolvasása mobileszközről](mobile-apps-qr-code.md)
+* [Power BI-információk elérése a való világból](consumer/mobile/mobile-apps-data-in-real-world-context.md) a mobilalkalmazásokkal
+* [Power BI QR-kódjának beolvasása mobileszközről](consumer/mobile/mobile-apps-qr-code.md)
 * [QR-kód létrehozása jelentéshez](service-create-qr-code-for-report.md)
 * Kérdése van? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)
 

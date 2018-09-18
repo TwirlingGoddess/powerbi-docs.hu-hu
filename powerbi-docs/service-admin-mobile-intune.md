@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/28/2017
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 8e31d3128e38453212a8a0ecef2a139fa2d0f356
-ms.sourcegitcommit: 49570ab8f5b5cd5bab4cd388f4281b1372bcb80b
+ms.openlocfilehash: 565c43be3489c23f26a98f99ce2d70022be965d2
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/09/2018
-ms.locfileid: "35250545"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44727996"
 ---
 # <a name="configure-mobile-apps-with-microsoft-intune"></a>Mobilalkalmazások konfigurálása a Microsoft Intune-nal
 A Microsoft Intune lehetővé teszi a cégek számára az eszközök és alkalmazások kezelését. A Power BI iOS és Android rendszerhez készült mobilalkalmazásai integrálódnak az Intune-nal, lehetővé téve az alkalmazás kezelését az eszközökön, valamint a biztonság szabályozását. Konfigurációs szabályzatok útján a szervezetek sok mindent meghatározhatnak, például hogy egy elemhez szükség van-e hozzáférési kódra, hogy az alkalmazás hogyan kezeli az adatokat és akár az alkalmazásadatok titkosítását is, amikor az alkalmazás nincs használatban.
@@ -163,7 +163,7 @@ A telepítését követően látni fogja, hogy az alkalmazást **A munkahely kez
 
 ## <a name="next-steps"></a>Következő lépések
 [Mobilalkalmazás-felügyeleti szabályzatok konfigurálása és üzembe helyezése a Microsoft Intune-konzolon](https://technet.microsoft.com/library/dn878026.aspx)  
-[Power BI-alkalmazások mobileszközökre](mobile-apps-for-mobile-devices.md)  
+[Power BI-alkalmazások mobileszközökre](consumer/mobile/mobile-apps-for-mobile-devices.md)  
 
 További kérdései vannak? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)
 

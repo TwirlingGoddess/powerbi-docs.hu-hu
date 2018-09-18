@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/04/2018
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: d5d57525e8aab3a3f7bfa1806661c4bf6e3ff981
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 3b1a6b9a0e95c6bbd628368d47b866da18643741
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34293881"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44725834"
 ---
 # <a name="create-a-responsive-slicer-you-can-resize-in-power-bi"></a>Átméretezhető rugalmas szeletelő létrehozása a Power BI-ban
 
@@ -80,5 +80,5 @@ Ugyanezekkel a lépésekkel tehet rugalmassá egy idő- vagy tartományszeletel�
 
 ## <a name="next-steps"></a>Következő lépések
 
-- [Szeletelők a Power BI szolgáltatásban](power-bi-visualization-slicers.md)
+- [Szeletelők a Power BI szolgáltatásban](visuals/power-bi-visualization-slicers.md)
 - További kérdései vannak? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)

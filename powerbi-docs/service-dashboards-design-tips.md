@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/22/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 7da86135a391f8a6206a913a1e13df423ad96fbd
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 327e9d9973aabb17761b55d355598462ce70e20e
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "36944974"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44726048"
 ---
 # <a name="tips-for-designing-a-great-power-bi-dashboard"></a>Tippek a tökéletes Power BI-irányítópult megtervezéséhez
 Most, hogy létrehozta az irányítópultot, és hozzáadott néhány csempét is, gondolja át, hogyan tehetné irányítópultját egyszerre ízlésessé és célratörővé. Ennek a legjobb módja, ha a legfontosabb információ a legfeltűnőbb, amelynek megjelenése letisztult és rendezett.
@@ -23,7 +23,7 @@ Most, hogy létrehozta az irányítópultot, és hozzáadott néhány csempét i
 Íme, néhány tipp.
 
 > [!TIP]
-> A jelentésekre vonatkozó tervezési elvek közül jó néhány az irányítópultra is igaz.  Olvassa el következő tanulmányunkat: [A legjobb tervezési elvek jelentések és vizualizációk elkészítéséhez](power-bi-visualization-best-practices.md).
+> A jelentésekre vonatkozó tervezési elvek közül jó néhány az irányítópultra is igaz.  Olvassa el következő tanulmányunkat: [A legjobb tervezési elvek jelentések és vizualizációk elkészítéséhez](visuals/power-bi-visualization-best-practices.md).
 >
 >
 
@@ -51,7 +51,7 @@ Ha az irányítópulton található szövegek és a vizualizációk azonos mére
 
 De ügyeljen arra, hogy a kontextust is megadja.  
 
-Olvassa el a [csupán egyetlen számmal ellátott csempe létrehozására](power-bi-visualization-card.md) vonatkozó részt.
+Olvassa el a [csupán egyetlen számmal ellátott csempe létrehozására](visuals/power-bi-visualization-card.md) vonatkozó részt.
 
 ## <a name="put-the-most-important-information-in-the-upper-corner"></a>A legfontosabb információt helyezze a felső sarokba
 A legtöbb ember fentről lefelé kezd olvasni, így célszerű a képernyő tetején elhelyezni a legfontosabb részletet, és a közönség olvasási irányának megfelelően növelni a részletsűrűséget (balról jobbra, jobbról balra).
@@ -68,7 +68,7 @@ Pusztán a változatosság kedvéért ne változtasson a vizualizáción.  A viz
 * Ügyeljen a [diagramok rendezési](power-bi-report-change-sort.md) módjára.  A legmagasabb vagy legalacsonyabb számok kiemeléséhez rendezze az adatokat a mértékek szerint.  Ha azt szeretné, hogy a felhasználók könnyedén megtaláljanak egy adott kategóriát a többi között, rendezze az adatokat a tengelyek szerint.  
 * Az ideális tortadiagramok kevesebb mint nyolc kategóriát tartalmaznak. Mivel a tortadiagramban nem lehet két értéket egymás mellett megjeleníteni, ezért jóval nehezebb az értékek összehasonlítása, mint egy oszlopdiagramon. A tortadiagramok alkalmasabbak a rész-egész viszonyok szemléltetésére, mint az egyes részek összehasonlítására. A mérőműszer-diagramokkal rendkívül jól lehet szemléltetni egy aktuális állapotot az adott cél tekintetében.
 
-A vizualizációval kapcsolatos további segítségért olvassa el a következő részt: [Vizualizációtípusok a Power BI-ban](power-bi-visualization-types-for-reports-and-q-and-a.md).  
+A vizualizációval kapcsolatos további segítségért olvassa el a következő részt: [Vizualizációtípusok a Power BI-ban](visuals/power-bi-visualization-types-for-reports-and-q-and-a.md).  
 
 ## <a name="learning-more-about-best-practice-dashboard-design"></a>További információk az ajánlott irányítópult-tervezési eljárásokról
 A tökéletes irányítópult-tervezés elsajátításához érdemes megismerkedni a vizuális érzékelés alapvető Gestalt-elveivel, valamint a gyakorlatban is használható információk kontextusban történő, egyértelmű kommunikációjával. Szerencsére számtalan széles körben, többek között a blogjainkon is elérhető forrásanyag áll rendelkezésre. Itt van néhány kedvenc könyveink közül:

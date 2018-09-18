@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/10/2017
 ms.author: mblythe
 LocalizationGroup: Premium
-ms.openlocfilehash: 5da624f92093111c1996d9b1c5080cd58a906a45
-ms.sourcegitcommit: 2bdcb9e9959302a35ee90a145e4ff832a02aacb9
+ms.openlocfilehash: b38c69d74141b28215e0a14a32fc7b03fab4fdbf
+ms.sourcegitcommit: 9c3a9ec14c111d766ef5703366c316e72f6e588f
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "43250773"
+ms.lasthandoff: 09/13/2018
+ms.locfileid: "45558470"
 ---
 # <a name="manage-capacities-within-power-bi-premium-and-power-bi-embedded"></a>Kapacitáskezelés a Power BI Premium és a Power BI Embedded szolgáltatással
 Megtudhatja, hogyan kezelheti a Power BI Premium és a Power BI Embedded kapacitásait, amelyek dedikált erőforrásokat nyújtanak az Ön tartalmai számára.
@@ -47,7 +47,7 @@ Az Office 365 globális rendszergazdái és a Power BI-rendszergazdák egyben a 
 A dedikált kapacitás kihasználásához egy Power BI Premium-előfizetést kell vásárolnia az Office 365 Felügyeleti központban, vagy létre kell hoznia egy Power BI Embedded-erőforrást a Microsoft Azure Portalon. További információkat a következő cikkekben talál:
 
 * **Power BI Premium:** [A Power BI Premium megvásárlása](service-admin-premium-purchase.md)
-* **Power BI Embedded:** [Power BI Embedded-kapacitás létrehozása az Azure Portalon](https://docs.microsoft.com/en-us/azure/power-bi-embedded/create-capacity)
+* **Power BI Embedded:** [Power BI Embedded-kapacitás létrehozása az Azure Portalon](https://docs.microsoft.com/azure/power-bi-embedded/create-capacity)
 
 A Power BI Premium SKU-k vásárlásakor a bérlő a vásárlásnak megfelelő számú virtuális magot kap, amelyet a futó kapacitásokban használhat. Például a Power BI Premium P3 SKU megvásárlásakor a bérlő 32 virtuális magot kap.
 

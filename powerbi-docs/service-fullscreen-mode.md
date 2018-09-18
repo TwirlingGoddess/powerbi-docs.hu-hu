@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 09/04/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 2ff39f0594150c7b29fd88e8f4e4f6baef86e806
-ms.sourcegitcommit: 619b66176394b9b881edc29b6d123d9729554eb3
+ms.openlocfilehash: 58a739c0d566030d2b09094264da14f6afd6d6fc
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 09/06/2018
-ms.locfileid: "44044325"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44727582"
 ---
 # <a name="full-screen-mode-in-power-bi-service"></a>Teljes képernyős mód a Power BI szolgáltatásban
 ## <a name="what-is-full-screen-mode"></a>Mi az a teljes képernyős mód?
@@ -24,7 +24,7 @@ ms.locfileid: "44044325"
 
 Jelenítse meg menük és navigációs sávok nélkül a Power BI-tartalmakat (irányítópultokat, jelentésoldalakat, csempéket és vizualizációkat), hogy semmi se terelje el róluk a figyelmet.  Így adatait bármikor megtekintheti egy letisztult, teljes képernyős nézetben, és ehhez elég csak odapillantania. Ezt a megjelenítési módot időnként TV módnak is nevezik. A teljes képernyős módban elérhető funkciók a megjelenített tartalomtól függenek. 
 
-Ha a Power BI mobilalkalmazást használja, a [teljes képernyős mód a Windows 10-es mobilalkalmazásoknál érhető el](mobile-windows-10-app-presentation-mode.md). A Power BI Desktop nem rendelkezik teljes képernyős móddal jelentésekhez vagy vizualizációkhoz, de elérhető benne a Laphoz igazítás a [Kapcsolat nézethez és a Jelentés nézethez](desktop-report-view.md), valamint a [fókuszmód a jelentésvizualizációkhoz](service-focus-mode.md).
+Ha a Power BI mobilalkalmazást használja, a [teljes képernyős mód a Windows 10-es mobilalkalmazásoknál érhető el](consumer/mobile/mobile-windows-10-app-presentation-mode.md). A Power BI Desktop nem rendelkezik teljes képernyős móddal jelentésekhez vagy vizualizációkhoz, de elérhető benne a Laphoz igazítás a [Kapcsolat nézethez és a Jelentés nézethez](desktop-report-view.md), valamint a [fókuszmód a jelentésvizualizációkhoz](service-focus-mode.md).
 
  
 

@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: d683ce3d06e2ac6be6c51f257e4f9483e718e2d8
-ms.sourcegitcommit: 2356dc8e5488438a43ba7f0ba9a55a2372669b47
+ms.openlocfilehash: b34c16337158e784b0c41bd3e3fd93aca9504cd7
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "39624391"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44727306"
 ---
 # <a name="share-your-power-bi-dashboards-and-reports-with-coworkers-and-others"></a>Power BI-irányítópult és -jelentés megosztása munkatársakkal és másokkal
 A *Megosztással* egyszerűen biztosíthatja néhány személy hozzáférését az irányítópultjaihoz és jelentéseihez. A Power BI-ban [többféle módon valósítható meg az irányítópultok és jelentések közös használata és terjesztése](service-how-to-collaborate-distribute-dashboards-reports.md).
@@ -27,7 +27,7 @@ Akár a cégen belül, akár a cégen kívül oszt meg tartalmat, a megosztásho
 
 Az irányítópultok és jelentések megosztása a Power BI szolgáltatás legtöbb helyén elvégezhető, többek között a Kedvencek, a Legutóbbi, A Velem megosztva (ha a tulajdonos engedélyezte a megosztást) vagy a Saját munkaterület helyekről. A megosztott irányítópultot vagy jelentést a címzettjei megtekinthetik és használhatják, de nem szerkeszthetik. Az irányítópultok és a jelentések adatait ugyanúgy látják, ahogyan Ön is, hacsak nem alkalmaz [sorszintű biztonságot (RLS-t)](service-admin-rls.md). A munkatársai, akikkel megosztotta a tartalmat, továbboszthatják azt másokkal, ha engedélyezi. A cégén kívüli címzettek is megtekinthetik és használhatják, de nem szerkeszthetik az irányítópultot vagy jelentést. 
 
-[Irányítópultot megoszthat bármely Power BI mobilalkalmazásból is](mobile-share-dashboard-from-the-mobile-apps.md). Irányítópultot megoszthat a Power BI szolgáltatásból és a Power BI-mobilalkalmazásokból, de a Power BI Desktopból nem.
+[Irányítópultot megoszthat bármely Power BI mobilalkalmazásból is](consumer/mobile/mobile-share-dashboard-from-the-mobile-apps.md). Irányítópultot megoszthat a Power BI szolgáltatásból és a Power BI-mobilalkalmazásokból, de a Power BI Desktopból nem.
 
 ## <a name="video-share-a-dashboard"></a>Videó: Irányítópult megosztása
 Nézze meg, hogyan osztja meg Amanda az irányítópultját cégen belüli és azon kívüli munkatársaival. Ezután a videó alatt látható részletes utasításokat követve próbálkozzon meg a feladat elvégzésével.

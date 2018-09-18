@@ -10,12 +10,12 @@ ms.service: powerbi
 ms.component: powerbi-report-server
 manager: kfile
 ms.custom: mvc
-ms.openlocfilehash: c47722fda28fc45289858f082a0838f583b53dbb
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 598b3e75aa134a5b5e2ee2a8c01316133b60fdac
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34296781"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44727260"
 ---
 # <a name="comparing-power-bi-report-server-and-the-power-bi-service"></a>A Power BI jelentéskészítő kiszolgáló és a Power BI szolgáltatás összehasonlítása
 
@@ -40,7 +40,7 @@ A Power BI jelentéskészítő kiszolgálónak és a Power BI szolgáltatásnak 
 | Gyors elemzések | Nem | Igen | [Adatelemzések automatikus generálása a Power BI-jal](../service-insights.md) 
 | Elemzés az Excelben | Nem | Igen | [Elemzés az Excelben](../service-analyze-in-excel.md) 
 | Oldalakra osztott jelentések | Igen | Nem | Többoldalas jelentések a Power BI szolgáltatásban nem elérhetők, de [többoldalasjelentés-elemek rögzíthetők a Power BI irányítópultokon](https://docs.microsoft.com/sql/reporting-services/pin-reporting-services-items-to-power-bi-dashboards)
-| Power BI – mobilalkalmazások | Igen | Igen | [Power BI-mobilalkalmazások áttekintése](../mobile-apps-for-mobile-devices.md) 
+| Power BI – mobilalkalmazások | Igen | Igen | [Power BI-mobilalkalmazások áttekintése](../consumer/mobile/mobile-apps-for-mobile-devices.md) 
 | ArcGIS-térképek | Nem | Igen | [Esri ArcGIS-térképek a Power BI szolgáltatásban és a Power BI Desktopban](../power-bi-visualization-arcgis.md)
 | E-mail-előfizetés Power BI-jelentésekre | Nem | Igen | [Feliratkozás jelentésre vagy irányítópultra](../service-report-subscribe.md) a Power BI szolgáltatásban 
 | E-mail-előfizetés többoldalas jelentésekre | Igen | Nem | [E-mail-kézbesítés a jelentéskészítő szolgáltatásban](https://docs.microsoft.com/sql/reporting-services/subscriptions/e-mail-delivery-in-reporting-services)  
@@ -48,7 +48,7 @@ A Power BI jelentéskészítő kiszolgálónak és a Power BI szolgáltatásnak 
 | Sorszintű biztonság | DirectQuery-módban csak adatforráson keresztül | Elérhető DirectQuery- (adatforrással) és Import-módban is | [Sorszintű biztonság (RLS)](../service-admin-rls.md) a Power BI-ban 
 | Teljes képernyős mód | Nem | Igen | [Teljes képernyős mód](../service-fullscreen-mode.md) a Power BI szolgáltatásban 
 | Fejlett Office 365-együttműködés | Nem | Igen | [Együttműködés egy alkalmazás-munkaterületen](../service-collaborate-power-bi-workspace.md) az Office 365 használatával 
-| R vizualizációk | Nem | Igen | [R-vizualizációk létrehozása](../service-r-visuals.md) a Power BI szolgáltatásban  
+| R vizualizációk | Nem | Igen | [R-vizualizációk létrehozása](../visuals/service-r-visuals.md) a Power BI szolgáltatásban  
 | Előzetes verziójú funkciók | Nem | Igen | [Feliratkozás a Power BI szolgáltatás előzetes verziójú](../service-preview-features.md) funkcióira 
 | Egyéni vizualizációk | Igen | Igen | [Egyéni vizualizációk a Power BI-ban](../power-bi-custom-visuals.md) 
 | Power BI Desktop | A Jelentéskészítő kiszolgálóhoz optimalizált verzió a Jelentéskészítő kiszolgálóval letölthető | A Power BI szolgáltatáshoz optimalizált verzió elérhető a Windows Áruházban | [Power BI Desktop a jelentéskészítő kiszolgálóhoz](https://powerbi.microsoft.com/report-server/) <br><br> [Power BI Desktop a Power BI szolgáltatáshoz](http://aka.ms/pbidesktopstore)

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/06/2018
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 4c5a50a5bab76fd856099a3c1430638dc9e33ea8
-ms.sourcegitcommit: 1574ecba7530e6e0ee97235251a3138fb0e4789b
+ms.openlocfilehash: 8463dc96a120e9bf26ff0718fb050304890a5cea
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 08/14/2018
-ms.locfileid: "40257166"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44728180"
 ---
 # <a name="frequently-asked-questions-about-power-bi"></a>Gyakori kérdések – Power BI
 * Ha bármilyen egyéb kérdése van, [kérdezze a Power BI-közösséget](http://community.powerbi.com/).
@@ -60,7 +60,7 @@ A Power BI és a Power BI Desktop használatával a felhasználók biztonságosa
 A Power BI jelentéskészítő kiszolgáló olyan megoldás, amelyet a helyszíni üzembe helyezés után jelentések létrehozására, közzétételére és kezelésére, valamint a jelentések különböző felhasználóknak különböző módon (webböngészővel, mobileszközön vagy e-mailben) való küldésére lehet használni. További információ: [Power BI jelentéskészítő kiszolgáló](report-server/get-started.md).
 
 ### <a name="power-bi-mobile-apps"></a>Power BI – mobilalkalmazások
-[A helyszíni Power BI-jelentéseket, a Reporting Services mobiljelentéseit és a KPI-ket a Power BI-mobilalkalmazásokban](mobile-app-ssrs-kpis-mobile-on-premises-reports.md) is meg lehet tekinteni.
+[A helyszíni Power BI-jelentéseket, a Reporting Services mobiljelentéseit és a KPI-ket a Power BI-mobilalkalmazásokban](consumer/mobile/mobile-app-ssrs-kpis-mobile-on-premises-reports.md) is meg lehet tekinteni.
 
 ## <a name="does-power-bi-support-mobile-devices"></a>A Power BI támogatja a mobileszközöket?
 Igen. A Power BI natív alkalmazásokat biztosít Android rendszerű mobiltelefonokon, táblagépeken, iOS-eszközökön és Windows 10-es eszközökön. Az adott [Power BI-mobilalkalmazást](https://powerbi.microsoft.com/mobile) a megfelelő áruházból töltheti le:  

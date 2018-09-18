@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 11/30/2017
 ms.author: maghan
-ms.openlocfilehash: 0d165505981f841c7dfe9688c7a95cea3b6777c3
-ms.sourcegitcommit: 8990028a348b642ba5c96f001fe3a4280f0166ee
+ms.openlocfilehash: ec6399d815cb17bb0f2542144c63535835659017
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 08/14/2018
-ms.locfileid: "40257235"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44726685"
 ---
 # <a name="use-developer-tools-to-create-custom-visuals"></a>Egyéni vizualizációk létrehozása fejlesztőeszközökkel
 Egyéni vizualizációk segítségével megfelelhet a felhasználók igényeinek, és igazodhat saját alkalmazásának felületéhez. Cikkünk bemutatja, hogy miképpen hozhat létre egyéni Power BI-vizualizációt a fejlesztőeszközökkel.
@@ -388,7 +388,7 @@ Futtassa a vizualizáció kiszolgálóját. Ehhez adja ki a terminálon/parancso
 További tájékoztatást [A vizualizáció futtatása](#running-your-visual) és [A kiszolgálótanúsítvány telepítése](#ssl-setup) című részben talál.
 
 ## <a name="next-steps"></a>Következő lépések
-[Vizualizációk a Power BI-ban](power-bi-report-visualizations.md)  
+[Vizualizációk a Power BI-ban](visuals/power-bi-report-visualizations.md)  
 [Egyéni vizualizációk a Power BI-ban](power-bi-custom-visuals.md)  
 [Egyéni vizualizáció közzététele az Office Áruházban](developer/office-store.md)  
 [TypeScript](http://www.typescriptlang.org/)  

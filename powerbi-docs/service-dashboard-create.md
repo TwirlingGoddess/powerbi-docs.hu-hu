@@ -1,5 +1,5 @@
 ---
-title: Power BI szolgáltatásbeli irányítópult létrehozása jelentésből
+title: Power BI-irányítópult létrehozása jelentésből
 description: Power BI-irányítópult létrehozása jelentésből
 author: mihart
 manager: kfile
@@ -8,16 +8,16 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 09/02/2018
+ms.date: 03/02/2018
 ms.author: mihart
-ms.openlocfilehash: a550aabb3590018666a3784e602ede15696862e5
-ms.sourcegitcommit: fe03f2a80f2df82219b8e026085f93a8453201df
+ms.openlocfilehash: a528c4a641dbdecce7d33f29e7afbe6118ee34b5
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 09/08/2018
-ms.locfileid: "44168089"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44726478"
 ---
-# <a name="create-a-power-bi-dashboard-in-power-bi-service"></a>Power BI-irányítópult létrehozása a Power BI szolgáltatásban
+# <a name="create-a-power-bi-dashboard-from-a-report"></a>Power BI-irányítópult létrehozása jelentésből
 Áttekintette [A Power BI-irányítópultok](service-dashboards.md) részben leírtakat, és most saját irányítópultot kíván létrehozni. Az irányítópultok létrehozásának számos különböző módja van: többek között jelentésből, az alapoktól, adatkészletből, illetve egy meglévő irányítópult megkettőzésével is létrehozhatók stb.  
 
 A kezdés sokak számára bonyolult lehet, ezért egy gyorsan és egyszerűen elkészíthető irányítópulttal kezdünk, amelyre már elkészült jelentésből fogunk vizualizációkat rögzíteni. A rövid útmutató elvégzése után már érteni fogja a jelentések és az irányítópultok közötti kapcsolatot, tudni fogja, hogyan lehet megnyitni egy jelentést Szerkesztési nézetben a jelentésszerkesztőben, hogyan lehet csempéket rögzíteni, és hogyan lehet mozogni az irányítópult és a jelentés között. Később a bal oldalon található Tartalomjegyzék hivatkozásait vagy a lap alján lévő **Következő lépések** hivatkozást használva léphet tovább magasabb szintű témákra.
@@ -25,7 +25,7 @@ A kezdés sokak számára bonyolult lehet, ezért egy gyorsan és egyszerűen el
 ## <a name="who-can-create-a-dashboard"></a>Ki hozhat lére irányítópultot?
 Az irányítópult létrehozása **létrehozói** művelet, ezért csak akkor végezheti el, ha jogosultsága van a jelentést szerkeszteni. Szerkesztési jogosultsággal a jelentés létrehozója rendelkezik, valamint azok, akikek a létrehozó engedélyezte ezt. Ha például Dávid létrehoz egy jelentést az ABC munkaterületen, majd hozzáadja Önt ehhez a munkaterülethez, akkor Ön is és Dávid is rendelkezik majd szerkesztési jogosultsággal. Ha azonban a jelentést megosztották Önnel akár közvetlenül, akár egy [Power BI-alkalmazás](service-install-use-apps.md) részeként (más szóval ha Ön a jelentés **felhasználója**), akkor Ön nem fog tudni csempéket rögzíteni az irányítópultra.
 
-> **MEGJEGYZÉS**: Az irányítópult a Power BI szolgáltatás, nem pedig a Power BI Desktop funkciója. Power BI-mobileszközökön csak [megtekinteni és megosztani](mobile-apps-view-dashboard.md) lehet az irányítópultokat, létrehozni nem.
+> **MEGJEGYZÉS**: Az irányítópult a Power BI szolgáltatás, nem pedig a Power BI Desktop funkciója. Power BI-mobileszközökön csak [megtekinteni és megosztani](consumer/mobile/mobile-apps-view-dashboard.md) lehet az irányítópultokat, létrehozni nem.
 >
 > 
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/24/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 872045a52f2f13829d26de8dd288ac723dcd2788
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: a27a7ec72b1e85b7e1dc6caa5773a14a089e378d
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37599528"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44726409"
 ---
 # <a name="create-a-new-report-in-power-bi-service-by-importing-a-dataset"></a>Új jelentés létrehozása a Power BI szolgáltatásban adatkészlet importálásával
 Már elolvasta a [Jelentések a Power BI-ban](service-reports.md) című cikket, és szeretne létrehozni egy saját jelentést. A jelentések több különböző módon is létrehozhatók. Ebben a cikkben kezdésként egy Excel-adatkészletből egy alapszintű jelentést fogunk létrehozni a Power BI szolgáltatásban. Ha már megismerte a jelentés létrehozásának alapjait, akkor a lap alján található **Következő lépések** hivatkozással továbbhaladhat a jelentésekkel kapcsolatos összetettebb témakörökre is.  
@@ -53,7 +53,7 @@ Ha ezzel a módszerrel hoz létre egy jelentést, akkor annak kiindulópontja eg
 > 
 
 ## <a name="add-a-radial-gauge-to-the-report"></a>Mérőműszer felvétele jelentésbe
-Most hogy már importáltuk az adatkészletünket, kezdjük el megválaszolni a kérdéseket.  A marketingigazgató tudni szeretné, hogy mennyire állunk közel ahhoz, hogy elérjük az idei év értékesítési célkitűzéseit. A mérőműszer [vizualizáció egy jó választás](power-bi-report-visualizations.md), ha ilyen típusú adatokat szeretnénk megjeleníteni.
+Most hogy már importáltuk az adatkészletünket, kezdjük el megválaszolni a kérdéseket.  A marketingigazgató tudni szeretné, hogy mennyire állunk közel ahhoz, hogy elérjük az idei év értékesítési célkitűzéseit. A mérőműszer [vizualizáció egy jó választás](visuals/power-bi-report-visualizations.md), ha ilyen típusú adatokat szeretnénk megjeleníteni.
 
 1. A Mezők ablaktáblán válassza a **Sales** > **This Year Sales** > **Érték** elemet.
    

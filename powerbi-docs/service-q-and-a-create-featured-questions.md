@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: f3a9e8aabbd45cb476866158165e2e37a3d8f652
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: d50d3c3a34364dd795c44b3e45e91857bcc222f0
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34242387"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44726317"
 ---
 # <a name="create-featured-questions-for-power-bi-qa"></a>Kiemelt kérdések létrehozása a Power BI Q&A-hez
 Ha rendelkezik saját adatkészlettel, ehhez az adatkészlethez hozzáadhatja a kiemelt kérdéseit.  A Power BI Q&A pedig megjeleníti ezeket a kérdéseket az adatkészletet használó (más néven *fogyasztó*) munkatársaknak.  A kiemelt kérdések ötleteket adnak a munkatársaknak, hogy milyen típusú kérdéseket lehet feltenni az adatkészletről. Ön dönti el, milyen kérdéseket vesz fel. Vegyen fel népszerű kérdéseket, érdekes eredményeket megjelenítő kérdéseket vagy esetleg nehezen megfogalmazható kérdéseket.
@@ -26,7 +26,7 @@ Nézze meg, hogyan ad hozzá Will kiemelt kérdéseket a Power BI Q&A-hez, majd 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/E1mIAyEXuF4" frameborder="0" allowfullscreen></iframe>
 
 > [!NOTE]
-> A Q&A kiemelt kérdések funkciója az [iOS-hez készült Microsoft Power BI-alkalmazásban iPadeken, iPhone-okon, és iPod Touch eszközökön](mobile-apps-ios-qna.md), illetve a Q&A a Power BI Desktophoz készült előzetes verziójában is elérhető. A kérdések létrehozása viszont kizárólag a Power BI szolgáltatásban (az app.powerbi.com webhelyen) érhető el.
+> A Q&A kiemelt kérdések funkciója az [iOS-hez készült Microsoft Power BI-alkalmazásban iPadeken, iPhone-okon, és iPod Touch eszközökön](consumer/mobile/mobile-apps-ios-qna.md), illetve a Q&A a Power BI Desktophoz készült előzetes verziójában is elérhető. A kérdések létrehozása viszont kizárólag a Power BI szolgáltatásban (az app.powerbi.com webhelyen) érhető el.
 > 
 
 Ebben a cikkben a [Kiskereskedelmi értékesítési elemzési mintát](sample-datasets.md) használjuk.

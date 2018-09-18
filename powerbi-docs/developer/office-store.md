@@ -9,12 +9,12 @@ ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 04/02/2018
 ms.author: maghan
-ms.openlocfilehash: 2147a5ccb1df8bd107d662559c97400a24dd490e
-ms.sourcegitcommit: 695c65629d6d1faba61db2e1570324f65f235dde
+ms.openlocfilehash: c407b967ce4a8c1ee31b9a750f2e281ff0a8caa7
+ms.sourcegitcommit: 9c3a9ec14c111d766ef5703366c316e72f6e588f
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37092115"
+ms.lasthandoff: 09/13/2018
+ms.locfileid: "45558493"
 ---
 # <a name="publish-custom-visuals-to-appsource"></a>Egyéni vizualizációk közzététele az AppSource-ban
 Megtudhatja, hogyan teheti közzé egyéni vizualizációit az AppSource-ban, amelyeket aztán mások is felfedezhetnek és használhatnak.
@@ -32,7 +32,7 @@ Miután végzett az egyéni vizualizáció kódolásával és tesztelésével, �
 | --- | --- | --- |
 | Pbiviz csomag, amely az összes kötelező metaadatot tartalmazza |Igen |Vizualizáció neve<br>Megjelenített név<br>GUID<br>Verzió<br>Leírás<br>Szerző neve és e-mail-címe |
 | Minta .pbix jelentésfájl |Igen |Ahhoz, hogy kellően be tudja mutatni a vizualizációt, segítenie kell a felhasználókat a részletei megismerésében. Érdemes kihangsúlyozni, hogy milyen értéket nyújt a vizualizáció a felhasználó számára, és érdemes felhozni a használatra, formázási lehetőségekre stb. vonatkozó példákat. Egy *„tippek”* oldalt is hozzáadhat a végén, amely tippeket, trükköket, elkerülendő lépéseket és hasonló információkat tartalmaz.<br>A minta .pbix jelentésfájlnak offline állapotban kell működnie, bármilyen külső kapcsolat nélkül |
-| Ikon |Igen |Meg kell adnia az egyéni vizualizáció áruházban megjelenő emblémáját. Ennek formátuma .png, .jpg, .jpeg vagy .gif lehet, és pontosan 300 képpont (szélesség) x 300 képpont (magasság) méretűnek kell lennie. **Fontos!** Az ikon beküldése előtt gondosan tekintse át a [rövid útmutatót](https://docs.microsoft.com/en-us/office/dev/store/craft-effective-appsource-store-images). |
+| Ikon |Igen |Meg kell adnia az egyéni vizualizáció áruházban megjelenő emblémáját. Ennek formátuma .png, .jpg, .jpeg vagy .gif lehet, és pontosan 300 képpont (szélesség) x 300 képpont (magasság) méretűnek kell lennie. **Fontos!** Az ikon beküldése előtt gondosan tekintse át a [rövid útmutatót](https://docs.microsoft.com/office/dev/store/craft-effective-appsource-store-images). |
 | Képernyőképek |Igen |Meg kell adnia legalább egy képernyőképet. Ennek formátuma .png, .jpg, .jpeg vagy .gif lehet, és pontosan 1366 képpont (szélesség) x 768 képpont (magasság) méretűnek kell lennie. A fájl mérete nem lehet nagyobb 1024 kB-nál. *A hatékonyabb használat érdekében adjon hozzá szövegbuborékokat az egyes képernyőképeken látható fő jellemzők által képviselt érték kihangsúlyozásához.* |
 | Támogatás letöltési hivatkozása |Igen |Adjon meg egy URL-címet, amelyet felkereshetnek a felhasználók, akiknek gondjuk van a vizualizációval. Az URL formátumának tartalmaznia kell a https:// vagy a http:// előtagot. |
 | Adatvédelmi dokumentum hivatkozása |Igen |Adja meg a vizualizációt használó ügyfelekre vonatkozó adatvédelmi szabályzat hivatkozását. A hivatkozás formátumának tartalmaznia kell a https:// vagy a http:// előtagot. |
@@ -130,7 +130,7 @@ A vizualizáció létrehozása azt is megteheti, hogy tanúsíttatja a vizualiz�
 
 ## <a name="next-steps"></a>További lépések
 [Egyéni vizualizációk létrehozása fejlesztői eszközök használatával](../service-custom-visuals-getting-started-with-developer-tools.md)  
-[Vizualizáció a Power BI-ban](../power-bi-report-visualizations.md)  
+[Vizualizáció a Power BI-ban](../visuals/power-bi-report-visualizations.md)  
 [Egyéni vizualizáció a Power BI-ban](../power-bi-custom-visuals.md)  
 [Egyéni vizualizáció *tanúsíttatása*](../power-bi-custom-visuals-certified.md)
 

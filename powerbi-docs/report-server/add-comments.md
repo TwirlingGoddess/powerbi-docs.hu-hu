@@ -9,12 +9,12 @@ ms.component: powerbi-report-server
 ms.topic: conceptual
 ms.date: 05/18/2018
 ms.author: maggies
-ms.openlocfilehash: 08a7740d1a44c4a5e8ef961100c38f3bc4622fd8
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: ff51b2e41d921b7a88afc9b13bb4ecd98814d12e
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34721961"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44727973"
 ---
 # <a name="add-comments-to-a-report-in-a-report-server"></a>Megjegyzések hozzáadása jelentéshez jelentéskészítő kiszolgálón
 Megjegyzéseket adhat a jelentésekhez (beleértve a Power BI-jelentéseket is) a jelentéskészítő kiszolgálók webes portálján. A megjegyzések a jelentésben szerepelnek, és megfelelő engedélyekkel bárki láthatja a jelentés megjegyzéseit. A részletekért tekintse meg a lenti [Engedélyek](#permissions) szakaszt.
@@ -33,7 +33,7 @@ Megjegyzéseket adhat a jelentésekhez (beleértve a Power BI-jelentéseket is) 
     A megjegyzése a webes portál panelén látható, az összes korábbi megjegyzéssel együtt. Nem jelennek meg a jelentéssel a Power BI mobilalkalmazásokban.
    
    > [!TIP]
-   > Tudta? [Feliratozhatja a Power BI-jelentéseket a Power BI mobilalkalmazásokban](../mobile-annotate-and-share-a-tile-from-the-mobile-apps.md), és megoszthatja a feliratozott jelentéseket másokkal.
+   > Tudta? [Feliratozhatja a Power BI-jelentéseket a Power BI mobilalkalmazásokban](../consumer/mobile/mobile-annotate-and-share-a-tile-from-the-mobile-apps.md), és megoszthatja a feliratozott jelentéseket másokkal.
    > 
    > 
 

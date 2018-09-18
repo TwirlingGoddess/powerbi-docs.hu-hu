@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 585c1c854ed3e95cc176d34f442fec6416f23dcd
-ms.sourcegitcommit: 2356dc8e5488438a43ba7f0ba9a55a2372669b47
+ms.openlocfilehash: 7b1b55475e2ad19c869ba92cdb9621caa0fc3538
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "39623953"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44726662"
 ---
 # <a name="how-should-i-collaborate-and-share-in-power-bi"></a>Hogyan végezhetek közös munkát és hogyan oszthatok meg tartalmat a Power BI-ban?
 
@@ -83,9 +83,9 @@ Az iOS- és Android-készülékekhez készült Power BI mobilalkalmazásban jegy
 
 Csempe, jelentés vagy vizualizáció megosztásakor az adott elem egy pillanatképét osztja meg, így a címzettek az e-mail elküldésekor érvényes pillanatnyi állapotot fogják látni. Az e-mail emellett tartalmaz egy hivatkozást is, mely az irányítópultra vagy a jelentésre mutat. Ha a címzettek rendelkeznek Power BI Pro licenccel, vagy ha a tartalom [prémium szintű kapacitásban](service-premium.md) található, és már megosztotta az objektumot velük, akkor megnyithatják azt. A csempékről készült pillanatképeket bárkinek elküldheti, nemcsak az azonos e-mail-tartományhoz tartozó munkatársainak.
 
-Többet is megtudhat arról, hogy hogyan [láthat el jegyzetekkel és oszthat meg csempéket, jelentéseket és vizualizációkat](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md) az iOS- és az Android-mobilalkalmazásokból.
+Többet is megtudhat arról, hogy hogyan [láthat el jegyzetekkel és oszthat meg csempéket, jelentéseket és vizualizációkat](consumer/mobile/mobile-annotate-and-share-a-tile-from-the-mobile-apps.md) az iOS- és az Android-mobilalkalmazásokból.
 
-A Windows 10-eszközökön futó Power BI alkalmazásból is [megoszthatja a csempék pillanatképét](mobile-windows-10-phone-app-get-started.md).
+A Windows 10-eszközökön futó Power BI alkalmazásból is [megoszthatja a csempék pillanatképét](consumer/mobile/mobile-windows-10-phone-app-get-started.md).
 
 ## <a name="print-or-save-as-pdf-or-other-static-file"></a>Nyomtatás vagy mentés PDF-ként vagy más statikus fájlként
 A Power BI szolgáltatásban nyomtathat vagy menthet PDF-fájlként (illetve más formátumú statikus fájlként) egy teljes irányítópultot, egy irányítópult-csempét, egy jelentéslapot vagy egy vizualizációt. A jelentéseket csak laponként tudja nyomtatni – nem nyomtathatja a teljes jelentést egyszerre. Többet is megtudhat a [nyomtatásról és a statikus fájlba mentésről](service-print.md).

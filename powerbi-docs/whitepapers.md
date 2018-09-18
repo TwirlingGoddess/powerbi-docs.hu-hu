@@ -9,12 +9,12 @@ ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 05/18/2018
 ms.author: maggies
-ms.openlocfilehash: e64850351c9bdc1877eed3a53323e7934e11fbe7
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: d6ab9619fd1419f94994b65fffef7ddcbfff3f3d
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34445118"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44727191"
 ---
 # <a name="whitepapers-for-power-bi"></a>Power BI-tanulmányok
 
@@ -31,7 +31,7 @@ A tanulmányokkal behatóbban ismerheti meg a Power BI témaköreit. Itt találj
 | [A Power BI és a GDPR](https://aka.ms/power-bi-gdpr-whitepaper)| A Power BI fontos állomása lehet a GDPR-megfelelőségi törekvéseinek. Ebben a dokumentumban szeretnénk rövid tájékoztatást nyújtani a GDPR-ról, és hogy az miképpen viszonyul a Power BI-hoz. Noha a GDPR-megfelelőség kötelezően alkalmazandó az ebben a dokumentumban leírt bizonyos helyzetekben, a megfelelőség nem egyszerű ki-bekapcsolási művelet. Ez egyszersmind kiváló alkalom arra is, hogy növelje az adatvédelmi funkciókat általában is.|
 | [Power BI-tartalom terjesztése külső vendégfelhasználóknak az Azure Active Directory B2B használatával](https://aka.ms/powerbi-b2b-whitepaper)|Ebből a tanulmányból megtudhatja, hogyan terjeszthető tartalom a cégen kívüli felhasználóknak az Azure Active Directory vállalatközi (AAD B2B) integrációjával.|
 | [Fejlett elemzés a Power BI használatával](https://info.microsoft.com/advanced-analytics-with-power-bi.html?Is=Website) |Bemutatja a Power BI fejlett elemzési képességeit, beleértve a prediktív elemzéseket, az egyéni vizualizációkat, az R-integrációt és az adatelemzési kifejezéseket. |
-| [Bevált tervezési gyakorlatok jelentésekhez és vizualizációkhoz](power-bi-visualization-best-practices.md) |Ez a tanulmány a Power BI szolgáltatásban történő jelentéstervezés bevált gyakorlatait mutatja be. |
+| [Bevált tervezési gyakorlatok jelentésekhez és vizualizációkhoz](visuals/power-bi-visualization-best-practices.md) |Ez a tanulmány a Power BI szolgáltatásban történő jelentéstervezés bevált gyakorlatait mutatja be. |
 | [Kétirányú szűrés](desktop-bidirectional-filtering.md) |Ismerteti a Power BI Desktopban elérhető kétirányú keresztszűrést (valamint az SQL Server Analysis Services 2016 működését is, mivel ugyanúgy viselkedik). |
 | [DirectQuery az SQL Server 2016 Analysis Servicesben](https://blogs.msdn.microsoft.com/analysisservices/2017/04/06/directquery-in-sql-server-2016-analysis-services-whitepaper/) |A DirectQuery az SQL Server 2016 esetében át lett alakítva a drámaian jobb sebesség és teljesítmény érdekében, de emiatt most a megértése és megvalósítása is bonyolultabbá vált. |
 | [Power BI és SAP BW](https://aka.ms/powerbiandsapbw)| Ez a dokumentum azt ismerteti, milyen előnyökkel jár, ha az ügyfelek a Power BI-t a meglévő SAP Business Warehouse (BW) rendszerükhöz csatlakoztatják.|

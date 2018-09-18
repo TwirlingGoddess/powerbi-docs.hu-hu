@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/22/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: be532e428680d9286247f57d81cab2802aea1fe3
-ms.sourcegitcommit: 9a666382484882162690efaed106b82a4bcbf883
+ms.openlocfilehash: 80995f77a4e11c2773e9b03a224d42ac8d492228
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "42799045"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44727559"
 ---
 # <a name="hyperlinks-in-tables"></a>Hivatkozások a táblázatokban
 Ez a témakör azt mutatja be, hogyan hozhatók létre hivatkozások a Power BI Desktopban. A létrehozott hivatkozásokat a Power BI Desktop vagy a Power BI szolgáltatás segítségével adhatja hozzá a jelentések táblázataihoz és a mátrixokhoz. 
@@ -87,7 +87,7 @@ V: Nem. Csak hivatkozás ikont lehet használni. Ha a hivatkozáshoz egyéni sz�
 
 
 ## <a name="next-steps"></a>Következő lépések
-[Vizualizációk a Power BI jelentéseiben](power-bi-report-visualizations.md)
+[Vizualizációk a Power BI jelentéseiben](visuals/power-bi-report-visualizations.md)
 
 [Power BI – Alapfogalmak](service-basic-concepts.md)
 

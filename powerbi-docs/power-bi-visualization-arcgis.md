@@ -2,28 +2,28 @@
 title: ESRI ArcGIS-térképek létrehozása a Power BI-ban
 description: 'ESRI ArcGIS-térképek létrehozása a Power BI-ban '
 author: mihart
-manager: kvivek
+manager: kfile
 ms.reviewer: lukaszp
 featuredvideoid: EKVvOZmxg9s
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/28/2018
+ms.date: 02/28/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 127187367b2ae5680b50bc1e72de7214c522705e
-ms.sourcegitcommit: fe03f2a80f2df82219b8e026085f93a8453201df
+ms.openlocfilehash: 250ccba882a045417b2ae424cac81b6561cb2a41
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 09/08/2018
-ms.locfileid: "44168066"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44728249"
 ---
 # <a name="arcgis-maps-in-power-bi-service-and-power-bi-desktop-by-esri"></a>Esri ArcGIS-térképek a Power BI szolgáltatásban és a Power BI Desktopban
-Ez az oktatóanyag az ArcGIS-térképet létrehozó személy szemszögéből van megírva. Ha a készítő megosztja az ArcGIS-térképet egy kollégájával, az illető megtekintheti és használhatja a térképet, azonban nem mentheti a módosításokat. További információ az ArcGIS-térképek megtekintéséről: [Az ArcGIS-térképek használata](power-bi-visualizations-arcgis.md).
+Ez az oktatóanyag az ArcGIS-térképet létrehozó személy szemszögéből van megírva. Ha a készítő megosztja az ArcGIS-térképet egy kollégájával, az illető megtekintheti és használhatja a térképet, azonban nem mentheti a módosításokat. További információ az ArcGIS-térképek megtekintéséről: [Az ArcGIS-térképek használata](visuals/power-bi-visualizations-arcgis.md).
 
 Az ArcGIS-térképek és a Power BI együttes használata új lehetőségeket kínál a térképkezelésben, amelyek messze túlmutatnak a pontok térképeken való elhelyezésén. Az alaptérképekhez, helytípusokhoz, témákhoz, szimbólumstílusokhoz és referenciarétegekhez elérhető beállításokkal lenyűgöző és informatív térképes vizualizációk hozhatók létre. A térképen megjelenített mérvadó adatrétegek és a térbeli elemzés egyesítésével jobban megértheti a vizualizációban szereplő adatokat.
 
- Az ArcGIS-térképek mobileszközökön nem hozhatók létre, de megtekinthetők és használhatók. Lásd: [ArcGIS-térképek használata a Power BI-ban](power-bi-visualizations-arcgis.md).
+ Az ArcGIS-térképek mobileszközökön nem hozhatók létre, de megtekinthetők és használhatók. Lásd: [ArcGIS-térképek használata a Power BI-ban](visuals/power-bi-visualizations-arcgis.md).
 
 > [!TIP]
 > A GIS az angol Geographic Information Science (térinformatika) kifejezés rövidítése.
@@ -329,7 +329,7 @@ Ez egy programhiba, amelynek a javítása folyamatban van.  Addig is a gyorsít�
 
 **Támogatja az ArcGIS Maps for Power BI az Esri-alakzatfájlok használatát?**
 
-Az ArcGIS Maps for Power BI automatikusan észleli a standard határokat, például az országok/régiók, államok/tartományok, illetve irányítószámok határait. Ha saját alakzatokat kell megadnia, megteheti a [Shape Maps for Power BI Desktop (előzetes verzió)](desktop-shape-map.md) használatával.
+Az ArcGIS Maps for Power BI automatikusan észleli a standard határokat, például az országok/régiók, államok/tartományok, illetve irányítószámok határait. Ha saját alakzatokat kell megadnia, megteheti a [Shape Maps for Power BI Desktop (előzetes verzió)](visuals/desktop-shape-map.md) használatával.
 
 **Offline is megtekinthetem az ArcGIS-térképeimet?**
 
@@ -340,7 +340,7 @@ Nem, a térképek megjelenítéséhez a Power BI-nak kapcsolódnia kell a háló
 Jelenleg nem. [Szavazzon erre az ötletre](https://ideas.powerbi.com/forums/265200-power-bi-ideas/suggestions/9154765-arcgis-geodatabases), és e-mailben értesítjük, ha hozzákezdtünk a funkció fejlesztéséhez.  
 
 ## <a name="next-steps"></a>Következő lépések
-[Az Önnel megosztott ArcGIS-térképek használata](power-bi-visualizations-arcgis.md)
+[Az Önnel megosztott ArcGIS-térképek használata](visuals/power-bi-visualizations-arcgis.md)
 
 [Az ArcGIS Maps for Power BI elérhetőségét bejelentő blogbejegyzés](https://powerbi.microsoft.com/blog/announcing-arcgis-maps-for-power-bi-by-esri-preview/)
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: da9a4ffad948a43077d864e442af36b0db6bb617
-ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
+ms.openlocfilehash: 80e5b31f4fd8e59333848da26995388874d1746c
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37136962"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44728042"
 ---
 # <a name="reports-in-power-bi"></a>Jelentések a Power BI-ban
 ## <a name="what-is-a-power-bi-report"></a>Mi a Power BI-jelentés?
@@ -27,7 +27,7 @@ Ez a jelentés 3 lapot tartalmaz, és jelenleg az „Üzleti értékesítések �
 
 Ha először használja a Power BI-t, sok mindent megtudhat, ha elolvassa a [Power BI alapvető fogalmai](service-basic-concepts.md) című témakört.
 
-A jelentések a Power BI szolgáltatásban és a Power BI Desktop alkalmazásban érhetők el. A jelentések használatának élménye a két környezet esetében csaknem azonos. Mobileszközről azonban nem tud jelentést létrehozni, hanem csak [megtekintheti, megoszthatja és jegyzetekkel láthatja el](mobile-reports-in-the-mobile-apps.md) őket.
+A jelentések a Power BI szolgáltatásban és a Power BI Desktop alkalmazásban érhetők el. A jelentések használatának élménye a két környezet esetében csaknem azonos. Mobileszközről azonban nem tud jelentést létrehozni, hanem csak [megtekintheti, megoszthatja és jegyzetekkel láthatja el](consumer/mobile/mobile-reports-in-the-mobile-apps.md) őket.
 
 ## <a name="advantages-of-reports"></a>A jelentések előnyei
 A jelentések egyetlen adathalmazon alapulnak. A jelentésben lévő vizualizációk egy-egy információmorzsát képviselnek. A vizualizációk nem statikusak: hozzáadhat és eltávolíthat adatokat, módosíthatja a vizualizációtípusokat, és az elemzésekhez és a válaszok kereséséhez az adatok mélyebb szintjére lehatolva szűrőket és szeletelőket alkalmazhat. A jelentések rendkívül interaktívak és nagymértékben testre szabhatók (éppen úgy, ahogyan az irányítópultok – sőt, még inkább), a vizualizációk pedig frissülnek az alapjukul szolgáló adatok változásakor.

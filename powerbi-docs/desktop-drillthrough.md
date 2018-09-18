@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/27/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 66222eb773d70afcfcf361fba49118363a670e7f
-ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
+ms.openlocfilehash: 8bbfafcecb6876ea063bb6751ca31c25697dc185
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39329353"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44725857"
 ---
 # <a name="use-drillthrough-in-power-bi-desktop"></a>Részletezés használata a Power BI Desktopban
 A **Power BI Desktop** **részletezésével** olyan oldalt hozhat létre a jelentésben, amely adott entitásra összpontosít – például szállítóra, ügyfélre vagy gyártóra. Ezzel az összpontosított jelentésoldallal a felhasználók a jobb gombbal egy adatpontra kattinthatnak más jelentésoldalakon, és áthatolhatnak az összpontosított oldalra az ebben a környezetben szűrt részletek beszerzéséhez.
@@ -79,5 +79,5 @@ Ezek a legfontosabb tudnivalók a **részletezés** jelentésekben való haszná
 
 Az alábbi cikkeket is érdekesnek találhatja:
 
-* [Szeletelők használata a Power BI Desktopban](desktop-slicers.md)
+* [Szeletelők használata a Power BI Desktopban](visuals/desktop-slicers.md)
 

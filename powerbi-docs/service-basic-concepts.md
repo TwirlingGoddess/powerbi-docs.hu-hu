@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 07/19/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: d735ff366d422d03186c25a0b358e87d6790a260
-ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
+ms.openlocfilehash: c7688134d7c006c38626f52df26fa5a87ac5c8d7
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39280616"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44728157"
 ---
 # <a name="power-bi---basic-concepts-for-power-bi-service"></a>Power BI – a Power BI szolgáltatás alapfogalmai
 
@@ -111,10 +111,10 @@ Az alábbi példában a „Sales and marketing” („Értékesítési és marke
 
 ### <a name="dig-deeper"></a>További ismeretek
 * [Jelentések a Power BI szolgáltatásban és a Power BI Desktopban](service-reports.md)
-* [Jelentések a Power BI-mobilalkalmazásokban](mobile-reports-in-the-mobile-apps.md)
+* [Jelentések a Power BI-mobilalkalmazásokban](consumer/mobile/mobile-reports-in-the-mobile-apps.md)
 
 ## <a name="dashboards"></a>Irányítópultok
-*Irányítópultokat* Ön hozhat létre **a Power BI szolgáltatásban**, vagy egy munkatársa hozhatja létre **a Power BI szolgáltatásban** és oszthatja meg Önnel. Egyetlen vászonból áll, amely csempéket és widgeteket tartalmazhat. Minden jelentésből vagy a [Q&A-ból](power-bi-q-and-a.md) rögzített csempe egyetlen, az irányítópultra rögzített [vizualizációt](power-bi-report-visualizations.md) jelenít meg, amely egy adathalmazon alapul. Teljes jelentésoldalak is rögzíthetők az irányítópultokon egyetlen csempeként. Sokféleképpen adhat csempét az irányítópulthoz, de ebben az áttekintő témakörben nincs lehetőség ennek bemutatására. További információkért tekintse meg [Az irányítópult csempéi a Power BI szolgáltatásban](service-dashboard-tiles.md) című oldalt. 
+*Irányítópultokat* Ön hozhat létre **a Power BI szolgáltatásban**, vagy egy munkatársa hozhatja létre **a Power BI szolgáltatásban** és oszthatja meg Önnel. Egyetlen vászonból áll, amely csempéket és widgeteket tartalmazhat. Minden jelentésből vagy a [Q&A-ból](power-bi-q-and-a.md) rögzített csempe egyetlen, az irányítópultra rögzített [vizualizációt](visuals/power-bi-report-visualizations.md) jelenít meg, amely egy adathalmazon alapul. Teljes jelentésoldalak is rögzíthetők az irányítópultokon egyetlen csempeként. Sokféleképpen adhat csempét az irányítópulthoz, de ebben az áttekintő témakörben nincs lehetőség ennek bemutatására. További információkért tekintse meg [Az irányítópult csempéi a Power BI szolgáltatásban](service-dashboard-tiles.md) című oldalt. 
 
 Miért hoznak létre a felhasználók irányítópultokat?  Csak néhány ok a sok közül:
 

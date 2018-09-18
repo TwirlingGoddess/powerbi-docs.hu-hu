@@ -9,17 +9,17 @@ ms.topic: conceptual
 ms.date: 01/16/2018
 ms.author: maggies
 LocalizationGroup: Model your data
-ms.openlocfilehash: ed8a0990c9da2da877c32a0ef44c676f91e0f493
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 80d2039b2cfcac2f2c3db9c6f656561b670aa341
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34291397"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44727490"
 ---
 # <a name="set-geographic-filters-in-power-bi-desktop-for-the-mobile-apps"></a>Földrajzi szűrők beállítása mobilalkalmazásokhoz a Power BI Desktopban
 A Power BI Desktopban [kategorizálhatja egy oszlop földrajzi adatait](desktop-data-categorization.md), így a Power BI Desktop tudja, hogyan kezelje az értékeket egy jelentés vizualizációiban. További előny, hogy ha Ön vagy munkatársai a Power BI mobilalkalmazásokban tekintik meg a jelentést, a Power BI automatikusan az Ön helyzetének megfelelő földrajzi szűrést biztosít. 
 
-Tegyük fel például, hogy az értékesítési vezető elutazik, hogy az ügyfelekkel találkozzon, meg szeretne látogatni egy bizonyos ügyfelet, és gyorsan rá szeretne szűrni ennek az ügyfélnek az összes értékesítésére és bevételére. Részletezni szeretné aktuális tartózkodási helyének adatait, például állam, város vagy egy adott cím szerint. Később, ha maradt ideje, szeretne további, a közelben lévő ügyfeleket is meglátogatni. A [jelentéseket a saját tartózkodási helye szerint is szűrheti, így megtalálhatja ezeket ügyfeleket](mobile-apps-geographic-filtering.md).
+Tegyük fel például, hogy az értékesítési vezető elutazik, hogy az ügyfelekkel találkozzon, meg szeretne látogatni egy bizonyos ügyfelet, és gyorsan rá szeretne szűrni ennek az ügyfélnek az összes értékesítésére és bevételére. Részletezni szeretné aktuális tartózkodási helyének adatait, például állam, város vagy egy adott cím szerint. Később, ha maradt ideje, szeretne további, a közelben lévő ügyfeleket is meglátogatni. A [jelentéseket a saját tartózkodási helye szerint is szűrheti, így megtalálhatja ezeket ügyfeleket](consumer/mobile/mobile-apps-geographic-filtering.md).
 
 > [!NOTE]
 > A mobilalkalmazásban csak akkor szűrhet tartózkodási hely szerint, ha a jelentésben a földrajzi nevek angol nyelven szerepelnek – például „New York City” vagy „Germany”.
@@ -52,12 +52,12 @@ Tegyük fel például, hogy az értékesítési vezető elutazik, hogy az ügyfe
 2. Tegye közzé a jelentést a Power BI szolgáltatásban.
 
 ## <a name="view-the-report-in-power-bi-mobile-app"></a>A jelentés megtekintése a Power BI mobilalkalmazásban
-1. Nyissa meg a jelentést bármelyik [Power BI mobilalkalmazásban](mobile-apps-for-mobile-devices.md).
+1. Nyissa meg a jelentést bármelyik [Power BI mobilalkalmazásban](consumer/mobile/mobile-apps-for-mobile-devices.md).
 2. Ha olyan földrajzi helyen tartózkodik, amelyhez adatok szerepelnek a jelentésben, automatikusan szűrheti őket a tartózkodási helyére.
    
     ![Földrajzi szűrő a mobilalkalmazásban](media/desktop-mobile-geofiltering/power-bi-mobile-geo-map-set-filter.png)
 
-További információ a [jelentés tartózkodási hely szerinti szűréséről a Power BI mobilalkalmazásokban](mobile-apps-geographic-filtering.md).
+További információ a [jelentés tartózkodási hely szerinti szűréséről a Power BI mobilalkalmazásokban](consumer/mobile/mobile-apps-geographic-filtering.md).
 
 ## <a name="next-steps"></a>További lépések
 * [Adatok kategorizálása a Power BI Desktopban](desktop-data-categorization.md)  

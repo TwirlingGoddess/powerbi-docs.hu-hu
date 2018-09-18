@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: dc79282a5c221e85fae7838009f6cecf91cbfdb8
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: a9dc1d0f87102cc5bf66a3fb21b8be7af6a66059
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34246827"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44726823"
 ---
 # <a name="microsoft-flow-and-power-bi"></a>A Microsoft Flow és a Power BI
 
@@ -110,7 +110,7 @@ Ennek a feladatnak a végrehajtása során sablon nélkül hozunk létre egy egy
 ## <a name="next-steps"></a>Következő lépések
 * [Microsoft Flow ‒ első lépések](https://flow.microsoft.com/en-us/documentation/getting-started/)
 * [Adatriasztások beállítása a Power BI szolgáltatásban](service-set-data-alerts.md)
-* [Adatriasztások beállítása az iPhone-on](mobile-set-data-alerts-in-the-mobile-apps.md)
-* [Adatriasztások beállítása a Windows 10-hez készült Power BI mobilalkalmazásban](mobile-set-data-alerts-in-the-mobile-apps.md)
+* [Adatriasztások beállítása az iPhone-on](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md)
+* [Adatriasztások beállítása a Windows 10-hez készült Power BI mobilalkalmazásban](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md)
 * További kérdései vannak? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)
 

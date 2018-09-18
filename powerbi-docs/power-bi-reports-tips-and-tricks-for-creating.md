@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/13/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 8305b9eab95e2b13f9104de6bcefe3f03a95d2f5
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 891d496fcdf809a816c9c18a6d21e4c486f76d76
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34254878"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44726800"
 ---
 # <a name="tips-and-tricks-for-creating-reports-in-power-bi-desktop-and-power-bi-service"></a>Tippek és trükkök jelentések létrehozásához a Power BI Desktopban és a Power BI szolgáltatásban
 Ahhoz, hogy a legtöbbet hozza ki az adataiból, néha szüksége van egy kis extra segítségre. Összegyűjtöttünk néhány tippet és trükköt, amelyek segítségére lehetnek, amikor jelentéseket hoz létre a Microsoft Power BI Desktopban, a Power BI szolgáltatásban *és* a Microsoft Excel 2016 vagy Excel 2013 Pro-Plus kiadásokban, amelyekben engedélyezve van a Power Pivot bővítmény, illetve telepítve és engedélyezve van a Power Query.
@@ -167,7 +167,7 @@ A DAX a Power BI Desktop számításokhoz használt képletnyelve.  Ez a nyelv B
 
 ## <a name="power-bi-service-and-power-bi-desktop"></a>Power BI szolgáltatás *és* Power BI Desktop
 
-### <a name="read-the-whitepaper-principles-for-designing-power-bi-reportspower-bi-visualization-best-practicesmd"></a>Olvassa el [a Power BI-jelentések kialakításának alapelveit](power-bi-visualization-best-practices.md) ismertető tanulmányt
+### <a name="read-the-whitepaper-principles-for-designing-power-bi-reportsvisualspower-bi-visualization-best-practicesmd"></a>Olvassa el [a Power BI-jelentések kialakításának alapelveit](visuals/power-bi-visualization-best-practices.md) ismertető tanulmányt
 Ez a tanulmány a Power BI szolgáltatásban történő jelentéstervezés bevált gyakorlatait mutatja be. Az előkészületektől kezdve tárgyalja a jelentésekre és a jelentéseket felépítő oldalakra és egyéni vizualizációkra vonatkozó tervezési alapelveket. Az ajánlott eljárások nagy része az irányítópultok tervezésére is érvényes.
 
 ### <a name="read-andor-watch-how-to-design-visually-stunning-reports-and-dashboards-in-power-bi"></a>Olvassa el és/vagy nézze meg, hogyan tervezhet lenyűgöző megjelenésű jelentéseket (és irányítópultokat) a Power BI-ban
@@ -209,7 +209,7 @@ Pusztán a változatosság kedvéért ne változtasson a vizualizáción.  A viz
 * Ügyeljen a [diagramok rendezési](power-bi-report-change-sort.md) módjára.  A legmagasabb vagy legalacsonyabb számok kiemeléséhez rendezze az adatokat a mértékek szerint.  Ha azt szeretné, hogy a felhasználók könnyedén megtaláljanak egy adott kategóriát a többi között, rendezze az adatokat a tengelyek szerint.  
 * Az ideális tortadiagramok kevesebb mint nyolc kategóriát tartalmaznak. Mivel a tortadiagramban nem lehet két értéket egymás mellett megjeleníteni, ezért jóval nehezebb az értékek összehasonlítása, mint egy oszlopdiagramon. A tortadiagramok alkalmasabbak a rész-egész viszonyok szemléltetésére, mint az egyes részek összehasonlítására. A mérőműszer-diagramokkal rendkívül jól lehet szemléltetni egy aktuális állapotot az adott cél tekintetében.    
 
-A vizualizációval kapcsolatos további segítségért olvassa el a következő részt: [Vizualizációtípusok a Power BI-ban](power-bi-visualization-types-for-reports-and-q-and-a.md).  
+A vizualizációval kapcsolatos további segítségért olvassa el a következő részt: [Vizualizációtípusok a Power BI-ban](visuals/power-bi-visualization-types-for-reports-and-q-and-a.md).  
 
 ### <a name="learn-more-about-best-practice-dashboard-design"></a>További információk az ajánlott irányítópult-tervezési eljárásokról
 Itt van néhány kedvenc könyveink közül:

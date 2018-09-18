@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: ca8b7ded6427f912933618ebdeaeeecea41b8681
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 8db686b842f01653e45e8d2d6313cb4ac39bcaeb
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34249939"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44727168"
 ---
 # <a name="power-bi-notifications"></a>Power BI-értesítések
 Az értesítési központ a Power BI használatával kapcsolatos információkból álló szekvenciális hírcsatorna. A megnyitásakor az Önnel megosztott új irányítópultokkal, a csoport munkaterületének változásaival, a Power BI-eseményekre és -értekezletekre vonatkozó értesítésekkel és egyebekkel kapcsolatos üzenetek láthatók. [Riasztásokat beállíthat a Power BI szolgáltatásban](service-set-data-alerts.md) és a Power BI-mobilalkalmazásokban is.
@@ -40,7 +40,7 @@ Figyelje meg, hogyan tekinti át és kezeli Amanda a kapott értesítéseket, é
 ### <a name="next-steps"></a>Következő lépések
 * [Adatokkal kapcsolatos riasztások a Power BI szolgáltatásban](service-set-data-alerts.md)
 * [Power BI-adatriasztás által aktivált Microsoft Flow-folyamat létrehozása](service-flow-integration.md)
-* [Adatriasztások beállítása az iPhone-alkalmazásban (a Power BI for iOS-ben)](mobile-set-data-alerts-in-the-mobile-apps.md)
-* [Adatriasztások beállítása a Windows 10-hez készült Power BI-mobilalkalmazásban](mobile-set-data-alerts-in-the-mobile-apps.md)
+* [Adatriasztások beállítása az iPhone-alkalmazásban (a Power BI for iOS-ben)](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md)
+* [Adatriasztások beállítása a Windows 10-hez készült Power BI-mobilalkalmazásban](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md)
 * További kérdései vannak? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)
 

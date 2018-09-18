@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/06/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 61a30484713ac96d3bbb65355310007a52f300a5
-ms.sourcegitcommit: cce10e14c111e8a19f282ad6c032d802ebfec943
+ms.openlocfilehash: 324a9b7f8a3718c6da0efb7533751d88dd717bcf
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "39657805"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44728088"
 ---
 # <a name="conditional-formatting-in-tables"></a>Táblázatok feltételes formázása 
 A táblázatok feltételes formázásával a cellák értéke, illetve más értékek vagy mezők alapján határozhat meg egyéni cellaszíneket, akár színátmenetek használatával is. A cellák értékei adatsávokkal is megjeleníthetők. 
@@ -133,5 +133,5 @@ A fantáziáját és egy kis DAX-ot felhasználva számtalan egyéb változatot 
 ## <a name="next-steps"></a>Következő lépések
 További információkat a következő cikkekben talál:  
 
-* [Tippek és trükkök a színformázáshoz a Power BI-ban](service-tips-and-tricks-for-color-formatting.md)  
+* [Tippek és trükkök a színformázáshoz a Power BI-ban](visuals/service-tips-and-tricks-for-color-formatting.md)  
 
