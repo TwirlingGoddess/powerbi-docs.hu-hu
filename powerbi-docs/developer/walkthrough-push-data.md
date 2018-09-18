@@ -2,26 +2,28 @@
 title: Adatok elküldése adatkészletbe
 description: Adatok elküldése Power BI-adatkészletbe
 author: markingmyname
+ms.author: maghan
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 01/05/2017
-ms.author: maghan
-ms.openlocfilehash: 1cc19d1ceefb95e0cb56e2a5dcbcc89609f654d5
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: 01bcc545d3ba8edb23ef583467322401780e657d
+ms.sourcegitcommit: 698b788720282b67d3e22ae5de572b54056f1b6c
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37598549"
+ms.lasthandoff: 09/17/2018
+ms.locfileid: "45974184"
 ---
 # <a name="push-data-into-a-power-bi-dataset"></a>Adatok elküldése Power BI-adatkészletbe
+
 A Power BI API-val adatokat küldhet egy Power BI-adatkészletbe. Tegyük fel például, hogy ki szeretne bővíteni egy már meglévő üzleti munkafolyamatot kulcsfontosságú adatoknak az adatkészletbe történő elküldésével. Ebben az esetben egy Termék táblát tartalmazó Értékesítési marketing adatkészletet kíván elküldeni egy adatkészletbe.
 
 Mielőtt elkezdené az adatok adatkészletbe való elküldését, szüksége lesz egy Azure Active Directoryra (Azure AD) és egy [Power BI-fiókra](create-an-azure-active-directory-tenant.md).
 
 ## <a name="steps-to-push-data-into-a-dataset"></a>Adatok adatkészletbe történő elküldésének lépései
+
 * 1. lépés: [Alkalmazás regisztrálása az Azure AD-ben](walkthrough-push-data-register-app-with-azure-ad.md)
 * 2. lépés: [Hitelesítéshez szükséges hozzáférési token beszerzése](walkthrough-push-data-get-token.md)
 * 3. lépés: [Adatkészlet létrehozása a Power BI-ban](walkthrough-push-data-create-dataset.md)
@@ -31,6 +33,7 @@ Mielőtt elkezdené az adatok adatkészletbe való elküldését, szüksége les
 A következő szakasz egy általános ismertetés az adatok küldésére használható Power BI API-műveletekről.
 
 ## <a name="power-bi-api-operations-to-push-data"></a>Adatok küldésére használt Power BI API-műveletek
+
 A Power BI REST API-val adatforrásokat küldhet a Power BI-ba. Amikor egy alkalmazás sorokat ad hozzá egy adatkészlethez, az irányítópulton lévő csempék automatikusan frissülnek az új adatokkal. Adatokat a [PostDataset](https://docs.microsoft.com/rest/api/power-bi/pushdatasets), és a [PostRows](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postrows) műveletekkel küldhet. Egy adatkészlet kereséséhez használja az [Adatkészletek lekérése](https://docs.microsoft.com/rest/api/power-bi/datasets/getdatasets) műveletet. A fenti műveletek bármelyike esetében átadhat egy csoportazonosítót a csoporttal való munkavégzéshez. A [Csoportok lekérése](https://docs.microsoft.com/rest/api/power-bi/groups/getgroups) művelettel lekérheti a csoportazonosítók listáját.
 
 Az adatok adatkészletbe történő elküldéséhez használható műveletek az alábbiak:
@@ -108,13 +111,14 @@ Power BI-táblaséma esetén az alábbi adattípusok használhatók.
 | Sztring |Jelenleg legfeljebb 128 ezer karakter hosszú lehet. |
 
 ## <a name="learn-more-about-pushing-data-into-power-bi"></a>További információk az adatoknak a Power BI-ba leküldésével kapcsolatban
+
 Az adatok adatkészletekbe történő küldésének első lépéseihez tekintse meg a bal oldali navigációs ablaktábla [1. lépés: Alkalmazás regisztrálása az Azure AD-ben](walkthrough-push-data-register-app-with-azure-ad.md) című szakaszát.
 
 [Következő lépés >](walkthrough-push-data-register-app-with-azure-ad.md)
 
 ## <a name="next-steps"></a>Következő lépések
+
 [Regisztráció a Power BI-ra](create-an-azure-active-directory-tenant.md)  
 [A JSON ismertetése](http://json.org/)  
 [A Power BI REST API áttekintése](overview-of-power-bi-rest-api.md)  
 További kérdései vannak? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)
-
