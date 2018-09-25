@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 03/21/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: bb1ebf08c7ffb7a18cc0dd273c767c082f89f1aa
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: d3afa24c68db5ffcaec1dddae09b0b9719bf2bb5
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44736913"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46543543"
 ---
 # <a name="kpi-visuals"></a>KPI (teljesítménymutatós) vizuális elemek
 A fő teljesítménymutató (KPI) olyan vizuális jel, amely egy mérhető cél terén elért előrehaladás mértékét jelzi. A KPI-kal kapcsolatos további információkért lásd: [Microsoft Developer Network](https://msdn.microsoft.com/library/hh272050).
@@ -42,7 +42,7 @@ Másik lehetőségként tekintse meg a videót, amelyben bemutatjuk, hogyan hozh
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/xmja6EpqaO0?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>
 
-1. Nyissa meg a jelentést a [Szerkesztési nézetben](../service-reading-view-and-editing-view.md), és [adjon hozzá egy új oldalt](../power-bi-report-add-page.md).    
+1. Nyissa meg a jelentést a [Szerkesztési nézetben](../consumer/end-user-reading-view.md), és [adjon hozzá egy új oldalt](../power-bi-report-add-page.md).    
 2. Válassza a **Sales > Total Units This Year** (Értékesítés > Idei összes egység) mezőt.  Ez lesz a mutató.
 3. Adjon hozzá **Time > Month** (Időpont > Hónap) értékeket.  Ez jelzi a trendet.
 4. FONTOS: A **Month** mező szerint rendezze a diagramot. Miután átalakítja a vizualizációt KPI-vé, nincs lehetőség rendezésre.

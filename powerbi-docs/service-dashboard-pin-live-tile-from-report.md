@@ -11,15 +11,15 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 7703709361a6233b6d04d6fb2131ba41f109ca36
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 3466280a452c89539d288a3e7d0a123855604e7e
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34249870"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46546372"
 ---
 # <a name="pin-an-entire-report-page-as-a-live-tile-to-a-power-bi-dashboard"></a>Teljes jelentésoldal rögzítése Power BI-irányítópultra élő csempeként
-Új [irányítópult-csempe](service-dashboard-tiles.md) hozzáadásának egy másik módja egy teljes jelentésoldal rögzítése. Így egyszerűen rögzíthető egyszerre több vizualizáció.  Ezen felül teljes oldal rögzítésekor a csempék *élők* lesznek, és közvetlenül az irányítópulton kezelhetők. A vizualizációk jelentésszerkesztőben végrehajtott módosítása, például egy szűrő hozzáadása vagy a diagramon használt mezők megváltoztatása is megjelenik az irányítópulton lévő csempén.  
+Új [irányítópult-csempe](consumer/end-user-tiles.md) hozzáadásának egy másik módja egy teljes jelentésoldal rögzítése. Így egyszerűen rögzíthető egyszerre több vizualizáció.  Ezen felül teljes oldal rögzítésekor a csempék *élők* lesznek, és közvetlenül az irányítópulton kezelhetők. A vizualizációk jelentésszerkesztőben végrehajtott módosítása, például egy szűrő hozzáadása vagy a diagramon használt mezők megváltoztatása is megjelenik az irányítópulton lévő csempén.  
 
 Jelentések csempéinek rögzítése az irányítópultokon csak a Power BI szolgáltatásban (app.powerbi.com) lehetséges.
 
@@ -53,7 +53,7 @@ Nézze meg, hogyan rögzít Amanda élő jelentésoldalt egy irányítópulton, 
     ![irányítópultok élő csempével](media/service-dashboard-pin-live-tile-from-report/pbi-live-tile.png)
 
 ## <a name="next-steps"></a>Következő lépések
-[Irányítópultok a Power BI-ban](service-dashboards.md)
+[Irányítópultok a Power BI-ban](consumer/end-user-dashboards.md)
 
 További kérdései vannak? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)
 

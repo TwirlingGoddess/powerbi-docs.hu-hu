@@ -9,14 +9,14 @@ ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
 ms.date: 05/25/2018
-ms.author: v-thepet
+ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 5758bb53fe4a8a3658d242c3bd72da0a78500579
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: babd30b89970108a06475ec3e7dab7e2ca708425
+ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44737508"
+ms.lasthandoff: 09/22/2018
+ms.locfileid: "46565084"
 ---
 # <a name="slicers-in-power-bi"></a>Szeletelők a Power BI-ban
 A jelentést olvasók számára az összesítő értékesítési mérőszámok megjelenítése mellett az egyes körzeti vezetők teljesítményét és a különböző időkereteket is ki kell tudni mutatni. Létrehozhat különálló jelentéseket vagy összehasonlító diagramokat, illetve használhat szeletelőket. A szűrés másféle lehetőségét kínáló szeletelőkkel az adathalmaz a jelentés más vizualizációiban szereplő részére szűkíthető. 
@@ -98,7 +98,7 @@ A **Vizualizációk interakciói** beállítással egyes vizualizációkat kivon
 2. A **Teljes értékesítési szórásnégyzet pénzügyi hónap és körzeti vezető szerint** diagram szeletelő általi szűrésének meggátlásához a diagram felett válassza a **Nincs** ikont. 
 3. Válassza a **Hónap** szeletelőt, majd a **Teljes értékesítési szórásnégyzet pénzügyi hónap és körzeti vezető szerint** diagram e szeletelő általi szűrésének meggátlásához a diagram felett ismét válassza a **Nincs** ikont. Így a „Teljes értékesítési szórásnégyzet pénzügyi hónap és körzeti vezető szerint” diagram, a szeletelőkben levő nevek és dátumtartományok kiválasztása esetén is változatlan marad. 
 
-Az interakciók szerkesztéséről a [Vizuális interakciók a Power BI-jelentésekben](../service-reports-visual-interactions.md) című cikkben talál további információkat.
+Az interakciók szerkesztéséről a [Vizuális interakciók a Power BI-jelentésekben](../consumer/end-user-interactions.md) című cikkben talál további információkat.
 
 ## <a name="sync-and-use-slicers-on-other-pages"></a>Más oldalakon levő szeletelők szinkronizálása és használata
 A Power BI 2018. februári frissítésétől kezdve a szeletelők szinkronizálhatók és egy jelentés bármely – vagy akár az összes – oldalán felhasználhatók. 
@@ -193,5 +193,5 @@ További kérdései vannak? [Kérdezze meg a Power BI közösségét](http://com
 
 [Vizualizációk típusai a Power BI-ban](power-bi-visualization-types-for-reports-and-q-and-a.md)
 
-[Power BI – Alapfogalmak](../service-basic-concepts.md)
+[Power BI – Alapfogalmak](../consumer/end-user-basic-concepts.md)
 

@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 08/17/2018
 ms.author: maggies
-ms.openlocfilehash: 5fe4212be55a42a6892a94e2a07da8af5c035b6d
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 7a5c60eea81eeb3a1f4e8a7f5b807fd8c7bfb6b5
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44742954"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46547246"
 ---
 # <a name="explore-reports-in-the-power-bi-mobile-apps"></a>Jelentések vizsgálata a Power BI mobilalkalmazásokban
 A következőkre vonatkozik:
@@ -82,7 +82,7 @@ Amikor kiválaszt egy értéket egy vizualizációban, az más vizualizációkat
 * A rendezés irányának megfordításához koppintson ismét a három pontra (**...**), és koppintson újra ugyanarra a mezőnévre.
 
 ## <a name="drill-down-and-up-in-a-visual"></a>Vizualizációk részletes elemzése és visszatérés az átfogó nézetre
-Ha egy jelentésszerző hozzáadta a részletezés funkciót a vizualizációhoz, akkor a vizualizáció részletezésével megtekintheti az annak egy részét felépítő adatokat. A [részletes elemzési képességet egy vizualizációhoz](../../power-bi-visualization-drill-down.md) a Power BI Desktopban vagy a Power BI szolgáltatásban adhatja hozzá. 
+Ha egy jelentésszerző hozzáadta a részletezés funkciót a vizualizációhoz, akkor a vizualizáció részletezésével megtekintheti az annak egy részét felépítő adatokat. A [részletes elemzési képességet egy vizualizációhoz](../end-user-drill.md) a Power BI Desktopban vagy a Power BI szolgáltatásban adhatja hozzá. 
 
 * Az vizualizációban az eszköztipp megjelenítéséhez koppintson egy meghatározott sávra vagy pontra, és tartsa rajta az ujját. Ha rendelkezik részletezési funkcióval, akkor az elemleírás alján nyilak jelennek meg, melyekre rákoppinthat. 
   

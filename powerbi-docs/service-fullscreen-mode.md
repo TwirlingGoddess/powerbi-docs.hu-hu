@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 09/04/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 58a739c0d566030d2b09094264da14f6afd6d6fc
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 83b9d87bf494c3b9e974ee9dfdfa97beb68a6579
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44727582"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46545797"
 ---
 # <a name="full-screen-mode-in-power-bi-service"></a>Teljes képernyős mód a Power BI szolgáltatásban
 ## <a name="what-is-full-screen-mode"></a>Mi az a teljes képernyős mód?
@@ -24,7 +24,7 @@ ms.locfileid: "44727582"
 
 Jelenítse meg menük és navigációs sávok nélkül a Power BI-tartalmakat (irányítópultokat, jelentésoldalakat, csempéket és vizualizációkat), hogy semmi se terelje el róluk a figyelmet.  Így adatait bármikor megtekintheti egy letisztult, teljes képernyős nézetben, és ehhez elég csak odapillantania. Ezt a megjelenítési módot időnként TV módnak is nevezik. A teljes képernyős módban elérhető funkciók a megjelenített tartalomtól függenek. 
 
-Ha a Power BI mobilalkalmazást használja, a [teljes képernyős mód a Windows 10-es mobilalkalmazásoknál érhető el](consumer/mobile/mobile-windows-10-app-presentation-mode.md). A Power BI Desktop nem rendelkezik teljes képernyős móddal jelentésekhez vagy vizualizációkhoz, de elérhető benne a Laphoz igazítás a [Kapcsolat nézethez és a Jelentés nézethez](desktop-report-view.md), valamint a [fókuszmód a jelentésvizualizációkhoz](service-focus-mode.md).
+Ha a Power BI mobilalkalmazást használja, a [teljes képernyős mód a Windows 10-es mobilalkalmazásoknál érhető el](consumer/mobile/mobile-windows-10-app-presentation-mode.md). A Power BI Desktop nem rendelkezik teljes képernyős móddal jelentésekhez vagy vizualizációkhoz, de elérhető benne a Laphoz igazítás a [Kapcsolat nézethez és a Jelentés nézethez](desktop-report-view.md), valamint a [fókuszmód a jelentésvizualizációkhoz](consumer/end-user-focus.md).
 
  
 
@@ -35,7 +35,7 @@ A teljes képernyős mód néhány felhasználása:
 * megtekintés kis képernyőn
 * véleményezés zárolt módban – anélkül érintheti meg a képernyőt, vagy viheti a csempék fölé az egérmutatót, hogy megnyitná az irányítópultot vagy az alapjául szolgáló jelentést
 
-> **MEGJEGYZÉS**: A teljes képernyős mód nem egyezik meg a [Fókusz (kiugró) móddal](service-focus-mode.md).
+> **MEGJEGYZÉS**: A teljes képernyős mód nem egyezik meg a [Fókusz (kiugró) móddal](consumer/end-user-focus.md).
 > 
 > 
 
@@ -78,7 +78,7 @@ Figyelje meg, hogyan nyitja meg Amanda az irányítópultját, és hogyan jelen�
       ![](media/service-fullscreen-mode/exit-fullscreen-new.png)
 
 ## <a name="visualizations-and-dashboard-tiles-in-full-screen-mode"></a>Vizualizációk és irányítópult-csempék teljes képernyős módban
-1. Irányítópult-csempék és jelentések vizualizációinak teljes képernyős módban való megjelenítéséhez a csempének vagy a vizualizációnak már [Fókusz módban](service-focus-mode.md) kell lennie. 
+1. Irányítópult-csempék és jelentések vizualizációinak teljes képernyős módban való megjelenítéséhez a csempének vagy a vizualizációnak már [Fókusz módban](consumer/end-user-focus.md) kell lennie. 
    
     ![](media/service-fullscreen-mode/power-bi-focus3.png)
 2. Válassza ekkor a Teljes képernyő ikont, ![teljes képernyő ikon](media/service-fullscreen-mode/power-bi-full-screen-icon.png)  amely ekkor az adott csempére vagy vizualizációra vonatkozik. A csempe vagy a vizualizáció ekkor menük és navigációs sávok nélkül, teljes képernyőn jelenik meg.
@@ -86,8 +86,8 @@ Figyelje meg, hogyan nyitja meg Amanda az irányítópultját, és hogyan jelen�
     ![](media/service-fullscreen-mode/power-bi-fullscreen.png)
 
 ## <a name="next-steps"></a>Következő lépések
-[A Power BI-irányítópultok](service-dashboards.md)  
-[Fókusz mód](service-focus-mode.md)    
+[A Power BI-irányítópultok](consumer/end-user-dashboards.md)  
+[Fókusz mód](consumer/end-user-focus.md)    
 
 További kérdései vannak? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)
 

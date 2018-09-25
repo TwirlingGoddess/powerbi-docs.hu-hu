@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 938f7b5f905d156518f71a30b355575cf1c04683
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 2f7133bb376cc04e181eed2d90a45e3361190d0b
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34722543"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46547027"
 ---
 # <a name="export-a-report-from-power-bi-service-to-desktop-preview"></a>Jelentés exportálása a Power BI szolgáltatásból a Desktopba (előzetes verzió)
 A Power BI Desktopban exportálhat (más kifejezéssel *letölthet*) jelentést a Power BI szolgáltatásba, ha menti a jelentést, és a **Közzététel** lehetőséget választja. Exportálhat a másik irányba is, és letöltheti a jelentést a Power BI szolgáltatásból a Desktopba. Az exportált fájlok kiterjesztése mindkét irány esetében *.pbix*.
@@ -27,7 +27,7 @@ Néhány korlátozást és szempontot figyelembe kell venni – ezekről a cikk 
 ## <a name="download-the-report-as-a-pbix"></a>Jelentés letöltése .pbix-fájlként
 A .pbix-fájl letöltéséhez kövesse az alábbi lépéseket:
 
-1. A **Power BI szolgáltatásban** nyissa meg a letölteni kívánt jelentést [Szerkesztési nézetben](service-reading-view-and-editing-view.md).
+1. A **Power BI szolgáltatásban** nyissa meg a letölteni kívánt jelentést [Szerkesztési nézetben](consumer/end-user-reading-view.md).
 2. A menüsávon válassza a **Fájl > Jelentés letöltése** lehetőséget.
    
    > [!NOTE]
@@ -67,8 +67,8 @@ Tekintse meg a **Guy in a Cube** csatorna erről a funkcióról szóló egyperce
 
 Néhány további cikk is segíthet elsajátítani a **Power BI szolgáltatás** használatát:
 
-* [Jelentések a Power BI-ban](service-reports.md)
-* [Power BI – Alapfogalmak](service-basic-concepts.md)
+* [Jelentések a Power BI-ban](consumer/end-user-reports.md)
+* [Power BI – Alapfogalmak](consumer/end-user-basic-concepts.md)
 
 A **Power BI Desktop** telepítése után a következő tartalmak segíthetnek a gyors kezdésben:
 

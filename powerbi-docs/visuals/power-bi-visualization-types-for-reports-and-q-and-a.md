@@ -2,7 +2,7 @@
 title: Vizualizációtípusok a Power BI-ban
 description: Vizualizációtípusok a Power BI-ban
 author: mihart
-manager: kfile
+manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/19/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 40106a9f219487a1fb52f353f3609f8f1d98bf4b
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: a12a497de5ee3e02ea6ba2b1e92fb6c50834d99c
+ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44737148"
+ms.lasthandoff: 09/22/2018
+ms.locfileid: "46566050"
 ---
 # <a name="visualization-types-in-power-bi"></a>Vizualizációtípusok a Power BI-ban
 ## <a name="power-bi-visualizations"></a>Power BI-vizualizációk
@@ -176,9 +176,9 @@ Ha természetes nyelvű lekérdezéseket ír a Power BI Q&A használatával, meg
 [Vizualizációk Power BI-jelentésekben](power-bi-report-visualizations.md)    
 [A megfelelő vizualizáció – referenciaanyag az sqlbi.com-on](http://www.sqlbi.com/wp-content/uploads/videotrainings/dashboarddesign/visuals-reference-may2017-A3.pdf)
 
-[Power BI-jelentések](../service-reports.md)
+[Power BI-jelentések](../consumer/end-user-reports.md)
 
-[Power BI – Alapfogalmak](../service-basic-concepts.md)
+[Power BI – Alapfogalmak](../consumer/end-user-basic-concepts.md)
 
 További kérdései vannak? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)
 

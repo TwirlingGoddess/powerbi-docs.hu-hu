@@ -1,21 +1,21 @@
 ---
 title: A mátrixvizualizáció használata a Power BI Desktopban
 description: Megismerheti, hogy a mátrixvizualizáció hogyan teszi lehetővé a lépcsőzetes elrendezéseket és a részletes kiemelést a Power BI Desktopban
-author: davidiseminger
+author: mihart
 manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
 ms.date: 07/27/2018
-ms.author: davidi
+ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: 396028e1bcb58e94e545d848cf3cae3101091326
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: e08eeed7b4adf1a392d2661613dd190cce1fb52f
+ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44744466"
+ms.lasthandoff: 09/22/2018
+ms.locfileid: "46565935"
 ---
 # <a name="use-the-matrix-visual-in-power-bi-desktop"></a>A Mátrix vizualizáció használata a Power BI Desktopban
 A **Mátrix** vizualizációs funkcióval mátrixvizualizációkat (más néven *táblákat*) hozhat létre a **Power BI Desktop** jelentéseiben, és egyéb vizualizációk mellett keresztkiemelést alkalmazhat a mátrix elemei között. Továbbá kiválaszthat sorokat, oszlopokat vagy egyetlen cellát is, és keresztkiemeléssel láthatja el őket. Végül az elrendezési terület jobb kihasználásának érdekében, a mátrixvizualizáció támogatja a lépcsőzetes elrendezést.

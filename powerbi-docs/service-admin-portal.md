@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/28/2017
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 27b3f18143fe5f354fb9a6965b1d3a58ba33f556
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: a9f394cdfefabf1392b0219079d95a35d38b1754
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44726915"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46546119"
 ---
 # <a name="power-bi-admin-portal"></a>Power BI felügyeleti portál
 
@@ -161,7 +161,7 @@ A webes közzététel beállításától függően a felhasználók különféle
 
 ### <a name="export-data"></a>Adatok exportálása
 
-A munkahelyi felhasználók adatokat exportálhatnak egy csempéről vagy vizualizációból. [További információ](power-bi-visualization-export-data.md)
+A munkahelyi felhasználók adatokat exportálhatnak egy csempéről vagy vizualizációból. [További információ](consumer/end-user-export-data.md)
 
 ![](media/service-admin-portal/powerbi-admin-export-data.png)
 
@@ -170,13 +170,13 @@ A munkahelyi felhasználók adatokat exportálhatnak egy csempéről vagy vizual
 
 ### <a name="export-reports-as-powerpoint-presentations"></a>Jelentések exportálása PowerPoint-bemutatóként
 
-A munkahelyi felhasználók PowerPoint-fájlként exportálhatják a Power BI-jelentéseket. [További információ](service-publish-to-powerpoint.md)
+A munkahelyi felhasználók PowerPoint-fájlként exportálhatják a Power BI-jelentéseket. [További információ](consumer/end-user-powerpoint.md)
 
 ![](media/service-admin-portal/powerbi-admin-powerpoint.png)
 
 ### <a name="print-dashboards-and-reports"></a>Irányítópultok és jelentések nyomtatása
 
-A munkahelyi felhasználók irányítópultokat és jelentéseket nyomtathatnak. [További információ](service-print.md)
+A munkahelyi felhasználók irányítópultokat és jelentéseket nyomtathatnak. [További információ](consumer/end-user-print.md)
 
 ![](media/service-admin-portal/powerbi-admin-print-dashboard.png)
 
@@ -205,7 +205,7 @@ A beállítást **Engedélyezve** értékre állíthatja, és megadhatja, hogy k
 > [!NOTE]
 > Ne feledje, hogy bérlői beállítások módosításának érvénybe lépése időbe telhet.
 
-További információ az [alkalmazások leküldéséről](service-create-distribute-apps.md#how-to-install-an-app-automatically-for-end-users).
+További információ az [alkalmazások leküldéséről](consumer/end-user-create-apps.md#how-to-install-an-app-automatically-for-end-users).
 
 ## <a name="integration-settings"></a>Integrálási beállítások
 

@@ -9,15 +9,15 @@ ms.topic: conceptual
 ms.date: 01/17/2018
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 320bcd80a6a258879568d323afdae60daacfee6c
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 2c90db1c08ba1d172acc4d0e82d23409d835879a
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44727941"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46543590"
 ---
 # <a name="tutorial-how-to-use-qa-to-create-visualizations-and-build-reports"></a>Oktatóanyag: A Q&A használata vizualizációk és jelentések létrehozásához
-A [Q&A áttekintésében](power-bi-q-and-a.md) megismerkedhetett a Power BI Q&A alapjaival, és megtanulta, mi a különbség a *felhasználók* (akikkel irányítópultokat és jelentéseket osztottak meg) és a *létrehozók* (az alapul szolgáló jelentések és adatkészletek tulajdonosai) között. Ennek az oktatóanyagnak az első része elsősorban azoknak szól, akik a Power BI szolgáltatásban irányítópultokat használnak fel. A második részt azoknak szántuk, akik jelentéseket hoznak létre akár a Power BI szolgáltatásban, akár a Power BI Desktopban. A [Q&A és a Power BI Mobile](consumer/mobile/mobile-apps-ios-qna.md), valamint a [Q&A a Power BI Embedded használatával](developer/qanda.md) külön cikkekben szerepelnek.
+A [Q&A áttekintésében](consumer/end-user-q-and-a.md) megismerkedhetett a Power BI Q&A alapjaival, és megtanulta, mi a különbség a *felhasználók* (akikkel irányítópultokat és jelentéseket osztottak meg) és a *létrehozók* (az alapul szolgáló jelentések és adatkészletek tulajdonosai) között. Ennek az oktatóanyagnak az első része elsősorban azoknak szól, akik a Power BI szolgáltatásban irányítópultokat használnak fel. A második részt azoknak szántuk, akik jelentéseket hoznak létre akár a Power BI szolgáltatásban, akár a Power BI Desktopban. A [Q&A és a Power BI Mobile](consumer/mobile/mobile-apps-ios-qna.md), valamint a [Q&A a Power BI Embedded használatával](developer/qanda.md) külön cikkekben szerepelnek.
 
 A Q&A interaktív, és még szórakoztató is lehet. Az esetek többségében a kérdések újabbakhoz vezetnek, és érdekes, követésre érdemes utakat nyitnak meg. Figyelje meg, hogyan hoz létre Amanda vizualizációkat a Q&A-val, hogyan tárja fel ezeket a vizualizációkat, és rögzíti őket irányítópultokon.
 
@@ -64,7 +64,7 @@ A Q&A használatával megismerheti az adatkészletet, és vizualizációkat adha
 
 ![](media/power-bi-tutorial-q-and-a/power-bi-view-related.png)
 
-Ahhoz, hogy a Q&A-t használni tudja a jelentésekben, szerkesztési engedéllyel kell rendelkeznie a jelentés alapjául szolgáló adatkészlethez és a jelentéshez. A [Q&A áttekintését tartalmazó témakörben](power-bi-q-and-a.md) ezt *létrehozóként* említettük. Ha Ön azonban nem létrehozó, hanem *felhasználó*, akivel a jelentést megosztották, akkor nem fogja tudni használni a Q&A-t.
+Ahhoz, hogy a Q&A-t használni tudja a jelentésekben, szerkesztési engedéllyel kell rendelkeznie a jelentés alapjául szolgáló adatkészlethez és a jelentéshez. A [Q&A áttekintését tartalmazó témakörben](consumer/end-user-q-and-a.md) ezt *létrehozóként* említettük. Ha Ön azonban nem létrehozó, hanem *felhasználó*, akivel a jelentést megosztották, akkor nem fogja tudni használni a Q&A-t.
 
 1. Nyisson meg egy jelentést Szerkesztési nézetben (Power BI szolgáltatás) vagy Jelentés nézetben (Power BI Desktop), és a menüsávon válassza a **Kérdés feltevése** lehetőséget.
 
@@ -98,14 +98,14 @@ Ahhoz, hogy a Q&A-t használni tudja a jelentésekben, szerkesztési engedéllye
 A Q&A-tól nem csak annyit kérhet, hogy az adatok beszéljenek magukért, azt is megadhatja, hogy a Power BI hogyan jelenítse meg a válaszokat. Elég a kérdés végét a "as a <visualization type>" ("mint ...") szöveggel kiegészíteni.  Erre példa a "show inventory volume by plant as a map" ("mutasd a raktárkészletet üzemenként mint térkép") és a "show total inventory as a card" ("mutasd a teljes leltárt mint kártya").  Próbálja ki.
 
 ##  <a name="considerations-and-troubleshooting"></a>Megfontolandó szempontok és hibaelhárítás
-- Ha az adatkészlethez élő kapcsolattal vagy átjáró használatával csatlakozott, a Q&A-t [engedélyezni kell az adott adatkészlethez](service-q-and-a-direct-query.md).
+- Ha az adatkészlethez élő kapcsolattal vagy átjáró használatával csatlakozott, a Q&A-t [engedélyezni kell az adott adatkészlethez](consumer/end-user-q-and-a-direct-query.md).
 
 - Megnyitott egy jelentést, de nem jelenik meg a Q&A lehetőség. Ha a Power BI szolgáltatást használja, mindenképpen a Szerkesztési nézetében nyissa meg a jelentést. Ha nem tudja megnyitni a Szerkesztési nézetet, akkor nincs jogosultsága a jelentés szerkesztéséhez, és ez esetben nem fogja tudni használni a Q&A-t ehhez a jelentéshez.
 
 ## <a name="next-steps"></a>Következő lépések
-Vissza a [Q&A a Power BI-ban](power-bi-q-and-a.md)  című témakörhöz  
+Vissza a [Q&A a Power BI-ban](consumer/end-user-q-and-a.md)  című témakörhöz  
 [Oktatóanyag: A Q&A használata a kiskereskedelmi értékesítési mintával](power-bi-visualization-introduction-to-q-and-a.md)   
-[Tippek kérdések feltevéséhez a Q&A-ben](service-q-and-a-tips.md)   
+[Tippek kérdések feltevéséhez a Q&A-ben](consumer/end-user-q-and-a-tips.md)   
 [Munkafüzet előkészítése a Q&A használatához](service-prepare-data-for-q-and-a.md)  
-[Helyszíni adatkészlet előkészítése a Q&A-hez](service-q-and-a-direct-query.md)
+[Helyszíni adatkészlet előkészítése a Q&A-hez](consumer/end-user-q-and-a-direct-query.md)
 [Csempe rögzítése irányítópultra Q&A-ból](service-dashboard-pin-tile-from-q-and-a.md)

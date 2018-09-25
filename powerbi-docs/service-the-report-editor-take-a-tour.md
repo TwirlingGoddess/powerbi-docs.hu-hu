@@ -11,25 +11,25 @@ ms.topic: conceptual
 ms.date: 04/11/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 78d9004a718990cbcd310835e8e9b8ae5e3eae17
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 3c6ae5351908bd71888040c3bc900323837935c2
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44726639"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46546073"
 ---
 # <a name="the-report-editortake-a-tour"></a>A jelentésszerkesztő – bevezetés
 ## <a name="editing-reports-in-power-bi-service-and-power-bi-desktop"></a>Jelentések szerkesztése a Power BI szolgáltatásban és a Power BI Desktopban
 A Power BI szolgáltatásban és a Power BI Desktopban használt jelentésszerkesztő nagyon hasonló. A videó a Power BI Desktop, ez a cikk pedig a Power BI szolgáltatás jelentésszerkesztőjét mutatja be. 
 
 ## <a name="the-difference-between-report-creators-and-report-consumers"></a>Jelentések *létrehozói* és *felhasználói* közötti különbségek
-A jelentéseket csak a jelentések tulajdonosai (avagy *létrehozói*) szerkeszthetik. Ha egy Önnel megosztott jelentést *felhasználóként* használ, azt a Power BI szolgáltatásban kizárólag [Olvasó nézetben](service-reading-view-and-editing-view.md) nyithatja meg és így használhatja, de nem áll majd rendelkezésére az a számos hasznos funkció, amelyet a jelentés készítője használhat.  
+A jelentéseket csak a jelentések tulajdonosai (avagy *létrehozói*) szerkeszthetik. Ha egy Önnel megosztott jelentést *felhasználóként* használ, azt a Power BI szolgáltatásban kizárólag [Olvasó nézetben](consumer/end-user-reading-view.md) nyithatja meg és így használhatja, de nem áll majd rendelkezésére az a számos hasznos funkció, amelyet a jelentés készítője használhat.  
 
-A jelentésekben használt Olvasó nézetről [A Power BI szolgáltatás jelentéseinek Olvasó és Szerkesztési nézete](service-reading-view-and-editing-view.md) című cikkből tájékozódhat. 
+A jelentésekben használt Olvasó nézetről [A Power BI szolgáltatás jelentéseinek Olvasó és Szerkesztési nézete](consumer/end-user-reading-view.md) című cikkből tájékozódhat. 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/IkJda4O7oGs" frameborder="0" allowfullscreen></iframe>
 
-A Power BI szolgáltatásban a *jelentésszerkesztő* csak [Szerkesztési nézetben](service-reading-view-and-editing-view.md) érhető el. Ahhoz, hogy egy jelentést Szerkesztési nézetben nyithasson meg, a jelentés tulajdonosának vagy létrehozójának kell lennie.
+A Power BI szolgáltatásban a *jelentésszerkesztő* csak [Szerkesztési nézetben](consumer/end-user-reading-view.md) érhető el. Ahhoz, hogy egy jelentést Szerkesztési nézetben nyithasson meg, a jelentés tulajdonosának vagy létrehozójának kell lennie.
 
 A Power BI jelentésszerkesztőjének felülete három részből áll:  
 
@@ -126,9 +126,9 @@ A jelentésvásznon jelenik meg a munkája. A Mezők, a Szűrők és a Megjelen�
 ## <a name="next-steps"></a>További lépések:
 [Jelentés létrehozása](service-report-create-new.md)
 
-További információk a jelentések használatáról a [Power BI szolgáltatásban](service-reports.md), a [Power BI Desktopban](desktop-report-view.md) és a [Power BI Mobile-ban](consumer/mobile/mobile-apps-view-phone-report.md).
+További információk a jelentések használatáról a [Power BI szolgáltatásban](consumer/end-user-reports.md), a [Power BI Desktopban](desktop-report-view.md) és a [Power BI Mobile-ban](consumer/mobile/mobile-apps-view-phone-report.md).
 
-[Power BI – Alapfogalmak](service-basic-concepts.md)
+[Power BI – Alapfogalmak](consumer/end-user-basic-concepts.md)
 
 További kérdései vannak? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)
 

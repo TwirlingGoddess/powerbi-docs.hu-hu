@@ -9,15 +9,15 @@ ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 10/09/2017
 ms.author: maggies
-ms.openlocfilehash: 23a8875479197f1d200a9f086fcfd27d483faf40
-ms.sourcegitcommit: 3a287ae4ab16d1e76caed651bd8ae1a1738831cd
+ms.openlocfilehash: 723aa8e1a6817551f5e8f1c0cf096d185b1e53ae
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 07/19/2018
-ms.locfileid: "39157410"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46543778"
 ---
 # <a name="template-content-pack-experiences-in-power-bi"></a>Sablonalapú tartalomcsomagokkal kapcsolatos felhasználó élmény a Power BI-ban
-Ez a szakasz egy tipikus felhasználó élményt emel ki, amikor egy felhasználó egy ISV-[tartalomcsomaghoz](service-connect-to-services.md) csatlakozik.
+Ez a szakasz egy tipikus felhasználó élményt emel ki, amikor egy felhasználó egy ISV-[tartalomcsomaghoz](consumer/end-user-connect-to-services.md) csatlakozik.
 
 Próbálja ki maga is a csatlakozási élményt: csatlakozzon egy kiadott tartalomcsomaghoz a https://app.powerbi.com/getdata/services webhelyen (például az alább ismertetett [GitHub-tartalomcsomaghoz](https://app.powerbi.com/getdata/services/github)).
 

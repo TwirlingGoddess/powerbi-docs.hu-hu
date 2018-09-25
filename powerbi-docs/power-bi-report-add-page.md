@@ -10,17 +10,17 @@ ms.topic: conceptual
 ms.date: 12/20/2017
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 48980bf4ded44f9c383b38606747d14b5a5725c8
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 5a6600fe6c60d5f108b9203508448ef3f1778a7e
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34237430"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548724"
 ---
 # <a name="add-a-page-to-a-power-bi-report-in-power-bi-service-and-power-bi-desktop"></a>Oldalak hozzáadása Power BI-jelentésekhez a Power BI szolgáltatásban és a Power BI Desktopban
 Semmi szükség nincs a jelentéslap túlzsúfolására, hiszen elég hozzáadni egy új üres lapot. 
 
-A jelentésoldalak hozzáadásához és duplikálásához a jelentésre vonatkozó szerkesztési jogosultságok szükségesek. A Power BI szolgáltatásban ehhez a [Szerkesztési nézetben](service-reading-view-and-editing-view.md) kell tudni megnyitni a jelentést. 
+A jelentésoldalak hozzáadásához és duplikálásához a jelentésre vonatkozó szerkesztési jogosultságok szükségesek. A Power BI szolgáltatásban ehhez a [Szerkesztési nézetben](consumer/end-user-reading-view.md) kell tudni megnyitni a jelentést. 
 
 ## <a name="add-a-new-blank-page"></a>Új üres lap felvétele
 Kattintson a sárga plusz ikonra, majd írjon be egy új nevet a laphoz.  
@@ -35,9 +35,9 @@ A felső vezérlősávon [Szerkesztési nézetben](service-interact-with-a-repor
 Az új oldal létrejön, és ez lesz az aktív oldal. Az átnevezéséhez kattintson duplán a lapfül nevére a kijelöléséhez, majd írja be az új nevet.  További információért lásd: [Átnevezés a Power BI szolgáltatásban](service-rename.md)
 
 ## <a name="next-steps"></a>Következő lépések
-A [Power BI jelentéseiről itt talál](service-reports.md) további információkat
+A [Power BI jelentéseiről itt talál](consumer/end-user-reports.md) további információkat
 
-[Power BI – Alapfogalmak](service-basic-concepts.md)
+[Power BI – Alapfogalmak](consumer/end-user-basic-concepts.md)
 
 További kérdései vannak? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)
 

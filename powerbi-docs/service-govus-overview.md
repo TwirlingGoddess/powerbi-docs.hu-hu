@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/24/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: f110464d435130a40666e61dd6a9c89ad6b10ccf
-ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
+ms.openlocfilehash: 8ac91cb0ab6061f0fcbcb120c5915a91166f90ad
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39280432"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46546188"
 ---
 # <a name="power-bi-for-us-government-customers"></a>Power BI az USA kormányzati ügyfelei számára
 A **Power BI szolgáltatás** külön verziója érhető el az USA kormányzati ügyfeleinek az **egyesült államokbeli Office 365-közösségi** előfizetések részeként. A jelen cikkben a **Power BI szolgáltatás** kifejezetten az USA kormányzati ügyfeleinek készült verzióját tárgyaljuk, amely elkülönül és különbözik a **Power BI szolgáltatás** kereskedelmi verziójától.
@@ -37,7 +37,7 @@ A **Power BI US Government**-ügyfelek a következő funkciókat érhetik el, mi
 * Jelentések és [adatok importálása](service-get-data.md) Excel-, CSV- és Power BI Desktop-fájlokból
 * Adatkezelési átjáró
 * Az Azure SQL és a Blob Storage használatával tárolt valamennyi Power BI-adat titkosítva van
-* Kapcsolódás szolgáltatásokhoz [tartalomcsomagok](service-connect-to-services.md) használatával
+* Kapcsolódás szolgáltatásokhoz [tartalomcsomagok](consumer/end-user-connect-to-services.md) használatával
 
 ## <a name="connectivity-between-government-and-public-azure-cloud-services"></a>Kapcsolat a kormányzati és a nyilvános Azure-felhőszolgáltatások között 
 

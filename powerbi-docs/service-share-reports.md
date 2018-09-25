@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 01/18/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: bc5fe4c1e1fedc700fcbadd182f01e9e50348e3e
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 8f025c11a5269befdb7819684e10e8511ae6bc98
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34257229"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46545639"
 ---
 # <a name="share-a-filtered-power-bi-report-with-your-coworkers"></a>Szűrt Power BI-jelentés megosztása munkatársakkal
 A *Megosztással* egyszerűen biztosíthatja néhány személy hozzáférését az irányítópultjaihoz és jelentéseihez. A Power BI-ban [többféle módon valósítható meg a jelentések közös használata és terjesztése](service-how-to-collaborate-distribute-dashboards-reports.md).
@@ -28,7 +28,7 @@ Jelentéseket megoszthat munkatársaival, amennyiben ugyanazt az e-mail-tartomá
 ## <a name="filter-and-share-a-report"></a>Jelentés szűrése és megosztása
 Mi történik olyankor, ha egy jelentésnek egy szűrt verzióját szeretné megosztani? Például egy olyan jelentést, amely csak egy adott város, év vagy értékesítő adatait jeleníti meg. Ezt egy egyedi URL-cím létrehozásával teheti meg.
 
-1. Nyissa meg a jelentést [Szerkesztő nézetben](service-reading-view-and-editing-view.md), alkalmazza a szűrőt, majd mentse a jelentést.
+1. Nyissa meg a jelentést [Szerkesztő nézetben](consumer/end-user-reading-view.md), alkalmazza a szűrőt, majd mentse a jelentést.
    
    Ebben a példában a [Kiskereskedelmi elemzési mintát](sample-tutorial-connect-to-the-samples.md) szűrjük, hogy csak azokat az értékeket mutassa, ahol a **Territory** (Terület) **NC** (Észak-Karolnia) értékű.
    

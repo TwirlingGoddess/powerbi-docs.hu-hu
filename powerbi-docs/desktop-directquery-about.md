@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/27/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 81a8b5454e39088b8b406e600707d1d5073e14dc
-ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
+ms.openlocfilehash: 1104c7f90f46252a74c4aa8e5ec573a159ef1c40
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39330167"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46550121"
 ---
 # <a name="using-directquery-in-power-bi"></a>DirectQuery használata a Power BI-ban
 Számos különböző adatforrást kapcsolhat össze a **Power BI Desktop** vagy a **Power BI szolgáltatás** használatával, és ezeket az adatkapcsolatokat többféleképpen is létrehozhatja. *Importálhat* adatokat a Power BI-ba, ez az adatok lekérésének leggyakoribb módja, vagy közvetlenül is csatlakozhat az eredeti forrásadattárukban lévő adatokhoz, ez az eljárás **DirectQuery** néven ismert. Ez a cikk a **DirectQuery** szolgáltatást és annak képességeit mutatja be, az alábbi témaköröket beleértve:
@@ -277,7 +277,7 @@ DirectQuery-kapcsolat használatával történő jelentéskészítéskor tartsa 
   
   ![](media/desktop-directquery-about/directquery-about_04.png)
   
-  A DirectQueryben az ilyen keresztszűréshez és keresztkiemeléshez lekérdezéseket kell küldeni az alapul szolgáló forrás felé, ezért érdemes az interakciót kikapcsolni, ha túl hosszú lenne az az idő, amíg a rendszer reagál a felhasználók kiválasztásaira. Ez az interakció azonban ki is kapcsolható akár a teljes jelentésre vonatkozóan (lásd fentebb a *Lekérdezések csökkentésének beállításánál*), vagy külön-külön is az [ebben a cikkben](service-reports-visual-interactions.md) leírtak alapján.
+  A DirectQueryben az ilyen keresztszűréshez és keresztkiemeléshez lekérdezéseket kell küldeni az alapul szolgáló forrás felé, ezért érdemes az interakciót kikapcsolni, ha túl hosszú lenne az az idő, amíg a rendszer reagál a felhasználók kiválasztásaira. Ez az interakció azonban ki is kapcsolható akár a teljes jelentésre vonatkozóan (lásd fentebb a *Lekérdezések csökkentésének beállításánál*), vagy külön-külön is az [ebben a cikkben](consumer/end-user-interactions.md) leírtak alapján.
 
 A fenti javaslatok mellett vegye figyelembe, hogy a következő jelentéskészítési funkciók is okozhatnak teljesítményproblémákat:
 

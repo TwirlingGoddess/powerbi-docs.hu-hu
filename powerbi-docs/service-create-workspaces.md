@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/06/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 6ae44bb641768ec6518814a0d8699dc41d260e90
-ms.sourcegitcommit: 2356dc8e5488438a43ba7f0ba9a55a2372669b47
+ms.openlocfilehash: b40933e085cf81528a28e9eedb4260351f657323
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "39624746"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548396"
 ---
 # <a name="create-workspaces-with-your-colleagues-in-power-bi"></a>Munkaterületek létrehozása munkatársakkal a Power BI-ban
 
@@ -77,7 +77,7 @@ A jelenlegi munkaterületeken emellett szervezeti, valamint külső tartalomcsom
 
 ## <a name="distribute-an-app"></a>Alkalmazások terjesztése
 
-Ha a tartalom elkészült, kiválaszthatja a közzétenni kívánt irányítópultokat és jelentéseket, amelyeket közzétehet *alkalmazásként*. A munkatársai különböző módokon férhetnek hozzá az alkalmazásokhoz. Ha a Power BI rendszergazda engedélyezi, automatikusan telepítheti őket a munkatársai Power BI-fiókjába. Ha nem, megkereshetik és telepíthetik az alkalmazást a Microsoft AppSource-ból, vagy küldhet nekik egy közvetlen hivatkozást. A rendszer automatikusan frissíti az alkalmazásokat, és szabályozható, milyen gyakran frissüljenek az adatok. További információ: [Irányítópultokból és jelentésekből álló alkalmazások közzététele a Power BI-ban](service-create-distribute-apps.md).
+Ha a tartalom elkészült, kiválaszthatja a közzétenni kívánt irányítópultokat és jelentéseket, amelyeket közzétehet *alkalmazásként*. A munkatársai különböző módokon férhetnek hozzá az alkalmazásokhoz. Ha a Power BI rendszergazda engedélyezi, automatikusan telepítheti őket a munkatársai Power BI-fiókjába. Ha nem, megkereshetik és telepíthetik az alkalmazást a Microsoft AppSource-ból, vagy küldhet nekik egy közvetlen hivatkozást. A rendszer automatikusan frissíti az alkalmazásokat, és szabályozható, milyen gyakran frissüljenek az adatok. További információ: [Irányítópultokból és jelentésekből álló alkalmazások közzététele a Power BI-ban](consumer/end-user-create-apps.md).
 
 ## <a name="power-bi-apps-faq"></a>Power BI alkalmazások – gyakori kérdések
 
@@ -92,7 +92,7 @@ Az alkalmazások a vállalati tartalomcsomagokból fejlődtek ki. Ha már vannak
 A jelenlegi és az új alkalmazás-munkaterületek összehasonlításához tekintse meg a [Miben különböznek az új alkalmazás-munkaterületek a meglévőktől?](service-create-the-new-workspaces.md#how-are-the-new-app-workspaces-different-from-current-app-workspaces) című cikket. 
 
 ## <a name="next-steps"></a>Következő lépések
-* [Alkalmazások telepítése és használata a Power BI-ban](service-install-use-apps.md)
-* [Power BI alkalmazások külső szolgáltatásokhoz](service-connect-to-services.md)
+* [Alkalmazások telepítése és használata a Power BI-ban](consumer/end-user-apps.md)
+* [Power BI alkalmazások külső szolgáltatásokhoz](consumer/end-user-connect-to-services.md)
 - [Új munkaterületek létrehozása (előzetes verzió)](service-create-the-new-workspaces.md)
 * Kérdése van? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)

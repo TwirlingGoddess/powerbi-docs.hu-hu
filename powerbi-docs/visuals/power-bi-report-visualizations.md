@@ -11,17 +11,17 @@ ms.topic: conceptual
 ms.date: 08/21/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: c3dae6bcd59f44ab66b305b009da1e6fdabc9879
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 6cfd4cf1ae090351a710b00ee82600ddcbc71632
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44737238"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46546165"
 ---
 # <a name="visualizations-in-power-bi-reports"></a>Vizualizációk Power BI-jelentésekben
 A vizualizációk az adatokból nyert információkat jelenítik meg. Egy Power BI-jelentés állhat egyetlen oldalból, amelyen csak egy vizualizáció szerepel, de előfordulhatnak olyan jelentések is, amelyek számos vizualizációt tartalmazó oldalakból állnak. A Power BI szolgáltatásban a vizualizációkat [jelentésekből irányítópultokra lehet rögzíteni](../service-dashboard-pin-tile-from-report.md). 
 
-Fontos különbséget tenni a jelentés *létrehozója* és *felhasználója* között. Ha Ön hozza létre és módosítja a jelentést, akkor Ön a létrehozó.  A létrehozóknak szerkesztési jogosultságuk van a jelentéshez és az alapul szolgáló adatkészlethez. A Power BI Desktopban ez azt jelenti, hogy megnyithatja az adatkészletet Adatnézetben, és vizualizációkat hozhat létre Jelentés nézetben. A Power BI szolgáltatásban ez azt jelenti, hogy megnyithatja az adatkészletet vagy a jelentést a jelentésszerkesztőben [Szerkesztési nézetben](../service-reading-view-and-editing-view.md). Ha a jelentést vagy az irányítópultot [megosztották Önnel](../service-shared-with-me.md), akkor Ön a jelentés **felhasználója**. A jelentést és a rajta szereplő vizualizációkat használhatja, de a változtatásokat nem tudja menteni.
+Fontos különbséget tenni a jelentés *létrehozója* és *felhasználója* között. Ha Ön hozza létre és módosítja a jelentést, akkor Ön a létrehozó.  A létrehozóknak szerkesztési jogosultságuk van a jelentéshez és az alapul szolgáló adatkészlethez. A Power BI Desktopban ez azt jelenti, hogy megnyithatja az adatkészletet Adatnézetben, és vizualizációkat hozhat létre Jelentés nézetben. A Power BI szolgáltatásban ez azt jelenti, hogy megnyithatja az adatkészletet vagy a jelentést a jelentésszerkesztőben [Szerkesztési nézetben](../consumer/end-user-reading-view.md). Ha a jelentést vagy az irányítópultot [megosztották Önnel](../consumer/end-user-shared-with-me.md), akkor Ön a jelentés **felhasználója**. A jelentést és a rajta szereplő vizualizációkat használhatja, de a változtatásokat nem tudja menteni.
 
 A Power BI VIZUALIZÁCIÓK paneljén számos különféle típusú vizualizáció érhető el. 
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/16/2018
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: c567921b765f03fbaa11f2b98724cea1a1ce1905
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 92506d4ce2f372a4535a0a178ef43791c6d94f83
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34240985"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46547959"
 ---
 # <a name="get-started-with-power-bi-qa"></a>Első lépések a Power BI Q&A-ben
 ## <a name="use-power-bi-qa-with-the-retail-analysis-sample"></a>A Power BI Q&A használata a kiskereskedelmi elemzési mintával
@@ -57,7 +57,7 @@ Hogyan lehet létrehozni ugyanezt a vonaldiagramot a Q&A-val?
 4. A diagram irányítópultra való kitűzéséhez válassza a gombostű ikont ![](media/power-bi-visualization-introduction-to-q-and-a/pinnooutline.png).
 
 ## <a name="next-steps"></a>Következő lépések
-[Q&A a Power BI-ban](power-bi-q-and-a.md)
+[Q&A a Power BI-ban](consumer/end-user-q-and-a.md)
 
 [Megfelelő adatműködés biztosítása a Q&A és a Power BI használatánál](service-prepare-data-for-q-and-a.md)
 

@@ -11,15 +11,15 @@ ms.topic: conceptual
 ms.date: 03/24/2017
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 8083e2aba9a2aa5b8bba27995e9fe261a76084c9
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 380567441fafec92d1f5e9e6b135b797264df40f
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44728065"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46543568"
 ---
 # <a name="duplicate-a-report-page-in-power-bi"></a>Jelentésoldal megkettőzése a Power BI-ban
-Ahhoz, hogy jelentésoldalt duplikáljon a Power BI szolgáltatásban vagy a Power BI Desktopban, szerkesztési engedély szükséges a jelentéshez. A Power BI szolgáltatásban ehhez a [Szerkesztési nézetben](service-reading-view-and-editing-view.md) kell tudni megnyitni a jelentést. 
+Ahhoz, hogy jelentésoldalt duplikáljon a Power BI szolgáltatásban vagy a Power BI Desktopban, szerkesztési engedély szükséges a jelentéshez. A Power BI szolgáltatásban ehhez a [Szerkesztési nézetben](consumer/end-user-reading-view.md) kell tudni megnyitni a jelentést. 
 
 
 1. A Power BI-ban nyisson meg egy jelentést, amelynek van legalább egy oldala. 
@@ -36,7 +36,7 @@ Ahhoz, hogy jelentésoldalt duplikáljon a Power BI szolgáltatásban vagy a Pow
 ### <a name="next-steps"></a>Következő lépések
 További információk [a Power BI-jelentésekben lévő vizualizációkról](visuals/power-bi-report-visualizations.md)    
 [Új oldal hozzáadása jelentéshez](power-bi-report-add-page.md)    
-[Power BI – Alapfogalmak](service-basic-concepts.md)    
+[Power BI – Alapfogalmak](consumer/end-user-basic-concepts.md)    
 
 További kérdései vannak? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)
 

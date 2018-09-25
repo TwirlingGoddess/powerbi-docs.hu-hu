@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 05/05/2018
 ms.author: maggies
-ms.openlocfilehash: 320ab8cef7ba2b36846550dcdb3171c7fb4b788a
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: abd0e6b36af02753d8ff08c8f7405cc6502977d1
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44737076"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548111"
 ---
 # <a name="qa-virtual-analyst-in-ios-apps---power-bi"></a>Q&A virtuális elemző iOS-alkalmazásokban – Power BI
 
@@ -137,11 +137,11 @@ Tekintse át a beszédfelismerésről szóló szakaszt az Apple iOS fejlesztők 
 Az eredmények, melyeket ügyfelei a Q&A virtuális elemző adott adatkészlet kapcsán történő használatakor kapnak, célzottabb kérdések feltevésével vagy az adatkészlet fejlesztésével tovább finomíthatók.
 
 ### <a name="how-to-ask-questions"></a>Hogyan érdemes kérdezni?
-* Tekintse át a [Power BI Q&A-ben feltehető kérdésekkel kapcsolatos tippeket](../../service-q-and-a-tips.md) vagy kövesse iOS-es mobilalkalmazása Q&A virtuális elemzőjét.
+* Tekintse át a [Power BI Q&A-ben feltehető kérdésekkel kapcsolatos tippeket](../end-user-q-and-a-tips.md) vagy kövesse iOS-es mobilalkalmazása Q&A virtuális elemzőjét.
 
 ### <a name="how-to-enhance-the-dataset"></a>Adatkészlet továbbfejlesztése
 * A Power BI Desktop alkalmazásban vagy a Power BI szolgáltatásban használt adatkészleteket az [adatok Q&A-hoz és Q&A virtuális elemzőhöz jól használhatóvá tételét](../../service-prepare-data-for-q-and-a.md) bemutató cikkben leírtakat követve fejlesztheti tovább.
 
 ## <a name="next-steps"></a>Következő lépések
-* [Q&A a Power BI szolgáltatásban](../../power-bi-q-and-a.md)
+* [Q&A a Power BI szolgáltatásban](../end-user-q-and-a.md)
 * Kérdései vannak? Látogasson el a [Power BI közösség mobilalkalmazásokról szóló oldalára](https://go.microsoft.com/fwlink/?linkid=839277).

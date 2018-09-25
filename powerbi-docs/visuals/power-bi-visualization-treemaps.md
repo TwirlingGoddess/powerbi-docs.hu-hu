@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 01/23/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: aa73da576a64a3245a3e8a9deab124dcefbc79f8
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 946746b1c868ca5310edd929434cc852400b5bc3
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44744033"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548074"
 ---
 # <a name="treemaps-in-power-bi"></a>Fatérképek a Power BI-ban
 A fatérképek a hierarchikus adatokat beágyazott téglalapokként jelenítik meg.  A hierarchia minden egyes szintjét egy színes téglalap (más néven „ág”) jelöli, amely további téglalapokat („leveleket”) tartalmaz.  Egy téglalapon belül a hely lefoglalása a mért mennyiségi értékek alapján, méret szerint rendezve történik – bal oldalt felül találhatók a legnagyobb téglalapok, jobbra alul pedig a legkisebbek.
@@ -62,7 +62,7 @@ Vagy hozzon létre saját fatérképet. Ez az útmutatás a Kiskereskedelmi elem
    > 
 5. Helyezze a kurzort egy **Chain** elem fölé, hogy megjelenjen az adott **Kategória** elemleírása.  Ha például a **040-Juniors** téglalapban a **Lindseys** fölé helyezi a kurzort, akkor megjelenik a Juniors (Fiatalok) kategóriában található Lindsey-rész elemleírása.  
    ![](media/power-bi-visualization-treemaps/treemaphoverdetail_new.png)
-6. [Vegye fel a fatérképet egy irányítópult-csempeként (rögzítse a vizualizációt)](../service-dashboard-tiles.md). 
+6. [Vegye fel a fatérképet egy irányítópult-csempeként (rögzítse a vizualizációt)](../consumer/end-user-tiles.md). 
 7. [Mentse a jelentést](../service-report-save.md).
 
 ## <a name="highlighting-and-cross-filtering"></a>Kiemelés és keresztszűrés
@@ -76,11 +76,11 @@ Egy kategória vagy részlet kijelölése egy fatérképen keresztkiemelést és
 2. A **Last Year Sales by Chain** (Előző évi értékesítések üzletlánc szerint) tortadiagramban válassza a **Fashions Direct** szeletet, ezzel keresztszűrést végezhet a fatérképen.  
    ![](media/power-bi-visualization-treemaps/treemapnoowl.gif)    
 
-3. A keresztkiemelések és keresztszűrések használatának módját a [Vizualizációk közötti interakciók Power BI-jelentésekben](../service-reports-visual-interactions.md) című cikk ismerteti.
+3. A keresztkiemelések és keresztszűrések használatának módját a [Vizualizációk közötti interakciók Power BI-jelentésekben](../consumer/end-user-interactions.md) című cikk ismerteti.
 
 ## <a name="next-steps"></a>Következő lépések
 [Vizualizáció rögzítése az irányítópulton](../service-dashboard-pin-tile-from-report.md)  
-[Power BI – Alapfogalmak](../service-basic-concepts.md)  
+[Power BI – Alapfogalmak](../consumer/end-user-basic-concepts.md)  
 
 További kérdései vannak? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)  
 

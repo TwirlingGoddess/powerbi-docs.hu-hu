@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: quickstart
 ms.date: 05/08/2018
 ms.author: maggies
-ms.openlocfilehash: 574c28fc3e921f2b0e245cf965e23bd6b264f037
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 89f45409607cbe8da6cb1b167b6e71238d6edde0
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44737453"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548810"
 ---
 # <a name="quickstart-explore-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>Rövid útmutató: Irányítópultok és jelentések felfedezése a Power BI mobilalkalmazásokban
 Ebben a rövid útmutatóban az androidos telefonokhoz készült Power BI mobilalkalmazásban használt irányítópultok és jelentések mintáját ismerheti meg. Az itt leírtakat a többi mobilalkalmazásban is követheti. 
@@ -153,5 +153,5 @@ Miután elkészült ezzel a gyors útmutatóval, igény szerint eltávolíthatja
 Ebből a rövid útmutatóból egy irányítópult és egy jelentés mintáját ismerhette meg az androidos eszközén. Tájékozódjon tovább a Power BI szolgáltatásban végzett munkáról. 
 
 > [!div class="nextstepaction"]
-> [Rövid útmutató: Navigáció a Power BI szolgáltatásban](../../service-the-new-power-bi-experience.md)
+> [Rövid útmutató: Navigáció a Power BI szolgáltatásban](../end-user-experience.md)
 

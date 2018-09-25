@@ -10,15 +10,15 @@ ms.topic: conceptual
 ms.date: 03/23/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 929af9c8ff3322fc792f2890b6914148725bf694
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: ec2520ad72889ae3e8f4955ea93c4bf7727daa18
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44737310"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46544372"
 ---
 # <a name="move-and-resize-a-visualization-in-a-report-in-power-bi-service-and-power-bi-desktop"></a>Vizualizációk áthelyezése és átméretezése jelentésekben a Power BI szolgáltatásban és a Power BI Desktopban
-A vizualizációkat csak a jelentések létrehozói és tulajdonosai helyezhetik át és méretezhetik át. A Power BI szolgáltatásban (az app.powerbi.com webhelyen) ehhez a [Szerkesztési nézetben](../service-reading-view-and-editing-view.md) kell tudni megnyitni a jelentést.
+A vizualizációkat csak a jelentések létrehozói és tulajdonosai helyezhetik át és méretezhetik át. A Power BI szolgáltatásban (az app.powerbi.com webhelyen) ehhez a [Szerkesztési nézetben](../consumer/end-user-reading-view.md) kell tudni megnyitni a jelentést.
 
 ## <a name="open-the-report"></a>Jelentés megnyitása
 A Power BI-ban nyisson meg egy jelentést, amelyben legalább egy vizualizáció található, vagy [hozzon létre egy új vizualizációt](power-bi-report-add-visualizations-i.md). 

@@ -11,12 +11,12 @@ ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 02/28/2018
 ms.author: mihart
-ms.openlocfilehash: 6a930342806eb32f22efe3d2974625c54c5377bf
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: a312a4311590d02d0fa8bd97726f9cf596cfe6a0
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44737219"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46545774"
 ---
 # <a name="interacting-with-arcgis-maps-in-power-bi"></a>ArcGIS-térképek használata a Power BI-ban
 Ez a témakör az ArcGIS-térképet a Power BI szolgáltatás, a Desktop alkalmazás vagy a mobilalkalmazás felületén *használó* felhasználó szemszögéből van megírva. Ha egy ArcGIS-térképet a létrehozója megoszt Önnel, számos különféle módon használhatja azt.  Az ArcGIS-térképek létrehozásával kapcsolatos információkért lásd: [Az esri ArcGIS-térképeinek oktatóanyaga](../power-bi-visualization-arcgis.md).
@@ -55,9 +55,9 @@ Az ArcGIS Maps for Power BI három kijelölési módot tesz lehetővé. Egyszerr
 <br/>
 
 ## <a name="interacting-with-an-arcgis-map"></a>Az ArcGIS-térképek használata
-Az elérhető funkciók attól függően változnak, hogy Ön a térkép *létrehozója* (aki a térképet készítette) vagy *felhasználója* (valaki megosztotta Önnel az ArcGIS-térképet). Ha felhasználóként használja valamely ArcGIS-térképet (lásd [Olvasás nézet](../service-reading-view-and-editing-view.md)), az alábbi műveleteket hajthatja végre.
+Az elérhető funkciók attól függően változnak, hogy Ön a térkép *létrehozója* (aki a térképet készítette) vagy *felhasználója* (valaki megosztotta Önnel az ArcGIS-térképet). Ha felhasználóként használja valamely ArcGIS-térképet (lásd [Olvasás nézet](../consumer/end-user-reading-view.md)), az alábbi műveleteket hajthatja végre.
 
-* Ahogy a képi megjelenítések egyéb típusait, a térképeket is [rögzítheti az irányítópultokra](../service-dashboard-pin-tile-from-report.md), [megtekintheti](../service-reports-show-data.md) és/vagy [exportálhatja a mögöttes adatokat](../power-bi-visualization-export-data.md), továbbá megtekintheti [Fókusz módban](../service-focus-mode.md) és [Teljes képernyős nézetben](../service-fullscreen-mode.md).    
+* Ahogy a képi megjelenítések egyéb típusait, a térképeket is [rögzítheti az irányítópultokra](../service-dashboard-pin-tile-from-report.md), [megtekintheti](../consumer/end-user-show-data.md) és/vagy [exportálhatja a mögöttes adatokat](../consumer/end-user-export-data.md), továbbá megtekintheti [Fókusz módban](../consumer/end-user-focus.md) és [Teljes képernyős nézetben](../service-fullscreen-mode.md).    
 * A **Szűrők** panel kibontásával szűrők használatával derítheti fel a térképet. A jelentés bezárásakor az alkalmazott szűrők nem lesznek mentve.    
     ![](media/power-bi-visualizations-arcgis/power-bi-filter-newer.png)  
 * Ha a térkép tartalmaz referenciaréteget, a helyek kijelölésekor a részletek elemleírásokban jelennek meg. Az Adams megye van kijelölve, így a létrehozó által hozzáadott háztartásonkénti átlagjövedelem referenciafólia adatai láthatók.

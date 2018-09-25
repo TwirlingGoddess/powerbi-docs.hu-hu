@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 7b1b55475e2ad19c869ba92cdb9621caa0fc3538
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 22d32315040352e013ae8331e9433a9e60e97f5c
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44726662"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46545751"
 ---
 # <a name="how-should-i-collaborate-and-share-in-power-bi"></a>Hogyan végezhetek közös munkát és hogyan oszthatok meg tartalmat a Power BI-ban?
 
@@ -57,7 +57,7 @@ Tegyük fel, hogy szeretné széles közönséggel megosztani az irányítópult
 
 ![Alkalmazás közzététele ikon](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-app-publish-600.png)
 
-Az alkalmazások a Power BI szolgáltatásban ([https://powerbi.com](https://powerbi.com)) könnyen megtalálhatók és telepíthetők. Elküldheti az üzleti felhasználóknak az alkalmazására mutató közvetlen hivatkozást, vagy rákereshetnek az alkalmazására az AppSource-ban. Ha a Power BI-rendszergazdája engedélyezi ezt Önnek, akkor az alkalmazást akár közvetlenül is telepítheti a munkatársai Power BI-fiókjába. Többet is megtudhat [az alkalmazások közzétételéről](service-create-distribute-apps.md). 
+Az alkalmazások a Power BI szolgáltatásban ([https://powerbi.com](https://powerbi.com)) könnyen megtalálhatók és telepíthetők. Elküldheti az üzleti felhasználóknak az alkalmazására mutató közvetlen hivatkozást, vagy rákereshetnek az alkalmazására az AppSource-ban. Ha a Power BI-rendszergazdája engedélyezi ezt Önnek, akkor az alkalmazást akár közvetlenül is telepítheti a munkatársai Power BI-fiókjába. Többet is megtudhat [az alkalmazások közzétételéről](consumer/end-user-create-apps.md). 
 
 Miután a munkatársai telepítik az alkalmazást, megtekinthetik azt a böngészőjükben vagy egy mobileszközön.
 
@@ -88,7 +88,7 @@ Többet is megtudhat arról, hogy hogyan [láthat el jegyzetekkel és oszthat me
 A Windows 10-eszközökön futó Power BI alkalmazásból is [megoszthatja a csempék pillanatképét](consumer/mobile/mobile-windows-10-phone-app-get-started.md).
 
 ## <a name="print-or-save-as-pdf-or-other-static-file"></a>Nyomtatás vagy mentés PDF-ként vagy más statikus fájlként
-A Power BI szolgáltatásban nyomtathat vagy menthet PDF-fájlként (illetve más formátumú statikus fájlként) egy teljes irányítópultot, egy irányítópult-csempét, egy jelentéslapot vagy egy vizualizációt. A jelentéseket csak laponként tudja nyomtatni – nem nyomtathatja a teljes jelentést egyszerre. Többet is megtudhat a [nyomtatásról és a statikus fájlba mentésről](service-print.md).
+A Power BI szolgáltatásban nyomtathat vagy menthet PDF-fájlként (illetve más formátumú statikus fájlként) egy teljes irányítópultot, egy irányítópult-csempét, egy jelentéslapot vagy egy vizualizációt. A jelentéseket csak laponként tudja nyomtatni – nem nyomtathatja a teljes jelentést egyszerre. Többet is megtudhat a [nyomtatásról és a statikus fájlba mentésről](consumer/end-user-print.md).
 
 ## <a name="publish-to-the-web"></a>Webes közzététel
 
@@ -99,7 +99,7 @@ Megoszthatja a Power BI-jelentéseit a teljes internettel úgy, hogy interaktív
 
 ## <a name="next-steps"></a>Következő lépések
 * [Irányítópultok megosztása munkatársakkal és másokkal](service-share-dashboards.md)
-* [Alkalmazás létrehozása és közzététele a Power BI-ban](service-create-distribute-apps.md)
+* [Alkalmazás létrehozása és közzététele a Power BI-ban](consumer/end-user-create-apps.md)
 * Visszajelzés küldene? Mondja el javaslatait a [Power BI-közösség webhelyén](https://community.powerbi.com/).
 * További kérdései vannak? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/).
 

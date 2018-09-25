@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: efc806787f2a1d5cd110439c1c5505bb7e77e980
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: f15bd3395ad9edc39589a0a5b1563cfcc00e2c3c
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44727467"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46547878"
 ---
 # <a name="how-to-make-your-excel-data-work-well-with-qa-in-power-bi"></a>Excel-adatok megfelelő működésének biztosítása a Q&A és a Power BI használatánál
 Ha Ön a Power BI-jal használható adatmodelleket vagy Excel-munkafüzeteket készít, akkor olvasson tovább...
@@ -27,7 +27,7 @@ A Q&A bármely feltöltött Excel-fájllal működik, amely táblákat, tartomá
 ### <a name="how-qa-works-with-excel"></a>A Q&A működése az Excellel
 A Q&A része az alapvető természetes nyelvi értelmezési képességek halmaza, amelyek az Ön összes adatán működnek. Környezetfüggő kulcsszókeresést végez Excel-táblázatokban, -oszlopokban és számított mezőnevek között. Ezen kívül beépített képessége az adatok szűrése, rendezése, összesítése, csoportosítása és megjelenítése. 
 
-Például egy “Eladások” nevű Excel-táblázatban, amelynek “Termék”, “Hónap”, “Eladott mennyiség”, “Bruttó bevétel” és “Nyereség” nevű oszlopai vannak, kérdéseket tehet fel ezek bármelyikével kapcsolatban.  Kérheti az eladások és az összes nyereség havonkénti kimutatását, a termékek eladott mennyiség szerinti rendezését és sok minden mást. Ismerje meg alaposabban [a feltehető kérdések fajtáit](power-bi-q-and-a.md) és a [Q&A-lekérdezésben megadható vizualizációtípusokat](visuals/power-bi-visualization-types-for-reports-and-q-and-a.md).
+Például egy “Eladások” nevű Excel-táblázatban, amelynek “Termék”, “Hónap”, “Eladott mennyiség”, “Bruttó bevétel” és “Nyereség” nevű oszlopai vannak, kérdéseket tehet fel ezek bármelyikével kapcsolatban.  Kérheti az eladások és az összes nyereség havonkénti kimutatását, a termékek eladott mennyiség szerinti rendezését és sok minden mást. Ismerje meg alaposabban [a feltehető kérdések fajtáit](consumer/end-user-q-and-a.md) és a [Q&A-lekérdezésben megadható vizualizációtípusokat](visuals/power-bi-visualization-types-for-reports-and-q-and-a.md).
 
 ### <a name="prepare-an-excel-dataset-for-qa"></a>Excel-adatkészlet előkészítése Q&A-hez
 A Q&A a táblázatok, oszlopok és számított mezők neve alapján válaszolja meg az adatokra vonatkozó kérdéseket, tehát lényeges a munkafüzet entitásainak elnevezése.
@@ -44,8 +44,8 @@ Néhány tanács a Q&A legjobb kihasználásához a munkafüzetben.
 * Az adathalmazt megnyithatja a Power BI Desktopban és új oszlopokat hozhat létre, számított mértékeket hozhat létre, mezők összefűzésével egyedi értékeket alakíthat ki, osztályozhatja az adattípusokat (például dátum, sztring, földrajzi hely, kép, URL stb. alapján), és számos más lehetőség áll még rendelkezésére.
 
 ## <a name="next-steps"></a>Következő lépések
-Vissza a [Q&A a Power BI-ban](power-bi-q-and-a.md) című témakörhöz  
-[Helyszíni adatkészlet előkészítése Q&A-hez](service-q-and-a-direct-query.md)   
+Vissza a [Q&A a Power BI-ban](consumer/end-user-q-and-a.md) című témakörhöz  
+[Helyszíni adatkészlet előkészítése Q&A-hez](consumer/end-user-q-and-a-direct-query.md)   
 [Rövid útmutató a Q&A használatához](power-bi-visualization-introduction-to-q-and-a.md)  
 [Adatbeolvasás (a Power BI-ban)](service-get-data.md)  
 

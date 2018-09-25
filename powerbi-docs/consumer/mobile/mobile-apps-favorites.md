@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 05/05/2018
 ms.author: maggies
-ms.openlocfilehash: 586e95ba624bde1d18b5c431a1b9dcbb642b939c
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: a689a3b04ca3b48c0b924ae62a52315dc3535faf
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44742828"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46544947"
 ---
 # <a name="make-and-view-favorites-in-the-power-bi-mobile-apps"></a>Kedvencek rögzítése és megjelenítése a Power BI-mobilalkalmazásokban
 A következőkre vonatkozik:
@@ -30,7 +30,7 @@ Ha egy elemet a kedvencek közé sorol a Power BI mobilalkalmazásokban, akkor a
 ![Kedvencek a Power BI-mobilalkalmazásokban](./media/mobile-apps-favorites/power-bi-android-favorites-reports.png)
 
 
-Megteheti azt is, hogy [a Power BI szolgáltatásban vesz fel Power BI-irányítópultokat és alkalmazásokat a kedvencek közé](../../service-dashboard-favorite.md). Ez után megjelennek a mobilalkalmazás Kedvencek oldalán.
+Megteheti azt is, hogy [a Power BI szolgáltatásban vesz fel Power BI-irányítópultokat és alkalmazásokat a kedvencek közé](../end-user-favorite.md). Ez után megjelennek a mobilalkalmazás Kedvencek oldalán.
 
 KPI-ket és jelentéseket jelölhet meg kedvencekként a Power BI jelentéskészítő kiszolgáló vagy a Reporting Services webes portálján, majd a kedvenc Power BI-irányítópultjaival együtt ezeket is megtekintheti egy Önnek megfelelő mappában a mobileszközén.
 
@@ -76,6 +76,6 @@ Egy irányítópult vagy jelentés az irányítópultok vagy jelentések listáj
 Kedvenc Power BI jelentéskészítő kiszolgáló- és Reporting Services-jelentéseit és KPI-it megtekintheti a Power BI mobilalkalmazásokban, de a kedvencek közé nem tudja felvenni őket a mobilon. [Jelölje meg őket kedvencekként a webes portálon](../../report-server/tutorial-explore-report-server-web-portal.md#tag-your-favorites). 
 
 ## <a name="next-steps"></a>További lépések
-* [Népszerű irányítópultok a Power BI szolgáltatásban](../../service-dashboard-favorite.md) 
+* [Népszerű irányítópultok a Power BI szolgáltatásban](../end-user-favorite.md) 
 * Kérdése van? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)
 

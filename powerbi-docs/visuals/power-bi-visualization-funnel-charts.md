@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 01/29/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: f070b6649d8d120a889961fffd6b9b923422293e
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 2c42f484dc0f2515024a7fefe2edb1c81e286eb3
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44744412"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548465"
 ---
 # <a name="funnel-charts"></a>Tölcsérdiagramok
 A tölcsérdiagramok segítségével vizualizálhatja az egymást követő összekapcsolt fázisokból álló lineáris folyamatokat. Ilyen például egy értékesítési tölcsér, amelyen keresztül az ügyfelek nyomon követhetőek az egyes fázisokban: Érdeklődő \> Minősített érdeklődő \> Lehetséges ügyfél \> Szerződés \> Zárás.  A tölcsér alakja egyetlen pillantásra megmutatja a lekövetett folyamat állapotát.
@@ -70,7 +70,7 @@ Ezek az utasítások a Lehetőségelemzési minta használatát feltételezik. A
    * Fázisról fázisra az előző fázishoz viszonyított (ebben az esetben ez a Proposal Stage/Solution Stage) százalékos arány (a Csökkenés mértéke)
      
      ![](media/power-bi-visualization-funnel-charts/funnelhover_new.png)
-5. [Adja hozzá a tölcsért irányítópult-csempeként](../service-dashboard-tiles.md). 
+5. [Adja hozzá a tölcsért irányítópult-csempeként](../consumer/end-user-tiles.md). 
 6. [Mentse a jelentést](../service-report-save.md).
 
 ## <a name="highlighting-and-cross-filtering"></a>Kiemelés és keresztszűrés
@@ -81,10 +81,10 @@ A tölcsér egyes sávjainak kiemelésével a rendszer keresztszűri a jelentés
 1. A tölcséren jelölje ki a **Proposal** sávot. Ez kiemeli a lapon lévő többi vizualizáció megfelelő adatait is. A többszörös kijelöléshez használja a CTRL billentyűt.
    
    ![](media/power-bi-visualization-funnel-charts/funnelchartnoowl.gif)
-2. A vizualizációk keresztkiemelési és keresztszűrési beállításaival kapcsolatban lásd: [A Power BI vizualizációk interakciója](../service-reports-visual-interactions.md)
+2. A vizualizációk keresztkiemelési és keresztszűrési beállításaival kapcsolatban lásd: [A Power BI vizualizációk interakciója](../consumer/end-user-interactions.md)
 
 ## <a name="create-a-funnel-chart-in-qa"></a>Tölcsérdiagram létrehozása a Kérdések és válaszok felületen
-Nyissa meg a Lehetőségelemzési minta irányítópultját vagy bármely más olyan irányítópultot, amelyen legalább egy vizualizáció rögzítve van a Lehetőségelemzési minta adathalmazából.  Amikor beír egy kérdést a Kérdések és válaszok felületen, a Power BI a kijelölt irányítópulttal társított (az iránytópulton rögzített csempékkel rendelkező) összes adatkészletben keresi a válaszokat. További információkért lásd: [Power BI – Alapfogalmak](../service-basic-concepts.md).
+Nyissa meg a Lehetőségelemzési minta irányítópultját vagy bármely más olyan irányítópultot, amelyen legalább egy vizualizáció rögzítve van a Lehetőségelemzési minta adathalmazából.  Amikor beír egy kérdést a Kérdések és válaszok felületen, a Power BI a kijelölt irányítópulttal társított (az iránytópulton rögzített csempékkel rendelkező) összes adatkészletben keresi a válaszokat. További információkért lásd: [Power BI – Alapfogalmak](../consumer/end-user-basic-concepts.md).
 
 1. A Lehetőségelemzési minta irányítópultján kezdje el beírni a kérdését a Q&A-kérdésmezőbe.
    
@@ -97,7 +97,7 @@ Nyissa meg a Lehetőségelemzési minta irányítópultját vagy bármely más o
 
 [Vizualizáció rögzítése az irányítópulton](../service-dashboard-pin-tile-from-report.md)
 
-[Power BI – Alapfogalmak](../service-basic-concepts.md)
+[Power BI – Alapfogalmak](../consumer/end-user-basic-concepts.md)
 
 További kérdései vannak? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)
 

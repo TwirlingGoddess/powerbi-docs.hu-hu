@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/26/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 8532fff7bc522a0ad0e59bd17580549bd9e68a23
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 18c9fe3d50245ff1d0745c0a3ae1e830b3f9be45
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44737021"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548327"
 ---
 # <a name="card-visualizations"></a>Kártyavizualizációk
 Néha csupán egyetlen szám a legfontosabb, amit nyomon szeretne követni a Power BI-irányítópulton vagy -jelentésben, például az összesített értékesítés, az egy évre vetített piaci részesedés, vagy a lehetőségek száma összesen. Az ilyen típusú vizualizációkat *Kártyáknak* nevezzük. Csakúgy, mint szinte minden natív Power BI-vizualizáció, a Kártyák is a jelentésszerkesztővel vagy a Q&A-val hozhatók létre.
@@ -51,13 +51,13 @@ Ez az útmutatás a Kiskereskedelmi elemzési mintát használja. Annak érdeké
 ## <a name="create-a-card-from-the-qa-question-box"></a>Kártya létrehozása a Q&A kérdésmezőben
 Kártyák legkönnyebben a Q&A kérdésmezőben hozhatók létre. A Q&A kérdésmező a Power BI szolgáltatásban (az app.powerbi.com webhelyen) irányítópultokon és jelentésekben érhető el. A következő lépések azt írják le, hogyan hozható létre egy Kártya a Power BI szolgáltatás irányítópultjain. Ha a Power BI Desktopban szeretne létrehozni egy kártyát a Q&A-val, a Q&A a Desktophoz készült előzetes verziójának jelentései esetében [ezt az útmutatást kövesse](https://powerbi.microsoft.com/en-us/blog/power-bi-desktop-december-feature-summary/#QandA).
 
-1. Hozzon létre egy [irányítópultot](../service-dashboards.md), és [kérje le az adatokat](../service-get-data.md). Ebben a példában a [Lehetőségelemzési mintát](../sample-opportunity-analysis.md) használjuk.
+1. Hozzon létre egy [irányítópultot](../consumer/end-user-dashboards.md), és [kérje le az adatokat](../service-get-data.md). Ebben a példában a [Lehetőségelemzési mintát](../sample-opportunity-analysis.md) használjuk.
 
 1. Az irányítópult tetején angolul kezdje beírni a kérdés mezőbe, hogy mire is kíváncsi az adatokkal kapcsolatban. 
 
    ![](media/power-bi-visualization-card/power-bi-q-and-a-box.png)
 
->**TIPP**: A Power BI szolgáltatás jelentéseiben, a [Szerkesztési nézetben](../service-reading-view-and-editing-view.md) válassza a **Kérdés feltevése** lehetőséget a felső menüsorban. A Power BI Desktop jelentéseiben keressen egy üres területet a jelentésben, majd kattintson rá duplán a kérdésmező megnyitásához.
+>**TIPP**: A Power BI szolgáltatás jelentéseiben, a [Szerkesztési nézetben](../consumer/end-user-reading-view.md) válassza a **Kérdés feltevése** lehetőséget a felső menüsorban. A Power BI Desktop jelentéseiben keressen egy üres területet a jelentésben, majd kattintson rá duplán a kérdésmező megnyitásához.
 
 3. Például írja be a „number of opportunities” (lehetőségek száma) kifejezést a kérdés mezőbe.
 
@@ -105,10 +105,10 @@ A címkék, szöveg, színét és egyebek módosításához több lehetőség á
     ![](media/power-bi-visualization-card/power-bi-formatted.png)
 
 ## <a name="next-steps"></a>Következő lépések
-[Irányítópult-csempék a Power BI-ban](../service-dashboard-tiles.md)
+[Irányítópult-csempék a Power BI-ban](../consumer/end-user-tiles.md)
 
-[Irányítópultok a Power BI-ban](../service-dashboards.md)
+[Irányítópultok a Power BI-ban](../consumer/end-user-dashboards.md)
 
-[Power BI – Alapfogalmak](../service-basic-concepts.md)
+[Power BI – Alapfogalmak](../consumer/end-user-basic-concepts.md)
 
 További kérdései vannak? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)

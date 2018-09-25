@@ -1,21 +1,21 @@
 ---
 title: Hisztogramok
 description: Hisztogramok
-author: davidiseminger
+author: mihart
 manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
 ms.date: 07/27/2018
-ms.author: davidi
+ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 48dc6b9066ae843f508a714da88acc8aa6560b51
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 4a8d04f87959c5a746fc2ac490bb63afb98607cc
+ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44736805"
+ms.lasthandoff: 09/22/2018
+ms.locfileid: "46565038"
 ---
 # <a name="histograms"></a>Hisztogramok
 A Power Bi-ban többféle módon is készíthetők hisztogramok. Ez a cikk legegyszerűbbtől kezdve ismerteti ezeket.

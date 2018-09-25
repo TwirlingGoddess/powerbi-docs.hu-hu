@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 06/22/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 487e53bae0fe872771b5ecbbe0458cd09dc48a4c
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: d1152ae1e4d386882c9165e6545a44c7f3c47e46
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44744393"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548511"
 ---
 # <a name="tips-and-tricks-for-power-bi-map-visualizations"></a>Tippek és trükkök Power BI-térképvizualizációkhoz
 A Power BI integrálva van a Bing Térképekkel alapértelmezett térképkoordináták biztosításához (ez a geokódolás nevű folyamat), így térképeket hozhat létre. Együtt algoritmusokat használnak a megfelelő hely azonosításához, de ez néha csak feltételezésen alapul. Ha a Power BI nem tudja egyedül létrehozni a térkép-vizualizációt, igénybe veszi a Bing Térképek segítségét. 
@@ -89,7 +89,7 @@ Ha a geohierarchiákkal végez le- vagy felhatolást, fontos tudnia, hogyan műk
 * A második lehetőség – ![lehatolás térképekkel](./media/power-bi-map-tips-and-tricks/power-bi-drill-down3.png) – annyiban tér el a Részletes elemzéstől, hogy nem kell a térképre kattintania.  Ezzel a hierarchia következő szintjére lép, de megjegyzi az aktuális szint kontextusát. Például ha aktuálisan az országok jelennek meg, és erre az ikonra kattint, lejjebb kerül a hierarchia következő szintjére – az államokhoz. A geokódolásnál a Power BI minden államról és a hozzájuk kapcsolódó országról adatokat küld a Bing Térképeknek, hogy segítse a pontosabb geokódolást. A legtöbb térképen vagy ezt, vagy a jobb szélen található Részletes elemzés lehetőséget fogja használni, így annyi adatot küldhet el a Bingnek a pontos helyinformációk érdekében, amennyi csak lehetséges. 
 
 ## <a name="next-steps"></a>Következő lépések
-[Power BI-vizualizáció részletes elemzése](../power-bi-visualization-drill-down.md)
+[Power BI-vizualizáció részletes elemzése](../consumer/end-user-drill.md)
 
 [Power BI-vizualizációk](power-bi-report-visualizations.md)
 

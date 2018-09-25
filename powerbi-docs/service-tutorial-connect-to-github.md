@@ -11,12 +11,12 @@ ms.topic: tutorial
 ms.date: 05/17/2018
 ms.author: maggies
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 1c2579f4250914933fd0459668fb55e4ba339f90
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: b9fff17d51756da4561823886ed80beeec830843
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34310107"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548103"
 ---
 # <a name="tutorial-connect-to-a-github-sample-with-power-bi"></a>Oktatóanyag: Csatlakozás GitHub-mintához a Power BI segítségével
 Ebben az oktatóanyagban valódi, GitHub szolgáltatásbeli adatokhoz csatlakozhat a Power BI segítségével, és automatikusan hozhat létre Power BI-irányítópultokat és -jelentéseket. A Power BI nyilvános adattárához (más néven *tárházához*) fog csatlakozni, hogy megállapíthassa, hány közreműködő dolgozik a nyilvános Power BI-tartalmakon, kik a fő közreműködők, a hét mely napján történik a legtöbb közreműködés, és így tovább. 
@@ -125,6 +125,6 @@ Most, hogy befejezte ezt az oktatóanyagot, törölheti a GitHub alkalmazást.
 Ebben az oktatóanyagban csatlakozott egy nyilvános GitHub-adattárhoz, és beolvasta az adatokat, melyeket a Power BI irányítópultként és jelentésként formázott. Ezután megválaszolt néhány kérdést az adatokkal kapcsolatban az irányítópult és a jelentés felfedezésével. Folytatásként megismerheti, hogy hogyan csatlakozhat más szolgáltatásokhoz, mint például a Salesforce, a Microsoft Dynamics és a Google Analytics. 
  
 > [!div class="nextstepaction"]
-> [Kapcsolódás online szolgáltatásokhoz](./service-connect-to-services.md)
+> [Kapcsolódás online szolgáltatásokhoz](consumer/end-user-connect-to-services.md)
 
 

@@ -10,20 +10,20 @@ ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mihart
-ms.openlocfilehash: a528c4a641dbdecce7d33f29e7afbe6118ee34b5
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 462e9b1d991690846c57a225552b271fca19499c
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44726478"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46544395"
 ---
 # <a name="create-a-power-bi-dashboard-from-a-report"></a>Power BI-irányítópult létrehozása jelentésből
-Áttekintette [A Power BI-irányítópultok](service-dashboards.md) részben leírtakat, és most saját irányítópultot kíván létrehozni. Az irányítópultok létrehozásának számos különböző módja van: többek között jelentésből, az alapoktól, adatkészletből, illetve egy meglévő irányítópult megkettőzésével is létrehozhatók stb.  
+Áttekintette [A Power BI-irányítópultok](consumer/end-user-dashboards.md) részben leírtakat, és most saját irányítópultot kíván létrehozni. Az irányítópultok létrehozásának számos különböző módja van: többek között jelentésből, az alapoktól, adatkészletből, illetve egy meglévő irányítópult megkettőzésével is létrehozhatók stb.  
 
 A kezdés sokak számára bonyolult lehet, ezért egy gyorsan és egyszerűen elkészíthető irányítópulttal kezdünk, amelyre már elkészült jelentésből fogunk vizualizációkat rögzíteni. A rövid útmutató elvégzése után már érteni fogja a jelentések és az irányítópultok közötti kapcsolatot, tudni fogja, hogyan lehet megnyitni egy jelentést Szerkesztési nézetben a jelentésszerkesztőben, hogyan lehet csempéket rögzíteni, és hogyan lehet mozogni az irányítópult és a jelentés között. Később a bal oldalon található Tartalomjegyzék hivatkozásait vagy a lap alján lévő **Következő lépések** hivatkozást használva léphet tovább magasabb szintű témákra.
 
 ## <a name="who-can-create-a-dashboard"></a>Ki hozhat lére irányítópultot?
-Az irányítópult létrehozása **létrehozói** művelet, ezért csak akkor végezheti el, ha jogosultsága van a jelentést szerkeszteni. Szerkesztési jogosultsággal a jelentés létrehozója rendelkezik, valamint azok, akikek a létrehozó engedélyezte ezt. Ha például Dávid létrehoz egy jelentést az ABC munkaterületen, majd hozzáadja Önt ehhez a munkaterülethez, akkor Ön is és Dávid is rendelkezik majd szerkesztési jogosultsággal. Ha azonban a jelentést megosztották Önnel akár közvetlenül, akár egy [Power BI-alkalmazás](service-install-use-apps.md) részeként (más szóval ha Ön a jelentés **felhasználója**), akkor Ön nem fog tudni csempéket rögzíteni az irányítópultra.
+Az irányítópult létrehozása **létrehozói** művelet, ezért csak akkor végezheti el, ha jogosultsága van a jelentést szerkeszteni. Szerkesztési jogosultsággal a jelentés létrehozója rendelkezik, valamint azok, akikek a létrehozó engedélyezte ezt. Ha például Dávid létrehoz egy jelentést az ABC munkaterületen, majd hozzáadja Önt ehhez a munkaterülethez, akkor Ön is és Dávid is rendelkezik majd szerkesztési jogosultsággal. Ha azonban a jelentést megosztották Önnel akár közvetlenül, akár egy [Power BI-alkalmazás](consumer/end-user-apps.md) részeként (más szóval ha Ön a jelentés **felhasználója**), akkor Ön nem fog tudni csempéket rögzíteni az irányítópultra.
 
 > **MEGJEGYZÉS**: Az irányítópult a Power BI szolgáltatás, nem pedig a Power BI Desktop funkciója. Power BI-mobileszközökön csak [megtekinteni és megosztani](consumer/mobile/mobile-apps-view-dashboard.md) lehet az irányítópultokat, létrehozni nem.
 >
@@ -65,7 +65,7 @@ A Power BI egyik mintaként szolgáló adatkészletét fogjuk importálni, majd 
 1. Ugyanazon a munkaterületen maradva kattintson a **Jelentések** lapra. Megjelenik az újonnan importált jelentés egy sárga csillaggal. A megnyitásához kattintson a jelentés nevére.
 
     ![jelentések fül](media/service-dashboard-create/power-bi-reports.png)
-2. A jelentés [Olvasás nézetben](service-reading-view-and-editing-view.md) nyílik meg. Figyelje meg, hogy két lap található alul: a Discount Analysis (Kedvezményelemzés) és a Spend Overview (Költségvetés áttekintése) lapok. Minden egyes lap a jelentés egy-egy oldalát jelképezi.
+2. A jelentés [Olvasás nézetben](consumer/end-user-reading-view.md) nyílik meg. Figyelje meg, hogy két lap található alul: a Discount Analysis (Kedvezményelemzés) és a Spend Overview (Költségvetés áttekintése) lapok. Minden egyes lap a jelentés egy-egy oldalát jelképezi.
     Válassza a **Jelentés szerkesztése** elemet a jelentés Szerkesztési nézetben való megnyitásához.
 
     ![jelentés az Olvasó nézetben](media/service-dashboard-create/power-bi-reading-view.png)
@@ -108,9 +108,9 @@ Gratulálunk, létrehozta az első irányítópultját! Most, hogy már rendelke
 
 ## <a name="next-steps"></a>Következő lépések
 * [Csempék átméretezése és áthelyezése](service-dashboard-edit-tile.md)
-* [Információk az irányítópult csempéiről](service-dashboard-tiles.md)
-* [Az irányítópult megosztása alkalmazás létrehozásával](service-create-distribute-apps.md)
-* [Power BI – Alapfogalmak](service-basic-concepts.md)
+* [Információk az irányítópult csempéiről](consumer/end-user-tiles.md)
+* [Az irányítópult megosztása alkalmazás létrehozásával](consumer/end-user-create-apps.md)
+* [Power BI – Alapfogalmak](consumer/end-user-basic-concepts.md)
 * [Tippek a tökéletes irányítópult megtervezéséhez](service-dashboards-design-tips.md)
 
 További kérdései vannak? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)

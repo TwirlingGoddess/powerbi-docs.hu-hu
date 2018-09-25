@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 02/28/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 250ccba882a045417b2ae424cac81b6561cb2a41
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 18e33fa4767eb0d9e457589ea3fa3b61721dce51
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44728249"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548028"
 ---
 # <a name="arcgis-maps-in-power-bi-service-and-power-bi-desktop-by-esri"></a>Esri ArcGIS-térképek a Power BI szolgáltatásban és a Power BI Desktopban
 Ez az oktatóanyag az ArcGIS-térképet létrehozó személy szemszögéből van megírva. Ha a készítő megosztja az ArcGIS-térképet egy kollégájával, az illető megtekintheti és használhatja a térképet, azonban nem mentheti a módosításokat. További információ az ArcGIS-térképek megtekintéséről: [Az ArcGIS-térképek használata](visuals/power-bi-visualizations-arcgis.md).
@@ -61,7 +61,7 @@ Ez az oktatóanyag a [Kiskereskedelmi elemzési mintát](sample-retail-analysis.
 2. Jelölje be az **ArcGIS Maps for Power BI** jelölőnégyzetet. A bejelölés után újra kell indítania a Power BI-t.
    
     ![](media/power-bi-visualization-arcgis/power-bi-use-arcgis-new.png)
-3. Nyisson meg egy jelentést [Szerkesztési nézetben](service-reading-view-and-editing-view.md), és a Vizualizációk panelen kattintson az ArcGIS Maps for Power BI ikonra.
+3. Nyisson meg egy jelentést [Szerkesztési nézetben](consumer/end-user-reading-view.md), és a Vizualizációk panelen kattintson az ArcGIS Maps for Power BI ikonra.
    
     ![](media/power-bi-visualization-arcgis/power-bi-viz-pane2.png)
 4. A Power BI hozzáad egy üres ArcGIS-térképsablont a jelentésvászonhoz.

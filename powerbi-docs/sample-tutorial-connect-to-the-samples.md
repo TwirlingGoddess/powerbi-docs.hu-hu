@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/23/2018
 ms.author: mihart
 LocalizationGroup: Samples
-ms.openlocfilehash: 02c3998a95e7d481ee032513054933f1484ae7f9
-ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
+ms.openlocfilehash: 8b4a0605df348957c4adb0d8e02975f4cd752307
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "36944606"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46543794"
 ---
 # <a name="the-power-bi-samples"></a>Power BI-példák
 
@@ -79,7 +79,7 @@ Most vizsgálja meg saját maga is az irányítópultot, az adatkészletet és a
     ![jelentésoldal kiemelt egyező vizualizációval](media/sample-tutorial-connect-to-the-samples/power-bi-report.png)
    
    > [!NOTE]
-   > Ha az adott csempe a [Power BI Q&A](power-bi-q-and-a.md) szolgáltatásával lett létrehozva, akkor a Q&A oldalnak kellett volna megnyílnia. Ha a csempét az [Excelből rögzítették](service-dashboard-pin-tile-from-excel.md), akkor az Excel Online nyílt volna meg a Power BI-ban.
+   > Ha az adott csempe a [Power BI Q&A](consumer/end-user-q-and-a.md) szolgáltatásával lett létrehozva, akkor a Q&A oldalnak kellett volna megnyílnia. Ha a csempét az [Excelből rögzítették](service-dashboard-pin-tile-from-excel.md), akkor az Excel Online nyílt volna meg a Power BI-ban.
    > 
    > 
 1. Lépjen vissza az **Adatkészletek** lapra, ahol az adatkészlet átvizsgálását illetően számos lehetőség közül választhat.  Nem tudja megnyitni és megtekinteni az összes sort és oszlopot (ahogy a Power BI Desktop vagy az Excel esetében meg tudná tenni).  Ha valaki megoszt egy tartalomcsomagot a kollégáival, akkor jellemzően az elemzéseket kívánja megosztani, nem pedig közvetlen hozzáférést adni a kollégáinak az adatokhoz. Ez azonban nem jelenti azt, hogy ne tudná elvégezni az adatkészlet átvizsgálását.  
@@ -89,7 +89,7 @@ Most vizsgálja meg saját maga is az irányítópultot, az adatkészletet és a
    * Az adatkészlet átvizsgálásának egyik módja, ha az alapoktól kezdve létrehozza saját vizualizációit és jelentéseit.  Kattintson a diagramikonra ![jelentésikon](media/sample-tutorial-connect-to-the-samples/power-bi-chart-icon4.png) az adatkészlet jelentésszerkesztési módban történő megnyitásához.
      
        ![új jelentés](media/sample-tutorial-connect-to-the-samples/power-bi-report-editing.png)
-   * Az adatkészlet átvizsgálásának másik módja a [Gyors elemzések](service-insights.md) szolgáltatás futtatása. Kattintson a három pontra (...), és válassza az **Elemzések lekérése** lehetőséget. Ha az elemzések elkészültek, válassza az **Elemzések megtekintése** lehetőséget.
+   * Az adatkészlet átvizsgálásának másik módja a [Gyors elemzések](consumer/end-user-insights.md) szolgáltatás futtatása. Kattintson a három pontra (...), és válassza az **Elemzések lekérése** lehetőséget. Ha az elemzések elkészültek, válassza az **Elemzések megtekintése** lehetőséget.
      
        ![Megállapítási jelentés](media/sample-tutorial-connect-to-the-samples/power-bi-insights.png)
 
@@ -130,7 +130,7 @@ Most vizsgálja meg saját maga is az adatkészletet, a kapcsolatokat és a jele
 
 
 ## <a name="next-steps"></a>Következő lépések
-[Power BI – Alapfogalmak](service-basic-concepts.md)
+[Power BI – Alapfogalmak](consumer/end-user-basic-concepts.md)
 
 [Minták a Power BI szolgáltatáshoz](sample-datasets.md)
 

@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 08/23/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 8095db86b8954b3f91a83f2e83c0108d1676cf76
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: df53cf238a52502cecb4d1f77482b7b1a09c6b7a
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44744339"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46545268"
 ---
 # <a name="part-i-add-visualizations-to-a-power-bi-report"></a>1. rész – Vizualizációk hozzáadása Power BI-jelentésekhez
 A cikk röviden bemutatja a vizualizációk jelentésekben történő létrehozását mind a Power BI szolgáltatás, mind pedig a Power BI Desktop használatával.  Részletesebb útmutatásért [lásd a II. részt](power-bi-report-add-visualizations-ii.md). Amanda bemutatja, hogyan lehet különbözőképpen létrehozni, szerkeszteni és formázni a vizualizációkat a jelentésvásznon. Ezután Ön is megpróbálhatja létrehozni a saját jelentését a [Értékesítési és marketing minta](../sample-datasets.md) segítségével.
@@ -25,7 +25,7 @@ A cikk röviden bemutatja a vizualizációk jelentésekben történő létrehoz�
 
 
 ## <a name="open-a-report-and-add-a-new-page"></a>Jelentés megnyitása és egy üres lap hozzáadása
-1. Nyisson meg egy [jelentést Szerkesztési nézetben](../service-reading-view-and-editing-view.md). Ez az oktatóanyag az [Értékesítési és marketing mintát](../sample-datasets.md) használja.
+1. Nyisson meg egy [jelentést Szerkesztési nézetben](../consumer/end-user-reading-view.md). Ez az oktatóanyag az [Értékesítési és marketing mintát](../sample-datasets.md) használja.
 2. Ha a Mezők panel nem látható, a nyíl ikonnal tudja megnyitni. 
    
    ![](media/power-bi-report-add-visualizations-i/pbi_nancy_fieldsfiltersarrow.png)
@@ -59,7 +59,7 @@ A cikk röviden bemutatja a vizualizációk jelentésekben történő létrehoz�
 ## <a name="next-steps"></a>Következő lépések
  Továbbléphet a következőre: [2. rész: Vizualizációk hozzáadása Power BI-jelentésekhez](power-bi-report-add-visualizations-ii.md).
    
-   [Használhatja a vizualizációkat](../service-reading-view-and-editing-view.md) a jelentésben.
+   [Használhatja a vizualizációkat](../consumer/end-user-reading-view.md) a jelentésben.
    
    [Még hatékonyabban használhatja a vizualizációkat](power-bi-report-visualizations.md).
    

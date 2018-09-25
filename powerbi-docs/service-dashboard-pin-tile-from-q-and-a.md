@@ -10,23 +10,23 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: e71412febc5b8d8a9ee4ff20174496de0c7d51f2
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 9cf5855acc5efe773f8f06e6de9f769f75794bdb
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34251414"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548732"
 ---
 # <a name="pin-a-tile-to-a-dashboard-from-qa"></a>Csempe rögzítése az irányítópultra a Q&A kérdésmezőből
 ## <a name="how-to-pin-a-tile-from-qa"></a>Hogyan rögzíthet csempét a Q&A kérdésmezőből
 A Q&A-rendszer a Power BI alkalmi jelentéskészítő eszköze. Konkrét elemzésre van szüksége? Ha feltesz egy kérdést az adatairól, vizualizáció formájában kapja meg a választ.
 
-Ebben az útmutatóban a Power BI szolgáltatást (app.powerbi.com) fogjuk használni arra, hogy megnyissunk egy irányítópultot, hogy természetes nyelvi kérdésfeltevéssel hozzunk létre egy vizualizációt, és hogy ezt a vizualizációt az irányítópulton rögzítsük. Az irányítópultok a Power BI Desktopban nem érhetők el. A Q&A más Power BI-eszközökkel és -tartalmakkal való használatáról a [Power BI Q&A áttekintése](power-bi-q-and-a.md) című témakör ad további tájékoztatást. 
+Ebben az útmutatóban a Power BI szolgáltatást (app.powerbi.com) fogjuk használni arra, hogy megnyissunk egy irányítópultot, hogy természetes nyelvi kérdésfeltevéssel hozzunk létre egy vizualizációt, és hogy ezt a vizualizációt az irányítópulton rögzítsük. Az irányítópultok a Power BI Desktopban nem érhetők el. A Q&A más Power BI-eszközökkel és -tartalmakkal való használatáról a [Power BI Q&A áttekintése](consumer/end-user-q-and-a.md) című témakör ad további tájékoztatást. 
 
 Annak érdekében, hogy követni tudja a lépéseket, nyissa meg a [Kiskereskedelmi elemzési minta irányítópultját](sample-retail-analysis.md).
 
 
-1. Nyisson meg egy [irányítópultot](service-dashboards.md), amelyen már rögzítve van legalább egy csempe valamelyik jelentésből. A kérdés begépelésekor a Power BI minden olyan adatkészletben választ keres, amelyhez az irányítópulton csempe tartozik.  További tudnivalókért lásd: [Adatok beolvasása](service-get-data.md).
+1. Nyisson meg egy [irányítópultot](consumer/end-user-dashboards.md), amelyen már rögzítve van legalább egy csempe valamelyik jelentésből. A kérdés begépelésekor a Power BI minden olyan adatkészletben választ keres, amelyhez az irányítópulton csempe tartozik.  További tudnivalókért lásd: [Adatok beolvasása](service-get-data.md).
 2. Az irányítópult tetején látható kérdésmezőbe kezdje beleírni (angolul), hogy mire kíváncsi az adatokkal kapcsolatban.  
    ![Q&A kérdésmező](media/service-dashboard-pin-tile-from-q-and-a/power-bi-question-box.png)
 3. Például ha ezt írja: „last year sales by month and territory" (tavalyi eladások hónapok és területek szerint)...  
@@ -62,6 +62,6 @@ Annak érdekében, hogy követni tudja a lépéseket, nyissa meg a [Kiskereskede
 
 ## <a name="next-steps"></a>Következő lépések
 [Csempe átnevezése, átméretezése, áthelyezése, hivatkozás hozzáadása, stb.](service-dashboard-edit-tile.md)    
-[Irányítópult csempéjének megjelenítése Fókusz módban](service-focus-mode.md)     
-[Vissza a Q&A a Power BI-ban című témakörhöz](power-bi-q-and-a.md)  
+[Irányítópult csempéjének megjelenítése Fókusz módban](consumer/end-user-focus.md)     
+[Vissza a Q&A a Power BI-ban című témakörhöz](consumer/end-user-q-and-a.md)  
 Több kérdése van? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)

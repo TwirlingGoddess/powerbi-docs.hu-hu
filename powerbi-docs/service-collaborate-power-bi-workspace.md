@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: d059e8bb476f9862c372d9565581d58b336e81db
-ms.sourcegitcommit: 2356dc8e5488438a43ba7f0ba9a55a2372669b47
+ms.openlocfilehash: 71b2f104ad5efb244c2b046cdd48a2e52cd045e3
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "39623930"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46543949"
 ---
 # <a name="collaborate-in-your-power-bi-app-workspace"></a>Együttműködés a Power BI alkalmazás-munkaterületén
 A Power BI alkalmazás-munkaterületek kitűnően alkalmasak arra, hogy munkatársaival irányítópultokon, jelentéseken és adatkészleteken együttműködve hozzanak létre *alkalmazásokat*. Az együttműködés a Power BI-ban nem csupán a munkaterületekre terjed ki. Az Office 365 további csoportszolgáltatásokat is kínál, mint a fájlok megosztása a OneDrive Vállalati verziójában, az Exchange-beszélgetések, a megosztott naptár és feladatok és így tovább. További ismereteket is szerezhet az [Office 365-csoportokról](https://support.office.com/article/Create-a-group-in-Office-365-7124dc4c-1de9-40d4-b096-e8add19209e9).
@@ -38,7 +38,7 @@ Ha közzétesz egy Power BI Desktop-fájlt a Power BI alkalmazás-munkaterület�
    
     ![Jelentések fül](media/service-collaborate-power-bi-workspace/power-bi-workspace-report.png)
    
-    Ettől kezdve ugyanúgy használható, mint bármely más Power BI-jelentés. Az alkalmazás-munkaterületen közreműködők Önnel együtt [módosíthatják a jelentést](service-reports.md), és csempéket menthetnek a választott irányítópultra.
+    Ettől kezdve ugyanúgy használható, mint bármely más Power BI-jelentés. Az alkalmazás-munkaterületen közreműködők Önnel együtt [módosíthatják a jelentést](consumer/end-user-reports.md), és csempéket menthetnek a választott irányítópultra.
 
 ## <a name="collaborate-in-office-365"></a>Együttműködés az Office 365-ben
 Az Office 365-beli együttműködés kiindulópontja a Power BI-beli alkalmazás-munkaterület.
@@ -77,7 +77,7 @@ Az Office 365-beli együttműködés kiindulópontja a Power BI-beli alkalmazás
 Ha Ön egy alkalmazás-munkaterület tulajdonosa vagy rendszergazdája, akkor fel is vehet vagy el is távolíthat munkaterülettagokat. További információ a [Power BI alkalmazás-munkaterület kezeléséről](service-manage-app-workspace-in-power-bi-and-office-365.md).
 
 ## <a name="next-steps"></a>További lépések
-* [Alkalmazások és alkalmazás-munkaterületek létrehozása a Power BI-ban](service-create-distribute-apps.md)
+* [Alkalmazások és alkalmazás-munkaterületek létrehozása a Power BI-ban](consumer/end-user-create-apps.md)
 * További kérdései vannak? [Kérdezze a Power BI-közösséget!](http://community.powerbi.com/)
 * Visszajelzést szeretne küldeni? Keresse fel a [Power BI Ideas](https://ideas.powerbi.com/forums/265200-power-bi) fórumot.
 

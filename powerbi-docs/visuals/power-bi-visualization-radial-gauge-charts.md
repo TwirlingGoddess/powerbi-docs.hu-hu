@@ -2,7 +2,7 @@
 title: A Power BI kör alakú mérőműszer-diagramjai
 description: A Power BI kör alakú mérőműszer-diagramjai
 author: mihart
-manager: kfile
+manager: kvivek
 ms.reviewer: ''
 featuredvideoid: xmja6Epqa
 ms.service: powerbi
@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 01/21/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: fa097c7111e630b4c0c80e71d812be73cc232ea6
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: e090515514897dd4dcbc9962d0dadacae5611ff0
+ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44737022"
+ms.lasthandoff: 09/22/2018
+ms.locfileid: "46565557"
 ---
 # <a name="radial-gauge-charts-in-power-bi"></a>A Power BI kör alakú mérőműszer-diagramjai
 A mérőműszer-diagram köríves alakú és egyetlen értéket jelenít meg, amely egy cél/KPI elérésében tett előrehaladást méri.  A célt vagy a célértéket a vonal (tű) jelzi. A cél elérésében tett előrehaladást az árnyékolás mutatja.  Az előrehaladást ábrázoló érték pedig félkövér betűvel van feltüntetve az ív belsejében. Minden lehetséges érték egyenlően oszlik el az íven, minimálistól (bal szélső érték) a maximálisig (jobb szélső érték).
@@ -92,7 +92,7 @@ A 2. lépésben a Power BI az Érték mezővel automatikusan beállította a min
 
 ### <a name="step-5-save-your-report"></a>5. lépés: Jelentés mentése
 1. [Mentse a jelentést](../service-report-save.md).
-2. [Adja hozzá a mérőműszer-diagramot irányítópult-csempeként](../service-dashboard-tiles.md). 
+2. [Adja hozzá a mérőműszer-diagramot irányítópult-csempeként](../consumer/end-user-tiles.md). 
 
 ## <a name="use-formatting-options-to-manually-set-minimum-maximum-and-target-values"></a>A Minimális, a Maximális és a Célértékek manuális beállítása a formázási beállítások segítségével
 1. Távolítsa el a **Gross Sales maximuma** értéket a **Maximális érték** területről.
@@ -117,7 +117,7 @@ A 2. lépésben a Power BI az Érték mezővel automatikusan beállította a min
 
 [Vizualizáció rögzítése az irányítópulton](../service-dashboard-pin-tile-from-report.md)
 
-[ Power BI – Alapfogalmak](../service-basic-concepts.md)
+[ Power BI – Alapfogalmak](../consumer/end-user-basic-concepts.md)
 
 További kérdései vannak? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)
 

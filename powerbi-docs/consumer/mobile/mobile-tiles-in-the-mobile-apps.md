@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: maggies
-ms.openlocfilehash: 04a385d67a8cc462b21c16cf7daaa5aa675436d9
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 72c51a6eae4acec5bfc0af7b471f98dfcb22da67
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44737129"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46549800"
 ---
 # <a name="explore-tiles-in-the-power-bi-mobile-apps"></a>Ismerkedés a Power BI-mobilalkalmazások csempéivel
 A következőkre vonatkozik:
@@ -23,7 +23,7 @@ A következőkre vonatkozik:
 |:--- |:--- |:--- |:--- |:--- |
 | iPhone-ok |iPadek |Android rendszerű telefonok |Android rendszerű táblagépek |Windows 10-eszközök |
 
-A csempék az adatokról készült élő, irányítópultra rögzített pillanatképek. Értékeik az adatokkal együtt változnak. **[Csempék a Power BI szolgáltatásban vehetők fel irányítópultra](../../service-dashboard-tiles.md).** 
+A csempék az adatokról készült élő, irányítópultra rögzített pillanatképek. Értékeik az adatokkal együtt változnak. **[Csempék a Power BI szolgáltatásban vehetők fel irányítópultra](../end-user-tiles.md).** 
 
 Ezek a csempék aztán a Power BI mobilalkalmazásban fókusz módban megnyithatók és használhatók. Mindenféle vizualizációt tartalmazó csempe megnyitható, beleértve a Bing- és R-alapúakat is.
 

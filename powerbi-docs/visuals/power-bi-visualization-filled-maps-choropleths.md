@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 06/22/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: a0216b5659548af0b69cdb1b94df887eec0bd4e0
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 83826e812f9173db522c929ae80c31fc7134e5bd
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44744465"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46549845"
 ---
 # <a name="filled-maps-choropleths-in-power-bi"></a>Kitöltött (koropletikus) tematikus térképek a Power BI-ban
 A tematikus térképek árnyalással, színezéssel vagy mintázattal jelenítik meg egy értéknek egy földrajzi területen vagy régión belüli viszonylagos eltéréseit.  A viszonylagos eltérések gyorsan megjeleníthetők a világostól (ritkább/kevesebb) a sötétig (gyakrabb/több) terjedő árnyalással.    
@@ -109,7 +109,7 @@ Ha nem fér hozzá a szélességi és hosszúsági adatokhoz, akkor [kövesse ez
 A térképi vizualizációkhoz további segítséget nyújt a [Tippek és trükkök térképi vizualizációkhoz](power-bi-map-tips-and-tricks.md) című cikk.
 
 ## <a name="next-steps"></a>További lépések
-[Tematikus térkép hozzáadása irányítópult-csempeként (megjelenítés rögzítése)](../service-dashboard-tiles.md)    
+[Tematikus térkép hozzáadása irányítópult-csempeként (megjelenítés rögzítése)](../consumer/end-user-tiles.md)    
  [Vizualizáció hozzáadása jelentéshez](power-bi-report-add-visualizations-i.md)  
  [Vizualizációk típusai a Power BI-ban](power-bi-visualization-types-for-reports-and-q-and-a.md)    
  [A használt vizualizáció típusának módosítása](power-bi-report-change-visualization-type.md)      

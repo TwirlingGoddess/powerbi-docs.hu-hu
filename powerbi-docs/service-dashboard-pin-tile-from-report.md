@@ -11,16 +11,16 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 968cf7e573a298c2a82adaf2092a9d35ffa397e5
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 75543bfc381f0a8391fe4422d677913ab61ad363
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34240210"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46550052"
 ---
 # <a name="pin-a-tile-to-a-power-bi-dashboard-from-a-report"></a>Csempe rögzítése Power BI-irányítópultra jelentésből
 ## <a name="pinning-tiles-from-a-report"></a>Csempék rögzítése jelentésből
-Új [irányítópult-csempét](service-dashboard-tiles.md)egyrészt [Power BI-jelentésből](service-reports.md) vehet fel. Egy jelentésből sok új csempét felvehet.  Ezek a csempék az eredeti jelentésre mutató hivatkozások.
+Új [irányítópult-csempét](consumer/end-user-tiles.md)egyrészt [Power BI-jelentésből](consumer/end-user-reports.md) vehet fel. Egy jelentésből sok új csempét felvehet.  Ezek a csempék az eredeti jelentésre mutató hivatkozások.
 
 Teljes jelentésoldalak is rögzíthetők egy irányítópulton.  Ezt nevezik *élő* csempe rögzítésének.  Az *élő* elnevezést az indokolja, hogy az irányítópulton lévő csempe használható, és hogy az egyéni vizualizációs csempéktől eltérően a jelentésben végrehajtott módosítások az irányítópulttal is szinkronizálódnak. Erről az alábbiakban további információt talál.
 
@@ -58,15 +58,15 @@ Egy másik lehetőség, hogy egy teljes jelentésoldalt rögzít egy irányító
 További információk: [Teljes jelentésoldal rögzítése](service-dashboard-pin-live-tile-from-report.md)
 
 ## <a name="next-steps"></a>További lépések
-[Irányítópultok a Power BI-ban](service-dashboards.md)
+[Irányítópultok a Power BI-ban](consumer/end-user-dashboards.md)
 
-[Irányítópult-csempék a Power BI-ban](service-dashboard-tiles.md)
+[Irányítópult-csempék a Power BI-ban](consumer/end-user-tiles.md)
 
-[Jelentések a Power BI-ban](service-reports.md)
+[Jelentések a Power BI-ban](consumer/end-user-reports.md)
 
 [Adatfrissítés a Power BI-ban](refresh-data.md)
 
-[A Power BI alapvető fogalmai](service-basic-concepts.md)
+[A Power BI alapvető fogalmai](consumer/end-user-basic-concepts.md)
 
 További kérdései vannak? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/26/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: e5e257fd245687f2aeb83a9ee45c0342cf16392d
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: c8f99cf9c4d0645638b2ef300606f89a2d28aa0d
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34561701"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46545968"
 ---
 # <a name="add-a-filter-to-a-power-bi-service-report-in-editing-view"></a>Szűrő hozzáadása a Power BI szolgáltatás jelentéseihez (Szerkesztési nézetben)
 > [!TIP]
@@ -26,13 +26,13 @@ A cikkben található példák a Power BI szolgáltatást szemléltetik. Az elv�
 > 
 
 ## <a name="what-is-the-difference-between-report-filters-in-editing-view-versus-reading-view"></a>Mi a különbség a Szerkesztési nézet és az Olvasás nézet jelentésszűrői között?
-A jelentések két módban használhatók: [Olvasás nézetben](service-reading-view-and-editing-view.md) és [Szerkesztési nézetben](service-interact-with-a-report-in-editing-view.md).  A szűrési képességek attól függnek, hogy milyen módban van éppen.
+A jelentések két módban használhatók: [Olvasás nézetben](consumer/end-user-reading-view.md) és [Szerkesztési nézetben](service-interact-with-a-report-in-editing-view.md).  A szűrési képességek attól függnek, hogy milyen módban van éppen.
 
 * Szerkesztési nézetben hozzáadhat jelentés-, oldal- és vizualizációszűrőket. Ha menti a jelentést, a rendszer a szűrőket is menti. A jelentést Olvasó nézetben megtekintő felhasználók használhatják az Ön által hozzáadott szűrőket.
 * Olvasó nézetben használható a jelentésben már szereplő összes jelentés-, részletezés-, oldal- és vizualizációszűrő, de nem lehet új szűrőket hozzáadni. Ugyanakkor a Szűrök panelen végzett módosításokat menti a rendszer a jelentéssel együtt, még akkor is, ha mobilalkalmazásban tekinti meg a jelentést, vagy ha kilép a jelentésből, és később visszatér arra.  
 
 > [!NOTE]
-> Ez a cikk azt ismerteti, hogyan hozhatók létre szűrők egy jelentés **Szerkesztési nézetében**.  Az Olvasó nézet szűrőire vonatkozó további információkért tekintse át [a jelentés szűrőinek Olvasó nézetben történő használatával foglalkozó témakört](service-reading-view-and-editing-view.md).
+> Ez a cikk azt ismerteti, hogyan hozhatók létre szűrők egy jelentés **Szerkesztési nézetében**.  Az Olvasó nézet szűrőire vonatkozó további információkért tekintse át [a jelentés szűrőinek Olvasó nézetben történő használatával foglalkozó témakört](consumer/end-user-reading-view.md).
 
 
 ## <a name="filters-available-in-the-power-bi-filters-pane"></a>A Power BI *Szűrők* panelén elérhető szűrők
@@ -58,7 +58,7 @@ Ennek 2 módja van:
 * Azonosíthat egy mezőt, amelyet a vizualizáció még nem használ, és hozzáadhatja ezt a mezőt közvetlenül a **Vizualizációszint szűrői** gyűjtőhöz.
 
 ### <a name="by-filtering-the-fields-already-in-the-visualization"></a>A vizualizációban már szereplő mezők szűrése
-1. Nyissa meg a [jelentést Szerkesztési nézetben](service-reading-view-and-editing-view.md).
+1. Nyissa meg a [jelentést Szerkesztési nézetben](consumer/end-user-reading-view.md).
    
    ![](media/power-bi-report-add-filter/power-bi-edit-view.png)
 2. Nyissa meg a Megjelenítések, a Szűrők és a Mezők panelt (ha még nincsenek megnyitva).
@@ -72,7 +72,7 @@ Ennek 2 módja van:
    * Görgessen le a **Vizualizációszint szűrői** területre, és a nyilat kiválasztva bontsa ki a szűrni kívánt mezőt. Ebben a példában a **StoreNumberName** mezőt szűrjük.
      
       ![](media/power-bi-report-add-filter/power-bi-visual-level-filter.png) 
-   * Állítson be **Alapszintű**, **Speciális** vagy **Felső N** szűrésvezérlőket (lásd [a jelentésszűrők használatát](power-bi-how-to-report-filter.md) ismertető témakört). Ebben a példában Alapszintű szűrést választunk, és a következő számok jelölőnégyzetét jelöljük ki: 10, 11, 15 és 18.
+   * Állítson be **Alapszintű**, **Speciális** vagy **Felső N** szűrésvezérlőket (lásd [a jelentésszűrők használatát](consumer/end-user-report-filter.md) ismertető témakört). Ebben a példában Alapszintű szűrést választunk, és a következő számok jelölőnégyzetét jelöljük ki: 10, 11, 15 és 18.
      
       ![](media/power-bi-report-add-filter/power-bi-basic-filters.png) 
    * A vizualizáció módosul az új szűrőnek megfelelően. Ha menti a jelentést a szűrővel, a jelentés olvasói használhatják a szűrőt Olvasás nézetben: kiválaszthatnak vagy törölhetnek értékeket.
@@ -91,10 +91,10 @@ Ennek 2 módja van:
      ![](media/power-bi-report-add-filter/power-bi-filtered-andrew.png)
 
 ## <a name="add-a-filter-to-an-entire-page-aka-page-view-filter"></a>Szűrő hozzáadása az egész oldalhoz (oldalnézetszűrő)
-1. Nyissa meg a [jelentést Szerkesztési nézetben](service-reading-view-and-editing-view.md).
+1. Nyissa meg a [jelentést Szerkesztési nézetben](consumer/end-user-reading-view.md).
 2. Nyissa meg a Megjelenítések, a Szűrők és a Mezők panelt (ha még nincsenek megnyitva).
 3. A Mezők panelen válassza az új oldalszintű szűrőként hozzáadni kívánt mezőt, és húzza a **Lapszintű szűrők** területre.  
-4. Válassza ki a szűrni kívánt értékeket, és állítson be **Alapszintű** vagy **Speciális** szűrésvezérlőket (lásd [a jelentésszűrők használatát](power-bi-how-to-report-filter.md) ismertető témakört).
+4. Válassza ki a szűrni kívánt értékeket, és állítson be **Alapszintű** vagy **Speciális** szűrésvezérlőket (lásd [a jelentésszűrők használatát](consumer/end-user-report-filter.md) ismertető témakört).
    
    A rendszer a szűrő hatálya alá eső oldalon szereplő összes vizualizációt újrarajzolja, hogy megfeleljenek a módosításnak. 
    
@@ -130,10 +130,10 @@ Lássuk, hogy működik a részletezési szűrő.
     ![](media/power-bi-report-add-filter/power-bi-drillthrough-executive.png)
 
 ## <a name="add-a-filter-to-an-entire-report-aka-report-filter"></a>Szűrő hozzáadása egy teljes jelentéshez (jelentésszűrő)
-1. Nyissa meg a [jelentést Szerkesztési nézetben](service-reading-view-and-editing-view.md).
+1. Nyissa meg a [jelentést Szerkesztési nézetben](consumer/end-user-reading-view.md).
 2. Nyissa meg a Megjelenítések, a Szűrők és a Mezők panelt (ha még nincsenek megnyitva).
 3. A Mezők panelen válassza ki az új jelentésszintű szűrőként felvenni kívánt mezőt, és húzza a **Jelentési szint szűrői** területre.  
-4. Válassza ki a szűrni kívánt értékeket (lásd [a jelentésszűrők használatát](power-bi-how-to-report-filter.md) ismertető témakört).
+4. Válassza ki a szűrni kívánt értékeket (lásd [a jelentésszűrők használatát](consumer/end-user-report-filter.md) ismertető témakört).
 
     A vizualizációk a jelentés összes oldalán módosulnak az új szűrőnek megfelelően, az aktív oldalt is beleértve. Ha menti a jelentést a szűrővel, a jelentés olvasói használhatják a szűrőt Olvasás nézetben: kiválaszthatnak vagy törölhetnek értékeket.
 
@@ -149,13 +149,13 @@ Lássuk, hogy működik a részletezési szűrő.
 - Ha nagy mennyiségű módosítást végzett a szűrőkön, és szeretne visszatérni a jelentés készítőjének alapértelmezett beállításaihoz, válassza a **Visszaállítás alapértelmezettre** lehetőséget a felső menüsoron.
 
 ## <a name="next-steps"></a>Következő lépések
- [A jelentésszűrők használata](power-bi-how-to-report-filter.md)
+ [A jelentésszűrők használata](consumer/end-user-report-filter.md)
 
   [Szűrők és kiemelések a jelentésekben](power-bi-reports-filters-and-highlighting.md)
 
-[Szűrők és kiemelések használata a jelentések Olvasás nézetében](service-reading-view-and-editing-view.md)
+[Szűrők és kiemelések használata a jelentések Olvasás nézetében](consumer/end-user-reading-view.md)
 
-[A jelentésvizualizációk keresztszűrési és keresztkiemelési viselkedésének módosítása](service-reports-visual-interactions.md)
+[A jelentésvizualizációk keresztszűrési és keresztkiemelési viselkedésének módosítása](consumer/end-user-interactions.md)
 
 További kérdései vannak? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)
 

@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 12/24/2017
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: af90ba6bcf85c07d2d046ed21f733ca7c16e3856
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: a22bee33254e447f27f717b78a53fe3a5cc34fb2
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34242131"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46545452"
 ---
 # <a name="page-display-settings-in-a-power-bi-report"></a>Oldal megjelenítési beállításai Power BI-jelentésben
 Tudjuk, milyen fontos, hogy a jelentéseinek elrendezése az utolsó pixelig tökéletes legyen. Néha azonban ez kihívást jelenthet, ugyanis Ön és a munkatársai a jelentéseket különböző méretű és méretarányú képernyőkön nézik. 
@@ -39,7 +39,7 @@ A Power BI szolgáltatásban nyisson meg egy jelentést, majd válassza a **Néz
 
 ![](media/power-bi-report-display-settings/power-bi-change-page-view.png)
 
-Az oldal nézetének beállításai az [Olvasó nézetből és a Szerkesztő nézetből](service-reading-view-and-editing-view.md) is elérhetők. A jelentés tulajdonosa a Szerkesztési nézetben az egyes jelentésoldalakhoz különböző oldalnézetek-beállításokat rendelhet, melyeket a jelentéssel együtt ment a rendszer. Ha a munkatársak Olvasó nézetben nyitnak meg egy jelentést, akkor a jelentésoldalakat a tulajdonos beállításainak megfelelően fogják látni.  Olvasási nézetben a munkatársak *néhányat* módosíthatnak az oldalnézet beállításai közül, de a rendszer nem menti a módosításokat, amikor kilépnek a jelentésből.
+Az oldal nézetének beállításai az [Olvasó nézetből és a Szerkesztő nézetből](consumer/end-user-reading-view.md) is elérhetők. A jelentés tulajdonosa a Szerkesztési nézetben az egyes jelentésoldalakhoz különböző oldalnézetek-beállításokat rendelhet, melyeket a jelentéssel együtt ment a rendszer. Ha a munkatársak Olvasó nézetben nyitnak meg egy jelentést, akkor a jelentésoldalakat a tulajdonos beállításainak megfelelően fogják látni.  Olvasási nézetben a munkatársak *néhányat* módosíthatnak az oldalnézet beállításai közül, de a rendszer nem menti a módosításokat, amikor kilépnek a jelentésből.
 
 ##    <a name="page-view-settings"></a>Oldalnézet beállításai
 Az *Oldalnézet* beállításainak első készlete a jelentésoldal megjelenítését a böngésző ablakához viszonyítva szabályozza.  Az alábbiak közül választhat:
@@ -62,7 +62,7 @@ Az *Oldalnézet* beállításainak második készlete az objektumok a jelentésv
 ## <a name="page-size-settings"></a>Oldalméret-beállítások
 ![](media/power-bi-report-display-settings/power-bi--page-size.png)
 
-Az *Oldalméret* beállításai csak a jelentések tulajdonosai számára érhetők el. A Power BI szolgáltatásban (az app.powerbi.com webhelyen) ehhez meg kell tudni nyitni a jelentést a [Szerkesztési nézetben](service-reading-view-and-editing-view.md). Ezek a beállítások a jelentésvászon méretarányát és a (pixelben megadott) tényleges méretét határozzák meg.   
+Az *Oldalméret* beállításai csak a jelentések tulajdonosai számára érhetők el. A Power BI szolgáltatásban (az app.powerbi.com webhelyen) ehhez meg kell tudni nyitni a jelentést a [Szerkesztési nézetben](consumer/end-user-reading-view.md). Ezek a beállítások a jelentésvászon méretarányát és a (pixelben megadott) tényleges méretét határozzák meg.   
 
 * 4:3-as arány
 * 16:9-es arány (alapértelmezett)
@@ -71,11 +71,11 @@ Az *Oldalméret* beállításai csak a jelentések tulajdonosai számára érhet
 * Egyéni (magasság és szélesség pixelben)
 
 ## <a name="next-steps"></a>Következő lépések
-[Tudnivalók az Oldalnézet-beállítások és az Oldalméret-beállítások saját Power BI-jelentésekben való használatáról](power-bi-change-report-display-settings.md).
+[Tudnivalók az Oldalnézet-beállítások és az Oldalméret-beállítások saját Power BI-jelentésekben való használatáról](consumer/end-user-report-view.md).
 
-További tudnivaló a [Power BI-jelentésekről](service-reports.md)
+További tudnivaló a [Power BI-jelentésekről](consumer/end-user-reports.md)
 
-[Power BI – Alapfogalmak](service-basic-concepts.md)
+[Power BI – Alapfogalmak](consumer/end-user-basic-concepts.md)
 
 További kérdései vannak? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)
 

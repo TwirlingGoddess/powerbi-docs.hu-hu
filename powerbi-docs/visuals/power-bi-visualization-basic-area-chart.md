@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/27/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 83aacb2c3ecf95d8daecc8e9c79bd312cefd6d86
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: ddf08edf7494cd8b918a93d41b384b4e89376d95
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44744429"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46543350"
 ---
 # <a name="basic-area-chart"></a>Egyszerű területdiagram
 Az alapszintű területdiagram (más néven a rétegzett területdiagram) a vonaldiagramon alapul. A tengely és a vonal közötti terület a mennyiségek jelzése érdekében színnel van kitöltve. 
@@ -60,7 +60,7 @@ Hogy követni tudja a lépéseket, jelentkezzen be a Power BI szolgáltatásba, 
 ## <a name="highlighting-and-cross-filtering"></a>Kiemelés és keresztszűrés
 További információ a SZŰRÖK panel használatáról: [Szűrők hozzáadása jelentésekhez](../power-bi-report-add-filter.md).
 
-A diagram egy meghatározott területét a terület felső szegélyének kiválasztásával jelölheti ki.  Más típusú vizualizációktól eltérően az alapszintű területdiagram kiválasztásakor nem történik keresztszűrés ugyanannak a jelentésoldalnak a többi vizualizációjával (ha vannak ilyenek). A területdiagramokat magukat azonban a jelentésoldalon lévő többi vizualizáció képes keresztszűrni. További információt a [Vizualizációk interakciói a jelentésekben](../service-reports-visual-interactions.md) című témakörben talál
+A diagram egy meghatározott területét a terület felső szegélyének kiválasztásával jelölheti ki.  Más típusú vizualizációktól eltérően az alapszintű területdiagram kiválasztásakor nem történik keresztszűrés ugyanannak a jelentésoldalnak a többi vizualizációjával (ha vannak ilyenek). A területdiagramokat magukat azonban a jelentésoldalon lévő többi vizualizáció képes keresztszűrni. További információt a [Vizualizációk interakciói a jelentésekben](../consumer/end-user-interactions.md) című témakörben talál
 
 
 ## <a name="considerations-and-troubleshooting"></a>Megfontolandó szempontok és hibaelhárítás   
@@ -68,8 +68,8 @@ A diagram egy meghatározott területét a terület felső szegélyének kivála
 * Az alapszintű területdiagramok az értékek összehasonlításához nem jól használhatóak, mivel a rétegzett területek kitakarják egymást. A Power BI átlátszósággal jelzi a területek fedését. Ez azonban csak két vagy három külön terület esetén működik. Ha háromnál több mérték trendjeit szeretné összehasonlítani, próbáljon inkább vonaldiagramokat alkalmazni. Ha háromnál több mérték mennyiségét szeretné összehasonlítani, próbáljon inkább faszerkezetes térképet alkalmazni.
 
 ## <a name="next-steps"></a>Következő lépések
-[Power BI-jelentések](../service-reports.md)  
+[Power BI-jelentések](../consumer/end-user-reports.md)  
 [Vizualizációk a Power BI-jelentésekben](power-bi-report-visualizations.md)  
-[Power BI – Alapfogalmak](../service-basic-concepts.md)  
+[Power BI – Alapfogalmak](../consumer/end-user-basic-concepts.md)  
 További kérdései vannak? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)
 

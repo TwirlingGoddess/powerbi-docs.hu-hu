@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/20/2017
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b1699d32bf96efa6a40baaac202b5f9db9ee3f8b
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 2b1e5c28bd705e064dc4e0e3283eb3941452647b
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44736932"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46547026"
 ---
 # <a name="change-the-type-of-visualization-in-a-power-bi-report"></a>Vizualizáció-típus módosítása Power BI-jelentésekben
 Többféle típusú vizualizációt is kipróbálhat a Power BI szolgáltatásban és a Power BI Desktopban, hogy megtalálja az adatai szemléltetésére legalkalmasabbat. 
@@ -32,7 +32,7 @@ Ha az irányítópulton történő rögzítést követően módosította a vizua
 ### <a name="next-steps"></a>Következő lépések
 További információk [a Power BI-jelentésekben lévő vizualizációkról](power-bi-report-visualizations.md)
 
-[Power BI – Alapfogalmak](../service-basic-concepts.md)
+[Power BI – Alapfogalmak](../consumer/end-user-basic-concepts.md)
 
 További kérdései vannak? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)
 

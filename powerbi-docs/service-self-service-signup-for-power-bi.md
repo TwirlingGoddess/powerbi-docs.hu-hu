@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mblythe
 LocalizationGroup: Get started
-ms.openlocfilehash: 1f6c899932390bc4f9818fdcbb499848ca88a8d5
-ms.sourcegitcommit: 9c3a9ec14c111d766ef5703366c316e72f6e588f
+ms.openlocfilehash: d499f3f3635442f8d9ed0fbf167e53d13ec0ae53
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 09/13/2018
-ms.locfileid: "45558516"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46549983"
 ---
 # <a name="signing-up-for-power-bi-as-an-individual"></a>Egyéni Power BI-regisztráció
 Megtudhatja, hogyan regisztrálhat a Power BI szolgáltatásra, és hogyan veheti használatba személyes jelentéskészítési és vizualizációs munkáihoz.
@@ -99,7 +99,7 @@ Ekkor megjelenik egy üzenet, és az **Indítás** parancs.
 ## <a name="in-service-power-bi-pro-60-day-trial"></a>Szolgáltatáson belüli Power BI Pro 60 napos próbaverzió
 Miután regisztrált az ingyenes fiókra, lehetősége van ingyen kipróbálni a Pro verziót 60 napig. A próbaidőszak alatt a Pro verzió összes funkciójához hozzáférést kap . A Power BI Pro a Power BI ingyenes verziójának összes funkciójával rendelkezik, valamint további megosztási és együttműködési funkciókat is nyújt. További információkat a [Power BI díjszabásának oldalán](https://powerbi.microsoft.com/pricing) találhat. A Power BI 60 napos ingyenes próbaverziójának aktiválásához jelentkezzen be a Power BI-ba, és próbálja ki az alábbi Power BI-funkciók egyikét:
 
-* [Alkalmazás-munkaterület létrehozása](service-create-distribute-apps.md)
+* [Alkalmazás-munkaterület létrehozása](consumer/end-user-create-apps.md)
 * [Irányítópult megosztása](service-share-dashboards.md)
 
 E funkciók bármelyikének kipróbálásakor a rendszer kérni fogja az ingyenes próba megkezdését. Az ingyenes próbaverziót a fogaskerék ikonra kattintva, majd a **Személyes tárhely kezelése** lehetőséget választva is aktiválhatja. Itt kattintson a **Pro kiadás ingyenes kipróbálása** lehetőségre a jobb oldalon.

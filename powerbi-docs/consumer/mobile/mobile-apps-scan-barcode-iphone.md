@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 10/13/2017
 ms.author: maggies
-ms.openlocfilehash: 42ba9b042209dfd717c58042834e8d7966f97ecf
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: d221cfdc849a18ba934ebacaf58ef40999ac0117
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44736787"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46543313"
 ---
 # <a name="scan-a-barcode-with-your-iphone-from-the-power-bi-mobile-app"></a>Vonalkód beolvasása iPhone-nal a Power BI mobilalkalmazásból
 Beolvashatja a való világbeli vonalkódokat, hogy közvetlenül a szűrt BI-adatokhoz jusson a Power BI mobilalkalmazásban.
@@ -67,6 +67,6 @@ A jelentés, amelynek a szűrését választotta olyan adatmodellen alapul, amel
 
 ## <a name="next-steps"></a>Következő lépések
 * [Vonalkódmező címkézése a Power BI Desktopban](../../desktop-mobile-barcodes.md)
-* [A Power BI-irányítópultok csempéi](../../service-dashboard-tiles.md)
-* [Irányítópultok a Power BI-ban](../../service-dashboards.md)
+* [A Power BI-irányítópultok csempéi](../end-user-tiles.md)
+* [Irányítópultok a Power BI-ban](../end-user-dashboards.md)
 

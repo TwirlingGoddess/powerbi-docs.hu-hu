@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/20/2017
 ms.author: mblythe
 LocalizationGroup: Premium
-ms.openlocfilehash: 25340ac8349e112b2424496274441feedebe7052
-ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
+ms.openlocfilehash: 85a5856d20781012f32d53c9468fdd6b77a0f685
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "34298849"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46546603"
 ---
 # <a name="power-bi-premium-faq"></a>Power BI Premium – gyakori kérdések
 A Power BI Premium termékkel kapcsolatos gyakori kérdések, valamint az azokra adott válaszaink.
@@ -102,7 +102,7 @@ További információt a Power BI jelentéskészítő kiszolgálóról a [Power 
 **Mik azok a Power BI-alkalmazások?**  
 A tartalomcsomagokat Power BI-alkalmazások keretében adjuk ki, amelyekkel a felhasználók könnyebben megismerkedhetnek a vállalati szintű elemzések világával. A mai naptól elérhető Power BI-alkalmazásokkal egyszerűen telepíthetők az irányítópultok és jelentések bizonyos felhasználókhoz, csoportokhoz vagy akár a cég összes tagja számára. Az üzleti felhasználók egyszerűen telepíthetik és használhatják ezeket az alkalmazásokat, a központosítva kezelt tartalmakat pedig automatikusan frissíthetik. 
 
-További információt az alkalmazásokról [a Power BI alkalmazásait ismertető](service-install-use-apps.md) szakaszban talál.
+További információt az alkalmazásokról [a Power BI alkalmazásait ismertető](consumer/end-user-apps.md) szakaszban talál.
 
 **A Power BI Premium kiadása miatt várhatók változások a Power BI Pro, a Power BI Free, a Power BI Desktop stb. termékekben?**  
 A mai naptól egyszerűbben megkülönböztethető lesz a Power BI Pro és az ingyenes szolgáltatás. A visszajelzések alapján a személyes használatra tervezett ingyenes verzió és az együttműködést lehetővé tévő Power BI Pro funkcióinak különbségei félreértésekre adtak okot. A továbbiakban arra törekszünk, hogy az ingyenes verzió és a Power BI Pro ugyanazokkal a funkciókkal rendelkezzen, de a megosztási és együttműködési funkciók csak a Power BI Pro-felhasználók számára lesznek elérhetők.
