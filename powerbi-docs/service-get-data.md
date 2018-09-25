@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/27/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: fba2ea948190a59039766ffc2b5fab6189896ab8
-ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
+ms.openlocfilehash: 4b61ff56ea1aec64a3e88db46836f948c4190d60
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39328488"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46547453"
 ---
 # <a name="data-sources-for-the-power-bi-service"></a>Adatforrások a Power BI szolgáltatásban
 A Power BI legfontosabb összetevői maguk az adatok. Amikor adatokat vizsgál, diagramokat és irányítópultokat hoz létre, és kérdéseket tesz fel a Q&A-jel, akkor a kapott vizualizációk és válaszok alapjául szolgáló adatok valójában egy adatkészletből származnak. De honnan származik ez az adatkészlet? Természetesen egy adatforrásból.
@@ -44,7 +44,7 @@ Az is sokat számít, hogy hol tárolja a fájlokat. A OneDrive Vállalati verzi
 
 Egy tartalomcsomag előkészítve tartalmaz minden szükséges adatot és jelentést. A Power BI-ban kétféle tartalomcsomag létezik. Az egyik olyan szolgáltatásokból származik, mint a Google Analytics, a Marketo, vagy a Salesforce, a másikat más felhasználók hozzák létre és osztják meg a cégen belül.
 
-**Szolgáltatások** – Több tucat, Power BI-tartalomcsomagokat kínáló szolgáltatás létezik, és a kör folyamatosan bővül. A szolgáltatások többsége saját fiók használatát követeli meg. További tudnivalók: [Kapcsolódás szolgáltatásokhoz](service-connect-to-services.md).
+**Szolgáltatások** – Több tucat, Power BI-tartalomcsomagokat kínáló szolgáltatás létezik, és a kör folyamatosan bővül. A szolgáltatások többsége saját fiók használatát követeli meg. További tudnivalók: [Kapcsolódás szolgáltatásokhoz](consumer/end-user-connect-to-services.md).
 
 **Szervezeti** – Ha Ön és a cég más felhasználói Power BI Pro-fiókkal rendelkeznek, akkor létrehozhatnak, megoszthatnak és használhatnak is tartalomcsomagokat. További információ: [Szervezeti tartalomcsomagok](service-organizational-content-pack-introduction.md).
 
