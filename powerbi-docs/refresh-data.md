@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 07/27/2018
+ms.date: 09/27/2018
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: e75cc0f7ca31257ea46af20b63c29d0d870ef7a0
-ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
+ms.openlocfilehash: bb29cd9edc5e44293344b7194ec94af482bd0166
+ms.sourcegitcommit: ce8332a71d4d205a1f005b703da4a390d79c98b6
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "39329684"
+ms.lasthandoff: 09/27/2018
+ms.locfileid: "47417372"
 ---
 # <a name="data-refresh-in-power-bi"></a>Adatfrissítés a Power BI-ban
 A jó döntések meghozatalában gyakran kritikus fontosságú a legfrissebb adatok lekérése. Már valószínűleg ismeri a Power BI Adatok lekérése funkcióját, amellyel adatokhoz csatlakozhat, illetve adatokat tölthet fel, és biztosan létrehozott már jelentéseket és egy irányítópultot is. Ezután célszerű meggyőződni arról, hogy az adatok valóban frissek és hibátlanok.
@@ -211,8 +211,6 @@ A valós idejű irányítópultok a Microsoft Power BI REST API-val vagy a Micro
 | **Adatforrás** | **Automatikus** | **Felhasználó által konfigurált kézi vagy ütemezett frissítés** | **Átjáró szükséges** |
 | --- | --- | --- | --- |
 | A Power BI REST API-val vagy a Microsoft Stream Analytics szolgáltatással fejlesztett egyéni alkalmazások |Igen, élő streaming |Nem |Nem |
-
-További információ: [Valós idejű irányítópult létrehozása a Power BI-ban](https://msdn.microsoft.com/library/mt267603.aspx).
 
 ## <a name="configure-scheduled-refresh"></a>Ütemezett frissítés beállítása
 Az ütemezett frissítés konfigurálásával kapcsolatban további információt az [ütemezett frissítés konfigurálásáról](refresh-scheduled-refresh.md) szóló cikkben találhat.
