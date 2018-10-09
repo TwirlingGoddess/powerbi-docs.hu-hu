@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/28/2017
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: dce044a3f143ba85732c8345639ea57f44f05d5f
-ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
+ms.openlocfilehash: 60ac0a944b1eb54ab998fbf25cb5fb79d6dddbe6
+ms.sourcegitcommit: 833cf1252807721fb1b3000487bd032bfd6c8c98
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "37926594"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "48271900"
 ---
 # <a name="administering-power-bi---frequently-asked-questions-faq"></a>A Power BI felügyelete – gyakori kérdések (GYIK)
 
@@ -120,7 +120,7 @@ A következő lépések elvégzése érdekében telepítenie kell a [Windows Pow
     Get-MsolCompanyInformation | fl allow*
 
 ### <a name="how-can-i-prevent-my-existing-users-from-starting-to-use-power-bi"></a>Hogyan gátolható meg, hogy a meglévő felhasználók elkezdjék használni a Power BI-t?
-Rendszergazdaként tehet olyan lépéseket, amelyek meggátolják, hogy a felhasználók regisztráljanak a Power BI-ra. Ha blokkolja ezt a lehetőséget, a regisztrációs kísérletek meghiúsulnak, és a cég rendszergazdájával való kapcsolatfelvételhez vezetnek. Nem kell megismételnie ezt a folyamatot, ha már letiltotta az automatikus licencterjesztést (például az Office 365 for Education for Students, Faculty és Staff esetén). [További információ](service-admin-service-free-in-your-organization.md#enable-or-disable-individual-user-sign-up-in-azure-active-directory)
+Rendszergazdaként tehet olyan lépéseket, amelyek meggátolják, hogy a felhasználók regisztráljanak a Power BI-ra. Ha blokkolja ezt a lehetőséget, a regisztrációs kísérletek meghiúsulnak, és a cég rendszergazdájával való kapcsolatfelvételhez vezetnek. Nem kell megismételnie ezt a folyamatot, ha már letiltotta az automatikus licencterjesztést (például az Office 365 for Education for Students, Faculty és Staff esetén). [További információ](service-admin-licensing-organization.md#enable-or-disable-individual-user-sign-up-in-azure-active-directory)
 
 A jelen **AllowAdHocSubscriptions** paramétert vezérlő AAD-beállítás. A legtöbb bérlő esetén ez a beállítás igaz értékre van állítva, vagyis engedélyezett. Ha a Power BI-t egy partneren keresztül szerezte be, elképzelhető, hogy ez alapértelmezés szerint hamis értékű, vagyis le van tiltva.
 

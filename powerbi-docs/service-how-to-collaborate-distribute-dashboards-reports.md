@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 22d32315040352e013ae8331e9433a9e60e97f5c
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: c99d2047bc021f7e9d98145bc9cb884917fa3b5c
+ms.sourcegitcommit: 833cf1252807721fb1b3000487bd032bfd6c8c98
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46545751"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "48271713"
 ---
 # <a name="how-should-i-collaborate-and-share-in-power-bi"></a>Hogyan végezhetek közös munkát és hogyan oszthatok meg tartalmat a Power BI-ban?
 
@@ -29,7 +29,7 @@ Ebben a témakörben összehasonlítjuk a Power BI-ban való közös munka és m
 - Jelentések nyomtatása.
 * Webes közzététel nyilvános webhelyeken, ahol a világ bármely részén bárki megtekintheti és kezelheti az adott tartalmat.
 
-Bármelyik lehetőséget is válassza, az irányítópultok megosztásához [Power BI Pro licenccel](service-free-vs-pro.md) kell rendelkeznie, vagy a tartalmat [prémium szintű kapacitásban](service-premium.md) kell elhelyeznie. Az irányítópultokat megtekintő munkatársakra vonatkozó licenckövetelményeket a választott lehetőség határozza meg. Az alábbi szakaszokban megtalálhatja a részleteket. 
+Bármelyik lehetőséget is válassza, az irányítópultok megosztásához [Power BI Pro licenccel](service-features-license-type.md) kell rendelkeznie, vagy a tartalmat [prémium szintű kapacitásban](service-premium.md) kell elhelyeznie. Az irányítópultokat megtekintő munkatársakra vonatkozó licenckövetelményeket a választott lehetőség határozza meg. Az alábbi szakaszokban megtalálhatja a részleteket. 
 
 ![Alkalmazások a Power BI szolgáltatásban](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-apps-home-blog.png)
 

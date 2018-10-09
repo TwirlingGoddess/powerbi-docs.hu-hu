@@ -10,12 +10,12 @@ ms.component: powerbi-gateways
 ms.topic: conceptual
 ms.date: 08/08/2018
 LocalizationGroup: Gateways
-ms.openlocfilehash: 9c36034ad5e8175e08f1d16c2f5148c5dab0ebbd
-ms.sourcegitcommit: 640382408111d6e9cd1b9dfad0b484e3c727e454
+ms.openlocfilehash: 2536ea34cadae5f348e619d713420787db4c467a
+ms.sourcegitcommit: f6360934b9af20bd630e2d3cb88398e3f5794090
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 08/22/2018
-ms.locfileid: "42702885"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "48799046"
 ---
 # <a name="use-custom-data-connectors-with-the-on-premises-data-gateway"></a>Egyéni adatösszekötők használata a helyszíni adatátjáróval
 
@@ -45,8 +45,6 @@ Ha ezt a beállítást engedélyezte, akkor egyéni összekötői megjelennek az
 
 * Gondoskodjon arról, hogy háttérbeli átjárószolgáltatás hozzáférjen a létrehozott mappához. A felhasználók Windows-mappáin belüli mappák és a rendszermappák általában nem lesznek hozzáférhetők. Az átjárókonfiguráló program üzenetet jelenít meg, ha a mappa nem érhető el (az átjáró személyes verziójára ez nem vonatkozik)
 * Ahhoz, hogy egy egyéni összekötő működjön a helyszíni adatátjáróval, a kódjában lennie kell egy „TestConnection” szakasznak. Ez nem szükséges akkor, ha az egyéni összekötő a Power BI Desktoppal van használva. Éppen ezért létezhet olyan, amely a Desktoppal működik, az átjáróval viszont nem. A TestConnection szakasz megírásáról [ebből a dokumentációból](https://github.com/Microsoft/DataConnectors/blob/master/docs/m-extensions.md#implementing-testconnection-for-gateway-support) tájékozódhat.
-* Az OAuth-hitelesítést használó egyéni összekötők nincsenek támogatva.
-* A DirectQueryt használó egyéni összekötők nincsenek támogatva.
 
 ## <a name="next-steps"></a>Következő lépések
 

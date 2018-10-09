@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/20/2018
 ms.author: maggies
-ms.openlocfilehash: 40d3e311e9ff9276200a37cabf2d29b324f83f7b
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 4484eca5e810da7674d20e368383429c9c6f5508
+ms.sourcegitcommit: 833cf1252807721fb1b3000487bd032bfd6c8c98
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44737165"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "48271647"
 ---
 # <a name="share-a-dashboard-or-report-from-the-power-bi-mobile-apps"></a>Irányítópult vagy jelentés megosztása a Power BI mobilalkalmazásokból
 A következőkre vonatkozik:
@@ -23,7 +23,7 @@ A következőkre vonatkozik:
 |:--- |:--- |:--- |:--- |:--- |
 | iPhone-ok |iPadek |Android rendszerű telefonok |Android rendszerű táblagépek |Windows 10-eszközök |
 
-[Power BI Pro-licenccel](../../service-free-vs-pro.md) megoszthatja a Power BI mobilalkalmazások hivatkozásait, hogy meghívjon másokat irányítópultjainak vagy jelentéseinek megtekintésére. A hivatkozásokat bárkivel megoszthatja vállalatán belül vagy azon kívül, akár rendelkezik az illető vállalati e-mail-fiókkal, akár nem. Ha a tartalom nem [Prémium kapacitást](../../service-premium.md) használ, akkor nekik is Power BI Pro-licenccel kell rendelkezniük.
+[Power BI Pro-licenccel](../../service-features-license-type.md) megoszthatja a Power BI mobilalkalmazások hivatkozásait, hogy meghívjon másokat irányítópultjainak vagy jelentéseinek megtekintésére. A hivatkozásokat bárkivel megoszthatja vállalatán belül vagy azon kívül, akár rendelkezik az illető vállalati e-mail-fiókkal, akár nem. Ha a tartalom nem [Prémium kapacitást](../../service-premium.md) használ, akkor nekik is Power BI Pro-licenccel kell rendelkezniük.
 
 Az iOS vagy Android rendszerű Power BI mobilalkalmazásokban [jegyzetekkel láthatja el és megoszthatja másokkal a csempék, jelentések vagy vizualizációk pillanatképét](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md). 
 

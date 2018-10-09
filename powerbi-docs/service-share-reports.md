@@ -11,17 +11,17 @@ ms.topic: conceptual
 ms.date: 01/18/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 8f025c11a5269befdb7819684e10e8511ae6bc98
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 9fed01feb86530dbee10e446d41799a3e2ccd9e3
+ms.sourcegitcommit: 833cf1252807721fb1b3000487bd032bfd6c8c98
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46545639"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "48271509"
 ---
 # <a name="share-a-filtered-power-bi-report-with-your-coworkers"></a>Szűrt Power BI-jelentés megosztása munkatársakkal
 A *Megosztással* egyszerűen biztosíthatja néhány személy hozzáférését az irányítópultjaihoz és jelentéseihez. A Power BI-ban [többféle módon valósítható meg a jelentések közös használata és terjesztése](service-how-to-collaborate-distribute-dashboards-reports.md).
 
-A megosztáshoz Önnek és az összes címzetteknek is [Power BI Pro-licencre](service-free-vs-pro.md) van szüksége, vagy pedig a tartalomnak kell egy [Prémium-kapacitásban](service-premium.md) lennie. Javaslatai vannak? A Power BI csapata mindig szívesen fogadja visszajelzését, amelyet a [Power BI-közösség webhelyén](https://community.powerbi.com/) küldhet el.
+A megosztáshoz Önnek és az összes címzetteknek is [Power BI Pro-licencre](service-features-license-type.md) van szüksége, vagy pedig a tartalomnak kell egy [Prémium-kapacitásban](service-premium.md) lennie. Javaslatai vannak? A Power BI csapata mindig szívesen fogadja visszajelzését, amelyet a [Power BI-közösség webhelyén](https://community.powerbi.com/) küldhet el.
 
 Jelentéseket megoszthat munkatársaival, amennyiben ugyanazt az e-mail-tartományt használják, mint Ön. A megosztás a Power BI szolgáltatás legtöbb helyén elvégezhető, többek között a Kedvencek, a Legutóbbi, A Velem megosztva (ha a tulajdonos engedélyezte a megosztást) vagy a Saját munkaterület helyekről. A megosztott jelentés címzettjei használhatják, de nem szerkeszthetik a jelentést. Az adatokat ugyanúgy látják, ahogyan Ön is látja a jelentésben, hacsak nem alkalmaz [sorszintű biztonságot (RLS-t)](service-admin-rls.md). 
 

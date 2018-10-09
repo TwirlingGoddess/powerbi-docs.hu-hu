@@ -11,19 +11,19 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 4d43ffb1f4e005830fd36da4e80cf4d0c7d86fed
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 8644bc01aa845ff91950169f011cb70fb161ecb1
+ms.sourcegitcommit: 833cf1252807721fb1b3000487bd032bfd6c8c98
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46549937"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "48271763"
 ---
 # <a name="share-your-power-bi-dashboards-and-reports-with-coworkers-and-others"></a>Power BI-irányítópult és -jelentés megosztása munkatársakkal és másokkal
 A *Megosztással* egyszerűen biztosíthatja néhány személy hozzáférését az irányítópultjaihoz és jelentéseihez. A Power BI-ban [többféle módon valósítható meg az irányítópultok és jelentések közös használata és terjesztése](service-how-to-collaborate-distribute-dashboards-reports.md).
 
 ![Megosztás ikon a kedvenc irányítópultok listájában](media/service-share-dashboards/power-bi-share-dash-report-favorites.png)
 
-Akár a cégen belül, akár a cégen kívül oszt meg tartalmat, a megosztáshoz [Power BI Pro](service-free-vs-pro.md)-licencre van szükség. Ha a tartalom nem [Prémium kapacitást](service-premium.md) használ, akkor a megosztás címzettjeinek is Power BI Pro-licenccel kell rendelkezniük. 
+Akár a cégen belül, akár a cégen kívül oszt meg tartalmat, a megosztáshoz [Power BI Pro](service-features-license-type.md)-licencre van szükség. Ha a tartalom nem [Prémium kapacitást](service-premium.md) használ, akkor a megosztás címzettjeinek is Power BI Pro-licenccel kell rendelkezniük. 
 
 Az irányítópultok és jelentések megosztása a Power BI szolgáltatás legtöbb helyén elvégezhető, többek között a Kedvencek, a Legutóbbi, A Velem megosztva (ha a tulajdonos engedélyezte a megosztást) vagy a Saját munkaterület helyekről. A megosztott irányítópultot vagy jelentést a címzettjei megtekinthetik és használhatják, de nem szerkeszthetik. Az irányítópultok és a jelentések adatait ugyanúgy látják, ahogyan Ön is, hacsak nem alkalmaz [sorszintű biztonságot (RLS-t)](service-admin-rls.md). A munkatársai, akikkel megosztotta a tartalmat, továbboszthatják azt másokkal, ha engedélyezi. A cégén kívüli címzettek is megtekinthetik és használhatják, de nem szerkeszthetik az irányítópultot vagy jelentést. 
 
