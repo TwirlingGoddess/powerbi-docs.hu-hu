@@ -7,15 +7,15 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 08/02/2018
+ms.date: 10/02/2018
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: f94fe8d82fe752d2e2d0f1290cdaa5193a75e0a9
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: 4648d09e6ef58d84b85690062428f0515fa7ddae
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46565360"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48908073"
 ---
 # <a name="find-and-connect-to-an-organizational-content-pack"></a>Céges tartalomcsomag megkeresése és csatlakozás hozzá
 
@@ -50,6 +50,6 @@ Ha a tartalomcsomag tulajdonosa módosítja a tartalomcsomagot, és:
 
 ## <a name="next-steps"></a>Következő lépések
 * [Bevezetés a céges tartalomcsomagok használatába](../service-organizational-content-pack-introduction.md)  
-* [Alkalmazás létrehozása és terjesztése a Power BI-ban](end-user-create-apps.md)
+* [Alkalmazás létrehozása és terjesztése a Power BI-ban](../service-create-distribute-apps.md)
 * Kérdése van? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)
 

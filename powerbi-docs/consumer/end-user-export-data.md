@@ -8,15 +8,15 @@ featuredvideoid: jtlLGRKBvXY
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 05/25/2018
+ms.date: 08/25/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 8e5e2211af7dc53dba20a8d43c1083517b51bf17
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: eac6a1b4f7a3f734aa22c715a4ef196193230283
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46565981"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48908854"
 ---
 # <a name="export-data-from-visualizations"></a>Adatok exportálása vizualizációkból
 Ha szeretné megtekinteni a vizualizáció létrehozásához használt adatokat, [megjelenítheti az adatokat a Power BI-ban](end-user-show-data.md) vagy exportálhatja őket az Excelbe .xlsx- vagy .csv-fájlként.   
@@ -55,7 +55,7 @@ Annak érdekében, hogy követni tudja a lépéseket, nyissa meg a [Beszerzésel
 4. Kattintson a vizualizáció jobb felső sarkában található három pontra. Kattintson az **Adatok exportálása** elemre.
 
    ![](media/end-user-export-data/power-bi-export-data2.png)
-5. A Power BI online szolgáltatásban ha a vizualizáció összesítést tartalmaz (például ha módosította a **Szám** értéket *átlag*, **összeg** vagy *minimum* értékre), két lehetőség közül választhat: **Összegzett adatok** vagy **Mögöttes adatok**. A Power BI Desktopban csak az **Összegzett adatok** beállítás érhető el Az összesítésekről további információt az [Összesítések a Power BI-ban](../service-aggregates.md) című cikkben találhat.
+5. A Power BI online szolgáltatásban ha a vizualizáció összesítést tartalmaz (például ha módosította a **Szám** értéket *átlag*, *összeg* vagy *minimum* értékre), két lehetőség közül választhat: **Összegzett adatok** vagy **Mögöttes adatok**. A Power BI Desktopban csak az **Összegzett adatok** beállítás érhető el Az összesítésekről további információt az [Összesítések a Power BI-ban](../service-aggregates.md) című cikkben találhat.
 
     ![](media/end-user-export-data/power-bi-export-data5.png)
 6. Válassza az **Összegzett adatok** > **Exportálás** lehetőséget, és válassza az .xlsx vagy .csv formátumot. A Power BI exportálja az adatokat.  Ha szűrőket alkalmazott a vizualizációhoz, az exportált adatok szűrve lesznek exportálva. Ha az **Exportálás** lehetőséget választja, a böngésző megkéri, hogy mentse a fájlt. A mentés után nyissa meg a fájlt az Excelben.

@@ -11,12 +11,12 @@ ms.component: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Share your work
 ms.date: 08/16/2018
-ms.openlocfilehash: 6960945d878269344e8993577a8eac239d8ca4a4
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 111987fda4b0f841c0806dbdc454ac96ddb3c666
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46549891"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48908371"
 ---
 # <a name="embed-with-report-web-part-in-sharepoint-online"></a>Beágyazás jelentéskijelzővel a SharePoint Online-ban
 
@@ -85,7 +85,7 @@ Egy jelentés beágyazása a SharePoint Online-ba még nem ad automatikusan enge
 > [!IMPORTANT]
 > Tekintse át kik láthatják a jelentést a Power BI szolgáltatásban, és adjon hozzáférést azoknak, akik még nem szerepelnek a listában.
 
-A Power BI szolgáltatásban kétféleképpen lehet egy jelentéshez hozzáférést adni. Ha a SharePoint Online-csoportwebhely létrehozásához Office 365-csoportot használ, akkor a felhasználót hozzáadhatja az **alkalmazás-munkaterülethez a Power BI szolgáltatásban** és a **SharePoint-oldalon**. Ez biztosítja, hogy a felhasználók láthassák az adott csoport tartalmát. További információ: [Alkalmazások létrehozása és terjesztése a Power BI-ban](consumer/end-user-create-apps.md).
+A Power BI szolgáltatásban kétféleképpen lehet egy jelentéshez hozzáférést adni. Ha a SharePoint Online-csoportwebhely létrehozásához Office 365-csoportot használ, akkor a felhasználót hozzáadhatja az **alkalmazás-munkaterülethez a Power BI szolgáltatásban** és a **SharePoint-oldalon**. Ez biztosítja, hogy a felhasználók láthassák az adott csoport tartalmát. További információ: [Alkalmazások létrehozása és terjesztése a Power BI-ban](service-create-distribute-apps.md).
 
 A másik mód, amellyel hozzáférést adhat a felhasználóknak a jelentéshez, a következő:
 
@@ -151,7 +151,7 @@ A probléma elhárításához lépjen kapcsolatba a SharePoint Online-oldal tula
 ## <a name="next-steps"></a>Következő lépések
 
 [Modern weboldalak végfelhasználók általi létrehozásának engedélyezése vagy letiltása](https://support.office.com/article/Allow-or-prevent-creation-of-modern-site-pages-by-end-users-c41d9cc8-c5c0-46b4-8b87-ea66abc6e63b)  
-[Alkalmazások létrehozása és terjesztése a Power BI-ban](consumer/end-user-create-apps.md)  
+[Alkalmazások létrehozása és terjesztése a Power BI-ban](service-create-distribute-apps.md)  
 [Irányítópult megosztása munkatársakkal és másokkal](service-share-dashboards.md)  
 [Mi a Power BI Premium?](service-premium.md)  
 

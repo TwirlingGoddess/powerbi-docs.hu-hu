@@ -10,15 +10,15 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: ad430f438bb6418378b13f3104f87a3bd972a2e4
-ms.sourcegitcommit: 833cf1252807721fb1b3000487bd032bfd6c8c98
+ms.openlocfilehash: c732d1128719db500e13194d36ba1db2605efd2c
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "48271877"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48908697"
 ---
 # <a name="connect-to-files-stored-in-onedrive-for-your-power-bi-app-workspace"></a>Csatlakozás a Power BI alkalmazás munkaterületéhez tartozó OneDrive-ban tárolt fájlokhoz
-Miután [létrehozott egy alkalmazás-munkaterületet a Power BI-ban](consumer/end-user-create-apps.md), a Power BI alkalmazás-munkaterülethez tartozó OneDrive Vállalati verzióban tárolhatja az Excel-, CSV-, és Power BI Desktop-fájlokat. A OneDrive-ban tárolt fájlokat továbbra is frissítheti, a frissítések pedig automatikusan megjelennek a fájlokon alapuló Power BI-jelentésekben és irányítópultokon. 
+Miután [létrehozott egy alkalmazás-munkaterületet a Power BI-ban](service-create-distribute-apps.md), a Power BI alkalmazás-munkaterülethez tartozó OneDrive Vállalati verzióban tárolhatja az Excel-, CSV-, és Power BI Desktop-fájlokat. A OneDrive-ban tárolt fájlokat továbbra is frissítheti, a frissítések pedig automatikusan megjelennek a fájlokon alapuló Power BI-jelentésekben és irányítópultokon. 
 
 > [!NOTE]
 > Az új munkaterületi felhasználói felület előzetes verziójában megváltozik a Power BI-munkaterületek és az Office 365-csoportok közötti kapcsolat. A rendszer nem fog automatikusan létrehozni Office 365-csoportokat minden alkalommal, amikor egy új munkaterület jön létre. További információ az [új munkaterületek létrehozásáról (előzetes verzió)](service-create-the-new-workspaces.md)
@@ -79,7 +79,7 @@ Miután a fájlok bekerültek a alkalmazás-munkaterülethez tartozó OneDrive V
     ![](media/service-connect-to-files-in-app-workspace-onedrive-for-business/power-bi-app-excel-file-connect.png)
 
 ## <a name="next-steps"></a>További lépések
-* [Alkalmazások és alkalmazás-munkaterületek létrehozása a Power BI-ban](consumer/end-user-create-apps.md)
+* [Alkalmazások és alkalmazás-munkaterületek létrehozása a Power BI-ban](service-create-distribute-apps.md)
 * [Adatok importálása Excel-munkafüzetekből](service-get-data-from-files.md)
 * [Csatlakozás teljes Excel-munkafüzetekhez](service-excel-workbook-files.md)
 * További kérdései vannak? [Kérdezze a Power BI-közösséget!](http://community.powerbi.com/)

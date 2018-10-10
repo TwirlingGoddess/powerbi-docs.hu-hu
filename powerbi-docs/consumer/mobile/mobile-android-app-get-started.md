@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: maggies
-ms.openlocfilehash: c33e7dd69d4bd0a0d09ebc124739d5d017c631bc
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 4c11b65d8d9dcb4a0b07db6dcf0d264350f351bf
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46550029"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48908753"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-android-devices"></a>Első lépések az androidos eszközökhöz készült Power BI mobilalkalmazással
 A Microsoft Power BI Android rendszerű eszközökön futó alkalmazása mobil felületet nyújt a Power BI, a Power BI jelentéskészítő kiszolgáló és a Reporting Services használatához. Bárhonnan megtekintheti és kezelheti helyszíni vagy felhőbeli céges irányítópultjait élő, érintésre reagáló mobil hozzáféréssel. Fedezze fel az adatokat az irányítópultokon, és ossza meg eredményeit munkatársaival e-mailben vagy SMS-ben. 
@@ -119,11 +119,11 @@ További információk az [Android rendszerhez készült Power BI-mobilalkalmaz�
 Az androidos Power BI alkalmazásban az alábbi műveleteket is elvégezheti a Power BI-irányítópultokkal és -jelentésekkel, valamint a Microsoft Power BI jelentéskészítő kiszolgálón vagy a Reporting Services webes portálján található jelentésekkel és KPI-kkel.
 
 ### <a name="power-bi-dashboards-and-reports"></a>A Power BI irányítópultok és jelentések
-* [Az alkalmazásai](../end-user-apps.md) megtekintése.
+* [Az alkalmazásai](../../service-create-distribute-apps.md) megtekintése.
 * Megtekintheti [irányítópultjait](../../mobile-apps-view-dashboard.md).
 * Felfedezheti [irányítópultjai csempéit](../../mobile-tiles-in-the-mobile-apps.md).
 * Megnyithat [Power BI-jelentéseket](../../mobile-reports-in-the-mobile-apps.md).
-* Megtekintheti [alkalmazásait](../end-user-apps.md).
+* Megtekintheti [alkalmazásait](../../service-create-distribute-apps.md).
 * [Jegyzettel láthat el és megoszthat csempéket](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md).
 * [Irányítópultok](../../mobile-share-dashboard-from-the-mobile-apps.md) megosztása.
 * [Power BI QR-kód beolvasása](../../mobile-apps-qr-code.md) androidos telefonnal egy kapcsolódó irányítópult vagy jelentés megnyitásához. 

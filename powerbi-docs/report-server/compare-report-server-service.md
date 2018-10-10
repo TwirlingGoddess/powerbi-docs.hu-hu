@@ -10,12 +10,12 @@ ms.service: powerbi
 ms.component: powerbi-report-server
 manager: kfile
 ms.custom: mvc
-ms.openlocfilehash: 2b39d9ab5b8bae32dde6eda66f09f69a9718d569
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: f78638097ea33f9954f3db78c117f1935a68530b
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46548488"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48908531"
 ---
 # <a name="comparing-power-bi-report-server-and-the-power-bi-service"></a>A Power BI jelentéskészítő kiszolgáló és a Power BI szolgáltatás összehasonlítása
 
@@ -33,7 +33,7 @@ A Power BI jelentéskészítő kiszolgálónak és a Power BI szolgáltatásnak 
 | Átjáró szükséges | Nem | Helyszíni adatforrásokhoz igen |  
 | Valós idejű streamelés | Nem | Igen | [Valós idejű streamelés a Power BI-ban](../service-real-time-streaming.md)
 | Irányítópultok | Nem | Igen | [Irányítópultok a Power BI szolgáltatásban](../consumer/end-user-dashboards.md) 
-| Jelentéscsoportok terjesztése alkalmazások használatával | Nem | Igen | [Irányítópultokat és jelentéseket tartalmazó alkalmazások létrehozása és közzététele](../consumer/end-user-create-apps.md) 
+| Jelentéscsoportok terjesztése alkalmazások használatával | Nem | Igen | [Irányítópultokat és jelentéseket tartalmazó alkalmazások létrehozása és közzététele](../service-create-distribute-apps.md) 
 | Tartalomcsomagok | Nem | Igen | [Céges tartalomcsomagok: bevezetés](../service-organizational-content-pack-introduction.md) 
 | Csatlakozás olyan szolgáltatásokhoz, mint a Salesforce | Nem | Igen | [Csatlakozás a használt szolgáltatásokhoz](../consumer/end-user-connect-to-services.md) a Power BI szolgáltatással
 | Q&A | Nem | Igen | [A Q&A a Power BI szolgáltatásban és a Power BI Desktopban](../consumer/end-user-q-and-a.md) 

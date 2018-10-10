@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 06/22/2018
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 6efef092002c0dc401c4c5328dd3e0d595beff66
-ms.sourcegitcommit: fb1885da7cf11367660edbf7b7346dc039ee9b5d
+ms.openlocfilehash: 554e9f3bbea5a1da6ac43f21f72b054a26849f23
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 09/26/2018
-ms.locfileid: "47187122"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48908745"
 ---
 # <a name="tutorial-get-started-with-power-bi-service-apppowerbicom"></a>Oktatóanyag: A Power BI szolgáltatás (az app.powerbi.com webhely) használatának első lépései
 Ez az oktatóanyag segít az első lépések megtételében a ***Power BI szolgáltatásban***. Ha szeretné megérteni, hogyan illeszkedik a Power BI szolgáltatás a többi Power BI-ajánlathoz, javasoljuk, először olvassa el a [Mi az a Power BI](power-bi-overview.md) című szakaszt.
@@ -55,7 +55,7 @@ Nézze meg [lejátszási listánkat a YouTube-on](https://www.youtube.com/playli
 ## <a name="what-is-power-bi-service"></a>A Power BI szolgáltatás bemutatása
 A Microsoft Power BI szolgáltatás más néven Power BI online vagy app.powerbi.com néven ismert. A Power BI segítségével naprakész maradhat az Ön számára fontos információkkal.  A Power BI szolgáltatásban az ***irányítópultokkal*** ujjait a cége ütőerén tarthatja.  Az irányítópulton ***csempék*** találhatók, amelyekre kattintva ***jelentéseket*** nyithat meg a további vizsgálódásokhoz.  Több ***adatkészlethez*** is kapcsolódhat, hogy minden releváns adatát egy helyen tekinthesse meg. Segítségre van szüksége a Power BI építőköveinek megértéséhez?  Lásd: [Power BI – Alapfogalmak](consumer/end-user-basic-concepts.md).
 
-Ha Excel- vagy CSV-fájlokba mentett fontos adatokkal rendelkezik, létrehozhat egy Power BI-irányítópultot, hogy tájékozott maradhasson, bárhol is van, és másokkal is megoszthassa az elemzéseket.  Előfizetett valamilyen SaaS-alkalmazásra, például a Salesforce-ra?  A gyors kezdéshez csatlakozzon a Salesforce-hoz, hogy automatikusan irányítópultot hozhasson létre az ott található adatokból, vagy [tekintse meg a többi SaaS-alkalmazást](service-get-data.md), amelyhez csatlakozhat. Ha egy cégnél dolgozik, nézze meg, hogy nem tettek-e közzé valamilyen [alkalmazást](consumer/end-user-create-apps.md) az Ön számára.
+Ha Excel- vagy CSV-fájlokba mentett fontos adatokkal rendelkezik, létrehozhat egy Power BI-irányítópultot, hogy tájékozott maradhasson, bárhol is van, és másokkal is megoszthassa az elemzéseket.  Előfizetett valamilyen SaaS-alkalmazásra, például a Salesforce-ra?  A gyors kezdéshez csatlakozzon a Salesforce-hoz, hogy automatikusan irányítópultot hozhasson létre az ott található adatokból, vagy [tekintse meg a többi SaaS-alkalmazást](service-get-data.md), amelyhez csatlakozhat. Ha egy cégnél dolgozik, nézze meg, hogy nem tettek-e közzé valamilyen [alkalmazást](service-create-distribute-apps.md) az Ön számára.
 
 Olvassa el, milyen más módokon [kérhet még le adatokat a Power BI-ban](service-get-data.md).
 

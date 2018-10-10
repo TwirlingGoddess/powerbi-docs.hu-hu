@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: c99d2047bc021f7e9d98145bc9cb884917fa3b5c
-ms.sourcegitcommit: 833cf1252807721fb1b3000487bd032bfd6c8c98
+ms.openlocfilehash: bcec05211d3748e992f0e0cf68acd6460b2715d4
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "48271713"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48908969"
 ---
 # <a name="how-should-i-collaborate-and-share-in-power-bi"></a>Hogyan végezhetek közös munkát és hogyan oszthatok meg tartalmat a Power BI-ban?
 
@@ -57,7 +57,7 @@ Tegyük fel, hogy szeretné széles közönséggel megosztani az irányítópult
 
 ![Alkalmazás közzététele ikon](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-app-publish-600.png)
 
-Az alkalmazások a Power BI szolgáltatásban ([https://powerbi.com](https://powerbi.com)) könnyen megtalálhatók és telepíthetők. Elküldheti az üzleti felhasználóknak az alkalmazására mutató közvetlen hivatkozást, vagy rákereshetnek az alkalmazására az AppSource-ban. Ha a Power BI-rendszergazdája engedélyezi ezt Önnek, akkor az alkalmazást akár közvetlenül is telepítheti a munkatársai Power BI-fiókjába. Többet is megtudhat [az alkalmazások közzétételéről](consumer/end-user-create-apps.md). 
+Az alkalmazások a Power BI szolgáltatásban ([https://powerbi.com](https://powerbi.com)) könnyen megtalálhatók és telepíthetők. Elküldheti az üzleti felhasználóknak az alkalmazására mutató közvetlen hivatkozást, vagy rákereshetnek az alkalmazására az AppSource-ban. Ha a Power BI-rendszergazdája engedélyezi ezt Önnek, akkor az alkalmazást akár közvetlenül is telepítheti a munkatársai Power BI-fiókjába. Többet is megtudhat [az alkalmazások közzétételéről](service-create-distribute-apps.md). 
 
 Miután a munkatársai telepítik az alkalmazást, megtekinthetik azt a böngészőjükben vagy egy mobileszközön.
 
@@ -99,7 +99,7 @@ Megoszthatja a Power BI-jelentéseit a teljes internettel úgy, hogy interaktív
 
 ## <a name="next-steps"></a>Következő lépések
 * [Irányítópultok megosztása munkatársakkal és másokkal](service-share-dashboards.md)
-* [Alkalmazás létrehozása és közzététele a Power BI-ban](consumer/end-user-create-apps.md)
+* [Alkalmazás létrehozása és közzététele a Power BI-ban](service-create-distribute-apps.md)
 * Visszajelzés küldene? Mondja el javaslatait a [Power BI-közösség webhelyén](https://community.powerbi.com/).
 * További kérdései vannak? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/).
 

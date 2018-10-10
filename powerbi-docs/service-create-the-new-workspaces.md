@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/24/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 5a94b4c808dcb7cbb040f68c0de7588a3b99c155
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: cc1f348deb222ce080ac41ac2574f4fb1437e8db
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46548833"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48909015"
 ---
 # <a name="create-the-new-workspaces-preview-in-power-bi"></a>Új munkaterületek létrehozása a Power BI-ban (előzetes verzió)
 
@@ -130,7 +130,7 @@ Az új munkaterületek három szerepkört kínálnak: rendszergazdák, tagok és
 
 ## <a name="distribute-an-app"></a>Alkalmazások terjesztése
 
-Ha a tartalom elkészült, kiválaszthatja a közzétenni kívánt irányítópultokat és jelentéseket, amelyeket közzétehet *alkalmazásként*. Minden munkaterületről létrehozhat egy alkalmazást. A munkatársai különböző módokon férhetnek hozzá az alkalmazáshoz. Ha a Power BI rendszergazda engedélyezi, automatikusan telepítheti az alkalmazást a munkatársai Power BI-fiókjába. Ha nem, megkereshetik az alkalmazást a Microsoft AppSource-ban, és telepíthetik, vagy küldhet nekik egy közvetlen hivatkozást. A rendszer automatikusan frissíti az alkalmazásokat, és szabályozható, milyen gyakran frissüljenek az adatok. További információ: [Irányítópultokból és jelentésekből álló alkalmazások közzététele a Power BI-ban](consumer/end-user-create-apps.md).
+Ha a tartalom elkészült, kiválaszthatja a közzétenni kívánt irányítópultokat és jelentéseket, amelyeket közzétehet *alkalmazásként*. Minden munkaterületről létrehozhat egy alkalmazást. A munkatársai különböző módokon férhetnek hozzá az alkalmazáshoz. Ha a Power BI rendszergazda engedélyezi, automatikusan telepítheti az alkalmazást a munkatársai Power BI-fiókjába. Ha nem, megkereshetik az alkalmazást a Microsoft AppSource-ban, és telepíthetik, vagy küldhet nekik egy közvetlen hivatkozást. A rendszer automatikusan frissíti az alkalmazásokat, és szabályozható, milyen gyakran frissüljenek az adatok. További információ: [Irányítópultokból és jelentésekből álló alkalmazások közzététele a Power BI-ban](service-create-distribute-apps.md).
 
 ## <a name="convert-old-app-workspaces-to-new-app-workspaces"></a>Régi alkalmazás-munkaterületek konvertálása új alkalmazás-munkaterületekké
 
@@ -172,7 +172,6 @@ A következő problémák ismertek, és már dolgozunk a megoldásukon:
 - Miután egy munkaterületet áthelyez egy Prémium szintű kapacitásból egy megosztott kapacitásba, az ingyenes felhasználók és felhasználói csoportok egyes esetekben továbbra is kapnak e-maileket, annak ellenére, hogy már nem szabadna. Ez a probléma akkor merül fel, az előfizetést létrehozó felhasználó Saját munkaterülete egy Prémium szintű kapacitásban található.
 
 ## <a name="next-steps"></a>Következő lépések
-
-- [Jelenlegi munkaterületek létrehozása](service-create-workspaces.md)
-* [Alkalmazások telepítése és használata a Power BI-ban](consumer/end-user-apps.md)
+* [Jelenlegi munkaterületek létrehozása](service-create-workspaces.md)
+* [Alkalmazások telepítése és használata a Power BI-ban](service-create-distribute-apps.md)
 * Kérdése van? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)

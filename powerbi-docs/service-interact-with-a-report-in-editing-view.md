@@ -10,19 +10,19 @@ ms.topic: conceptual
 ms.date: 04/11/2018
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 4c206e6b1abb37bdaeb0e03fbce31b7b12e356ba
-ms.sourcegitcommit: fb1885da7cf11367660edbf7b7346dc039ee9b5d
+ms.openlocfilehash: e03f6b4542c4f5f6c1d1a84892030520651ac9a3
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 09/26/2018
-ms.locfileid: "47186653"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48908307"
 ---
 # <a name="interact-with-a-report-in-editing-view-in-power-bi-service"></a>Jelentés használata Szerkesztő nézetben a Power BI szolgáltatásban
 A jelentések a Power BI szolgáltatásban és a Power BI Desktopban hozhatók létre és szerkeszthetők. A Power BI szolgáltatásban a jelentések a **Szerkesztő nézetben** hozhatók létre és szerkeszthetők. A Power BI Desktopban pedig a jelentések a [**Jelentés nézetben**](desktop-report-view.md) hozhatók létre és szerkeszthetők. Ez a cikk a Power BI szolgáltatás Olvasó nézetét ismerteti. 
 
 A Power BI szolgáltatásban kétféle módon lehet a jelentéseket használni: az [Olvasó nézet](consumer/end-user-reading-view.md) a jelentés *felhasználói* számára, míg a Szerkesztési mód a tulajdonosok és létrehozók számára készült.  A jelentések megosztásához, valamint a mások által létrehozott jelentések szerkesztéséhez Power BI Pro licencre van szükség. Ha nem rendelkezik Pro-licenccel, továbbra is létrehozhat jelentéseket, azonban nem [oszthatja meg](service-share-reports.md) őket.    
 
-A jelentések Szerkesztési nézetében számos lehetősége van a jelentések vizsgálatára és megtervezésére. Itt az [Olvasó nézet](consumer/end-user-reading-view.md) minden funkciója elérhető – és sok egyéb is. A Szerkesztési nézet csak a jelentést létrehozó személy számára, vagy azon munkatársak számára érhető el, akik [egy alkalmazás-munkaterület tagjaként vagy rendszergazdájaként egy jelentés társtulajdonosai](consumer/end-user-create-apps.md).
+A jelentések Szerkesztési nézetében számos lehetősége van a jelentések vizsgálatára és megtervezésére. Itt az [Olvasó nézet](consumer/end-user-reading-view.md) minden funkciója elérhető – és sok egyéb is. A Szerkesztési nézet csak a jelentést létrehozó személy számára, vagy azon munkatársak számára érhető el, akik [egy alkalmazás-munkaterület tagjaként vagy rendszergazdájaként egy jelentés társtulajdonosai](service-create-distribute-apps.md).
 
 ## <a name="functionality-only-available-in-editing-view"></a>Csak Szerkesztő nézetben elérhető funkciók
 Tekintse meg a témakörök listáját a Tartalomjegyzék **Jelentések** főcíme alatt, a bal oldalon. A lista hosszú, és sok témakör olyan funkciókat ismertet, amelyek *csak akkor elérhetők, ha a jelentésre érvényes szerkesztési engedélyekkel rendelkezik*.  A Tartalomjegyzékben való navigálás elősegítésére, a következőkhöz szükséges a Szerkesztési nézet:

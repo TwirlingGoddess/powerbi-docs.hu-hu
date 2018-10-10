@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/30/2018
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: a00913ea326f472993553910a79e3cc208356499
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 94ca76af9366752f4e1033fa05147f867e7096d9
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46546717"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48908900"
 ---
 # <a name="connect-to-microsoft-dynamics-nav-with-power-bi"></a>Kapcsolódás a Microsoft Dynamics NAV-hoz a Power BI-jal
 A Power BI használatával egyszerűen elemezheti Microsoft Dynamics NAV-adatait. A Power BI lekéri az értékesítési és a pénzügyi adatokat is, majd irányítópultot és jelentést is magában foglaló alkalmazást készít az adatok alapján. A Power BI-nak szüksége van az Ön engedélyeire az adatokat tartalmazó táblákhoz, ebben az esetben az értékesítési és pénzügyi adatokhoz. A követelményekről alább talál további információkat. Az alkalmazás telepítése után az irányítópultot és a jelentéseket a Power BI szolgáltatásban ([https://powerbi.com](https://powerbi.com)) és a Power BI-mobilalkalmazásokban is megtekintheti. 
@@ -25,9 +25,9 @@ A Power BI használatával egyszerűen elemezheti Microsoft Dynamics NAV-adatait
 ## <a name="how-to-connect"></a>A kapcsolódás menete
 [!INCLUDE [powerbi-service-apps-get-more-apps](./includes/powerbi-service-apps-get-more-apps.md)]
 
-1. Válassza a **Microsoft Dynamics NAV**, majd a **Beolvasás** lehetőséget.  
+3. Válassza a **Microsoft Dynamics NAV**, majd a **Beolvasás** lehetőséget.  
    ![](media/service-connect-to-microsoft-dynamics-nav/mdnav.png)
-2. Amikor a rendszer kéri, adja meg Microsoft Dynamics NAV OData URL-címét. Az URL-címnek a következő mintának kell megfelelnie:
+4. Amikor a rendszer kéri, adja meg Microsoft Dynamics NAV OData URL-címét. Az URL-címnek a következő mintának kell megfelelnie:
    
     `https//instance.navserver.com:7048/DynamicsNAV90_Instance1/OData/Company('CRONUS%20International%20Ltd.')`
    
@@ -37,12 +37,12 @@ A Power BI használatával egyszerűen elemezheti Microsoft Dynamics NAV-adatait
      
      Ez az URL-cím egyszerűen kinyerhető úgy, hogy a Dynamics NAV webes szolgáltatásainak megnyitása után megkeresi a powerbifinance webszolgáltatást, és kimásolja az OData URL-címet, de lehagyja az URL-sztringből a „/powerbifinance” végződést.  
      ![](media/service-connect-to-microsoft-dynamics-nav/param.png)
-3. Válassza az **Alapszintű** lehetőséget és adja meg Microsoft Dynamics NAV hitelesítő adatait.
+5. Válassza az **Alapszintű** lehetőséget és adja meg Microsoft Dynamics NAV hitelesítő adatait.
    
     A Microsoft Dynamics NAV-fióknak rendszergazdai jogosultsággal (vagy legalább az értékesítési és a pénzügyi adatokhoz való engedélyekkel) kell rendelkeznie.  Jelenleg csak az alapszintű (felhasználónév és jelszó) hitelesítés támogatott.
    
     ![](media/service-connect-to-microsoft-dynamics-nav/creds.png)
-4. A Power BI betölti a Microsoft Dynamics NAV-adatokat, és használatra kész irányítópultot és jelentést hoz létre.   
+6. A Power BI betölti a Microsoft Dynamics NAV-adatokat, és használatra kész irányítópultot és jelentést hoz létre.   
    ![](media/service-connect-to-microsoft-dynamics-nav/dashboard.png)
 
 ## <a name="view-the-dashboard-and-reports"></a>Az irányítópult és a jelentések megtekintése
@@ -99,7 +99,7 @@ Ha a hitelesítő párbeszédablak után a „Hoppá!” hibaüzenet jelenik meg
     `https//instance.navserver.com:7048/DynamicsNAV90\_Instance1/OData/Company('CRONUS%20International%20Ltd.')`
 
 ## <a name="next-steps"></a>További lépések
-* [Mik a Power BI szolgáltatáson belüli alkalmazások?](consumer/end-user-apps.md)
+* [Mik a Power BI szolgáltatáson belüli alkalmazások?](service-create-distribute-apps.md)
 * [Adatok lekérése a Power BI-ban](service-get-data.md)
 * További kérdései vannak? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)
 

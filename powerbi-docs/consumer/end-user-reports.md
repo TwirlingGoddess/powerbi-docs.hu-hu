@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 5268241c32112847c879407374b325dd63dd8aab
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: cae5c83f6e220689bfd7d484d5d86c188325ad05
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46564834"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48908624"
 ---
 # <a name="reports-in-power-bi"></a>Jelentések a Power BI-ban
 ## <a name="what-is-a-power-bi-report"></a>Mi a Power BI-jelentés?
@@ -67,7 +67,7 @@ A szerepkörének megfelelő alábbi témakörök kiváló kiindulási pontot ny
 * Kezdje a [Power BI szolgáltatás áttekintésével](end-user-basic-concepts.md), melyből megtudhatja, hol találhatja meg a jelentéseket és a jelentéseszközöket.
 * Ismerje meg, hogyan tud [megnyitni egy jelentést](end-user-report-open.md), és fedezze fel az [Olvasó nézetben](end-user-reading-view.md) elérhető műveleteket.
 * Gyakorolja a jelentések használatát az egyik [mintánk](../sample-tutorial-connect-to-the-samples.md) segítségével.  
-* Nincs már szüksége egy jelentésre? Akkor [törölheti a jelentést](end-user-delete.md).
+<!--* Don't need the report any more? You can [remove it](../service-delete.md).-->
 * Ha szeretné megtudni, milyen adatkészletet használ egy jelentés, és mely irányítópultok tartalmaznak rögzített csempéket a jelentésből, [tekintse meg a kapcsolódó tartalmat](end-user-related.md).
 
 > [!TIP]
@@ -79,6 +79,4 @@ A szerepkörének megfelelő alábbi témakörök kiváló kiindulási pontot ny
 [Mi az a Power BI?](../power-bi-overview.md) 
 
 [Power BI – Alapfogalmak](end-user-basic-concepts.md)
-
-További kérdései vannak? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)
 

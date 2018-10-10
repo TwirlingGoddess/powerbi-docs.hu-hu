@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/10/2017
 ms.author: mblythe
 LocalizationGroup: Premium
-ms.openlocfilehash: e60cc5341bba50d9fac82f032656f449cadaa255
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: b38c69d74141b28215e0a14a32fc7b03fab4fdbf
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46546550"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48908877"
 ---
 # <a name="manage-capacities-within-power-bi-premium-and-power-bi-embedded"></a>Kapacitáskezelés a Power BI Premium és a Power BI Embedded szolgáltatással
 Megtudhatja, hogyan kezelheti a Power BI Premium és a Power BI Embedded kapacitásait, amelyek dedikált erőforrásokat nyújtanak az Ön tartalmai számára.
@@ -183,6 +183,6 @@ A **Power BI jelentéskészítő kiszolgáló kulcsának** kiválasztásakor meg
 További információt [a Power BI jelentéskészítő kiszolgáló telepítését](report-server/install-report-server.md) ismertető témakörben találhat.
 
 ## <a name="next-steps"></a>Következő lépések
-A közzétett alkalmazásokat megoszthatja a felhasználókkal. További információ: [Alkalmazások létrehozása és terjesztése a Power BI-ban](consumer/end-user-create-apps.md).
+A közzétett alkalmazásokat megoszthatja a felhasználókkal. További információ: [Alkalmazások létrehozása és terjesztése a Power BI-ban](service-create-distribute-apps.md).
 
 További kérdései vannak? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: bd8a8b9a9aff451282c5cef8a6dd6f27b90335d7
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 1bb1831d37dc3f8bfe5ee141859cbccec541735e
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46548695"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48908785"
 ---
 # <a name="connect-to-google-analytics-with-power-bi"></a>Kapcsolódás a Google Analytics szolgáltatáshoz a Power BI használatával
 Ha kapcsolódni szeretne a Google Analytics szolgáltatáshoz a Power BI-on keresztül, először lépjen be a Google Analytics-fiókjába. Ezután megjelenik egy Power BI-irányítópult és bizonyos Power BI-jelentések, amelyek a webhelye forgalmára és felhasználóira vonatkozó adatokat tartalmaznak. Az irányítópultot és a jelentéseket használhatja és megtekintheti, de a változtatásokat nem mentheti. Az adatok naponta egyszer automatikusan frissülnek.
@@ -27,16 +27,16 @@ Személyre szabott irányítópultokat és jelentéseket hozhat létre a Power B
 ## <a name="how-to-connect"></a>A kapcsolódás menete
 [!INCLUDE [powerbi-service-apps-get-more-apps](./includes/powerbi-service-apps-get-more-apps.md)]
 
-1. Válassza a **Google Analytics** \> **Beolvasás** lehetőséget.
+3. Válassza a **Google Analytics** \> **Beolvasás** lehetőséget.
    
    ![](media/service-connect-to-google-analytics/ga.png)
-2. Amikor a rendszer kéri, adja meg a Google Analytics-fiók hitelesítő adatait. Válassza az **oAuth 2** hitelesítési mechanizmust, és kattintson a **Bejelentkezés** elemre. Haladjon végig a Google-hitelesítés lépésein, amelyek közt szerepelhet a kétlépcsős azonosítás is, ha konfigurálta.
+4. Amikor a rendszer kéri, adja meg a Google Analytics-fiók hitelesítő adatait. Válassza az **oAuth 2** hitelesítési mechanizmust, és kattintson a **Bejelentkezés** elemre. Haladjon végig a Google-hitelesítés lépésein, amelyek közt szerepelhet a kétlépcsős azonosítás is, ha konfigurálta.
    
    ![](media/service-connect-to-google-analytics/creds.png)
-3. Az **Elfogadás** gombra kattintva engedélyezze a Power BI részére a Google Analytics-adatokhoz való hozzáférést.
+5. Az **Elfogadás** gombra kattintva engedélyezze a Power BI részére a Google Analytics-adatokhoz való hozzáférést.
    
    ![](media/service-connect-to-google-analytics/googleanalytics.png)
-4. A Power BI egy bizonyos Google Analytics-nézethez kapcsolódik. Válassza ki annak a fióknak, tulajdonságnak és nézetnek a nevét, amelyhez kapcsolódni szeretne. Ezek az adatok a Google Analytics-fiókban találhatók: vagy a bal felső részen vagy a **Kezdőlap** lapon. A részleteket alább találja. 
+6. A Power BI egy bizonyos Google Analytics-nézethez kapcsolódik. Válassza ki annak a fióknak, tulajdonságnak és nézetnek a nevét, amelyhez kapcsolódni szeretne. Ezek az adatok a Google Analytics-fiókban találhatók: vagy a bal felső részen vagy a **Kezdőlap** lapon. A részleteket alább találja. 
    
    ![](media/service-connect-to-google-analytics/params2.png)
 5. A **Csatlakozás** gombra kattintva indíthatja el az importálási folyamatot. 
@@ -44,7 +44,7 @@ Személyre szabott irányítópultokat és jelentéseket hozhat létre a Power B
 ## <a name="view-the-google-analytics-dashboard-and-reports"></a>A Google Analytics-irányítópult és -jelentések megtekintése
 [!INCLUDE [powerbi-service-apps-open-app](./includes/powerbi-service-apps-open-app.md)]
 
-      ![](media/service-connect-to-google-analytics/googleanalytics2.png)
+   ![](media/service-connect-to-google-analytics/googleanalytics2.png)
 
 [!INCLUDE [powerbi-service-apps-open-app](./includes/powerbi-service-apps-what-now.md)]
 
@@ -69,7 +69,7 @@ Továbbra is problémákba ütközik? Küldjön támogatási jegyet a Power BI c
 * A Power BI támogatási oldalán (ahol ezt a cikket is olvassa) válassza a **Kapcsolatfelvétel az ügyfélszolgálattal** elemet a lap jobb oldalán.
 
 ## <a name="next-steps"></a>Következő lépések
-* [Mik a Power BI szolgáltatáson belüli alkalmazások?](consumer/end-user-apps.md)
+* [Mik a Power BI szolgáltatáson belüli alkalmazások?](service-create-distribute-apps.md)
 * [Adatok lekérése a Power BI-ban](service-get-data.md)
 * További kérdései vannak? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)
 
