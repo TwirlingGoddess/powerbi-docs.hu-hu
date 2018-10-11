@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/10/2018
+ms.date: 09/17/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: dfb45be36516be9196fbdd4297209ce4bf15925c
-ms.sourcegitcommit: c51461690e8faa121a1325957ca79b7a3975e8b8
+ms.openlocfilehash: 71894a801f0c993abaaedc92d4172da67b76f7a0
+ms.sourcegitcommit: 698b788720282b67d3e22ae5de572b54056f1b6c
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44512953"
+ms.lasthandoff: 09/17/2018
+ms.locfileid: "45974207"
 ---
 # <a name="aggregations-in-power-bi-desktop-preview"></a>Aggregációk a Power BI Desktopban (előzetes verzió)
 
@@ -243,7 +243,7 @@ A következő modell a *Month* (Hónap), *Quarter* (Negyedév), *Semester* (Fél
 
 Az alábbi táblázatban a **Sales Agg** (Aggr. értékesítések) tábla **Aggregációk kezelése** párbeszédablaka látható. Ahhoz, hogy a dátum attribútum alapján csoportosító lekérdezések az aggregációból adjanak vissza találatokat, kötelező a **Date** (Dátum) részlettáblára irányuló GroupBy (Csoportosítási szempont) bejegyzések használata. Ahogyan az előző példában is, a CustomerKey (ÜgyfélAzonosító) és a ProductSubkategoryKey (TermékAlkategóriaAzonosító) attribútumokon alapuló GroupBy (Csoportosítási szempont) bejegyzések a kapcsolatok megléte miatt nincsenek hatással arra, hogy a lekérdezés az aggregációból ad-e vissza találatot (szintén a DISTINCTCOUNT (Eltérő értékek száma) kivételével).
 
-![A Sales Agg (Aggr. értékesítések) aggregációs tábla](media/desktop-aggregations/aggregations-table_03.jpg)
+![A Sales Agg (Aggr. értékesítések) aggregációs tábla](media/desktop-aggregations/aggregations-table_04.jpg)
 
 > Megjegyzés: Ennél a modellnél a **Date** (Dátum) táblának – mivel egy részlettábla – DirectQuery módban kell lennie ahhoz, hogy ki tudja tölteni az aggregációk kezelésének párbeszédablakát. Ez az előzetes verzió korlátozása, amelyet szándékunkban áll eltávolítani az általános elérhetőségű verzióból.
 
