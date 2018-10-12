@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/06/2018
+ms.date: 09/10/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: fa812801eb01529c3e364d69f041b7efd193c3ae
-ms.sourcegitcommit: cce10e14c111e8a19f282ad6c032d802ebfec943
+ms.openlocfilehash: 05a644c300a0879b2f5eedd95cdddc537cc6fd0b
+ms.sourcegitcommit: c51461690e8faa121a1325957ca79b7a3975e8b8
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "39657874"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44512064"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Adatforrások a Power BI Desktopban
 A Power BI Desktoppal különböző forrásokból származó adatokhoz csatlakozhat. Az elérhető adatforrások teljes listája az oldal alján látható.
@@ -53,6 +53,7 @@ A **Fájl** kategória a következő adatkapcsolatokat biztosítja:
 * XML
 * JSON
 * Mappa
+* PDF (bétaverzió)
 * SharePoint-mappa
 
 A következő képen a **Lekérdezés** ablak látható, amelyen a **Fájl** kategória ki van választva.
@@ -79,7 +80,8 @@ Az **Adatbázis** kategória a következő adatkapcsolatokat biztosítja:
 * Impala
 * Google BigQuery
 * Snowflake
-* Exasol
+* Exasol (bétaverzió)
+* Jethro (bétaverzió)
 
 > [!NOTE]
 > Egyes adatbázis-összekötőket engedélyezni kell a **Fájl > Lehetőségek és beállítások > Beállítások** elem, majd az **Előzetes verziójú funkciók** lehetőség kiválasztásával és az adott összekötő engedélyezésével. Ha a fentiekben említett összekötők nem jelennek meg itt, és használni kívánja őket, ellenőrizze az **Előzetes verziójú funkciók** beállításait. Vegye figyelembe azt is, hogy a *bétaverzió* vagy *előzetes verzió* felirattal ellátott adatforrások támogatása és működése korlátozott, használatuk éles környezetben nem ajánlott.
@@ -93,6 +95,7 @@ A következő képen a **Lekérdezés** ablak látható, amelyen az **Adatbázis
 A **Power BI** kategória a következő adatkapcsolatokat biztosítja:
 
 * Power BI-adathalmazok
+* Power BI-adatfolyamok (bétaverzió)
 
 A következő képen az **Lekérdezés** ablak látható, amelyen az **Power BI** kategória ki van választva.
 
@@ -108,7 +111,7 @@ Az **Azure** kategória a következő adatkapcsolatokat biztosítja:
 * Azure Cosmos DB (bétaverzió)
 * Azure Data Lake Store
 * Azure HDInsight (HDFS)
-* Azure HDInsight Spark (bétaverzió)
+* Azure HDInsight Spark
 * HDInsight interaktív lekérdezés (bétaverzió)
 * Azure KustoDB (bétaverzió)
 
@@ -169,6 +172,7 @@ Az **Egyéb** kategória a következő adatkapcsolatokat biztosítja:
 * Hadoop-fájl (HDFS)
 * Spark
 * R-szkript
+* Python-szkript
 * ODBC
 * OLE DB
 * Üres lekérdezés

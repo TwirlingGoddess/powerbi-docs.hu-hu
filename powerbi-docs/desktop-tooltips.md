@@ -7,17 +7,17 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 07/24/2018
+ms.date: 09/10/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: c21d04da722e017210f7f83df3e1a5aa7dde1166
-ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
+ms.openlocfilehash: f06f3f7f6d91176d75ce452202a91b2c54be06ce
+ms.sourcegitcommit: c51461690e8faa121a1325957ca79b7a3975e8b8
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39280754"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44512156"
 ---
-# <a name="create-tooltips-based-on-report-pages-in-power-bi-desktop-preview"></a>Elemleírások létrehozása jelentésoldalak alapján a Power BI Desktopban (előzetes verzió)
+# <a name="create-tooltips-based-on-report-pages-in-power-bi-desktop"></a>Elemleírások létrehozása jelentésoldalak alapján a Power BI Desktopban
 A **Power BI Desktopban** létrehozott jelentésoldalak alapján sokatmondóan látványos **jelentés-elemleírásokat** készíthet, amelyek akkor jelennek meg, ha az egérmutató a vizualizáció felett van. Elemleírásként szolgáló jelentésoldal létrehozásakor az egyéni elemleírásokban vizualizációk, képek és a jelentésoldalon létrejött bármely más elemek gyűjteményei is szerepelhetnek. 
 
 ![Elemleírások Power BI Desktop-jelentésekhez](media/desktop-tooltips/desktop-tooltips_00a.png)
@@ -27,11 +27,15 @@ Tetszőleges számú elemleírás-oldalt létrehozhat. Minden elemleírás-oldal
 A jelentések elemleírásainak számos felhasználási módja van. Tekintsük át az elemleírások létrehozását és a konfigurálásukhoz szükséges teendőket.
 
 ### <a name="enable-the-tooltips-preview"></a>Az elemleírás-készítési funkció előzetes verziójának engedélyezése 
-Mivel a jelentések elemleírásai jelenleg előzetes verzióban érhetők el, elemleírások készítéséhez előbb engedélyeznie kell ezt a funkciót. A jelentés-elemleírások előzetes verziójának engedélyezéséhez válassza a **Fájl > Lehetőségek és beállítások > Beállítások > Előzetes verziójú funkciók** lehetőséget a Power BI Desktopban, majd jelölje be a **Jelentésoldal-alapú elemleírások** elem melletti jelölőnégyzetet. 
+A **Power BI Desktop** 2018. szeptemberi kiadásától kezdődően általánosan elérhetőek az elemleírások, és nem szükséges külön engedélyezni őket. 
+
+Ha a **Power BI Desktop** korábbi verzióját használja, akkor előzetes funkcióként engedélyezheti a használatukat. Ehhez a Power BI Desktopban a **Fájl > Lehetőségek és beállítások > Lehetőségek > Előzetes funkciók** területen jelölje be az **Jelentésoldal elemleírásai** jelölőnégyzetet. 
 
 ![A jelentés-elemleírások készítésére szolgáló funkció előzetes verziójának engedélyezése](media/desktop-tooltips/desktop-tooltips_01.png)
 
 A jelentés-elemleírások készítésére szolgáló funkció előzetes verziójának engedélyezése után újra kell indítania a **Power BI Desktopot**.
+
+Javasoljuk, hogy mindig frissítsen a **Power BI Desktop** legújabb verziójára, amelyet a [Power BI Desktop beszerzése](desktop-get-the-desktop.md) hivatkozással érhet el. 
 
 ## <a name="create-a-report-tooltip-page"></a>Elemleírás-oldal létrehozása jelentéshez
 Kiindulásként hozzon létre egy új jelentésoldalt a **Power BI Desktop**-vászon alján, a lapfülek sávjában található **+** gombra kattintva. A gomb a jelentés utolsó oldala mellett van. 
@@ -117,8 +121,9 @@ Ha egy jelentés vizualizációja keresztkiemeléssel készült, akkor a jelent�
 
 
 ## <a name="limitations-and-considerations"></a>Korlátozások és szempontok
-A jelentésalapú **elemleírások** jelenlegi előzetes verziójú kiadásának a használatára vonatkozik néhány korlátozás és egyéb szempont.
+Az **elemleírásokra** vonatkozik néhány korlátozás és egyéb szempont.
 
+* A **Power BI Desktop** 2018. szeptemberi kiadásától kezdve, amelyben az elemleírások általánosan elérhetővé váltak, a Kártya vizualizációk is támogatják az elemleírásokat.
 * A **Power BI Desktop** 2018. júliusi kiadásától kezdve az elemleírásoknál a Táblázat és Mátrix vizualizációk is támogatva vannak. 
 * A jelentésekhez készült elemleírások mobilalkalmazásban vagy beágyazott környezetekben, például webes közzététel használatával megtekintett jelentésekben nem támogatottak. 
 * A jelentésekhez készült elemleírások egyéni vizualizációkhoz való használata nem támogatott. 

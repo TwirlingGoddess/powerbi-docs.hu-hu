@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/08/2018
+ms.date: 09/10/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 6aa3e6ba5a471176a6af2551344744cdc45697fb
-ms.sourcegitcommit: cce10e14c111e8a19f282ad6c032d802ebfec943
+ms.openlocfilehash: 4cc2c0ae14cf457c3a704b2891e070f4e4e00166
+ms.sourcegitcommit: c51461690e8faa121a1325957ca79b7a3975e8b8
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "39657943"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44512179"
 ---
 # <a name="use-report-themes-in-power-bi-desktop"></a>Jelentéstémák használata a Power BI Desktopban
 A **Jelentéstémák** használatával egységes színtémát alkalmazhat az egész jelentésre, például a cég színeit, az évszaknak megfelelő színeket vagy bármely más színtémát, amit csak szeretne. **Jelentéstémák** alkalmazásakor a jelentésben szereplő összes vizualizáció a kiválasztott téma színeit fogja használni (ez alól van néhány kivétel, amelyeket a cikk későbbi részében mutatunk be).
@@ -36,7 +36,17 @@ Ha a **Power BI Desktop** korábbi verzióját használja, akkor előzetes funkc
 Javasoljuk, hogy mindig frissítsen a **Power BI Desktop** legújabb verziójára, amelyet a [Power BI Desktop beszerzése](desktop-get-the-desktop.md) hivatkozással érhet el. 
 
 ## <a name="how-report-themes-work"></a>A jelentéstémák működése
-Ha egy jelentéstémát szeretne alkalmazni egy Power BI Desktop jelentésre, kattintson a **Témaváltás** lehetőségre a **Kezdőlap** menüszalagon, majd a legördülő menüben válassza a **Téma importálása** elemet.
+Power BI Desktop-jelentésre úgy alkalmazhat jelentéstémát, hogy kiválaszt egyet az elérhető beépített jelentéstémák közül, vagy egyéni témát importál.
+
+Az elérhető beépített jelentéstémák közül úgy választhat, hogy a **Kezdőlap** menüsávjának **Témaváltás** gombját választja, majd kijelöl egyet a legördülő menüben látható témák közül.
+
+![jelentéstéma kiválasztása](media/desktop-report-themes/report-themes_2a.png)
+
+A jelentéstéma alkalmazva lesz a jelentésre, és folytathatja a munkát.
+
+### <a name="importing-report-themes"></a>Jelentéstémák importálása
+
+Egyéni jelentéstéma importálásához kattintson a **Témaváltás** lehetőségre a **Kezdőlap** menüszalagon, majd a legördülő menüben válassza a **Téma importálása** elemet.
 
 ![](media/desktop-report-themes/report-themes_3.png)
 

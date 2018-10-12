@@ -8,21 +8,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-admin
 ms.topic: conceptual
-ms.date: 02/05/2018
+ms.date: 09/11/2018
 LocalizationGroup: Premium
-ms.openlocfilehash: f7024b3e4827201edb4137eb513333030e39059f
-ms.sourcegitcommit: 2bdcb9e9959302a35ee90a145e4ff832a02aacb9
+ms.openlocfilehash: 87847575d4fff3d3530847246be5bc8f720b5141
+ms.sourcegitcommit: c51461690e8faa121a1325957ca79b7a3975e8b8
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "43250750"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44512133"
 ---
 # <a name="power-bi-premium---what-is-it"></a>Mit jelent a Power BI Premium?
 A Power BI Premium dedikált erőforrásokat biztosít vállalata vagy csapata számára a Power BI szolgáltatás futtatásához. Megbízhatóbb teljesítményt biztosít és nagyobb mennyiségű adat kezelését teszi lehetővé. A Prémium szint lehetővé teszi a tartalom széles körű megosztását anélkül, hogy a megtekintők számára felhasználónkénti licenceket kellene vásárolnia.
 
-A Power BI Premium előnyeit úgy használhatja ki, hogy a munkaterületeket Prémium szintű kapacitáshoz rendeli. A *Prémium szintű kapacitás* egy dedikált erőforrás a szervezet számára. Azok a munkaterületek, melyek nincsenek prémium szintű kapacitáshoz rendelve, egy megosztott kapacitásban fognak szerepelni.
-
-*Megosztott kapacitással* munkafolyamatai más ügyfelekkel megosztott számítási erőforrásokon futnak. Megosztott kapacitás használata esetén az egyéni felhasználók tevékenysége bizonyos mértékben korlátozott az összes felhasználó részére biztosítandó felhasználói élmény érdekében.
+A Power BI Premium előnyeit úgy használhatja ki, hogy a munkaterületeket *Prémium szintű kapacitáshoz* rendeli. A Prémium szintű kapacitás egy dedikált erőforrás a szervezet számára. Azok a munkaterületek, melyek nincsenek prémium szintű kapacitáshoz rendelve, egy *megosztott kapacitásban* fognak szerepelni. Megosztott kapacitással munkafolyamatai más ügyfelekkel megosztott számítási erőforrásokon futnak. Megosztott kapacitás használata esetén az egyéni felhasználók tevékenysége bizonyos mértékben korlátozott az összes felhasználó részére biztosítandó felhasználói élmény érdekében.
 
 [!INCLUDE [powerbi-premium-illustration](./includes/powerbi-premium-illustration.md)]
 
@@ -42,18 +40,18 @@ A Power BI-ban két típusú kapacitás létezik. Az egyik a Megosztott kapacit�
 | **Power BI-jelentések helyszíni közzététele** |![](media/service-premium/not-available.png "Nem érhető el") |![](media/service-premium/available.png "Elérhető") |
 
 *<sup>1</sup> További információt a [Power BI Pro és a Power BI Premium felhasználói képességeit ismertető](service-free-vs-pro.md) cikkben találhat.*  
-*<sup>2</sup> A Power BI Premium általános elérhetőségét követően további fejlesztések várhatók.*
+*<sup>2</sup> A Power BI Premium további fejlesztései várhatók.*
 
 ### <a name="premium-capacity"></a>Prémium-kapacitás
 
-A Power BI Prémium-kapacitás használatának megkezdéséhez hozzá kell rendelnie a munkaterületet a kapacitáshoz. Ha további információkra van szüksége a munkaterületek prémium szintű kapacitáshoz rendelésével kapcsolatban, tekintse meg a [Power BI Premium kezeléséről](service-admin-premium-manage.md) szóló cikket.
+A Power BI Prémium-kapacitás használatának megkezdéséhez hozzá kell rendelnie a munkaterületet a kapacitáshoz. Ha egy munkaterület hátterében prémium szintű kapacitás áll, az a következő előnyöket nyújtja:
 
-Ha egy munkaterülethez prémium szintű kapacitás tartozik, élvezheti a Power BI Premium előnyeit.
+* **Ütemezett frissítések**: Megosztott kapacitással az importált modellek adathalmazainak ütemezett frissítései napi 8 alkalomra vannak korlátozva. Prémium szintű munkaterületekhez akár napi 48 frissítés is ütemezhető. A gyakoribb ütemezett frissítés nem vonatkozik a DirectQuery ütemezett gyorsítótár-frissítési beállításaira. Ezek továbbra is ugyanazok a prémium szintű és a megosztott kapacitásokban.
+* **Elkülönítés dedikált hardverrel**: A megosztott kapacitás természetéből adódóan a jelentések és irányítópultok teljesítményére hatással lehet a kapacitásban jelentkező egyéb számítási feladatok erőforrásokkal szemben támasztott igénye, noha ezt próbáljuk kivédeni. A Prémium szint viszont sokkal egyenletesebb, megbízhatóbb teljesítményt nyújt annak köszönhetően, hogy a munkaterülethez tartozó számítási feladatokat elkülöníti a többi számítási feladattól.
 
-* **Ütemezett frissítések**: Megosztott kapacitással az importált modellek ütemezett frissítései napi 8 alkalomra vannak korlátozva. A frissítések száma a prémium szintű munkaterületeken lévő adathalmazok esetén napi 48-ra emelkedik. A DirectQueryhez tartozó ütemezett gyorsítótár-frissítési beállításokra ugyanakkor ez nem vonatkozik. Azok változatlanok maradnak, függetlenül attól, hogy megosztott vagy prémium szintű kapacitású munkaterülethez tartoznak-e.
-* **Elkülönítés dedikált hardverrel**: A megosztott kapacitás természetéből adódóan a jelentések és irányítópultok teljesítményére hatással lehet a kapacitásban jelentkező egyéb számítási feladatok erőforrásokkal szemben támasztott igénye, noha ezt próbáljuk kivédeni. Ezzel szemben a Prémium szint sokkal egyenletesebb, megbízhatóbb teljesítményt nyújt annak köszönhetően, hogy a munkaterülethez tartozó számítási feladatokat elkülöníti a többi számítási feladattól.
+Ha egy alkalmazás Premium-kapacitással van támogatva (azaz prémium szintű kapacitáshoz rendelt munkaterületről lett közzétéve), a közzétett alkalmazást a cég bármely felhasználója használhatja, függetlenül attól, hogy milyen licenccel rendelkeznek.
 
-Ha egy alkalmazás prémium szintű kapacitással van támogatva (azaz prémium szintű kapacitáshoz rendelt munkaterületről lett közzétéve), a közzétett alkalmazást a cég bármely felhasználója használhatja, függetlenül attól, hogy milyen licenccel rendelkeznek.
+Munkaterületek prémium szintű kapacitáshoz rendeléséről [A Power BI Premium felügyelete](service-admin-premium-manage.md) című cikkből tájékozódhat.
 
 ### <a name="shared-capacity"></a>Megosztott kapacitás
 
@@ -84,7 +82,7 @@ A Power BI Premium csomópont-konfigurációkban különböző virtuálismag-kap
 * A háttérrendszeri virtuális magokat a nagyobb erőforrásigényű feladatokhoz, például a lekérdezések feldolgozásához, a gyorsítótár kezeléséhez, R szerverek futtatásához, adatfrissítéshez, természetes nyelvi feldolgozásához, valós idejű adatcsatornákhoz és a jelentések és képek megjelenítéséhez használja. A háttérrendszeri virtuális magokkal bizonyos mennyiségű memóriát is fenntart. A megfelelő mennyiségű memória nagy adatmodellek esetén vagy akkor válik különösen fontossá, amikor nagy számú aktív adatkészlet kezelésére van szükség.
 
 ## <a name="power-bi-report-server"></a>Power BI jelentéskészítő kiszolgáló
-A Power BI Premium szintű előfizetés keretében lehetőség van a Power BI jelentéskészítő kiszolgáló helyszíni futtatására is. A további tudnivalókért lásd: [Power BI jelentéskészítő kiszolgáló használatának első lépéseit](report-server/get-started.md) ismertető cikket.
+A Power BI Premium egy további előnye, hogy a Power BI jelentéskészítő kiszolgáló helyileg futtatható a vállalatánál. További információkat az [Első lépések a Power BI jelentéskészítő kiszolgálóval](report-server/get-started.md) című cikkben talál.
 
 ## <a name="next-steps"></a>Következő lépések
 [Power BI Premium – gyakori kérdések](service-premium-faq.md)  

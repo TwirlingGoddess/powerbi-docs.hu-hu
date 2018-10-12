@@ -7,21 +7,21 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/06/2018
+ms.date: 09/10/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 6f4e79746116d4a7add356a658ce12028b688dae
-ms.sourcegitcommit: cce10e14c111e8a19f282ad6c032d802ebfec943
+ms.openlocfilehash: 1d51a09094c6825570103ce3c0b51ebfe4b7d47f
+ms.sourcegitcommit: c51461690e8faa121a1325957ca79b7a3975e8b8
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "39657920"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44512087"
 ---
 # <a name="whats-new-in-the-latest-power-bi-desktop-update"></a>Újdonságok a Power BI Desktop legújabb frissítésében
 
-## <a name="august-2018-update-2615192321"></a>2018. augusztusi frissítés (2.61.5192.321)
+## <a name="september-2018-update-2625222582"></a>2018. szeptemberi frissítés (2.62.5222.582)
 
-Augusztusi frissítéseink mind-mind nagyszerűek, és semmivel sem maradnak le a júliusiak mögött. Reméljük, ezek a frissítések is sok örömöt hoznak az Ön számára is: készüljön fel hát a nyári hangulatra. 
+Szeptemberi frissítésink olyanok, mintha egy izgalmas, új tanterembe kerülnénk, ahol új tanulnivalók várnak, építve a korábbi tapasztalatokra, de többre képesen és érettebben, mint eddig bármikor. Reméljük, hogy ezeket a frissítéseket éppen olyan hasznosnak találja, mint egy maroknyi frissen kihegyezett HB-s ceruzát. 
 
 [A Power BI Desktop legújabb verziója](https://powerbi.microsoft.com/desktop) már letölthető. Ha Windows 10 operációs rendszert használ, a **Power BI Desktopot** a Windows Áruházból is letöltheti. A havi verziók a **Power BI Desktop** telepítésének módjától függetlenül megegyeznek. További információkért tekintse meg [ezt a cikket](desktop-get-the-desktop.md). 
 
@@ -36,32 +36,31 @@ A **legújabb frissítésekről** szóló videót az elejétől is végignézhet
 
 Ebben a hónapban az alábbi frissítések kerültek be a **Power BI Desktopba**:
 
-### <a name="modeling"></a>Modellezés
-
-* Adatkategóriák mértékekhez  [[videó]](https://youtu.be/dgv5HhHxxe8?t=15m27s)  [[cikk]](desktop-measures.md)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2018-feature-summary/#dataCategory)
-* Statisztikai DAX-függvények  [[videó]](https://youtu.be/dgv5HhHxxe8?t=18m56s)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2018-feature-summary/#dax)
-
-
 ### <a name="reporting"></a>Jelentéskészítés
 
-* Exportálás PDF-be, jelentések nyomtatása  [[videó]](https://youtu.be/dgv5HhHxxe8?t=12s)  [[cikk]](desktop-export-to-pdf.md)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2018-feature-summary/#print) 
-* Könyvjelzőcsoportok létrehozása [[videó]](https://youtu.be/dgv5HhHxxe8?t=4m4s)  [[cikk]](desktop-bookmarks.md#bookmark-groups)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2018-feature-summary/#bookmarks) 
-* Általánosan elérhető a témahasználat [[videó]](https://youtu.be/dgv5HhHxxe8?t=7m9s)   [[cikk]](desktop-report-themes.md)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2018-feature-summary/#Theming) 
-* Szeletelők módosítása [[videó]](https://youtu.be/dgv5HhHxxe8?t=22m53s)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2018-feature-summary/#slicer) 
+* Pöttydiagram elrendezés támogatása pontdiagramokban [[videó]](https://youtu.be/Rzw2WyI09kY?t=30s)  [[cikk]](power-bi-visualization-scatter.md)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2018-feature-summary/#dotPlot) 
+* Érték és kijelölés másolása táblázatos és mátrix-vizualizációkból [[videó]](https://youtu.be/Rzw2WyI09kY?t=2m33s)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2018-feature-summary/#copy) 
+* Beépített jelentéstéma-beállítások [[videó]](https://youtu.be/Rzw2WyI09kY?t=6m2s)   [[cikk]](desktop-report-themes.md)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2018-feature-summary/#themes) 
+* Általánosan elérhető jelentésoldali elemleírások, kártyák új támogatása [[videó]](https://youtu.be/Rzw2WyI09kY?t=8m10s)  [[cikk]](desktop-tooltips.md)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2018-feature-summary/#themes) 
+* Elemzések akadálymentességének fejlesztései és panelformázás támogatása [[videó]](https://youtu.be/Rzw2WyI09kY?t=9m29s)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2018-feature-summary/#accessibility)
 
 ### <a name="analytics"></a>Elemzések
 
-* Feltételes formázás értékek szerint [[videó]](https://youtu.be/dgv5HhHxxe8?t=7m54s)  [[cikk]](desktop-conditional-table-formatting.md#color-formatting-by-field-value)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2018-feature-summary/#conditionalFormatting) 
-* Python-integráció  [[videó]](https://youtu.be/dgv5HhHxxe8?t=11m14s)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2018-feature-summary/#python) 
-* Q&A-fejlesztések  [[videó]](https://youtu.be/dgv5HhHxxe8?t=13m1s)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2018-feature-summary/#Q&A) 
+* Összesítések (előzetes verzió) [[videó]](https://youtu.be/Rzw2WyI09kY?t=11m37s)  [[cikk]](desktop-aggregations.md)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2018-feature-summary/#aggregations) 
 
 ### <a name="custom-visuals"></a>Egyéni vizualizációk
 
-* Öt új egyéni vizualizáció  [[videó]](https://youtu.be/dgv5HhHxxe8?t=19m48s)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2018-feature-summary/#customVisuals) 
+* Öt új egyéni vizualizáció  [[videó]](https://youtu.be/Rzw2WyI09kY?t=23m8s)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2018-feature-summary/#customVisuals) 
 
 ### <a name="data-connectivity"></a>Adatkapcsolatok
 
-* Általánosan elérhető a Spark-összekötő  [[videó]](https://youtu.be/dgv5HhHxxe8?t=31m41s)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2018-feature-summary/#spark) 
+* PDF-fájl összekötő (előzetes verzió)  [[videó]](https://youtu.be/Rzw2WyI09kY?t=29m26s)  [[cikk]](desktop-connect-pdf.md)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2018-feature-summary/#pdf) 
+* SAP BW-összekötő – mértéktulajdonságok támogatása  [[videó]](https://youtu.be/Rzw2WyI09kY?t=30m15s)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2018-feature-summary/#sapBW) 
+* Adatfolyamok-összekötő (bétaverzió)  [[cikk]](desktop-connect-dataflows.md)   [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2018-feature-summary/#dataflows) 
+
+### <a name="data-preparation"></a>Adatok előkészítése
+* M Intellisense  [[videó]](https://youtu.be/Rzw2WyI09kY?t=30m42s)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2018-feature-summary/#pdf) 
+* Oszlop hozzáadása példákból – szövegkitöltés támogatása  [[videó]](https://youtu.be/Rzw2WyI09kY?t=32m27s)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2018-feature-summary/#addColumn) 
 
 
 > [!NOTE]
@@ -72,7 +71,7 @@ További információkra kíváncsi ezekről a frissítésekről? Olvassa el [bl
 
 Ezeket a frissítéseket az alábbi videó mutatja be. A videó a blogbejegyzésben is megtekinthető.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/dgv5HhHxxe8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Rzw2WyI09kY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 > [!NOTE]
 > Érdekelhetik továbbá [a Power BI szolgáltatás újdonságai](service-whats-new.md), valamint [a Power BI mobilalkalmazásainak újdonságai](mobile-whats-new-in-the-mobile-apps.md).
