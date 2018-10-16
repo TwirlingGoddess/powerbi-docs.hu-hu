@@ -11,12 +11,12 @@ ms.topic: quickstart
 ms.date: 10/02/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 261d6fdb12a75fd1476c5f19ded034a3f85d1fb3
-ms.sourcegitcommit: f6360934b9af20bd630e2d3cb88398e3f5794090
+ms.openlocfilehash: 41bd4148845754d1b714060e538f559b310969d8
+ms.sourcegitcommit: dc8b8a2cf2dcc96ccb46159802ebd9342a7fa840
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "48798931"
+ms.lasthandoff: 10/11/2018
+ms.locfileid: "49112153"
 ---
 # <a name="quickstart---getting-around-in-power-bi-service"></a>Rövid útmutató – Navigáció a Power BI szolgáltatásban
 
@@ -125,7 +125,7 @@ A tartalmakat a nevük vagy a tulajdonosuk alapján is rendezheti.
 
 ![tartalom rendezése](./media/end-user-experience/power-bi-sort.png)
 
-További információkat itt talál: [Navigáció a Power BI-ban: keresés, rendezés, szűrés](end-user-search-filter-sort.md)
+További információkat itt talál: [Navigáció a Power BI-ban: keresés, rendezés, szűrés](end-user-search-sort.md)
 
 ## <a name="clean-up-resources"></a>Erőforrások felszabadítása
 Miután elkészült ezzel a gyors útmutatóval, igény szerint eltávolíthatja a Kiskereskedelmi elemzési mintát, a jelentést és az adatkészletet.
