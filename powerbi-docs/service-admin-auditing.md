@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/10/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: bcf012d94dedfd912479c3e51e0de388b177c294
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 5051ed66b4214b7ef55ecf2a95d5ed4bc38653ce
+ms.sourcegitcommit: a764e4b9d06b50d9b6173d0fbb7555e3babe6351
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34755024"
+ms.lasthandoff: 10/22/2018
+ms.locfileid: "49642011"
 ---
 # <a name="using-auditing-within-your-organization"></a>Naplózás használata a cégnél
 
@@ -202,7 +202,7 @@ A teljes felsorolást itt találja: [Az Office 365 naplójának részletes tulaj
 ## <a name="next-steps"></a>Következő lépések
 
 [Power BI Felügyeleti portál](service-admin-portal.md)  
-[Power BI Premium – mi ez?](service-premium.md)  
+[Mi a Power BI Premium?](service-premium.md)  
 [A Power BI Pro megvásárlása](service-admin-purchasing-power-bi-pro.md)  
 [Engedélyek az Exchange Online-ban](https://technet.microsoft.com/library/jj200692\(v=exchg.150\).aspx)  
 [Csatlakozás az Exchange Online-hoz a PowerShell-lel](https://technet.microsoft.com/library/jj984289\(v=exchg.160\).aspx)  

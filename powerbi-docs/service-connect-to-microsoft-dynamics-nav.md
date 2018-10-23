@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/30/2018
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 94ca76af9366752f4e1033fa05147f867e7096d9
-ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
+ms.openlocfilehash: 2085f1ca852839c27c4943872e5f5ddb248e8638
+ms.sourcegitcommit: a764e4b9d06b50d9b6173d0fbb7555e3babe6351
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/10/2018
-ms.locfileid: "48908900"
+ms.lasthandoff: 10/22/2018
+ms.locfileid: "49641390"
 ---
 # <a name="connect-to-microsoft-dynamics-nav-with-power-bi"></a>Kapcsolódás a Microsoft Dynamics NAV-hoz a Power BI-jal
 A Power BI használatával egyszerűen elemezheti Microsoft Dynamics NAV-adatait. A Power BI lekéri az értékesítési és a pénzügyi adatokat is, majd irányítópultot és jelentést is magában foglaló alkalmazást készít az adatok alapján. A Power BI-nak szüksége van az Ön engedélyeire az adatokat tartalmazó táblákhoz, ebben az esetben az értékesítési és pénzügyi adatokhoz. A követelményekről alább talál további információkat. Az alkalmazás telepítése után az irányítópultot és a jelentéseket a Power BI szolgáltatásban ([https://powerbi.com](https://powerbi.com)) és a Power BI-mobilalkalmazásokban is megtekintheti. 
@@ -29,7 +29,7 @@ A Power BI használatával egyszerűen elemezheti Microsoft Dynamics NAV-adatait
    ![](media/service-connect-to-microsoft-dynamics-nav/mdnav.png)
 4. Amikor a rendszer kéri, adja meg Microsoft Dynamics NAV OData URL-címét. Az URL-címnek a következő mintának kell megfelelnie:
    
-    `https//instance.navserver.com:7048/DynamicsNAV90_Instance1/OData/Company('CRONUS%20International%20Ltd.')`
+    `https://instance.navserver.com:7048/DynamicsNAV90_Instance1/OData/Company('CRONUS%20International%20Ltd.')`
    
    * „instance.navserver.com”, az Ön NAV-kiszolgálójának nevével
    * „DynamicsNAV90\_Instance1” a saját NAV-kiszolgálópéldány nevével
@@ -72,7 +72,7 @@ Ha ezt a hibaüzenetet kapja a Microsoft Dynamics NAV URL-címének begépelése
 
 * Az URL-cím pontosan megfelel a következő mintának:
   
-    `https//instance.navserver.com:7048/DynamicsNAV90_Instance1/OData/Company('CRONUS%20International%20Ltd.')`
+    `https://instance.navserver.com:7048/DynamicsNAV90_Instance1/OData/Company('CRONUS%20International%20Ltd.')`
   
   * „instance.navserver.com”, az Ön NAV-kiszolgálójának nevével
   * „DynamicsNAV90\_Instance1” a saját NAV-kiszolgálópéldány nevével
@@ -92,11 +92,11 @@ Ha a hitelesítő párbeszédablak után a „Hoppá!” hibaüzenet jelenik meg
 
 * Ellenőrizze, hogy az URL-cím megfelel-e a fent megadott sémának. Gyakori hiba, hogy csak az alábbi részt adják meg:
   
-    `https//instance.navserver.com:7048/DynamicsNAV90\_Instance1/OData`
+    `https://instance.navserver.com:7048/DynamicsNAV90\_Instance1/OData`
   
     Meg kell adni a „Company('CRONUS%20International%20Ltd.')” részt is, a saját NAV-beli vállalatnévvel kitöltve:
   
-    `https//instance.navserver.com:7048/DynamicsNAV90\_Instance1/OData/Company('CRONUS%20International%20Ltd.')`
+    `https://instance.navserver.com:7048/DynamicsNAV90\_Instance1/OData/Company('CRONUS%20International%20Ltd.')`
 
 ## <a name="next-steps"></a>További lépések
 * [Mik a Power BI szolgáltatáson belüli alkalmazások?](service-create-distribute-apps.md)

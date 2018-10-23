@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 03/01/2018
+ms.date: 10/16/2018
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: f15bd3395ad9edc39589a0a5b1563cfcc00e2c3c
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 6cd667a81a743a0b074155e0e16a49178157bc6c
+ms.sourcegitcommit: a3ce866caba24217bcdd011e892b9ea72f3d2400
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46547878"
+ms.lasthandoff: 10/18/2018
+ms.locfileid: "49396497"
 ---
 # <a name="how-to-make-your-excel-data-work-well-with-qa-in-power-bi"></a>Excel-adatok megfelelő működésének biztosítása a Q&A és a Power BI használatánál
 Ha Ön a Power BI-jal használható adatmodelleket vagy Excel-munkafüzeteket készít, akkor olvasson tovább...
@@ -45,7 +45,7 @@ Néhány tanács a Q&A legjobb kihasználásához a munkafüzetben.
 
 ## <a name="next-steps"></a>Következő lépések
 Vissza a [Q&A a Power BI-ban](consumer/end-user-q-and-a.md) című témakörhöz  
-[Helyszíni adatkészlet előkészítése Q&A-hez](consumer/end-user-q-and-a-direct-query.md)   
+[Helyszíni adatkészlet előkészítése Q&A-hez](service-q-and-a-direct-query.md)   
 [Rövid útmutató a Q&A használatához](power-bi-visualization-introduction-to-q-and-a.md)  
 [Adatbeolvasás (a Power BI-ban)](service-get-data.md)  
 

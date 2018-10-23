@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/29/2018
 ms.author: mihart
 LocalizationGroup: Connect to services
-ms.openlocfilehash: add6a02d10c2dfe0e0fd93b9d12f03a10d057241
-ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
+ms.openlocfilehash: 8d8446f231d1de3527d5371a55542641c29cca83
+ms.sourcegitcommit: 1a79e48ac820c28c5d0fd05399f49ed22fc74ed7
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/10/2018
-ms.locfileid: "48908210"
+ms.lasthandoff: 10/19/2018
+ms.locfileid: "49435281"
 ---
 # <a name="connect-to-the-services-you-use-with-power-bi"></a>Kapcsolódás a Power BI segítségével a használt szolgáltatásokhoz
 
@@ -60,7 +60,7 @@ Használ olyan szolgáltatást, amelyből szeretné, ha Power BI-alkalmazás ké
 Van olyan szolgáltatása, amelyhez szeretne egy alkalmazást létrehozni? [Küldje be javaslatát](https://azure.microsoft.com/marketplace/programs/certified/apply/), és válassza ki a „Power BI tartalomcsomag közzététele” lehetőséget a folyamat elindításához.
 
 ## <a name="next-steps"></a>Következő lépések
-* [Mik a Power BI szolgáltatáson belüli alkalmazások?](../service-install-use-apps.md)
+* [Mik a Power BI szolgáltatáson belüli alkalmazások?](end-user-apps.md)
 * [Adatok lekérése a Power BI-ban](../service-get-data.md)
 * További kérdései vannak? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)
 

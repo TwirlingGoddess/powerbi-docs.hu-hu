@@ -2,8 +2,6 @@
 
 Most, hogy már tudja, milyen gördülékenyen működik együtt az Excel és a Power BI, és megtanulta, hogyan készíthet vizualizációkat a jelentésekhez és az irányítópultokhoz, ideje megtudni, miként tudja őket megosztani munkatársaival és barátaival. A Power BI használatával a **közzététel és megosztás** könnyen megoldható.
 
-Ez a fejezet azt mutatja be, hogy mennyire egyszerűen átültethetők az Excel-munkafüzetek a Power BI-ba, és bemutatja a Power BI és az Excel közötti kitűnő együttműködést.
-
 ## <a name="share-and-collaborate-with-colleagues-in-power-bi"></a>Megosztás és együttműködés a Power BI-ban
 *Ismerje meg a Power BI megosztást és együttműködést megkönnyítő eszközeit*
 
