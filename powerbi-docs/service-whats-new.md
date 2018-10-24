@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 09/23/2018
+ms.date: 10/16/2018
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: 10f637e822817d6bd0fa1692a6d1b029be312d4f
-ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
+ms.openlocfilehash: b54a38f4c5639eae549a36a93c887d87630b7daf
+ms.sourcegitcommit: a3ce866caba24217bcdd011e892b9ea72f3d2400
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/10/2018
-ms.locfileid: "48909176"
+ms.lasthandoff: 10/18/2018
+ms.locfileid: "49396750"
 ---
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>A Power BI szolgáltatás újdonságai
@@ -212,7 +212,7 @@ A részletekről a [Power BI-csapat blogján](https://powerbi.microsoft.com/blog
 
 A részletekről a [Power BI-csapat blogján](https://powerbi.microsoft.com/blog/power-bi-service-may-update-file-size-increase-to-1-gb/) olvashat.
 
-* [Power BI Q&A-támogatás az SQL Server 2016 Analysis Services rendszerbeli táblázatos modellekhez](consumer/end-user-q-and-a-direct-query.md): Örömmel jelenthetjük, hogy továbbfejlesztettük a Power BI Q&A felhasználói élményét, és megjelentettük a Power BI Q&A nyilvános előzetes verzióját a vállalati átjáró által csatlakoztatott adatforrásokhoz – elsőként pedig az SQL Server 2016 Analysis Services rendszerbeli táblázatos modellek kapnak támogatást. A részletekről [ebben a blogbejegyzésben](https://powerbi.microsoft.com/blog/power-bi-q-a-for-enterprise-gateway-connected-data-sources-now-available-in-public-preview/) olvashat.
+* [Power BI Q&A-támogatás az SQL Server 2016 Analysis Services rendszerbeli táblázatos modellekhez](service-q-and-a-direct-query.md): Örömmel jelenthetjük, hogy továbbfejlesztettük a Power BI Q&A felhasználói élményét, és megjelentettük a Power BI Q&A nyilvános előzetes verzióját a vállalati átjáró által csatlakoztatott adatforrásokhoz – elsőként pedig az SQL Server 2016 Analysis Services rendszerbeli táblázatos modellek kapnak támogatást. A részletekről [ebben a blogbejegyzésben](https://powerbi.microsoft.com/blog/power-bi-q-a-for-enterprise-gateway-connected-data-sources-now-available-in-public-preview/) olvashat.
 * [Helyi fájlok támogatása az Excel-jelentésekben](service-excel-workbook-files.md#local-excel-workbooks): Mostantól az Excel-fájljait a helyi meghajtóról vagy más társzolgáltatásokból is feltöltheti, és az Excel-jelentést ugyanúgy használhatja a Power BI funkcióival, mint ahogyan az Excel Online-ban tenné. A részletekről a [ebben a blogbejegyzésben](https://powerbi.microsoft.com/blog/powerbi-upload-excel-reports-from-local-files/) olvashat.
 
 **2016. április 28.**

@@ -10,12 +10,12 @@ ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 10/02/2018
 ms.author: mihart
-ms.openlocfilehash: e4173811db0de0dc95e0bd324517a5750165983e
-ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
+ms.openlocfilehash: 666938d8d852793b68bb278147c61f077c839ed2
+ms.sourcegitcommit: 1a79e48ac820c28c5d0fd05399f49ed22fc74ed7
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/10/2018
-ms.locfileid: "48908647"
+ms.lasthandoff: 10/19/2018
+ms.locfileid: "49435364"
 ---
 # <a name="create-a-power-bi-dashboard-from-a-report"></a>Power BI-irányítópult létrehozása jelentésből
 Áttekintette [A Power BI-irányítópultok](service-dashboards.md) részben leírtakat, és most saját irányítópultot kíván létrehozni. Az irányítópultok létrehozásának számos különböző módja van: többek között jelentésből, az alapoktól, adatkészletből, illetve egy meglévő irányítópult megkettőzésével is létrehozhatók stb.  
@@ -109,7 +109,7 @@ Gratulálunk, létrehozta az első irányítópultját! Most, hogy már rendelke
 ## <a name="next-steps"></a>Következő lépések
 * [Csempék átméretezése és áthelyezése](service-dashboard-edit-tile.md)
 * [Információk az irányítópult csempéiről](service-dashboard-tiles.md)
-* [Az irányítópult megosztása alkalmazás létrehozásával](service-install-use-apps.md)
+* [Az irányítópult megosztása alkalmazás létrehozásával](service-create-workspaces.md)
 * [Power BI – Alapfogalmak](service-basic-concepts.md)
 * [Tippek a tökéletes irányítópult megtervezéséhez](service-dashboards-design-tips.md)
 

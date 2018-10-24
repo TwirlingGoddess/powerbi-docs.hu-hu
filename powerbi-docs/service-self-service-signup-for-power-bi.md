@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mblythe
 LocalizationGroup: Get started
-ms.openlocfilehash: 411fd408998ba67c4a91ae01e166396530631678
-ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
+ms.openlocfilehash: bfd3c1242ff5eb0d00078dbeb376dba8b0b6aa20
+ms.sourcegitcommit: a764e4b9d06b50d9b6173d0fbb7555e3babe6351
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/10/2018
-ms.locfileid: "48909061"
+ms.lasthandoff: 10/22/2018
+ms.locfileid: "49641712"
 ---
 # <a name="signing-up-for-power-bi-as-an-individual"></a>Egyéni Power BI-regisztráció
 Megtudhatja, hogyan regisztrálhat a Power BI szolgáltatásra, és hogyan veheti használatba személyes jelentéskészítési és vizualizációs munkáihoz.
@@ -142,7 +142,7 @@ Számos esetben a Power BI-regisztráció elvégezhető a fentebb ismertetett eg
 ## <a name="next-steps"></a>Következő lépések  
 [A Power BI Pro megvásárlása](service-admin-purchasing-power-bi-pro.md)  
 [A Power BI szolgáltatási szerződése egyéni felhasználók számára](https://powerbi.microsoft.com/terms-of-service/)  
-[Power BI Premium – mi ez?](service-premium.md)  
+[Mi a Power BI Premium?](service-premium.md)  
 [Power BI Premium-tanulmány](https://aka.ms/pbipremiumwhitepaper)  
 
 További kérdései vannak? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)
