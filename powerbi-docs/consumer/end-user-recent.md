@@ -8,20 +8,17 @@ featuredvideoid: G26dr2PsEpk
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 09/01/2018
+ms.date: 10/01/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: a165b58eae7309070dfe0bc33adc0a3e47ec7991
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 1479b8fc431428a1b44ccd06bb501071042ada6e
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46553100"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48908486"
 ---
 # <a name="recent-content-in-power-bi-service"></a>A **Legutóbbi** tartalom megtekintése a Power BI szolgáltatásban
-
-
-## <a name="what-is-recent-content"></a>A legutóbbi tartalom
 A legutóbbi tartalom a Power BI szolgáltatásban legutóbb megtekintett legfeljebb 20 tételt jelenti.  Ezek között szerepelhetnek irányítópultok, jelentések, alkalmazások és munkafüzetek az összes munkaterületről.
 
 ![Legutóbbi tartalom ablak](./media/end-user-recent/power-bi-recent-screen.png)
@@ -39,10 +36,10 @@ Ha ötnél több elemet tekintett meg, kattintson az **Összes megjelenítése**
 
 ![az összes legutóbbi tartalom megjelenítése](./media/end-user-recent/power-bi-recent-list.png)
 
-Innen ugyanúgy használhatja a tartalmakat, ahogyan az [**Irányítópultok**](end-user-dashboards.md), [**Jelentések**](end-user-reports.md), **Munkafüzetek** egyes lapjairól, illetve az [**Alkalmazások**](end-user-apps.md) képernyőről.
+Innen ugyanúgy használhatja a tartalmakat, ahogyan az [**Irányítópultok**](end-user-dashboards.md), [**Jelentések**](end-user-reports.md), **Munkafüzetek** egyes lapjairól, illetve az Alkalmazások <!--[**Apps**](end-user-apps.md)--> képernyőről.
 
-## <a name="next-steps"></a>További lépések
-[Power BI szolgáltatás ‒ Alkalmazások](end-user-apps.md)
+## <a name="next-steps"></a>Következő lépések
+<!--[Power BI service Apps](end-user-apps.md)-->
 
 További kérdései vannak? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)
 
