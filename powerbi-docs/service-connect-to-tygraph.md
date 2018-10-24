@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 4e9e10f713be50707909c68b104f82cada6777b6
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: 3c508044e9f21c09d3115fd745320be9ad0161bc
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37599047"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548442"
 ---
 # <a name="connect-to-tygraph--with-power-bi"></a>Csatlakozás a tyGraph-hoz a Power BI-t használva
 A Power BI-tartalomcsomag segítségével a Power BI-ban is megtekintheti és elemezheti tyGraph-adatait. Első lépésként csatlakozzon tyGraph-fiókjához, és töltse be az azokhoz tartozó irányítópultot, jelentéseket és adatkészletet. A kész tartalom olyan összefüggéseket tartalmaz, mint a Measure of Active Engagement (MAE pontszám, az aktív elköteleződés mértéke) és a Top Contributors (Legtöbbet hozzájárulók). A legfontosabb információk kiemelése érdekében testre szabhatja a betöltött vizualizációs elemeket.  A beállított ütemezésnek megfelelően a rendszer automatikusan frissíteni fogja az adatokat.
@@ -51,14 +51,14 @@ Csatlakozás a [Power BI-hoz készített tyGraph-hoz](https://app.powerbi.com/ge
 
 **Mi a következő lépés?**
 
-* [Kérdéseket tehet fel a Q&A mezőben](power-bi-q-and-a.md) az irányítópult tetején.
+* [Kérdéseket tehet fel a Q&A mezőben](consumer/end-user-q-and-a.md) az irányítópult tetején.
 * [Módosíthatja az irányítópult csempéit](service-dashboard-edit-tile.md).
-* [Kiválaszthatja valamelyik csempét](service-dashboard-tiles.md) a mögöttes jelentés megnyitásához.
-* Az adatkészlet az ütemezés szerint naponta frissül, de módosíthatja is a frissítési ütemezést, vagy igény szerint frissíthet bármikor, az **Azonnali frissítés** lehetőségre kattintva.
+* [Kiválaszthatja valamelyik csempét](consumer/end-user-tiles.md) a mögöttes jelentés megnyitásához.
+* Noha az adatkészlet napi frissítésre van ütemezve, módosíthatja a frissítési ütemezést, vagy igény szerint frissíthet az **Azonnali frissítés** gombbal.
 
 <a name="FindingParams"></a>
 
-## <a name="finding-parameters"></a>Keresési paraméterek
+## <a name="finding-parameters"></a>Paraméterek helye
 Importálhatja az összes olyan csoporthoz tartozó adatot, amelyhez hozzáféréssel rendelkezik, de meghatározhatja az adatok egy részhalmazának az importálását is. Dátum szerinti részhalmazt is kialakíthat. Létrehozhat több tyGraph-irányítópultot is adott csoportokhoz és/vagy dátumokhoz tartozó adatkészletek figyeléséhez. Ezekről a paraméterekről alább olvashat további információt.
 
 **Csoportok**

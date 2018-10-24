@@ -7,20 +7,20 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 03/26/2018
+ms.date: 09/26/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 18c9fe3d50245ff1d0745c0a3ae1e830b3f9be45
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 9654e2838b1b62dcc856e2870b3fcc1e5301641c
+ms.sourcegitcommit: 07beb155ec0ea1cdcc741085251ed06d7bc8581c
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46548327"
+ms.lasthandoff: 10/09/2018
+ms.locfileid: "48874575"
 ---
 # <a name="card-visualizations"></a>Kártyavizualizációk
 Néha csupán egyetlen szám a legfontosabb, amit nyomon szeretne követni a Power BI-irányítópulton vagy -jelentésben, például az összesített értékesítés, az egy évre vetített piaci részesedés, vagy a lehetőségek száma összesen. Az ilyen típusú vizualizációkat *Kártyáknak* nevezzük. Csakúgy, mint szinte minden natív Power BI-vizualizáció, a Kártyák is a jelentésszerkesztővel vagy a Q&A-val hozhatók létre.
 
-![kártyavizualizáció](./media/power-bi-visualization-card/pbi_opptuntiescard.png)
+![kártyavizualizáció](media/power-bi-visualization-card/pbi_opptuntiescard.png)
 
 ## <a name="create-a-card-using-the-report-editor"></a>Kártyák létrehozása a jelentésszerkesztővel
 Ez az útmutatás a Kiskereskedelmi elemzési mintát használja. Annak érdekében, hogy követni tudja a lépéseket, [töltse le a mintát](../sample-datasets.md), mely a Power BI szolgáltatásban (az app.powerbi.com webhelyen) vagy a Power BI Desktopban használható.   
@@ -32,7 +32,7 @@ Ez az útmutatás a Kiskereskedelmi elemzési mintát használja. Annak érdeké
    ![](media/power-bi-visualization-card/pbi_rptnumbertilechart.png)
 2. A Megjelenítések ablaktáblán kattintson a Kártya ikonra.
 
-   ![](media/power-bi-visualization-card/pbi_changechartcard.png)
+   ![](media/power-bi-visualization-card/power-bi-templates.png)
 6. A vizualizáció az irányítópulton való rögzítéséhez vigye a kurzort a kártya fölé, és válassza a rögzítés ikonját ![](media/power-bi-visualization-card/pbi_pintile.png).
 
    ![](media/power-bi-visualization-card/power-bi-pin-icon.png)
@@ -44,20 +44,21 @@ Ez az útmutatás a Kiskereskedelmi elemzési mintát használja. Annak érdeké
 
    Megjelenik egy üzenet (a jobb felső sarok közelében), amely értesíti, hogy sikeresen hozzáadta a vizualizációt az irányítópultjához csempeként.
 
-   ![](media/power-bi-visualization-card/power-bi-pin-success-message.png)
+   ![](media/power-bi-visualization-card/power-bi-success2.png)
 9. Válassza az **Ugrás az irányítópultra** lehetőséget. Itt [szerkesztheti és áthelyezheti](../service-dashboard-edit-tile.md) a rögzített vizualizációt.
 
 
 ## <a name="create-a-card-from-the-qa-question-box"></a>Kártya létrehozása a Q&A kérdésmezőben
-Kártyák legkönnyebben a Q&A kérdésmezőben hozhatók létre. A Q&A kérdésmező a Power BI szolgáltatásban (az app.powerbi.com webhelyen) irányítópultokon és jelentésekben érhető el. A következő lépések azt írják le, hogyan hozható létre egy Kártya a Power BI szolgáltatás irányítópultjain. Ha a Power BI Desktopban szeretne létrehozni egy kártyát a Q&A-val, a Q&A a Desktophoz készült előzetes verziójának jelentései esetében [ezt az útmutatást kövesse](https://powerbi.microsoft.com/en-us/blog/power-bi-desktop-december-feature-summary/#QandA).
+Kártyák legkönnyebben a Q&A kérdésmezőben hozhatók létre. A Q&A kérdésmező a Power BI szolgáltatásban az irányítópultokon és jelentésekben vagy a Desktop jelentés nézetében érhető el. A következő lépések azt írják le, hogyan hozható létre egy Kártya a Power BI szolgáltatás irányítópultjain. Ha a Power BI Desktopban szeretne létrehozni egy kártyát a Q&A-val, a Q&A a Desktophoz készült előzetes verziójának jelentései esetében [ezt az útmutatást kövesse](https://powerbi.microsoft.com/en-us/blog/power-bi-desktop-december-feature-summary/#QandA).
 
-1. Hozzon létre egy [irányítópultot](../consumer/end-user-dashboards.md), és [kérje le az adatokat](../service-get-data.md). Ebben a példában a [Lehetőségelemzési mintát](../sample-opportunity-analysis.md) használjuk.
+1. Hozzon létre egy [irányítópultot](../service-dashboards.md), és [kérje le az adatokat](../service-get-data.md). Ebben a példában a [Lehetőségelemzési mintát](../sample-opportunity-analysis.md) használjuk.
 
 1. Az irányítópult tetején angolul kezdje beírni a kérdés mezőbe, hogy mire is kíváncsi az adatokkal kapcsolatban. 
 
    ![](media/power-bi-visualization-card/power-bi-q-and-a-box.png)
 
->**TIPP**: A Power BI szolgáltatás jelentéseiben, a [Szerkesztési nézetben](../consumer/end-user-reading-view.md) válassza a **Kérdés feltevése** lehetőséget a felső menüsorban. A Power BI Desktop jelentéseiben keressen egy üres területet a jelentésben, majd kattintson rá duplán a kérdésmező megnyitásához.
+> [!TIP]
+> A Power BI szolgáltatás jelentéseiben, a szerkesztési nézetben válassza a **Kérdés feltevése** lehetőséget a felső menüsorban. A Power BI Desktop jelentéseiben keressen egy üres területet a jelentésben, majd kattintson rá duplán a kérdésmező megnyitásához.
 
 3. Például írja be a „number of opportunities” (lehetőségek száma) kifejezést a kérdés mezőbe.
 
@@ -75,7 +76,7 @@ Kártyák legkönnyebben a Q&A kérdésmezőben hozhatók létre. A Q&A kérdés
 
    A jobb felső sarokban megjelenik a sikert jelző üzenet, amely tájékoztatja arról, hogy a vizualizáció csempeként hozzá lett adva az irányítópulthoz.  
 
-   ![](media/power-bi-visualization-card/power-bi-success.png)
+   ![](media/power-bi-visualization-card/power-bi-success2.png)
 7. Az új csempe megtekintéséhez kattintson az **Ugrás az irányítópultra** lehetőségre. Itt [többek között átnevezheti, átméretezheti és áthelyezheti a csempét az irányítópulton, és hivatkozást adhat hozzá](../service-dashboard-edit-tile.md).
 
    ![](media/power-bi-visualization-card/power-bi-pinned.png)
@@ -87,28 +88,24 @@ Kártyák legkönnyebben a Q&A kérdésmezőben hozhatók létre. A Q&A kérdés
 ## <a name="format-a-card"></a>Kártya formázása
 A címkék, szöveg, színét és egyebek módosításához több lehetőség áll rendelkezésre. A tanulás legjobb módja, ha létrehoz egy kártyát, és azután részletesebben is megismerkedik a Formázás ablaktábla lehetőségeivel. Bemutatunk néhányat az elérhető formázási lehetőségek közül. 
 
-1. Kezdő lépésként nyissa meg a Formázás ablaktáblát az ecset ikon kiválasztásával. 
+1. Kezdő lépésként nyissa meg a Formázás ablaktáblát a festőhenger ikon kiválasztásával. 
 
-    ![](media/power-bi-visualization-card/power-bi-format-card.png)
+    ![kártya, amelyen a festőhenger kiemelve látható](media/power-bi-visualization-card/power-bi-format-card.png)
 2. Bontsa ki az **Adatfelirat** elemet, majd módosítsa a színt, a méretet és a betűtípust. Ha több ezer üzlettel rendelkezik, akkor a **Megjelenítési egységek** használatával ezresével jelenítheti meg az üzleteket, és beállíthatja a tizedesjegyeket is. Például 125,8 e a 125 832,00 helyett.
 
 3.  Bontsa ki a **Kategóriacímke** elemet, majd módosítsa a színt és a méretet.
 
-    ![](media/power-bi-visualization-card/power-bi-card-format.png)
+    ![a választott szín a sötétkék](media/power-bi-visualization-card/power-bi-card-format.png)
 
 4. Bontsa ki a **Háttér** elemet, és a csúszkát tolja „On” (Be) állásba.  Mostantól módosíthatja a háttérszínt és az átlátszóságot.
 
-    ![](media/power-bi-visualization-card/power-bi-format-color.png)
+    ![csúszka ON (BE) állásban](media/power-bi-visualization-card/power-bi-format-color.png)
 
 5. Folytassa is a formázási beállítások felfedezését, amíg a kártya pontosan olyan nem lesz, amilyennek kívánja. 
 
-    ![](media/power-bi-visualization-card/power-bi-formatted.png)
+    ![A kártya az összes formázási művelet elvégzése után](media/power-bi-visualization-card/power-bi-formatted.png)
 
 ## <a name="next-steps"></a>Következő lépések
-[Irányítópult-csempék a Power BI-ban](../consumer/end-user-tiles.md)
+[Kombinált diagramok a Power BI-ban](power-bi-visualization-combo-chart.md)
 
-[Irányítópultok a Power BI-ban](../consumer/end-user-dashboards.md)
-
-[Power BI – Alapfogalmak](../consumer/end-user-basic-concepts.md)
-
-További kérdései vannak? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)
+[Vizualizációtípusok a Power BI-ban](power-bi-visualization-types-for-reports-and-q-and-a.md)

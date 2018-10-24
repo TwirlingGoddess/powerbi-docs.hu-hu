@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-report-server
 ms.topic: conceptual
-ms.date: 03/19/2018
+ms.date: 09/19/2018
 ms.author: maggies
-ms.openlocfilehash: 3efd7da5ef320e08ab620da3c63a6d3ff327396a
-ms.sourcegitcommit: 49570ab8f5b5cd5bab4cd388f4281b1372bcb80b
+ms.openlocfilehash: 1d74ed5e39d73252d0779458d0ba8619908c99f2
+ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/09/2018
-ms.locfileid: "35250384"
+ms.lasthandoff: 09/22/2018
+ms.locfileid: "46565912"
 ---
 # <a name="install-power-bi-report-server"></a>A Power BI jelentéskészítő kiszolgáló telepítése
 
@@ -30,11 +30,11 @@ Javasoljuk, hogy a Power BI jelentéskészítő kiszolgáló telepítése előtt
 ### <a name="power-bi-report-server-product-key"></a>Power BI jelentéskészítő kiszolgáló termékkulcsa
 
 #### <a name="power-bi-premium"></a>Power BI Premium
-Ha a Power BI Premiumot vásárolta meg, a Power BI Felügyeleti portál **Premium beállítások** lapján érheti el a Power BI jelentéskészítő kiszolgáló termékkulcsát. Ez csak a globális rendszergazdák és a Power BI szolgáltatás azon felhasználói számára érhető el, akikhez rendszergazdai szerepkört rendeltek.
+Ha a Power BI Premiumot vásárolta meg, a Power BI felügyeleti portáljának **Premium-beállítások** lapján érheti el a Power BI jelentéskészítő kiszolgáló termékkulcsát. Ezt csak a globális rendszergazdák vagy a Power BI szolgáltatásadminisztrátori szerepköréhez rendelt felhasználók érhetik el.
 
 ![](../media/service-admin-premium-manage/pbirs-product-key.png "A Power BI jelentéskészítő kiszolgáló kulcsa a Premium-beállításokon belül")
 
-Ha rákattint a **Power BI jelentéskészítő kiszolgáló termékkulcsa** elemre, a termékkulcs megjelenik egy párbeszédpanelben. Innen lemásolhatja és felhasználhatja a telepítéshez.
+A **Power BI jelentéskészítő kiszolgáló kulcsának** kiválasztásakor megjelenik a termékkulcsot tartalmazó párbeszédpanel. Ezt másolhatja és használhatja a telepítéshez.
 
 ![](../media/service-admin-premium-manage/pbirs-product-key-dialog.png "A Power BI jelentéskészítő kiszolgáló termékkulcsa")
 
@@ -77,7 +77,7 @@ A telepítés során nincs szükség elérhető SQL Server adatbázismotor-kiszo
 
 ## <a name="configuring-your-report-server"></a>A jelentéskészítő kiszolgáló beállítása
 
-Ha a telepítőben rákattint a **Jelentéskészítő kiszolgáló konfigurálása** elemre, megjelenik a Reporting Services konfigurációkezelő. További információkért tekintse meg a [Reporting Services konfigurációkezelő](https://docs.microsoft.com/sql/reporting-services/install-windows/reporting-services-configuration-manager-native-mode) oldalt.
+Ha kiválasztotta a **Jelentéskészítő kiszolgáló konfigurálása** lehetőséget a telepítés során, megnyílik a Reporting Services konfigurációkezelő. További információkért tekintse meg a [Reporting Services konfigurációkezelő](https://docs.microsoft.com/sql/reporting-services/install-windows/reporting-services-configuration-manager-native-mode) oldalt.
 
 A Reporting Services kezdeti konfigurációjának befejezéséhez [hozzon létre egy adatbázist a jelentéskészítő kiszolgáló számára](https://docs.microsoft.com/sql/reporting-services/install-windows/ssrs-report-server-create-a-report-server-database). A lépés végrehajtásához SQL Server adatbázis-kiszolgáló szükséges.
 

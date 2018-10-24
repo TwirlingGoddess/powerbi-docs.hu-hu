@@ -8,24 +8,24 @@ featuredvideoid: PVcfPoVE3Ys
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/28/2018
+ms.date: 09/28/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 13bc26eaecdcc9b3a00f22f75f6f9a5322d823f6
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: bd09adf21292b16ee27f111ac92bbd8c83c384d8
+ms.sourcegitcommit: 769ef3c8cbafd9ad5979eb4023a394ac7dba8d02
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44744430"
+ms.lasthandoff: 09/28/2018
+ms.locfileid: "47448845"
 ---
 # <a name="scatter-charts-and-bubble-charts-in-power-bi"></a>Pontdiagramok és buborékdiagramok a Power BI-ban
 A pontdiagramok mindig két értéktengellyel rendelkeznek. A vízszintes tengely mentén numerikus adatok egy készletét ábrázolják, a függőleges tengely mentén pedig numerikus adatok egy másik készletét. A diagram pontokat jelenít meg az x és y numerikus értékek metszéspontjában, így egyetlen adatponttá kombinálja ezeket az értékeket. Ezek az adatpontok egyenletesen vagy egyenetlenül oszthatók el a vízszintes tengely mentén az adatoktól függően.
 
 A buborékdiagramokban az adatpontok helyett buborékok szerepelnek, és a buborékok *mérete* az adatok egy további dimenzióját jelöli.
 
-![](media/power-bi-visualization-scatter/power-bi-bubble-chart.png)
+![minta buborékdiagram](media/power-bi-visualization-scatter/power-bi-bubble-chart.png)
 
-Beállíthatja az adatpontok számát  
+Beállíthatja az adatpontok számát, amely legfeljebb 10 000 lehet.  
 
 ## <a name="when-to-use-a-scatter-chart-or-bubble-chart"></a>Mikor érdemes pontdiagramot vagy buborékdiagramot használni?
 ### <a name="scatter-charts-are-a-great-choice"></a>A pontdiagram remek választás a következő esetekben:
@@ -50,7 +50,7 @@ Ebben a videóban megtekintheti, ahogy Will létrehoz egy pontdiagramot, majd az
 
 Ez az útmutatás a Kiskereskedelmi elemzési mintát használja. Annak érdekében, hogy követni tudja a lépéseket, [töltse le a mintát](../sample-datasets.md), mely a Power BI szolgáltatásban (az app.powerbi.com webhelyen) vagy a Power BI Desktopban használható.   
 
-1. [Üres jelentésoldal](../power-bi-report-add-page.md) létrehozásához válassza a sárga plusz ikont.
+1. Nyissa meg a jelentést Szerkesztési nézetben, és válassza a sárga plusz jelet egy [üres jelentésoldal](../power-bi-report-add-page.md) létrehozásához.
  
 2. A Mezők panelen válassza az alábbi mezőket:
    - **Értékesítés** > **Értékesítés Négyzetláb szerint**
@@ -81,20 +81,20 @@ Most adjunk hozzá egy harmadik dimenziót.
    
     ![](media/power-bi-visualization-scatter/pbi_scatter_chart_hover.png)
 
-3. Ha a buborékdiagramon belüli adatpontok számát szeretné megváltoztatni, a **Vizualizációk** panel **Formázás** szakaszában bontsa ki az **Általános** kártyát, és állítsa az **Adatmennyiséget** a kívánt értékre. A maximális adatmennyiség értékeként bármilyen számot megadhat 10.000-ig. Ahogy egyre nagyobb számokat használ, javasolt először tesztelést végezni a megfelelő teljesítmény biztosítása érdekében. 
+3. A buborékdiagramban megjelenő adatpontok számának beállításához a **Vizualizációk** ablaktábla **Formázás** szakaszában bontsa ki az **Általános** kártyát, és állítsa be az **Adatmennyiséget**. A maximális adatmennyiség értékeként bármilyen számot megadhat 10.000-ig. Ahogy egyre nagyobb számokat használ, javasolt először tesztelést végezni a megfelelő teljesítmény biztosítása érdekében. 
 
-    ![Adatmennyiség](./media/power-bi-visualization-scatter/pbi_scatter_data_volume.png) 
+    ![Adatmennyiség](media/power-bi-visualization-scatter/pbi_scatter_data_volume.png) 
 
    > [!NOTE]
    > A nagy számú adatpont hosszabb betöltési idővel jár, ezért ha nagyon sok adatpontot használva szeretné közzétenni a jelentést, először mindenképp ajánlatos ellenőrizni weben és mobileszközökön is, hogy a teljesítmény megfelel-e a felhasználói elvárásoknak. Magasabb adatpontértékek esetén ajánlatos az eredményeket különféle méretekkel ellenőrizni, hogy biztosítható legyen a megfelelő teljesítmény.
 
 4. [Formázhatja a vizualizáció színeit, a címkéket, a címeket, a hátteret és egyebeket](service-getting-started-with-color-formatting-and-axis-properties.md). A [kisegítő lehetőségek javítása](../desktop-accessibility.md) érdekében érdemes lehet minden vonalhoz jelölőalakzatokat hozzáadni. A különböző jelölőalakzatok használata az egyes vonalakhoz megkönnyíti a jelentés használóinak a vonalak (vagy területek) elkülönítését egymástól. Ha a jelölőalakzatot szeretné kiválasztani, bontsa ki az **Alakzatok** kártyát, majd válasszon ki egy jelölőalakzatot.
 
-      ![Jelölőalakzat](./media/power-bi-visualization-scatter/pbi_scatter_marker.png)
+      ![Jelölőalakzat](media/power-bi-visualization-scatter/pbi_scatter_marker.png)
 
    A jelölő alakzat alakja megváltoztatható rombuszra, háromszögre vagy négyszögre:
 
-   ![Négyszög jelölőalakzat](./media/power-bi-visualization-scatter/pbi_scatter_chart_hover_square.png)
+   ![Négyszög jelölőalakzat](media/power-bi-visualization-scatter/pbi_scatter_chart_hover_square.png)
 
 
 ## <a name="considerations-and-troubleshooting"></a>Megfontolandó szempontok és hibaelhárítás
@@ -104,8 +104,7 @@ A pontdiagramon csak egyetlen adatpont szerepel, amely összesíti az X és az Y
 
 ![](media/power-bi-visualization-scatter/pbi_scatter_tshoot1.png)
 
-Adjon egy mezőt a **Részletek** területhez annak megadásához, hogy a Power BI hogyan csoportosítsa az értékeket. A mezőnek egyedinek kell lennie minden egyes megjeleníteni kívánt ponthoz.  
-Ilyen például egy egyszerű sorszám vagy azonosító mező:
+Adjon egy mezőt a **Részletek** területhez annak megadásához, hogy a Power BI hogyan csoportosítsa az értékeket. A mezőnek minden megjeleníteni kívánt pont esetében egyedinek, például egyszerű sorszámnak vagy azonosító mezőnek kell lennie.
 
 ![](media/power-bi-visualization-scatter/pbi_scatter_tshoot.png)
 
@@ -115,10 +114,9 @@ Vagy ha nem szerepel ilyen az adatokban, hozzon létre egy mezőt, amely pontonk
 
 Új mező létrehozásához [a Power BI Desktop Lekérdezésszerkesztőjével adjon hozzá egy indexoszlopot](../desktop-add-custom-column.md) az adatkészlethez.  Ezután adja hozzá ezt az oszlopot a vizualizáció **Részletek** területéhez.
 
-## <a name="next-steps"></a>További lépések
+## <a name="next-steps"></a>Következő lépések
+
+[Nagy sűrűségű pontdiagramok](desktop-high-density-scatter-charts.md)
+
 [Vizualizációtípusok a Power BI-ban](power-bi-visualization-types-for-reports-and-q-and-a.md)
-
-[Regisztráljon ingyenes próbára](https://powerbi.microsoft.com/get-started/)  
-
-További kérdései vannak? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)
 

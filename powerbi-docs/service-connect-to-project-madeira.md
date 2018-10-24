@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 1ce4fe4e80138995e7ec356b92f31e45f3a2c920
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: 49902e5f7705bf17b8343aa09af6d2fcf43f7ee5
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37599784"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46550144"
 ---
 # <a name="connect-to-project-madeira-with-power-bi"></a>Csatlakozás a „Madeira” projekthez a Power BI használatával
 A Power BI és a „Madeira” projekt tartalomcsomag segítségével egyszerűen elemezheti a „Madeira” projekt adatait. A Power BI begyűjti az adatait (beleértve a Sales, azaz értékesítési és a Financial, azaz pénzügyi adatokat), majd összeállít egy használatra kész irányítópultot, és jelentést készít az adatok alapján.
@@ -48,9 +48,9 @@ Kapcsolódjon a Power BI-hoz készült [„Madeira” projekt elemzési tartalom
 
 **Mi a következő lépés?**
 
-* [Kérdéseket tehet fel a Q&A mezőben](power-bi-q-and-a.md) az irányítópult tetején.
+* [Kérdéseket tehet fel a Q&A mezőben](consumer/end-user-q-and-a.md) az irányítópult tetején.
 * [Módosíthatja az irányítópult csempéit](service-dashboard-edit-tile.md).
-* [Kiválaszthatja valamelyik csempét](service-dashboard-tiles.md) a mögöttes jelentés megnyitásához.
+* [Kiválaszthatja valamelyik csempét](consumer/end-user-tiles.md) a mögöttes jelentés megnyitásához.
 * Noha az adatkészlet napi frissítésre van ütemezve, módosíthatja a frissítési ütemezést, vagy igény szerint frissíthet az **Azonnali frissítés** gombbal.
 
 <a name="Requirements"></a>
@@ -115,5 +115,5 @@ Illetve az is hiba, ha lemarad a vállalat neve:
 ## <a name="next-steps"></a>Következő lépések
 [Mi az a Power BI?](power-bi-overview.md)
 
-[Power BI – Alapfogalmak](service-basic-concepts.md)
+[Power BI – Alapfogalmak](consumer/end-user-basic-concepts.md)
 

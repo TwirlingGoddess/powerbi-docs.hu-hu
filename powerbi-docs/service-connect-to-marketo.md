@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: d3051537298ac8f8fb5fc8661cfca998a07fc625
-ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
+ms.openlocfilehash: 909e15fa843df3f87e1cdfa25b45f60996b3dca0
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37135260"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46545684"
 ---
 # <a name="connect-to-marketo-with-power-bi"></a>Kapcsolódás a Marketo eszközhöz a Power BI használatával
 A Marketo eszközhöz készült Power BI-tartalomcsomag az érdeklődőkhöz és tevékenységeikhez kapcsolódó adatokkal segíti a Marketo-fiók elemzését. A kapcsolat lekéri az adatokat, és automatikusan a rendelkezésére bocsátja a rájuk épülő irányítópultot, valamint a kapcsolódó jelentéseket.
@@ -48,12 +48,12 @@ Kapcsolódás a Power BI-hoz készült [Marketo tartalomcsomaghoz](https://app.p
 
 **Hogyan tovább?**
 
-* [Kérdéseket tehet fel a Q&A mezőben](power-bi-q-and-a.md) az irányítópult tetején.
+* [Kérdéseket tehet fel a Q&A mezőben](consumer/end-user-q-and-a.md) az irányítópult tetején.
 * [Módosíthatja az irányítópult csempéit](service-dashboard-edit-tile.md).
-* [Kiválaszthatja valamelyik csempét](service-dashboard-tiles.md) a mögöttes jelentés megnyitásához.
+* [Kiválaszthatja valamelyik csempét](consumer/end-user-tiles.md) a mögöttes jelentés megnyitásához.
 * Noha az adatkészlet napi frissítésre van ütemezve, módosíthatja a frissítési ütemezést, vagy igény szerint frissíthet az **Azonnali frissítés** gombbal.
 
-## <a name="whats-included"></a>A csomag tartalma
+## <a name="whats-included"></a>Tartalom
 A Power BI-ban a következő tevékenységadatok érhetők el a Marketo rendszeréből a mai naptól egy évre visszamenőleg:
 
 | Táblázat neve | Leírás |

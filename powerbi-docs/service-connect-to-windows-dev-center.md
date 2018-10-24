@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 6cdb4d6684ec97786c7fd10da7d22515a24e9dbc
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: ccb878da983aad493efb2cfdfb0d09366964a157
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34250054"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46545429"
 ---
 # <a name="connect-to-windows-dev-center-with-power-bi"></a>Kapcsolódás a Windows fejlesztői központhoz a Power BI-jal
 A Power BI-tartalomcsomag használatával a Power BI-ban vizsgálhatja és figyelheti a Windows fejlesztői központ alkalmazáselemzési adatait. Az adatok naponta egyszer automatikusan frissülnek.
@@ -48,12 +48,12 @@ Kapcsolódjon a [Windows fejlesztői központ Power BI-tartalomcsomagjához](htt
 
 **Hogyan tovább?**
 
-* [Kérdéseket tehet fel a Q&A mezőben](power-bi-q-and-a.md) az irányítópult tetején.
+* [Kérdéseket tehet fel a Q&A mezőben](consumer/end-user-q-and-a.md) az irányítópult tetején.
 * [Módosíthatja az irányítópult csempéit](service-dashboard-edit-tile.md).
-* [Kiválaszthatja valamelyik csempét](service-dashboard-tiles.md) a mögöttes jelentés megnyitásához.
+* [Kiválaszthatja valamelyik csempét](consumer/end-user-tiles.md) a mögöttes jelentés megnyitásához.
 * Noha az adatkészlet napi frissítésre van ütemezve, módosíthatja a frissítési ütemezést, vagy igény szerint frissíthet az **Azonnali frissítés** gombbal.
 
-## <a name="whats-included"></a>A csomag tartalma
+## <a name="whats-included"></a>Tartalom
 A fejlesztői központ Power BI-tartalomcsomag az alkalmazása elemzési adatait és IAP-beszerzéseit, minősítéseit, értékeléseit, és az alkalmazás állapotát tartalmazza. Az adatok csak az utolsó 3 hónapra terjednek ki. Az időintervallum változik, a dátumok az adatkészlet frissítésekor módosulnak.
 
 <a name="Requirements"></a>

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 7425e194bd6bda51442a128d146fb4061a77af81
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 93e1534af258a11a7af0f95b179653a1d8e54307
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34243195"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46544647"
 ---
 # <a name="connect-to-microsoft-azure-enterprise-with-power-bi"></a>Csatlakozás a Microsoft Azure Enterprise-hoz a Power BI használatával
 A Power BI-tartalomcsomag segítségével a Power BI-ban vizsgálhatja és figyelheti Microsoft Azure Enterprise-beli adatait. Az adatok naponta egyszer automatikusan frissülnek.
@@ -44,12 +44,12 @@ Csatlakozás a [Microsoft Azure Enterprise-tartalomcsomaghoz](https://app.powerb
 
 **Mi a következő lépés?**
 
-* [Kérdéseket tehet fel a Q&A mezőben](power-bi-q-and-a.md) az irányítópult tetején.
+* [Kérdéseket tehet fel a Q&A mezőben](consumer/end-user-q-and-a.md) az irányítópult tetején.
 * [Módosíthatja az irányítópult csempéit](service-dashboard-edit-tile.md).
-* [Kiválaszthatja valamelyik csempét](service-dashboard-tiles.md) a mögöttes jelentés megnyitásához.
+* [Kiválaszthatja valamelyik csempét](consumer/end-user-tiles.md) a mögöttes jelentés megnyitásához.
 * Noha az adatkészlet napi frissítésre van ütemezve, módosíthatja a frissítési ütemezést, vagy igény szerint frissíthet az **Azonnali frissítés** gombbal.
 
-## <a name="whats-included"></a>A csomag tartalma
+## <a name="whats-included"></a>Tartalom
 Az Azure Enterprise-tartalomcsomag havi adatjelentéseket nyújt a kapcsolódási folyamat során megadott hónapok időtartamára. A tartomány változó időintervalluma miatt az adatkészlet frissülésével a benne foglalt adatok is frissülnek.
 
 ## <a name="system-requirements"></a>Rendszerkövetelmények

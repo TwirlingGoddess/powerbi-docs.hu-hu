@@ -1,5 +1,5 @@
 ---
-title: Bemutató módú megjelenítés a Surface Hubon és a Windows 10-ben – Power BI I
+title: Bemutató módú megjelenítés a Surface Hubon és a Windows 10-ben – Power BI
 description: Itt részletesebben olvashat a Power BI-jelentések a Surface Hubon való megjelenítéséről, valamint a Power BI-irányítópultok, -jelentések és -csempék teljes képernyős megjelenítéséről Windows 10-eszközökön.
 author: maggiesMSFT
 manager: kfile
@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 10/13/2017
 ms.author: maggies
-ms.openlocfilehash: 363bcae5a1bcc70d90cdb71f8a1ac2e2372b93e2
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: d265e465825fb8def167207ed632f1702adcbc7f
+ms.sourcegitcommit: 698b788720282b67d3e22ae5de572b54056f1b6c
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44737112"
+ms.lasthandoff: 09/17/2018
+ms.locfileid: "45973632"
 ---
 # <a name="view-reports-in-presentation-mode-on-surface-hub-and-windows-10---power-bi"></a>Jelentések megjelenítése bemutató módban a Surface Hubon és a Windows 10-ben – Power BI
 A jelentéseket megjelenítheti bemutató módban a Surface Hubon, a Power BI-irányítópultokat, -jelentéseket és -csempéket pedig teljes képernyős módban a Windows 10-eszközökön. 

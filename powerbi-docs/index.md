@@ -3,12 +3,13 @@ layout: HubPage
 hide_bc: true
 title: A Power BI dokumentációja
 description: A Power BI dokumentációja
-ms.openlocfilehash: 61caafcfd5ea816a1678209355dab387a83a8642
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.service: powerbi
+ms.openlocfilehash: 7dbc0270fcfdd7dc83a41cbe45399dc05a2ccfe8
+ms.sourcegitcommit: f6360934b9af20bd630e2d3cb88398e3f5794090
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37597347"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "48798977"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -22,18 +23,18 @@ ms.locfileid: "37597347"
                         <a href="#home-all"></a>
                         <ul id="home-all" class="cardsA">
                             <li>
-                                <a href="power-bi-overview.md">
+                                <a href="consumer/power-bi-consumer-landing.md">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage">
-                                                        <img src="https://docs.microsoft.com/en-us/media/hubs/powerbi/pbi-powerbi-logo.svg" alt="" />
+                                                        <img src="./media/index/powerbi-4x_ea1e-01-resized-with-ratio.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>Power BI szolgáltatás</h3>
-                                                    <p>A Power BI szolgáltatás egy online elérhető szolgáltatás, amelyben irányítópultokat, alkalmazásokat és közzétett jelentéseket érhet el.</p>
+                                                    <h3>Power BI a jelentések felhasználói számára</h3>
+                                                    <p>Most ismerkedik a Power BI-jal? Ismerkedjen meg a különféle termékekkel és szolgáltatásokkal, amelyek a Power BI-t alkotják, és megtudhatja, mi mindenre használhatja őket.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -41,18 +42,18 @@ ms.locfileid: "37597347"
                                 </a>
                             </li>
                             <li>
-                                <a href="desktop-what-is-desktop.md">
+                                <a href="power-bi-creator-landing.md">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage">
-                                                        <img src="https://docs.microsoft.com/en-us/media/hubs/powerbi/pbi-desktop.svg" alt="" />
+                                                        <img src="./media/index/power-bi-4x-Design_E771.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>Power BI Desktop</h3>
-                                                    <p>A Power BI Desktop használatával összetett lekérdezéseket, modelleket és az adatokat megjelenítő jelentéseket hozhat létre.</p>
+                                                    <h3>Power BI jelentéstervezőknek</h3>
+                                                    <p>Ön egy Power BI-jelentéstervező? Elsajátíthatja az adatokhoz kapcsolódás, a lekérdezéstervezés és a jelentések és irányítópultok létrehozásának módját.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -60,18 +61,18 @@ ms.locfileid: "37597347"
                                 </a>
                             </li>
                             <li>
-                                <a href="mobile-apps-for-mobile-devices.md">
+                                <a href="service-admin-administering-power-bi-in-your-organization.md">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage">
-                                                        <img src="https://docs.microsoft.com/en-us/media/hubs/powerbi/pbi-mobile-apps.svg" alt="" />
+                                                        <img src="./media/index/power-bi-4x-Admin_F286.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>Power BI – mobilalkalmazások</h3>
-                                                    <p>A Power BI irányítópultjaival és jelentéseivel mobileszközön is dolgozhat.</p>
+                                                    <h3>Power BI rendszergazdák számára</h3>
+                                                    <p>Ismerje meg, hogyan kezelheti a Power BI-bérlőt: a szabályzatok konfigurálását, a használat monitorozását, valamint licencek és kapacitások kiépítését.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -85,12 +86,12 @@ ms.locfileid: "37597347"
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage">
-                                                        <img src="https://docs.microsoft.com/en-us/media/hubs/powerbi/pbi-developer.svg" alt="" />
+                                                        <img src="./media/index/power-bi-4x-Developer_ECCE.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>Power BI fejlesztőknek</h3>
-                                                    <p>A Power BI fejlesztők számára is számos különféle lehetőségeket kínál. Ezek a beágyazási lehetőségektől az egyéni vizualizációkig és az adatkészletek streameléséig terjednek.</p>
+                                                    <p>A Power BI a lehetőségek széles tárházát kínálja a fejlesztők számára, az egyéni vizualizációkba történő beágyazástól kezdve egészen az adatkészletek streameléséig.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -98,18 +99,18 @@ ms.locfileid: "37597347"
                                 </a>
                             </li>
                             <li>
-                                <a href="report-server/get-started.md">
+                                <a href="https://powerbi.microsoft.com/blog/">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage">
-                                                        <img src="https://docs.microsoft.com/en-us/media/hubs/powerbi/pbi-report-server.svg" alt="" />
+                                                        <img src="./media/index/power-bi-4x-Blog_E1D7.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>Power BI jelentéskészítő kiszolgáló</h3>
-                                                    <p>Power BI-, mobil- és többoldalas jelentéseket hozhat létre, helyezhet üzembe és kezelhet a helyszínen.</p>
+                                                    <h3>Power BI-blog</h3>
+                                                    <p>Értesülhet a Power BI-jal kapcsolatos legújabb hírekről.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -123,7 +124,7 @@ ms.locfileid: "37597347"
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage">
-                                                        <img src="https://docs.microsoft.com/en-us/media/hubs/powerbi/pbi-guided-learning.svg" alt="" />
+                                                        <img src="./media/index/power-bi-4x-GuidedLearning_E736.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">

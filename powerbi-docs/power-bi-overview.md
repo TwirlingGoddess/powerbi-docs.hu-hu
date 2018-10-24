@@ -1,25 +1,25 @@
 ---
 title: A Power BI bemutatása
 description: A Power BI és a különféle komponensek áttekintése – Power BI Desktop, Power BI szolgáltatás, Power BI Mobile, Jelentéskészítő kiszolgáló, Power BI Embedded.
-author: davidiseminger
-manager: kfile
+author: mihart
+manager: kvivek
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: overview
-ms.date: 06/22/2018
-ms.author: davidi
+ms.date: 09/22/2018
+ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 8b61e60852175ced605ae920a6a31091625f781f
-ms.sourcegitcommit: fb1885da7cf11367660edbf7b7346dc039ee9b5d
+ms.openlocfilehash: 61264a2a127ea45f542543d40fd62a9de8c3620d
+ms.sourcegitcommit: f6360934b9af20bd630e2d3cb88398e3f5794090
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 09/26/2018
-ms.locfileid: "47186938"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "48798908"
 ---
 # <a name="what-is-power-bi"></a>A Power BI bemutatása
 A **Power BI** olyan szoftverszolgáltatások, alkalmazások és összekötők gyűjteménye, amellyel az egymástól független adatforrásokat egymással együttműködő, vizuálisan megragadó, interaktív elemzésekké alakítja. Akár egyszerű Excel-táblákból, akár felhőalapú és helyszíni hibrid adatraktárak gyűjteményéből állnak az adatai, a **Power BI** segítségével könnyedén összekötheti az adatforrásokat, vizualizálhatja (vagy feltárhatja) a fontos részleteket, és megoszthatja az így kapott információt bárkivel, akivel csak szeretné.
 
-![a Power BI bemeneti forrásait bemutató diagram](media/power-bi-overview/power-bi-input.png)
+![a Power BI bemeneti forrásait bemutató diagram](media/power-bi-overview/power-bi-input-new.png)
 
 A **Power BI** használható egyszerű és gyors módon – készíthet például gyors elemzéseket Excel-táblák vagy helyi adatbázis alapján. De a **Power BI** emellett egy robusztus, nagyvállalati szintű megoldás is, mely kiterjedt lehetőségeket kínál modellezéshez, valós idejű elemzésekhez, illetve egyéni fejlesztésekhez. Így tehát szolgálhat mind az Ön személyes jelentéskészítő és vizualizációs eszközeként, mind pedig projektek, részlegek vagy teljes nagyvállalatok analitikai és döntéshozatali motorjaként.
 
@@ -41,6 +41,12 @@ A **Power BI** egyes elemeit használhatja emellett felváltva is attól függő
 
 Megtekintheti például a leltárat és a gyártási folyamat állapotát a szolgáltatás egy valós idejű irányítópultján, a **Power BI Desktop** alkalmazással pedig jelentéseket hozhat létre a saját csapatának az ügyfélkapcsolati statisztikákról. A Power BI használatának módját befolyásolhatja, hogy a Power BI mely funkciója vagy szolgáltatása a legjobb eszköz az adott helyzetben – de a Power BI összes részéhez hozzáférhet, és ez teszi ezt a megoldást oly rugalmassá és hatékonnyá.
 
+A szerepköréhez kapcsolódó dokumentumok elemzése:
+- Power BI [***tervezők***](desktop-what-is-desktop.md) számára
+- Power BI [***felhasználók***](consumer/end-user-consumer.md) számára
+- Power BI [***fejlesztők***](developer/what-can-you-do.md) számára
+- Power BI [***rendszergazdák***](service-admin-administering-power-bi-in-your-organization.md) számára
+
 ## <a name="the-flow-of-work-in-power-bi"></a>A Power BI-ban való munka folyamata
 A Power BI-ban a leggyakoribb munkafolyamat első lépése az adatforrásokhoz való csatlakozás, majd pedig jelentések létrehozása a **Power BI Desktopban**. A létrehozott jelentést ezt követően a **Desktopból** közzé lehet tenni a **Power BI szolgáltatásban**, és meg lehet osztani más felhasználókkal, akik azt a **szolgáltatásban** és **mobileszközökön** is *használhatják*.
 Előfordulhat, hogy egyes kollégáknak az Önéhez hasonló (azaz *létrehozói*) jogosultságokat szeretne adni, ami lehetővé teszi, hogy a **szolgáltatásban** ők is szerkeszthessék a jelentéseket, irányítópultokat hozzanak létre és megoszthassák a munkájukat.
@@ -57,5 +63,5 @@ A Power BI mobil és többoldalas jelentések létrehozása, telepítése és fe
 A Power BI jelentéskészítő kiszolgáló megoldást tűzfal mögött lehet üzembe helyezni, és ezt követően különféle módokon lehet a jelentéseket a megfelelő felhasználókhoz eljuttatni, akik megnézhetik azokat egy webböngészőben, mobileszközön vagy e-mailben is. Mivel a Power BI jelentéskészítő kiszolgálója kompatibilis a felhőalapú Power BI-jal, bármikor dönthet úgy, hogy áttelepül a felhőbe, ha készen áll rá.
 
 ## <a name="next-steps"></a>Következő lépések
-[Jelentkezzen be, olvasson be adatokat, és ismerkedjen meg a Power BI szolgáltatás használatának alapjaival](consumer/end-user-experience.md)   
+[Jelentkezzen be, olvasson be adatokat, és ismerkedjen meg a Power BI szolgáltatás használatának alapjaival](service-the-new-power-bi-experience.md)   
 [Oktatóanyag: Első lépések a Power BI szolgáltatásban](service-get-started.md)

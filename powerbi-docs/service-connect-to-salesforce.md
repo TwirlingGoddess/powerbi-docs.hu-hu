@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/30/2018
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: dda983aec42731aa885323749d9302db75066569
-ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
+ms.openlocfilehash: 5cd858ad14c1a5fcf76ddf23dafdac2bb5585b10
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37136778"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548258"
 ---
 # <a name="connect-to-salesforce-with-power-bi"></a>Csatlakozás a Salesforce-hoz a Power BI-ban
 A Power BI használatával könnyedén csatlakozhat a Salesforce.com-fiókjához. A létrehozott kapcsolat lekéri az adatokat, és automatikusan a rendelkezésére bocsátja az adatokhoz kapcsolódó irányítópultot és jelentéseket.
@@ -56,13 +56,15 @@ Kapcsolódjon a Power BI-hoz készült [Salesforce tartalomcsomaghoz](https://ap
    
    ![](media/service-connect-to-salesforce/pbi_getdatasalesforcedash.png)
 
-Az adatok igény szerinti megjelenítéséhez tetszés szerint módosíthatja az irányítópultot. Kérdéseket tehet fel a Q&A használatával – Vagy kattintson egy csempére [az alapjául szolgáló jelentés megnyitásához](service-dashboard-tiles.md), és [módosítsa a csempéket](service-dashboard-edit-tile.md) az irányítópulton.
+Az adatok igény szerinti megjelenítéséhez tetszés szerint módosíthatja az irányítópultot. Kérdéseket tehet fel a Q&A használatával – Vagy kattintson egy csempére [az alapjául szolgáló jelentés megnyitásához](consumer/end-user-tiles.md), és [módosítsa a csempéket](service-dashboard-edit-tile.md) az irányítópulton.
 
 **Hogyan tovább?**
 
-* [Tegyen fel egy kérdést a Q&A mezőben](power-bi-q-and-a.md), amely az irányítópult tetején található
-* [Módosítsa a csempéket](service-dashboard-edit-tile.md) az irányítópulton
+* [Kérdéseket tehet fel a Q&A mezőben](consumer/end-user-q-and-a.md) az irányítópult tetején.
+* [Módosíthatja az irányítópult csempéit](service-dashboard-edit-tile.md) <<<<<<< HEAD
+* [Kiválaszthatja valamelyik csempét](consumer/end-user-tiles.md) a mögöttes jelentés megnyitásához =======
 * [Kattintson egy csempére](service-dashboard-tiles.md) az alapjául szolgáló jelentés megnyitásához
+>>>>>>> 66fe62d8f200efd9cfeb465eeb5f370dbbaa63be
 * Noha az adatkészlet napi frissítésre van ütemezve, módosíthatja a frissítési ütemezést, vagy igény szerint frissíthet az **Azonnali frissítés** gombbal.
 
 ## <a name="system-requirements-and-considerations"></a>Rendszerkövetelmények és megfontolandó szempontok

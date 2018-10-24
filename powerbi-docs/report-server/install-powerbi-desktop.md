@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-report-server
 ms.topic: conceptual
-ms.date: 05/24/2018
+ms.date: 09/19/2018
 ms.author: maggies
-ms.openlocfilehash: d3b7ace4fe611cc55965f96f770caf7b4ebf21b1
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: c65b945260357b0679f8fdb83c534aac53481126
+ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44726386"
+ms.lasthandoff: 09/22/2018
+ms.locfileid: "46564785"
 ---
 # <a name="install-power-bi-desktop-optimized-for-power-bi-report-server"></a>A Power BI jelentéskészítő kiszolgálóhoz optimalizált Power BI Desktop telepítése
 Tudnivalók a Power BI jelentéskészítő kiszolgálóhoz optimalizált Power BI Desktop telepítéséről.
@@ -31,7 +31,7 @@ Ha ellenőrizné, hogy a Power BI jelentéskészítő kiszolgálóhoz optimaliz�
 
     ![A Power BI Desktop letöltése a webportálról](media/install-powerbi-desktop/report-server-download-web-portal.png)
 
-    Vagy másik lehetőségként a Microsoft letöltőközpontban válassza közvetlenül [A Power BI jelentéskészítő kiszolgálóra (2018. március) optimalizált Microsoft Power BI Desktop](https://www.microsoft.com/download/details.aspx?id=56723) hivatkozást.
+    Vagy másik lehetőségként a Microsoft letöltőközpontban válassza közvetlenül a Power BI jelentéskészítő kiszolgálóra (2018. augusztus) optimalizált [Microsoft Power BI Desktop](https://www.microsoft.com/en-us/download/details.aspx?id=57271) hivatkozást.
 
 2. A letöltőközpontlapon kattintson a **Letöltés** gombra.
 
@@ -41,7 +41,8 @@ Ha ellenőrizné, hogy a Power BI jelentéskészítő kiszolgálóhoz optimaliz�
 
     - **PBIDesktopRS_x64.msi** (64 bites verzió).
 
-1. A telepítő letöltése után indítsa el a Power BI Desktop (2017. október) telepítési varázslóját.
+1. A telepítő letöltése után indítsa el a Power BI Desktop (2018. augusztus) telepítővarázslóját.
+
 2. A telepítés végén kattintson a **Power BI Desktop azonnali indítása** lehetőségre.
    
     A folyamat automatikusan elindul, és máris hozzákezdhet.
@@ -49,7 +50,7 @@ Ha ellenőrizné, hogy a Power BI jelentéskészítő kiszolgálóhoz optimaliz�
 ## <a name="verify-you-are-using-the-correct-version"></a>Annak ellenőrzése, hogy a megfelelő verziót használja-e
 Ellenőrizheti, hogy a Power BI Desktop megfelelő verzióját használja-e a Power BI Desktop indítóképernyőjének vagy címsorának megtekintésével. A címsor a kiadás hónapját és évét jelzi.
 
-![A Power BI jelentéskészítő kiszolgálóhoz optimalizált Power BI Desktop címsora](media/quickstart-create-powerbi-report/report-server-desktop-march-2018.png)
+![A Power BI jelentéskészítő kiszolgálóhoz optimalizált Power BI Desktop címsora](media/install-powerbi-desktop/power-bi-report-server-desktop-august-2018.png)
 
 A Power BI szolgáltatás Power BI Desktop verziójának címsorában nem szerepel a hónap és az év.
 
@@ -63,7 +64,7 @@ Azt is megteheti, hogy először megnyitja a Power BI Desktop használni kíván
 Ha egy Power BI-jelentést szerkeszt a Power BI jelentéskészítő kiszolgálóból vagy új Power BI-jelentést hoz létre a webes portálról, mindig a Power BI Desktop megfelelő verziója nyílik meg.
 
 ## <a name="considerations-and-limitations"></a>Megfontolandó szempontok és korlátozások
-A Power BI jelentéskészítő kiszolgálón és a Power BI szolgáltatásban (http://powerbi.com)) tárolt jelentések működése szinte teljesen megegyezik, de bizonyos funkciók eltérnek egymástól.
+A Power BI jelentéskészítő kiszolgálón, a Power BI szolgáltatásban (http://app.powerbi.com)) és a Power BI-mobilalkalmazásokban található jelentések működése szinte teljesen megegyezik, de bizonyos funkciók eltérnek egymástól.
 
 ### <a name="in-a-browser"></a>Böngészőben
 A Power BI jelentéskészítő kiszolgálón tárolt jelentések minden vizualizációt támogatnak, köztük:
@@ -80,9 +81,9 @@ A Power BI jelentéskészítő kiszolgálón tárolt jelentések nem támogatjá
 ### <a name="in-the-power-bi-mobile-apps"></a>A Power BI-mobilalkalmazásokban
 A Power BI jelentéskészítő kiszolgálón tárolt jelentések a [Power BI-mobilalkalmazások](../consumer/mobile/mobile-apps-for-mobile-devices.md) minden alapvető funkcióját támogatják, köztük:
 
-* [A jelentés telefonos elrendezése](../desktop-create-phone-report.md): A jelentést optimalizálhatja a Power BI-mobilalkalmazásokra. Az optimalizált jelentéseknek különleges ikonjuk ![Jelentés telefonos elrendezésének ikonja](media/quickstart-create-powerbi-report/power-bi-rs-mobile-optimized-icon.png) és elrendezésük van a mobiltelefonon.
+* [A jelentés telefonos elrendezése](../desktop-create-phone-report.md): A jelentést optimalizálhatja a Power BI-mobilalkalmazásokra. Az optimalizált jelentéseknek különleges ikonjuk ![Jelentés telefonos elrendezésének ikonja](media/install-powerbi-desktop/power-bi-rs-mobile-optimized-icon.png) és elrendezésük van a mobiltelefonon.
   
-    ![Mobiltelefonokra optimalizált jelentés](media/quickstart-create-powerbi-report/power-bi-rs-mobile-optimized-report.png)
+    ![Mobiltelefonokra optimalizált jelentés](media/install-powerbi-desktop/power-bi-rs-mobile-optimized-report.png)
 
 A Power BI jelentéskészítő kiszolgálón tárolt jelentések nem támogatják a Power BI-mobilalkalmazások alábbi funkcióit:
 

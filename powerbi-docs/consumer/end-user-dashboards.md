@@ -7,32 +7,32 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 03/02/2018
+ms.date: 10/02/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: ccfa947f83a5079cda3bfb173c0f83f6b811a9ff
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: 7db5bf514b567cbcaf9dddc5d48006762237a622
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46564739"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48909130"
 ---
 # <a name="dashboards-in-power-bi-service"></a>Irányítópult a Power BI szolgáltatásban
 
 A Power BI-***irányítópult*** egy gyakran vászonnak is nevezett oldal, amely vizualizációk segítségével mesél el egy történetet. Mivel az irányítópult egyetlen lapon jelenik meg, ezért a jól megtervezett irányítópult csak a történet legfontosabb elemeit tartalmazza.
 
-![irányítópult](./media/end-user-dashboards/power-bi-dashboard2.png)
+![irányítópult](media/end-user-dashboards/power-bi-dashboard2.png)
 
 Az irányítópulton látható vizualizációkat *csempéknek* nevezik, és a jelentésekből *rögzíthetők* az irányítópultra. Ha csak most kezdte el használni a Power BI-t, a [Power BI alapfogalmait](end-user-basic-concepts.md) elolvasva egyszerűen elsajátíthatja az alapokat.
 
 > [!NOTE]
-> Az irányítópult a Power BI szolgáltatás egyik funkciója, ezért a Power BI Desktopban nem érhető el. Mobileszközökön csak [megtekinteni és megosztani](mobile/mobile-apps-view-dashboard.md) lehet az irányítópultokat, létrehozni nem.
+> Az irányítópult a Power BI szolgáltatás egyik funkciója, ezért a Power BI Desktopban nem érhető el. Mobileszközökön csak [megtekinteni és megosztani](/mobile/mobile-apps-view-dashboard.md) lehet az irányítópultokat, létrehozni nem.
 > 
 > 
 
 Az irányítópulton megjelenő vizualizációk a jelentéseken, az egyes jelentések pedig egy-egy adatkészleten alapulnak. Az irányítópultok tulajdonképpen az alapjául szolgáló jelentésekhez és adatkészletekhez való hozzáférési útnak is tekinthetők. Egy vizualizáció kiválasztásával hozzáférhet a létrehozásához használt jelentéshez (és adatkészlethez).
 
-![az irányítópultok, jelentések és adatkészletek közötti kapcsolatot megjelenítő diagram](./media/end-user-dashboards/power-bi-diagram.png)
+![az irányítópultok, jelentések és adatkészletek közötti kapcsolatot megjelenítő diagram](media/end-user-dashboards/power-bi-diagram.png)
 
 ## <a name="advantages-of-dashboards"></a>Az irányítópultok előnyei
 Az irányítópultok segítségével nagyszerűen nyomon követheti üzletmenetét, választ találhat kérdéseire, és egyetlen pillantással megtekintheti a legfontosabb mérőszámokat. Az irányítópulton található vizualizációk egy vagy több adatkészletből vagy jelentésből is származhatnak. Az irányítópult a helyi és a felhőben keletkezett adatokat ötvözi, és egyesített nézetet biztosít függetlenül attól, hogy az adatok hol találhatók.
@@ -40,7 +40,7 @@ Az irányítópultok segítségével nagyszerűen nyomon követheti üzletmenet�
 Az irányítópult nem csak egy tetszetős kép, hanem egy interaktív, egyénre szabható funkció, amelyben az egyes csempék az alapul szolgáló adatok változásának megfelelően frissülnek.
 
 ## <a name="dashboards-versus-reports"></a>Irányítópultok és jelentések
-A [Jelentések](end-user-reports.md) összekeverhetők az irányítópultokkal, mivel mind a kettő egy vizualizációkkal teli vászon. Azonban van köztük néhány alapvető különbség.
+A jelentéseket könnyű összekeverni az irányítópultokkal, mivel mind a kettő egy vizualizációkkal teli vászon. Azonban van köztük néhány alapvető különbség.
 
 | **Képesség** | **Irányítópultok** | **Jelentések** |
 | --- | --- | --- |
@@ -65,28 +65,16 @@ Szerepkörétől függően létrehozhat irányítópultokat saját maga vagy ak�
 
 A Power BI Pro az irányítópultok megosztásához és a megosztott irányítópultok megtekintéséhez is szükséges.
 
-### <a name="if-you-will-be-creating-and-sharing-dashboards"></a>Ha irányítópultokat szeretne létrehozni és megosztani
-* Használja a megadott minták egyikét egy [irányítópult létrehozásához egy jelentésből](../service-dashboard-create.md).
-* Tudjon meg többet az [irányítópult-csempékről](end-user-tiles.md) és a csempék irányítópulton való különböző rögzítési módjairól.
-* Segítse irányítópult-felhasználóit azzal, hogy olyan irányítópultokat hoz létre, amelyek [könnyedén használhatók a természetes nyelvű Q&A lekérdezésekkel](../service-prepare-data-for-q-and-a.md) és a [gyors elemzésekkel](../service-insights-optimize.md).
-* Fedezze fel hogyan [oszthat meg egy irányítópultot kollégáival](../service-how-to-collaborate-distribute-dashboards-reports.md).
-
 ### <a name="if-you-will-be-receiving-and-consuming-dashboards"></a>Ha irányítópultokat fogad és használ
 * [Minta-irányítópultjaink](../sample-tutorial-connect-to-the-samples.md) egyikének megtekintése révén megismerkedhet az irányítópultok használatával.
 * Ismerkedjen meg az [irányítópult-csempékkel](end-user-tiles.md), és fedezze fel mi történik, ha kiválaszt egy csempét.
-* Nem teszik egy adott irányítópult megjelenése?  [Átméretezheti, áthelyezheti és átnevezheti a csempéket](../service-dashboard-edit-tile.md).
-* Szeretne nyomon követni egy adott irányítópult-csempét, és e-mailes értesítést kapni, ha elér egy bizonyos küszöbértéket? [Riasztások létrehozása a csempéken](../service-set-data-alerts.md).
-* Tegye fel bátran az irányítópultokkal kapcsolatos kérdéseit. Fedezze fel, hogyan teheti fel az adatokkal kapcsolatos kérdéseit és szerezheti meg a válaszokat vizualizáció formájában a [Power BI Q&A](../power-bi-tutorial-q-and-a.md) segítségével.
+* Szeretne nyomon követni egy adott irányítópult-csempét, és e-mailes értesítést kapni, ha elér egy bizonyos küszöbértéket? [Riasztások létrehozása a csempéken](end-user-alerts.md).
+* Tegye fel bátran az irányítópultokkal kapcsolatos kérdéseit. Fedezze fel, hogyan teheti fel az adatokkal kapcsolatos kérdéseit és szerezheti meg a válaszokat vizualizáció formájában a [Power BI Q&A](end-user-q-and-a.md) segítségével.
 
 > [!TIP]
 > Ha nem találta meg, amit keres, használja a bal oldalon található tartalomjegyzéket.
-> 
 > 
 
 ## <a name="next-steps"></a>Következő lépések
 [Mi az a Power BI?](../power-bi-overview.md)  
 [Power BI – Alapfogalmak](end-user-basic-concepts.md)  
-[Power BI Premium – pontosan mi is ez?](../service-premium.md)  
-
-További kérdései vannak? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)
-

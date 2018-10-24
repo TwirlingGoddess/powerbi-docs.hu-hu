@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 71b2f104ad5efb244c2b046cdd48a2e52cd045e3
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 19a029564fecdc9a54a136d045e75bb9580193da
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46543949"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48908240"
 ---
 # <a name="collaborate-in-your-power-bi-app-workspace"></a>Együttműködés a Power BI alkalmazás-munkaterületén
 A Power BI alkalmazás-munkaterületek kitűnően alkalmasak arra, hogy munkatársaival irányítópultokon, jelentéseken és adatkészleteken együttműködve hozzanak létre *alkalmazásokat*. Az együttműködés a Power BI-ban nem csupán a munkaterületekre terjed ki. Az Office 365 további csoportszolgáltatásokat is kínál, mint a fájlok megosztása a OneDrive Vállalati verziójában, az Exchange-beszélgetések, a megosztott naptár és feladatok és így tovább. További ismereteket is szerezhet az [Office 365-csoportokról](https://support.office.com/article/Create-a-group-in-Office-365-7124dc4c-1de9-40d4-b096-e8add19209e9).
@@ -23,7 +23,7 @@ A Power BI alkalmazás-munkaterületek kitűnően alkalmasak arra, hogy munkatá
 > [!NOTE]
 > Az új munkaterületi felhasználói felület előzetes verziójában megváltozik a Power BI-munkaterületek és az Office 365-csoportok közötti kapcsolat. A rendszer nem fog automatikusan létrehozni Office 365-csoportokat minden alkalommal, amikor egy új munkaterület jön létre. További információ az [új munkaterületek létrehozásáról (előzetes verzió)](service-create-the-new-workspaces.md)
 
-Az alkalmazás-munkaterületek csak a [Power BI Proban](service-free-vs-pro.md) érhetők el.
+Az alkalmazás-munkaterületek csak [Power BI Pro-licenccel](service-features-license-type.md) érhetők el.
 
 ## <a name="collaborate-on-power-bi-desktop-files-in-your-app-workspace"></a>Együttműködés Power BI Desktop-fájlokon az alkalmazás-munkaterületén
 Ha közzétesz egy Power BI Desktop-fájlt a Power BI alkalmazás-munkaterületén, akkor a munkaterületen mindenki közreműködhet benne.
@@ -77,7 +77,7 @@ Az Office 365-beli együttműködés kiindulópontja a Power BI-beli alkalmazás
 Ha Ön egy alkalmazás-munkaterület tulajdonosa vagy rendszergazdája, akkor fel is vehet vagy el is távolíthat munkaterülettagokat. További információ a [Power BI alkalmazás-munkaterület kezeléséről](service-manage-app-workspace-in-power-bi-and-office-365.md).
 
 ## <a name="next-steps"></a>További lépések
-* [Alkalmazások és alkalmazás-munkaterületek létrehozása a Power BI-ban](consumer/end-user-create-apps.md)
+* [Alkalmazások és alkalmazás-munkaterületek létrehozása a Power BI-ban](service-create-distribute-apps.md)
 * További kérdései vannak? [Kérdezze a Power BI-közösséget!](http://community.powerbi.com/)
 * Visszajelzést szeretne küldeni? Keresse fel a [Power BI Ideas](https://ideas.powerbi.com/forums/265200-power-bi) fórumot.
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 56be5b6a0618dea28ac286f5cbaa0c019d9037d2
-ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
+ms.openlocfilehash: 49fab6884a4acd548ccb5c17913c003763af8cab
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37135996"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46549707"
 ---
 # <a name="connect-to-circuit-id-with-power-bi"></a>Kapcsolódás a Circuit ID-hoz a Power BI segítségével
 A Power BI megkönnyíti a Circuit ID-ról származó kommunikációs adatok elemzését. A Power BI a lekért adatok alapján összeállít egy alapértelmezett irányítópultot, és jelentéseket hoz létre az adatokból. A kapcsolat létrehozása után elemezheti az adatokat, és testre szabhatja az irányítópultot a saját igényei szerint. Az adatok naponta automatikusan frissülnek.
@@ -41,10 +41,10 @@ Kapcsolódjon a Power BI-hoz készült [Circuit ID-tartalomcsomaghoz](https://ap
 
 **Hogyan tovább?**
 
-* [Kérdéseket tehet fel a Q&A mezőben](power-bi-q-and-a.md) az irányítópult tetején.
+* [Kérdéseket tehet fel a Q&A mezőben](consumer/end-user-q-and-a.md) az irányítópult tetején.
 * [Módosíthatja az irányítópult csempéit](service-dashboard-edit-tile.md).
-* [Kiválaszthatja valamelyik csempét](service-dashboard-tiles.md) a mögöttes jelentés megnyitásához.
-* Az adatkészlet az ütemezés szerint naponta frissül, de módosíthatja a frissítési ütemezést, vagy igény szerint bármikor frissíthet az **Azonnali frissítés** elemre kattintva
+* [Kiválaszthatja valamelyik csempét](consumer/end-user-tiles.md) a mögöttes jelentés megnyitásához.
+* Noha az adatkészlet napi frissítésre van ütemezve, módosíthatja a frissítési ütemezést, vagy igény szerint frissíthet az **Azonnali frissítés** gombbal.
 
 ## <a name="next-steps"></a>Következő lépések
 [Mi az a Power BI?](power-bi-overview.md)

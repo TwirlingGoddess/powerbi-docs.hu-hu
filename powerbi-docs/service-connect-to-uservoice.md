@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: e44d4bb48289b515797167fb3b91a9bbf0d2bcdd
-ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
+ms.openlocfilehash: ef35ef674ad8b0608c22b7b0d958b4844bb0d24e
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "37092161"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46544446"
 ---
 # <a name="connect-to-uservoice-with-power-bi"></a>Csatlakozás a UserVoice-hoz a Power BI-ban
 A UserVoice-adatok egyszerűen nyomon követhetők és megvizsgálhatók aPower BI és a UserVoice-tartalomcsomag használatával. A Power BI beolvassa az adatokat, köztük a jegyeket, javaslatokat és elégedettségi mutatókat, majd az adatok alapján használatra kész irányítópultot és jelentéseket hoz létre.
@@ -53,10 +53,10 @@ Kapcsolódás a [UsreVoice-tartalomcsomaghoz](https://app.powerbi.com/getdata/se
 
 **Hogyan tovább?**
 
-* [Kérdéseket tehet fel a Q&A mezőben](power-bi-q-and-a.md) az irányítópult tetején.
+* [Kérdéseket tehet fel a Q&A mezőben](consumer/end-user-q-and-a.md) az irányítópult tetején.
 * [Módosíthatja az irányítópult csempéit](service-dashboard-edit-tile.md).
-* [Kiválaszthatja valamelyik csempét](service-dashboard-tiles.md) a mögöttes jelentés megnyitásához.
-* Az adatkészlet az ütemezés szerint naponta frissül, de módosíthatja is a frissítési ütemezést, vagy igény szerint frissíthet bármikor, az **Azonnali frissítés** lehetőségre kattintva.
+* [Kiválaszthatja valamelyik csempét](consumer/end-user-tiles.md) a mögöttes jelentés megnyitásához.
+* Noha az adatkészlet napi frissítésre van ütemezve, módosíthatja a frissítési ütemezést, vagy igény szerint frissíthet az **Azonnali frissítés** gombbal.
 
 ## <a name="troubleshooting"></a>Hibaelhárítás
 **"Parameter validation failed, please make sure all parameters are valid"** (A paraméterek érvényesítése sikertelen, ellenőrizze az összes paraméter érvényességét)

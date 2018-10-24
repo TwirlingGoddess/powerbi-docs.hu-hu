@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: f81330ec331ae42dea994982369428e9f7eb23aa
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 0bb592d508e959267df31e705aa833394aa4d19e
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34249436"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46544877"
 ---
 # <a name="connect-to-twilio-with-power-bi"></a>Kapcsolódás a Twilióhoz a Power BI-jal
 A Power BI-hoz készült Microsoft Twilio-tartalomcsomag lehetővé teszi az adatok beolvasását a Power BI-ba, valamint létrehoz egy előre gyártott [Twilio-irányítópultot](https://powerbi.microsoft.com/integrations/twilio) és -jelentést, amely információkkal szolgál az adatokról. Összeállíthatók a Power BI által létrehozott adathalmazra épülő egyéni irányítópultok és jelentések is. Az adatok naponta egyszer frissülnek, hogy Ön mindig a legfrissebb adatokat vizsgálhassa.
@@ -41,12 +41,12 @@ Kapcsolódjon a Power BI-hoz készült [Twilio-tartalomcsomaghoz](https://app.po
 
 **Hogyan tovább?**
 
-* [Kérdéseket tehet fel a Q&A mezőben](power-bi-q-and-a.md) az irányítópult tetején.
+* [Kérdéseket tehet fel a Q&A mezőben](consumer/end-user-q-and-a.md) az irányítópult tetején.
 * [Módosíthatja az irányítópult csempéit](service-dashboard-edit-tile.md).
-* [Kiválaszthatja valamelyik csempét](service-dashboard-tiles.md) a mögöttes jelentés megnyitásához.
+* [Kiválaszthatja valamelyik csempét](consumer/end-user-tiles.md) a mögöttes jelentés megnyitásához.
 * Noha az adatkészlet napi frissítésre van ütemezve, módosíthatja a frissítési ütemezést, vagy igény szerint frissíthet az **Azonnali frissítés** gombbal.
 
-## <a name="whats-included"></a>A csomag tartalma
+## <a name="whats-included"></a>Tartalom
 A hívások és az üzenettranzakciók részletes adatai az elmúlt 30 napra vonatkozóan. Az adatok sokféleképpen elemezhetők és összegezhetők.
 
 Olyan összesítő statisztikák, amelyek hasznos információkkal szolgálhatnak. A statisztikák között a következők szerepelnek:

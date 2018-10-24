@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 9bec96b594d7a761311e0ef9f457f320eb1f3963
-ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
+ms.openlocfilehash: e90692443f434300aceb783f0a77b44e71f86682
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37136433"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548580"
 ---
 # <a name="connect-to-sql-sentry-with-power-bi"></a>Csatlakozás az SQL Sentryhez a Power BI használatával
 Az SQL Sentry által gyűjtött teljesítményadatok egyszerűen elemezhetők a Power BI-jal. A Power BI begyűjti az adatait, majd összeállít egy alapértelmezett irányítópultot és az adatokon alapuló jelentéseket.
@@ -58,9 +58,9 @@ Kapcsolódjon a Power BI-hoz készült [SQL Sentry tartalomcsomaghoz](https://ap
 
 **Mi a következő lépés?**
 
-* [Kérdéseket tehet fel a Q&A mezőben](power-bi-q-and-a.md) az irányítópult tetején.
+* [Kérdéseket tehet fel a Q&A mezőben](consumer/end-user-q-and-a.md) az irányítópult tetején.
 * [Módosíthatja az irányítópult csempéit](service-dashboard-edit-tile.md).
-* [Kiválaszthatja valamelyik csempét](service-dashboard-tiles.md) a mögöttes jelentés megnyitásához.
+* [Kiválaszthatja valamelyik csempét](consumer/end-user-tiles.md) a mögöttes jelentés megnyitásához.
 * Noha az adatkészlet napi frissítésre van ütemezve, módosíthatja a frissítési ütemezést, vagy igény szerint frissíthet az **Azonnali frissítés** gombbal.
 
 ## <a name="whats-included"></a>Tartalom

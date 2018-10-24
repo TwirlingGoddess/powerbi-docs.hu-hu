@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: f4eb0ec93057f309720fc4fef33a55d924881383
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: ef59d5f42ba913e4ecad79116dea635744534198
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46544624"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48908578"
 ---
 # <a name="connect-to-adobe-analytics-with-power-bi"></a>Kapcsolódás az Adobe Analytics eszközhöz a Power BI használatával
 Ha a Power BI-ból kíván kapcsolódni az Adobe Analytics eszközhöz, csatlakozzon az Adobe Analytics Marketing Cloud-fiókjához. Az ekkor megjelenő alkalmazás egy Power BI-irányítópult és -jelentéskészlet segítségével tünteti fel a webhelye forgalmára és felhasználóira vonatkozó elemzéseket. Az adatok naponta egyszer automatikusan frissülnek. Az irányítópultot és a jelentéseket használhatja és megtekintheti, de nem mentheti a változásokat.
@@ -25,26 +25,26 @@ Kapcsolódjon az [Adobe Analytics](https://app.powerbi.com/getdata/services/adob
 ## <a name="how-to-connect"></a>A kapcsolódás menete
 [!INCLUDE [powerbi-service-apps-get-more-apps](./includes/powerbi-service-apps-get-more-apps.md)]
 
-1. Válassza az **Adobe Analytics** \>  **Beolvasás** lehetőséget.
+3. Válassza az **Adobe Analytics** \>  **Beolvasás** lehetőséget.
    
    ![](media/service-connect-to-adobe-analytics/adobe.png)
-2. A Power BI az Adobe Analytics rendszerében egy adott cég- és jelentésazonosítóhoz (nem pedig a jelentéscsomag nevéhez) csatlakozik. A [paraméterek megkereséséről](#FindingParams) alább olvashat részletesebben.
+4. A Power BI az Adobe Analytics rendszerében egy adott cég- és jelentésazonosítóhoz (nem pedig a jelentéscsomag nevéhez) csatlakozik. A [paraméterek megkereséséről](#FindingParams) alább olvashat részletesebben.
    
    ![](media/service-connect-to-adobe-analytics/parameters.png)
-3. A **Hitelesítési módszer**, beállításánál válassza az **oAuth2** \> **Bejelentkezés** lehetőséget. Amikor a rendszer kéri, adja meg az Adobe Analytics-fiók hitelesítő adatait. 
+5. A **Hitelesítési módszer**, beállításánál válassza az **oAuth2** \> **Bejelentkezés** lehetőséget. Amikor a rendszer kéri, adja meg az Adobe Analytics-fiók hitelesítő adatait. 
    
     ![](media/service-connect-to-adobe-analytics/creds.png)
    
     ![](media/service-connect-to-adobe-analytics/adobe_signin.png)
-4. Az **Elfogadás** elemre kattintva engedélyezze az Adobe Analytics adataihoz való hozzáférést a Power BI számára.
+6. Az **Elfogadás** elemre kattintva engedélyezze az Adobe Analytics adataihoz való hozzáférést a Power BI számára.
    
    ![](media/service-connect-to-adobe-analytics/adobe_authorize.png)
-5. Jóváhagyás után az importálás automatikusan megkezdődik. 
+7. Jóváhagyás után az importálás automatikusan megkezdődik. 
 
 ## <a name="view-the-adobe-analytics-dashboard-and-reports"></a>Az Adobe Analytics irányítópultjának és jelentéseinek megtekintése
 [!INCLUDE [powerbi-service-apps-open-app](./includes/powerbi-service-apps-open-app.md)]
 
-      ![Adobe Analytics dashboard](media/service-connect-to-adobe-analytics/dashboard.png)
+   ![Az Adobe Analytics irányítópultja](media/service-connect-to-adobe-analytics/dashboard.png)
 
 [!INCLUDE [powerbi-service-apps-open-app](./includes/powerbi-service-apps-what-now.md)]
 
@@ -82,19 +82,19 @@ A Cég érték bejelentkezés után a fiók jobb felső részén látható. Ügy
 
 **A jelentéscsomag azonosítója**
 
-A jelentéscsomag azonosítója a jelentéscsomaggal együtt jön létre. Az azonosító értékének meghatározásához forduljon a rendszergazdához. Vegye figyelembe, hogy ez nem azonos a jelentéscsomag nevével.
+A jelentéscsomag azonosítója a jelentéscsomaggal együtt jön létre. Az azonosító értékének meghatározásához forduljon a rendszergazdához. EZ nem azonos a jelentéscsomag nevével.
 
 Az Adobe [dokumentációjából](https://marketing.adobe.com/resources/help/en_US/reference/new_report_suite.html):
 
 ![](media/service-connect-to-adobe-analytics/reportsuiteid.png)
 
 ## <a name="troubleshooting"></a>Hibaelhárítás
-Ha a hitelesítő adatok beírása után hiányzó engedélyről szóló hibaüzenetet kap, ellenőrizze a rendszergazdánál, hogy van-e hozzáférése az Adobe Analytics API-hoz. Győződjön meg arról is, hogy a megadott Adobe-azonosító kapcsolódik az Ön (Adobe Analytics-céghez társított) Marketing Cloud cégéhez.
+Ha a hitelesítő adatok megadása után hiányzó engedélyről szóló hibaüzenetet kap, érdeklődjön a rendszergazdától, hogy van-e hozzáférése az Adobe Analytics API-hoz. Győződjön meg arról is, hogy a megadott Adobe-azonosító kapcsolódik az Ön (Adobe Analytics-céghez társított) Marketing Cloud cégéhez.
 
-Ha a hibaüzenet azután jelenik meg, hogy sikeresen túljutott a hitelesítő adatok képernyőn, lehetséges hogy a jelentések befejezése túl sokáig tart. Gyakori hibaüzenet *„A jelentések lekérése az Adobe Analytics jelentésből sikertelen volt. Tartalom többek között a &quot;hivatkozó, oldal&quot;, az időtartam körülbelül xx másodperc volt”*. Tekintse át a „Tartalom” szakaszt, és vesse össze az Adobe-példány méretével. Erre az időkorlátra jelenleg nem lehet megoldást találni, de foglalkozunk azzal a lehetőséggel, hogy frissítéseket adjunk ki, amelyek támogatást biztosítanak a nagyobb példányokhoz, ezért a Power BI csapata várja a visszajelzését a https://ideas.powerbi.com oldalon.
+Ha a hibaüzenet azután jelenik meg, hogy sikeresen túljutott a hitelesítő adatok képernyőn, lehetséges hogy a jelentések befejezése túl sokáig tart. Gyakori hibaüzenet *„A jelentések lekérése az Adobe Analytics jelentésből sikertelen volt. Tartalom többek között a &quot;hivatkozó, oldal&quot;, az időtartam körülbelül xx másodperc volt”*. Tekintse át a „Tartalom” szakaszt, és vesse össze az Adobe-példány méretével. Erre az időkorlátra jelenleg nem lehet megoldást találni, de fontolgatjuk olyan frissítések kiadását, amelyek jobb támogatást biztosítanának a nagyobb példányokhoz, ezért a Power BI csapata várja a visszajelzését a következő elérhetőségen: https://ideas.powerbi.com
 
 ## <a name="next-steps"></a>Következő lépések
-* [Mik a Power BI szolgáltatáson belüli alkalmazások?](consumer/end-user-apps.md)
+* [Mik a Power BI szolgáltatáson belüli alkalmazások?](service-create-distribute-apps.md)
 * [Adatok lekérése a Power BI-ban](service-get-data.md)
 * További kérdései vannak? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)
 

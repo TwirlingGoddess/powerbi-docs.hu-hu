@@ -8,15 +8,15 @@ featuredvideoid: maTzOJSRB3g
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/20/2018
+ms.date: 09/27/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: d1c771ed49a000374c58beb694dda511a8c9a097
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: e9b48b79b30250c442140929045132fe1c4b10e8
+ms.sourcegitcommit: 769ef3c8cbafd9ad5979eb4023a394ac7dba8d02
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46565820"
+ms.lasthandoff: 09/28/2018
+ms.locfileid: "47448914"
 ---
 # <a name="waterfall-charts-in-power-bi"></a>Vízesésdiagramok a Power BI-ban
 A vízesésdiagramok göngyölített összeget jelenítenek meg az értékek összeadásakor vagy kivonásakor. Ez hasznos annak megértéséhez, hogy egy kezdeti értékre (pl. nettó bevétel) hogyan hat egy sornyi pozitív és negatív változás.
@@ -39,32 +39,32 @@ Olyan vízesésdiagramot hozunk létre, amely megjeleníti a havi értékesíté
 
 1. Válassza az **Adatkészletek** lapot, és görgessen le az új „Kiskereskedelmi elemzés minta” adatkészletig.  A **Jelentés létrehozása** ikon kiválasztásával nyissa meg az adatkészletet jelentéskészítési nézetben. 
    
-    ![](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-report.png)
-2. A **Mezők** panelen válassza az **Értékesítés \> Teljes értékesítési eltérés** lehetőséget. Ha a **Teljes értékesítési eltérés** nem az **Y tengely** területén található, húzza át oda.
-3. Konvertálja a diagramot **Vízesésdiagrammá**. 
+    ![Adatkészletek lap kiemelve](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-report.png)
+2. A **Mezők** panelen válassza az **Értékesítés \> Teljes értékesítési eltérés** lehetőséget. 
+3. Konvertálja a diagramot **Vízesésdiagrammá**. Ha a **Teljes értékesítési eltérés** nem az **Y tengely** területén található, húzza át oda.
    
-    ![](media/power-bi-visualization-waterfall-charts/convertwaterfall.png)
+    ![Vizualizációs sablonok](media/power-bi-visualization-waterfall-charts/convertwaterfall.png)
 4. Válassza az **Idő**  \> **FiscalMonth** (Pénzügyi hónap) lehetőséget, és adja hozzá a **Kategória** területhez. 
    
-    ![](media/power-bi-visualization-waterfall-charts/power-bi-waterfall.png)
+    ![vízesés](media/power-bi-visualization-waterfall-charts/power-bi-waterfall.png)
 5. Rendezze időrend szerint a vízesésdiagramot. A diagram jobb felső sarkában kattintson a három pontra (...), és válassza a **FiscalMonth** lehetőséget.
    
-    ![](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-sort.png)
+    ![rendezés szempontjának kiválasztása > FiscalMonth (Pénzügyi hónap)](media/power-bi-visualization-waterfall-charts/power-bi-sort-by.png)
    
-    ![](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-sorted.png)
+    ![új növekvő rendezés eredménye](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-sorted.png)
 6. Derítse ki részletesebben, hogy mi járul hozzá legnagyobb mértékben az egyes hónapok közötti változáshoz. Húzza a **Tároló** > **Terület** elemet a **Lebontás** gyűjtőbe.
    
-    ![](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-breakdown.png)
+    ![Megjeleníti a Lebontás gyűjtőben található tárolót](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-breakdown.png)
 7. A Power BI alapértelmezés szerint a havi növekedésekhez és csökkenésekhez hozzájáruló 5 fő tényezőt adja hozzá. Minket azonban csak az első 2 tényező érdekel.  A Formázás panelen válassza a **Lebontás** lehetőséget, és a **Maximum** beállítást állítsa 2 értékre.
    
-    ![](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-breakdown-maximum.png)
+    ![Formázás > Lebontás](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-breakdown-maximum.png)
    
     A vízesésdiagram gyors áttekintéséből kiderül, hogy Ohio és Pennsylvania területek járulnak hozzá a változáshoz a legnagyobb (negatív és pozitív) mértékben. 
    
-    ![](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-axis.png)
-8. Ez érdekes eredmény. Vajon azért van Ohio és Pennsylvania ilyen jelentős befolyással, mert ezen a két területen jóval több az értékesítés, mint a többin?  Ezt könnyedén ellenőrizhetjük. Hozzon létre egy térképet az értékesítések terület szerinti megjelenítéséhez.  
+    ![vízesésdiagram](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-axis.png)
+8. Ez érdekes eredmény. Vajon azért van Ohio és Pennsylvania ilyen jelentős befolyással, mert ezen a két területen jóval több az értékesítés, mint a többin?  Ezt könnyedén ellenőrizhetjük. Hozzon létre egy térképet az idei értékesítési érték és a tavalyi értékesítési érték terület szerinti megjelenítéséhez.  
    
-    ![](media/power-bi-visualization-waterfall-charts/power-bi-map.png)
+    ![PA és Ohio térképe közelről](media/power-bi-visualization-waterfall-charts/power-bi-map.png)
    
     Az elkészült térkép alátámasztja ezt az elméletet.  Látható, hogy ezen a 2 területen volt a legmagasabb az értékesítés a tavalyi (buborék mérete) és az idei évben (buborék árnyékolása).
 
@@ -74,13 +74,7 @@ További információ a Szűrök ablaktábla használatáról: [Szűrők hozzáa
 A vízesésdiagram egyes oszlopainak kiemelésével a rendszer keresztszűri a jelentésoldalon lévő többi vizualizációt... és viszont. Azonban az Összesen oszlop nem aktivál kiemelést, és nem reagál a keresztszűrésre.
 
 ## <a name="next-steps"></a>Következő lépések
-[Power BI-jelentések](../consumer/end-user-reports.md)
+
+[Vizualizáció-interakciók](../service-reports-visual-interactions.md)
 
 [Vizualizációtípusok a Power BI-ban](power-bi-visualization-types-for-reports-and-q-and-a.md)
-
-[Vizualizációk a Power BI-jelentésekben](power-bi-report-visualizations.md)
-
-[Power BI – Alapfogalmak](../consumer/end-user-basic-concepts.md)
-
-További kérdései vannak? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)
-

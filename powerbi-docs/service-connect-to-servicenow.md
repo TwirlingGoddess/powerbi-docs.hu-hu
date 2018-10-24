@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 5a0c00b6082b3561a1e07e5eef4e4e21f71f97a3
-ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
+ms.openlocfilehash: c5fc2d476a12a4faf60313dd69dce7e143b88807
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37135467"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548166"
 ---
 # <a name="connect-to-servicenow-with-power-bi-for-incident-reporting"></a>Csatlakozás a ServiceNow-hoz a Power BI használatával incidensjelentések készítéséhez
 A ServiceNow több terméket és megoldást is kínál a vállalkozások számára, köztük üzleti, üzemeltetési és informatikai felügyeleti megoldásokat. A tartalomcsomag több jelentést és elemzést is tartalmaz a nyitott, a nemrég megoldott és a nemrég lezárt incidensekkel kapcsolatban.  
@@ -44,9 +44,9 @@ Csatlakozzon a [ServiceNow-incidensekhez](https://app.powerbi.com/getdata/servic
 
 **Mi a következő lépés?**
 
-* [Kérdéseket tehet fel a Q&A mezőben](power-bi-q-and-a.md) az irányítópult tetején.
+* [Kérdéseket tehet fel a Q&A mezőben](consumer/end-user-q-and-a.md) az irányítópult tetején.
 * [Módosíthatja az irányítópult csempéit](service-dashboard-edit-tile.md).
-* [Kiválaszthatja valamelyik csempét](service-dashboard-tiles.md) a mögöttes jelentés megnyitásához.
+* [Kiválaszthatja valamelyik csempét](consumer/end-user-tiles.md) a mögöttes jelentés megnyitásához.
 * Noha az adatkészlet napi frissítésre van ütemezve, módosíthatja a frissítési ütemezést, vagy igény szerint frissíthet az **Azonnali frissítés** gombbal.
 
 ## <a name="system-requirements"></a>Rendszerkövetelmények
@@ -63,5 +63,5 @@ Ha hosszú betöltési időket tapasztal, ellenőrizze az incidensek és a napok
 ## <a name="next-steps"></a>Következő lépések
 [Mi az a Power BI?](power-bi-overview.md)
 
-[Power BI – Alapfogalmak](service-basic-concepts.md)
+[Power BI – Alapfogalmak](consumer/end-user-basic-concepts.md)
 

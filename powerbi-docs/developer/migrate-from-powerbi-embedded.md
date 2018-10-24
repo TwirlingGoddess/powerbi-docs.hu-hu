@@ -2,18 +2,17 @@
 title: Power BI-munkaterületcsoport tartalmainak migrálása a Power BI-ba
 description: A cikk azt mutatja be, hogyan migrálhatja az adatokat a Power BI-munkaterületcsoportokból a Power BI Embeddedbe, és hogyan aknázhatja ki az alkalmazásokba való beágyazás nyújtotta fejlett lehetőségeket.
 author: markingmyname
-manager: kfile
-ms.reviewer: ''
-ms.Embedded: powerbi
+ms.service: powerbi
+ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 06/30/2018
 ms.author: maghan
-ms.openlocfilehash: 6de0efe3bad1662d1324488a7030894248056730
-ms.sourcegitcommit: 06f59902105c93700e71e913dff8453e221e4f82
+ms.openlocfilehash: f53b7e02ac3f744a7eb0fa7dd74b7144a434a42f
+ms.sourcegitcommit: 833cf1252807721fb1b3000487bd032bfd6c8c98
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 08/01/2018
-ms.locfileid: "39388663"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "48271854"
 ---
 # <a name="how-to-migrate-power-bi-workspace-collection-content-to-power-bi-embedded"></a>Power BI-munkaterületcsoport tartalmainak migrálása a Power BI Embeddedbe
 A cikk azt mutatja be, hogyan migrálhatja az adatokat a Power BI-munkaterületcsoportokból a Power BI Embeddedbe, és hogyan aknázhatja ki az alkalmazásokba való beágyazás nyújtotta fejlett lehetőségeket.
@@ -30,7 +29,7 @@ A jelenlegi Power BI-munkaterületcsoport már csak korlátozott ideig lesz elé
 
 ![](media/migrate-from-powerbi-embedded/powerbi-embed-flow.png)
 
-Mielőtt megkezdené az új Power BI Embedded szolgáltatásba való migrálást, gyorsan áttekintheti a lépésenkénti útmutatót, melynek segítségével beállíthatja az új Power BI Embedded-környezetet az [Előkészítési felület eszközzel](https://aka.ms/embedsetup).
+Mielőtt megkezdené az új Power BI Embedded szolgáltatásba való migrálást, gyorsan áttekintheti a részletes útmutatót, amely segítségével beállíthatja az új Power BI Embedded-környezetet a [beágyazáshoz szükséges telepítési eszközzel](https://aka.ms/embedsetup).
 
 Válassza ki az Ön számára megfelelő megoldást:
 * **Beágyazás az ügyfelek számára** – ha olyan megoldásra van szüksége, melyben [az adatok tulajdonosa az alkalmazás (app owns data)](https://aka.ms/embedsetup/AppOwnsData). Amennyiben az [ügyfelei számára végez beágyazást](embedding.md#embedding-for-your-customers), irányítópultokat és jelentéseket ágyazhat be olyan felhasználók számára, akik nem rendelkeznek Power BI-fiókkal. 

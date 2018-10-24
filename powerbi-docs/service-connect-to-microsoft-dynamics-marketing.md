@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: c69b73be481408884cc4fbfc5ae4987714b10d9d
-ms.sourcegitcommit: 60f637d8555fd59fd9a86de720b89b388fb85ac0
+ms.openlocfilehash: cfa25a28490a2254bd19bb431beea0ebc14d3c56
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 09/05/2018
-ms.locfileid: "43695110"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46549742"
 ---
 # <a name="connect-to-microsoft-dynamics-marketing-with-power-bi"></a>Kapcsolódás a Power BI-ból a Microsoft Dynamics Marketinghez
 A Power BI-hoz készült Microsoft Dynamics Marketing-programcsomag segítségével könnyedén hozzáférhet a Dynamics Marketingből származó adatokhoz és egyszerűen elemezheti őket. A teljesítménycsomag egy, az OData-csatornára épülő leíró modellt használ, és az összes szükséges entitást és mértéket tartalmazza, többek között programokat, kampányokat, marketingkapcsolatokat és -vállalatokat, érdeklődőket, érdeklődő-interakciókat és érdeklődőpontozást, e-mailes marketingüzeneteket és weboldalakat, viselkedésmegfigyeléseket, költségvetéseket, pénzügyi tranzakciókat és teljesítmény KPI-ket. 
@@ -47,9 +47,9 @@ Kapcsolódjon a Power BI-hoz készült [Dynamics Marketing-tartalomcsomaghoz](ht
 
 **Hogyan tovább?**
 
-* [Kérdéseket tehet fel a Q&A mezőben](power-bi-q-and-a.md) az irányítópult tetején.
+* [Kérdéseket tehet fel a Q&A mezőben](consumer/end-user-q-and-a.md) az irányítópult tetején.
 * [Módosíthatja az irányítópult csempéit](service-dashboard-edit-tile.md).
-* [Kiválaszthatja valamelyik csempét](service-dashboard-tiles.md) a mögöttes jelentés megnyitásához.
+* [Kiválaszthatja valamelyik csempét](consumer/end-user-tiles.md) a mögöttes jelentés megnyitásához.
 * Noha az adatkészlet napi frissítésre van ütemezve, módosíthatja a frissítési ütemezést, vagy igény szerint frissíthet az **Azonnali frissítés** gombbal.
 
 ## <a name="system-requirements"></a>Rendszerkövetelmények

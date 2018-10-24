@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: conceptual
-ms.date: 03/22/2018
+ms.date: 09/14/2018
 ms.author: maggies
-ms.openlocfilehash: 6ea5814cdba7df6d7e7bb4bbb284f52110ca184c
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 06a8d15ca894b877199f22fc6c00d4c34827d76b
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44737166"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46547798"
 ---
 # <a name="view-power-bi-reports-optimized-for-your-phone"></a>Telefonra optimalizált Power BI-jelentések megtekintése
 
@@ -24,7 +24,7 @@ A következőkre vonatkozik:
 |:--- |:--- |
 | iPhone-ok |Android rendszerű telefonok |
 
-Mikor létrehoz egy Power BI-jelentést a Power BI Desktopban, létrehozhatja [annak a Power BI telefonos alkalmazásokban való megtekintésre optimalizált verzióját](../../desktop-create-phone-report.md).
+Amikor létrehoz egy Power BI-jelentést a Power BI Desktopban vagy a Power BI szolgáltatásban, [létrehozhatja a Power BI telefonos alkalmazásokban való megtekintésre optimalizált jelentésverziót](../../desktop-create-phone-report.md).
 
 Ezután, ha megnyit egy Power BI-jelentést a telefonján, a Power BI felderíti, ha a jelentésnek van telefonra optimalizált változata, és automatikusan azt nyitja meg álló tájolásban.
 
@@ -79,7 +79,7 @@ Egyes műveletek a képernyőméret-korlátok miatt csak fókusz módban hajthat
     A visszaállítás a jelentés szintjén (az összes vizualizáció minden vizsgálati lépésének törlése) vagy az egyes vizualizációk szintjén (egy adott vizualizáció minden vizsgálati lépésének törlése) lehetséges.   
 
 ## <a name="drill-down-in-a-visual"></a>Vizualizációk részletes elemzése
-Ha a vizualizációban vannak hierarchiaszintek definiálva, részletes elemzést végezhet a vizualizációban megjelenő részletes információk szintjén majd onnan vissza léphet. A [vizualizációk részletes elemzési funkcionalitását](../../power-bi-visualization-drill-down.md) a Power BI szolgáltatásban vagy a Power BI Desktopban adhatja hozzá. A részletes elemzés telefonon csak a telefonra optimalizált Power BI-jelentésekben elérhető. 
+Ha a vizualizációban vannak hierarchiaszintek definiálva, részletes elemzést végezhet a vizualizációban megjelenő részletes információk szintjén majd onnan vissza léphet. A [vizualizációk részletes elemzési funkcionalitását](../end-user-drill.md) a Power BI szolgáltatásban vagy a Power BI Desktopban adhatja hozzá. A részletes elemzés telefonon csak a telefonra optimalizált Power BI-jelentésekben elérhető. 
 
 1. A telefonos jelentésben koppintson a jobb felső sarokban a három pontra (**...**), majd a **Kiterjesztés fókusz módra** lehetőségre.
    

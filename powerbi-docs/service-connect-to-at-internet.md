@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 1baccb5fd674d5e0037f112fc8cbee450b6bcb8a
-ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
+ms.openlocfilehash: c65cc7052a3a056280561643c7734212b92769be
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37136364"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46549419"
 ---
 # <a name="connect-to-at-internet-bridge-with-power-bi"></a>Csatlakozás az AT Internet Bridge-hez Power BI-jal
 Az AT Internet digitális analitikus platformját, az Analytics Suite-ot használva azonnal értékes információkhoz juthat adataiból. A Power BI-hoz készített AT Internet Bridge tartalomcsomag webhelyéhez használható adatlátogatásokat, forrásokat, honosításokat és eszközöket tartalmaz.
@@ -44,12 +44,12 @@ Csatlakozzon a [Power BI-hoz készült AT Internet Bridge tartalomcsomaghoz](htt
 
 **Mi a következő lépés?**
 
-* [Kérdéseket tehet fel a Q&A mezőben](power-bi-q-and-a.md) az irányítópult tetején.
+* [Kérdéseket tehet fel a Q&A mezőben](consumer/end-user-q-and-a.md) az irányítópult tetején.
 * [Módosíthatja az irányítópult csempéit](service-dashboard-edit-tile.md).
-* [Kiválaszthatja valamelyik csempét](service-dashboard-tiles.md) a mögöttes jelentés megnyitásához.
+* [Kiválaszthatja valamelyik csempét](consumer/end-user-tiles.md) a mögöttes jelentés megnyitásához.
 * Noha az adatkészlet napi frissítésre van ütemezve, módosíthatja a frissítési ütemezést, vagy igény szerint frissíthet az **Azonnali frissítés** gombbal.
 
-## <a name="whats-included"></a>A csomag tartalma
+## <a name="whats-included"></a>Tartalom
 Ez a tartalomcsomag az elmúlt 45 nap adatait tartalmazza az alábbi táblákban:  
 
     - Conversion (Konverzió)  
@@ -61,5 +61,5 @@ Ez a tartalomcsomag az elmúlt 45 nap adatait tartalmazza az alábbi táblákban
 ## <a name="next-steps"></a>Következő lépések
 [Mi az a Power BI?](power-bi-overview.md)
 
-[Power BI – Alapfogalmak](service-basic-concepts.md)
+[Power BI – Alapfogalmak](consumer/end-user-basic-concepts.md)
 

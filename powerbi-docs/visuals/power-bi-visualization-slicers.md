@@ -1,5 +1,5 @@
 ---
-title: Szeletelők a Power BI-ban
+title: Oktatóanyag – Szeletelők a Power BI-ban
 description: Szeletelők a Power BI-ban
 author: mihart
 manager: kvivek
@@ -7,23 +7,23 @@ ms.reviewer: ''
 featuredvideoid: zIZPA0UrJyA
 ms.service: powerbi
 ms.component: powerbi-desktop
-ms.topic: conceptual
-ms.date: 05/25/2018
-ms.author: mihart
+ms.topic: tutorial
+ms.date: 09/25/2018
+ms.author: v-thepet
 LocalizationGroup: Visualizations
-ms.openlocfilehash: babd30b89970108a06475ec3e7dab7e2ca708425
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: e42504c2c320e4f102cab5e2272e6123bf580cf5
+ms.sourcegitcommit: 769ef3c8cbafd9ad5979eb4023a394ac7dba8d02
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46565084"
+ms.lasthandoff: 09/28/2018
+ms.locfileid: "47448983"
 ---
 # <a name="slicers-in-power-bi"></a>Szeletelők a Power BI-ban
 A jelentést olvasók számára az összesítő értékesítési mérőszámok megjelenítése mellett az egyes körzeti vezetők teljesítményét és a különböző időkereteket is ki kell tudni mutatni. Létrehozhat különálló jelentéseket vagy összehasonlító diagramokat, illetve használhat szeletelőket. A szűrés másféle lehetőségét kínáló szeletelőkkel az adathalmaz a jelentés más vizualizációiban szereplő részére szűkíthető. 
 
 Ez az útmutató az ingyenes [Kiskereskedelmi elemzési minta](../sample-retail-analysis.md) használatával mutatja be a lista és dátumtartomány típusú szeletelők létrehozásának, formázásának és használatának lépéseit. Jó szórakozást a szeletelők formázásának és használatának felfedezéséhez! 
 
-![slicer](./media/power-bi-visualization-slicers/slicer2.gif)
+![slicer](media/power-bi-visualization-slicers/slicer2.gif)
 
 ## <a name="when-to-use-a-slicer"></a>Mikor érdemes szeletelőt használni?
 A szeletelő kitűnően alkalmas a következő célokra:
@@ -46,7 +46,7 @@ A Power BI-szeletelőkre a következő korlátozások érvényesek:
 
 Amikor először módosítja a jelentést, aktiválódik a **Visszaállítás alapértelmezettre** gomb. Ez arra emlékeztet, hogy módosította az eredeti jelentésbeállításokat. Ha kilép a jelentésből, a rendszer menti (megőrzi) a módosítást. Amikor visszatér a jelentéshez, nem kell újból szeletelnie a jelentést.  Ha azonban szeretné visszaállítani a jelentést a készítő alapértelmezett beállításaira, válassza a **Visszaállítás alapértelmezettre** gombot a felső menüsoron.
 
-![a Visszaállítás alapértelmezettre gomb](./media/power-bi-visualization-slicers/power-bi-reset-to-default.png)
+![a Visszaállítás alapértelmezettre gomb](media/power-bi-visualization-slicers/power-bi-reset-to-default.png)
 
 > [!NOTE]
 > Ha a **Visszaállítás alapértelmezettre** gomb letiltva marad, az vagy azt jelenti, hogy a jelentés készítője letiltotta ezt a funkciót a jelentés esetében, vagy azt, hogy a jelentés egy egyéni vizualizációt tartalmaz. A magyarázatot megtalálhatja, ha egyszerűen a gombra mutat, és elolvassa az elemleírást. 
@@ -54,23 +54,23 @@ Amikor először módosítja a jelentést, aktiválódik a **Visszaállítás al
 **Új szeletelő létrehozása körzeti vezető szerint szűrt adatok létrehozásához**
 
 1. A Power BI Desktopban nyissa meg a [Kiskereskedelmi elemzési mintát](../sample-retail-analysis.md). (A Power BI szolgáltatásban a bal felső részen válassza a**Jelentés szerkesztése** lehetőséget.)
-2. Új szeletelő létrehozásához az **Áttekintés** lapon (miközben a vásznon semmi ne legyen kiválasztva), a **Vizualizációk** ablaktáblán jelölje be a **Szeletelő** ikont ![szeletelő ikon](./media/power-bi-visualization-slicers/slicer-icon.png). 
+2. Új szeletelő létrehozásához az **Áttekintés** lapon (miközben a vásznon semmi ne legyen kiválasztva), a **Vizualizációk** ablaktáblán jelölje be a **Szeletelő** ikont ![szeletelő ikon](media/power-bi-visualization-slicers/slicer-icon.png). 
 3. Jelölje be az új szeletelőt, majd a szeletelő adatokkal való feltöltéséhez a **Mezők** ablaktábla **Körzet** részében válassza a **Körzeti vezető** lehetőséget. Az új szeletelő névlista formájában jelenik meg, a nevek előtt jelölőnégyzetekkel. 
     
-    ![új szeletelő](./media/power-bi-visualization-slicers/2-slicer.png)
+    ![új szeletelő](media/power-bi-visualization-slicers/2-slicer.png)
     
 4. A szeletelő számára a szeletelő és a vásznon levő egyéb elemek átméretezésével, illetve elmozdításával biztosíthat helyet. Vegye figyelembe, hogy a szeletelő elemeit a rendszer levágja, ha a szeletelőt túl kicsire méretezi át. 
 5. Jelöljön be neveket a szeletelőn, és figyelje meg a hatást az oldalon levő más vizualizációkon. A nevek bejelölésének megszüntetéséhez kattintson ismét a jelölőnégyzetükre; egynél több név bejelöléséhez tartsa lenyomva a **Ctrl** billentyűt. Az összes név kiválasztása ugyanazzal az eredménnyel jár, mintha egyet sem választana ki. 
 
 >[!TIP]
->Alapértelmezés szerint a szeletelő listaelemei növekvő ábécésorrendbe rendeződnek. A rendezés csökkenő irányba való módosításához kattintson a szeletelő jobb felső sarkában levő három pontra (**...**), majd a legördülő listából válassza a **Rendezés szempontja: Körzeti vezető** lehetőséget. 
+>Alapértelmezés szerint a szeletelő listaelemei növekvő ábécésorrendbe rendeződnek. A rendezés csökkenő irányba való módosításához kattintson a szeletelő jobb felső sarkában levő három pontra (**...**), majd a legördülő listából válassza a **Rendezés szempontja: Kerületi menedzser** lehetőséget. 
 
 **Új szeletelő létrehozása dátumtartomány szerint szűrt adatok létrehozásához**
 
 1. Új vizualizáció létrehozásához, miközben a vásznon semmi ne legyen kiválasztva, a Mezők ablaktáblán nyissa le az **Idő** legördülő listát, majd húzza a **Hónap** (illetve a Power BI szolgáltatásban a **Dátum**) elemet a Vizualizációk ablaktáblában levő **Értékek** dobozba.
 2. A vizualizáció szeletelővé való átalakításához, miután kijelölte az új vizualizációt, a Vizualizációk ablaktáblán válassza a **Szeletelő** ikont. Ez a szeletelő egy csúszkavezérlő, amely fel van töltve a dátumtartománnyal.
     
-    ![új tartomány szeletelő](./media/power-bi-visualization-slicers/2a-date-slicer.png)
+    ![új tartomány szeletelő](media/power-bi-visualization-slicers/2a-date-slicer.png)
     
 4. A szeletelő számára a szeletelő és a vásznon levő egyéb elemek átméretezésével, illetve elmozdításával biztosíthat helyet. Vegye figyelembe, hogy a szeletelő méretének módosításával a csúszka is átméreteződik, de ha a szeletelőt túl kicsire méretezi, akkor a csúszka eltűnik, és a dátumokat a rendszer levágja. 
 4. A csúszkával különféle dátumtartományokat jelölhet ki, illetve egy dátummezőt kiválasztva értéket is megadhat vagy felugró naptárt is használhat a pontosabb kijelöléshez. Figyelje meg a hatást a lapon lévő többi vizualizáción.
@@ -93,12 +93,12 @@ A **Vizualizációk interakciói** beállítással egyes vizualizációkat kivon
     - A Power BI Desktopban, a **Vizuális eszközök** részben válassza a **Formátum** menüt, majd válassza az **Interakciók szerkesztése** lehetőséget.
     - A Power BI szolgáltatásban gördítse le a **Vizualizációk interakciói** menüt a menüsávon, és kapcsolja be az **Interakciók szerkesztése** lehetőséget. 
    
-   A szűrővezérlők ![szűrővezérlők](./media/power-bi-visualization-slicers/filter-controls.png)az egyéb vizualizációk felett jelennek meg az oldalon. Kezdetben az összes **Szűrő** ikon ki van jelölve.
+   A szűrővezérlők ![szűrővezérlők](media/power-bi-visualization-slicers/filter-controls.png)az egyéb vizualizációk felett jelennek meg az oldalon. Kezdetben az összes **Szűrő** ikon ki van jelölve.
    
 2. A **Teljes értékesítési szórásnégyzet pénzügyi hónap és körzeti vezető szerint** diagram szeletelő általi szűrésének meggátlásához a diagram felett válassza a **Nincs** ikont. 
 3. Válassza a **Hónap** szeletelőt, majd a **Teljes értékesítési szórásnégyzet pénzügyi hónap és körzeti vezető szerint** diagram e szeletelő általi szűrésének meggátlásához a diagram felett ismét válassza a **Nincs** ikont. Így a „Teljes értékesítési szórásnégyzet pénzügyi hónap és körzeti vezető szerint” diagram, a szeletelőkben levő nevek és dátumtartományok kiválasztása esetén is változatlan marad. 
 
-Az interakciók szerkesztéséről a [Vizuális interakciók a Power BI-jelentésekben](../consumer/end-user-interactions.md) című cikkben talál további információkat.
+Az interakciók szerkesztéséről a [Vizuális interakciók a Power BI-jelentésekben](../service-reports-visual-interactions.md) című cikkben talál további információkat.
 
 ## <a name="sync-and-use-slicers-on-other-pages"></a>Más oldalakon levő szeletelők szinkronizálása és használata
 A Power BI 2018. februári frissítésétől kezdve a szeletelők szinkronizálhatók és egy jelentés bármely – vagy akár az összes – oldalán felhasználhatók. 
@@ -108,7 +108,7 @@ Az aktuális jelentésben a **Körzeti havi értékesítés** oldal is rendelkez
 1. A Power BI Desktop **Nézet** menüjében válassza a **Szeletelők szinkronizálása** lehetőséget (vagy a Power BI szolgáltatásban kapcsolja be a **Szeletelő szinkronizálása ablaktáblát**). Megjelenik a **Szeletelők** szinkronizálása ablaktábla. 
 2. Az **Áttekintés** oldalon jelölje be a **Körzeti vezető** szeletelőt. Figyelje meg, hogy a **Körzeti havi értékesítés** oldal már be van jelölve a **Látható** oszlopban, mert az adott oldalon van Körzeti vezető szeletelő is, de a **Szinkronizálás** oszlopban nincs bejelölve. 
     
-    ![szeletelők szinkronizálása](./media/power-bi-visualization-slicers/9-sync-slicers.png)
+    ![szeletelők szinkronizálása](media/power-bi-visualization-slicers/9-sync-slicers.png)
     
 3. A **Szinkronizálás** oszlopban válassza ki az **Új üzletek** oldalt és a **Körzeti havi értékesítés** oldalt, hogy az **Áttekintés** szeletelő szinkronizálva legyen ezekkel az oldalakkal. 
     
@@ -126,7 +126,7 @@ A szeletelő típusától függően különböző formázási beállítások ér
 
 1. Jelölje ki bármelyik oldalon a **Körzeti vezető** szeletelőt, majd a **Vizualizációk** ablaktáblán válassza a **Formázás** ikont ![](media/power-bi-visualization-slicers/power-bi-paintroller.png) a formázási beállítások megjelenítéséhez. 
     
-    ![formázás](./media/power-bi-visualization-slicers/3-format.png)
+    ![formázás](media/power-bi-visualization-slicers/3-format.png)
     
 2. A beállítások megjelenítéséhez és szerkesztéséhez kattintson a kategóriák melletti legördülőmenü-nyilakra. 
 
@@ -134,25 +134,25 @@ A szeletelő típusától függően különböző formázási beállítások ér
 1. A **Körvonal színe** beállításnál adja meg a piros színt, majd módosítsa a **Körvonal vastagsága** értéket 2-re. Ez adja meg a fejléc és az elemek körüli körvonalak és az aláhúzások színét és vastagságát, ha azok engedélyezve vannak. 
 2. A **Tájolás** beállításban az alapértelmezett beállítás a **Függőleges**. Vízszintesen elrendezett csempékkel vagy gombokkal, és a szeletelőbe be nem férő elemek eléréséhez görgetőnyilakkal rendelkező szeletelő előállításához válassza a **Vízszintes** lehetőséget.
     
-    ![vízszintes](./media/power-bi-visualization-slicers/4-horizontal.png)
+    ![vízszintes](media/power-bi-visualization-slicers/4-horizontal.png)
     
 3. A szeletelő elemek elrendezésének a megjelenítő képernyő és a szeletelő mérete alapján történő módosításához kapcsolja be a **Rugalmas** elrendezést. Lista típusú szeletelők esetén a rugalmas elrendezés csak vízszintes tájolásban érhető el, és megakadályozza az elemek kisebb képernyőkön történő levágását. Tartománycsúszka típusú szeletelők esetén a rugalmas formázás módosítja a csúszka stílusát, és rugalmasabb átméretezést biztosít. Nagyon kis méretben mindkét típusú szeletelő szűrőikonná változik. 
     
-    ![rugalmas](./media/power-bi-visualization-slicers/5-responsive.png)
+    ![rugalmas](media/power-bi-visualization-slicers/5-responsive.png)
     
     >[!NOTE]
     >A rugalmas elrendezéssel járó módosítások felülírhatják a megadott fejléc- és elemformázási beállításokat. 
     
 4. A szeletelő helyzete és mérete numerikus pontossággal is megadható az **X pozíció**, **Y pozíció**, **Szélesség** és **Magasság** mezőben, de a szeletelő közvetlenül a vásznon is áthelyezhető és méretezhető. Kísérletezzen különböző elemméretekkel és -elrendezésekkel, majd figyelje meg, hogyan módosul ezeknek megfelelően a rugalmas formázás.  
 
-    ![vízszintes gombsor](./media/power-bi-visualization-slicers/6-buttons.png)
+    ![vízszintes gombsor](media/power-bi-visualization-slicers/6-buttons.png)
 
 A vízszintes tájolásról és a rugalmas elrendezésről az [Átméretezhető rugalmas szeletelő létrehozása a Power BI-ban](../power-bi-slicer-filter-responsive.md) című cikk tartalmaz bővebb információt.
 
 ### <a name="selection-controls-options-list-slicers-only"></a>Kijelölés vezérlők beállításai (csak lista típusú szeletelők esetén)
 1. Az **Összes kijelölés megjelenítése** lehetőség beállítása alapértelmezés szerint **Ki**. Kapcsolja **Be**, hogy a szeletelőn megjelenjen az összes elem kijelölésére és az összes kijelölés megszüntetésére alkalmas **Összes kijelölése** vezérlőelem. Amikor minden elem ki van jelölve, a kijelölések kattintással vagy koppintással egyenként megszüntethetők, így ez nemleges feltételű szűrőként használható. 
     
-    ![az összes kijelölése](./media/power-bi-visualization-slicers/7-select-all.png)
+    ![az összes kijelölése](media/power-bi-visualization-slicers/7-select-all.png)
     
 2. Az **Egyetlen elem kijelölése** lehetőség alapértelmezés szerint **Be** van kapcsolva. Az elemek kattintással vagy koppintással egyenként kijelölhetők, a **Ctrl** billentyű lenyomva tartása mellett történő kattintással vagy koppintással pedig több elem is kijelölhető. Ha az **Egyetlen elem kijelölése** lehetőséget **Ki** értékre állítja, akkor több elem is kijelölhető a **Ctrl** billentyű lenyomva tartása nélkül. Ismételt kattintással vagy koppintással az elem kijelölése megszüntethető. 
 
@@ -165,7 +165,7 @@ A szeletelő felső részén az adatmező nevét tartalmazó **Fejléc** alapér
 1. Formázza az elem szövegét és hátterét úgy, hogy a **Betűszín** fekete, a **Háttér** világospiros, a **Betűméret** 10 pt és a **Betűcsalád** Arial legyen. 
 2. A **Körvonal** beállításnál válassza a **Keret** lehetőséget, hogy minden elem köré keretet rajzoljon az **Általános** beállítások között megadott vonalvastagsággal és színnel. 
     
-    ![formázott](./media/power-bi-visualization-slicers/8-formatted.png)
+    ![formázott](media/power-bi-visualization-slicers/8-formatted.png)
     
     >[!TIP]
     >- Az **Elrendezés > Vízszintes** beállítás esetén a nem kijelölt elemek a választott szöveg- és háttérszínnel, a kijelöltek pedig a rendszer alapértelmezése szerint általában fekete háttérrel és fehér szöveggel jelennek meg.
@@ -183,15 +183,7 @@ A további formázási lehetőségek alapértelmezés szerint ki vannak kapcsolv
 - **Szegély:** 1 képpont vastagságú szegélyt rajzol a szeletelő köré, és beállítja annak színét. (Ez a szeletelőszegély az általános körvonal-beállításoktól független, azok nincsenek hatással rá.) 
 
 ## <a name="next-steps"></a>Következő lépések
-[Regisztráljon ingyenes próbára](https://powerbi.microsoft.com/get-started/)
+[Vizualizációtípusok a Power BI-ban](power-bi-visualization-types-for-reports-and-q-and-a.md)
 
-Vannak a Power BI továbbfejlesztésére vonatkozó ötletei? [Ötlet beküldése](https://ideas.powerbi.com/forums/265200-power-bi-ideas).
-
-További kérdései vannak? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)
-
-[Vizualizáció hozzáadása jelentésekhez](power-bi-report-add-visualizations-i.md)
-
-[Vizualizációk típusai a Power BI-ban](power-bi-visualization-types-for-reports-and-q-and-a.md)
-
-[Power BI – Alapfogalmak](../consumer/end-user-basic-concepts.md)
+[Táblák a Power BI-ban](power-bi-visualization-tables.md)
 

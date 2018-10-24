@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/31/2018
+ms.date: 09/17/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 28dcc4812a37b5ad3f514227f4e5fbcdfebeb579
-ms.sourcegitcommit: 06f59902105c93700e71e913dff8453e221e4f82
+ms.openlocfilehash: ce4aab1a477485a30a4166d86d166a4ac289108f
+ms.sourcegitcommit: 698b788720282b67d3e22ae5de572b54056f1b6c
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 08/01/2018
-ms.locfileid: "39388801"
+ms.lasthandoff: 09/17/2018
+ms.locfileid: "45974230"
 ---
 # <a name="storage-mode-in-power-bi-desktop-preview"></a>Tárolási mód a Power BI Desktopban (előzetes verzió)
 
@@ -171,12 +171,13 @@ Az *adatnézetben** kijelölt **Kettős** és **Importálás** módú táblákho
 
 A **tárolási módnak** erre a verziójára és az **összetett modellekkel** való viszonyára érvényes néhány korlátozás.
 
-Az alábbi többdimenziós források nem használhatók **összetett modellekkel**:
+Az alábbi Live Connect- (többdimenziós) források nem használhatók **összetett modellekkel**:
 
 * SAP HANA
 * SAP Business Warehouse
 * SQL Server Analysis Services
 * Power BI-adathalmazok
+* Azure Analysis Services
 
 Ha ezekhez a többdimenziós forrásokhoz a DirectQuery használatával csatlakozik, nem tud ugyanakkor más DirectQuery-forráshoz is csatlakozni, és importált adatokkal kombinálni sem.
 

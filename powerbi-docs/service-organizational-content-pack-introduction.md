@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 453b0f5852fefb1008b8013a0c42af4cc1d42f32
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 3f8a5075290620d9d1ed1829008002ff71d25c82
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46547637"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48908159"
 ---
 # <a name="intro-to-organizational-content-packs-in-power-bi"></a>Bevezetés a Power BI szervezeti tartalomcsomagjainak használatába
 > [!NOTE]
@@ -33,7 +33,7 @@ Az AppSource-ban böngészheti és megkeresheti az egész szervezettel, valamint
 Az irányítópultok, a jelentések és az Excel-munkafüzetek írásvédettek, de az irányítópultokat és a jelentéseket másolhatja, és kiindulási pontként használhatja személyre szabott tartalomcsomagok létrehozásában.
 
 > [!NOTE]
-> A szervezeti tartalomcsomagok csak akkor érhetők el, ha Ön és kollégái is rendelkeznek a [Power BI Próval](service-free-vs-pro.md).
+> A szervezeti tartalomcsomagok csak akkor érhetők el, ha Ön és kollégái is rendelkeznek [Power BI Pro-licenccel](service-features-license-type.md).
 > 
 > 
 
@@ -52,7 +52,7 @@ Az életciklus nagyjából így alakul:
 1. Szabolcs létrehozza a tartalomcsomagot a Power BI Próban, és közzéteszi a Marketing terjesztési csoportban. A frissítési beállítások az adatkészlettel öröklődnek, és csak Szabolcs módosíthatja őket.
    
    > [!NOTE]
-   > Ha Szabolcs olyan [Power BI-alkalmazás-munkaterületen](consumer/end-user-create-apps.md) hozza létre a tartalomcsomagot, amelynek tagja, akkor mások átvehetik a csomag tulajdonjogát, ha Szabolcs esetleg elhagyja a munkaterületet.
+   > Ha Szabolcs olyan [Power BI-alkalmazás-munkaterületen](service-create-distribute-apps.md) hozza létre a tartalomcsomagot, amelynek tagja, akkor mások átvehetik a csomag tulajdonjogát, ha Szabolcs esetleg elhagyja a munkaterületet.
    > 
    > 
 2. Szabolcs e-mailben értesíti a terjesztési csoport tagjait az új tartalomcsomagról.
@@ -76,7 +76,7 @@ A terjesztési csoport minden tagja ugyanolyan jogosultságokkal rendelkezik az 
 
 ## <a name="next-steps"></a>Következő lépések
 * [Szervezeti tartalomcsomag létrehozása és közzététele](service-organizational-content-pack-create-and-publish.md)
-* [Alkalmazások létrehozása és terjesztése a Power BI-ban](consumer/end-user-create-apps.md) 
+* [Alkalmazások létrehozása és terjesztése a Power BI-ban](service-create-distribute-apps.md) 
 * [Power BI – Alapfogalmak](consumer/end-user-basic-concepts.md)
 * További kérdései vannak? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)
 

@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 08/31/2018
-ms.openlocfilehash: d540dd29214422dfc33dca2bf2fb1cb74ebe6de7
-ms.sourcegitcommit: 9c3a9ec14c111d766ef5703366c316e72f6e588f
+ms.openlocfilehash: 71cb40ef6f1346bd3d8486658b05427e66d1dbf3
+ms.sourcegitcommit: 9719eccf29298c9c673200350abc58281ef14869
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 09/13/2018
-ms.locfileid: "45558576"
+ms.lasthandoff: 09/20/2018
+ms.locfileid: "46474046"
 ---
 # <a name="troubleshooting-your-embedded-application"></a>Beágyazott alkalmazás hibaelhárítása
 
@@ -84,18 +84,18 @@ A hiba további felderítéséhez szükség lehet a Fidlerre a forgalom rögzít
 
 Lehet, hogy az alkalmazás háttérszolgáltatásának a GenerateToken-hívás előtt frissítenie kell a hitelesítési tokent.
 
-```
+    ```
     GET https://wabi-us-north-central-redirect.analysis.windows.net/metadata/cluster HTTP/1.1
     Host: wabi-us-north-central-redirect.analysis.windows.net
     ...
     Authorization: Bearer eyJ0eXAiOi...
     ...
- 
+
     HTTP/1.1 403 Forbidden
     ...
-     
+
     {"error":{"code":"TokenExpired","message":"Access token has expired, resubmit with a new access token"}}
-```
+    ```
 
 ## <a name="authentication"></a>Hitelesítés
 
@@ -229,13 +229,13 @@ Miután beszerezte a IError objektumot, tekintse meg a megfelelő gyakori hibák
 | OpenConnectionError | A vizualizáció nem jeleníthető meg. Nem lehetett leképezni a következő című jelentésvizualizációt: <visual title> | N.A. | A kapacitás fel van függesztve, vagy törölték, amíg a kapacitással kapcsolatos jelentés meg volt nyitva egy munkamenetben |
 | ExplorationContainer_FailedToLoadModel_DefaultDetails | Nem sikerült betölteni a jelentéshez társított modellsémát. Győződjön meg róla, hogy csatlakozott a kiszolgálóhoz, és próbálkozzon újra. | N.A. | <li> A kapacitás fel van függesztve <li> A kapacitás törölve |
 
-## <a name="onboarding-experience-tool-for-embedding"></a>Előkészítési eszköz beágyazáshoz
+## <a name="embedding-setup-tool"></a>Beágyazáshoz szükséges telepítési eszköz
 
-Az [Előkészítési eszköz](https://aka.ms/embedsetup) használatával gyorsan letölthet egy mintaalkalmazást. Az alkalmazását ezután összehasonlíthatja a mintaalkalmazással.
+Megismerkedhet a [beágyazáshoz szükséges telepítési eszközzel](https://aka.ms/embedsetup), hogy gyorsan letölthessen egy mintaalkalmazást. Az alkalmazását ezután összehasonlíthatja a mintaalkalmazással.
 
 ### <a name="prerequisites"></a>Előfeltételek
 
-Mielőtt használatba venné az előkészítési eszközt, ellenőrizze, hogy rendelkezik-e az összes szükséges előfeltétellel. Szükség van egy **Power BI Pro**-fiókra és egy **Microsoft Azure**-előfizetésre.
+Mielőtt használatba venné a beágyazáshoz szükséges telepítési eszközt, ellenőrizze, hogy rendelkezik-e az összes szükséges előfeltétellel. Szükség van egy **Power BI Pro**-fiókra és egy **Microsoft Azure**-előfizetésre.
 
 * Ha még nem regisztrált a **Power BI Pro** szolgáltatásra, a kezdés előtt [hozzon létre egy ingyenes próbaverziós fiókot](https://powerbi.microsoft.com/en-us/pricing/).
 * Ha még nincs Azure-előfizetése, kezdés előtt hozzon létre egy [ingyenes fiókot](https://azure.microsoft.com/free/?WT.mc_id=A261C142F).
@@ -244,7 +244,7 @@ Mielőtt használatba venné az előkészítési eszközt, ellenőrizze, hogy re
 
 ### <a name="common-issues"></a>Gyakori problémák
 
-Az előkészítési eszköz tesztelésre való használatakor az alábbi gyakori problémák merülhetnek fel:
+A beágyazáshoz szükséges telepítési eszköz tesztelésre való használatakor az alábbi gyakori problémák merülhetnek fel:
 
 #### <a name="using-the-embed-for-your-customers-sample-application"></a>A Beágyazás az ügyfelek számára mintaalkalmazás használata
 
@@ -262,6 +262,10 @@ A mintaalkalmazás futtatásánál az alábbi hibaüzenet jelenik meg:
 
 A hiba azért jelentkezik, mert a felhasználói jelszó az egyetlen érték, amely nem kerül be a mintaalkalmazásba. Nyissa meg a megoldásban a Web.config fájlt, és adja meg a jelszavát a pbiPassword mezőben.
 
+Ha a következő hiba jelenik meg – AADSTS50079: A felhasználónak többtényezős hitelesítést kell használnia.
+
+    Need to use an AAD account that does not have MFA enabled.
+
 #### <a name="using-the-embed-for-your-organization-sample-application"></a>A Beágyazás a cég számára mintaalkalmazás használata
 
 A **Beágyazás a cég számára** használatához mentse és csomagolja ki a *PowerBI-Developer-Samples.zip* fájlt. Nyissa meg a *PowerBI-Developer-Samples-master\User Owns Data\integrate-report-web-app* mappát, és futtassa a *pbi-saas-embed-report.sln* fájlt.
@@ -275,6 +279,10 @@ Ennek az az oka, hogy a webkiszolgáló alkalmazáshoz megadott átirányítási
 Ha szerkeszteni szeretné a regisztrált alkalmazást, ismerje meg, hogyan lehet szerkeszteni az [AAD-ben regisztrált alkalmazást](https://docs.microsoft.com/azure/active-directory/develop/active-directory-integrating-applications#updating-an-application), hogy az alkalmazás hozzáférhessen a webes API-khoz.
 
 Ha a Power BI felhasználói profiljait vagy adatait szeretné szerkeszteni, olvassa el, hogyan szerkeszthetők a [Power BI-adatok](https://docs.microsoft.com/power-bi/service-basic-concepts).
+
+Ha a következő hiba jelenik meg – AADSTS50079: A felhasználónak többtényezős hitelesítést kell használnia.
+
+    Need to use an AAD account that does not have MFA enabled.
 
 További információ: [Power BI Embedded – gyakori kérdések](embedded-faq.md).
 

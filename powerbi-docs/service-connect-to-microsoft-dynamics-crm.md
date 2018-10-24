@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 3d4065a6ab0c5a3c8f18350ef6c3a0444febda08
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 475f3ddf646ddc9c5f29409854f93128ce94dd51
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46547062"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48908831"
 ---
 # <a name="connect-to-microsoft-dynamics-crm-with-power-bi"></a>Csatlakozás a Microsoft Dynamics CRM-hez a Power BI használatával
 A Power BI-hoz készült Microsoft Dynamics CRM Online lehetővé teszi az adatok könnyű elérését és elemzését. A Power BI az OData-adatcsatorna használatával hoz létre leíró modelleket, beleértve az összes szükséges entitást és mértéket (pl.: Fiókok, Tevékenységek, Lehetőségek, Termék, Érdeklődők, Felhasználók stb.). Az alkalmazás telepítése után az irányítópultot és a jelentéseket a Power BI szolgáltatásban ([https://powerbi.com](https://powerbi.com)) és a Power BI-mobilalkalmazásokban is megtekintheti. 
@@ -26,17 +26,16 @@ Ehhez a kapcsolathoz **Microsoft Dynamics CRM Online 2016-os vagy újabb verzió
 
 ## <a name="how-to-connect"></a>Csatlakozás
 [!INCLUDE [powerbi-service-apps-get-more-apps](./includes/powerbi-service-apps-get-more-apps.md)]
-
-1. Válassza a **Microsoft Dynamics CRM Sales Manager** vagy **Microsoft Dynamics CRM Service Manager** lehetőséget, majd kattintson a **Csatlakozás** gombra.
+3. Válassza a **Microsoft Dynamics CRM Sales Manager** vagy **Microsoft Dynamics CRM Service Manager** lehetőséget, majd kattintson a **Csatlakozás** gombra.
    
    ![](media/service-connect-to-microsoft-dynamics-crm/connect.png)
-2. Adja meg a fiókjához társított szolgáltatási URL-címet.  Ez az alábbi formátumban lesz: `https://company.crm.dynamics.com`. További részleteket az [alábbiakban](#FindingParams) olvashat.
+4. Adja meg a fiókjához társított szolgáltatási URL-címet.  Ez az alábbi formátumban lesz: `https://company.crm.dynamics.com`. További részleteket az [alábbiakban](#FindingParams) olvashat.
    
    ![](media/service-connect-to-microsoft-dynamics-crm/params.png)
-3. Amikor a rendszer felkéri, adja meg a hitelesítő adatait (erre a lépésre lehet, hogy nem lesz szükség, ha már bejelentkezett a böngészőjében). Hitelesítési módszernek adja meg az **oAuth2** értéket, és kattintson a **Bejelentkezés** lehetőségre:
+5. Amikor a rendszer erre kéri, adja meg a hitelesítő adatait (ha már bejelentkezett a böngészőjében, akkor lehet, hogy ez a lépés kimarad). Hitelesítési módszernek adja meg az **oAuth2** értéket, és kattintson a **Bejelentkezés** lehetőségre:
    
    ![](media/service-connect-to-microsoft-dynamics-crm/creds.png)
-4. Csatlakozás után egy Sales Manager- vagy Service Manager-specifikus irányítópultot fog látni, amely a saját adataival lesz feltöltve.
+6. Csatlakozás után egy Sales Manager- vagy Service Manager-specifikus irányítópultot fog látni, amely a saját adataival lesz feltöltve.
    
    ![](media/service-connect-to-microsoft-dynamics-crm/dashboard.png)
 
@@ -48,7 +47,7 @@ Ehhez a kapcsolathoz **Microsoft Dynamics CRM Online 2016-os vagy újabb verzió
 ## <a name="whats-included"></a>Tartalom
 Az alábbi szakaszok azt ismertetik, hogy mit tartalmaz a [Sales Manager](#Sales) és a [Service Manager](#Service) szerepkör.
 
-Vegye figyelembe, hogy az adatokat továbbá a Dynamics CRM Online-felhasználóhoz hozzárendelt biztonsági szerepkör is korlátozza.
+Az adatokat a Dynamics CRM Online-felhasználóhoz hozzárendelt biztonsági szerepkör korlátozza.
 
 Az irányítópult és a jelentések célja, hogy működési jelentéseket biztosítsanak a rövid távú adatokról egyetlen csapatra vagy csoportra összpontosítva. Lekérdezésenként legfeljebb 100 ezer rekord kérhető le a Dynamics CRM Online-ból. Ha meghaladja a korlátot a cégben található adatok nagy mennyisége miatt, az üzembe helyezés sikertelen lesz, mert a Dynamics CRM Online adatfrissítése megszakad. Ha a fiókja túl nagy, fontolja meg a Power BI Desktopon keresztüli csatlakozást, és egy egyedi megoldás kiépítését.
 
@@ -101,7 +100,7 @@ Ez az irányítópult és a jelentések többek között az alábbi kulcsfontoss
 * Aktív esetek összesen  
 * Tudásbáziscikk használatának száma esetek során stb.    
 
-Emellett többek között az alábbi kulcsfontosságú diagramokat is tartalmazzák:   
+Emellett többek között az alábbi kulcsfontosságú diagramokat is tartalmazza:   
 
 * Esetek mennyiségi tendenciája Beérkező esetek, Megoldott esetek, Eszkalált esetek esetén   
 * Esetek mennyisége különféle szempontok alapján, mint például: Forrás, Hely, Prioritás, Típus  
@@ -154,7 +153,7 @@ Ha nem rendelkezik a CRM Online 2016-os vagy újabb verziójával, a Power BI De
 Ha „Az adatok frissítése sikertelen volt, mert a lekérdezés meghaladta a rekordok maximális, 100 000-es korlátját” hibaüzenetet látja, fontolja meg a közvetlenül a Power BI Desktopból történő csatlakozást, vagy egy CRM-megoldássablon használatát.
 
 ## <a name="next-steps"></a>Következő lépések
-* [Mik a Power BI szolgáltatáson belüli alkalmazások?](consumer/end-user-apps.md)
+* [Mik a Power BI szolgáltatáson belüli alkalmazások?](service-create-distribute-apps.md)
 * [Adatok lekérése a Power BI-ban](service-get-data.md)
 * További kérdései vannak? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)
 

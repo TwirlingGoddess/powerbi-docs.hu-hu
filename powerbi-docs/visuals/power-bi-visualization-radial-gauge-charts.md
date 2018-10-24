@@ -8,15 +8,15 @@ featuredvideoid: xmja6Epqa
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/21/2018
+ms.date: 09/21/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: e090515514897dd4dcbc9962d0dadacae5611ff0
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: 71cde810f98a81ab5670b3ab04bc1cd502277c1c
+ms.sourcegitcommit: ce8332a71d4d205a1f005b703da4a390d79c98b6
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46565557"
+ms.lasthandoff: 09/27/2018
+ms.locfileid: "47416866"
 ---
 # <a name="radial-gauge-charts-in-power-bi"></a>A Power BI kör alakú mérőműszer-diagramjai
 A mérőműszer-diagram köríves alakú és egyetlen értéket jelenít meg, amely egy cél/KPI elérésében tett előrehaladást méri.  A célt vagy a célértéket a vonal (tű) jelzi. A cél elérésében tett előrehaladást az árnyékolás mutatja.  Az előrehaladást ábrázoló érték pedig félkövér betűvel van feltüntetve az ív belsejében. Minden lehetséges érték egyenlően oszlik el az íven, minimálistól (bal szélső érték) a maximálisig (jobb szélső érték).
@@ -92,7 +92,7 @@ A 2. lépésben a Power BI az Érték mezővel automatikusan beállította a min
 
 ### <a name="step-5-save-your-report"></a>5. lépés: Jelentés mentése
 1. [Mentse a jelentést](../service-report-save.md).
-2. [Adja hozzá a mérőműszer-diagramot irányítópult-csempeként](../consumer/end-user-tiles.md). 
+2. [Adja hozzá a mérőműszer-diagramot irányítópult-csempeként](../service-dashboard-pin-tile-from-report.md). 
 
 ## <a name="use-formatting-options-to-manually-set-minimum-maximum-and-target-values"></a>A Minimális, a Maximális és a Célértékek manuális beállítása a formázási beállítások segítségével
 1. Távolítsa el a **Gross Sales maximuma** értéket a **Maximális érték** területről.
@@ -110,14 +110,8 @@ A 2. lépésben a Power BI az Érték mezővel automatikusan beállította a min
     ![](media/power-bi-visualization-radial-gauge-charts/power-bi-gauge-target.png)
 6. Ha szeretné, folytathatja a mérőműszer-diagram formázását.
 
-## <a name="next-steps"></a>Következő lépések
+## <a name="next-step"></a>Következő lépés
+
+[Mérőműszerek a Power BI-ban](power-bi-visualization-kpi.md)
+
 [Vizualizációtípusok a Power BI-ban](power-bi-visualization-types-for-reports-and-q-and-a.md)
-
-[Vizualizáció hozzáadása jelentésekhez](power-bi-report-add-visualizations-i.md)
-
-[Vizualizáció rögzítése az irányítópulton](../service-dashboard-pin-tile-from-report.md)
-
-[ Power BI – Alapfogalmak](../consumer/end-user-basic-concepts.md)
-
-További kérdései vannak? [Kérdezze meg a Power BI közösségét](http://community.powerbi.com/)
-

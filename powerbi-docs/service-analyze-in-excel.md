@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/27/2018
 ms.author: davidi
 LocalizationGroup: Reports
-ms.openlocfilehash: 4e2ff9afcccc9bc32d47359fba386fcb0c704457
-ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
+ms.openlocfilehash: bbffe00507462c3a41ee07cb86c2376a072e5437
+ms.sourcegitcommit: 833cf1252807721fb1b3000487bd032bfd6c8c98
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39327637"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "48271555"
 ---
 # <a name="analyze-in-excel"></a>Elemzés az Excelben
 Előfordulhat, hogy az Excel használatával szeretne megnézni és kezelni egy Power BI-adatkészletet. Az **Elemzés az Excelben** funkció segítségével pontosan ezt teheti meg, valamit elérheti az Excel kimutatás-, diagram- és szeletelő funkcióit a Power BI-ban létező adatkészletre vonatkozóan.
@@ -26,7 +26,7 @@ Az **Elemzés az Excelben** funkció használatának van néhány követelménye
 * Az **Elemzés az Excelben** funkciót a Microsoft Excel 2010 SP1 és újabb változatai támogatják.
 * Az Excel-kimutatások nem támogatják a numerikus mezők áthúzással való összevonását. A Power BI-adatkészletnek *rendelkeznie kell előre meghatározott mértékekkel*.
 * Egyes cégeknél olyan csoportházirendek lehetnek érvényben, amelyek megakadályozzák az **Elemzés az Excelben** funkció használatához szükséges Excel-frissítések telepítését. Ha nem tudja telepíteni ezeket a frissítéseket, forduljon a rendszergazdájához.
-* Az **Excelben való elemzéshez** Pro-licenc szükséges. Az ingyenes és a Pro-licencek közötti különbségekről további információt talál a [Power BI ingyenes és Pro verziója közötti különbségek](service-free-vs-pro.md) című témakörben. 
+* Az **Excelben való elemzéshez** Pro-licenc szükséges. A különböző licenctípusok eltérő funkcióiról bővebben a [Power BI-funkciókat licenctípus alapján](service-features-license-type.md) ismertető témakörben olvashat. 
 
 ## <a name="how-does-it-work"></a>Hogyan működik?
 Amikor a **Power BI**-ban egy adatkészlet vagy jelentés három pont (...) menüjéből kiválasztja az **Elemzés az Excelben** lehetőséget, a Power BI létrehoz egy .ODC-fájlt, és letölti azt a böngészőből a számítógépre.

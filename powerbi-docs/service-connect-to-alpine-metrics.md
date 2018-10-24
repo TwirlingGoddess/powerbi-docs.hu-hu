@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 7456a030dd5047642c4de9c7a289fed96fe390f1
-ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
+ms.openlocfilehash: 7bab3839b5f47448a6882d0ea15bb0f253ceb5ea
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37135973"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46547877"
 ---
 # <a name="connect-to-alpine-metrics-sales-predictions-with-power-bi"></a>Kapcsolódás a Power BI-ból az Alpine Metrics Sales Predictionshöz
 Az Alpine Metrics a legkorszerűbb prediktív értékesítésifolyamat-optimalizálási szolgáltatást biztosítja a felhőben és igény szerint, kis és nagy értékesítési vállalatok számára. A Power BI-hoz készült Alpine Metrics Sales Predictions-tartalomcsomag mélyebb elemzési lehetőségeket biztosít az üzlete jövőjével kapcsolatban, és egyebek között olyan metrikákat tartalmaz, mint a lehetséges és az előrejelzett eladások és kockázatok. 
@@ -43,12 +43,12 @@ Kapcsolódjon a Power BI-hoz készült [Alpine Metrics Sales Predictions-tartalo
 
 **Mi a következő lépés?**
 
-* [Kérdéseket tehet fel a Q&A mezőben](power-bi-q-and-a.md) az irányítópult tetején.
+* [Kérdéseket tehet fel a Q&A mezőben](consumer/end-user-q-and-a.md) az irányítópult tetején.
 * [Módosíthatja az irányítópult csempéit](service-dashboard-edit-tile.md).
-* [Kiválaszthatja valamelyik csempét](service-dashboard-tiles.md) a mögöttes jelentés megnyitásához.
+* [Kiválaszthatja valamelyik csempét](consumer/end-user-tiles.md) a mögöttes jelentés megnyitásához.
 * Noha az adatkészlet napi frissítésre van ütemezve, módosíthatja a frissítési ütemezést, vagy igény szerint frissíthet az **Azonnali frissítés** gombbal.
 
-## <a name="whats-included"></a>A csomag tartalma
+## <a name="whats-included"></a>Tartalom
 A tartalomcsomag a következő táblázatok adatait tartalmazza:  
 
     - Fiók    
@@ -68,5 +68,5 @@ A tartalomcsomag példányának létrehozásához egy olyan Alpine Metrics-fiók
 ## <a name="next-steps"></a>Következő lépések
 [Mi az a Power BI?](power-bi-overview.md)
 
-[Power BI – Alapfogalmak](service-basic-concepts.md)
+[Power BI – Alapfogalmak](consumer/end-user-basic-concepts.md)
 

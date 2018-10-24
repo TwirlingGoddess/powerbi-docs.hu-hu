@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: fe5e061913713c76f64995876dda047f7cdc5fea
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 6e2ca51f79173e065d0a780943eab2e834837820
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34244456"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548626"
 ---
 # <a name="connect-to-insightly-with-power-bi"></a>Csatlakozás az Insightly-hoz a Power BI használatával
 Megjelenítheti és megoszthatja Insightly CRM-adatait a Power BI-ban az Insightly tartalomcsomag használatával. Csatlakozzon a Power BI-hoz az Insightly API-kulccsal jelentések és irányítópultok megtekintéséhez és felépítéséhez a CRM-adatokból. A Power BI használatával új módokon elemezheti az adatokat, hatékony gráfokat és diagramokat hozhat létre, valamint térképen jeleníthet meg a kapcsolattartókat, érdeklődőket és cégeket.
@@ -41,9 +41,9 @@ Kapcsolódjon a Power BI-hoz készült [Insightly tartalomcsomaghoz](https://app
 
 **Mi a következő lépés?**
 
-* [Kérdéseket tehet fel a Q&A mezőben](power-bi-q-and-a.md) az irányítópult tetején.
+* [Kérdéseket tehet fel a Q&A mezőben](consumer/end-user-q-and-a.md) az irányítópult tetején.
 * [Módosíthatja az irányítópult csempéit](service-dashboard-edit-tile.md).
-* [Kiválaszthatja valamelyik csempét](service-dashboard-tiles.md) a mögöttes jelentés megnyitásához.
+* [Kiválaszthatja valamelyik csempét](consumer/end-user-tiles.md) a mögöttes jelentés megnyitásához.
 * Noha az adatkészlet napi frissítésre van ütemezve, módosíthatja a frissítési ütemezést, vagy igény szerint frissíthet az **Azonnali frissítés** gombbal.
 
 ## <a name="whats-included"></a>Tartalom

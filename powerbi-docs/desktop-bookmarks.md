@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/06/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: fe52646eef029359ac0e41c5fb32be524076a22d
-ms.sourcegitcommit: cce10e14c111e8a19f282ad6c032d802ebfec943
+ms.openlocfilehash: 1bb9921b31187d0df3debc644088a72e1d78207c
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "39657966"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46549914"
 ---
 # <a name="use-bookmarks-to-share-insights-and-build-stories-in-power-bi"></a>Elemzések megosztása és történetek felépítése a Power BI könyvjelzőivel 
 A Power BI-ban a **könyvjelzők** használatával rögzítheti az egyes jelentésoldalak aktuális nézetkonfigurációját, beleértve a szűréseket és a vizualizációk állapotát, hogy később egyszerűen a mentett könyvjelzőre kattintva visszaállíthassa az adott állapotot. 
@@ -132,7 +132,7 @@ A könyvjelzők **Megjelenítés** funkciójának használatakor az alábbiak é
 
 * Ha a kiválasztott könyvjelző egy könyvjelzőcsoport tagja, a **Megjelenítés** választásakor csak *az adott csoport* könyvjelzői jelennek meg. 
 
-* Ha a kiválasztott könyvjelző nem csoport, vagy ha a csoport legfelső szintjén található (például a könyvjelzőcsoport nevéről van szó), akkor a jelentés összes könyvjelzője megjelenik, beleértve a különféle csoportokban lévőket is. 
+* Ha a kiválasztott könyvjelző nem csoport, vagy ha a csoport legfelső szintjén található (például a könyvjelzőcsoport nevéről van szó), akkor a jelentés összes könyvjelzője megjelenik, azok is, amelyek valamelyik csoporthoz tartoznak. 
 
 A könyvjelzők csoportosításának megszüntetéséhez válassza ki a csoport bármelyik könyvjelzőjét, kattintson a három pontra, majd a megjelenő menüben válassza a **Csoportosítás megszüntetése** lehetőséget. 
 
@@ -182,5 +182,5 @@ A **könyvjelzők** aktuális kiadásának használatára vonatkozik néhány ko
 A könyvjelzőkhöz hasonló vagy azokkal együtt használható funkciókkal kapcsolatos részletesebb információkat az alábbi cikkekben talál:
 
 * [Részletezés használata a Power BI Desktopban](desktop-drillthrough.md)
-* [Irányítópult-csempe vagy jelentésvizualizáció megjelenítése Fókusz módban](service-focus-mode.md)
+* [Irányítópult-csempe vagy jelentésvizualizáció megjelenítése Fókusz módban](consumer/end-user-focus.md)
 

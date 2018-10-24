@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 07/27/2018
+ms.date: 09/27/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: a3102ff26a4dbf58d8db0073f1af9cf2db5b6515
-ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
+ms.openlocfilehash: 63b75aae9fb9299119b606458a4a8832d77dd1be
+ms.sourcegitcommit: ce8332a71d4d205a1f005b703da4a390d79c98b6
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39329385"
+ms.lasthandoff: 09/27/2018
+ms.locfileid: "47417165"
 ---
 # <a name="real-time-streaming-in-power-bi"></a>Valós idejű streamelés a Power BI-ban
 A Power BI valós idejű streamelésével valós időben streamelhet adatokat és frissítheti az irányítópultokat. A Power BI-ban elkészíthető vizualizációk vagy irányítópultok úgy is létrehozhatók, hogy valós idejű adatokat és a vizualizációkat jelenítsenek meg és frissítsenek. A streamelési adatok forrásai és eszközei lehetnek ipari érzékelők, közösségimédia-források, szolgáltatáshasználati metrika vagy bármi más, amiből időfüggő adatok gyűjthetők és továbbíthatók.
@@ -65,7 +65,7 @@ A következő táblázat (vagy ha úgy tetszik, mátrix) ismerteti a valós idej
 ![](media/service-real-time-streaming/real-time-streaming_11.png)
 
 > [!NOTE]
-> A **Leküldés** adatmennyiségének korlátozásaival kapcsolatban tekintse meg [ezt az MSDN-cikket](https://msdn.microsoft.com/library/dn950053.aspx).
+> [Ebből a cikkből](https://docs.microsoft.com/power-bi/developer/api-rest-api-limitations) megtudhatja, hogy milyen mennyiségi korlátok vonatkoznak az adatok **leküldésére**.
 > 
 > 
 
@@ -83,14 +83,12 @@ Vegyük sorra ezeket a módszereket.
 ### <a name="using-power-bi-rest-apis-to-push-data"></a>Adatok leküldése a Power BI REST API-k használatával
 A **Power BI REST API-k** legjobban **leküldéses** és **streamelési** adatkészletek létrehozására, illetve az ezekbe történő adatküldésre használhatók. Ha a Power BI REST API-kal hoz létre egy adatkészletet, akkor a *defaultMode* jelző határozza meg, hogy az adatkészlet leküldéses vagy streamelési adatkészlet lesz. Ha nincs beállítva a *defaultMode* jelző, akkor az adatkészlet alapértelmezés szerint **leküldéses** adatkészlet lesz.
 
-Ha a *defaultMode* *pushStreaming* értékre van állítva, akkor az adatkészlet egyszerre lesz **leküldéses** *és* **streamelési** adatkészlet, ami mindkét típus előnyeit nyújtja. A REST API [ dokumentációjának az **Adatkészlet létrehozásáról**](https://msdn.microsoft.com/library/mt203562.aspx) szóló cikke ismerteti a streamelési adatkészlet létrehozását, és működése közben mutatja meg a *defaultMode* jelzőt.
+Ha a *defaultMode* *pushStreaming* értékre van állítva, akkor az adatkészlet egyszerre lesz **leküldéses** *és* **streamelési** adatkészlet, ami mindkét típus előnyeit nyújtja. 
 
 > [!NOTE]
 > Ha egy olyan adatkészletet használ, amelynek a *defaultMode* jelzője *pushStreaming* értékre van állítva, és egy kérés mérete meghaladja a **streamelési** adatkészletekre vonatkozó 15 Kb-es méretkorlátot, de nem haladja meg a **leküldéses** adatkészletekre vonatkozó 16 MB-os méretkorlátot, akkor a kérés sikeres lesz, és az adat frissülni fog a leküldéses adatkészletben. Ugyanakkor a streamelési csempék átmenetileg nem fognak működni.
-> 
-> 
 
-Ha létrejött az adatkészlet, használja a REST API-kat, hogy adatokat küldjön le a [**Sorok hozzáadása** API](https://msdn.microsoft.com/library/mt203561.aspx)-val, ahogyan [azt ez a cikk ismerteti](https://msdn.microsoft.com/library/mt203561.aspx).
+Az adathalmaz létrehozása után a REST API-kkal küldheti le az adatokat a [**PostRows** API](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postrows) segítségével.
 
 A REST API-knak küldött kéréseket az **Azure AD OAuth** védi.
 
@@ -159,9 +157,9 @@ A következő szakasz ezeket veszi sorra.
 
 ![](media/service-real-time-streaming/real-time-streaming_5.png)
 
-Ha azt szeretné, hogy a Power BI tárolja is az streamben elküldött adatokat, engedélyezze az *Előzményadatok elemzése* lehetőséget, hogy felhasználhassa az összegyűjtött streamet jelentések vagy elemzések készítésére. [További információkat is megtudhat az API-ról](https://msdn.microsoft.com/library/dn877544.aspx).
+Ha azt szeretné, hogy a Power BI tárolja is az streamben elküldött adatokat, engedélyezze az *Előzményadatok elemzése* lehetőséget, hogy felhasználhassa az összegyűjtött streamet jelentések vagy elemzések készítésére. [További információkat is megtudhat az API-ról](https://docs.microsoft.com/rest/api/power-bi/).
 
-Amint sikeresen létrehozta a streamjét, megkapja a REST API URL-végpontot. Ezt az alkalmazás a *POST* kéréssel tudja meghívni, hogy adatokat küldjön le az imént létrehozott Power BI **streamelési adatokból** álló adatkészletbe.
+A stream sikeres létrehozása után egy REST API URL-végpontot kap, amelyet az alkalmazás meghívhat *POST* kérelmekkel, hogy leküldje az adatokat az Ön által létrehozott Power BI **streamelési adatok** adathalmazba.
 
 A *POST* kérések küldésekor érdemes ellenőrizni, hogy a kérés törzse megfelel-e a Power BI felhasználói felületén megadott JSON-mintának. Például a JSON-objektumokat be kell burkolni egy tömbbe.
 
@@ -223,16 +221,16 @@ Leküldéses adatkészletekből létrehozhat vizualizációkat az elmúlt N idő
 Erre jelenleg sajnos nincs lehetőség.
 
 #### <a name="given-the-previous-question-how-can-i-do-any-modeling-on-real-time-datasets"></a>Hogyan lehet modellezést végezni a valós idejű adatkészleteken, tekintettel az előző kérdésre adott válaszra?
-Streamelési adatkészleteken nem lehetséges a modellezés, mert az adatok nincsenek maradandóan tárolva. A leküldéses adatkészletek esetében használhatja az adatkészletek/táblázatok frissítésére szolgáló REST API-kat mértékek és kapcsolatok hozzáadására. További információt a [táblázatséma frissítését ismertető](https://msdn.microsoft.com/library/mt203560.aspx) és az [adatkészlet tulajdonságait ismertető](https://msdn.microsoft.com/library/mt742155.aspx) cikkben talál.
+Streamelési adatkészleteken nem lehetséges a modellezés, mert az adatok nincsenek maradandóan tárolva. A leküldéses adatkészletek esetében használhatja az adatkészletek/táblázatok frissítésére szolgáló REST API-kat mértékek és kapcsolatok hozzáadására. 
 
 #### <a name="how-can-i-clear-all-the-values-on-a-push-dataset-how-about-streaming-dataset"></a>Hogyan tudom az összes értéket törölni egy leküldéses adatkészletből? És a streamelési adatkészletekből?
-A leküldéses adatkészletek esetében használhatja a sorok törlése REST API-hívást. Külön is használhatja ezt a hasznos eszközt, amely a REST API-k burkolója. Jelenleg nem lehet adatokat törölni a streamelési adatkészletekből, bár az adatok egy óra elteltével maguktól törlődnek.
+A leküldéses adatkészletek esetében használhatja a sorok törlése REST API-hívást. Jelenleg nem lehet adatokat törölni a streamelési adatkészletekből, bár az adatok egy óra elteltével maguktól törlődnek.
 
 #### <a name="i-set-up-an-azure-stream-analytics-output-to-power-bi-but-i-dont-see-it-appearing-in-power-bi--whats-wrong"></a>Beállítottam egy Azure Stream Analytics-kimenetet a Power BI felé, de nem látom, hogy megjelent volna a Power BI-ban. Mi okozza a hibát?
 A következő ellenőrzőlista segít elhárítani a hibát:
 
 1. Indítsa újra az Azure Stream Analytics-feladatot (a streamelés általános elérhetővé tétele előtt létrehozott feladatokat újra kell indítani).
-2. Adja meg újra a Power BI-kapcsolat hitelesítő adatait az Azure Stream Analyticsben.
+2. Próbálja újrahitelesíteni Power BI–Azure Stream Analytics kapcsolatot
 3. Melyik munkaterületet adta meg az Azure Stream Analytics-kimenetben? Ugyanezt a munkaterületet nézi a Power BI szolgáltatásban?
 4. Az Azure Stream Analytics-lekérdezés kimenete egy explicit módon meghatározott Power BI-kimenet? (az INTO kulcsszó használatával)
 5. Halad át adat az Azure Stream Analytics-feladaton? Az adatkészlet csak akkor jön létre, ha vannak továbbított adatok.
@@ -241,9 +239,6 @@ A következő ellenőrzőlista segít elhárítani a hibát:
 ## <a name="next-steps"></a>Következő lépések
 A következő hivatkozások hasznos információkkal szolgálnak a Power BI-ban történő valós idejű streamelésről:
 
-* [A Power BI REST API áttekintése, a valós idejű adatokra is kitérve](https://msdn.microsoft.com/library/dn877544.aspx)
-* [A Power BI REST API korlátozásai](https://msdn.microsoft.com/library/dn950053.aspx)
-* [REST API – **Adatkészlet létrehozása**](https://msdn.microsoft.com/library/mt203562.aspx)
-* [**Sorok hozzáadása** – Power BI REST API](https://msdn.microsoft.com/library/mt203561.aspx)
+* [A Power BI REST API áttekintése, a valós idejű adatokra is kitérve](https://docs.microsoft.com/rest/api/power-bi/)
 * [Azure Stream Analytics](https://azure.microsoft.com/services/stream-analytics/)
 

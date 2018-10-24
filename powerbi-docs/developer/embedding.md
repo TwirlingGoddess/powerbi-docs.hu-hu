@@ -9,18 +9,18 @@ ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: overview
 ms.date: 07/31/2018
-ms.openlocfilehash: 2889345c5e4a5e93602c51baa27bf2c7e28e138f
-ms.sourcegitcommit: 16098be04df05bc8e3d44a99b4d143b622759c59
+ms.openlocfilehash: 7b96e671a6fe9b450fff683ced3caa611ae70bd7
+ms.sourcegitcommit: 698b788720282b67d3e22ae5de572b54056f1b6c
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 08/07/2018
-ms.locfileid: "39616028"
+ms.lasthandoff: 09/17/2018
+ms.locfileid: "45973770"
 ---
 # <a name="embedding-with-power-bi"></a>Beágyazás a Power BI-jal
 
-A Power BI szolgáltatás (SaaS) és a Power BI Embedded szolgáltatás az Azure-ban (PaaS) API-kkal is rendelkezik az irányítópultok és jelentések beágyazásához. Ez azt jelenti, hogy a tartalmak (például irányítópultok, átjárók és alkalmazás-munkaterületek) beágyazásához egy funkciókészlet és a Power BI legújabb szolgáltatásai használhatók.
+A Power BI szolgáltatás (SaaS) és a Power BI Embedded szolgáltatás az Azure-ban (PaaS) API-kkal is rendelkezik az irányítópultok és jelentések beágyazásához. Ez a szolgáltatás azt jelenti, hogy a tartalmak beágyazásakor hozzáférhet a képességek készletéhez, valamint a Power BI legújabb funkcióihoz – például irányítópultokhoz, átjárókhoz és alkalmazás-munkaterületekhez.
 
-Használhatja az [Előkészítési eszközt](https://aka.ms/embedsetup), amellyel egyszerűen elvégezheti az első lépéseket, és letölthet egy mintaalkalmazást.
+Megismerkedhet a [Beágyazáshoz szükséges telepítési eszközzel](https://aka.ms/embedsetup), hogy gyorsan munkához láthasson, és letölthessen egy mintaalkalmazást.
 
 Válassza ki az Ön számára megfelelő megoldást:
 
@@ -49,7 +49,7 @@ Amennyiben a cége számára végez beágyazást, tekintse át a következőket:
 
 Amikor Power BI-felhasználók számára végez beágyazást, az önkiszolgáló lehetőségek (pl. a szerkesztés, mentés stb.) a [JavaScript API-n](https://github.com/Microsoft/PowerBI-JavaScript) keresztül érhetők el.
 
-A gyors indulás érdekében követheti az [Előkészítési eszköz vállalaton belüli beágyazáshoz](https://aka.ms/embedsetup/UserOwnsData) lépéseit, és letölthet egy mintaalkalmazást, amely végigvezeti Önt a jelentés integrálásán a cég számára.
+A [Beágyazáshoz szükséges telepítési eszközzel](https://aka.ms/embedsetup/UserOwnsData) elvégezheti a beágyazást a szervezet számára, hogy gyorsan munkához láthasson, és letölthessen egy mintaalkalmazást, amely bemutatja, hogyan kell integrálni egy jelentést a szervezet számára.
 
 ## <a name="embedding-for-your-customers"></a>Beágyazás ügyfelek számára
 

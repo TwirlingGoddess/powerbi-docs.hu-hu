@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 08/27/2018
+ms.date: 09/23/2018
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: 090a59f406f1e3874f678752f0e0bc9656ae492f
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 10f637e822817d6bd0fa1692a6d1b029be312d4f
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46548948"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48909176"
 ---
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>A Power BI szolgáltatás újdonságai
@@ -31,37 +31,43 @@ Az újdonságokról és a funkciókról az alábbi YouTube-csatornákon is táj�
 * [Microsoft Power BI (YouTube)](https://www.youtube.com/channel/UCy--PYvwBwAeuYaR8JLmrfg)
 * [Guy in a Cube (YouTube)](https://www.youtube.com/channel/UCFp1vaKzpfvoGai0vE5VJ0w)
 
-## <a name="august-2018"></a>2018. augusztus
-* Fejlesztések a Power BI [Jelentések URL-szűrőjében](service-url-filters.md).
+## <a name="september-2018"></a>2018. szeptember
+* [Megjegyzések írása irányítópultokon](https://powerbi.microsoft.com/blog/announcing-dashboard-comments-in-power-bi/) a Power BI szolgáltatásban.
 
 ## <a name="previous-months-2018"></a>Korábbi hónapok (2018)
+### <a name="august-2018"></a>2018. augusztus
+* [Kapacitásmonitorozó alkalmazás](https://powerbi.microsoft.com/blog/new-monitoring-capabilities-for-power-bi-premium-capacities/) a Power BI Premiumhoz.
+* Fejlesztések a Power BI [Jelentések URL-szűrőjében](service-url-filters.md).
+
 ### <a name="july-2018"></a>2018. július
+* Az egyéni vizualizációk támogatják az [állandó szűrőket](https://powerbi.microsoft.com/en-us/blog/announcing-persistent-filters-in-the-service/).
 * [API-k és PowerShell-parancsmagok](https://powerbi.microsoft.com/blog/announcing-apis-and-powershell-cmdlets-for-power-bi-administrators/) Power BI-adminisztrátoroknak.
+* [Multi-geo támogatás](service-admin-premium-multi-geo.md) a Power BI Premiumhoz.
 
 ### <a name="june-2018"></a>2018. június
 * Jelentések megosztása szűrőkkel és szeletelőkkel.
 * Új, továbbfejlesztett felhasználói felület [átjárókapcsolatokhoz](https://powerbi.microsoft.com/blog/easier-set-up-of-datasets-in-power-bi/) és adatkészletek beállítása.
 
 ### <a name="may-2018"></a>2018. máj.
-* [Témák irányítópultjai](https://docs.microsoft.com/power-bi/service-dashboard-themes) a Power BI szolgáltatásban.
-* [Növekményes frissítések](https://docs.microsoft.com/power-bi/service-premium-incremental-refresh) a Prémium szolgáltatásban.
-* Hozzáféréskérési munkafolyamat a [Power BI Appshez](https://docs.microsoft.com/power-bi/service-create-distribute-apps).
-* Adatfrissítések kérése, hogy a felhasználók könnyebben megtalálhassák a [Power BI alkalmazásokat](https://docs.microsoft.com/power-bi/service-create-distribute-apps).
+* [Témák irányítópultjai](service-dashboard-themes.md) a Power BI szolgáltatásban.
+* [Növekményes frissítések](service-premium-incremental-refresh.md) a Prémium szolgáltatásban.
+* Hozzáféréskérési munkafolyamat a [Power BI Appshez](service-create-distribute-apps.md).
+* Adatfrissítések kérése, hogy a felhasználók könnyebben megtalálhassák a [Power BI alkalmazásokat](service-create-distribute-apps.md).
 * Beállítások a [Perzisztens szűrők](https://powerbi.microsoft.com/blog/announcing-persistent-filters-in-the-service/) be- és kikapcsolásához a Power BI szolgáltatásban.
 * Az Azure B2B meghívási munkafolyamatának fejlesztései a jelentésekhez.
 
 ### <a name="april-2018"></a>2018. április
 * [Power BI-tanulmány adatvédelemhez](http://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=5bd4c466-277b-4726-b9e0-f816ac12872d&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_FAQ_and_White_Papers)
-* Alapértelmezetten bekapcsolt Power BI szolgáltatásbeli [auditnaplók](https://docs.microsoft.com/power-bi/service-admin-auditing) az Office 365-bérlőben.
+* Alapértelmezetten bekapcsolt Power BI szolgáltatásbeli [auditnaplók](service-admin-auditing.md) az Office 365-bérlőben.
 
 ### <a name="march-2018"></a>2018. március
 * [Perzisztens szűrők](https://powerbi.microsoft.com/blog/announcing-persistent-filters-in-the-service/) a Power BI szolgáltatásban.
 * Tartalom megosztása a felhasználókkal a személyes e-mail-fiókjaik használatával. Az [Azure Active Directory vállalatközi együttműködés](https://powerbi.microsoft.com/blog/power-bi-expands-access-to-intelligence-for-external-guest-users/) kiterjesztése.
 
 ### <a name="february-2018"></a>2018. február
-* [Power BI-alkalmazások](https://docs.microsoft.com/power-bi/service-create-distribute-apps) automatikus telepítése a végfelhasználók számára.
+* [Power BI-alkalmazások](service-create-distribute-apps.md) automatikus telepítése a végfelhasználók számára.
 * P4- és P5-kapacitások a Power BI Premium szolgáltatásban
-* Az [Egyéni szervezeti vizualizációk](https://docs.microsoft.com/power-bi/power-bi-custom-visuals-organization) előzetes verziója.
+* Az [Egyéni szervezeti vizualizációk](power-bi-custom-visuals-organization.md) előzetes verziója.
 
 ### <a name="january-2018"></a>2018. január
 *   Power BI-jelentések megosztása és kedvencnek jelölése.
@@ -73,7 +79,7 @@ Az újdonságokról és a funkciókról az alábbi YouTube-csatornákon is táj�
 
 ## <a name="previous-months-2017"></a>Korábbi hónapok (2017)
 ## <a name="october-and-november-2017"></a>2017. október és november
-*   A [Power BI-alkalmazásokat](https://docs.microsoft.com/power-bi/service-create-distribute-apps) használó tartalmak szelektív közzététele.
+*   A [Power BI-alkalmazásokat](service-create-distribute-apps.md) használó tartalmak szelektív közzététele.
 *   A külső felhasználók elosztása az [Azure Active Directory B2B](https://powerbi.microsoft.com/blog/power-bi-expands-access-to-intelligence-for-external-guest-users/preview/) használatával.
 * Mesterséges intelligenciát használó alkalmazásjavaslatok.
 * Irányítópult-csempéken megjelenő felhasználói felületi frissítések.
@@ -587,7 +593,7 @@ További információt a [blogunkban](http://blogs.msdn.com/b/powerbi/archive/20
 
 * Örömmel jelentjük, hogy a Power BI mostantól általánosan elérhető. Regisztráljon még ma a [Power BI Pro](service-self-service-signup-for-power-bi.md) szolgáltatásra. Az általánosan elérhető kiadás részeként nagyszerű új funkciókat vezettünk be:
 * Új vizualizáció- és jelentéskészítési folyamat: az új jelentésvászon több választható vizualizációval, szélesebb körű csempe-, jelmagyarázat-, tengely-, szín- és háttérformázási lehetőségekkel, valamint számos más funkcióval rendelkezik.
-* [A Power BI-csoportok](consumer/end-user-create-apps.md): a csoportokkal egy Office 365-csoportokra épülő, hatékony együttműködési platformot vehet igénybe.
+* [A Power BI-csoportok](service-create-distribute-apps.md): a csoportokkal egy Office 365-csoportokra épülő, hatékony együttműködési platformot vehet igénybe.
 * [Céges tartalomcsomagok](service-organizational-content-pack-introduction.md): a Power BI szolgáltatással rendkívül egyszerűen hozhat létre irányítópultokat és jelentéseket, a felhasználók pedig mostantól közzétehetik ezeket a tartalmakat a céges tartalomgyűjteményben.
 * [Teljes Excel-fájlok importálása](service-excel-workbook-files.md): bármilyen, a OneDrive Vállalati verzión tárolt Excel-munkafüzetet importálhat a Power BI-ba, és ugyanúgy megtekintheti, mintha az Excel Online-ban tenné.
 * [CSV-fájlok](service-get-data-from-files.md) importálása: az Excel- vagy Power BI Desktop-fájlokhoz hasonlóan CSV-fájlokat is alkalmazhat adatkészletként a Power BI irányítópultjaihoz és jelentéseihez.

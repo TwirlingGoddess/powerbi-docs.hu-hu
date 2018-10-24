@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mblythe
 LocalizationGroup: Get started
-ms.openlocfilehash: d499f3f3635442f8d9ed0fbf167e53d13ec0ae53
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 411fd408998ba67c4a91ae01e166396530631678
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46549983"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48909061"
 ---
 # <a name="signing-up-for-power-bi-as-an-individual"></a>Egyéni Power BI-regisztráció
 Megtudhatja, hogyan regisztrálhat a Power BI szolgáltatásra, és hogyan veheti használatba személyes jelentéskészítési és vizualizációs munkáihoz.
@@ -24,7 +24,7 @@ Megtudhatja, hogyan regisztrálhat a Power BI szolgáltatásra, és hogyan vehet
 
 A Power BI szolgálhat mind az Ön személyes jelentéskészítő és vizualizációs eszközeként, mind pedig projektek, részlegek vagy teljes nagyvállalatok analitikai és döntéshozatali motorjaként.
 
-Ez a cikk végigvezeti a regisztráció beállításain és a Power BI első lépésein. További információt a Power BI ingyenes és Pro verziók közti különbségről az [Ingyenes és Pro szintű Power BI](service-free-vs-pro.md) című cikkben találhat.
+Ez a cikk végigvezeti a regisztráció beállításain és a Power BI első lépésein. A Power BI különböző licenctípusainak eltérő funkcióiról bővebben a [Power BI-funkciókat licenctípus alapján](service-features-license-type.md) ismertető témakörben olvashat.
 
 ## <a name="you-have-a-few-options"></a>Több lehetősége van
 Önálló regisztrációra és a Power BI használatbavételére több lehetősége van. Regisztrálhat ingyen, vagy megvásárolhat egy Power BI Pro-előfizetést. Ha ingyenes fiókra regisztrál, a szolgáltatásban a Power BI Pro 60 napos ingyenes próbaverzióját is kipróbálhatja.
@@ -99,7 +99,7 @@ Ekkor megjelenik egy üzenet, és az **Indítás** parancs.
 ## <a name="in-service-power-bi-pro-60-day-trial"></a>Szolgáltatáson belüli Power BI Pro 60 napos próbaverzió
 Miután regisztrált az ingyenes fiókra, lehetősége van ingyen kipróbálni a Pro verziót 60 napig. A próbaidőszak alatt a Pro verzió összes funkciójához hozzáférést kap . A Power BI Pro a Power BI ingyenes verziójának összes funkciójával rendelkezik, valamint további megosztási és együttműködési funkciókat is nyújt. További információkat a [Power BI díjszabásának oldalán](https://powerbi.microsoft.com/pricing) találhat. A Power BI 60 napos ingyenes próbaverziójának aktiválásához jelentkezzen be a Power BI-ba, és próbálja ki az alábbi Power BI-funkciók egyikét:
 
-* [Alkalmazás-munkaterület létrehozása](consumer/end-user-create-apps.md)
+* [Alkalmazás-munkaterület létrehozása](service-create-distribute-apps.md)
 * [Irányítópult megosztása](service-share-dashboards.md)
 
 E funkciók bármelyikének kipróbálásakor a rendszer kérni fogja az ingyenes próba megkezdését. Az ingyenes próbaverziót a fogaskerék ikonra kattintva, majd a **Személyes tárhely kezelése** lehetőséget választva is aktiválhatja. Itt kattintson a **Pro kiadás ingyenes kipróbálása** lehetőségre a jobb oldalon.
@@ -139,8 +139,7 @@ Számos esetben a Power BI-regisztráció elvégezhető a fentebb ismertetett eg
 |            **Az önkiszolgáló regisztráció le van tiltva** A regisztráció során az alábbihoz hasonló üzenet jelenik meg: <br /><br /> *Nem tudjuk befejezni a regisztrációt. Az informatikai részleg kikapcsolta a Microsoft Power BI-regisztráció lehetőségét. A regisztráció befejezéséhez forduljon hozzájuk.* <br /><br /> vagy <br /><br /> *Ez egy személyes e-mail-címnek tűnik. Adja meg a munkahelyi e-mail-címét, így össze tudjuk kapcsolni Önt a cége többi tagjával. Ne aggódjon. A címét nem osztjuk meg senkivel.*             |                             A szervezet rendszergazdája letiltotta az önkiszolgáló regisztrációt a Power BI szolgáltatásba. <br /><br /> A regisztráció befejezéséhez forduljon a rendszergazdához, és kérje meg, hogy kövesse az alábbi lap utasításait, és engedélyezze, hogy a meglévő felhasználók regisztrálhassanak a Power BI-ba, valamint hogy az új felhasználók csatlakozhassanak a meglévő bérlőhöz. <br/><br/> Ez a probléma akkor is felmerülhet, ha egy partneren keresztül regisztrált az Office 365-be. [További információ](service-admin-syndication-partner.md) <br /><br /> [Szervezeti Power BI](https://support.office.com/en-ca/article/Power-BI-in-your-Organization-d7941332-8aec-4e5e-87e8-92073ce73dc5#BKMK_HowCanIAllowO365Tenant)                              |
 |                                                                                          **Az e-mail-cím nem egy Office 365-azonosító** A regisztráció során az alábbihoz hasonló üzenet jelenik meg: <br /><br /> *Ön nem rendelkezik fiókkal a contoso.com oldalon.  A munkahelyén vagy az iskolában másik azonosítót használ? <br /><br /> Próbáljon meg bejelentkezni azzal, és ha nem jár sikerrel, kérje az informatikai részleg segítségét.*                                                                                           | A szervezet nem az e-mail-címet használja azonosítóként az Office 365-ba és más Microsoft-szolgáltatásokba való bejelentkezéshez.  Előfordulhat például, hogy az e-mail-címe Nancy.Smith@contoso.com, míg az azonosítója nancys@contoso.com. <br /><br /> Ilyenkor a regisztrációhoz használja a szervezet által az Office 365-be és más Microsoft-szolgáltatásokba való bejelentkezéshez kapott azonosítót.  Ha ezt nem tudja, forduljon a rendszergazdához. <br /><br /> Ha továbbra sem tud regisztrálni, és hajlandó egy bonyolultabb telepítési folyamatot elvégezni, [regisztráljon egy új Office 365-próbaverziós előfizetésre, és használja az ahhoz megadott e-mail-címet a regisztrációhoz](service-admin-signing-up-for-power-bi-with-a-new-office-365-trial.md). |
 
-## <a name="next-steps"></a>Következő lépések
-[Ingyenes szervezeti Power BI](service-admin-service-free-in-your-organization.md)  
+## <a name="next-steps"></a>Következő lépések  
 [A Power BI Pro megvásárlása](service-admin-purchasing-power-bi-pro.md)  
 [A Power BI szolgáltatási szerződése egyéni felhasználók számára](https://powerbi.microsoft.com/terms-of-service/)  
 [Power BI Premium – mi ez?](service-premium.md)  

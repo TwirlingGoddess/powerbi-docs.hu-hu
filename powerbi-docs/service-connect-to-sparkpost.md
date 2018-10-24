@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 6f914a031c70c68703116083f42885e2fe79cf30
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 5db91d037ae32f43fe703bdc7e589a1ec5a295ca
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34247895"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46547614"
 ---
 # <a name="connect-to-sparkpost-with-power-bi"></a>Csatlakozás a SparkPosthoz a Power BI használatával
 A Power BI SparkPosthoz készült tartalomcsomagja lehetővé teszi a SparkPost-fiók értékes adatkészleteinek kinyerését egyetlen informatív irányítópultra. A SparkPost-tartalomcsomag segítségével megjelenítheti a teljes levelezés statisztikai adatait, beleértve a tartományokat, a kampányokat és az internetszolgáltató által generált érdeklődést is.
@@ -41,12 +41,12 @@ Csatlakozás a [Power BI-hoz készült SparkPost-tartalomcsomaghoz](https://app.
 
 **Hogyan tovább?**
 
-* [Kérdéseket tehet fel a Q&A mezőben](power-bi-q-and-a.md) az irányítópult tetején.
+* [Kérdéseket tehet fel a Q&A mezőben](consumer/end-user-q-and-a.md) az irányítópult tetején.
 * [Módosíthatja az irányítópult csempéit](service-dashboard-edit-tile.md).
-* [Kiválaszthatja valamelyik csempét](service-dashboard-tiles.md) a mögöttes jelentés megnyitásához.
+* [Kiválaszthatja valamelyik csempét](consumer/end-user-tiles.md) a mögöttes jelentés megnyitásához.
 * Noha az adatkészlet napi frissítésre van ütemezve, módosíthatja a frissítési ütemezést, vagy igény szerint frissíthet az **Azonnali frissítés** gombbal.
 
-## <a name="whats-included"></a>A csomag tartalma
+## <a name="whats-included"></a>Tartalom
 A Power BI-hoz készült SparkPost-tartalomcsomag többek között ezeket az információkat tartalmazza: egyedi kattintások, elfogadások aránya, visszapattanások aránya, késleltetések aránya, visszautasítások aránya.
 
 <a name="FindingParams"></a>

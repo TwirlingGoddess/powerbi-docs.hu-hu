@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 7990cdbc0741e80bf2cbb60431228ff6a1d41485
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: f5d1b07a4066b897aaa0946c6f5417a9de4f458f
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34243822"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46549490"
 ---
 # <a name="connect-to-appfigures-with-power-bi"></a>Csatlakozás az appFigures-hoz a Power BI használatával
 A Power BI és az appFigures-tartalomcsomag segítségével egyszerűen nyomon követheti az alkalmazásait leíró fontos statisztikákat. A Power BI adatokat kér le többek között az alkalmazás értékesítéséről, letöltéseiről és hirdetési statisztikáiról, majd felépít egy alapértelmezett irányítópultot, és létrehozza a kapcsolódó jelentéseket.
@@ -46,12 +46,12 @@ Csatlakozzon az [appFigures-tartalomcsomaghoz](https://app.powerbi.com/getdata/s
 
 **Mi a következő lépés?**
 
-* [Kérdéseket tehet fel a Q&A mezőben](power-bi-q-and-a.md) az irányítópult tetején.
+* [Kérdéseket tehet fel a Q&A mezőben](consumer/end-user-q-and-a.md) az irányítópult tetején.
 * [Módosíthatja az irányítópult csempéit](service-dashboard-edit-tile.md).
-* [Kiválaszthatja valamelyik csempét](service-dashboard-tiles.md) a mögöttes jelentés megnyitásához.
+* [Kiválaszthatja valamelyik csempét](consumer/end-user-tiles.md) a mögöttes jelentés megnyitásához.
 * Noha az adatkészlet napi frissítésre van ütemezve, módosíthatja a frissítési ütemezést, vagy igény szerint frissíthet az **Azonnali frissítés** gombbal.
 
-## <a name="whats-included"></a>A csomag tartalma
+## <a name="whats-included"></a>Tartalom
 A Power BI-ban a következő, appFigures-ból származó adatok érhetők el.
 
 | **Tábla neve** | **Leírás** |

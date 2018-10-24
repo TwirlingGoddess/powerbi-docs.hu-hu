@@ -8,13 +8,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
-ms.date: 08/21/2018
-ms.openlocfilehash: e83224932048aeab2dde6187eb217da7d89fed85
-ms.sourcegitcommit: 9c3a9ec14c111d766ef5703366c316e72f6e588f
+ms.date: 09/17/2018
+ms.openlocfilehash: b50f3d5a3b01e32dcbaf80db5e25bd046c5e27a2
+ms.sourcegitcommit: ded8b85276e7eda166d6e67f72d1fe3d5e234745
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 09/13/2018
-ms.locfileid: "45558569"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46506799"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Gyakori kérdések – Power BI Embedded
 
@@ -84,15 +84,19 @@ Itt látható egy részlet a különbségek listájából, amely mindkét megold
 |Kötelezettségvállalás  |Nincs kötelezettségvállalás |Éves  |Havi/Éves |
 |Megkülönböztetés |Az Azure Portalon vagy API-kon keresztül teljes mértékű rugalmasságot tesz lehetővé, vagyis felfelé és lefelé történő méretezhetőséget, illetve az erőforrások felfüggesztését és folytatását  |Tartalmak beágyazására használható a SharePoint Online-ban és a Microsoft Teamsben (a mobilalkalmazás kivételével) |Egy kapacitáson belül egyesíti az alkalmazásokba történő beágyazásokat és a Power BI szolgáltatás használatát |
 
-### <a name="what-are-the-prerequisites-to-create-a-pbie-capacity-in-azure"></a>Milyen feltételekkel hozható létre PBIE-kapacitás az Azure-ban? 
+### <a name="what-are-the-prerequisites-to-create-a-pbie-capacity-in-azure"></a>Milyen feltételekkel hozható létre PBIE-kapacitás az Azure-ban?
 
 * Be kell jelentkeznie a vállalati címtárba (MSA-fiókok nincsenek támogatva).
 * Power BI-bérlővel kell rendelkeznie, azaz a címtár legalább egy felhasználójának regisztrálva kell lennie a Power BI-ban. 
 * A vállalati címtárban szerepelnie kell egy Azure-előfizetésnek.
 
-### <a name="how-can-i-monitor-capacity-consumption"></a>Hogyan tudom monitorozni a kapacitás felhasználását?
+### <a name="how-can-i-monitor-power-bi-embedded-capacity-consumption"></a>Hogyan figyelhetem meg a Power BI Embedded kapacitásfogyasztását?
 
-Az Azure-on keresztül történő monitorozás már szerepel a rövid távú terveink között. A Power BI Embedded Azure-erőforrás tartalmazni fog állapotot és használatot monitorozó KPI-ket is.
+* [A Power BI felügyeleti portál](../service-admin-portal.md#power-bi-embedded-settings) használata.
+
+* A [metrikai alkalmazás](https://review.docs.microsoft.com/power-bi/service-admin-premium-monitor-capacity) letöltése a Power BI-ban.
+
+* Az [Azure-beli diagnosztikai naplózás](azure-pbie-diag-logs.md) használata.
 
 ### <a name="will-my-capacity-scale-automatically-to-adjust-to-the-consumption-of-my-app"></a>Automatikusan méretezi magát a kapacitásom, hogy igazodjon az alkalmazásom felhasználásához?
 
@@ -276,11 +280,11 @@ Néhány ilyen funkció:
 * Számos új funkció, köztük a Q&A, a Frissítés, a könyvjelzők, az irányítópultok és csempék beágyazása és az egyéni menü csak a **Power BI Embedded** megoldásban van támogatva.
 * Kapacitás-számlázási modell.
 
-## <a name="onboarding-experience-tool-for-embedding"></a>Előkészítési eszköz beágyazáshoz
+## <a name="embedding-setup-tool-for-embedding"></a>Beágyazáshoz szükséges telepítési eszköz beágyazása
 
-### <a name="what-is-the-onboarding-experience-tool"></a>Mi az előkészítési eszköz beágyazáshoz?
+### <a name="what-is-the-embedding-setup-tool"></a>Mi a beágyazáshoz szükséges telepítési eszköz?
 
-Az [Előkészítési eszköz](https://aka.ms/embedsetup) használatával egyszerűen elvégezheti az első lépéseket, és letölthet egy mintaalkalmazást, amellyel elkezdheti a beágyazást a Power BI-ban.
+A [beágyazáshoz szükséges telepítési eszköz](https://aka.ms/embedsetup) használatával egyszerűen elvégezheti az első lépéseket, és letölthet egy mintaalkalmazást, amellyel elkezdheti a beágyazást a Power BI-jal.
 
 ### <a name="which-solution-should-i-choose"></a>Melyik megoldást válasszam?
 

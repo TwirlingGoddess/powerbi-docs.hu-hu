@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 09/10/2018
+ms.date: 09/27/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: f06f3f7f6d91176d75ce452202a91b2c54be06ce
-ms.sourcegitcommit: c51461690e8faa121a1325957ca79b7a3975e8b8
+ms.openlocfilehash: 4264b10ac9ae42585ea8b814d0c15de7ea318752
+ms.sourcegitcommit: ce8332a71d4d205a1f005b703da4a390d79c98b6
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44512156"
+ms.lasthandoff: 09/27/2018
+ms.locfileid: "47416797"
 ---
 # <a name="create-tooltips-based-on-report-pages-in-power-bi-desktop"></a>Elemleírások létrehozása jelentésoldalak alapján a Power BI Desktopban
 A **Power BI Desktopban** létrehozott jelentésoldalak alapján sokatmondóan látványos **jelentés-elemleírásokat** készíthet, amelyek akkor jelennek meg, ha az egérmutató a vizualizáció felett van. Elemleírásként szolgáló jelentésoldal létrehozásakor az egyéni elemleírásokban vizualizációk, képek és a jelentésoldalon létrejött bármely más elemek gyűjteményei is szerepelhetnek. 
@@ -125,7 +125,7 @@ Az **elemleírásokra** vonatkozik néhány korlátozás és egyéb szempont.
 
 * A **Power BI Desktop** 2018. szeptemberi kiadásától kezdve, amelyben az elemleírások általánosan elérhetővé váltak, a Kártya vizualizációk is támogatják az elemleírásokat.
 * A **Power BI Desktop** 2018. júliusi kiadásától kezdve az elemleírásoknál a Táblázat és Mátrix vizualizációk is támogatva vannak. 
-* A jelentésekhez készült elemleírások mobilalkalmazásban vagy beágyazott környezetekben, például webes közzététel használatával megtekintett jelentésekben nem támogatottak. 
+* A jelentésekhez készült elemleírások nem támogatottak, ha mobilalkalmazásokban tekinti meg a jelentéseket. 
 * A jelentésekhez készült elemleírások egyéni vizualizációkhoz való használata nem támogatott. 
 * A fürtök mezőként történő megjelenítése a jelentésekhez készült elemleírásokban jelenleg nem támogatott. 
 * Ha az elemleírásban megjeleníteni kívánt mező egy kategóriát helyettesít, akkor a mezőt tartalmazó vizualizációknál csak akkor jelenik meg az adott elemleírás, ha a kiválasztott mezők összegzése megegyezik. 
@@ -136,5 +136,5 @@ Az **elemleírásokra** vonatkozik néhány korlátozás és egyéb szempont.
 Az elemleírásokhoz hasonló vagy azokkal együtt használható funkciókkal kapcsolatos részletesebb információkat az alábbi cikkekben talál:
 
 * [Részletezés használata a Power BI Desktopban](desktop-drillthrough.md)
-* [Irányítópult-csempe vagy jelentésvizualizáció megjelenítése Fókusz módban](service-focus-mode.md)
+* [Irányítópult-csempe vagy jelentésvizualizáció megjelenítése Fókusz módban](consumer/end-user-focus.md)
 
