@@ -194,9 +194,9 @@ items:
       items:
       - name: Adatkategorizáció a Power BI Desktopban
         href: desktop-data-categorization.md
-      - name: Vonalkód mező címkézése a Power BI Desktopban Power BI-mobilalkalmazásokhoz
+      - name: Vonalkód mező címkézése mobilalkalmazásokhoz
         href: desktop-mobile-barcodes.md
-      - name: Földrajzi szűrés beállítása a Power BI Desktopban Power BI-mobilalkalmazásokhoz
+      - name: Földrajzi szűrők beállítása mobilalkalmazásokhoz
         href: desktop-mobile-geofiltering.md
       - name: Számított oszlopok a Power BI Desktopban
         href: desktop-calculated-columns.md
@@ -204,6 +204,8 @@ items:
         href: desktop-calculated-tables.md
       - name: Mértékek a Power BI Desktopban
         href: desktop-measures.md
+      - name: Q&A nyelvi séma szerkesztése
+        href: power-bi-q-and-a-linguistic-schema.md
       - name: KPI-k importálása és megjelenítése (előzetes verzió)
         href: desktop-import-and-display-kpis.md
     - name: Jelentések létrehozása
@@ -346,6 +348,8 @@ items:
     items:
     - name: Adattípusok a Power BI Desktopban
       href: desktop-data-types.md
+    - name: Képletszerkesztő billentyűparancsok a Power BI Desktophoz
+      href: desktop-formula-editor.md
     - name: A Power BI Desktop adatvédelmi szintjei
       href: desktop-privacy-levels.md
     - name: Összekötők bővíthetősége a Power BI-ban
@@ -570,6 +574,8 @@ items:
         href: sql-server-analysis-services-tabular-data.md
       - name: Az Azure és a Power BI
         href: service-azure-and-power-bi.md
+      - name: A Power BI és az Azure kimenő forgalma
+        href: service-azure-egress-power-bi.md
     - name: Adatfrissítés
       items:
       - name: Ütemezett frissítés beállítása
@@ -630,19 +636,19 @@ items:
       items:
       - name: Új jelentés létrehozása meglévő jelentésből
         href: power-bi-report-copy.md
-      - name: Lap hozzáadása Power BI-jelentéshez
+      - name: Lap hozzáadása jelentéshez
         href: power-bi-report-add-page.md
-      - name: Szűrő hozzáadása Power BI-jelentéshez
+      - name: Szűrő hozzáadása jelentéshez
         href: power-bi-report-add-filter.md
       - name: Jelentés mentése a Power BI-ban
         href: service-report-save.md
       - name: Új jelentés létrehozása adatkészletből
         href: service-report-create-new.md
-      - name: Jelentés használata Szerkesztő nézetben a Power BI-ban
+      - name: Jelentés használata szerkesztési nézetben
         href: service-interact-with-a-report-in-editing-view.md
       - name: Elemzés az Excelben
         href: service-analyze-in-excel.md
-      - name: Tippek és trükkök jelentések létrehozásához a Power BI szolgáltatásban
+      - name: Tippek és trükkök jelentések létrehozásához
         href: power-bi-reports-tips-and-tricks-for-creating.md
       - name: Az Elemzési panel
         href: service-analytics-pane.md
@@ -650,32 +656,32 @@ items:
         href: service-usage-metrics.md
       - name: QR-kód létrehozása jelentéshez
         href: service-create-qr-code-for-report.md
-      - name: Oldalak átrendezése Power BI-jelentésben
+      - name: Oldalak átrendezése jelentésben
         href: service-report-reorder-pages.md
-      - name: Jelentés oldalának megkettőzése Power BI-jelentésben
+      - name: Jelentésoldal megkettőzése
         href: power-bi-report-copy-paste-page.md
-      - name: Power BI-jelentés exportálása az Asztalra (előzetes verzió)
+      - name: Jelentés exportálása a Power BI Desktopba (előzetes verzió)
         href: service-export-to-pbix.md
-      - name: Jelentés szűrése lekérdezésisztring-paraméterek URL-címben való használatával
+      - name: Jelentés szűrése az URL-címekben szereplő paraméterekkel
         href: service-url-filters.md
-      - name: Ajánlott eljárások gyors és megbízható Power BI-jelentések készítéséhez
+      - name: Ajánlott eljárások gyors és megbízható jelentések készítéséhez
         href: power-bi-reports-performance.md
-      - name: ArcGIS-térképek használata a Power BI-ban
+      - name: Az ArcGIS-térképek használata
         href: visuals/power-bi-visualizations-arcgis.md
     - name: Kérdések az adatokról
       items:
       - name: A Q&A használata vizualizációk és jelentések létrehozásához
         href: power-bi-tutorial-q-and-a.md
-      - name: Megfelelő adatműködés biztosítása a Q&A és a Power BI használatánál
+      - name: Az adatok megfelelő működésének biztosítása a Q&A használatakor
         href: service-prepare-data-for-q-and-a.md
       - name: A Power BI-hoz használt Cortana engedélyezése
         href: service-cortana-enable.md
-      - name: Kiemelt kérdések létrehozása a Power BI Q&A-hez
+      - name: Kiemelt kérdések létrehozása a Q&A-hez
         href: service-q-and-a-create-featured-questions.md
       - name: Vizualizációtípusok a Power BI-ban
         href: visuals/power-bi-visualization-types-for-reports-and-q-and-a.md
-      - name: A Power BI Desktop nyelvi sémájának használata
-        href: power-bi-q-and-a-linguistic-schema.md
+      - name: A Q&A használata élő kapcsolatokkal
+        href: service-q-and-a-direct-query.md
     - name: Hogyan oszthatja meg munkáját
       items:
       - name: Közös használat és tartalommegosztás
@@ -684,8 +690,6 @@ items:
         href: service-share-dashboards.md
       - name: Alkalmazások létrehozása és megosztása
         href: service-create-distribute-apps.md
-      - name: Alkalmazások telepítése és használata
-        href: service-install-use-apps.md
       - name: Alkalmazás-munkaterületek létrehozása
         href: service-create-workspaces.md
       - name: Új munkaterületek létrehozása (előzetes verzió)
@@ -1094,8 +1098,14 @@ items:
       href: service-gateway-enterprise-manage-scheduled-refresh.md
     - name: Helyszíni és felhőbeli adatforrások egyesítése
       href: service-gateway-mashup-on-premises-cloud.md
-    - name: Kerberos használata egyszeri bejelentkezéshez (SSO)
-      href: service-gateway-kerberos-for-sso-pbi-to-on-premises-data.md
+    - name: Az egyszeri bejelentkezés (SSO) engedélyezése
+      items:
+      - name: Egyszeri bejelentkezés (SSO) – áttekintés
+        href: service-gateway-sso-overview.md
+      - name: Egyszeri bejelentkezés (SSO) – Kerberos
+        href: service-gateway-sso-kerberos.md
+      - name: Egyszeri bejelentkezés (SSO) – SAML
+        href: service-gateway-sso-saml.md
     - name: Proxybeállítások konfigurálása
       href: service-gateway-proxy.md
     - name: Magas rendelkezésre állású fürtök helyszíni adatátjáróhoz
@@ -1138,8 +1148,6 @@ items:
         href: service-admin-premium-multi-geo.md
       - name: Power BI Premium – gyakori kérdések
         href: service-premium-faq.md
-      - name: A Power BI Premium kibocsátási megjegyzései
-        href: service-premium-release-notes.md
     - name: Felügyeleti szerepkör az Office 365-ben
       href: service-admin-role.md
     - name: Gyakori kérdések (GYIK)
@@ -1185,6 +1193,8 @@ items:
     - name: Power BI-parancsmagok PowerShellhez
       href: https://docs.microsoft.com/en-us/powershell/power-bi/
       maintainContext: true
+    - name: Szolgáltatási URL-referencia
+      href: power-bi-whitelist-urls.md
   - name: Erőforrások
     items:
     - name: Megközelítések a Power BI irányításához és üzembe helyezéséhez
@@ -1193,9 +1203,9 @@ items:
       href: service-admin-power-bi-security.md
     - name: Az Office 365-höz készült Power BI-t a Power BI váltotta fel
       href: service-admin-o365portal-retired.md
-ms.openlocfilehash: e91012d1336b54dee11fd3b342ac4a44fc45d979
-ms.sourcegitcommit: dc8b8a2cf2dcc96ccb46159802ebd9342a7fa840
+ms.openlocfilehash: bc509b1cd6717cc3ec38e0b8eb404dc9bb4885d3
+ms.sourcegitcommit: a764e4b9d06b50d9b6173d0fbb7555e3babe6351
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/11/2018
-ms.locfileid: "49112245"
+ms.lasthandoff: 10/22/2018
+ms.locfileid: "49641988"
